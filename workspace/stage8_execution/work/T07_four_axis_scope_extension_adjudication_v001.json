@@ -1,0 +1,20 @@
+{
+  "Duhamel_intensive_Hessian_equality_proved": false,
+  "alpha_computed": false,
+  "axis1_primitive_layer_derived": false,
+  "axis2_continuum_carrier_member_derived": false,
+  "axis3_connected_exhaustion_uniformity_derived": false,
+  "axis4_one_handle_reduction_derived": false,
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "coupling_evaluation_authorized": false,
+  "kappa_record_computed": false,
+  "primitive_ZN_one_handle_reduction_proved": false,
+  "primitive_connected_cellulation_uniformity_proved": false,
+  "primitive_continuum_exhaustion_member_derived": false,
+  "primitive_source_scalarization_derived": false,
+  "proof_authorized": false,
+  "schema": "stage8-t7-four-axis-scope-extension-adjudication-v001",
+  "validation_error": "RuntimeError: CAR/UHF scoping fence missing",
+  "verdict": "VALIDATION_INCOMPLETE_BLOCKED"
+}

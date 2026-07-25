@@ -1,0 +1,404 @@
+{
+  "CAR_UHF_scope_fences": {
+    "battery_no_CAR_determinant": {
+      "authority": "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.md",
+      "authority_sha256": "85d24996987278b285d63b8fe15a8732e55664e7c1b09063617b66cb4bc926b4",
+      "claim_key": "battery_no_CAR_determinant",
+      "claim_value": "ESTABLISHED",
+      "section": "Global execution fence (before any obligation)",
+      "state": "ESTABLISHED"
+    },
+    "downstream_Qspec_import_forbidden": {
+      "authority": "STAGE8_T7_FOUR_AXIS_SCOPE_EXTENSION_ADJUDICATION_SPEC_V001.md",
+      "authority_sha256": "dcc0878f6af6bdfe1498b0bff7db81336ea7f1f9b34ed0891f5edd21ea01c339",
+      "claim_key": "downstream_Qspec_import_forbidden",
+      "claim_value": true,
+      "section": "Axis 1 - Layer",
+      "state": "ESTABLISHED"
+    },
+    "primitive_parent_CAR_UHF_allowance": {
+      "authority": "STAGE8_T7_FOUR_AXIS_SCOPE_EXTENSION_ADJUDICATION_SPEC_V001.md",
+      "authority_sha256": "dcc0878f6af6bdfe1498b0bff7db81336ea7f1f9b34ed0891f5edd21ea01c339",
+      "claim_key": "primitive_parent_CAR_UHF_allowance",
+      "claim_value": true,
+      "section": "Axis 1 - Layer",
+      "state": "ESTABLISHED"
+    }
+  },
+  "Duhamel_intensive_Hessian_equality_proved": false,
+  "alpha_computed": false,
+  "authority_sha256": {
+    "BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb",
+    "COMPLETE_QSPEC_CANONICAL_FULL_LOCAL_SOURCE_POLYDISC_RESULT_V001.md": "ecca90cdb3ca81605da84b1a341d361127446df56cb9139e5a9efbc663919f5c",
+    "COMPLETE_QSPEC_EXACT_SPIN2_SUPPORT_BRIDGE_RESULT_V001.md": "6a49a75669e61f74b2d1a6904c7bc1a4bb172842f4b01b84456c4cee65334676",
+    "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.md": "85d24996987278b285d63b8fe15a8732e55664e7c1b09063617b66cb4bc926b4",
+    "STAGE8_T7_ACTUAL_PARENT_RECORD_AMPLITUDE_ADJUDICATION_RESULT_V001.md": "7aafba8667ac01f1c4326b0d714e838bf068eec7c8f4ce28ef03c8bef9d62098",
+    "STAGE8_T7_COMPLETED_CONTINUUM_RESPONSE_PROVENANCE_SPEC_V001.md": "6e24ceb6b18e6e6da5a6d21e872f90f6d79a324df9f305d226ab6edec863831b",
+    "STAGE8_T7_CONTINUUM_GALERKIN_PROVENANCE_CORRECTION_V001.md": "a1258dcf40732f0e3fce358a68ffdbd34bc347d70283550440582a1129bec510",
+    "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md": "9410ee80ff89beed4e133f75fcdb952d059f3386df12069793b5d60895d15486",
+    "STAGE8_T7_OPEN_EXHAUSTION_ATTACHMENT_AND_RELAY_NECESSITY_RESULT_V001.md": "0df721a170f4f4a1ec630775a3ae47b0d793c82e100b326e681030389eaf0694",
+    "STAGE8_T7_RELAYED_FAMILY_RESOLUTION_RESULT_V001.md": "52401eefc3ff84e22f04bbc329a619b830058661db7f969d2d43d167d97d893d",
+    "STAGE8_T7_RELAY_DEPENDENCY_ORDER_AMENDMENT_V001.md": "29c32f90e6a4f88a26e22c91504b6d92a1fc4083ad6368984a1e94858caa4365",
+    "STAGE8_T7_RESPONSE_CLOSURE_SELECTION_DERIVATION_RESULT_V001.md": "e12fffcc0f94d6896bc5607898db6b3a1ea343aeaf557b1f6f70e58db061fab6",
+    "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.md": "6447eb80c9347e614a1ecfbfef6234e4acec5caadf829a8649fdb5282439aa09",
+    "STAGE8_T7_THREE_SITE_BASELINE_SCOPE_ERRATUM_V001.md": "f1dc38f8a08b9e21675dc35fc91ffbd5e0b94d3feb5113f850c09a19b89bbd38"
+  },
+  "axes": {
+    "axis1_layer": {
+      "obligations": {
+        "actual_parent_supplies_normalized_scalar": {
+          "authority": "STAGE8_T7_ACTUAL_PARENT_RECORD_AMPLITUDE_ADJUDICATION_RESULT_V001.md",
+          "authority_sha256": "7aafba8667ac01f1c4326b0d714e838bf068eec7c8f4ce28ef03c8bef9d62098",
+          "claim_key": "actual_parent_supplies_normalized_scalar",
+          "claim_value": "REFUTED",
+          "section": "Verdict",
+          "state": "REFUTED"
+        },
+        "all_finite_flat_baselines_nonzero": {
+          "authority": "STAGE8_T7_CONTINUUM_GALERKIN_PROVENANCE_CORRECTION_V001.md",
+          "authority_sha256": "a1258dcf40732f0e3fce358a68ffdbd34bc347d70283550440582a1129bec510",
+          "claim_key": "physical_regulator_completed_record_baseline_derived",
+          "claim_value": false,
+          "section": "Current verdict",
+          "state": "NOT_ESTABLISHED"
+        },
+        "canonical_primitive_scalar_functional": {
+          "authority": "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.md",
+          "authority_sha256": "6447eb80c9347e614a1ecfbfef6234e4acec5caadf829a8649fdb5282439aa09",
+          "claim_key": "primitive_source_scalarization_derived",
+          "claim_value": false,
+          "section": "Fixed status",
+          "state": "NOT_ESTABLISHED"
+        },
+        "exact_one_handle_reduction": {
+          "authority": "sealed pinned-authority inventory",
+          "authority_sha256": "dcc0878f6af6bdfe1498b0bff7db81336ea7f1f9b34ed0891f5edd21ea01c339",
+          "claim_key": "primitive_ZN_one_handle_reduction_proved",
+          "claim_value": false,
+          "negative_bindings": [],
+          "section": "exact authority inventory",
+          "state": "NOT_ESTABLISHED"
+        }
+      },
+      "reason": "AXIS1_PRIMITIVE_SCALAR_AMPLITUDE_SCOPE_RESTRICTED",
+      "status": "SCOPE_RESTRICTED_BLOCKING"
+    },
+    "axis2_carrier": {
+      "obligations": {
+        "beyond_three_site_physical_member": {
+          "authority": "STAGE8_T7_CONTINUUM_GALERKIN_PROVENANCE_CORRECTION_V001.md",
+          "authority_sha256": "a1258dcf40732f0e3fce358a68ffdbd34bc347d70283550440582a1129bec510",
+          "claim_key": "genuine_finite_rank_continuum_restriction_constructed",
+          "claim_value": false,
+          "section": "Authority correction",
+          "state": "NOT_ESTABLISHED"
+        },
+        "continuum_response_provenance": {
+          "authority": "STAGE8_T7_COMPLETED_CONTINUUM_RESPONSE_PROVENANCE_SPEC_V001.md",
+          "authority_sha256": "6e24ceb6b18e6e6da5a6d21e872f90f6d79a324df9f305d226ab6edec863831b",
+          "claim_key": "completed_continuum_response_provenance_derived",
+          "claim_value": false,
+          "section": "Fixed status",
+          "state": "NOT_ESTABLISHED"
+        },
+        "regulator_compatible_parent_state": {
+          "authority": "STAGE8_T7_CONTINUUM_GALERKIN_PROVENANCE_CORRECTION_V001.md",
+          "authority_sha256": "a1258dcf40732f0e3fce358a68ffdbd34bc347d70283550440582a1129bec510",
+          "claim_key": "parent_state_regulator_restriction_derived",
+          "claim_value": false,
+          "section": "Authority correction",
+          "state": "NOT_ESTABLISHED"
+        }
+      },
+      "reason": "AXIS2_CARRIER_SCOPE_RESTRICTED",
+      "status": "SCOPE_RESTRICTED_BLOCKING"
+    },
+    "axis3_quantifier": {
+      "obligations": {
+        "all_declared_connected_cellulations": {
+          "authority": "COMPLETE_QSPEC_CANONICAL_FULL_LOCAL_SOURCE_POLYDISC_RESULT_V001.md",
+          "authority_sha256": "ecca90cdb3ca81605da84b1a341d361127446df56cb9139e5a9efbc663919f5c",
+          "claim_key": "all_connected_cellulations_linked_cluster_proved",
+          "claim_value": false,
+          "section": "Fixed status",
+          "state": "NOT_ESTABLISHED"
+        },
+        "common_refinement_compatibility": {
+          "authority": "sealed pinned-authority inventory",
+          "authority_sha256": "dcc0878f6af6bdfe1498b0bff7db81336ea7f1f9b34ed0891f5edd21ea01c339",
+          "claim_key": "common_refinement_compatibility_proved",
+          "claim_value": false,
+          "negative_bindings": [],
+          "section": "exact authority inventory",
+          "state": "NOT_ESTABLISHED"
+        },
+        "relayed_causal_exhaustion_uniformity": {
+          "authority": "STAGE8_T7_RELAYED_FAMILY_RESOLUTION_RESULT_V001.md",
+          "authority_sha256": "52401eefc3ff84e22f04bbc329a619b830058661db7f969d2d43d167d97d893d",
+          "claim_key": "volume_uniform_zero_free_neighborhood_proved",
+          "claim_value": false,
+          "section": "Fixed status",
+          "state": "NOT_ESTABLISHED"
+        }
+      },
+      "reason": "AXIS3_QUANTIFIER_SCOPE_RESTRICTED",
+      "status": "SCOPE_RESTRICTED_BLOCKING"
+    },
+    "axis4_object": {
+      "obligations": {
+        "actual_parent_connected_amplitude": {
+          "authority": "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md",
+          "authority_sha256": "9410ee80ff89beed4e133f75fcdb952d059f3386df12069793b5d60895d15486",
+          "claim_key": "connected_primitive_amplitude_derived",
+          "claim_value": false,
+          "section": "Fixed status",
+          "state": "NOT_ESTABLISHED"
+        },
+        "exact_actual_parent_Z1_reduction": {
+          "authority": "sealed pinned-authority inventory",
+          "authority_sha256": "dcc0878f6af6bdfe1498b0bff7db81336ea7f1f9b34ed0891f5edd21ea01c339",
+          "claim_key": "primitive_ZN_one_handle_reduction_proved",
+          "claim_value": false,
+          "negative_bindings": [],
+          "section": "exact authority inventory",
+          "state": "NOT_ESTABLISHED"
+        },
+        "pinned_one_handle_ratio": {
+          "authority": "BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md",
+          "authority_sha256": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb",
+          "claim_key": "primitive_complex_transition_amplitude_unique",
+          "claim_value": true,
+          "section": "Status",
+          "state": "ESTABLISHED"
+        }
+      },
+      "reason": "AXIS4_ONE_HANDLE_REDUCTION_SCOPE_RESTRICTED",
+      "status": "SCOPE_RESTRICTED_BLOCKING"
+    }
+  },
+  "axis1_primitive_layer_derived": false,
+  "axis2_continuum_carrier_member_derived": false,
+  "axis3_connected_exhaustion_uniformity_derived": false,
+  "axis4_one_handle_reduction_derived": false,
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "coupling_evaluation_authorized": false,
+  "executor_sha256": "a2ce46952518eeb1365649fc9ef3991d3db4efea8d6660950432aad84989819a",
+  "failed_predecessor_sha256": "ed58afe45011841b6f5a437fc374e6938f8f457cb61417891f95314a41d2ac58",
+  "kappa_record_computed": false,
+  "no_target_access_attestation": {
+    "alpha_value_accessed": false,
+    "coupling_value_accessed": false,
+    "downstream_match_artifact_accessed": false,
+    "hash_only_reads": [
+      "BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md",
+      "COMPLETE_QSPEC_CANONICAL_FULL_LOCAL_SOURCE_POLYDISC_RESULT_V001.md",
+      "COMPLETE_QSPEC_CANONICAL_FULL_LOCAL_SOURCE_POLYDISC_RESULT_V001.md.seal.sha256",
+      "COMPLETE_QSPEC_EXACT_SPIN2_SUPPORT_BRIDGE_RESULT_V001.md",
+      "COMPLETE_QSPEC_EXACT_SPIN2_SUPPORT_BRIDGE_RESULT_V001.md.seal.sha256",
+      "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.md",
+      "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.seal.sha256",
+      "STAGE8_T7_ACTUAL_PARENT_RECORD_AMPLITUDE_ADJUDICATION_RESULT_V001.md",
+      "STAGE8_T7_COMPLETED_CONTINUUM_RESPONSE_PROVENANCE_SPEC_V001.md",
+      "STAGE8_T7_COMPLETED_CONTINUUM_RESPONSE_PROVENANCE_SPEC_V001.seal.sha256",
+      "STAGE8_T7_CONTINUUM_GALERKIN_PROVENANCE_CORRECTION_V001.md",
+      "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md",
+      "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.seal.sha256",
+      "STAGE8_T7_FOUR_AXIS_SCOPE_EXTENSION_ADJUDICATION_SPEC_V001.md",
+      "STAGE8_T7_OPEN_EXHAUSTION_ATTACHMENT_AND_RELAY_NECESSITY_RESULT_V001.md",
+      "STAGE8_T7_RELAYED_FAMILY_RESOLUTION_RESULT_V001.md",
+      "STAGE8_T7_RELAY_DEPENDENCY_ORDER_AMENDMENT_V001.md",
+      "STAGE8_T7_RELAY_DEPENDENCY_ORDER_AMENDMENT_V001.seal.sha256",
+      "STAGE8_T7_RESPONSE_CLOSURE_SELECTION_DERIVATION_RESULT_V001.md",
+      "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.md",
+      "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.seal.sha256",
+      "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_SPEC_V001.md",
+      "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_SPEC_V001.seal.sha256",
+      "STAGE8_T7_THREE_SITE_BASELINE_SCOPE_ERRATUM_V001.md",
+      "scripts/derive_stage8_t7_source_scalarization_no_go_v001.py",
+      "scripts/verify_stage8_t7_source_scalarization_no_go_v001.py",
+      "stage8_execution/work/T07_four_axis_scope_extension_adjudication_v001.json",
+      "stage8_execution/work/T07_source_scalarization_no_go.json",
+      "stage8_execution/work/T07_source_scalarization_no_go_verification.json"
+    ],
+    "isolated_python": true,
+    "kappa_record_value_accessed": false,
+    "semantic_read_set_exact": true,
+    "semantic_reads": [
+      "BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md",
+      "COMPLETE_QSPEC_CANONICAL_FULL_LOCAL_SOURCE_POLYDISC_RESULT_V001.md",
+      "COMPLETE_QSPEC_EXACT_SPIN2_SUPPORT_BRIDGE_RESULT_V001.md",
+      "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.md",
+      "STAGE8_T7_ACTUAL_PARENT_RECORD_AMPLITUDE_ADJUDICATION_RESULT_V001.md",
+      "STAGE8_T7_COMPLETED_CONTINUUM_RESPONSE_PROVENANCE_SPEC_V001.md",
+      "STAGE8_T7_CONTINUUM_GALERKIN_PROVENANCE_CORRECTION_V001.md",
+      "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md",
+      "STAGE8_T7_FOUR_AXIS_SCOPE_EXTENSION_ADJUDICATION_SPEC_V001.md",
+      "STAGE8_T7_OPEN_EXHAUSTION_ATTACHMENT_AND_RELAY_NECESSITY_RESULT_V001.md",
+      "STAGE8_T7_RELAYED_FAMILY_RESOLUTION_RESULT_V001.md",
+      "STAGE8_T7_RELAY_DEPENDENCY_ORDER_AMENDMENT_V001.md",
+      "STAGE8_T7_RESPONSE_CLOSURE_SELECTION_DERIVATION_RESULT_V001.md",
+      "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.md",
+      "STAGE8_T7_THREE_SITE_BASELINE_SCOPE_ERRATUM_V001.md"
+    ],
+    "site_disabled": true,
+    "unpinned_semantic_reads": []
+  },
+  "precedence": {
+    "continuum_galerkin_correction": {
+      "authority": "STAGE8_T7_CONTINUUM_GALERKIN_PROVENANCE_CORRECTION_V001.md",
+      "authority_sha256": "a1258dcf40732f0e3fce358a68ffdbd34bc347d70283550440582a1129bec510",
+      "claim_key": "continuum_galerkin_correction_controls",
+      "claim_value": "ESTABLISHED",
+      "section": "Authority correction",
+      "state": "ESTABLISHED"
+    },
+    "critical_path_scope_correction": {
+      "authority": "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md",
+      "authority_sha256": "9410ee80ff89beed4e133f75fcdb952d059f3386df12069793b5d60895d15486",
+      "claim_key": "critical_path_scope_correction_controls",
+      "claim_value": "ESTABLISHED",
+      "section": "2. CAR/Fock/Hermite calculations",
+      "state": "ESTABLISHED"
+    },
+    "three_site_scope_erratum": {
+      "authority": "STAGE8_T7_THREE_SITE_BASELINE_SCOPE_ERRATUM_V001.md",
+      "authority_sha256": "f1dc38f8a08b9e21675dc35fc91ffbd5e0b94d3feb5113f850c09a19b89bbd38",
+      "claim_key": "three_site_scope_erratum_controls",
+      "claim_value": "ESTABLISHED",
+      "section": "Withdrawn inference",
+      "state": "ESTABLISHED"
+    }
+  },
+  "primitive_ZN_one_handle_reduction_proved": false,
+  "primitive_connected_cellulation_uniformity_proved": false,
+  "primitive_continuum_exhaustion_member_derived": false,
+  "primitive_source_scalarization_derived": false,
+  "proof_authorized": false,
+  "schema": "stage8-t7-four-axis-scope-extension-adjudication-v002",
+  "spec_sha256": "dcc0878f6af6bdfe1498b0bff7db81336ea7f1f9b34ed0891f5edd21ea01c339",
+  "verdict": "STAGE8_T7_FOUR_AXIS_SCOPE_EXTENSION_BLOCKED",
+  "verified_sidecars": [
+    {
+      "authority": "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.md",
+      "entries": [
+        {
+          "path": "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.md",
+          "sha256": "85d24996987278b285d63b8fe15a8732e55664e7c1b09063617b66cb4bc926b4",
+          "verified": true
+        }
+      ],
+      "sidecar": "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.seal.sha256",
+      "sidecar_sha256": "b7c3c05361f072ccb45af83794804fb1ec02271c5bf589eac92f45d7ccddb3a2",
+      "verified": true
+    },
+    {
+      "authority": "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md",
+      "entries": [
+        {
+          "path": "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md",
+          "sha256": "9410ee80ff89beed4e133f75fcdb952d059f3386df12069793b5d60895d15486",
+          "verified": true
+        }
+      ],
+      "sidecar": "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.seal.sha256",
+      "sidecar_sha256": "3ea6bef18bdbfcf22853616529887f26c5d409e4e357f2e48b598ca87561e323",
+      "verified": true
+    },
+    {
+      "authority": "STAGE8_T7_RELAY_DEPENDENCY_ORDER_AMENDMENT_V001.md",
+      "entries": [
+        {
+          "path": "STAGE8_T7_RELAY_DEPENDENCY_ORDER_AMENDMENT_V001.md",
+          "sha256": "29c32f90e6a4f88a26e22c91504b6d92a1fc4083ad6368984a1e94858caa4365",
+          "verified": true
+        }
+      ],
+      "sidecar": "STAGE8_T7_RELAY_DEPENDENCY_ORDER_AMENDMENT_V001.seal.sha256",
+      "sidecar_sha256": "086dbfbe00865692e66787609c8cad6e7a04468d49c3b8064627e344db59f0b9",
+      "verified": true
+    },
+    {
+      "authority": "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.md",
+      "entries": [
+        {
+          "path": "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_SPEC_V001.md",
+          "sha256": "9b8070d4faade0a73c5e2ac575e890c3a7fc01024bb2fcf8d1225d844aa0314d",
+          "verified": true
+        },
+        {
+          "path": "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_SPEC_V001.seal.sha256",
+          "sha256": "12d1d939223dd546fb8990775e07a3106d6219335bd021e24233065561c69c8b",
+          "verified": true
+        },
+        {
+          "path": "scripts/derive_stage8_t7_source_scalarization_no_go_v001.py",
+          "sha256": "2f56d294628ea3a678f151d954432660188c3d6ebf71f07c058515bd93874fca",
+          "verified": true
+        },
+        {
+          "path": "stage8_execution/work/T07_source_scalarization_no_go.json",
+          "sha256": "da76473baab29ca505a471309144c106292026133fdd1791f105810cf89fdf33",
+          "verified": true
+        },
+        {
+          "path": "scripts/verify_stage8_t7_source_scalarization_no_go_v001.py",
+          "sha256": "b73b9f47250b68fe5808b026d068fc5afc35ba9fa4639b23e914046fe5c99ecd",
+          "verified": true
+        },
+        {
+          "path": "stage8_execution/work/T07_source_scalarization_no_go_verification.json",
+          "sha256": "235f843f61850b87baaf0cd4163c8f2a61911768867f13554499400224962051",
+          "verified": true
+        },
+        {
+          "path": "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.md",
+          "sha256": "6447eb80c9347e614a1ecfbfef6234e4acec5caadf829a8649fdb5282439aa09",
+          "verified": true
+        }
+      ],
+      "sidecar": "STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.seal.sha256",
+      "sidecar_sha256": "199987876a3c7a6b9ed6bfda123256daddf0f5dd96cfdf929e3e155ddb32fc35",
+      "verified": true
+    },
+    {
+      "authority": "STAGE8_T7_COMPLETED_CONTINUUM_RESPONSE_PROVENANCE_SPEC_V001.md",
+      "entries": [
+        {
+          "path": "STAGE8_T7_COMPLETED_CONTINUUM_RESPONSE_PROVENANCE_SPEC_V001.md",
+          "sha256": "6e24ceb6b18e6e6da5a6d21e872f90f6d79a324df9f305d226ab6edec863831b",
+          "verified": true
+        }
+      ],
+      "sidecar": "STAGE8_T7_COMPLETED_CONTINUUM_RESPONSE_PROVENANCE_SPEC_V001.seal.sha256",
+      "sidecar_sha256": "23b710f0b88f9bc352133cc7e86fa0157fa435b006ee0cbf9236915da00ddc79",
+      "verified": true
+    },
+    {
+      "authority": "COMPLETE_QSPEC_EXACT_SPIN2_SUPPORT_BRIDGE_RESULT_V001.md",
+      "entries": [
+        {
+          "path": "COMPLETE_QSPEC_EXACT_SPIN2_SUPPORT_BRIDGE_RESULT_V001.md",
+          "sha256": "6a49a75669e61f74b2d1a6904c7bc1a4bb172842f4b01b84456c4cee65334676",
+          "verified": true
+        }
+      ],
+      "sidecar": "COMPLETE_QSPEC_EXACT_SPIN2_SUPPORT_BRIDGE_RESULT_V001.md.seal.sha256",
+      "sidecar_sha256": "a8688f465744afd362c44d02a9618bd77f3ffc3fcb491a41e9494363b6aaa554",
+      "verified": true
+    },
+    {
+      "authority": "COMPLETE_QSPEC_CANONICAL_FULL_LOCAL_SOURCE_POLYDISC_RESULT_V001.md",
+      "entries": [
+        {
+          "path": "COMPLETE_QSPEC_CANONICAL_FULL_LOCAL_SOURCE_POLYDISC_RESULT_V001.md",
+          "sha256": "ecca90cdb3ca81605da84b1a341d361127446df56cb9139e5a9efbc663919f5c",
+          "verified": true
+        }
+      ],
+      "sidecar": "COMPLETE_QSPEC_CANONICAL_FULL_LOCAL_SOURCE_POLYDISC_RESULT_V001.md.seal.sha256",
+      "sidecar_sha256": "f7289f08d9801d65c31bdd8e7e24a383ad99eef2308f4d0f559dec7f888e8f3c",
+      "verified": true
+    }
+  ]
+}

@@ -24,7 +24,14 @@ SPEC = ROOT / "STAGE8_T7_FOUR_AXIS_SCOPE_EXTENSION_ADJUDICATION_SPEC_V001.md"
 SPEC_SHA256 = "dcc0878f6af6bdfe1498b0bff7db81336ea7f1f9b34ed0891f5edd21ea01c339"
 OUTPUT = (
     ROOT
+    / "stage8_execution/work/T07_four_axis_scope_extension_adjudication_v002.json"
+)
+FAILED_PREDECESSOR = (
+    ROOT
     / "stage8_execution/work/T07_four_axis_scope_extension_adjudication_v001.json"
+)
+FAILED_PREDECESSOR_SHA256 = (
+    "ed58afe45011841b6f5a437fc374e6938f8f457cb61417891f95314a41d2ac58"
 )
 
 EXPECTED_AUTHORITIES = {
@@ -68,6 +75,10 @@ def require(condition: bool, message: str) -> None:
         raise RuntimeError(message)
 
 
+def normalized_contains(text: str, phrase: str) -> bool:
+    return " ".join(phrase.split()) in " ".join(text.split())
+
+
 def resolved(path: Path) -> Path:
     return path.resolve()
 
@@ -96,9 +107,10 @@ def atomic_json(path: Path, payload: dict[str, Any]) -> None:
 
 def blocked_artifact(reason: str) -> dict[str, Any]:
     return {
-        "schema": "stage8-t7-four-axis-scope-extension-adjudication-v001",
+        "schema": "stage8-t7-four-axis-scope-extension-adjudication-v002",
         "verdict": "VALIDATION_INCOMPLETE_BLOCKED",
         "validation_error": reason,
+        "failed_predecessor_sha256": FAILED_PREDECESSOR_SHA256,
         "axis1_primitive_layer_derived": False,
         "axis2_continuum_carrier_member_derived": False,
         "axis3_connected_exhaustion_uniformity_derived": False,
@@ -289,6 +301,10 @@ def main() -> None:
     require(sys.flags.isolated == 1, "executor requires python3 -I")
     require(sys.flags.no_site == 1, "executor requires python3 -S")
     atomic_json(OUTPUT, blocked_artifact("validation started; no verdict yet"))
+    require(
+        raw_sha256(FAILED_PREDECESSOR) == FAILED_PREDECESSOR_SHA256,
+        "failed predecessor artifact changed",
+    )
 
     global ALLOWED_SEMANTIC_READS
     ALLOWED_SEMANTIC_READS = {resolved(SPEC)}
@@ -376,10 +392,10 @@ def main() -> None:
             "authority": SPEC.name,
             "authority_sha256": SPEC_SHA256,
             "claim_key": "primitive_parent_CAR_UHF_allowance",
-            "claim_value": (
+            "claim_value": normalized_contains(
+                spec_text,
                 "A CAR/UHF or quasifree scalarization remains admissible "
-                "if it is derived from the primitive parent itself"
-                in spec_text
+                "if it is derived from the primitive parent itself",
             ),
             "section": "Axis 1 - Layer",
         },
@@ -388,10 +404,10 @@ def main() -> None:
             "authority": SPEC.name,
             "authority_sha256": SPEC_SHA256,
             "claim_key": "downstream_Qspec_import_forbidden",
-            "claim_value": (
-                "It may not be imported from a\n"
-                "downstream complete-`Q_spec` result."
-                in spec_text
+            "claim_value": normalized_contains(
+                spec_text,
+                "It may not be imported from a downstream "
+                "complete-`Q_spec` result.",
             ),
             "section": "Axis 1 - Layer",
         },
@@ -565,9 +581,10 @@ def main() -> None:
     }
 
     result = {
-        "schema": "stage8-t7-four-axis-scope-extension-adjudication-v001",
+        "schema": "stage8-t7-four-axis-scope-extension-adjudication-v002",
         "spec_sha256": SPEC_SHA256,
         "executor_sha256": raw_sha256(SCRIPT),
+        "failed_predecessor_sha256": FAILED_PREDECESSOR_SHA256,
         "authority_sha256": verified,
         "verified_sidecars": sidecars,
         "precedence": precedence,
