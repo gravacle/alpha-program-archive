@@ -268,3 +268,36 @@ extension (layer/carrier/quantifier/object), linked-cluster majorant,
 Duhamel equality, ER re-scope — then the pre-staged verification phase.
 Codex mid-turn (step 5/8 of its own plan) on the composed outward-rounded
 recheck; relay queued for Brian.
+
+## FINAL SESSION UPDATE (2026-07-25, midday) — TRANSITION
+
+Route-2 architecture decision (the program's FIRST genuine decision to
+reach Brian): four-axis adjudication sealed BLOCKED honestly (no primitive
+scalar derivable from current authorities; Galerkin shortcut formally
+withdrawn — massless Dirac multiplier has no finite reducing subspace).
+Codex recommended Route 2 (operator-valued primitive response; scalar from
+the complete-Q_spec state); Fable concurred with FOUR CONDITIONS (state
+pinned by hash to the sealed disclosed state; operator response sealed
+with invariants first; Route 1 kept as standing consistency falsifier;
+append-only + reviewable). Brian approved. Codex sealed: the architecture
+amendment, a CAR state-bridge scope correction, and
+STAGE8_T7_ACTUAL_PARENT_REGULATED_CAR_OPERATOR_RESPONSE_SPEC_V001 (its
+last constructions before transition). NOT yet reviewed against the four
+conditions — FIRST TASK for the successor supervision function.
+
+GIT ARCHIVE: private repo github.com/gravacle/alpha-program-archive
+(account mulconrey; CLI restored to memacle). Contains workspace,
+cleanroom corpus, full supervision lane incl. blind-lane scripts,
+REPRODUCING.md. Update by re-snapshot + commit + push (switch gh account
+to mulconrey for the push, back to memacle after).
+
+LANE TRANSITION (in progress at session end): construction moves from
+Codex (usage limits) to a FRESH Claude account carrying BOTH construction
+and supervision-via-fresh-subagents; Codex demoted to cheap independent
+review turns; this session (supervision) ends when Brian logs out. The
+successor's orders: /Users/bgm/MB Work/alpha_supervision/
+NEW_LANE_BOOTSTRAP.md. Monitors die with this session — successor
+re-arms or checks manually. Prediction-ledger handoff: ~12 exact / 4
+optimism-misses (all 4 = predicted DERIVED where the corpus found an
+underived step; err toward predicting blocks). alpha_computed = false
+everywhere at handoff; 17 tripwires, all benign; every seal verified.

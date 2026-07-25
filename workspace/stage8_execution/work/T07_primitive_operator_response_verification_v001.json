@@ -1,0 +1,17 @@
+{
+  "actual_parent_route1_line_restriction_derived": false,
+  "alpha_computed": false,
+  "coupling_evaluation_authorized": false,
+  "failure_message": "Object of type bool is not JSON serializable",
+  "failure_type": "TypeError",
+  "finite_primitive_operator_Duhamel_tangent_derived": false,
+  "finite_primitive_operator_gauge_covariance_derived": false,
+  "finite_primitive_operator_graded_monoidality_derived": false,
+  "finite_primitive_operator_response_bundle_derived": false,
+  "no_target_access_attestation": true,
+  "overall_verdict": "INDEPENDENT_PRIMITIVE_OPERATOR_RESPONSE_BLOCKED",
+  "primitive_source_scalarization_derived": false,
+  "proof_authorized": false,
+  "schema": "stage8_t7_primitive_operator_response_verification_v001",
+  "stage8_route2_architecture_amended": false
+}
