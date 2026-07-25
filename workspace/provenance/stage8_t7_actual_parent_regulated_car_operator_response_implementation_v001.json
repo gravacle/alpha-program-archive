@@ -1,0 +1,49 @@
+{
+  "alpha_computed": false,
+  "description": "Implementation authority for the Route-2 Phase-A production pipeline. Authorized by STAGE8_T7_ACTUAL_PARENT_CAR_IMPLEMENTATION_REPAIR_BINDING_V001 (seal dc7cdd15935c300627e8b72fd70bf6aba61b29d2c91d600348da070c71e1c10d) after two-round hostile verification (round 2: V002_READY). Covers all ten v002 implementation files; a superset of the controller's required row set.",
+  "files": [
+    {
+      "path": "scripts/run_stage8_t7_actual_parent_car_pipeline_v002.py",
+      "sha256": "18070467f477dc96d949fa37ae429bcb8f3a5f4b7f0b9ad69f10824ee5f375ac"
+    },
+    {
+      "path": "scripts/launch_stage8_t7_content_addressed_runtime_v002.py",
+      "sha256": "240c6c02da3f1428693fbe1188556e1ad6169c23503dba74ae4ab97e539e29e8"
+    },
+    {
+      "path": "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_primary_v002.py",
+      "sha256": "402d3e988037fa47cb152da793884ebb373840a6b5ac9f62c342f6958c57e810"
+    },
+    {
+      "path": "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_independent_v002.py",
+      "sha256": "1098168c47e59ae7eec7eb49030b23d11fba48d0ea0d2905b406353dede08437"
+    },
+    {
+      "path": "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_v002.py",
+      "sha256": "ac75daaa469f2160f4612b779814df583eff81f35030a43c7b8446a8dba0607f"
+    },
+    {
+      "path": "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_primary_v002.py",
+      "sha256": "73534e5a34571dc7742c4779b2bec0d6aa572586ad8cc90889bdc87ed465e840"
+    },
+    {
+      "path": "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_independent_v002.py",
+      "sha256": "aa04ff9a8f783da2cdc3d7b3145728101c98eb67e7dd95d5c324a1bd11c780b3"
+    },
+    {
+      "path": "scripts/test_compare_stage8_t7_actual_parent_regulated_car_operator_response_v002.py",
+      "sha256": "1f9249a29cbd06d1bae31476ec223d222a47e8292399c80e978bcb2e4ace90f5"
+    },
+    {
+      "path": "scripts/test_stage8_t7_launcher_v002.py",
+      "sha256": "1f3b84a772db446742906ad5fe26a774fdf19b644a75a6958427eb8f846f1911"
+    },
+    {
+      "path": "scripts/test_stage8_t7_controller_v002.py",
+      "sha256": "dbac5d4ed438da27c625983ad3f02fb7b068460d60090e127440518002c75a24"
+    }
+  ],
+  "phase": "A",
+  "proof_authorized": false,
+  "schema": "stage8_t7_actual_parent_regulated_car_operator_response_implementation_v001"
+}

@@ -289,10 +289,11 @@ last constructions before transition). NOT yet reviewed against the four
 conditions — FIRST TASK for the successor supervision function.
 
 GIT ARCHIVE: private repo github.com/gravacle/alpha-program-archive
-(account mulconrey; CLI restored to memacle). Contains workspace,
-cleanroom corpus, full supervision lane incl. blind-lane scripts,
-REPRODUCING.md. Update by re-snapshot + commit + push (switch gh account
-to mulconrey for the push, back to memacle after).
+(account mulconrey). Contains workspace, cleanroom corpus, full
+supervision lane incl. blind-lane scripts, REPRODUCING.md. Update by
+re-snapshot + commit + push (gh auth switch to mulconrey and STAY —
+per Brian 2026-07-25, only switch to memacle when a deploy needs it).
+Push at key junctures (Brian's standing direction, 2026-07-25).
 
 LANE TRANSITION (in progress at session end): construction moves from
 Codex (usage limits) to a FRESH Claude account carrying BOTH construction
