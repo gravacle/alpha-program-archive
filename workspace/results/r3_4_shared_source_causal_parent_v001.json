@@ -1,0 +1,70 @@
+{
+  "schema": "r3.4-shared-source-causal-parent-v001",
+  "spec_sha256": "ce5177dcff83ace969e6378bc652375fd89d852747d2cb01aeb3313ed9a84460",
+  "spec_seal_verified": true,
+  "upstream_hashes_verified": 8,
+  "target_values_used": false,
+  "source_vertex_count": 4,
+  "record_cell_count": 3,
+  "adjacent_projector_overlaps": {
+    "0_1": 0.25,
+    "1_2": 0.25
+  },
+  "disjoint_projector_overlap": 0.0,
+  "generator_commutator_norms": {
+    "0_1": 8.48528137423857,
+    "0_2": 0.0,
+    "1_2": 8.48528137423857
+  },
+  "profile_endpoint_errors": [
+    0.0,
+    3.787640680454916e-14,
+    2.0995892319491343e-14
+  ],
+  "adjacent_order_error": 16.97056274847714,
+  "disjoint_order_error": 0.0,
+  "later_cell_earlier_pointer_commutators": {
+    "1": 0.0,
+    "2": 0.0
+  },
+  "first_pointer_probability_after_each_pulse": [
+    0.9999999999999996,
+    0.9999999999999997,
+    0.9999999999999996
+  ],
+  "public_record_restriction_errors": {
+    "1": 6.745813763985877e-17,
+    "2": 2.0010694026953787e-16
+  },
+  "public_record_moller_stabilization_errors": [
+    3.0124296763695925e-14,
+    4.352765499276832e-14
+  ],
+  "source_first_neighbor_change": 10.392304845413264,
+  "source_finite_buffer_stabilization_error": 0.0,
+  "source_inclusive_state_restriction_change": 0.5303300858899105,
+  "inverse_candidate_successive_changes": [
+    10.392304845413264,
+    8.48528137423857
+  ],
+  "first_write_error": 7.49928870051683e-16,
+  "stationary_recurrence_error": 9.985298157225423e-16,
+  "shared_source_causal_order_derived": true,
+  "primitive_pointer_persistence_derived": true,
+  "public_record_state_family_restriction_compatible": true,
+  "outgoing_public_record_Moller_endomorphism_derived": true,
+  "source_local_Moller_images_stabilize_after_causal_buffer": true,
+  "same_GNS_unitary_Moller_implementer_derived": false,
+  "parent_selected_outgoing_state_given_in_sector_derived": true,
+  "parent_selected_physical_in_state_derived": false,
+  "complete_parameter_free_Q_spec_frozen": false,
+  "generated_descendant_durability_closed": false,
+  "complete_physical_durability_derived": false,
+  "nontrivial_outgoing_tail_generator_derived": false,
+  "complete_write_plus_tail_spectrum_derived": false,
+  "physical_spectral_measure_derived": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "SHARED_SOURCE_CAUSAL_PARENT_PUBLIC_MOLLER_DERIVED"
+}

@@ -1,0 +1,11 @@
+{
+  "behaved_as_predeclared": true,
+  "control": "NC4",
+  "evidence": {
+    "conditional_state_overlap": "1/4",
+    "record_criterion_failed": true,
+    "tested_interval": "one-half of pi/sqrt(2)"
+  },
+  "schema": "stage8-negative-control-v001",
+  "sha256_of_body": "52262abd4b04dc350ebfdb6aa6bc1ee21964dfa0a8b3a2f69f79bd77204e1ea3"
+}

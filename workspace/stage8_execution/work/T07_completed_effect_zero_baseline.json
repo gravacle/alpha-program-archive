@@ -1,0 +1,18 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "effect_root_exactly_zero": true,
+    "negative_control_has_output": true,
+    "no_output_expectation_exactly_zero": true,
+    "subordinate_kraus_root_exactly_zero": true
+  },
+  "connected_primitive_amplitude_derived": false,
+  "connected_primitive_completed_endpoint_derived": false,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "proof_authorized": false,
+  "schema": "stage8_t7_completed_effect_zero_baseline_v001",
+  "spec_sha256": "5039541c716d9c30f07ef613060d6c31a15439bb9fbfb53868d6786cdaf30976",
+  "theorem": "For E>=0, <r|E|r>=||E^(1/2)r||^2=0 implies E r=0. If K^*K<=E, then ||K r||^2<=<r|E|r>=0.",
+  "verdict": "COMPLETED_EFFECT_ESCAPE_EXCLUDED"
+}

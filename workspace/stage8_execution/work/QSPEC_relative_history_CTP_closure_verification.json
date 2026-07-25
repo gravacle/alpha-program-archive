@@ -1,0 +1,27 @@
+{
+  "alpha_computed": false,
+  "coupling_evaluation_authorized": false,
+  "curvature_check": {
+    "cosine_quadratic_coefficient": "-1/8",
+    "curvature": "1/4",
+    "expected": "1/4",
+    "method": "exact_taylor_coefficients",
+    "negative_log_quadratic_coefficient": "1/8",
+    "pass": true
+  },
+  "kappa_record_computed": false,
+  "outcome_sum_checks": {
+    "max_diagonal_error": 1.8265274064542755e-17,
+    "max_formula_error": 1.6653345369377348e-16,
+    "max_hermiticity_error": 1.1102230246251565e-16,
+    "pass": true
+  },
+  "pass": true,
+  "physical_Thomson_stiffness_computed": false,
+  "primary_sha256": "235f9016fd6fec510f5efa6ce2c029c120b84ac406ebb12a53c66e969caefe0a",
+  "proof_authorized": false,
+  "protected_statuses_verified": true,
+  "schema": "complete_qspec_relative_history_ctp_amplitude_verification_v001",
+  "spec_sha256": "ddb51c32e1ec45e6145be4c688f2af5fa87823ab20b4f523fc4657823165e544",
+  "verdict": "INDEPENDENT_RELATIVE_HISTORY_CTP_CLOSURE_CONFIRMED"
+}

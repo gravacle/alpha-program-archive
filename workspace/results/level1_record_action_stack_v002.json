@@ -1,0 +1,27 @@
+{
+  "action_sha256": "9da6fe80fd9ee3af7ae847b07d98884f8c0a0d86457d34684cb566b1d4adf013",
+  "alpha_computed": false,
+  "checks": {
+    "action_seal_matches": true,
+    "all_evaluation_gates_are_closed": true,
+    "connection_is_disclosed_as_adopted": true,
+    "finite_counterterm_gate_is_open": true,
+    "ledger_seal_matches": true,
+    "lift_U1_is_not_charged_U1": true,
+    "no_expansion_was_evaluated": true,
+    "physical_EM_connection_is_not_claimed": true,
+    "principle_seal_matches": true,
+    "record_weight_is_disclosed_as_postulate": true,
+    "target_literal_guard_passes": true
+  },
+  "connection_status": "ADOPTED_LEVEL_1_NOT_DERIVED",
+  "coupling_evaluation_authorized": false,
+  "executable_role": "SEAL_AND_STATUS_GUARD_NOT_PHYSICAL_PROOF",
+  "failed_checks": [],
+  "finite_c_F2_deformation_excluded": false,
+  "ledger_sha256": "5cccc5587027e3686652c818081eb5e8076a88d2645d0038ddc61d39a22995eb",
+  "one_cell_action_status": "FROZEN_CANDIDATE_NOT_EVALUATED",
+  "overall": "PASS_LEVEL1_ACTION_STACK_SEALED_EVALUATION_BLOCKED_ALPHA_FALSE",
+  "principle_sha256": "a27a2d571273494a0787e2283734ef1405d74dadfe16d64d3450bb4536e50732",
+  "proof_authorized": false
+}

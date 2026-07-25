@@ -1,0 +1,65 @@
+{
+  "schema": "r3.4-lorentzian-joint-endpoint-compatibility-v001",
+  "spec_sha256": "8a7a7692ab06c4f4c091a8ccea9c3d94f4f45ef19edae5ca94b760b0bd74a5c5",
+  "spec_seal_verified": true,
+  "upstream_hashes_verified": 7,
+  "target_values_used": false,
+  "preseal_exploratory_diagnostic_performed": true,
+  "dimensionless_record_duration": 1.0,
+  "dimensionless_incidence_rate": 2.221441469079183,
+  "record_zero_mode_error": 0.0,
+  "record_massive_square_error": 0.0,
+  "pointer_probabilities_at_T_R": {
+    "0.0": 0.9999999999999996,
+    "0.25": 0.9845052711696443,
+    "0.5": 0.9395566924273323,
+    "1.0": 0.781208294300353,
+    "2.0": 0.4067339219700168,
+    "4.0": 0.2596535767624385
+  },
+  "frequency_data": {
+    "0.0": {
+      "massless_frequency": 0.0,
+      "massive_frequency": 3.141592653589793
+    },
+    "0.25": {
+      "massless_frequency": 0.25,
+      "massive_frequency": 3.151524139379129
+    },
+    "0.5": {
+      "massless_frequency": 0.5,
+      "massive_frequency": 3.181132565783664
+    },
+    "1.0": {
+      "massless_frequency": 1.0,
+      "massive_frequency": 3.296908309475615
+    },
+    "2.0": {
+      "massless_frequency": 2.0,
+      "massive_frequency": 3.724191778237173
+    },
+    "4.0": {
+      "massless_frequency": 4.0,
+      "massive_frequency": 5.0862171012540704
+    }
+  },
+  "gaussian_wavepacket_sigma": 0.7,
+  "gaussian_wavepacket_pointer_probability_at_T_R": 0.9442917391998132,
+  "exact_transfer_conditions": {
+    "massive_phase": "E(p) t = n pi",
+    "kinetic_phase": "|p| t = k pi",
+    "parity": "n+k odd"
+  },
+  "rest_normal_exact_endpoint_derived": true,
+  "universal_exact_finite_wavepacket_write_derived": false,
+  "primitive_internal_interval_distinguished_from_physical_durability": true,
+  "transported_interaction_promoted_as_repair": false,
+  "thresholded_direct_limit_route_required": true,
+  "physical_thresholded_durability_derived": false,
+  "physical_in_state_selected": false,
+  "complete_root_spectral_measure_derived": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "EXACT_ENDPOINT_REST_NORMAL_ONLY_THRESHOLD_ROUTE_REQUIRED"
+}

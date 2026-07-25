@@ -1,0 +1,121 @@
+{
+  "F1_transport_assignment": {
+    "S_resolved": true,
+    "causal_linear_extension_count": 1,
+    "disjoint_permutation_map_invariant": true,
+    "generator_commutator_norms": {
+      "0_1": 8.48528137423857,
+      "0_2": 0.0,
+      "1_2": 8.48528137423857
+    },
+    "linear_extension_independence_theorem": "Any two linear extensions differ by adjacent swaps of incomparable cells; the declared branch makes such cells disjoint, and their operators commute.",
+    "prior_pointer_commutator_norms": {
+      "1_after_0": 0.0,
+      "2_after_0": 0.0,
+      "2_after_1": 0.0
+    },
+    "projector_overlaps": [
+      [
+        1.0,
+        0.25,
+        0.0
+      ],
+      [
+        0.25,
+        1.0,
+        0.25
+      ],
+      [
+        0.0,
+        0.25,
+        1.0
+      ]
+    ],
+    "scope": "causally sequential pure-charge primitive branch",
+    "unitary_order_difference_norms": {
+      "0_1": 16.97056274847714,
+      "0_2": 0.0,
+      "1_2": 16.97056274847714
+    }
+  },
+  "F2_active_handle": {
+    "algebraic_retraction_condition": "(lambda-1)P=0 => lambda=1",
+    "charge_support": "P_ch=1_(R\\{0})(Q)=P_+ + P_-",
+    "chi_resolved": true,
+    "controlled_operator": "B_ch=P_ch tensor B_Q",
+    "neutral_charged_write": false,
+    "sample_retraction_residuals": {
+      "-1.0": 2.0,
+      "-2.0": 3.0,
+      "0.0": 1.0,
+      "0.5": 0.5,
+      "1.0": 0.0,
+      "2.0": 1.0,
+      "3.0": 2.0
+    },
+    "sector_coefficients": [
+      0,
+      1,
+      1
+    ]
+  },
+  "F3_endpoint": {
+    "beta_resolved": true,
+    "minimal_graph": {
+      "active_public_endpoint_count": 1,
+      "primitive_arrow_count": 1,
+      "root_count": 1
+    },
+    "multiple_endpoints_are_same_branch": false,
+    "parallel_paths_are_same_branch": false,
+    "response_dependent_endpoint_allowed": false,
+    "root_survival_is_completed": false
+  },
+  "F4_conditioning": {
+    "FS_curvature": 0.25,
+    "branch_sum_substituted": false,
+    "endpoint_probability_attenuation": 0.5,
+    "inclusive_sandwich_attenuation": 0.0,
+    "linear_amplitude_attenuation": 0.25,
+    "selected_operation": "normalized complex-linear branch return",
+    "sigma_resolved": true
+  },
+  "F5_interval": {
+    "I_resolved": true,
+    "least_positive_one_arm_interval": 2.221441469079183,
+    "mixed_star_bounds": {
+      "1": {
+        "exact_transfer_possible": true,
+        "max_designated_transfer": 1.0,
+        "max_symmetric_transfer": 1.0
+      },
+      "2": {
+        "exact_transfer_possible": false,
+        "max_designated_transfer": 0.6666666666666666,
+        "max_symmetric_transfer": 0.9428090415820635
+      },
+      "3": {
+        "exact_transfer_possible": false,
+        "max_designated_transfer": 0.5,
+        "max_symmetric_transfer": 0.8660254037844386
+      }
+    },
+    "searched_replacement_interval_used": false,
+    "tau_record": 2.221441469079183
+  },
+  "alpha_computed": false,
+  "branch_conditioning_is_not_physical_in_state_selection": true,
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "coupling_evaluation_authorized": false,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "overall_verdict": "RELAYED_FAMILY_RESOLVED_IN_DECLARED_BRANCH",
+  "physical_connected_preparation_derived": false,
+  "proof_authorized": false,
+  "relayed_family_resolved": true,
+  "schema": "stage8_t7_relayed_family_resolution_v001",
+  "spec_sha256": "b99c41a1744f3b252c32b484ec0ce49832fc5f95dc64a6dab2c855afd078892e",
+  "universal_enlarged_branch_exhaustion_claimed": false,
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

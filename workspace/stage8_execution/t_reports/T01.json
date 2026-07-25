@@ -1,0 +1,42 @@
+{
+  "evidence": {
+    "F1_to_directional_difference": "Dsharp on each source-stored edge equals T_mu-I",
+    "basepoint_holonomy": "inverse(U_minus)*U_plus",
+    "closed_loop_gauge_exponents": {
+      "x": 0,
+      "x_plus_mu": 0,
+      "x_plus_mu_plus_nu": 0,
+      "x_plus_nu": 0
+    },
+    "curvature": "-i*principal_log(basepoint_holonomy)",
+    "curvature_hand_supplied": false,
+    "negative_path": [
+      "u_nu_x",
+      "u_mu_x_plus_nu"
+    ],
+    "negative_path_gauge_exponents": {
+      "x": -1,
+      "x_plus_mu": 0,
+      "x_plus_mu_plus_nu": 1,
+      "x_plus_nu": 0
+    },
+    "positive_path": [
+      "u_mu_x",
+      "u_nu_x_plus_mu"
+    ],
+    "positive_path_gauge_exponents": {
+      "x": -1,
+      "x_plus_mu": 0,
+      "x_plus_mu_plus_nu": 1,
+      "x_plus_nu": 0
+    }
+  },
+  "obligation": "T01",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "40eaf498e6f96787643801ce442b0a7e50bd3011b26ea5438a6d8baacdfd6bfc"
+}

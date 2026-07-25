@@ -1,0 +1,83 @@
+{
+  "evidence": {
+    "characteristic_polynomial": "lambda*(lambda^2-2)",
+    "complete_positive_interval_family_admitted": true,
+    "durability_parent_seal": {
+      "all_entries_verified": true,
+      "entries": [
+        {
+          "actual_sha256": "40890e753463b8c4c49844864f3f4811f15ec5f71fe9c044f9eb7d91428899a9",
+          "expected_sha256": "40890e753463b8c4c49844864f3f4811f15ec5f71fe9c044f9eb7d91428899a9",
+          "path": "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_SPEC_V001.md",
+          "verified": true
+        },
+        {
+          "actual_sha256": "74b3eb53a507d03ccd82a1eb6053714334fbe80f1ebfe6642a41dce531a8adcd",
+          "expected_sha256": "74b3eb53a507d03ccd82a1eb6053714334fbe80f1ebfe6642a41dce531a8adcd",
+          "path": "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_SPEC_V001.seal.sha256",
+          "verified": true
+        },
+        {
+          "actual_sha256": "8cf5bfcb172ac848f143aa70d9ac26bb90476fe6a074b1daf1d95fe08cf705d7",
+          "expected_sha256": "8cf5bfcb172ac848f143aa70d9ac26bb90476fe6a074b1daf1d95fe08cf705d7",
+          "path": "scripts/audit_r3_4_complete_causal_superconnection_parent_v001.py",
+          "verified": true
+        },
+        {
+          "actual_sha256": "1e7a3deae68b140afcb03b9f1d2b827a3956923a15a83ba3886343c1dbfdc807",
+          "expected_sha256": "1e7a3deae68b140afcb03b9f1d2b827a3956923a15a83ba3886343c1dbfdc807",
+          "path": "scripts/verify_r3_4_complete_causal_superconnection_parent_v001.py",
+          "verified": true
+        },
+        {
+          "actual_sha256": "4570ecbd69c10aea657ef813ebd62292e18fa0d442dc1dbdb0b14f692ae2fab4",
+          "expected_sha256": "4570ecbd69c10aea657ef813ebd62292e18fa0d442dc1dbdb0b14f692ae2fab4",
+          "path": "tests/test_r3_4_complete_causal_superconnection_parent_v001.py",
+          "verified": true
+        },
+        {
+          "actual_sha256": "7f83d081b1e7eb03c07acfecc0255b17f728304152c65ef88e0c076d0b9b8539",
+          "expected_sha256": "7f83d081b1e7eb03c07acfecc0255b17f728304152c65ef88e0c076d0b9b8539",
+          "path": "results/r3_4_complete_causal_superconnection_parent_v001.json",
+          "verified": true
+        },
+        {
+          "actual_sha256": "5902ab9aef714bbd8330d3b49c3ee7dd31cff2c942ba23eefef8986d389c5682",
+          "expected_sha256": "5902ab9aef714bbd8330d3b49c3ee7dd31cff2c942ba23eefef8986d389c5682",
+          "path": "results/r3_4_complete_causal_superconnection_parent_verification_v001.json",
+          "verified": true
+        },
+        {
+          "actual_sha256": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+          "expected_sha256": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+          "path": "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md",
+          "verified": true
+        },
+        {
+          "actual_sha256": "04c2c0ca8dc226e721df7f7c91231c9e8e4c69fc9ded7c803a0da1691e6218a0",
+          "expected_sha256": "04c2c0ca8dc226e721df7f7c91231c9e8e4c69fc9ded7c803a0da1691e6218a0",
+          "path": "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_SELF_REVIEW_V001.md",
+          "verified": true
+        }
+      ],
+      "entry_count": 9,
+      "manifest": "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_V001.seal.sha256",
+      "manifest_sha256": "e771a28a9c1e1c9f410a00dc2c407be3338fcdee06d31f50cbc8563d63e41029"
+    },
+    "durability_parent_sha256": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+    "durability_persistence_verified": true,
+    "least_positive_interval": "pi/sqrt(2)",
+    "minimal_polynomial_verified": true,
+    "orientation_and_rephasing_nondegenerate": true,
+    "target_value_used": false,
+    "three_endpoint_outputs_mutually_orthogonal": true
+  },
+  "obligation": "T04",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "00ac6947a2d5a715b5e5fc88e1a2b259e00b172c8f6742bc162fb007e8546528"
+}

@@ -1,0 +1,71 @@
+{
+  "Duhamel_intensive_Hessian_equality_proved": false,
+  "L1_periodic_zero_mode": [
+    {
+      "B_root_norm": 0.0,
+      "Ddagger_root_norm": 0.0,
+      "L": 3,
+      "carrier_dimension": 405,
+      "positive_edges": 324,
+      "vertices": 81
+    },
+    {
+      "B_root_norm": 0.0,
+      "Ddagger_root_norm": 0.0,
+      "L": 5,
+      "carrier_dimension": 3125,
+      "positive_edges": 2500,
+      "vertices": 625
+    },
+    {
+      "B_root_norm": 0.0,
+      "Ddagger_root_norm": 0.0,
+      "L": 7,
+      "carrier_dimension": 12005,
+      "positive_edges": 9604,
+      "vertices": 2401
+    }
+  ],
+  "L2_endpoint_classification": {
+    "mixed_endpoint_baseline": 0.8196480178454797,
+    "mixed_endpoint_root_component": 0.8196480178454796,
+    "orthogonal_completed_endpoint_baseline": 0.0,
+    "root_survival_baseline": 1.0
+  },
+  "L3_one_handle_positive_control": {
+    "baseline_amplitude_imag": -2.5796359571778404e-17,
+    "baseline_amplitude_real": 0.9999999999999993,
+    "endpoint_transfer_error": 8.340805356332601e-16,
+    "tau_record": 2.221441469079183
+  },
+  "L4_duhamel_map": {
+    "L": 3,
+    "absolute_error": 3.405598049427146e-10,
+    "finite_difference_step": 2e-06,
+    "relative_error": 1.5802383852160398e-09,
+    "spectral_dimension": 405
+  },
+  "alpha_computed": false,
+  "authority_sha256": {
+    "BID_FIRST_OPENING_INTERVAL_DERIVATION_V001.md": "7471988138233218430c6b6dd07b39f33508a75907557723654dbc712c0c4476",
+    "BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+    "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.md": "85d24996987278b285d63b8fe15a8732e55664e7c1b09063617b66cb4bc926b4",
+    "STAGE8_T7_RESPONSE_CLOSURE_SELECTION_DERIVATION_RESULT_V001.md": "e12fffcc0f94d6896bc5607898db6b3a1ea343aeaf557b1f6f70e58db061fab6"
+  },
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "connected_primitive_completed_endpoint_derived": false,
+  "connected_primitive_operator_derived": true,
+  "connected_primitive_preparation_derived": true,
+  "coupling_evaluation_authorized": false,
+  "finite_duhamel_tangent_map_verified": true,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "proof_authorized": false,
+  "reason": "On the sealed flat periodic response complex the root preparation is an exact zero mode. Every admissible orthogonal completed-record endpoint therefore has zero baseline transition, while the only nonzero fixed endpoint is the excluded unresolved root-survival boundary.",
+  "schema": "stage8_t7_primitive_connected_lift_v001",
+  "spec_sha256": "63116a5d2b6f1e557db421e9bbd9e8363f85c84ac04c5d54cb7e7dd314aab544",
+  "verdict": "PRIMITIVE_CONNECTED_LIFT_BLOCKED",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

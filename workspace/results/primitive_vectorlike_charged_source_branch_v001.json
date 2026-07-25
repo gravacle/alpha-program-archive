@@ -1,0 +1,30 @@
+{
+  "alpha_computed": false,
+  "branch_sha256": "3ae25d341458ee8b84765e01b312d6652002d0326db5b574c424ad0d6c4df97f",
+  "charged_determinant_evaluation_authorized": false,
+  "checks": {
+    "branch_inputs_and_limits_are_disclosed": true,
+    "level1_local_bundle_is_current": true,
+    "minimal_vectorlike_pair_cancels_cubic_anomaly": true,
+    "minimal_vectorlike_pair_cancels_mixed_gravity_anomaly": true,
+    "response_evaluation_remains_blocked": true,
+    "single_unit_weyl_source_is_anomalous": true,
+    "source_branch_seal_matches": true,
+    "target_literal_guard_passes": true
+  },
+  "complete_Q_spec_frozen": false,
+  "coupling_evaluation_authorized": false,
+  "cubic_U1_anomaly": 0,
+  "executable_role": "SEAL_AND_ANOMALY_REGRESSION_GUARD_NOT_BRANCH_UNIQUENESS_PROOF",
+  "failed_checks": [],
+  "mixed_gravity_U1_anomaly": 0,
+  "overall": "PASS_PRIMITIVE_VECTORLIKE_SOURCE_BRANCH_SEALED_QSPEC_OPEN_ALPHA_FALSE",
+  "primitive_bare_mass": 0,
+  "primitive_charge_magnitude": 1,
+  "primitive_source_representation": "four_component_Dirac",
+  "primitive_source_statistics": "fermionic",
+  "primitive_vectorlike_pair_count": 1,
+  "proof_authorized": false,
+  "spinor_source_derived_from_pre_alpha_record_principles": false,
+  "universal_matter_spectrum_derived": false
+}

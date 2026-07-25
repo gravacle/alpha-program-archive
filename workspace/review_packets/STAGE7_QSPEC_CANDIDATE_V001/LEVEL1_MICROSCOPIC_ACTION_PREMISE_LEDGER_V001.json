@@ -1,0 +1,48 @@
+{
+  "schema": "level1-microscopic-action-premise-ledger-v001",
+  "date": "2026-07-24",
+  "purpose": "Bind adopted microscopic action premises without certifying their physical consequences.",
+  "premises": {
+    "fundamental_boundary_record_action": {
+      "path": "FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.md",
+      "seal": "FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.seal.sha256",
+      "sha256": "a27a2d571273494a0787e2283734ef1405d74dadfe16d64d3450bb4536e50732",
+      "status": "ADOPTED_LEVEL_1"
+    },
+    "parent_state_covariance": {
+      "path": "PARENT_STATE_COVARIANCE_PRINCIPLE_V001.md",
+      "seal": "PARENT_STATE_COVARIANCE_PRINCIPLE_V001.seal.sha256",
+      "sha256": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "status": "ADOPTED_LEVEL_1"
+    },
+    "causal_incidence_support": {
+      "path": "CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md",
+      "seal": "CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.seal.sha256",
+      "sha256": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "status": "ADOPTED_LEVEL_1"
+    }
+  },
+  "cross_premise_bindings": {
+    "one_parent_supplies_state_and_dynamics": true,
+    "primitive_incidence_has_finite_causal_support": true,
+    "physical_exhaustion_adds_future_incidences": true,
+    "completed_primitive_incidence_reuse_allowed": false,
+    "shared_source_support_allowed": true,
+    "generated_descendants_must_come_from_same_parent": true
+  },
+  "derivation_obligations": {
+    "unique_causal_record_cell_derived": false,
+    "complete_causal_parent_derived": false,
+    "parent_selected_preparation_derived": false,
+    "outgoing_Moller_sector_derived": false,
+    "physical_durability_derived": false,
+    "complete_write_plus_tail_spectrum_derived": false,
+    "physical_spectral_measure_derived": false
+  },
+  "authorization": {
+    "spectral_evaluation_authorized": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

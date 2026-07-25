@@ -1,0 +1,25 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "all_current_results_exist": true,
+    "all_current_results_keep_alpha_false": true,
+    "all_superseded_results_exist_for_audit_trail": true,
+    "ledger_keeps_proof_authorization_false": true,
+    "microscopic_scope_uses_corrected_v002": true,
+    "no_superseded_result_is_current": true,
+    "public_action_uses_qualified_v002": true
+  },
+  "coupling_evaluation_authorized": false,
+  "current_results": [
+    "results/primitive_record_carrier_v001.json",
+    "results/microscopic_exhaustion_v002.json",
+    "results/public_charged_action_uniqueness_v002.json"
+  ],
+  "failed_checks": [],
+  "overall": "PASS_CURRENT_AUTHORITY_EXCLUDES_RETIRED_RESULTS_ALPHA_FALSE",
+  "proof_authorized": false,
+  "superseded_results": [
+    "results/microscopic_exhaustion_v001.json",
+    "results/public_charged_action_uniqueness_v001.json"
+  ]
+}

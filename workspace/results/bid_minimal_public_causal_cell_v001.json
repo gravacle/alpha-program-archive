@@ -1,0 +1,71 @@
+{
+  "absolute_record_interval_derived_in_declared_branch": false,
+  "alpha_computed": false,
+  "baseline": {
+    "E_R_over_E_P": 0.886226925452758,
+    "M_R_over_m_P": 0.886226925452758,
+    "R_R_over_l_P": 1.7724538509055159,
+    "T_R_over_t_P": 3.5449077018110318,
+    "reconstructed_compactness": 1.0000000000000002
+  },
+  "baseline_checks": {
+    "E_R_over_E_P": true,
+    "M_R_over_m_P": true,
+    "R_R_over_l_P": true,
+    "T_R_over_t_P": true,
+    "reconstructed_compactness": true
+  },
+  "complete_Q_spec_sealed": false,
+  "conditional_absolute_record_interval_formula_derived": true,
+  "deformation_changes_scale": {
+    "full_duration_radius": true,
+    "half_action_marker": true,
+    "half_compactness_threshold": true
+  },
+  "deformations": {
+    "full_duration_radius": {
+      "E_R_over_E_P": 1.2533141373155003,
+      "M_R_over_m_P": 1.2533141373155003,
+      "R_R_over_l_P": 2.5066282746310002,
+      "T_R_over_t_P": 2.5066282746310002,
+      "reconstructed_compactness": 1.0000000000000002
+    },
+    "half_action_marker": {
+      "E_R_over_E_P": 0.6266570686577502,
+      "M_R_over_m_P": 0.6266570686577502,
+      "R_R_over_l_P": 1.2533141373155001,
+      "T_R_over_t_P": 2.5066282746310002,
+      "reconstructed_compactness": 1.0000000000000002
+    },
+    "half_compactness_threshold": {
+      "E_R_over_E_P": 0.6266570686577502,
+      "M_R_over_m_P": 0.6266570686577502,
+      "R_R_over_l_P": 2.5066282746310002,
+      "T_R_over_t_P": 5.0132565492620005,
+      "reconstructed_compactness": 0.5000000000000001
+    }
+  },
+  "expected": {
+    "E_R_over_E_P": 0.8862269254527579,
+    "M_R_over_m_P": 0.8862269254527579,
+    "R_R_over_l_P": 1.7724538509055159,
+    "T_R_over_t_P": 3.5449077018110318,
+    "reconstructed_compactness": 1.0
+  },
+  "inputs": {
+    "action_marker_s": "pi",
+    "causal_radius_fraction_xi": "1/2",
+    "compactness_threshold_chi_star": "1",
+    "marginal_public_closure_rule_status": "ADOPTED_LEVEL_1",
+    "stationary_Hamiltonian_action_identification_status": "OPEN"
+  },
+  "physical_Thomson_stiffness_computed": false,
+  "physical_durability_derived": false,
+  "physical_premise_proved_by_script": false,
+  "proof_authorized": false,
+  "relative_marker_equals_complete_stationary_Hamiltonian_action_derived": false,
+  "schema_version": 1,
+  "scope": "STAGE_3_4_CAUSAL_CELL_CONDITIONAL_ALGEBRA_ONLY",
+  "strict_inequality_without_saturation_selects_unique_scale": false,
+  "verdict": "PASS_CONDITIONAL_CELL_ALGEBRA_PHYSICAL_ACTION_MAP_OPEN"
+}

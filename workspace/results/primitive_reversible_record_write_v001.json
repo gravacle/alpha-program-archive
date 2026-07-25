@@ -1,0 +1,11 @@
+{
+  "status": "PASS_ADOPTED_CONTROLLED_RECORD_WRITE_MATRIX_ALPHA_FALSE",
+  "unitarity_defect": 0.0,
+  "principal_exponential_defect": 3.3853529664243003e-16,
+  "write_zero_defect": 0.0,
+  "write_one_defect": 0.0,
+  "extension_derived_from_unitarity_alone": false,
+  "field_history_control_projectors_derived": false,
+  "alpha_computed": false,
+  "scope": "adopted_finite_matrix_identity_only"
+}

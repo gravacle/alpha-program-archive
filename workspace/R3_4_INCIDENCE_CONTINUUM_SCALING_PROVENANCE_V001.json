@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "authorities": [
+    {
+      "path": "R3_4_OUTGOING_TAIL_GENERATOR_EXHAUSTION_RESULT_V001.md",
+      "sha256": "49f4d5cfcedb9add80c7ca4395b1e318f55936b413f447d325bbdc7a47edeb4f",
+      "status": {
+        "reduced_public_tail_zero_form_exhausted": true,
+        "complete_asymptotic_tail_zero_form_exhausted": false
+      }
+    },
+    {
+      "path": "R3_4_CAUSAL_DIAMOND_SPECTRAL_PULLBACK_RESULT_V002.md",
+      "sha256": "7869536ee4fd67365b907be86995ae16b68e64a20a10294631b2d6fede11b953",
+      "status": {
+        "conditional_scalar_density_computed": true,
+        "operator_derived_root_spectral_measure_computed": false
+      }
+    },
+    {
+      "path": "BID_PUBLIC_RECORD_HILBERTIZATION_DERIVATION_V001.md",
+      "sha256": "b0e9454a5bb7ff331a9f56c3db5b0b7bc4b1182e061c911209ac57ae34f53dbf",
+      "status": {
+        "public_record_counting_metric_derived_from_disclosed_quantum_record_axioms": true
+      }
+    },
+    {
+      "path": "BID_BOUNDARY_METRIC_TRANSPORT_DERIVATION_V001.md",
+      "sha256": "52187f8174b203d3cf2acb641d800f45ae733331cc0f3d56658898ed7daec244",
+      "status": {
+        "boundary_metric_edge_transport_isometry_derived": true
+      }
+    },
+    {
+      "path": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md",
+      "sha256": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+      "status": {
+        "dimensionless_BID_generator_frozen": true,
+        "spectral_evaluation_authorized": false
+      }
+    },
+    {
+      "path": "R3_3_INTRINSIC_CELL_MEASURE_DERIVATION_RESULT_V001.md",
+      "sha256": "e60aec3c44cfc5f1ef5715d3445e53783b0185ef93e54d94e442ff1df2ae9b59",
+      "status": {
+        "uniform_flat_cell_measure_derived": true
+      }
+    }
+  ],
+  "write_defect_obligations": {
+    "complete_write_tail_factorization_derived": false,
+    "compact_defect_spectrum_computed": false,
+    "bound_modes_excluded": false,
+    "point_spectrum_excluded_for_complete_operator": false,
+    "enlarged_tail_factors_exhausted": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "alpha_computed": false,
+  "concurrent_open_record_block_map_derived": true,
+  "connected_K_cell_amplitude_constructed": false,
+  "connected_linked_cluster_density_proved": false,
+  "coupling_evaluation_authorized": false,
+  "generic_overlapping_regression": {
+    "block_source_cross_frobenius": 0.3864852508084445,
+    "full_source_cross_frobenius": 0.3864852508084444,
+    "pass": true,
+    "record_dimensions": [
+      2,
+      2
+    ],
+    "relative_frobenius_error": 4.273239944883788e-16,
+    "seed": 20260725,
+    "source_dimension": 3,
+    "supports": [
+      [
+        "R1"
+      ],
+      [
+        "R1",
+        "R2"
+      ],
+      [
+        "R2"
+      ]
+    ],
+    "threshold": 1e-12
+  },
+  "induction_proof_sha256": "a1db0e42954e639e70bbabe3526d0baaab4082ae892a931832a85e8ac160cee9",
+  "kappa_record_computed": false,
+  "liveness_validation": {
+    "invalid_early_close_rejected": true,
+    "invalid_schedule_violations": [
+      "R1"
+    ],
+    "last_incidence": {
+      "R1": 1,
+      "R2": 2
+    },
+    "valid_schedule_pass": true
+  },
+  "local_Maxwell_response_derived": false,
+  "no_target_access_attestation": true,
+  "pass": true,
+  "physical_Thomson_stiffness_computed": false,
+  "proof_authorized": false,
+  "schema": "complete_qspec_open_record_block_transfer_v001",
+  "sequential_relative_history_transfer_map_derived": true,
+  "spec_sha256": "7bd9b18b1f818cd923472c5911b2b5e0b406faf16fa4345259dffd248d3702d3",
+  "theorem": {
+    "evolution_step_proved": true,
+    "invalid_early_close_excluded": true,
+    "maximum_open_width_bounded": false,
+    "open_step_proved": true,
+    "sequential_reduction_proved": true,
+    "valid_close_step_proved": true
+  },
+  "verdict": "COMPLETE_QSPEC_OPEN_RECORD_BLOCK_TRANSFER_MAP_DERIVED",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

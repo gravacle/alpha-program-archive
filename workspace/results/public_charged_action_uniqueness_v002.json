@@ -1,0 +1,21 @@
+{
+  "absolute_Maxwell_stiffness_selected": false,
+  "alpha_computed": false,
+  "checks": {
+    "all_hash_locked_pre_alpha_sources_match": true,
+    "hostile_review_qualifications_are_present": true,
+    "microscopic_v001_countermodel_is_retired": true,
+    "positive_stiffness_family_has_distinct_conventional_couplings": true,
+    "scope_flags_fail_closed": true,
+    "sealed_v003_authority_unchanged": true,
+    "target_literal_guard_passes": true
+  },
+  "complete_public_charged_action_unique": false,
+  "coupling_evaluation_authorized": false,
+  "executable_role": "REGRESSION_GUARD_NOT_PROOF_EVIDENCE",
+  "failed_checks": [],
+  "overall": "PASS_PUBLIC_ACTION_PREMISES_DO_NOT_SELECT_K_SCOPE_ONLY_ALPHA_FALSE",
+  "proof_authorized": false,
+  "unique_finite_coincident_extension_derived": false,
+  "zero_bare_alone_selects_finite_induced_coefficient": false
+}

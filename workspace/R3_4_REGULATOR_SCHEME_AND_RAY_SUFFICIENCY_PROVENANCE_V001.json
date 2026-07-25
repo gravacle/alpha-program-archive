@@ -1,0 +1,24 @@
+{
+  "schema": "r3.4-regulator-scheme-and-ray-sufficiency-provenance-v001",
+  "authorities": [
+    {
+      "path": "CAUSAL_DIRECT_LIMIT_ARCHITECTURE_ADJUDICATION_RESULT_V001.md",
+      "sha256": "9be3f55fd527b9a857bdd4ea2298105e44a69e85db79b90772ecb30001aba022"
+    },
+    {
+      "path": "CAUSAL_DIRECT_LIMIT_COVECTOR_RAY_LIFT_RESULT_V001.md",
+      "sha256": "7c81c625c41adae66e4c72f4b4e351507760bca74e68f555053fac87ae70c859"
+    },
+    {
+      "path": "R3_4_REGULATOR_SCHEME_AND_RAY_SUFFICIENCY_SPEC_V001.md",
+      "sha256": "79aeb2465408752fd8522ae0f3539d2132074bd2e6a3eecb3b4e40e4f2657fcc"
+    }
+  ],
+  "forbidden_inputs": [
+    "alpha",
+    "measured coupling",
+    "mass",
+    "endpoint",
+    "cosmological value"
+  ]
+}

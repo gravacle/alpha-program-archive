@@ -1,0 +1,24 @@
+{
+  "evidence": {
+    "barycentric_simplex_volume_sum": "1",
+    "cell_contribution": "V_cell*F_mu_nu^2",
+    "common_refinement_volume_sum": "1",
+    "coordinate_scale_exponents_after_pullback": {
+      "F_mu_nu": 2,
+      "V_cell": 1,
+      "ell_mu": 0,
+      "ell_nu": 0
+    },
+    "cubical_bisection_volume_sum": "1",
+    "shape_dependent_scalar_inserted": false,
+    "uniform_intrinsic_measure_sha256": "e4cfaef14309b3acf5674f8c8faee756f744fec4691d5e01d9de0fa422592be2"
+  },
+  "obligation": "T11",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "b35ba788b4e502d071d891f7625e51c40b4db74943a993a8622b168edde025a4"
+}

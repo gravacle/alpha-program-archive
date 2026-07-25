@@ -1,0 +1,10 @@
+{
+  "behaved_as_predeclared": true,
+  "control": "NC1",
+  "evidence": {
+    "historical_direct_sum_limit": "0",
+    "remains_failed": true
+  },
+  "schema": "stage8-negative-control-v001",
+  "sha256_of_body": "5900532b2accb20c3fc21236e845684b9e0d568e949affb6fc3b37fa30adf230"
+}

@@ -1,0 +1,630 @@
+{
+  "schema_version": 10,
+  "date": "2026-07-23",
+  "principle": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V010.md",
+  "logical_status": "target_value_free_target_aware_forward_declared_pending_hostile_review",
+  "historical_target_blindness_established": false,
+  "hostile_audit_protocol": {
+    "path": "BID_CONSOLIDATED_HOSTILE_AUDIT_MATRIX_V004.md",
+    "sha256": "4f77702c5d134ea0c8e045bc83e4a111b5c4a6602739d2ec80026915ed173794",
+    "persistent_review_ledger_path": "BID_FULL_STACK_REVIEW_LEDGER_V002.md",
+    "persistent_review_ledger_sha256": "07087e9a5089e4c53adbf99a69a1906aa65a82bc32aba8432ce17269dd6979ad",
+    "delta_only_review_can_seal": false,
+    "repair_requires_new_principle_version_and_full_matrix_rerun": true
+  },
+  "mechanical_specification_audit": {
+    "path": "scripts/audit_bid_v010_specification.py",
+    "sha256": "39b8338918ccaf8e3941959b96a5430eae9ea022bd65bd985c83f761e2f76d70"
+  },
+  "supersedes_unsealed_drafts": [
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V001.md",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V002.md",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V003.md",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V004.md",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V005.md",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V006.md",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V007.md",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V008.md",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V009.md"
+  ],
+  "pinned_authorities": [
+    {
+      "path": "FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V001.md",
+      "sha256": "9894228202a4f2d53f8ef2eec3273401b773e0828e0ef04b40db1a03dae1138a",
+      "role": "declares the target-independent Level-1 record-action program, common Q_spec, and no independently adjustable bare F2; it does not derive BID or alpha"
+    },
+    {
+      "path": "PRIMITIVE_RECORD_ACTION_CHARACTER_BRIDGE_GATE_V002.md",
+      "sha256": "fc3e44f0ce78955c3c3ecbce57a901ca5f2770728b051052cc3ea638bcf3acdf",
+      "role": "supplies only a conditional balanced two-path action bridge; the V010 general finite-pure-state kinematic premise is separately disclosed and is not alpha evidence"
+    },
+    {
+      "path": "../primitive_comparison_group_provenance_gate_v001.md",
+      "sha256": "baa5f8150de019ed36fa9f946f8fc798aa5f272f1aefb3ea4be0ce66e7e09483"
+    },
+    {
+      "path": "../minimal_public_carrier_principle_v001.md",
+      "sha256": "43f295a776ea1a789a1bb24d01fe3c068700e1c5cc823056a8f8e9a5d9a2f436"
+    },
+    {
+      "path": "../primitive_action_character_carrier_completion_v001.md",
+      "sha256": "9b2c0b93fb4bd2fbb34a8e9f5adb578b9b29422ea7adc8849ff425ad4139e23a"
+    },
+    {
+      "path": "../primitive_complete_boundary_transition_functional_principle_v001.md",
+      "sha256": "698051f21310c029f6e3b52aa49b3e129b94240214c48ffa75be6be00ca5e0a6"
+    },
+    {
+      "path": "../primitive_boundary_native_record_CAR_functional_principle_v001.md",
+      "sha256": "099440a4ca77d022ffb7a1977834c83155c9b53e3958fb56efa926e16c5ba0b7"
+    },
+    {
+      "path": "../primitive_physical_charged_dirac_trace_completion_v001.md",
+      "sha256": "fe9f4e157e9beda7e8351575add717d28e10c49f17dcb0a0fc8dc50a7e2cabee"
+    },
+    {
+      "path": "../primitive_inclusive_record_spectral_kernel_principle_v001.md",
+      "sha256": "b8c03857602e6f2bc5d07b0b30d2a335d721e49699c5951f9486f3b2a7bf4c32"
+    }
+  ],
+  "pinned_postseal_parent": {
+    "path": "../results/primitive_same_cell_discrete_parent_action_v001.json",
+    "sha256": "3f5991ef3ca62bc2166b73f6ae61c69a22648639af16021f0db458c49f81a262",
+    "open_during_BID_derivation": false
+  },
+  "joint_comparison_group": {
+    "parameter_space": "R^3",
+    "linear_form": "theta_M + theta_Q + theta_G",
+    "kernel": "sum(theta) in 2*pi*Z",
+    "quotient": "U(1)",
+    "representation": "exp(i*sum(theta))",
+    "strong_continuity_assumed": true,
+    "faithfulness_on_quotient_assumed": true,
+    "associated_bundle_relation": {
+      "comparison_group": "G_joint is the additive-action comparison group",
+      "vertex_fibers": "L=P x_(rho_joint) C is an associated Hermitian line bundle",
+      "edge_transport": "U_e is associated-bundle parallel transport; vertex gauge maps are changes of local section",
+      "ray_quotient": "projective state space removes the common central scalar action on the complete Hilbert state",
+      "identification_rule": "comparison group, local gauge action, and ray quotient are related by the associated-bundle functor but are not identified"
+    },
+    "Z4_status": "finite subgroup sample or noncontinuous readout model",
+    "V4_status": "noncontinuous coarse-graining or readout model; not a subgroup or continuous quotient of U(1)"
+  },
+  "first_opening_status": {
+    "rooted_star_is_declared_premise": true,
+    "vertex_dimension": 4,
+    "public_endpoint_count": 3,
+    "unresolved_root_count": 1,
+    "edge_dimension": 3,
+    "graded_dimension": 7,
+    "counts_as_new_evidence": false
+  },
+  "carrier_separation_and_maps": {
+    "endpoint_carrier": "E_open(K_open;L)=L_r direct-sum L_pM direct-sum L_pQ direct-sum L_pG, built from the actual object fibers",
+    "endpoint_embedding": "iota_open is the canonical direct-summand inclusion into C0(K_open;L); no basis or isometry is used before Gate 3",
+    "root_preparation_before_gate3": "projective ray P(L_r), not a chosen unit vector",
+    "cell_counting_Hilbert_carrier": "H_cell=C0 direct-sum C1 direct-sum C2",
+    "primitive_incidence_carrier": "H_BID=C0 direct-sum C1",
+    "projective_response_space": "P(H_BID), not P(H_cell)",
+    "real_face_to_complex_face": "c2:A_R^2->C2 is the canonical real-form map and A_R^2 tensor_R C is isomorphic to C2",
+    "forbidden_identifications": "endpoint alternatives, C1 chain states, A_R^1 connection tangents, A_R^2 fluxes, and C2 face records remain distinct"
+  },
+  "record_category": {
+    "bare_name": "BareRec_2",
+    "decorated_name": "DecRec_2",
+    "forgetful_functor": "U:DecRec_2->BareRec_2 removes handle label only",
+    "objects": "finite oriented regular CW complexes through degree 2; each component optionally rooted; Hermitian line fibers on vertices and unitary edge transports with no face-flatness assumption",
+    "morphisms": "(i,eta) with injective cellular i preserving orientation/attaching maps/domain roots and unitary fiber maps satisfying eta_t U_e = U_i(e) eta_s",
+    "identity_morphism": "(id_K,{id_Lv})",
+    "composition": "(j,zeta) compose (i,eta)=(j compose i,{zeta_i(v) compose eta_v}); transport intertwining and domain-root preservation are closed under composition",
+    "decorated_morphism": "a BareRec_2 morphism that also preserves each domain first-opening edge handle label",
+    "coefficient_carriers": {
+      "C0": "direct sum of vertex fibers L_v",
+      "C1": "direct sum of source fibers L_s(e) over one edge-orientation representative",
+      "C2": "gauge-neutral scalar counting carrier over one face-orientation representative"
+    },
+    "orientation_reversal": {
+      "edge": "x_bar_e=-U_e x_e",
+      "face": "|bar_f>=-|f>"
+    },
+    "gauge_action": {
+      "vertex": "psi_v->h_v psi_v",
+      "edge_coefficient": "x_e->h_s(e) x_e",
+      "edge_transport": "U_e->h_t(e) U_e h_s(e)^(-1)",
+      "face_coefficient": "gauge neutral"
+    },
+    "induced_chain_maps": {
+      "J0": "psi_v->eta_v psi_v",
+      "J1": "x_e->eta_s(e) x_e",
+      "J2": "z_f|f>->z_f|i(f)>"
+    },
+    "elementary_cell_tests": "closed-cell maps j_c:bar(c)->K for every p-cell, p=0,1,2; no root required on bar(c)",
+    "universal_edges": "abstract E_U=(L_s --U--> L_t) with unitary U; a scalar u appears only after choosing unit frames",
+    "naturality_equation": "D_K J_1(i,eta) = J_0(i,eta) D_Eu",
+    "primitive_operator_factors_through_forgetful_functor": true,
+    "full_B_intertwining_assumed": false
+  },
+  "Hilbert_competitor_class": {
+    "forms": "all coherent functorial positive-definite Hermitian M_p(K), p=0,1,2, including nondiagonal",
+    "positive_rescaling_is_equivalence": false,
+    "hypothesis_conditions": [
+      "grading orthogonality",
+      "elementary-alternative orthogonality",
+      "orthogonal direct sum under disjoint union",
+      "unitary cell relabeling within degree",
+      "every closed-cell map is isometric on its top-cell generator",
+      "unit singleton cell norm"
+    ],
+    "morphism_action": "induced J_p(i,eta)",
+    "root_specific_metric_allowed": false,
+    "handle_specific_metric_allowed": false,
+    "face_specific_metric_allowed": false,
+    "isometry_is_hypothesis_not_completed_gate": true
+  },
+  "incidence_competitor_class": {
+    "general_column": "D_(a,b),e x=i_t(a_e U_e x)-i_s(b_e x), x in L_s(e)",
+    "a_e_and_b_e": "complex, not both zero",
+    "orientation_reversal_on_C1": "R_1,e(x)=-U_e x in L_t",
+    "orientation_choice_invariance": "give the reversed representative an independent pair (a_bar_e,b_bar_e) and require D_(a_bar,b_bar),bar_e R_1,e=D_(a,b),e",
+    "derived_orientation_extension_target": "a_bar_e=b_e and b_bar_e=a_e; this alone does not imply a_e=b_e",
+    "orientation_coefficient_result_is_assumed": false,
+    "augmentation_family": "epsilon_(c,d),e(i_s(y_s)+i_t(y_t))=c_e U_e y_s+d_e y_t, (c_e,d_e) not both zero",
+    "canonical_public_collapse": {
+      "physical_principle": "compatible endpoint identification, universal factorization, naturality, and sequential-composition coherence characterize public closure as the colimit of the edge transport diagram",
+      "principle_status": "target-value-free operational physical principle submitted to review; not alpha evidence",
+      "diagram": "L_s --U_e--> L_t",
+      "category": "finite-dimensional complex vector spaces and linear maps",
+      "colimit": "L_t",
+      "cocone_legs": "j_s=U_e and j_t=id_Lt",
+      "induced_map": "epsilon_e(y_s,y_t)=U_e y_s+y_t",
+      "physical_object": "covector ray [epsilon_e]=[U_e,id]; its common nonzero scalar has the same kernel and is not an observable transition magnitude",
+      "hostile_family_test": "the cocone equation requires [c_e:d_e]=[1:1]",
+      "naturality": "eta_t epsilon_e=epsilon_i(e)(eta_s direct-sum eta_t)",
+      "orientation_coherence": "U_e epsilon_bar_e S_e=epsilon_e for S_e(y_s,y_t)=(y_t,y_s)",
+      "path_composition_coherence": "for L_s--U-->L_t--V-->L_u, epsilon_V(epsilon_U(y_s,y_t),y_u)=VU y_s+V y_t+y_u, the colimit map of the full chain diagram",
+      "absolute_cocone_normalization_claimed": false,
+      "target_value_used": false
+    },
+    "closed_boundary_equation": "epsilon_e(D_(a,b),e x)=(a_e-b_e)U_e x=0 for all x",
+    "frozen_inference_order": [
+      "orientation-choice invariance on independent forward and reversed pairs",
+      "test every nonzero (c,d) against the operational colimit universal property",
+      "test naturality, orientation coherence, and path-composition coherence of the surviving collapse ray",
+      "apply closed-boundary accounting to the derived public collapse",
+      "test edge and handle dependence by naturality and cell relabeling",
+      "apply one-record normalization last"
+    ],
+    "coefficient_uniformity_obligation": "isomorphisms among all abstract unitary edge diagrams, cell relabelings, and the handle-forgetful functor must eliminate edge-, transport-, and handle-dependent coefficients",
+    "surviving_phase_equivalence": "after closure gives a=b and normalization gives |a|=1, one common phase is removed only by a natural degree-one unitary transformation",
+    "mandatory_D_x": "D_x,e z=i_t(sqrt(2-x)U_e z)-i_s(sqrt(x)z), 0<x<2",
+    "identity_metric_adjoint": "(D_(a,b)^sharp psi)_e=conj(a_e)U_e^dagger psi_t-conj(b_e)psi_s in L_s",
+    "one_record_normalization": "norm(D_E e)^2_M0 / norm(e)^2_M1 = 2",
+    "augmentation_scope": "edge-local covector transformed contragrediently under vertex gauge; no global augmentation"
+  },
+  "allowed_equivalences": [
+    "degree-incidence-root-preserving unitary cell map",
+    "orientation reversal",
+    "vertex-fiber gauge transformation preserving edge transport",
+    "nonzero rescaling of the public-closure constraint covector only, because it leaves the kernel unchanged"
+  ],
+  "incidence_word_filtration": {
+    "filtration_type": "augmentation-ideal filtration",
+    "universal_algebra": "P_univ=C[F_4], the complex group *-algebra on four formal unitary shifts T_mu with T_mu*=T_mu^(-1)",
+    "translation_complete_test_object": "K_L is the oriented 2-skeleton of (Z/LZ)^4 for L>=3 with periodic unitary links",
+    "physical_shift_domain": "T_mu are everywhere-defined unitary endomorphisms of H0(K_L); nonperiodic interior compressions are not claimed as free-group representations",
+    "augmentation_homomorphism": "varepsilon(T_mu)=varepsilon(T_mu^(-1))=1",
+    "I_inc": "ker(varepsilon), generated by delta_mu=T_mu-I and adjoints",
+    "completion": "P_hat=inverse_limit_n P_univ/I_inc^n",
+    "physical_representation_order": "pi_U:P_univ->B(H0(K_L)) is applied only after the universal algebra and filtration are fixed",
+    "completion_representation": "no extension of pi_U to all of P_hat is assumed; the formal I-adic log, holomorphic principal physical log, and strict norm-Taylor domain are distinct",
+    "F_ge_n": "I_inc^n",
+    "multiplication": "F_ge_m * F_ge_n subset F_ge_(m+n)",
+    "transport_status": "formal T_mu=I+delta_mu belongs to 1+I_inc and is not homogeneous order zero; pi_U(delta_mu)=nabla_mu",
+    "covariant_shift": "(T_mu psi)_x=U_mu(x)^dagger psi_(x+mu) globally on periodic K_L",
+    "incidence_difference": "nabla_mu=T_mu-I=(Dsharp psi)_e_mu(x) for a=b=1",
+    "oriented_face_boundary": "partial_2 f_mu_nu(x)=e_mu(x)+e_nu(x+mu)-e_mu(x+nu)-e_nu(x)",
+    "positive_path": "U_+(x)=U_nu(x+mu)U_mu(x)",
+    "negative_path": "U_-(x)=U_mu(x+nu)U_nu(x)",
+    "directional_commutator": "C_mu_nu=[nabla_mu,nabla_nu] maps opposite-corner fiber to base fiber",
+    "basepoint_holonomy": "W_mu_nu=U_-^(-1)U_+:L_x->L_x",
+    "global_represented_holonomy": "M_W,mu_nu=direct-sum_x W_mu_nu(x)=pi_U(W_univ)",
+    "basepoint_curvature": "F_BR(mu,nu)(x)=-i Log_0 W_mu_nu(x), obtained by restricting the global block operator",
+    "physical_principal_log": "holomorphic functional calculus on M_W when the spectrum excludes -1, with eigenphases in (-pi,pi)",
+    "taylor_log_domain": "the series Log(I+X) is used only when norm(X)<1, not on the whole principal-log domain",
+    "exact_pullbacks": [
+      "U_-^(-1) C_mu_nu^dagger=W_mu_nu-I",
+      "C_mu_nu U_-=W_mu_nu^dagger-I"
+    ],
+    "formal_plaquette_word": "W_univ=T_nu T_mu T_nu^(-1) T_mu^(-1), frozen so pi_U(W_univ)=M_W,mu_nu; the opposite commutator gives its adjoint",
+    "represented_filtration": "F_pi^n=pi_U(I_inc^n), gr_pi^n=F_pi^n/F_pi^(n+1), equivalently I_inc^n/[I_inc^(n+1)+(I_inc^n intersect ker pi_U)]",
+    "order_proof": "W_univ-I and the formal Log(W_univ) lie in I_inc^2; exact represented order 2 requires a nonzero class in gr_pi^2",
+    "orientation_rule": "face reversal sends F_BR(mu,nu) to -F_BR(mu,nu)",
+    "curvature_order_lower_bound": 2,
+    "Pauli_order_lower_bound": 2,
+    "Maxwell_order_lower_bound": 4,
+    "exact_order_claim_requires_nonzero_associated_graded_symbol": true,
+    "spinor_module": "C^4 with complex Cl(1,3), Tr_S(I)=4",
+    "spinor_module_status": "3+1 dimension, Lorentz signature, spin structure, CPT framework, and the four-component Dirac module are disclosed ordinary-branch inputs, not BID outputs or alpha evidence",
+    "Lorentz_metric": "diag(+1,-1,-1,-1)",
+    "Lorentz_Maxwell_projection": "-(1/4) sum_mu_nu Tr_internal(F_BR(mu,nu)F_BR^mu_nu)",
+    "Dirac_square_identity": "slash_nabla^2=nabla_mu nabla^mu-(i/2)sigma^mu_nu[nabla_mu,nabla_nu]",
+    "kinematic_Pauli_projection": "leading associated-graded term -(1/2) sigma^mu_nu F_BR(mu,nu)",
+    "kinematic_Pauli_coefficient_status": "signed target -1/2 under frozen orientation/source-fiber convention; invariant magnitude 1/2; not anomalous moment or scalar-functional output",
+    "internal_U1_trace": "Tr_internal(I)=1",
+    "Wick_rotation_used": false
+  },
+  "primitive_effective_status": {
+    "single_operator_completeness_is_postulate": true,
+    "independent_primitive_F2_disallowed_by_postulate": true,
+    "independent_primitive_Pauli_disallowed_by_postulate": true,
+    "F2_theorem_exclusion_claimed": false,
+    "Pauli_theorem_exclusion_claimed": false,
+    "generated_coefficients_required": true
+  },
+  "unitary_response_provenance_gate": {
+    "finite_pure_state_kinematics_premise": {
+      "state_space": "projective P(H_BID) from the Gate-3 unit sphere in C0 direct-sum C1 modulo common U(1)",
+      "metric": "ds_FS^2=<dpsi|dpsi>-|<psi|dpsi>|^2",
+      "kinematic_status": "declared standard finite pure-state quantum-kinematic input; not derived from the limited two-path authority and not alpha evidence",
+      "uniqueness_status": "no passive-coordinate or BID-automorphism uniqueness claim",
+      "operational_normalization": "Fidelity(psi,psi+dpsi)=1-ds_FS^2+O(||dpsi||^3)",
+      "single_amplitude_action": "Gamma=-log|overlap|=-(1/2)log(Fidelity)=(1/2)ds_FS^2+O(||dpsi||^3)",
+      "Hessian_identification": "R is the exact quadratic-action Hessian in Gamma=(1/2)x^T R x+...",
+      "forbidden_normalization_changes": "factor-four metric convention, probability surprisal as one-amplitude action, or any extra response/action conversion coefficient",
+      "mixed_state_fallback_allowed": false
+    },
+    "deterministic_response_objects": {
+      "sequence": "K_resp(L)=the oriented 2-skeleton of (Z/LZ)^4 for odd L=2m+1, m>=1",
+      "boundary_conditions": "periodic",
+      "origin": "(0,0,0,0)",
+      "baseline_connection": "unique gauge class with every plaquette and all four fundamental noncontractible Wilson loops equal to identity",
+      "root_fiber": "L_r=L_origin",
+      "root_embedding": "J_r,L z is the path-independent parallel transport of z to every vertex",
+      "normalized_root": "unit representative only after Gate 3 counting metric",
+      "source_free_preparation_selector": "full periodic translation invariance; in the trivial-holonomy class this uniquely selects the covariantly constant ray",
+      "failure": "residual holonomy, path dependence, or preparation dimension greater than one"
+    },
+    "dimensionless_generator": {
+      "operator": "B_L(A)=[[0,D_L(A)],[D_L(A)^dagger,0]] on all of H_BID(K_L)",
+      "links": "U_e(A)=exp(i A_e)U_0,e",
+      "domain": "entire finite H_BID carrier",
+      "physical_interval_required": false,
+      "forbidden_multipliers": "proper time, length, mass, cosmological endpoint, and cell volume",
+      "orbit_parameter_normalization": "0 to 1 is one complete primitive transition; rescaling B_L violates Gate-4 one-record normalization",
+      "projective_orbit": "f_L(A)=[exp(-iB_L(A))r_L]",
+      "tangent": "V_L(a)=d/ds B_L(sa)|_0",
+      "Duhamel_generator": "G_L(a)=integral_0^1 exp(iB_L(0)t)V_L(a)exp(-iB_L(0)t)dt",
+      "response": "R_L(a,b)=Re<r_L|Delta G_L(a)Delta G_L(b)|r_L>",
+      "pullback_obligation": "differentiate the explicit orbit before quotienting and recover R_L as the Fubini-Study pullback"
+    },
+    "connection_tangent_spaces": "A_R^p=R^(K_p^+) for p=0,1,2 with Gate-3-induced counting products",
+    "real_complex_face_map": "c2:A_R^2->C2 and A_R^2 tensor_R C is isomorphic to C2",
+    "gauge_map": "(d0 lambda)_e=lambda_t-lambda_s",
+    "face_flux_map": "(d1 a)_f=sum_e incidence(f,e)a_e with d1 d0=0",
+    "componentwise_stabilizer": "ker(d0) has one constant function per connected component; gauge parameters are A_R^0/ker(d0)",
+    "horizontal_projector": "P_h=I-d0(d0^dagger d0)^+d0^dagger with the Moore-Penrose inverse acting on the componentwise quotient",
+    "physical_flux_subspace": "F_phys=im(d1) subset A_R^2",
+    "canonical_flux_lift": "Q_flux=P_h d1^dagger(d1 P_h d1^dagger)^+ restricted to F_phys",
+    "flux_lift_requirements": [
+      "d1 q_xi=xi for every xi in F_phys",
+      "q_xi orthogonal to im(d0)",
+      "q_xi orthogonal to ker(d1) intersect im(d0)^perp",
+      "minimum tangent norm",
+      "no zero-flux addition",
+      "an individual unit face is lifted only if it lies in F_phys"
+    ],
+    "operator_tangent_map": "V(a)=d/ds B_U(sa)|_0 for a in A_R^1, U_e(sa)=exp(i s a_e)U_e(0), with response restricted to horizontal tangents",
+    "face_response_matrix": "mathcal_K_L(xi,zeta)=R_L(Q_flux xi,Q_flux zeta) on F_phys",
+    "four_dimensional_scale_cancellation": {
+      "isotropic_bookkeeping": "xi_mu_nu=ell^2 F_mu_nu+O(ell^3), sum_x=ell^(-4) integral d4x+o(ell^-4)",
+      "required_result": "the quadratic F2 coefficient has no surviving power of ell in four dimensions",
+      "anisotropic_raw_weight": "ell_mu^2 ell_nu^2/product_rho ell_rho",
+      "anisotropy_rule": "these are coordinate tetrad/Jacobian factors; after transformation to the frozen orthonormal Lorentz frame one scalar kappa_BR must be independent of every ell_mu or the gate fails",
+      "record_interval_role": "needed only for later dimensional energy/time predictions, not dimensionless alpha",
+      "fundamental_cell_reconciliation": "the physical causal cell must still exist; V010 tests that its absolute scale cancels from the dimensionless four-dimensional stiffness"
+    },
+    "local_tensor_extraction": {
+      "translation_invariance_must_be_proved": true,
+      "fourier_complexification_only": "paired real sine/cosine modes must agree",
+      "candidate_momenta": "n in {-1,0,1}^4 minus zero, modulo n~-n by first nonzero component positive, ordered by (norm2,n)",
+      "candidate_polarizations": "coordinate e_j followed by e_j+e_k for j<k; zero bivectors skipped",
+      "ordered_bivector_basis": ["01", "02", "03", "23", "31", "12"],
+      "continuum_symbol": "b_infinity(n,v)=n wedge v",
+      "discrete_symbol": "b_L,mu_nu=[exp(2*pi*i*n_mu/L)-1]v_nu-[exp(2*pi*i*n_nu/L)-1]v_mu",
+      "Pluecker_null_direction": "every exact decomposable mode obeys b wedge b=0, so F wedge F proportional to E dot B is the one invisible topological quadratic",
+      "complete_candidate_rank": 20,
+      "complete_candidate_nullspace": "exactly one dimension, spanned by the parity-odd F wedge F form",
+      "design_rule": "retain the next candidate iff vech_sym(b b^T) increases exact rational rank; stop at 20",
+      "topological_coefficient": "zero by the predeclared ordinary parity-preserving branch, not inferred from exact fluctuations",
+      "fit_rule": "solve the fixed 20-equation system modulo the topological null direction, then insert its predeclared zero coefficient to obtain one symmetric 6x6 M_L",
+      "verification_rule": "all remaining rows are frozen checks; residual/norm(b_L)^2 tends to zero",
+      "limit_rule": "analytic limit or certified convergent enclosures for M_BR=lim along odd L",
+      "physical_scale": "fixed integer momenta with odd L tending to infinity define the zero-momentum/Thomson limit",
+      "scale_failure_rule": "a divergent, path-dependent, or nonanalytic limit is a failure and is not relabeled as another renormalization scale",
+      "deletion_check": "limit independent of deleting any one verification row",
+      "failures": "rank loss, sine/cosine mismatch, translation failure, nonlocal residual, missing convergence, or verification-row failure"
+    },
+    "Lorentzian_Hodge_and_Maxwell": {
+      "metric": "eta=diag(+1,-1,-1,-1)",
+      "orientation": "epsilon_0123=+1",
+      "Hodge_definition": "(*F)_mu_nu=(1/2)epsilon_mu_nu_rho_sigma F^rho_sigma",
+      "required_identity": "J_star^2=-I_6",
+      "application_domain": "the reconstructed local six-dimensional tensor, not the entire global F_phys",
+      "rotation_parity_intermediate_form": "H_trial=(kappa_E/2)|E|^2+(kappa_B/2)|B|^2 with zero cross/anisotropy blocks",
+      "equality_selector": "[M_BR,J_star]=0 predeclared before response",
+      "target": "kappa_E=kappa_B=kappa_BR>=0",
+      "numerical_rule": "only certified enclosures excluding every nonzero commutator value; no after-the-fact tolerance",
+      "forbidden_identification": "positive Fubini-Study response is never equated directly with the indefinite Lorentzian bivector metric"
+    },
+    "canonical_boundary_gauge_phase_space_premise": {
+      "status": "declared target-free standard canonical input, not alpha evidence",
+      "canonical_one_form": "Theta=sum_links d_i delta a_i",
+      "symplectic_form": "Omega=delta Theta",
+      "Gauss_constraint": "d0^dagger d=0 with A0 multiplier",
+      "normalization": "coefficient one follows from d in the dual lattice of the unit action character; rescaling changes the declared unit charge and is forbidden",
+      "Hamiltonian": "H=(1/(2*kappa_BR))||d||^2+(kappa_BR/2)||b||^2",
+      "first_order_action": "S1=integral dt[d dot time_derivative(a)-H-A0 d0^dagger d]",
+      "elimination": "d=kappa_BR E and L=(kappa_BR/2)(E^2-B^2)=-(kappa_BR/4)F_mu_nu F^mu_nu",
+      "unit_character_convention": "S_EM=-(1/(4e^2)) integral F2, kappa_BR=1/e^2, alpha_BR=1/(4*pi*kappa_BR)",
+      "alpha_scale": "zero-momentum/Thomson limit inherited from the fixed-momentum odd-L response limit",
+      "alpha_value_evaluated": false
+    },
+    "outside_gate": [
+      "CAR product",
+      "log determinant",
+      "heat kernel",
+      "Wick rotation",
+      "regulator",
+      "finite counterterm",
+      "Euclidean continuation"
+    ],
+    "required_independent_inputs": [
+      "finite pure-state kinematics premise",
+      "deterministic odd-periodic response sequence and trivial-holonomy background",
+      "self-adjoint BID generator and domain",
+      "unique one-dimensional root ray",
+      "complete physical tangent map",
+      "real cochain complex d0,d1 and exact stabilizers",
+      "unique no-extra-flux lift Q_flux",
+      "four-dimensional scale-cancellation proof and anisotropy test",
+      "rank-20-plus-parity local tensor extraction and certified odd-L limit",
+      "frozen Lorentzian Hodge operator and exact commutator test",
+      "canonical boundary gauge phase-space premise and Legendre map"
+    ],
+    "pass_rule": "every required input and computation passes without a measured coupling, physical interval, target-selected ansatz, or post-result tolerance; the local response is Maxwell/Hodge compatible and the canonical map returns one dimensionless kappa_BR",
+    "fail_rule": "missing deterministic object or map, failed scale cancellation, rank/locality/convergence/verification failure, surviving zero-flux lift, failed Hodge test, free symplectic scale, direct positive/indefinite identification, post-result choice, or determinant/regulator/counterterm entry"
+  },
+  "review_stage_semantics": {
+    "specification_seal": {
+      "requires": [
+        "immutable V010 specification bundle",
+        "formal/type SPEC-SEAL report",
+        "physics/operator SPEC-SEAL report",
+        "independent full-stack red-team SPEC-SEAL report"
+      ],
+      "result_flags_remain_false": true
+    },
+    "core_result_seal": {
+      "requires": [
+        "SPEC-SEAL",
+        "executed Gates 1-5",
+        "composition-loop result",
+        "formal core-result report",
+        "physics/operator core-result report",
+        "independent red-team core-result report",
+        "independent core reconstruction"
+      ]
+    },
+    "parent_comparison": {
+      "requires": [
+        "CORE-RESULT-SEAL",
+        "predeclared comparison map"
+      ]
+    },
+    "final_claim_seal": {
+      "requires": [
+        "PARENT-COMPARISON",
+        "passed A32 outcome-blind holdout",
+        "charged response and alpha computation",
+        "passed A33 independent end-to-end reconstruction",
+        "formal final-claim review",
+        "physics/operator final-claim review",
+        "independent red-team final-claim review"
+      ],
+      "proof_authorized_iff_true": true
+    },
+    "unqualified_SEAL_status_forbidden": true,
+    "required_review_roles_each_stage": [
+      "formal type/category",
+      "physics/operator",
+      "independent full-stack red team"
+    ]
+  },
+  "core_required_gates": [
+    "joint_comparison_group",
+    "first_opening_topology_accounting",
+    "Hilbert_functor_classification",
+    "differential_uniqueness",
+    "primitive_effective_classification_and_generation",
+    "composition_loop_prediction",
+    "formal core-result review",
+    "physics/operator core-result review",
+    "independent red-team core-result review",
+    "independent core reconstruction"
+  ],
+  "post_core_seal_gate": "parent_reproduction_or_correction",
+  "composition_loop_prediction": {
+    "complex": "unfilled oriented square 1-skeleton",
+    "vertices": ["v_00", "v_10", "v_01", "v_11"],
+    "edges": [
+      "e_a0:v_00->v_10",
+      "e_0b:v_00->v_01",
+      "e_ab:v_10->v_11",
+      "e_ba:v_01->v_11"
+    ],
+    "holonomy": "u_ab*u_a0*(u_ba*u_0b)^(-1)=exp(i*Phi)",
+    "gauge": {
+      "u_a0": "1",
+      "u_ab": "1",
+      "u_0b": "1",
+      "u_ba": "exp(-i*Phi)"
+    },
+    "evaluation_point": "Phi=pi",
+    "carrier": "full C0 direct-sum C1, dimension 8",
+    "two_cell_included": false,
+    "ordered_bases": {
+      "C0": ["v_00", "v_10", "v_01", "v_11"],
+      "C1": ["e_a0", "e_0b", "e_ab", "e_ba"]
+    },
+    "incidence_matrix_rows": [
+      ["-1", "-1", "0", "0"],
+      ["1", "0", "-1", "0"],
+      ["0", "1", "0", "-1"],
+      ["0", "0", "1", "exp(-i*Phi)"]
+    ],
+    "block_matrix": "[[0_4,D_square],[D_square^dagger,0_4]]",
+    "characteristic_polynomial": "det(z*I_8-B_square)",
+    "outputs": [
+      "exact characteristic polynomial",
+      "ordered eight-eigenvalue multiset",
+      "exact kernel multiplicity",
+      "Tr(B^2)",
+      "Tr(B^4)",
+      "Tr(B^4)/Tr(B^2)^2"
+    ],
+    "symbolic_result_authoritative": true,
+    "independent_numerical_precision_decimal_digits": 100,
+    "counts_as_empirical_holdout": false
+  },
+  "external_holdout_protocol": {
+    "historical_target_blindness_recoverable": false,
+    "custodian_manifest_before_selection": [
+      "canonical observable identifier and definition",
+      "units, kinematic domain, and public source identifier",
+      "eligibility metadata needed for prediction",
+      "commitment hash to withheld value, uncertainty, and covariance",
+      "attestation of no outcome disclosure"
+    ],
+    "eligibility": [
+      "outcome absent from the complete historical lineage",
+      "computable from sealed BID with no new fitted parameter or channel-specific coefficient",
+      "public independently measured value and uncertainty",
+      "not alpha or a deterministic re-expression of alpha"
+    ],
+    "selector": "lowest SHA256(H_spec || UTF8(canonical_id)) among eligible IDs",
+    "human_choice_among_eligible_candidates": false,
+    "prediction_before_unmasking": "complete prediction map, code, units, uncertainty propagation, and pass/fail statistic are content-addressed while outcome remains masked",
+    "unmasking": "custodian reveals selected outcome only after prediction commitment and supplies commitment opening",
+    "contamination_audit": "search complete accessible lineage and access logs before unmasking",
+    "fail_closed_conditions": [
+      "prior outcome access",
+      "empty eligible set",
+      "candidate-universe change",
+      "commitment failure",
+      "prediction-map edit after unmasking"
+    ],
+    "internal_loop_is_empirical_holdout": false
+  },
+  "forbidden_construction_inputs": [
+    "measured electromagnetic coupling",
+    "particle mass",
+    "cosmological endpoint",
+    "previous alpha coefficient",
+    "target-selected carrier",
+    "target-selected operator",
+    "target-selected relative weight",
+    "pinned historical parent before CORE-RESULT-SEAL"
+  ],
+  "status": {
+    "BID_v010_forward_declared": true,
+    "BID_v010_specification_sealed": false,
+    "historical_target_blindness_established": false,
+    "common_total_action_character_premise_declared": true,
+    "comparison_gauge_ray_U1_roles_related_but_not_identified": true,
+    "first_opening_star_premise_declared": true,
+    "seven_dimensional_carrier_counts_as_new_evidence": false,
+    "general_a_b_incidence_family_frozen": true,
+    "general_positive_Hilbert_forms_frozen_as_competitors": true,
+    "D_x_counterfamily_mandatory": true,
+    "differential_naturality_frozen": true,
+    "full_B_intertwining_assumed": false,
+    "Hilbert_elementary_cell_isometry_hypothesis_declared": true,
+    "Hilbert_degree_two_included": true,
+    "nonflat_face_connection_admitted": true,
+    "endpoint_chain_tangent_face_maps_frozen": true,
+    "periodic_translation_complete_test_object_frozen": true,
+    "universal_path_star_algebra_and_I_adic_completion_frozen": true,
+    "exact_filtration_order_requires_nonzero_symbol": true,
+    "Lorentzian_contraction_frozen": true,
+    "Euclidean_Wick_map_used": false,
+    "augmentation_is_edge_local_not_global": true,
+    "general_c_d_augmentation_family_frozen": true,
+    "orientation_choice_invariance_equation_frozen": true,
+    "independent_reversed_coefficient_pair_frozen": true,
+    "operational_public_closure_principle_declared": true,
+    "canonical_public_collapse_ray_declared": true,
+    "public_collapse_naturality_and_orientation_tests_frozen": true,
+    "equal_endpoint_ratio_inserted_into_hostile_family": false,
+    "equal_endpoint_ratio_gate_passed": false,
+    "unit_character_phase_fixed": true,
+    "transition_magnitudes_fixed": false,
+    "single_operator_completeness_postulate_declared": true,
+    "independent_primitive_F2_axiomatically_disallowed": true,
+    "independent_primitive_Pauli_axiomatically_disallowed": true,
+    "primitive_F2_theorem_excluded": false,
+    "primitive_Pauli_theorem_excluded": false,
+    "generated_F2_coefficient_computed": false,
+    "generated_Pauli_coefficient_computed": false,
+    "kinematic_Pauli_coefficient_computed": false,
+    "finite_pure_state_kinematics_premise_declared": true,
+    "finite_pure_state_kinematics_counts_as_alpha_evidence": false,
+    "unitary_response_provenance_rule_frozen": true,
+    "deterministic_periodic_response_sequence_frozen": true,
+    "trivial_holonomy_background_and_root_embedding_frozen": true,
+    "dimensionless_BID_generator_frozen": true,
+    "physical_record_interval_required_for_dimensionless_alpha": false,
+    "four_dimensional_scale_cancellation_test_frozen": true,
+    "rank_20_plus_parity_local_tensor_extraction_frozen": true,
+    "Lorentzian_Hodge_operator_frozen": true,
+    "canonical_boundary_phase_space_premise_declared": true,
+    "alpha_convention_map_frozen": true,
+    "outcome_blind_holdout_protocol_frozen": true,
+    "projective_orbit_map_frozen": true,
+    "projective_orbit_pullback_computed": false,
+    "componentwise_gauge_stabilizer_quotient_frozen": true,
+    "physical_flux_subspace_frozen": true,
+    "unique_flux_lift_proved": false,
+    "positive_response_and_Lorentz_action_separated": true,
+    "source_free_Maxwell_energy_response_proved": false,
+    "canonical_Hamiltonian_to_action_map_proved": false,
+    "Lorentz_scalar_face_response_proved": false,
+    "unitary_response_inputs_complete": false,
+    "unitary_response_provenance_gate_passed": false,
+    "joint_group_gate_passed": false,
+    "first_opening_accounting_gate_passed": false,
+    "Hilbert_functor_gate_passed": false,
+    "differential_uniqueness_gate_passed": false,
+    "primitive_effective_gate_passed": false,
+    "composition_loop_prediction_sealed": false,
+    "formal_spec_review_report_sealed": false,
+    "physics_operator_spec_review_report_sealed": false,
+    "independent_red_team_spec_review_report_sealed": false,
+    "formal_core_result_review_report_sealed": false,
+    "physics_operator_core_result_review_report_sealed": false,
+    "independent_red_team_core_result_review_report_sealed": false,
+    "independent_core_reconstruction_sealed": false,
+    "BID_core_result_sealed": false,
+    "parent_reproduced_or_corrected": false,
+    "BID_parent_comparison_completed": false,
+    "BID_final_claim_sealed": false,
+    "external_unused_holdout_preregistered": false,
+    "independent_end_to_end_reconstruction_sealed": false,
+    "formal_final_claim_review_report_sealed": false,
+    "physics_operator_final_claim_review_report_sealed": false,
+    "independent_red_team_final_claim_review_report_sealed": false,
+    "spectral_evaluation_authorized": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

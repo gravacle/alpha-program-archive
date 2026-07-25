@@ -1,0 +1,64 @@
+{
+  "actual_time_dependent_parent_used": true,
+  "alpha_computed": false,
+  "authorities_verified": 8,
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "coupling_evaluation_authorized": false,
+  "final_source_ray_selected_after_evolution": false,
+  "finite_actual_parent_record_amplitude_derived": false,
+  "finite_fock_completed_record_baseline_derived": true,
+  "fock_sector_dimension": 70,
+  "gaussian_shortcut_negative_control": {
+    "completed_kraus_vacuum_block": 0.0,
+    "determinant_shortcut_used": false,
+    "one_particle_completed_transfer_norm": 0.714899583886226,
+    "single_Gamma_k_representation_excluded": true
+  },
+  "ideal_projector_chain_used": false,
+  "inherited_spectral_dimension": 8,
+  "kappa_record_computed": false,
+  "many_source_lift_hermiticity_errors": {
+    "cell_0": 6.581493846249767e-16,
+    "cell_1": 9.818080490175785e-16,
+    "free": 0.0
+  },
+  "neutral_zero_particle_completed_amplitude": {
+    "derived_from_dGamma_vacuum_block": true,
+    "imag": 0.0,
+    "real": 0.0
+  },
+  "no_target_access_attestation": true,
+  "norm_errors": {
+    "after_first": 3.872457909892546e-13,
+    "after_second": 6.06736882957648e-13
+  },
+  "occupied_particle_count": 4,
+  "one_cell_completed_amplitude": {
+    "absolute": 0.5344059478408374,
+    "imag": -0.19428764927664235,
+    "real": -0.49783734936846613
+  },
+  "overall_verdict": "FINITE_FOCK_COMPLETED_RECORD_BASELINE_DERIVED",
+  "proof_authorized": false,
+  "record_dimension": 9,
+  "same_incoming_slater_bra_used": true,
+  "schema": "stage8_t7_finite_fock_completed_record_amplitude_v001",
+  "spec_sha256": "a6ea52ac1d8eba379b0a8f3e7a8d388d26094ec54da07fab3fae947669a27adf",
+  "split_convergence_errors": {
+    "100_to_200": 0.0007573276149511315,
+    "200_to_400": 0.00018933374521477376
+  },
+  "split_convergence_ratio": 3.999961095641164,
+  "split_resolutions": [
+    100,
+    200,
+    400
+  ],
+  "two_cell_completed_amplitude": {
+    "absolute": 0.394917589893396,
+    "imag": 0.24716523618271335,
+    "real": 0.30800852070998297
+  },
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

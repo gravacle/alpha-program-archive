@@ -1,0 +1,104 @@
+{
+  "Duhamel_intensive_Hessian_equality_proved": false,
+  "alpha_computed": false,
+  "authorities": [
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE7_QSPEC_REVIEW_CANDIDATE_V002.md",
+      "sha256": "5026afb89b52ead9f309168cb2fa4f06b81039f8dd01b8940f40e64aad679a7e"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_FREE_QUASIFREE_CTP_PROPAGATOR_DERIVATION_V001.md",
+      "sha256": "6f6b822ac8ccf9ea19659f4ccf811268f60a27a361f817ee6513479d63b62546"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md",
+      "sha256": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/COMPLETE_ONE_CELL_CTP_KERNEL_GATE_V001.md",
+      "sha256": "e30f2e631204df2416b9aa38e55c2710db1d676749fcd2fbdb6604388f3ea391"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md",
+      "sha256": "451550c3825288d699db35c7289e408e8314ad042450253b58f32722c4ead46b"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/R3_4_OUTGOING_RECORD_GNS_COMPLETION_RESULT_V001.md",
+      "sha256": "10909b5c21e73ecf655462339a27bd645b8d35e3ad11fb6f8cb204c601992995"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.md",
+      "sha256": "6447eb80c9347e614a1ecfbfef6234e4acec5caadf829a8649fdb5282439aa09"
+    }
+  ],
+  "complete_Qspec_CTP_scalar_closure_derived": true,
+  "complete_final_record_identity_retained": true,
+  "connected_linked_cluster_density_proved": false,
+  "coupling_evaluation_authorized": false,
+  "definition": "Z_K[A_plus,A_minus]=omega_in(W_K[A_minus]^dagger W_K[A_plus])",
+  "determinant_used": false,
+  "disjoint_monoidality_check": {
+    "additive_log_modulus_error": 1.1102230246251565e-16,
+    "amplitude_factorization_error": 4.45221933757606e-16,
+    "direct_factorized_imag": -3.8189233940077077e-17,
+    "direct_factorized_real": 0.9387912809451859,
+    "product_imag": -6.4505510182989655e-18,
+    "product_real": 0.9387912809451864
+  },
+  "finite_normalized_trace_added": false,
+  "interacting_continuum_CTP_amplitude_derived": false,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "one_cell_checks": {
+    "complete_diagonal_kernel_at_0p7": {
+      "imag": 0.0,
+      "real": 1.0
+    },
+    "contractivity_pass": true,
+    "exclusive_preserved_reference_probability_at_0p7": 0.8824210936422444,
+    "exclusive_probability_not_substituted": true,
+    "gamma_curvature_at_zero": "1/4",
+    "max_diagonal_normalization_error": 0.0,
+    "max_formula_error": 2.482534153247273e-16,
+    "max_hermiticity_error": 0.0,
+    "rows": [
+      {
+        "absolute": 1.0,
+        "imag": 0.0,
+        "real": 1.0,
+        "theta_minus": 0.0,
+        "theta_plus": 0.0
+      },
+      {
+        "absolute": 0.9689124217106448,
+        "imag": 0.23971276930210147,
+        "real": 0.9387912809451864,
+        "theta_minus": 0.2,
+        "theta_plus": 0.7
+      },
+      {
+        "absolute": 0.7960837985490559,
+        "imag": -0.4817790927085965,
+        "real": 0.6337494143122937,
+        "theta_minus": 0.9,
+        "theta_plus": -0.4
+      },
+      {
+        "absolute": 0.7648421872844884,
+        "imag": 0.4927248649942301,
+        "real": 0.5849835714501204,
+        "theta_minus": -0.3,
+        "theta_plus": 1.1
+      }
+    ]
+  },
+  "overall_verdict": "COMPLETE_QSPEC_RELATIVE_HISTORY_CTP_CLOSURE_DERIVED",
+  "physical_Thomson_stiffness_computed": false,
+  "primitive_source_scalarization_derived": false,
+  "proof_authorized": false,
+  "public_outcome_postselected": false,
+  "schema": "complete_qspec_relative_history_ctp_amplitude_v001",
+  "source_ray_or_covector_added": false,
+  "spec_sha256": "ddb51c32e1ec45e6145be4c688f2af5fa87823ab20b4f523fc4657823165e544",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

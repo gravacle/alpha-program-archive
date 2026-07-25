@@ -1,0 +1,25 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "2": {
+      "independent_direction_operator_norm_errors": [
+        3.885780586188048e-16,
+        3.885780586188048e-16,
+        3.885780586188048e-16
+      ]
+    },
+    "4": {
+      "independent_direction_operator_norm_errors": [
+        9.715759086178311e-15,
+        1.085949918141916e-14,
+        1.0514178383279952e-14
+      ]
+    }
+  },
+  "independent_formula": "closed Hermite sum plus exact factorial form for I/pi",
+  "kappa_record_computed": false,
+  "matrix_artifact_sha256": "395141f2d3146d638b5c395b14a06eaa347701aec4f3cd6715befc6f8cda2464",
+  "pass": true,
+  "proof_authorized": false,
+  "schema": "stage8_t7_exact_hermite_mixed_covariance_verification_v001"
+}

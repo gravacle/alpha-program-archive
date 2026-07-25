@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "authorities": [
+    {
+      "path": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md",
+      "sha256": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+      "status": {
+        "preparation_uniqueness_proved": false,
+        "spectral_evaluation_authorized": false
+      }
+    },
+    {
+      "path": "CAUSAL_DIRECT_LIMIT_ARCHITECTURE_ADJUDICATION_RESULT_V001.md",
+      "sha256": "9be3f55fd527b9a857bdd4ea2298105e44a69e85db79b90772ecb30001aba022",
+      "status": {
+        "unique_covariant_spectral_measure_derived": false
+      }
+    },
+    {
+      "path": "CAUSAL_DIRECT_LIMIT_COVECTOR_RAY_LIFT_RESULT_V001.md",
+      "sha256": "7c81c625c41adae66e4c72f4b4e351507760bca74e68f555053fac87ae70c859",
+      "status": {
+        "outgoing_record_algebra_subobligation_closed": true,
+        "unique_covariant_spectral_measure_derived": false
+      }
+    },
+    {
+      "path": "R3_3_INTRINSIC_CELL_MEASURE_DERIVATION_RESULT_V001.md",
+      "sha256": "e60aec3c44cfc5f1ef5715d3445e53783b0185ef93e54d94e442ff1df2ae9b59",
+      "status": {
+        "uniform_flat_cell_measure_derived": true
+      }
+    },
+    {
+      "path": "FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.md",
+      "sha256": "a27a2d571273494a0787e2283734ef1405d74dadfe16d64d3450bb4536e50732",
+      "status": {
+        "complete_parameter_free_Q_spec_frozen": false
+      }
+    },
+    {
+      "path": "BID_FINITE_RECORD_DURABILITY_NO_GO_V001.md",
+      "sha256": "2a13fde30c38bc2670d58ce870c9964527c4591651f5bc504371b26812b97124",
+      "status": {
+        "finite_closed_BID_parent_establishes_durability": false
+      }
+    }
+  ],
+  "physical_provenance_obligations": {
+    "finite_to_continuum_scaling_derived": false,
+    "strong_resolvent_unbounded_limit_derived": false,
+    "self_adjoint_outgoing_domain_derived": false,
+    "positive_energy_projector_and_measure_derived": false,
+    "finite_root_to_continuum_state_map_derived": false,
+    "operator_spectral_measure_computed": false,
+    "gapped_and_point_spectrum_competitors_excluded": false,
+    "physical_durability_carrier_identified": false
+  }
+}

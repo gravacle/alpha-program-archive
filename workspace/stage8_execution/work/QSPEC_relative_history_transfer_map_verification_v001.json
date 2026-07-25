@@ -1,0 +1,37 @@
+{
+  "alpha_computed": false,
+  "connected_K_cell_amplitude_constructed": false,
+  "connected_linked_cluster_density_proved": false,
+  "coupling_evaluation_authorized": false,
+  "hash_checks": {
+    "COMPLETE_QSPEC_RELATIVE_HISTORY_TRANSFER_MAP_SPEC_V001.md": true,
+    "scripts/derive_complete_qspec_relative_history_transfer_map_v001.py": true,
+    "stage8_execution/work/QSPEC_relative_history_transfer_map_v001.json": true
+  },
+  "independent_general_test": {
+    "cell_count": 3,
+    "diagonal_trace_error": 2.237726045655905e-16,
+    "full_overlap_imag": 0.08652634929662553,
+    "full_overlap_real": -0.20549258070946969,
+    "identity_error": 2.7755575615628914e-17,
+    "maximum_kraus_completeness_error": 9.616108834133312e-16,
+    "record_dimension": 2,
+    "seed": 20260725,
+    "source_dimension": 3,
+    "transfer_overlap_imag": 0.08652634929662553,
+    "transfer_overlap_real": -0.2054925807094697
+  },
+  "kappa_record_computed": false,
+  "local_Maxwell_response_derived": false,
+  "pass": true,
+  "physical_Thomson_stiffness_computed": false,
+  "physical_regression_rechecked": {
+    "diagonal_trace_error": 2.080558000289007e-13,
+    "transfer_full_error": 1.3260272705898195e-15
+  },
+  "proof_authorized": false,
+  "protected_statuses_verified": true,
+  "schema": "complete_qspec_relative_history_transfer_map_verification_v001",
+  "verdict": "INDEPENDENT_RELATIVE_HISTORY_TRANSFER_MAP_CONFIRMED",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

@@ -1,0 +1,453 @@
+{
+  "alpha_computed": false,
+  "anchor_certificate": {
+    "anchor_defect_below_1e_minus_10": true,
+    "anchor_defect_norm_infinity_upper": "[2.196458657382034741094490467017288991251092785135788898e-13 +/- 3.35e-68]",
+    "anchor_defect_norm_one_upper": "[1.163602006331267995306879734075857067758497991279003005e-13 +/- 2.06e-68]",
+    "anchor_defect_norm_two_upper": "[1.598688118600191132759891317811846542834617136948102532e-13 +/- 3.38e-68]",
+    "trace_norm_squared_ball": "[5.00000000000000040003188917026536640398402727703981932911 +/- 1.05e-57]"
+  },
+  "arb_precision_bits": 192,
+  "authorities": {
+    "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/.proof_deps/python_flint/flint/__init__.py": "b959e94c11c23633c0cbfea849a07955b8f252fc3100fd2ed52bd3c35118ba93",
+    "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/.proof_deps/python_flint/python_flint-0.6.0.dist-info/METADATA": "d6b5be0f3a94ff92ad45f8e9d8991ac8face10ab71e362b8b9f25819df4ef06b",
+    "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/.proof_deps/python_flint/python_flint-0.6.0.dist-info/RECORD": "9b76e8ba99a8555fa73c855c2459614714f25136238c1c96fa6c82dad5b9cf94",
+    "COMPLETE_QSPEC_PERIODIC_UNIFORM_ZERO_FREE_THEOREM_REVIEW_CORRECTION_V001.md": "8d2ab3a0102cb4e8ba7ab925773e1a6fd08b763202859688b14ea4cd12f39650",
+    "COMPLETE_QSPEC_ZERO_TRANSFER_DYADIC_BALL_CERTIFICATE_SPEC_V001.md": "ada56f525f4a5a9708545e29e62e7e5f0e2dd762d37f168429284194c7babd95",
+    "scripts/verify_complete_qspec_periodic_analytic_continuation_v003.py": "1cd9528bc6872a3a28df828a452a165f8672cccc455a64323edab9e0905bf69d",
+    "stage8_execution/work/QSPEC_periodic_uniform_zero_free_theorem_v001.json": "048d18a2ac666639a44ec0d52b584a412ece9fdeb90837abffa86e831fc652e0"
+  },
+  "coupling_evaluation_authorized": false,
+  "elapsed_seconds": 2.4286818504333496,
+  "exact_object": "frozen_96_slice_binary64_dyadic_zero_transfer",
+  "flint_threads": 4,
+  "generic_target_blindness_claimed": false,
+  "graph_enclosure_certificate": {
+    "T_minus_lambda_P_spectral_remainder_norm_upper": {
+      "decimal": "0.8120000324800006506000097840001307200016360000196480002293600026224000295120003280000036088000393760",
+      "denominator": 24330899756691000000000000000000,
+      "numerator": 19756691392700731927007299756691
+    },
+    "T_minus_unit_P_R0_norm_upper": {
+      "decimal": "0.8120000325800006556000099040001327200016640000200080002337600026744000301120003348000036848000402160",
+      "denominator": 4999999900000000500000000000000000,
+      "numerator": 4060000081700000426000000250000001
+    },
+    "anchor_allowance": {
+      "decimal": "1E-10",
+      "denominator": 10000000000,
+      "numerator": 1
+    },
+    "anchor_complement_bound": {
+      "decimal": "0.812",
+      "denominator": 250,
+      "numerator": 203
+    },
+    "anchor_graph_radius": {
+      "decimal": "1E-8",
+      "denominator": 100000000,
+      "numerator": 1
+    },
+    "arithmetic": "exact_rational",
+    "final_required_ceiling": {
+      "decimal": "0.813",
+      "denominator": 1000,
+      "numerator": 813
+    },
+    "leading_eigenvalue_modulus_lower": {
+      "decimal": "0.999999999899999999",
+      "denominator": 1000000000000000000,
+      "numerator": 999999999899999999
+    },
+    "leading_eigenvalue_unit_shift_upper": {
+      "decimal": "1.00000001E-10",
+      "denominator": 1000000000000000000,
+      "numerator": 100000001
+    },
+    "left_Sylvester_gap": {
+      "decimal": "0.187999999899999998",
+      "denominator": 500000000000000000,
+      "numerator": 93999999949999999
+    },
+    "left_graph_radius": {
+      "decimal": "5.319148938999547364565173481146872751303373603319589696482479661103337016357941616183341459224560523E-10",
+      "denominator": 93999999949999999,
+      "numerator": 50000000
+    },
+    "pass": true,
+    "right_graph_Lipschitz_bound": {
+      "decimal": "2.829334543526001014942114093664354624718728657089015291948184836570025763115009715909391561682228654E-19",
+      "denominator": 35343999962399999634000000200000001,
+      "numerator": 10000000000000000
+    },
+    "right_graph_complement_bound": {
+      "decimal": "0.812000000000000001",
+      "denominator": 1000000000000000000,
+      "numerator": 812000000000000001
+    },
+    "right_graph_gap": {
+      "decimal": "0.187999999899999999",
+      "denominator": 1000000000000000000,
+      "numerator": 187999999899999999
+    },
+    "right_graph_map_radius": {
+      "decimal": "5.319148938999547336271828045886862451385714313965073844586285629913310678604344137094388788903101149E-10",
+      "denominator": 187999999899999999,
+      "numerator": 100000000
+    },
+    "similarity_condition_bound": {
+      "decimal": "1.000000040000000800000012000000160000002000000024000000280000003200000036000000400000004400000048000",
+      "denominator": 9999999800000001,
+      "numerator": 10000000200000001
+    },
+    "spectral_projector_norm_upper": {
+      "decimal": "1.000000040000000800000012000000160000002000000024000000280000003200000036000000400000004400000048000",
+      "denominator": 9999999800000001,
+      "numerator": 10000000200000001
+    }
+  },
+  "imported_flint_module_origins": [
+    "flint/__init__.py",
+    "flint/flint_base/__init__.py",
+    "flint/flint_base/flint_base.cpython-39-darwin.so",
+    "flint/flint_base/flint_context.cpython-39-darwin.so",
+    "flint/functions/__init__.py",
+    "flint/functions/showgood.cpython-39-darwin.so",
+    "flint/pyflint.cpython-39-darwin.so",
+    "flint/types/__init__.py",
+    "flint/types/acb.cpython-39-darwin.so",
+    "flint/types/acb_mat.cpython-39-darwin.so",
+    "flint/types/acb_poly.cpython-39-darwin.so",
+    "flint/types/acb_series.cpython-39-darwin.so",
+    "flint/types/arb.cpython-39-darwin.so",
+    "flint/types/arb_mat.cpython-39-darwin.so",
+    "flint/types/arb_poly.cpython-39-darwin.so",
+    "flint/types/arb_series.cpython-39-darwin.so",
+    "flint/types/arf.cpython-39-darwin.so",
+    "flint/types/dirichlet.cpython-39-darwin.so",
+    "flint/types/fmpq.cpython-39-darwin.so",
+    "flint/types/fmpq_mat.cpython-39-darwin.so",
+    "flint/types/fmpq_poly.cpython-39-darwin.so",
+    "flint/types/fmpq_series.cpython-39-darwin.so",
+    "flint/types/fmpz.cpython-39-darwin.so",
+    "flint/types/fmpz_mat.cpython-39-darwin.so",
+    "flint/types/fmpz_mod.cpython-39-darwin.so",
+    "flint/types/fmpz_mod_mat.cpython-39-darwin.so",
+    "flint/types/fmpz_mod_poly.cpython-39-darwin.so",
+    "flint/types/fmpz_mpoly.cpython-39-darwin.so",
+    "flint/types/fmpz_poly.cpython-39-darwin.so",
+    "flint/types/fmpz_series.cpython-39-darwin.so",
+    "flint/types/nmod.cpython-39-darwin.so",
+    "flint/types/nmod_mat.cpython-39-darwin.so",
+    "flint/types/nmod_poly.cpython-39-darwin.so",
+    "flint/types/nmod_series.cpython-39-darwin.so",
+    "flint/utils/__init__.py",
+    "flint/utils/flint_exceptions.py"
+  ],
+  "imported_numpy_module_origins_non_authoritative": [
+    "numpy/__init__.py",
+    "numpy/__config__.py",
+    "numpy/_core/__init__.py",
+    "numpy/_core/_add_newdocs.py",
+    "numpy/_core/_add_newdocs_scalars.py",
+    "numpy/_core/_asarray.py",
+    "numpy/_core/_dtype.py",
+    "numpy/_core/_dtype_ctypes.py",
+    "numpy/_core/_exceptions.py",
+    "numpy/_core/_internal.py",
+    "numpy/_core/_machar.py",
+    "numpy/_core/_methods.py",
+    "numpy/_core/_multiarray_tests.cpython-39-darwin.so",
+    "numpy/_core/_multiarray_umath.cpython-39-darwin.so",
+    "numpy/_core/_string_helpers.py",
+    "numpy/_core/_type_aliases.py",
+    "numpy/_core/_ufunc_config.py",
+    "numpy/_core/arrayprint.py",
+    "numpy/_core/einsumfunc.py",
+    "numpy/_core/fromnumeric.py",
+    "numpy/_core/function_base.py",
+    "numpy/_core/getlimits.py",
+    "numpy/_core/memmap.py",
+    "numpy/_core/multiarray.py",
+    "numpy/_core/numeric.py",
+    "numpy/_core/numerictypes.py",
+    "numpy/_core/overrides.py",
+    "numpy/_core/records.py",
+    "numpy/_core/shape_base.py",
+    "numpy/_core/umath.py",
+    "numpy/_distributor_init.py",
+    "numpy/_expired_attrs_2_0.py",
+    "numpy/_globals.py",
+    "numpy/_pytesttester.py",
+    "numpy/_typing/__init__.py",
+    "numpy/_typing/_array_like.py",
+    "numpy/_typing/_char_codes.py",
+    "numpy/_typing/_dtype_like.py",
+    "numpy/_typing/_nbit.py",
+    "numpy/_typing/_nested_sequence.py",
+    "numpy/_typing/_scalars.py",
+    "numpy/_typing/_shape.py",
+    "numpy/_utils/__init__.py",
+    "numpy/_utils/_convertions.py",
+    "numpy/_utils/_inspect.py",
+    "numpy/dtypes.py",
+    "numpy/exceptions.py",
+    "numpy/lib/__init__.py",
+    "numpy/lib/_array_utils_impl.py",
+    "numpy/lib/_arraypad_impl.py",
+    "numpy/lib/_arraysetops_impl.py",
+    "numpy/lib/_arrayterator_impl.py",
+    "numpy/lib/_datasource.py",
+    "numpy/lib/_function_base_impl.py",
+    "numpy/lib/_histograms_impl.py",
+    "numpy/lib/_index_tricks_impl.py",
+    "numpy/lib/_iotools.py",
+    "numpy/lib/_nanfunctions_impl.py",
+    "numpy/lib/_npyio_impl.py",
+    "numpy/lib/_polynomial_impl.py",
+    "numpy/lib/_scimath_impl.py",
+    "numpy/lib/_shape_base_impl.py",
+    "numpy/lib/_stride_tricks_impl.py",
+    "numpy/lib/_twodim_base_impl.py",
+    "numpy/lib/_type_check_impl.py",
+    "numpy/lib/_ufunclike_impl.py",
+    "numpy/lib/_utils_impl.py",
+    "numpy/lib/_version.py",
+    "numpy/lib/array_utils.py",
+    "numpy/lib/format.py",
+    "numpy/lib/introspect.py",
+    "numpy/lib/mixins.py",
+    "numpy/lib/npyio.py",
+    "numpy/lib/scimath.py",
+    "numpy/lib/stride_tricks.py",
+    "numpy/linalg/__init__.py",
+    "numpy/linalg/_linalg.py",
+    "numpy/linalg/_umath_linalg.cpython-39-darwin.so",
+    "numpy/linalg/linalg.py",
+    "numpy/matrixlib/__init__.py",
+    "numpy/matrixlib/defmatrix.py",
+    "numpy/version.py"
+  ],
+  "kappa_record_computed": false,
+  "midpoint_diagnostics_not_used_as_proof": {
+    "diagnostic_H_maximum_eigenvalue": 0.6593439999999999,
+    "diagnostic_H_minimum_eigenvalue": 0.0007360680344735133,
+    "diagnostic_complement_norm": 0.8115466295694437,
+    "diagnostic_preconditioner_unitarity_defect": 3.703925915411178e-14
+  },
+  "no_alpha_or_coupling_target_access_attestation": true,
+  "numpy_role": "reconstructs a canonically hash-pinned dyadic object and supplies a non-authoritative congruence preconditioner",
+  "numpy_version": "2.0.2",
+  "pass": true,
+  "physical_Thomson_stiffness_computed": false,
+  "proof_authorized": false,
+  "python_flint_version": "0.6.0",
+  "python_isolated_mode": true,
+  "schema": "complete_qspec_zero_transfer_dyadic_ball_certificate_v001",
+  "scope": {
+    "all_stage8_regulators_zero_free_proved": false,
+    "continuous_time_parent_R0_certified": false,
+    "frozen_dyadic_numerical_regulator_only": true,
+    "periodic_connected_linked_cluster_density_proved": false,
+    "periodic_thermodynamic_log_density_proved": false,
+    "periodic_volume_uniform_zero_free_neighborhood_proved": false
+  },
+  "script_sha256": "26e76a3f3625bdcddf3324bde28b94dd58f75454a8edbcacc5872c43356db015",
+  "singular_value_certificate": {
+    "c_bar": "0.812",
+    "conclusion": "operator_norm_R_strictly_below_0.812",
+    "congruence_H": {
+      "Hermitian_defect_contains_zero": true,
+      "diagonal_imaginary_contains_zero": true,
+      "dimension": 350,
+      "minimum_lower_margin": "[0.0007360680344617212632317603292761594966476549237445025030 +/- 9.40e-59]",
+      "pass": true
+    },
+    "pass": true,
+    "preconditioner_Gram": {
+      "Hermitian_defect_contains_zero": true,
+      "diagonal_imaginary_contains_zero": true,
+      "dimension": 350,
+      "minimum_lower_margin": "[0.9999999999999644828511111383035678013020833795595354751 +/- 5.55e-56]",
+      "pass": true
+    }
+  },
+  "target_access_statement": "The rational 0.812 enclosure was selected after the midpoint diagnostic; no alpha or coupling target enters the certificate.",
+  "trace_column_canonical_hex_sha256": "07506154f602a1fa17e32c81f4bc377e547868eb4bf540ed11248949afea0876",
+  "transfer_canonical_hex_sha256": "69d6a95de251be3e3aa83d7344c7961b2023f41416399b760d3096fcde83718b",
+  "transfer_dimension": 350,
+  "validated_frozen_dyadic_R0_enclosure_proved": true,
+  "verdict": "FROZEN_DYADIC_ZERO_TRANSFER_R0_CERTIFIED",
+  "wheel_record_verification": {
+    "native_payload": [
+      {
+        "path": "flint/.dylibs/libflint.18.0.dylib",
+        "sha256_urlsafe_base64": "Eio2n7FEhbJyiQaygfPDLlHDHkKV6eaouihdGmIe_AM",
+        "size": 12354736
+      },
+      {
+        "path": "flint/.dylibs/libgmp.10.dylib",
+        "sha256_urlsafe_base64": "rGpAkY9ty-5cFUlBzE8Jk1yhxzg8DandNnc3L6hl0Ac",
+        "size": 485232
+      },
+      {
+        "path": "flint/.dylibs/libmpfr.6.dylib",
+        "sha256_urlsafe_base64": "e0zPJ9Z5jXbzG9HdbXSGN8DBxDTNSnyddUK7dUwD3WU",
+        "size": 467504
+      },
+      {
+        "path": "flint/flint_base/flint_base.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "rlSt6ouf5xPNgYYUAyMxJw95biKiJievOgo5L4EKY3U",
+        "size": 203040
+      },
+      {
+        "path": "flint/flint_base/flint_context.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "vtwOfjEDHK5GCnkDcCKSj38Pn6cUx1xfc6xcGZprUP4",
+        "size": 122768
+      },
+      {
+        "path": "flint/functions/showgood.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "9ZKyi4yh-HQHSvieodhUF35C7L5rbhaAZD-T0eDmwVU",
+        "size": 165760
+      },
+      {
+        "path": "flint/pyflint.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "8lB1Jqi9zuIUwBLaoRdR0UUhnDxlCiu_L0X98Mf7B8I",
+        "size": 77184
+      },
+      {
+        "path": "flint/types/acb.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "DJvwfB-Y8ApiyxGO_krEnHkkkU7idWH3GqdQMQdByRg",
+        "size": 543872
+      },
+      {
+        "path": "flint/types/acb_mat.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "2ALldjfncqLo3JRYyRWWMbQqqtcgbgN_zyRM7eCD2-g",
+        "size": 218944
+      },
+      {
+        "path": "flint/types/acb_poly.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "8ofIHpGGH2y4HBFq01ysHD2q-8on7Frfsw5skwoa53o",
+        "size": 178864
+      },
+      {
+        "path": "flint/types/acb_series.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "HtRel4eOBwvfWugWdGP1b9E0Lc6NgVX9Ad8KdIZi-cI",
+        "size": 222592
+      },
+      {
+        "path": "flint/types/arb.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "GCwWugRT5dSbGt2I-OitQHC7EXh57MqPdmbFJJRAXAE",
+        "size": 502992
+      },
+      {
+        "path": "flint/types/arb_mat.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "I19pTKnvyzIM_gTQUZIeq5Fgrmq6UMXxZPgfT4Ht7-c",
+        "size": 218384
+      },
+      {
+        "path": "flint/types/arb_poly.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "qSQezf8BMWmf13JIN-n9LWS_2vgJWQNniqrBkAs0N-A",
+        "size": 177120
+      },
+      {
+        "path": "flint/types/arb_series.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "YR22r2RJD3CgxHfsfWPqmZrUZJC4sb0KAdvURPjkMik",
+        "size": 246944
+      },
+      {
+        "path": "flint/types/arf.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "5kO58jTCmYcmudSeKRHtFkQR9trC325Or0hpoepo9bk",
+        "size": 121408
+      },
+      {
+        "path": "flint/types/dirichlet.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "1MHKqC1MzV1SfCX6MtaUX0B0qQzmyPXt01XhH-9MDlk",
+        "size": 124800
+      },
+      {
+        "path": "flint/types/fmpq.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "K3EezpG1hK9o_ehe2swzrJVh_EKIcM6iRr3qZyPzIIc",
+        "size": 162240
+      },
+      {
+        "path": "flint/types/fmpq_mat.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "4YUTfU9J3lYPBmHcw-7Hfih6hYp084ztgpOFkAzR7OM",
+        "size": 163360
+      },
+      {
+        "path": "flint/types/fmpq_poly.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "teylHBm3gCpY1N3ZAgj9VlGljKqY2357h7C-DzWV1GU",
+        "size": 184336
+      },
+      {
+        "path": "flint/types/fmpq_series.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "7LMKmXVMUhVfsy9-BIQW98OSnCWKMHKUo7qWJoyXIn4",
+        "size": 183344
+      },
+      {
+        "path": "flint/types/fmpz.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "-HBz51QAxPGrqCBZ-xlMQluFhKrn3GdDELvSCl_92xY",
+        "size": 207760
+      },
+      {
+        "path": "flint/types/fmpz_mat.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "SrM2Mk6MdnzDBP7lHUXkU4uMksVVsCWbpQKjhgLQzx0",
+        "size": 203488
+      },
+      {
+        "path": "flint/types/fmpz_mod.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "o3tchc1Awf0qPmY2xa-exz1LnWOE3VmrL0nH_g_7nzI",
+        "size": 165104
+      },
+      {
+        "path": "flint/types/fmpz_mod_mat.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "l590AUYvxeEAP6sJTtmzcXzyQBI72pxctTYHxESkao4",
+        "size": 231568
+      },
+      {
+        "path": "flint/types/fmpz_mod_poly.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "7Gon7ktVCywDlZiOC3_CXUsPrYrpWCRQk_A5Vjy5v-o",
+        "size": 321424
+      },
+      {
+        "path": "flint/types/fmpz_mpoly.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "us0OHQm7yrDAmkvqOUMchUtEDmy5h4yZ7Wvp_3Eh1MA",
+        "size": 202592
+      },
+      {
+        "path": "flint/types/fmpz_poly.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "YYlV6ZA_qHXSMasSCT09Z_9sIWgKDUQ6ubIvp0vrliM",
+        "size": 186256
+      },
+      {
+        "path": "flint/types/fmpz_series.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "CTsgB5BAhCUg5RlRzess4aNw-mVcvu6cL6-fMN8lt2k",
+        "size": 159744
+      },
+      {
+        "path": "flint/types/nmod.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "gCVaFbATGfRReGc78hnqG0aumrpQLxY4-YcrxH2Ks9A",
+        "size": 119552
+      },
+      {
+        "path": "flint/types/nmod_mat.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "iYupHX34p8lXFMf0i8R2uuwc8eySJajTeQjpgitp4Kk",
+        "size": 165328
+      },
+      {
+        "path": "flint/types/nmod_poly.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "SLO2-HBllMOuOvoiRr1POlA5dNCXYAsBBh6twzXRFVI",
+        "size": 185792
+      },
+      {
+        "path": "flint/types/nmod_series.cpython-39-darwin.so",
+        "sha256_urlsafe_base64": "QMN5J9dfs2juyRB59VZY-tJ32RTd_YXiVr40X9Af-4M",
+        "size": 96832
+      }
+    ],
+    "verified_hashed_files": 185,
+    "verified_native_files": 33
+  },
+  "zero_support_invariance_residual_binary64": 1.556582229217841e-14
+}

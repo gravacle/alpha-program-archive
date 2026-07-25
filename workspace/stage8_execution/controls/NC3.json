@@ -1,0 +1,12 @@
+{
+  "behaved_as_predeclared": true,
+  "control": "NC3",
+  "evidence": {
+    "Lorentz_covariant": false,
+    "survives_as_nonuniform_without_Lorentz_input": true,
+    "translation_character": "exp(k_mu a^mu) for nonzero real k",
+    "translation_covariant": true
+  },
+  "schema": "stage8-negative-control-v001",
+  "sha256_of_body": "2b88d58af2842d3f44992b615f200ff23d2056062a26fb375bebbae1063431e6"
+}

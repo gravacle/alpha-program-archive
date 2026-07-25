@@ -1,0 +1,60 @@
+{
+  "P1_P2_exact_baseline_table": {
+    "at_least_one_zero_baseline": true,
+    "compressed_source_operators": {
+      "N1": "P0",
+      "N2": "P1 P0",
+      "N3": "P2 P1 P0"
+    },
+    "in_out_functional_is_not_a_state_expectation": true,
+    "off_diagonal_in_out_amplitudes": {
+      "N1": "1",
+      "N2": "-1/2",
+      "N3": "1/4"
+    },
+    "state_expectation_amplitudes": {
+      "N1": {
+        "I_over_4": "1/4",
+        "P0": "1",
+        "P1": "1/4",
+        "P2": "0"
+      },
+      "N2": {
+        "I_over_4": "1/16",
+        "P0": "1/4",
+        "P1": "1/4",
+        "P2": "0"
+      },
+      "N3": {
+        "I_over_4": "0",
+        "P0": "0",
+        "P1": "1/16",
+        "P2": "0"
+      }
+    },
+    "state_expectations_not_unique": true
+  },
+  "P3_state_selection_audit": {
+    "finite_energy_charged_excitation_status": "INCOMING_BOUNDARY_DATA",
+    "minimal_nonuniqueness_theorem": "On a charged sector of dimension greater than one, distinct normalized spectral functions of h0 commute with h0 and Q; stationarity plus charge superselection therefore does not select one density operator.",
+    "ordinary_branch_quasifree_state_status": "DISCLOSED_BRANCH_STATE",
+    "parent_state_covariance_requires_parent_selected_state": true,
+    "relay_selects_source_functional": false,
+    "unique_physical_charged_in_state_derived": false
+  },
+  "all_finite_connected_baselines_nonzero_proved": false,
+  "alpha_computed": false,
+  "connected_linked_cluster_density_proved": false,
+  "connected_preparation_derived": false,
+  "connected_primitive_amplitude_derived": false,
+  "coupling_evaluation_authorized": false,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "overall_verdict": "T7_CONNECTED_PREPARATION_BLOCKED_AFTER_RELAY",
+  "proof_authorized": false,
+  "relay_dependency_resolved": true,
+  "relayed_family_resolved": true,
+  "schema": "stage8_t7_relayed_connected_preparation_retest_v001",
+  "spec_sha256": "47fe0d5f6b97899ae17a5ea682222fd0ca48f81c16d4e581219af64f6135f111",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS_SOURCE_RECORD_GENERATOR_STRUCTURE_ALGEBRA_ONLY",
+  "source_odd_record_changing_basis": [
+    "XX",
+    "XY",
+    "YX",
+    "YY"
+  ],
+  "unconstrained_real_dimension": 4,
+  "conditional_conserved_exchange_basis": [
+    "XX+YY",
+    "XY-YX"
+  ],
+  "conditional_conserved_real_dimension": 2,
+  "combined_grading_conservation_derived": false,
+  "exchange_magnitude_derived": false,
+  "physical_record_interval_derived": false,
+  "durable_record_dynamics_derived": false,
+  "source_mass_derived": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "scope": "finite_operator_structure_only"
+}

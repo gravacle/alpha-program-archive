@@ -1,0 +1,12 @@
+{
+  "behaved_as_predeclared": true,
+  "control": "NC2",
+  "evidence": {
+    "coarse_valence_weighted_sum": 4,
+    "counterexample": "one square face versus two triangles sharing one diagonal",
+    "packing_fence_failed": true,
+    "refined_valence_weighted_sum": 6
+  },
+  "schema": "stage8-negative-control-v001",
+  "sha256_of_body": "58cf44b8073084e082f547d714c4a91e1908ad945e9fc9034a0d8cc1d2159830"
+}

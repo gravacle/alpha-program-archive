@@ -1,0 +1,28 @@
+{
+  "alpha_computed": false,
+  "authority_hashes_verified": true,
+  "corrected_parent_normalization_frozen": false,
+  "coupling_evaluation_authorized": false,
+  "equivalent_correct_forms": [
+    "tau_R/V4 * M(t)",
+    "tau_R*w(t) * M(t)/V3(t)"
+  ],
+  "exact": {
+    "V3_left_half": "(4*pi/3)*t^3",
+    "V4": "pi/24",
+    "old_parent_full_cell_uniform_test": "2*pi/21",
+    "old_to_uniform_pointwise_ratio_left_half": "(4*pi/3)*t^3",
+    "time_marginal_integral": "1",
+    "time_marginal_left_half": "32*t^3",
+    "uniform_measure_full_cell_integral": "1"
+  },
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "old_hermite_amplitudes_physical_baseline": false,
+  "old_parent_counts_slice_volume_twice": true,
+  "old_parent_equals_uniform_intrinsic_action": false,
+  "overall_verdict": "PARENT_NORMALIZATION_DOUBLE_COUNTS_SLICE_VOLUME",
+  "proof_authorized": false,
+  "schema": "stage8_t7_intrinsic_measure_parent_normalization_v001",
+  "spec_sha256": "4841ea8afabf7fce7062cf8641e6ca9dda3b01e0fa7623435916e70eff9b5a5e"
+}

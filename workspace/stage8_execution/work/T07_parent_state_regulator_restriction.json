@@ -1,0 +1,80 @@
+{
+  "alpha_computed": false,
+  "authorities_verified": 7,
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "continuum_covariance_representative_independent": true,
+  "continuum_zero_set_measure_zero": true,
+  "coupling_evaluation_authorized": false,
+  "finite_actual_parent_record_amplitude_derived": false,
+  "finite_restriction_rule": "C_n=Q_n C Q_n",
+  "kappa_record_computed": false,
+  "large_cohort": {
+    "covariance_hermiticity_error": 0.0,
+    "covariance_idempotence_error": 6.280369834735101e-16,
+    "covariance_rank": 8,
+    "dimension": 16,
+    "dispersion_error": 0.0,
+    "expected_half_dimension_rank": 8,
+    "fock_covariance_error": null,
+    "fock_density_trace": null,
+    "momenta": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "zero_eigenvalue_count": 0
+  },
+  "momentum_inversion_pairs_retained": true,
+  "nested_covariance_restriction_error": 0.0,
+  "new_zero_mode_filling_adopted": false,
+  "no_target_access_attestation": true,
+  "old_three_site_regression_used_as_state_regulator": false,
+  "overall_verdict": "PARENT_STATE_REGULATOR_RESTRICTION_DERIVED",
+  "parent_state_regulator_restriction_derived": true,
+  "proof_authorized": false,
+  "schema": "stage8_t7_parent_state_regulator_restriction_v001",
+  "small_cohort": {
+    "covariance_hermiticity_error": 0.0,
+    "covariance_idempotence_error": 4.440892098500626e-16,
+    "covariance_rank": 4,
+    "dimension": 8,
+    "dispersion_error": 0.0,
+    "expected_half_dimension_rank": 4,
+    "fock_covariance_error": 4.440892098500626e-16,
+    "fock_density_trace": 1.0,
+    "momenta": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "zero_eigenvalue_count": 0
+  },
+  "spec_sha256": "3d598a19588ff79aea830f0c906f1ed3478d852efe94b0da278fe7921a4838c6",
+  "thermal_parameter_introduced": false,
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

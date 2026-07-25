@@ -1,0 +1,173 @@
+{
+  "sealed_inputs": {
+    "spec_sha256": "e25cc20a95a0b6318389348ceacac93eccd2aebb0720350f08131d9e988cb6d3",
+    "provenance_sha256": "979e4d7b34cd692ca049a06e13925c601c19d5743b91622d81035dace3b1e549",
+    "authorities": [
+      {
+        "path": "R3_4_OUTGOING_TAIL_GENERATOR_EXHAUSTION_RESULT_V001.md",
+        "sha256": "49f4d5cfcedb9add80c7ca4395b1e318f55936b413f447d325bbdc7a47edeb4f",
+        "status": {
+          "reduced_public_tail_zero_form_exhausted": true,
+          "complete_asymptotic_tail_zero_form_exhausted": false
+        }
+      },
+      {
+        "path": "R3_4_CAUSAL_DIAMOND_SPECTRAL_PULLBACK_RESULT_V002.md",
+        "sha256": "7869536ee4fd67365b907be86995ae16b68e64a20a10294631b2d6fede11b953",
+        "status": {
+          "conditional_scalar_density_computed": true,
+          "operator_derived_root_spectral_measure_computed": false
+        }
+      },
+      {
+        "path": "BID_PUBLIC_RECORD_HILBERTIZATION_DERIVATION_V001.md",
+        "sha256": "b0e9454a5bb7ff331a9f56c3db5b0b7bc4b1182e061c911209ac57ae34f53dbf",
+        "status": {
+          "public_record_counting_metric_derived_from_disclosed_quantum_record_axioms": true
+        }
+      },
+      {
+        "path": "BID_BOUNDARY_METRIC_TRANSPORT_DERIVATION_V001.md",
+        "sha256": "52187f8174b203d3cf2acb641d800f45ae733331cc0f3d56658898ed7daec244",
+        "status": {
+          "boundary_metric_edge_transport_isometry_derived": true
+        }
+      },
+      {
+        "path": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md",
+        "sha256": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+        "status": {
+          "dimensionless_BID_generator_frozen": true,
+          "spectral_evaluation_authorized": false
+        }
+      },
+      {
+        "path": "R3_3_INTRINSIC_CELL_MEASURE_DERIVATION_RESULT_V001.md",
+        "sha256": "e60aec3c44cfc5f1ef5715d3445e53783b0185ef93e54d94e442ff1df2ae9b59",
+        "status": {
+          "uniform_flat_cell_measure_derived": true
+        }
+      }
+    ],
+    "write_defect_obligations": {
+      "complete_write_tail_factorization_derived": false,
+      "compact_defect_spectrum_computed": false,
+      "bound_modes_excluded": false,
+      "point_spectrum_excluded_for_complete_operator": false,
+      "enlarged_tail_factors_exhausted": false
+    }
+  },
+  "target_firewall": {
+    "alpha_used": false,
+    "measured_constants_used": false,
+    "desired_decay_used_as_selector": false
+  },
+  "operator": {
+    "continuum_carrier": "L2(R^3; C direct-sum C^3)",
+    "continuum_symbol": "[[0,d(k)^dagger],[d(k),0]], d(k)=i*k",
+    "self_adjoint_domain": "{psi in L2: h(k) psi(k) is in L2}, Fourier-multiplier maximal domain",
+    "self_adjointness_certificate": "measurable Hermitian matrix multiplier on its maximal domain",
+    "cellular_symbol": "d_a,j=(exp(i*a*k_j)-1)/a",
+    "strong_resolvent_certificate": "pointwise resolvent convergence plus ||(h_a-z)^-1||<=1/|Im z| and dominated convergence",
+    "unitary_convergence_certificate": "pointwise exp(-it h_a)->exp(-it h) with unit norm domination",
+    "checks": {
+      "spacings": [
+        1.0,
+        0.5,
+        0.25,
+        0.125,
+        0.0625
+      ],
+      "symbol_errors": [
+        {
+          "a": 1.0,
+          "maximum_error": 0.8740579123534138
+        },
+        {
+          "a": 0.5,
+          "maximum_error": 0.45124977803338745
+        },
+        {
+          "a": 0.25,
+          "maximum_error": 0.22743546101152007
+        },
+        {
+          "a": 0.125,
+          "maximum_error": 0.11394508967255222
+        },
+        {
+          "a": 0.0625,
+          "maximum_error": 0.057000997217281156
+        }
+      ],
+      "resolvent_errors": [
+        {
+          "a": 1.0,
+          "maximum_error": 0.3975978492110425
+        },
+        {
+          "a": 0.5,
+          "maximum_error": 0.20363123635332675
+        },
+        {
+          "a": 0.25,
+          "maximum_error": 0.1024227936746912
+        },
+        {
+          "a": 0.125,
+          "maximum_error": 0.05128738923541016
+        },
+        {
+          "a": 0.0625,
+          "maximum_error": 0.025653196631943445
+        }
+      ],
+      "symbol_error_monotone": true,
+      "resolvent_error_monotone": true,
+      "cellular_operator_norm_formula": "2*sqrt(3)/a",
+      "uniform_boundedness_as_a_to_zero": false,
+      "continuum_symbol_hermitian": true,
+      "projector_resolution": true,
+      "projector_orthogonality": true,
+      "root_projector_weights": {
+        "positive": 0.5,
+        "negative": 0.5,
+        "transverse_zero": 0.0
+      }
+    }
+  },
+  "root_measure": {
+    "waist_ball_radius": "1/2",
+    "waist_ball_volume": "pi/6",
+    "normalized_root": "1_B/sqrt(Vol(B)) in scalar 0-form sector",
+    "ball_equals_diamond_null_shell_form_factor": true,
+    "positive_projector_weight": "1/2",
+    "negative_projector_weight": "1/2",
+    "transverse_zero_projector_weight": "0",
+    "positive_conditioned_radial_prefactor": "1/(12*pi)",
+    "density": "E^2 |F_B(E)|^2/(12*pi)=48[sin(E/2)-(E/2)cos(E/2)]^2/(pi E^4)",
+    "normalized": true,
+    "root_measure_has_point_atom": false,
+    "full_truncated_operator_has_transverse_zero_eigenspace": true,
+    "sharp_root_in_Hilbert_space": true,
+    "sharp_root_in_generator_domain": false,
+    "sharp_root_mean_energy_finite": false,
+    "mean_energy_obstruction": "rho(E)=O(E^-2), so integral E*rho(E)dE diverges logarithmically"
+  },
+  "status": {
+    "verdict": "FREE_FLAT_TAIL_OPERATOR_AND_ROOT_MEASURE_DERIVED_WRITE_DEFECT_OPEN",
+    "free_flat_continuum_scaling_derived": true,
+    "strong_resolvent_limit_derived_in_flat_cubical_branch": true,
+    "self_adjoint_free_outgoing_domain_derived": true,
+    "positive_energy_projector_derived": true,
+    "operator_derived_positive_branch_root_measure_computed": true,
+    "physical_positive_energy_record_branch_selected": false,
+    "finite_energy_physical_root_derived": false,
+    "complete_write_defect_spectrum_closed": false,
+    "complete_outgoing_root_spectral_measure_derived": false,
+    "hypothesis_promoted_to_principle": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

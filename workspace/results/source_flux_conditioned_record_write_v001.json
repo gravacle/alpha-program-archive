@@ -1,0 +1,25 @@
+{
+  "status": "PASS_SOURCE_FLUX_WRITE_FIXED_ACTIVE_PHASE_OPEN",
+  "source_flux_spectrum": [
+    0,
+    1
+  ],
+  "zero_flux_branch_identity": true,
+  "unit_flux_branch_record_write": true,
+  "source_flux_nondemolition": true,
+  "integrated_record_changing_generator": "(pi/2)*Q_Sigma_tensor_Y_up_to_rephasing",
+  "source_flux_conditioned_write_operator_derived": true,
+  "active_branch_identity_phase_changes_record_density": false,
+  "active_branch_identity_phase_changes_branch_vector": true,
+  "source_conditioned_identity_phase_fixed": false,
+  "complete_source_record_operator_derived": false,
+  "post_closure_pointer_coefficient_derived": false,
+  "source_odd_scalar_pseudoscalar_coefficient_derived": false,
+  "physical_durability_derived": false,
+  "record_generated_source_mass_derived": false,
+  "spectral_evaluation_authorized": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "primitive_zero_or_one_flux_record_changing_operator_only"
+}

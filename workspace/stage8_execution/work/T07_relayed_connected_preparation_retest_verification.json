@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "authority_status_preserved": true,
+    "baseline_table_recomputed_from_gram": true,
+    "blocked_verdict_matches": true,
+    "in_out_not_substituted": true,
+    "in_out_table_recomputed_from_gram": true,
+    "no_target_access": true,
+    "protected_flags_false": true,
+    "reported_spec_verified": true,
+    "sealed_spec_verified": true,
+    "zero_and_state_dependence_real": true
+  },
+  "construction_script_imported": false,
+  "independent_gram_matrix": [
+    [
+      "1",
+      "-1/2",
+      "0"
+    ],
+    [
+      "-1/2",
+      "1",
+      "-1/2"
+    ],
+    [
+      "0",
+      "-1/2",
+      "1"
+    ]
+  ],
+  "pass": true,
+  "schema": "stage8_t7_relayed_connected_preparation_retest_verification_v001"
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "r3.4-lorentzian-threshold-return-v001",
+  "spec_sha256": "a12920c62740d8251b32fecf70da1e62096b734cd6f57d84c0804c5b3204f9c2",
+  "spec_seal_verified": true,
+  "upstream_hashes_verified": 5,
+  "target_values_used": false,
+  "record_eigenvalues": [
+    -1.4142135623730951,
+    -8.109357550611348e-17,
+    1.4142135623730954
+  ],
+  "dirac_internal_anticommutator_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "dimensionless_mu": 2.221441469079183,
+  "dimensionless_massive_threshold": 3.1415926535897936,
+  "gaussian_profile_used_only_as_regression": true,
+  "gaussian_radial_density_normalization": 1.0,
+  "gaussian_return_amplitudes": {
+    "0.0": 1.0,
+    "1.0": -0.2853795848992293,
+    "2.0": 0.24188751149587348,
+    "4.0": 0.2065195670736576,
+    "8.0": 0.05182772915717084
+  },
+  "direct_matrix_return_amplitudes": {
+    "0.0": {
+      "real": 0.9999999999999998,
+      "imag": 0.0
+    },
+    "1.0": {
+      "real": -0.2853795848992292,
+      "imag": -1.6521299436062772e-18
+    },
+    "2.0": {
+      "real": 0.24188751149587354,
+      "imag": 8.186338117314424e-19
+    },
+    "4.0": {
+      "real": 0.20651956707365787,
+      "imag": 6.872260574862402e-17
+    },
+    "8.0": {
+      "real": 0.05182772915717136,
+      "imag": 1.7696383422795317e-16
+    }
+  },
+  "direct_radial_max_difference": 6.973808770209953e-16,
+  "point_momentum_root_return_negative_control": {
+    "0.0": 1.0,
+    "1.0": 0.0,
+    "2.0": 1.0,
+    "4.0": 1.0,
+    "8.0": 1.0
+  },
+  "nonflat_band_spectrum_derived": true,
+  "L2_root_spectral_measure_absolutely_continuous": true,
+  "L2_root_spectral_density_integrable": true,
+  "Riemann_Lebesgue_threshold_return_derived_for_this_H": true,
+  "point_momentum_root_excluded_from_L2_theorem": true,
+  "complete_outgoing_generator_identified": false,
+  "parent_selected_physical_root_derived": false,
+  "finite_energy_physical_root_derived": false,
+  "positive_frequency_state_derived_from_parent": false,
+  "generated_descendant_spectrum_exhausted": false,
+  "complete_write_defect_bound_states_excluded": false,
+  "complete_physical_durability_derived": false,
+  "complete_parameter_free_Q_spec_frozen": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "LORENTZIAN_L2_THRESHOLD_RETURN_THEOREM_DERIVED"
+}

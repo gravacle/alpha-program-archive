@@ -1,0 +1,44 @@
+{
+  "alpha_computed": false,
+  "counterfamily_verified": true,
+  "independent_method": "normalized-incidence Gram products",
+  "no_target_access_attestation": true,
+  "pass": true,
+  "primary_sha256": "0442795982753c2c62a940c827efde9c08fe1c4664a6c202d3aaaec8badf6aab",
+  "proof_authorized": false,
+  "reconstructed_rows": [
+    {
+      "N": 1,
+      "causal_initial_to_final_line_return": "1",
+      "normalized_trace": "1/4",
+      "state_expectations": {
+        "P0": "1",
+        "P1": "1/4",
+        "P2": "0"
+      }
+    },
+    {
+      "N": 2,
+      "causal_initial_to_final_line_return": "-1/2",
+      "normalized_trace": "1/16",
+      "state_expectations": {
+        "P0": "1/4",
+        "P1": "1/4",
+        "P2": "0"
+      }
+    },
+    {
+      "N": 3,
+      "causal_initial_to_final_line_return": "1/4",
+      "normalized_trace": "0",
+      "state_expectations": {
+        "P0": "0",
+        "P1": "1/16",
+        "P2": "0"
+      }
+    }
+  ],
+  "schema": "stage8-t7-primitive-connected-scalarization-dichotomy-verifier-v001",
+  "spec_sha256": "fdb7abb30c1db155df95bd062e3bc77ea5a1ba1462689e6004db951e347ab430",
+  "verdict_verified": true
+}

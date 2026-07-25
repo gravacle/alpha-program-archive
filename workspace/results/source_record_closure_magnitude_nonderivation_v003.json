@@ -1,0 +1,38 @@
+{
+  "status": "PASS_DECLARED_TRIAL_FUNCTION_ALGEBRA_ONLY",
+  "trials": [
+    {
+      "declared_n": 1,
+      "stationary_radius_squared": 1,
+      "nonzero_stationarity_residual": 0,
+      "trial_function_value": 0,
+      "radial_second_derivative": 8,
+      "stationarity_condition_verified": true,
+      "positive_radial_second_derivative_verified": true,
+      "physical_stability_derived": false
+    },
+    {
+      "declared_n": 2,
+      "stationary_radius_squared": 2,
+      "nonzero_stationarity_residual": 0,
+      "trial_function_value": 0,
+      "radial_second_derivative": 16,
+      "stationarity_condition_verified": true,
+      "positive_radial_second_derivative_verified": true,
+      "physical_stability_derived": false
+    }
+  ],
+  "declared_trial_stationary_points_differ": true,
+  "measured_target_values_embedded_in_formulas": false,
+  "historical_target_blindness_established": false,
+  "complete_record_dynamics_supplied": false,
+  "physical_closure_stability_derived": false,
+  "two_complete_admissible_closure_actions_exhibited": false,
+  "full_Q_spec_nonuniqueness_proved": false,
+  "closure_magnitude_presently_derived": false,
+  "record_generated_source_mass_derived": false,
+  "spectral_evaluation_authorized": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "scope": "declared_trial_polynomial_algebra_and_missing_derivation_only"
+}

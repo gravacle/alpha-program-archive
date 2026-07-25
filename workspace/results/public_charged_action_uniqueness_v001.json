@@ -1,0 +1,52 @@
+{
+  "absolute_Maxwell_stiffness_selected": false,
+  "alpha_computed": false,
+  "checks": {
+    "admissible_stiffnesses_give_distinct_absolute_responses": true,
+    "admissible_stiffnesses_give_distinct_couplings": true,
+    "finite_local_mutations_leave_positive_survivors": true,
+    "multiple_positive_stiffnesses_are_admissible": true,
+    "scope_flags_fail_closed": true,
+    "sealed_v003_authority_unchanged": true,
+    "target_literal_guard_passes": true,
+    "upstream_microscopic_exhaustion_correction_passes_fail_closed": true
+  },
+  "complete_public_charged_action_unique": false,
+  "coupling_evaluation_authorized": false,
+  "failed_checks": [],
+  "finite_mutations_tested": [
+    "-0.125",
+    "0",
+    "0.125",
+    "0.75"
+  ],
+  "inverse_response_values": [
+    "4",
+    "2",
+    "1",
+    "0.5",
+    "0.125",
+    "0.03125"
+  ],
+  "overall": "PASS_PRE_ALPHA_PRINCIPLES_DO_NOT_SELECT_ABSOLUTE_CHARGED_ACTION_ALPHA_FALSE",
+  "primitive_unit_character_holonomy_derived": true,
+  "proof_authorized": false,
+  "stiffnesses_tested": [
+    "0.25",
+    "0.5",
+    "1",
+    "2",
+    "8",
+    "32"
+  ],
+  "unique_finite_coincident_extension_derived": false,
+  "unit_character_coupling_values": [
+    "0.31830988618379067153776752674502872406891929148091348728340602660194779378292070",
+    "0.15915494309189533576888376337251436203445964574045674364170301330097389689146035",
+    "0.079577471545947667884441881686257181017229822870228371820851506650486948445730175",
+    "0.039788735772973833942220940843128590508614911435114185910425753325243474222865088",
+    "0.0099471839432434584855552352107821476271537278587785464776064383313108685557162719",
+    "0.0024867959858108646213888088026955369067884319646946366194016095828277171389290680"
+  ],
+  "zero_bare_condition_removes_finite_local_mutation": false
+}

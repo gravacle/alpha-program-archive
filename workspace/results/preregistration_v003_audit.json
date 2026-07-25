@@ -1,0 +1,63 @@
+{
+  "all_pre_alpha_source_paths_resolved_and_hash_checked": true,
+  "alpha_computed": false,
+  "bad_execution_flags": [],
+  "candidate_action_evaluation_authorized": false,
+  "checks": {
+    "claim_ceiling_remains_level_1": true,
+    "every_pre_alpha_source_resolves_and_matches_hash": true,
+    "only_symbolic_work_is_authorized": true,
+    "sealed_v002_contract_hash_matches": true,
+    "sealed_v002_preregistration_hash_matches": true,
+    "target_literal_guard_passes": true
+  },
+  "coupling_evaluation_authorized": false,
+  "current_claim_ceiling": "LEVEL_1",
+  "failed_checks": [],
+  "overall": "PASS_V003_RESOLVED_PROVENANCE_SYMBOLIC_ONLY_ALPHA_FALSE",
+  "proof_authorized": false,
+  "source_resolution": [
+    {
+      "actual_sha256": "3598fbd4c0053331f34e2d32f4028fa6a1791683b2b460a8b7b16e919e12787d",
+      "declared_path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_surface_manuscript_v159.md",
+      "declared_sha256": "3598fbd4c0053331f34e2d32f4028fa6a1791683b2b460a8b7b16e919e12787d",
+      "exists": true,
+      "matches": true,
+      "resolved_path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_surface_manuscript_v159.md"
+    },
+    {
+      "actual_sha256": "0b0ef6ea4802d0aba43b237163d326802985f7f3f9a9e078f447965e0ca27e7b",
+      "declared_path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v156_single_handle_recombination_theorem.md",
+      "declared_sha256": "0b0ef6ea4802d0aba43b237163d326802985f7f3f9a9e078f447965e0ca27e7b",
+      "exists": true,
+      "matches": true,
+      "resolved_path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v156_single_handle_recombination_theorem.md"
+    },
+    {
+      "actual_sha256": "b8d31174686407557de096524fce5b4e8f21b03e047b88b8a349e1a3cc903d08",
+      "declared_path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v253_record_formation_derives_asl.md",
+      "declared_sha256": "b8d31174686407557de096524fce5b4e8f21b03e047b88b8a349e1a3cc903d08",
+      "exists": true,
+      "matches": true,
+      "resolved_path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v253_record_formation_derives_asl.md"
+    },
+    {
+      "actual_sha256": "fa87f8d87cdd35a1c484133bb9d680a52c7f9e8e0ac0122ac85d731d9374da09",
+      "declared_path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v252_action_support_derives_njh.md",
+      "declared_sha256": "fa87f8d87cdd35a1c484133bb9d680a52c7f9e8e0ac0122ac85d731d9374da09",
+      "exists": true,
+      "matches": true,
+      "resolved_path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v252_action_support_derives_njh.md"
+    },
+    {
+      "actual_sha256": "ca7722c479bd1c0af2ca06e050835b2b9420c7f3ae1c823490dd3268a275567b",
+      "declared_path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v251_boundary_recoverability_master_theorem.md",
+      "declared_sha256": "ca7722c479bd1c0af2ca06e050835b2b9420c7f3ae1c823490dd3268a275567b",
+      "exists": true,
+      "matches": true,
+      "resolved_path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v251_boundary_recoverability_master_theorem.md"
+    }
+  ],
+  "symbolic_model_space_derivation_authorized": true,
+  "target_literal_hits": []
+}

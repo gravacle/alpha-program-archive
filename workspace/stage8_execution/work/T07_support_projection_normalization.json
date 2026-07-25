@@ -1,0 +1,35 @@
+{
+  "alpha_computed": false,
+  "authority_hashes_verified": true,
+  "coupling_evaluation_authorized": false,
+  "exact": {
+    "full_support_fraction": "1",
+    "partial_support_witness_fraction": "1/2",
+    "slice_normalized_multiplier": "M(t)/V3(t)",
+    "slice_normalized_tip_behavior": "unbounded as r(t)^(-3)",
+    "support_projector_spectrum": [
+      "0",
+      "1"
+    ],
+    "tau_eff_full_support": "tau_R",
+    "tau_eff_partial_witness": "tau_R/2",
+    "time_marginal_integral": "1"
+  },
+  "finite_energy_full_support_state_derived": false,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "overall_verdict": "SUPPORT_PROJECTION_NORMALIZATION_DERIVED",
+  "proof_authorized": false,
+  "schema": "stage8_t7_support_projection_normalization_v001",
+  "sharp_cell_implementability_proved": false,
+  "spec_sha256": "cb88ef62a36597b67bf8a2415ed335741a8f5f4c1f86646e7e95d3581b45b312",
+  "support_projection_normalization_derived": true,
+  "theorem": {
+    "equality_requires_full_support_almost_everywhere": true,
+    "extra_scalar_changes_unit_incidence": true,
+    "positive_measure_deficit_is_strict": true,
+    "scalar_density_test_is_not_normalized_state_expectation": true,
+    "slice_normalized_candidate_rejected": true,
+    "support_fraction_bounds": true
+  }
+}

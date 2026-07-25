@@ -1,0 +1,169 @@
+{
+  "absolute_record_interval_derived": false,
+  "alpha_computed": false,
+  "analytic_obligations": {
+    "bounded_compact_time_perturbation_common_domain": true,
+    "continuum_regulator_independence_derived": false,
+    "finite_compact_support_Moller_limits_exist": true,
+    "finite_output_record_state_restriction_compatible": true,
+    "incoming_pullback_is_dressed_monomorphism": true,
+    "infinite_future_Moller_limit_derived": false,
+    "quasilocal_output_record_state_exists": true,
+    "reduced_record_persistence_exact": true,
+    "root_return_and_record_recoverability_kept_distinct": true,
+    "same_parent_supplies_asymptotic_quasifree_state": true,
+    "same_parent_supplies_free_tail": true,
+    "sharp_intrinsic_envelope_strong_limit": true,
+    "source_inclusive_state_projective_limit_derived": false,
+    "unique_unitary_propagator": true
+  },
+  "authority_hashes": {
+    "BID_CHARGED_CELLULAR_CPT_INTERTWINER_DERIVATION_V001.md": {
+      "actual": "0322763ac48a4428b432124a6947da81826a41f612efa6803ee9a87317929b98",
+      "expected": "0322763ac48a4428b432124a6947da81826a41f612efa6803ee9a87317929b98",
+      "matches": true
+    },
+    "BID_COMPLETE_ONE_NORMAL_ZERO_FORM_ENUMERATION_V001.md": {
+      "actual": "50b5a651df2aca90ee47c6f85b2a502461370a652706ebccad871f191565a2d9",
+      "expected": "50b5a651df2aca90ee47c6f85b2a502461370a652706ebccad871f191565a2d9",
+      "matches": true
+    },
+    "BID_FIRST_OPENING_INTERVAL_DERIVATION_V001.md": {
+      "actual": "7471988138233218430c6b6dd07b39f33508a75907557723654dbc712c0c4476",
+      "expected": "7471988138233218430c6b6dd07b39f33508a75907557723654dbc712c0c4476",
+      "matches": true
+    },
+    "BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS_V001.md": {
+      "actual": "949181d78aca143ebef06eacc4ab1018d43cdf79962ee8c78c350f654a7555dd",
+      "expected": "949181d78aca143ebef06eacc4ab1018d43cdf79962ee8c78c350f654a7555dd",
+      "matches": true
+    },
+    "BID_GRADED_BOUNDARY_SUPERCONNECTION_REPAIR_V001.md": {
+      "actual": "2215f79cbe69f1de1643427ad5d422b0c3064ff758327e43ff1629de8633f72d",
+      "expected": "2215f79cbe69f1de1643427ad5d422b0c3064ff758327e43ff1629de8633f72d",
+      "matches": true
+    },
+    "BID_SOURCE_PARENT_CLOSURE_GATE_V003.md": {
+      "actual": "5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf",
+      "expected": "5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf",
+      "matches": true
+    },
+    "BID_UNIQUE_CHARGED_CONTROLLED_COUPLING_DERIVATION_V001.md": {
+      "actual": "b786db3adec8cc335967d49ec13b59923d67f424644f72c535b27b579dd1489f",
+      "expected": "b786db3adec8cc335967d49ec13b59923d67f424644f72c535b27b579dd1489f",
+      "matches": true
+    },
+    "CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md": {
+      "actual": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "expected": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "matches": true
+    },
+    "FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.md": {
+      "actual": "a27a2d571273494a0787e2283734ef1405d74dadfe16d64d3450bb4536e50732",
+      "expected": "a27a2d571273494a0787e2283734ef1405d74dadfe16d64d3450bb4536e50732",
+      "matches": true
+    },
+    "PARENT_STATE_COVARIANCE_PRINCIPLE_V001.md": {
+      "actual": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "expected": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "matches": true
+    },
+    "R3_3_GLOBAL_INTRINSIC_MEASURE_CLASSIFICATION_RESULT_V001.md": {
+      "actual": "e4cfaef14309b3acf5674f8c8faee756f744fec4691d5e01d9de0fa422592be2",
+      "expected": "e4cfaef14309b3acf5674f8c8faee756f744fec4691d5e01d9de0fa422592be2",
+      "matches": true
+    },
+    "R3_3_GLOBAL_INTRINSIC_MEASURE_CLASSIFICATION_V001.seal.sha256": {
+      "actual": "dcab767cf5d38548ae0fc4e30b3c674cc527082e398575907ce53efaae08e199",
+      "expected": "dcab767cf5d38548ae0fc4e30b3c674cc527082e398575907ce53efaae08e199",
+      "matches": true
+    },
+    "R3_4_DRESSED_OUTGOING_RECORD_RANGE_RESULT_V001.md": {
+      "actual": "3240d935ef558948e09dd6a70092a3f3592747b5e5c99ea559d64adc2a5c303e",
+      "expected": "3240d935ef558948e09dd6a70092a3f3592747b5e5c99ea559d64adc2a5c303e",
+      "matches": true
+    },
+    "R3_4_LORENTZIAN_JOINT_ENDPOINT_COMPATIBILITY_RESULT_V001.md": {
+      "actual": "1868656d1881e67c8f6263062b27806f71bcc9de03d7eec0e612085fb47de0cf",
+      "expected": "1868656d1881e67c8f6263062b27806f71bcc9de03d7eec0e612085fb47de0cf",
+      "matches": true
+    },
+    "R3_4_SHARED_SOURCE_OUTGOING_RANGE_ERRATUM_V001.md": {
+      "actual": "5f8e60629f2b0fc703b5b6de02ca2de96ffb9d5e8aa48f961a043c40f8c93f41",
+      "expected": "5f8e60629f2b0fc703b5b6de02ca2de96ffb9d5e8aa48f961a043c40f8c93f41",
+      "matches": true
+    }
+  },
+  "authority_hashes_match": true,
+  "clifford": {
+    "incidence_spin_hermiticity_error": 0.0,
+    "incidence_spin_square_error": 0.0,
+    "kinetic_incidence_anticommutator_error": 0.0,
+    "maximum_relation_error": 0.0,
+    "record_incidence_hermiticity_error": 0.0,
+    "record_incidence_spectrum_error": 2.363894552738742e-16
+  },
+  "complete_causal_source_record_parent_flat_branch": false,
+  "complete_parameter_free_Q_spec_frozen": false,
+  "complete_parent_to_outgoing_GNS_map_derived": false,
+  "construction_uses_alpha": false,
+  "coupling_evaluation_authorized": false,
+  "curved_nonstationary_parent_derived": false,
+  "finite_causal_source_record_parent_derived": true,
+  "finite_parent_regression": {
+    "causal_order_sensitivity": 8.875033157937725,
+    "convergence_errors": {
+      "24_to_48": 0.08345616811516374,
+      "48_to_96": 0.020858809225336367
+    },
+    "convergence_ratio": 4.001003471175759,
+    "dressed_pointer_bare_algebra_distance": 4.0661656130151576,
+    "dressed_pointer_idempotence_error": 1.738509219785075e-13,
+    "dressed_pointer_star_error": 0.0,
+    "finite_Moller_unitarity_error": 4.2563473613543324e-13,
+    "first_pointer_probability_after_first": 0.9252683055811919,
+    "first_pointer_probability_after_second": 0.925268305581202,
+    "free_tail_record_restriction_error": 3.4073163245927074e-16,
+    "later_record_restriction_error": 1.073393071033936e-14,
+    "midpoint_resolutions": [
+      24,
+      48,
+      96
+    ],
+    "record_count": 2,
+    "site_count": 3
+  },
+  "free_tail": {
+    "gaussian_return_samples": {
+      "0.0": 1.0,
+      "1.0": 0.38940039153570244,
+      "2.0": -0.36787944117144233,
+      "4.0": -0.12820947222113926,
+      "8.0": -3.4885904162970328e-06
+    },
+    "maximum_three_dimensional_dispersion_error": 0.0,
+    "record_label_degeneracy_is_invariant_public_sector": true,
+    "source_point_spectrum_absent": true,
+    "source_spectrum_purely_absolutely_continuous": true,
+    "thresholded_return_for_every_L2_source_root": true
+  },
+  "generated_descendants": {
+    "derivative_support_descendant_norm": 9.797958971132712,
+    "full_square_identity_error": 0.0,
+    "independent_descendant_coefficient_used": false,
+    "overlap_descendant_norm": 16.0
+  },
+  "interacting_gauge_infraparticle_spectrum_derived": false,
+  "intrinsic_envelope": {
+    "integral": "1/1",
+    "mean": "1/2",
+    "normalized": true
+  },
+  "numerical_regression_pass": true,
+  "physical_Thomson_stiffness_computed": false,
+  "proof_authorized": false,
+  "schema": "r3.4-complete-causal-superconnection-parent-v001",
+  "specification_seal_matches": true,
+  "specification_sha256": "40890e753463b8c4c49844864f3f4811f15ec5f71fe9c044f9eb7d91428899a9",
+  "verdict": "FINITE_CAUSAL_PARENT_DERIVED_CONTINUUM_COMPLETION_OPEN"
+}

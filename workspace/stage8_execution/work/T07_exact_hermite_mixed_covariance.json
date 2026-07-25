@@ -1,0 +1,88 @@
+{
+  "alpha_computed": false,
+  "clifford_error": 0.0,
+  "coupling_evaluation_authorized": false,
+  "exact_mixed_covariance_derived": true,
+  "gh_sequence_converges_toward_exact": true,
+  "kappa_record_computed": false,
+  "matrix_artifact": "stage8_execution/work/T07_exact_hermite_mixed_covariance.npz",
+  "matrix_artifact_sha256": "395141f2d3146d638b5c395b14a06eaa347701aec4f3cd6715befc6f8cda2464",
+  "n2_inside_n4_operator_norm_error": 0.0,
+  "no_target_access_attestation": true,
+  "overall_verdict": "EXACT_HERMITE_MIXED_COVARIANCE_DERIVED",
+  "physical_regulator_completed_record_baseline_derived": false,
+  "proof_authorized": false,
+  "reports": [
+    {
+      "covariance_hermiticity_error": 0.0,
+      "dimension": 32,
+      "direction_hermiticity_errors": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gh_convergence": {
+        "16": {
+          "operator_norm_from_previous": null,
+          "operator_norm_to_exact": 0.000457401868483911
+        },
+        "20": {
+          "operator_norm_from_previous": 0.00018446795706014677,
+          "operator_norm_to_exact": 0.000289844418766706
+        },
+        "24": {
+          "operator_norm_from_previous": 8.991097100858221e-05,
+          "operator_norm_to_exact": 0.00019993344775812638
+        },
+        "28": {
+          "operator_norm_from_previous": 5.3753605817270954e-05,
+          "operator_norm_to_exact": 0.00014617984194087097
+        },
+        "32": {
+          "operator_norm_from_previous": 3.4669851445974574e-05,
+          "operator_norm_to_exact": 0.00011150999049490591
+        }
+      },
+      "maximum_eigenvalue": 0.960658865961781,
+      "minimum_eigenvalue": 0.03934113403821904,
+      "n": 2
+    },
+    {
+      "covariance_hermiticity_error": 0.0,
+      "dimension": 256,
+      "direction_hermiticity_errors": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gh_convergence": {
+        "16": {
+          "operator_norm_from_previous": null,
+          "operator_norm_to_exact": 0.0030950918333160346
+        },
+        "20": {
+          "operator_norm_from_previous": 0.0014920035287162927,
+          "operator_norm_to_exact": 0.0016043454508967677
+        },
+        "24": {
+          "operator_norm_from_previous": 0.0006691378714857862,
+          "operator_norm_to_exact": 0.0009356007974591899
+        },
+        "28": {
+          "operator_norm_from_previous": 0.00034353659970378324,
+          "operator_norm_to_exact": 0.0006449964447059831
+        },
+        "32": {
+          "operator_norm_from_previous": 0.00019410401849809288,
+          "operator_norm_to_exact": 0.0004874061495800085
+        }
+      },
+      "maximum_eigenvalue": 0.9999375826775826,
+      "minimum_eigenvalue": 6.241732241846398e-05,
+      "n": 4
+    }
+  ],
+  "schema": "stage8_t7_exact_hermite_mixed_covariance_v001",
+  "sharp_cell_implementability_proved": false,
+  "spec_sha256": "0ade34aa99b150756960d6dfbbc2c59749f7d638ce3bf59096148fde4514e55c"
+}

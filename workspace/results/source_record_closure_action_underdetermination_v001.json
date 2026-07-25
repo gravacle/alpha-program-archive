@@ -1,0 +1,18 @@
+{
+  "status": "PASS_CURRENT_PREMISES_DO_NOT_SELECT_CLOSURE_MAGNITUDE",
+  "target_values_used": false,
+  "V1_stable_radius_in_cell_units": "1",
+  "V2_stable_radius_in_cell_units": "sqrt(2)",
+  "V1_stable_radius_squared_in_cell_units": 1,
+  "V2_stable_radius_squared_in_cell_units": 2,
+  "stable_radii_differ": true,
+  "trial_terms_are_complete_Q_spec_models": false,
+  "response_inequivalence_evaluated": false,
+  "complete_record_dynamics_supplied": false,
+  "closure_background_uniquely_derived": false,
+  "record_generated_source_mass_derived": false,
+  "spectral_evaluation_authorized": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "scope": "local_symmetry_level_nonselection_witness_not_complete_Q_spec_pair"
+}

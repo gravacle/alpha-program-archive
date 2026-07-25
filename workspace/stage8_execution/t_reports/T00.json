@@ -1,0 +1,19 @@
+{
+  "M0_M1_M2_identity_requirement": "addressed by authority-identical Gate-3 core re-execution",
+  "authority_pin_count": 30,
+  "authority_spec_sha256": "ddb36cbfe4edfc2a0520e9ae58063295214c64afed5cad5a64e9f311826358f5",
+  "isolated_python_runtime": "/Users/bgm/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "lineage_seal_count": 15,
+  "obligation": "T00",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "raw_execution_sha256": "cd4247717d18ccc597f3fb9bfde59f28b949254eba551e5f9b29b4516cbfd8d2",
+  "reexecuted_core_count": 5,
+  "runtime_blocked_attempt_classification": "environment-only: system isolated Python lacked NumPy",
+  "runtime_blocked_attempt_sha256": "319dfab738e9dbd08c1e87bf9a9b6a5a5b678160b89e6092743fe9985d072431",
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "dbc1d9a6f97d2719458711bc72cf12e14f96f0a63c7f9ef66dfc710b9afd69dc"
+}

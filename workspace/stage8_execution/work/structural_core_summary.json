@@ -1,0 +1,35 @@
+{
+  "T12_precheck_pass": true,
+  "all_completed_pass": true,
+  "alpha_computed": false,
+  "completed_controls": [
+    "NC1",
+    "NC2",
+    "NC3",
+    "NC4",
+    "NC5"
+  ],
+  "completed_reports": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T06",
+    "T08",
+    "T10",
+    "T11",
+    "T16"
+  ],
+  "primitive_output_computed": false,
+  "proof_authorized": false,
+  "response_dependent_reports_not_emitted": [
+    "T05",
+    "T07",
+    "T09",
+    "T12",
+    "T13",
+    "T14",
+    "T15"
+  ],
+  "schema": "stage8-structural-core-v001"
+}

@@ -1,0 +1,37 @@
+{
+  "alpha_computed": false,
+  "coupling_evaluation_authorized": false,
+  "direct_unitary_checks": {
+    "all_pass": true,
+    "baseline": "9/2",
+    "checks": {
+      "H": true,
+      "X": true,
+      "Z": true
+    }
+  },
+  "exact_constraint_solution": {
+    "E00": "1/2",
+    "E01": "0",
+    "E10": "0",
+    "E11": "1/2"
+  },
+  "infinite_trace_obstruction": {
+    "contradiction": true,
+    "tau_identity": "1",
+    "tau_sum_of_two_orthogonal_ranges": "2"
+  },
+  "kappa_record_computed": false,
+  "parent_witness_check": {
+    "authoritative_distance": 2.151758052952419,
+    "exact_decimal_match": true,
+    "reported_distance": 2.151758052952419,
+    "strictly_nonzero": true
+  },
+  "pass": true,
+  "primary_sha256": "da76473baab29ca505a471309144c106292026133fdd1791f105810cf89fdf33",
+  "proof_authorized": false,
+  "schema": "stage8_t7_source_scalarization_no_go_verification_v001",
+  "spec_sha256": "9b8070d4faade0a73c5e2ac575e890c3a7fc01024bb2fcf8d1225d844aa0314d",
+  "verdict": "INDEPENDENT_SOURCE_SCALARIZATION_BLOCK_CONFIRMED"
+}

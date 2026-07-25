@@ -1,0 +1,102 @@
+{
+  "O1_branch_conditioned_exactness": {
+    "exact_closure_unique_in_sealed_competitor_set": true,
+    "stars": {
+      "1": {
+        "designated_transfer_imag": -2.57963595717784e-17,
+        "designated_transfer_real": 0.9999999999999994,
+        "formula_designated_transfer": 1.0,
+        "formula_survival": 0.0,
+        "matrix_formula_error": 5.557105750920295e-16,
+        "max_designated_transfer": 1.0,
+        "max_symmetric_transfer": 1.0,
+        "survival_imag": -2.5796359571778235e-17,
+        "survival_real": -2.4980018054066027e-16
+      },
+      "2": {
+        "designated_transfer_imag": -3.0159640736587986e-16,
+        "designated_transfer_real": 0.5869754201684103,
+        "formula_designated_transfer": 0.5869754201684104,
+        "formula_survival": -0.17395084033682068,
+        "matrix_formula_error": 4.591806314550026e-16,
+        "max_designated_transfer": 0.6666666666666666,
+        "max_symmetric_transfer": 0.9428090415820635,
+        "survival_imag": -4.558128611529027e-16,
+        "survival_real": -0.17395084033682062
+      },
+      "3": {
+        "designated_transfer_imag": 5.48416472775029e-16,
+        "designated_transfer_real": 0.31656383551035394,
+        "formula_designated_transfer": 0.31656383551035394,
+        "formula_survival": 0.05030849346893826,
+        "matrix_formula_error": 8.38244441055752e-16,
+        "max_designated_transfer": 0.5,
+        "max_symmetric_transfer": 0.8660254037844386,
+        "survival_imag": 8.38244441055752e-16,
+        "survival_real": 0.05030849346893826
+      }
+    },
+    "tau_record": 2.221441469079183
+  },
+  "O2_dependency_inversion": {
+    "branch_relay_gram_error": 0.0,
+    "complete_physical_durability_claimed": false,
+    "finite_Qspec_relay": {
+      "1_to_2": {
+        "advanced_state_error": 0.0,
+        "old_pointer_commutator_norm": 0.0,
+        "relay_isometry_norm_error": 0.0,
+        "restriction_error": 0.0
+      },
+      "2_to_3": {
+        "advanced_state_error": 0.0,
+        "old_pointer_commutator_norm": 0.0,
+        "relay_isometry_norm_error": 0.0,
+        "restriction_error": 0.0
+      }
+    },
+    "new_ready_root_supplied": true,
+    "primitive_Qspec_relay_realizes_required_type": true,
+    "prior_records_preserved": true,
+    "type_obstruction": "codomain L_p(c) differs from domain L_r(c+1); direct composition is undefined",
+    "verdict": "DEPENDENCY_INVERSION_DERIVED"
+  },
+  "O3_mixed_interval": {
+    "mixed_designated_endpoint_exact_closure_exists": false,
+    "mixed_symmetric_endpoint_exact_closure_exists": false,
+    "proof": "For m>1, |q_m(t)|<=2/(m+1)<1 and the normalized symmetric amplitude is <=2*sqrt(m)/(m+1)<1.",
+    "replacement_interval_search_authorized": false
+  },
+  "O4_assignment_witness": {
+    "forward_reverse_unitary_norm": 4.898979485566357,
+    "forward_reverse_unitary_norm_square": 24.000000000000004,
+    "shared_source_projector_overlap": 0.25,
+    "strictly_nonzero": true
+  },
+  "O4_endpoint_conditioning_witness": {
+    "component_equality_does_not_identify_operations": true,
+    "endpoint_1_amplitude": 0.5869754201684103,
+    "endpoint_2_amplitude": 0.5869754201684103,
+    "endpoint_vector": [
+      0.5869754201684103,
+      0.5869754201684103
+    ],
+    "inclusive_endpoint_probability": 0.6890802877637636,
+    "normalized_symmetric_endpoint_amplitude": 0.8301085999818119
+  },
+  "alpha_computed": false,
+  "complete_physical_durability_derived": false,
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "coupling_evaluation_authorized": false,
+  "external_authority_sha256": "34ebb4dbc2903b91231bd4253dba78c0012c4be4eac062b8145f970fee808eb2",
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "overall_verdict": "STAGE_ORDERING_AMENDMENT_REQUIRED",
+  "primitive_relay_durability_map_derived": true,
+  "proof_authorized": false,
+  "schema": "stage8_t7_open_exhaustion_relay_necessity_v001",
+  "spec_sha256": "1836c808eef24ce0a4dab994f4d9857d77396bbbecc4830c6289d63db7144803",
+  "stage_ordering_amendment_derived": true,
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

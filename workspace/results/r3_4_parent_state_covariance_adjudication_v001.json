@@ -1,0 +1,40 @@
+{
+  "schema": "r3.4-parent-state-covariance-adjudication-v001",
+  "spec_sha256": "538c6ecc685d25ed59ebac1b2c6ea3edcf6621cc10bc8caaae97ce7512a1d5c0",
+  "principle_sha256": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+  "seals_verified": true,
+  "target_values_used": false,
+  "live_authority": {
+    "write_v1_claimed_adopted": true,
+    "write_v2_active_level_1": false,
+    "complete_physical_write_operator_derived": false,
+    "complete_source_record_environment_operator_derived": false,
+    "connected_preparation_derived": false,
+    "time_dependent_continuum_ordering_derived": false,
+    "authority_complete_environment_operator": false,
+    "authority_complete_Q_spec": false
+  },
+  "one_cell_static_parent": {
+    "endpoint_commutator_frobenius": 1.4142135623730951,
+    "expected_sqrt_two_error": 0.0,
+    "completed_label_invariant": false
+  },
+  "covariance_nonuniqueness_negative_control": {
+    "minimal_net_interior_derivation_error": 0.0,
+    "interacting_net_interior_derivation_error": 0.0,
+    "compatible_trace_state_restriction_error": 0.0,
+    "two_covariant_parent_responses_differ": true,
+    "response_difference_frobenius": 11.313708498984761
+  },
+  "superseded_write_rule_used_by_redundancy_lane": true,
+  "parent_state_covariance_alone_selects_unique_parent": false,
+  "transport_only_branch_excludes_primitive_pauli_by_adoption": true,
+  "pauli_exclusion_derived_from_parent_state_covariance": false,
+  "live_parent_supplies_complete_scattering_construction": false,
+  "live_parent_complete_under_principle": false,
+  "outgoing_recoverability_result_authoritative_unconditionally": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "PARENT_STATE_COVARIANCE_CURRENT_PARENT_BLOCKED"
+}

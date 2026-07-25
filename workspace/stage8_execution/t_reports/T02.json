@@ -1,0 +1,33 @@
+{
+  "evidence": {
+    "Maxwell_order": 4,
+    "Pauli_order": 2,
+    "W_minus_I_lowest_order": 2,
+    "curvature_order": 2,
+    "degree_two_symbol": {
+      "mn": "-1",
+      "nm": "1"
+    },
+    "formal_Log_W_lowest_order": 2,
+    "incidence_order_lower_bound": 1,
+    "order_zero_transport_excluded": true,
+    "represented_nonzero_gr2_witness": [
+      [
+        0,
+        2
+      ],
+      [
+        -2,
+        0
+      ]
+    ]
+  },
+  "obligation": "T02",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "ab834b2ab57c585836ed3c09992bb2365107f7ecbaee67871768c911aa7dcd7c"
+}

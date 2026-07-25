@@ -1,0 +1,20 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "all_hostile_findings_are_recorded": true,
+    "corrected_scope_flags_fail_closed": true,
+    "sealed_v003_authority_unchanged": true,
+    "target_literal_guard_passes": true,
+    "v001_attempt_is_preserved": true,
+    "v001_proof_claim_is_explicitly_retired": true
+  },
+  "complete_g_A_psi_record_specification_derived": false,
+  "coupling_evaluation_authorized": false,
+  "failed_checks": [],
+  "microscopic_nonentailment_theorem_proved": false,
+  "microscopic_record_exhaustion_derived": false,
+  "overall": "PASS_V001_COUNTERMODEL_PROOF_RETIRED_SCOPE_DIAGNOSTIC_ONLY_ALPHA_FALSE",
+  "primitive_result_scope_stops_before_microscopic_exhaustion": true,
+  "proof_authorized": false,
+  "v001_Gaussian_countermodel_proof_valid": false
+}

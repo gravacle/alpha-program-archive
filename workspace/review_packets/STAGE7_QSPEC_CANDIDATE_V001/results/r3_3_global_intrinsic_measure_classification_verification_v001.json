@@ -1,0 +1,19 @@
+{
+  "alpha_computed": false,
+  "comparisons": {
+    "alpha_computed_false": true,
+    "fixed_covector_nullity": true,
+    "lorentz_lie_algebra_perfect": true,
+    "mu_a_negative_control": true,
+    "proof_authorized_false": true,
+    "verdict": true
+  },
+  "construction_uses_alpha": false,
+  "fixed_space_witness_determinant": "1/1",
+  "independent_verification_pass": true,
+  "lorentz_lie_algebra_perfect": true,
+  "method": "independent determinant witness plus Lorentz commutator perfectness relations",
+  "mu_a_negative_control_pass": true,
+  "proof_authorized": false,
+  "zero_fixed_covector_space": true
+}

@@ -1,0 +1,202 @@
+{
+  "adopted_microscopic_principles": {
+    "bare_U1_curvature_stiffness_zero": "ADOPTED_COMPOSITENESS_CONDITION",
+    "boundary_superconnection_and_single_operator_completeness": "ADOPTED_BRANCH_PREMISE",
+    "causal_incidence_support": "ADOPTED_LEVEL_1",
+    "fundamental_boundary_record_action": "ADOPTED_LEVEL_1",
+    "global_boundary_descent_and_quasifree_completeness": "ADOPTED_BRANCH_PREMISE",
+    "parent_state_covariance": "ADOPTED_LEVEL_1"
+  },
+  "alpha_computed": false,
+  "authority_hashes": {
+    "BID_CHARGED_CELLULAR_CPT_INTERTWINER_DERIVATION_V001.md": {
+      "actual": "0322763ac48a4428b432124a6947da81826a41f612efa6803ee9a87317929b98",
+      "expected": "0322763ac48a4428b432124a6947da81826a41f612efa6803ee9a87317929b98",
+      "matches": true
+    },
+    "BID_COMPLETE_ONE_NORMAL_ZERO_FORM_ENUMERATION_V001.md": {
+      "actual": "50b5a651df2aca90ee47c6f85b2a502461370a652706ebccad871f191565a2d9",
+      "expected": "50b5a651df2aca90ee47c6f85b2a502461370a652706ebccad871f191565a2d9",
+      "matches": true
+    },
+    "BID_FIRST_OPENING_INTERVAL_DERIVATION_V001.md": {
+      "actual": "7471988138233218430c6b6dd07b39f33508a75907557723654dbc712c0c4476",
+      "expected": "7471988138233218430c6b6dd07b39f33508a75907557723654dbc712c0c4476",
+      "matches": true
+    },
+    "BID_FREE_QUASIFREE_CTP_PROPAGATOR_DERIVATION_V001.md": {
+      "actual": "6f6b822ac8ccf9ea19659f4ccf811268f60a27a361f817ee6513479d63b62546",
+      "expected": "6f6b822ac8ccf9ea19659f4ccf811268f60a27a361f817ee6513479d63b62546",
+      "matches": true
+    },
+    "BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS_V001.md": {
+      "actual": "949181d78aca143ebef06eacc4ab1018d43cdf79962ee8c78c350f654a7555dd",
+      "expected": "949181d78aca143ebef06eacc4ab1018d43cdf79962ee8c78c350f654a7555dd",
+      "matches": true
+    },
+    "BID_GRADED_BOUNDARY_SUPERCONNECTION_REPAIR_V001.md": {
+      "actual": "2215f79cbe69f1de1643427ad5d422b0c3064ff758327e43ff1629de8633f72d",
+      "expected": "2215f79cbe69f1de1643427ad5d422b0c3064ff758327e43ff1629de8633f72d",
+      "matches": true
+    },
+    "BID_SOURCE_PARENT_CLOSURE_GATE_V003.md": {
+      "actual": "5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf",
+      "expected": "5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf",
+      "matches": true
+    },
+    "BID_UNIQUE_CHARGED_CONTROLLED_COUPLING_DERIVATION_V001.md": {
+      "actual": "b786db3adec8cc335967d49ec13b59923d67f424644f72c535b27b579dd1489f",
+      "expected": "b786db3adec8cc335967d49ec13b59923d67f424644f72c535b27b579dd1489f",
+      "matches": true
+    },
+    "CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md": {
+      "actual": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "expected": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "matches": true
+    },
+    "FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_RESULT_V001.md": {
+      "actual": "f84d5b5e8789e5e336db53265cc87dd25f5efddf1cd9c8931f1e521240125d4a",
+      "expected": "f84d5b5e8789e5e336db53265cc87dd25f5efddf1cd9c8931f1e521240125d4a",
+      "matches": true
+    },
+    "FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_V001.seal.sha256": {
+      "actual": "c73d5246b7348075ec4507ab3697a16f61759bdae3fad046d12b35f74135f165",
+      "expected": "c73d5246b7348075ec4507ab3697a16f61759bdae3fad046d12b35f74135f165",
+      "matches": true
+    },
+    "FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.md": {
+      "actual": "a27a2d571273494a0787e2283734ef1405d74dadfe16d64d3450bb4536e50732",
+      "expected": "a27a2d571273494a0787e2283734ef1405d74dadfe16d64d3450bb4536e50732",
+      "matches": true
+    },
+    "LOCKED_ALPHA_PLAN_DEPENDENCY_REPAIR_V001.md": {
+      "actual": "d8cf64c9dd3aa8eec63298a5891882dc5e0873212566c8831fe049867dd38a92",
+      "expected": "d8cf64c9dd3aa8eec63298a5891882dc5e0873212566c8831fe049867dd38a92",
+      "matches": true
+    },
+    "PARENT_STATE_COVARIANCE_PRINCIPLE_V001.md": {
+      "actual": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "expected": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "matches": true
+    },
+    "R3_3_GLOBAL_INTRINSIC_MEASURE_CLASSIFICATION_RESULT_V001.md": {
+      "actual": "e4cfaef14309b3acf5674f8c8faee756f744fec4691d5e01d9de0fa422592be2",
+      "expected": "e4cfaef14309b3acf5674f8c8faee756f744fec4691d5e01d9de0fa422592be2",
+      "matches": true
+    },
+    "R3_3_GLOBAL_INTRINSIC_MEASURE_CLASSIFICATION_V001.seal.sha256": {
+      "actual": "dcab767cf5d38548ae0fc4e30b3c674cc527082e398575907ce53efaae08e199",
+      "expected": "dcab767cf5d38548ae0fc4e30b3c674cc527082e398575907ce53efaae08e199",
+      "matches": true
+    },
+    "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md": {
+      "actual": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+      "expected": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+      "matches": true
+    },
+    "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_V001.seal.sha256": {
+      "actual": "e771a28a9c1e1c9f410a00dc2c407be3338fcdee06d31f50cbc8563d63e41029",
+      "expected": "e771a28a9c1e1c9f410a00dc2c407be3338fcdee06d31f50cbc8563d63e41029",
+      "matches": true
+    },
+    "R3_4_OUTGOING_RECORD_GNS_COMPLETION_RESULT_V001.md": {
+      "actual": "10909b5c21e73ecf655462339a27bd645b8d35e3ad11fb6f8cb204c601992995",
+      "expected": "10909b5c21e73ecf655462339a27bd645b8d35e3ad11fb6f8cb204c601992995",
+      "matches": true
+    },
+    "R3_4_OUTGOING_RECORD_GNS_COMPLETION_V001.seal.sha256": {
+      "actual": "2e67781852e99e09b86912dc6a2238d4de85f57e2ea05589cd800eb65bcb5a95",
+      "expected": "2e67781852e99e09b86912dc6a2238d4de85f57e2ea05589cd800eb65bcb5a95",
+      "matches": true
+    },
+    "STAGE1_PREMISE_DISPOSITION_V001.md": {
+      "actual": "254128f73a44869839d670557368709c1bf2a98d6f86b48f026064c80e8d2585",
+      "expected": "254128f73a44869839d670557368709c1bf2a98d6f86b48f026064c80e8d2585",
+      "matches": true
+    }
+  },
+  "authority_hashes_match": true,
+  "complete_parameter_free_Q_spec_frozen": false,
+  "complete_source_inclusive_parent_limit_derived": false,
+  "coupling_evaluation_authorized": false,
+  "date": "2026-07-24",
+  "derived_parent_and_durability": {
+    "CPT_selected_cellular_incidence_quadrature": true,
+    "coherent_source_dressed_record_net": true,
+    "common_self_adjoint_domain_and_finite_propagator": true,
+    "dimensionless_first_opening_interval_tau_pi_over_sqrt2": true,
+    "finite_causal_source_record_parent": true,
+    "fork_8_scoped_durability_principle": true,
+    "free_quasifree_in_state_and_CTP_contour": true,
+    "global_flat_intrinsic_cell_measure": true,
+    "one_normal_record_odd_superconnection_inventory": true,
+    "outgoing_record_inductive_state_and_GNS": true,
+    "primitive_pure_charge_control_in_declared_branch": true,
+    "primitive_unit_winding_from_faithful_U1_character": true,
+    "recoverable_central_record_sequence": true,
+    "same_parent_free_asymptotic_tail": true,
+    "square_generated_descendants": true,
+    "thresholded_source_nonreturn_for_L2_class": true
+  },
+  "disclosed_branch_inputs": {
+    "additional_vectorlike_pairs_excluded": false,
+    "asymptotics": "ordinary_flat_source_free_first_branch",
+    "charged_field": "smooth_compact_relative_U1_connection",
+    "record_carrier": "distinct_even_M3_factors",
+    "source": "one_massless_bare_vectorlike_Dirac_pair",
+    "spacetime": "3+1_Lorentzian_globally_hyperbolic_spin"
+  },
+  "historical_target_blindness_established": false,
+  "physical_Thomson_stiffness_computed": false,
+  "proof_authorized": false,
+  "qspec_component_status": {
+    "CTP_contour": "FREE_QUASIFREE_BRANCH_DERIVED_INTERACTING_OPEN",
+    "Thomson_matching_rule": "OPEN",
+    "absolute_record_interval_T_R": "OPEN_SCALE_ORBIT_RETAINED",
+    "branch_enumeration": "ORDINARY_BRANCH_FROZEN_ENLARGED_BRANCHES_OPEN",
+    "causal_boundaries_and_closure": "DERIVED_IN_FLAT_PRIMITIVE_CELL_CLASS",
+    "dynamical_U1_action": "OPEN_AUXILIARY_CONNECTION_AND_ZERO_BARE_STIFFNESS_ONLY",
+    "dynamical_gauge_ghost_functional_measure": "OPEN",
+    "fields_and_typed_carriers": "DECLARED_FOR_DURABILITY_PARENT_FULL_QSPEC_SPECIES_EXHAUSTION_OPEN",
+    "finite_c_F2_deformation_excluded": "OPEN",
+    "first_order_parent_action": "DURABILITY_PARENT_DERIVED_FULL_QSPEC_ACTION_OPEN",
+    "full_charged_species_threshold_map": "OPEN",
+    "functional_regulator_and_finite_renormalization": "OPEN",
+    "gauge_edge_mode_completion": "OPEN",
+    "generated_descendants": "DERIVED_NO_INDEPENDENT_COEFFICIENT",
+    "gravitational_action_and_quantum_measure": "OPEN_BACKGROUND_GEOMETRY_ONLY",
+    "in_state": "FREE_QUASIFREE_BRANCH_DERIVED",
+    "interacting_charged_pole_or_infraparticle_threshold": "OPEN",
+    "intrinsic_cell_measure": "DERIVED_IN_DECLARED_CLASS",
+    "normalized_CTP_generating_amplitude": "OPEN",
+    "operator_domain": "FINITE_PARENT_COMMON_DOMAIN_DERIVED",
+    "outgoing_record_GNS_and_durability": "DERIVED_IN_DECLARED_BRANCH",
+    "record_operator": "DERIVED_IN_DECLARED_BRANCH",
+    "unused_structure_sensitive_prediction": "OPEN"
+  },
+  "retired_from_load_bearing_path": {
+    "fidelity_action_as_complete_parent": true,
+    "freely_selected_scalar_diamond_spectral_density": true,
+    "retired_controlled_X_write_rule": true,
+    "unit_fidelity_information_multiplicity": true
+  },
+  "schema": "stage6-parent-action-and-qspec-ledger-v001",
+  "specification_seal_matches": true,
+  "specification_sha256": "c6c01a9a79e8b7cea63e3a86503c1513f9c7bc5f413ab9f441c854f359ebd9b9",
+  "stage6_exit_checks": {
+    "all_derived_rows_true": true,
+    "alpha_and_proof_false": true,
+    "historical_target_blindness_false": true,
+    "open_qspec_slots_explicit": true
+  },
+  "stage6_ledger_frozen": true,
+  "stage7_qspec_review_candidate_assembly_authorized": true,
+  "supersession_reconciliation": {
+    "old_SP14_GPG_terminal_protocol": "RETIRED_PHYSICS_NEUTRAL_SHA256_MANIFESTS_ACTIVE",
+    "old_conditional_scalar_spectral_density": "REMAINS_QUARANTINED_NOT_USED",
+    "old_redundancy_lane_dependency": "REPLACED_BY_INCIDENCE_DERIVED_OUTGOING_GNS",
+    "old_static_parent_completed_label_failure": "SUPERSEDED_BY_CAUSAL_INCIDENCE_SUPPORT_PARENT"
+  },
+  "target_value_used_in_stage6_construction": false,
+  "verdict": "STAGE6_LEDGER_FROZEN_STAGE7_REVIEW_CANDIDATE_AUTHORIZED"
+}

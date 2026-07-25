@@ -1,0 +1,41 @@
+{
+  "evidence": {
+    "BID_modified": false,
+    "R_square": "3/16",
+    "char_poly": "(z^4-4*z^2+2)^2",
+    "char_poly_coefficients_descending": [
+      "1",
+      "0",
+      "-8",
+      "0",
+      "20",
+      "0",
+      "-16",
+      "0",
+      "4"
+    ],
+    "eigenvalues": [
+      "-sqrt(2+sqrt(2))",
+      "-sqrt(2+sqrt(2))",
+      "-sqrt(2-sqrt(2))",
+      "-sqrt(2-sqrt(2))",
+      "sqrt(2-sqrt(2))",
+      "sqrt(2-sqrt(2))",
+      "sqrt(2+sqrt(2))",
+      "sqrt(2+sqrt(2))"
+    ],
+    "kernel_multiplicity": 0,
+    "numerical_diagonalization_role": "independent check pending",
+    "symbolic_result_authoritative": true,
+    "tr_B2": "16",
+    "tr_B4": "48"
+  },
+  "obligation": "T16",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "96b00a467cf2a54f2acbd73fe6ffa350be5eb669b42cca44cccc7ce1892ff4a0"
+}

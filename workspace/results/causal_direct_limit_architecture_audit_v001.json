@@ -1,0 +1,449 @@
+{
+  "schema": "causal-direct-limit-architecture-audit-v001",
+  "frozen_spec_sha256": "e8635914554741333f05db3fea8b055bfb76df2cfca322c1c177c53a99a50317",
+  "target_values_used": false,
+  "coupling_evaluated": false,
+  "architectures_reported_in_sealed_order": [
+    "A1_causal_half_line",
+    "A2_three_branch_causal_tree",
+    "A3_three_dimensional_spatial_lattice",
+    "A4_Lorentz_covariant_causal_complex_continuum",
+    "A5_effective_environment_continuum"
+  ],
+  "winner_or_ranking_emitted": false,
+  "covariance_selector": {
+    "status": "CLASS_LEVEL_SELECTOR_ONLY",
+    "physical_class": [
+      "A4_Lorentz_covariant_causal_complex_continuum"
+    ],
+    "regulator_classes": [
+      "A1_causal_half_line",
+      "A2_three_branch_causal_tree",
+      "A3_three_dimensional_spatial_lattice"
+    ],
+    "effective_descriptions": [
+      "A5_effective_environment_continuum"
+    ],
+    "unique_microscopic_complex_selected": false,
+    "unique_spectral_measure_selected": false
+  },
+  "decay_laws": [
+    {
+      "architecture": "A1_causal_half_line",
+      "covariance_classification": "REGULATOR_OR_RADIAL_REDUCTION",
+      "classification_reason": "one-dimensional causal/radial evolution has no faithful microscopic 3+1 Lorentz action",
+      "late_time_probability_exponent_fit": 2.9664906225716714,
+      "interval_averages": [
+        {
+          "lower_t": 8.0,
+          "upper_t": 12.0,
+          "geometric_center_t": 9.797958971132712,
+          "mean_root_probability": 0.0001524308596929138
+        },
+        {
+          "lower_t": 12.0,
+          "upper_t": 18.0,
+          "geometric_center_t": 14.696938456699069,
+          "mean_root_probability": 5.279857192777435e-05
+        },
+        {
+          "lower_t": 18.0,
+          "upper_t": 27.0,
+          "geometric_center_t": 22.045407685048602,
+          "mean_root_probability": 1.595807503232182e-05
+        },
+        {
+          "lower_t": 27.0,
+          "upper_t": 40.0,
+          "geometric_center_t": 32.863353450309965,
+          "mean_root_probability": 4.4524084711582036e-06
+        },
+        {
+          "lower_t": 40.0,
+          "upper_t": 60.0,
+          "geometric_center_t": 48.98979485566356,
+          "mean_root_probability": 1.413038728847303e-06
+        },
+        {
+          "lower_t": 60.0,
+          "upper_t": 90.0,
+          "geometric_center_t": 73.48469228349535,
+          "mean_root_probability": 4.053620174397953e-07
+        }
+      ],
+      "sampled_thresholds": [
+        {
+          "delta": 0.1,
+          "last_sampled_exceedance_t": 1.36,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.01,
+          "last_sampled_exceedance_t": 2.94,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.001,
+          "last_sampled_exceedance_t": 6.140000000000001,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        }
+      ]
+    },
+    {
+      "architecture": "A2_three_branch_causal_tree",
+      "covariance_classification": "REGULATOR_OR_RADIAL_REDUCTION",
+      "classification_reason": "the rooted tree carries a preferred branching foliation; its radial sector may regulate a covariant limit",
+      "late_time_probability_exponent_fit": 2.996342123801706,
+      "interval_averages": [
+        {
+          "lower_t": 8.0,
+          "upper_t": 12.0,
+          "geometric_center_t": 9.797958971132712,
+          "mean_root_probability": 3.254556195060186e-05
+        },
+        {
+          "lower_t": 12.0,
+          "upper_t": 18.0,
+          "geometric_center_t": 14.696938456699069,
+          "mean_root_probability": 9.844670906868973e-06
+        },
+        {
+          "lower_t": 18.0,
+          "upper_t": 27.0,
+          "geometric_center_t": 22.045407685048602,
+          "mean_root_probability": 2.8870545237609754e-06
+        },
+        {
+          "lower_t": 27.0,
+          "upper_t": 40.0,
+          "geometric_center_t": 32.863353450309965,
+          "mean_root_probability": 8.846442114395628e-07
+        },
+        {
+          "lower_t": 40.0,
+          "upper_t": 60.0,
+          "geometric_center_t": 48.98979485566356,
+          "mean_root_probability": 2.631332569687063e-07
+        },
+        {
+          "lower_t": 60.0,
+          "upper_t": 90.0,
+          "geometric_center_t": 73.48469228349535,
+          "mean_root_probability": 7.818099082506973e-08
+        }
+      ],
+      "sampled_thresholds": [
+        {
+          "delta": 0.1,
+          "last_sampled_exceedance_t": 0.78,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.01,
+          "last_sampled_exceedance_t": 1.7,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.001,
+          "last_sampled_exceedance_t": 3.54,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        }
+      ]
+    },
+    {
+      "architecture": "A3_three_dimensional_spatial_lattice",
+      "covariance_classification": "REGULATOR_OR_RADIAL_REDUCTION",
+      "classification_reason": "the cubic symmetry group is discrete and the finite lattice selects a preferred frame",
+      "late_time_probability_exponent_fit": 3.0505966998040632,
+      "interval_averages": [
+        {
+          "lower_t": 8.0,
+          "upper_t": 12.0,
+          "geometric_center_t": 9.797958971132712,
+          "mean_root_probability": 1.3164051198397821e-05
+        },
+        {
+          "lower_t": 12.0,
+          "upper_t": 18.0,
+          "geometric_center_t": 14.696938456699069,
+          "mean_root_probability": 3.154828430276275e-06
+        },
+        {
+          "lower_t": 18.0,
+          "upper_t": 27.0,
+          "geometric_center_t": 22.045407685048602,
+          "mean_root_probability": 8.751599353144895e-07
+        },
+        {
+          "lower_t": 27.0,
+          "upper_t": 40.0,
+          "geometric_center_t": 32.863353450309965,
+          "mean_root_probability": 3.043818543419769e-07
+        },
+        {
+          "lower_t": 40.0,
+          "upper_t": 60.0,
+          "geometric_center_t": 48.98979485566356,
+          "mean_root_probability": 8.418677189364168e-08
+        },
+        {
+          "lower_t": 60.0,
+          "upper_t": 90.0,
+          "geometric_center_t": 73.48469228349535,
+          "mean_root_probability": 2.6505875022120443e-08
+        }
+      ],
+      "sampled_thresholds": [
+        {
+          "delta": 0.1,
+          "last_sampled_exceedance_t": 0.58,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.01,
+          "last_sampled_exceedance_t": 0.78,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.001,
+          "last_sampled_exceedance_t": 2.24,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        }
+      ]
+    },
+    {
+      "architecture": "A4_Lorentz_covariant_causal_complex_continuum",
+      "covariance_classification": "PHYSICAL_CLASS",
+      "classification_reason": "the physical limit can carry the disclosed 3+1 Lorentz action and causal composition without a preferred frame",
+      "late_time_probability_exponent_fit": 5.98466406455111,
+      "interval_averages": [
+        {
+          "lower_t": 8.0,
+          "upper_t": 12.0,
+          "geometric_center_t": 9.797958971132712,
+          "mean_root_probability": 1.2807976521341385e-06
+        },
+        {
+          "lower_t": 12.0,
+          "upper_t": 18.0,
+          "geometric_center_t": 14.696938456699069,
+          "mean_root_probability": 1.1471408716874273e-07
+        },
+        {
+          "lower_t": 18.0,
+          "upper_t": 27.0,
+          "geometric_center_t": 22.045407685048602,
+          "mean_root_probability": 1.0161322336207028e-08
+        },
+        {
+          "lower_t": 27.0,
+          "upper_t": 40.0,
+          "geometric_center_t": 32.863353450309965,
+          "mean_root_probability": 9.209116717336142e-10
+        },
+        {
+          "lower_t": 40.0,
+          "upper_t": 60.0,
+          "geometric_center_t": 48.98979485566356,
+          "mean_root_probability": 8.486105167251428e-11
+        },
+        {
+          "lower_t": 60.0,
+          "upper_t": 90.0,
+          "geometric_center_t": 73.48469228349535,
+          "mean_root_probability": 7.456097467663279e-12
+        }
+      ],
+      "sampled_thresholds": [
+        {
+          "delta": 0.1,
+          "last_sampled_exceedance_t": 1.06,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.01,
+          "last_sampled_exceedance_t": 1.9000000000000001,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.001,
+          "last_sampled_exceedance_t": 3.0,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        }
+      ]
+    },
+    {
+      "architecture": "A5_effective_environment_continuum",
+      "covariance_classification": "EFFECTIVE_DESCRIPTION",
+      "classification_reason": "a reduced spectral environment is physical only after its density is derived from the covariant parent",
+      "late_time_probability_exponent_fit": 1.9951529937103714,
+      "interval_averages": [
+        {
+          "lower_t": 8.0,
+          "upper_t": 12.0,
+          "geometric_center_t": 9.797958971132712,
+          "mean_root_probability": 0.010306724262375853
+        },
+        {
+          "lower_t": 12.0,
+          "upper_t": 18.0,
+          "geometric_center_t": 14.696938456699069,
+          "mean_root_probability": 0.00460861011584246
+        },
+        {
+          "lower_t": 18.0,
+          "upper_t": 27.0,
+          "geometric_center_t": 22.045407685048602,
+          "mean_root_probability": 0.0020538221210109906
+        },
+        {
+          "lower_t": 27.0,
+          "upper_t": 40.0,
+          "geometric_center_t": 32.863353450309965,
+          "mean_root_probability": 0.0009253080288017164
+        },
+        {
+          "lower_t": 40.0,
+          "upper_t": 60.0,
+          "geometric_center_t": 48.98979485566356,
+          "mean_root_probability": 0.00041661949189870646
+        },
+        {
+          "lower_t": 60.0,
+          "upper_t": 90.0,
+          "geometric_center_t": 73.48469228349535,
+          "mean_root_probability": 0.0001852094858192097
+        }
+      ],
+      "sampled_thresholds": [
+        {
+          "delta": 0.1,
+          "last_sampled_exceedance_t": 3.0,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.01,
+          "last_sampled_exceedance_t": 9.94,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        },
+        {
+          "delta": 0.001,
+          "last_sampled_exceedance_t": 31.6,
+          "tail_below_delta_on_sampled_grid": true,
+          "certified_for_all_later_times": false
+        }
+      ]
+    }
+  ],
+  "finite_regulator_convergence": {
+    "A1_causal_half_line": [
+      {
+        "size": 16,
+        "max_compact_time_amplitude_error": 1.9329744827440397e-05
+      },
+      {
+        "size": 32,
+        "max_compact_time_amplitude_error": 1.1297776577313652e-15
+      },
+      {
+        "size": 64,
+        "max_compact_time_amplitude_error": 5.551575000496227e-16
+      },
+      {
+        "size": 128,
+        "max_compact_time_amplitude_error": 6.665591631623222e-16
+      }
+    ],
+    "A2_three_branch_tree_radial_sector": [
+      {
+        "size": 16,
+        "max_compact_time_amplitude_error": 0.6201873599199444
+      },
+      {
+        "size": 32,
+        "max_compact_time_amplitude_error": 1.414161323042043e-12
+      },
+      {
+        "size": 64,
+        "max_compact_time_amplitude_error": 6.603172156755142e-16
+      },
+      {
+        "size": 128,
+        "max_compact_time_amplitude_error": 6.873535163430037e-16
+      }
+    ],
+    "A3_cubic_lattice": [
+      {
+        "size": 16,
+        "max_compact_time_amplitude_error": 0.23045901502798433
+      },
+      {
+        "size": 32,
+        "max_compact_time_amplitude_error": 2.63532233364238e-06
+      },
+      {
+        "size": 64,
+        "max_compact_time_amplitude_error": 3.3835471471655375e-16
+      },
+      {
+        "size": 128,
+        "max_compact_time_amplitude_error": 3.424240932965112e-16
+      }
+    ],
+    "A4_covariant_continuum_quadrature": [
+      {
+        "size": 128,
+        "max_compact_time_amplitude_error": 6.214423004803668e-05
+      },
+      {
+        "size": 256,
+        "max_compact_time_amplitude_error": 3.0575254322441393e-06
+      },
+      {
+        "size": 512,
+        "max_compact_time_amplitude_error": 1.8086370916677568e-07
+      },
+      {
+        "size": 1024,
+        "max_compact_time_amplitude_error": 2.281706614849365e-08
+      }
+    ]
+  },
+  "direct_limit_existence_attempt": {
+    "bounded_degree_exhaustion_suffices_for_bounded_self_adjoint_limit": true,
+    "finite_compressions_converge_strongly_on_compact_time_intervals": true,
+    "numerical_regulator_convergence_improves": {
+      "A1_causal_half_line": true,
+      "A2_three_branch_tree_radial_sector": true,
+      "A3_cubic_lattice": true,
+      "A4_covariant_continuum_quadrature": true
+    },
+    "L1_absolutely_continuous_root_spectral_density_implies_decay": true,
+    "Lorentz_covariance_forces_unique_causal_complex": false,
+    "Lorentz_covariance_forces_unique_root_spectral_density": false,
+    "Lorentz_covariance_forces_absolute_continuity": false,
+    "record_principles_derive_label_preserving_outgoing_tail_algebra": false,
+    "thresholded_root_return_durability_is_conditional": true,
+    "full_outgoing_record_recoverability_proved": false
+  },
+  "fork_8_closed": false,
+  "hypothesis_promoted_to_principle": false,
+  "complete_parent_action_derived": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "HYPOTHESIS_NOT_PROMOTED_CLASS_SELECTED_DYNAMICS_OPEN"
+}

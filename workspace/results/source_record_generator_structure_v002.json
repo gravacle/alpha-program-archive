@@ -1,0 +1,32 @@
+{
+  "status": "PASS_REDUCED_SOURCE_RECORD_GENERATOR_RANKS_ONLY",
+  "full_pauli_product_domain_dimension": 16,
+  "reduced_odd_odd_linear_map_rank": 12,
+  "reduced_odd_odd_kernel_dimension": 4,
+  "reduced_odd_odd_kernel_basis": [
+    "XX",
+    "XY",
+    "YX",
+    "YY"
+  ],
+  "conditional_restricted_commutator_rank": 2,
+  "conditional_exchange_kernel_dimension": 2,
+  "conditional_exchange_basis": [
+    "XX+YY",
+    "XY-YX"
+  ],
+  "reduced_source_record_product_factor_declared": true,
+  "minimal_product_carrier_derived": false,
+  "complete_closure_operator_space_dimension_derived": false,
+  "combined_grading_conservation_derived": false,
+  "nonzero_exchange_derived": false,
+  "exchange_magnitude_derived": false,
+  "physical_record_interval_derived": false,
+  "durable_record_dynamics_derived": false,
+  "source_mass_derived": false,
+  "spectral_evaluation_authorized": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "exact_linear_algebra_on_declared_reduced_factor_only"
+}

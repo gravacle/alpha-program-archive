@@ -1,0 +1,14 @@
+{
+  "status": "PASS_SELECTED_CONTROLLED_X_MATRIX_IDENTITIES_ONLY_PHYSICAL_CLAIMS_BLOCKED",
+  "unitarity_defect": 0.0,
+  "selected_logarithm_exponential_defect": 3.3853529664243003e-16,
+  "opposite_sign_logarithm_exponential_defect": 3.3853529664243003e-16,
+  "write_zero_defect": 0.0,
+  "write_one_defect": 0.0,
+  "standard_principal_matrix_log_exists": false,
+  "controlled_x_extension_unique": false,
+  "durable_record_established": false,
+  "candidate_is_active_Level_1_postulate": false,
+  "alpha_computed": false,
+  "scope": "selected_finite_matrix_identities_only"
+}

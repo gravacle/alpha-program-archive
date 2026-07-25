@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+"""Fail-closed bookkeeping audit for CURRENT_AUTHORITY_LEDGER_V007.
+
+This script verifies authority consistency only. It cannot certify a physical
+premise or derive a coupling.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+LEDGER = ROOT / "CURRENT_AUTHORITY_LEDGER_V007.json"
+
+
+def main() -> None:
+    data = json.loads(LEDGER.read_text(encoding="utf-8"))
+    state = data["execution_state"]
+
+    required_files = [
+        *data["sealed_pre_alpha_authority"].values(),
+        *data["current_derived_results"].values(),
+        *data["current_level_1_postulates"].values(),
+        *data["external_target_independent_route_audits"].keys(),
+    ]
+    missing = [name for name in required_files if not (ROOT / name).resolve().exists()]
+    assert not missing, f"Missing authority inputs: {missing}"
+
+    assert data["schema_version"] == 7
+    assert state["current_premises_admit_response_inequivalent_parent_actions"] is True
+    assert state["phase_complete_unique_generator_derived"] is False
+    assert state["complete_parent_action_uniquely_derived"] is False
+    assert state["coupled_record_bundle_tree_relation_derived"] is True
+    assert state["coupled_record_bundle_charge_radius_derived"] is False
+    assert state["finite_cell_flux_protocol_frozen"] is True
+    assert state["finite_flux_response_evaluated"] is False
+    assert state["finite_c_F2_deformation_excluded"] is False
+    assert state["coupling_evaluation_authorized"] is False
+    assert state["alpha_computed"] is False
+    assert state["proof_authorized"] is False
+
+    out = {
+        "status": "PASS_AUTHORITY_V007_THEORY_GATE_EXPOSED_ALPHA_FALSE",
+        "missing_files": missing,
+        "phase_complete_unique_generator_derived": state[
+            "phase_complete_unique_generator_derived"
+        ],
+        "alpha_computed": state["alpha_computed"],
+        "proof_authorized": state["proof_authorized"],
+        "scope": "bookkeeping_consistency_only",
+    }
+    result_path = ROOT / "results" / "current_authority_v007.json"
+    result_path.write_text(json.dumps(out, indent=2) + "\n", encoding="utf-8")
+    print(out["status"])
+
+
+if __name__ == "__main__":
+    main()

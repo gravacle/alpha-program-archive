@@ -1,0 +1,16 @@
+{
+  "evidence": {
+    "analytic_bound_for_L_at_least_3": "at most 1/(16 L^2)",
+    "finite_L_expression": "1/[4 L^4 sin^2(pi/L)]",
+    "large_L_limit": "0",
+    "posthoc_volume_repair_used": false
+  },
+  "obligation": "T06",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "d5c6284210dd12c78865e403b4f55ed90b7eee4667a92526a1e6904f938f8a46"
+}

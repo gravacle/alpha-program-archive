@@ -1,0 +1,22 @@
+{
+  "evidence": {
+    "anomalous_moment_claimed": false,
+    "clifford_prefactor": "1/4",
+    "clifford_square_identity": "one-quarter gamma commutator times derivative commutator",
+    "curvature_commutator_identity": "C(U_minus)=-i*F_mu_nu",
+    "curvature_commutator_scalar": "-1",
+    "gamma_commutator_identity": "[gamma_mu,gamma_nu]=-2*i*sigma_mu_nu",
+    "gamma_commutator_scalar": "-2",
+    "i_squared": "-1",
+    "invariant_magnitude": "1/2",
+    "signed_leading_coefficient": "-1/2"
+  },
+  "obligation": "T03",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "6939784345d061a212ab317de27180dddb8ac30b156cd6013c56047b25578da0"
+}

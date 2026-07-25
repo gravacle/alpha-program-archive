@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "active_handle_retraction_unique": true,
+    "amplitude_not_claimed": true,
+    "closure_curvature_exact": true,
+    "family_resolution_is_branch_scoped": true,
+    "generator_commutators_exact": true,
+    "minimal_endpoint_scope_explicit": true,
+    "mixed_intervals_excluded_by_global_bounds": true,
+    "no_target_access": true,
+    "prior_record_factors_preserved": true,
+    "projector_overlaps_exact": true,
+    "protected_flags_false": true,
+    "reported_spec_verified": true,
+    "sealed_spec_verified": true,
+    "unitary_order_exact": true,
+    "verdict_matches_coordinate_checks": true
+  },
+  "construction_script_imported": false,
+  "independent_exact_transport_invariants": {
+    "generator_commutator_norm_squares": {
+      "0_1": "72",
+      "0_2": "0",
+      "1_2": "72"
+    },
+    "overlaps": [
+      [
+        "1",
+        "1/4",
+        "0"
+      ],
+      [
+        "1/4",
+        "1",
+        "1/4"
+      ],
+      [
+        "0",
+        "1/4",
+        "1"
+      ]
+    ],
+    "source_commutator_norm_squares": {
+      "0_1": "3/8",
+      "0_2": "0",
+      "1_2": "3/8"
+    },
+    "unitary_order_norm_squares": {
+      "0_1": "288",
+      "0_2": "0",
+      "1_2": "288"
+    }
+  },
+  "pass": true,
+  "schema": "stage8_t7_relayed_family_resolution_verification_v001"
+}

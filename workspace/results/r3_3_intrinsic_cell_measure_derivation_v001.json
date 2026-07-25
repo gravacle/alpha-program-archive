@@ -1,0 +1,57 @@
+{
+  "alpha_computed": false,
+  "construction_uses_alpha": false,
+  "exact_moments_pass": true,
+  "hypothesis_promoted_to_principle": false,
+  "inherited_text_checks": {
+    "cellulation_dependence_is_failure": true,
+    "common_refinement_pullback_required": true,
+    "each_cell_volume_response": true,
+    "elementary_refinement_invariance_required": true,
+    "per_cell_H_r_U": true,
+    "per_cell_amplitude": true,
+    "shape_scalar_forbidden": true
+  },
+  "intrinsic_per_cell_response_binding": true,
+  "moments_over_pi_in_child_unit_coordinates": {
+    "child_u": "1/1440",
+    "child_u_parent_u": "1/57600",
+    "child_u_squared": "1/50400",
+    "parent_u": "19/23040",
+    "physical_time": "-1/96",
+    "time_child_u": "-1/5760",
+    "time_parent_u": "-1/5760",
+    "volume": "1/24"
+  },
+  "new_strict_locality_principle_adopted": false,
+  "only_a_zero_survives_for_a_ge_zero": true,
+  "sample_differences": {
+    "0": {
+      "delta_mean_t_parent_minus_intrinsic": "0/1",
+      "delta_mean_u_child_parent_minus_intrinsic": "0/1"
+    },
+    "1": {
+      "delta_mean_t_parent_minus_intrinsic": "3/3916",
+      "delta_mean_u_child_parent_minus_intrinsic": "-46/418033"
+    },
+    "2": {
+      "delta_mean_t_parent_minus_intrinsic": "3/1996",
+      "delta_mean_u_child_parent_minus_intrinsic": "-47/216566"
+    },
+    "4": {
+      "delta_mean_t_parent_minus_intrinsic": "3/1036",
+      "delta_mean_u_child_parent_minus_intrinsic": "-1/2368"
+    },
+    "8": {
+      "delta_mean_t_parent_minus_intrinsic": "3/556",
+      "delta_mean_u_child_parent_minus_intrinsic": "-53/66164"
+    }
+  },
+  "spectral_density_derived": false,
+  "symbolic_differences": {
+    "delta_mean_t_parent_minus_intrinsic": "3*a/[4*(960+19*a)]",
+    "delta_mean_u_child_parent_minus_intrinsic": "-a*(a+45)/[7*(a+60)*(19*a+960)]"
+  },
+  "symbolic_factor_check": true,
+  "verdict": "INHERITED_REFINEMENT_NATURALITY_FORCES_UNIFORM_MEASURE"
+}

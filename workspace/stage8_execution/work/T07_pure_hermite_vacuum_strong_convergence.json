@@ -1,0 +1,101 @@
+{
+  "alpha_computed": false,
+  "coupling_evaluation_authorized": false,
+  "direct_diagonalization_to_gh_functional_calculus": {
+    "2": 1.560523535305346e-15,
+    "4": 3.67594923219312e-15
+  },
+  "exact_covariance_artifact_sha256": "395141f2d3146d638b5c395b14a06eaa347701aec4f3cd6715befc6f8cda2464",
+  "finite_projector_nonnesting_operator_norm_n2_inside_n4": 0.16612429843942067,
+  "fixed_low_mode_blocks": {
+    "2": [
+      {
+        "high_n": 4,
+        "operator_norm_to_exact": 0.020679738990854433
+      },
+      {
+        "high_n": 6,
+        "operator_norm_to_exact": 0.006641375818267264
+      },
+      {
+        "high_n": 8,
+        "operator_norm_to_exact": 0.002907688225885258
+      },
+      {
+        "high_n": 12,
+        "operator_norm_to_exact": 0.0008905582495773857
+      },
+      {
+        "high_n": 16,
+        "operator_norm_to_exact": 0.000457401868483911
+      },
+      {
+        "high_n": 20,
+        "operator_norm_to_exact": 0.000289844418766706
+      },
+      {
+        "high_n": 24,
+        "operator_norm_to_exact": 0.00019993344775812638
+      },
+      {
+        "high_n": 28,
+        "operator_norm_to_exact": 0.00014617984194087097
+      },
+      {
+        "high_n": 32,
+        "operator_norm_to_exact": 0.00011150999049490591
+      }
+    ],
+    "4": [
+      {
+        "high_n": 6,
+        "operator_norm_to_exact": 0.053992262681038294
+      },
+      {
+        "high_n": 8,
+        "operator_norm_to_exact": 0.02330182717617292
+      },
+      {
+        "high_n": 12,
+        "operator_norm_to_exact": 0.0071804666391054464
+      },
+      {
+        "high_n": 16,
+        "operator_norm_to_exact": 0.0030950918333160346
+      },
+      {
+        "high_n": 20,
+        "operator_norm_to_exact": 0.0016043454508967677
+      },
+      {
+        "high_n": 24,
+        "operator_norm_to_exact": 0.0009356007974591899
+      },
+      {
+        "high_n": 28,
+        "operator_norm_to_exact": 0.0006449964447059831
+      },
+      {
+        "high_n": 32,
+        "operator_norm_to_exact": 0.0004874061495800085
+      }
+    ]
+  },
+  "global_determinant_convergence_derived": false,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "overall_verdict": "PURE_HERMITE_VACUUM_STRONG_CONVERGENCE_DERIVED",
+  "proof": {
+    "continuum_zero_spectral_atom_absent": true,
+    "dense_set_extension_to_strong_convergence": true,
+    "finite_DVR_identity": true,
+    "fixed_dense_set_convergence": true,
+    "uniform_contraction_bound": true,
+    "zero_is_absent_from_even_finite_nodes": true
+  },
+  "proof_authorized": false,
+  "pure_state_sequence_nested": false,
+  "pure_state_strong_convergence_derived": true,
+  "schema": "stage8_t7_pure_hermite_vacuum_strong_convergence_v001",
+  "spec_sha256": "de961915388eedc70c7cf29889b6f5b542c55464781a97d77acd1e4aecfc866f"
+}

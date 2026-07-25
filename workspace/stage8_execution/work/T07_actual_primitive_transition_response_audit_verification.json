@@ -1,0 +1,15 @@
+{
+  "Gamma_exact": "0",
+  "Hessian_exact": "0",
+  "alpha_computed": false,
+  "independent_method": "shared-vertex coefficient and norm calculation",
+  "no_target_access_attestation": true,
+  "normalized_modulus_exact": "1",
+  "overlap_modulus_squared_exact": "1/4",
+  "pass": true,
+  "primary_sha256": "20493c399cb5b1d6e0d282c05625f5008242e7728f342f200681fa34ed459b59",
+  "proof_authorized": false,
+  "schema": "stage8-t7-actual-primitive-transition-response-verifier-v001",
+  "spec_sha256": "8b53704d5ba0f49bec6c385984ea8d68d00a04f218c0db47092e5890bdbe127d",
+  "verdict_verified": true
+}

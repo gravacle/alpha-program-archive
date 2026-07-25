@@ -1,0 +1,13 @@
+{
+  "status": "PASS_AUTHORITY_V010_IDENTITY_SEALED_MAGNITUDE_BLOCKED",
+  "missing_files": [],
+  "verified_new_seals": 13,
+  "verified_execution_state_keys": 53,
+  "source_record_odd_component_identity_adopted_Level_1": true,
+  "free_mass_shell_relation_for_supplied_background_derived": true,
+  "closure_magnitude_presently_derived": false,
+  "record_generated_source_mass_derived": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "authority_and_seal_consistency_only"
+}

@@ -1,0 +1,25 @@
+{
+  "alpha_computed": false,
+  "average_u": {
+    "profile_a_1": "36/2135",
+    "uniform_measure": "1/60"
+  },
+  "checks": {
+    "at_least_two_distinct_normalized_measures": true,
+    "exact_moments_pass": true,
+    "existing_requirements_allow_tip_scalars": true,
+    "parent_partition_additive": true,
+    "profile_family_normalizable": true,
+    "profile_family_positive": true,
+    "strict_local_density_already_derived": false,
+    "u_is_lorentz_scalar": true
+  },
+  "construction_uses_alpha": false,
+  "derived_exact": {
+    "first_moment_over_pi": "1/1440",
+    "second_moment_over_pi": "1/50400",
+    "volume_over_pi": "1/24"
+  },
+  "hypothesis_promoted_to_principle": false,
+  "verdict": "MEASURE_NOT_UNIQUE_STRICT_LOCALITY_DECISION_REQUIRED"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS_AUTHORITY_V006_FINITE_CELL_PROTOCOL_FROZEN_ALPHA_FALSE",
+  "missing_files": [],
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "bookkeeping_consistency_only"
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "r3.4-parent-to-outgoing-gns-compatibility-v001",
+  "spec_sha256": "d137ab1f5a6d5c27463a4631f9c1dfc9152bbb480cec5fe0a97bbf9254239c9e",
+  "provenance_sha256": "31fbb6ce78de4a4b1a0e9081663d98a992c822a5045b165d95133e976eea12a2",
+  "authorities_verified": true,
+  "target_values_used": false,
+  "inherited_status": {
+    "complete_Q_spec_frozen": false,
+    "finite_global_one_particle_parent_constructed": true,
+    "time_dependent_continuum_ordering_derived": false,
+    "connected_preparation_derived": false,
+    "quasilocal_state_limit_derived": true,
+    "outgoing_record_algebra_subobligation_closed": true,
+    "unique_covariant_spectral_measure_derived": false,
+    "response_inequivalent_parent_actions_survive": true,
+    "complete_parent_action_uniquely_derived": false,
+    "complete_relativistic_source_parent_derived": false
+  },
+  "one_cell_static_parent_checks": {
+    "c_partial_hermitian": true,
+    "endpoint_projector_commutator_frobenius": 1.4142135623730951,
+    "completed_label_stationary_under_static_parent": false,
+    "tau_R": 2.221441469079183,
+    "evolved_p_to_root_error": 6.99482669657587e-16,
+    "evolved_root_to_p_error": 7.49928870051683e-16,
+    "disjoint_derivation_embedding_error": 0.0,
+    "disjoint_static_derivation_compatible": true
+  },
+  "product_label_states_algebraically_compatible": true,
+  "product_label_state_selected_by_complete_parent": false,
+  "static_parent_preserves_completed_public_label": false,
+  "disjoint_static_parent_embeddings_compatible": true,
+  "connected_parent_state_and_dynamics_compatible": false,
+  "inductive_limit_parent_selected_state_derived": false,
+  "strongly_continuous_parent_selected_GNS_dynamics_derived": false,
+  "nonzero_parent_selected_root_in_generator_form_domain_derived": false,
+  "compact_write_defect_or_causal_switch_off_derived": false,
+  "bound_and_point_spectrum_inventory_closed": false,
+  "parent_derived_root_spectral_measure_computed": false,
+  "static_parent_verdict": "STATIC_PARENT_LABEL_NOT_INVARIANT",
+  "primary_verdict": "PARENT_LIMIT_UNDERDETERMINED",
+  "parent_to_outgoing_limit_derived": false,
+  "requires_parent_derived_resolution": [
+    "causal post-write decoupling",
+    "invariant pointer or superselection algebra",
+    "parent-derived scattering or outgoing state"
+  ],
+  "hypothesis_promoted_to_principle": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "PARENT_LIMIT_UNDERDETERMINED_STATIC_LABEL_MISMATCH"
+}

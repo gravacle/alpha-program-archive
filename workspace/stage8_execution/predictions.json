@@ -1,0 +1,44 @@
+{
+  "schema": "stage8-gate5-predictions-v001",
+  "sealed_before_execution": true,
+  "authority_spec_sha256": "ddb36cbfe4edfc2a0520e9ae58063295214c64afed5cad5a64e9f311826358f5",
+  "conditions": {
+    "T00": "Every pinned Gate 1-4 artifact must match its authority hash and the five core scripts must reproduce their sealed outcomes on one lineage.",
+    "T01": "Base-point curvature must be generated from the unique sealed F1 differential class.",
+    "T02": "Every declared augmentation-ideal order and nonvanishing witness must be established symbolically.",
+    "T03": "The Clifford benchmark must reproduce both sealed values exactly.",
+    "T04": "The complete positive interval family must remain visible and its least durable member must reproduce the sealed interval.",
+    "T05": "Preparation-domain competitors must be exhausted and typed competitors must enter exactly one sealed bucket.",
+    "T06": "The historical direct-sum construction must reproduce zero stiffness in the large-cell limit.",
+    "T07": "The completed-record amplitude, zero-free neighborhood, monoidality, linked-cluster density, and covariance-Hessian identity must all pass.",
+    "T08": "The complete positive action-multiplier family must remain visible and undecided.",
+    "T09": "The Fubini-Study pullback must agree with the independently derived local Hessian.",
+    "T10": "The no-extra-flux lift must be unique and representative-independent on the physical image.",
+    "T11": "The anisotropic face measure must be tetrad-induced and refinement-natural without a shape scalar.",
+    "T12": "The local tensor reconstruction must satisfy the sealed rank, pair agreement, orthogonality, and deletion invariance conditions.",
+    "T13": "Pinned cubical and simplicial families must have intersecting certified intensive limits and pass common-refinement pullback commutation.",
+    "T14": "Cross and anisotropy blocks must vanish before the Hodge commutator may identify the nonnegative record susceptibility.",
+    "T15": "Only the primitive record susceptibility may be emitted numerically, and only in the canonical result.",
+    "T16": "The composition loop must emit exactly the sealed symbolic output list without modifying the parent dynamics.",
+    "NC1": "The historical zero-stiffness construction must remain failed.",
+    "NC2": "The valence-weighted face measure must fail the packing fence.",
+    "NC3": "The translations-only measure branch must remain a surviving non-uniform branch.",
+    "NC4": "Half the least durable interval must fail the record criterion.",
+    "NC5": "The zero root-survival amplitude must remain log-singular and be rejected as the response object."
+  },
+  "sealed_benchmarks": {
+    "T03_clifford_square": "-1/2",
+    "T03_invariant_magnitude": "1/2",
+    "T04_least_interval": "pi/sqrt(2)",
+    "T12_rank": "20",
+    "T16_output_fields": [
+      "char_poly",
+      "eigenvalues",
+      "kernel_multiplicity",
+      "tr_B2",
+      "tr_B4",
+      "R_square"
+    ]
+  },
+  "no_target_access_attestation": "No measured coupling, endpoint, target-selected operator, or numerical primitive susceptibility was accessed or predicted."
+}

@@ -1,0 +1,181 @@
+{
+  "C1_connected_preparation": {
+    "all_finite_K_baselines_nonzero_proved": false,
+    "canonical_connected_scalar_closed": false,
+    "connected_preparation_derived": false,
+    "disjoint_monoidality_derived": true,
+    "finite_parent_propagator_exists": true,
+    "one_cell_complex_closure_derived": true,
+    "pass": false
+  },
+  "C2_finite_Duhamel": {
+    "formal_finite_scalar_identity": {
+      "Duhamel_requirement": "a_s and a_st must be differentiated from the same propagator, preparation, and final boundary",
+      "amplitude": "a(s,t)",
+      "baseline_condition": "a_0 != 0",
+      "identity_does_not_prove_uniform_limit": true,
+      "identity_exact": true,
+      "mixed_log_hessian": "-Re(a_st/a_0 - a_s*a_t/a_0^2)"
+    },
+    "pass": false,
+    "same_object_as_V011_G_L_proved": false
+  },
+  "C3_uniform_zero_free": {
+    "necessity_witness": {
+      "first_zero": "pi/(2*N*tau_R)",
+      "first_zeros": [
+        0.7071067811865476,
+        0.3535533905932738,
+        0.1767766952966369,
+        0.08838834764831845,
+        0.04419417382415922,
+        0.02209708691207961,
+        0.011048543456039806
+      ],
+      "local_generator": "sum_j Z_j",
+      "local_term_norm": 1,
+      "normalized_amplitude": "Z_N(A)=cos(N*tau_R*A)",
+      "preparation": "(|0...0>+|1...1>)/sqrt(2)",
+      "purpose": "necessity witness for a derived uniform preparation/clustering bound; not a claim that the sealed parent is GHZ",
+      "scaled_first_zeros": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.7071067811865476,
+        0.7071067811865476,
+        0.7071067811865476,
+        0.7071067811865476,
+        0.7071067811865476
+      ],
+      "scaled_identity_error": 0.0,
+      "volumes": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "zero_approaches_origin": true
+    },
+    "pass": false,
+    "tau_R_inside_certified_cluster_domain": false,
+    "uniform_parent_clustering_bound_proved": false
+  },
+  "C4_linked_cluster_density": {
+    "local_return_decay_is_cumulant_bound": false,
+    "pass": false,
+    "subextensive_boundary_correction_proved": false,
+    "uniform_absolute_cumulant_summability_proved": false
+  },
+  "C5_thermodynamic_Duhamel": {
+    "limit_derivative_interchange_proved": false,
+    "locally_uniform_first_two_derivative_convergence_proved": false,
+    "pass": false
+  },
+  "Duhamel_intensive_Hessian_equality_proved": false,
+  "alpha_computed": false,
+  "connected_linked_cluster_density_proved": false,
+  "coupling_evaluation_authorized": false,
+  "custody": {
+    "authority_rows": [
+      {
+        "actual_sha256": "e12fffcc0f94d6896bc5607898db6b3a1ea343aeaf557b1f6f70e58db061fab6",
+        "expected_sha256": "e12fffcc0f94d6896bc5607898db6b3a1ea343aeaf557b1f6f70e58db061fab6",
+        "path": "STAGE8_T7_RESPONSE_CLOSURE_SELECTION_DERIVATION_RESULT_V001.md",
+        "verified": true
+      },
+      {
+        "actual_sha256": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb",
+        "expected_sha256": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb",
+        "path": "BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md",
+        "verified": true
+      },
+      {
+        "actual_sha256": "f72b4714d5189279171c51f1efd25abb2883ab7bc91358d23ca4a5039a242a8c",
+        "expected_sha256": "f72b4714d5189279171c51f1efd25abb2883ab7bc91358d23ca4a5039a242a8c",
+        "path": "FINITE_PARENT_ANALYTIC_AUTHORITY_V001.md",
+        "verified": true
+      },
+      {
+        "actual_sha256": "40890e753463b8c4c49844864f3f4811f15ec5f71fe9c044f9eb7d91428899a9",
+        "expected_sha256": "40890e753463b8c4c49844864f3f4811f15ec5f71fe9c044f9eb7d91428899a9",
+        "path": "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_SPEC_V001.md",
+        "verified": true
+      },
+      {
+        "actual_sha256": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+        "expected_sha256": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+        "path": "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md",
+        "verified": true
+      },
+      {
+        "actual_sha256": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+        "expected_sha256": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+        "path": "PARENT_STATE_COVARIANCE_PRINCIPLE_V001.md",
+        "verified": true
+      },
+      {
+        "actual_sha256": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+        "expected_sha256": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+        "path": "CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md",
+        "verified": true
+      },
+      {
+        "actual_sha256": "949181d78aca143ebef06eacc4ab1018d43cdf79962ee8c78c350f654a7555dd",
+        "expected_sha256": "949181d78aca143ebef06eacc4ab1018d43cdf79962ee8c78c350f654a7555dd",
+        "path": "BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS_V001.md",
+        "verified": true
+      },
+      {
+        "actual_sha256": "ddb36cbfe4edfc2a0520e9ae58063295214c64afed5cad5a64e9f311826358f5",
+        "expected_sha256": "ddb36cbfe4edfc2a0520e9ae58063295214c64afed5cad5a64e9f311826358f5",
+        "path": "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_AUTHORITY_FABLE_V002.md",
+        "verified": true
+      },
+      {
+        "actual_sha256": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+        "expected_sha256": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+        "path": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md",
+        "verified": true
+      }
+    ],
+    "spec_sha256": "dced9d9ed95601d8524bfbe68ec870a620bfe1cbee5b7c07230a5a9658de945c",
+    "spec_verified": true
+  },
+  "kappa_record_computed": false,
+  "new_principle_adopted": false,
+  "open_status_rows": [
+    {
+      "path": "BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS_V001.md",
+      "present": true,
+      "statement": "connected_preparation_derived = false"
+    },
+    {
+      "path": "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md",
+      "present": true,
+      "statement": "source_inclusive_state_projective_limit_derived = false"
+    },
+    {
+      "path": "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md",
+      "present": true,
+      "statement": "complete_parent_to_outgoing_GNS_map_derived = false"
+    },
+    {
+      "path": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md",
+      "present": true,
+      "statement": "connected_linked_cluster_density_proved = false"
+    },
+    {
+      "path": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md",
+      "present": true,
+      "statement": "volume_uniform_zero_free_neighborhood_proved = false"
+    }
+  ],
+  "physical_charged_amplitude_computed": false,
+  "proof_authorized": false,
+  "schema": "stage8-t7-connected-analytic-closure-v001",
+  "target_value_used": false,
+  "verdict": "T7_CONNECTED_PREPARATION_BLOCKED",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

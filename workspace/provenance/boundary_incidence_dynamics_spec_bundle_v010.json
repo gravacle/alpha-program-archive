@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-23",
+  "stage": "SPEC-SEAL-CANDIDATE",
+  "lineage": "BID_V010",
+  "historical_target_blindness_established": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "files": [
+    {
+      "path": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V010.md",
+      "sha256": "9deee673736ff955baee96b6c0802292d513160cc1c5482066f2f55d6074b098"
+    },
+    {
+      "path": "provenance/boundary_incidence_dynamics_preregistration_v010.json",
+      "sha256": "741ffdb49ebdb3d36e0a58ad630715247f30a6e4ef6a9b6497ede17d63d73ff6"
+    },
+    {
+      "path": "BID_CONSOLIDATED_HOSTILE_AUDIT_MATRIX_V004.md",
+      "sha256": "4f77702c5d134ea0c8e045bc83e4a111b5c4a6602739d2ec80026915ed173794"
+    },
+    {
+      "path": "BID_FULL_STACK_REVIEW_LEDGER_V002.md",
+      "sha256": "07087e9a5089e4c53adbf99a69a1906aa65a82bc32aba8432ce17269dd6979ad"
+    },
+    {
+      "path": "scripts/audit_bid_v010_specification.py",
+      "sha256": "39b8338918ccaf8e3941959b96a5430eae9ea022bd65bd985c83f761e2f76d70"
+    }
+  ]
+}

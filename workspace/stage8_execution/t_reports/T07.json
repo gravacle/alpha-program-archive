@@ -1,0 +1,179 @@
+{
+  "evidence": {
+    "T7_i_primitive_completed_record_amplitude": "PASS",
+    "T7_ii_volume_uniform_zero_free_neighborhood": "BLOCKED",
+    "T7_iii_connected_linked_cluster_density": "BLOCKED",
+    "T7_iii_disjoint_monoidality": "PASS",
+    "T7_iv_Duhamel_equals_intensive_Hessian": "NOT_EXECUTABLE",
+    "authority_audit": {
+      "all_files_present": true,
+      "all_required_statements_verified": true,
+      "rows": [
+        {
+          "all_required_statements_present": true,
+          "label": "primitive_amplitude",
+          "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md",
+          "required_statements": [
+            "primitive_complex_transition_amplitude_unique = true",
+            "primitive_transition_amplitude_gauge_invariant = true",
+            "connected_many_record_amplitude_derived = false"
+          ],
+          "sha256": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb"
+        },
+        {
+          "all_required_statements_present": true,
+          "label": "zero_free_gate",
+          "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_PHYSICAL_RECORD_AMPLITUDE_ZERO_FREE_GATE_V001.md",
+          "required_statements": [
+            "volume_uniform_zero_free_neighborhood_proved = false",
+            "thermodynamic_log_hessian_authorized = false"
+          ],
+          "sha256": "06efa6bcd12ebddb8c9efd85b1f3522689820017620154bd219b8831a29adbb8"
+        },
+        {
+          "all_required_statements_present": true,
+          "label": "cell_composition",
+          "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_DISTINGUISHABLE_RECORD_CELL_COMPOSITION_DERIVATION_V001.md",
+          "required_statements": [
+            "strong_monoidal_Hilb_carrier_for_disjoint_cells_derived = true",
+            "connected_cross_cell_terms_derived = false",
+            "connected_linked_cluster_density_proved = false"
+          ],
+          "sha256": "d7d14f9f1e57b1fcb6458a611dd5cbe034466e697381e14d2361e94e8efe1262"
+        },
+        {
+          "all_required_statements_present": true,
+          "label": "monoidal_extensivity",
+          "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md",
+          "required_statements": [
+            "exact_disjoint_monoidal_additivity_proved = true",
+            "connected_linked_cluster_density_proved = false"
+          ],
+          "sha256": "451550c3825288d699db35c7289e408e8314ad042450253b58f32722c4ead46b"
+        },
+        {
+          "all_required_statements_present": true,
+          "label": "parent_identifiability",
+          "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_MANY_RECORD_PARENT_IDENTIFIABILITY_GATE_V001.md",
+          "required_statements": [
+            "connected_parent_counterfamily_constructed = true",
+            "connected_preparation_derived = false",
+            "record_interval_inside_controlled_thermodynamic_domain = false"
+          ],
+          "sha256": "76fa38254dbfc50fb9d632bbe3b2deede7585849f34e1de69bd51c1257bbf053"
+        },
+        {
+          "all_required_statements_present": true,
+          "label": "global_descent",
+          "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS_V001.md",
+          "required_statements": [
+            "global_operator_valued_one_particle_superconnection_constructed = true",
+            "connected_preparation_derived = false",
+            "time_dependent_continuum_ordering_derived = false"
+          ],
+          "sha256": "949181d78aca143ebef06eacc4ab1018d43cdf79962ee8c78c350f654a7555dd"
+        },
+        {
+          "all_required_statements_present": true,
+          "label": "finite_parent_successor",
+          "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md",
+          "required_statements": [
+            "finite_causal_source_record_parent_derived = true",
+            "complete_parent_to_outgoing_GNS_map_derived = false",
+            "complete_parameter_free_Q_spec_frozen = false"
+          ],
+          "sha256": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb"
+        },
+        {
+          "all_required_statements_present": true,
+          "label": "stage7_successor",
+          "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE7_QSPEC_REVIEW_CANDIDATE_V002.md",
+          "required_statements": [
+            "stationary quasifree in-state",
+            "A normalized interacting CTP amplitude and its gauge/ghost/edge functional measure remain open.",
+            "stage8_cross_execution_completed = false"
+          ],
+          "sha256": "5026afb89b52ead9f309168cb2fa4f06b81039f8dd01b8940f40e64aad679a7e"
+        },
+        {
+          "all_required_statements_present": true,
+          "label": "stage8_spec",
+          "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_AUTHORITY_FABLE_V002.md",
+          "required_statements": [
+            "failure is BLOCKED",
+            "linked-cluster thermodynamic density on connected cellulations",
+            "verify the Duhamel covariance computed"
+          ],
+          "sha256": "ddb36cbfe4edfc2a0520e9ae58063295214c64afed5cad5a64e9f311826358f5"
+        }
+      ]
+    },
+    "connected_counterfamily": {
+      "B_lambda_definition": "|10><01|+|01><10|+lambda*|11><11|",
+      "basis": [
+        "|00>",
+        "|10>",
+        "|01>",
+        "|11>"
+      ],
+      "characteristic_polynomial_lambda0": "x^2*(x-1)*(x+1)",
+      "characteristic_polynomial_lambda1": "x*(x-1)^2*(x+1)",
+      "connected_two_record_dynamics_differ": true,
+      "lambda_values_tested": [
+        0,
+        1
+      ],
+      "target_value_used": false,
+      "two_record_matrix_element_lambda0": 0,
+      "two_record_matrix_element_lambda1": 1,
+      "vacuum_and_one_record_restrictions_equal": true
+    },
+    "corpus_closure_scan": {
+      "false_hit_count": 18,
+      "false_hits": [
+        "BID_DISTINGUISHABLE_RECORD_CELL_COMPOSITION_DERIVATION_V001.md: connected_linked_cluster_density_proved = false",
+        "BID_MANY_RECORD_PARENT_IDENTIFIABILITY_GATE_V001.md: connected_linked_cluster_density_proved = false",
+        "BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md: connected_linked_cluster_density_proved = false",
+        "BID_PHYSICAL_RECORD_AMPLITUDE_ZERO_FREE_GATE_V001.md: volume_uniform_zero_free_neighborhood_proved = false",
+        "BID_PHYSICAL_RECORD_AMPLITUDE_ZERO_FREE_GATE_V001.md: thermodynamic_log_hessian_authorized = false",
+        "BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md: volume_uniform_zero_free_neighborhood_proved = false",
+        "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md: connected_linked_cluster_density_proved = false",
+        "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md: volume_uniform_zero_free_neighborhood_proved = false",
+        "STAGE8_T7_CONNECTED_PRIMITIVE_RESPONSE_GATE_V001.md: connected_linked_cluster_density_proved = false",
+        "STAGE8_T7_CONNECTED_PRIMITIVE_RESPONSE_GATE_V001.md: volume_uniform_zero_free_neighborhood_proved = false",
+        "review_packets/STAGE7_QSPEC_CANDIDATE_V001/BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md: connected_linked_cluster_density_proved = false",
+        "review_packets/STAGE7_QSPEC_CANDIDATE_V001/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md: connected_linked_cluster_density_proved = false",
+        "review_packets/STAGE7_QSPEC_CANDIDATE_V001/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md: volume_uniform_zero_free_neighborhood_proved = false",
+        "stage8_execution/t_reports/T07.json: connected_linked_cluster_density_proved = false",
+        "stage8_execution/t_reports/T07.json: volume_uniform_zero_free_neighborhood_proved = false",
+        "stage8_execution/t_reports/T07.json: thermodynamic_log_hessian_authorized = false",
+        "stage8_execution/work/T07_response_lift_underdetermination.json: connected_linked_cluster_density_proved = false",
+        "stage8_execution/work/T07_response_lift_underdetermination.json: volume_uniform_zero_free_neighborhood_proved = false"
+      ],
+      "keys": [
+        "connected_linked_cluster_density_proved",
+        "volume_uniform_zero_free_neighborhood_proved",
+        "thermodynamic_log_hessian_authorized"
+      ],
+      "no_successor_closure_found": true,
+      "true_hit_count": 0,
+      "true_hits": []
+    },
+    "downstream_Qspec_CTP_issue_used_as_T7_blocker": false,
+    "new_principle_adopted": false,
+    "target_value_used": false
+  },
+  "failure_class": "MANDATORY_ZERO_FREE_AND_CONNECTED_DENSITY_NOT_DERIVED",
+  "obligation": "T07",
+  "open_item": null,
+  "pass": false,
+  "protected_flags": {
+    "alpha_computed": false,
+    "coupling_evaluation_authorized": false,
+    "kappa_record_computed": false,
+    "physical_charged_amplitude_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "015930f7c6363ef89fcf01852421b9c0635e88d5a69bce71de45a24bf3ff24d1"
+}

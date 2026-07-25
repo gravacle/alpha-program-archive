@@ -1,0 +1,50 @@
+{
+  "schema_version": 3,
+  "inputs": [
+    {
+      "path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_surface_manuscript_v159.md",
+      "source_date": "2026-06-30",
+      "sha256": "3598fbd4c0053331f34e2d32f4028fa6a1791683b2b460a8b7b16e919e12787d",
+      "classification": "PRE_ALPHA_CONDITIONAL_FOUNDATION",
+      "non_alpha_role": "Record-forming geometry-action surface and conditional finite connected reconstruction.",
+      "does_not_supply": "A microscopic fundamental-record action, quantum measure, or absolute Maxwell response."
+    },
+    {
+      "path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v156_single_handle_recombination_theorem.md",
+      "source_date": "2026-06-30",
+      "sha256": "0b0ef6ea4802d0aba43b237163d326802985f7f3f9a9e078f447965e0ca27e7b",
+      "classification": "PRE_ALPHA_BRANCH_SCOPED_RESULT",
+      "non_alpha_role": "One recoverable scalar relative-action marker selects one real orientation plane in the declared elementary branch.",
+      "does_not_supply": "Gauge couplings, particle spectrum, complete record action, or composite uniqueness."
+    },
+    {
+      "path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v253_record_formation_derives_asl.md",
+      "source_date": "2026-06-30",
+      "sha256": "b8d31174686407557de096524fce5b4e8f21b03e047b88b8a349e1a3cc903d08",
+      "classification": "PRE_ALPHA_CONDITIONAL_RECORD_RULE",
+      "non_alpha_role": "Action-support locality follows from exposed Record-Kernel Completeness and No-Oracle Record assumptions.",
+      "does_not_supply": "A microscopic action or absolute response normalization."
+    },
+    {
+      "path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v252_action_support_derives_njh.md",
+      "source_date": "2026-06-30",
+      "sha256": "fa87f8d87cdd35a1c484133bb9d680a52c7f9e8e0ac0122ac85d731d9374da09",
+      "classification": "PRE_ALPHA_CONDITIONAL_SUPPORT_RULE",
+      "non_alpha_role": "No-Joint-Handle result conditional on action-support locality.",
+      "does_not_supply": "A complete record carrier, action, measure, or coupling."
+    },
+    {
+      "path": "../../gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v251_boundary_recoverability_master_theorem.md",
+      "source_date": "2026-06-30",
+      "sha256": "ca7722c479bd1c0af2ca06e050835b2b9420c7f3ae1c823490dd3268a275567b",
+      "classification": "PRE_ALPHA_CONTEXTUAL_ACCOUNTING_RULE",
+      "non_alpha_role": "Boundary recoverability and single-handle contextual record accounting.",
+      "does_not_supply": "Global carrier uniqueness, microscopic dynamics, or coupling."
+    }
+  ],
+  "historical_target_blindness_established": false,
+  "current_claim_ceiling": "LEVEL_1",
+  "alpha_computed": false,
+  "proof_authorized": false
+}
+

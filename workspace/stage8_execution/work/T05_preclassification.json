@@ -1,0 +1,227 @@
+{
+  "T5a": {
+    "complete_invariant_projective_family": "(c_root,c_edge_0,c_edge_1,c_edge_2,c_edge_3), not all zero",
+    "first_opening_constraints": {
+      "c_edge_0": 0,
+      "c_edge_1": 0,
+      "c_edge_2": 0,
+      "c_edge_3": 0,
+      "c_root": "nonzero modulo projective scale"
+    },
+    "frozen_schedule": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21
+    ],
+    "surviving_projective_dimension": 0,
+    "translation_invariant_basis_orbits": [
+      {
+        "L": 3,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 405,
+        "orbit_sizes": {
+          "C0_vertex": 81,
+          "C1_direction_0": 81,
+          "C1_direction_1": 81,
+          "C1_direction_2": 81,
+          "C1_direction_3": 81
+        },
+        "translation_orbit_count": 5
+      },
+      {
+        "L": 5,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 3125,
+        "orbit_sizes": {
+          "C0_vertex": 625,
+          "C1_direction_0": 625,
+          "C1_direction_1": 625,
+          "C1_direction_2": 625,
+          "C1_direction_3": 625
+        },
+        "translation_orbit_count": 5
+      },
+      {
+        "L": 7,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 12005,
+        "orbit_sizes": {
+          "C0_vertex": 2401,
+          "C1_direction_0": 2401,
+          "C1_direction_1": 2401,
+          "C1_direction_2": 2401,
+          "C1_direction_3": 2401
+        },
+        "translation_orbit_count": 5
+      },
+      {
+        "L": 9,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 32805,
+        "orbit_sizes": {
+          "C0_vertex": 6561,
+          "C1_direction_0": 6561,
+          "C1_direction_1": 6561,
+          "C1_direction_2": 6561,
+          "C1_direction_3": 6561
+        },
+        "translation_orbit_count": 5
+      },
+      {
+        "L": 11,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 73205,
+        "orbit_sizes": {
+          "C0_vertex": 14641,
+          "C1_direction_0": 14641,
+          "C1_direction_1": 14641,
+          "C1_direction_2": 14641,
+          "C1_direction_3": 14641
+        },
+        "translation_orbit_count": 5
+      },
+      {
+        "L": 13,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 142805,
+        "orbit_sizes": {
+          "C0_vertex": 28561,
+          "C1_direction_0": 28561,
+          "C1_direction_1": 28561,
+          "C1_direction_2": 28561,
+          "C1_direction_3": 28561
+        },
+        "translation_orbit_count": 5
+      },
+      {
+        "L": 15,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 253125,
+        "orbit_sizes": {
+          "C0_vertex": 50625,
+          "C1_direction_0": 50625,
+          "C1_direction_1": 50625,
+          "C1_direction_2": 50625,
+          "C1_direction_3": 50625
+        },
+        "translation_orbit_count": 5
+      },
+      {
+        "L": 17,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 417605,
+        "orbit_sizes": {
+          "C0_vertex": 83521,
+          "C1_direction_0": 83521,
+          "C1_direction_1": 83521,
+          "C1_direction_2": 83521,
+          "C1_direction_3": 83521
+        },
+        "translation_orbit_count": 5
+      },
+      {
+        "L": 19,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 651605,
+        "orbit_sizes": {
+          "C0_vertex": 130321,
+          "C1_direction_0": 130321,
+          "C1_direction_1": 130321,
+          "C1_direction_2": 130321,
+          "C1_direction_3": 130321
+        },
+        "translation_orbit_count": 5
+      },
+      {
+        "L": 21,
+        "all_orbits_have_size_L4": true,
+        "basis_dimension": 972405,
+        "orbit_sizes": {
+          "C0_vertex": 194481,
+          "C1_direction_0": 194481,
+          "C1_direction_1": 194481,
+          "C1_direction_2": 194481,
+          "C1_direction_3": 194481
+        },
+        "translation_orbit_count": 5
+      }
+    ],
+    "unique_root_generated_preparation_ray": true
+  },
+  "T5b": {
+    "buckets_pairwise_disjoint": true,
+    "final_classification_ready": false,
+    "postulate_exclusions_mislabeled_as_theorems": false,
+    "typed_competitor_buckets": {
+      "excluded_by_postulate": [
+        {
+          "exclusion_kind": "postulate_not_theorem",
+          "id": "independent_primitive_Pauli_sigmaF",
+          "reason": "excluded from primitive status by adopted Single-Operator Completeness"
+        },
+        {
+          "exclusion_kind": "postulate_not_theorem",
+          "id": "independent_primitive_F_squared",
+          "reason": "excluded from primitive status by adopted Single-Operator Completeness and zero-independent-bare-F2 compositeness"
+        },
+        {
+          "exclusion_kind": "postulate_not_theorem",
+          "id": "independent_primitive_higher_CAR_contact_or_overlap",
+          "reason": "excluded from primitive status by adopted Global Boundary Descent / Quasi-Free Completeness"
+        }
+      ],
+      "generated_downstream": [
+        {
+          "computed_coefficient": "unit principal-log normalization",
+          "id": "basepoint_curvature_F_BR",
+          "incidence_order": 2,
+          "source": "closed F1 plaquette word"
+        },
+        {
+          "computed_coefficient": "-1/2",
+          "id": "kinematic_Pauli_sigmaF",
+          "incidence_order": 2,
+          "source": "Clifford square of the generated covariant differential"
+        },
+        {
+          "computed_coefficient": null,
+          "id": "quadratic_Maxwell_record_response",
+          "incidence_order": 4,
+          "source": "T7 response Hessian followed by T12-T14 tensor reconstruction",
+          "status": "pending_T14"
+        }
+      ],
+      "incompatible_with_F1": [
+        {
+          "id": "inequivalent_D_a_b_incidence_column",
+          "reason": "fails the already executed unique normalized F1 differential class"
+        },
+        {
+          "id": "edge_or_handle_dependent_F1_weight",
+          "reason": "fails F1 naturality and cell-relabeling covariance"
+        },
+        {
+          "id": "homogeneous_order_zero_transport",
+          "reason": "collapses the frozen augmentation-ideal filtration T_mu=I+delta_mu"
+        }
+      ]
+    }
+  },
+  "final_T05_report_emitted": false,
+  "pass_so_far": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "primitive_output_computed": false,
+    "proof_authorized": false
+  },
+  "reason_final_not_emitted": "generated Maxwell-response coefficient belongs to T14 and is not yet computed",
+  "schema": "stage8-t05-preclassification-v001",
+  "sha256_of_body": "62b41560cd87a6f77b5f03221924e5a990810c4d5f0f01008c524c1e22bf02f7"
+}

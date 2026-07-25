@@ -1,0 +1,61 @@
+{
+  "schema_version": 12,
+  "parent_authority": {
+    "ledger": "CURRENT_AUTHORITY_LEDGER_V010.json",
+    "ledger_seal": "CURRENT_AUTHORITY_LEDGER_V010.seal.sha256",
+    "audit": "scripts/audit_current_authority_v010.py",
+    "audit_seal": "scripts/audit_current_authority_v010.seal.sha256",
+    "test": "tests/test_current_authority_v010.py",
+    "test_seal": "tests/test_current_authority_v010.seal.sha256",
+    "result": "results/current_authority_v010.json",
+    "result_seal": "results/current_authority_v010.seal.sha256"
+  },
+  "new_sealed_results": {
+    "reduced_source_record_generator_structure": "SOURCE_RECORD_GENERATOR_STRUCTURE_GATE_V002.md",
+    "conditional_pointer_commutant": "DURABLE_POINTER_CLOSURE_OPERATOR_SELECTOR_GATE_V002.md",
+    "relative_record_orthogonalization_budget": "BOUNDARY_RECORD_ONSET_SATURATION_ACTION_GATE_V003.md",
+    "conditional_source_flux_record_holonomy": "SOURCE_FLUX_CONDITIONED_RECORD_WRITE_GATE_V003.md"
+  },
+  "new_level_1_postulates": {
+    "relative_record_onset_saturation": "BOUNDARY_RECORD_ONSET_SATURATION_ACTION_GATE_V003.md",
+    "zero_flux_no_charged_write": "SOURCE_FLUX_CONDITIONED_RECORD_WRITE_GATE_V003.md"
+  },
+  "superseded_or_rejected_since_v010": {
+    "SOURCE_RECORD_GENERATOR_STRUCTURE_GATE_V001.md": "SUPERSEDED_UNCOMPUTED_KERNEL_DIMENSIONS_AND_OVERCLAIMED_NONZERO_EXCHANGE",
+    "DURABLE_POINTER_CLOSURE_OPERATOR_SELECTOR_GATE_V001.md": "REJECTED_IDENTITY_QUOTIENT_LEAKED_INTO_SOURCE_ACTION",
+    "BOUNDARY_RECORD_ONSET_SATURATION_ACTION_GATE_V001.md": "REJECTED_PRIVILEGED_STATIONARY_BRANCH",
+    "BOUNDARY_RECORD_ONSET_SATURATION_ACTION_GATE_V002.md": "REJECTED_COMMON_HAMILTONIAN_AND_PHYSICAL_ACTION_OVERCLAIMS",
+    "SOURCE_FLUX_CONDITIONED_RECORD_WRITE_GATE_V001.md": "REJECTED_GLOBAL_PHASE_AS_PHYSICAL_RELATIVE_PHASE",
+    "SOURCE_FLUX_CONDITIONED_RECORD_WRITE_GATE_V002.md": "SUPERSEDED_UNNORMALIZED_AND_UNQUALIFIED_PHASE_OBSERVABILITY"
+  },
+  "execution_state_additions": {
+    "reduced_source_record_generator_structure_classified": true,
+    "combined_grading_conservation_derived": false,
+    "nonzero_source_record_exchange_derived": false,
+    "conditional_pointer_commutant_classified": true,
+    "physical_pointer_operator_selected": false,
+    "physical_contrast_normalization_derived": false,
+    "common_source_term_excluded": false,
+    "relative_orthogonalization_bound_derived": true,
+    "relative_onset_saturation_adopted_Level_1": true,
+    "physical_dynamical_action_fixed": false,
+    "orthogonal_reduced_record_supports_derived": false,
+    "conditional_source_flux_holonomy_verified": true,
+    "complete_physical_write_operator_derived": false,
+    "physical_source_flux_nondemolition_derived": false,
+    "coherent_flux_superposition_physically_admissible_derived": false,
+    "source_relative_phase_observability_derived": false,
+    "complete_source_record_environment_operator_derived": false,
+    "physical_durability_derived": false
+  },
+  "protected_parent_flags": {
+    "complete_source_record_closure_action_uniquely_derived": false,
+    "record_generated_source_mass_derived": false,
+    "complete_parameter_free_Q_spec_frozen": false,
+    "unique_causal_record_cell_derived": false,
+    "spectral_evaluation_authorized": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

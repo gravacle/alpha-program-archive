@@ -1,0 +1,25 @@
+{
+  "alpha_computed": false,
+  "comparisons": {
+    "alpha_false": true,
+    "one_to_two_record_restriction": true,
+    "primary_record_restrictions": true,
+    "primary_source_limit_false": true,
+    "primary_verdict": true,
+    "proof_false": true,
+    "source_negative_control": true,
+    "two_to_three_record_restriction": true
+  },
+  "construction_uses_alpha": false,
+  "independent_verification_pass": true,
+  "method": "independent spectral-polynomial cell evolution",
+  "proof_authorized": false,
+  "record_restriction_max_entry_errors": {
+    "1_to_2": 3.3306690738754696e-16,
+    "2_to_3": 1.1102230246251565e-16
+  },
+  "source_state_changes": {
+    "1_to_2": 0.6123724356957945,
+    "2_to_3": 0.3061862178478971
+  }
+}

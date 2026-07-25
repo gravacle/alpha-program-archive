@@ -1,0 +1,25 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "cell_multiplier_nested_subspace_error": 0.0,
+    "h0_nested_subspace_error": 0.0,
+    "midpoint_48_to_96_mixed": 2.6565715628905294e-06,
+    "midpoint_48_to_96_pure": 2.9459316660137335e-05,
+    "midpoint_96_to_strang_48_mixed": 2.5273292393433806e-06,
+    "midpoint_96_to_strang_48_pure": 2.9688696199330103e-05,
+    "mixed_covariance_max_difference_from_q20": 8.991097100774503e-05,
+    "mixed_covariance_max_q24": 0.9608587994095394,
+    "mixed_covariance_min_difference_from_q20": 8.991097100873036e-05,
+    "mixed_covariance_min_q24": 0.03914120059046119
+  },
+  "coupling_evaluation_authorized": false,
+  "independent_ball_quadrature": "14x14x28 direct Hermite evaluation",
+  "independent_covariance_quadrature_order": 24,
+  "independent_integrator": "full-Hamiltonian midpoint exponential",
+  "kappa_record_computed": false,
+  "pass": true,
+  "physical_regulator_completed_record_baseline_derived": false,
+  "proof_authorized": false,
+  "schema": "stage8_t7_hermite_galerkin_baseline_verification_v001",
+  "spec_sha256": "80aa4e1722c117e8195ce0fb2ae3fc37262bc8fc2ba5d79a6dd38cd1029bc26d"
+}

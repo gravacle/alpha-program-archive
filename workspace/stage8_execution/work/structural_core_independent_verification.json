@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "T12_modular_rank_and_topological_null": true,
+    "T16_numerical_spectrum_and_moments": true,
+    "T1_incidence_cancellation": true,
+    "T2_concrete_degree_two_commutator": true,
+    "T3_clifford_coefficient": true,
+    "T4_parent_seal_and_spectrum": true,
+    "all_control_content_addresses_valid": true,
+    "all_report_content_addresses_valid": true
+  },
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "role": "self-review; not a mandated fresh-context independent lane",
+  "schema": "stage8-structural-core-independent-self-review-v001"
+}

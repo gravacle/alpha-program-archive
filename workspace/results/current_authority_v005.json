@@ -1,0 +1,17 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "all_coupling_gates_remain_closed": true,
+    "complete_parent_kernel_remains_open": true,
+    "ctp_kernel_audit_passed": true,
+    "fidelity_action_is_not_parent": true,
+    "ledger_seal_matches": true
+  },
+  "complete_dynamical_parent_kernel_frozen": false,
+  "coupling_evaluation_authorized": false,
+  "executable_role": "AUTHORITY_AND_FAIL_CLOSED_STATUS_GUARD",
+  "failed_checks": [],
+  "ledger_sha256": "2b57caf33945314f4d4809f184309fd340470c42abf5d28bfe198f49fdf2b755",
+  "overall": "PASS_CURRENT_AUTHORITY_V005_PARENT_KERNEL_OPEN_ALPHA_FALSE",
+  "proof_authorized": false
+}

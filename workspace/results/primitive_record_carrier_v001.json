@@ -1,0 +1,27 @@
+{
+  "alpha_computed": false,
+  "candidate_action_evaluation_authorized": false,
+  "checks": {
+    "additive_action_representation_composes": true,
+    "all_pre_alpha_source_hashes_still_match": true,
+    "comparison_overlap_has_expected_endpoints": true,
+    "orientation_generator_squares_to_minus_identity": true,
+    "scope_remains_primitive_not_complete": true,
+    "target_literal_guard_passes": true,
+    "v003_resolved_provenance_authority_passes": true
+  },
+  "complete_g_A_psi_record_action_derived": false,
+  "complete_multi_handle_record_carrier_derived": false,
+  "complete_quantum_specification_frozen": false,
+  "coupling_computed": false,
+  "coupling_evaluation_authorized": false,
+  "failed_checks": [],
+  "overall": "PASS_PRIMITIVE_RECORD_CARRIER_KINEMATICS_COMPLETE_ACTION_FALSE_ALPHA_FALSE",
+  "primitive_action_character_winding": 1,
+  "primitive_comparator_kinematics_derived": true,
+  "primitive_single_handle_order_unit_dimension": 4,
+  "primitive_single_handle_real_carrier_dimension": 2,
+  "proof_authorized": false,
+  "target_literal_hits": [],
+  "unique_UV_completion_selected": false
+}

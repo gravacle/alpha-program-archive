@@ -1,0 +1,14 @@
+{
+  "status": "PASS_SOURCE_RECORD_CHIRAL_BLOCK_ALGEBRA_ONLY",
+  "arithmetic": "exact_sparse_polynomial_over_gaussian_integers",
+  "determinant": "(p^2 - |phi_R|^2)^2",
+  "chirality_odd": true,
+  "closure_square": "|phi_R|^2 I_4",
+  "kernel_hermitian_for_real_momentum": true,
+  "phi_magnitude_assigned": false,
+  "durable_closure_saddle_derived": false,
+  "record_generated_source_mass_derived": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "scope": "symbolic_block_algebra_for_supplied_closure_amplitude_only"
+}

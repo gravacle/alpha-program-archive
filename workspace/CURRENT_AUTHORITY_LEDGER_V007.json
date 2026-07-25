@@ -1,0 +1,73 @@
+{
+  "schema_version": 7,
+  "sealed_pre_alpha_authority": {
+    "preregistration": "PREREGISTRATION_V003.md",
+    "contract": "contract_v003.json",
+    "provenance": "provenance_inputs_v003.json"
+  },
+  "current_derived_results": {
+    "primitive_record_carrier": "results/primitive_record_carrier_v001.json",
+    "ordered_endpoint_projective_stabilizer": "results/primitive_relative_phase_stabilizer_v002.json",
+    "microscopic_exhaustion_scope": "results/microscopic_exhaustion_v002.json",
+    "public_charged_action_nonselection": "results/public_charged_action_uniqueness_v002.json",
+    "complete_one_cell_ctp_kernel_gate": "COMPLETE_ONE_CELL_CTP_KERNEL_GATE_V001.md",
+    "bcc_parent_candidate_gate": "BCC_WEYL_WALK_PARENT_CANDIDATE_GATE_V001.md",
+    "complete_parent_action_underdetermination_gate": "COMPLETE_PARENT_ACTION_UNDERDETERMINATION_GATE_V001.md",
+    "coupled_record_bundle_modulus_gate": "COUPLED_RECORD_BUNDLE_MODULUS_GATE_V002.md",
+    "absolute_stiffness_route_ledger": "ABSOLUTE_STIFFNESS_SELECTOR_ROUTE_LEDGER_V003.md",
+    "finite_cell_response_protocol": "FINITE_RECORD_CELL_FLUX_RESPONSE_PROTOCOL_V001.md"
+  },
+  "current_level_1_postulates": {
+    "fundamental_boundary_record_action_principle": "FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.md",
+    "primitive_vectorlike_source_branch": "PRIMITIVE_VECTORLIKE_CHARGED_SOURCE_BRANCH_V002.md"
+  },
+  "external_target_independent_route_audits": {
+    "../alpha_spectral_ncg_absolute_stiffness_research_v001.md": "CONTINUUM_SPECTRAL_AND_DETERMINANT_ROUTES_BLOCK_ABSOLUTE_STIFFNESS",
+    "../reports/alpha_target_free_finite_u1_route_audit_v001.md": "FINITE_GAUGE_AND_QCA_ROUTES_BLOCK_WITHOUT_COMPLETE_CELL",
+    "../alpha_finite_cptp_ctp_record_cell_hostile_analysis_v001.md": "CPTP_KINEMATICS_FORGETS_ACTION_PHASE_AND_DOES_NOT_SELECT_GENERATOR"
+  },
+  "conditional_or_diagnostic_only": {
+    "LOCAL_PROJECTIVE_RECORD_BUNDLE_V001.md": "CONDITIONAL_PROJECTIVE_LIFT_BUNDLE_NOT_PHYSICAL_CONNECTION",
+    "PRIMITIVE_ADDITIVE_RECORD_FIDELITY_ACTION_V002.md": "POSTSELECTED_DIAGONAL_WEIGHT_NOT_PARENT_CTP_ACTION",
+    "ONE_CELL_FIDELITY_ACTION_SELECTOR_GATE_V001.md": "POINTWISE_DIAGNOSTIC_NOT_ABSOLUTE_STIFFNESS_SELECTOR",
+    "BCC_WEYL_WALK_PARENT_CANDIDATE_GATE_V001.md": "FREE_PARENT_PROPAGATOR_ONLY_FULL_GAUGED_CELL_OPEN",
+    "COUPLED_RECORD_BUNDLE_MODULUS_GATE_V002.md": "TREE_RELATION_ONLY_RADIUS_AND_ACTION_CLASS_OPEN"
+  },
+  "superseded_or_retired_results": {
+    "CURRENT_AUTHORITY_LEDGER_V006.json": "SUPERSEDED_AFTER_CPTP_AND_COUPLED_BUNDLE_HOSTILE_AUDITS",
+    "COUPLED_RECORD_BUNDLE_MODULUS_GATE_V001.md": "SUPERSEDED_BY_V002_HOPF_AND_RADION_CORRECTION",
+    "CURRENT_AUTHORITY_LEDGER_V005.json": "SUPERSEDED_AFTER_ABSOLUTE_STIFFNESS_ROUTE_AUDIT",
+    "ABSOLUTE_STIFFNESS_SELECTOR_ROUTE_LEDGER_V002.md": "SUPERSEDED_BY_V003_INDEPENDENT_ROUTE_SYNTHESIS",
+    "FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V001.md": "SUPERSEDED_BY_V002_PROVENANCE_CORRECTION",
+    "PRIMITIVE_ADDITIVE_RECORD_FIDELITY_ACTION_V001.md": "SUPERSEDED_BY_V002_ACTIVE_U1_CORRECTION",
+    "PRIMITIVE_VECTORLIKE_CHARGED_SOURCE_BRANCH_V001.md": "SUPERSEDED_BY_V002_ACTIVE_U1_CORRECTION",
+    "results/microscopic_exhaustion_v001.json": "FAILED_COUNTERMODEL_PROOF_RETIRED_BY_V002",
+    "results/public_charged_action_uniqueness_v001.json": "QUALIFIED_AND_SUPERSEDED_BY_V002",
+    "results/primitive_relative_phase_connection_v001.json": "LOCALIZATION_AND_PHYSICAL_CONNECTION_CLAIMS_RETIRED_BY_STABILIZER_V002"
+  },
+  "execution_state": {
+    "pointwise_active_relative_U1_derived": true,
+    "smooth_principal_relative_U1_bundle_adopted_Level_1": true,
+    "auxiliary_compact_connection_adopted_Level_1": true,
+    "physical_public_EM_connection_derived": false,
+    "complete_two_outcome_point_comparator_kernel_derived": true,
+    "point_comparator_kernel_generates_Maxwell_action": false,
+    "ordinary_continuum_absolute_selector_exists": false,
+    "known_finite_gauge_route_fixes_absolute_stiffness": false,
+    "current_premises_admit_response_inequivalent_parent_actions": true,
+    "phase_complete_unique_generator_derived": false,
+    "complete_parent_action_uniquely_derived": false,
+    "coupled_record_bundle_tree_relation_derived": true,
+    "coupled_record_bundle_charge_radius_derived": false,
+    "finite_cell_flux_protocol_frozen": true,
+    "complete_dynamical_parent_kernel_frozen": false,
+    "complete_parameter_free_Q_spec_frozen": false,
+    "unique_causal_record_cell_derived": false,
+    "unique_finite_coincident_extension_derived": false,
+    "finite_flux_response_evaluated": false,
+    "finite_c_F2_deformation_excluded": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

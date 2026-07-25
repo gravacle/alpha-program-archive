@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-23",
+  "principle": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V001.md",
+  "logical_status": "target_value_free_target_aware_forward_declared_Level_1",
+  "historical_target_blindness_established": false,
+  "inherited_inputs": [
+    "three independent primitive public action handles",
+    "one common pre-record root alternative",
+    "continuous additive exp(i Delta S/hbar) action character",
+    "primitive unit winding up to orientation",
+    "boundary-generated physical support",
+    "orthogonal unit elementary record alternatives",
+    "ordinary 3+1 Lorentzian compact-vector-U1 CPT branch"
+  ],
+  "new_physical_content": [
+    "one primitive outward incidence per independent handle",
+    "no ungenerated first-layer endpoint or composite",
+    "each primitive incidence arrow carries one unit action character",
+    "one common dimensionful scale only after causal-cell derivation",
+    "no independent primitive sector normalization"
+  ],
+  "required_gates": [
+    "carrier_selection",
+    "operator_uniqueness",
+    "relative_rescaling_forbidding",
+    "primitive_Pauli_and_F2_forbidding",
+    "frozen_parent_reproduction_or_correction",
+    "new_consequence"
+  ],
+  "forbidden_construction_inputs": [
+    "measured electromagnetic coupling",
+    "particle mass",
+    "cosmological endpoint",
+    "previous alpha coefficient",
+    "target-selected carrier",
+    "target-selected operator",
+    "target-selected relative weight"
+  ],
+  "effective_terms_may_be_generated_downstream": true,
+  "independent_primitive_Pauli_coefficient_allowed": false,
+  "independent_primitive_F2_coefficient_allowed": false,
+  "evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false
+}

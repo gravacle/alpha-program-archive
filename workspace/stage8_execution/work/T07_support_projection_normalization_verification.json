@@ -1,0 +1,20 @@
+{
+  "accumulated_support_fractions": [
+    "0",
+    "1/5",
+    "1/2",
+    "1"
+  ],
+  "alpha_computed": false,
+  "constant_occupancy_profiles": [
+    "0",
+    "1/5",
+    "1/2",
+    "1"
+  ],
+  "kappa_record_computed": false,
+  "pass": true,
+  "proof_authorized": false,
+  "schema": "stage8_t7_support_projection_normalization_verification_v001",
+  "time_marginal_integral": "1"
+}

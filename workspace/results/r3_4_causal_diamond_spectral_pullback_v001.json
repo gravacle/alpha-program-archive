@@ -1,0 +1,95 @@
+{
+  "spec_sha256": "c4457507840db213990ac0f07e89fe8eef9231025f3aefce2e8671e0370d4456",
+  "inputs": {
+    "measured_constants_used": false,
+    "alpha_used": false,
+    "cell": "unit-tip-separation 3+1 causal diamond",
+    "candidate_operator": "massless positive-energy incidence/Hodge-Dirac"
+  },
+  "analytic_result": {
+    "volume": "pi/24",
+    "form_factor": "24/E^3 * [sin(E/2) - (E/2) cos(E/2)]",
+    "normalization": "12*pi",
+    "density": "48/pi * [sin(E/2) - (E/2) cos(E/2)]^2/E^4",
+    "low_energy_density": "E^2/(12*pi) + O(E^4)",
+    "rho_second_derivative_at_zero": "1/(6*pi)",
+    "return_amplitude_asymptotic": "A_D(t)=i/(6*pi*t^3)+o(t^-3)",
+    "return_probability_class": "t^-6"
+  },
+  "checks": {
+    "form_factor": [
+      {
+        "energy": 0.0,
+        "closed_form": 1.0,
+        "independent_quadrature": 0.9999999999999949,
+        "absolute_error": 5.10702591327572e-15
+      },
+      {
+        "energy": 0.01,
+        "closed_form": 0.9999974999938542,
+        "independent_quadrature": 0.9999975000016135,
+        "absolute_error": 7.759237696802757e-12
+      },
+      {
+        "energy": 0.2,
+        "closed_form": 0.9990003570767012,
+        "independent_quadrature": 0.9990003570767289,
+        "absolute_error": 2.7644553313166398e-14
+      },
+      {
+        "energy": 1.0,
+        "closed_form": 0.975222183816399,
+        "independent_quadrature": 0.9752221838163946,
+        "absolute_error": 4.440892098500626e-15
+      },
+      {
+        "energy": 3.0,
+        "closed_form": 0.7923459414244446,
+        "independent_quadrature": 0.7923459414244405,
+        "absolute_error": 4.107825191113079e-15
+      },
+      {
+        "energy": 7.0,
+        "closed_form": 0.20479173255940528,
+        "independent_quadrature": 0.20479173255940414,
+        "absolute_error": 1.1379786002407855e-15
+      },
+      {
+        "energy": 12.0,
+        "closed_form": -0.08389496136251558,
+        "independent_quadrature": -0.08389496136251516,
+        "absolute_error": 4.163336342344337e-16
+      }
+    ],
+    "maximum_form_factor_error": 7.759237696802757e-12,
+    "normalization_numeric": 0.9999999941570118,
+    "normalization_absolute_error": 5.842988204385335e-09,
+    "density_nonnegative_on_test_grid": true,
+    "density_is_L1": true,
+    "density_is_absolutely_continuous": true,
+    "density_third_derivative_is_L1": true,
+    "riemann_lebesgue_decay_applies": true,
+    "thresholded_durability_follows_for_candidate": true
+  },
+  "provenance": {
+    "uniform_flat_cell_measure_derived": true,
+    "constant_root_embedding_declared": true,
+    "constant_root_uniqueness_derived": false,
+    "massless_positive_energy_outgoing_operator_derived": false,
+    "self_adjoint_outgoing_domain_derived": false,
+    "outgoing_record_algebra_derived": true,
+    "physical_durability_carrier_identified": false,
+    "prior_unique_spectral_measure_derived": false
+  },
+  "status": {
+    "verdict": "CONDITIONAL_DIAMOND_PULLBACK_OPERATOR_OR_ROOT_OPEN",
+    "conditional_density_computed": true,
+    "unique_covariant_spectral_measure_derived": false,
+    "thresholded_durability_derived_unconditionally": false,
+    "hypothesis_promoted_to_principle": false,
+    "spectral_evaluation_authorized": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

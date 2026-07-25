@@ -1,0 +1,79 @@
+{
+  "D1_record_line_relay": {
+    "connected_counterfamily": {
+      "B0_two_record_diagonal": "0",
+      "B1_two_record_diagonal": "1",
+      "two_record_action_differs": true,
+      "vacuum_and_one_record_restrictions_equal": true
+    },
+    "line_endomorphisms_are_scalars": true,
+    "product_is_disconnected_completion_only": true,
+    "relay_composition_multiplies_cell_scalars": true
+  },
+  "D2_shared_source_compressions": [
+    {
+      "N": 1,
+      "causal_initial_to_final_line_return": "1",
+      "normalized_trace": "1/4",
+      "operator_is_scalar_identity": false,
+      "state_expectations": {
+        "P0": "1",
+        "P1": "1/4",
+        "P2": "0"
+      }
+    },
+    {
+      "N": 2,
+      "causal_initial_to_final_line_return": "-1/2",
+      "normalized_trace": "1/16",
+      "operator_is_scalar_identity": false,
+      "state_expectations": {
+        "P0": "1/4",
+        "P1": "1/4",
+        "P2": "0"
+      }
+    },
+    {
+      "N": 3,
+      "causal_initial_to_final_line_return": "1/4",
+      "normalized_trace": "0",
+      "operator_is_scalar_identity": false,
+      "state_expectations": {
+        "P0": "0",
+        "P1": "1/16",
+        "P2": "0"
+      }
+    }
+  ],
+  "D3": {
+    "causal_final_source_line_derived_as_public_endpoint": false,
+    "connected_operator_uniquely_fixed_by_line_data": false,
+    "normalized_trace_has_nonzero_all_stage_baseline": false,
+    "shared_source_endpoint_compression_is_scalar": false,
+    "source_scalar_functional_uniquely_fixed_in_primitive_scope": false
+  },
+  "Duhamel_intensive_Hessian_equality_proved": false,
+  "alpha_computed": false,
+  "authority_sha256": {
+    "BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb",
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+    "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_V001.md": "85d24996987278b285d63b8fe15a8732e55664e7c1b09063617b66cb4bc926b4",
+    "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md": "9410ee80ff89beed4e133f75fcdb952d059f3386df12069793b5d60895d15486",
+    "STAGE8_T7_OPEN_EXHAUSTION_ATTACHMENT_AND_RELAY_NECESSITY_RESULT_V001.md": "0df721a170f4f4a1ec630775a3ae47b0d793c82e100b326e681030389eaf0694",
+    "STAGE8_T7_RELAYED_FAMILY_RESOLUTION_RESULT_V001.md": "52401eefc3ff84e22f04bbc329a619b830058661db7f969d2d43d167d97d893d",
+    "STAGE8_T7_RELAY_DEPENDENCY_ORDER_AMENDMENT_V001.md": "29c32f90e6a4f88a26e22c91504b6d92a1fc4083ad6368984a1e94858caa4365",
+    "STAGE8_T7_RESPONSE_CLOSURE_SELECTION_DERIVATION_RESULT_V001.md": "e12fffcc0f94d6896bc5607898db6b3a1ea343aeaf557b1f6f70e58db061fab6"
+  },
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "coupling_evaluation_authorized": false,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "proof_authorized": false,
+  "reason": "The relayed line category fixes the disconnected product but does not fix connected dynamics. The connected shared-source compression is operator-valued; pre-existing source states give different scalars, the normalized trace vanishes at N=3, and the nonzero causal-line functional requires an unproved final source boundary.",
+  "schema": "stage8-t7-primitive-connected-scalarization-dichotomy-v001",
+  "spec_sha256": "fdb7abb30c1db155df95bd062e3bc77ea5a1ba1462689e6004db951e347ab430",
+  "target_value_used": false,
+  "verdict": "PRIMITIVE_CONNECTED_SCALARIZATION_UNDERDETERMINED",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

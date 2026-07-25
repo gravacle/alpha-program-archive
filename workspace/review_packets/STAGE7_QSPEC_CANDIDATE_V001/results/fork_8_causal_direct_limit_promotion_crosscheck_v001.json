@@ -1,0 +1,15 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "A4_only_physical": true,
+    "architecture_partition_is_complete_and_disjoint": true,
+    "intrinsic_measure_fixed": true,
+    "outgoing_GNS_and_recoverability_hold": true,
+    "primary_promotes_only_scoped_fork": true,
+    "tail_nonreturn_and_record_persistence_both_hold": true,
+    "unassumed_direct_limit_consequence_holds": true
+  },
+  "crosscheck_pass": true,
+  "proof_authorized": false,
+  "review_independence": "CONSTRUCTION_LANE_CROSSCHECK_NOT_INDEPENDENT_REVIEW"
+}

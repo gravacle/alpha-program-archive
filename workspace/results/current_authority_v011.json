@@ -1,0 +1,14 @@
+{
+  "status": "PASS_AUTHORITY_V011_CONDITIONAL_OPERATOR_PROGRESS_ALPHA_BLOCKED",
+  "parent_schema_version": 10,
+  "verified_new_seals": 16,
+  "verified_parent_seals": 4,
+  "verified_effective_execution_state_keys": 71,
+  "conditional_pointer_commutant_classified": true,
+  "relative_orthogonalization_bound_derived": true,
+  "conditional_source_flux_holonomy_verified": true,
+  "complete_source_record_environment_operator_derived": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "sealed_delta_authority_and_no_promotion_only"
+}

@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "all_finite_baselines_nonzero": true,
+    "negative_controls_retained": true,
+    "no_target_access": true,
+    "one_handle_reduction": true,
+    "phase_covariance": true,
+    "protected_flags_false": true,
+    "recurrence_recomputed": true,
+    "reported_spec_verified": true,
+    "returned_maps_are_exact_line_endomorphisms": true,
+    "sealed_spec_verified": true,
+    "verdict_scope_correct": true
+  },
+  "construction_script_imported": false,
+  "independent_recurrence": [
+    "1",
+    "-1/2",
+    "1/4",
+    "-1/8",
+    "1/16",
+    "-1/32",
+    "1/64",
+    "-1/128"
+  ],
+  "pass": true,
+  "schema": "stage8_t7_causal_line_connection_return_lift_verification_v001"
+}

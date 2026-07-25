@@ -1,0 +1,52 @@
+{
+  "ER_A_old_implementation_admissible": false,
+  "ER_B_selected_by_operator_measure": true,
+  "alpha_computed": false,
+  "authority_hashes_verified": true,
+  "coupling_evaluation_authorized": false,
+  "envelope_realization_derived": true,
+  "exact_geometry": {
+    "V4_over_pi": "1/24",
+    "old_ER_A_total_local_measure_over_pi": "2/21",
+    "rho_times_pi": "24",
+    "samples": {
+      "midpoint": {
+        "V3_over_pi": "1/6",
+        "old_ER_A_to_uniform_ratio_over_pi": "1/6",
+        "pushforward_coefficient_times_pi": "24",
+        "t": "1/2",
+        "uniform_density_coefficient_times_pi": "24",
+        "w": "4"
+      },
+      "quarter": {
+        "V3_over_pi": "1/48",
+        "old_ER_A_to_uniform_ratio_over_pi": "1/48",
+        "pushforward_coefficient_times_pi": "24",
+        "t": "1/4",
+        "uniform_density_coefficient_times_pi": "24",
+        "w": "1/2"
+      }
+    }
+  },
+  "historical_output_blindness_claimed": false,
+  "kappa_record_computed": false,
+  "negative_controls": {
+    "finite_completed_amplitudes_used_for_selection": false,
+    "no_constant_rescaling_matches_both_test_slices": true,
+    "old_ER_A_does_not_represent_normalized_uniform_four_measure": true,
+    "old_ER_A_local_density_is_not_constant": true
+  },
+  "no_target_access_attestation": true,
+  "operator_identity": {
+    "direct_uniform_form": "tau_R*(24/pi)*M(t)",
+    "disintegrated_form": "tau_R*w(t)*[M(t)/V3(t)]",
+    "forms_equal_exactly": true,
+    "physical_product_bounded_at_tips": true
+  },
+  "overall_verdict": "INTRINSIC_ACTION_ENVELOPE_DERIVED_ER_B",
+  "proof_authorized": false,
+  "schema": "stage8_t7_intrinsic_action_envelope_adjudication_v001",
+  "sharp_cell_implementability_proved": false,
+  "spec_sha256": "82d884b25dcd37cab48037a786c5f3f8f2df3a551d7a48c1b74ebbc333960ac0",
+  "support_fraction_theorem_retained_but_not_parent_envelope_authority": true
+}

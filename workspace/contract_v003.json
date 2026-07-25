@@ -1,0 +1,28 @@
+{
+  "schema_version": 3,
+  "route_id": "complete_fundamental_record_specification_v003",
+  "imported_v002_preregistration_sha256": "d868e76619f0b60e7350cc10b9f64ce81d3d0f671b7cd791ce6cc0119c6e8647",
+  "imported_v002_contract_sha256": "08588fbdbcf2c243792071c51e97c890aba6ac272e7d816eb61af043e1d0f42c",
+  "historical_target_blindness_established": false,
+  "new_axiom_currently_limits_claim_to_level_1": true,
+  "mechanical_model_space_grammar_required": true,
+  "complete_specification_not_action_only_required": true,
+  "all_inequivalent_survivors_must_be_propagated": true,
+  "finite_coincident_extension_uniqueness_required": true,
+  "full_unprojected_operator_identity_required": true,
+  "external_blind_holdout_frozen": false,
+  "execution_state": {
+    "symbolic_model_space_derivation_authorized": true,
+    "candidate_action_evaluation_authorized": false,
+    "complete_quantum_specification_frozen": false,
+    "unique_action_or_specification_derived": false,
+    "unique_finite_coincident_extension_derived": false,
+    "full_operator_closure_derived": false,
+    "numerical_root_finding_authorized": false,
+    "coupling_evaluation_authorized": false,
+    "coupling_computed": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}
+

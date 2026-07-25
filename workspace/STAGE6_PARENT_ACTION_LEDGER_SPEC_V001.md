@@ -1,0 +1,72 @@
+# Stage-6 Parent-Action Ledger Specification v001
+
+Date: 2026-07-24
+
+## Purpose
+
+Freeze the least-favorable status of every `Q_spec` component after the
+parent-action and Fork-8 work. This gate authorizes assembly of a Stage-7
+review candidate only. It cannot certify a complete `Q_spec`, a response
+normalization, or alpha.
+
+## Pinned authority hashes
+
+```text
+d8cf64c9dd3aa8eec63298a5891882dc5e0873212566c8831fe049867dd38a92  LOCKED_ALPHA_PLAN_DEPENDENCY_REPAIR_V001.md
+254128f73a44869839d670557368709c1bf2a98d6f86b48f026064c80e8d2585  STAGE1_PREMISE_DISPOSITION_V001.md
+a27a2d571273494a0787e2283734ef1405d74dadfe16d64d3450bb4536e50732  FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.md
+949181d78aca143ebef06eacc4ab1018d43cdf79962ee8c78c350f654a7555dd  BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS_V001.md
+2215f79cbe69f1de1643427ad5d422b0c3064ff758327e43ff1629de8633f72d  BID_GRADED_BOUNDARY_SUPERCONNECTION_REPAIR_V001.md
+50b5a651df2aca90ee47c6f85b2a502461370a652706ebccad871f191565a2d9  BID_COMPLETE_ONE_NORMAL_ZERO_FORM_ENUMERATION_V001.md
+0322763ac48a4428b432124a6947da81826a41f612efa6803ee9a87317929b98  BID_CHARGED_CELLULAR_CPT_INTERTWINER_DERIVATION_V001.md
+b786db3adec8cc335967d49ec13b59923d67f424644f72c535b27b579dd1489f  BID_UNIQUE_CHARGED_CONTROLLED_COUPLING_DERIVATION_V001.md
+7471988138233218430c6b6dd07b39f33508a75907557723654dbc712c0c4476  BID_FIRST_OPENING_INTERVAL_DERIVATION_V001.md
+6f6b822ac8ccf9ea19659f4ccf811268f60a27a361f817ee6513479d63b62546  BID_FREE_QUASIFREE_CTP_PROPAGATOR_DERIVATION_V001.md
+532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb  PARENT_STATE_COVARIANCE_PRINCIPLE_V001.md
+b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30  CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md
+e4cfaef14309b3acf5674f8c8faee756f744fec4691d5e01d9de0fa422592be2  R3_3_GLOBAL_INTRINSIC_MEASURE_CLASSIFICATION_RESULT_V001.md
+dcab767cf5d38548ae0fc4e30b3c674cc527082e398575907ce53efaae08e199  R3_3_GLOBAL_INTRINSIC_MEASURE_CLASSIFICATION_V001.seal.sha256
+345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb  R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md
+e771a28a9c1e1c9f410a00dc2c407be3338fcdee06d31f50cbc8563d63e41029  R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_V001.seal.sha256
+10909b5c21e73ecf655462339a27bd645b8d35e3ad11fb6f8cb204c601992995  R3_4_OUTGOING_RECORD_GNS_COMPLETION_RESULT_V001.md
+2e67781852e99e09b86912dc6a2238d4de85f57e2ea05589cd800eb65bcb5a95  R3_4_OUTGOING_RECORD_GNS_COMPLETION_V001.seal.sha256
+f84d5b5e8789e5e336db53265cc87dd25f5efddf1cd9c8931f1e521240125d4a  FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_RESULT_V001.md
+c73d5246b7348075ec4507ab3697a16f61759bdae3fad046d12b35f74135f165  FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_V001.seal.sha256
+5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf  BID_SOURCE_PARENT_CLOSURE_GATE_V003.md
+```
+
+## Required classification
+
+The generated ledger must separately classify:
+
+```text
+adopted microscopic principles;
+disclosed branch inputs;
+derived parent/durability results;
+open complete-Q_spec components;
+superseded or narrowed earlier statuses;
+and forbidden authorizations.
+```
+
+## Stage-6 exit
+
+Stage 6 passes if:
+
+1. every pin verifies;
+2. the intrinsic measure, finite parent, generated descendants, free tail,
+   outgoing record GNS, dressed net, recoverability, and scoped Fork-8
+   promotion are present;
+3. the absolute interval, full dynamical gauge/ghost/edge functional
+   specification, interacting charged spectrum, renormalization, matching,
+   unused prediction, and complete `Q_spec` remain explicitly open;
+4. historical target blindness remains false; and
+5. every coupling and proof authorization remains false.
+
+The only passing verdict is:
+
+```text
+STAGE6_LEDGER_FROZEN_STAGE7_REVIEW_CANDIDATE_AUTHORIZED
+```
+
+It means “assemble the candidate for review,” not “the candidate passed
+review.”

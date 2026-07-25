@@ -1,0 +1,46 @@
+{
+  "schema": "r3.4-causal-shared-source-moller-durability-v001",
+  "spec_sha256": "918b38d04be6e4f500885db8a7c05594f2013b3f731f917752e17d7660346dfd",
+  "spec_seal_verified": true,
+  "upstream_hashes_verified": 7,
+  "target_values_used": false,
+  "intrinsic_diamond_time_marginal_used": true,
+  "integrated_primitive_action": 2.221441469079183,
+  "shared_source_projector_overlap": 0.25,
+  "later_pointer_commutator_norm": 0.0,
+  "free_pointer_commutator_norm": 0.0,
+  "midpoint_resolutions": [
+    40,
+    80,
+    160
+  ],
+  "midpoint_convergence_errors": {
+    "40_to_80": 0.010622235460605901,
+    "80_to_160": 0.00265551523947732
+  },
+  "midpoint_convergence_ratio": 4.000065713310181,
+  "first_pointer_probabilities": {
+    "after_first_closure": 0.8066740227533682,
+    "after_second_closure": 0.8066740227533951,
+    "after_later_free_evolution": 0.8066740227533942
+  },
+  "pointer_stability_error": 2.6867397195928788e-14,
+  "finite_Moller_unitarity_error": 2.56562792727598e-13,
+  "shared_source_causal_order_sensitivity": 4.806186448637444,
+  "first_pointer_probability_target_predeclared": false,
+  "primitive_finite_support_Moller_derived": true,
+  "primitive_public_pointer_persistence_derived": true,
+  "primitive_public_outgoing_endomorphism_derived": true,
+  "transported_interaction_rule_used": false,
+  "generated_descendant_action_derived": false,
+  "complete_physical_durability_derived": false,
+  "physical_in_state_selected": false,
+  "finite_energy_physical_root_derived": false,
+  "complete_root_spectral_measure_derived": false,
+  "thresholded_source_return_decay_derived": false,
+  "complete_parameter_free_Q_spec_frozen": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "PRIMITIVE_CAUSAL_MOLLER_AND_PUBLIC_DURABILITY_DERIVED"
+}

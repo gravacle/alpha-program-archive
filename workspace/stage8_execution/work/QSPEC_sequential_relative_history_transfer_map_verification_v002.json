@@ -1,0 +1,48 @@
+{
+  "alpha_computed": false,
+  "concurrent_open_record_block_map_derived": false,
+  "connected_K_cell_amplitude_constructed": false,
+  "connected_linked_cluster_density_proved": false,
+  "coupling_evaluation_authorized": false,
+  "hash_checks": {
+    "COMPLETE_QSPEC_RELATIVE_HISTORY_TRANSFER_MAP_REPAIR_SPEC_V001.md": true,
+    "COMPLETE_QSPEC_SEQUENTIAL_TRANSFER_INDUCTION_PROOF_V001.md": true,
+    "scripts/derive_complete_qspec_sequential_relative_history_transfer_map_v002.py": true,
+    "stage8_execution/work/QSPEC_sequential_relative_history_transfer_map_v002.json": true
+  },
+  "independent_general_test": {
+    "cell_count": 3,
+    "diagonal_trace_error": 2.237726045655905e-16,
+    "full_overlap_imag": -0.1859870173114707,
+    "full_overlap_real": -0.04454480593914045,
+    "maximum_kraus_completeness_error": 9.616108834133312e-16,
+    "maximum_stage_operator_relative_error": 4.1683665566624376e-16,
+    "record_dimension": 2,
+    "reversed_operator_relative_difference": 1.1591120136754856,
+    "seed": 20260725,
+    "source_dimension": 3,
+    "stage_operator_relative_errors": [
+      2.1914785236870834e-16,
+      3.0352461271720965e-16,
+      4.1683665566624376e-16
+    ],
+    "transfer_overlap_imag": -0.18598701731147074,
+    "transfer_overlap_real": -0.044544805939140356
+  },
+  "kappa_record_computed": false,
+  "local_Maxwell_response_derived": false,
+  "pass": true,
+  "physical_Thomson_stiffness_computed": false,
+  "physical_regression_rechecked": {
+    "diagonal_trace_error": 2.080558000289007e-13,
+    "ordered_operator_relative_error": 1.609984336682472e-14,
+    "reversed_operator_relative_difference": 0.9734417528908659,
+    "transfer_full_error": 1.3260272705898195e-15
+  },
+  "proof_authorized": false,
+  "protected_statuses_verified": true,
+  "schema": "complete_qspec_sequential_relative_history_transfer_map_verification_v002",
+  "sequential_relative_history_transfer_map_derived": true,
+  "verdict": "INDEPENDENT_SEQUENTIAL_RELATIVE_HISTORY_TRANSFER_MAP_CONFIRMED",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

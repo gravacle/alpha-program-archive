@@ -1,0 +1,14 @@
+{
+  "status": "PASS_BINARY_CLOSURE_GENERATOR_ALGEBRA_ALPHA_FALSE",
+  "first_positive_phase": 3.141592653589793,
+  "tested_odd_roots": [
+    3.141592653589793,
+    9.42477796076938,
+    15.707963267948966,
+    21.991148575128552
+  ],
+  "max_root_residual": 4.286263797015736e-16,
+  "source_mass_identified_with_record_gap": false,
+  "alpha_computed": false,
+  "scope": "two_state_algebra_only"
+}

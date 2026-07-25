@@ -1,0 +1,104 @@
+{
+  "Duhamel_intensive_Hessian_equality_proved": false,
+  "actual_finite_parent_used": true,
+  "alpha_computed": false,
+  "authorities_verified": 10,
+  "completed_11_kraus_is_scalar_on_source": false,
+  "completed_record_kraus_operators": {
+    "00": {
+      "frobenius_norm": 0.9212100201332409,
+      "rank_at_1e-10": 12,
+      "scalar_residual": 0.8617277500756895,
+      "zero_mode_block_norm": 0.2063030798378038
+    },
+    "01": {
+      "frobenius_norm": 1.7628723851110784,
+      "rank_at_1e-10": 12,
+      "scalar_residual": 1.698347834102584,
+      "zero_mode_block_norm": 0.6645331743557179
+    },
+    "02": {
+      "frobenius_norm": 0.18963874054722055,
+      "rank_at_1e-10": 12,
+      "scalar_residual": 0.18963874054722055,
+      "zero_mode_block_norm": 0.05372056668247299
+    },
+    "10": {
+      "frobenius_norm": 1.7628723851110946,
+      "rank_at_1e-10": 12,
+      "scalar_residual": 1.6983478341025988,
+      "zero_mode_block_norm": 0.6645331743557217
+    },
+    "11": {
+      "frobenius_norm": 2.158029616704532,
+      "rank_at_1e-10": 12,
+      "scalar_residual": 2.151758052952419,
+      "zero_mode_block_norm": 0.7236003117991379
+    },
+    "12": {
+      "frobenius_norm": 0.32041222588867363,
+      "rank_at_1e-10": 12,
+      "scalar_residual": 0.32041222588867363,
+      "zero_mode_block_norm": 0.056473265993495836
+    },
+    "20": {
+      "frobenius_norm": 0.18963874054722243,
+      "rank_at_1e-10": 12,
+      "scalar_residual": 0.18963874054722243,
+      "zero_mode_block_norm": 0.053720566682473374
+    },
+    "21": {
+      "frobenius_norm": 0.320412225888673,
+      "rank_at_1e-10": 12,
+      "scalar_residual": 0.320412225888673,
+      "zero_mode_block_norm": 0.05647326599349868
+    },
+    "22": {
+      "frobenius_norm": 0.03985582802102099,
+      "rank_at_1e-10": 12,
+      "scalar_residual": 0.038936495563294184,
+      "zero_mode_block_norm": 0.00814634682487721
+    }
+  },
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "coupling_evaluation_authorized": false,
+  "finite_actual_parent_record_amplitude_derived": false,
+  "finite_regulator_parent_state": {
+    "negative_energy_covariance_fixed": true,
+    "same_regulator_state_unique": false,
+    "zero_mode_ambiguity_active_in_completed_11_kraus": true,
+    "zero_mode_covariance_fixed_by_sealed_lineage": false
+  },
+  "finite_source_spectrum": {
+    "maximum_eigenvalue": 0.8660254037844393,
+    "minimum_eigenvalue": -0.8660254037844389,
+    "negative_mode_count": 4,
+    "positive_mode_count": 4,
+    "zero_mode_count": 4
+  },
+  "gaussian_shortcut": {
+    "completed_record_kraus_proved_to_equal_second_quantization": false,
+    "determinant_formula_authorized": false,
+    "determinant_formula_used": false
+  },
+  "ideal_projector_chain_used": false,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "one_handle_regression": {
+    "disclosed_finite_parent_vector_amplitude_imag": -6.035083351918239e-16,
+    "disclosed_finite_parent_vector_amplitude_real": 0.8524349274215997,
+    "pinned_unit_amplitude_recovered": false
+  },
+  "overall_verdict": "ACTUAL_PARENT_RECORD_AMPLITUDE_BLOCKED",
+  "proof_authorized": false,
+  "scalarization": {
+    "after_the_fact_source_trace_used": false,
+    "existing_parent_state_defined_on_same_regulator": false,
+    "final_source_line_selected": false,
+    "unique_scalar_completed_record_amplitude_derived": false
+  },
+  "schema": "stage8_t7_actual_parent_record_amplitude_v001",
+  "spec_sha256": "7d5041a4ed74235f7a6d5d027444e3bd0a675868ece9af383ab2e81dae713ac9",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

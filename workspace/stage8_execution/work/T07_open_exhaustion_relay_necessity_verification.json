@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "causal_order_witness_exact": true,
+    "closed_form_star_rows_match": true,
+    "mixed_symmetric_exact_closure_excluded": true,
+    "no_target_access": true,
+    "one_arm_only_exact_designated_closure": true,
+    "protected_flags_false": true,
+    "scope_not_inflated": true,
+    "sealed_hashes_verified": true,
+    "stage_ordering_verdict_matches": true,
+    "tuple_relay_checks_pass": true
+  },
+  "construction_script_imported": false,
+  "independent_exact_order_witness": {
+    "forward_reverse_norm": 4.898979485566356,
+    "forward_reverse_norm_square_exact": "24",
+    "noncommuting": true,
+    "source_projector_overlap_exact": "1/4"
+  },
+  "independent_star_formulas": {
+    "1": {
+      "designated_transfer": 1.0,
+      "max_designated_transfer": 1.0,
+      "max_symmetric_transfer": 1.0,
+      "survival": 0.0
+    },
+    "2": {
+      "designated_transfer": 0.5869754201684104,
+      "max_designated_transfer": 0.6666666666666666,
+      "max_symmetric_transfer": 0.9428090415820635,
+      "survival": -0.1739508403368207
+    },
+    "3": {
+      "designated_transfer": 0.31656383551035394,
+      "max_designated_transfer": 0.5,
+      "max_symmetric_transfer": 0.8660254037844386,
+      "survival": 0.05030849346893826
+    }
+  },
+  "independent_tuple_relay": {
+    "all_finite_checks_pass": true,
+    "finite_rows": {
+      "1_to_2": {
+        "new_ready_root_consumed": true,
+        "norm_preserved_on_basis": true,
+        "old_record_prefix_preserved": true,
+        "restriction_recovers_prior_state": true
+      },
+      "2_to_3": {
+        "new_ready_root_consumed": true,
+        "norm_preserved_on_basis": true,
+        "old_record_prefix_preserved": true,
+        "restriction_recovers_prior_state": true
+      }
+    },
+    "generic_branch_relay_injective": true,
+    "generic_branch_relay_isometric_on_orthonormal_basis": true
+  },
+  "pass": true,
+  "schema": "stage8_t7_open_exhaustion_relay_necessity_verification_v001"
+}

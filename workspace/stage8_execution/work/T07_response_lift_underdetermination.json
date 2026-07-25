@@ -1,0 +1,119 @@
+{
+  "authority_audit": {
+    "all_authorities_present": true,
+    "all_disclosures_verified": true,
+    "rows": [
+      {
+        "all_required_disclosures_present": true,
+        "label": "primitive_amplitude",
+        "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md",
+        "required_disclosures": [
+          "volume_uniform_zero_free_neighborhood_proved = false",
+          "connected_many_record_amplitude_derived = false",
+          "complete_Q_spec_amplitude_derived = false"
+        ],
+        "sha256": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb"
+      },
+      {
+        "all_required_disclosures_present": true,
+        "label": "monoidal_extensivity",
+        "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md",
+        "required_disclosures": [
+          "connected_linked_cluster_density_proved = false",
+          "primitive_record_stiffness_computed = false"
+        ],
+        "sha256": "451550c3825288d699db35c7289e408e8314ad042450253b58f32722c4ead46b"
+      },
+      {
+        "all_required_disclosures_present": true,
+        "label": "composition",
+        "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_GLOBAL_CAR_RECORD_COMPOSITION_DERIVATION_V001.md",
+        "required_disclosures": [
+          "complete_connected_source_record_action_derived = false",
+          "connected_preparation_derived = false"
+        ],
+        "sha256": "b5a60c354d05e84e91d4f1fbeb45c3bce83776c59df7fc307e65ef2a529d5287"
+      },
+      {
+        "all_required_disclosures_present": true,
+        "label": "finite_parent",
+        "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md",
+        "required_disclosures": [
+          "complete_parent_to_outgoing_GNS_map_derived = false",
+          "complete_parameter_free_Q_spec_frozen = false"
+        ],
+        "sha256": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb"
+      },
+      {
+        "all_required_disclosures_present": true,
+        "label": "outgoing_gns",
+        "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/R3_4_OUTGOING_RECORD_GNS_COMPLETION_RESULT_V001.md",
+        "required_disclosures": [
+          "complete_source_inclusive_GNS_derived = false",
+          "coupling_evaluation_authorized = false"
+        ],
+        "sha256": "10909b5c21e73ecf655462339a27bd645b8d35e3ad11fb6f8cb204c601992995"
+      },
+      {
+        "all_required_disclosures_present": true,
+        "label": "stage7_candidate",
+        "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE7_QSPEC_REVIEW_CANDIDATE_V002.md",
+        "required_disclosures": [
+          "A normalized interacting CTP amplitude and its gauge/ghost/edge functional",
+          "normalized interacting CTP amplitude;",
+          "complete_parameter_free_Q_spec_frozen = false"
+        ],
+        "sha256": "5026afb89b52ead9f309168cb2fa4f06b81039f8dd01b8940f40e64aad679a7e"
+      },
+      {
+        "all_required_disclosures_present": true,
+        "label": "stage8_spec",
+        "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_AUTHORITY_FABLE_V002.md",
+        "required_disclosures": [
+          "prove a volume-uniform",
+          "linked-cluster thermodynamic density on connected cellulations",
+          "verify the Duhamel covariance computed"
+        ],
+        "sha256": "ddb36cbfe4edfc2a0520e9ae58063295214c64afed5cad5a64e9f311826358f5"
+      }
+    ]
+  },
+  "missing_derived_map": "connected completed-record/source operator -> unique normalized complex scalar amplitude",
+  "new_principle_adopted": false,
+  "protected_flags": {
+    "alpha_computed": false,
+    "coupling_evaluation_authorized": false,
+    "kappa_record_computed": false,
+    "physical_charged_amplitude_computed": false,
+    "proof_authorized": false
+  },
+  "scalar_closure_counterexample": {
+    "closures": [
+      {
+        "definition": "Z_L(theta)=Tr(rho*T(theta))=cos(theta)",
+        "gamma_hessian_at_zero": "1",
+        "locally_zero_free": true,
+        "name": "in_out_loschmidt",
+        "normalized_at_zero": true
+      },
+      {
+        "definition": "Z_CTP(theta)=Tr(T(theta)*rho*T(theta)^dagger)=1",
+        "gamma_hessian_at_zero": "0",
+        "locally_zero_free": true,
+        "name": "inclusive_equal_branch_ctp",
+        "normalized_at_zero": true
+      }
+    ],
+    "completed_record_compression_type": "End(H_source), not C",
+    "fixed_initial_source_state": "rho=I_2/2",
+    "hessians_differ": true,
+    "shared_source_dimension": 2,
+    "source_operator_family": "T(theta)=diag(exp(i*theta),exp(-i*theta))",
+    "target_value_used": false
+  },
+  "schema": "stage8-t7-response-lift-audit-v001",
+  "sha256_of_body": "0c126c3bc54bcd72fd8e26bce641313983fe9d251f265c9ac9c3a6f7e5b6a0d1",
+  "t7_pass": false,
+  "target_value_used": false,
+  "verdict": "T7_BLOCKED_PARENT_TO_PRIMITIVE_RESPONSE_LIFT_UNDERIVED"
+}

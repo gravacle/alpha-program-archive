@@ -1,0 +1,335 @@
+{
+  "all_spectral_rows_pass": true,
+  "alpha_computed": false,
+  "boundary_correction": {
+    "O_1_over_N_window_pass": true,
+    "absolute_ratio_d32_over_d16": 0.4999998958242088,
+    "d16": -0.017270626349865315,
+    "d32": -0.008635311375751492,
+    "h16": 0.1857496385690654,
+    "h32": 0.19438495354317922,
+    "h8": 0.16848181504504822
+  },
+  "connected_linked_cluster_density_proved": false,
+  "coupling_evaluation_authorized": false,
+  "dense_4900_operator_built": false,
+  "full_record_Hilbert_space_built": false,
+  "infinite_chain_intensive_limit": 0.20302026491893072,
+  "infinite_chain_interval": [
+    0.20284017951188452,
+    0.20320035032597691
+  ],
+  "kappa_record_computed": false,
+  "krylov_dimension": 48,
+  "local_Maxwell_response_derived": false,
+  "matrix_free_supercell_operator": true,
+  "no_target_access_attestation": true,
+  "pass": true,
+  "periodic_connected_amplitude_constructed": true,
+  "periodic_transfer_spectral_limit_computed": true,
+  "physical_Thomson_stiffness_computed": false,
+  "power_iterations": 128,
+  "proof_authorized": false,
+  "raw_spectral_intensive_responses": {
+    "steps_32_theta_0.02500000": 0.20366364819309318,
+    "steps_32_theta_0.05000000": 0.20361609811279663,
+    "steps_64_theta_0.02500000": 0.203169572984368,
+    "steps_64_theta_0.05000000": 0.20312307220498382
+  },
+  "relative_history_transfer_map_derived": true,
+  "schema": "complete_qspec_periodic_transfer_spectrum_v001",
+  "spec_sha256": "881a342376e8c8a4e92930db9bd77969508572b96737f490fab35c1068eaf125",
+  "spectral_rows": {
+    "steps_32_theta_+0.02500000": {
+      "completed_dimension": 48,
+      "eligible_count": 12,
+      "next": {
+        "eigenvalue": {
+          "absolute": 0.6293673632356046,
+          "imag": -8.470150641354084e-16,
+          "real": 0.6293673632356046
+        },
+        "modulus": 0.6293673632356046,
+        "residual": 7.859238022152145e-14,
+        "trace_overlap": 1.9937190304283333e-07
+      },
+      "pass": true,
+      "power": {
+        "rayleigh_quotient": {
+          "absolute": 0.9998727183208436,
+          "imag": -1.5265566588595902e-16,
+          "real": 0.9998727183208436
+        },
+        "residual": 6.21745958325674e-16
+      },
+      "power_arnoldi_relative_difference": 4.495347488629023e-16,
+      "relative_modulus_gap": 0.37055251963215313,
+      "selected": {
+        "eigenvalue": {
+          "absolute": 0.9998727183208431,
+          "imag": -2.220446049250313e-16,
+          "real": 0.9998727183208431
+        },
+        "modulus": 0.9998727183208431,
+        "residual": 1.2950978821065137e-15,
+        "trace_overlap": 2.235941916157328
+      }
+    },
+    "steps_32_theta_+0.05000000": {
+      "completed_dimension": 48,
+      "eligible_count": 12,
+      "next": {
+        "eigenvalue": {
+          "absolute": 0.6289281398885649,
+          "imag": -2.326572207886345e-15,
+          "real": 0.6289281398885649
+        },
+        "modulus": 0.6289281398885649,
+        "residual": 1.0982565089689318e-14,
+        "trace_overlap": 3.1898460624132097e-06
+      },
+      "pass": true,
+      "power": {
+        "rayleigh_quotient": {
+          "absolute": 0.9994910892937342,
+          "imag": -9.645062526431047e-16,
+          "real": 0.9994910892937342
+        },
+        "residual": 1.0092212009767424e-15
+      },
+      "power_arnoldi_relative_difference": 2.3344007498823123e-15,
+      "relative_modulus_gap": 0.3707516288784725,
+      "selected": {
+        "eigenvalue": {
+          "absolute": 0.9994910892937365,
+          "imag": -1.0547118733938987e-15,
+          "real": 0.9994910892937365
+        },
+        "modulus": 0.9994910892937365,
+        "residual": 1.6133415923994463e-15,
+        "trace_overlap": 2.2355639519930257
+      }
+    },
+    "steps_32_theta_-0.02500000": {
+      "completed_dimension": 48,
+      "eligible_count": 12,
+      "next": {
+        "eigenvalue": {
+          "absolute": 0.6293673632356335,
+          "imag": -1.6504383379084805e-16,
+          "real": 0.6293673632356335
+        },
+        "modulus": 0.6293673632356335,
+        "residual": 7.84102285293034e-14,
+        "trace_overlap": 1.9937191021940105e-07
+      },
+      "pass": true,
+      "power": {
+        "rayleigh_quotient": {
+          "absolute": 0.9998727183209164,
+          "imag": -8.743006318923108e-16,
+          "real": 0.9998727183209164
+        },
+        "residual": 1.8140474602042783e-16
+      },
+      "power_arnoldi_relative_difference": 3.1405846562559036e-16,
+      "relative_modulus_gap": 0.37055251963217023,
+      "selected": {
+        "eigenvalue": {
+          "absolute": 0.9998727183209162,
+          "imag": -6.522560269672795e-16,
+          "real": 0.9998727183209162
+        },
+        "modulus": 0.9998727183209162,
+        "residual": 8.022270742715175e-16,
+        "trace_overlap": 2.2359419161573277
+      }
+    },
+    "steps_32_theta_-0.05000000": {
+      "completed_dimension": 48,
+      "eligible_count": 12,
+      "next": {
+        "eigenvalue": {
+          "absolute": 0.6289281398885511,
+          "imag": -3.1212843906814823e-16,
+          "real": 0.6289281398885511
+        },
+        "modulus": 0.6289281398885511,
+        "residual": 4.544948866154219e-14,
+        "trace_overlap": 3.1898460606973814e-06
+      },
+      "pass": true,
+      "power": {
+        "rayleigh_quotient": {
+          "absolute": 0.9994910892937059,
+          "imag": -1.1310397063368782e-15,
+          "real": 0.9994910892937059
+        },
+        "residual": 6.841865982824238e-16
+      },
+      "power_arnoldi_relative_difference": 2.7828742577091316e-15,
+      "relative_modulus_gap": 0.3707516288784687,
+      "selected": {
+        "eigenvalue": {
+          "absolute": 0.9994910892937086,
+          "imag": -3.3306690738754696e-16,
+          "real": 0.9994910892937086
+        },
+        "modulus": 0.9994910892937086,
+        "residual": 2.4617186896348256e-15,
+        "trace_overlap": 2.2355639519930377
+      }
+    },
+    "steps_64_theta_+0.02500000": {
+      "completed_dimension": 48,
+      "eligible_count": 12,
+      "next": {
+        "eigenvalue": {
+          "absolute": 0.6267712314248758,
+          "imag": 3.215246468497924e-15,
+          "real": 0.6267712314248758
+        },
+        "modulus": 0.6267712314248758,
+        "residual": 1.9764289246823347e-13,
+        "trace_overlap": 2.0028548175708418e-07
+      },
+      "pass": true,
+      "power": {
+        "rayleigh_quotient": {
+          "absolute": 0.9998730270785562,
+          "imag": 3.920475055707584e-15,
+          "real": 0.9998730270785562
+        },
+        "residual": 1.9208608792453932e-16
+      },
+      "power_arnoldi_relative_difference": 5.240633070433303e-15,
+      "relative_modulus_gap": 0.373149175494624,
+      "selected": {
+        "eigenvalue": {
+          "absolute": 0.999873027078551,
+          "imag": 3.4416913763379853e-15,
+          "real": 0.999873027078551
+        },
+        "modulus": 0.999873027078551,
+        "residual": 5.1959906630920856e-15,
+        "trace_overlap": 2.2359425122109546
+      }
+    },
+    "steps_64_theta_+0.05000000": {
+      "completed_dimension": 48,
+      "eligible_count": 12,
+      "next": {
+        "eigenvalue": {
+          "absolute": 0.6263239883536993,
+          "imag": -3.2698922515521804e-15,
+          "real": 0.6263239883536993
+        },
+        "modulus": 0.6263239883536993,
+        "residual": 2.0778735884363027e-14,
+        "trace_overlap": 3.2044543592289167e-06
+      },
+      "pass": true,
+      "power": {
+        "rayleigh_quotient": {
+          "absolute": 0.9994923212320149,
+          "imag": 5.204170427930421e-16,
+          "real": 0.9994923212320149
+        },
+        "residual": 4.539981400127241e-16
+      },
+      "power_arnoldi_relative_difference": 2.5548948717137572e-15,
+      "relative_modulus_gap": 0.3733578787462166,
+      "selected": {
+        "eigenvalue": {
+          "absolute": 0.9994923212320175,
+          "imag": 4.996003610813204e-16,
+          "real": 0.9994923212320175
+        },
+        "modulus": 0.9994923212320175,
+        "residual": 2.7497097007242054e-15,
+        "trace_overlap": 2.2355663330277675
+      }
+    },
+    "steps_64_theta_-0.02500000": {
+      "completed_dimension": 48,
+      "eligible_count": 12,
+      "next": {
+        "eigenvalue": {
+          "absolute": 0.6267712314249261,
+          "imag": -2.1115347225943392e-15,
+          "real": 0.6267712314249261
+        },
+        "modulus": 0.6267712314249261,
+        "residual": 1.63902031698648e-13,
+        "trace_overlap": 2.002854690431962e-07
+      },
+      "pass": true,
+      "power": {
+        "rayleigh_quotient": {
+          "absolute": 0.9998730270787007,
+          "imag": -2.643718577388654e-15,
+          "real": 0.9998730270787007
+        },
+        "residual": 9.22642278317749e-16
+      },
+      "power_arnoldi_relative_difference": 5.451399826177674e-15,
+      "relative_modulus_gap": 0.373149175494671,
+      "selected": {
+        "eigenvalue": {
+          "absolute": 0.9998730270787062,
+          "imag": -2.9837243786801082e-15,
+          "real": 0.9998730270787062
+        },
+        "modulus": 0.9998730270787062,
+        "residual": 4.887595750858162e-15,
+        "trace_overlap": 2.2359425122109635
+      }
+    },
+    "steps_64_theta_-0.05000000": {
+      "completed_dimension": 48,
+      "eligible_count": 12,
+      "next": {
+        "eigenvalue": {
+          "absolute": 0.6263239883536831,
+          "imag": -7.837453436520096e-16,
+          "real": 0.6263239883536831
+        },
+        "modulus": 0.6263239883536831,
+        "residual": 1.0003665153221398e-13,
+        "trace_overlap": 3.204454333655884e-06
+      },
+      "pass": true,
+      "power": {
+        "rayleigh_quotient": {
+          "absolute": 0.9994923212319541,
+          "imag": -3.747002708109903e-15,
+          "real": 0.9994923212319541
+        },
+        "residual": 2.855771420785368e-16
+      },
+      "power_arnoldi_relative_difference": 6.370401881341718e-16,
+      "relative_modulus_gap": 0.37335787874619325,
+      "selected": {
+        "eigenvalue": {
+          "absolute": 0.9994923212319543,
+          "imag": -3.1502578323738817e-15,
+          "real": 0.9994923212319543
+        },
+        "modulus": 0.9994923212319543,
+        "residual": 1.189303346578604e-15,
+        "trace_overlap": 2.2355663330277933
+      }
+    }
+  },
+  "theta_correction": 1.5383670804456722e-05,
+  "time_corrections": {
+    "0.02500000": 0.00016469173624172884,
+    "0.05000000": 0.00016434196927093506
+  },
+  "time_extrapolated_by_theta": {
+    "0.02500000": 0.20300488124812627,
+    "0.05000000": 0.2029587302357129
+  },
+  "verdict": "PERIODIC_TRANSFER_SPECTRAL_DIAGNOSTIC_PASS",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

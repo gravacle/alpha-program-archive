@@ -1,0 +1,43 @@
+{
+  "alpha_computed": false,
+  "c1_exact_record_cancellation_verified": true,
+  "c2_finite_stage_identity_verified": true,
+  "completed_continuum_response_provenance_derived": false,
+  "coupling_evaluation_authorized": false,
+  "determinant_history_amplitude": {
+    "imag": 0.0045901890715714724,
+    "real": -0.0017409988350810066
+  },
+  "direct_fock_amplitude": {
+    "imag": 0.004590189071571444,
+    "real": -0.0017409988350810212
+  },
+  "finite_identity_absolute_difference": 3.209897674977742e-17,
+  "independent_finite_parent_used": true,
+  "independent_record_eigenvalues": [
+    -1.414213562373095,
+    2.3224883419927584e-17,
+    1.414213562373095
+  ],
+  "independent_record_weights": [
+    {
+      "imag": 0.0,
+      "real": -0.24999999999999994
+    },
+    {
+      "imag": -0.0,
+      "real": 0.4999999999999996
+    },
+    {
+      "imag": 0.0,
+      "real": -0.24999999999999983
+    }
+  ],
+  "kappa_record_computed": false,
+  "maximum_odd_moment_absolute": 5.329070518200751e-15,
+  "old_three_site_regression_used": false,
+  "pass": true,
+  "proof_authorized": false,
+  "schema": "stage8_t7_completed_record_cancellation_verification_v001",
+  "spec_sha256": "6e24ceb6b18e6e6da5a6d21e872f90f6d79a324df9f305d226ab6edec863831b"
+}

@@ -1,0 +1,26 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "ledger_coupling_gate_stays_closed": true,
+    "ledger_localization_stays_open": true,
+    "microscopic_exhaustion_scope_result_exists": true,
+    "microscopic_exhaustion_scope_status_is_current": true,
+    "ordered_endpoint_projective_stabilizer_result_exists": true,
+    "ordered_endpoint_projective_stabilizer_status_is_current": true,
+    "pointwise_stabilizer_is_the_only_promoted_phase_result": true,
+    "primitive_record_carrier_result_exists": true,
+    "primitive_record_carrier_status_is_current": true,
+    "public_charged_action_nonselection_result_exists": true,
+    "public_charged_action_nonselection_status_is_current": true,
+    "retired_local_connection_result_is_not_current": true
+  },
+  "complete_public_charged_action_unique": false,
+  "coupling_evaluation_authorized": false,
+  "failed_checks": [],
+  "local_relative_frame_redundancy_derived": false,
+  "overall": "PASS_CURRENT_AUTHORITY_V002_STABILIZER_ONLY_LOCALIZATION_OPEN_ALPHA_FALSE",
+  "physical_comparison_connection_derived": false,
+  "pointwise_projective_stabilizer_derived": true,
+  "proof_authorized": false,
+  "unique_finite_coincident_extension_derived": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "bid-ctp-hamilton-jacobi-scale-bridge-v001",
+  "target_values_used": false,
+  "marginal_compactness": 1,
+  "causal_radius_over_cT": "1/2",
+  "misner_sharp_action_coefficient": "1/4",
+  "brown_york_action_coefficient": "1/2",
+  "T_over_tP_for_s_equals_pi_misner_sharp": 3.5449077018110318,
+  "T_over_tP_for_s_equals_pi_brown_york": 2.5066282746310002,
+  "interval_ratio_misner_sharp_over_brown_york": 1.4142135623730951,
+  "energy_choice_changes_interval": true,
+  "bare_null_diamond_action_normalization_unique": false,
+  "reparametrized_null_diamond_action_scale_unique": false,
+  "causal_diamond_action_selects_absolute_radius": false,
+  "absolute_record_interval_derived": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "BLOCK_STAGE3_HAMILTON_JACOBI_ENERGY_NOT_SELECTED"
+}

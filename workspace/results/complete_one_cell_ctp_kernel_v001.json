@@ -1,0 +1,26 @@
+{
+  "alpha_computed": false,
+  "analytic_complete_kernel": "I(theta_plus,theta_minus)=(1+exp(i(theta_plus-theta_minus)))/2",
+  "checks": {
+    "complete_kernel_matches_closed_form": true,
+    "ctp_diagonal_is_normalized": true,
+    "ctp_hermiticity_holds": true,
+    "survival_fidelity_is_not_complete_diagonal_kernel": true,
+    "two_outcome_probabilities_are_complete": true
+  },
+  "complete_kernel_on_diagonal": 1,
+  "coupling_evaluation_authorized": false,
+  "executable_role": "NUMERICAL_CROSSCHECK_OF_SYMBOLIC_CTP_IDENTITY",
+  "failed_checks": [],
+  "fidelity_weight_is_parent_ctp_action": false,
+  "max_errors": {
+    "closed_form": 2.2887833992611187e-16,
+    "completeness": 3.3306690738754696e-16,
+    "diagonal_normalization": 2.225902368707593e-16,
+    "hermiticity": 1.6653345369377348e-16
+  },
+  "minimum_demonstrated_fidelity_component_gap": 0.9621511893162318,
+  "overall": "PASS_COMPLETE_CTP_KERNEL_FIDELITY_PARENT_ACTION_BLOCKED_ALPHA_FALSE",
+  "proof_authorized": false,
+  "survival_fidelity_is_complete_kernel": false
+}

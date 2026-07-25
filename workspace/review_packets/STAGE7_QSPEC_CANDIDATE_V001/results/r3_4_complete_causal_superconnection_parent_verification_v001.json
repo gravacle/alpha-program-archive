@@ -1,0 +1,19 @@
+{
+  "alpha_computed": false,
+  "comparisons": {
+    "alpha_false": true,
+    "first_pointer_probability": true,
+    "primary_verdict": true,
+    "proof_false": true,
+    "record_restriction": true,
+    "second_pointer_probability": true
+  },
+  "construction_uses_alpha": false,
+  "first_pointer_probability": 0.925282999693454,
+  "independent_verification_pass": true,
+  "method": "independent RK4 state propagation",
+  "proof_authorized": false,
+  "record_restriction_error": 1.1515771264170462e-14,
+  "rk4_steps_per_cell": 2400,
+  "second_pointer_probability": 0.9252829996934434
+}

@@ -1,0 +1,23 @@
+{
+  "evidence": {
+    "d1_Q_flux": "1",
+    "exact_square_flux_lift": [
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4"
+    ],
+    "general_theorem": "Moore-Penrose lift is the unique horizontal minimum-norm preimage on im(d1)",
+    "horizontal": true,
+    "horizontal_zero_flux_addition_dimension": 0,
+    "unit_faces_outside_image_assigned": false
+  },
+  "obligation": "T10",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "ae64c9de2f7bccfa3b3ec94df596e3f0f21f18d589be825ef537f4ee11d26e7d"
+}

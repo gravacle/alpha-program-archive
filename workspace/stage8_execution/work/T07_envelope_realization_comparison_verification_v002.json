@@ -1,0 +1,37 @@
+{
+  "ER_A_selected": false,
+  "ER_B_selected": false,
+  "alpha_computed": false,
+  "checks": {
+    "ER-A": {
+      "mixed": {
+        "midpoint_192_to_primary_strang_96": 1.4364071359897142e-06,
+        "midpoint_96_to_192": 6.655713692950423e-07
+      },
+      "pure": {
+        "midpoint_192_to_primary_strang_96": 7.441168393480469e-06,
+        "midpoint_96_to_192": 7.380847527869265e-06
+      }
+    },
+    "ER-B": {
+      "mixed": {
+        "midpoint_192_to_primary_strang_96": 1.603628314712543e-05,
+        "midpoint_96_to_192": 1.984030418187886e-06
+      },
+      "pure": {
+        "midpoint_192_to_primary_strang_96": 2.283257010952307e-05,
+        "midpoint_96_to_192": 2.211571616273203e-05
+      }
+    }
+  },
+  "envelope_realization_derived": false,
+  "independent_ball_quadrature": "14x14x28 direct Hermite evaluation",
+  "independent_covariance_quadrature_order": 24,
+  "independent_integrator": "full-Hamiltonian midpoint exponential",
+  "kappa_record_computed": false,
+  "pass": true,
+  "proof_authorized": false,
+  "schema": "stage8_t7_envelope_realization_comparison_verification_v002",
+  "spec_sha256": "fa4d6aad94aee991472c52db0a03dcd495634faa6e07c998ca4dea68f1f1db8f",
+  "tolerance": 5e-05
+}

@@ -1,0 +1,43 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "four_declared_weyl_nodes_are_exact": true,
+    "free_walk_is_unitary": true,
+    "net_chirality_cancels": true,
+    "one_two_component_walk_has_four_weyl_cones": true
+  },
+  "coupling_evaluation_authorized": false,
+  "executable_role": "FREE_WALK_AND_SPECIES_GATE_NOT_COUPLING_PROOF",
+  "failed_checks": [],
+  "gauged_unitary_parent_kernel_derived": false,
+  "max_node_vector_error": 1.2246467991473532e-16,
+  "max_unitarity_error": 4.450385034009154e-16,
+  "negative_chirality_cones": 2,
+  "nodes": {
+    "k0": {
+      "linearized_chirality_sign": 1,
+      "linearized_jacobian_determinant": 0.9999999999995001,
+      "quasienergy_baseline_sign": 1
+    },
+    "k1": {
+      "linearized_chirality_sign": -1,
+      "linearized_jacobian_determinant": -0.9999999997526995,
+      "quasienergy_baseline_sign": -1
+    },
+    "k2": {
+      "linearized_chirality_sign": -1,
+      "linearized_jacobian_determinant": -0.9999999997526995,
+      "quasienergy_baseline_sign": 1
+    },
+    "k3": {
+      "linearized_chirality_sign": 1,
+      "linearized_jacobian_determinant": 1.0000000001392781,
+      "quasienergy_baseline_sign": -1
+    }
+  },
+  "one_Dirac_source_inventory_survives": false,
+  "overall": "PASS_BCC_FREE_PARENT_FOUR_CONES_GAUGED_KERNEL_OPEN_ALPHA_FALSE",
+  "positive_chirality_cones": 2,
+  "proof_authorized": false,
+  "total_weyl_cones": 4
+}

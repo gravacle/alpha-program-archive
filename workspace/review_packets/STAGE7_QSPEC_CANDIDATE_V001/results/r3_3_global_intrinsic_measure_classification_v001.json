@@ -1,0 +1,82 @@
+{
+  "alpha_computed": false,
+  "assumption_text_checks": {
+    "continuous_density_ray": true,
+    "intrinsic_restriction_naturality": true,
+    "no_preferred_covector": true,
+    "poincare_covariance": true,
+    "positive_absolute_continuity": true
+  },
+  "assumptions_textually_pinned": true,
+  "authority_hashes": {
+    "BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md": {
+      "actual": "451550c3825288d699db35c7289e408e8314ad042450253b58f32722c4ead46b",
+      "expected": "451550c3825288d699db35c7289e408e8314ad042450253b58f32722c4ead46b",
+      "matches": true
+    },
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md": {
+      "actual": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+      "expected": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+      "matches": true
+    },
+    "CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md": {
+      "actual": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "expected": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "matches": true
+    },
+    "PARENT_STATE_COVARIANCE_PRINCIPLE_V001.md": {
+      "actual": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "expected": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "matches": true
+    },
+    "R3_3_INTRINSIC_CELL_MEASURE_DERIVATION_RESULT_V001.md": {
+      "actual": "e60aec3c44cfc5f1ef5715d3445e53783b0185ef93e54d94e442ff1df2ae9b59",
+      "expected": "e60aec3c44cfc5f1ef5715d3445e53783b0185ef93e54d94e442ff1df2ae9b59",
+      "matches": true
+    },
+    "R3_3_INTRINSIC_CELL_MEASURE_DERIVATION_SPEC_V001.md": {
+      "actual": "d9262ea2b4302896702f4849d1084dadc9406f77fede726079f47c9d039fbde8",
+      "expected": "d9262ea2b4302896702f4849d1084dadc9406f77fede726079f47c9d039fbde8",
+      "matches": true
+    }
+  },
+  "authority_hashes_match": true,
+  "basis_covector_violated_constraint_counts": {
+    "e0": 3,
+    "e1": 3,
+    "e2": 3,
+    "e3": 3
+  },
+  "complete_parent_generator_derived": false,
+  "construction_uses_alpha": false,
+  "fixed_covector_constraint_rank": 4,
+  "fixed_covector_nullity": 0,
+  "global_classification_pass": true,
+  "hypothesis_promoted_to_principle": false,
+  "lorentz_commutator_span_rank": 6,
+  "lorentz_generator_count": 6,
+  "lorentz_generator_span_rank": 6,
+  "lorentz_lie_algebra_perfect": true,
+  "mu_a_negative_control": {
+    "common_nonnegative_roots": [
+      "0/1"
+    ],
+    "delta_t_numerator_roots": [
+      "0/1"
+    ],
+    "delta_u_child_numerator_roots": [
+      "-45/1",
+      "0/1"
+    ],
+    "only_uniform_member_survives": true
+  },
+  "proof_authorized": false,
+  "sample_nonzero_character_violates_lorentz": true,
+  "specification_seal_matches": true,
+  "specification_sha256": "a314c6d42a31d51a6801d606c66518b2746d4b44d112728eca1cbc66732c76eb",
+  "spectral_density_derived": false,
+  "translation_character_additive_exponent_pass": true,
+  "translations_alone_permit_nonuniform_character": true,
+  "uniform_flat_cell_measure_derived": true,
+  "verdict": "GLOBAL_INTRINSIC_FLAT_CELL_MEASURE_CLASSIFIED"
+}

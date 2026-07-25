@@ -1,0 +1,8 @@
+{
+  "status": "PASS_AUTHORITY_V007_THEORY_GATE_EXPOSED_ALPHA_FALSE",
+  "missing_files": [],
+  "phase_complete_unique_generator_derived": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "bookkeeping_consistency_only"
+}

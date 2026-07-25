@@ -1,0 +1,40 @@
+{
+  "status": "PASS_CONDITIONAL_BALANCED_ORTHOGONALIZATION_ALGEBRA",
+  "population_rows": [
+    {
+      "p": 0.1,
+      "numerical_minimum": 0.8,
+      "analytic_minimum": 0.8,
+      "orthogonalization_exists": false
+    },
+    {
+      "p": 0.25,
+      "numerical_minimum": 0.5,
+      "analytic_minimum": 0.5,
+      "orthogonalization_exists": false
+    },
+    {
+      "p": 0.5,
+      "numerical_minimum": 6.123233995736766e-17,
+      "analytic_minimum": 0.0,
+      "orthogonalization_exists": true
+    },
+    {
+      "p": 0.75,
+      "numerical_minimum": 0.5,
+      "analytic_minimum": 0.5,
+      "orthogonalization_exists": false
+    },
+    {
+      "p": 0.9,
+      "numerical_minimum": 0.8,
+      "analytic_minimum": 0.8,
+      "orthogonalization_exists": false
+    }
+  ],
+  "balanced_calibration_derived": false,
+  "durable_record_condition_established": false,
+  "physical_record_generator_derived": false,
+  "alpha_computed": false,
+  "scope": "conditional_autocorrelation_algebra_only"
+}

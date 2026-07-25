@@ -1,0 +1,134 @@
+{
+  "alpha_computed": false,
+  "central_sequence_rows": [
+    {
+      "N": 1,
+      "commutator_norm_one_site_X": 2.0,
+      "general_fixed_support_bound_m_1": 2.0
+    },
+    {
+      "N": 2,
+      "commutator_norm_one_site_X": 1.0,
+      "general_fixed_support_bound_m_1": 1.0
+    },
+    {
+      "N": 4,
+      "commutator_norm_one_site_X": 0.5,
+      "general_fixed_support_bound_m_1": 0.5
+    },
+    {
+      "N": 8,
+      "commutator_norm_one_site_X": 0.25,
+      "general_fixed_support_bound_m_1": 0.25
+    },
+    {
+      "N": 16,
+      "commutator_norm_one_site_X": 0.125,
+      "general_fixed_support_bound_m_1": 0.125
+    },
+    {
+      "N": 32,
+      "commutator_norm_one_site_X": 0.0625,
+      "general_fixed_support_bound_m_1": 0.0625
+    },
+    {
+      "N": 64,
+      "commutator_norm_one_site_X": 0.03125,
+      "general_fixed_support_bound_m_1": 0.03125
+    },
+    {
+      "N": 128,
+      "commutator_norm_one_site_X": 0.015625,
+      "general_fixed_support_bound_m_1": 0.015625
+    }
+  ],
+  "checks": {
+    "averaged_counting_vectors_have_nonzero_hilbert_limit": false,
+    "connected_linked_cluster_limit_derived": false,
+    "empirical_record_mean_is_central_sequence": true,
+    "finite_product_states_are_inductive_compatible": true,
+    "labels_are_asymptotically_distinguished": true,
+    "unit_counting_vectors_have_nonzero_hilbert_limit": false,
+    "unnormalized_counting_covectors_are_bounded": false
+  },
+  "construction_uses_alpha": false,
+  "fork_8_closed": false,
+  "hilbert_rows": [
+    {
+      "N": 1,
+      "averaged_norm": 1.0,
+      "unit_normalized_norm": 1.0,
+      "unit_normalized_overlap_e1": 1.0,
+      "unnormalized_norm": 1.0
+    },
+    {
+      "N": 2,
+      "averaged_norm": 0.7071067811865475,
+      "unit_normalized_norm": 1.0,
+      "unit_normalized_overlap_e1": 0.7071067811865475,
+      "unnormalized_norm": 1.4142135623730951
+    },
+    {
+      "N": 4,
+      "averaged_norm": 0.5,
+      "unit_normalized_norm": 1.0,
+      "unit_normalized_overlap_e1": 0.5,
+      "unnormalized_norm": 2.0
+    },
+    {
+      "N": 8,
+      "averaged_norm": 0.35355339059327373,
+      "unit_normalized_norm": 1.0,
+      "unit_normalized_overlap_e1": 0.35355339059327373,
+      "unnormalized_norm": 2.8284271247461903
+    },
+    {
+      "N": 16,
+      "averaged_norm": 0.25,
+      "unit_normalized_norm": 1.0,
+      "unit_normalized_overlap_e1": 0.25,
+      "unnormalized_norm": 4.0
+    },
+    {
+      "N": 32,
+      "averaged_norm": 0.17677669529663687,
+      "unit_normalized_norm": 1.0,
+      "unit_normalized_overlap_e1": 0.17677669529663687,
+      "unnormalized_norm": 5.656854249492381
+    },
+    {
+      "N": 64,
+      "averaged_norm": 0.125,
+      "unit_normalized_norm": 1.0,
+      "unit_normalized_overlap_e1": 0.125,
+      "unnormalized_norm": 8.0
+    },
+    {
+      "N": 128,
+      "averaged_norm": 0.08838834764831843,
+      "unit_normalized_norm": 1.0,
+      "unit_normalized_overlap_e1": 0.08838834764831843,
+      "unnormalized_norm": 11.313708498984761
+    }
+  ],
+  "hypothesis_promoted_to_principle": false,
+  "inherited_inputs": {
+    "finite_public_collapse_covector_ray": true,
+    "one_record_normalization": true,
+    "symmetric_monoidal_disjoint_composition": "declared_physical_premise"
+  },
+  "outgoing_record_algebra_subobligation_closed": true,
+  "quasilocal_compatibility": {
+    "0": {
+      "after_real": 1.3,
+      "before_real": 1.3,
+      "difference_abs": 0.0
+    },
+    "1": {
+      "after_real": 2.1,
+      "before_real": 2.1,
+      "difference_abs": 0.0
+    }
+  },
+  "verdict": "QUASILOCAL_STATE_LIFT_ONLY"
+}

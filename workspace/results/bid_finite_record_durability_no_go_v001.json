@@ -1,0 +1,21 @@
+{
+  "schema": "bid-finite-record-durability-no-go-v001",
+  "target_values_used": false,
+  "spectrum": [
+    -1.414213562373095,
+    2.3224883419927584e-17,
+    1.414213562373095
+  ],
+  "tau_R": 2.221441469079183,
+  "root_to_public_error": 7.49928870051683e-16,
+  "public_to_root_error": 6.99482669657587e-16,
+  "two_interval_recurrence_error": 1.9075090855336887e-15,
+  "pointer_commutator_norm": 1.4142135623730951,
+  "first_orthogonal_write_passed": true,
+  "endpoint_is_nondemolition": false,
+  "finite_closed_parent_establishes_durability": false,
+  "complete_parent_action_derived": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "BLOCK_FINITE_BID_PARENT_IS_EXACTLY_RECURRENT"
+}

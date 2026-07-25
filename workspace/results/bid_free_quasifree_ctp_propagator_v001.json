@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "overall": "PASS_FREE_QUASIFREE_CTP_SUBGATE_DURABILITY_OPEN",
+  "max_ctp_identity_error": 2.0619142446364794e-16,
+  "max_free_equation_error": 0.0,
+  "max_unitarity_error": 4.9087419643353624e-15,
+  "edge_zero_mode_weight": 1.232595164407831e-32,
+  "edge_massive_mode_weight": 0.9999999999999996,
+  "edge_massive_energy": 0.6913327708130145,
+  "complete_free_quasifree_CTP_contour_derived": true,
+  "physical_durability_derived": false,
+  "gauge_invariant_dressed_source_spectrum_derived": false,
+  "interacting_isolated_pole_proved": false,
+  "absolute_record_duration_computed": false,
+  "physical_source_mass_computed": false,
+  "alpha_computed": false,
+  "proof_authorized": false
+}

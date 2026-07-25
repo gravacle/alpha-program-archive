@@ -1,0 +1,136 @@
+{
+  "Duhamel_estimates": {
+    "200": {
+      "g_Duhamel": 0.06481861815984412,
+      "state_norm_error": 4.502847653631292e-07
+    },
+    "400": {
+      "g_Duhamel": 0.06481887242631343,
+      "state_norm_error": 1.4116104063433e-08
+    }
+  },
+  "Duhamel_intensive_Hessian_equality_proved": false,
+  "H_CTP_interval": [
+    0.0648119115562134,
+    0.06485648035527754
+  ],
+  "alpha_computed": false,
+  "complete_Qspec_CTP_scalar_closure_derived": true,
+  "complete_final_identity_used": true,
+  "connected_linked_cluster_density_proved": false,
+  "connection": {
+    "antihermiticity_error": 0.0,
+    "carrier": "three_site_periodic_regulator",
+    "coordinate": "total_Wilson_loop_angle_theta",
+    "local_Maxwell_field_strength_claimed": false,
+    "loop_holonomy_error": 1.1102230246251565e-16,
+    "uniform_link_phase": "theta/3"
+  },
+  "coupling_evaluation_authorized": false,
+  "determinant_used": false,
+  "duhamel_protocol_sha256": "3d86dc4f15cc51bd3a3848b71c295734c6cee565cffc5817b7ddcfcedd30126f",
+  "estimates": {
+    "steps_200_theta_0.02500000": {
+      "H_CTP": 0.06482374253500611,
+      "Z_minus_absolute": 0.9999797427858002,
+      "Z_minus_imag": -8.365901817439236e-05,
+      "Z_minus_real": 0.9999797392863136,
+      "Z_plus_absolute": 0.9999797427854757,
+      "Z_plus_imag": -8.365901817711241e-05,
+      "Z_plus_real": 0.9999797392859892,
+      "g_FS_finite_difference": 0.06479797464478784
+    },
+    "steps_200_theta_0.05000000": {
+      "H_CTP": 0.06488011962968387,
+      "Z_minus_absolute": 0.9999189031389264,
+      "Z_minus_imag": -0.000334628808062315,
+      "Z_minus_real": 0.9999188471461644,
+      "Z_plus_absolute": 0.9999189031390558,
+      "Z_plus_imag": -0.0003346288080458837,
+      "Z_plus_real": 0.9999188471462939,
+      "g_FS_finite_difference": 0.0647770601000238
+    },
+    "steps_400_theta_0.02500000": {
+      "H_CTP": 0.06483419595574547,
+      "Z_minus_absolute": 0.9999797395193417,
+      "Z_minus_imag": -8.366643972773646e-05,
+      "Z_minus_real": 0.9999797360192342,
+      "Z_plus_absolute": 0.9999797395186786,
+      "Z_plus_imag": -8.366643971532972e-05,
+      "Z_plus_real": 0.999979736018571,
+      "g_FS_finite_difference": 0.06480842744883655
+    },
+    "steps_400_theta_0.05000000": {
+      "H_CTP": 0.06489056573360232,
+      "Z_minus_absolute": 0.9999188900823385,
+      "Z_minus_imag": -0.00033465849106975587,
+      "Z_minus_real": 0.9999188340796417,
+      "Z_plus_absolute": 0.999918890082502,
+      "Z_plus_imag": -0.00033465849105182577,
+      "Z_plus_real": 0.9999188340798053,
+      "g_FS_finite_difference": 0.06478750840123945
+    }
+  },
+  "final_source_state_postselected": false,
+  "finite_Qspec_holonomy_response_diagnostic_passed": false,
+  "fixed_active_dimension": 8,
+  "fock_dimension": 70,
+  "g_Duhamel_interval": [
+    0.06481877767082365,
+    0.0648189671818032
+  ],
+  "g_FS_interval": [
+    0.06479796016495462,
+    0.06481889473271849
+  ],
+  "hermiticity_errors": {
+    "current": 2.803327535987312e-16,
+    "free_zero": 0.0,
+    "interaction_0": 6.581493846249767e-16,
+    "interaction_1": 9.818080490175785e-16
+  },
+  "interacting_continuum_CTP_amplitude_derived": false,
+  "interval_intersections": {
+    "H_with_Duhamel": true,
+    "H_with_gFS": true,
+    "gFS_with_Duhamel": true
+  },
+  "kappa_record_computed": false,
+  "local_Maxwell_response_derived": false,
+  "no_target_access_attestation": true,
+  "norm_errors": {
+    "steps_200_theta_+0.00000000": 2.156053113822054e-13,
+    "steps_200_theta_+0.02500000": 3.518296765037121e-13,
+    "steps_200_theta_+0.05000000": 2.956523914576792e-13,
+    "steps_200_theta_-0.02500000": 2.7644553313166398e-14,
+    "steps_200_theta_-0.05000000": 4.263256414560601e-13,
+    "steps_400_theta_+0.00000000": 3.863576125695545e-13,
+    "steps_400_theta_+0.02500000": 7.494005416219807e-13,
+    "steps_400_theta_+0.05000000": 6.593614543248805e-13,
+    "steps_400_theta_-0.02500000": 8.670841822322473e-14,
+    "steps_400_theta_-0.05000000": 8.250067295989538e-13
+  },
+  "numerics_protocol_sha256": "057a892611f21b3cb6dfb8d547610762445261583840320a3a1b970078c30921",
+  "occupied_particle_count": 4,
+  "open_tree_zero_stiffness_retained": true,
+  "overall_verdict": "FINITE_QSPEC_HOLONOMY_RESPONSE_DIAGNOSTIC_BLOCKED",
+  "physical_Thomson_stiffness_computed": false,
+  "proof_authorized": false,
+  "record_dimension": 9,
+  "record_outcome_postselected": false,
+  "regulator_subspace_leakage": {
+    "steps_200_theta_+0.00000000": 1.959363875720098e-15,
+    "steps_200_theta_+0.02500000": 1.9597491783038375e-15,
+    "steps_200_theta_+0.05000000": 1.9684027391807448e-15,
+    "steps_200_theta_-0.02500000": 1.958997729524318e-15,
+    "steps_200_theta_-0.05000000": 1.9673644141334096e-15,
+    "steps_400_theta_+0.00000000": 1.959363875720098e-15,
+    "steps_400_theta_+0.02500000": 1.9597491783038375e-15,
+    "steps_400_theta_+0.05000000": 1.9684027391807448e-15,
+    "steps_400_theta_-0.02500000": 1.958997729524318e-15,
+    "steps_400_theta_-0.05000000": 1.9673644141334096e-15
+  },
+  "schema": "complete_qspec_finite_holonomy_response_v001",
+  "spec_sha256": "d1b5ab24ebf8c1bc9b7598449596a6431c2152cab7edcf4d0cefcfd64e3815a5",
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

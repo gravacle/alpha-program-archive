@@ -1,0 +1,107 @@
+{
+  "all_homomorphism_pass": true,
+  "all_matrix_units_pass": true,
+  "all_record_restrictions_pass": true,
+  "alpha_computed": false,
+  "authority_hashes": {
+    "CAUSAL_DIRECT_LIMIT_COVECTOR_RAY_LIFT_RESULT_V001.md": {
+      "actual": "7c81c625c41adae66e4c72f4b4e351507760bca74e68f555053fac87ae70c859",
+      "expected": "7c81c625c41adae66e4c72f4b4e351507760bca74e68f555053fac87ae70c859",
+      "matches": true
+    },
+    "CAUSAL_DIRECT_LIMIT_REDUNDANT_RECORD_RESULT_V001.md": {
+      "actual": "3359960fb411eff8ac0360a8c052bfc4d00a6281bd151c390fa3addd3603d05a",
+      "expected": "3359960fb411eff8ac0360a8c052bfc4d00a6281bd151c390fa3addd3603d05a",
+      "matches": true
+    },
+    "CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md": {
+      "actual": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "expected": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "matches": true
+    },
+    "PARENT_STATE_COVARIANCE_PRINCIPLE_V001.md": {
+      "actual": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "expected": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "matches": true
+    },
+    "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md": {
+      "actual": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+      "expected": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+      "matches": true
+    },
+    "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_V001.seal.sha256": {
+      "actual": "e771a28a9c1e1c9f410a00dc2c407be3338fcdee06d31f50cbc8563d63e41029",
+      "expected": "e771a28a9c1e1c9f410a00dc2c407be3338fcdee06d31f50cbc8563d63e41029",
+      "matches": true
+    },
+    "R3_4_DRESSED_OUTGOING_RECORD_RANGE_RESULT_V001.md": {
+      "actual": "3240d935ef558948e09dd6a70092a3f3592747b5e5c99ea559d64adc2a5c303e",
+      "expected": "3240d935ef558948e09dd6a70092a3f3592747b5e5c99ea559d64adc2a5c303e",
+      "matches": true
+    }
+  },
+  "authority_hashes_match": true,
+  "central_sequence": {
+    "bound": 1.3333333333333333,
+    "bound_pass": true,
+    "commutator_norm": 1.3333333333333333,
+    "label_separation": 2.0,
+    "label_separation_pass": true,
+    "minus_label_expectation": -1.0,
+    "plus_label_expectation": 1.0
+  },
+  "complete_source_inclusive_GNS_derived": false,
+  "construction_uses_alpha": false,
+  "coupling_evaluation_authorized": false,
+  "dressed_embedding_coherence_error": 2.1410667037901905e-14,
+  "dressed_incoming_record_net_derived": true,
+  "dressed_net_stabilizes": true,
+  "dressed_stabilization_errors": {
+    "1_to_2": 1.2389973687385775e-14,
+    "2_to_3": 1.0766263422159799e-14
+  },
+  "global_infinite_future_source_Moller_unitary_derived": false,
+  "global_source_inclusive_state_limit_derived": false,
+  "homomorphism_rows": {
+    "1": {
+      "minimum_matrix_unit_operator_norm": 1.0,
+      "product_error": 5.9385393078812906e-15,
+      "star_error": 0.0,
+      "unit_error": 1.4162365487829358e-14
+    },
+    "2": {
+      "minimum_matrix_unit_operator_norm": 1.0,
+      "product_error": 9.571794722142585e-15,
+      "star_error": 0.0,
+      "unit_error": 2.1384753895760193e-14
+    },
+    "3": {
+      "minimum_matrix_unit_operator_norm": 1.0000000000000002,
+      "product_error": 1.1604697905186248e-14,
+      "star_error": 0.0,
+      "unit_error": 2.5656628259370088e-14
+    }
+  },
+  "matrix_unit_expectation_errors": {
+    "1_to_2": 3.3306690738754696e-16,
+    "2_to_3": 1.1102230246251565e-16
+  },
+  "outgoing_record_GNS_derived": true,
+  "outgoing_record_identity_dynamics_strongly_continuous": true,
+  "outgoing_record_inductive_limit_state_derived": true,
+  "proof_authorized": false,
+  "record_restriction_errors": {
+    "1_to_2": 3.5943781699680533e-16,
+    "2_to_3": 2.9736025979815817e-16
+  },
+  "recoverable_central_record_sequence_derived": true,
+  "schema": "r3.4-outgoing-record-gns-completion-v001",
+  "source_negative_control_pass": true,
+  "source_restriction_changes": {
+    "1_to_2": 0.6123724356957945,
+    "2_to_3": 0.3061862178478971
+  },
+  "specification_seal_matches": true,
+  "specification_sha256": "1598384c12f0b328d3d662f2f83375a6743af020d3d3f14a5ccd6bcca14e7824",
+  "verdict": "OUTGOING_RECORD_GNS_AND_DRESSED_NET_DERIVED"
+}

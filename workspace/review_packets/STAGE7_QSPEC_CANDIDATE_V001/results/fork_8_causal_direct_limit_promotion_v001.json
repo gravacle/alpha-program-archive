@@ -1,0 +1,139 @@
+{
+  "absolute_charged_response_normalization_derived": false,
+  "all_promotion_tests_pass": true,
+  "alpha_computed": false,
+  "authority_hashes": {
+    "CAUSAL_DIRECT_LIMIT_ARCHITECTURE_ADJUDICATION_RESULT_V001.md": {
+      "actual": "9be3f55fd527b9a857bdd4ea2298105e44a69e85db79b90772ecb30001aba022",
+      "expected": "9be3f55fd527b9a857bdd4ea2298105e44a69e85db79b90772ecb30001aba022",
+      "matches": true
+    },
+    "CAUSAL_DIRECT_LIMIT_COVECTOR_RAY_LIFT_RESULT_V001.md": {
+      "actual": "7c81c625c41adae66e4c72f4b4e351507760bca74e68f555053fac87ae70c859",
+      "expected": "7c81c625c41adae66e4c72f4b4e351507760bca74e68f555053fac87ae70c859",
+      "matches": true
+    },
+    "CAUSAL_DIRECT_LIMIT_RECORD_HYPOTHESIS_V001.md": {
+      "actual": "60c82b021a7f5ffcb514ae8c20f083a7b2c9b42872586922b1c0464c4822d73f",
+      "expected": "60c82b021a7f5ffcb514ae8c20f083a7b2c9b42872586922b1c0464c4822d73f",
+      "matches": true
+    },
+    "CAUSAL_DIRECT_LIMIT_REDUNDANT_RECORD_RESULT_V001.md": {
+      "actual": "3359960fb411eff8ac0360a8c052bfc4d00a6281bd151c390fa3addd3603d05a",
+      "expected": "3359960fb411eff8ac0360a8c052bfc4d00a6281bd151c390fa3addd3603d05a",
+      "matches": true
+    },
+    "CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md": {
+      "actual": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "expected": "b0c636f3b2b00f0694ad001cb32a3a84c5d4fc09c25c57fd4fdb8885e8206b30",
+      "matches": true
+    },
+    "NEEDS_THEORY_DECISION_V002.md": {
+      "actual": "ee595048f542e91a9c06016fead93b7852453bf23016f048f51b79945bf800b2",
+      "expected": "ee595048f542e91a9c06016fead93b7852453bf23016f048f51b79945bf800b2",
+      "matches": true
+    },
+    "PARENT_STATE_COVARIANCE_PRINCIPLE_V001.md": {
+      "actual": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "expected": "532b0f0eac4ac749ba3e24954db356f7ca0f98c4f730030075c463efa3158efb",
+      "matches": true
+    },
+    "R3_3_GLOBAL_INTRINSIC_MEASURE_CLASSIFICATION_RESULT_V001.md": {
+      "actual": "e4cfaef14309b3acf5674f8c8faee756f744fec4691d5e01d9de0fa422592be2",
+      "expected": "e4cfaef14309b3acf5674f8c8faee756f744fec4691d5e01d9de0fa422592be2",
+      "matches": true
+    },
+    "R3_3_GLOBAL_INTRINSIC_MEASURE_CLASSIFICATION_V001.seal.sha256": {
+      "actual": "dcab767cf5d38548ae0fc4e30b3c674cc527082e398575907ce53efaae08e199",
+      "expected": "dcab767cf5d38548ae0fc4e30b3c674cc527082e398575907ce53efaae08e199",
+      "matches": true
+    },
+    "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md": {
+      "actual": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+      "expected": "345d447eaf6d730caa6fa655b92a7b0cd93a68b5f86e0c8929cf969f40aeb7cb",
+      "matches": true
+    },
+    "R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_V001.seal.sha256": {
+      "actual": "e771a28a9c1e1c9f410a00dc2c407be3338fcdee06d31f50cbc8563d63e41029",
+      "expected": "e771a28a9c1e1c9f410a00dc2c407be3338fcdee06d31f50cbc8563d63e41029",
+      "matches": true
+    },
+    "R3_4_OUTGOING_RECORD_GNS_COMPLETION_RESULT_V001.md": {
+      "actual": "10909b5c21e73ecf655462339a27bd645b8d35e3ad11fb6f8cb204c601992995",
+      "expected": "10909b5c21e73ecf655462339a27bd645b8d35e3ad11fb6f8cb204c601992995",
+      "matches": true
+    },
+    "R3_4_OUTGOING_RECORD_GNS_COMPLETION_V001.seal.sha256": {
+      "actual": "2e67781852e99e09b86912dc6a2238d4de85f57e2ea05589cd800eb65bcb5a95",
+      "expected": "2e67781852e99e09b86912dc6a2238d4de85f57e2ea05589cd800eb65bcb5a95",
+      "matches": true
+    }
+  },
+  "authority_hashes_match": true,
+  "complete_parameter_free_Q_spec_frozen": false,
+  "coupling_evaluation_authorized": false,
+  "curved_nonstationary_extension_derived": false,
+  "fork_8_closed": true,
+  "global_infinite_future_source_Moller_unitary_derived": false,
+  "global_source_inclusive_state_limit_derived": false,
+  "hypothesis_promoted_to_principle": true,
+  "interacting_gauge_infraparticle_spectrum_derived": false,
+  "promotion_rows": {
+    "P1_physical_architecture_or_response_equivalent_class": {
+      "A1_A3_are_regulators": true,
+      "A5_is_effective": true,
+      "completed_record_response_is_exhaustion_compatible": true,
+      "only_A4_is_physical_class": true,
+      "uniform_intrinsic_measure_is_global": true
+    },
+    "P2_direct_limit_and_self_adjoint_generator": {
+      "outgoing_GNS": true,
+      "outgoing_inductive_limit_state": true,
+      "record_generator_is_strongly_continuous_identity": true,
+      "same_parent_supplies_free_tail": true,
+      "source_tail_has_derived_AC_spectrum": true
+    },
+    "P3_thresholded_durability": {
+      "completed_record_restrictions_are_exact": true,
+      "nonreturn_and_persistence_are_distinct": true,
+      "thresholded_nonreturn_for_declared_source_class": true
+    },
+    "P4_recoverable_outgoing_labels": {
+      "independent_numerical_route_agrees": true,
+      "public_labels_are_separated": true,
+      "recoverable_central_sequence": true
+    },
+    "P5_no_separate_spectral_or_architecture_knob": {
+      "all_construction_inputs_exclude_alpha": true,
+      "cell_measure_and_envelope_are_fixed": true,
+      "no_independent_descendant_coefficient": true,
+      "no_target_selected_architecture": true,
+      "state_and_tail_come_from_same_parent": true
+    },
+    "P6_unassumed_architecture_sensitive_consequence": {
+      "incoming_record_net_is_source_dressed": true,
+      "nonzero_Hilbert_covector_limit_fails": true,
+      "quasilocal_state_and_central_sequence_survive": true
+    },
+    "P7_complete_reporting": {
+      "all_five_architectures_reported_in_sealed_order": true,
+      "no_target_values": true,
+      "no_winner_or_ranking": true
+    }
+  },
+  "promotion_scope": "ordinary_3_plus_1_flat_asymptotic_completed_record_branch",
+  "promotion_tests": {
+    "P1_physical_architecture_or_response_equivalent_class": true,
+    "P2_direct_limit_and_self_adjoint_generator": true,
+    "P3_thresholded_durability": true,
+    "P4_recoverable_outgoing_labels": true,
+    "P5_no_separate_spectral_or_architecture_knob": true,
+    "P6_unassumed_architecture_sensitive_consequence": true,
+    "P7_complete_reporting": true
+  },
+  "proof_authorized": false,
+  "schema": "fork-8-causal-direct-limit-promotion-v001",
+  "specification_seal_matches": true,
+  "specification_sha256": "ac73f30ae529f4ad3a789b7cc4318540b52275cf98fe2b0498c3ec40d8fec8dc",
+  "verdict": "FORK_8_PROMOTED_TO_SCOPED_CAUSAL_DIRECT_LIMIT_RECORD_PRINCIPLE"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence": {
+    "complete_positive_multiplier_family_visible": true,
+    "resolution_deferred_to": "complete Q_spec amplitude",
+    "selected_multiplier": null
+  },
+  "obligation": "T08",
+  "pass": true,
+  "protected_flags": {
+    "alpha_computed": false,
+    "proof_authorized": false
+  },
+  "schema": "stage8-obligation-report-v001",
+  "sha256_of_body": "72f6b47fd07a5dd8f569499030b8c4703441ecf3baf0cda048ed15beb2ebdaed"
+}

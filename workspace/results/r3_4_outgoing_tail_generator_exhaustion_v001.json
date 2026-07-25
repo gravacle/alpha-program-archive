@@ -1,0 +1,122 @@
+{
+  "sealed_inputs": {
+    "spec_sha256": "b374f06d4a5d88c9a8e7cd48197c8eb034ecfdf38e570fdc851cbcfba75aa621",
+    "provenance_sha256": "b42793528bac1bda160df3afcabd625a611893565f42b8358897ca64e3f5f2b2",
+    "authorities": [
+      {
+        "path": "R3_4_CAUSAL_DIAMOND_SPECTRAL_PULLBACK_RESULT_V002.md",
+        "sha256": "7869536ee4fd67365b907be86995ae16b68e64a20a10294631b2d6fede11b953",
+        "status": {
+          "operator_derived_root_spectral_measure_computed": false,
+          "unique_covariant_spectral_measure_derived": false
+        }
+      },
+      {
+        "path": "PRIMITIVE_TRANSPORT_ONLY_PHASE_COMPLETE_GENERATOR_PRINCIPLE_V001.md",
+        "sha256": "aa2ef0e78a1ad975a04596831eef2ea7587b78c4fa9d979ae8a742308cd7c214",
+        "status": {
+          "transport_only_phase_complete_principle_adopted": true,
+          "primitive_dissipative_rate_allowed": false
+        }
+      },
+      {
+        "path": "BID_GRADED_BOUNDARY_SUPERCONNECTION_REPAIR_V001.md",
+        "sha256": "2215f79cbe69f1de1643427ad5d422b0c3064ff758327e43ff1629de8633f72d",
+        "status": {
+          "complete_connected_source_record_action_derived": false
+        }
+      },
+      {
+        "path": "BID_COMPLETE_ONE_NORMAL_ZERO_FORM_ENUMERATION_V001.md",
+        "sha256": "50b5a651df2aca90ee47c6f85b2a502461370a652706ebccad871f191565a2d9",
+        "status": {
+          "complete_one_normal_zero_form_inventory_derived": true,
+          "enlarged_geometric_zero_form_branches_exhausted": false
+        }
+      },
+      {
+        "path": "CAUSAL_DIRECT_LIMIT_COVECTOR_RAY_LIFT_RESULT_V001.md",
+        "sha256": "7c81c625c41adae66e4c72f4b4e351507760bca74e68f555053fac87ae70c859",
+        "status": {
+          "outgoing_record_algebra_subobligation_closed": true
+        }
+      },
+      {
+        "path": "R3_3_INTRINSIC_CELL_MEASURE_DERIVATION_RESULT_V001.md",
+        "sha256": "e60aec3c44cfc5f1ef5715d3445e53783b0185ef93e54d94e442ff1df2ae9b59",
+        "status": {
+          "uniform_flat_cell_measure_derived": true
+        }
+      },
+      {
+        "path": "BID_FINITE_RECORD_DURABILITY_NO_GO_V001.md",
+        "sha256": "2a13fde30c38bc2670d58ce870c9964527c4591651f5bc504371b26812b97124",
+        "status": {
+          "finite_closed_BID_parent_establishes_durability": false
+        }
+      }
+    ],
+    "continuum_obligations": {
+      "finite_to_continuum_scaling_derived": false,
+      "strong_resolvent_limit_derived": false,
+      "self_adjoint_outgoing_domain_derived": false,
+      "positive_energy_projector_derived": false,
+      "finite_root_to_continuum_state_map_derived": false,
+      "gapped_and_point_spectrum_competitors_excluded": false,
+      "complete_asymptotic_tail_factorization_derived": false
+    }
+  },
+  "target_firewall": {
+    "alpha_used": false,
+    "measured_constants_used": false,
+    "candidate_density_used_as_selector": false
+  },
+  "reduced_register_exhaustion": {
+    "hermitian_basis": [
+      "I",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "nondemolition_commutator_rank": 2,
+    "nondemolition_kernel": [
+      "I",
+      "Z"
+    ],
+    "pointer_rotating_directions": [
+      "X",
+      "Y"
+    ],
+    "identity_direction_projectively_null": true,
+    "Z_direction_action_on_public_algebra": {
+      "I": 0.0,
+      "Z": 0.0
+    },
+    "Z_direction_action_on_full_M2": {
+      "I": 0.0,
+      "X": 2.8284271247461903,
+      "Y": 2.8284271247461903,
+      "Z": 0.0
+    },
+    "Z_nontrivial_on_full_hilbert_algebra": true,
+    "reduced_public_zero_form_exhausted": true
+  },
+  "scope": {
+    "source_supported_terms_vanish_if_compactly_supported": true,
+    "all_source_terms_proved_compactly_supported": false,
+    "spin_edge_enlarged_tail_factors_exhausted": false,
+    "public_tail_equivalence_proves_full_generator_equivalence": false
+  },
+  "status": {
+    "verdict": "PUBLIC_TAIL_ZERO_FORM_EXHAUSTED_CONTINUUM_SCALING_OPEN",
+    "reduced_public_tail_zero_form_exhausted": true,
+    "complete_asymptotic_tail_zero_form_exhausted": false,
+    "continuum_scaling_closed": false,
+    "operator_derived_root_spectral_measure_computed": false,
+    "hypothesis_promoted_to_principle": false,
+    "spectral_evaluation_authorized": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

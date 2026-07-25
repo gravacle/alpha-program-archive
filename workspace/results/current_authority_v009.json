@@ -1,0 +1,9 @@
+{
+  "status": "PASS_AUTHORITY_V009_PREMATURE_GENERATOR_PROMOTIONS_REJECTED",
+  "missing_files": [],
+  "durable_record_generator_derived": false,
+  "record_generated_source_mass_derived": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "bookkeeping_consistency_only"
+}

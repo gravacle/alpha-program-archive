@@ -1,0 +1,52 @@
+{
+  "schema": "r3.4-causal-transported-write-tail-v001",
+  "spec_sha256": "46c35ab19b80ae7eb6dd9120770d8db87c1f20847a4fc895b714b30fce798cfc",
+  "spec_seal_verified": true,
+  "upstream_hashes_verified": 7,
+  "target_values_used": false,
+  "preseal_exploratory_diagnostic_performed": true,
+  "free_write_commutator_norm": 10.954451150103322,
+  "transport_covariance_error": 6.693235416096717e-15,
+  "static_covariance_failure": 4.648555772124141,
+  "static_sum_first_pointer_probability": 0.3062222344872731,
+  "transported_parent_first_pointer_probability": 0.9999999999999982,
+  "finite_support_Moller_error": 1.6947098464637112e-14,
+  "finite_support_Moller_unitarity_error": 3.596023482962906e-14,
+  "interaction_picture_profile_errors": {
+    "constant": 0.0,
+    "uneven_positive": 1.2966572893570174e-14,
+    "sign_changing": 6.961118443612813e-15
+  },
+  "direct_time_slicing_errors": {
+    "10": 0.18205221144203718,
+    "20": 0.04567608038968788,
+    "40": 0.011428928454654312,
+    "80": 0.002857846922383189
+  },
+  "direct_time_slicing_convergence_ratios": {
+    "10_to_20": 3.985723159449085,
+    "20_to_40": 3.9965321833025187,
+    "40_to_80": 3.99913947984436
+  },
+  "two_cell_causal_Moller_error": 1.6629433844263268e-14,
+  "causal_transport_functional_equation_unique_given_rule": true,
+  "causal_transport_rule_derived_from_pinned_principles": false,
+  "static_sum_fails_comoving_covariance": true,
+  "static_sum_rejected_by_adopted_principles": false,
+  "write_tail_relative_coefficient_added": false,
+  "candidate_first_opening_survives_free_tail_attachment": true,
+  "candidate_shared_source_causal_product_survives_tail_attachment": true,
+  "candidate_finite_support_Moller_operator_computed": true,
+  "physical_write_tail_join_derived": false,
+  "free_outgoing_tail_generator_inherited_from_same_parent": false,
+  "physical_in_state_selected": false,
+  "finite_energy_physical_root_derived": false,
+  "generated_descendant_durability_closed": false,
+  "complete_physical_durability_derived": false,
+  "complete_write_plus_tail_root_measure_derived": false,
+  "complete_parameter_free_Q_spec_frozen": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "CAUSAL_TRANSPORT_CONDITIONAL"
+}

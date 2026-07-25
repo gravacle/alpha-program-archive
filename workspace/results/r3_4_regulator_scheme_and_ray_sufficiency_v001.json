@@ -1,0 +1,61 @@
+{
+  "schema": "r3.4-regulator-scheme-and-ray-sufficiency-v001",
+  "spec_sha256": "79aeb2465408752fd8522ae0f3539d2132074bd2e6a3eecb3b4e40e4f2657fcc",
+  "provenance_sha256": "441b0ec5bb800ff471120dbaf6be1912f22af0035b7ae85e0daf55ad428a6039",
+  "authorities_verified": true,
+  "target_values_used": false,
+  "root_even_moments": {
+    "half_line": {
+      "2": "1",
+      "4": "2",
+      "6": "5"
+    },
+    "radial_tree": {
+      "2": "3",
+      "4": "18",
+      "6": "135"
+    },
+    "cubic_lattice": {
+      "2": "6",
+      "4": "90",
+      "6": "1860"
+    }
+  },
+  "standardized_moments": {
+    "half_line": {
+      "m4_over_m2_squared": "2",
+      "m6_over_m2_cubed": "5"
+    },
+    "radial_tree": {
+      "m4_over_m2_squared": "2",
+      "m6_over_m2_cubed": "5"
+    },
+    "cubic_lattice": {
+      "m4_over_m2_squared": "5/2",
+      "m6_over_m2_cubed": "155/18"
+    }
+  },
+  "decay_derivation": {
+    "half_line": "J1(2t)/t = O(t^-3/2) in amplitude",
+    "radial_tree": "time rescaling preserves the half-line exponent",
+    "cubic_lattice": "J0(2t)^3 = O(t^-3/2) in amplitude",
+    "probability_exponent": "3"
+  },
+  "all_three_share_t_minus_3_probability_class": true,
+  "half_line_and_radial_tree_equivalent_up_to_energy_scale": true,
+  "all_three_full_measures_equivalent_up_to_energy_scale": false,
+  "regulator_scheme_verdict": "COMMON_DECAY_CLASS_ONLY",
+  "same_abstract_quasilocal_UHF_and_product_state_form": true,
+  "distinct_local_generators_have_inequivalent_root_measures": true,
+  "covector_ray_and_quasilocal_state_fix_generator": false,
+  "covector_ray_and_quasilocal_state_fix_spectral_measure": false,
+  "ray_sufficiency_verdict": "OUTGOING_ALGEBRA_DOES_NOT_FIX_DYNAMICS",
+  "outgoing_record_algebra_subobligation_closed": true,
+  "spectral_dynamics_must_come_from_complete_parent_action": true,
+  "unique_covariant_spectral_measure_derived": false,
+  "hypothesis_promoted_to_principle": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "DECAY_CLASS_ROBUST_ALGEBRA_DERIVED_SPECTRAL_DYNAMICS_OPEN"
+}

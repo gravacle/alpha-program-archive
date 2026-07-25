@@ -1,0 +1,127 @@
+{
+  "schema_version": 2,
+  "date": "2026-07-23",
+  "principle": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V002.md",
+  "logical_status": "target_value_free_target_aware_forward_declared_pending_hostile_review",
+  "historical_target_blindness_established": false,
+  "supersedes_unsealed_draft": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V001.md",
+  "pinned_authorities": [
+    {
+      "path": "PRIMITIVE_RECORD_ACTION_CHARACTER_BRIDGE_GATE_V002.md",
+      "sha256": "fc3e44f0ce78955c3c3ecbce57a901ca5f2770728b051052cc3ea638bcf3acdf",
+      "role": "conditional balanced two-path record bridge; no alpha or full operator"
+    },
+    {
+      "path": "../primitive_comparison_group_provenance_gate_v001.md",
+      "sha256": "baa5f8150de019ed36fa9f946f8fc798aa5f272f1aefb3ea4be0ce66e7e09483",
+      "role": "three comparison-carrier models remain live before the new faithful-representation premise"
+    },
+    {
+      "path": "../minimal_public_carrier_principle_v001.md",
+      "sha256": "43f295a776ea1a789a1bb24d01fe3c068700e1c5cc823056a8f8e9a5d9a2f436",
+      "role": "historical target-aware minimal-carrier argument"
+    },
+    {
+      "path": "../primitive_action_character_carrier_completion_v001.md",
+      "sha256": "9b2c0b93fb4bd2fbb34a8e9f5adb578b9b29422ea7adc8849ff425ad4139e23a",
+      "role": "conditional action-character completion; not independent proof"
+    }
+  ],
+  "explicit_branch_premises": [
+    "three independent primitive public action handles",
+    "one unresolved pre-record alternative",
+    "strongly continuous faithful representation of R/(2*pi*hbar*Z) isomorphic to U(1)",
+    "ordinary 3+1 Lorentzian compact-vector-U1 CPT branch"
+  ],
+  "new_target_aware_hypotheses": [
+    "first-order record minimality",
+    "primitive naturality under every one-edge-germ embedding",
+    "one-record dimensionless normalization",
+    "single-operator completeness"
+  ],
+  "fixed_object_distinctions": [
+    "comparison group",
+    "endpoint carrier",
+    "graded chain carrier"
+  ],
+  "weighted_competitor_family": {
+    "boundary": "partial_(rho,lambda) e = lambda_e * (v_target - rho(g_e) * v_source)",
+    "lambda_domain": "strictly_positive",
+    "vertex_measures": "arbitrary_positive_diagonal",
+    "edge_measures": "arbitrary_positive_diagonal",
+    "per_edge_rescaling_is_equivalence": false
+  },
+  "equivalences": [
+    "rooted oriented cell isomorphism",
+    "orientation reversal",
+    "unitary cell-basis rephasing",
+    "local-system gauge transformation",
+    "one common positive overall physical scale"
+  ],
+  "required_gates": [
+    "comparison_group_classification",
+    "first_order_carrier_classification",
+    "operator_uniqueness",
+    "relative_rescaling_forbidding",
+    "primitive_addition_forbidding",
+    "frozen_parent_reproduction_or_correction"
+  ],
+  "operator_uniqueness_pass_criterion": {
+    "before_one_record_normalization": "exactly_one_positive_ray",
+    "after_one_record_normalization": "exactly_one_point",
+    "any_inequivalent_family": "FAIL"
+  },
+  "enlarged_primitive_competitors": [
+    "handle-specific first-incidence weights",
+    "independent diagonal zero-cell or one-cell primitive potentials",
+    "independent primitive plaquette or curvature stiffness",
+    "independent primitive Pauli or clover coefficient",
+    "independent primitive mixed-handle block",
+    "duplicate primitive operator copies"
+  ],
+  "precommitted_outputs": {
+    "primary": "dimension of relative-weight quotient",
+    "composition_complex": "minimal commuting two-handle square",
+    "loop_variable": "gauge-invariant Phi",
+    "sealed_evaluation_point": "Phi=pi",
+    "reported_quantities": [
+      "ordered spectrum",
+      "kernel multiplicity",
+      "Tr(B^4)/Tr(B^2)^2"
+    ]
+  },
+  "forbidden_construction_inputs": [
+    "measured electromagnetic coupling",
+    "particle mass",
+    "cosmological endpoint",
+    "previous alpha coefficient",
+    "target-selected carrier",
+    "target-selected operator",
+    "target-selected relative weight",
+    "frozen parent before BID result seal"
+  ],
+  "status": {
+    "BID_v002_forward_declared": true,
+    "BID_v002_sealed": false,
+    "unit_character_phase_fixed": true,
+    "transition_magnitudes_fixed": false,
+    "rooted_star_derived": false,
+    "seven_dimensional_graded_carrier_counts_as_new_evidence": false,
+    "BID_single_operator_completeness_postulate_declared": true,
+    "BID_principle_proposes_no_independent_primitive_F2": true,
+    "BID_principle_proposes_no_independent_primitive_Pauli": true,
+    "primitive_F2_excluded_by_theorem": false,
+    "primitive_Pauli_excluded_by_theorem": false,
+    "comparison_group_gate_passed": false,
+    "carrier_gate_passed": false,
+    "operator_uniqueness_gate_passed": false,
+    "relative_rescaling_forbidden_by_theorem": false,
+    "frozen_parent_reproduced_or_corrected": false,
+    "composition_loop_prediction_sealed": false,
+    "external_unused_holdout_preregistered": false,
+    "spectral_evaluation_authorized": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

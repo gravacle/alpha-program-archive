@@ -1,0 +1,11 @@
+{
+  "V4": "pi/24",
+  "alpha_computed": false,
+  "expected_uniform_intrinsic_measure_test": "1",
+  "independent_coordinate": "slice radius r, with two equal time branches",
+  "kappa_record_computed": false,
+  "old_parent_full_cell_uniform_test": "2*pi/21",
+  "pass": true,
+  "proof_authorized": false,
+  "schema": "stage8_t7_intrinsic_measure_parent_normalization_verification_v001"
+}

@@ -1,0 +1,206 @@
+{
+  "Q1_source_lines": {
+    "enlarged_rank_or_multiendpoint_branch_used": false,
+    "rank_one_for_every_executed_history": true
+  },
+  "Q2_connection_return": {
+    "boundary_metric_isometry_imported": true,
+    "incidence_chain_partial_isometry_algebra_derived": true,
+    "phase_covariance": {
+      "absolute_error": 3.561214709989364e-18,
+      "returned_scalar_imag": -3.561214709989364e-18,
+      "returned_scalar_real": -0.5,
+      "symbolic_identity": "(e^{i phi_f} V e^{-i phi_i})^dagger (e^{i phi_f} T e^{-i phi_i})=e^{i phi_i} V^dagger T e^{-i phi_i}",
+      "test_scalar_real": -0.5
+    },
+    "physical_source_line_transport_derived": false,
+    "response_dependent_return_used": false
+  },
+  "Q3_Q4_chain_execution": [
+    {
+      "N": 1,
+      "baseline_scalar_exact": "1",
+      "connection_composition_error_square_exact": "0",
+      "local_partial_isometry_error_squares_exact": [],
+      "normalized_baseline": "1",
+      "oriented_shift_error_squares_exact": [],
+      "returned_endomorphism_error_square_exact": "0",
+      "source_dimension": 2
+    },
+    {
+      "N": 2,
+      "baseline_scalar_exact": "-1/2",
+      "connection_composition_error_square_exact": "0",
+      "local_partial_isometry_error_squares_exact": [
+        "0"
+      ],
+      "normalized_baseline": "1",
+      "oriented_shift_error_squares_exact": [
+        "0"
+      ],
+      "returned_endomorphism_error_square_exact": "0",
+      "source_dimension": 3
+    },
+    {
+      "N": 3,
+      "baseline_scalar_exact": "1/4",
+      "connection_composition_error_square_exact": "0",
+      "local_partial_isometry_error_squares_exact": [
+        "0",
+        "0"
+      ],
+      "normalized_baseline": "1",
+      "oriented_shift_error_squares_exact": [
+        "0",
+        "0"
+      ],
+      "returned_endomorphism_error_square_exact": "0",
+      "source_dimension": 4
+    },
+    {
+      "N": 4,
+      "baseline_scalar_exact": "-1/8",
+      "connection_composition_error_square_exact": "0",
+      "local_partial_isometry_error_squares_exact": [
+        "0",
+        "0",
+        "0"
+      ],
+      "normalized_baseline": "1",
+      "oriented_shift_error_squares_exact": [
+        "0",
+        "0",
+        "0"
+      ],
+      "returned_endomorphism_error_square_exact": "0",
+      "source_dimension": 5
+    },
+    {
+      "N": 5,
+      "baseline_scalar_exact": "1/16",
+      "connection_composition_error_square_exact": "0",
+      "local_partial_isometry_error_squares_exact": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "normalized_baseline": "1",
+      "oriented_shift_error_squares_exact": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "returned_endomorphism_error_square_exact": "0",
+      "source_dimension": 6
+    },
+    {
+      "N": 6,
+      "baseline_scalar_exact": "-1/32",
+      "connection_composition_error_square_exact": "0",
+      "local_partial_isometry_error_squares_exact": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "normalized_baseline": "1",
+      "oriented_shift_error_squares_exact": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "returned_endomorphism_error_square_exact": "0",
+      "source_dimension": 7
+    },
+    {
+      "N": 7,
+      "baseline_scalar_exact": "1/64",
+      "connection_composition_error_square_exact": "0",
+      "local_partial_isometry_error_squares_exact": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "normalized_baseline": "1",
+      "oriented_shift_error_squares_exact": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "returned_endomorphism_error_square_exact": "0",
+      "source_dimension": 8
+    },
+    {
+      "N": 8,
+      "baseline_scalar_exact": "-1/128",
+      "connection_composition_error_square_exact": "0",
+      "local_partial_isometry_error_squares_exact": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "normalized_baseline": "1",
+      "oriented_shift_error_squares_exact": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "returned_endomorphism_error_square_exact": "0",
+      "source_dimension": 9
+    }
+  ],
+  "Q5_uniqueness": {
+    "branch_sum_used": false,
+    "complex_linear_closure_imported": true,
+    "endomorphism_of_one_dimensional_line": true,
+    "fixed_final_source_line_derived": false,
+    "fixed_initial_source_line_imported": true,
+    "full_source_state_expectation_used": false,
+    "inclusive_probability_used": false,
+    "normalized_amplitude_independent_of_constant_return_phase": true,
+    "polar_return_from_perturbed_transition_used": false,
+    "response_dependent_final_line_used": false
+  },
+  "alpha_computed": false,
+  "arbitrary_finite_N_baseline_nonzero": true,
+  "arbitrary_finite_N_formula": "a_N(0)=(-1/2)^(N-1)",
+  "complete_source_CTP_amplitude_derived": false,
+  "connected_linked_cluster_density_proved": false,
+  "connected_primitive_amplitude_derived": false,
+  "coupling_evaluation_authorized": false,
+  "finite_relayed_connection_return_amplitude_derived": false,
+  "kappa_record_computed": false,
+  "no_target_access_attestation": true,
+  "one_handle_reduction_exact": true,
+  "overall_verdict": "CAUSAL_LINE_CONNECTION_RETURN_LIFT_BLOCKED",
+  "physical_parent_audit": {
+    "completed_record_endpoint_replaced_by_source_line": true,
+    "conditional_projector_chain_identity_derived": true,
+    "finite_lorentzian_parent_used": false,
+    "ideal_incidence_projector_chain_used": true
+  },
+  "proof_authorized": false,
+  "schema": "stage8_t7_causal_line_connection_return_lift_v001",
+  "spec_sha256": "e1b09d4bb5eb42ac05f959f7558f72dc1442b1631bec971cd285725cde86748f",
+  "state_expectation_C1_superseded_for_primitive_line_amplitude": false,
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

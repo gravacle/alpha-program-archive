@@ -1,0 +1,56 @@
+{
+  "adjacent_connected_commutator_norm_square_exact": "3/8",
+  "all_finite_baselines_nonzero": true,
+  "alpha_computed": false,
+  "chain_rows": [
+    {
+      "N": 1,
+      "baseline_scalar_exact": "1",
+      "nonzero": true
+    },
+    {
+      "N": 2,
+      "baseline_scalar_exact": "-1/2",
+      "nonzero": true
+    },
+    {
+      "N": 3,
+      "baseline_scalar_exact": "1/4",
+      "nonzero": true
+    },
+    {
+      "N": 4,
+      "baseline_scalar_exact": "-1/8",
+      "nonzero": true
+    },
+    {
+      "N": 5,
+      "baseline_scalar_exact": "1/16",
+      "nonzero": true
+    },
+    {
+      "N": 6,
+      "baseline_scalar_exact": "-1/32",
+      "nonzero": true
+    },
+    {
+      "N": 7,
+      "baseline_scalar_exact": "1/64",
+      "nonzero": true
+    },
+    {
+      "N": 8,
+      "baseline_scalar_exact": "-1/128",
+      "nonzero": true
+    }
+  ],
+  "independent_method": "local minimal-polynomial endpoint block plus incidence-Gram recurrence",
+  "local_endpoint_unitary_verified": true,
+  "no_target_access_attestation": true,
+  "pass": true,
+  "primary_sha256": "3f7191c817435104f16c9e48fc43b4cd6f734417d0dcdc99add5acffc46b829d",
+  "proof_authorized": false,
+  "schema": "stage8-t7-actual-primitive-causal-transition-map-verifier-v001",
+  "spec_sha256": "c4dcbf5bc1e98e3dd3e4503bcc2739e8795be11b7e96873598a181eedf00d654",
+  "verdict_verified": true
+}

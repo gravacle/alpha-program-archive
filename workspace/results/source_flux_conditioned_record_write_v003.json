@@ -1,0 +1,32 @@
+{
+  "status": "PASS_CONDITIONAL_SOURCE_FLUX_HOLONOMY_PHASE_OBSERVABILITY_OPEN",
+  "unit_source_flux_sector_inherited": true,
+  "zero_flux_no_charged_write_adopted": true,
+  "relative_onset_saturation_inherited_as_adopted": true,
+  "source_flux_spectrum": [
+    0,
+    1
+  ],
+  "equatorial_holonomy_classification_imported_analytic_result": true,
+  "chosen_Y_representative_verified": true,
+  "conditional_record_changing_holonomy_fixed": true,
+  "integrated_record_changing_holonomy": "(pi/2)*Q_Sigma_tensor_Y_up_to_rephasing",
+  "candidate_write_preserves_declared_flux_sector": true,
+  "physical_source_flux_nondemolition_derived": false,
+  "joint_density_changes_in_fixed_source_basis": true,
+  "reduced_record_density_invariant": true,
+  "coherent_flux_superposition_physically_admissible_derived": false,
+  "source_phase_reference_supplied": false,
+  "source_relative_phase_observability_derived": false,
+  "gauge_invariant_phase_effect_derived": false,
+  "complete_physical_write_operator_derived": false,
+  "physical_dynamical_action_fixed": false,
+  "complete_source_record_environment_operator_derived": false,
+  "physical_durability_derived": false,
+  "record_generated_source_mass_derived": false,
+  "spectral_evaluation_authorized": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "conditional_zero_or_one_local_flux_ready_subspace_holonomy_only"
+}

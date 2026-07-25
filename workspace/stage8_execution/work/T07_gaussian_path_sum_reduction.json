@@ -1,0 +1,76 @@
+{
+  "all_finite_connected_baselines_nonzero_proved": false,
+  "alpha_computed": false,
+  "amplitudes_by_steps": {
+    "100": {
+      "one": {
+        "imag": -0.19417958158153853,
+        "real": -0.4978127655023445
+      },
+      "two": {
+        "imag": 0.24693968986800038,
+        "real": 0.30814999535080334
+      }
+    },
+    "200": {
+      "one": {
+        "imag": -0.19426602185733327,
+        "real": -0.49783243070910255
+      },
+      "two": {
+        "imag": 0.2471201173473498,
+        "real": 0.3080368159109785
+      }
+    },
+    "400": {
+      "one": {
+        "imag": -0.19428764927666253,
+        "real": -0.49783734936848756
+      },
+      "two": {
+        "imag": 0.24716523618254543,
+        "real": 0.3080085207097665
+      }
+    }
+  },
+  "connected_linked_cluster_density_proved": false,
+  "coupling_evaluation_authorized": false,
+  "finite_fock_one_cell_difference": 2.943286095202248e-14,
+  "finite_fock_two_cell_difference": 2.739835240345326e-13,
+  "gaussian_path_sum_reduction_derived": true,
+  "kappa_record_computed": false,
+  "maximum_one_particle_unitarity_error": 1.963409761907538e-12,
+  "no_target_access_attestation": true,
+  "one_cell_convergence_ratio": 3.9968545704371636,
+  "overall_verdict": "GAUSSIAN_PATH_SUM_REDUCTION_DERIVED",
+  "path_count_one_cell": 3,
+  "path_count_two_cells": 9,
+  "postselected_source_ray_used": false,
+  "proof_authorized": false,
+  "record_eigenvalues": [
+    -1.414213562373095,
+    2.3224883419927584e-17,
+    1.414213562373095
+  ],
+  "record_transition_weights": [
+    {
+      "imag": 0.0,
+      "real": -0.24999999999999994
+    },
+    {
+      "imag": -0.0,
+      "real": 0.4999999999999996
+    },
+    {
+      "imag": 0.0,
+      "real": -0.24999999999999983
+    }
+  ],
+  "record_weight_sum_absolute": 1.6653345369377348e-16,
+  "schema": "stage8_t7_gaussian_path_sum_reduction_v001",
+  "single_determinant_shortcut_used": false,
+  "spec_sha256": "49ee64dc171c4fd76003a60dcb5a4527b9d8b11f3b1b6caab7634e4d29f23513",
+  "two_cell_convergence_ratio": 3.9992250535564393,
+  "valid_termwise_determinants_used": true,
+  "volume_uniform_zero_free_neighborhood_proved": false
+}

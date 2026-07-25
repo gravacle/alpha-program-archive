@@ -1,0 +1,28 @@
+{
+  "absolute_Maxwell_stiffness_selected": false,
+  "alpha_computed": false,
+  "checks": {
+    "absolute_action_nonselection_gate_is_current": true,
+    "all_hash_locked_pre_alpha_sources_match": true,
+    "centered_generator_is_traceless": true,
+    "integer_characters_compose": true,
+    "primitive_two_alternative_carrier_is_current": true,
+    "primitive_uncentered_generator_has_rank_one": true,
+    "relative_phase_is_invariant_under_common_rephasing": true,
+    "scope_flags_fail_closed": true,
+    "target_literal_guard_passes": true
+  },
+  "coupling_evaluation_authorized": false,
+  "executable_role": "REGRESSION_GUARD_NOT_PROOF_EVIDENCE",
+  "failed_checks": [],
+  "identification_with_unique_exterior_EM_connection_derived": false,
+  "local_record_comparison_connection_derived": true,
+  "maximum_character_composition_error": 4.47545209131181e-16,
+  "maximum_common_rephasing_error": 4.965068306494546e-16,
+  "overall": "PASS_PRIMITIVE_RELATIVE_PHASE_CONNECTION_EM_IDENTIFICATION_OPEN_ALPHA_FALSE",
+  "primitive_character_lattice": "Z",
+  "primitive_relative_generator_rank": 1,
+  "primitive_relative_phase_group_derived": true,
+  "primitive_unit_winding_derived": true,
+  "proof_authorized": false
+}

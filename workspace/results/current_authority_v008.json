@@ -1,0 +1,8 @@
+{
+  "status": "PASS_AUTHORITY_V008_TRANSPORT_ONLY_ADOPTED_EVALUATION_BLOCKED",
+  "missing_files": [],
+  "transport_only_principle_is_theorem": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "bookkeeping_consistency_only"
+}

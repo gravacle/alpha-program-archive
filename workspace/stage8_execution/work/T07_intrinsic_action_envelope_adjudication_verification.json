@@ -1,0 +1,30 @@
+{
+  "ER_B_selected_by_operator_measure": true,
+  "alpha_computed": false,
+  "checks": {
+    "V4": true,
+    "old_density_varies": true,
+    "old_total": true,
+    "primary_protected_flags": true,
+    "primary_verdict": true,
+    "pushforward_equals_uniform_midpoint": true,
+    "pushforward_equals_uniform_quarter": true,
+    "rho": true,
+    "time_marginal_midpoint": true,
+    "time_marginal_quarter": true
+  },
+  "envelope_realization_derived": true,
+  "independent_exact": {
+    "V4_over_pi": "1/24",
+    "midpoint_w": "4",
+    "old_ER_A_total_local_measure_over_pi": "2/21",
+    "quarter_w": "1/2",
+    "rho_times_pi": "24"
+  },
+  "kappa_record_computed": false,
+  "pass": true,
+  "primary_sha256": "ee38f5a9910bf89b6108e0f21bf96c23219031ee9663c2cf8c9b8159e3691b90",
+  "proof_authorized": false,
+  "schema": "stage8_t7_intrinsic_action_envelope_adjudication_verification_v001",
+  "sharp_cell_implementability_proved": false
+}

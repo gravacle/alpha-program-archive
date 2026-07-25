@@ -1,0 +1,275 @@
+{
+  "schema": "causal-direct-limit-redundant-record-v001",
+  "frozen_spec_sha256": "e335d2590dd16f13bd7b42d2ec43338fb6d41e298914e8fc659bc4a595ca70ff",
+  "target_values_used": false,
+  "coupling_evaluated": false,
+  "ideal_copy_checks": [
+    {
+      "copies": 1,
+      "conditional_overlap_abs": 0.0,
+      "zero_state_norm_error": 0.0,
+      "one_state_norm_error": 0.0,
+      "each_single_cell_reveals_label": true,
+      "one_unobserved_copy_kills_ideal_cross_term": true
+    },
+    {
+      "copies": 2,
+      "conditional_overlap_abs": 0.0,
+      "zero_state_norm_error": 0.0,
+      "one_state_norm_error": 0.0,
+      "each_single_cell_reveals_label": true,
+      "one_unobserved_copy_kills_ideal_cross_term": true
+    },
+    {
+      "copies": 3,
+      "conditional_overlap_abs": 0.0,
+      "zero_state_norm_error": 0.0,
+      "one_state_norm_error": 0.0,
+      "each_single_cell_reveals_label": true,
+      "one_unobserved_copy_kills_ideal_cross_term": true
+    },
+    {
+      "copies": 4,
+      "conditional_overlap_abs": 0.0,
+      "zero_state_norm_error": 0.0,
+      "one_state_norm_error": 0.0,
+      "each_single_cell_reveals_label": true,
+      "one_unobserved_copy_kills_ideal_cross_term": true
+    },
+    {
+      "copies": 5,
+      "conditional_overlap_abs": 0.0,
+      "zero_state_norm_error": 0.0,
+      "one_state_norm_error": 0.0,
+      "each_single_cell_reveals_label": true,
+      "one_unobserved_copy_kills_ideal_cross_term": true
+    },
+    {
+      "copies": 6,
+      "conditional_overlap_abs": 0.0,
+      "zero_state_norm_error": 0.0,
+      "one_state_norm_error": 0.0,
+      "each_single_cell_reveals_label": true,
+      "one_unobserved_copy_kills_ideal_cross_term": true
+    },
+    {
+      "copies": 7,
+      "conditional_overlap_abs": 0.0,
+      "zero_state_norm_error": 0.0,
+      "one_state_norm_error": 0.0,
+      "each_single_cell_reveals_label": true,
+      "one_unobserved_copy_kills_ideal_cross_term": true
+    },
+    {
+      "copies": 8,
+      "conditional_overlap_abs": 0.0,
+      "zero_state_norm_error": 0.0,
+      "one_state_norm_error": 0.0,
+      "each_single_cell_reveals_label": true,
+      "one_unobserved_copy_kills_ideal_cross_term": true
+    }
+  ],
+  "imperfect_copy_checks": [
+    {
+      "single_cell_overlap_abs": 0.9,
+      "copies": 1,
+      "conditional_overlap_abs": 0.9,
+      "conditional_overlap_squared": 0.81
+    },
+    {
+      "single_cell_overlap_abs": 0.9,
+      "copies": 2,
+      "conditional_overlap_abs": 0.81,
+      "conditional_overlap_squared": 0.6561
+    },
+    {
+      "single_cell_overlap_abs": 0.9,
+      "copies": 4,
+      "conditional_overlap_abs": 0.6561,
+      "conditional_overlap_squared": 0.4304672100000001
+    },
+    {
+      "single_cell_overlap_abs": 0.9,
+      "copies": 8,
+      "conditional_overlap_abs": 0.4304672100000001,
+      "conditional_overlap_squared": 0.18530201888518416
+    },
+    {
+      "single_cell_overlap_abs": 0.9,
+      "copies": 16,
+      "conditional_overlap_abs": 0.18530201888518416,
+      "conditional_overlap_squared": 0.03433683820292515
+    },
+    {
+      "single_cell_overlap_abs": 0.9,
+      "copies": 32,
+      "conditional_overlap_abs": 0.03433683820292515,
+      "conditional_overlap_squared": 0.0011790184577738603
+    },
+    {
+      "single_cell_overlap_abs": 0.5,
+      "copies": 1,
+      "conditional_overlap_abs": 0.5,
+      "conditional_overlap_squared": 0.25
+    },
+    {
+      "single_cell_overlap_abs": 0.5,
+      "copies": 2,
+      "conditional_overlap_abs": 0.25,
+      "conditional_overlap_squared": 0.0625
+    },
+    {
+      "single_cell_overlap_abs": 0.5,
+      "copies": 4,
+      "conditional_overlap_abs": 0.0625,
+      "conditional_overlap_squared": 0.00390625
+    },
+    {
+      "single_cell_overlap_abs": 0.5,
+      "copies": 8,
+      "conditional_overlap_abs": 0.00390625,
+      "conditional_overlap_squared": 1.52587890625e-05
+    },
+    {
+      "single_cell_overlap_abs": 0.5,
+      "copies": 16,
+      "conditional_overlap_abs": 1.52587890625e-05,
+      "conditional_overlap_squared": 2.3283064365386963e-10
+    },
+    {
+      "single_cell_overlap_abs": 0.5,
+      "copies": 32,
+      "conditional_overlap_abs": 2.3283064365386963e-10,
+      "conditional_overlap_squared": 5.421010862427522e-20
+    },
+    {
+      "single_cell_overlap_abs": 0.1,
+      "copies": 1,
+      "conditional_overlap_abs": 0.1,
+      "conditional_overlap_squared": 0.010000000000000002
+    },
+    {
+      "single_cell_overlap_abs": 0.1,
+      "copies": 2,
+      "conditional_overlap_abs": 0.010000000000000002,
+      "conditional_overlap_squared": 0.00010000000000000002
+    },
+    {
+      "single_cell_overlap_abs": 0.1,
+      "copies": 4,
+      "conditional_overlap_abs": 0.00010000000000000002,
+      "conditional_overlap_squared": 1.0000000000000005e-08
+    },
+    {
+      "single_cell_overlap_abs": 0.1,
+      "copies": 8,
+      "conditional_overlap_abs": 1.0000000000000005e-08,
+      "conditional_overlap_squared": 1.0000000000000008e-16
+    },
+    {
+      "single_cell_overlap_abs": 0.1,
+      "copies": 16,
+      "conditional_overlap_abs": 1.0000000000000008e-16,
+      "conditional_overlap_squared": 1.0000000000000018e-32
+    },
+    {
+      "single_cell_overlap_abs": 0.1,
+      "copies": 32,
+      "conditional_overlap_abs": 1.0000000000000018e-32,
+      "conditional_overlap_squared": 1.0000000000000035e-64
+    }
+  ],
+  "central_sequence_checks": [
+    {
+      "observable_support_cells": 1,
+      "copies": 8,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.25
+    },
+    {
+      "observable_support_cells": 1,
+      "copies": 16,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.125
+    },
+    {
+      "observable_support_cells": 1,
+      "copies": 32,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.0625
+    },
+    {
+      "observable_support_cells": 1,
+      "copies": 64,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.03125
+    },
+    {
+      "observable_support_cells": 1,
+      "copies": 128,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.015625
+    },
+    {
+      "observable_support_cells": 2,
+      "copies": 8,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.5
+    },
+    {
+      "observable_support_cells": 2,
+      "copies": 16,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.25
+    },
+    {
+      "observable_support_cells": 2,
+      "copies": 32,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.125
+    },
+    {
+      "observable_support_cells": 2,
+      "copies": 64,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.0625
+    },
+    {
+      "observable_support_cells": 2,
+      "copies": 128,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.03125
+    },
+    {
+      "observable_support_cells": 4,
+      "copies": 8,
+      "commutator_norm_upper_bound_for_unit_norm_O": 1.0
+    },
+    {
+      "observable_support_cells": 4,
+      "copies": 16,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.5
+    },
+    {
+      "observable_support_cells": 4,
+      "copies": 32,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.25
+    },
+    {
+      "observable_support_cells": 4,
+      "copies": 64,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.125
+    },
+    {
+      "observable_support_cells": 4,
+      "copies": 128,
+      "commutator_norm_upper_bound_for_unit_norm_O": 0.0625
+    }
+  ],
+  "conditional_environment_sectors_orthogonal": true,
+  "redundancy_grows_without_new_coefficient": true,
+  "imperfect_overlap_converges_to_zero": true,
+  "central_sequence_bound_converges_to_zero": true,
+  "spacelike_disjoint_controlled_writes_commute": true,
+  "causal_linear_extension_independent_under_spacelike_swaps": true,
+  "outgoing_record_recoverability_derived_under_adopted_write_rule": true,
+  "write_rule_itself_derived_here": false,
+  "ready_state_boundary_condition_derived": false,
+  "unique_covariant_spectral_measure_derived": false,
+  "fork_8_closed": false,
+  "hypothesis_promoted_to_principle": false,
+  "complete_parent_action_derived": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "PASS_REDUNDANT_TAIL_ALGEBRA_UNDER_ADOPTED_WRITE_SPECTRUM_OPEN"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "r3.4-charged-incidence-outgoing-state-v002",
+  "spec_sha256": "4a7600caa23d0c7a98eeef8a79941c20ca4e28a4f5a2c1cf5c2362e88c7d4721",
+  "spec_seal_verified": true,
+  "target_values_used": false,
+  "active_endpoint_unitary_swap_error": 1.7888180658564975e-15,
+  "controlled_endpoint_unitary_error": 2.5297707693522674e-15,
+  "completed_unitary_charge_commutator_error": 0.0,
+  "completed_endpoint_map_spin_independent": true,
+  "finite_state_restriction_errors": {
+    "2_to_1": 4.3701010577578485e-16,
+    "3_to_2": 4.458205583648681e-16
+  },
+  "later_pulse_earlier_record_commutator_error": 0.0,
+  "completed_later_map_source_spin_commutator_error": 1.927958368414902e-15,
+  "charge_superselected_quasilocal_state_lift_derived": true,
+  "macroscopic_pointer_central_sequence_imported_from_same_state_family": true,
+  "stationary_parent_one_cell_endpoint_overlap_at_probe_time": 0.49999999999999994,
+  "stationary_parent_N_cell_overlap_at_probe_time": {
+    "1": 0.49999999999999994,
+    "2": 0.24999999999999994,
+    "4": 0.06249999999999997,
+    "8": 0.0039062499999999965,
+    "16": 1.5258789062499973e-05,
+    "32": 2.328306436538688e-10
+  },
+  "stationary_infinite_endpoint_product_GNS_implementation_fails": true,
+  "one_use_causal_support_derived_by_live_parent": false,
+  "connected_preparation_derived_by_live_parent": false,
+  "complete_continuous_parent_covariance_derived": false,
+  "complete_parent_action_derived": false,
+  "physical_response_spectral_measure_derived": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "status": "CHARGED_INCIDENCE_OUTGOING_STATE_CONDITIONAL_ON_CAUSAL_SUPPORT"
+}

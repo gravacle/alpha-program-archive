@@ -1,0 +1,12 @@
+{
+  "behaved_as_predeclared": true,
+  "control": "NC5",
+  "evidence": {
+    "log_singular": true,
+    "rejected_as_response_object": true,
+    "replacement": "normalized completed-record transition amplitude",
+    "root_survival_amplitude": "0"
+  },
+  "schema": "stage8-negative-control-v001",
+  "sha256_of_body": "8d1dd2d77e061a7c4a60becd586ac03cb96bb25d1e69499d3cc7041e1f9de062"
+}

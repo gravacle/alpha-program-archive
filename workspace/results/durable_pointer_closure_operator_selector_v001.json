@@ -1,0 +1,23 @@
+{
+  "status": "PASS_DURABLE_POINTER_DIRECTION_ALGEBRA_ONLY",
+  "hermitian_domain_dimension": 4,
+  "pointer_commutator_map_rank": 2,
+  "hermitian_pointer_commutant_dimension": 2,
+  "commutant_basis": [
+    "I",
+    "Z"
+  ],
+  "response_null_identity_quotient_dimension": 1,
+  "public_pointer_direction": "Z_up_to_endpoint_relabeling",
+  "dimensionless_pointer_contrast_square": "I",
+  "nondemolition_pointer_condition_derived": false,
+  "complete_closure_operator_selected": false,
+  "record_write_dynamics_derived": false,
+  "physical_durability_derived": false,
+  "kappa_R_derived": false,
+  "record_generated_source_mass_derived": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "post_closure_pointer_direction_on_primitive_M2_factor_only"
+}

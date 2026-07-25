@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "overall": "PASS_EXPLICIT_PREMISE_CLASSIFICATION_TARGET_AWARE",
+  "premise_classification_closed": true,
+  "historical_target_blindness_established": false,
+  "unused_prediction_required": true,
+  "primitive_unit_winding_status": "DERIVED_GIVEN_FAITHFUL_U1_CHARACTER",
+  "primitive_vectorlike_pair_count_status": "DISCLOSED_BRANCH_INPUT",
+  "fidelity_action_status": "RETIRED_FROM_LOAD_BEARING_ALPHA_PATH",
+  "complete_source_spectrum_derived": false,
+  "complete_parameter_free_Q_spec_frozen": false,
+  "unique_causal_record_cell_derived": false,
+  "physical_Thomson_stiffness_computed": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "provenance_checks": [
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_surface_manuscript_v159.md",
+      "sha256": "3598fbd4c0053331f34e2d32f4028fa6a1791683b2b460a8b7b16e919e12787d",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v156_single_handle_recombination_theorem.md",
+      "sha256": "0b0ef6ea4802d0aba43b237163d326802985f7f3f9a9e078f447965e0ca27e7b",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v253_record_formation_derives_asl.md",
+      "sha256": "b8d31174686407557de096524fce5b4e8f21b03e047b88b8a349e1a3cc903d08",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v252_action_support_derives_njh.md",
+      "sha256": "fa87f8d87cdd35a1c484133bb9d680a52c7f9e8e0ac0122ac85d731d9374da09",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravacle_v159_final_review_zenodo_candidate_2026-06-30/reports/gravacle_v251_boundary_recoverability_master_theorem.md",
+      "sha256": "ca7722c479bd1c0af2ca06e050835b2b9420c7f3ae1c823490dd3268a275567b",
+      "status": "PASS"
+    }
+  ],
+  "required_files": [
+    "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/SOURCE_RECORD_MASS_TRANSFER_GATE_V001.md",
+    "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/COMPLETE_PARENT_ACTION_UNDERDETERMINATION_GATE_V001.md",
+    "/Users/bgm/Documents/Documents - Brian\u2019s MacBook Pro/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/scripts/audit_primitive_source_record_chiral_operator_v002.py"
+  ],
+  "character_regression_witnesses": [
+    {
+      "n": -8,
+      "faithful": false,
+      "kernel_order": 8
+    },
+    {
+      "n": -7,
+      "faithful": false,
+      "kernel_order": 7
+    },
+    {
+      "n": -6,
+      "faithful": false,
+      "kernel_order": 6
+    },
+    {
+      "n": -5,
+      "faithful": false,
+      "kernel_order": 5
+    },
+    {
+      "n": -4,
+      "faithful": false,
+      "kernel_order": 4
+    },
+    {
+      "n": -3,
+      "faithful": false,
+      "kernel_order": 3
+    },
+    {
+      "n": -2,
+      "faithful": false,
+      "kernel_order": 2
+    },
+    {
+      "n": -1,
+      "faithful": true,
+      "kernel_order": 1
+    },
+    {
+      "n": 0,
+      "faithful": false,
+      "kernel_order": null
+    },
+    {
+      "n": 1,
+      "faithful": true,
+      "kernel_order": 1
+    },
+    {
+      "n": 2,
+      "faithful": false,
+      "kernel_order": 2
+    },
+    {
+      "n": 3,
+      "faithful": false,
+      "kernel_order": 3
+    },
+    {
+      "n": 4,
+      "faithful": false,
+      "kernel_order": 4
+    },
+    {
+      "n": 5,
+      "faithful": false,
+      "kernel_order": 5
+    },
+    {
+      "n": 6,
+      "faithful": false,
+      "kernel_order": 6
+    },
+    {
+      "n": 7,
+      "faithful": false,
+      "kernel_order": 7
+    },
+    {
+      "n": 8,
+      "faithful": false,
+      "kernel_order": 8
+    }
+  ]
+}

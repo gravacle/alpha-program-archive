@@ -1,0 +1,27 @@
+{
+  "alpha_computed": false,
+  "checks": {
+    "all_downstream_authorizations_fail_closed": true,
+    "corrected_pre_action_authority_is_current": true,
+    "historical_blindness_is_not_claimed": true,
+    "new_axiom_is_disclosed": true,
+    "seal_names_the_principle": true,
+    "sealed_hash_matches": true,
+    "target_literal_guard_passes": true,
+    "zero_bare_clause_is_explicit": true
+  },
+  "complete_charged_carrier_derived": false,
+  "complete_parameter_free_Q_spec_frozen": false,
+  "coupling_evaluation_authorized": false,
+  "executable_role": "SEAL_AND_STATUS_GUARD_NOT_DYNAMICAL_PROOF",
+  "failed_checks": [],
+  "finite_c_F2_deformation_excluded": false,
+  "fundamental_boundary_record_principle_adopted": true,
+  "local_physical_comparison_connection_derived": false,
+  "new_axiom_limits_claim_to_Level_1": true,
+  "overall": "PASS_LEVEL1_RECORD_ACTION_PRINCIPLE_SEALED_EVALUATION_BLOCKED_ALPHA_FALSE",
+  "principle_sha256": "9894228202a4f2d53f8ef2eec3273401b773e0828e0ef04b40db1a03dae1138a",
+  "proof_authorized": false,
+  "unique_causal_record_cell_derived": false,
+  "unique_finite_response_derived": false
+}

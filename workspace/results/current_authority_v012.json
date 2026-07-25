@@ -1,0 +1,21 @@
+{
+  "status": "PASS_AUTHORITY_V012_HARDENED_DELTA_ALPHA_BLOCKED",
+  "schema_version": 12,
+  "parent_schema_version": 10,
+  "parent_status": "PASS_AUTHORITY_V010_IDENTITY_SEALED_MAGNITUDE_BLOCKED",
+  "verified_new_seals": 16,
+  "verified_parent_seals": 4,
+  "verified_effective_execution_state_keys": 71,
+  "verified_delta_addition_keys": 18,
+  "verified_protected_parent_flags": 8,
+  "verified_new_result_entries": 4,
+  "verified_new_level_1_postulates": 2,
+  "verified_superseded_entries": 6,
+  "conditional_pointer_commutant_classified": true,
+  "relative_orthogonalization_bound_derived": true,
+  "conditional_source_flux_holonomy_verified": true,
+  "complete_source_record_environment_operator_derived": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "hardened_sealed_delta_authority_and_no_promotion_only"
+}

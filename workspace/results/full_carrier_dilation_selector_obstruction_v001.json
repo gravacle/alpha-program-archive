@@ -1,0 +1,89 @@
+{
+  "status": "PASS_REDUCED_DILATION_SELECTOR_OBSTRUCTION_FULL_OPERATOR_OPEN",
+  "reduced_three_factor_carrier_declared": true,
+  "complete_physical_carrier_derived": false,
+  "full_reduced_Pauli_product_dimension": 64,
+  "odd_odd_reduced_operator_dimension": 16,
+  "source_record_only_kernel_dimension": 8,
+  "unit_weight_candidate_weights": [
+    1,
+    1,
+    1
+  ],
+  "unit_weight_candidate_kernel_dimension": 4,
+  "unit_weight_candidate_writes_edge": false,
+  "source_doubled_candidate_weights": [
+    2,
+    1,
+    -1
+  ],
+  "source_doubled_candidate_kernel_dimension": 2,
+  "source_doubled_candidate_writes_edge": true,
+  "source_doubled_grading_weights_derived": false,
+  "neighbor_weight_search_bound": 2,
+  "neighbor_weight_nullity_distribution": {
+    "0": 22,
+    "2": 8,
+    "4": 12,
+    "6": 4,
+    "8": 3
+  },
+  "neighbor_weight_assignments_with_same_nullity": 8,
+  "nullity_two_weight_assignments": [
+    [
+      1,
+      -2,
+      -1
+    ],
+    [
+      1,
+      -2,
+      1
+    ],
+    [
+      1,
+      2,
+      -1
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      -1,
+      -1
+    ],
+    [
+      2,
+      -1,
+      1
+    ],
+    [
+      2,
+      1,
+      -1
+    ],
+    [
+      2,
+      1,
+      1
+    ]
+  ],
+  "schur_witness_gap_1_at_zero": "-1",
+  "schur_witness_gap_2_at_zero": "-1/2",
+  "schur_self_energy_deforms_with_unfixed_gap": true,
+  "unique_full_carrier_coupling_ray_derived": false,
+  "axial_Ward_identity_with_inflow_derived": false,
+  "closure_sector_spectrum_derived": false,
+  "record_onset_to_source_self_energy_ratio_derived": false,
+  "complete_source_record_environment_operator_derived": false,
+  "physical_durability_derived": false,
+  "record_generated_source_mass_derived": false,
+  "spectral_evaluation_authorized": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false,
+  "scope": "exact_reduced_three_factor_identifiability_obstruction_only"
+}
