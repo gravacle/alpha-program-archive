@@ -1,7 +1,10 @@
-# Alpha Program — Continuation State (Fable pickup document)
+# Alpha Program — Continuation State (pickup document)
 
-Maintained by the Fable supervision lane; updated at each milestone.
-Last update: 2026-07-24, ~10:30 AM (during CISP decision pause).
+Maintained by the Fable supervision lane through 2026-07-25 midday; then by
+the Claude construction+supervision lane (fresh account, custody note
+LANE_CHANGE_CUSTODY_CLAUDE_CONSTRUCTION_V001, seal fc585326…).
+Updated at each milestone. Last update: 2026-07-25, afternoon (v002 repair
+cycle in flight — see final section).
 
 ## If picking up cold, read in this order
 
@@ -301,3 +304,51 @@ re-arms or checks manually. Prediction-ledger handoff: ~12 exact / 4
 optimism-misses (all 4 = predicted DERIVED where the corpus found an
 underived step; err toward predicting blocks). alpha_computed = false
 everywhere at handoff; 17 tripwires, all benign; every seal verified.
+
+## CLAUDE LANE PICKUP (2026-07-25, afternoon) — custody accepted, repair cycle opened
+
+Custody: Codex standing-down note verified (d8b587a1…, seal OK); lane-change
+custody note sealed (LANE_CHANGE_CUSTODY_CLAUDE_CONSTRUCTION_V001.md,
+fc585326…). All 8 inherited in-flight script hashes match custody Section 3
+bitwise. Monitoring re-armed (persistent tripwire: target token / protected
+flag flips in new artifacts since custody seal). Workspace sweeps clean.
+
+The successor's FIRST TASK (review Codex's last three sealed artifacts vs
+the four Route-2 conditions) is DONE — two fresh-context hostile lanes:
+
+1. SPEC REVIEW (REVIEW_2026-07-25_route2_phaseA_spec_hostile_preexecution.md):
+   READY_WITH_CONDITIONS. All four Route-2 conditions SATISFIED at spec
+   level; all 31 frozen-authority hashes verify; every load-bearing identity
+   rederived CORRECT (Gaussian-sum cross-term cancellation; pointer weights;
+   b_D; v(t)=tau_R*w(t) traced to the sealed diamond measure; Route-1 closed
+   forms; threshold consistency). 3 CONDITIONS discharged append-only by the
+   sealed STAGE8_T7_ACTUAL_PARENT_CAR_PHASE_A_EXECUTION_BINDING_V001.md
+   (6fa8845a…): production gated behind custody Section-6 + manifest +
+   receipts; E_conn pinned to (7/100,-11/100); same-history set = all five
+   values; Route-1 rerun value-compared to canonical at 1e-12. Standing note:
+   an S_conn > 20*E_conn failure is a preregistered sensitivity BLOCK, not a
+   bug.
+
+2. IMPLEMENTATION REVIEW (REVIEW_2026-07-25_route2_implementation_hostile_
+   rereview.md): NOT_READY (expected — manifest absent by fact, controller
+   untested). Numerical core clean: no physics-encoding errors, no forbidden
+   constants, no weakened thresholds, full spec-conformance table verified.
+   O6 REFACTOR = TAUTOLOGY_FREE (custody Section-6 item 3 DISCHARGED; caveats
+   independently closed). Blocker 2 (generator-to-propagator lineage) named
+   STILL_OPEN in-band; findings 1-5 + 8 are the repair surface.
+
+Repair cycle: STAGE8_T7_ACTUAL_PARENT_CAR_IMPLEMENTATION_REPAIR_BINDING_
+V001.md sealed (dc7cdd15…) BEFORE authoring — pins v002 scope (append-only
+successors of comparator/lanes/controller/launcher + test coverage), the
+generator-pieces bundle schema, and the preregistered in-band lineage-gate
+budgets (primary 5e-3 at N=48; independent 1e-4 at N=384 — midpoint-product
+rebuild from stored generator pieces). v002 authoring + fresh hostile
+verification IN FLIGHT at last update.
+
+Remaining before production (R4 order): v002 verified -> implementation
+manifest (complete row set) + adjacent seal + detached GPG signature
+(key 18488605D44F65A9B57B610AA5F3A86512A04D61, confirmed present) + external
+trust anchor -> production through controller v002 ONLY (independent lane
+first; receipts signed; comparator v002). Route both Codex checkpoints per
+NEW_LANE_BOOTSTRAP (T7-discharge+battery pre-evaluator review; Stage-10
+response-normalization spec) through Brian when reached.

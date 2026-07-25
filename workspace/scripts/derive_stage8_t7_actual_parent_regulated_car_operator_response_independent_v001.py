@@ -573,15 +573,24 @@ def record_spectral_data(
     return eigenvalues, projectors, probabilities, pointer_weights
 
 
-def kraus_from_direct(propagator: np.ndarray) -> np.ndarray:
+def kraus_from_direct(
+    propagator: np.ndarray,
+    *,
+    source_dimension: int = SOURCE_DIMENSION,
+    record_dimension: int = RECORD_DIMENSION,
+    ready_index: int = READY_INDEX,
+) -> np.ndarray:
     tensor = propagator.reshape(
-        SOURCE_DIMENSION,
-        RECORD_DIMENSION,
-        SOURCE_DIMENSION,
-        RECORD_DIMENSION,
+        source_dimension,
+        record_dimension,
+        source_dimension,
+        record_dimension,
     )
     return np.stack(
-        [tensor[:, outcome, :, READY_INDEX] for outcome in range(RECORD_DIMENSION)]
+        [
+            tensor[:, outcome, :, ready_index]
+            for outcome in range(record_dimension)
+        ]
     )
 
 
@@ -613,14 +622,21 @@ def kraus_from_spectral(
 def aggregate_responses(
     left_kraus: np.ndarray,
     right_kraus: np.ndarray,
+    pointer_index: int = POINTER_INDEX,
 ) -> tuple[np.ndarray, np.ndarray]:
+    require(
+        left_kraus.shape == right_kraus.shape
+        and left_kraus.ndim == 3
+        and left_kraus.shape[0] > pointer_index,
+        "Kraus family inventory is inconsistent",
+    )
     all_outcomes = sum(
         left_kraus[index].conjugate().T @ right_kraus[index]
-        for index in range(RECORD_DIMENSION)
+        for index in range(left_kraus.shape[0])
     )
     pointer = (
-        left_kraus[POINTER_INDEX].conjugate().T
-        @ right_kraus[POINTER_INDEX]
+        left_kraus[pointer_index].conjugate().T
+        @ right_kraus[pointer_index]
     )
     return all_outcomes, pointer
 
@@ -1249,6 +1265,7 @@ def current_route2_route1_architecture_reduction(
         completed_vector[:, None] @ completed_vector[None, :].conjugate(),
         other_vector[:, None] @ other_vector[None, :].conjugate(),
     )
+    comparator_basis = np.column_stack((completed_vector, other_vector))
     generator = np.diag([0.0, 1.0]).astype(complex)
 
     def spectral_unitary(theta: float) -> np.ndarray:
@@ -1273,22 +1290,29 @@ def current_route2_route1_architecture_reduction(
     for route_index, (plus, minus) in enumerate(
         ((HISTORIES[1], HISTORIES[2]), (HISTORIES[3], HISTORIES[4]))
     ):
-        plus_amplitudes = np.asarray(
-            [
-                vector.conjugate() @ unitaries[plus] @ ready
-                for vector in (completed_vector, other_vector)
-            ],
-            dtype=complex,
+        plus_kraus = kraus_from_direct(
+            comparator_basis.conjugate().T
+            @ unitaries[plus]
+            @ comparator_basis,
+            source_dimension=1,
+            record_dimension=2,
+            ready_index=0,
         )
-        minus_amplitudes = np.asarray(
-            [
-                vector.conjugate() @ unitaries[minus] @ ready
-                for vector in (completed_vector, other_vector)
-            ],
-            dtype=complex,
+        minus_kraus = kraus_from_direct(
+            comparator_basis.conjugate().T
+            @ unitaries[minus]
+            @ comparator_basis,
+            source_dimension=1,
+            record_dimension=2,
+            ready_index=0,
         )
-        completed = np.conjugate(minus_amplitudes[0]) * plus_amplitudes[0]
-        exhaustive = np.sum(np.conjugate(minus_amplitudes) * plus_amplitudes)
+        exhaustive_matrix, completed_matrix = aggregate_responses(
+            minus_kraus,
+            plus_kraus,
+            pointer_index=0,
+        )
+        completed = completed_matrix[0, 0]
+        exhaustive = exhaustive_matrix[0, 0]
         expected_completed = np.conjugate(
             (1.0 + np.exp(1j * minus)) / 2.0
         ) * ((1.0 + np.exp(1j * plus)) / 2.0)
@@ -1324,7 +1348,7 @@ def current_route2_route1_architecture_reduction(
     )
     return {
         "construction":
-            "independent_spectral_Stinespring_PVM_reduction_on_O6_carrier",
+            "independent_production_kraus_and_aggregate_on_declared_O6_carrier",
         "rows": rows,
         "maximum_completed_component_error": maximum_completed_error,
         "maximum_exhaustive_kernel_error": maximum_all_error,

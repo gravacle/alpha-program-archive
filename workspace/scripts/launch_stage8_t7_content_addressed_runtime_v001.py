@@ -39,6 +39,7 @@ ALLOWED_TARGETS = frozenset(
         "independent_v001.py",
         "scripts/test_compare_stage8_t7_actual_parent_regulated_car_operator_"
         "response_v001.py",
+        "scripts/run_stage8_t7_actual_parent_car_pipeline_v001.py",
     }
 )
 
@@ -189,6 +190,11 @@ def verify_runtime() -> dict[str, Any]:
         "numpy_file_count": len(expected),
         "numpy_config_sha256": config_hash,
         "blas_lapack_provider": "Accelerate (sealed NumPy build configuration)",
+        "content_addressed_scope":
+            "Python executable plus NumPy package and distribution files",
+        "python_standard_library_trusted_host_boundary": True,
+        "accelerate_framework_trusted_host_boundary": True,
+        "loaded_native_dependencies_content_addressed": False,
         "malicious_interpreter_or_kernel_resistance_claimed": False,
     }
 

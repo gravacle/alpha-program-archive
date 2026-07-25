@@ -603,10 +603,21 @@ def propagate_direct(
     return value
 
 
-def kraus_blocks(stinespring: np.ndarray) -> tuple[np.ndarray, ...]:
+def kraus_blocks(
+    stinespring: np.ndarray,
+    record_dimension: int = 3,
+) -> tuple[np.ndarray, ...]:
     source_dimension = stinespring.shape[1]
-    tensor = stinespring.reshape(source_dimension, 3, source_dimension)
-    return tuple(tensor[:, outcome, :] for outcome in range(3))
+    require(
+        stinespring.shape[0] == source_dimension * record_dimension,
+        "Stinespring carrier dimensions are inconsistent",
+    )
+    tensor = stinespring.reshape(
+        source_dimension,
+        record_dimension,
+        source_dimension,
+    )
+    return tuple(tensor[:, outcome, :] for outcome in range(record_dimension))
 
 
 def gaussian_responses(
@@ -641,7 +652,12 @@ def gaussian_responses(
 def direct_responses(
     blocks_minus: tuple[np.ndarray, ...],
     blocks_plus: tuple[np.ndarray, ...],
+    selected_outcome: int = 1,
 ) -> tuple[np.ndarray, np.ndarray]:
+    require(
+        len(blocks_minus) == len(blocks_plus) > selected_outcome,
+        "Kraus outcome inventory is inconsistent",
+    )
     all_response = sum(
         (
             left.conjugate().T @ right
@@ -650,7 +666,8 @@ def direct_responses(
         np.zeros_like(blocks_plus[0]),
     )
     pointer_response = (
-        blocks_minus[1].conjugate().T @ blocks_plus[1]
+        blocks_minus[selected_outcome].conjugate().T
+        @ blocks_plus[selected_outcome]
     )
     return all_response, pointer_response
 
@@ -1053,6 +1070,8 @@ def current_route2_route1_architecture_reduction(
         np.outer(completed_vector, completed_vector.conjugate()),
         np.outer(other_vector, other_vector.conjugate()),
     )
+    comparator_basis = np.column_stack((completed_vector, other_vector))
+    ready_basis_vector = np.array([1.0, 0.0], dtype=complex)
     route1_histories = HISTORIES[1:]
     unitaries = {
         theta: np.diag([1.0, np.exp(1j * theta)]).astype(complex)
@@ -1070,24 +1089,27 @@ def current_route2_route1_architecture_reduction(
     for route_index, (plus, minus) in enumerate(
         ((HISTORIES[1], HISTORIES[2]), (HISTORIES[3], HISTORIES[4]))
     ):
-        amplitudes_plus = np.array(
-            [
-                vector.conjugate() @ unitaries[plus] @ ready
-                for vector in (completed_vector, other_vector)
-            ],
-            dtype=complex,
+        stinespring_plus = (
+            comparator_basis.conjugate().T
+            @ unitaries[plus]
+            @ comparator_basis
+            @ ready_basis_vector[:, None]
         )
-        amplitudes_minus = np.array(
-            [
-                vector.conjugate() @ unitaries[minus] @ ready
-                for vector in (completed_vector, other_vector)
-            ],
-            dtype=complex,
+        stinespring_minus = (
+            comparator_basis.conjugate().T
+            @ unitaries[minus]
+            @ comparator_basis
+            @ ready_basis_vector[:, None]
         )
-        completed = (
-            amplitudes_minus[0].conjugate() * amplitudes_plus[0]
+        blocks_plus = kraus_blocks(stinespring_plus, record_dimension=2)
+        blocks_minus = kraus_blocks(stinespring_minus, record_dimension=2)
+        exhaustive_matrix, completed_matrix = direct_responses(
+            blocks_minus,
+            blocks_plus,
+            selected_outcome=0,
         )
-        exhaustive = np.vdot(amplitudes_minus, amplitudes_plus)
+        completed = completed_matrix[0, 0]
+        exhaustive = exhaustive_matrix[0, 0]
         expected_completed = (
             ((1.0 + np.exp(1j * minus)) / 2.0).conjugate()
             * ((1.0 + np.exp(1j * plus)) / 2.0)
@@ -1124,7 +1146,7 @@ def current_route2_route1_architecture_reduction(
     )
     return {
         "construction":
-            "current_Stinespring_PVM_compression_on_declared_O6_carrier",
+            "production_kraus_blocks_and_direct_responses_on_declared_O6_carrier",
         "rows": rows,
         "maximum_completed_component_error": maximum_completed_error,
         "maximum_exhaustive_kernel_error": maximum_all_error,

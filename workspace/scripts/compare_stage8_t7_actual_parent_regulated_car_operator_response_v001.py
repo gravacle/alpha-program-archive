@@ -450,6 +450,15 @@ def load_bundle(
         is False,
         f"{lane} runtime overstates its threat model",
     )
+    require(
+        runtime_attestation.get("python_standard_library_trusted_host_boundary")
+        is True
+        and runtime_attestation.get("accelerate_framework_trusted_host_boundary")
+        is True
+        and runtime_attestation.get("loaded_native_dependencies_content_addressed")
+        is False,
+        f"{lane} runtime trusted-host boundary is not disclosed",
+    )
     if lane == "independent":
         require(
             payload.get("precomparison_committed") is True,
