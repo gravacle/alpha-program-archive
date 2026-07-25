@@ -23,7 +23,21 @@ anything.
   protected flag; grep any new rollouts for 137.0359991581 (known-benign
   historical passage exists in old Codex contexts — 17 prior firings, all
   benign; the workspace itself has always scanned clean).
-- CODEX: independent review-only turns (cheap), via Brian.
+- CODEX: ~11% capacity remaining — a BANKED reserve, not a standing
+  service. Spend it on at most TWO checkpoints: (1) one cross-system
+  review of the completed T7 discharge + battery state immediately BEFORE
+  the evaluator runs (the single highest-leverage check in Stage 8), and
+  (2) if anything remains, one review of the Stage-10 response-
+  normalization spec (the alpha-critical step). Request both through
+  Brian with tightly-scoped prompts (one artifact set, one verdict).
+  ALL other review functions run as your own fresh-context subagent
+  lanes: hostile pre-execution reviews, commitment-first blind numeric
+  reproductions, independent adjudications — per the charters in this
+  directory. Same-model independence is process-level, not system-level;
+  compensate by leaning harder on the mechanical layer (exact
+  arithmetic, certified enclosures, seals, the evaluator) which is
+  model-independent, and by making every review lane's charter maximally
+  hostile.
 - BRIAN: relays all instructions between lanes; decides genuine theory
   forks; nothing else.
 - The Stage-8 evaluator script is the SOLE verdict authority for the
