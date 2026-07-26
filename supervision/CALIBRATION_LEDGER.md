@@ -83,12 +83,27 @@ the same direction as the inherited Fable-era calibration note.
 | 07-26 | three false prose claims (manifest-pins-both; "sole change"; stale disarm docstring) | production-gate audit |
 | 07-26 | A-L0 sealed with a first arm my own erratum's witness had already killed | Codex reconciliation |
 | 07-26 | fix-(B) F1 probe covered only the controller route, leaving a live write route | production-gate audit |
+| 07-26 | sealed the arm-2 binding at 09:39, then sealed the spec it binds at 09:56 with ZERO of its markers in it — and ran a seal-time verification that never checked for them. **SECOND** instance of seal-an-obligation-then-fail-to-propagate | hostile review (and a skeptic wrongly refuted it) |
+| 07-26 | asserted "3.0e-4 is not in any sealed prose spec" — false; it is in the Phase-A spec at lines 357-361 as `3e-4`. Cause: dropped the `3e-4` alternative from my own grep between two attempts, then published a negative existential from the narrowed pattern | hostile review, then verified against myself |
+| 07-26 | claimed the preflight fence self-heal depended on manifest v006; PRECONDITIONS puts fence_at_rest before implementation_manifest — visible in output I had printed myself | hostile review |
+| 07-26 | review apparatus: `.slice(0,6)` capped adversarial testing at 6 of 55 findings, leaving 29 non-minor untested while the return read "confirmed: 0" | self-caught reading the return |
 
 Pattern of record: the arithmetic/prose defects are caught by review every
 time; the structural ones (C3/C5, the live write route) were caught only
 by lanes that re-derived from scratch or probed a route I had not. That is
 the argument for keeping the no-stubs rehearsal and the independent
 re-derivation permanent rather than per-cycle.
+
+SHARPER PATTERN, after 2026-07-26: this lane's defects are no longer
+mostly arithmetic. Three of the four newest are FAILURES TO CHECK MY OWN
+PRIOR OUTPUT against my own current claim — a binding I had sealed 17
+minutes earlier, a grep pattern I had just narrowed, a precondition order
+I had just printed. In each case the refuting evidence was already in
+front of me. That is not a knowledge gap and more review of the same kind
+will not fix it; the fix is a mechanical seal-time check that the
+obligations of every artifact this lane has sealed in the current session
+appear in the artifact they govern. Recorded as the standing lesson from
+the second recurrence.
 
 ## Earlier inherited calibration (prior supervision lane, for continuity)
 
