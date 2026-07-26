@@ -34,6 +34,12 @@ full, with no "sole change" claim of the kind erratum E-2 falsified: item
      lagging pin fail loudly.  The pin table is a module-level frozen
      structure and the check requires the table to cover every pin it
      knows how to discover, so a future bump cannot silently orphan a row.
+     Tests that drive it, named per discipline rule 4:
+     test_stage8_t7_controller_v007.py::test_pin_table_is_total,
+     ::test_coherent_generation_passes,
+     ::test_single_lagging_pin_blocks (EIGHT one-pin skews of real
+     component files, each required to block naming its pin), and
+     ::test_manifest_row_skew_blocks.
   3. THE DIRECTORY-PERMISSION WRITE FENCE (fence record items 1 and 3).
      stage8_execution/work and provenance are mode 555 AT REST.  This
      controller RAISES them to 755 as its FIRST gated action after ALL
@@ -49,6 +55,13 @@ full, with no "sole change" claim of the kind erratum E-2 falsified: item
      between raise and drop still leaves the directories open until the
      next invocation self-heals (L3); the construction lane must raise and
      drop deliberately (L4).
+     Tests that drive it, named per discipline rule 4:
+     test_stage8_t7_controller_v007.py::test_fence_raise_and_drop_cycle,
+     ::test_fence_at_rest_preflight_self_heals,
+     ::test_l3_sigterm_during_the_raised_window_drops_the_fence, and
+     test_stage8_t7_real_chain_rehearsal_v001.py (the raise/drop cycle end
+     to end, the superseded-route write refusal, and the fence's adoption
+     probe).
   4. A4 RECEIPT ORDER (recurred in v006's run_lane).  In v006 the receipt
      was SEALED BEFORE the returncode and target-intact checks, so the
      first blocked lane permanently consumed the canonical receipt path.
