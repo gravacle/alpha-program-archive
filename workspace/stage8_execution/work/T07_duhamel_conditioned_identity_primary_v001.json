@@ -1,0 +1,1210 @@
+{
+ "schema": "stage8_t7_duhamel_conditioned_identity_primary_v001",
+ "lane": "DUHAMEL_GATE_PRIMARY_EXECUTION_LANE (fresh re-run per addendum A3; prior killed-primary partial draft sha256 2d8b094e26975104b4b6b75bc7b8ab65b82ec33b2d3c949288e8d264c1442e99 superseded)",
+ "governing": {
+  "spec": "STAGE8_T7_COMPLETED_CONDITIONED_DUHAMEL_IDENTITY_AND_INTERCHANGE_SCHEMA_SPEC_V001.md",
+  "amendment": "STAGE8_T7_D6_SPECS_REPAIR_AMENDMENT_V001.md Part II (governs where different)",
+  "addendum": "STAGE8_T7_D6_EXECUTION_ADDENDUM_AND_INTERRUPTION_RECORD_V001.md (A1, A2)"
+ },
+ "runtime": {
+  "python": "/Users/bgm/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "python_version": "3.12.13",
+  "numpy_version": "2.3.5",
+  "exact_arithmetic": "fractions.Fraction; Gaussian-rational pairs; exact polynomial/jet algebra",
+  "float_policy": "IEEE-754 binary64/complex128; floats inform, never decide; intersection-of-enclosures is the only numerical pass criterion"
+ },
+ "obligations": {
+  "S2_C1_affine_tangent_lemma": {
+   "verdict": "DERIVED",
+   "machine_checks": {
+    "C1_phaseA_generator_affine": {
+     "statement": "d^2 h_lambda(t;a)/da^2 = 0 identically on the sealed A2 form",
+     "pass": true
+    },
+    "C1_fixture_nonaffine_exact": {
+     "d2_forward_entry": "-1/18",
+     "d2_backward_entry": "1/18",
+     "nonzero": true,
+     "pass": true
+    }
+   }
+  },
+  "S2_C2_boundary_history_independence_lemma": {
+   "verdict": "DERIVED",
+   "machine_checks": {
+    "a_ready_injection": "A3 (789338ad...): |ready>=|0> of the qutrit record; built from the c-matrix eigenstructure; carries no A argument (exact inspection)",
+    "b_final_PVM_Qcomp": "A3: P_lambda = spectral projectors of the fixed c matrix; Q_comp built from them; no A dependence (exact inspection)",
+    "c_relay_isometries": "52401eef... (S-section: exact incidence projectors Tr(P_0P_1)=Tr(P_1P_2)=1/4, Tr(P_0P_2)=0, no history argument); 0df721a1... (relay necessity along the exhaustion)",
+    "d_envelope_clause": "A2 (789338ad...): the envelope profile enters only through the scalar v(t) multiplying lambda; A enters only through a*J(t); i_r, PVM, relays are envelope-free (da6d8cc7... 3(3)(d))",
+    "fixture_side": "F-A write operators and record projectors constructed without any theta argument (exact, by construction in the hash-pinned realization)",
+    "pass": true
+   }
+  },
+  "S2_B0_per_fixture": {
+   "F-A": {
+    "q": {
+     "value": 0.25410649397760465,
+     "radius": 2.8616929384096285e-07,
+     "lower": 0.25410620780831084,
+     "upper": 0.25410678014689847
+    },
+    "relative_margin": 887958.629547526,
+    "pass": true
+   },
+   "F-B": {
+    "q_baseline": "1 (exact rational; endpoint form of L-ADD applies)",
+    "pass": true
+   },
+   "F-C": "BLOCKED_BY_ORDERING (see named_blocks)"
+  },
+  "S3_FK1_FK2_FK3": {
+   "verdict": "DERIVED",
+   "formal_lane": "DUHAMEL_FORMAL_DERIVATIONS_DRAFT_V001.md sections 2-4",
+   "machine_checks": {
+    "FK2_re_c_squared_identity": {
+     "pass": true
+    },
+    "FK2_diagonal_correction_identity": {
+     "pass": true
+    },
+    "FK1_forms_agree": {
+     "pass": true,
+     "note": "ratio and covariance forms have identical numerator over q^2"
+    },
+    "FK3_equals_FK1": {
+     "pass": true
+    }
+   },
+   "P1_P4_verified": true
+  },
+  "S4_LADD_and_endpoint": {
+   "verdict": "DERIVED",
+   "machine_checks": {
+    "LADD_drift_term_identity": {
+     "pass": true
+    },
+    "LADD_full_identity": {
+     "pass": true
+    },
+    "LADD_endpoint_identity": {
+     "pass": true
+    }
+   },
+   "M5_residual_on_FA": {
+    "residual": {
+     "value": -5.42145439652586e-10,
+     "radius": 1.5583827789035212e-08,
+     "lower": -1.6125973228687798e-08,
+     "upper": 1.5041682349382626e-08
+    },
+    "residual_generalized": {
+     "value": 2.7755575615628914e-17,
+     "radius": 1e-08,
+     "lower": -9.999999972244425e-09,
+     "upper": 1.0000000027755576e-08
+    },
+    "pass": true
+   }
+  },
+  "S5_2_interchange_schema": {
+   "verdict": "SEALED_CONDITIONALLY (proof written in full on the amended hypotheses; iterated one-variable Vitali on the product set E1 x E2 plus Osgood; branch anchoring from (H1) per-K zero-freeness and simple connectivity only; no clustering, decay, K-uniform floor, or parent property used)",
+   "H1_H2_status": "NAMED_UNDERIVED_INPUTS (consumed, not discharged; S5.3 fence not approached)",
+   "formal_lane": "DUHAMEL_FORMAL_DERIVATIONS_DRAFT_V001.md section 7"
+  },
+  "S6_controls": {
+   "S6_1_ghz_witness_must_block": {
+    "witness": "Z_N(A) = cos(N tau_R A), tau_R = pi/sqrt(2), first zero pi/(2 N tau_R) (f891d3af...)",
+    "checker_verdict": "H1_VIOLATED",
+    "schema_action": "REFUSED_BLOCKED (no limit produced)",
+    "violated_structural_premise": "independent record colors: the GHZ preparation (|0...0>+|1...1>)/sqrt(2) is the perfectly-correlated-color limit; per-K zero-freeness on a common closed pair polydisc fails for every epsilon_star > 0",
+    "exact_demonstrations": [
+     {
+      "epsilon_star": "1/10",
+      "witness_N": 11,
+      "zero_strictly_inside_polydisc_exact": true
+     },
+     {
+      "epsilon_star": "1/100",
+      "witness_N": 101,
+      "zero_strictly_inside_polydisc_exact": true
+     },
+     {
+      "epsilon_star": "11/100",
+      "witness_N": 10,
+      "zero_strictly_inside_polydisc_exact": true
+     }
+    ],
+    "pass": true
+   },
+   "S6_2_v010_stays_failed": {
+    "identity": "kappa_L = 1/[4 L^4 sin^2(pi/L)] (V011 line 1243)",
+    "exact_argument": "for L>=2, sin(pi/L) >= 2/L (Jordan), so 4 L^4 sin^2 >= 16 L^2, hence 0 < kappa_L <= 1/(16 L^2) -> 0; exact, no measured constant",
+    "rows": [
+     {
+      "L": 4,
+      "kappa_L_float_informative": 0.0019531250000000004,
+      "exact_upper_bound_1_over_16L2": "1/256",
+      "below_bound": true
+     },
+     {
+      "L": 16,
+      "kappa_L_float_informative": 0.00010022789905200266,
+      "exact_upper_bound_1_over_16L2": "1/4096",
+      "below_bound": true
+     },
+     {
+      "L": 64,
+      "kappa_L_float_informative": 6.189123723386252e-06,
+      "exact_upper_bound_1_over_16L2": "1/65536",
+      "below_bound": true
+     },
+     {
+      "L": 256,
+      "kappa_L_float_informative": 3.8652904532836416e-07,
+      "exact_upper_bound_1_over_16L2": "1/1048576",
+      "below_bound": true
+     },
+     {
+      "L": 4096,
+      "kappa_L_float_informative": 1.5098035858654237e-09,
+      "exact_upper_bound_1_over_16L2": "1/268435456",
+      "below_bound": true
+     }
+    ],
+    "post_hoc_extensive_factor": "PROHIBITED_AND_NOT_APPLIED (multiplying by L^2, L^4, cell count, or cell volume is a fail per V011)",
+    "verdict": "V010_ZERO_STIFFNESS_STAYS_FAILED",
+    "pass": true
+   },
+   "S6_3a_contact_omission": {
+    "H_att_omit": {
+     "value": 0.015978471712181322,
+     "radius": 1.1290171990889884e-07,
+     "lower": 0.01597835881046141,
+     "upper": 0.015978584613901232
+    },
+    "H_att_stencil": {
+     "value": -0.042599082284138064,
+     "radius": 5.912674954674043e-07,
+     "lower": -0.04259967355163353,
+     "upper": -0.0425984910166426
+    },
+    "mismatch": 0.058577553996319386,
+    "threshold_3x_radius": 1.773802486402213e-06,
+    "discrepancy_enclosure": {
+     "value": -0.058577553996319386,
+     "radius": 4.883657755585055e-07,
+     "lower": -0.05857804236209494,
+     "upper": -0.05857706563054383
+    },
+    "contact_term_enclosure": {
+     "value": -0.058577556044312175,
+     "radius": 4.4717393303129477e-07,
+     "lower": -0.0585780032182452,
+     "upper": -0.058577108870379146
+    },
+    "mismatch_exceeds_3x": true,
+    "discrepancy_matches_contact_term": true,
+    "pass": true
+   },
+   "S6_3b_wrong_ordering_pair_evaluated_A1": {
+    "Im_z_pair": {
+     "value": 0.0003150309327639156,
+     "radius": 1.040355818224184e-08,
+     "lower": 0.00031502052920573333,
+     "upper": 0.00031504133632209784
+    },
+    "Im_z_swap": {
+     "value": -0.0003150309327639156,
+     "radius": 1.040355818224184e-08,
+     "lower": -0.00031504133632209784,
+     "upper": -0.00031502052920573333
+    },
+    "Im_excludes_zero": true,
+    "sign_flip_certified": true,
+    "orderings_mismatch": 0.0006300618655278312,
+    "threshold_3x_radius": 6.242134909345104e-08,
+    "mismatch_exceeds_3x": true,
+    "pass": true
+   },
+   "S6_3c_wrong_form_F22_enforcement": {
+    "logqpp_excludes_zero": true,
+    "mismatch_gc_vs_H_att": 0.05105003342216203,
+    "threshold_3x_radius": 1.9216947186252122e-06,
+    "pass": true
+   },
+   "S6_4_route1_falsifier_reexecution": {
+    "frozen_pairs": [
+     [
+      "7/100",
+      "-11/100"
+     ],
+     [
+      "13/100",
+      "4/100"
+     ]
+    ],
+    "substitution_fence": "all-outcome sum NOT substituted for completed component (computed and compared separately)",
+    "rows": [
+     {
+      "pair": [
+       "7/100",
+       "-11/100"
+      ],
+      "completed_component": [
+       0.9938376977495241,
+       0.08968768040013292
+      ],
+      "completed_error": 3.3422138886441676e-16,
+      "all_kernel_error": 3.3422138886441676e-16
+     },
+     {
+      "pair": [
+       "13/100",
+       "1/25"
+      ],
+      "completed_component": [
+       0.9966786833469397,
+       0.04488083940776791
+      ],
+      "completed_error": 4.449557262054371e-16,
+      "all_kernel_error": 2.2301825219878386e-16
+     }
+    ],
+    "S4_ii_exact_endpoint_anchors": "verified in M4 exact block (g_c=0, (log q_c)''=-1/2, H_att,c=1/4, g_all=1/4, H_att,all=1/4, g_all-g_c=1/4)",
+    "pass": true
+   },
+   "S6_5_degenerate_endpoint": {
+    "pass": true,
+    "expected": "g_c = 0 and H_att,c = 1/4 (distinct objects)",
+    "computed": "g_c=(0+0i), -Re L_pp=1/4"
+   },
+   "S6_6_per_state_and_intersection_discipline": {
+    "statement": "every enclosure per pinned state; nonempty intersection of independently produced certified enclosures is the only numerical pass criterion; no tolerance was widened in response to any value; no preferred-lane tiebreak",
+    "pass": true
+   }
+  },
+  "S7_M1_authorities": {
+   "M1_overall": "PASS",
+   "entries": [
+    {
+     "artifact": "ROUTE_MEMO_2026-07-25_duhamel_intensive_hessian.md",
+     "path": "/Users/bgm/MB Work/alpha_supervision/ROUTE_MEMO_2026-07-25_duhamel_intensive_hessian.md",
+     "expected": "8130ae5d11a582ab79bb19a624dc8e128a5ceddc349d3bd27585b1c975f98cff",
+     "observed": "8130ae5d11a582ab79bb19a624dc8e128a5ceddc349d3bd27585b1c975f98cff",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_L2_INTENSIVE_HESSIAN_TYPING_FREEZE_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_L2_INTENSIVE_HESSIAN_TYPING_FREEZE_V001.md",
+     "expected": "cdbacdaf5efcd3a70a6ffa456bc790753e0ff36609c40c67b9bb606b79624746",
+     "observed": "cdbacdaf5efcd3a70a6ffa456bc790753e0ff36609c40c67b9bb606b79624746",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "ANALYSIS_MEMO_2026-07-25_L2_typing_freeze.md",
+     "path": "/Users/bgm/MB Work/alpha_supervision/ANALYSIS_MEMO_2026-07-25_L2_typing_freeze.md",
+     "expected": "f2848ce7ca14d2e7765991fe9bad226197dc105f7cdd9a47728230b6690490f1",
+     "observed": "f2848ce7ca14d2e7765991fe9bad226197dc105f7cdd9a47728230b6690490f1",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_PRIMITIVE_OPERATOR_RESPONSE_SPEC_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_PRIMITIVE_OPERATOR_RESPONSE_SPEC_V001.md",
+     "expected": "2f2aa7f7397b70616fa5c9e8ed628ca1d1e819bb698133a169c6d544086b3cde",
+     "observed": "2f2aa7f7397b70616fa5c9e8ed628ca1d1e819bb698133a169c6d544086b3cde",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_PRIMITIVE_OPERATOR_RESPONSE_EXACT_DERIVATION_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_PRIMITIVE_OPERATOR_RESPONSE_EXACT_DERIVATION_V001.md",
+     "expected": "a9875788301d8434113f77e3b5726b49d70d8609fbcfcc72c9fede76a1249e4a",
+     "observed": "a9875788301d8434113f77e3b5726b49d70d8609fbcfcc72c9fede76a1249e4a",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_PRIMITIVE_OPERATOR_RESPONSE_RESULT_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_PRIMITIVE_OPERATOR_RESPONSE_RESULT_V001.md",
+     "expected": "76f5505e3aa1fdc11102f782ed8ee40e49787bb38e3a2524e17b92fd8de46740",
+     "observed": "76f5505e3aa1fdc11102f782ed8ee40e49787bb38e3a2524e17b92fd8de46740",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_OPERATOR_VALUED_PRIMITIVE_RESPONSE_ARCHITECTURE_AMENDMENT_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_OPERATOR_VALUED_PRIMITIVE_RESPONSE_ARCHITECTURE_AMENDMENT_V001.md",
+     "expected": "8a7f52ffa2500d20ad834b11e3762ed114ee1a201f2fec18bcb119e3c7ead860",
+     "observed": "8a7f52ffa2500d20ad834b11e3762ed114ee1a201f2fec18bcb119e3c7ead860",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_ACTUAL_PARENT_REGULATED_CAR_OPERATOR_RESPONSE_SPEC_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_ACTUAL_PARENT_REGULATED_CAR_OPERATOR_RESPONSE_SPEC_V001.md",
+     "expected": "789338adb7d3d36da453113e98f371a4f92543cf2652b047f8481c407bed5bc3",
+     "observed": "789338adb7d3d36da453113e98f371a4f92543cf2652b047f8481c407bed5bc3",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_AUTHORITY_FABLE_V002.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_GATE5_KAPPA_RECORD_THEOREM_BATTERY_SPEC_AUTHORITY_FABLE_V002.md",
+     "expected": "ddb36cbfe4edfc2a0520e9ae58063295214c64afed5cad5a64e9f311826358f5",
+     "observed": "ddb36cbfe4edfc2a0520e9ae58063295214c64afed5cad5a64e9f311826358f5",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md",
+     "expected": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+     "observed": "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/BID_PUBLIC_RECORD_TRANSITION_AMPLITUDE_DERIVATION_V001.md",
+     "expected": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb",
+     "observed": "6e01e5bac60b0f9efdb6f964e2b2ea7727ca46e4cfd66153e8ef70baf240a6eb",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_CONNECTED_ANALYTIC_CLOSURE_RESULT_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_CONNECTED_ANALYTIC_CLOSURE_RESULT_V001.md",
+     "expected": "f891d3afc58e695529d8d569b5d2ba4b853e30c9cfa4296817cb17b60f38b054",
+     "observed": "f891d3afc58e695529d8d569b5d2ba4b853e30c9cfa4296817cb17b60f38b054",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_CRITICAL_PATH_SCOPE_CORRECTION_V001.md",
+     "expected": "9410ee80ff89beed4e133f75fcdb952d059f3386df12069793b5d60895d15486",
+     "observed": "9410ee80ff89beed4e133f75fcdb952d059f3386df12069793b5d60895d15486",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_RELAYED_FAMILY_RESOLUTION_RESULT_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_RELAYED_FAMILY_RESOLUTION_RESULT_V001.md",
+     "expected": "52401eefc3ff84e22f04bbc329a619b830058661db7f969d2d43d167d97d893d",
+     "observed": "52401eefc3ff84e22f04bbc329a619b830058661db7f969d2d43d167d97d893d",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_OPEN_EXHAUSTION_ATTACHMENT_AND_RELAY_NECESSITY_RESULT_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_OPEN_EXHAUSTION_ATTACHMENT_AND_RELAY_NECESSITY_RESULT_V001.md",
+     "expected": "0df721a170f4f4a1ec630775a3ae47b0d793c82e100b326e681030389eaf0694",
+     "observed": "0df721a170f4f4a1ec630775a3ae47b0d793c82e100b326e681030389eaf0694",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "COMPLETE_QSPEC_RELATIVE_HISTORY_CTP_AMPLITUDE_RESULT_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/COMPLETE_QSPEC_RELATIVE_HISTORY_CTP_AMPLITUDE_RESULT_V001.md",
+     "expected": "273e1473a1a8bf0be0467634411cec1b7daeee0c9f24c330fad5d288d191dcbb",
+     "observed": "273e1473a1a8bf0be0467634411cec1b7daeee0c9f24c330fad5d288d191dcbb",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_ROUTE1_SPECIAL_CASE_CONSISTENCY_BINDING_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_ROUTE1_SPECIAL_CASE_CONSISTENCY_BINDING_V001.md",
+     "expected": "460e87522884e703968025081cceccc0153af3cda27410c397fc2a09a0b367e3",
+     "observed": "460e87522884e703968025081cceccc0153af3cda27410c397fc2a09a0b367e3",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "COMPLETE_QSPEC_FINITE_HOLONOMY_DUHAMEL_CROSSCHECK_PROTOCOL_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/COMPLETE_QSPEC_FINITE_HOLONOMY_DUHAMEL_CROSSCHECK_PROTOCOL_V001.md",
+     "expected": "3d86dc4f15cc51bd3a3848b71c295734c6cee565cffc5817b7ddcfcedd30126f",
+     "observed": "3d86dc4f15cc51bd3a3848b71c295734c6cee565cffc5817b7ddcfcedd30126f",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "COMPLETE_QSPEC_FINITE_HOLONOMY_INDEPENDENT_VERIFIER_PROTOCOL_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/COMPLETE_QSPEC_FINITE_HOLONOMY_INDEPENDENT_VERIFIER_PROTOCOL_V001.md",
+     "expected": "f5302ee851bc8c76e4abf91ca7fdbddaca9569202b556db4ef59f0235c592ebe",
+     "observed": "f5302ee851bc8c76e4abf91ca7fdbddaca9569202b556db4ef59f0235c592ebe",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_RESPONSE_CLOSURE_SELECTION_DERIVATION_RESULT_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_RESPONSE_CLOSURE_SELECTION_DERIVATION_RESULT_V001.md",
+     "expected": "e12fffcc0f94d6896bc5607898db6b3a1ea343aeaf557b1f6f70e58db061fab6",
+     "observed": "e12fffcc0f94d6896bc5607898db6b3a1ea343aeaf557b1f6f70e58db061fab6",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "ROUTE_MEMO_2026-07-25_gamma_record_level_insensitivity.md",
+     "path": "/Users/bgm/MB Work/alpha_supervision/ROUTE_MEMO_2026-07-25_gamma_record_level_insensitivity.md",
+     "expected": "da6d8cc7bd4736b079e8262cc9ea15edfb6a574d038bc790eaad1432e8515875",
+     "observed": "da6d8cc7bd4736b079e8262cc9ea15edfb6a574d038bc790eaad1432e8515875",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "ROUTE_MEMO_2026-07-25_linked_cluster_majorant.md",
+     "path": "/Users/bgm/MB Work/alpha_supervision/ROUTE_MEMO_2026-07-25_linked_cluster_majorant.md",
+     "expected": "3e37eaa4d9183d171eb9e4b0dd0ad799a3503cd364c022858ac402396d04834e",
+     "observed": "3e37eaa4d9183d171eb9e4b0dd0ad799a3503cd364c022858ac402396d04834e",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "DISPOSITION_2026-07-25_gamma_killtest_beta.md",
+     "path": "/Users/bgm/MB Work/alpha_supervision/DISPOSITION_2026-07-25_gamma_killtest_beta.md",
+     "expected": "143d4b494b5ce5c24e105ac8ddbaa3f7655803ce53b4803d72c1bb4c076ec638",
+     "observed": "143d4b494b5ce5c24e105ac8ddbaa3f7655803ce53b4803d72c1bb4c076ec638",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "COMPLETE_QSPEC_FINITE_HOLONOMY_RESPONSE_DIAGNOSTIC_SPEC_V001.md",
+     "path": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/COMPLETE_QSPEC_FINITE_HOLONOMY_RESPONSE_DIAGNOSTIC_SPEC_V001.md",
+     "expected_wrapped_reconstruction": "d1b5ab24ebf8c1bc9b7598449596a6431c2152cab7edcf4d0cefcfd64e3815a5",
+     "expected_len": 64,
+     "observed": "d1b5ab24ebf8c1bc9b7598449596a6431c2152cab7edcf4d0cefcfd64e3815a5",
+     "status": "MATCH"
+    },
+    {
+     "artifact": "STAGE8_T7_COMPLETED_CONDITIONED_DUHAMEL_IDENTITY_AND_INTERCHANGE_SCHEMA_SPEC_V001.md",
+     "observed": "4fe8d42dc82879b1f0fad118554e4eb103c3a4a010e1e97304f1808b0d7dcb37",
+     "status": "SEAL_MATCH",
+     "seal_file": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_COMPLETED_CONDITIONED_DUHAMEL_IDENTITY_AND_INTERCHANGE_SCHEMA_SPEC_V001.md.seal.sha256",
+     "seal_contents": "4fe8d42dc82879b1f0fad118554e4eb103c3a4a010e1e97304f1808b0d7dcb37  STAGE8_T7_COMPLETED_CONDITIONED_DUHAMEL_IDENTITY_AND_INTERCHANGE_SCHEMA_SPEC_V001.md"
+    },
+    {
+     "artifact": "STAGE8_T7_D6_SPECS_REPAIR_AMENDMENT_V001.md",
+     "observed": "60223e6a175c5fee122f253491fd279daccfa15f8771af12104710f57ce09e5d",
+     "status": "SEAL_MATCH",
+     "seal_file": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_D6_SPECS_REPAIR_AMENDMENT_V001.md.seal.sha256",
+     "seal_contents": "60223e6a175c5fee122f253491fd279daccfa15f8771af12104710f57ce09e5d  STAGE8_T7_D6_SPECS_REPAIR_AMENDMENT_V001.md"
+    },
+    {
+     "artifact": "STAGE8_T7_D6_EXECUTION_ADDENDUM_AND_INTERRUPTION_RECORD_V001.md",
+     "observed": "d05b115ae9f3c24f00451de089b9c9cc5f3836e6c0ba6cedc81af2eac30ae574",
+     "status": "SEAL_MATCH",
+     "seal_file": "/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_D6_EXECUTION_ADDENDUM_AND_INTERRUPTION_RECORD_V001.md.seal.sha256",
+     "seal_contents": "d05b115ae9f3c24f00451de089b9c9cc5f3836e6c0ba6cedc81af2eac30ae574  STAGE8_T7_D6_EXECUTION_ADDENDUM_AND_INTERRUPTION_RECORD_V001.md"
+    }
+   ]
+  },
+  "S7_M2_epsilon_halving": {
+   "obligation": "M2",
+   "rows": {
+    "plus_all": {
+     "duhamel_operator_norm": 0.27941469224466514,
+     "relative_errors": [
+      1.310957607610503e-06,
+      3.2774136799369864e-07,
+      8.194145519096727e-08
+     ],
+     "reduction_factors": [
+      3.9999760043587425,
+      3.9997015824271918
+     ],
+     "strictly_decreasing": true,
+     "finest": 8.194145519096727e-08
+    },
+    "plus_completed": {
+     "duhamel_operator_norm": 0.26030391863813673,
+     "relative_errors": [
+      1.0710361965488198e-06,
+      2.6775926373688657e-07,
+      6.694678446482318e-08
+     ],
+     "reduction_factors": [
+      3.9999967941399506,
+      3.9995836376215976
+     ],
+     "strictly_decreasing": true,
+     "finest": 6.694678446482318e-08
+    },
+    "minus_all": {
+     "duhamel_operator_norm": 0.2794146922446652,
+     "relative_errors": [
+      1.3109576076105033e-06,
+      3.2774136799369864e-07,
+      8.194145519096726e-08
+     ],
+     "reduction_factors": [
+      3.999976004358744,
+      3.9997015824271926
+     ],
+     "strictly_decreasing": true,
+     "finest": 8.194145519096726e-08
+    },
+    "minus_completed": {
+     "duhamel_operator_norm": 0.2603039186381368,
+     "relative_errors": [
+      1.0710361965488195e-06,
+      2.6775926373688646e-07,
+      6.694678446482317e-08
+     ],
+     "reduction_factors": [
+      3.9999967941399515,
+      3.9995836376215967
+     ],
+     "strictly_decreasing": true,
+     "finest": 6.694678446482317e-08
+    }
+   },
+   "adjoint_exchange_errors": {
+    "all": 0.0,
+    "completed": 0.0
+   },
+   "tangent_base_consistency": 0.0,
+   "sealed_anchor_reproduction": {
+    "plus_all": {
+     "recomputed": 8.194145519096727e-08,
+     "recomputed_6sig": 8.19415e-08,
+     "sealed_anchor": 8.19415e-08,
+     "reproduced_to_all_printed_sig_figs": true
+    },
+    "minus_all": {
+     "recomputed": 8.194145519096726e-08,
+     "recomputed_6sig": 8.19415e-08,
+     "sealed_anchor": 8.19415e-08,
+     "reproduced_to_all_printed_sig_figs": true
+    },
+    "plus_completed": {
+     "recomputed": 6.694678446482318e-08,
+     "recomputed_6sig": 6.69468e-08,
+     "sealed_anchor": 6.69468e-08,
+     "reproduced_to_all_printed_sig_figs": true
+    },
+    "minus_completed": {
+     "recomputed": 6.694678446482317e-08,
+     "recomputed_6sig": 6.69468e-08,
+     "sealed_anchor": 6.69468e-08,
+     "reproduced_to_all_printed_sig_figs": true
+    }
+   },
+   "non_scalar_completed_witness": {
+    "completed_11_frobenius_norm": 2.158029616704532,
+    "completed_11_scalar_distance": 2.151758052952419,
+    "sealed_frobenius": 2.158029616704532,
+    "sealed_scalar_distance": 2.151758052952419,
+    "frobenius_error": 0.0,
+    "scalar_distance_error": 0.0,
+    "within_1e-10": true
+   },
+   "pass": true
+  },
+  "S7_M3_conditioned_crosscheck_FA": {
+   "structure": {
+    "active_dimension": 8,
+    "occupied_rank": 4,
+    "record_dimension": 9,
+    "spectrum_check": [
+     -0.866025403784,
+     -0.866025403784,
+     -0.866025403784,
+     -0.866025403784,
+     -0.0,
+     -0.0,
+     0.0,
+     0.0,
+     0.866025403784,
+     0.866025403784,
+     0.866025403784,
+     0.866025403784
+    ],
+    "fock_dimension": 70,
+    "norm_error_400": 1.4116103952410697e-08,
+    "zeta_linearity_residual_400": 5.067787031400837e-16,
+    "contact_generator_nonzero_norm": 0.09622504486493763,
+    "h_act_hermiticity": 1.8173377839335432e-16,
+    "norm_drift_diagnostic_only": true
+   },
+   "raw_200": {
+    "norm_error": 4.502847651410846e-07,
+    "zeta_linearity_residual": 4.889238195582934e-16,
+    "q": 0.25410566546972313,
+    "q_all": 0.9999990994306724,
+    "q_r": 0.7458934339609493,
+    "alpha_c_re": -1.8609267282504458e-17,
+    "alpha_c_im": 2.5206116711584878e-17,
+    "alpha_r_re": 1.4519226896618348e-17,
+    "alpha_r_im": -2.774440376891517e-17,
+    "g_c": 0.008450833245791744,
+    "g_r": 0.08402167213263023,
+    "g_all": 0.0648186765335561,
+    "H_att_tan": -0.04260070455908942,
+    "H_att_omit": 0.015978163007021595,
+    "contact_H_att": -0.05857886756611127,
+    "logqpp_tan": 0.10210307560976233,
+    "logqpp_omit": -0.015054659522459702,
+    "ladd_residual": -1.729362880675822e-08,
+    "ladd_residual_generalized": 2.7755575615628914e-17,
+    "Im_z_pair": 0.00031502972208936886,
+    "Re_z_pair": 0.2541804722800846,
+    "Im_z_swap": -0.00031502972208936886,
+    "Re_z_swap": 0.2541804722800846
+   },
+   "raw_400": {
+    "norm_error": 1.4116103952410697e-08,
+    "zeta_linearity_residual": 5.067787031400837e-16,
+    "q": 0.25410649397760465,
+    "q_all": 0.9999999717677923,
+    "q_r": 0.7458934777901877,
+    "alpha_c_re": -1.854764328610791e-17,
+    "alpha_c_im": 2.6443689386156314e-17,
+    "alpha_r_re": 1.431283989305918e-17,
+    "alpha_r_im": -2.900647657621592e-17,
+    "g_c": 0.008450951138023967,
+    "g_r": 0.08402195853424933,
+    "g_all": 0.06481887425629343,
+    "H_att_tan": -0.042599084332130756,
+    "H_att_omit": 0.015978471712181322,
+    "contact_H_att": -0.058577556044312175,
+    "logqpp_tan": 0.10210007094030944,
+    "logqpp_omit": -0.01505504114831471,
+    "ladd_residual": -5.42145439652586e-10,
+    "ladd_residual_generalized": 2.7755575615628914e-17,
+    "Im_z_pair": 0.0003150309327639156,
+    "Re_z_pair": 0.254181297306472,
+    "Im_z_swap": -0.0003150309327639156,
+    "Re_z_swap": 0.254181297306472
+   },
+   "stencils_400": {
+    "H_att": {
+     "per_eps": {
+      "0.00390625": -0.042598432065373656,
+      "0.001953125": -0.042598921064548045,
+      "0.0009765625": -0.04259904197924056
+     },
+     "extrapolated": -0.042599082284138064,
+     "richardson_correction": 4.030489750284083e-08
+    },
+    "logqpp": {
+     "per_eps": {
+      "0.00390625": 0.10209942975779995,
+      "0.001953125": 0.10209991020383313,
+      "0.0009765625": 0.10210002772510052
+     },
+     "extrapolated": 0.10210006689885631,
+     "richardson_correction": 3.9173755794763565e-08
+    },
+    "g_mixed": {
+     "per_eps": {
+      "0.00390625": 0.008450897643342614,
+      "0.001953125": 0.00845093779207673,
+      "0.0009765625": 0.008450947934761643
+     },
+     "extrapolated": 0.008450951315656615,
+     "richardson_correction": 3.3808949719688064e-09
+    },
+    "g_FS": {
+     "per_eps": {
+      "0.00390625": 0.008450903134523367,
+      "0.001953125": 0.008450939137115964,
+      "0.0009765625": 0.008450948137793297
+     },
+     "extrapolated": 0.008450951138019075,
+     "richardson_correction": 3.0002257778855013e-09
+    }
+   },
+   "enclosures": {
+    "q": {
+     "value": 0.25410649397760465,
+     "radius": 2.8616929384096285e-07,
+     "lower": 0.25410620780831084,
+     "upper": 0.25410678014689847
+    },
+    "q_all": {
+     "value": 0.9999999717677923,
+     "radius": 3.0077903995755606e-07,
+     "lower": 0.9999996709887523,
+     "upper": 1.0000002725468322
+    },
+    "q_r": {
+     "value": 0.7458934777901877,
+     "radius": 2.4609746116593197e-08,
+     "lower": 0.7458934531804415,
+     "upper": 0.7458935023999338
+    },
+    "g_c": {
+     "value": 0.008450951138023967,
+     "radius": 4.929741074099972e-08,
+     "lower": 0.008450901840613227,
+     "upper": 0.008451000435434708
+    },
+    "g_r": {
+     "value": 0.08402195853424933,
+     "radius": 1.054672063670688e-07,
+     "lower": 0.08402185306704296,
+     "upper": 0.0840220640014557
+    },
+    "g_all": {
+     "value": 0.06481887425629343,
+     "radius": 7.590757911188276e-08,
+     "lower": 0.06481879834871432,
+     "upper": 0.06481895016387254
+    },
+    "H_att_tan": {
+     "value": -0.042599084332130756,
+     "radius": 5.500756528869954e-07,
+     "lower": -0.042599634407783644,
+     "upper": -0.04259853425647787
+    },
+    "H_att_omit": {
+     "value": 0.015978471712181322,
+     "radius": 1.1290171990889884e-07,
+     "lower": 0.01597835881046141,
+     "upper": 0.015978584613901232
+    },
+    "contact_H_att": {
+     "value": -0.058577556044312175,
+     "radius": 4.4717393303129477e-07,
+     "lower": -0.0585780032182452,
+     "upper": -0.058577108870379146
+    },
+    "logqpp_tan": {
+     "value": 0.10210007094030944,
+     "radius": 1.0115564842943042e-06,
+     "lower": 0.10209905938382514,
+     "upper": 0.10210108249679374
+    },
+    "logqpp_omit": {
+     "value": -0.01505504114831471,
+     "radius": 1.3720861833579826e-07,
+     "lower": -0.015055178356933045,
+     "upper": -0.015054903939696374
+    },
+    "ladd_residual": {
+     "value": -5.42145439652586e-10,
+     "radius": 1.5583827789035212e-08,
+     "lower": -1.6125973228687798e-08,
+     "upper": 1.5041682349382626e-08
+    },
+    "ladd_residual_generalized": {
+     "value": 2.7755575615628914e-17,
+     "radius": 1e-08,
+     "lower": -9.999999972244425e-09,
+     "upper": 1.0000000027755576e-08
+    },
+    "Im_z_pair": {
+     "value": 0.0003150309327639156,
+     "radius": 1.040355818224184e-08,
+     "lower": 0.00031502052920573333,
+     "upper": 0.00031504133632209784
+    },
+    "Im_z_swap": {
+     "value": -0.0003150309327639156,
+     "radius": 1.040355818224184e-08,
+     "lower": -0.00031504133632209784,
+     "upper": -0.00031502052920573333
+    },
+    "Re_z_pair": {
+     "value": 0.254181297306472,
+     "radius": 2.850087957914538e-07,
+     "lower": 0.2541810122976762,
+     "upper": 0.2541815823152678
+    },
+    "Re_z_swap": {
+     "value": 0.254181297306472,
+     "radius": 2.850087957914538e-07,
+     "lower": 0.2541810122976762,
+     "upper": 0.2541815823152678
+    },
+    "H_att_stencil": {
+     "value": -0.042599082284138064,
+     "radius": 5.912674954674043e-07,
+     "lower": -0.04259967355163353,
+     "upper": -0.0425984910166426
+    },
+    "logqpp_stencil": {
+     "value": 0.10210006689885631,
+     "radius": 1.052777310227468e-06,
+     "lower": 0.10209901412154608,
+     "upper": 0.10210111967616654
+    },
+    "g_mixed_stencil": {
+     "value": 0.008450951315656615,
+     "radius": 5.274220878561682e-08,
+     "lower": 0.00845089857344783,
+     "upper": 0.008451004057865402
+    },
+    "g_FS_stencil": {
+     "value": 0.008450951138019075,
+     "radius": 5.2297636525824117e-08,
+     "lower": 0.00845089884038255,
+     "upper": 0.0084510034356556
+    }
+   },
+   "checks": {
+    "M3_i_B0_q_excludes_zero": {
+     "q": {
+      "value": 0.25410649397760465,
+      "radius": 2.8616929384096285e-07,
+      "lower": 0.25410620780831084,
+      "upper": 0.25410678014689847
+     },
+     "relative_margin": 887958.629547526,
+     "pass": true
+    },
+    "M3_ii_g_c_positive": {
+     "g_c": {
+      "value": 0.008450951138023967,
+      "radius": 4.929741074099972e-08,
+      "lower": 0.008450901840613227,
+      "upper": 0.008451000435434708
+     },
+     "pass": true
+    },
+    "M3_iii_FK2_intersection": {
+     "H_att_stencil": {
+      "value": -0.042599082284138064,
+      "radius": 5.912674954674043e-07,
+      "lower": -0.04259967355163353,
+      "upper": -0.0425984910166426
+     },
+     "g_c_minus_half_logqpp": {
+      "value": -0.042599084332130756,
+      "radius": 5.500756528869954e-07,
+      "lower": -0.042599634407783644,
+      "upper": -0.04259853425647787
+     },
+     "H_att_tangent": {
+      "value": -0.042599084332130756,
+      "radius": 5.500756528869954e-07,
+      "lower": -0.042599634407783644,
+      "upper": -0.04259853425647787
+     },
+     "pass": true
+    },
+    "M3_iv_FK3_intersection": {
+     "g_FS_stencil": {
+      "value": 0.008450951138019075,
+      "radius": 5.2297636525824117e-08,
+      "lower": 0.00845089884038255,
+      "upper": 0.0084510034356556
+     },
+     "g_c": {
+      "value": 0.008450951138023967,
+      "radius": 4.929741074099972e-08,
+      "lower": 0.008450901840613227,
+      "upper": 0.008451000435434708
+     },
+     "pass": true
+    },
+    "M3_v_intersections": {
+     "g_c__tangent_vs_mixed_stencil": {
+      "a": {
+       "value": 0.008450951138023967,
+       "radius": 4.929741074099972e-08,
+       "lower": 0.008450901840613227,
+       "upper": 0.008451000435434708
+      },
+      "b": {
+       "value": 0.008450951315656615,
+       "radius": 5.274220878561682e-08,
+       "lower": 0.00845089857344783,
+       "upper": 0.008451004057865402
+      },
+      "intersect": true
+     },
+     "logqpp__tangent_vs_stencil": {
+      "a": {
+       "value": 0.10210007094030944,
+       "radius": 1.0115564842943042e-06,
+       "lower": 0.10209905938382514,
+       "upper": 0.10210108249679374
+      },
+      "b": {
+       "value": 0.10210006689885631,
+       "radius": 1.052777310227468e-06,
+       "lower": 0.10209901412154608,
+       "upper": 0.10210111967616654
+      },
+      "intersect": true
+     },
+     "H_att__tangent_vs_stencil": {
+      "a": {
+       "value": -0.042599084332130756,
+       "radius": 5.500756528869954e-07,
+       "lower": -0.042599634407783644,
+       "upper": -0.04259853425647787
+      },
+      "b": {
+       "value": -0.042599082284138064,
+       "radius": 5.912674954674043e-07,
+       "lower": -0.04259967355163353,
+       "upper": -0.0425984910166426
+      },
+      "intersect": true
+     },
+     "pass": true
+    },
+    "M5_ladd_residual_contains_zero": {
+     "residual": {
+      "value": -5.42145439652586e-10,
+      "radius": 1.5583827789035212e-08,
+      "lower": -1.6125973228687798e-08,
+      "upper": 1.5041682349382626e-08
+     },
+     "residual_generalized": {
+      "value": 2.7755575615628914e-17,
+      "radius": 1e-08,
+      "lower": -9.999999972244425e-09,
+      "upper": 1.0000000027755576e-08
+     },
+     "pass": true
+    },
+    "S6_3a_contact_omission": {
+     "H_att_omit": {
+      "value": 0.015978471712181322,
+      "radius": 1.1290171990889884e-07,
+      "lower": 0.01597835881046141,
+      "upper": 0.015978584613901232
+     },
+     "H_att_stencil": {
+      "value": -0.042599082284138064,
+      "radius": 5.912674954674043e-07,
+      "lower": -0.04259967355163353,
+      "upper": -0.0425984910166426
+     },
+     "mismatch": 0.058577553996319386,
+     "threshold_3x_radius": 1.773802486402213e-06,
+     "discrepancy_enclosure": {
+      "value": -0.058577553996319386,
+      "radius": 4.883657755585055e-07,
+      "lower": -0.05857804236209494,
+      "upper": -0.05857706563054383
+     },
+     "contact_term_enclosure": {
+      "value": -0.058577556044312175,
+      "radius": 4.4717393303129477e-07,
+      "lower": -0.0585780032182452,
+      "upper": -0.058577108870379146
+     },
+     "mismatch_exceeds_3x": true,
+     "discrepancy_matches_contact_term": true,
+     "pass": true
+    },
+    "S6_3b_wrong_ordering": {
+     "Im_z_pair": {
+      "value": 0.0003150309327639156,
+      "radius": 1.040355818224184e-08,
+      "lower": 0.00031502052920573333,
+      "upper": 0.00031504133632209784
+     },
+     "Im_z_swap": {
+      "value": -0.0003150309327639156,
+      "radius": 1.040355818224184e-08,
+      "lower": -0.00031504133632209784,
+      "upper": -0.00031502052920573333
+     },
+     "Im_excludes_zero": true,
+     "sign_flip_certified": true,
+     "orderings_mismatch": 0.0006300618655278312,
+     "threshold_3x_radius": 6.242134909345104e-08,
+     "mismatch_exceeds_3x": true,
+     "pass": true
+    },
+    "S6_3c_wrong_form": {
+     "logqpp_excludes_zero": true,
+     "mismatch_gc_vs_H_att": 0.05105003342216203,
+     "threshold_3x_radius": 1.9216947186252122e-06,
+     "pass": true
+    }
+   },
+   "pass": true
+  },
+  "S7_M4_exact_anchors_FB": {
+   "arithmetic": "exact rational (fractions.Fraction), complex as Fraction pairs, degree-2 jets",
+   "anchors": {
+    "g_c": {
+     "pass": true,
+     "expected": "0",
+     "computed": "(0+0i)"
+    },
+    "logq_c_second": {
+     "pass": true,
+     "expected": "-1/2",
+     "computed": "(-1/2+0i)"
+    },
+    "H_att_c": {
+     "pass": true,
+     "expected": "1/4",
+     "computed": "(-1/4+0i)"
+    },
+    "g_all": {
+     "pass": true,
+     "expected": "1/4",
+     "computed": "(1/4+0i)"
+    },
+    "H_att_all": {
+     "pass": true,
+     "expected": "1/4 (=-Re L_++)",
+     "computed": "(-1/4+0i)"
+    },
+    "logq_all_second": {
+     "pass": true,
+     "expected": "0",
+     "computed": "(0+0i)"
+    },
+    "g_all_minus_g_c_eq_eta_r": {
+     "pass": true,
+     "expected": "1/4 = 1/4",
+     "computed": "(1/4+0i) vs |A_-'(0)|^2=1/4"
+    },
+    "ladd_endpoint": {
+     "pass": true,
+     "expected": "g_all = g_c + ||eta_r||^2",
+     "computed": "(1/4+0i) = (0+0i) + 1/4"
+    },
+    "q_c_baseline_is_1": {
+     "pass": true,
+     "expected": "1",
+     "computed": "1"
+    },
+    "sigma_FS": {
+     "pass": true,
+     "expected": "1/4",
+     "computed": "1/4"
+    },
+    "sigma_linear_amplitude": {
+     "pass": true,
+     "expected": "1/4",
+     "computed": "(-1/4+0i)"
+    },
+    "sigma_endpoint_probability": {
+     "pass": true,
+     "expected": "1/2",
+     "computed": "1/2"
+    },
+    "sigma_inclusive_sandwich": {
+     "pass": true,
+     "expected": "z_all(a,a)=1 exactly, curvature 0",
+     "computed": "c00=(1+0i), diag a=(0+0i), diag a^2=(0+0i)"
+    },
+    "S6_5_degenerate_endpoint": {
+     "pass": true,
+     "expected": "g_c = 0 and H_att,c = 1/4 (distinct objects)",
+     "computed": "g_c=(0+0i), -Re L_pp=1/4"
+    },
+    "hermitian_symmetry_z_c": {
+     "pass": true,
+     "expected": "z_c^*(p,m) = z_c(m,p)",
+     "computed": "exact jet equality"
+    },
+    "P1_mixed_real": {
+     "pass": true,
+     "expected": "Im g = 0",
+     "computed": "(0+0i), (1/4+0i)"
+    }
+   },
+   "pass": true
+  },
+  "S7_M5_ladd_residual": {
+   "residual": {
+    "value": -5.42145439652586e-10,
+    "radius": 1.5583827789035212e-08,
+    "lower": -1.6125973228687798e-08,
+    "upper": 1.5041682349382626e-08
+   },
+   "residual_generalized": {
+    "value": 2.7755575615628914e-17,
+    "radius": 1e-08,
+    "lower": -9.999999972244425e-09,
+    "upper": 1.0000000027755576e-08
+   },
+   "pass": true
+  },
+  "S7_M6_controls_pass": true,
+  "S7_M7_formal_lane": {
+   "document": "stage8_execution/work/DUHAMEL_FORMAL_DERIVATIONS_DRAFT_V001.md",
+   "document_sha256": "b28b665b9a4b2b73a18552f0bf90dda54271d13455cf0aadda9ed17344036578",
+   "machine_verifications": {
+    "checks": {
+     "C1_phaseA_generator_affine": {
+      "statement": "d^2 h_lambda(t;a)/da^2 = 0 identically on the sealed A2 form",
+      "pass": true
+     },
+     "C1_fixture_nonaffine_exact": {
+      "d2_forward_entry": "-1/18",
+      "d2_backward_entry": "1/18",
+      "nonzero": true,
+      "pass": true
+     },
+     "FK2_re_c_squared_identity": {
+      "pass": true
+     },
+     "FK2_diagonal_correction_identity": {
+      "pass": true
+     },
+     "FK1_forms_agree": {
+      "pass": true,
+      "note": "ratio and covariance forms have identical numerator over q^2"
+     },
+     "FK3_equals_FK1": {
+      "pass": true
+     },
+     "LADD_drift_term_identity": {
+      "pass": true
+     },
+     "LADD_full_identity": {
+      "pass": true
+     },
+     "LADD_endpoint_identity": {
+      "pass": true
+     },
+     "C2_boundary_history_independence": {
+      "a_ready_injection": "A3 (789338ad...): |ready>=|0> of the qutrit record; built from the c-matrix eigenstructure; carries no A argument (exact inspection)",
+      "b_final_PVM_Qcomp": "A3: P_lambda = spectral projectors of the fixed c matrix; Q_comp built from them; no A dependence (exact inspection)",
+      "c_relay_isometries": "52401eef... (S-section: exact incidence projectors Tr(P_0P_1)=Tr(P_1P_2)=1/4, Tr(P_0P_2)=0, no history argument); 0df721a1... (relay necessity along the exhaustion)",
+      "d_envelope_clause": "A2 (789338ad...): the envelope profile enters only through the scalar v(t) multiplying lambda; A enters only through a*J(t); i_r, PVM, relays are envelope-free (da6d8cc7... 3(3)(d))",
+      "fixture_side": "F-A write operators and record projectors constructed without any theta argument (exact, by construction in the hash-pinned realization)",
+      "pass": true
+     }
+    },
+    "pass": true
+   }
+  }
+ },
+ "named_blocks": [
+  {
+   "block": "F_C_INPUT_BUNDLE_NOT_YET_SEALED",
+   "class": "VICTORY_CLASS_ORDERING_BLOCK (standing, per sealed addendum A2/F2)",
+   "witness": "no Phase-A sealed result bundle exists; this gate forbids a Phase-A production run; the F-C conditioned-crosscheck leg (M3/M5 on the two Phase-A pinned states) runs against the exact sealed bundle hashes once Phase-A production seals"
+  },
+  {
+   "block": "S63B_D5_BASELINE_READING_UNSATISFIABLE_ON_FA",
+   "class": "RETAINED_NAMED_WITNESS (addendum A1)",
+   "witness": "the baseline first-derivative phase Im<X_0,eta> vanishes by exact fixture symmetry; the pinned pair-evaluated reading was executed (Im z_c at (7/100,-11/100) = +3.15031e-4 +- 1.04e-8, excluding zero, sign-flipping exactly under the ordering swap)"
+  }
+ ],
+ "S8_verdict_components": [
+  "T7IV_COMPLETED_CHAIN_FINITE_CONDITIONED_IDENTITY_DERIVED",
+  "T7IV_CONDITIONAL_INTERCHANGE_SCHEMA_SEALED",
+  "LADD_HESSIAN_MIXING_LEMMA_SEALED"
+ ],
+ "S8_scope_note": "verdict components cover every runnable obligation; the F-C leg is the standing victory-class ordering block above (a named block, not a failure); per-obligation outcomes and every enclosure are recorded in this artifact",
+ "S9_frozen_prediction_calibration": {
+  "1_FK_LADD_derive_cleanly": true,
+  "2_C1_C2_derive": true,
+  "3_contact_control_produces_certified_mismatch_at_second_order": true,
+  "4_ghz_blocks_v010_failed_route1_matches_M4_anchors_hold": true,
+  "5_M2_reproduces_anchors_with_factor_4_halving": true,
+  "6_no_false_flag_becomes_true_except_S8_components": true
+ },
+ "attestations": {
+  "no_measured_constants": true,
+  "no_coupling_kappa_record_or_alpha_target_read": true,
+  "no_sealed_or_production_file_modified": true,
+  "no_production_lane_invoked": true,
+  "verifier_commitment_not_read": true,
+  "no_seal_files_emitted": true,
+  "no_result_md_emitted": true,
+  "no_tolerance_widened_in_response_to_any_value": true,
+  "clustering_adoption_not_attempted": true
+ },
+ "protected_status": {
+  "completed_chain_finite_conditioned_identity_derived": true,
+  "conditional_interchange_schema_sealed": true,
+  "additive_hessian_mixing_lemma_sealed": true,
+  "C1_affine_tangent_lemma_derived": true,
+  "C2_boundary_history_independence_lemma_derived": true,
+  "volume_uniform_zero_free_neighborhood_proved": false,
+  "connected_linked_cluster_density_proved": false,
+  "Duhamel_intensive_Hessian_equality_proved": false,
+  "A4_3_erratum_sealed": false,
+  "ER_fork_closed": false,
+  "kappa_record_computed": false,
+  "physical_Thomson_stiffness_computed": false,
+  "coupling_evaluation_authorized": false,
+  "alpha_computed": false,
+  "proof_authorized": false
+ }
+}

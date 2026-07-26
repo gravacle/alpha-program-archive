@@ -1,0 +1,179 @@
+{
+  "artifact": "T07_majorant_phase2_primary_v001",
+  "lane": "MAJORANT_GATE_PHASE2_EXECUTION_LANE",
+  "status": "PHASE2_EXECUTION_REPORT_DRAFT_NOT_SEALED",
+  "date": "2026-07-26",
+  "spec": {
+    "path": "STAGE8_T7_CONNECTED_LINKED_CLUSTER_MAJORANT_DERIVATION_SPEC_V001.md",
+    "sha256": "818083a52165bc5c2ee86bd43e3b7e30d87f5c9eb82e54935e7829bb6f1f84e3",
+    "seal_file_match": true
+  },
+  "amendment_governing": {
+    "path": "STAGE8_T7_D6_SPECS_REPAIR_AMENDMENT_V001.md",
+    "sha256": "60223e6a175c5fee122f253491fd279daccfa15f8771af12104710f57ce09e5d",
+    "seal_file_match": true,
+    "applied_items": ["M-1 W1 comparator (consumed in W1 disposition)", "M-2 pair polydisc (types F4-ENT, O5)", "M-3 per-state throughout", "M-4 (phase-1 discharge stands)", "M-5 NC5 exact witnesses computed", "M-6 fences inherited", "M-7 |w_lambda| tuples", "M-8 (does not fire)", "M-9 W1 fixture honored in the blocked disposition", "M-10 (TT2-E3 consumes epsilon_star only)", "M-11 disclaimer carried verbatim in O4-M1"]
+  },
+  "addendum": {
+    "path": "STAGE8_T7_D6_EXECUTION_ADDENDUM_AND_INTERRUPTION_RECORD_V001.md",
+    "sha256": "d05b115ae9f3c24f00451de089b9c9cc5f3836e6c0ba6cedc81af2eac30ae574",
+    "seal_file_match": true,
+    "A2_F4_entirety_obligation": "DISCHARGED (draft section 3.0, per-state, per finite K)"
+  },
+  "authority_hash_verification": {
+    "spec_table_verified_count": 20,
+    "all_match": true,
+    "drift": "NONE",
+    "nc4_additional_authorities_verified": ["verify_complete_qspec_periodic_analytic_continuation_v003.py 1cd9528b", "derive_complete_qspec_periodic_uniform_zero_free_v001.py cf35fe87", "QSPEC_periodic_uniform_zero_free_theorem_v001.json 048d18a2", "periodic theorem result b54f20ea", "periodic promotion result 50613168"]
+  },
+  "phase1_inputs_verified": {
+    "phase1_json": "T07_majorant_phase1_primary_v001.json (consumed after re-verification of its recorded hashes)",
+    "phase1_proof_draft": {"path": "stage8_execution/work/MAJORANT_LEMMA0_PROOF_DRAFT_V001.md", "sha256": "679ba036b8c6c820a5367ae460f369c8bd6c0e03eb9de395b99e60472e3a7b9c", "match": true},
+    "phase1_verifier_script_sha256": "69f5d8c30b21bd2741bcad39d1e83f846547c49bb2b8fdaf7861ec81ffc844ca",
+    "phase1_verifier_output_sha256": "c742afd8539566338e1ce8457475d8c67282eca23799589a796e667fa2ab6bf1",
+    "phase1_hash_match": true,
+    "lemma0_independent_reverification": "PASS — exact 54-dim two-cell relayed model: telescoping (a), independent-color expansion (b), relay cancellation (c), m0-consistency (d) all exact identities; D-N1 CTP-nested reading CONFIRMED by exact witness (interleaved reading differs by exactly nonzero matrix); phase2_exact_controls.py checks A_*"
+  },
+  "runtime": {
+    "pinned_python": "/Users/bgm/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "version": "3.12.13",
+    "arithmetic": "exact Q(i,sqrt2) via stdlib Fractions; certified outward enclosures (exact-rational Taylor remainders, integer-sqrt outward rounding); NC4 P3 uses the classical IEEE-754 binary64 error model with every decided comparison between exact rationals; floats decide nothing"
+  },
+  "proof_draft": {
+    "path": "stage8_execution/work/MAJORANT_PHASE2_O3_O7_PROOF_DRAFT_V001.md",
+    "sha256": "08b91543fdb72f656c756ca5f8df8233b87eb5487284c7fd2170cba67f7e0e3b",
+    "phase1_drafts_edited": false
+  },
+  "scratch_artifacts": {
+    "directory": "/private/tmp/claude-501/-Users-bgm-MB-Work/578abe61-ea1d-48e6-8fb1-b06509d933a1/scratchpad/majorant_p2/",
+    "phase2_exact_controls.py": "dc4274a1f5074dfcc3ff3976d1468c87989bfe718f34931ed9e8f3bdb5f40a97",
+    "phase2_exact_checks.json": "e7e63fba35af56211b078d84bd8e244dfdf7d9c91ac3bbaf8ee68856eb73c44c",
+    "phase2_exact_checks_pass": "44/44",
+    "nc4_periodic_reproduction.py": "73c039896cd9d95591e893253d161333ac9e833fc2221f4781b09461bae276a0",
+    "nc4_reproduction.json": "8f5ce57a7ea3ede1fefc7870c8d4c0fb110b4012cdd10e80a3d79058232d33b1",
+    "nc4_checks_pass": "35/35",
+    "nc7_transform_grep.py": "7e2ade0fad2219bd37c3029af74795d03bd523291b3aa8d5cd8a27f3bba51d5a",
+    "nc7_grep_result.json": "cb56e4f9510265f2812e7492efc8002f6bfe9d19fb927ef3e2d3455013531982"
+  },
+  "obligations": {
+    "O3_route_T_completion": {
+      "verdict": "NAMED_BLOCKS",
+      "TT1": "constructed (phase 1; F-7 demotion carried, recorded)",
+      "TT2_P0": "certified exact (record tier; phase 1, re-verified)",
+      "TT2_E1": "TT2_E1_BLOCKED_BY_ORDERING_PHASE_A_BUNDLE_ABSENT (victory-class; same class as addendum F2; runs against sealed bundle hashes when Phase-A production seals)",
+      "TT2_E2": "TT2_E2_BLOCKED_BY_ORDERING_PHASE_A_BUNDLE_ABSENT",
+      "TT2_E4": "TT2_E4_BLOCKED_BY_ORDERING_PHASE_A_BUNDLE_ABSENT",
+      "TT2_E3": "BLOCKED upstream on E1 (consumes epsilon_star only, M-10)",
+      "TT3": "TT3_BLOCKED_UPSTREAM_TT2 (conversion template recorded in draft section 2, executable on TT2 certification)",
+      "quantifier": "no TT statement quantifies beyond the pinned skeleton (F-2 respected)"
+    },
+    "O4_route_Q": {
+      "M1": "DERIVED — termwise determinant per record-color pair; compliance citation (i) gate item 9 termwise (4e1282bc); compliance citation (ii) A4 relocation (8a7f52ff); M-11 Duhamel-S10 disclaimer carried verbatim",
+      "M2": "FUNCTIONAL FORM DERIVED (action-density; constants functionals of (||b_D||, tau_R, sea-kernel decay data, |w_lambda|) only, carrier-index-blind by inspection); numeric certification BLOCKED — E1_SEA_KERNEL_ACTION_DENSITY_UNCERTIFIED (the spec's IR sea-kernel arm, confronted head-on)",
+      "M3": "DERIVED AS CONDITIONAL SCHEMA — colored KP at frozen threshold eta <= 1/2; color l1-mass exactly 1 (no new constant); uniformity via R1-R4 + cellulation-blind constants + class-uniform envelope; activation BLOCKED (same named witness)",
+      "M4": "see O5"
+    },
+    "O5_differentiated_series": {
+      "verdict": "DERIVED_AS_CONDITIONAL_SCHEMA_DIRECT",
+      "method": "Duhamel insertion bounds on the entire (F4-ENT) determinant representation; same closed pair polydisc; same form |C|_4 * D_k * eta_k^n with eta_1 = (3/2)eta <= 3/4, eta_2 = (7/4)eta <= 7/8, D_k explicit functionals of the frozen tuple; absorption coefficients outcome-blind exact symbolics",
+      "clause2_never_cited": true,
+      "F4_entirety": "DISCHARGED unconditionally (finite-dimensional Dyson series + adjoint-continued bra branch; draft section 3.0)",
+      "activation": "BLOCKED (E1 named witness)"
+    },
+    "O6_corollaries": {
+      "verdict": "DERIVED_AS_CONDITIONAL_COROLLARIES",
+      "i_intensive_limit": "exists, cellulation-independent across the full D3 quantifier (R1-R4 + monoidal extensivity 451550c3 + cellulation-blind constants); density bounded by Gamma_star = eta/(1-eta) (I3 tuple form)",
+      "ii_subextensive_boundary": "explicit certified rate: |dX|_3 * eta/(1-eta)^2; skeleton surface-to-volume 8/L exact",
+      "iii_derivative_interchange": "stated for T7(iv) consumption (O5 uniform + F4-ENT + Vitali one-variable-at-a-time per amended D-2 discipline)",
+      "activation": "BLOCKED (E1 named witness)"
+    },
+    "O7_refinement_intertwiner": {
+      "verdict": "NOT_DERIVABLE_NAMED_OBSTRUCTION",
+      "obstruction": "O7_OBSTRUCTION_NONPERTURBATIVE_REFINEMENT_NO_SMALL_PARAMETER",
+      "routes_attempted": {
+        "a_exact_intertwiner": "fails: record-tier tensor-power mismatch — leading singular value 3/8 vs (3/8)^k exact for k >= 2; color-sum dimensionality 3 vs 3^k forces non-locality across the refined relay pattern",
+        "b_perturbative_path": "fails: every cell at every depth runs at FULL tau_R; exact phase witness lambda*tau_R in {0,+pi,-pi}, e^{+-i pi} = -1 — each refined cell inserts an O(1) full record cycle; no small parameter exists in the frozen constants tuple; every candidate seam bound reduces to the E1 sea-tier functionals",
+        "c_self_similarity_renormalization": "fails: sea kernel not scale-pinned by any sealed authority (only the |x|^-3 class with unquantified remainder); the would-be renormalization map is equivalent to certified sea-kernel action-density data under refinement — the same infrared bottom"
+      },
+      "prediction_P2": "LANDED — this is the spec's predeclared likely honest outcome, recorded as a victory",
+      "F2_handling": "no silent pinning; no quantifier narrowing anywhere in this lane's artifacts; the SCOPE_RESTRICTED_ESCALATE arm is armed but its predicate (O1-O6 certify on the pinned skeleton) is not yet satisfied because O3/O4 numerics are blocked upstream; escalation to Brian fires without re-derivation the moment the sea tier certifies"
+    },
+    "NC3": {
+      "verdict": "PASS",
+      "named_witness": "NC3_T3_ONLY_ANCHORED_PAIR_SUM_DIVERGES",
+      "content": "exact shell count 24k^2+2; anchored pair sum from t^-3 alone majorizes 24*H_K; exact dyadic-block witness H_{2^m} >= 1+m/2, S(1024) > 144, unbounded; E1/M3 criterion unsatisfiable from t^-3 data alone — reproduces the sealed closure finding (f891d3af)"
+    },
+    "NC4": {
+      "verdict": "PASS",
+      "content": "certified periodic results REPRODUCED for the sealed period-two regulator within certified outward enclosures, no weakening: T0 thresholds re-passed; independent CERTIFIED exact-rational bound ||R0||_2 <= 0.811546629579 < 813/1000 (strengthens the sealed float certificate); analytic chain T1-T4 reproduced to <= 1e-18 of every sealed 80-digit margin with correct outward orientation; both sealed diagnostics reproduced; zero-freeness and uniform thermodynamic density on |z| <= 1/500 re-certified",
+      "checks": "35/35",
+      "fence_note": "all-outcome periodic lineage used ONLY as machinery regression (L2 fence 5, F-3, F-6); cited toward no completed-chain obligation"
+    },
+    "NC5": {
+      "verdict": "PASS_DETECT_AND_REFUSE",
+      "witnesses": {
+        "weight_sum_restoration": "m0' = sum p_lambda = 1 exact vs completed m0 = 0 exact (M-5 exact witness; 'toward' clause void)",
+        "diagonal_unitality_restoration": "erased-advance two-cell diagonal = I exactly; completed diagonal != I exactly"
+      },
+      "refusal_ground": "typed precondition of Lemma 0 (pointer weights, m0 = 0) violated exactly"
+    },
+    "NC6": {
+      "verdict": "PASS_TRAP_EXHIBITED",
+      "construction": "genuine A-with-B common refinement: bisection (16 subcubes) with Freudenthal order-simplex subdivision (24 simplices, volume 1/24 re-derived exactly); Z = 384 cells of volume 1/384; containment and R1 verified exactly (384 * 1/384 = 1)",
+      "witness": "per-cell-constant assignment fails D5 uniformity by exact factor 384 (> 16 of A alone, > 24 of B alone); enclosure [384,384] excludes 1; action-density assignment re-aggregates exactly with no failure"
+    },
+    "NC7": {
+      "verdict": "PASS",
+      "evaluator": "battery-T15-style transform-grep (x, 1/x, x^2, sqrt x, x/(4pi), 4pi x, 2x, x/2 vs both fine-structure targets at 1e-3 relative; assignment scan) over the phase-2 proof draft, both exact scripts, both outputs, and this JSON",
+      "hits": 0,
+      "numeric_inventory": ["exact record data (1/2, 1/4, -1/4, 3/8)", "model witnesses (exact matrix entries over Q(i,sqrt2))", "NC6 exact volumes (1/16, 1/24, 1/384) and factor 384", "NC3 exact harmonic data (24k^2+2, H bounds, 144)", "NC4 reproduced periodic margins (1/500, 813/1000, 0.008021..., 0.8115466..., 0.865330...)", "O5 absorption coefficients (3/2, 7/4, exact symbolics)", "no kappa_record, no alpha, no function of either, no target-adjacent numeric"]
+    },
+    "O9_W1": {
+      "verdict": "TWO_NAMED_BLOCKS_NOT_EVALUABLE",
+      "blocks": ["W1_BLOCKED_BY_ORDERING_PHASE_A_BUNDLE_ABSENT (victory-class; precedent: addendum F2 disposition)", "W1_COMPARATOR_UNCERTIFIED_E1 (comparator |C|_4 eta^2/(1-eta) per M-1 and M-9 fallback pair both consume the unfrozen epsilon_star; the (7/100,-11/100) admissibility predicate epsilon_star >= 11/100 is undecidable and may not be guessed)"],
+      "obligations_preserved": "fixture (M-9), comparator (M-1), and enclosure obligations stand and become executable when the Phase-A bundle seals and the sea tier certifies"
+    }
+  },
+  "overall_verdict_report": {
+    "verdict": "T7III_BLOCKED",
+    "primary_named_witness": "E1_SEA_KERNEL_ACTION_DENSITY_UNCERTIFIED (the spec verdict table's IR sea-kernel arm; witnessed independently by E1, NC3, and O7 routes (b)/(c))",
+    "concurrent_named_blocks": ["TT2_E1/E2/E4_BLOCKED_BY_ORDERING_PHASE_A_BUNDLE_ABSENT", "TT2_E3 and TT3 blocked upstream", "W1 two named blocks"],
+    "standing_record": "O7 obstruction (prediction P2 landing) armed to convert the verdict to T7III_SCOPE_RESTRICTED_ESCALATE — a scope decision for Brian, Axis-3 style — the moment O1-O6 certify on the pinned skeleton; no lane pins the family; no artifact narrows the quantifier",
+    "authority_note": "this is the lane's report only; verdict authority rests with the hashed evaluator and hostile review (F-5); F-8 independent fresh-lane re-derivation required before any seal"
+  },
+  "predictions_assessment": {
+    "P1": "NOT CONFIRMED — Route-T certification blocked upstream (E1; Phase-A ordering); the frozen err-toward-blocks calibration was correct",
+    "P2": "CONFIRMED IN CONTENT — O7 not derivable, obstruction named exactly; escalation predicate awaits skeleton certification",
+    "P3": "NOT DECIDABLE — W1 blocked by ordering",
+    "P4": "CONFIRMED — NC1, NC2 (phase 1), NC4 reproduced, NC5 detectably failed with exact witnesses, NC6 exhibited the trap; NC3 witness named"
+  },
+  "fence_compliance": {
+    "F-1": "no clustering axiom or principle reached for; the KP schema uses only the spec's own frozen threshold and stays conditional",
+    "F-2": "O7 failure handled only by the escalation arm; quantifier never pinned",
+    "F-3": "L2 fences honored; m0 = 0 restatement governs; no exhaustive citation toward completed obligations",
+    "F-4": "no measured constants; every uncertifiable functional named and blocked, never bridged",
+    "F-5": "no in-execution PASS string claims authority",
+    "F-6": "exhaustive/periodic objects appear only inside NC4 as machinery regression and NC1's sealed witness home",
+    "F-7": "demotion carried and recorded in O3",
+    "F-8": "primary lane draft only; independent re-derivation required before any result seals",
+    "production_lane_prohibition": "no derive/comparator/controller production invocation was made against canonical outputs; the NC4 rebuild used the hash-pinned verifier module read-only with all outputs to lane scratch"
+  },
+  "protected_status_unchanged": {
+    "T7III_multicell_composition_and_lift_discharged": false,
+    "lemma0_completed_chain_composition_derived": false,
+    "action_density_activity_form_derived": false,
+    "routeT_skeleton_gap_certified": false,
+    "routeQ_determinant_locality_transport_derived": false,
+    "differentiated_series_uniform_convergence_proved": false,
+    "refinement_intertwiner_derived": false,
+    "epsilon_star_frozen": false,
+    "connected_linked_cluster_density_proved": false,
+    "volume_uniform_zero_free_neighborhood_proved": false,
+    "Duhamel_intensive_Hessian_equality_proved": false,
+    "ER_fork_closed": false,
+    "kappa_record_computed": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

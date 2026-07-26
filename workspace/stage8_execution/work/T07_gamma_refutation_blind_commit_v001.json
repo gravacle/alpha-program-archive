@@ -1,0 +1,553 @@
+{
+  "schema": "gamma_blind_verification_lane_commit_v001",
+  "lane": "GAMMA-GATE BLIND VERIFICATION LANE (fresh context, commitment-first; independent re-derivation)",
+  "date": "2026-07-25",
+  "authorities": {
+    "gate_spec": "STAGE8_T7_GAMMA_REFUTATION_AND_PARITY_LEMMAS_GATE_SPEC_V001.md sha256 5f7e99655cd92935... (verified)",
+    "repair_amendment": "STAGE8_T7_GAMMA_GATE_SPEC_REPAIR_AMENDMENT_V001.md sha256 83ff0d4f818370b2... (verified; overrides)",
+    "hash_pins_verified": {
+      "fixture_spec_2f2aa7f7": true,
+      "fixture_result_76f5505e": true,
+      "fixture_executor_3d8aea1a": true,
+      "route1_canonical_result_6dbda44a": "stage8_execution/work/T07_primitive_operator_response_v001.json",
+      "phaseA_spec_789338ad": "STAGE8_T7_ACTUAL_PARENT_REGULATED_CAR_OPERATOR_RESPONSE_SPEC_V001.md",
+      "envelope_comparison_spec_4059eff5": true,
+      "critical_path_scope_correction_9410ee80": true,
+      "gamma_memo_da6d8cc7": "/Users/bgm/MB Work/alpha_supervision/ROUTE_MEMO_2026-07-25_gamma_record_level_insensitivity.md"
+    },
+    "no_gamma_artifact_under_stage8_execution_or_scripts_read": true
+  },
+  "own_route": {
+    "reduction": "exact 6-dim multiplicity reduction C^12 = C^6 (x) C^2 (alpha_x -> tau_x, S -> tau_y), proved exactly and validated at 1e-15; D_12 = D_6^2, H_12 = 2 H_6",
+    "expansion": "record-interaction picture: u_rec(t) = exp(-i phi Wt) closed form (Wt^2 = projector); Dyson series in the dressed h0 direction, ||h0|| = sqrt3/2; certified tail sum_{k>N}(sqrt3/2)^k/k!  (independent of the primary's pi-tail record-direction route)",
+    "arithmetic": "fixed-point ball arithmetic (208-bit) + rigorous Taylor models (32 centered pieces, degree cap 24); no floating point in any certified bound",
+    "dyson_order": 14,
+    "dyson_tail_bound": "4812150502811607672247421392483463948833452977205/51422017416287688817342786954917203280710495801049370729644032",
+    "lambda0_closed_forms": {
+      "statement": "h0 + aJ = circulant (x) alpha_x family is simultaneously diagonalizable; frozen-sea occupied energies sum to -2 sqrt3 independent of a",
+      "F0": "e^{2 i sqrt3} exactly (both states)",
+      "H0_pure": "0 exactly",
+      "H0_kernel_half": "-1/9 exactly (kernel modes acquire energies +-a/3; det factor cos^4(a/6))"
+    }
+  },
+  "B1_verdict_bed": {
+    "state_convention": "R4(d): fixture Dirac-sea projector, 4-dim kernel EXCLUDED (occupation 0) = verdict state; kernel occupation 1/2 = second emission, agreement not required",
+    "pure_verdict_state": {
+      "F_sqrt2_A": {
+        "re_mid": "-909539075649565567063083239411532926401126042876473296452129/205688069665150755269371147819668813122841983204197482918576128",
+        "im_mid": "2829649334436017386449731032023228314096400037481673887994845/411376139330301510538742295639337626245683966408394965837152256",
+        "rad": "35604816342762142541436342046358324227967871667585/102844034832575377634685573909834406561420991602098741459288064",
+        "re_float": -0.004421934034046052,
+        "im_float": 0.00687849649968162,
+        "rad_float": 3.4620205635382637e-13
+      },
+      "F_sqrt2_B": {
+        "re_mid": "24031634285112988388891373269306930533656535187440523625184073/102844034832575377634685573909834406561420991602098741459288064",
+        "im_mid": "-9573267888256072861441927192844142897937758782602680522100757/205688069665150755269371147819668813122841983204197482918576128",
+        "rad": "1035910813653932625098209378319452044752649294997343/411376139330301510538742295639337626245683966408394965837152256",
+        "re_float": 0.23367066766910896,
+        "im_float": -0.046542650255996104,
+        "rad_float": 2.5181596952617144e-12
+      },
+      "H_sqrt2_A": {
+        "re_mid": "-110847516943764717236803430174618287730528454516276007352777/12855504354071922204335696738729300820177623950262342682411008",
+        "im_mid": "-494083855756904305709429495097462594587145739377244789784973/205688069665150755269371147819668813122841983204197482918576128",
+        "rad": "842136944357082962064983682170725586014244363050913/25711008708143844408671393477458601640355247900524685364822016",
+        "re_float": -0.008622572393175244,
+        "im_float": -0.0024021026429060593,
+        "rad_float": 3.275394419240891e-11
+      },
+      "H_sqrt2_B": {
+        "re_mid": "2363560479292187509766921238628895566007816910919680608053117/205688069665150755269371147819668813122841983204197482918576128",
+        "im_mid": "109365119023163909579793739945139818053994847290832645194519/51422017416287688817342786954917203280710495801049370729644032",
+        "rad": "981335658082437800627851119513091115998166415962019/205688069665150755269371147819668813122841983204197482918576128",
+        "re_float": 0.011490994509987567,
+        "im_float": 0.002126815020457035,
+        "rad_float": 4.7709896819976e-12
+      },
+      "Xi_A": {
+        "re_mid": "14796335931145781663344717383593655391571503069346808467753/411376139330301510538742295639337626245683966408394965837152256",
+        "im_mid": "-26292497898951621284943079215924164345030636574980172695495/411376139330301510538742295639337626245683966408394965837152256",
+        "rad": "48957170643811692665507336004354326405238699104297/102844034832575377634685573909834406561420991602098741459288064",
+        "re_float": 3.596790021714295e-05,
+        "im_float": -6.391352192121402e-05,
+        "rad_float": 4.760331576207736e-13
+      },
+      "Xi_B": {
+        "re_mid": "917828459983202081567557480881834627067363668807011295686759/411376139330301510538742295639337626245683966408394965837152256",
+        "im_mid": "-27890114931913568520607447679830859454678065343963036720443/51422017416287688817342786954917203280710495801049370729644032",
+        "rad": "559159321650275970607692432401326284319740867630617/411376139330301510538742295639337626245683966408394965837152256",
+        "re_float": 0.002231117394113762,
+        "im_float": -0.000542376910383129,
+        "rad_float": 1.359241016167242e-12
+      },
+      "Delta_Xi": {
+        "re_mid": "-451516062026028149952106381749120485837896082868832243609503/205688069665150755269371147819668813122841983204197482918576128",
+        "im_mid": "196828421556356926879916502222722711292393886176724121068049/411376139330301510538742295639337626245683966408394965837152256",
+        "rad": "754988004225522741269721776418743589940695664047805/411376139330301510538742295639337626245683966408394965837152256",
+        "re_float": -0.002195149493896619,
+        "im_float": 0.000478463388461915,
+        "rad_float": 1.8352741737880157e-12
+      },
+      "Re_Delta_Xi_certified_enclosure": [
+        -0.002195149495731893,
+        -0.0021951494920613448
+      ],
+      "Im_Delta_Xi_certified_enclosure": [
+        0.00047846338662664085,
+        0.0004784633902971892
+      ],
+      "Re_sign_certified": "NEGATIVE",
+      "Im_sign_certified": "POSITIVE",
+      "zero_denominator_fence": {
+        "A": {
+          "abs_F_minus_F0_certified_lower": 0.9980176354279667,
+          "passes": true
+        },
+        "B": {
+          "abs_F_minus_F0_certified_lower": 1.212646604299795,
+          "passes": true
+        }
+      },
+      "kappa_A_minus_kappa_B_equals_minus_Re_Delta_Xi": 0.002195149493896619
+    },
+    "kernel_half_second_emission": {
+      "F_sqrt2_A": {
+        "re_mid": "-1635868241880090251437138115862236026670506571974422990290533/205688069665150755269371147819668813122841983204197482918576128",
+        "im_mid": "256891220844564386622992835911279217596670396158160598882111/25711008708143844408671393477458601640355247900524685364822016",
+        "rad": "49277601418610278462832752130685425111268956492093/411376139330301510538742295639337626245683966408394965837152256",
+        "re_float": -0.0079531508295216,
+        "im_float": 0.00999148745040078,
+        "rad_float": 1.1978721347045453e-13
+      },
+      "F_sqrt2_B": {
+        "re_mid": "31593566470129053929800835283347608607836312616671040920389781/205688069665150755269371147819668813122841983204197482918576128",
+        "im_mid": "-404525207044833795234549525190643276422166915857629621824709/12855504354071922204335696738729300820177623950262342682411008",
+        "rad": "186821876026984366020257973631159359163099871367549/205688069665150755269371147819668813122841983204197482918576128",
+        "re_float": 0.15359941158260515,
+        "im_float": -0.03146708179649928,
+        "rad_float": 9.082776474645343e-13
+      },
+      "H_sqrt2_A": {
+        "re_mid": "-1888439584940965828663124052579199042017595107868802935000167/25711008708143844408671393477458601640355247900524685364822016",
+        "im_mid": "13843377121988564617875145182511007927092454726725193734702931/205688069665150755269371147819668813122841983204197482918576128",
+        "rad": "694890616604709583070737020320713124506960286055907/102844034832575377634685573909834406561420991602098741459288064",
+        "re_float": -0.07344867742753365,
+        "im_float": 0.06730277134947518,
+        "rad_float": 6.756742068083526e-12
+      },
+      "H_sqrt2_B": {
+        "re_mid": "914813098548095286686571145228844446465029975907193586131065/51422017416287688817342786954917203280710495801049370729644032",
+        "im_mid": "493736209552084495575367765087969893215138737753319208320463/205688069665150755269371147819668813122841983204197482918576128",
+        "rad": "103656346571005127528921059717310263994496540472693/51422017416287688817342786954917203280710495801049370729644032",
+        "re_float": 0.017790299652038398,
+        "im_float": 0.002400412480684275,
+        "rad_float": 2.0157969636207322e-12
+      },
+      "Xi_A": {
+        "re_mid": "-400881574779760079575069067368690848026099200622489703719237/411376139330301510538742295639337626245683966408394965837152256",
+        "im_mid": "69824370921157913823544432686927032614708142066033449760231/411376139330301510538742295639337626245683966408394965837152256",
+        "rad": "35216766707262721774182644759485903544254530518077/205688069665150755269371147819668813122841983204197482918576128",
+        "re_float": -0.0009744891267451097,
+        "im_float": 0.00016973364336305037,
+        "rad_float": 1.7121443535638088e-13
+      },
+      "Xi_B": {
+        "re_mid": "6618248829053206083483102110379584546154897608892345366190571/411376139330301510538742295639337626245683966408394965837152256",
+        "im_mid": "-96590720638693453548382778296743897389468702972050907971033/12855504354071922204335696738729300820177623950262342682411008",
+        "rad": "223622592794309296112049338381736140791192701914127/411376139330301510538742295639337626245683966408394965837152256",
+        "re_float": 0.016088071709329965,
+        "im_float": -0.0075135691279275855,
+        "rad_float": 5.435964107163702e-13
+      },
+      "Delta_Xi": {
+        "re_mid": "-438695650239560385191135698609267212136312300594677191869363/25711008708143844408671393477458601640355247900524685364822016",
+        "im_mid": "3160727431359348427371793338182731749077706637171662504833287/411376139330301510538742295639337626245683966408394965837152256",
+        "rad": "294056126208834739660414627900707947879701762950281/411376139330301510538742295639337626245683966408394965837152256",
+        "re_float": -0.017062560836075075,
+        "im_float": 0.007683302771290636,
+        "rad_float": 7.148108460727511e-13
+      },
+      "Re_sign_certified": "NEGATIVE",
+      "Im_sign_certified": "POSITIVE",
+      "agrees_in_sign_with_verdict_state": true
+    },
+    "float_cross_check": {
+      "independent_float_route_Delta_Xi_pure": [
+        -0.0021950091799027385,
+        0.00047842610436992406
+      ],
+      "difference_from_certified_mid": "~1.4e-7, consistent with the float lane's O(dt^2) stepping error at 2048 steps; floats inform only"
+    },
+    "P2_calibration_observation": {
+      "J_norm": "1/3 exactly (fixture connection (P+ + P-)/6 (x) alpha_x)",
+      "abs_Delta_Xi_over_J_norm_sq": 0.01975634544506957,
+      "note": "shape coefficient ~2.0e-2: NONZERO (P1 holds) but below the P2 O(1e-1)-O(1) toy-analogy window"
+    }
+  },
+  "B2_comparator": {
+    "claim": "Xi(v_A) = Xi(v_B) = 0 identically on the one-dimensional comparator; any deviation is GATE_BLOCKED per R5",
+    "proof": "on a 1-dim carrier every generator term is a scalar; u_lambda(a) = exp(-i[int h0 + lambda int v m + a int j]) is a pure phase; log D_lambda(a) is LINEAR in a; hence H(lambda) = d^2_a log D = 0 for all lambda, both envelopes, and Xi = F.(H - H0)/(F - F0) = 0 exactly",
+    "zero_denominator": "F_v(sqrt2) - F(0) = e^{-i theta0}(e^{-i sqrt2 m int v} - 1) != 0: envelope A gives e^{-i pi} - 1 = -2; envelope B gives e^{-24 i} - 1 != 0 since 12/pi is not an integer (|e^{-24i} - 1|^2 = 2 - 2 cos24 ~ 1.1516 > 0 certified)",
+    "verdict": "EXACT_ZERO_BOTH_ENVELOPES (degenerate cross-check consistent with R5's pinned expectation)"
+  },
+  "B3_toy": {
+    "assembly": "corrected general-phase form (amendment R3)",
+    "exact_forms": {
+      "kappa_A": "(1 + g^2)/2 with g = sum_{k>=0} (-1)^k pi^{2k}/((2k)! (8k+1)) = 2 int_0^{1/2} cos(16 pi t^4) dt",
+      "kappa_B": "(577 - 576 cos24 - cos^2 24 - 24 sin24)/(1152 (1 - cos24))",
+      "theta_A": "pi (= sqrt2 * tau_R)",
+      "theta_B": "24 (= sqrt2 * 12 sqrt2)"
+    },
+    "kappa_A": {
+      "re_mid": "36359899318783054719575884900307594087066883535442847722688119/51422017416287688817342786954917203280710495801049370729644032",
+      "im_mid": "2078609492569203280348878299357565397839077291199578265902695/205688069665150755269371147819668813122841983204197482918576128",
+      "rad": "12204695133521673518568800890546995707134793/205688069665150755269371147819668813122841983204197482918576128",
+      "re_float": 0.7070881530071246,
+      "im_float": 0.010105639553879178,
+      "rad_float": 5.933594084183039e-20
+    },
+    "kappa_A_independent_series_route": {
+      "re_mid": "145439597275132218878325108897946619897608510728011144205008103/205688069665150755269371147819668813122841983204197482918576128",
+      "im_mid": "0",
+      "rad": "39/205688069665150755269371147819668813122841983204197482918576128",
+      "re_float": 0.7070881530071246,
+      "im_float": 0.0,
+      "rad_float": 1.8960749674733166e-61
+    },
+    "kappa_B": {
+      "re_mid": "109837490043593235645004576519168630518900234043517108365611917/205688069665150755269371147819668813122841983204197482918576128",
+      "im_mid": "165863556892301114186970082816089755116768155896799442475596109/205688069665150755269371147819668813122841983204197482918576128",
+      "rad": "18811088729779477807707760275501579928898276572275/205688069665150755269371147819668813122841983204197482918576128",
+      "re_float": 0.5340002957993764,
+      "im_float": 0.8063839442040472,
+      "rad_float": 9.145444731142128e-14
+    },
+    "kappa_B_independent_closed_route": {
+      "re_mid": "219674980087186460757971178709913609153339327822156174336217661/411376139330301510538742295639337626245683966408394965837152256",
+      "im_mid": "0",
+      "rad": "1067/411376139330301510538742295639337626245683966408394965837152256",
+      "re_float": 0.5340002957993764,
+      "im_float": 0.0,
+      "rad_float": 2.5937333208897805e-60
+    },
+    "kappa_difference": {
+      "re_mid": "35602107231538983233298963082061745829367300098254282525140559/205688069665150755269371147819668813122841983204197482918576128",
+      "im_mid": "-81892473699865955453310602258366094859464539302799932104846707/102844034832575377634685573909834406561420991602098741459288064",
+      "rad": "4702775233618652832345319711075617618973495926767/51422017416287688817342786954917203280710495801049370729644032",
+      "re_float": 0.17308785720774822,
+      "im_float": -0.7962783046501681,
+      "rad_float": 9.145450664736212e-14
+    },
+    "Delta_Xi_toy": {
+      "re_mid": "-17801053615769491616649481541030872914683650049127141262570279/102844034832575377634685573909834406561420991602098741459288064",
+      "im_mid": "327569894799463821813242409033464379437858157211199728419386831/411376139330301510538742295639337626245683966408394965837152256",
+      "rad": "9405550467237305664690639422151235237946991853535/102844034832575377634685573909834406561420991602098741459288064",
+      "re_float": -0.17308785720774822,
+      "im_float": 0.7962783046501681,
+      "rad_float": 9.145450664736212e-14
+    },
+    "Phi_A": {
+      "re_mid": "10648890610639210310904491422848992446711635634918162357866103/51422017416287688817342786954917203280710495801049370729644032",
+      "im_mid": "2078609492569203280348878299357565397839077291199578265902695/205688069665150755269371147819668813122841983204197482918576128",
+      "rad": "12204695133521673518568800890546995707134777/205688069665150755269371147819668813122841983204197482918576128",
+      "re_float": 0.20708815300712458,
+      "im_float": 0.010105639553879178,
+      "rad_float": 5.933594084183039e-20
+    },
+    "Phi_B": {
+      "re_mid": "146422796509393838096011884175098038492145594385473002948907/205688069665150755269371147819668813122841983204197482918576128",
+      "im_mid": "4353753542632883314736529536587498133860309118488845918706407/205688069665150755269371147819668813122841983204197482918576128",
+      "rad": "687332503507328783231875394504847544375474084481/25711008708143844408671393477458601640355247900524685364822016",
+      "re_float": 0.0007118682028946179,
+      "im_float": 0.02116677719675508,
+      "rad_float": 2.6733004189354087e-14
+    },
+    "control5_kappa_A_neq_kappa_B_certified": true,
+    "R5_identity_check": "kappa_A - kappa_B + Re Delta_Xi_toy = 0 verified at 5e-63"
+  },
+  "controls": {
+    "lambda_odd_exact_zero_R2_table": {
+      "weights": "w~(lambda) = lambda/4: (-1/(2 sqrt2), 0, +1/(2 sqrt2)) on (-sqrt2, 0, +sqrt2)",
+      "fixture_env_A": 1.8526854844795106e-18,
+      "fixture_env_B": 2.5018537765542006e-17,
+      "hermite_n2_ell1": {
+        "A": {
+          "pure": 1.0007415106216802e-16,
+          "mixed": 0.0
+        },
+        "B": {
+          "pure": 1.2412670766236366e-16,
+          "mixed": 0.0
+        }
+      },
+      "threshold": "1e-14 (gate spec A3)",
+      "pass": true
+    },
+    "broken_Px_control_R6": {
+      "unbroken_Zprime0_pure": 1.676859480936123e-13,
+      "unbroken_Zprime0_mixed": 0.0,
+      "broken_Zprime0_pure": 2.2591401799415136e-13,
+      "broken_Zprime0_mixed": 3.2779503904111125e-14,
+      "floors": "broken >= 1e-9 AND unbroken <= 1e-12 (R6)",
+      "unbroken_floor_pass": true,
+      "broken_floor_pass": false,
+      "FINDING_control_unsatisfiable_as_pinned": {
+        "Px_breaking_is_real": {
+          "L2_conjugation_residual_broken_carrier": 1.562501110809799e-06,
+          "BD_odd_part_relative_norm": 0.1377770612846559
+        },
+        "protecting_symmetry": {
+          "operator": "Theta = (I (x) alpha_y) o complex-conjugation",
+          "generator_identity_residual": 0.0,
+          "propagator_identity_residual": 1.8267997925292136e-15,
+          "state_invariance_pure": 1.5550018315709312e-15,
+          "state_invariance_mixed": 4.095385580555044e-17,
+          "statement": "Theta h_lambda(t;a) Theta^-1 = h_lambda(t;-a) for ANY real symmetric B_D (including the displaced one); with the time-symmetric pulse (v(1-t)=v(t), b_D(1-t)=b_D(t)) this forces u_lambda(-a) = Theta u_lambda(a)^+ Theta^-1 and hence D_lambda(-a) = D_lambda(a) exactly, so Z'(0) = 0 even with P_x broken: the pinned x0 displacement cannot reach the R6 broken floor."
+        },
+        "consequence": "the predeclared x0 = 1/10 displacement breaks P_x but NOT the antiunitary Theta = (I (x) alpha_y) o K; with the time-symmetric pulse this still forces Z'(0) = 0 exactly, so the R6 broken floor |Z'(0)| >= 1e-9 cannot be met by ANY conforming implementation. Under the frozen verdict rule a control failure maps to GATE_BLOCKED; this lane reports the failure as an apparatus/spec-design fact (the a-parity of Z is doubly protected), not as evidence about Delta_Xi."
+      }
+    },
+    "envelope_sensitivity_context_control1": {
+      "fixture_D_sqrt2_env_movement_a0": 0.2440120297966518,
+      "hermite_D_sqrt2_env_movement_a0": {
+        "pure": 0.12298040095170543,
+        "mixed": 0.011339286103268153
+      },
+      "not_annihilated": true
+    }
+  },
+  "parity_lemmas": {
+    "symbolic_gamma_level": {
+      "all_identities_exact": true,
+      "checks": [
+        "PASS  gamma5_squared_is_I",
+        "PASS  S_hermitian",
+        "PASS  S_squared_is_I",
+        "PASS  S_alpha_x_anticommute",
+        "PASS  L1_T_hermitian",
+        "PASS  L1_T_involution",
+        "PASS  L1_[gamma5,alpha_x]=0",
+        "PASS  L1_[gamma5,alpha_y]=0",
+        "PASS  L1_[gamma5,alpha_z]=0",
+        "PASS  L1_T_S_T_=_-S",
+        "PASS  R1_Tp_hermitian",
+        "PASS  R1_Tp_involution_squared_is_+I",
+        "PASS  L2_Tp_alpha_x_Tp_=_-alpha_x",
+        "PASS  L2_Tp_alpha_y_Tp_=_+alpha_y",
+        "PASS  L2_Tp_alpha_z_Tp_=_+alpha_z",
+        "PASS  L2_Tp_S_Tp_=_+S",
+        "PASS  L2_Tp_gamma5_anticommute(structural)",
+        "PASS  unamended_gamma1_squared_is_minus_I(defect_confirmed)",
+        "PASS  fixture_R_involution",
+        "PASS  fixture_R_P+_R_=_P-",
+        "PASS  fixture_R_D0_R_=_-D0",
+        "PASS  fixture_R_fixes_mask_diag110",
+        "PASS  fixture_R_fixes_hop",
+        "PASS  fixture_h0_hermitian",
+        "PASS  fixture_[T,h0]=0",
+        "PASS  fixture_T(MxS)T_=_-(MxS)",
+        "PASS  fixture_TJT_=_+J",
+        "PASS  fixture_Tp_involution",
+        "PASS  fixture_Tp_hermitian",
+        "PASS  fixture_[Tp,h0]=0",
+        "PASS  fixture_Tp(MxS)Tp_=_+(MxS)",
+        "PASS  fixture_TpJTp_=_-J",
+        "PASS  hermite_n2_PxpPx_=_-p_structure",
+        "PASS  hermite_n2_Px_commutes_diag",
+        "PASS  hermite_n4_PxpPx_=_-p_structure",
+        "PASS  hermite_n4_Px_commutes_diag",
+        "PASS  reduction_[Sigma_x,alpha_x]=0",
+        "PASS  reduction_[Sigma_x,S]=0",
+        "PASS  reduction_[Sigma_x,gamma5]=0",
+        "PASS  reduction_[Sigma_x,i_gamma1]=0",
+        "PASS  reduction_alpha_x_to_tau_x",
+        "PASS  reduction_S_to_tau_y",
+        "PASS  reduction_igamma1_to_minus_tau_y",
+        "PASS  A3_c_hermitian",
+        "PASS  A3_c_cubed_=_2c",
+        "PASS  A3_trace_c_=_0",
+        "PASS  A3_trace_c2_=_4",
+        "PASS  A3_c2_10_=_-1",
+        "PASS  A3_c_10_=_0",
+        "PASS  A3_c2_00_=_1",
+        "PASS  A3_c_00_=_0",
+        "PASS  A3_m2_=_-1",
+        "PASS  R2_lambda_odd_moments"
+      ]
+    },
+    "amended_T_prime": "T' = P_x (x) (i gamma^1): Hermitian, T'^2 = +I (R1 verified exactly); unamended gamma^1 alone squares to -I (defect confirmed exactly)",
+    "fixture_T_prime": "(ring reflection j -> 1-j) (x) (i gamma^1): R P+- R = P-+, R D0 R = -D0, mask diag(1,1,0) and hop fixed (R4(c) verified exactly)",
+    "residual_tables": {
+      "fixture": [
+        {
+          "bed": "fixture",
+          "envelope": "A",
+          "a": 0.07,
+          "L1_u_conjugation_residual": 3.167758201383274e-15,
+          "L2_u_conjugation_residual": 8.516737614137645e-15,
+          "L1_D_equality_pure": 5.485677294651096e-18,
+          "L1_D_equality_kernel_half": 1.734723475976807e-18,
+          "L2_D_equality_pure": 1.939479807224432e-18,
+          "L2_D_equality_kernel_half": 1.3211260394454924e-17
+        },
+        {
+          "bed": "fixture",
+          "envelope": "A",
+          "a": 0.13,
+          "L1_u_conjugation_residual": 3.2036222153067405e-15,
+          "L2_u_conjugation_residual": 1.026694132841451e-14,
+          "L1_D_equality_pure": 7.152448122690996e-18,
+          "L1_D_equality_kernel_half": 8.673617379884035e-18,
+          "L2_D_equality_pure": 1.939479807224432e-18,
+          "L2_D_equality_kernel_half": 1.011508913927959e-17
+        },
+        {
+          "bed": "fixture",
+          "envelope": "B",
+          "a": 0.07,
+          "L1_u_conjugation_residual": 3.460924038013942e-15,
+          "L2_u_conjugation_residual": 7.559960109708797e-15,
+          "L1_D_equality_pure": 6.834017936133213e-17,
+          "L1_D_equality_kernel_half": 1.1295700899707568e-16,
+          "L2_D_equality_pure": 2.8609792490763984e-17,
+          "L2_D_equality_kernel_half": 2.7755575615628914e-17
+        },
+        {
+          "bed": "fixture",
+          "envelope": "B",
+          "a": 0.13,
+          "L1_u_conjugation_residual": 3.1943193979961287e-15,
+          "L2_u_conjugation_residual": 7.979793060109605e-15,
+          "L1_D_equality_pure": 1.1443916996305594e-16,
+          "L1_D_equality_kernel_half": 8.121767085755589e-17,
+          "L2_D_equality_pure": 5.928593550334434e-17,
+          "L2_D_equality_kernel_half": 5.551115123125783e-17
+        }
+      ],
+      "fixture_state_invariance": {
+        "T_state_pure": 1.3758825115384668e-15,
+        "T_state_kernel_half": 1.4067225123266948e-15,
+        "Tp_state_pure": 9.936241361317448e-16,
+        "Tp_state_kernel_half": 9.283226458617518e-16,
+        "T_kernel_proj": 1.2967869961301421e-15,
+        "Tp_kernel_proj": 1.2453482974187147e-15
+      },
+      "hermite": [
+        {
+          "bed": "hermite_n2_ell1.0000",
+          "envelope": "A",
+          "a": 0.07,
+          "L1_u_conjugation_residual": 9.816569051196412e-16,
+          "L2_u_conjugation_residual": 9.8186782346342e-16,
+          "L1_D_equality_pure": 2.482534153247273e-16,
+          "L1_D_equality_mixed": 0.0,
+          "L2_D_equality_pure": 4.440892098500626e-16,
+          "L2_D_equality_mixed": 0.0
+        },
+        {
+          "bed": "hermite_n2_ell1.0000",
+          "envelope": "A",
+          "a": 0.13,
+          "L1_u_conjugation_residual": 6.292829871354899e-16,
+          "L2_u_conjugation_residual": 6.294122363132611e-16,
+          "L1_D_equality_pure": 7.021666937153402e-16,
+          "L1_D_equality_mixed": 0.0,
+          "L2_D_equality_pure": 9.485749680535094e-16,
+          "L2_D_equality_mixed": 0.0
+        },
+        {
+          "bed": "hermite_n2_ell1.0000",
+          "envelope": "B",
+          "a": 0.07,
+          "L1_u_conjugation_residual": 1.4025131335642785e-15,
+          "L2_u_conjugation_residual": 1.4032517693422187e-15,
+          "L1_D_equality_pure": 4.002966042486721e-16,
+          "L1_D_equality_mixed": 0.0,
+          "L2_D_equality_pure": 6.473657049138938e-16,
+          "L2_D_equality_mixed": 0.0
+        },
+        {
+          "bed": "hermite_n2_ell1.0000",
+          "envelope": "B",
+          "a": 0.13,
+          "L1_u_conjugation_residual": 1.1174300064088932e-15,
+          "L2_u_conjugation_residual": 1.118351640157386e-15,
+          "L1_D_equality_pure": 2.220446049250313e-16,
+          "L1_D_equality_mixed": 0.0,
+          "L2_D_equality_pure": 2.482534153247273e-16,
+          "L2_D_equality_mixed": 0.0
+        },
+        {
+          "bed": "hermite_n2_ell1.4142",
+          "envelope": "A",
+          "a": 0.07,
+          "L1_u_conjugation_residual": 1.4239267103704724e-15,
+          "L2_u_conjugation_residual": 1.4241305222951218e-15,
+          "L1_D_equality_pure": 8.671119018262734e-16,
+          "L1_D_equality_mixed": 0.0,
+          "L2_D_equality_pure": 9.155133597044475e-16,
+          "L2_D_equality_mixed": 0.0
+        },
+        {
+          "bed": "hermite_n2_ell1.4142",
+          "envelope": "A",
+          "a": 0.13,
+          "L1_u_conjugation_residual": 7.899645549021564e-16,
+          "L2_u_conjugation_residual": 7.900513085187606e-16,
+          "L1_D_equality_pure": 1.1322097734007351e-15,
+          "L1_D_equality_mixed": 0.0,
+          "L2_D_equality_pure": 5.551115123125783e-16,
+          "L2_D_equality_mixed": 0.0
+        },
+        {
+          "bed": "hermite_n2_ell1.4142",
+          "envelope": "B",
+          "a": 0.07,
+          "L1_u_conjugation_residual": 1.486446999596167e-15,
+          "L2_u_conjugation_residual": 1.4864848323519393e-15,
+          "L1_D_equality_pure": 7.850462293418876e-16,
+          "L1_D_equality_mixed": 0.0,
+          "L2_D_equality_pure": 4.47545209131181e-16,
+          "L2_D_equality_mixed": 0.0
+        },
+        {
+          "bed": "hermite_n2_ell1.4142",
+          "envelope": "B",
+          "a": 0.13,
+          "L1_u_conjugation_residual": 1.4459970083963266e-15,
+          "L2_u_conjugation_residual": 1.4460349583143571e-15,
+          "L1_D_equality_pure": 4.710277376051325e-16,
+          "L1_D_equality_mixed": 0.0,
+          "L2_D_equality_pure": 1.1226435567921847e-15,
+          "L2_D_equality_mixed": 0.0
+        }
+      ],
+      "hermite_state_invariance_ell1": {
+        "T_state_pure": 1.566643440035937e-15,
+        "T_state_mixed": 0.0,
+        "Tp_state_pure": 1.6030848531589412e-15,
+        "Tp_state_mixed": 3.998317862895426e-17
+      },
+      "hermite_state_invariance_ell_sqrt2": {
+        "T_state_pure": 1.7595507364378444e-15,
+        "T_state_mixed": 0.0,
+        "Tp_state_pure": 1.7012099868529553e-15,
+        "Tp_state_mixed": 3.998317862895426e-17
+      },
+      "threshold": "1e-12 (A2)",
+      "max_u_conjugation_residual": 1.026694132841451e-14,
+      "pass": true
+    },
+    "apparatus_note": "LAPACK eigh-based step exponentials break conjugation equivariance at 7.9e-9 on one near-degenerate step (ell = sqrt2, envelope A, t ~ 0.057, cluster split 4.7e-7); a scaling-squaring exponential restores exact equivariance (residual 0.0 per step, 1.4e-15 full run). Eigensolver artifact, not a lemma violation; flagged for the primary lane."
+  },
+  "verdict": {
+    "computation_arm": "GAMMA_REFUTED_NONZERO",
+    "basis": "Re[Delta_Xi] certified NEGATIVE on B1 (verdict state, kernel-excluded Dirac sea), enclosure [-2.195149495731893e-03, -2.195149492061345e-03]; B2 exact zero as pinned; B3 difference certified; lambda-odd and unbroken-Z'(0) controls pass",
+    "control_caveat": "control 4 (broken-P_x) CANNOT meet its R6 floor as pinned (Theta-protection, proved); by the letter of the frozen rule this is a control failure => GATE_BLOCKED unless the principal adjudicates the control void as ill-posed. This lane therefore reports: computation => GAMMA_REFUTED_NONZERO; gate letter => GATE_BLOCKED(control-4 design); escalation to the principal required.",
+    "prediction_record": "P1 (NONZERO) confirmed by this lane's computation; P2 magnitude window missed (shape coefficient ~2e-2 < O(1e-1))",
+    "no_ER_selection": "this lane selects neither ER-A nor ER-B; the sign of Delta_Xi is a refutation datum only",
+    "no_measured_constants": true,
+    "floating_point_decided_nothing": true
+  }
+}
