@@ -42,6 +42,7 @@ be widened relative to the lane's instinct rather than narrowed.
 | 07-26 | Duhamel S9.1–S9.5 (identities derive cleanly; contact control bites at 2nd order; GHZ blocks; anchors hold) | ALL HELD | outcome-class: HIT |
 | 07-26 | Control-4 v3 S3(b) unbroken ≤1e-18 (ceiling 1e-12) | HIT (certified ≤1.11e-13; exact ≤3.6e-23) | magnitude: HIT |
 | 07-26 | Control-4 v3 S3(c) structural (5 predictions) | 4 of 5 HELD; same-slot occupancy failed (the support mismatch) | outcome-class: mostly HIT |
+| 07-26 | P-L1: the 1/N^2 signature holds AND the factor-4 drop is observed | **PARTIAL** — signature held (every ladder series at least second order, min 3.6959), but the factor-4 drop appeared on only 4 of 8 series; the `all` kernels ran 6.40-6.96, faster than predicted | outcome-class: HIT / magnitude clause: MISS |
 | 07-26 | Control-4 v3 S3(a) broken magnitude, central 1e-6, window 1e-8..1e-4 | **MISS** — null (≤2.27e-11 certified; exact ~1e-21). Cause: the pinned DIRECTION was trace-orthogonal to the detector (L5), not a magnitude-model error. POST HOC and NOT CREDITED: the same model on the supported direction gives 4.57e-6, inside the window. | magnitude: MISS (3rd consecutive) |
 
 ## Independent-system prediction set (Codex; tracked SEPARATELY from this lane's)
