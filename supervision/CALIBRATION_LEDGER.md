@@ -33,6 +33,9 @@ be widened relative to the lane's instinct rather than narrowed.
 | 07-26 | Majorant P2: O7 refinement-intertwiner is the honest block; overall SCOPE_RESTRICTED-class | LANDED on the predicted obligation, with an exact refuting witness | outcome-class: HIT (strongest to date) |
 | 07-26 | Majorant P3/P4 (W1 inside bound; controls behave) | Controls HELD (NC3–NC7 all pass); W1 blocked by ordering | partial |
 | 07-26 | Duhamel S9.1–S9.5 (identities derive cleanly; contact control bites at 2nd order; GHZ blocks; anchors hold) | ALL HELD | outcome-class: HIT |
+| 07-26 | Control-4 v3 S3(b) unbroken ≤1e-18 (ceiling 1e-12) | HIT (certified ≤1.11e-13; exact ≤3.6e-23) | magnitude: HIT |
+| 07-26 | Control-4 v3 S3(c) structural (5 predictions) | 4 of 5 HELD; same-slot occupancy failed (the support mismatch) | outcome-class: mostly HIT |
+| 07-26 | Control-4 v3 S3(a) broken magnitude, central 1e-6, window 1e-8..1e-4 | **MISS** — null (≤2.27e-11 certified; exact ~1e-21). Cause: the pinned DIRECTION was trace-orthogonal to the detector (L5), not a magnitude-model error. POST HOC and NOT CREDITED: the same model on the supported direction gives 4.57e-6, inside the window. | magnitude: MISS (3rd consecutive) |
 
 ## Earlier inherited calibration (prior supervision lane, for continuity)
 
