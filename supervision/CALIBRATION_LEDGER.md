@@ -48,6 +48,13 @@ restated on the corrected algebra. Recorded before any E1 execution.
 | P-C2 | IR-A's n≥2 leg DOWNGRADED from likely-survivor to open-block candidate | open |
 | P-C3 | Route-Q / O7 independence unchanged (now triple-confirmed) | HELD so far |
 | P-C4 | SCAD right for the n=1 side but does NOT repair the n≥2 cross term | open |
+| P-C5 | Cross-term lemma: honest split (no universal zero identity; certification only via a propagation-bridge bound) | **LANDED** |
+| P-C6 | Q6: no uniform raw adjacency-degree bound exists on full D3 | **LANDED** (with an explicit star-refinement construction) |
+
+Running assessment of the independent-system family: P-C3 held, P-C5 and
+P-C6 landed with constructions. Two consecutive cycles in which its
+predictions held while this lane's magnitude and route-survival
+predictions did not. Weight it accordingly when the two disagree.
 
 Note for later scoring: P-C2 is a prediction AGAINST this lane's earlier
 IR-A optimism, and P-C1 predicts a block where this lane's spec predicted
