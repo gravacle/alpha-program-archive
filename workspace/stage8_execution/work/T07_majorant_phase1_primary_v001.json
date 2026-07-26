@@ -1,0 +1,164 @@
+{
+  "artifact": "T07_majorant_phase1_primary_v001",
+  "lane": "MAJORANT_GATE_PHASE1_EXECUTION_LANE",
+  "status": "PHASE1_PARTIAL_EXECUTION_REPORT_DRAFT_NOT_SEALED",
+  "date": "2026-07-25",
+  "spec": {
+    "path": "STAGE8_T7_CONNECTED_LINKED_CLUSTER_MAJORANT_DERIVATION_SPEC_V001.md",
+    "sha256": "818083a52165bc5c2ee86bd43e3b7e30d87f5c9eb82e54935e7829bb6f1f84e3",
+    "seal_file_match": true
+  },
+  "amendment_governing": {
+    "path": "STAGE8_T7_D6_SPECS_REPAIR_AMENDMENT_V001.md",
+    "sha256": "60223e6a175c5fee122f253491fd279daccfa15f8771af12104710f57ce09e5d",
+    "seal_file_match": true,
+    "applied_items": ["M-1(noted, W1 out of phase)", "M-2 pair polydisc", "M-3 per-state", "M-4 poset induction", "M-5(noted, NC5 out of phase)", "M-6 fences", "M-7 |w_lambda|=p_lambda verified", "M-8 monotonicity witness does not fire", "M-9(noted, W1 out of phase)", "M-10 O3 consumes epsilon_star only", "M-11(noted, O4 out of phase)"]
+  },
+  "authority_hash_verification": {
+    "verified_count": 20,
+    "all_match": true,
+    "drift": "NONE",
+    "method": "shasum -a 256 against the spec table; spec and amendment .seal.sha256 files also matched"
+  },
+  "runtime": {
+    "pinned_python": "/Users/bgm/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "version": "3.12.13",
+    "arithmetic": "exact Q(i,sqrt2) via stdlib Fractions; certified outward enclosures for transcendentals; floats decide nothing"
+  },
+  "exact_verifier": {
+    "script": "scratchpad/majorant_p1/verify_phase1_exact.py",
+    "script_sha256": "69f5d8c30b21bd2741bcad39d1e83f846547c49bb2b8fdaf7861ec81ffc844ca",
+    "output_sha256": "c742afd8539566338e1ce8457475d8c67282eca23799589a796e667fa2ab6bf1",
+    "checks_pass": "29/29"
+  },
+  "proof_draft": {
+    "path": "stage8_execution/work/MAJORANT_LEMMA0_PROOF_DRAFT_V001.md",
+    "sha256": "679ba036b8c6c820a5367ae460f369c8bd6c0e03eb9de395b99e60472e3a7b9c"
+  },
+  "exact_record_spectral_data": {
+    "basis": ["ready=|0>", "pointer=|1>", "|2>"],
+    "spectrum": ["0", "+sqrt2", "-sqrt2"],
+    "projector_forms": {"P_0": "I - c^2/2", "P_+": "(c^2 + sqrt2*c)/4", "P_-": "(c^2 - sqrt2*c)/4"},
+    "p_lambda": ["1/2", "1/4", "1/4"],
+    "w_lambda": ["1/2", "-1/4", "-1/4"],
+    "m0": "0 (exact; D1 restatement respected)",
+    "sum_p": "1",
+    "abs_w_equals_p": true,
+    "sum_abs_w": "1",
+    "norm_w_sq": "3/8"
+  },
+  "obligations": {
+    "O1_lemma0": {
+      "verdict": "DERIVED_IN_DRAFT",
+      "statement": "K_pointer^(K)(a) = relay-ordered prod_c K_pointer^(c)(a_c); R_comp^(K) = sum over per-cell independent color pairs with product weights prod_c w_mu_c^* w_lambda_c of a single second quantization of the CTP-nested one-particle string",
+      "components": {
+        "i_relay_CTP_cancellation": "PROVED (only R_c^dagger R_c = I used; sealed relay-necessity O2)",
+        "ii_independent_color_pairs": "PROVED (tensor-form ready-root supply; H-IND discharged structurally)",
+        "iii_m0_zero_respected": "PROVED (no unitality anchor anywhere; chain weight sum = m0^N = 0 exact)"
+      },
+      "notational_determination": "D-N1: the R_comp display's prod_c is forced to the CTP-nested reading by the sealed definition of the LHS; interleaved reading refuted for causally comparable cells by the sealed non-commutation witness (relayed-family ||U1U0-U0U1||_F^2=288); readings coincide on pairwise disjoint cells; flagged for hostile review, candidate name O1_DISPLAY_ORDER_AMBIGUITY if the reviewer rejects the determination",
+      "blocker_disposition": "T7III_MULTICELL_COMPOSITION_AND_LIFT: composition-identity component discharged at draft level pending F-8 independent re-derivation; O5/O6 components remain open (out of phase scope); blocker NOT closed as a whole; no protected flag changed"
+    },
+    "O2_action_density_and_reaggregation": {
+      "verdict": "DERIVED_IN_DRAFT",
+      "construction": "Ursell/Moebius activities per-state (M-3); exact finite Moebius identity; connectivity support via sealed monoidal extensivity + Lemma 0; action-density mechanism via in-cell diamond-supported Duhamel insertions with scale-invariant ||b_D^(c)||_inf = 1",
+      "reaggregation": "Lemmas R1 (exact 4-volume re-partition, Lebesgue additivity on polyhedral cells), R2 (insertion-domain additivity), R3 (bound re-aggregation without loss, cellulation-blind eta), Proposition R4 (induction over the FULL common-refinement poset; explicit M-4 closure: reachability of every A-with-B common refinement by |X| elementary steps from either parent, order-independent)"
+    },
+    "E1_eta_and_epsilon_star": {
+      "verdict": "PARTIAL_WITH_NAMED_BLOCK",
+      "eta_functional": "eta(eps) = (2 eps ||b_D|| K_sea / b_0) * exp(1 + T_R + 2 eps ||b_D|| K_sea)",
+      "certified_ingredients": {
+        "norm_bD_inf": "1 (exact; 4t(1-t) = 1-(2t-1)^2 identity; scale-covariant, all cells)",
+        "tau_R": "pi/sqrt(2) (sealed)",
+        "p_lambda": ["1/2", "1/4", "1/4"],
+        "weight_l1_sum_squared": "1 (exact)",
+        "envelope_class": "int v_A = tau_R exact; int v_B = 24 tau_R/pi; class-uniform V_env = 24 tau_R/pi with 24/pi > 1 certified outward (pi < 4 derived)",
+        "monotonicity": "eta strictly increasing, exact-symbolic; ETA_MONOTONICITY_UNCERTIFIED does NOT fire (M-8)"
+      },
+      "named_block": {
+        "name": "E1_SEA_KERNEL_ACTION_DENSITY_UNCERTIFIED",
+        "maps_to": "the spec verdict table's IR sea-kernel witness arm",
+        "uncertified_functionals": ["K_sea (sea-kernel action-density constant)", "T_R (full-record baseline trace norm)", "b_0 (single-cell completed baseline modulus; H-B-adjacent quantitative floor)"],
+        "grounds": ["sealed corpus pins only the decay class (|x|^-3; A_D(t)=i/(6 pi t^3)+o(t^-3))", "|x|^-3 not locally integrable in R^3; naive trace-density bound log-diverges; continuum operator not trace class; finite-carrier value is carrier-dependent and forbidden by spec-header scoping", "rescue requires certified oscillatory/PV or CTP-difference structure; no sealed authority supplies it; inventing an enclosure = measured constant, forbidden by F-4"],
+        "epsilon_star": "NOT FROZEN in Phase 1; NOT EPSILON_STAR_VACUOUS (no certified grid evaluation was possible)",
+        "conditional_grid_rule_preserved": "2^(-k+1) K exp(1 + T + 2^(-k+1) K) <= b/2, decidable exactly given certified (K, T, b); certified outward exp enclosure self-tested (e in [2, 2.72] by exact Taylor remainder)"
+      }
+    },
+    "O3_route_T_attempt": {
+      "verdict": "TT1_CONSTRUCTED_DEMOTED__TT2_PARTIAL",
+      "F7_demotion_recorded": "no Phase-A regulated-CAR production bundle exists in stage8_execution/work at execution time; TT1 is the anchored transfer operator of the ABSTRACT SEALED FORM (recorded, not silent)",
+      "TT1": {
+        "skeleton": "pinned hypercubic fixture, slab decomposition; within-slab disjoint cells commute exactly (sealed)",
+        "operator": "T_a[X] = K_slab(a_-)^dagger X K_slab(a_+); K_slab = prod_{c in slab} sum_lambda w_lambda Gamma(u_lambda^(c)(a_c)); anchor a=0",
+        "exact_representation": {
+          "record_weights": ["1/2", "-1/4", "-1/4"],
+          "colors": ["0", "+sqrt2", "-sqrt2"],
+          "color_pairs_per_cell": 9,
+          "cross_cell_structure": "independent (Lemma 0(b))",
+          "one_particle_symbols": "sealed A1/A2 generators h_0 + lambda v(t) M(t) tensor S + a J(t); envelope class {v_A, v_B}"
+        }
+      },
+      "TT2": {
+        "name": "TT2_PARTIAL_AWAITING_REPRESENTATION",
+        "certified_partial": {
+          "TT2-P0": "record-weight factor W = w_bar w^T exactly rank one (all 2x2 minors vanish identically); leading singular value 3/8 exact, remainder exactly 0; record-tier isolation exact; explicitly NOT the TT2 certificate"
+        },
+        "uncertified": ["TT2-E1 leading-direction enclosure", "TT2-E2 invariant-graph contraction bound", "TT2-E4 leading-coefficient lower bound"],
+        "blocked_upstream": ["TT2-E3 history-disk radius (consumes epsilon_star only per M-10; blocked on E1 named block)"]
+      },
+      "TT3": "not attempted (depends on TT2)"
+    },
+    "NC1_GHZ_refusal": {
+      "verdict": "PASS",
+      "refusal_ground_cited": "H-IND and only H-IND",
+      "witnesses": {
+        "cross_cell_correlation_matrix": [["1/4", "-1/4"], ["-1/4", "1/4"]],
+        "max_modulus_enclosure": "[1/4, 1/4] excludes zero",
+        "schmidt_witness": "product of squared Schmidt coefficients = 1/4 != 0 => rank 2 => not tensor-form ready-root supply"
+      },
+      "notes": "structural gate fires BEFORE any amplitude evaluation; GHZ amplitude/zeros quoted only from the sealed closure result; exhaustive companion never consumed (F-6)"
+    },
+    "NC2_correlated_color": {
+      "verdict": "PASS_DETECTABLE_FAILURE",
+      "witnesses": {
+        "weight_sum": "independent chain m0^2 = 0 vs shared-color sum w^2 = 3/8; difference enclosure [3/8, 3/8] excludes zero",
+        "elementwise": "W_shared(0,0) - W_indep(0,0) = 1/4 exact",
+        "factorization_obstruction": "w_bar w^T exactly rank one vs diag(w) principal 2x2 minor = -1/8 != 0 exact => no per-cell factorization exists"
+      }
+    },
+    "out_of_phase": ["O4", "O5", "O6", "O7", "NC3", "NC4", "NC5", "NC6", "NC7-evaluator-run", "O9/W1"]
+  },
+  "fence_compliance": {
+    "F-1": "no clustering principle reached for",
+    "F-2": "quantifier never pinned; O7 untouched",
+    "F-3": "L2 fences honored; m0=0 restatement governs; no exhaustive citation toward completed obligations",
+    "F-4": "no measured constants; blocked rather than invented",
+    "F-5": "no in-execution PASS string claims authority",
+    "F-6": "exhaustive object appears only as sealed NC1 witness home",
+    "F-7": "demotion recorded in O3",
+    "F-8": "primary draft only; independent re-derivation required before any seal"
+  },
+  "nc7_numeric_inventory": ["exact record data (1/2, 1/4, -1/4, 3/8, -1/8)", "||b_D||=1", "envelope integrals (tau_R, 24 tau_R/pi symbolic)", "control witnesses (1/4, 3/8, -1/8)", "TT2-P0 value 3/8", "no kappa_record, no alpha, no target-adjacent numeric"],
+  "predictions_check": {
+    "P1": "not decidable this phase (TT2 partial; epsilon_star blocked)",
+    "P4_NC1": "confirmed", "P4_NC2": "confirmed"
+  },
+  "protected_status_unchanged": {
+    "T7III_multicell_composition_and_lift_discharged": false,
+    "lemma0_completed_chain_composition_derived": false,
+    "action_density_activity_form_derived": false,
+    "routeT_skeleton_gap_certified": false,
+    "routeQ_determinant_locality_transport_derived": false,
+    "differentiated_series_uniform_convergence_proved": false,
+    "refinement_intertwiner_derived": false,
+    "epsilon_star_frozen": false,
+    "connected_linked_cluster_density_proved": false,
+    "volume_uniform_zero_free_neighborhood_proved": false,
+    "Duhamel_intensive_Hessian_equality_proved": false,
+    "ER_fork_closed": false,
+    "kappa_record_computed": false,
+    "coupling_evaluation_authorized": false,
+    "alpha_computed": false,
+    "proof_authorized": false
+  }
+}

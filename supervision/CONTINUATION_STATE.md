@@ -411,3 +411,54 @@ THEORY LANES (both memos recorded in alpha_supervision/):
 Archive anchor chain today: ecc3867 -> 1ec83f3 -> cc4603c -> fee17c7 ->
 1cd6bc2 -> a5cecce -> e8ba253 -> ac8b575 -> 1880be7 -> (manifest v003
 pending push). gh CLI stays on mulconrey (Brian's standing direction).
+
+## AUTONOMOUS WINDOW SUMMARY (2026-07-26, Brian away ~7h) — full ledger
+
+D0 COMPLETE: mechanical rule sealed (real-component end-to-end tests;
+preconditions before irreversible actions; superseded chains unlaunchable);
+v005 cycle closed B1/M1/M2/m4 (live-probed); REAL-CHAIN STARTABILITY
+PREFLIGHT_OK (8 preconditions, frozen order, zero writes) — production
+pipeline STARTABLE for the first time, gated only by reviewer verdict +
+Brian's typed authorization; rule-3 residual (superseded v002-v004 chains
+still launchable) honestly dispositioned — QUARANTINE PROPOSAL AWAITING
+BRIAN (STAGE8_T7_SUPERSEDED_CHAIN_DISARM_DISPOSITION_V001); manifest v004
+sealed 187a0435; M3 verification transcripts sealed; m4-m6 corrections
+sealed. D1: L2 freeze sealed pre-window (A4(3) erratum PROPOSED, awaiting
+Brian). D5: L1 assessment sealed (constitutive of T7(iii); named blocker
+added). D2/D3: gamma gate spec hostile-reviewed NOT_READY -> repair
+amendment; BLIND lane returned CERTIFIED Re[Delta_Xi] < 0 excluding zero by
+9 orders (kappa_A - kappa_B = +2.195e-3 on the fixture; P1 confirmed; P2
+missed honestly at 2.0e-2); DISCOVERY: antiunitary Theta = (I x alpha_y)K +
+time-symmetric pulse doubly protects a-parity -> control-4 repair sealed;
+PRIMARY lane killed by session limit (resets 23:30 CT) — re-runs fresh;
+blind commitment stands; parity lemmas (now three) seal on gate completion.
+D4: beta artifact pending the gate verdict. D6: BOTH specs sealed
+(majorant: Route H, completed chain, E1, O7-cliff prediction; Duhamel:
+FK-1/2/3 + L-ADD with six exact anchors, (H1)/(H2) named inputs); joint
+hostile review NOT_READY x2 + I3 MISMATCH — ALL displayed math survived
+rederivation; defects were frozen-criteria/typing ((H1) delta
+undischargeable, (H2)(ii) counterexample, W1 tail factor) -> combined
+repair amendment sealed (pair polydisc, per-K zero-freeness, product-set
+Vitali, N4 := |X|4, I3 tuple V002); EXECUTION: Duhamel INDEPENDENT
+VERIFIER completed — everything runnable PASSES (six exact anchors;
+conditioned F-A crosscheck: H_att = -0.0426 < 0 vs g_D,c = +0.00845 > 0,
+the diagonal correction dominating — the predicted completed-chain
+structural departure, giving the wrong-form control real teeth; M2 sealed
+anchors reproduced to all figures; independent schema proof confirms the
+D-2 repair); MAJORANT PHASE-1: LEMMA 0 DERIVED IN DRAFT (composition
+component of the named blocker, pending independent re-derivation; D-N1
+notational determination flagged), O2 in draft, 29/29 exact checks;
+Duhamel PRIMARY killed by session limit — re-runs fresh, verifier
+commitment stands. D-5 reading pinned pair-evaluated; F2 = victory-class
+ordering block (F-C waits on Phase-A production). All transcripts sealed
+same-cycle. Anchor chain (this window): bda63cf .. a55cac1 .. (final
+push pending).
+
+AWAITING BRIAN (queue on return): (1) reviewer relay of the v005 package +
+re-audit; (2) typed production authorization after reviewer GO; (3)
+superseded-chain quarantine authorization; (4) A4(3) erratum sign-off;
+(5) gamma-gate Re/Im-corner rule ratification (sealed amendment maps the
+corner to GATE_BLOCKED_PENDING_PRINCIPAL); (6) beta artifact lands after
+the re-run gamma gate completes. RELAUNCH AFTER 23:30 CT RESET: gamma
+primary, Duhamel primary (both fresh from sealed texts; blind/verifier
+commitments stand).
