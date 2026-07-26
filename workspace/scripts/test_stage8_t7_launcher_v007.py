@@ -1,26 +1,33 @@
 #!/usr/bin/env python3
-"""Fixture-only tests for the v005 content-addressed runtime launcher.
+"""Fixture-only tests for the v007 (generation-G7) runtime launcher.
 
 Never touches the canonical workspace: every mutable fixture lives in a
 temporary directory (scratchpad when STAGE8_T7_TEST_SCRATCH is set). The
 canonical launcher and runtime manifest are only ever read.
 
-v005 ports the v004 suite repointed to the v007 launcher (including the
+Ported from the v006 suite and repointed to launcher v007, keeping the
 READ-ONCE A/B/A swap-resistance test and the subprocess self-echo
-attestation test, now echoing through this file) and ADDS the Blocking-2
-regression fence mandated by the v004 external re-audit
-(EXTERNAL_REAUDIT_2026-07-26_fable_v004_return.md) under the sealed
-standing discipline STAGE8_REAL_COMPONENT_PRECONDITION_DISCIPLINE_V001
-rule 1 (the REAL launcher module's allowlist is asserted, not a copy):
+attestation test, under the sealed standing discipline
+STAGE8_REAL_COMPONENT_PRECONDITION_DISCIPLINE_V001 rule 1 (the REAL
+launcher module's ALLOWED_TARGETS is asserted, never a copy of it).  The
+allowlist fence at this generation asserts:
 
-- the controller-v005 row (run_stage8_t7_actual_parent_car_pipeline_
-  v005.py) MUST be present (the row whose absence in the v004 launcher
-  was Blocking B1);
-- NO controller or comparator row of ANY earlier generation
-  (v001/v002/v003/v004) may remain (Blocking B2: superseded chains must
-  be unlaunchable mechanically);
-- the allowlist must equal the frozen v005 interface-contract row set
-  exactly (nothing else may be launchable).
+- the controller-v007 and comparator-v006 rows MUST be present (the row
+  class whose absence was Blocking B1 two generations running);
+- the allowlist must equal the frozen eleven-row generation-G7 contract
+  set EXACTLY, so a foreign-generation row cannot be added silently;
+- NO controller or comparator row of ANY earlier generation may remain --
+  and the v005/v006 legs are the strong form: those files EXIST at their
+  canonical paths (they are not quarantined), so a block there proves the
+  allowlist, not mere absence, does the work;
+- the quarantined v003/v004 entry points must still be absent from their
+  canonical paths, and their surviving quarantine copies must still block.
+
+WHAT THIS SUITE DOES NOT CLAIM (discipline rule 4): it says nothing about
+whether launcher v005 or v006 can still launch their own chains -- they
+can.  What stops those chains from producing artifacts is the
+directory-permission write fence, driven by the controller-v007 suite and
+by the no-stub rehearsal, not by anything in this file.
 """
 
 from __future__ import annotations
@@ -49,33 +56,76 @@ EXPECTED_MANIFEST_SHA256 = (
 )
 ECHO_ENVIRONMENT_KEY = "STAGE8_T7_LAUNCHER_TEST_ECHO_ATTESTATION"
 
-# The frozen v005 interface-contract allowlist: the nine launchable rows
-# of the ten-file v005 implementation set (the tenth file is the launcher
-# itself, which is not a launch target; its self-test is the --selftest
-# flag, which requires no allowlist row).
+# The frozen generation-G7 interface-contract allowlist: the eleven
+# launchable rows of the twelve-row G7 implementation set (the twelfth is
+# the launcher itself, which is not a launch target; its self-test is the
+# --selftest flag, which requires no allowlist row).
 EXPECTED_ALLOWED_TARGETS = frozenset(
     {
         "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_"
         "primary_v002.py",
         "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_"
         "independent_v002.py",
-        "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
-        "v005.py",
-        "scripts/run_stage8_t7_actual_parent_car_pipeline_v005.py",
-        "scripts/run_stage8_t7_actual_parent_car_pipeline_v006.py",
-        "scripts/test_compare_stage8_t7_actual_parent_regulated_car_operator_"
-        "response_v005.py",
-        "scripts/test_stage8_t7_controller_v005.py",
-        "scripts/test_stage8_t7_controller_v006.py",
-        "scripts/test_stage8_t7_launcher_v005.py",
-        "scripts/test_stage8_t7_launcher_v007.py",
         "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_"
         "primary_v002.py",
         "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_"
         "independent_v002.py",
+        "scripts/run_stage8_t7_actual_parent_car_pipeline_v007.py",
+        "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+        "v006.py",
+        "scripts/test_stage8_t7_controller_v007.py",
+        "scripts/test_stage8_t7_launcher_v007.py",
+        "scripts/test_compare_stage8_t7_actual_parent_regulated_car_operator_"
+        "response_v006.py",
+        "scripts/test_stage8_t7_real_chain_rehearsal_v001.py",
+        "scripts/build_stage8_t7_actual_parent_car_implementation_manifest_"
+        "v006.py",
     }
 )
-SUPERSEDED_GENERATIONS = ("v001", "v002", "v003", "v004")
+# Every controller generation this launcher must refuse.
+SUPERSEDED_CONTROLLERS = (
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v001.py",
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v002.py",
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v003.py",
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v004.py",
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v005.py",
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v006.py",
+)
+# Every comparator generation this launcher must refuse.
+SUPERSEDED_COMPARATORS = (
+    "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+    "v001.py",
+    "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+    "v002.py",
+    "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+    "v003.py",
+    "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+    "v004.py",
+    "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+    "v005.py",
+)
+# Quarantined entry points: absent from the canonical paths, present under
+# scripts/superseded_quarantine/, and blocked either way.
+QUARANTINED_ENTRY_POINTS = (
+    "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+    "v003.py",
+    "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+    "v004.py",
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v003.py",
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v004.py",
+)
+# NOT quarantined: these exist at their canonical paths, so a block proves
+# the allowlist -- not absence -- refuses them.
+PRESENT_BUT_REFUSED = (
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v005.py",
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v006.py",
+    "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+    "v005.py",
+    "scripts/run_stage8_t7_actual_parent_car_pipeline_v002.py",
+    "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_"
+    "v002.py",
+    "scripts/launch_stage8_t7_content_addressed_runtime_v006.py",
+)
 
 
 def require(condition: bool, message: str) -> None:
@@ -131,51 +181,54 @@ def test_allowlist_regression_fence() -> None:
     so only the allowlist can block them)."""
     module = load_launcher_module()
 
-    # B1 repair: the current-generation controller row is present.
-    require(
-        "scripts/run_stage8_t7_actual_parent_car_pipeline_v006.py"
-        in module.ALLOWED_TARGETS,
-        "controller-v006 row is absent from the v006 launcher allowlist "
-        "(the B1 defect class)",
-    )
+    # B1 repair at this generation: the G7 controller and comparator rows
+    # are present.  Their absence was Blocking B1 in two prior cycles.
+    for present in (
+        "scripts/run_stage8_t7_actual_parent_car_pipeline_v007.py",
+        "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_"
+        "response_v006.py",
+    ):
+        require(
+            present in module.ALLOWED_TARGETS,
+            f"generation-G7 row is absent from the v007 launcher allowlist "
+            f"(the B1 defect class): {present}",
+        )
 
-    # B2 fence: no controller or comparator row of ANY earlier generation.
-    for generation in SUPERSEDED_GENERATIONS:
-        for stale in (
-            f"scripts/run_stage8_t7_actual_parent_car_pipeline_{generation}.py",
-            "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_"
-            f"response_{generation}.py",
-        ):
-            require(
-                stale not in module.ALLOWED_TARGETS,
-                f"superseded chain remains armed: {stale}",
-            )
+    # B2 fence: NO controller or comparator row of any earlier generation.
+    for stale in SUPERSEDED_CONTROLLERS + SUPERSEDED_COMPARATORS:
+        require(
+            stale not in module.ALLOWED_TARGETS,
+            f"superseded chain remains armed: {stale}",
+        )
 
     # Frozen interface contract: the allowlist is EXACTLY the contract set.
     require(
         module.ALLOWED_TARGETS == EXPECTED_ALLOWED_TARGETS,
-        "v006 allowlist differs from the frozen interface-contract row set: "
-        f"extra={sorted(module.ALLOWED_TARGETS - EXPECTED_ALLOWED_TARGETS)} "
+        "v007 allowlist differs from the frozen generation-G7 contract row "
+        f"set: extra={sorted(module.ALLOWED_TARGETS - EXPECTED_ALLOWED_TARGETS)} "
         f"missing={sorted(EXPECTED_ALLOWED_TARGETS - module.ALLOWED_TARGETS)}",
     )
 
-    # The negative legs drive the REAL resolve_target against the REAL
-    # canonical workspace: the superseded files exist, so a block proves
-    # the allowlist (not absence) is doing the work.
-    # Post-quarantine form (Brian-authorized disarm, quarantine manifest
+    # STRONG NEGATIVE LEG: these files EXIST at their canonical paths (they
+    # are not quarantined), so a block proves the allowlist, not absence,
+    # refuses them.
+    for value in PRESENT_BUT_REFUSED:
+        require(
+            (ROOT / value).is_file(),
+            f"regression-fence precondition: {value} should exist on disk",
+        )
+        expect_block(
+            lambda v=value: module.resolve_target(v),
+            "not allowlisted",
+            f"present-but-superseded target must block: {value}",
+        )
+
+    # QUARANTINE LEG (Brian-authorized disarm, quarantine manifest
     # provenance/stage8_t7_superseded_chain_quarantine_manifest_v001.json):
-    # the superseded entry points no longer exist at their CANONICAL paths
+    # the v003/v004 entry points no longer exist at their CANONICAL paths
     # (asserted), and their surviving quarantine copies — which DO exist on
-    # disk — are blocked by the allowlist, so the fence still proves that
-    # the allowlist, not mere absence, does the work.
-    for stale in (
-        "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_"
-        "response_v003.py",
-        "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_"
-        "response_v004.py",
-        "scripts/run_stage8_t7_actual_parent_car_pipeline_v003.py",
-        "scripts/run_stage8_t7_actual_parent_car_pipeline_v004.py",
-    ):
+    # disk — are blocked by the allowlist.
+    for stale in QUARANTINED_ENTRY_POINTS:
         require(
             not (ROOT / stale).exists(),
             f"quarantine regression: {stale} reappeared at its canonical path",

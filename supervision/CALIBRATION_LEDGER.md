@@ -51,8 +51,10 @@ restated on the corrected algebra. Recorded before any E1 execution.
 | P-C5 | Cross-term lemma: honest split (no universal zero identity; certification only via a propagation-bridge bound) | **LANDED** |
 | P-C6 | Q6: no uniform raw adjacency-degree bound exists on full D3 | **LANDED** (with an explicit star-refinement construction) |
 
-Running assessment of the independent-system family: P-C3 held, P-C5 and
-P-C6 landed with constructions. Two consecutive cycles in which its
+| P-C7 | Arm-2 C(ii): decay morally present from the free kernel after smooth time integration, but object-level uniform certification over D3 open absent a sealed profile/transversality/projection-tail lemma | **LANDED VERBATIM** |
+
+Running assessment of the independent-system family: P-C3 held, P-C5, P-C6
+and P-C7 landed with constructions — THREE CONSECUTIVE CYCLES. Two consecutive cycles in which its
 predictions held while this lane's magnitude and route-survival
 predictions did not. Weight it accordingly when the two disagree.
 
