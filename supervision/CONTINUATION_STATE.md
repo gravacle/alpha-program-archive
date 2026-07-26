@@ -353,3 +353,61 @@ trust anchor -> production through controller v002 ONLY (independent lane
 first; receipts signed; comparator v002). Route both Codex checkpoints per
 NEW_LANE_BOOTSTRAP (T7-discharge+battery pre-evaluator review; Stage-10
 response-normalization spec) through Brian when reached.
+
+## EVENING/NIGHT CYCLE (2026-07-25) — external audits, repairs, ER gate closed
+
+EXTERNAL AUDIT LOOP (Fable reviewer lane via Brian, different model family):
+v002 audit found 2 BLOCKING (lineage gate authenticated attacker-declared
+pieces — repair binding V001's R2 claim FALSIFIED by sealed erratum;
+transport unitary unpinned). GPG requirement superseded by principal
+decision (key passphrase unrecoverable, pre-production): per-artifact
+anchoring + recorded typed authorization + public repo w/ force-push
+protection. Repair binding V002 sealed pre-authoring -> v003 files (piece
+authenticity: comparator reconstructs ALL generator pieces from sealed spec
+text, 3rd implementation, frozen tolerances 2e-15/2e-11/5e-11) ->
+verification with surrogate mandate: auditor's exploit + 3 fresh variants
+ALL BLOCK; honest control passes; reconstruction cross-checked 1.7e-18.
+Re-audit returned NO-GO with tight list: FIX 1 manifest-binding wedge ->
+bridge amendment sealed pre-authoring (comparator-side bridge, derive-lane
+pedigree preserved); FIX 2 untested production oracle -> real-oracle
+strengthened-surrogate test (blocks specifically on M/B quadrature);
+RE-SCOPE anchoring claims + push pre-flight; R1 verification transcript
+sealed; R2 quadrature-rule-vs-operator scope recorded; R3 midpoint
+narrowing recorded. v004 files authored; launcher-allowlist wedge caught by
+verification pre-production -> sealed supplement -> launcher v004; ALL
+suites green through launcher v004; focused re-verify V004_READY (2
+entailed scope items flagged for reviewer sign-off). Implementation
+manifest v003 sealed (3ff8e081…). AWAITING: reviewer re-audit sign-off ->
+Brian's recorded typed authorization -> Phase-A production (per-lane:
+independent -> anchor -> primary -> anchor -> comparison -> anchor).
+
+ER FORK (Brian's option-2 scope decision): insensitivity gate V001 spec
+NOT_READY by hostile review (3 blocking — incl. this lane's own arithmetic
+error; calibration note recorded, pre-seal double-computation now
+mandatory); V002 + narrowing binding sealed; EXECUTED by two-lane protocol
+(primary + commitment-first blind): verdict ER_FORK_NOT_RESOLVED_AT_FINITE_
+LANE_PRECISION, all frozen predictions held, blind agreement ~9 orders
+inside budgets. STRUCTURAL OBSERVATION (both lanes independently): the
+completed-record three-history sum cancels connection curvature to ~1e-13
+(individual histories ~1e-10) — near-zero kappa-proxy curvature at a=0 is
+structural. Result sealed. FOLLOW-UP FORK WITH BRIAN: (alpha) battery-grade
+enclosure gate on the envelope difference, or (beta) carry ER-A disclosed
+with conditionality stated on every downstream headline.
+
+THEORY LANES (both memos recorded in alpha_supervision/):
+- Duhamel/Hessian: item 5 decomposes — finite-K identity H_K = g_{D,K}
+  (C1/C2 lemmas) + conditional Vitali-Cauchy interchange schema provable
+  NOW, zero adoptions; instantiation parked behind Phase-A/B + relay chain.
+- Linked-cluster majorant: Route H recommended (transfer-operator gap on
+  pinned skeleton + determinant-locality transport); Lemma 0 (multi-cell
+  composition identity) is every route's first obligation; GHZ control's
+  discriminating hypothesis identified (independent record colors vs
+  correlated-color limit). THREE SCOPE FLAGS FOR BRIAN: clustering-principle
+  adoption = Brian only; refinement-intertwiner failure -> cellulation
+  pinning is an Axis-3-style scope decision for Brian; spec-header choices
+  (carrier-index uniformity; envelope-profile-class constants for ER
+  robustness).
+
+Archive anchor chain today: ecc3867 -> 1ec83f3 -> cc4603c -> fee17c7 ->
+1cd6bc2 -> a5cecce -> e8ba253 -> ac8b575 -> 1880be7 -> (manifest v003
+pending push). gh CLI stays on mulconrey (Brian's standing direction).
