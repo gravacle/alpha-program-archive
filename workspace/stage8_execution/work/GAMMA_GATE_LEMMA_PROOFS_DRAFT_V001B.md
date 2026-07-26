@@ -206,7 +206,7 @@ both v2 breakings active, Z'(0) remains numerically exact zero:
 tangent-accumulation |Z'(0)| <= 8.8e-21 over all (ell, envelope, state)
 cases, finite-difference cross-check consistent with zero at <= 2e-13.
 The broken floor |Z'(0)| >= 1e-9 is therefore not met; the unbroken floor
-(<= 1e-12) passes everywhere (max 3.1e-22).
+(<= 1e-12) passes everywhere (max 3.0e-22).
 
 **Characterization.** Define the linear transpose-type map
 tau(X) = Omega X^T Omega^{-1} with Omega = I (x) alpha_y (equivalently the
@@ -293,11 +293,20 @@ occurred.
 ## B3 corrected toy assembly (amendment R3)
 
 theta = sqrt2 sigma(1): theta_A = pi, theta_B = 24 exactly. kappa =
-Jbar^2 Re{[1 - 2 e^{-i theta} Phi(sqrt2)]/[1 - e^{-i theta}]}. Exact
+Jbar^2 Re{[1 - 2 e^{-i theta} Phi(sqrt2)]/[1 - e^{-i theta}]}. For the
+envelope-A phase the exact reflection identity phi(1-t) = 2 pi - phi(t)
+(from phi(1) = 2 sqrt2 sigma_A(1) = 2 pi exactly and r(1-t) = r(t))
+reduces Phi_A to left-piece objects only:
+Phi_A = 2 Phi_LL + g(1/2)^2 with Phi_LL = int_{0<s<t<1/2} e^{i phi(t)}
+e^{-i phi(s)} and g(1/2) = int_0^{1/2} e^{-i phi}; the left phase
+16 pi t^4 is a single monomial, so its certified exponential series is
+well-conditioned (series truncated at 60 terms, sup tail
+pi^61/61!). Exact
 identity: [1 - 2 e^{-i theta} Phi] = [1 - e^{-i theta}] +
 [e^{-i theta}(1 - 2 Phi)], and Xi_toy(v) = Jbar^2 e^{-i theta}
 (1 - 2 Phi)/(e^{-i theta} - 1), hence kappa_v = Jbar^2 - Re Xi_toy(v)
 and kappa_A - kappa_B = -Re[Delta_Xi_toy] EXACTLY (the amendment's
 Re/Im-corner identity). Numerical values and certified enclosures are in
-the primary JSON (kappa_A = 0.70709…, kappa_B = 0.53401…, difference
-certified nonzero), matching the expected 0.7071 / 0.5340.
+the primary JSON (kappa_A = 0.7070882 +- 3.6e-11 certified,
+kappa_B = 0.5340003 exact closed form, difference 0.1730879 certified
+nonzero), matching the expected 0.7071 / 0.5340.
