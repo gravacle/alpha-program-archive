@@ -462,3 +462,32 @@ corner to GATE_BLOCKED_PENDING_PRINCIPAL); (6) beta artifact lands after
 the re-run gamma gate completes. RELAUNCH AFTER 23:30 CT RESET: gamma
 primary, Duhamel primary (both fresh from sealed texts; blind/verifier
 commitments stand).
+
+## 2026-07-26 (post-reset): batch audit + disarm + provenance corrections
+
+BATCH AUDIT (23 raised / 7 confirmed / 16 refuted): physics artifacts all
+survived attack ("in better shape than the pipeline"). DISARM AUTHORIZED
+AND EXECUTED: 11 superseded entry points quarantined (bytes preserved,
+manifest dc41d278, seven fail-closed invocation probes, zero artifacts).
+GAMMA BLIND COMMITMENT rescued from /tmp, sealed fde6e29e + anchored
+BEFORE any primary output exists (honest relocation record incl. the
+ordering deviation); reviewer position of record: gamma NOT established
+refuted-by-computation until they accept the chain; standing rule — a
+commitment in a scratchpad is not a commitment. Discipline RULE 4 sealed
+(docstring claims are checkable). Controller v006 binding sealed +
+authoring lane running (hoist all four provenance conditions; M-a/b/c).
+
+OPERATIONAL (Brian's directives, sealed): artifacts via Write/Edit tools
+only, never shell redirects (STAGE8_OPERATIONAL_DISCIPLINE_WRITE_TOOL_
+NOTE_V001). MODEL EXCURSION recorded (STAGE8_LANE_MODEL_EXCURSION_
+RECORD_V001): the custody note said Opus 4.8, but the lane switched to
+FABLE 5 immediately after its first action — every artifact incl. the
+custody note itself was Fable-5-produced, all subagents inherited Fable 5,
+and the reviewer's earlier "cross-family" independence claim was not true
+at the time (withdrawn of record; findings stand on verified content;
+mechanical layer was in force throughout). Topology NOW: construction =
+Fable 5, reviewer = Opus 5. USAGE: Fable at ~80%, resets Thu 07-30 13:00
+CT, no fallback — small sealed increments, state-recording prioritized
+near the limit. Production remains prohibited (both gates absent).
+IN FLIGHT: 4-lane resume wave (gamma primary + blind c4 top-up, Duhamel
+primary, majorant phase 2) + controller v006 author.
