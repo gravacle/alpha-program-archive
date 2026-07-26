@@ -81,7 +81,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTROLLER_SOURCE = ROOT / "scripts/run_stage8_t7_actual_parent_car_pipeline_v006.py"
-REAL_LAUNCHER = ROOT / "scripts/launch_stage8_t7_content_addressed_runtime_v005.py"
+REAL_LAUNCHER = ROOT / "scripts/launch_stage8_t7_content_addressed_runtime_v006.py"
 PINNED_PYTHON = Path(
     "/Users/bgm/.cache/codex-runtimes/"
     "codex-primary-runtime/dependencies/python/bin/python3"
@@ -94,7 +94,7 @@ RECEIPT_SCHEMA = "stage8_t7_local_sealed_execution_receipt_v003"
 ARCHIVE_PATH_LITERAL = "/Users/bgm/MB Work/alpha-program-archive"
 
 CONTROLLER_RELATIVE = "scripts/run_stage8_t7_actual_parent_car_pipeline_v006.py"
-LAUNCHER_RELATIVE = "scripts/launch_stage8_t7_content_addressed_runtime_v005.py"
+LAUNCHER_RELATIVE = "scripts/launch_stage8_t7_content_addressed_runtime_v006.py"
 # NAMED GAP 1: launcher v005's frozen allowlist carries no v006 controller
 # row; the fixture-root real-chain test launches the REAL v006 controller
 # bytes under this allowlisted name (byte-identical content, real launcher,
@@ -127,7 +127,7 @@ TEST_ROWS = (
     "independent_v002.py",
     "scripts/test_compare_stage8_t7_actual_parent_regulated_car_operator_"
     "response_v005.py",
-    "scripts/test_stage8_t7_launcher_v005.py",
+    "scripts/test_stage8_t7_launcher_v006.py",
     "scripts/test_stage8_t7_controller_v006.py",
 )
 REQUIRED_ROWS = (

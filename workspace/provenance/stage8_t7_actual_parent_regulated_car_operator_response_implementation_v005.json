@@ -1,0 +1,49 @@
+{
+  "alpha_computed": false,
+  "description": "Implementation authority v005 for the Route-2 Phase-A production pipeline (v006 controller/launcher + comparator v005 + byte-frozen v002 derive lanes). Authorized by STAGE8_T7_CONTROLLER_V006_REPAIR_BINDING_V001 and its SUPPLEMENT_V001, closing external-audit BLOCKING 3 (all four bundle/receipt provenance conditions hoisted into the comparison pre-flight) and MAJORs M-a/M-b (lane preconditions hoisted) and M-c (startability-test teeth restored). Superseded chains are mechanically unlaunchable via the Brian-authorized quarantine (provenance/stage8_t7_superseded_chain_quarantine_manifest_v001.json). No GPG (superseded); authority = external anchoring + recorded principal authorization. Production remains prohibited pending the reviewer verdict and Brian's recorded typed authorization.",
+  "files": [
+    {
+      "path": "scripts/run_stage8_t7_actual_parent_car_pipeline_v006.py",
+      "sha256": "f7d14dc39e87187d21a40ef7377f432a03b9addbe1eb8cba1c5716a1660f7293"
+    },
+    {
+      "path": "scripts/launch_stage8_t7_content_addressed_runtime_v006.py",
+      "sha256": "2b7bd64ab233bb41153ccf9396fc15a360b2c2ea9c9328932103e072ccd273fe"
+    },
+    {
+      "path": "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_v005.py",
+      "sha256": "6682a268e6b9390908e8733c3d9da0dc55c956d6fdee1893bed1c60e3e4b1d1f"
+    },
+    {
+      "path": "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_primary_v002.py",
+      "sha256": "402d3e988037fa47cb152da793884ebb373840a6b5ac9f62c342f6958c57e810"
+    },
+    {
+      "path": "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_independent_v002.py",
+      "sha256": "1098168c47e59ae7eec7eb49030b23d11fba48d0ea0d2905b406353dede08437"
+    },
+    {
+      "path": "scripts/test_compare_stage8_t7_actual_parent_regulated_car_operator_response_v005.py",
+      "sha256": "92c0aeb00fb8b827750bd07cf240c9f66a91f5cd41f154b03d2dbc5c99c5e4b8"
+    },
+    {
+      "path": "scripts/test_stage8_t7_launcher_v006.py",
+      "sha256": "f93f178280236376304885f91046e75a7edd9c8b9c2d6fa0d6ab034dfa7b7227"
+    },
+    {
+      "path": "scripts/test_stage8_t7_controller_v006.py",
+      "sha256": "fcc2f4d0de29c8bdb155d289bcc9874c409fd2552106c3894ed8fac01c70a5fe"
+    },
+    {
+      "path": "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_primary_v002.py",
+      "sha256": "73534e5a34571dc7742c4779b2bec0d6aa572586ad8cc90889bdc87ed465e840"
+    },
+    {
+      "path": "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_independent_v002.py",
+      "sha256": "aa04ff9a8f783da2cdc3d7b3145728101c98eb67e7dd95d5c324a1bd11c780b3"
+    }
+  ],
+  "phase": "A",
+  "proof_authorized": false,
+  "schema": "stage8_t7_actual_parent_regulated_car_operator_response_implementation_v005"
+}

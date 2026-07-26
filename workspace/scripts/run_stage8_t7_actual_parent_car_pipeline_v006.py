@@ -58,7 +58,7 @@ re-audit return, EXTERNAL_REAUDIT_2026-07-26_fable_v004_return.md; base
 v004, sole changes enumerated here):
 
   a. REPOINTS (B1/Blocking-2 cycle): the runtime launcher is
-     launch_stage8_t7_content_addressed_runtime_v005.py (whose rebuilt
+     launch_stage8_t7_content_addressed_runtime_v006.py (whose rebuilt
      allowlist carries a row for THIS controller, closing the B1
      launcher-vs-controller deadlock); the comparison target is comparator
      v005; the controller's own implementation authority is the sealed v004
@@ -125,7 +125,7 @@ PINNED_PYTHON = Path(
     "codex-primary-runtime/dependencies/python/bin/python3"
 ).resolve()
 RUNTIME_LAUNCHER = (
-    ROOT / "scripts/launch_stage8_t7_content_addressed_runtime_v005.py"
+    ROOT / "scripts/launch_stage8_t7_content_addressed_runtime_v006.py"
 )
 IMPLEMENTATION_MANIFEST = (
     ROOT
@@ -317,7 +317,7 @@ LANE_RECEIPTS = {
 REQUIRED_MANIFEST_ROWS = frozenset(
     {
         "scripts/run_stage8_t7_actual_parent_car_pipeline_v006.py",
-        "scripts/launch_stage8_t7_content_addressed_runtime_v005.py",
+        "scripts/launch_stage8_t7_content_addressed_runtime_v006.py",
         "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_"
         "primary_v002.py",
         "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_"
@@ -330,7 +330,7 @@ REQUIRED_MANIFEST_ROWS = frozenset(
         "independent_v002.py",
         "scripts/test_compare_stage8_t7_actual_parent_regulated_car_operator_"
         "response_v005.py",
-        "scripts/test_stage8_t7_launcher_v005.py",
+        "scripts/test_stage8_t7_launcher_v006.py",
         "scripts/test_stage8_t7_controller_v006.py",
     }
 )
