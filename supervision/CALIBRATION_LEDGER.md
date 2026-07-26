@@ -45,6 +45,10 @@ earlier artifacts quote it: "missed twice consecutively".)
 | 07-26 | Control-4 v3 S3(b) unbroken ≤1e-18 (ceiling 1e-12) | HIT (certified ≤1.11e-13; exact ≤3.6e-23) | magnitude: HIT |
 | 07-26 | Control-4 v3 S3(c) structural (5 predictions) | 4 of 5 HELD; same-slot occupancy failed (the support mismatch) | outcome-class: mostly HIT |
 | 07-26 | P-L1: the 1/N^2 signature holds AND the factor-4 drop is observed | **PARTIAL** — signature held (every ladder series at least second order, min 3.6959), but the factor-4 drop appeared on only 4 of 8 series; the `all` kernels ran 6.40-6.96, faster than predicted | outcome-class: HIT / magnitude clause: MISS |
+| 07-26 | P-X4: seal verification from the archive will SUCCEED | **MISS** — the documented procedure fails for 71 of 507 seal files (36/505 by Codex's stricter-scoped test). I had personally hit this bug earlier and misfiled it as a tooling quirk | outcome-class: MISS |
+| 07-26 | P-X5: reproduction gaps concentrated almost entirely in re-run-bit-for-bit | SPLIT HIT / concentration clause MISS — the 71 failing seals are a defect in verify-the-record, the leg I predicted clean | partial |
+| 07-26 | P-Y2: no control shows a PASS is reachable; the accepting branch has never executed | **HIT, and not found by the independent lane** — the principal calls it the most important sentence in the return | outcome-class: HIT |
+| 07-26 | P-Y4: predicted NON-gap — fence controls are over-covered, no fence gap will be found | HIT — a prediction against my own apparatus-building bias | outcome-class: HIT |
 | 07-26 | Control-4 v3 S3(a) broken magnitude, central 1e-6, window 1e-8..1e-4 | **MISS** — null (≤2.27e-11 certified; exact ~1e-21). Cause: the pinned DIRECTION was trace-orthogonal to the detector (L5), not a magnitude-model error. POST HOC and NOT CREDITED: the same model on the supported direction gives 4.57e-6, inside the window. | magnitude: MISS (3rd consecutive) |
 
 ## Independent-system prediction set (Codex; tracked SEPARATELY from this lane's)
