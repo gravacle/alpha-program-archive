@@ -23,9 +23,11 @@ BLOCK-vs-DERIVE predictions:                   improving after an early
 ```
 
 RULE IN FORCE: every future magnitude or scaling prediction must be
-stated together with this calibration ("magnitude predictions by this
-lane have missed twice consecutively; weight accordingly"), and should
-be widened relative to the lane's instinct rather than narrowed.
+stated together with this calibration — the citable form is "every
+prediction this lane has made about how big a nonzero effect would be has
+missed; weight accordingly" — and should be widened relative to the lane's
+instinct rather than narrowed. (Superseded wording, recorded because
+earlier artifacts quote it: "missed twice consecutively".)
 
 ## Entries
 
