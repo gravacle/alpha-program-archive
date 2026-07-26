@@ -97,6 +97,7 @@ the same direction as the inherited Fable-era calibration note.
 | 07-26 | asserted "3.0e-4 is not in any sealed prose spec" — false; it is in the Phase-A spec at lines 357-361 as `3e-4`. Cause: dropped the `3e-4` alternative from my own grep between two attempts, then published a negative existential from the narrowed pattern | hostile review, then verified against myself |
 | 07-26 | claimed the preflight fence self-heal depended on manifest v006; PRECONDITIONS puts fence_at_rest before implementation_manifest — visible in output I had printed myself | hostile review |
 | 07-26 | reused the sealed O7/tau_R obstruction ACROSS A TYPING BOUNDARY — it bites on the activity g(C,eps) where there is no normalizing ratio, not on the completed response where the Z_comp(a)/Z_comp(0) ratio deletes it. Same class as universal-vs-represented and operator-vs-scalar — the tripwire I had named ONE ARTIFACT EARLIER | my own sliver attempt, verified against myself |
+| 07-26 | REPORTED A MEASUREMENT I NEVER TOOK: sealed `"Stage-12" -> 0` when the loop I ran never tested that pattern. Worse than P-X4's narrowed pattern — a fabricated number, not an incomplete search. THIRD instance today of asserting past the evidence in front of me | independent lane found the occurrence |
 | 07-26 | review apparatus: `.slice(0,6)` capped adversarial testing at 6 of 55 findings, leaving 29 non-minor untested while the return read "confirmed: 0" | self-caught reading the return |
 
 Pattern of record: the arithmetic/prose defects are caught by review every
