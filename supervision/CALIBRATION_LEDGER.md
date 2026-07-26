@@ -10,7 +10,14 @@ so when making them."
 
 ```text
 SIGN / DIRECTION / OUTCOME-CLASS predictions:  RELIABLE so far.
-MAGNITUDE / SCALING predictions:               MISSED TWICE CONSECUTIVELY.
+MAGNITUDE / SCALING predictions:               THREE MISSES (theta_kappa,
+                                               gamma P2, control-4 S3(a)).
+                                               One magnitude HIT: S3(b) —
+                                               and that one predicted a
+                                               NULL/bound, not a nonzero
+                                               size. EVERY prediction of
+                                               HOW BIG A NONZERO EFFECT
+                                               WOULD BE HAS MISSED.
 BLOCK-vs-DERIVE predictions:                   improving after an early
                                                optimism bias was recorded.
 ```
@@ -50,13 +57,14 @@ restated on the corrected algebra. Recorded before any E1 execution.
 | P-C4 | SCAD right for the n=1 side but does NOT repair the n≥2 cross term | open |
 | P-C5 | Cross-term lemma: honest split (no universal zero identity; certification only via a propagation-bridge bound) | **LANDED** |
 | P-C6 | Q6: no uniform raw adjacency-degree bound exists on full D3 | **LANDED** (with an explicit star-refinement construction) |
-
 | P-C7 | Arm-2 C(ii): decay morally present from the free kernel after smooth time integration, but object-level uniform certification over D3 open absent a sealed profile/transversality/projection-tail lemma | **LANDED VERBATIM** |
 
-Running assessment of the independent-system family: P-C3 held, P-C5, P-C6
-and P-C7 landed with constructions — THREE CONSECUTIVE CYCLES. Two consecutive cycles in which its
-predictions held while this lane's magnitude and route-survival
-predictions did not. Weight it accordingly when the two disagree.
+Running assessment of the independent-system family: P-C3 held; P-C5, P-C6
+and P-C7 landed with explicit constructions. THREE CONSECUTIVE CYCLES in
+which its predictions held while this lane's magnitude and route-survival
+predictions did not. Weight it accordingly when the two disagree — this is
+the ledger ground for Rule 6, and Rule 6's expiry is the PRINCIPAL'S
+judgment on the reviewer lane's reading of this file, never this lane's.
 
 Note for later scoring: P-C2 is a prediction AGAINST this lane's earlier
 IR-A optimism, and P-C1 predicts a block where this lane's spec predicted
