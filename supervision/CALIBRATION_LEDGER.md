@@ -37,6 +37,42 @@ be widened relative to the lane's instinct rather than narrowed.
 | 07-26 | Control-4 v3 S3(c) structural (5 predictions) | 4 of 5 HELD; same-slot occupancy failed (the support mismatch) | outcome-class: mostly HIT |
 | 07-26 | Control-4 v3 S3(a) broken magnitude, central 1e-6, window 1e-8..1e-4 | **MISS** — null (≤2.27e-11 certified; exact ~1e-21). Cause: the pinned DIRECTION was trace-orthogonal to the detector (L5), not a magnitude-model error. POST HOC and NOT CREDITED: the same model on the supported direction gives 4.57e-6, inside the window. | magnitude: MISS (3rd consecutive) |
 
+## Independent-system prediction set (Codex; tracked SEPARATELY from this lane's)
+
+Re-frozen 2026-07-26 after Codex withdrew its contaminated echo and
+restated on the corrected algebra. Recorded before any E1 execution.
+
+| id | prediction | status |
+|---|---|---|
+| P-C1 | Most likely outcome E1S_BLOCKED, with the one-line cross-term obligation AND Q6 as live blockers | open |
+| P-C2 | IR-A's n≥2 leg DOWNGRADED from likely-survivor to open-block candidate | open |
+| P-C3 | Route-Q / O7 independence unchanged (now triple-confirmed) | HELD so far |
+| P-C4 | SCAD right for the n=1 side but does NOT repair the n≥2 cross term | open |
+
+Note for later scoring: P-C2 is a prediction AGAINST this lane's earlier
+IR-A optimism, and P-C1 predicts a block where this lane's spec predicted
+a certified n≥2 sector. If P-C1/P-C2 land, that is a second independent
+data point that this lane's route-survival predictions run optimistic —
+the same direction as the inherited Fable-era calibration note.
+
+## This lane's own defect ledger (added 2026-07-26; not predictions but errors)
+
+| date | defect | caught by |
+|---|---|---|
+| 07-25 | theta_kappa arithmetic (1000x, plus a misderivation) | hostile review |
+| 07-26 | R2 fabrication-economics claim false as written | external audit |
+| 07-26 | C3/C5 two-line R^-6 claim REFUTED by exact witness — and reported to the principal as a headline | hostile review |
+| 07-26 | F-8 flag over-promotion ("first half discharged" vs two narrow reproductions) | hostile review |
+| 07-26 | three false prose claims (manifest-pins-both; "sole change"; stale disarm docstring) | production-gate audit |
+| 07-26 | A-L0 sealed with a first arm my own erratum's witness had already killed | Codex reconciliation |
+| 07-26 | fix-(B) F1 probe covered only the controller route, leaving a live write route | production-gate audit |
+
+Pattern of record: the arithmetic/prose defects are caught by review every
+time; the structural ones (C3/C5, the live write route) were caught only
+by lanes that re-derived from scratch or probed a route I had not. That is
+the argument for keeping the no-stubs rehearsal and the independent
+re-derivation permanent rather than per-cycle.
+
 ## Earlier inherited calibration (prior supervision lane, for continuity)
 
 ~12 exact hits / 4 optimism-misses at handoff; all four misses were
