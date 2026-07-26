@@ -1,0 +1,49 @@
+{
+  "alpha_computed": false,
+  "description": "Implementation authority v004 for the Route-2 Phase-A production pipeline (v005 controller/launcher/comparator + byte-frozen v002 derive lanes). Authorized by the sealed real-component discipline + the v004 re-audit repairs (B1/M1/M2 closed; B2 residual dispositioned in STAGE8_T7_SUPERSEDED_CHAIN_DISARM_DISPOSITION_V001 pending principal authorization). Bridge to the sealed v001-path manifest per the bridge amendment. No GPG (superseded); authority = anchoring + recorded principal authorization.",
+  "files": [
+    {
+      "path": "scripts/run_stage8_t7_actual_parent_car_pipeline_v005.py",
+      "sha256": "e9172d6bfa64fe32ec0e7242fcb1ec3a11f6494068b4d46405b102069df774c3"
+    },
+    {
+      "path": "scripts/launch_stage8_t7_content_addressed_runtime_v005.py",
+      "sha256": "7e7b9179d79ac04d0febfbbbc97f77ae2039598c01628d12d0f25ad58c3ba452"
+    },
+    {
+      "path": "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_v005.py",
+      "sha256": "6682a268e6b9390908e8733c3d9da0dc55c956d6fdee1893bed1c60e3e4b1d1f"
+    },
+    {
+      "path": "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_primary_v002.py",
+      "sha256": "402d3e988037fa47cb152da793884ebb373840a6b5ac9f62c342f6958c57e810"
+    },
+    {
+      "path": "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_independent_v002.py",
+      "sha256": "1098168c47e59ae7eec7eb49030b23d11fba48d0ea0d2905b406353dede08437"
+    },
+    {
+      "path": "scripts/test_compare_stage8_t7_actual_parent_regulated_car_operator_response_v005.py",
+      "sha256": "92c0aeb00fb8b827750bd07cf240c9f66a91f5cd41f154b03d2dbc5c99c5e4b8"
+    },
+    {
+      "path": "scripts/test_stage8_t7_launcher_v005.py",
+      "sha256": "d60554a56edc1bf54db7e468e741d1338ed8e73ed88adea53f30bb2b5864c156"
+    },
+    {
+      "path": "scripts/test_stage8_t7_controller_v005.py",
+      "sha256": "2b6699b2a564a8e447f0b51d4a1c40acee1b3f218be921288cec3b7267b92e30"
+    },
+    {
+      "path": "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_primary_v002.py",
+      "sha256": "73534e5a34571dc7742c4779b2bec0d6aa572586ad8cc90889bdc87ed465e840"
+    },
+    {
+      "path": "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_independent_v002.py",
+      "sha256": "aa04ff9a8f783da2cdc3d7b3145728101c98eb67e7dd95d5c324a1bd11c780b3"
+    }
+  ],
+  "phase": "A",
+  "proof_authorized": false,
+  "schema": "stage8_t7_actual_parent_regulated_car_operator_response_implementation_v004"
+}
