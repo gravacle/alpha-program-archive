@@ -491,3 +491,63 @@ CT, no fallback — small sealed increments, state-recording prioritized
 near the limit. Production remains prohibited (both gates absent).
 IN FLIGHT: 4-lane resume wave (gamma primary + blind c4 top-up, Duhamel
 primary, majorant phase 2) + controller v006 author.
+
+## 2026-07-26 (Opus 5 lane): D-QUEUE RESULTS — the physics landed
+
+MODEL: lane switched Fable 5 -> OPUS 5 mid-session (V002 record).
+INDEPENDENCE FLAG FOR BRIAN: reviewer is also Opus 5 per V001, so
+cross-family independence is again absent unless the reviewer moves —
+topology decision, escalated, not resolved by any lane.
+
+PARITY LEMMAS RESULT SEALED (D3, unconditional): FOUR exact operator
+lemmas, two-lane machine-verified (residuals <= 1.4e-14 against a 1e-12
+bar). L4 = REALITY-CLASS PROTECTION (antiunitary Xi = (I x gamma^0
+alpha_y)K, pointwise; equivalently the transpose class odd on every
+J = (real symmetric spatial) x alpha_j; particle-hole exact for both
+pinned states): a-parity is protected class-wide against ANY
+perturbation keeping J in the class — spatial displacement AND arbitrary
+time-asymmetry. Consequences: the V002 ER stencil is proven exactly
+odd-order-free; the earlier ~1e-13 "structural cancellation" is fully
+attributed to L1+m0=0 (no envelope insensitivity); and L4 explains why
+three successive falsifier designs failed.
+
+GAMMA GATE: GATE_BLOCKED, witness CONTROL4_V2_DESIGN_DEFECT_REALITY_
+CLASS_PROTECTION (the amendment's own anticipated branch). Computation
+preserved and complete: two independent lanes agree on the deciding
+Re[Delta_Xi] = -0.0021951494939 to 2.7e-17, both certified enclosures
+exclude zero; B2 exactly zero; B3 corrected toy values confirmed
+symbolically (0.7071 / 0.5340 / 0.1731). P1 consistent, P2 MISSED
+(0.0202 vs the O(1e-1)-O(1) window). Refutation-by-computation NOT
+claimed (reviewer position + blocked gate); the structural argument
+carries gamma. BETA NOT SEALED — the computation returned nonzero but
+the gate blocked; that gap is Brian's, with control-4 v3 (a falsifier
+outside the reality class; witnessed effective at |dD| ~ 1e-4) the
+named option.
+
+DUHAMEL RESULT SEALED: T7IV_COMPLETED_CHAIN_FINITE_CONDITIONED_IDENTITY_
+DERIVED + CONDITIONAL_INTERCHANGE_SCHEMA_SEALED + LADD_HESSIAN_MIXING_
+LEMMA_SEALED. Two-lane all-pass; six exact F-B anchors; F-A shows
+H_att = -0.0426 < 0 while g_D,c = +0.00845 > 0 (the diagonal correction
+dominating — the completed-chain departure FK-2 predicts, which the
+exhaustive chain cannot exhibit). C1/C2 derived. (H1)/(H2) remain named
+underived inputs; two victory-class blocks standing.
+
+MAJORANT PHASE 2: frozen prediction P2 LANDED — O7 NOT DERIVABLE,
+named obstruction O7_OBSTRUCTION_NONPERTURBATIVE_REFINEMENT_NO_SMALL_
+PARAMETER with an exact refuting witness (record-tier tensor powers
+(3/8)^k vs 3/8; every refined cell inserts an O(1) full record cycle).
+Lemma 0 independently re-verified in exact arithmetic (54-dim two-cell
+model; CTP-nested reading confirmed). O4-M2 certification blocked on the
+IR sea-kernel witness; O3/W1 blocked by ordering. SCOPE DECISION
+ESCALATED (pin the cellulation family = Axis-3-class restriction, vs
+carry T7(iii) underived, vs a new route).
+
+PIPELINE: quarantine executed (7 fail-closed probes); rule 4 sealed;
+controller v006 (all four provenance conditions hoisted + M-a/b/c),
+launcher v006, manifest v005 sealed; suites 6/6 and 27/27. REAL-CHAIN
+PROBE then caught the quarantine's side effect: the sealed v001-path
+bridge manifest pins v002-era files now at quarantine paths, so
+pre-flight blocks at step 4 (fail-closed, zero writes, pre-production).
+Escalated with two candidate resolutions
+(STAGE8_T7_QUARANTINE_BRIDGE_ROW_CONFLICT_FINDING_V001); no unilateral
+re-engineering. Anchors this cycle: ad73f20 .. f06a999.
