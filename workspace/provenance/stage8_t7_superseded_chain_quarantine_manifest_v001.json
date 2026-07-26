@@ -1,0 +1,86 @@
+{
+  "alpha_computed": false,
+  "authorization": "Brian, principal, batch-audit relay Section 1 (2026-07-26)",
+  "files": [
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/launch_stage8_t7_content_addressed_runtime_v002.py",
+      "quarantine_path": "scripts/superseded_quarantine/launch_stage8_t7_content_addressed_runtime_v002.py",
+      "sha256_after": "240c6c02da3f1428693fbe1188556e1ad6169c23503dba74ae4ab97e539e29e8",
+      "sha256_before": "240c6c02da3f1428693fbe1188556e1ad6169c23503dba74ae4ab97e539e29e8"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/launch_stage8_t7_content_addressed_runtime_v003.py",
+      "quarantine_path": "scripts/superseded_quarantine/launch_stage8_t7_content_addressed_runtime_v003.py",
+      "sha256_after": "b34d8023adc71432847fe3463abc8fde7bd7df6db963f7f789367fb7a9265107",
+      "sha256_before": "b34d8023adc71432847fe3463abc8fde7bd7df6db963f7f789367fb7a9265107"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/launch_stage8_t7_content_addressed_runtime_v004.py",
+      "quarantine_path": "scripts/superseded_quarantine/launch_stage8_t7_content_addressed_runtime_v004.py",
+      "sha256_after": "3a57b8b6b0537925c3a30b05fc567e8c1d6cf976f10a54438cb9895c24793d95",
+      "sha256_before": "3a57b8b6b0537925c3a30b05fc567e8c1d6cf976f10a54438cb9895c24793d95"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/run_stage8_t7_actual_parent_car_pipeline_v001.py",
+      "quarantine_path": "scripts/superseded_quarantine/run_stage8_t7_actual_parent_car_pipeline_v001.py",
+      "sha256_after": "526e1dfc48ed84c01ffc539d941e372f359411414e7611b7410af8c70dbc4f89",
+      "sha256_before": "526e1dfc48ed84c01ffc539d941e372f359411414e7611b7410af8c70dbc4f89"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/run_stage8_t7_actual_parent_car_pipeline_v002.py",
+      "quarantine_path": "scripts/superseded_quarantine/run_stage8_t7_actual_parent_car_pipeline_v002.py",
+      "sha256_after": "18070467f477dc96d949fa37ae429bcb8f3a5f4b7f0b9ad69f10824ee5f375ac",
+      "sha256_before": "18070467f477dc96d949fa37ae429bcb8f3a5f4b7f0b9ad69f10824ee5f375ac"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/run_stage8_t7_actual_parent_car_pipeline_v003.py",
+      "quarantine_path": "scripts/superseded_quarantine/run_stage8_t7_actual_parent_car_pipeline_v003.py",
+      "sha256_after": "b36a94c98a30e8775772046319986db49728ef8890b236bd33939fc11632c62a",
+      "sha256_before": "b36a94c98a30e8775772046319986db49728ef8890b236bd33939fc11632c62a"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/run_stage8_t7_actual_parent_car_pipeline_v004.py",
+      "quarantine_path": "scripts/superseded_quarantine/run_stage8_t7_actual_parent_car_pipeline_v004.py",
+      "sha256_after": "6ce1373ccdfff4ca44d735c4662aa588ddf2aef81dc86d73c48a45c6274df7c6",
+      "sha256_before": "6ce1373ccdfff4ca44d735c4662aa588ddf2aef81dc86d73c48a45c6274df7c6"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_v001.py",
+      "quarantine_path": "scripts/superseded_quarantine/compare_stage8_t7_actual_parent_regulated_car_operator_response_v001.py",
+      "sha256_after": "3c4f0263beb47e9507c46790f7205873c0fa538cfdc2536c3ca42c88f87b0198",
+      "sha256_before": "3c4f0263beb47e9507c46790f7205873c0fa538cfdc2536c3ca42c88f87b0198"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_v002.py",
+      "quarantine_path": "scripts/superseded_quarantine/compare_stage8_t7_actual_parent_regulated_car_operator_response_v002.py",
+      "sha256_after": "ac75daaa469f2160f4612b779814df583eff81f35030a43c7b8446a8dba0607f",
+      "sha256_before": "ac75daaa469f2160f4612b779814df583eff81f35030a43c7b8446a8dba0607f"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_v003.py",
+      "quarantine_path": "scripts/superseded_quarantine/compare_stage8_t7_actual_parent_regulated_car_operator_response_v003.py",
+      "sha256_after": "fbdbb9a40bb5675e9d428c0eabb5e7a09c39e02670bb5a8e1c38241a93d5d25c",
+      "sha256_before": "fbdbb9a40bb5675e9d428c0eabb5e7a09c39e02670bb5a8e1c38241a93d5d25c"
+    },
+    {
+      "bytes_preserved": true,
+      "pre_move_path": "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_v004.py",
+      "quarantine_path": "scripts/superseded_quarantine/compare_stage8_t7_actual_parent_regulated_car_operator_response_v004.py",
+      "sha256_after": "b2e2108c0584fa240c3e152fab1e046571b2d861f75131be6d9bd4e9e4bd2c6a",
+      "sha256_before": "b2e2108c0584fa240c3e152fab1e046571b2d861f75131be6d9bd4e9e4bd2c6a"
+    }
+  ],
+  "mechanism": "append-only quarantine move; bytes preserved; sealed manifests' rows for quarantined paths verify at the quarantine path via this manifest",
+  "proof_authorized": false,
+  "schema": "stage8_t7_superseded_chain_quarantine_manifest_v001"
+}
