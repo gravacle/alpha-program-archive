@@ -1,0 +1,57 @@
+{
+  "alpha_computed": false,
+  "description": "Implementation authority v006 for the Route-2 Phase-A production pipeline: GENERATION G7 (controller v007 + launcher v007 + comparator v006) plus the shared byte-frozen v002 derive lanes, reached only through the sealed v001-path bridge manifest. Authorized by STAGE8_T7_PRODUCTION_GATE_NOGO_AND_PIPELINE_REPAIR_BINDING_V001 (Part A A1-A5; Part B B1/B2/B5 and the MAJORs) and STAGE8_T7_DIRECTORY_PERMISSION_FENCE_EVALUATION_AND_PROBES_V001. Controller, launcher, comparator and this manifest all name generation G7, and controller v007 runs a mechanical generation-coherence check over every pin on disk before any lane. Canonical output directories are read-only at rest behind the directory-permission write fence. No GPG (superseded); authority = external anchoring + recorded principal authorization. Production remains PROHIBITED: the production-gate verdict is NO_GO and there is no typed authorization.",
+  "files": [
+    {
+      "path": "scripts/build_stage8_t7_actual_parent_car_implementation_manifest_v006.py",
+      "sha256": "4269de1aa6f7e92aec9a7bb934f2b341dc5ec9b7d81df52f5364ad83e72c2441"
+    },
+    {
+      "path": "scripts/compare_stage8_t7_actual_parent_regulated_car_operator_response_v006.py",
+      "sha256": "d0d5f5cdb2690a7ab3723e8b68af9b20d6fb8a9499bedc6432d806bd7b6a4d54"
+    },
+    {
+      "path": "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_independent_v002.py",
+      "sha256": "1098168c47e59ae7eec7eb49030b23d11fba48d0ea0d2905b406353dede08437"
+    },
+    {
+      "path": "scripts/derive_stage8_t7_actual_parent_regulated_car_operator_response_primary_v002.py",
+      "sha256": "402d3e988037fa47cb152da793884ebb373840a6b5ac9f62c342f6958c57e810"
+    },
+    {
+      "path": "scripts/launch_stage8_t7_content_addressed_runtime_v007.py",
+      "sha256": "316ed7433e88b08b99c39e255ab056f86b4558e1c16ba1bfadd03f4965e99551"
+    },
+    {
+      "path": "scripts/run_stage8_t7_actual_parent_car_pipeline_v007.py",
+      "sha256": "a2fc4fe43a326f733245e661d055bc49b3a32405a33e335582a3868f019e12ef"
+    },
+    {
+      "path": "scripts/test_compare_stage8_t7_actual_parent_regulated_car_operator_response_v006.py",
+      "sha256": "c9c0c5b28b34e067963fd86827b663bb2204eb676da78ce5bac3daffd5d392b4"
+    },
+    {
+      "path": "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_independent_v002.py",
+      "sha256": "aa04ff9a8f783da2cdc3d7b3145728101c98eb67e7dd95d5c324a1bd11c780b3"
+    },
+    {
+      "path": "scripts/test_stage8_t7_actual_parent_regulated_car_operator_response_primary_v002.py",
+      "sha256": "73534e5a34571dc7742c4779b2bec0d6aa572586ad8cc90889bdc87ed465e840"
+    },
+    {
+      "path": "scripts/test_stage8_t7_controller_v007.py",
+      "sha256": "d170b042aeb36cb915fbcd0f128ef9d1822d07050fa8d61335fba415bc5c6506"
+    },
+    {
+      "path": "scripts/test_stage8_t7_launcher_v007.py",
+      "sha256": "c7128b79ca6d5d136a33fe58249a49844ea68ee9f9acfc8df3de8d65254682c6"
+    },
+    {
+      "path": "scripts/test_stage8_t7_real_chain_rehearsal_v001.py",
+      "sha256": "767eaa81111b269529c9fe6c0535f56f52dc4cea90462c3544c1eafaf52b9cf5"
+    }
+  ],
+  "phase": "A",
+  "proof_authorized": false,
+  "schema": "stage8_t7_actual_parent_regulated_car_operator_response_implementation_v006"
+}

@@ -1,0 +1,102 @@
+## CYCLE-7 PACKAGE — RETURN
+
+All deliverables are NEW FILES. No sealed `.md`/`.seal`, no v001–v006 production script, and no byte-frozen v002 derive lane was modified. No canonical directory was chmod'd by this lane; no canonical artifact was created (production outputs still ZERO; provenance 22 files, work 136, unchanged). All eight seals I relied on were verified from disk — no drift.
+
+Sealed record: `/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_fundamental_record_action_cleanroom_v003/STAGE8_T7_GENERATION_G7_COHERENCE_TABLE_V001.md` (seal `d77dda56ec51a4e3…`).
+
+### STEP 1 — A1 GENERATION-COHERENCE TABLE (read from the enforcement points, as data)
+
+Pre-repair state on disk, i.e. the six-cycle defect:
+
+```
+controller v006 : launcher v006 (2b7bd64a…)  manifest v005 (9f80aa63…)
+comparator v005 : launcher v005 (7e7b9179…)  manifest v004 (187a0435…)   <- ONE PIN, ONE BUMP BEHIND
+manifest v005 has NO launcher-v005 row      (erratum E-1 confirmed by recomputation)
+manifest v004 launcher row = launcher v005
+launcher v006 ALLOWED_TARGETS spanned TWO generations (controller v005 AND v006, tests v005 AND v006)
+derive lanes v002 : verify EVERY row of manifest v001 AT CANONICAL PATHS and stamp its digest (f573ae21…)
+```
+
+B1 reproduced empirically before authoring anything: real lanes under launcher v006 → real comparator v005 sealed `…_BLOCKED`, reason `independent runtime-launcher provenance mismatch`, at the canonical comparison path, in 0.7 s, before touching a number.
+
+Post-repair table (15 rows, all EXACT pins; `read as` = how the check obtains it — `ast` parse of the file's own bytes, no import/exec; manifest pins from JSON):
+
+```
+ID   PIN                              LIVES IN            READ AS                   GEN       MUST NAME
+P01  controller launcher pin          controller v007     RUNTIME_LAUNCHER          frontier  launcher v007
+P02  controller manifest pin          controller v007     IMPLEMENTATION_MANIFEST   frontier  manifest v006
+P03  controller bridge manifest pin   controller v007     BRIDGE_MANIFEST           bridge    manifest v001
+P04  controller lane targets          controller v007     TARGETS                   frontier  derive v002 x2 + comparator v006
+P05  controller gen. membership       controller v007     GENERATION_MEMBERS        frontier  all 13 G7 members
+P06  launcher allowlist               launcher v007       ALLOWED_TARGETS           frontier  the 11 launchable G7 rows
+P07  comparator manifest pin          comparator v006     IMPLEMENTATION_MANIFEST   frontier  manifest v006
+P08  comparator launcher pin          comparator v006     RUNTIME_LAUNCHER_PATH     frontier  launcher v007
+P09  comparator bundle-binding pin    comparator v006     BUNDLE_BINDING_MANIFEST   bridge    manifest v001
+P10  comparator executor paths        comparator v006     EXECUTOR_PATHS            frontier  derive v002 x2
+P11  frontier manifest row set        manifest v006       @rows                     frontier  the 12 G7 rows exactly
+P12  bridge manifest row set          manifest v001       @rows                     bridge    the 10 v002-era rows exactly
+P13  derive primary manifest pin      derive primary v002 IMPLEMENTATION_MANIFEST   bridge    manifest v001
+P14  derive independent manifest pin  derive indep. v002  IMPLEMENTATION_MANIFEST   bridge    manifest v001
+P15  FENCE  at-rest 0555 on {stage8_execution/work, provenance}; raised 0755;
+       may raise = controller v007 + the manifest builder under --l4-raise-and-record;
+       drop enforced at main() finally / SIGINT-SIGTERM-SIGHUP handlers / preflight L3 self-heal;
+       L1-L4 not claimed away
+```
+
+### STEP 2 — GENERATION TAG CHOSEN
+
+`stage8_t7_generation_g7` (bridge: `stage8_t7_generation_bridge_v001`). Controller **v007** + launcher **v007** + comparator **v006** + manifest **v006**, twelve-row inventory; the byte-frozen v002 lanes are SHARED members reached only through the v001-path bridge. `REQUIRED_MANIFEST_ROWS` and `REQUIRED_ALLOWLIST_ROWS` are *derived* from `GENERATION_MEMBERS`, and the builder reads the row set out of the controller's frozen table rather than carrying a hand-typed list.
+
+### STEPS 3–7 — OUTCOMES
+
+- **STEP 3 (mechanical check).** `evaluate_generation_coherence()` runs as precondition #2, before every lane and before the fence is touched. Three failure modes block: lagging pin, cross-generation pin, orphaned family. `verify_pin_table_is_total()` blocks if a component family exists with no pin, or if the derived row/allowlist sets stop matching their declared derivation — a future bump cannot silently orphan a row. Table + families are module-level frozen structures.
+- **STEP 4 (fence).** Raise is the first gated action after all 13 preconditions; drop in `finally` + signal handlers + L3 self-heal; post-drop state verified, not assumed; L3 pre-flight asserts at-rest, drops if writable, and RECORDS the anomaly (pre-flight JSON and the sealed receipt). Recorded as P15.
+- **STEP 5 (A2 rehearsal).** Below.
+- **STEP 6 (A4).** Verified by reading v006: `atomic_sealed_json` was called BEFORE the `target_intact` and `returncode` checks. v007 inverts it — both checks first, receipt only after. Covered behaviourally (real `run_lane` → real launcher → real comparator to returncode 2: no receipt, no seal) and by an AST source-order assertion.
+- **STEP 7 (MAJORs).** Comparator's own manifest + bridge verification hoisted into a PROLOGUE outside the try that seals BLOCKED (v005 consumed the canonical path there), re-asserted inside condition-identically; hoisted into the controller as `comparator_authority` (comparator-own-row + symlink refusals, the two conditions the controller's existing steps did not imply). Launcher repoint enumerated as a functional change with the removals named explicitly. Launcher v007's docstring carries no disarm claim and attributes each mechanism correctly (E-3). Stale v005-era launcher-authority comment swept; `test_v006_diff_scope_…` proves the changes are confined to the four enumerated deltas.
+
+### SUITES (all re-run at the final byte state)
+
+```
+test_stage8_t7_launcher_v007.py      6/6   PASS
+test_stage8_t7_controller_v007.py   10/10  PASS   (incl. 8 one-pin skews, each blocking by pin id;
+                                                   manifest-row skew; fence raise/drop; L3 self-heal;
+                                                   real SIGTERM in the raised window; A4 x2)
+test_compare_..._v006.py             5/5   PASS
+```
+
+### REHEARSAL (A2) — 184 s, no stubs, no monkeypatches, disposable copy starting at the canonical at-rest state
+
+```
+L4 manifest build              OK, raise recorded, fence dropped
+superseded-route probe (B3)    launcher v002 -> derive independent v002, fence at rest
+                               -> PermissionError on '…_v001.json.blocked.tmp', rc 1, ZERO artifacts
+--preflight-only               PREFLIGHT_OK  (recorded; explicitly NOT offered as evidence)
+lane independent  84.6s SUCCEEDED  raised, wrote 2 outputs + receipt, dropped, verified closed
+lane primary      11.2s SUCCEEDED  raised, wrote 2 outputs + receipt, dropped, verified closed
+lane comparison    2.6s BLOCKED    raised, comparator wrote its sealed verdict, dropped, verified
+                                   closed; NO RECEIPT SEALED  (A4 held in the real chain)
+
+FENCE ADOPTION PROBE  ->  YES
+  every lane raised+dropped both dirs; every lane wrote through the raised fence;
+  fence verified closed after every lane BY ATTEMPTING A WRITE; superseded route wrote nothing
+
+PIPELINE VERDICT      ->  NOT A PASS
+  ACTUAL_PARENT_REGULATED_CAR_OPERATOR_RESPONSE_BLOCKED, "34 component comparison(s) failed"
+```
+
+The rehearsal test exits nonzero on that verdict, by design; fence evidence is collected for every lane first so a numerical result can never be reported as a fence failure or vice versa.
+
+### FINDINGS I COULD NOT CLOSE
+
+**F-1 (BLOCKING for production).** The real chain, executed end to end for the first time in this program, does not PASS. 34 of 157 component comparisons exceed the preregistered `TRANSPORTED_MATRIX_TOLERANCE = 3.0e-4`: propagators (10) and cross_operators (24); worst 8.411e-4 = 2.80× budget; typical 4.206e-4 = 1.40×; ell0 28 failures / ell1 6; the 104 passing transported rows have worst margin 2.941e-4, i.e. the whole population sits at the budget scale. Bit-for-bit reproducible across two independently produced bundle pairs (one built under launcher v006, one under v007). Not mine to fix: derive lanes byte-frozen, comparator numerics byte-identical to v005 (tested), budgets frozen outcome-blind and non-revisable, no measured constant introduced. This is Part B item **B2 confirmed by execution**. It is blocking because a content failure IS a verdict, so the comparator seals it at the canonical comparison path by design — my prologue hoist covers PROVENANCE only, deliberately and on the record — meaning **the first canonical production comparison run will permanently consume the canonical comparison path with a BLOCKED verdict.** The tolerance question needs the principal.
+
+**F-2 (procedural).** Manifest v006 is NOT sealed into canonical `provenance/`: the fence is live and my instructions forbid chmod of canonical directories. One authorized L4 raise closes it:
+`<pinned python> -I -S scripts/launch_stage8_t7_content_addressed_runtime_v007.py scripts/build_stage8_t7_actual_parent_car_implementation_manifest_v006.py --l4-raise-and-record`
+Until then controller v007 blocks fail-closed at the `implementation_manifest` step naming the absent manifest. The builder was exercised for real in every disposable copy (12 rows, fence dropped, verified).
+
+**F-3 (new; the fence's at-rest state is not self-holding).** At the end of the cycle the canonical `stage8_execution/work` and `provenance` are mode **0700 (owner-writable)**, both with ctime `2026-07-26 09:07:04`, no other directory changed. The at-rest mode of record is 0555, so the canonical fence is presently OPEN. This lane cannot have done it: controller v007 and the builder contain exactly two directory modes, 0o555 and 0o755 — never 0o700; every chmod in every cycle-7 test is workspace-copy relative and each loader asserts `module.ROOT == workspace` first; and the fenced directories contain no file created or modified after 08:45, no stray tmp/probe files, unchanged counts, zero production outputs. Most likely a platform agent normalising 0555 directories under a synced `~/Documents` tree. Consequence: limitation **L2 must be restated** — the bits can be reset with no human and no route involved — and **L3 becomes load-bearing rather than defensive**. Two actions, neither mine: restore the at-rest state (chmod 555, or one `--preflight-only` invocation once F-2 is closed, which self-heals and records it); and decide whether an environment that resets these bits unprompted permits the fence to stand as the B3/B4 resolution, or whether it needs periodic rather than per-invocation re-assertion.
+
+**Rule-3 residual (recorded, not claimed away).** Launcher v007 refuses controllers v005/v006 and comparator v005 (tested in the strong form: the files exist and are still refused), but launchers v005/v006 still launch them; what stops them producing artifacts is the write fence, not a launch fence — and per L1 they remain executable, so a rogue invocation burns compute and produces nothing. Quarantining them needs the principal.
+
+Protected status: `production_gate_verdict = NO_GO`, `production_authorized = false`, `alpha_computed = false`, `proof_authorized = false`.
