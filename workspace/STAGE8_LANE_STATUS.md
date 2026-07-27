@@ -120,6 +120,18 @@ and is unaffected. The *number* was wrong.
   and re-chmod is not a fix.** Carried as a **design matter for when production becomes live**, not
   as tonight's work; production is prohibited on two independent gates regardless.
 
+### O-13 · Does Stage 8 emit kappa_record at all?  `OPEN — NEW 2026-07-27, two sealed authorities conflict`
+- **Decision.** Master plan AMENDMENT_001 §D: Stage 8 ends by emitting `result.json` under schema
+  `stage8-gate5-kappa-record-v002` with an exact-rational kappa_record enclosure excluding zero.
+  The source-scalarization no-go: *"kappa_record is not emitted before that physical scalar
+  closure exists"* — and that closure is in complete Q_spec, not Stage 8. **Both are sealed. They
+  cannot both hold.** The no-go's own text says "battery verdict changes."
+- **Blocks.** What Stage 8's completion *means*, and therefore step 21.
+- **Origin.** `STAGE8_X_TO_KAPPA_RECORD_EXTRACTION_DETERMINATION_V001.md` §6 (`de8da188…`).
+- **Note.** The recommended architecture amendment is authored
+  (`STAGE8_T7_OPERATOR_VALUED_PRIMITIVE_RESPONSE_ARCHITECTURE_AMENDMENT_V001`) and, on a bounded
+  search, **not marked accepted**.
+
 ### O-6 · Transport charter O-D4 — the source-independence unit  `OPEN — flagged, not accepted`
 - Flagged in `STAGE8_TRANSPORT_FUNCTOR_CHARTER_V001.md` (`f58007a0f982343e9ed4`) as an obligation
   the lane declined to accept on its own authority.
@@ -210,7 +222,10 @@ genuinely_open = 9     (O-1, O-3, O-4(mechanism only), O-5 .. O-11)
 ruled = 15             (Part 2; R-14 and R-15 added 2026-07-26)
 possibly_closed_not_listed_as_open = ~16   (Part 3)
 most_consequential_open = O-1 (F'-5), HELD pending the Trotter-Kato referral
-held_behind_the_extraction_question = O-1
+F5_hold_premise = CHECKED_AND_FAILED — F'-5 IS LIVE, not moot (2026-07-27)
+  the extraction is normalized, and the normalization is why X is the S2 operator, not why
+  it cancels. R-L2b, the trilemma, U3 and Trotter-Kato are load-bearing, not beside the point.
+superseded_hold_reason = O-1
   reason: if the extraction to kappa_record is a NORMALIZED RATIO, the divergence may cancel
   before it reaches the target, and F'-5 / R-L2b / the trilemma / U3 / Trotter-Kato would all
   be statements about a quantity that never reaches kappa_record. Not wrong — beside the point.
