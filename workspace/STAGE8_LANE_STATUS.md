@@ -4,7 +4,8 @@
 it records state, it does not create authority. **No artifact may cite this file as a
 source.** Every item below points at the sealed artifact that IS the authority.
 
-Snapshot: **2026-07-26**. Authorized by the principal this date ("STANDING OPEN-DECISIONS
+Snapshot: **2026-07-26**, amended **2026-07-27** (R-16 added; see the counter block for why).
+Authorized by the principal 2026-07-26 ("STANDING OPEN-DECISIONS
 ARTIFACT — YES. BUILD IT. Updated on seal."). First of its kind — a search over filenames
 and bodies found no prior lane-status or register artifact, so this merges with nothing.
 
@@ -170,6 +171,7 @@ and is unaffected. The *number* was wrong.
 | R-13 | Quarantine bridge-row conflict | **Ruled**; restoration record sealed | — |
 | R-14 | E-Q1 — cell 4-volume under scoping clause 1 | **OPTION 3, GRANT SCOPED.** Witness `E1_CELL_4VOLUME_ADMITTED_ONLY_ON_PINNED_SKELETON`; verdicts say "on the pinned skeleton", never "over D3". F'-5 applied, not amended | 2026-07-26 |
 | R-15 | Routing of the three over-claimed t_reports | **T01/T02/T11 → BLOCKED**, not CONDITIONAL. Honest battery outcome on current evidence is `GATE5_CORE_BLOCKED` | 2026-07-26 |
+| R-16 | **Hessian-first supersession** — the same object as **route-list R1, the "Hessian-only re-posing"**: define the intensive Hessian directly as the volume-intensive limit of the second-order Duhamel/Dyson term, and require only that one term be volume-intensive and cellulation-independent. **INDEXED UNDER BOTH NAMES ON PURPOSE:** the ruling names the move, C.4 names the label, and that mismatch is what cost a full cycle | **NOT CHARTERED.** Would trade a provable-in-principle obligation for a weaker one on no evidence the original is unprovable, and would conceal the extensivity question, since nothing at second order tests all-orders extensivity. `hessian_first_supersession = NOT_CHARTERED`. **REVIVAL TRIGGER: available as FALLBACK ONLY IF R-L2b FAILS**, on the five terms F1–F5 recorded in advance "so they are not renegotiated later" — of which R1 as stated carries neither F2 (the V010-style zero-stiffness control) nor F5 (Theorem 3's open register). **TRIGGER UNFIRED:** `RL2b_closed = false`, `RL2b_refuted = false` (conditional only), `search_exhausted = FALSE`. **PROVENANCE, STATED: a TWO-LANE VERDICT OF RECORD — "both lanes agree" — and the artifact NEVER NAMES THE PRINCIPAL AS AUTHOR. This row does not assert a principal act.** Authority: `STAGE8_EXTENSIVITY_VERDICT_AND_RL2B_CAMPAIGN_OPENING_V001` **§3** — **§4 of that same artifact is already carried as R-5, and taking §4 without §3 is exactly why this row was missing.** The ruling reaches R1 by content and by the F1–F5 adoption chain, never by the label "R1"; reach established in erratum `f72ea760…` | 2026-07-26 |
 
 ---
 
@@ -219,7 +221,16 @@ register_merges_with = nothing        (no prior STAGE8_LANE_STATUS.md found)
 snapshot_date = 2026-07-26
 prior_one_flag_finding = CORRECTED_WAS_AN_UNDERCOUNT
 genuinely_open = 9     (O-1, O-3, O-4(mechanism only), O-5 .. O-11)
-ruled = 15             (Part 2; R-14 and R-15 added 2026-07-26)
+ruled = 16             (Part 2; R-14 and R-15 added 2026-07-26; R-16 added 2026-07-27 —
+                        an INDEX CORRECTION of a decision ruled 2026-07-26 and never indexed.
+                        Authorized by the principal 2026-07-27 on the lane's recommendation.
+                        THE MAINTENANCE RULE AT THE HEAD OF THIS FILE WAS VIOLATED IN THAT
+                        SEAL: the extensivity verdict's §4 was captured as R-5 while §3, the
+                        ruling itself, was not. A COMPLETENESS AUDIT OF THIS REGISTER IS IN
+                        PROGRESS; until it returns, THIS FILE IS NOT AUTHORITATIVE ON WHAT
+                        HAS BEEN RULED, and a lane finding no row for an object MUST NOT
+                        infer the object is unruled — search the corpus by CONTENT, not by
+                        label. No rows beyond R-16 are authorized.)
 possibly_closed_not_listed_as_open = ~16   (Part 3)
 most_consequential_open = O-1 (F'-5), HELD pending the Trotter-Kato referral
 F5_hold_premise = CHECKED_AND_FAILED — F'-5 IS LIVE, not moot (2026-07-27)
