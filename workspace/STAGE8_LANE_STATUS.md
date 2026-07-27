@@ -54,7 +54,11 @@ and is unaffected. The *number* was wrong.
   requirement list admit a Trotter-Kato discharge for a nested Hermite family on a Schwartz
   core?"* — **to be sent without the conclusion.** `F5_ruled_on = false`.
 
-### O-2 · E-Q1 — is the pinned skeleton's cell 4-volume admissible under scoping clause 1?  `OPEN — decidable now`
+### O-2 · E-Q1 — is the pinned skeleton's cell 4-volume admissible under scoping clause 1?  `RULED 2026-07-26 → Part 2 R-14`
+> **CLOSED. Option 3 granted, scoped.** Witness `E1_CELL_4VOLUME_ADMITTED_ONLY_ON_PINNED_SKELETON`.
+> Kept here with its reasoning intact because the *constraints* the grant carries are live:
+> every relying verdict must say "on the pinned skeleton" and may not say "over D3".
+> Applied in `STAGE8_PRINCIPAL_RULINGS_APPLIED_EQ1_OPTION3_AND_O4_BLOCKED_V001.md`.
 - **Blocks.** E1 v002 execution — and **it blocks by being UNRULED**: grant and decline both
   discharge the precondition. Deferral is the only state that keeps E1 frozen.
 - **Options with costs.** `STAGE8_EQ1_DEPENDENCY_DETERMINATION_AND_OPTIONS_WITH_COSTS_V001.md:92-134`.
@@ -78,7 +82,11 @@ and is unaffected. The *number* was wrong.
   arises under isotropic dilation *inside* the class.
 - **Origin.** `STAGE8_T7_CREF_VS_D3_FACTUAL_DETERMINATION_V001.md:11-16`. Flag in 5 artifacts.
 
-### O-4 · Corrected-status mechanism for the three over-claimed t_reports  `OPEN — ready to rule`
+### O-4 · Corrected-status mechanism for the three over-claimed t_reports  `NARROWED 2026-07-26 — routing ruled, mechanism still open`
+> **RULED, in part:** T01, T02 and T11 all route **BLOCKED**, not CONDITIONAL. Two lanes reached
+> this independently. Adopted consequence: the honest battery outcome on current evidence is
+> **`GATE5_CORE_BLOCKED`**. **Still open below:** which mechanism expresses a corrected status.
+> The Rule-8 exception remains unspent and the append-only sub-decision is untouched.
 - **Blocks.** Authoring the six missing t_reports — each authored onto the current contract
   "becomes another node whose status can never afterwards be corrected"; hence step 21.
 - **Options with costs.** **Already sealed and sufficient** at
@@ -106,6 +114,11 @@ and is unaffected. The *number* was wrong.
 - **Blocks.** The production-gate NO-GO's clean closure. Not production itself, which is
   prohibited on both gates independently.
 - **Origin.** `STAGE8_T7_PRODUCTION_GATE_NOGO_AND_PIPELINE_REPAIR_BINDING_V001.md:145-151`.
+- **Independent confirmation, 2026-07-26.** The reviewer lane separately measured **both** canonical
+  directories WRITABLE (`provenance` and `stage8_execution/work`) — reached by a different route than
+  this lane's measurement, same conclusion. **The at-rest fence does not hold on this storage layer,
+  and re-chmod is not a fix.** Carried as a **design matter for when production becomes live**, not
+  as tonight's work; production is prohibited on two independent gates regardless.
 
 ### O-6 · Transport charter O-D4 — the source-independence unit  `OPEN — flagged, not accepted`
 - Flagged in `STAGE8_TRANSPORT_FUNCTOR_CHARTER_V001.md` (`f58007a0f982343e9ed4`) as an obligation
@@ -143,6 +156,8 @@ and is unaffected. The *number* was wrong.
 | R-11 | D3 quantifier reading | **ALL common refinements.** Ratified | — |
 | R-12 | Rule 7 ordering authority; Rule 8 pipeline feature freeze | **In force** | — |
 | R-13 | Quarantine bridge-row conflict | **Ruled**; restoration record sealed | — |
+| R-14 | E-Q1 — cell 4-volume under scoping clause 1 | **OPTION 3, GRANT SCOPED.** Witness `E1_CELL_4VOLUME_ADMITTED_ONLY_ON_PINNED_SKELETON`; verdicts say "on the pinned skeleton", never "over D3". F'-5 applied, not amended | 2026-07-26 |
+| R-15 | Routing of the three over-claimed t_reports | **T01/T02/T11 → BLOCKED**, not CONDITIONAL. Honest battery outcome on current evidence is `GATE5_CORE_BLOCKED` | 2026-07-26 |
 
 ---
 
@@ -191,12 +206,17 @@ register_is_citable = false
 register_merges_with = nothing        (no prior STAGE8_LANE_STATUS.md found)
 snapshot_date = 2026-07-26
 prior_one_flag_finding = CORRECTED_WAS_AN_UNDERCOUNT
-genuinely_open = 12    (O-1 .. O-12, of which O-12 is ruled this date)
-ruled = 13             (Part 2)
+genuinely_open = 9     (O-1, O-3, O-4(mechanism only), O-5 .. O-11)
+ruled = 15             (Part 2; R-14 and R-15 added 2026-07-26)
 possibly_closed_not_listed_as_open = ~16   (Part 3)
 most_consequential_open = O-1 (F'-5), HELD pending the Trotter-Kato referral
-decidable_right_now = O-2 (E-Q1), O-4 (corrected-status)
+held_behind_the_extraction_question = O-1
+  reason: if the extraction to kappa_record is a NORMALIZED RATIO, the divergence may cancel
+  before it reaches the target, and F'-5 / R-L2b / the trilemma / U3 / Trotter-Kato would all
+  be statements about a quantity that never reaches kappa_record. Not wrong — beside the point.
+  Ruling F'-5 first would be ruling on a question that might not be live.
 reopened_this_date = O-5 (B4)
+fence_writable_confirmed_by_two_lanes = true   (design matter, deferred to production-live)
 extraction_map_exists_in_corpus = false    (bounded search; UNDETERMINED off-disk)
 production_authorized = false
 alpha_computed = false
