@@ -39,7 +39,18 @@ and is unaffected. The *number* was wrong.
 
 ## PART 1 — GENUINELY OPEN. Blocking-and-live first.
 
-### O-1 · Does F'-5 stand as written?  `HELD — pending Trotter-Kato`
+### O-1 · Does F'-5 stand as written?  `RIPE — the hold condition is SATISFIED (2026-07-28)`
+
+```text
+*** THE TROTTER-KATO REFERRAL HAS RETURNED, AND SO HAVE TWO MORE. *** O-1 was HELD pending exactly
+that referral. Three blind referrals (Trotter-Kato / C_n -> C / H-VU) plus this lane's two
+source-checks have now discharged H1's antecedent: R-L2b's UNIFORMITY IS REFUTED
+(STAGE8_RL2B_UNIFORMITY_REFUTED_RESULT_V001, `52f2490b…`). The trilemma's own reading is that
+"keeping F'-5 selects the branch on which R-L2b is refuted" — AND THAT BRANCH HAS OCCURRED.
+O-1 IS NOW RIPE, NOT RULED. THE RULING IS THE PRINCIPAL'S AND NO LANE HAS TAKEN IT.
+Adjacent and also his: the fourth-horn question — whether a finite Hilbert-Schmidt bound was ever
+the right obligation. Neither answered nor prejudged by the refutation.
+```
 - **Decision.** F'-5 forbids any constant carrying a carrier index `n`. Equivalently: is the
   theory the finite-carrier (Galerkin) theory or the continuum theory? *Not* "which carrier" —
   that earlier framing was corrected.
@@ -250,7 +261,8 @@ ruled = 21             (Part 2; R-20 and R-21 added 2026-07-28 under the princip
                         infer the object is unruled — search the corpus by CONTENT, not by
                         label. No rows beyond R-16 are authorized.)
 possibly_closed_not_listed_as_open = ~16   (Part 3)
-most_consequential_open = O-1 (F'-5), HELD pending the Trotter-Kato referral
+most_consequential_open = O-1 (F'-5), *** RIPE 2026-07-28: hold condition SATISFIED, three
+                          blind referrals returned, R-L2b uniformity REFUTED (52f2490b). NOT RULED. ***
 F5_hold_premise = CHECKED_AND_FAILED — F'-5 IS LIVE, not moot (2026-07-27)
   the extraction is normalized, and the normalization is why X is the S2 operator, not why
   it cancels. R-L2b, the trilemma, U3 and Trotter-Kato are load-bearing, not beside the point.
