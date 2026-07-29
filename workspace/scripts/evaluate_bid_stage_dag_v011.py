@@ -62,7 +62,7 @@ REQUIRED_ROLES = {
 
 REPORT_KEYS = {
     "schema_version",
-    "subject_sha256",
+    "bundle_sha256",
     "stage",
     "reviewer_role",
     "process_id",
@@ -91,10 +91,52 @@ def load_json(path: Path) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def subject_sha256(subjects: dict[str, object], stage: str) -> str | None:
+    entry = subjects.get(stage)
+    if isinstance(entry, str) and is_sha256(entry):
+        return entry
+    if isinstance(entry, dict):
+        value = entry.get("sha256")
+        if is_sha256(value):
+            return value
+    return None
+
+
+def validate_subjects(subjects: object, graph: dict[str, list[str]]) -> tuple[dict[str, object], list[str]]:
+    failures: list[str] = []
+    if not isinstance(subjects, dict):
+        return {}, ["subjects file is not a JSON object"]
+    if set(subjects) != set(graph):
+        failures.append("subjects file does not contain exactly every stage")
+    for stage, entry in subjects.items():
+        if stage not in graph:
+            continue
+        if isinstance(entry, str):
+            if not is_sha256(entry):
+                failures.append(f"subject hash is invalid for {stage}")
+            continue
+        if not isinstance(entry, dict):
+            failures.append(f"subject entry is invalid for {stage}")
+            continue
+        status = entry.get("status")
+        if status == "RESOLVED":
+            if not is_sha256(entry.get("sha256")):
+                failures.append(f"resolved subject hash is invalid for {stage}")
+        elif status == "UNRESOLVED":
+            reason = entry.get("reason")
+            if not isinstance(reason, str) or not reason.strip():
+                failures.append(f"unresolved subject lacks reason for {stage}")
+            else:
+                failures.append(f"subject unresolved for {stage}: {reason}")
+        else:
+            failures.append(f"subject status is invalid for {stage}")
+    return subjects, failures
+
+
 def validate_report(
     report: dict[str, object],
     path: Path,
-    subjects: dict[str, str],
+    subjects: dict[str, object],
 ) -> list[str]:
     failures: list[str] = []
     if set(report) != REPORT_KEYS:
@@ -106,7 +148,8 @@ def validate_report(
         return failures
     if report["reviewer_role"] not in REQUIRED_ROLES[stage]:
         failures.append(f"{path.name}: unrecognized role for {stage}")
-    if report["subject_sha256"] != subjects.get(stage):
+    expected_subject = subject_sha256(subjects, stage)
+    if expected_subject is not None and report["bundle_sha256"] != expected_subject:
         failures.append(f"{path.name}: subject hash mismatch")
     if report["verdict"] not in {"PASS", "FAIL"}:
         failures.append(f"{path.name}: invalid verdict")
@@ -164,17 +207,14 @@ def main() -> int:
     args = parser.parse_args()
 
     manifest = load_json(args.manifest)
-    subjects = load_json(args.subjects)
+    raw_subjects = load_json(args.subjects)
     graph = manifest["review_stage_semantics"]["stage_dependencies"]
     failures: list[str] = []
 
     if not acyclic(graph):
         failures.append("manifest stage graph is missing nodes or cyclic")
-    if set(subjects) != set(graph):
-        failures.append("subjects file does not contain exactly every stage")
-    for stage, subject in subjects.items():
-        if not is_sha256(subject):
-            failures.append(f"subject hash is invalid for {stage}")
+    subjects, subject_failures = validate_subjects(raw_subjects, graph)
+    failures.extend(subject_failures)
 
     reports_by_stage: dict[str, list[dict[str, object]]] = {
         stage: [] for stage in graph

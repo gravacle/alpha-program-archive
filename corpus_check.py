@@ -30,6 +30,7 @@ CHECKS = (
     "deploy_state",
     "substring_certification",
     "hardcoded_claim_flags",
+    "cannot_fail_checks",
     "voided_pass",
     "marker_prefix_collision",
     "superseded_path_hardwire",
@@ -49,6 +50,7 @@ RED_CHECKS = {
 YELLOW_CHECKS = {
     "substring_certification",
     "hardcoded_claim_flags",
+    "cannot_fail_checks",
     "superseded_path_hardwire",
     "scope_declaration",
     "relay_sequence_head",
@@ -70,7 +72,8 @@ SCOPE_RE = re.compile(r"\b(search root|root:|searched|grep|rg |ripgrep|bounded|s
 PASS_RE = re.compile(r"\bPASS_[A-Z0-9_]+\b")
 FAIL_RE = re.compile(r"\b(FAIL|FAILED|NO_GO|BLOCKED|REFUTED|VOID|VOIDED|INVALID|MISMATCH)\b", re.I)
 VERSION_RE = re.compile(r"(?P<stem>[A-Za-z0-9_./-]*?_v)(?P<num>\d{3})(?P<suffix>\.[A-Za-z0-9_.-]+)")
-PASTE_RE = re.compile(r"\bPASTE\s*#?\s*(\d+)\b", re.I)
+PASTE_RE = re.compile(r"^\s*\[?\s*PASTE\s*#?\s*(\d+)\b", re.I)
+SEAL_METADATA_RE = re.compile(r"^[A-Za-z][A-Za-z0-9_.-]*:\s+")
 CLAIM_KEY_RE = re.compile(
     r"(pass|fail|closed|derived|computed|verified|authorized|available|current|complete|valid|blocked|proved|exists|sealed|accepted|executed|certified|established|matched|clean|success|ok|status|result)",
     re.I,
@@ -216,35 +219,76 @@ def roots_from_args(args: argparse.Namespace) -> dict[str, Any]:
 def check_seal_integrity(ctx: dict[str, Any]) -> CheckResult:
     root = ctx["archive"]
     findings: list[Finding] = []
+    sealed_paths: set[Path] = set()
+
+    def containing_scan_root(path: Path) -> Path | None:
+        resolved = path.resolve()
+        for scan_root in ctx["scan_roots"]:
+            scan_resolved = scan_root.resolve()
+            try:
+                resolved.relative_to(scan_resolved)
+            except ValueError:
+                continue
+            return scan_root
+        return None
+
+    def resolve_seal_target(sidecar: Path, raw_name: str) -> Path | None:
+        clean_name = raw_name.lstrip("*")
+        raw_path = Path(clean_name)
+        candidates: list[Path] = []
+        if raw_path.is_absolute():
+            candidates.append(raw_path)
+        else:
+            scan_root = containing_scan_root(sidecar)
+            candidates.append(sidecar.parent / raw_path)
+            if scan_root is not None:
+                candidates.append(scan_root / raw_path)
+            candidates.append(root / raw_path)
+            candidates.append(sidecar.parent / raw_path.name)
+        for candidate in candidates:
+            if candidate.exists():
+                return candidate
+        return None
+
     sidecars = list(walk_files(ctx["scan_roots"], None))
     sidecars = [p for p in sidecars if p.name.endswith(".seal.sha256")]
     for sidecar in sidecars:
-        target = sidecar.with_name(sidecar.name[: -len(".seal.sha256")])
         text = read_text(sidecar)
         if text is None:
             findings.append(Finding(safe_rel(sidecar, root), None, "seal sidecar unreadable"))
             continue
-        parts = text.split()
-        expected = parts[0] if parts else ""
-        if len(parts) >= 2:
-            named_target = sidecar.parent / Path(parts[1]).name
-            if named_target.exists():
-                target = named_target
-        if not re.fullmatch(r"[0-9a-fA-F]{64}", expected):
-            findings.append(Finding(safe_rel(sidecar, root), None, "sidecar does not begin with SHA-256"))
+        lines = [line.strip() for line in text.splitlines() if line.strip()]
+        if not lines:
+            findings.append(Finding(safe_rel(sidecar, root), None, "empty seal sidecar"))
             continue
-        if not target.exists():
-            findings.append(Finding(safe_rel(sidecar, root), None, f"target missing: {target.name}"))
-            continue
-        actual = sha256_file(target)
-        if actual.lower() != expected.lower():
-            findings.append(Finding(safe_rel(sidecar, root), None, f"seal mismatch expected={expected.lower()} actual={actual}"))
+        for line_no, line in enumerate(lines, start=1):
+            parts = line.split(maxsplit=1)
+            expected = parts[0] if parts else ""
+            if not re.fullmatch(r"[0-9a-fA-F]{64}", expected) and SEAL_METADATA_RE.match(line):
+                continue
+            if not re.fullmatch(r"[0-9a-fA-F]{64}", expected):
+                findings.append(Finding(safe_rel(sidecar, root), line_no, "seal line does not begin with SHA-256"))
+                continue
+            if len(parts) >= 2:
+                target = resolve_seal_target(sidecar, parts[1])
+                target_label = parts[1].lstrip("*")
+            else:
+                target = sidecar.with_name(sidecar.name[: -len(".seal.sha256")])
+                target_label = target.name
+            if target is None or not target.exists():
+                findings.append(Finding(safe_rel(sidecar, root), line_no, f"target missing: {target_label}"))
+                continue
+            actual = sha256_file(target)
+            if actual.lower() != expected.lower():
+                findings.append(Finding(safe_rel(sidecar, root), line_no, f"seal mismatch expected={expected.lower()} actual={actual}"))
+                continue
+            sealed_paths.add(target.resolve())
     unsealed_by_class: dict[str, int] = {}
     unsealed_samples: dict[str, list[str]] = {}
     for p in walk_files(ctx["scan_roots"], ARTIFACT_EXTS):
         if p.name.endswith(".seal.sha256"):
             continue
-        if (p.with_name(p.name + ".seal.sha256")).exists():
+        if p.resolve() in sealed_paths or (p.with_name(p.name + ".seal.sha256")).exists():
             continue
         cls = p.suffix.lstrip(".") or "no_ext"
         unsealed_by_class[cls] = unsealed_by_class.get(cls, 0) + 1
@@ -388,6 +432,49 @@ def check_hardcoded_claim_flags(ctx: dict[str, Any]) -> CheckResult:
         issue_count=len(findings),
         metric=len(findings),
         summary=f"{len(findings)} literal boolean claim-shaped payload entries or assignments",
+        findings=findings,
+    )
+
+
+def check_cannot_fail_checks(ctx: dict[str, Any]) -> CheckResult:
+    root = ctx["archive"]
+    findings: list[Finding] = []
+    for p in walk_files(ctx["scan_roots"], {".py"}):
+        text = read_text(p)
+        if text is None:
+            continue
+        if (
+            re.search(r"\bduration\s*=\s*scale\s*\*\s*base_duration\b", text)
+            and re.search(r"\bgenerator\s*=\s*base_generator\s*/\s*scale\b", text)
+            and "evolve(generator, duration)" in text
+            and "require(" in text
+        ):
+            findings.append(
+                Finding(
+                    safe_rel(p, root),
+                    None,
+                    "inverse scale-orbit check: generator is divided by the same loop variable used to multiply duration",
+                )
+            )
+        if (
+            re.search(r"require\(\s*rho\.t\s*==\s*0\b", text)
+            and "T_R must cancel exactly" in text
+            and "Sym(" in text
+        ):
+            findings.append(
+                Finding(
+                    safe_rel(p, root),
+                    None,
+                    "symbol-exponent cancellation check over hand-entered table; P1 can be tautological if every candidate carries the same exponent",
+                )
+            )
+    return CheckResult(
+        "cannot_fail_checks",
+        "YELLOW",
+        status="YELLOW" if findings else "GREEN",
+        issue_count=len(findings),
+        metric=len(findings),
+        summary=f"{len(findings)} require/check patterns that may be tautological under their own construction",
         findings=findings,
     )
 
@@ -655,6 +742,7 @@ CHECK_FUNCS = {
     "deploy_state": check_deploy_state,
     "substring_certification": check_substring_certification,
     "hardcoded_claim_flags": check_hardcoded_claim_flags,
+    "cannot_fail_checks": check_cannot_fail_checks,
     "voided_pass": check_voided_pass,
     "marker_prefix_collision": check_marker_prefix_collision,
     "superseded_path_hardwire": check_superseded_path_hardwire,

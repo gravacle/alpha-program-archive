@@ -1,0 +1,46 @@
+{
+  "ALPHA-RESULT-SEAL": {
+    "reason": "No sealed ALPHA-RESULT-SEAL immutable subject exists; alpha_computed remains false and the upstream THOMSON-RESULT-SEAL, PARENT-COMPARISON, HOLDOUT-UNIVERSE-SEAL, and PREDICTION-MAP-SEAL dependencies are not sealed.",
+    "status": "UNRESOLVED"
+  },
+  "CORE-RESULT-SEAL": {
+    "reason": "No sealed CORE-RESULT-SEAL immutable subject exists; the Stage-8 battery verdict path is still under apparatus repair and the core-result bundle has not sealed.",
+    "status": "UNRESOLVED"
+  },
+  "END-TO-END-RECONSTRUCTION-SEAL": {
+    "reason": "No sealed END-TO-END-RECONSTRUCTION-SEAL immutable subject exists; the A33 independent end-to-end reconstruction has not sealed.",
+    "status": "UNRESOLVED"
+  },
+  "FINAL-CLAIM-SEAL": {
+    "reason": "No sealed FINAL-CLAIM-SEAL immutable subject exists; proof_authorized remains false and the final-claim role reports cannot attach to a sealed subject.",
+    "status": "UNRESOLVED"
+  },
+  "HOLDOUT-RESULT-SEAL": {
+    "reason": "No sealed HOLDOUT-RESULT-SEAL immutable subject exists; the future beacon, sealed numerical prediction, custodian unmask, commitment check, and contamination check have not executed.",
+    "status": "UNRESOLVED"
+  },
+  "HOLDOUT-UNIVERSE-SEAL": {
+    "reason": "No sealed HOLDOUT-UNIVERSE-SEAL immutable subject exists; A32 public collection artifacts are deployed, but V011 and R-22 state that no HOLDOUT-UNIVERSE-SEAL or ladder-grade flag is claimed.",
+    "status": "UNRESOLVED"
+  },
+  "PARENT-COMPARISON": {
+    "reason": "No sealed PARENT-COMPARISON immutable subject exists; the predeclared comparison map and parent-comparison result have not sealed.",
+    "status": "UNRESOLVED"
+  },
+  "PREDICTION-MAP-SEAL": {
+    "reason": "No sealed PREDICTION-MAP-SEAL immutable subject exists; the immutable prediction code and prediction map before alpha have not sealed.",
+    "status": "UNRESOLVED"
+  },
+  "QSPEC-SPEC-SEAL": {
+    "reason": "No sealed QSPEC-SPEC-SEAL immutable subject exists; complete target-free Q_spec remains open across the eighteen-slot plan.",
+    "status": "UNRESOLVED"
+  },
+  "SPEC-SEAL": {
+    "reason": "No sealed SPEC-SEAL immutable V011 subject bundle is identified; a v010 bundle hash exists, but V011 remains repair-in-progress and the stage subject for SPEC-SEAL is not sealed.",
+    "status": "UNRESOLVED"
+  },
+  "THOMSON-RESULT-SEAL": {
+    "reason": "No sealed THOMSON-RESULT-SEAL immutable subject exists; the complete charged amplitude, Ward/regulator/threshold passes, independent reconstruction, and kappa_record-to-kappa_Thomson bridge have not sealed.",
+    "status": "UNRESOLVED"
+  }
+}

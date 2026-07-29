@@ -13,6 +13,7 @@
     "voided_pass"
   ],
   "yellow_checks": [
+    "cannot_fail_checks",
     "hardcoded_claim_flags",
     "relay_sequence_head",
     "scope_declaration",
@@ -20,10 +21,11 @@
     "superseded_path_hardwire"
   ],
   "yellow_counts": {
+    "cannot_fail_checks": 2,
     "hardcoded_claim_flags": 2927,
-    "relay_sequence_head": 17,
+    "relay_sequence_head": 3,
     "scope_declaration": 107,
     "substring_certification": 6,
-    "superseded_path_hardwire": 546
+    "superseded_path_hardwire": 548
   }
 }

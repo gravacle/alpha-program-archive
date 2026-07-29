@@ -41,10 +41,10 @@ import hashlib
 import json
 import re
 import sys
-import tempfile
 from fractions import Fraction
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parent
 SPEC_SHA256 = "ddb36cbfe4edfc2a0520e9ae58063295214c64afed5cad5a64e9f311826358f5"
 
 T_IDS = [f"T{i:02d}" for i in range(0, 17)]  # T00..T16 (T00 = lineage)
@@ -65,6 +65,8 @@ PROTECTED_FALSE = [
     "BID_core_result_sealed", "coupling_evaluation_authorized",
     "alpha_computed", "proof_authorized",
 ]
+SELFTEST_FIXTURE = ROOT / "stage8_execution/selftest_fixtures/battery_evaluator_v001"
+SKIP_CORPUS_DIRS = {".git", "__pycache__", ".pytest_cache", ".mypy_cache"}
 
 
 def sha256_bytes(b: bytes) -> str:
@@ -115,6 +117,44 @@ def check_prediction_fence(pred_path: Path, failures: list) -> None:
                     f"predictions.json: rational '{v}' not whitelisted")
 
 
+def load_predictions(pred_path: Path, failures: list) -> dict[str, str]:
+    check_prediction_fence(pred_path, failures)
+    if not pred_path.is_file():
+        return {}
+    try:
+        obj = json.loads(pred_path.read_text())
+    except Exception:
+        return {}
+    conditions = obj.get("conditions")
+    expected = set(T_IDS) | set(NC_IDS)
+    if not isinstance(conditions, dict):
+        failures.append("predictions.json: conditions object missing")
+        return {}
+    if set(conditions) != expected:
+        failures.append("predictions.json: conditions do not cover exactly T00-T16 and NC1-NC5")
+    out: dict[str, str] = {}
+    for key in expected:
+        value = conditions.get(key)
+        if not isinstance(value, str) or not value.strip():
+            failures.append(f"predictions.json: empty condition for {key}")
+        else:
+            out[key] = value
+    return out
+
+
+def enforce_prediction_condition(node_id: str, obj: dict, conditions: dict[str, str],
+                                 failures: list) -> None:
+    condition = conditions.get(node_id)
+    if condition is None:
+        failures.append(f"{node_id}: no preregistered prediction condition")
+        return
+    expected = sha256_bytes(condition.encode())
+    if obj.get("preregistered_condition_sha256") != expected:
+        failures.append(f"{node_id}: preregistered condition hash missing/mismatch")
+    if obj.get("preregistered_condition_satisfied") is not True:
+        failures.append(f"{node_id}: preregistered condition not satisfied")
+
+
 def kappa_transform_strings(lo: Fraction, hi: Fraction) -> list[str]:
     """Digit strings for kappa and elementary transforms, several precisions."""
     import math
@@ -134,7 +174,18 @@ def kappa_transform_strings(lo: Fraction, hi: Fraction) -> list[str]:
     return sorted(set(out))
 
 
-def check_transform_fence(exec_dir: Path, result: dict, failures: list) -> None:
+def iter_corpus_files(corpus_root: Path) -> set[Path]:
+    files: set[Path] = set()
+    for path in corpus_root.rglob("*"):
+        if any(part in SKIP_CORPUS_DIRS for part in path.parts):
+            continue
+        if path.is_file():
+            files.add(path)
+    return files
+
+
+def check_transform_fence(exec_dir: Path, result: dict, failures: list,
+                          corpus_root: Path | None = None) -> None:
     enc = result.get("kappa_record_enclosure") or {}
     try:
         lo, hi = Fraction(enc["lower"]), Fraction(enc["upper"])
@@ -145,20 +196,31 @@ def check_transform_fence(exec_dir: Path, result: dict, failures: list) -> None:
         failures.append("kappa enclosure contains zero: degenerate (BLOCKED via NC1/T6 rule)")
     frags = kappa_transform_strings(lo, hi)
     manifest = exec_dir / "artifact_manifest.txt"
+    paths_to_scan: set[Path] = set()
     if not manifest.is_file():
         failures.append("artifact_manifest.txt missing")
-        return
+    else:
+        for line in manifest.read_text().splitlines():
+            raw = Path(line.strip())
+            p = raw if raw.is_absolute() else exec_dir / raw
+            if line.strip():
+                paths_to_scan.add(p)
+    if corpus_root is None:
+        corpus_root = ROOT
+    paths_to_scan.update(iter_corpus_files(corpus_root))
     canonical = exec_dir / "result.json"
-    for line in manifest.read_text().splitlines():
-        p = Path(line.strip())
-        if not line.strip() or not p.is_file() or p.resolve() == canonical.resolve():
+    for p in sorted(paths_to_scan):
+        if not p.is_file() or p.resolve() == canonical.resolve():
             continue
-        blob = p.read_text(errors="replace").replace(".", "")
+        try:
+            blob = p.read_text(errors="replace").replace(".", "")
+        except OSError:
+            continue
         for frag in frags:
             if frag in blob:
                 failures.append(
                     f"transform fence: kappa digit-string {frag[:8]}… "
-                    f"appears in {p.name} (value may appear ONLY in result.json)")
+                    f"appears in {p} (value may appear ONLY in result.json)")
                 break
 
 
@@ -185,7 +247,7 @@ def evaluate(exec_dir: Path, spec_path: Path) -> dict:
     if not spec_path.is_file() or sha256_file(spec_path) != SPEC_SHA256:
         failures.append("sealed spec hash mismatch or spec missing")
 
-    check_prediction_fence(exec_dir / "predictions.json", failures)
+    prediction_conditions = load_predictions(exec_dir / "predictions.json", failures)
 
     nodes = {}
     for tid in T_IDS:
@@ -197,6 +259,7 @@ def evaluate(exec_dir: Path, spec_path: Path) -> dict:
             nodes[tid] = False
             continue
         nodes[tid] = obj.get("pass") is True
+        enforce_prediction_condition(tid, obj, prediction_conditions, failures)
         if not nodes[tid]:
             item = obj.get("open_item")
             if item in DECLARED_OPEN:
@@ -208,6 +271,8 @@ def evaluate(exec_dir: Path, spec_path: Path) -> dict:
         p = exec_dir / "controls" / f"{nc}.json"
         obj = load_content_addressed(p, failures) if p.is_file() else None
         ok = bool(obj and obj.get("behaved_as_predeclared") is True)
+        if obj is not None:
+            enforce_prediction_condition(nc, obj, prediction_conditions, failures)
         nodes[nc] = ok
         if not ok:
             failures.append(f"{nc}: control missing or misbehaved")
@@ -256,32 +321,40 @@ def evaluate(exec_dir: Path, spec_path: Path) -> dict:
 
 
 def selftest() -> int:
-    import math
-    with tempfile.TemporaryDirectory() as td:
-        d = Path(td)
-        (d / "artifact_manifest.txt").write_text("")
-        kappa = Fraction(7, 100)  # synthetic; NOT a physics value
-        leak = f"{1.0/(4*math.pi*float(kappa)):.8f}"
-        bad = d / "leaky_note.txt"
-        bad.write_text(f"synthetic commentary {leak}")
-        (d / "artifact_manifest.txt").write_text(str(bad) + "\n")
-        res = {"kappa_record_enclosure": {"lower": "69/1000", "upper": "71/1000"}}
-        fails: list[str] = []
-        check_transform_fence(d, res, fails)
-        assert any("transform fence" in f for f in fails), "leak NOT detected"
-        (d / "commitments").mkdir(); (d / "reveals").mkdir()
-        (d / "commitments" / "laneA.x.commit").write_text(sha256_bytes(b"salt||42"))
-        (d / "reveals" / "laneA.x.reveal").write_text("salt||43")
-        fails2: list[str] = []
-        check_commitments(d, fails2)
-        assert any("does not match" in f for f in fails2), "bad commitment NOT detected"
-        pf: list[str] = []
-        pp = d / "predictions.json"
-        pp.write_text(json.dumps({"T7_expected": 0.123456789}))
-        check_prediction_fence(pp, pf)
-        assert any("forbidden numeric" in f for f in pf), "prediction leak NOT detected"
-    print("SELFTEST PASS: transform fence, commitment check, and prediction "
-          "fence all fire on synthetic violations.")
+    failures: list[str] = []
+    if not SELFTEST_FIXTURE.is_dir():
+        failures.append(f"fixture directory missing: {SELFTEST_FIXTURE}")
+    result_path = SELFTEST_FIXTURE / "result_fixture.json"
+    try:
+        result = json.loads(result_path.read_text())
+    except Exception as exc:
+        result = {}
+        failures.append(f"result fixture unreadable: {exc}")
+
+    transform_failures: list[str] = []
+    check_transform_fence(SELFTEST_FIXTURE, result, transform_failures,
+                          corpus_root=SELFTEST_FIXTURE)
+    if not any("transform fence" in item for item in transform_failures):
+        failures.append("transform fence fixture was not detected")
+
+    commitment_failures: list[str] = []
+    check_commitments(SELFTEST_FIXTURE, commitment_failures)
+    if not any("does not match" in item for item in commitment_failures):
+        failures.append("commitment mismatch fixture was not detected")
+
+    prediction_failures: list[str] = []
+    check_prediction_fence(SELFTEST_FIXTURE / "predictions_numeric_leak.json",
+                           prediction_failures)
+    if not any("forbidden numeric" in item for item in prediction_failures):
+        failures.append("prediction leak fixture was not detected")
+
+    if failures:
+        print("SELFTEST FAIL:")
+        for failure in failures:
+            print(f"- {failure}")
+        return 1
+    print("SELFTEST PASS: committed transform, commitment, and prediction "
+          "fixtures all fire.")
     return 0
 
 
