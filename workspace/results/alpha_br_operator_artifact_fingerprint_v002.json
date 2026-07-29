@@ -1,0 +1,120 @@
+{
+  "alpha_computed": false,
+  "changed": [
+    {
+      "path": "reports/alpha_br_exact_charged_root_goldstone_superhessian_v001.md",
+      "v001_sha256": "3488a30782c59deea283e80f3177251aa30e97ae99f44238653739d148c8744a",
+      "v002_sha256": "f80c894e608e931c06c12eb041a0ff56936852f2f50ac1d8e5945133765a340c"
+    },
+    {
+      "path": "scripts/audit_alpha_br_exact_public_coupled_momentum_continuum_v001.py",
+      "v001_sha256": "8fb70895bbb243d3fec46f7a9221d58f94da3bb0d39b6148804a28d04dd8fc5d",
+      "v002_sha256": "78fbe50cc6cc7781230f9036a1f9b748a9817986e432e8cf5ba7ca7783ce7e95"
+    },
+    {
+      "path": "scripts/derive_alpha_br_charge_covariant_realified_operator_v001.py",
+      "v001_sha256": "9b0492ea57ef8df7a16ec810a9816ed065bc94ed18dd809320f7ac9cac534a97",
+      "v002_sha256": "809223c873d535acdee42875f08d7c4dbb494a6abb750d77c643c77c4d9b0bc3"
+    },
+    {
+      "path": "scripts/derive_alpha_br_exact_cartan_metric_odd_superhessian_v001.py",
+      "v001_sha256": "903e78a10b5fca40a38381e516ff6249e820d3df81561ae61d7d219f6a5c6e8e",
+      "v002_sha256": "c7c91bd19e7c921c9b7e0577b61caf57abcffd25c48ae0f1ef3d896b956e3d02"
+    },
+    {
+      "path": "scripts/derive_alpha_br_exact_charged_root_goldstone_superhessian_v001.py",
+      "v001_sha256": "8961999b373ca2022083fcdfc20aff5f14963845252c407ae3256956f047a92f",
+      "v002_sha256": "1f53b1347e432920eadf20b0f617ea01ec4ac9991718aef3b04ad5cb835b730d"
+    },
+    {
+      "path": "scripts/derive_alpha_br_homogeneous_operator_pullback_v001.py",
+      "v001_sha256": "3261aaafdfe19c1a638d7f10159591f1f9393f5ac69331d63351d21623477b56",
+      "v002_sha256": "6ae3ca970be0d41acccaf08ba42c8b3562ff59fa906fa497b3eeef04b3473716"
+    },
+    {
+      "path": "scripts/derive_alpha_br_mixed_cartan_metric_odd_pullback_v001.py",
+      "v001_sha256": "6b63b744762dc36e14da46ab36517eedaa0df688234a5077dda6bb2a40cd02ca",
+      "v002_sha256": "f18afd6ef414a0c6de392c5a8f67995d00f32932d4c580ea7cda78627f926194"
+    },
+    {
+      "path": "scripts/derive_alpha_br_weak_goldstone_superconnection_covariance_v001.py",
+      "v001_sha256": "733ff4a2cdeeaee34ffe1bf746f4ccf6eebcd7f32abc2ebac5b1a91f0b12282b",
+      "v002_sha256": "43adbf1b0a574e80d0b8e14309065195f94e6d6daf349f6dad7c652dd5aeb01f"
+    }
+  ],
+  "changed_count": 8,
+  "files": {
+    "alpha_boundary_spectral_pullback_measure_v001.md": "255fcecc2d9b6bec5428c95855094ba507919ba9155000c9be82ce94c12d6aba",
+    "alpha_boundary_superconnection_principle_v001.md": "e21f33759af041834bc6ad26699b349e3322e90daa1a14f0d309359e0262cbbe",
+    "alpha_coupled_gravity_em_surface_saddle_principle_v001.md": "64ddc7220c7d32054e7565fbd50df8022ace0c02eed77e9c01c731141c090320",
+    "reports/alpha_br_exact_cartan_metric_odd_superhessian_v001.md": "f9e9eecaecf29e305241cb8bc5cb3b99884743b060688c410d09833481d64ca5",
+    "reports/alpha_br_exact_charged_root_goldstone_superhessian_v001.md": "f80c894e608e931c06c12eb041a0ff56936852f2f50ac1d8e5945133765a340c",
+    "reports/alpha_br_exact_public_coupled_momentum_continuum_v001.md": "fab306323d00b35976d3051e67d1dbb0b68e972b959621328c59a98cb75ccc3f",
+    "reports/alpha_br_exact_public_coupled_superhessian_v001.md": "75c81f3450b809d9be754611a7fbbe79a3ab9cd311c5b36522cefcc38066c3a2",
+    "reports/alpha_br_external_magnetic_covariance_v001.md": "ba6bc24522591d726baa00428d0b349aeaaee07f61b0b25494f3db84e7896ba1",
+    "reports/alpha_br_external_real_mode_inventory_v001.md": "4e9c511b1da24660d797f6b5adb0d2f9bf30abe0f05f533b53eb4d1ec18857ee",
+    "reports/alpha_br_l0_q_common_operator_regression_v001.md": "8a1ad3ee18a54aa561b4953906df3b0e4c898031923bfea93d6fa12897a9889f",
+    "reports/alpha_br_mixed_cartan_metric_pullback_v001.md": "c600e1e4263aa25f079fdf6888f64658175e4855903cfcf18033d3500456c9c4",
+    "results/alpha_br_exact_cartan_metric_odd_superhessian_v001.csv": "c8c3a6e7fb2d95b2ff7824e7c8af5de80a231b95eccc8108f972636705ae55c6",
+    "results/alpha_br_exact_charged_root_goldstone_superhessian_v001.csv": "a152a4fa9c20ad2a85eed158953307d55023137e1b25f905682becce7837d554",
+    "results/alpha_br_exact_public_coupled_momentum_continuum_v001.csv": "71cc8b2b68cf5be85bdc8b8b7ecdde6fb74d624ff053568b666b6e3494645a9d",
+    "results/alpha_br_exact_public_coupled_superhessian_v001.csv": "de8e31549ba062e26c881007e372edaec77e8a52d042db98839896117f86c713",
+    "results/alpha_br_external_magnetic_covariance_v001.csv": "30ef32c1eba52ab5ddaf8e41c36e8e8d610f58545223389b70988f22b38f28fc",
+    "results/alpha_br_external_real_mode_inventory_v001.csv": "20645613dfc7f336c2c9581e76336377eff190499279cae06d3d46efcdb21344",
+    "results/alpha_br_l0_q_common_operator_regression_v001.csv": "9744deb8ea843de4046ddccc9fd786084da61a981040957243f9e63239b205a7",
+    "results/alpha_br_mixed_cartan_metric_pullback_v001.csv": "af10d6ef4bdbdbf26eda52dfa68aa882c2db2e4e5478a3aeaf7f4869df1e17db",
+    "scripts/alpha_br_frozen_primitives_v001.py": "33a73007adfde3bd611fe82809a677fb31c4348195102e33eee216ad2e84a326",
+    "scripts/audit_alpha_br_determinant_line_anomaly_v001.py": "2984efdf01986b4ae66e136d8ff4ed0bb870aac1f45c0c421a7dc59d148eb6c7",
+    "scripts/audit_alpha_br_exact_public_coupled_momentum_continuum_v001.py": "78fbe50cc6cc7781230f9036a1f9b748a9817986e432e8cf5ba7ca7783ce7e95",
+    "scripts/audit_alpha_br_external_magnetic_covariance_v001.py": "48f9e4b31966981c11fa9b48b6a8d3cedc79ed1439f9596c5706b03ad6b4b08d",
+    "scripts/audit_alpha_br_l0_q_common_operator_regression_v001.py": "67a874bae22f6b1a525b9c3ff84d296cd5e4c24778ea108efffe5d397142be8e",
+    "scripts/audit_alpha_br_metric_second_contact_completeness_v001.py": "f7bc34dc677f7798598475e311210c98fa207dcd0903c7a148b8f183b4c8db44",
+    "scripts/derive_alpha_br_4d_finite_bg_contact_generator_v001.py": "96167ab76a4d86ed67e112367e7fc59f91776bbb35001906156006d5213e5b77",
+    "scripts/derive_alpha_br_charge_covariant_realified_operator_v001.py": "809223c873d535acdee42875f08d7c4dbb494a6abb750d77c643c77c4d9b0bc3",
+    "scripts/derive_alpha_br_charged_root_connection_pullback_v001.py": "1abbd671dd942de50fe691efb43c8614b31da7d3eeb429a7f78fe462e0f9ccb1",
+    "scripts/derive_alpha_br_charged_root_scalar_intertwiners_v001.py": "776760ace15f92c9d856497a1c8d26e42d39c128dadf76748365846e8cb4ff60",
+    "scripts/derive_alpha_br_charged_root_sphere_connection_v001.py": "9abfeab96db6c872fc55bfea0510f1d2be5b50cafb2ec883025c5a450e22d0bf",
+    "scripts/derive_alpha_br_coupled_sphere_diffeomorphism_tensor_orbit_v001.py": "736a25e5374cb0d05afbe58786d3c5936080f9334f2d08ca1cf66bc04dabda51",
+    "scripts/derive_alpha_br_exact_cartan_metric_odd_superhessian_v001.py": "c7c91bd19e7c921c9b7e0577b61caf57abcffd25c48ae0f1ef3d896b956e3d02",
+    "scripts/derive_alpha_br_exact_charged_root_goldstone_superhessian_v001.py": "1f53b1347e432920eadf20b0f617ea01ec4ac9991718aef3b04ad5cb835b730d",
+    "scripts/derive_alpha_br_exact_h_metric_superhessian_v001.py": "13031a2326f0129625dc651451053c6910d1a30e81e8af855f9c0cfd52b339b7",
+    "scripts/derive_alpha_br_exact_metric_connection_contacts_v001.py": "e9b16ca1682fceca763cd0edf2e752e83d0b614ab7d1ba1d3983093209501542",
+    "scripts/derive_alpha_br_exact_mixed_second_contacts_v001.py": "f4c99f44b4b28c2b5be5d3af39d79630c94d60dab05b22d1b113f8c6c7a88db1",
+    "scripts/derive_alpha_br_exact_public_coupled_superhessian_v001.py": "4f064d9ec1a62cdc7bf10694ff77795ecac0b360fd655944960a90b7978a3a7e",
+    "scripts/derive_alpha_br_external_real_mode_inventory_v001.py": "6f68d9dccfffee6d7c76a96c889aa3dfa02cc98e28be6a86a12dd03ff3f4b785",
+    "scripts/derive_alpha_br_finite_bg_second_contact_v001.py": "a7b3d9124f3b0032ffc0e2dc369536559f05f4bbb63c211d375909bc7c3dcfe5",
+    "scripts/derive_alpha_br_homogeneous_operator_pullback_v001.py": "6ae3ca970be0d41acccaf08ba42c8b3562ff59fa906fa497b3eeef04b3473716",
+    "scripts/derive_alpha_br_lifted_h_isometry_block_v001.py": "c2a88ed5b0712d318d2b8898df8c52d4adffa8d4f50f22acafb5961749344bb8",
+    "scripts/derive_alpha_br_metric_quadrature_calibration_v001.py": "3e8ed7812a9679854dbdff830d1ed15a392e431d797d0f955a612c312e3e55e4",
+    "scripts/derive_alpha_br_mixed_cartan_metric_odd_pullback_v001.py": "f18afd6ef414a0c6de392c5a8f67995d00f32932d4c580ea7cda78627f926194",
+    "scripts/derive_alpha_br_mixed_cartan_metric_pullback_v001.py": "ddadd387b8703f80d7cf5acf7f684863e1c7088560d2ac45083a25b90c232d8e",
+    "scripts/derive_alpha_br_mixed_q_l_metric_operator_v001.py": "60831a3d78ebc4d93fc2a476198832785fe140797a79a879111cba25359b24b2",
+    "scripts/derive_alpha_br_nonzero_em_gaussian_subdatum_v001.py": "eef5079b106ef1ba5d2b5fc266c2456e14d6df9a4ddeeefd8a485cd67695d2dd",
+    "scripts/derive_alpha_br_nonzero_em_odd_gaussian_subdatum_v001.py": "76b4dfcdd2a6fca3e8757d6ad6e8b488fc2b9a873c5dfe91b77a57bcbe09f887",
+    "scripts/derive_alpha_br_product_weyl_intertwiner_v001.py": "6fe5f7e96ef3e7a3ce71515efa202d7a7d838fcb60e00b1a45a2b8b8620f5a28",
+    "scripts/derive_alpha_br_sphere_connection_vertex_v001.py": "52829d8edf41c93984d27035b314373bcd07ee9da3fa606c0b367a72072aed65",
+    "scripts/derive_alpha_br_spin_weighted_quadrature_v001.py": "1729b02f233555da9262050dad4f85f75b20feea0b3f1e261b6e3e0672a1307f",
+    "scripts/derive_alpha_br_spin_weighted_tensor_intertwiners_v001.py": "66368ae00b6f540b65ee678c24ef68542688f9cd8fe48a1bdb2b7d721a584e85",
+    "scripts/derive_alpha_br_spinor_covariant_quadrature_v001.py": "655bf60e5c0873ef7b5b83d8a55d067cd7f4f6583aa68f058d0126ef8c011ac8",
+    "scripts/derive_alpha_br_spinor_monopole_scalar_vertex_v001.py": "9655dbe5dbec4aa62387d37afa100833e01885287931fa8b9cb918c7fe5d2c0f",
+    "scripts/derive_alpha_br_typed_dirac_metric_carrier_v001.py": "29aade3d41fffab1b92548fa08d883e5b6aa63e13285386bc388d1493b85321f",
+    "scripts/derive_alpha_br_typed_l1_isometry_triplet_v001.py": "b72f3e9f1861babaa1d3a3059fe8f658930b471dd67ec7b5c69cf14fb162cf0a",
+    "scripts/derive_alpha_br_typed_transverse_metric_tower_v001.py": "4ef0496a238800e4950d6750558a2e8e9a95f09b63d5a97ceafaaaadcd4b99be",
+    "scripts/derive_alpha_br_weak_goldstone_superconnection_covariance_v001.py": "43adbf1b0a574e80d0b8e14309065195f94e6d6daf349f6dad7c652dd5aeb01f",
+    "scripts/derive_alpha_superconnection_finite_mass_spectrum_v001.py": "f7ea3c63548cf7dfdfc3d5c44ec292a1478657a2c6bdaac32f63b93e6d508ab2"
+  },
+  "missing": [],
+  "missing_count": 0,
+  "predecessor": "results/alpha_br_operator_artifact_fingerprint_v001.json",
+  "predecessor_status": "PASS_CURRENT_OPERATOR_ARTIFACT_FINGERPRINT",
+  "proof_authorized": false,
+  "same_count": 50,
+  "scope": [
+    "hash refresh only",
+    "does not rerun or revalidate recorded numerical outputs",
+    "does not compute C-L3, kappa_record, kappa_Thomson, alpha, x, rho, or T_R",
+    "existing census gate remains hardwired to the v001 fingerprint path unless separately amended"
+  ],
+  "status": "CURRENT_OPERATOR_ARTIFACT_FINGERPRINT_SUCCESSOR_RECOMPUTED",
+  "tracked_file_count": 58
+}
