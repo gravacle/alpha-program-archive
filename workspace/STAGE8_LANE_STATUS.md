@@ -169,7 +169,7 @@ the right obligation. Neither answered nor prejudged by the refutation.
 |---|---|---|---|
 | R-1 | U3 amendment into E1 v002's governing chain | **GRANTED.** Sealed `a861d452…` | 2026-07-26 |
 | R-2 | Standing open-decisions artifact | **GRANTED.** This file | 2026-07-26 |
-| R-3 | Stages 9/10/11 labels | **RETIRE.** Reversal condition checked and did not trigger — the prohibition has four label-free sealed carriers | 2026-07-26 |
+| R-3 | Stages 9/10/11 labels | **RETIRE.** Reversal condition checked and did not trigger — the prohibition has three label-free sealed carriers. **Count correction 2026-07-28:** source retirement artifact records `candidate_defeated_by = 3 label-free carriers`; prior `four` was a count error, not a substance change | 2026-07-26 |
 | R-4 | A4(3) erratum | **SIGNED OFF.** Proceed | 2026-07-26 |
 | R-5 | Extensivity contingency (would be a new principle) | **DEFERRED, unadopted** | 2026-07-26 |
 | R-6 | D-1: does R-L2b gate A-L0 arm 2? | Neither gates the other; R-L2b is earliest-unmet-prerequisite, arm 2 is highest-risk-of-never-closing | AMENDMENT_001 §B |
