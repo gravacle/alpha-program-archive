@@ -1,0 +1,29 @@
+{
+  "alpha_computed": false,
+  "baseline": "corpus_check_yellow_counts_v001",
+  "date": "2026-07-29",
+  "discipline": "YELLOW classes may not increase; RED classes block in --gate.",
+  "proof_authorized": false,
+  "red_checks": [
+    "authority_currency",
+    "deploy_state",
+    "fingerprint_currency",
+    "marker_prefix_collision",
+    "seal_integrity",
+    "voided_pass"
+  ],
+  "yellow_checks": [
+    "hardcoded_claim_flags",
+    "relay_sequence_head",
+    "scope_declaration",
+    "substring_certification",
+    "superseded_path_hardwire"
+  ],
+  "yellow_counts": {
+    "hardcoded_claim_flags": 2927,
+    "relay_sequence_head": 17,
+    "scope_declaration": 107,
+    "substring_certification": 6,
+    "superseded_path_hardwire": 546
+  }
+}
