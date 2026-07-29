@@ -1950,22 +1950,119 @@ Historical target awareness cannot be erased. A32 therefore uses an external
 registry, a future randomness beacon, and an outcome-masked custodian rather
 than an author's claim of retrospective blindness.
 
-Before `SPEC-SEAL`, the protocol must freeze:
+Before `SPEC-SEAL`, the protocol must freeze the following A32 holdout
+fields. The freeze values in this subsection were ratified by the principal on
+2026-07-28 in `A32_FREEZE_V002_RATIFIED_2026-07-28.md`
+(`32dbfc33b4f07407903ec014627ea64de57b5b1a6dc017dd27c6504729c3a327`),
+with the thirteen mechanical items ratified as written in
+`A32_FREEZE_DRAFT_V000_2026-07-28.md`
+(`13faf0bc9a455590bd99d1a40587d798bc558e87aa1d1bc6dcf6778731138123`):
 
 ```text
-one public registry or API;
-the exact query and pagination procedure;
-an inclusive UTC cutoff;
-the response schema and canonical field mapping;
-RFC-8785 canonical JSON serialization;
-canonical observable IDs;
-and deterministic duplicate resolution.
+Registry / observable family:
+  NIST CODATA recommended-values table, 2022 adjustment, as one fixed-vintage
+  machine-readable artifact. The collector retrieves exactly one of:
+    physics.nist.gov/cuu/Constants/Table/allascii.txt
+  or a versioned canonical JSON form only if the collector verifies that JSON as
+  the canonical NIST artifact. The collector retrieves once and hashes the full
+  raw bytes. T_cutoff is the 2022 adjustment vintage.
+
+Eligibility exclusions:
+  LINEAGE-ONLY exclusions: the alpha datum and deterministic re-expressions of
+  the alpha datum, meaning values computed from the alpha measurement rather
+  than independently measured. There is no correlation ceiling, no proximity
+  exclusion, and no human carve-out after registry collection. The observable
+  family is every machine-enumerated candidate satisfying the sealed eligibility
+  conditions and computability under the frozen prediction-map interface. An
+  empty eligible set fails closed.
+
+Mechanical collector / commitment fields:
+  1. Query and pagination: full endpoint path, query parameters, page-size rule,
+     sort rule, retry rule, rate-limit behaviour, termination condition, failure
+     behaviour; no manual addition or removal.
+  2. Cutoff rule: one frozen cutoff, here the 2022 adjustment vintage; include
+     records within that vintage, and machine-exclude records whose timestamp or
+     version is unparseable when a timestamp/version field is supplied.
+  3. Response schema: registry record ID, observable definition text, value or
+     masked-outcome handle, units, uncertainty/covariance metadata,
+     kinematic/domain metadata, source identifier, timestamp/version, provenance
+     URL.
+  4. Canonical field mapping: registry fields map to typed canonical JSON keys;
+     a missing required key is machine-excluded, never human-repaired.
+  5. Canonical JSON: RFC-8785, UTF-8, sorted keys, normalized number/string
+     handling.
+  6. Canonical observable ID:
+     canonical_id = SHA256(RFC8785(canonical_source_record)), where the record
+     includes registry source ID, record ID, observable definition, units,
+     domain, and source identifier, and not the observed value.
+  7. Deterministic deduplication: cluster key = normalized source identifier
+     plus normalized observable definition plus units plus domain. Keep the
+     lexicographically lowest canonical_id; emit all suppressed IDs with
+     reasons.
+  8. Collector output: raw page bytes, SHA256(raw_page_bytes) per page,
+     canonical candidate JSONL, exclusion JSONL, duplicate report, collector
+     version hash, collection transcript.
+  9. Custodian commitments: independent custodian, one 256-bit salt per
+     candidate from auditable external randomness or hardware entropy. Payload =
+     RFC-8785 JSON of canonical outcome value, uncertainty, covariance, units,
+     source identifier. Commitment =
+     SHA256(salt || RFC8785(canonical_outcome_payload)). Custodian attests that
+     no payload was disclosed.
+  10. Selection rule: after PREDICTION-MAP-SEAL, with B the canonical beacon
+      value and H_spec the final spec hash, sort eligible IDs by
+      SHA256(H_spec || B || UTF8(canonical_id)) and select the lowest.
+  11. Contamination audit: search all accessible repository history,
+      attachments, logs, prompts, tickets, browser-history exports where
+      available, and lane artifacts for the selected canonical_id, source
+      identifier, observable definition, and outcome payload before unmasking.
+      Any prior outcome access fails A32.
+  12. Prediction-map interface: immutable
+      (sealed_theory_output_record, canonical_candidate_record) ->
+      prediction_payload, carrying predicted value, units, theory uncertainty,
+      covariance if vector-valued, propagation trace, comparator outputs,
+      structure-sensitivity statistic, and pass/fail statistic template. Values
+      wait downstream; the interface freezes before evaluation.
+  13. Uncertainty treatment: theory uncertainty from sealed prediction payloads
+      only; comparator uncertainty from preregistered comparator payloads only;
+      measurement uncertainty/covariance from the custodian commitment payload,
+      uneditable after commitment. Vector observables use Mahalanobis distance
+      with combined covariance; singular covariance fails eligibility unless a
+      projection rule was frozen beforehand.
+
+External randomness beacon:
+  Primary is drand League of Entropy mainnet. The round number is computed
+  deterministically from the frozen genesis time and period as the first round
+  strictly after PREDICTION-MAP-SEAL; the value is that round's randomness hex,
+  parsed verbatim. Fallback, with no discretion, is the NIST Randomness Beacon
+  v2 pulse at the first whole UTC minute after the same seal instant if the
+  drand round is unretrievable from all frozen mirrors for 24 hours. If both
+  are unavailable for 72 hours, A32 fails closed. The collector records exact
+  chain hash, genesis, period, and mirror list at freeze execution.
+
+Same-alpha comparator class and calibration:
+  Comparators are published standard-theory QED/SM expressions cited before
+  candidate-universe construction. They are evaluated with the identical alpha
+  input under the frozen convention
+  alpha(0) = 1/(4 pi kappa_Thomson), with perturbative order frozen per formula
+  at preregistration. No candidate-specific fitted parameter, refit, channel
+  coefficient, or post-selection is allowed; BID and comparator use identical
+  candidate metadata. A candidate with no published standard expression is
+  ineligible for that candidate.
+
+Distinctness threshold:
+  D >= 5, with
+  D = |mu_BID - mu_comp| / sqrt(sigma_BID^2 + sigma_comp^2 + sigma_meas^2)
+  after unit conversion and covariance projection. Singular covariance fails
+  eligibility unless a projection rule was frozen beforehand. D is never
+  renegotiated after any set size, prediction, or value is seen. An empty
+  eligible set fails closed.
 ```
 
 The registry collector must exhaust every page and publish the raw response
 hashes plus a machine-generated inclusion/exclusion report. A hand-curated
-candidate list fails A32. The exact registry/query/cutoff fields are not yet
-set in this working draft; V011 cannot receive `SPEC-SEAL` until they are.
+candidate list fails A32. This A32 freeze makes the freeze-field component
+attainable; it does not claim `SPEC-SEAL`, `HOLDOUT-UNIVERSE-SEAL`,
+`PREDICTION-MAP-SEAL`, `ALPHA-RESULT-SEAL`, or any ladder-grade flag.
 
 For every machine-enumerated candidate, an independent custodian publishes a
 content-addressed manifest containing:
