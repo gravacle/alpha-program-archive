@@ -48,7 +48,9 @@ S = one lane session.
 | 14 | Slots 10,11,12 — source-inclusive limit, Moller limit, regulator independence | L | LANE | 13 |
 | 15 | Slots 15,17 — enlarged-branch exhaustion, CISP descendant test | L | LANE | 14 |
 | | **BAND 4 — WHETHER ANY RESULT CAN BE CLAIMED. Independent of all physics.** | | | |
-| **16** | **Slot 18 — one unused structure-sensitive NON-alpha prediction. SECOND LIVE WORKSTREAM (Q-21).** Load-bearing for alpha's EPISTEMIC STATUS (Q-18) and irrelevant to its value. Workable in parallel NOW | L | LANE | — |
+| **16** | **Slot 18 — SCOPED 2026-07-30: MISSING SPECIFICATION. "unused" HAS NO SEALED DEFINITION (Q-23).** Blocked on a principal act; the lane may not define its own admissibility predicate | L | **PRINCIPAL then LANE** | 16a |
+| **16a** | *** **RULE ON A32 MASKING (Q-24). TIME-SENSITIVE — a holdout committed late is VOID.** No independent custodian (self-attestation cannot satisfy rule 9); and **the committed payload omits COVARIANCE while `D` consumes covariance projection** — an unbound covariance is a post-hoc freedom inside the anti-post-hoc mechanism *** | S | **PRINCIPAL — NEXT** | — |
+| **16b** | **Define "unused"** as a machine-testable predicate, or rule that "absent as an outcome or target from the complete historical lineage" IS the definition and record the identification | S | PRINCIPAL | — |
 | 17 | Apparatus: Phase A is DONE/GREEN. Remaining: RD-22 independent ladder evaluator, still NOT AUTHORIZED | M | PRINCIPAL then LANE | — |
 | 18 | 35 A-matrix rows (all PENDING) -> SPEC-SEAL -> the eleven-node fail-closed ladder | M | LANE | 17 |
 | 19 | A32 holdout: COMMIT early (a late commit is VOID, not weaker) -> unmask behind ALPHA-RESULT-SEAL | M | LANE | 16,18 |

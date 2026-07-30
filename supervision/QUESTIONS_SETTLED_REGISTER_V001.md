@@ -997,6 +997,89 @@ the seven ranked rows. Work on the cancellation class does NOT reopen it.
 
 ---
 
+## Q-23. "Is slot 18 well-posed? What does 'unused' mean?"
+
+Also asked as: can we produce the non-alpha prediction? Is the A32 admissibility condition defined?
+
+**RULING: NO — SLOT 18 IS HALF-POSED. "STRUCTURE-SENSITIVE" IS DEFINED; "UNUSED" IS NOT.** Established
+2026-07-30 by Codex lane 2's bounded two-root inventory, reviewer-verified.
+
+The obligation (`STAGE6_PARENT_ACTION_AND_QSPEC_LEDGER_V002.md:119-139`) says "one **unused**
+structure-sensitive prediction." `BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md:2080-2089` defines
+structure-sensitive operationally — "BID and at least one preregistered comparator calibrated to the same
+alpha must make distinct predictions" — and offers "be absent as an outcome or target from the complete
+historical lineage", but **nothing equates that with "unused" or supplies a machine-testable predicate.**
+
+**CONSEQUENCE FOR Q-18/Q-22:** slot 18 is the mechanism that would EARN the induced-only axiom that
+alpha's conditionality equals. **An earning mechanism with an undefined admissibility condition cannot be
+relied on to earn anything.** Q-18 and Q-22 assumed slot 18 was well-posed; it is not yet.
+
+Defining it is a PRINCIPAL ACT — a lane choosing the predicate that decides which predictions are
+admissible would be selecting the test after seeing the candidate space.
+
+ALSO ESTABLISHED, and each matters: the 355 collected rows are NOT the eligible universe ("Lineage
+exclusion is executed later at the eligibility stage… No row was dropped for content"; and "No sealed
+HOLDOUT-UNIVERSE-SEAL immutable subject exists"); A32 is "RATIFIED" but "SPEC-SEAL becomes ATTAINABLE,
+not attained"; **no concrete same-alpha comparator exists** — the term names a CLASS with no publication,
+expression, order or payload found; the eligible set cannot be shown non-empty before predictions exist;
+and **`D` is NOT a comparison to a measured central value** — measurement enters only through
+uncertainty/covariance, so computing `D` does not breach the no-comparison fences.
+
+NO IMPOSSIBILITY: six typed non-alpha output families exist with their required derivations listed.
+
+RESULT AT: `RESULT_A32_MASKING_AND_UNUSED_UNDEFINED_2026-07-30.md`; lane report
+`STAGE8_SLOT18_BOUNDED_SCOPE_INVENTORY_V001.md` (`3a1a9d98…`).
+
+REOPENS/CLOSES IF: the principal defines "unused", or rules that the "absent from the complete historical
+lineage" condition IS the definition and records that identification.
+
+---
+
+## Q-24. "Is A32's masking discipline compliant with its own spec?"
+
+Also asked as: is the holdout sound? Was there an independent custodian? Can we trust the commitments?
+
+**RULING: COMPLIANCE IS NOT ESTABLISHED ON TWO SPECIFIC POINTS. THE HOLDOUT IS NOT SHOWN COMPROMISED.**
+Established 2026-07-30; the second point is a reviewer finding lane 2 did not name.
+
+Rule 9, `BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md:2008-2011`, requires an "**independent
+custodian**", a 256-bit salt per candidate, "Payload = RFC-8785 JSON of canonical outcome value,
+uncertainty, **covariance**, units, source identifier", and "**Custodian attests that no payload was
+disclosed.**"
+
+**(a) NO INDEPENDENT CUSTODIAN.** `a32_holdout/collector_v001.py:301-326`: one program, one run, reads
+`/dev/urandom` for salts, writes `custodian_private/custodian.jsonl` containing BOTH payload and salt, and
+writes the public `commitments.jsonl`. **"Custodian attests that no payload was disclosed" cannot be
+satisfied by self-attestation** — an attestation by the party that generated the payloads is not what
+rule 9 asks for.
+
+**(b) THE SALT SOURCE IS ARGUABLY COMPLIANT — recorded so nobody later claims otherwise.** Rule 9 permits
+"auditable external randomness OR hardware entropy." `/dev/urandom`, 32 bytes, fail-closed on short read,
+plausibly satisfies the second disjunct. It leaves no audit trail, so it fails the first. Disjunctive
+requirement, so NOT a violation.
+
+**(c) NEW — THE COMMITTED PAYLOAD OMITS COVARIANCE, AND THIS ONE HAS TEETH.** The code commits four
+fields (`source_id`, `uncertainty`, `units`, `value`); rule 9 requires five. **Covariance is not bound by
+the commitment.** And `V011:2052-2058` defines `D` "after unit conversion and **covariance projection**"
+— so an unbound covariance can be supplied AFTER the prediction exists. *** That is a post-hoc freedom
+inside the one mechanism whose entire purpose is to remove post-hoc freedom. *** Two innocent readings
+exist — all observables scalar, or covariance carried elsewhere — and **neither is recorded.**
+
+**TIME-SENSITIVE, NOT MERELY IMPORTANT: a holdout committed late is VOID, not weaker.** If re-collection
+under an independent custodian is required, it must happen BEFORE any prediction exists, and both
+construction lanes are now working toward predictions. The same defect found after alpha exists cannot be
+repaired at all.
+
+Also recorded: lane 2's structure-only probe detected a numeric-looking candidate-definition suffix and
+stopped, reproducing and inferring nothing. Correct behavior, and a second independent reason to inspect
+masking.
+
+REOPENS/CLOSES IF: the principal accepts the arrangement with the limitation recorded; or requires
+re-collection under an independent custodian; or rules on whether covariance must be committed (which
+likely forces re-commitment). An innocent reading of (c), once recorded with evidence, closes (c) alone.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
