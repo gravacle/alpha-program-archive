@@ -1564,6 +1564,53 @@ REOPENS IF: a surface-body object is later sealed as a specialization of a `Gamm
 
 ---
 
+## Q-37. "Can construction start? Is adopting the root premise legitimate?"
+
+Also asked as: may declared objects be treated as producers? What separates a good adoption from a bad one?
+
+**RULING: ADOPTED, AS A HYPOTHESIS WITH A FROZEN TEST. CONSTRUCTION MAY START.** PRINCIPAL ACT, 2026-07-30.
+The premise, verbatim: *treat the declared source-record-field carrier/domain, gauge-fixed physical
+quotient, record-effect family, and invariant spacetime/contour measure as a complete `Gamma_K`-ready
+producer, even though the current producer flags for that completion remain false.* Declared in Section 0
+per F-GK3.
+
+**THE FRAMING WAS CORRECTED BY THE PRINCIPAL AND THE CORRECTION IS THE RESULT.** I posed it as
+adopt-versus-refuse with testing as mitigation. **In science one adopts a hypothesis IN ORDER to test it —
+the adoption is what makes the thing falsifiable.** A premise never stated is a premise never refutable. So
+the operative question is not "is it proven" but **"is there a live test attached, or will nobody ever
+check?"**
+
+*** BY THAT STANDARD THIS ADOPTION AND A6 ARE OPPOSITES, THOUGH THE CORPUS CALLS BOTH "ADOPTED". *** This
+one: stated ONCE, COUNTED, and TESTED by a five-channel mutation audit, a uniqueness gate, F-GK2 and F-GK4,
+all frozen BEFORE construction. A6, the minimality selector: stated NINE times in nine files, never
+counted, never tested — which is exactly why the axiom map called it a number-manufacturing device.
+
+**THE STANDING RULE THIS ESTABLISHES: EVERY ADOPTION CARRIES ITS TEST, OR IS MARKED UNTESTED.** The corpus
+treats "adopted" as one category (`K_bare = 0`, `C_R = 1`, mutation exclusion, ER-A) with no distinction
+between premises exposed to refutation and premises nobody will check. **That distinction is worth more
+than most of the fences.**
+
+**THE LIMIT ON WHAT A PASS MEANS, recorded beside the declaration:** the audit tests STABILITY UNDER
+ADMISSIBLE MUTATION, not correctness of the declaration. A declaration wrong but internally consistent —
+a carrier that is not the physical carrier yet supports a construction stable across all five channels —
+**would pass.** A clean audit licenses "consistent and not mutation-sensitive," never "the declaration was
+right."
+
+**THE COST, PAID DELIBERATELY:** a SECOND conditionality at the root. Q-18 fixed alpha's conditionality to
+the induced-only axiom's status; this adds another, at the root of the dependency graph, so everything
+`Gamma_K` produces inherits it — including `K_*`, alpha's stiffness under Q-34. Slot 18, which would
+discharge either, is unreachable (Q-23, Q-35).
+
+FROZEN: **F-RP1** — if the audit passes only because the declared objects are underspecified, so that a
+channel cannot be mutated for want of definite content, **the audit is VACUOUS and the adoption bought
+nothing.** That outcome is distinct from a pass and must not be recorded as one.
+
+RULING AT: `GAMMA_K_ROOT_PREMISE_ADOPTED_PRINCIPAL_DECISION_2026-07-30.md`.
+
+REOPENS IF: F-RP1 fires, or the audit fails, or F-GK2/F-GK4 fire.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
