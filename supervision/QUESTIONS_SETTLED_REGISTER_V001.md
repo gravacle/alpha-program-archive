@@ -1913,6 +1913,10 @@ zero-flux/no-write.
 Incidence Support; the chiral spectral-semigroup rule; the source-record odd-component identity; the
 exhaustive-use clause; first-record capacity.
 
+**[CORRECTED BY Q-58: "only absolute-scale selector" is right, but this entry's later wording blurs
+"unselected absolute scale" with "unselected unit value." There is exactly ONE of the first and more
+than one of the second. A falsifier is also designable — see paste 154.]**
+
 *** `C_R = 1` IS THE MOST CONSEQUENTIAL UNTESTED PREMISE, AND IT HAS NO FROZEN PHYSICAL FALSIFIER AT ALL.
 *** Its proposed forcedness audit is explicitly "NOT YET AUDITED." It is the ONLY absolute-scale selector
 (Q-07), it is in content a marginal self-gravitation condition, and it reaches the producer as a function
@@ -2363,6 +2367,103 @@ stack, with the enumeration incomplete as a count and S8 unresolved.* **Theory 0
 **THREE INDEPENDENT PASSES CUT IT DOWN IN ONE AFTERNOON** — Einstein's enumeration audit (Q-53), lane 1's
 S8 test (Q-55), and lane 1's retyping (Q-56). **Each was told it could kill the thing cheaply, and each
 did part of the job.** The candidate cost one document and returned a method finding.
+
+---
+
+## Q-57. "Does the raw-correlator-to-retarded-Hessian map exist, and can it be specified?"
+
+**RULING: IT DOES NOT EXIST UNDER ANY NAME, AND A CONDITIONAL SPECIFICATION NOW EXISTS WHERE NOTHING DID.
+DERIVATION REMAINS TYPE-U; PHYSICAL VERDICT `NO_VERDICT`.** Established 2026-07-30 by Codex lane 2 under
+relay 158 (`STAGE8_RAW_CORRELATOR_TO_RETARDED_HESSIAN_MAP_SPEC_V001.md`, `57c06fcb…`, 1116 lines,
+prepublication gate GREEN).
+
+*** THE CORRESPONDENCE CHECK CAME BACK NEGATIVE, AND PROPERLY TYPED. *** A bounded 22-file search found no
+derived `G -> H_R[G]` under another name — **TYPE-S with roots, exclusions, queries and file list
+recorded**, which is what Q-54 requires and what makes the negative citable at all.
+
+*** AND Q-50's HYPOTHESIS IS REFUTED — CORRECTLY, BY AN EXECUTED TEST. *** Primitive scalarization **is not
+the same mathematical function**, established TYPE-R by a signature/composition test. **Q-50 explicitly
+declined to claim the identification and flagged that typing it was lane 2's item; that caution was right.**
+Q-51's broader classification survives: the actual-parent bridge is TYPE-U and prospectively upstream,
+`p_loc` is downstream, and the response-extraction layer remains one layer.
+
+**WHAT THE EXISTING FINITE RESULTS DO AND DO NOT GIVE.** The primitive operator bundle, the Duhamel
+tangent, and the finite/algebraic complete-`Q_spec` state-evaluation scalar closure are all derived. **They
+do not supply the raw bilocal `G`, the physical quotient, the inversion domain, contacts/boundaries, or the
+complete BR/CTP extension**, which remains TYPE-U.
+
+*** THIS IS THE FIRST CONSTRUCTION-SHAPED OUTPUT OF THE DAY, AND IT EXISTS ONLY BECAUSE OF Q-52. *** Under
+the old charter a lane could not specify a missing object. Subject to premises P1-P8 — **each carrying
+`derived = false | TYPE-U` and a `would-build` field** — the specification fixes the `R = 0` stationary
+2PI-to-reduced-1PI Schur complement, `H_C[G] = i hbar G^-1`, full-contour Keldysh congruence, and mixed
+retarded extraction. **It names the missing instantiation object `CTP_PHYS_INPUT_PACKAGE` and stops before
+constructing it**, which is exactly the discipline Q-52 requires.
+
+**SIX FAILURE-CAPABLE TESTS ARE SPECIFIED; NONE EXECUTED (TYPE-U).** `NO_VERDICT` takes precedence when
+prerequisites are unbuilt. **No TYPE-C negative was used anywhere in the artifact.**
+
+**PROCESS DISCLOSURE, VOLUNTEERED BY THE LANE:** an early broad path probe and a register-tail check
+surfaced excluded path names and Q-55's register paragraph; **no Q-55 construction artifact was opened,
+cited or used, and the final evidentiary search was rerun over the explicit allowed list.** Q-56 landed
+mid-run, was checked, and does not alter this item. **This is what the register-head requirement was for.**
+
+**MOVES NO FLAG. `0 of 18` and `0 of 11` unchanged** — a specification is not a derivation. But the layer
+blocking the entire program now has one of its four objects specified rather than merely named.
+
+---
+
+## Q-58. "How many unselected absolute scales does the program have?"
+
+*** RULING: EXACTLY ONE — `C_R = 1`, IN EVERY BRANCH. Q-45 SURVIVES. AND THAT IS THE DIFFERENCE BETWEEN A
+DERIVATION AND A FIT. *** Established 2026-07-30 by Einstein under paste 159
+(`STAGE8_UNIT_VALUE_ADOPTION_INDEPENDENCE_AUDIT_EINSTEIN_V001.md`, seal `c7a2505d…`, verified).
+
+*** THE SENTENCE THAT MATTERS MOST TODAY, IN EINSTEIN'S WORDS: *** with **one** unselected absolute scale,
+a computed alpha "could honestly claim to be a **conditional derivation**, exact modulo one named untested
+adoption plus disclosed dimensionless branch conventions, each independently testable." With **more than
+one**, it could claim only "that some point in a multi-parameter family reproduces the number:
+**operationally a fit.**" **THE PROGRAM IS IN THE FIRST CASE**, conditionally on the caveats below.
+
+**THE REVIEWER'S Q-45 WORDING CONFLATED TWO THINGS AND THAT WAS THE TRAP.** "Unselected absolute scale" and
+"unselected unit value" are different findings. **There is exactly one of the first and more than one of
+the second.** Corrected here; Q-45's substantive claim stands.
+
+**WHY `C_R = 1` IS THE ONLY ONE.** The record layer alone has **no** absolute scale: the sealed scale orbit
+`T_R -> lambda T_R`, `H_R -> H_R/lambda` is broken **only** by `chi_* = C_R = 1`. **`s = pi` and `xi = 1/2`
+are orbit-INVARIANT coefficients — they set the coefficient, not the scale.** `E_R` has no independent
+fixing; **the "something fixing `E_R`" IS `C_R = 1`.** Verified twice, including an independent
+re-derivation of the ER-A clause's `T_R`-independence.
+
+**KINDS, 2/1/2 — THEY ARE NOT THE SAME KIND OF QUANTITY.** `C_R = 1` and `tau = 1` are **dimensionless
+adopted unit values** (both UNTESTED). `tau_R = pi/sqrt(2)` is a **derived** dimensionless interval —
+derived as the least positive orthogonality zero conditional on `|w| = 1` — **with a second, adopted role
+as ER-A's amplitude clause, and it is the adoption that binds at S8** (Q-55). `T_R` and `tau_orth` are
+**dimensionful proper intervals**. `N_BR(k_R) = 1` is excluded: its "1" is a cardinality, not a unit value.
+
+**INDEPENDENCE — NOT ONE CHOICE FIVE TIMES, AND NOT FIVE.** *** `T_R` IS DERIVED FROM `C_R = 1` — ONE
+CHOICE, NOT TWO; counting both would double-count the selector. *** `tau_R`'s deployment rides on `T_R`
+through the sealed conversion `tau(t) = tau_R · t / T_R`. `[tau, tau_R]` is **NO_VERDICT** — no deformation
+control exists (TYPE-U). **`tau_orth = T_R` was CHECKED, not assumed**: arithmetically `|Delta| = E_R`,
+promotion blocked by the binary gate, no premise-failure rule frozen.
+
+**COUNTS, BY BRANCH.** Current stack with ER-A in force: **2 unit-value scale choices** (`C_R = 1`,
+`tau = 1`); **3 scale-bearing adoptions** counting ER-A; **4** counting the row-6 saturation adoption inside
+`T_R`'s marker chain. ER-A superseded → **3 genuinely free** (`A_c` reverts to external per Q-55). Row 22
+failing adds `tau_orth` as a TYPE-U open quantity, not an adoption — **worst case up to 4 open scale
+quantities.**
+
+*** TWO CAVEATS, RECORDED NOT SOFTENED. *** (i) **THE SOLE SELECTOR HAS NOT YET SELECTED** —
+`absolute_record_interval_derived_in_declared_branch = false`, with a **disclosed sqrt(2)
+energy-identification ambiguity at marginality**. (ii) `tau = 1` is a second unselected unit value **of
+non-absolute kind**, which answers lane 2's open flag `TAU_EQUALS_1_SECOND_SCALE_CARRYING_ADOPTION_RULED`
+**in the negative for the absolute-scale sense**.
+
+**RESIDUAL:** N2, TYPE-S with the search stated — **no sealed sentence identifies or separates `tau = 1`
+and ER-A's clause, so the 2 could compress to 1.**
+
+**SEVEN NEGATIVES TYPED (N1-N7)**, including one **TYPE-R killing the "c = 1 is a second free unit"
+misreading**. **The fitting fence held: `tau_R` was compared to nothing measured and no inference about
+alpha was drawn from `pi/sqrt(2)`** — the exact restraint the paste demanded.
 
 ---
 
