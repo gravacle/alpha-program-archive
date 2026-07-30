@@ -1340,6 +1340,93 @@ operator.
 
 ---
 
+## Q-32. "Can the response-map pullback (i) be settled from the existing corpus?"
+
+Also asked as: is (i) provable? Is it refutable by an O7-analogue? Why is it stuck?
+
+**RULING: NO — IN EITHER DIRECTION. AND THE REASON IS THE RESULT: (i) IS NOT AN OPEN THEOREM, IT IS AN
+UNDEFINED STATEMENT.** Established 2026-07-30 by Codex lane 1 under paste 140
+(`STAGE8_RESPONSE_MAP_O7_ANALOGUE_WITNESS_CHECK_V001.md`,
+`6f8f0dd3209e3bf10ba6c1e1ab766cdccafc226f507486b216a0d33d2b2cb3ad`). Verdict `UNDETERMINED`.
+
+**THE RESPONSE MAP IS NOT MEASURE-ONLY, so it is NOT insulated by the forced face-measure pullback.** It
+consumes amplitude / record-cycle / Duhamel structure: V011 routes response through `H_c/r_c/U_c/A_c/
+Gamma_c` (`BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md:1249`), `G_L(a;tau_R)` and the intensive Hessian
+(`:1283`), and the generated face response (`:1348`). **The "inherits the measure's pullback and (i) is
+close to immediate" branch is DEAD.**
+
+**BUT THE O7-ANALOGUE WITNESS IS ALSO NOT CONSTRUCTIBLE FROM SEALED TEXT — and the reason is circular in
+an informative way.** To turn O7's transfer-operator witness into a RESPONSE witness, **the missing
+response-map pullback would have to already define how coarse and refined completed amplitudes, full-`tau_R`
+cycles, connected terms and Hessians compare.** *** YOU CANNOT REFUTE THE PULLBACK WITHOUT THE PULLBACK.
+The object needed to build the refutation is the object being refuted. ***
+
+The cheap raw-cycle argument is separately blocked by the sealed extensivity record: **"`tau_R` makes the
+estimate hard. It does not make extensivity false."**
+
+**THE CONSEQUENCE, AND IT IS ACTIONABLE: (i) NEEDS A DEFINITION BEFORE IT NEEDS A PROOF.** One cannot prove
+or refute a commutation until the comparison is defined — what it MEANS for a response on a coarse
+cellulation and a response on a refined one to be the same. That definition is the missing object, and its
+ingredients exist: the measure's pullback is derived and forced, and V011 routes the response through
+named objects.
+
+**SIXTH INSTANCE OF THE DAY'S PATTERN.** The missing object is a CORRESPONDENCE — how two things compare —
+not a calculation. See Q-14, Q-22, Q-29, Q-31, and the slot-18 observable bridge.
+
+REOPENS/CLOSES IF: the comparison map is defined, at which point (i) becomes answerable in the ordinary
+way and this row is superseded by the answer.
+
+---
+
+## Q-33. "Is the response-map comparison really undefined?" — CORRECTS Q-32's INFERENCE
+
+**RULING: NO. THE COMPARISON IS DEFINED, AND (i) AND (ii) ARE TWO CONDITIONS IN ONE THEOREM'S HYPOTHESIS
+LIST.** Found 2026-07-30 in `BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md`, Theorem 3, "Connected-cellulation
+obligation" — an artifact lane 1 did not consult because paste 140 pointed it at V011's response routing.
+
+**Q-32's LANE FINDINGS STAND**: the response map is not measure-only (V011 routes it through
+`H_c/r_c/U_c/A_c/Gamma_c`, `G_L(a;tau_R)`, the intensive Hessian, the generated face response), and the
+O7-analogue witness is not constructible from sealed text. **WHAT IS CORRECTED IS MY INFERENCE** that no
+comparison exists to make the statement well-posed.
+
+**THE DEFINITION, verbatim from Theorem 3:** "Disjoint additivity alone does not prove a thermodynamic
+response on a connected cellulation." The volume-density limit is
+`gamma(A) = lim_(K exhausts R^4) -Log|A_K(A)| / N_4(K)`, and "its Hessian is the connected local record
+susceptibility." **So "the response map commutes with refinement" means "this limit does not depend on
+cellulation" — and Theorem 3 names that failure explicitly: "or the limit depends on cellulation, the
+connected response gate fails."**
+
+**FIVE CONDITIONS ARE STATED FOR THE LIMIT TO EXIST:** uniform finite-range/bounded local terms; uniform
+preparation clustering; a volume-independent open neighborhood of `A=0` in which `A_K(A)` is nonzero;
+uniform absolute convergence of the differentiated connected-cluster sum; **and subextensive boundary
+corrections across the sealed refinement class.**
+
+*** THE LAST OF THE FIVE IS (ii). CELLULATION-INDEPENDENCE OF THE LIMIT IS (i). SO THE STITCHING RULE IS
+NOT TWO SEPARATE OBJECTS — IT IS THE HYPOTHESIS LIST OF ONE THEOREM, TRACKED AS
+`connected_linked_cluster_density_proved = false`. ***
+
+**AND THAT IS THE LINKED-CLUSTER MAJORANT PROGRAM, WHICH IS R-L2b's TERRITORY** — already chartered,
+already attacked, and carrying a refuted-uniformity result. **(i) is therefore NOT a fresh unattacked
+object.** My description of it as "the one unattacked half" (Q-29) and "the highest-leverage open object"
+was wrong twice: it is one hypothesis of a theorem whose proof is an existing campaign.
+
+ALSO ESTABLISHED IN THE SAME ARTIFACT, worth keeping: exact disjoint additivity IS proved
+(`exact_disjoint_monoidal_additivity_proved = true`) — `Gamma_K(A) = sum_i Gamma_(K_i)(A_i)` on any
+connected logarithm branch containing the unperturbed point. **Additivity over DISJOINT cells is derived;
+consistency under SUBDIVISION is what Theorem 3 governs.** Those are different operations and the corpus
+distinguishes them correctly.
+
+And Theorem 2 records a rejected route: the V010 normalized global ray gives `kappa_L -> 0`, "incompatible
+with a nonzero extensive local stiffness ... No factor of `L^2`, `L^4`, cell count, or volume may be
+supplied afterward."
+
+**SEVENTH INSTANCE OF THE DAY'S PATTERN, and the first to correct a same-day register row.**
+
+REOPENS IF: the five conditions are proved or one is refuted, at which point the connected response gate
+resolves and this row is superseded by that outcome.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
