@@ -154,7 +154,56 @@ are one scale choice or several is Einstein's live item.**
 - **The reviewer cannot re-seal the baseline** (classifier-blocked). Brian runs `shasum -a 256
   corpus_check_baseline_v001.json > corpus_check_baseline_v001.json.seal.sha256`.
 
-### THE PROGRAM IS DOWN TO THREE ISSUES — READ THIS AS THE STATE
+### THE THREE ISSUES — TWO NOW ANSWERED, AND THE ANSWERS CHANGE THE SHAPE OF THE WORK
+
+*** ISSUE 1 — ANSWERED (Q-59). `C_R = 1` CANNOT SELECT ALONE. *** It remains the sole absolute
+scale-orbit breaker, so Q-58 survives, but it is a **conditional** selector: it selects only after an
+unbuilt **source-record-gravity / Hamilton-Jacobi scale bridge** supplies the energy/action interface and a
+first durable-public closure theorem. **Six objects named as missing.**
+
+**THE `sqrt(2)` IS A REAL PHYSICAL FORK** — Misner-Sharp versus reference-subtracted Brown-York energy at
+marginality. The two give different exact conditional roots whose ratio is `sqrt(2)`, and their coincidence
+is **refuted TYPE-R**. Both identifications are **TYPE-U (unbuilt), not TYPE-C (adopted)**, which is the
+only reason Q-58 still holds. *** STANDING RULE: THE `sqrt(2)` MUST BE DERIVED, NEVER CHOSEN. A pick makes
+it a second scale-bearing adoption and moves the program from conditional derivation toward fit. ***
+
+**ISSUE 2 — OPEN.** Response-extraction layer; `CTP_PHYS_INPUT_PACKAGE` triage in progress.
+
+*** ISSUE 3 — ANSWERED (Q-61), AND IT IS THE HARD ONE. THE FORCING ROUTE IS EMPTY. LIVE 0 · STRUCTURAL 4 ·
+NOT-A-PAIR 7. *** Corroborated by the corpus's own executed negatives — "two independent DOF counts agree:
+no overdetermination"; the slot-9 ratio class executed and failed; "zero constraints against nine
+unknowns." *** EVERY COINCIDENCE THIS PROGRAM HAS EVER EXAMINED WAS ADJUDICATED **ONE SOURCE READ
+TWICE**. ***
+
+**OVERDETERMINATION IS NOW CHECKABLE:** premise-DAG disjointness by deletion test; a disagreement witness;
+target blindness as a **process fact**, not a mental state. **Boundary clause: n conditions fixing n
+freedoms through complementary coordinates is EXACT DETERMINATION, never overdetermination** — the
+marker + `C_R = 1` system is exactly this, and a spec counting it would bless every well-posed formula in
+physics.
+
+**A 13-ITEM DERIVATION-VERSUS-FIT CHECKLIST EXISTS. THE PROGRAM FAILS ITEMS 1b, 4, 5 AND 12 TODAY.**
+`NO_VERDICT` is the correct grade of any overdetermination claim in this corpus.
+
+### THE WORK NOW SPLITS IN TWO — AND ONLY ONE HALF WAS EVER TRACKED
+
+*** BUILDING THE MACHINERY (issues 1 and 2) PRODUCES A NUMBER. IT DOES NOT PRODUCE A DERIVATION. *** A
+value determined by one condition is a value the theory PERMITS. Forcing requires a pair, and there are
+none. **Constructing a pair is a second, parallel programme of work that nobody was tracking before
+2026-07-30.**
+
+**BEST PAIR LEADS:** the cross-sector **Requirement I/II on `beta`** — the corpus's ONLY sealed
+two-conditions-one-quantity specification, **anti-tautology falsifier already frozen**, both legs unbuilt.
+And `kappa_record` vs `K_*` — **"two stiffness objects, never related," on the value path** (relay 165).
+`tau_orth = T_R` is the only already-exhibited failure-capable agreement (`|Delta| = E_R` came out equal
+and did not have to) but **lands on the scale, so it tests the selector, not the coupling.**
+
+### TWO UNBUILT LAYERS, NOT ONE (Q-60)
+
+The Hamilton-Jacobi **scale bridge** is **upstream** of, and distinct from, the **response-extraction
+layer**. Neither subsumes the other. **`CTP_PHYS_INPUT_PACKAGE` may be a common prerequisite of both — this
+is CONJECTURE, lane 1 was fenced from checking, and Einstein's relay-164 census settles it from the graph.**
+
+### THE OLD THREE-ISSUE FRAME, STILL THE RIGHT INDEX
 
 ```text
 ISSUE 1  Can C_R = 1 actually SELECT?                  the only orbit-breaking condition, and it
