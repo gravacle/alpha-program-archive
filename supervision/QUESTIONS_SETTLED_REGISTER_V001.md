@@ -2652,6 +2652,51 @@ explicitly.**
 
 ---
 
+## Q-63. "Interim: the `CTP_PHYS_INPUT_PACKAGE` triage, and a lane that stopped itself."
+
+*** STATUS: PROVISIONAL. THE ARTIFACT IS UNSEALED AND UNCOMMITTED BY THE LANE'S OWN DECISION. NOTHING HERE
+IS RATIFIED AND NO FLAG MOVES. *** Codex lane 2 under relay 162, 2026-07-30, draft
+`STAGE8_CTP_PHYS_INPUT_PACKAGE_TRIAGE_AND_LOAD_BEARING_FUNCTIONAL_SPEC_V001.md` (`f8ef05a2…`, **NOT
+sealed, NOT committed, `physical_verdict = NO_VERDICT`**).
+
+*** THE LANE STOPPED ITSELF UNDER THE STALE-AUTHORITY RULE, AND THAT IS THE HEADLINE. *** It identified
+that relay 164's dependency census bears directly on its own question — whether the two chains share
+`CTP_PHYS_INPUT_PACKAGE` — and **declined to seal against a ruling it knew was coming.**
+
+```text
+relay164_shared_node_determination_derived = false | TYPE-U
+    would-build: execute relay 164's independent dependency graph
+artifact_sealable = false | TYPE-C
+    constraint: bearing relay-164 result pending and T8 verdict wiring unresolved
+    release: consume relay-164 result and separate T8 from the producer verdict
+```
+
+**THE REGISTER-HEAD REQUIREMENT WAS WRITTEN THIS AFTERNOON AFTER THREE ARTIFACTS ARRIVED STALE. THIS IS THE
+FIRST TIME IT PREVENTED ONE RATHER THAN DETECTING ONE.** **No deadlock exists**: relay 164 fenced Einstein
+from package internals, so the census completes without this lane.
+
+**PROVISIONAL FINDINGS, TO BE RE-VERIFIED ON RESUMPTION, NOT RELIED ON:**
+
+- *** TRIAGE: 0 COMPLETE / 9 PARTIAL / 0 WHOLLY ABSENT. *** **Nothing in the package is missing outright.**
+  All nine partially exist. **If this survives sealing it is materially better news than "nine unbuilt
+  objects" implied**, and it bears on how deep relay 164's census will find the graph to be.
+- **The repaired `B0 -> C0/U1-U3 -> item 1 -> D1-D5` graph passed hostile review as NON-CIRCULAR.** **A
+  partial early answer to relay 164's cycle question** — at least this subgraph is acyclic. **It does not
+  clear the whole graph.**
+- Item 1 is now specified as a **pointwise normalized functional, not a `Log_0` germ** — a self-correction
+  by the lane.
+- **T1-T7 pass review as failure-capable. T8 carries a defect**: it tests the external Q-60 interface
+  hypothesis but is **wired into the item-1 producer verdict** and needs a separate identity/sufficiency
+  verdict. **A test wired to the wrong verdict is the `cannot_fail` failure mode in a new costume**, and
+  the lane caught it in its own work.
+
+**PROCESS DISCLOSURE, VOLUNTEERED:** a sixth excluded-reference probe was surfaced during relay-164 routing,
+**discarded and not used.**
+
+REOPENS: automatically, when relay 164 returns and this lane resumes.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
