@@ -92,6 +92,73 @@ Q_spec) → Stage 10 (response + Thomson matching decides E_ref:
 (single authorized comparison). Division of labor declared to Codex via
 Brian: construction=Codex, verification/independence=Fable, decisions=Brian.
 
+
+## 2026-07-30 (reviewer lane, afternoon/evening): THE DAY THE NEGATIVES GOT TYPED
+
+**PICK UP HERE. Register head Q-56. Three lanes: Codex 1, Codex 2, Einstein.**
+
+### WHAT CHANGED STRUCTURALLY — two principal acts, both program-wide
+
+- **Q-52 — NO CONSTRAINT MAY PREVENT A TEST.** Where a governance constraint and a test conflict, the
+  constraint yields. **`Gamma_K` is NO LONGER the sole construction target**; the response-extraction layer
+  is authorized in its own right. **The standing instruction not to supply what is absent is WITHDRAWN
+  where the purpose is a test** — a lane may specify a missing object if it is declared, `derived = false`,
+  and never reported as derived. Constraints against FABRICATION all stand unchanged.
+- **Q-54 — EVERY NEGATIVE CARRIES A TYPE.** **TYPE-R** refuted (*the only type that is physical content*),
+  **TYPE-U** unbuilt, **TYPE-S** scope-empty (must carry roots/exclusions/fences/query), **TYPE-C**
+  constraint-blocked. **`NO_VERDICT` is a legal lane outcome.** A negative now carries the same evidentiary
+  burden as a positive. Enforced by a new `untyped_negative` gate check, growth-gated at baseline 3309,
+  terminal fence flags exempt.
+
+### THE VALUE PATH — WHAT IS ACTUALLY BLOCKING
+
+*** Q-51: THE SOLE CHARTERED TARGET CANNOT BE STARTED. *** Four objects sit UPSTREAM of `Gamma_K` /
+`C_record(K)`: the complete BR/CTP fluctuation-response operator, the exact induced kernel, **the
+raw-correlator-to-retarded-Hessian map `G -> H_R[G]`**, and the covariant local projector. Correspondence
+verdict `UPSTREAM_INTERNAL_PREREQUISITE` — `Gamma_K` is not the response operator renamed, and not disjoint
+from it.
+
+**Q-50: a FINITE primitive operator response bundle IS derived and hostile-verified**, with
+`primitive_source_scalarization_derived = false` and `operator_to_scalar_bridge_derived = false`. Finite is
+not complete and primitive is not BR/CTP — **the relation is untyped and is Codex 2's live item.**
+
+### THEORY CANDIDATE 001 — WRITTEN AND REDUCED IN ONE DAY
+
+Claimed no free coupling parameter can sit anywhere in the source-to-record chain, so alpha must be the
+response impedance. **Three independent passes cut it down.** Einstein: the chain has ~12 stages, not four;
+closures 1-2 base-level only; the positive half is an unentailed import (Q-53). Lane 1: S8's magnitude is
+closed by ER-A branch data, not physics (Q-55). Lane 1: **ZERO OF FIVE closures are unconditional TYPE-R**
+(Q-56).
+
+*** THE METHOD FINDING, WHICH OUTLIVES THE THEORY: permissions never force a number, and EXHAUSTION OVER AN
+ADOPTED PREMISE STACK FORCES NOTHING — it restates the stack. *** Any future argument of the form "alpha
+has nowhere else to live" inherits all 17 untested premises and must say so.
+
+### CONDITIONALITY — MEASURED FOR THE FIRST TIME
+
+**17 of 26 value-path premise classes are UNTESTED (Q-45); 9 TESTED; ratified lower bound (Q-48).**
+`C_R = 1` is the only absolute-scale selector, UNTESTED, **and a falsifier IS designable but is gated on
+the object Q-51 says cannot be started.** `tau = 1` is a second unselected unit value with a competitor
+family open (Q-49). `tau_R = pi/sqrt(2)` fixes S8's magnitude under untested ER-A (Q-55). **Whether these
+are one scale choice or several is Einstein's live item.**
+
+### PROCESS FACTS A SUCCESSOR NEEDS
+
+- **THREE lanes share ONE archive working tree.** Staged-but-uncommitted state is a live collision channel.
+  **Never `git add -A` blindly; stage only your own paths.** Deploy state goes RED while any lane is
+  mid-write, which blocks commits.
+- **Lanes must NOT assign Q-numbers** — two collisions on 2026-07-30. The register is the reviewer's; lane
+  commits cite paste numbers.
+- **Every paste states the register head it was written against.** Three artifacts went stale mid-run in
+  one day because a 30-50 minute lane run cannot keep up with the register.
+- **The reviewer cannot re-seal the baseline** (classifier-blocked). Brian runs `shasum -a 256
+  corpus_check_baseline_v001.json > corpus_check_baseline_v001.json.seal.sha256`.
+
+### STILL TRUE, UNMOVED ALL DAY
+
+**`0 of 18` Q_spec slots derived. `0 of 11` Section-1 pieces. Step 5 — emit — unreachable.** Nothing today
+computed or authorized any number.
+
 ## The live invariants (verify before continuing anything)
 
 - `alpha_computed = false` everywhere; no seal claims
