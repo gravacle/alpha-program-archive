@@ -114,6 +114,34 @@ number rather than merely share an origin.
 
 ---
 
+## 4A. TEST RETURNED — PREDICTION FAILED, AS PREREGISTERED
+
+**Lane 1, 2026-07-30, `STAGE8_GAMMA_K_NONRETURN_CHARGED_SPECTRUM_OBS06_TEST_V001.md` (`2f99c574…`),
+archive `d98ff6d`, gate GREEN.**
+
+Non-return is derived **generically**: coarea + `L1` spectral density + Riemann-Lebesgue on the stated
+source-record Hamiltonian's non-flat absolutely continuous spectral bands. **The proof consumes no
+charged-sector content** — no species, no charge assignments, no thresholds, no particle masses, no
+induced-loop carrier inventory. **This is the outcome section 4 recorded as expected.** OBS-06 is
+SUGGESTIVE, not structural. Durability and the induced response do not share a sealed cause.
+
+**Sections 1-2 STAND. Section 4 FAILED. The theory reduces as stated: alpha is located as the response
+impedance, and is NOT thereby connected to durability.**
+
+*** AND THE TEST RETURNED SOMETHING THE PREDICTION DID NOT ANTICIPATE. *** The induced-response side is
+not merely unproven-identical to the non-return spectrum — **it is a different object that DOES NOT YET
+EXIST.** The response route "is still missing the operator and kernel" (`:226`); what is required is "a
+future complete BR/CTP fluctuation/response operator and exact induced kernel" plus a covariant local
+projector (`:272`, `:304`).
+
+**SO THIS THEORY'S SURVIVING HALF NAMES AN UNBUILT OBJECT.** Section 1 says alpha must be the impedance of
+the induced response; the induced response operator is not constructed. That converts the claim from a
+statement about where alpha lives into **a construction target** — and one that must be checked against
+the standing `Gamma_K` charter, since `K` is typed as a local surrogate for induced connection response
+(Q-44) and the two may be the same object under different names. **That check is not done here.**
+
+---
+
 ## 5. HOW THIS THEORY DIES
 
 - **Any of the four closures is wrong.** Most exposed: (2). "Not specified and

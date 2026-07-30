@@ -1977,6 +1977,40 @@ falsifier for marginal self-gravitation is designed.
 
 ---
 
+## Q-47. "Does non-return consume charged-sector content?"
+
+**RULING: NO. NON-RETURN IS GENERIC. OBS-06 IS SUGGESTIVE, NOT STRUCTURAL.** Established 2026-07-30 by
+Codex lane 1 under paste 153 (`STAGE8_GAMMA_K_NONRETURN_CHARGED_SPECTRUM_OBS06_TEST_V001.md`,
+`2f99c574…`, archive `d98ff6d`, gate GREEN).
+
+Non-return is derived from the stated source-record Hamiltonian's **non-flat absolutely continuous spectral
+bands** via coarea, an `L1` spectral density, and Riemann-Lebesgue. **The proof consumes no charged-sector
+content whatever** — no species, no charge assignments, no thresholds, no particle masses, no induced-loop
+carrier inventory. **Durability and the induced response do not share a sealed cause at the present corpus
+state.**
+
+*** THIS IS THE OUTCOME THE REVIEWER PREREGISTERED AS EXPECTED, AND SEALED BEFORE THE ANSWER ARRIVED. ***
+`THEORY_CANDIDATE_001_...V001.md` sections 4 and 4A, sealed at `aedd0b3`, predicted generic non-return on
+the grounds that Riemann-Lebesgue is a theorem about measures. **The prediction and its expected failure
+were both on the record before the test returned.**
+
+*** AND THE TEST FOUND SOMETHING THE QUESTION DID NOT ASK FOR. *** The induced-response side is not merely
+unproven-identical to the non-return spectrum — **the object does not exist.** The response route "is
+still missing the operator and kernel"; what is needed is a future complete BR/CTP fluctuation/response
+operator, an exact induced kernel, and a covariant local projector. **The corpus derives no theorem
+identifying the response spectrum with the non-return spectral measure, and could not, because one side is
+unbuilt.**
+
+**CONSEQUENCE:** theory candidate 001's surviving half names an UNBUILT object. It must be checked against
+the standing `Gamma_K` construction charter — `K` is typed as a local surrogate for induced connection
+response (Q-44), so the response operator and `Gamma_K` may be one object under two names. **That check is
+open**, and the program's most repeated failure is exactly this shape.
+
+**NUMBERING:** lane 1's commit message labels this Q-46; that number was already taken by the constraints
+ruling. **It is Q-47 here, and the register is authoritative.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
