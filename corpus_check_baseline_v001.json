@@ -14,18 +14,24 @@
   ],
   "yellow_checks": [
     "cannot_fail_checks",
+    "deleted_content",
     "hardcoded_claim_flags",
+    "orphaned_result",
     "relay_sequence_head",
     "scope_declaration",
     "substring_certification",
-    "superseded_path_hardwire"
+    "superseded_path_hardwire",
+    "unsourced_quantitative_claim"
   ],
   "yellow_counts": {
     "cannot_fail_checks": 2,
+    "deleted_content": 543,
     "hardcoded_claim_flags": 2927,
+    "orphaned_result": 1146,
     "relay_sequence_head": 3,
     "scope_declaration": 107,
     "substring_certification": 6,
-    "superseded_path_hardwire": 548
+    "superseded_path_hardwire": 548,
+    "unsourced_quantitative_claim": 16
   }
 }

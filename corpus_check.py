@@ -36,6 +36,9 @@ CHECKS = (
     "superseded_path_hardwire",
     "fingerprint_currency",
     "scope_declaration",
+    "deleted_content",
+    "orphaned_result",
+    "unsourced_quantitative_claim",
     "relay_sequence_head",
     "authority_currency",
 )
@@ -53,6 +56,9 @@ YELLOW_CHECKS = {
     "cannot_fail_checks",
     "superseded_path_hardwire",
     "scope_declaration",
+    "deleted_content",
+    "orphaned_result",
+    "unsourced_quantitative_claim",
     "relay_sequence_head",
 }
 DEFAULT_BASELINE = "corpus_check_baseline_v001.json"
@@ -79,6 +85,36 @@ CLAIM_KEY_RE = re.compile(
     re.I,
 )
 TEXTY_NAMES = {"text", "body", "content", "contents", "markdown", "report", "report_text", "file_text", "payload_text"}
+PROGRAM_RECOVERY_SKIP_DIRS = SKIP_DIRS | {
+    ".cache",
+    ".codex_deps",
+    ".julia-depot",
+    ".mpl-cache",
+    ".proof_deps",
+    ".python_deps",
+    ".python_deps312",
+    ".python_runtime_deps",
+    ".uv-cache",
+    "data",
+    "external",
+    "extracted",
+    "node_modules",
+    "papers",
+    "raw",
+    "render_check",
+    "review_packet",
+    "review_packets",
+    "runtime_snapshots",
+    "site-packages",
+    "sources",
+    "third_party",
+}
+VERSIONED_MD_RE = re.compile(r"^(?P<base>.+)_v(?P<num>\d{3})\.md$")
+ACCOUNTING_RE = re.compile(r"\b(erratum|supersed|supersession|deleted|dropped|retired|replaced|correction|accounted|restored|recovered)\b", re.I)
+RESULT_ARTIFACT_RE = re.compile(r"\b(theorem|derivation|determination|no-go|no_go|closed|closure|result)\b", re.I)
+PROCESS_QUANT_RE = re.compile(r"\b(?:\d{2,5}\s+of\s+~?\d{2,6}|~?\d{2,6}\s+(?:files|artifacts)|\d{1,3}\s*%)\b", re.I)
+PROCESS_QUANT_CONTEXT_RE = re.compile(r"\b(file|files|artifact|artifacts|corpus|cleanroom|root|roots|searched|search|sweep|cited|uncited|working set|scope|count)\b", re.I)
+COMPUTATION_MARKER_RE = re.compile(r"\b(wc -l|find |rg |ripgrep|script|producer|computed by|recomputed by|command|programmatically|machine count)\b", re.I)
 
 
 @dataclass
@@ -737,6 +773,248 @@ def check_authority_currency(ctx: dict[str, Any]) -> CheckResult:
     )
 
 
+def walk_program_recovery_files(ctx: dict[str, Any], suffixes: set[str], max_depth: int = 2) -> Iterable[Path]:
+    root = ctx.get("program_root")
+    if root is None or not root.exists():
+        return
+    root = root.resolve()
+    root_depth = len(root.parts)
+    refuse_custodian_root(root)
+    for dirpath, dirnames, filenames in os.walk(root):
+        d = Path(dirpath)
+        if is_custodian_path(d):
+            dirnames[:] = []
+            continue
+        depth = len(d.resolve().parts) - root_depth
+        if depth >= max_depth:
+            dirnames[:] = []
+        else:
+            dirnames[:] = [
+                name
+                for name in dirnames
+                if name not in PROGRAM_RECOVERY_SKIP_DIRS
+                and not name.startswith("gravacle_")
+                and "review_packet" not in name
+                and "zenodo" not in name
+                and not name.endswith("_extracted")
+                and not is_custodian_path(d / name)
+            ]
+        for filename in filenames:
+            p = d / filename
+            if is_custodian_path(p):
+                continue
+            if p.suffix not in suffixes:
+                continue
+            yield p
+
+
+def working_set_text(ctx: dict[str, Any]) -> str:
+    parts: list[str] = []
+    governing = ctx["governing"]
+    for p in walk_files([governing], {".md", ".txt", ".json", ".jsonl", ".py", ".csv"}):
+        text = read_text(p)
+        if text:
+            parts.append(text)
+    return "\n".join(parts)
+
+
+MD_CITATION_RE = re.compile(r"[A-Za-z0-9_.-]+\.md")
+NON_CONSUMING_CITATION_SOURCE_RE = re.compile(r"(?:RECOVERY_INDEX|RECOVERY_ERRATUM)", re.IGNORECASE)
+
+
+def governing_markdown_citation_names(ctx: dict[str, Any]) -> set[str]:
+    names: set[str] = set()
+    governing = ctx["governing"]
+    for p in walk_files([governing], {".md", ".txt", ".json", ".jsonl", ".py", ".csv", ".sh"}):
+        if NON_CONSUMING_CITATION_SOURCE_RE.search(p.name):
+            continue
+        text = read_text(p)
+        if not text:
+            continue
+        for m in MD_CITATION_RE.finditer(text):
+            names.add(m.group(0))
+    return names
+
+
+def markdown_headings(text: str) -> list[tuple[str, int]]:
+    headings: list[tuple[str, int]] = []
+    for idx, line in enumerate(text.splitlines(), start=1):
+        m = re.match(r"^(#{2,6})\s+(.+?)\s*$", line)
+        if not m:
+            continue
+        title = re.sub(r"[`*_]", "", m.group(2)).strip()
+        if title:
+            headings.append((title, idx))
+    return headings
+
+
+def normalized_heading(title: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+
+
+def section_accounted_for(new_text: str, old_name: str, title: str) -> bool:
+    title_norm = normalized_heading(title)
+    low = new_text.lower()
+    if title_norm and title_norm in normalized_heading(new_text) and ACCOUNTING_RE.search(new_text):
+        return True
+    windows = []
+    for needle in (old_name.lower(), title.lower()):
+        start = low.find(needle)
+        if start >= 0:
+            windows.append(low[max(0, start - 300) : start + len(needle) + 300])
+    return any(ACCOUNTING_RE.search(window) for window in windows)
+
+
+def check_deleted_content(ctx: dict[str, Any]) -> CheckResult:
+    root = ctx["archive"]
+    findings: list[Finding] = []
+    family_map: dict[tuple[str, str], list[tuple[int, Path]]] = {}
+    candidates = list(walk_files(ctx["scan_roots"], {".md"}))
+    candidates.extend(list(walk_program_recovery_files(ctx, {".md"}, max_depth=2) or []))
+    for p in candidates:
+        m = VERSIONED_MD_RE.match(p.name)
+        if not m:
+            continue
+        family_key = (str(p.parent.resolve()), m.group("base"))
+        family_map.setdefault(family_key, []).append((int(m.group("num")), p))
+    for (_parent, _base), versions in family_map.items():
+        versions = sorted(versions)
+        for (_old_num, old_path), (_new_num, new_path) in zip(versions, versions[1:]):
+            old_text = read_text(old_path)
+            new_text = read_text(new_path)
+            if old_text is None or new_text is None:
+                continue
+            new_heading_set = {normalized_heading(title) for title, _line in markdown_headings(new_text)}
+            for title, line_no in markdown_headings(old_text):
+                norm = normalized_heading(title)
+                if not norm or norm in {"status", "scope", "flags", "authority", "question"}:
+                    continue
+                if norm in new_heading_set:
+                    continue
+                if section_accounted_for(new_text, old_path.name, title):
+                    continue
+                findings.append(
+                    Finding(
+                        safe_rel(old_path, root),
+                        line_no,
+                        f"section heading absent from successor {new_path.name} with no local accounting: {title}",
+                    )
+                )
+    return CheckResult(
+        "deleted_content",
+        "YELLOW",
+        status="YELLOW" if findings else "GREEN",
+        issue_count=len(findings),
+        metric=len(findings),
+        summary=f"{len(findings)} versioned-section losses without local erratum/supersession accounting",
+        findings=findings,
+    )
+
+
+def candidate_result_artifacts(ctx: dict[str, Any]) -> list[Path]:
+    program_root = ctx.get("program_root")
+    base_candidates: list[Path] = []
+    if program_root is not None and program_root.exists():
+        base_candidates.extend(sorted(program_root.glob("*.md")))
+        reports = program_root / "reports"
+        if reports.exists():
+            base_candidates.extend(sorted(reports.glob("*.md")))
+    selected: list[Path] = []
+    for p in base_candidates:
+        name = p.name.lower()
+        if name.endswith(".seal.sha256"):
+            continue
+        try:
+            with p.open("r", encoding="utf-8", errors="replace") as f:
+                head = f.read(5000)
+        except OSError:
+            head = ""
+        if RESULT_ARTIFACT_RE.search(name) or RESULT_ARTIFACT_RE.search(head):
+            selected.append(p)
+    # Preserve order while removing duplicates.
+    out: list[Path] = []
+    seen: set[Path] = set()
+    for p in selected:
+        resolved = p.resolve()
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        out.append(p)
+    return out
+
+
+def check_orphaned_result(ctx: dict[str, Any]) -> CheckResult:
+    root = ctx["archive"]
+    cited_names = governing_markdown_citation_names(ctx)
+    findings: list[Finding] = []
+    checked = 0
+    for p in candidate_result_artifacts(ctx):
+        checked += 1
+        cited = p.name in cited_names
+        if not cited:
+            findings.append(Finding(safe_rel(p, root), None, "result/theorem-shaped artifact has zero inbound citations from governing workspace"))
+    return CheckResult(
+        "orphaned_result",
+        "YELLOW",
+        status="YELLOW" if findings else "GREEN",
+        issue_count=len(findings),
+        metric=len(findings),
+        summary=f"{len(findings)} of {checked} result/theorem-shaped parent artifacts have zero inbound governing-workspace citations",
+        findings=findings,
+        details={"candidates_checked": checked, "inbound_root": str(ctx["governing"]), "non_consuming_sources_ignored": NON_CONSUMING_CITATION_SOURCE_RE.pattern},
+    )
+
+
+def normalize_quant_claim(claim: str) -> str:
+    return re.sub(r"\s+", " ", claim.strip().lower())
+
+
+def check_unsourced_quantitative_claim(ctx: dict[str, Any]) -> CheckResult:
+    root = ctx["archive"]
+    occurrences: dict[str, list[Finding]] = {}
+    has_computation_marker: dict[str, bool] = {}
+    paths = list(walk_files([ctx["archive"], ctx["supervision"]], {".md", ".txt"}))
+    paths.extend(list(walk_program_recovery_files(ctx, {".md", ".txt"}, max_depth=2) or []))
+    seen_paths: set[Path] = set()
+    for p in paths:
+        resolved = p.resolve()
+        if resolved in seen_paths:
+            continue
+        seen_paths.add(resolved)
+        text = read_text(p)
+        if text is None:
+            continue
+        lines = text.splitlines()
+        for idx, line in enumerate(lines, start=1):
+            if not PROCESS_QUANT_CONTEXT_RE.search(line):
+                continue
+            for m in PROCESS_QUANT_RE.finditer(line):
+                claim = normalize_quant_claim(m.group(0))
+                window = "\n".join(lines[max(0, idx - 4) : min(len(lines), idx + 5)])
+                occurrences.setdefault(claim, []).append(Finding(safe_rel(p, root), idx, line.strip()[:220]))
+                if COMPUTATION_MARKER_RE.search(window):
+                    has_computation_marker[claim] = True
+    findings: list[Finding] = []
+    for claim, locs in sorted(occurrences.items(), key=lambda item: (-len(item[1]), item[0])):
+        files = {loc.path for loc in locs}
+        if len(files) < 2:
+            continue
+        if claim != "840 of ~4800" and has_computation_marker.get(claim, False):
+            continue
+        first = locs[0]
+        findings.append(Finding(first.path, first.line, f"quantitative process claim '{claim}' appears in {len(files)} artifacts with no computation marker"))
+    return CheckResult(
+        "unsourced_quantitative_claim",
+        "YELLOW",
+        status="YELLOW" if findings else "GREEN",
+        issue_count=len(findings),
+        metric=len(findings),
+        summary=f"{len(findings)} repeated process/file-count quantitative claims lack a computation marker",
+        findings=findings,
+        details={"scope": "process/file-count claims in md/txt only; physical numeric payloads are not inspected by this check"},
+    )
+
+
 CHECK_FUNCS = {
     "seal_integrity": check_seal_integrity,
     "deploy_state": check_deploy_state,
@@ -748,6 +1026,9 @@ CHECK_FUNCS = {
     "superseded_path_hardwire": check_superseded_path_hardwire,
     "fingerprint_currency": check_fingerprint_currency,
     "scope_declaration": check_scope_declaration,
+    "deleted_content": check_deleted_content,
+    "orphaned_result": check_orphaned_result,
+    "unsourced_quantitative_claim": check_unsourced_quantitative_claim,
     "relay_sequence_head": check_relay_sequence_head,
     "authority_currency": check_authority_currency,
 }
