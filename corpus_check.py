@@ -494,7 +494,18 @@ def check_hardcoded_claim_flags(ctx: dict[str, Any]) -> CheckResult:
 def check_cannot_fail_checks(ctx: dict[str, Any]) -> CheckResult:
     root = ctx["archive"]
     findings: list[Finding] = []
-    for p in walk_files(ctx["scan_roots"], {".py"}):
+    scripts = list(walk_files(ctx["scan_roots"], {".py"}))
+    scripts.extend(
+        p
+        for p in (walk_program_recovery_files(ctx, {".py"}, max_depth=2) or [])
+        if "alpha_fundamental_record_action_cleanroom_v003" not in p.parts
+    )
+    seen: set[Path] = set()
+    for p in scripts:
+        rp = p.resolve()
+        if rp in seen:
+            continue
+        seen.add(rp)
         text = read_text(p)
         if text is None:
             continue
@@ -521,6 +532,33 @@ def check_cannot_fail_checks(ctx: dict[str, Any]) -> CheckResult:
                     safe_rel(p, root),
                     None,
                     "symbol-exponent cancellation check over hand-entered table; P1 can be tautological if every candidate carries the same exponent",
+                )
+            )
+        if (
+            "projection_error = relative_error" in text
+            and 'data["em_stiffness"]' in text
+            and 'data["su5_stiffness"]' in text
+            and "projection_error < 2.0e-14" in text
+        ):
+            findings.append(
+                Finding(
+                    safe_rel(p, root),
+                    None,
+                    "parent BR projection identity check: K_Q=(8/3)K_5 is a same-inventory expression identity",
+                )
+            )
+        if (
+            'data["parent_flux_stiffness"]' in text
+            and '1.5 * data["em_stiffness"]' in text
+            and 'data["qh_cross_stiffness"]' in text
+            and 'data["em_stiffness"]' in text
+            and "< 2.0e-14" in text
+        ):
+            findings.append(
+                Finding(
+                    safe_rel(p, root),
+                    None,
+                    "parent BR gauge-ratio identity check: K_H=(3/2)K_Q and K_QH=K_Q are same-inventory trace identities",
                 )
             )
     return CheckResult(

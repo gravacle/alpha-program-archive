@@ -254,7 +254,8 @@ WHY THIS TARGET IS UNLIKE EVERY FAILED IDENTIFICATION: it needs NO bridge betwee
 constructions. ONE record cell already carries both structures — it is a causal diamond bearing a
 primitive projective record degree. Both constructions already agree that object exists.
 
-STATUS 2026-07-30: UNDER TEST. A structured multi-agent run is asking whether the recovered
+STATUS 2026-07-30: THE FIRST-OPENING CANDIDATE IS REFUTED — SEE Q-11. The question itself remains OPEN.
+SUPERSEDED TEXT (kept for provenance): A structured multi-agent run is asking whether the recovered
 first-opening-root principle
 (`primitive_same_cell_opening_normalization_principle_v001.md`, 2026-07-21) constrains the internal
 phase budget and the external causal geometry SIMULTANEOUSLY. If it does, it fixes `beta`. If it
@@ -276,6 +277,89 @@ STANDING CAUTIONS ON THIS TARGET:
   (`alpha_first_durable_capacity_moduli_v001`, `alpha_capacity_constrained_induced_action_v001`,
   `alpha_coupled_flux_logdet_modulus_selection_v001`,
   `alpha_coupled_flux_first_capacity_moduli_v001`). Any new attempt must say why it escapes these.
+
+---
+
+## Q-11. "Does the first-opening-root principle fix the internal/external metric conversion?"
+
+Also asked as: is the recovered stiffness principle the missing datum for the geometric route?
+Does the opening condition constrain both geometries at once?
+
+**RULING: NO, AND THE ROUTE WAS ALREADY RETIRED BEFORE THE QUESTION WAS ASKED.** Adjudicated by a
+nine-agent run 2026-07-30: four independent reads, one adjudication, three hostile verifiers
+(2-1 to sustain; the dissent argued the ruling was too GENEROUS).
+
+WHAT THE PRINCIPLE ACTUALLY CONTAINS. `primitive_same_cell_opening_normalization_principle_v001.md`
+is 83 lines and defines four objects — `H_energy(K)` (constrained second variation of the canonical
+energy), `T_K` (stationary proper record interval), `H_cell(K) = (T_K/hbar) H_energy(K)`, and
+`R_BR(K)` (inclusive same-carrier record-fidelity curvature) — joined by ONE equation,
+`L_open(K) = H_cell(K) - R_BR(K)`.
+
+**BOUNDED NEGATIVE, search root = that single file, no exclusions, case-insensitive:**
+`fubini|beta|metric|diamond|radius|length|ell_P|planck|conversion|internal|external` returns **ZERO**.
+The file contains no length, no metric, no radius, no `ell_P`, no `c`, no `G`, and no causal
+diamond, and it never uses the words "internal" or "external". **THE INTERNAL/EXTERNAL TYPING WAS
+THE REVIEWER'S OVERLAY.** The corpus does not type `T_K` as external geometry or `R_BR` as internal
+geometry anywhere. `T_K` is a TIME, not a length; it is defined once in the entire program, with no
+defining equation, and the file itself flags `physical_record_interval_derived = false`.
+
+WHY IT DOES NOT CLOSE — parameter count, which is the decisive test. The selection rule contains
+exactly ONE equality, `lambda_min[L_open(K_*)] = 0`; the other clauses are an inequality, a rank
+condition, a transversality condition and a sign condition, which choose WHICH ROOT rather than
+adding a second quantity. **`beta` does not appear in `L_open` at all, so every member of the
+family `R = beta c Delta tau` satisfies the condition trivially. The parameter count before and
+after is UNCHANGED.** Verdict: ALLOW, not REQUIRE.
+
+THE CORPUS ALREADY SAID THIS, TWICE:
+- `primitive_dressed_interval_stationarity_no_selector_gate_v001.md:72-75` — "The unique physical
+  interval remains required to place source cost and record gain in one dimensionless cell. **It
+  does not, by itself, add a second equation that selects the stiffness.**"
+- `ABSOLUTE_STIFFNESS_SELECTOR_ROUTE_LEDGER_V002.md:27-34`, under the heading "Allow/require
+  threshold alone" — "It constrains when declared support can become a record. It does not alone
+  fix state preparation, complete species, measure, or curvature weight. / `status = CELL_CONSTRAINT_ONLY`"
+
+**AND THE ROUTE IS FORMALLY RETIRED.** `STAGE8_FIRST_OPENING_ROOT_PRINCIPLE_RECOVERY_INDEX_V001.md:76-79`
+— `L_open_route_retired = true`, `first_opening_root_route_restored = false`,
+`first_opening_root_computable_from_current_working_set = false`; and `:73`, which anticipates
+exactly the move that was attempted: **"the retired `L_open` subtraction may not be reused by
+renaming its terms."**
+
+TWO FURTHER DEFECTS IN THE OBJECT ITSELF:
+- The subtraction is UNAUTHORIZED. `primitive_native_ctp_opening_adjudication_v001.md:5-8` — the ADM
+  quadratic form and the fidelity curvature "are different components of a closed-time-path
+  functional. They are not two positive metrics whose numerical equality is implied by sharing a
+  coordinate basis." `:20` — "The positive-cost version of the rule is not authorized for this branch."
+- `R_BR` is NOT the modulus gate's Fubini-Study object. Same index `:63-65`: it "does not descend
+  from `PRIMITIVE_ADDITIVE_RECORD_FIDELITY_ACTION_V002`; the association is a cross-tree name
+  resemblance."
+
+REVIEWER FINDING ON PROCESS, RECORDED BECAUSE IT IS THE POINT OF THIS REGISTER: the reviewer lane
+proposed this route on 2026-07-30 **without finding the retirement index that already closed it**,
+on the same day it built this register to stop exactly that. Search before proposing is not
+optional. See Q-03.
+
+WHAT DIES WITH IT: any claim that recovering the first-opening principle advances the geometric
+route; any use of `L_open` to steer active work; the line that the recovered principle is the
+missing datum.
+WHAT DOES NOT: the principle remains valid evidence for the earlier stiffness frame, and the
+allow/require typing stands.
+
+**ONE LIVE THING SURVIVED THE VERIFIERS, AND NO ARTIFACT NAMES IT.** Both constructions write the
+coupling in the same convention — `alpha_micro = 1/(4 pi K_*)` at the principle `:71-73`, and
+`alpha_tree = 4 ell_P^2/R^2`, i.e. `1/(4 pi K_KK)`, at the gate. Composing them gives
+`beta^2 = 16 pi ell_P^2 K_* / (c^2 Delta_tau^2)`. It fails today for three stated reasons: it needs
+`Delta_tau = T_K`, which is dimensional analogy and is the spec's own falsifier F2; `K_*` is a
+function of `T_K`, so the result is a CURVE indexed by `T_K` rather than a point; and the radion is
+untouched. **But it is the live route if `T_K` ever becomes an output.** PART-PROVABLE.
+
+REOPENS IF: `T_K` is derived as the output of a stated variational problem with a metric and a
+region attached. Nothing else reopens it, and renaming the terms of `L_open` explicitly does not.
+
+CORRECTLY-TYPED LIVE HOME FOR THIS QUESTION:
+`STAGE8_CROSS_SECTOR_METRIC_RULE_ADMISSIBILITY_SPEC_V001.md`, whose status reads
+`cross_sector_metric_rule_specified_as_target = true`, `cross_sector_metric_rule_derived = false`,
+`candidate_test_executed = false`, with a six-item minimal pass condition in its section 6.
+**Work the spec, not `L_open`.**
 
 ---
 
