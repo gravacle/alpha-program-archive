@@ -39,6 +39,7 @@ CHECKS = (
     "deleted_content",
     "orphaned_result",
     "unsourced_quantitative_claim",
+    "path_list_word_splitting",
     "relay_sequence_head",
     "authority_currency",
 )
@@ -59,6 +60,7 @@ YELLOW_CHECKS = {
     "deleted_content",
     "orphaned_result",
     "unsourced_quantitative_claim",
+    "path_list_word_splitting",
     "relay_sequence_head",
 }
 DEFAULT_BASELINE = "corpus_check_baseline_v001.json"
@@ -115,6 +117,10 @@ RESULT_ARTIFACT_RE = re.compile(r"\b(theorem|derivation|determination|no-go|no_g
 PROCESS_QUANT_RE = re.compile(r"\b(?:\d{2,5}\s+of\s+~?\d{2,6}|~?\d{2,6}\s+(?:files|artifacts)|\d{1,3}\s*%)\b", re.I)
 PROCESS_QUANT_CONTEXT_RE = re.compile(r"\b(file|files|artifact|artifacts|corpus|cleanroom|root|roots|searched|search|sweep|cited|uncited|working set|scope|count)\b", re.I)
 COMPUTATION_MARKER_RE = re.compile(r"\b(wc -l|find |rg |ripgrep|script|producer|computed by|recomputed by|command|programmatically|machine count)\b", re.I)
+XARGS_RE = re.compile(r"\bxargs\b")
+NULL_XARGS_RE = re.compile(r"\bxargs\b[^\n|;]*(?:\s-0\b|\s--null\b|\s-[A-Za-z]*0[A-Za-z]*\b)")
+PATH_LIST_PRODUCER_RE = re.compile(r"\b(?:grep|rg|ripgrep|find|fd)\b[^\n|;]*(?:\s-l\b|\s-rl\b|\s--files-with-matches\b|\s-print\b|\s-print0\b)")
+GREP_L_SUBST_RE = re.compile(r"(?:\$\(\s*|`\s*)(?:grep|rg|ripgrep)\b[^)`\n]*(?:\s-l\b|\s-rl\b|\s--files-with-matches\b)")
 
 
 @dataclass
@@ -1072,6 +1078,67 @@ def check_unsourced_quantitative_claim(ctx: dict[str, Any]) -> CheckResult:
     )
 
 
+def check_path_list_word_splitting(ctx: dict[str, Any]) -> CheckResult:
+    root = ctx["archive"]
+    roots = [ctx["archive"], ctx["supervision"], ctx["governing"]]
+    if ctx.get("program_root") is not None:
+        roots.append(ctx["program_root"])
+    roots_have_spaces = any(" " in str(p) for p in roots)
+    findings: list[Finding] = []
+    if not roots_have_spaces:
+        return CheckResult(
+            "path_list_word_splitting",
+            "YELLOW",
+            status="GREEN",
+            issue_count=0,
+            metric=0,
+            summary="0 unsafe path-list intersections found; configured roots have no spaces",
+            details={"roots_have_spaces": False},
+        )
+
+    paths = list(walk_files([ctx["archive"], ctx["supervision"]], {".md", ".txt", ".py", ".sh"}))
+    paths.extend(list(walk_program_recovery_files(ctx, {".md", ".txt", ".py", ".sh"}, max_depth=2) or []))
+    seen_paths: set[Path] = set()
+    for p in paths:
+        resolved = p.resolve()
+        if resolved in seen_paths:
+            continue
+        seen_paths.add(resolved)
+        text = read_text(p)
+        if text is None:
+            continue
+        lines = text.splitlines()
+        for idx, line in enumerate(lines, start=1):
+            if XARGS_RE.search(line) and not NULL_XARGS_RE.search(line):
+                window = "\n".join(lines[max(0, idx - 2) : min(len(lines), idx + 2)])
+                if PATH_LIST_PRODUCER_RE.search(window):
+                    findings.append(
+                        Finding(
+                            safe_rel(p, root),
+                            idx,
+                            "path-list producer piped to xargs without null delimiting",
+                        )
+                    )
+            if GREP_L_SUBST_RE.search(line):
+                findings.append(
+                    Finding(
+                        safe_rel(p, root),
+                        idx,
+                        "grep/rg -l command substitution may word-split paths containing spaces",
+                    )
+                )
+    return CheckResult(
+        "path_list_word_splitting",
+        "YELLOW",
+        status="YELLOW" if findings else "GREEN",
+        issue_count=len(findings),
+        metric=len(findings),
+        summary=f"{len(findings)} unsafe path-list intersection or command-substitution patterns in roots with spaces",
+        findings=findings,
+        details={"roots_have_spaces": True, "scope": "md/txt/py/sh commands and scripts; flags risk, does not prove a false bounded negative"},
+    )
+
+
 CHECK_FUNCS = {
     "seal_integrity": check_seal_integrity,
     "deploy_state": check_deploy_state,
@@ -1086,6 +1153,7 @@ CHECK_FUNCS = {
     "deleted_content": check_deleted_content,
     "orphaned_result": check_orphaned_result,
     "unsourced_quantitative_claim": check_unsourced_quantitative_claim,
+    "path_list_word_splitting": check_path_list_word_splitting,
     "relay_sequence_head": check_relay_sequence_head,
     "authority_currency": check_authority_currency,
 }
