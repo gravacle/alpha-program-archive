@@ -188,3 +188,27 @@ onset condition is another postulate with one free number, which is the same def
   stiffness, which would break section 5's reading.
 
 `alpha_computed = false`; `proof_authorized = false`; `kappa_record_computed = false`.
+
+
+## ERRATUM POINTER (appended 2026-07-30, append-only; no prior bytes rewritten)
+
+**THE BOUNDED NEGATIVE IN §2 IS RETRACTED.** See
+`ERRATUM_002_BOUNDED_NEGATIVE_METHOD_DEFECT_2026-07-30.md`.
+
+Stated: 12 / 16 / **BOTH 0**, with the claim that the two objects "have never appeared in the same file,
+in either direction." Correct, null-safe: **16 / 19 / BOTH 7**. The seven include
+`STAGE8_OPERATOR_FLOOR_BOUNDARY_CHAIN_CANDIDATE_DERIVATION_V001.md`, `RELAY_PASTE_127`, and
+`TEST_RESULT_OPERATOR_CHAIN_AND_PARAMETRIZATION_2026-07-29.md`. The retracted sentence is struck.
+
+CAUSE: the intersection was computed by piping a path list through `xargs` into a second `grep`. Both
+program roots contain spaces, `xargs` split them, every inner match failed, and the pipeline reported
+zero while exiting successfully — a silent failure that fails toward "absent," which is the direction
+that manufactures bounded negatives.
+
+**THE SETTLEMENT'S CONCLUSION IS UNAFFECTED.** It rests on the mathematics of §2 — bottom-of-spectrum
+governs large `s`, the floor cuts small `s`, `exp(-s L)` is nonvanishing for all `s > 0` — not on any
+count. And the correction makes the finding MORE consequential: the type mismatch is a defect in an
+actively-cited chain that two lanes have worked, not a gap in unexamined ground.
+
+The second bounded negative in §2 (no artifact distinguishes the small-`s` from the large-`s` end) used a
+direct grep, re-runs clean at 3 files, and STANDS.

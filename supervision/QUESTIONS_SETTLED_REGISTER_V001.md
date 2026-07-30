@@ -793,6 +793,15 @@ convention.
 FULL WORKING: `RESULT_FLOOR_BOUNDARY_VALUE_SETTLED_2026-07-30.md` (this directory), with F-FL1/2/3
 frozen.
 
+**ERRATUM (appended 2026-07-30, append-only): THE BOUNDED NEGATIVE IN THIS ROW IS RETRACTED.** Stated
+12 / 16 / BOTH 0 with the claim the two objects "have never appeared in the same file"; correct null-safe
+figures are **16 / 19 / BOTH 7**, the seven including the operator-floor chain itself, relay paste 127 and
+the 07-29 operator-chain test. Cause: an `xargs` path pipeline split on the spaces in the root paths and
+reported zero silently. **THE RULING IS UNAFFECTED — it rests on the opposite-ends mathematics, not on the
+count — and the corrected reading makes it sharper: the type mismatch sits inside an actively-cited chain
+rather than in unexamined ground.** The second bounded negative (nothing distinguishes the two ends)
+stands at 3 files. See `ERRATUM_002_BOUNDED_NEGATIVE_METHOD_DEFECT_2026-07-30.md`.
+
 **REOPENS IF F-FL1 FIRES: exhibit a condition that fixes the SMALL-`s` end of the proper-time
 integral.** A bottom-of-spectrum condition cannot; a statement about the domain, the measure, or the
 admissible mode content might. That is the one repair worth attempting and it is well posed.
