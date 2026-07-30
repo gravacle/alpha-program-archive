@@ -1080,6 +1080,38 @@ likely forces re-commitment). An innocent reading of (c), once recorded with evi
 
 ---
 
+## Q-25. "How was A32's masking disposed?" — SUPERSEDES Q-24's OPEN DISPOSITION
+
+**RULING, TWO PARTS. PRINCIPAL ACT, 2026-07-30.**
+
+**CUSTODIAN: THE ARRANGEMENT STANDS, LIMITATION RECORDED PERMANENTLY.** Commitments are not withdrawn and
+the holdout is not re-collected. The concealment is cryptographically sound — `SHA256(salt || payload)`,
+256-bit salts, fail-closed on short entropy reads — but **process independence between collector and
+custodian was never established and no independent attestation exists.** That discount travels with every
+A32 headline and is inherited by FINAL-CLAIM. Re-collection was available in this window only and was
+declined as disproportionate; the cost is stated so it cannot later be discovered.
+
+**COVARIANCE: CLOSED BY EVIDENCE — VACUOUS BY CONSTRUCTION.** Check run on the collector source only, no
+candidate content read: `covar|corr_matrix|correlation` returns **ZERO occurrences** in
+`collector_v001.py`, and the parser's fields at `:231-258` are **name | value | uncertainty | units**. The
+source format is a fixed-column table with no covariance to commit. **The payload omits covariance because
+the universe has none, not because the collector dropped it** — the commitment binds everything the source
+supplies. The spec over-specifies relative to this universe; the collector does not under-bind it. No
+re-commitment required.
+
+*** FORWARD CONDITION, BINDING: THIS COLLECTOR CANNOT COMMIT A MULTI-COMPONENT OBSERVABLE. *** No
+covariance field, no code path for one. If the eligible universe is ever extended to vector or
+multi-component observables, the collector must be revised and those candidates re-committed BEFORE any
+prediction exists. Live rather than hypothetical, because the universe is not yet sealed ("No sealed
+HOLDOUT-UNIVERSE-SEAL immutable subject exists").
+
+RULING AT: `A32_MASKING_DISPOSITION_PRINCIPAL_DECISION_2026-07-30.md`.
+
+REOPENS IF: the eligible universe is extended to covariance-bearing candidates, or an external review
+rejects the recorded custodian limitation as insufficient for a published claim.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

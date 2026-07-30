@@ -803,7 +803,18 @@ def principal_ruling_files(supervision: Path) -> list[Path]:
         head = text[:2500].upper()
         is_decision_name = "PRINCIPAL_DECISION" in name or name.startswith("A32_FREEZE_V")
         is_principal_act = "PROVENANCE: A PRINCIPAL ACT" in head or "PRINCIPAL ACT," in head
-        if is_decision_name or is_principal_act:
+        # A relay, review, register or status artifact TRANSMITS or CITES rulings; it is not one.
+        # Without this, any paste quoting "PRINCIPAL ACT," is classified as a ruling needing its own
+        # governing-chain citation, which produces a RED that no registration can ever clear.
+        is_transmission = (
+            name.startswith("RELAY_PASTE_")
+            or name.startswith("REVIEW_")
+            or name.startswith("STATUS_")
+            or "QUESTIONS_SETTLED_REGISTER" in name
+            or "CONTINUATION_STATE" in name
+            or "EXECUTION_TRACKER" in name
+        )
+        if (is_decision_name or is_principal_act) and not is_transmission:
             if "DRAFT" not in name and "QUEUE" not in name:
                 candidates.append(p)
     return sorted(set(candidates))
@@ -1119,7 +1130,10 @@ def check_path_list_word_splitting(ctx: dict[str, Any]) -> CheckResult:
                             "path-list producer piped to xargs without null delimiting",
                         )
                     )
-            if GREP_L_SUBST_RE.search(line):
+            # A backtick in Markdown is inline-code formatting, not shell command substitution.
+            # Scanning .md here matched documentation of the pattern rather than uses of it, and
+            # produced only false positives. Restrict the substitution arm to shell/python contexts.
+            if p.suffix in {".sh", ".py"} and GREP_L_SUBST_RE.search(line):
                 findings.append(
                     Finding(
                         safe_rel(p, root),
