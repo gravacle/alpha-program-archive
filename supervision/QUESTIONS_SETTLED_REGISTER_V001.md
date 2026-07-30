@@ -2510,6 +2510,46 @@ object already present under another name at least ten times; **it must be check
 
 ---
 
+## Q-60. "Is the Q-59 scale bridge the same layer as Q-51's response extraction?"
+
+**RULING: NO — DIFFERENT LAYERS, AND THE SCALE BRIDGE IS UPSTREAM. BUT THEY MAY SHARE ONE PREREQUISITE,
+AND THAT SHARING IS UNVERIFIED.** Answered 2026-07-30 inside lane 1's own artifact,
+`STAGE8_C_R_SELECTOR_NONSELECTION_DIAGNOSIS_V001.md:189-192`, which the return summary did not surface.
+
+```text
+this is not the response-extraction layer as such. The named missing object is upstream:
+a complete source-record-gravity / Hamilton-Jacobi scale bridge. It may consume CTP action
+and boundary-data inputs if Codex 2's CTP_PHYS_INPUT_PACKAGE supplies them, but this
+artifact did not inspect or build that package.
+```
+
+**SO THE TWO BLOCKING LAYERS ARE DISTINCT.** The scale bridge (issue 1) sits **upstream** of response
+extraction (issue 2). **The program has two unbuilt layers, not one** — and neither subsumes the other.
+
+*** BUT `CTP_PHYS_INPUT_PACKAGE` MAY BE A COMMON PREREQUISITE OF BOTH. *** The bridge needs "complete
+Lorentzian CTP action/boundary/time-flow data"; the package supplies a complete microscopic inclusive CTP
+functional, contacts, and boundary/edge data. **If those are the same objects, Codex 2's current relay-162
+task serves BOTH issues, and the program has one common bottleneck feeding two problems rather than two
+independent ones.**
+
+*** THE SHARING IS NOT ESTABLISHED AND MUST NOT BE ASSUMED. *** Lane 1 wrote "may consume" as a conjecture
+and **was fenced from inspecting the package** — `CTP_PHYS_INPUT_PACKAGE` was explicitly off-limits under
+relay 161. **No search was run.** This is precisely the shape of claim that has been wrong ten times in
+this program.
+
+**VERIFICATION POINT, NO NEW LANE NEEDED:** Codex 2 is specifying the package under relay 162 right now.
+**When it returns, check its contents against the bridge's six named requirements** — complete Lorentzian
+CTP action/boundary/time-flow data, constant Hamilton-Jacobi record energy, branch-energy/closure-energy
+equality, reference-subtraction and no-spectator theorem, derived marginal first durable-public closure,
+and an isolated stable positive interval solution. **Coverage of the first is plausible; the other five are
+gravitational and almost certainly are not in the package.**
+
+**REVIEWER NOTE:** the answer was in the artifact and not in the lane's summary. **Reading the artifact
+rather than the report is what found it** — the second time today a return summary omitted something the
+artifact contained.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
