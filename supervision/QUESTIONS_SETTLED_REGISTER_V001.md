@@ -2080,6 +2080,96 @@ test selecting the unit `tau` member is found.
 
 ---
 
+## Q-50. "Is the response operator actually missing?"
+
+**REVIEWER OBSERVATION, PREREGISTERED BEFORE LANE 1 RETURNS PASTE 155: A FINITE OPERATOR RESPONSE BUNDLE
+IS DERIVED AND HOSTILE-VERIFIED. WHAT IS MISSING MAY BE THE SCALARIZATION, NOT THE OPERATOR.** Found
+2026-07-30 during the Q-48 fence audit.
+
+`STAGE8_T7_PRIMITIVE_OPERATOR_RESPONSE_RESULT_V001.md` (2026-07-25) reports:
+
+```text
+FINITE_PRIMITIVE_OPERATOR_RESPONSE_BUNDLE_DERIVED
+INDEPENDENT_PRIMITIVE_OPERATOR_RESPONSE_CONFIRMED
+finite_primitive_operator_response_bundle_derived = true
+finite_primitive_operator_Duhamel_tangent_derived  = true
+primitive_source_scalarization_derived             = false
+```
+
+**Two hostile post-execution reviews returned `POST_EXECUTION_CONFIRMED`.** The finite primitive parent
+produces a Stinespring/PVM operator-response bundle and a finite operator Duhamel tangent. **"It does not
+produce a canonical primitive source scalar."**
+
+*** THEORY CANDIDATE 001 SAYS ALPHA IS THE IMPEDANCE OF THE INDUCED RESPONSE. AN IMPEDANCE IS A SCALAR. ***
+So the theory's target is precisely the object carrying `primitive_source_scalarization_derived = false` —
+and the Route-2 spec names the same gap independently as
+`actual_finite_parent_operator_to_scalar_bridge_derived = false`
+(`STAGE8_T7_ACTUAL_PARENT_REGULATED_CAR_OPERATOR_RESPONSE_SPEC_V001.md:508`). **Two artifacts, written
+five days ago, carry an explicit sealed flag for exactly the object theory 001 requires: the
+operator-to-scalar bridge.**
+
+**WHAT THIS DOES NOT ESTABLISH, AND I AM NOT CLAIMING IT.** Lane 1's required object is the **complete
+BR/CTP** fluctuation/response operator; the derived one is the **finite primitive** bundle. Finite is not
+complete and primitive is not BR/CTP, **so lane 1 may be entirely correct that the complete object is
+absent while a finite one is derived.** I have not typed the relation between them and must not. **That
+typing is lane 1's item under paste 155 and this observation does not preempt it.**
+
+**BUT IT SHARPENS THE QUESTION.** Paste 155 asks whether the response operator is `Gamma_K` under another
+name. **The prior question is whether the missing object is the operator AT ALL, rather than the map from
+an already-derived operator bundle to a scalar.** If it is the bridge, the program has been describing a
+scalarization gap as an operator gap.
+
+**CANDIDATE CORRESPONDENCE, UNCHECKED:** the standing finding that the geometric route is blocked on the
+internal/external metric conversion of a record cell. **A conversion and an operator-to-scalar bridge are
+both maps out of a structure into a number.** Whether they are one object is not established here and
+should not be assumed.
+
+REOPENS IF: lane 1 types the finite-primitive and complete-BR/CTP objects as the same family, or the
+scalarization gap and the metric conversion are shown to be one object.
+
+---
+
+## Q-51. "Is the response operator `Gamma_K` under another name?"
+
+*** RULING: NO, AND NOT DISJOINT EITHER — THE RESPONSE LAYER IS AN UPSTREAM/INTERNAL PREREQUISITE OF
+`Gamma_K`. THE SOLE CHARTERED CONSTRUCTION TARGET CANNOT HONESTLY BE STARTED. *** Established 2026-07-30 by
+Codex lane 1 under paste 155 (`STAGE8_GAMMA_K_RESPONSE_OPERATOR_CORRESPONDENCE_DETERMINATION_V001.md`,
+`a2c2e1cf…`, archive `06658c2`, pre-commit gate GREEN).
+
+```text
+correspondence_verdict = UPSTREAM_INTERNAL_PREREQUISITE
+raw_correlator_to_retarded_Hessian_map_derived = false
+```
+
+**FOUR OBJECTS SIT UPSTREAM OF `Gamma_K` / `C_record(K)`:** the complete BR/CTP fluctuation-response
+operator; the exact induced kernel; **the raw-correlator-to-retarded-Hessian map `G -> H_R[G]`**; and the
+covariant local projector. `Gamma_K` remains the umbrella target, **but scalar response and root execution
+cannot start until that response-extraction layer is specified and derived.**
+
+*** THIS IS THE MOST SERIOUS STATUS CHANGE OF THE DAY, AND IT IS NOT A SETBACK — IT IS A CORRECTION. ***
+The program has reported `0 of 11` and `0 of 18` for weeks on the understanding that one chartered target
+was being built. **The charter names `Gamma_K` as the target while `Gamma_K` presupposes a layer nobody
+specified.** So the correct status is not "the target is unfinished" but **"the target cannot be started,"**
+and the charter is incomplete as a statement of what remains. **Paste 155 asked for exactly this and named
+UPSTREAM as the outcome to lead with; it is what returned.**
+
+**RELATION TO Q-50.** Compatible, and Q-50's caution was correct. Q-50 found the **finite primitive**
+operator response bundle derived and hostile-verified, with `primitive_source_scalarization_derived =
+false`; it explicitly declined to type that object as lane 1's **complete BR/CTP** one. Lane 1 confirms the
+complete layer is unspecified. **And lane 1 names the extraction map directly — `raw_correlator_to_
+retarded_Hessian_map` — which is the object Q-50 predicted from the theory side, since an impedance is a
+scalar and the gap is the map out of an operator structure into a number.** Two independent routes, from
+opposite directions, on the same missing map in the same afternoon.
+
+**NUMBERING — SECOND COLLISION TODAY.** Lane 1's commit message reads "Q-50"; that number was taken by the
+scalarization observation, as lane 1's own commit note anticipated when it declined to touch the
+concurrent register. **Registered here as Q-51. LANES MUST STOP ASSIGNING Q-NUMBERS** — the register is
+assigned by the reviewer only, and lane commits should cite the paste number instead.
+
+REOPENS IF: the response-extraction layer is specified, or `Gamma_K`'s charter is amended to include it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
