@@ -2608,6 +2608,50 @@ scope is narrower than the author's `[D2]` used it, **repaired in place rather t
 
 ---
 
+## Q-62. "Are `kappa_record` and `K_*` a pair?"
+
+**RULING: `NO_VERDICT`. NOT A CANDIDATE PAIR TODAY — AND ALSO NOT SHOWN TO BE ONE SOURCE READ TWICE.**
+Established 2026-07-30 by Codex lane 1 under relay 165
+(`STAGE8_KAPPA_RECORD_KSTAR_PAIR_TEST_UNDER_Q61_V001.md`, `5d86c9c1…`, archive `448d6b3`, gate GREEN).
+
+```text
+verdict    = NO_VERDICT
+blocked_by = no common target X and no exhibited Q-61 disagreement witness
+```
+
+**THREE DISTINCT OBJECTS, NOW TYPED.** `kappa_record` is the **primitive record-side intensive
+susceptibility/Hessian**; `K_*` is the **one-cell `Gamma_K`/BR onset root**; `kappa_Thomson` is the
+**physical charged-sector Thomson stiffness**. **Not the same object, and no derived identity relates
+them.**
+
+*** THE DELETION TEST [O1] PASSES — AND THAT IS THE INTERESTING PART. *** "Each target specification
+survives deletion of the other's apparatus" — **so they are premise-disjoint** — **but only as an unbuilt
+target spec. Neither determination exists yet, and no shared target X is established.**
+
+**SO PAIRHOOD FAILS ON THE TARGET, NOT ON DISJOINTNESS.** A pair must land on **one** quantity; the corpus
+supplies no common target. `disagreement_family_V_exhibited = false | TYPE-U`. Under Q-61, a family not
+exhibited yields **`NO_VERDICT`, not "artefact"** — and the lane graded it exactly that way.
+
+**THE BOUNDARY CLAUSE DOES NOT RESCUE IT EITHER**: no sealed formula makes them complementary coordinates,
+so this is **not** exact determination — the situation is **weaker than** exact determination, not a
+well-posed formula in disguise.
+
+*** AND HERE IS THE LIVE DEPENDENCY. *** The lane records that **if a future bridge makes them
+complementary coordinates of one value, Q-61 classes that as EXACT DETERMINATION, not overdetermination.**
+**Whether that outcome would be sufficient to force a number is precisely the question queued for Einstein
+under relay 166.** *** SO THIS RESULT'S MEANING IS NOT YET FIXED: under the standing principle
+"only overdetermination forces a number" it is a dead end; if relay 166 rules a unique require sufficient,
+it becomes a live route. Same evidence, two meanings, pending one ruling. ***
+
+**NO LEAD-WITH CONDITION FIRED** — neither pair nor one-source-twice. **`would-build`: a common target `X`
+plus an exhibited Q-61 disagreement family `V`.**
+
+**THIRD `NO_VERDICT` OF THE DAY.** The lane declined to call a disjointness result a pair, and declined to
+call an absence a refutation. **Both temptations were available and the relay had warned against the first
+explicitly.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
