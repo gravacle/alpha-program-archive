@@ -2041,6 +2041,45 @@ unmoved.
 
 ---
 
+## Q-49. "Are the proper-time floor and `K_bare = 0` one premise or two?"
+
+**REVIEWER RULING, PREREGISTERED BEFORE LANE 2 REPORTS: TWO. THE Q-45 STALENESS FLAG WAS WRONG ON THE
+MERITS, AND Q-46's PARTIAL WITHDRAWAL GAVE THE WRONG REASON.** Established 2026-07-30 from rows 2 and 7 of
+`STAGE8_STANDING_PREMISE_TEST_CLASSIFICATION_V001.md:230,235`.
+
+**THE TWO ROWS ARE DIFFERENT PROPOSITIONS.**
+
+- Row 2, `K_bare = 0`, induced-only: an adopted compositeness condition with a **frozen falsifier** — the
+  route fails if the completed specification admits an arbitrary finite deformation. **TESTED — PENDING.**
+- Row 7, the proper-time floor: the premise is **`tau = 1`, the UNIT VALUE**, not the existence of a floor.
+  Its recorded status is `proper_time_floor_status = ADOPTED_BY_INDUCED_ONLY_FUNCTIONAL`, and V011
+  `:1094-1105` **admits the complete positive-`tau` competitor family**, saying neither the unit interval
+  nor the unit amplitude power follows. **No test selects the unit member. UNTESTED — COMPETITOR OPEN.**
+
+*** Q-18 IDENTIFIED THE FLOOR'S SOURCE, NOT ITS VALUE. *** "The floor boundary value is the content of the
+induced-only axiom" says the floor is set BY that functional — which row 7's own status string states
+verbatim. **It does not say the value is 1.** The axiom can hold with any member of the positive-`tau`
+family. **So the two rows can carry different test statuses without contradiction, and lane 2 was right.**
+
+**THE REVIEWER'S ERROR, PLAINLY:** I read "same content" as "same premise" and flagged a conflict that is
+not there. Q-46 then withdrew the flag on the theory that the lane fence caused it; **the fence is not the
+cause. The cause is that source and value are different claims.** The fence release (Q-48) stands on its
+own merits and is not retracted — a fence with no written release is a defect regardless.
+
+*** AND THIS SURFACES SOMETHING THE FLAG WAS OBSCURING. *** `tau = 1` is a **unit-value adoption with an
+open competitor family**, and V011 explicitly denies that the unit interval follows. Q-45 named `C_R = 1`
+as "the only absolute-scale selector." **Whether `tau = 1` is a second scale-carrying unit adoption is now
+an open question** and is not answered here. If it is, the program has two unselected unit values on the
+value path, not one.
+
+**PREREGISTRATION:** this ruling is written before lane 2 returns item 2 of paste 154. **If lane 2 rules
+ONE premise, this reviewer ruling is wrong and lane 2's finding governs.**
+
+REOPENS IF: lane 2's primary-text reading of the CAR-named source contradicts row 7's status string, or a
+test selecting the unit `tau` member is found.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
