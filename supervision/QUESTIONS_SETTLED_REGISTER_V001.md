@@ -1611,6 +1611,48 @@ REOPENS IF: F-RP1 fires, or the audit fails, or F-GK2/F-GK4 fire.
 
 ---
 
+## Q-38. "Did the root adoption survive its test?" — F-RP1 FIRED; Q-37 LAPSES
+
+**RULING: NO. F-RP1 FIRED ON THE FIRST CONSTRUCTION TURN. THE ADOPTION LAPSES BY ITS OWN TERMS.**
+2026-07-30, one turn after Q-37 was made. Evidence:
+`STAGE8_GAMMA_K_ROOT_PRODUCER_ATTEMPT_F_RP1_V001.md` (`81e2aa87…`), lane status R-58.
+
+**WHAT LANE 1 FOUND.** The attempt could not honestly produce the complete source-record-field Hilbert
+space and `rho_pre`. **The declared inputs lack definite constructive content for ALL of:** the states;
+the inner product; the domain; `rho_pre` as a state on the completed algebra; the quotient/measure formula;
+the record-effect family; **and the executable mutation-channel members.**
+
+*** THAT IS A SHARPER FACT THAN "PARTIALLY SUPPLIED", AND IT CHANGES WHAT THE CHARTER IS FACING. ***
+"Partially supplied" suggested pieces existed and wanted assembly. **F-RP1 says that at the root there is
+nothing to build from** — the declarations are names plus conditions, without constructive content. The
+blocker was never a missing permission. **The objects do not exist.**
+
+**AND THE SEVENTH ITEM IS ITS OWN FINDING: "executable mutation-channel members" have no definite content
+either.** So the five-channel audit is currently UNEXECUTABLE — its channels have no enumerable members.
+That confirms as a blocking fact what the spec review recorded as a documentation gap (Condition 1: the
+admitted mutation family is named, not enumerated, in all five channels). **F-RP1's second clause fired
+alongside its first.**
+
+**CONSEQUENCE FOR Q-37: the adoption bought nothing and lapses automatically**, exactly as its own
+falsifier specifies. This row records the lapse; it does not cause it. Precedent and pattern: R-30's F2,
+which fired and was honored this morning (Q-20). **Second frozen falsifier to fire and be honored today.**
+
+**CONSEQUENCE FOR Q-21's CHARTER, and it is the live question now:** `Gamma_K` cannot be constructed from
+current material — not "with difficulty", but from nothing at the root. **So the open question is whether
+`Gamma_K` is constructible at all, or whether the charter is aimed at an object that would have to be
+built from scratch across seven named contentless inputs.** That is not answerable by another adoption,
+and it is not lane work to decide.
+
+**WHAT THE METHOD BOUGHT.** The adoption was made explicitly so it could be tested, with the test frozen
+before construction. It died in ONE TURN rather than after eleven pieces. **The cost of learning this was a
+single lane-turn; the cost of learning it later would have been the entire charter.** That is what the
+standing rule established at Q-37 — every adoption carries its test, or is marked untested — is for.
+
+REOPENS IF: constructive content is supplied for the seven named inputs, at which point a fresh adoption
+would be a different act with a different test.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
