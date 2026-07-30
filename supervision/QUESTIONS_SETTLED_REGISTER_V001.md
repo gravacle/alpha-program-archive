@@ -2550,6 +2550,64 @@ artifact contained.
 
 ---
 
+## Q-61. "Is there any route that could force a number?"
+
+*** RULING: THE PROGRAM HAS ZERO LIVE PAIRS. THE ONLY ROUTE TO A FORCED NUMBER IS CURRENTLY EMPTY. ***
+Established 2026-07-30 by Einstein under relay 163
+(`STAGE8_OVERDETERMINATION_SPECIFICATION_AND_PAIR_SURVEY_EINSTEIN_V001.md`, seal `8b8b8977…`, verified).
+**LIVE 0 · STRUCTURAL 4 · NOT-A-PAIR 7.**
+
+*** AND IT IS NOT A RECORDED ABSENCE — IT IS CORROBORATED BY THE CORPUS'S OWN EXECUTED NEGATIVES. ***
+"TWO INDEPENDENT DOF COUNTS AGREE: NO OVERDETERMINATION". The slot-9 ratio class **executed and failed**:
+"one trace, one function, one determination presented several ways". "ZERO CONSTRAINTS AGAINST NINE
+UNKNOWNS". *** EVERY COINCIDENCE SO FAR EXAMINED HAS BEEN ADJUDICATED **ONE SOURCE READ TWICE**. *** That
+is the fitting risk of this program stated in five words, and it has already happened repeatedly.
+
+**OVERDETERMINATION IS NOW SPECIFIED CHECKABLY — THREE CONDITIONS.** **[O1]** premise-DAG disjointness
+below a target-blind kernel, decided by a **deletion test**: remove `C_b` and everything reachable only
+from it; `C_a` must survive, and conversely. **[O2]** the **disagreement witness**. **[O3]** target
+blindness as a **process fact** — sealed order, an executed target-entry sweep, no post-hoc tuning —
+**not a mental state**, which is undecidable and would reject all human physics.
+
+**TWO DEMOTIONS INSIDE THE SPEC, BOTH EARNED.** "Distinct mechanisms by content" is **descriptive, never
+dispositive** — this corpus has twice proved it unreliable (five spellings of one shape; a ruling reaching
+a route under another label). And the boundary clause the survey itself forced: *** n CONDITIONS FIXING n
+FREEDOMS THROUGH COMPLEMENTARY COORDINATES IS EXACT DETERMINATION, NEVER OVERDETERMINATION. *** The
+marker + `C_R = 1` system yields `T_R` with **zero redundancy and no expressible disagreement witness** —
+**a spec that counted it would bless every well-posed formula in physics.**
+
+**COINCIDENCE BECOMES EVIDENCE ONLY IF DISAGREEMENT WAS POSSIBLE.** Requires an exhibited admissible family
+`V`, itself audited, in which each condition alone leaves several members, joint satisfaction isolates up
+to disclosed discrete conventions, **and a member exists on which the two conditions pick different
+values.** Outcomes typed: `V` exhibited → evidence; `V` not exhibited → **NO_VERDICT, not "artefact"**;
+`V` provably impossible → **the agreement is a theorem — a check, never evidence.**
+
+**THE FOUR STRUCTURAL SHAPES, ALL WITH UNBUILT LEGS.** (1) DEPARTURE_2's winding × complete-selector — leg
+B not derived, Q-59 added an unbuilt-bridge prerequisite, and **even live it defeats a dilation, not the
+additive freedom.** (2) **The cross-sector Requirement I/II on `beta` — the corpus's ONLY sealed
+two-conditions-one-quantity specification, with its anti-tautology falsifier ALREADY FROZEN**; both legs
+unbuilt. (3) `tau_orth = T_R` — **the only already-exhibited failure-capable agreement in the corpus**
+(`|Delta| = E_R` came out equal **and did not have to**); not live because no failure rule was frozen and
+`|Delta|`'s premise-disjointness is unaudited — **and it lands on the scale, so redundancy there tests the
+selector, not the coupling.** (4) `S9-A × C_record(K_*) = 0` — **the program has re-posed its own
+deliverable as an overdetermination target**, zero legs built.
+
+*** PRE-STRUCTURAL ABSENCE, AND THE MOST PROMISING THING IN THE REPORT: `kappa_record` vs `K_*` — "TWO
+STIFFNESS OBJECTS, NEVER RELATED" — the natural future pair site ON THE VALUE PATH. ***
+
+**A THIRTEEN-ITEM DERIVATION-VERSUS-FIT CHECKLIST**, five items added under adversarial attack, each a
+fit-vector the corpus already paid for once. **THE HONESTY CLAUSE, UNSOFTENED: THE PROGRAM TODAY FAILS
+ITEMS 1b, 4, 5 AND 12.** "The standard is not designed to be met; it is designed so that, if met, the
+result is not a fit." *** NO_VERDICT — NOT FAIL, NOT PASS — IS THE CORRECT CURRENT GRADE OF ANY
+OVERDETERMINATION CLAIM IN THIS CORPUS. ***
+
+**NINE TYPED NEGATIVES, INCLUDING ONE TYPE-R AGAINST ITS OWN DRAFT** — the `1 + a·u_D` family's sealed
+scope is narrower than the author's `[D2]` used it, **repaired in place rather than left standing.**
+
+**BINDS NOTHING UNTIL ADOPTED.** Q-52-declared, `derived = false`.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
