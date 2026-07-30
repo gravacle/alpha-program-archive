@@ -1942,6 +1942,41 @@ UNTESTED premise acquires a frozen falsifier.
 
 ---
 
+## Q-46. "What blocks acting on the premise classification?"
+
+**RULING: THREE CONSTRAINTS. ONE IS TECHNICAL AND DEFEATS THE OBVIOUS NEXT TASK; TWO ARE PRINCIPAL
+DECISIONS THAT ARE STILL OPEN.** Established 2026-07-30 from
+`STAGE8_STANDING_PREMISE_TEST_CLASSIFICATION_V001.md` (`e0e618fe…`).
+
+**(1) THE DEPARTURE-2 FORCEDNESS AUDIT IS NOT A TEST OF `C_R = 1`.** `:306-308` states it directly: it
+"would test forcedness and uniqueness. **It is not a physical falsifier of the marginality condition**"
+and has not been frozen or executed as this premise's Q-37 test. **Running it leaves `C_R = 1` UNTESTED
+whatever it returns.** The producer cannot substitute: it takes the compactness threshold as an INPUT
+(`scripts/derive_bid_minimal_public_causal_cell_v001.py:19-23`) and reports
+`physical_premise_proved_by_script: false` twice. *** THE REVIEWER PROPOSED THIS AUDIT AS THE FIX AND WAS
+WRONG; THE PRINCIPAL'S QUESTION CAUGHT IT. *** The real task is whether a falsifier of marginal
+self-gravitation can be DESIGNED at all — and if none can, the only absolute-scale selector in the program
+is permanently untestable, which is a structural limit worth stating explicitly rather than by default.
+
+**(2) `ledger_scope_decision_needed = true` IS A PRINCIPAL DECISION, NOT LANE 2'S.** `:17-30`. Lane 2
+adopted a counting convention — one class per status-and-test equivalent premise, clauses of differing
+epistemic status split, mirrors and downstream consequences not recounted — and flagged that the convention
+is unratified. **Every premise count stays provisional until the principal ratifies or replaces it.**
+Nothing here is provable; it is definitional.
+
+**(3) THE Q-45 STALENESS FLAG IS PARTLY WITHDRAWN — THE CAUSE IS THE FENCE, NOT STALENESS.** `:796-799`:
+the CAR-named historical floor/mass source "was excluded from direct reading under the lane fence," so the
+floor's status reaches lane 2 only through the sealed split correction, a secondary axiom-map quotation,
+and V011's competitor classification. **Lane 2 never read the primary text.** The floor/`K_bare`
+discrepancy may therefore be fence-induced rather than a failure to track Q-18, and **it cannot be repaired
+until the fence's release condition is written** — the standing defect that fences ban entry while their
+release conditions were never authored.
+
+REOPENS IF: the counting convention is ratified, the fence release condition is written, or a physical
+falsifier for marginal self-gravitation is designed.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
