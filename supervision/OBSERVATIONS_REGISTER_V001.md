@@ -143,6 +143,49 @@ with a strength parameter — and that `K` is that strength. **Unestablished, an
 
 ---
 
+
+## OBS-05. IF ALPHA IS THE IMPEDANCE OF THE DURABILITY-CONFERRING ACTION, IT IS THE IMPEDANCE OF THE *WRITE*
+
+**PRINCIPAL-CONFIRMED PREMISE (2026-07-30):** OBS-04's reading — "the threshold was never about whether
+record structure exists; it is about whether a record becomes DURABLE" — was confirmed by the principal as
+the theory's own content. **That upgrades OBS-04 from a reviewer reading to the theory as its author holds
+it**, and OBS-05 follows from it.
+
+**DURABILITY IS SPECIFIED, IN NAMED PARTS.** `CAUSAL_DIRECT_LIMIT_RECORD_PRINCIPLE_V001.md:17-30` — a
+durable public record is the compatible outgoing sector of a future-directed Lorentz-covariant causal
+exhaustion, in three parts: **the finite reversible WRITE**, **thresholded source-root NONRETURN**, and
+**completed-record INVARIANCE** producing a quasi-local output state, GNS representation, and recoverable
+central record sequences. V002`:10-30` sharpens: durability consists jointly of thresholded source
+nonreturn and exact completed-record persistence.
+
+*** THE NARROWING: ONLY ONE OF THE THREE CAN CARRY A STRENGTH. ***
+- **NONRETURN cannot.** It is a spectral property — Riemann-Lebesgue, no source point spectrum
+  (`R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md:119`). It holds or it does not. No dial.
+- **COMPLETED-RECORD PERSISTENCE cannot.** It is exactness. No dial.
+- **THE WRITE is the only part the SOURCE performs, and the only one that could carry a coupling
+  strength.**
+
+**SO THE HYPOTHESIS IS: `alpha` IS THE IMPEDANCE OF THE FINITE REVERSIBLE WRITE** — not of the carrier, not
+of the composition, not of the record sector, but of the single operation by which a source writes into an
+already-present carrier at the strength that makes the result non-returning.
+
+**IT IS CONSISTENT WITH EVERYTHING ESTABLISHED TODAY.** The base composition is a graded tensor with
+COMMUTING observables (Q-43), so no coupling lives in the carrier. The record is a **monomorphism**, not a
+quotient. V002 explicitly keeps source and record results DISTINCT and supplies no merged Moller unitary.
+**The only place a source-to-record strength can live is the write.**
+
+**AND IT EXPLAINS `K_*`'s SHAPE.** The onset condition asks at what strength a write first produces a
+durable record — a threshold on the WRITE's strength. That is "the value at which a durable record first
+forms", restated in terms of the operation rather than the outcome.
+
+**WHAT WOULD HAVE TO BE TRUE, and it is directly checkable:** that the corpus's "finite reversible write"
+carries a parameter at all; and that the parameter is `K`. **Neither is established.** If the write is
+specified without a strength, this observation is wrong and says so.
+
+**STATUS: UNCLAIMED. Under test by relay 152.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **When a candidate fails, ask which kind of failure it is.** A theorem foreclosing it is a refutation and
