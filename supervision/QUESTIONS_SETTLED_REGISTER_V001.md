@@ -1698,6 +1698,50 @@ the matching protocol.
 
 ---
 
+## Q-40. "Is `rho_pre` actually unconstructible, or did F-RP1 fire against a withdrawn route?"
+
+Also asked as: didn't we already have the state? Can allow/require construct it? What exactly did the
+Galerkin correction withdraw?
+
+**STATUS: OPEN HYPOTHESIS, UNDER TEST — recorded because it may overturn Q-38's reading.** Raised by the
+principal 2026-07-30 ("but haven't we constructed it via the allow/require terms?"); relay 148 tests it.
+
+**WHAT THE GALERKIN CORRECTION ACTUALLY WITHDREW.**
+`STAGE8_T7_CONTINUUM_GALERKIN_PROVENANCE_CORRECTION_V001.md`: `continuum_covariance_formula_derived = true`
+and `momentum_block_covariance_regression_valid = true` **SURVIVE**; what is `false` is
+`genuine_finite_rank_continuum_restriction_constructed` and `parent_state_regulator_restriction_derived`.
+The failure is spectral and specific: a nested finite-rank `Q_n` with `[Q_n,h_0]=0`, `Q_n -> I` strongly
+"does not exist for the free massless Dirac multiplier", since a finite-dimensional reducing subspace would
+require an `L2` eigenvector of a purely continuous spectrum. **That is a fact about an approximation
+scheme, not about the state.**
+
+**THE HYPOTHESIS: THE STATE NEEDS NO SUCH FAMILY.** A quasifree state is determined by its covariance, and
+this corpus says so twice — `R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_SPEC_V001.md:228` ("the asymptotic
+quasifree state is **fixed by** the positive/negative spectral projection") and
+`STAGE8_T7_PARENT_STATE_REGULATOR_RESTRICTION_SPEC_V001.md:65` ("the finite quasifree state is the CAR
+restriction **determined by** `C_n`"). The continuum covariance `C(p) = (I - h_0/|p|)/2` is derived, and the
+machinery is present: GNS in 88 cleanroom files, quasifree in 58, CAR algebra in 10, Bogoliubov in 4.
+
+**AND ALLOW/REQUIRE IS THE OTHER HALF.** The covariance would supply the CONSTRUCTION — algebra,
+representation, state. The threshold would supply the SELECTION — `rho_pre` as the state on the pre-record
+side. **Neither yields `rho_pre` alone.** The known hazard is that the threshold "does not automatically
+choose the denominator; it states the exact condition under which the denominator is required", so it may
+CONSTRAIN a state without SELECTING one.
+
+**IF THE HYPOTHESIS HOLDS, Q-38's F-RP1 fired against the SPECIFICATION's declared inputs — which pointed
+at the withdrawn finite-rank route — rather than against what the corpus has**, and "no constructive
+content" is a verdict about the spec, not about the physics.
+
+**IF IT FAILS**, the step at which it fails is itself the result: the passages may not mean this; the GNS
+algebra may not be the completed one; or the threshold may constrain without selecting.
+
+DOES NOT: reinstate Q-37's lapsed adoption; license treating declarations as producers; or discharge
+anything. `0 of 11` stands until a producer flag flips.
+
+RESOLVES WHEN: relay 148 returns `ROOT DERIVED` or names the failing step.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
