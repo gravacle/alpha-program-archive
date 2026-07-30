@@ -76,3 +76,26 @@ Recommended: add to the corpus_check candidate list a check for QUANTITATIVE CLA
 ACROSS ARTIFACTS WITHOUT A PRODUCER — a figure cited in N artifacts and computed in none.
 
 alpha_computed = false; proof_authorized = false.
+
+## COMPUTATION PROVENANCE (appended 2026-07-30, append-only; artifact not otherwise edited)
+
+This erratum's whole point is that a figure was propagated by citation rather than by
+verification. It then failed to record HOW its own replacement counts were obtained, which makes
+the replacement uncheckable in exactly the same way. Recording it now.
+
+The counts in CORRECTION 2 are a machine count, recomputed by the command below on 2026-07-29
+(`find` over each root, restricted to the four content suffixes, with the pruned directories being
+the exclusion list already stated above):
+
+```sh
+find "<root>" \
+  \( -name .git -o -name node_modules -o -name site-packages -o -name sympy \
+     -o -name .cache -o -name .proof_deps -o -name .python_deps -o -name external \
+     -o -name third_party -o -name sources -o -name 'review_packet*' \) -prune -o \
+  -type f \( -name '*.md' -o -name '*.py' -o -name '*.json' -o -name '*.csv' \) -print | wc -l
+```
+
+ALL FIGURES REMAIN EXCLUSION-DEPENDENT. A different but defensible exclusion list gives a
+different total, and any citation must state which it used. The figure that must NEVER be
+reinstated is the retracted "840 of ~4800"; `corpus_check.py` flags that string permanently
+regardless of any computation marker, which is deliberate.
