@@ -2283,6 +2283,50 @@ Einstein found the theory candidate under-argued in its own favour on seven stag
 
 ---
 
+## Q-55. "Is the S8 exchange magnitude free?"
+
+**RULING: NO — BUT IT IS CLOSED BY AN UNTESTED PREMISE, NOT BY PHYSICS. VERDICT ON THEORY 001:
+`NO_VERDICT_AS_PHYSICAL_REFUTATION`.** Established 2026-07-30 by Codex lane 1 under paste 157
+(`STAGE8_S8_WRITE_TAIL_JOIN_SPEC_AND_TEST_V001.md`, `eb92e8ab…`, archive `f7a3e90`, gate GREEN).
+
+S8 is the R3.4 transported write/tail candidate, `H(t) = H_0 + sum_c v_c(t) U_0(t) B_c U_0(t)*`. **Exactness
+enters only after `A_c = integral v_c(t) dt` is fixed**, and the diagnostic transported candidate **does
+expose a free integrated-action parameter.**
+
+*** WHAT FIXES IT IS ER-A, AND ER-A IS UNTESTED. *** The current ordinary-parent branch sets
+`integral_cell_time v_c(t) dt = tau_R` as **disclosed branch data, not a derived S8 theorem. Without ER-A,
+covariance leaves `A_c` external.** Lane 1 typed this exactly right:
+
+```text
+exchange_magnitude_free_in_current_ER_A_branch = false | TYPE-C
+    | constraint: disclosed ER-A amplitude clause
+    | release: derived alternate parent branch or supersession of ER-A
+theory_001_negative_half_refuted_by_S8 = NO_VERDICT
+```
+
+**SO THEORY 001's NEGATIVE HALF SURVIVES S8 — CONDITIONALLY ON A PREMISE THAT Q-45 CLASSES AS UNTESTED,
+whose ER-B alternative remains UNEXCLUDED and whose kill-test is blocked on control design.** A TYPE-C
+closure is a governance fact about the branch, **not evidence that no coupling can live at S8.** The
+theory's "no place left" is now known to rest, at this stage, on an adopted branch rather than a proof.
+
+*** THE PROTOCOL WORKED ON ITS FIRST USE, AND THIS IS THE POINT. *** Under the old vocabulary this would
+have been reported as `exchange_magnitude_free = false` and read as S8 being closed. **Typing it TYPE-C
+made visible that the closure is a branch adoption.** And `NO_VERDICT` let the lane decline to manufacture
+a refutation from an inapplicable requirement, which is exactly what Q-54 was built for. **Lane 1 also
+attached four falsifiers**: a derived physical S8 law fixing `A_c`; a theorem upgrading ER-A; an admissible
+S8 family with varied `A_c`; or proof that ER-A does not apply to S8.
+
+**A NUMBER ENTERS HERE AND SHOULD BE WATCHED, NOT CLAIMED.** `tau_R = pi/sqrt(2)` (`:105`), and `A_c =
+tau_R`. **This is a cell-time integral, not a coupling, and nothing about alpha follows from it.** But it
+is a point where `pi` and an irrational enter the write chain under an untested branch premise. **There are
+now at least four distinct tau-like quantities in play — the proper-time floor `tau = 1`, `tau_R`, `T_R`,
+and `tau_orth` — and their relations are not established. Do not conflate them.** Assigned to Einstein.
+
+REOPENS IF: ER-A is tested, superseded, or shown not to apply to S8; or any of lane 1's four falsifiers
+fires.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
