@@ -1896,6 +1896,52 @@ REOPENS IF: the retraction axiom is itself shown to be a convention rather than 
 
 ---
 
+## Q-45. "How many standing premises carry a real test?"
+
+**RULING: 17 OF 26 BOUNDED VALUE-PATH PREMISE CLASSES ARE UNTESTED. NINE CARRY GENUINE FAILURE-CAPABLE
+TESTS, AND NONE IS REPORTED AS PROVED MERELY BECAUSE A TEST EXISTS.** Established 2026-07-30 by Codex lane
+2 under paste 149 (`STAGE8_STANDING_PREMISE_TEST_CLASSIFICATION_V001.md`, `e0e618fe…`). **A conservative
+lower bound, not an exact corpus-wide count** — `ledger_scope_decision_needed = true`.
+
+**UNTESTED (17):** `C_R = 1`; ER-A; minimal public carrier `d = 4`; relative-budget saturation; the
+proper-time floor; primitive spin-1/2 minimality; one-vectorlike-pair minimality; one-complete-`Q_spec`
+unity; relative-U(1) bundle/connection; global descent/quasi-free completeness; the SU(5) parent; sector
+independence; the residual ordinary-branch package; complex-vs-real selection; DCC; `tau_orth = T_R`;
+zero-flux/no-write.
+
+**TESTED (9):** `K_bare = 0`; transport-only; P1/P2 pre-record premises; Parent-State Covariance; Causal
+Incidence Support; the chiral spectral-semigroup rule; the source-record odd-component identity; the
+exhaustive-use clause; first-record capacity.
+
+*** `C_R = 1` IS THE MOST CONSEQUENTIAL UNTESTED PREMISE, AND IT HAS NO FROZEN PHYSICAL FALSIFIER AT ALL.
+*** Its proposed forcedness audit is explicitly "NOT YET AUDITED." It is the ONLY absolute-scale selector
+(Q-07), it is in content a marginal self-gravitation condition, and it reaches the producer as a function
+argument with `physical_premise_proved_by_script = false`.
+
+`K_bare = 0` and transport-only are both **TESTED—PENDING**: the first fails if the completed specification
+permits an arbitrary finite deformation, with slot 18 as its separate earning route; the second fails if an
+additional primitive response coefficient or independent magnitude is required, and the theorem-exclusion
+flags remain false. **Neither has passed.** ER-A's kill-test is blocked on control design and its possible
+derived write-rate test is explicitly unopened. The corrected A6 sites — five pure selector sites plus one
+mixed pair-count component — are UNTESTED, **while the physical allow/require constraint is separately
+TESTED/EXECUTED and is NOT the selector**, which is the split correction holding up under audit.
+
+**WHY THIS COUNT MATTERS:** it is the honest measure of what a computed alpha would be conditional on, and
+until Q-37 established that every adoption carries its test or is marked untested, the corpus had no way to
+state it — "adopted" was one undifferentiated category. **The rule was established this morning and found
+seventeen untested premises the same afternoon.**
+
+*** ONE ENTRY IS STALE, AND IT IS CHECKABLE. *** The classification lists **the proper-time floor as
+UNTESTED** and **`K_bare = 0` as TESTED**. But Q-18 established that **the floor boundary value IS THE
+CONTENT of the induced-only axiom** — and `K_bare = 0` IS that axiom. They cannot carry different test
+statuses while being the same premise. Either they are one class, or the classification must say what
+distinguishes them. **Flagged for the successor pass, not corrected here.**
+
+REOPENS IF: `ledger_scope_decision_needed` is resolved and an exact count replaces the lower bound, or any
+UNTESTED premise acquires a frozen falsifier.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
