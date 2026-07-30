@@ -899,6 +899,52 @@ REOPENS IF: primacy is re-declared on evidence after S9-A is attempted on the ro
 
 ---
 
+## Q-21. "What is the program building, and what does everything else wait on?"
+
+Also asked as: is there a primary route now? What is the sole construction target? Why Gamma_K?
+
+**RULING: `Gamma_K` + `C_record(K)` IS THE SOLE CONSTRUCTION TARGET, CHARTERED 2026-07-30. IT IS
+EXPLICITLY NOT A PRIMARY-ROUTE DECLARATION.**
+
+THE OBJECT, from the readiness record's own `next_gate`: "derive one complete target-independent
+`Gamma_K` and BR closure operator whose joint stationary problem outputs `Delta_tau(K)` and a scalar
+`C_record(K)`", with `C_record(K_*) = 0`, `dC_record/dK != 0`, `K_* > 0`,
+`alpha_micro = 1/(4 pi K_*)`.
+
+**FORCED BY FOUR CONVERGENCES REACHED SEPARATELY:** F-scale directly (Q-14); F-scale via slot 6 —
+Codex's O-SC1 step zero returned `BLOCKED_BY_ORDERING` behind this exact object, unprompted; slot 1's
+closure items 1-2, which require "one target-independent complete source-record-gravity action"; and
+S9-A, whose derived overdetermined determination of the total is what a `C_record` root would be.
+**AND IT IS THE ROOT OF THE DEPENDENCY GRAPH WITH NOTHING UPSTREAM** — slot 3 is blocked on the
+action-form class which IS this object, slots 4-8 sit behind slot 3, slot 6 behind both, and the
+readiness record lists its inputs as already available. Everything waits on it; it waits on nothing.
+
+**SCOPE FIRST IS MANDATORY.** Construction does not start until a bounded inventory returns MISSING
+SPECIFICATION / HARD PROOF / DERIVABLE NOW, with roots and exclusions stated. Justification: scoping
+has paid twice in one day — Departure 2's framing collapsed under it, and O-SC1's step zero produced
+this charter.
+
+**NOT A PRIMARY ROUTE, and the distinction is the substance.** R-30 declared primacy on 07-29 and its
+F2 fired on 07-30; declaring primacy on an unattempted construction hours later would repeat the error
+with a different noun. A construction target says what is being built and what waits on it; a primary
+route says which path is privileged and citable. This does the first and refuses the second. Primacy
+is re-earned on evidence (Q-20).
+
+**SLOT 18 RUNS IN PARALLEL AND IT IS NOT A HEDGE.** Two live workstreams, not competing: `Gamma_K` for
+alpha's VALUE, slot 18 for its STANDING (Q-18). A number without slot 18 is a conditional consequence
+of an adopted axiom; slot 18 without a number is still a falsifiable prediction.
+
+CHARTER AT: `GAMMA_K_SOLE_CONSTRUCTION_TARGET_CHARTER_2026-07-30.md`, falsifiers F-GK1..F-GK5 frozen.
+F-GK1 is the one to watch: if scoping returns HARD PROOF behind another object, `Gamma_K` is not the
+root and the charter's premise is false.
+
+WHAT SUCCESS WOULD DISCHARGE: S9-A; S9-B answered with a named fifth exit; O-SC1 and slot 6 unblocked;
+slot 1's closure items 1-2 supplied; and `alpha_micro`. It would NOT make alpha unconditional.
+
+REOPENS IF: any of F-GK1..F-GK5 fires.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

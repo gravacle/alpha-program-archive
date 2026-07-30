@@ -14,12 +14,16 @@ S = one lane session.
 
 | # | STEP | EFF | WHO | GATED BY |
 |---|------|-----|-----|----------|
-| **0** | ~~PASTE 130~~ **SENT 2026-07-30.** Ten items: registers Q-12..Q-19, corrects Codex's own deletion attribution, `Gamma_K` collision, the register-the-row rule, and O-SC1 as the constructive item. Awaiting return | DONE | REVIEWER -> LANE | — |
+| 0 | ~~PASTE 130~~ **RETURNED AND VERIFIED 2026-07-30 07:07.** Five hashes match; Q-13..Q-20 registered; O-SC1 step zero = BLOCKED_BY_ORDERING; deployed 996591e | DONE | LANE 1 | — |
+| **0a** | **PASTE 131 -> CODEX LANE 1.** Erratum 002 + detector request, the `Gamma_K` charter, the mandatory scoping step, lane protocol | S | REVIEWER -> LANE 1 | nothing |
+| **0b** | **PASTE 132 -> CODEX LANE 2 (new lane).** Slot 18: why it is now primary, the ordering facts, a five-part bounded inventory, lane protocol | S | REVIEWER -> LANE 2 | nothing |
+| **0c** | **THREE WRITERS, ONE WORKING TREE.** Commit only own files by explicit path; shared lane-status file is read-modify-write in one step; write scopes are `Gamma_K`/measure/namespace (lane 1) vs `STAGE8_SLOT18_*`/A32 (lane 2). Codex's 996591e absorbed 8 reviewer files | — | ALL LANES | — |
 | | **BAND 1 — KILL THE THREE FREEDOMS. Only this band decides whether alpha is forced at all.** | | | |
-| 1 | **F-scale. Construct `Gamma_K` + `C_record(K)`** — one complete target-independent microscopic functional and BR closure operator whose joint stationary problem outputs `Delta_tau(K)` and a scalar closure residual. **DECIDED 07-30: this is Departure 2's target.** | L | LANE+PRINCIPAL | 0 |
+| **1** | *** **`Gamma_K` + `C_record(K)` — THE SOLE CONSTRUCTION TARGET, CHARTERED 2026-07-30 (Q-21).** Root of the dependency graph; nothing upstream. NOT a primary-route declaration. F-GK1..F-GK5 frozen *** | L | LANE | — |
+| **1a** | **MANDATORY SCOPING STEP — construction does not start until this returns.** Bounded inventory of what the corpus holds toward a complete microscopic CTP functional and measure; roots and exclusions stated; verdict MISSING-SPECIFICATION / HARD-PROOF / DERIVABLE-NOW | S | LANE | — |
 | 2 | Unique simple positive root `K_*` of `C_record(K)`, with the five-channel mutation audit as its acceptance check (geometry, clock, measure, regulator, action-partition) | L | LANE | 1 |
 | 3 | **Slot 6 — parent-derived functional regulator + finite renormalization.** The only slot the corpus names as the ORIGIN of response normalization. **GUARD LIFTED 2026-07-30 (Q-17); chartered to the lane, O-SC1 first** | L | LANE | 0 |
-| 3a | **O-SC1 — derive the finite renormalization condition from the parent.** Target-blind, sealed BEFORE any response is evaluated. **THE ACTIVE CONSTRUCTION ITEM.** Acceptable outcomes: DERIVED / UNDERIVABLE-AND-REPORTED / BLOCKED-BY-ORDERING. Adopting it voids the release (F-S6) | L | LANE | 3 |
+| 3a | **O-SC1** — **BLOCKED_BY_ORDERING as of 2026-07-30 (Codex step zero): waits on slots 3-5 AND on `Gamma_K`/`C_record`.** Target-blind, sealed BEFORE any response is evaluated. Acceptable outcomes: DERIVED / UNDERIVABLE-AND-REPORTED / BLOCKED-BY-ORDERING. Adopting it voids the release (F-S6) | L | LANE | 3 |
 | 3b | **O-SC2 — exhibit covariance across a regulator FAMILY** whose membership is defined in advance | M | LANE | 3a |
 | 4 | ~~Adjudicate slot 6 vs slot 12~~ **RULED 2026-07-30: slot 12 re-posed as SCHEME-COVARIANCE.** One derived finite renormalization condition is permitted; slot 6 keeps its originating role. Falsifiers F-SC1/2/3 frozen. Registration owed via paste 130 | DONE | PRINCIPAL | — |
 | 5 | Slot 1 — absolute physical `T_R`. Derivation-only; adoption foreclosed by sealed text; `sqrt(2)` energy convention open | L | LANE | — |
@@ -41,7 +45,7 @@ S = one lane session.
 | 14 | Slots 10,11,12 — source-inclusive limit, Moller limit, regulator independence | L | LANE | 13 |
 | 15 | Slots 15,17 — enlarged-branch exhaustion, CISP descendant test | L | LANE | 14 |
 | | **BAND 4 — WHETHER ANY RESULT CAN BE CLAIMED. Independent of all physics.** | | | |
-| 16 | Slot 18 — one unused structure-sensitive NON-alpha prediction. **Workable in parallel NOW** (ordering claim struck, R-43) | L | LANE | — |
+| **16** | **Slot 18 — one unused structure-sensitive NON-alpha prediction. SECOND LIVE WORKSTREAM (Q-21).** Load-bearing for alpha's EPISTEMIC STATUS (Q-18) and irrelevant to its value. Workable in parallel NOW | L | LANE | — |
 | 17 | Apparatus: Phase A is DONE/GREEN. Remaining: RD-22 independent ladder evaluator, still NOT AUTHORIZED | M | PRINCIPAL then LANE | — |
 | 18 | 35 A-matrix rows (all PENDING) -> SPEC-SEAL -> the eleven-node fail-closed ladder | M | LANE | 17 |
 | 19 | A32 holdout: COMMIT early (a late commit is VOID, not weaker) -> unmask behind ALPHA-RESULT-SEAL | M | LANE | 16,18 |
