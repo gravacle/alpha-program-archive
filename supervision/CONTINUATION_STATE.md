@@ -154,10 +154,27 @@ are one scale choice or several is Einstein's live item.**
 - **The reviewer cannot re-seal the baseline** (classifier-blocked). Brian runs `shasum -a 256
   corpus_check_baseline_v001.json > corpus_check_baseline_v001.json.seal.sha256`.
 
-### STILL TRUE, UNMOVED ALL DAY
+### THE PROGRAM IS DOWN TO THREE ISSUES — READ THIS AS THE STATE
 
-**`0 of 18` Q_spec slots derived. `0 of 11` Section-1 pieces. Step 5 — emit — unreachable.** Nothing today
-computed or authorized any number.
+```text
+ISSUE 1  Can C_R = 1 actually SELECT?                  the only orbit-breaking condition, and it
+                                                       has produced no scale
+ISSUE 2  Can the response-extraction layer be BUILT?   1 of 4 objects specified
+ISSUE 3  Does a FORCING route exist at all?            overdetermination never specified
+```
+
+*** ISSUES 1 AND 2 PRODUCE A NUMBER. ISSUE 3 DECIDES WHETHER IT IS A DERIVATION OR A VALUE THE THEORY
+MERELY PERMITS. Solving 1 and 2 and failing 3 yields a fit. ***
+
+### ON THE SLOT COUNTS — DO NOT MISREAD THEM
+
+`0 of 18` Q_spec slots and `0 of 11` Section-1 pieces did not move on 2026-07-30, and **step 5 — emit —
+remains unreachable. Nothing was computed or authorized.** *** BUT THESE COUNTS MEASURE DERIVED SLOTS AND
+NOTHING ELSE. THEY ARE NOT A PROGRESS METRIC. *** The same day established the program has exactly one
+unselected absolute scale (the derivation/fit criterion), eliminated exhaustion as a method, found the
+chartered target could not be started, specified a previously nonexistent object, and measured the
+conditionality at 17 of 26. **A day can move everything that matters and leave these two numbers
+untouched.**
 
 ## The live invariants (verify before continuing anything)
 

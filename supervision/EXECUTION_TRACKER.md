@@ -22,18 +22,43 @@ off-limits list. **Stage only your own paths; never `git add -A`.**
 - **Nothing blocking.** Baseline reseal was done 2026-07-30 evening; gate GREEN, tree clean.
 - Standing: the reviewer cannot re-seal integrity files (classifier). Brian runs those.
 
-## THE ROAD TO ALPHA — WHERE IT ACTUALLY STANDS
+## THE PROGRAM IS DOWN TO THREE ISSUES (2026-07-30 evening)
 
-**The chartered target cannot be started (Q-51).** Four objects sit upstream of `Gamma_K`. Until the
-response-extraction layer exists, scalar response and root execution cannot honestly begin. **This is not
-"the target is unfinished." It is "the target cannot be started."**
+**Everything open reduces to three questions, and each has a lane on it.**
 
 ```text
-0 of 18   Q_spec slots derived        UNMOVED
-0 of 11   Section-1 pieces            UNMOVED
-17 of 26  premise classes UNTESTED    ratified lower bound (Q-45, Q-48)
-Step 5    emit                        UNREACHABLE
+ISSUE 1   Can C_R = 1 actually SELECT?                          CODEX 1  [relay 161]
+ISSUE 2   Can the response-extraction layer be BUILT?           CODEX 2  [relay 162]
+ISSUE 3   Does a FORCING route exist at all?                    EINSTEIN [relay 163]
 ```
+
+**ISSUE 1.** `C_R = 1` is the only condition breaking the record layer's scale orbit
+(`T_R -> lambda T_R`, `H_R -> H_R/lambda`), and it has produced no scale:
+`absolute_record_interval_derived_in_declared_branch = false`, with a disclosed `sqrt(2)`
+energy-identification ambiguity at marginality. *** IF IT CANNOT SELECT ALONE THERE IS AN UNNAMED PARTNER,
+AND A SECOND SCALE-FIXING CONDITION MOVES THE PROGRAM TOWARD FIT TERRITORY. This is what could invalidate
+Q-58. ***
+
+**ISSUE 2.** Four objects sit upstream of `Gamma_K`; one is specified (Q-57). Without this layer there is
+no `C_record(K)`, no `K_*`, **no alpha at all.** Pure buildability.
+
+**ISSUE 3.** Whether any two independently-motivated conditions in the corpus could land on one value.
+"Only overdetermination forces a number" has never been given a testable specification.
+
+*** THE DEPENDENCY IS NOT SYMMETRIC. ISSUES 1 AND 2 PRODUCE A NUMBER. ISSUE 3 DECIDES WHETHER THAT NUMBER
+IS A DERIVATION OR A VALUE THE THEORY MERELY PERMITS. You can solve 1 and 2 completely and still have only
+a fit *** — which is what the standing principle has always said: permissions never force a number.
+
+**If Einstein reports no candidate pair exists, that is the most consequential negative available** — the
+forcing route would be empty regardless of how well 1 and 2 go.
+
+## HOW TO READ THE SLOT COUNTS — A CORRECTION
+
+`0 of 18` and `0 of 11` measure **derived slots** and nothing else. **They are not a measure of progress and
+must not be reported as one.** On 2026-07-30 they did not move while the program established that it has
+exactly one unselected absolute scale, eliminated exhaustion as a method, found that its chartered target
+could not be started, specified an object that did not exist, and measured its conditionality for the first
+time. **A day can move everything that matters and leave these two numbers untouched.**
 
 ## WHAT WOULD ACTUALLY MOVE IT
 
