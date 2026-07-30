@@ -363,6 +363,92 @@ CORRECTLY-TYPED LIVE HOME FOR THIS QUESTION:
 
 ---
 
+## Q-12. "Can getting the surface geometry right fix the coupling? Does removing the rescaling freedom exclude the counterterm?"
+
+Also asked as: is slot 9 malformed because it is posed in bulk language? Will a better geometric
+picture of the record surface determine the normalization?
+
+**RULING ON THE RESCALING ARGUMENT: NO, IN BOTH DIRECTIONS, AND THE CORPUS ALREADY RAN THE AUDIT.**
+The reviewer proposed on 2026-07-30 that adding `c F^2` to `K F^2` is a rescaling, that Gravacle
+removed the rescaling freedom, and that slot 9 is therefore already excluded. Then proposed the
+inverse — that removing the freedom makes the counterterm physical and slot 9 WORSE. **BOTH FAIL.**
+`alpha_strict_route_decision_ledger_v001.csv:469` records under
+`joint_matter_em_gravity_hessian_selector_v001`: "a congruence audit excludes field-coordinate
+rescaling as the cause". And the K=1 / K=2 witnesses "preserve compact normalization while changing
+the Coulomb response" (`strict_current_audited_alpha_underdetermination_v001`, same ledger). **THE
+AMBIGUITY WAS NEVER A RESCALING.** Rescaling is orthogonal to slot 9. Someone ran that audit and
+nobody carried the result forward.
+
+**THE LARGER RULING, AND IT IS THE MOST CONSEQUENTIAL STRUCTURAL FINDING OF THE SESSION:
+THE OBSTRUCTION IS A SCALING SYMMETRY, AND GEOMETRY CANNOT BREAK IT.**
+
+Eight independent `BLOCKED` rows in `reports/alpha_strict_route_ledger_audit_v001.md` and
+`alpha_strict_route_decision_ledger_v001.csv` carry the SAME failure reason — a continuous positive
+family survives a scale-covariant condition:
+
+- `strict_charged_causal_closure_alpha_origin_v001` — "even granting a cycle compact U(1) locality
+  causality positivity and public records admit a continuous positive Maxwell-stiffness family with
+  distinct couplings"
+- `strict_charged_record_stiffness_selection_v001` — "its standard flux Hessian is positive for
+  every finite K"
+- `strict_compact_holonomy_flux_record_cell_v001` — "H_K=(K/2)P^2+X^2/(2K) has one
+  minimum-uncertainty ground record for every K>0; canonical X-to-sX and P-to-P-over-s rescaling
+  preserves the algebra and uncertainty product while changing widths"
+- `strict_public_record_influence_kernel_v001` — "under natural Maxwell scaling both decoherence and
+  dressed self-flux scale as 1/K and cannot select a finite K"
+- `prerecord_boundary_transfer_kernel_v001` — "exact positive transfer kernels with different
+  diffusion constants or tensors preserve those requirements while changing first-mode cost"
+- `strict_first_record_capacity_alpha_selector_v001` — "K_star=A, which moves under exact admissible
+  changes of coupling duration or environment covariance"
+- `joint_record_state_qfi_metric_v001` — "exact same-generator witnesses with different normalized
+  states give QFI 1, 3/4, and 0"
+- `minimal_public_carrier_dimension_v001` — "exact four-state unit-charge counterassignments with and
+  without neutral occupancy give different matter-gravity-reduced EM responses"
+
+**EVERY CONDITION THE PROGRAM HAS IMPOSED IS SCALE-COVARIANT** — positivity, locality, causality,
+gauge invariance, compactness, uncertainty saturation, marginality, the allow/require onset, the
+first-opening root. So the entire family satisfies all of them simultaneously. **YOU CANNOT BREAK A
+SYMMETRY WITH CONDITIONS THAT RESPECT IT.**
+
+This is the same object as: `beta` surviving in the modulus gate (Q-08); the four capacity no-gos;
+slot 9; and falsifier F1 (`beta_family_survives`) in
+`STAGE8_CROSS_SECTOR_METRIC_RULE_ADMISSIBILITY_SPEC_V001.md`. **ONE OBSTRUCTION, NOT FIVE.**
+
+**CONSEQUENCE FOR THE GEOMETRY QUESTION, WHICH IS WHAT THE PRINCIPAL ASKED.** The four adopted
+departures — `K_bare = 0`; removal of the rescaling freedom; the record surface being PRIOR to the
+connection; records as fundamental boundary degrees of freedom — are all STRUCTURAL, TOPOLOGICAL OR
+ORDERING statements. **NONE OF THEM BREAKS A SCALING SYMMETRY.** Therefore no amount of getting the
+surface geometry right can fix a normalization. Shape does not determine scale. This is why every
+geometric insight of 2026-07-29/30 sharpened the question and none moved the number.
+
+**WHAT THE CORPUS SAYS WOULD BREAK IT**, in its own words, from the reopen condition on
+`strict_compact_holonomy_flux_record_cell_v001`: "reopen only if an independently derived public
+metric or **NON-SELF-SIMILAR** microscopic term breaks canonical squeezing before alpha evaluation;
+equal-width balance may not be adopted as a unit convention."
+
+**WHY THE ONE SUCCESSFUL DERIVATION SUCCEEDED.** The minimal-cell derivation pairs an internal
+action quantum with an external self-gravitation condition, and it works because `G` supplies a
+DIMENSIONFUL, INDEPENDENTLY FIXED scale. `G` is the scale-breaking ingredient. That is the entire
+trick, and it is the only place in the program where it has been performed.
+
+**WHY THE CHARGE SECTOR HAS NO ANALOGUE.** Charge is quantized in INTEGERS; integers are scale-free;
+and the modulus gate states that the phase period "fixes the coordinate period and integer character
+lattice. It does not fix the proper radius `R`." So `beta` is free for a STRUCTURAL reason, not for
+want of cleverness.
+
+**UNTESTED CONSEQUENCE, TAGGED AS REVIEWER INFERENCE AND NOT ESTABLISHED.** In known physics the
+objects tying charge to a length involve a MASS (Compton wavelength, classical radius). If a mass is
+the only scale-breaking ingredient available to the charge sector, then slot 9 and the fiber radius
+are blocked on slot 14 (charged-species and threshold map) and slot 13 (charged pole / infraparticle
+threshold), and **no artifact draws that arrow.** This is an inference from outside the corpus and
+has the same shape as six claims refuted on 2026-07-29. UNDER TEST as of 2026-07-30.
+
+REOPENS IF: a condition is exhibited that is NOT invariant under the positive scaling family. That
+is the only thing that reopens it. Better geometric pictures, additional structural axioms, and
+further ordering statements do not.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
