@@ -205,6 +205,44 @@ identification of alpha with the write's impedance is dead.
 
 ---
 
+
+## OBS-06. ALPHA RUNS THROUGH CHARGED PARTICLES — AND NON-RETURN MAY RUN THROUGH THE SAME SPECTRUM
+
+**OBSERVED:** the principal, 2026-07-30, on where durability comes from.
+
+**THE STRUCTURE.** Alpha runs because of vacuum polarization from charged pairs — the fermion loop. With
+`K_bare = 0`, **that same loop is what produces the coupling at all**: integrate out charged matter and the
+`F^2` coefficient is what remains. So the object that makes alpha RUN and the object that makes alpha EXIST
+are the same object.
+
+Durability's non-return is derived via Riemann-Lebesgue and "no source point spectrum"
+(`R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_RESULT_V001.md:119`). Physically a state fails to return
+because it disperses into a CONTINUUM of modes; with discrete levels it would recur. **So durability is a
+property of the available mode spectrum.**
+
+*** IF IT IS THE SAME SPECTRUM, DURABILITY AND THE INDUCED RESPONSE SHARE A CAUSE *** — and the onset
+condition and the response value would not be independent. Two conditions traceable to one structure is the
+overdetermination shape the program says has occurred exactly once (cell-counting requiring convergence,
+structure supplying a maximum, meeting at `p > 3/2`, chosen by nobody).
+
+**AND IT EXPLAINS AN ARCHITECTURE THE PROGRAM ALREADY HAS.** A running coupling has no single value — only
+a value AT A SCALE. An onset condition supplies exactly that: the scale at which a write first becomes
+durable. So `K` is fixed at the record scale and transported to the Thomson limit by slot 16. **That is the
+existing architecture, and this observation says why its shape is right rather than arbitrary.**
+
+**THREE CAUTIONS, CARRIED WITH IT:** running fixes `dK/d ln Q`, a SLOPE, not a value; the charged spectrum
+is currently an INPUT (elementary charged-fermion masses are independent SM inputs, not same-alpha
+predictions), so durability depending on it would INHERIT that input; and Q-13 typed slot 14 as supplying
+dimensionless ratios only.
+
+**WHAT WOULD HAVE TO BE TRUE:** that non-return's derivation CONSUMES charged-sector content — species,
+charges, thresholds — rather than holding for any operator with the stated spectral properties. **If it is
+generic, the connection is suggestive and closes.**
+
+**STATUS: UNCLAIMED. Under test by relay 153.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **When a candidate fails, ask which kind of failure it is.** A theorem foreclosing it is a refutation and
