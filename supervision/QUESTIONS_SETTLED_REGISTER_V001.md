@@ -672,6 +672,224 @@ shown to admit a surviving stiffness-changing family under the five-channel audi
 
 ---
 
+## Q-16. "Can the regulator step fix the coupling, or must the answer be regulator-independent?"
+
+Also asked as: does slot 12 kill slot 6? Is a finite renormalization condition a hidden selector?
+Where does the response normalization originate?
+
+**RULING: SLOT 12 IS RE-POSED AS SCHEME-COVARIANCE. THE REGULATOR STEP MAY ORIGINATE THE
+NORMALIZATION.** PRINCIPAL ACT, 2026-07-30. Physical outputs must be independent of the regulator
+FAMILY; exactly ONE finite renormalization condition is permitted, admissible only if DERIVED from
+the parent rather than chosen. A condition forced by the theory is not a hidden finite selector; a
+condition selected by its outcome is, and remains forbidden.
+
+THE CONTRADICTION IT RESOLVES: `EM_DEPENDENCY_ORDER_FREEZE_V001.md:32-34` makes slot 6 the only
+named origin of response normalization ("Because zero bare `F^2` is adopted, the functional-regulator
+and finite renormalization step is where response normalization can originate"), while slot 12
+demanded regulator independence with no hidden finite selector. Discharging 12 as written closed 6.
+Raised at Q-13 consequence 2 and independently at Q-14 §5.
+
+WHY: with `K_bare = 0` there is no counterterm to absorb anything, so the induced coefficient IS what
+the regulated calculation produces — total regulator-independence would require the coupling not to
+depend on what generates it. Scheme-independence never meant condition-freeness. And the absolute
+form of slot 12 is a machinery-shaped requirement standing in front of a physical mechanism, which
+the principal's binding rule of 2026-07-29 forbids.
+
+**IT DOES NOT MAKE SLOT 6 EASIER.** Two new obligations: O-SC1, derive the finite renormalization
+condition from the parent, target-blind and sealed before any response is evaluated — if it is
+adopted instead, slot 6's originating role LAPSES and this row reopens; O-SC2, exhibit covariance
+across a regulator family whose membership is defined in advance.
+
+RULING AT: `SLOT12_SCHEME_COVARIANCE_PRINCIPAL_DECISION_2026-07-30.md` (this directory), with
+falsifiers F-SC1/F-SC2/F-SC3 frozen. Not in force in the governing chain until registered — owed via
+paste 130.
+
+REOPENS IF: F-SC1 fires (the condition is chosen, not derived), or F-SC2 fires (outputs vary across
+the stated family), or the permitted condition fixes a PRODUCT rather than a magnitude.
+
+DOES NOT REACH: slot 9. `d c_R / d x = 0`, and a shift is not a dilation.
+
+---
+
+## Q-17. "Who may work slot 6, and in what order?"
+
+Also asked as: is the regulator slot still principal-guarded? Can the lane touch the functional
+regulator? What has to happen before a response is evaluated?
+
+**RULING: THE GUARD IS LIFTED. THE LANE IS CHARTERED, AND O-SC1 COMES FIRST.** PRINCIPAL ACT,
+2026-07-30, paired with Q-16.
+
+O-SC1 — derive the finite renormalization condition from the parent, target-blind, stated and sealed
+BEFORE evaluation — must be attempted before any response is evaluated. No coefficient, no coupling,
+no response evaluation until that condition exists as a sealed artifact or is honestly reported
+underivable.
+
+WHY THE GUARD COULD GO: its protective function is now carried by Q-16's F-SC1, which makes an
+ADOPTED condition an automatic LAPSE of slot 6's originating role. A lane that chooses rather than
+derives gets a recorded lapse, not a number. The prohibition is redundant; the falsifier is not.
+
+WHY THE ORDER IS THE SUBSTANCE: evaluate a response first and then find a condition reproducing it,
+and the condition was selected by its outcome. That is the move that produced ledger row 516's
+`K = 3/16 + E1(1)/(12 pi^2)` and got it rejected at row 517. Deriving first is what makes a value
+forced rather than fitted.
+
+ACCEPTABLE OUTCOMES: DERIVED; UNDERIVABLE-AND-REPORTED (F-SC1 lapse, honest); or
+BLOCKED-BY-ORDERING, since slot 6 sits at position 4 of 9 in the frozen EM order and slots 3-5 are
+open. All three are informative. A fourth outcome — condition adopted, response evaluated — voids
+the release under F-S6 and the guard returns by default.
+
+RULING AT: `SLOT6_RELEASE_PRINCIPAL_DECISION_2026-07-30.md` (this directory). Not in force in the
+governing chain until registered — owed via paste 130, same relay as Q-16.
+
+REOPENS IF: F-S6 fires.
+
+---
+
+## Q-18. "Is the zero stiffness at the record floor a derived spectral fact or a chosen subtraction?"
+
+Also asked as: does the operator fix the floor? Is `K_bare = 0` derived? Can the capacity principle
+close slot 9? Is the floor the subtraction?
+
+**RULING: NEITHER. IT IS THE CONTENT OF THE INDUCED-ONLY AXIOM.** Settled 2026-07-30 at the
+principal's instruction.
+
+**THE DECISIVE POINT, WHICH IS NEW: the capacity condition and the proper-time floor act on OPPOSITE
+ENDS of the same integral.** `lambda_0(D_BR^2) = k_R^2` is a bottom-of-spectrum statement, and the
+bottom of the spectrum governs LARGE `s` in `STr' exp(-s L)` — it gives infrared decay
+`exp(-s lambda_0)`. The floor `s >= 1/k_R^2` cuts SMALL `s`, which is where the `F^2` logarithm lives.
+`exp(-s L)` is well defined and nonvanishing for every `s > 0` regardless of where the spectrum
+starts, so **no value of `lambda_0` can empty the small-`s` range.** The step OPERATOR -> FLOOR is a
+type mismatch, not an unfinished proof.
+
+**CONSEQUENCE: the operator-floor chain cannot be completed by discharging its own named gaps.** It
+names its obstructions at step 1 (complete normalized `L_BR`) and step 2 (lowest eigenvalue for the
+complete public operator); closing both still leaves the lower limit unfixed. Its own flag was already
+honest: `proper_time_floor_status = ADOPTED_BY_INDUCED_ONLY_FUNCTIONAL`,
+`gamma_at_floor_zero = DERIVED_GIVEN_FLOOR`.
+
+BOUNDED NEGATIVE, roots parent tree + supervision, types md/json, exclusions node_modules + `external/`
++ custodian_private: files mentioning a lower endpoint/limit = **12**; files mentioning `lambda_0` =
+**16**; files mentioning **BOTH = 0**. The two objects have never appeared in the same file in either
+direction. And no artifact anywhere distinguishes the small-`s` from the large-`s` end of this integral.
+
+THE AXIOM SAYS SO ITSELF, and the verb is the evidence —
+`alpha_induced_only_boundary_action_principle_v001.md:16-19`: "The lower proper-time boundary is the
+first durable record scale; `Gamma_BR,k_R=0` **states** that no separate public stiffness is installed
+before the record branch opens." A claim about public field content, adopted, carrying real physical
+consequence. Not a spectral consequence and not a subtraction convention.
+
+**WHAT IT SETTLES ABOUT alpha:** its conditionality equals the induced-only axiom's status, exactly and
+no more. The attack's own escape clause — a postulate with one free number per predicted coefficient is
+a reparametrization "unless the postulate is independently earned by predicting something else first" —
+**is slot 18.** So slot 18 is load-bearing for alpha's EPISTEMIC STATUS while remaining irrelevant to
+alpha's VALUE. It cannot fix a normalization (Q-13) and it can retire the postulate's freeness; both
+hold without tension, and it explains why FINAL-CLAIM was correctly placed on slot 18 rather than alpha.
+
+WHAT DIES: "the geometry closes the additive freedom"; the operator-floor chain as a route to slot 9;
+and the reading of F-shift as merely unattempted. WHAT SURVIVES: leg 1 — `Gamma_BR,k_R = 0` given the
+floor is exact arithmetic; and the induced-only axiom as a physical proposition rather than a
+convention.
+
+FULL WORKING: `RESULT_FLOOR_BOUNDARY_VALUE_SETTLED_2026-07-30.md` (this directory), with F-FL1/2/3
+frozen.
+
+**REOPENS IF F-FL1 FIRES: exhibit a condition that fixes the SMALL-`s` end of the proper-time
+integral.** A bottom-of-spectrum condition cannot; a statement about the domain, the measure, or the
+admissible mode content might. That is the one repair worth attempting and it is well posed.
+
+CARRIED FORWARD, NOT SETTLED: `Gamma_K` + `C_record(K)` is a candidate FIFTH exit for F-shift — an
+existence/onset condition, none of E1-E4 in kind. But an onset condition fixes the TOTAL `K`, which is
+sufficient for alpha's value and NOT sufficient for slot 9 as posed, since it makes the deformation
+moot rather than excluded. Whether that is acceptable is a principal question. It counts as an exit only
+if the onset condition is itself DERIVED and OVERDETERMINED; an adopted onset condition is the same
+defect one level up.
+
+---
+
+## Q-19. "Must we EXCLUDE the finite `c F^2` deformation, or is DETERMINING the total enough?"
+
+Also asked as: is slot 9 the right obligation? Is "moot" acceptable where the slot says "excluded"?
+Can we retire slot 9?
+
+**RULING: SLOT 9 IS RETIRED AS POSED AND REPLACED BY TWO OBLIGATIONS.** PRINCIPAL ACT, 2026-07-30.
+Slot 9 is not deleted; the count stays eighteen; its content is re-posed.
+
+**S9-A (DETERMINATION).** Determine the TOTAL physical stiffness by a DERIVED and OVERDETERMINED
+condition. The split into induced part and counterterm is bookkeeping and need not be separated —
+`alpha_micro = 1/(4 pi K_*)` consumes the total.
+**S9-B (THE EXIT QUESTION).** State which exit obtains: E1 fixed point, E2 superconvergence, E3
+derived-scale boundary condition, E4 integer pairing, a NAMED FIFTH, or NONE. "NONE" is permitted and
+informative.
+
+WHY: the attack's own recommendation ("Slot 9 should be retired as posed and replaced by the exit
+question"), on the ground that "the question has no solution inside the class it is asked in" — the
+condition class is closed under `K -> K + c`. Q-18 removed the last apparent fifth exit. And the
+asymmetry is decisive: **"excluded" and "determined" are different demands and only the second is what
+alpha needs.** Requiring exclusion of a term that cannot be separately observed, when the observable
+consumes only the sum, is a demand on bookkeeping rather than on physics.
+
+PRECEDENT: R-31, the fourth-horn ruling — "R-L2b as written is SUPERSEDED / RE-POSED, NOT SOLVED and NOT
+MERELY REFUTED." Same shape, same authority level, append-only.
+
+FIVE GUARDS, and they are the substance: no ADOPTED determining condition (that is the same defect one
+level up); no selection by outcome, and Q-16's O-SC1 ordering applies; **"moot" is NOT discharge of the
+epistemic obligation** — alpha's conditionality still equals the induced-only axiom's status and earning
+it is slot 18's job; no claim that a scale-breaker now reaches the additive freedom (`d c_R/d x = 0`
+stands); and S9-B may not be answered with silence.
+
+*** CARRIES AN UNRULED CONSEQUENCE: R-30's FALSIFIER F2. *** The primary-route declaration's F2 fires if
+slot 9 "being underivable on this route except by adopted postulate." Q-18 established exactly that, so
+**on its face F2 has fired and the primary-route declaration lapses by its own terms.** Two readings:
+(a) F2 fires and the BR/EM-GR route loses declared primacy without being refuted; (b) F2 is explicitly
+RESTATED against S9-A, in which case it has not fired because S9-A has not been attempted. Reading (b)
+is defensible only if made explicitly and recorded. **A declared label may not survive on a
+technicality.** Queued as the next principal decision.
+
+RULING AT: `SLOT9_RETIRED_AS_POSED_PRINCIPAL_DECISION_2026-07-30.md`, falsifiers F-S9A/B/C frozen.
+Not in force in the governing chain until registered — paste 130.
+
+REOPENS IF: F-S9A fires (S9-A discharged by adoption — then the program carries two postulates where it
+carried one), or F-S9C fires (the observable turns out not to consume only the sum, which would reinstate
+slot 9's original form).
+
+---
+
+## Q-20. "Is there a declared primary route?"
+
+Also asked as: did F2 fire? Is the BR / EM-GR ratio route still primary? What is the target of record?
+
+**RULING: NO. F2 FIRED AND R-30's PRIMARY-ROUTE DECLARATION LAPSED ON 2026-07-30.** PRINCIPAL ACT. The
+program has no declared primary route.
+
+R-30 froze F2 as firing if slot 9 is "underivable on this route except by adopted postulate." Q-18
+established precisely that, as a proved negative. The trigger is met, and the declaration lapses by its
+own terms — the ruling records the lapse rather than causing it.
+
+**LAPSES:** the primacy label, "target of record" status, its claim on focused lane effort.
+**DOES NOT LAPSE:** the route is NOT refuted; its executed coefficient results stand; **slot 2 remains a
+required obligation** (its requirement comes from the ledger, and R-30's own scope said it "does not make
+slot 2 newly required"); **F1 is untouched, unfired and still live** (the coupled-Hessian P2 branch); and
+work on the route is un-privileged, not prohibited.
+
+RE-DECLARATION IS A FRESH DECISION ON EVIDENCE: S9-A must be attempted on the route and S9-B answered for
+it. Re-declaring on a restatement of the falsifier rather than on evidence is forbidden.
+
+THE REJECTED READING, recorded so the choice is attackable: F2 could have been restated against S9-A,
+on which reading it has not fired. Rejected because of the ORDER the facts arrived in — the retirement of
+slot 9 came AFTER the finding that fires F2, so restating now would let a declared label survive because
+a retirement moved its referent. **A declared label may not survive on a technicality.** Honor the
+falsifier, then re-earn the label.
+
+*** PROCESS FACT: THIS IS THE FIRST FROZEN FALSIFIER IN THE PROGRAM TO FIRE AND BE HONORED. *** Cite it
+whenever "are the frozen falsifiers real?" is asked. It is worth more than the label was.
+
+RULING AT: `R30_F2_FIRED_PRIMARY_ROUTE_LAPSED_PRINCIPAL_DECISION_2026-07-30.md`. Not in force in the
+governing chain until registered.
+
+REOPENS IF: primacy is re-declared on evidence after S9-A is attempted on the route.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -113,3 +113,28 @@ NOW AND IS NOT GATED ON TASKS 24 OR 31.
 FURTHER, ON THE PRIORITY ORDER: section 4 of the same artifact establishes that a PRE-REGISTERED
 LEVEL-1 DIAGNOSTIC comparison of the relative gauge normalizations is permitted by the standing
 fences today, needing none of the eighteen slots. That is a work item this list does not contain.
+
+
+## ERRATUM POINTER 2 (appended 2026-07-30, append-only; no prior bytes altered)
+
+THE PRIORITY ORDER IN THIS FILE IS SUPERSEDED. It reads "1. THEORY on task 18 (slot 9). Nothing else
+decides whether any number is forced." Slot 9's IMPORTANCE is undiminished, but three rulings change
+what the work is and where it sits:
+
+- **Q-13 (2026-07-30):** twelve of the eighteen slots — 3, 4, 5, 7, 8, 10, 11, 12, 15, 16, 17, 18 —
+  cannot fix a normalization under any circumstances. Tasks 19-24 (block 5), 26-30 (block 6) and 31
+  (block 7, slot 16) are therefore completion obligations, not value-determining work. Discharging all
+  twelve perfectly changes nothing about the number. Four slots can break a scale: 1, 2, 6, 13-pole.
+- **Q-13 also:** there are THREE independent freedoms (F-scale, F-shift, F-ratio), not one obstruction,
+  and they require different instruments. Task 18 addresses F-shift alone.
+- **Q-18 (2026-07-30):** F-shift admits no instrument inside the program's condition class, and this is
+  PROVED — the class is closed under `K -> K + c`. The operator-floor route is the induced-only axiom
+  restated, not an exit.
+- **Q-19 (2026-07-30):** **TASK 18 AS WRITTEN IS RETIRED.** "Exclude the finite `c F^2` deformation" is
+  replaced by S9-A (determine the TOTAL stiffness by a derived, overdetermined condition) and S9-B
+  (state which exit obtains: E1-E4, a named fifth, or NONE).
+- **Q-16/Q-17 (2026-07-30):** slot 6 is released to the lane with O-SC1 first, and it is now the active
+  construction item. This list has no task for it.
+
+CURRENT ORDERED ROAD: `EXECUTION_TRACKER.md`, section "THE ROAD TO ALPHA". Use that, not this priority
+block. Task identities 1-40 remain valid as identifiers.

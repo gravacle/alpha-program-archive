@@ -96,3 +96,30 @@ The genuine sealed dependency is different and narrower: an A32-GRADE HOLDOUT ca
 before alpha, because custodian unmasking sits behind ALPHA-RESULT-SEAL (`V011:1816-1819`).
 GENERATING the prediction needs only a sealed theory output record. SLOT 18 MAY BE WORKED IN
 PARALLEL WITH THE OTHER SEVENTEEN.
+
+
+## ERRATUM POINTER 2 (appended 2026-07-30, append-only; no prior bytes altered)
+
+THE SLOT TABLE'S STATUS COLUMN IS INTACT, BUT IT DOES NOT CARRY THE ONE FACT THAT REORDERS IT.
+
+**Q-13 (2026-07-30) classifies every slot by whether discharging it could ever fix a normalization:**
+
+- CAN BREAK A SCALE: **1, 2, 6, 13 (pole branch only)**.
+- ACT ON OTHER FREEDOMS: **9** (additive shift; `d c_R/d x = 0`, so no scale-breaker reaches it) and
+  **14** (dimensionless ratios only).
+- **CANNOT FIX A NORMALIZATION UNDER ANY CIRCUMSTANCES: 3, 4, 5, 7, 8, 10, 11, 12, 15, 16, 17, 18.**
+  Slot 8 is actively anti-selective — it demands invariance under cell count, packing density, valence
+  and refinement rate, and a condition requiring invariance cannot select. Slot 16 transports a scale
+  supplied by slot 13 and cannot originate one.
+
+So rows 3-5, 7-8, 10-12, 15-18 of the table above are completion obligations. They are required for a
+complete construction and they are not what stands between the program and a number.
+
+ALSO CHANGED SINCE THIS FILE WAS WRITTEN: slot 12 is re-posed as scheme-covariance and slot 6 keeps its
+originating role (Q-16); slot 6's principal guard is lifted with O-SC1 first (Q-17); the floor boundary
+value is settled as the induced-only axiom's content, not a spectral fact and not a subtraction (Q-18);
+and slot 9 is retired as posed in favour of S9-A/S9-B (Q-19). Slot 18 additionally turns out to be
+load-bearing for alpha's EPISTEMIC STATUS — it can retire the induced-only postulate's freeness — while
+remaining irrelevant to alpha's VALUE.
+
+CURRENT ORDERED ROAD: `EXECUTION_TRACKER.md`, section "THE ROAD TO ALPHA".

@@ -14,14 +14,21 @@ S = one lane session.
 
 | # | STEP | EFF | WHO | GATED BY |
 |---|------|-----|-----|----------|
-| **0** | **PASTE 130 — register Q-12/13/14/15, correct Codex's own deletion attribution, add the `Gamma_K` collision, carry the Departure-2 re-point** | S | REVIEWER -> LANE | nothing |
+| **0** | ~~PASTE 130~~ **SENT 2026-07-30.** Ten items: registers Q-12..Q-19, corrects Codex's own deletion attribution, `Gamma_K` collision, the register-the-row rule, and O-SC1 as the constructive item. Awaiting return | DONE | REVIEWER -> LANE | — |
 | | **BAND 1 — KILL THE THREE FREEDOMS. Only this band decides whether alpha is forced at all.** | | | |
 | 1 | **F-scale. Construct `Gamma_K` + `C_record(K)`** — one complete target-independent microscopic functional and BR closure operator whose joint stationary problem outputs `Delta_tau(K)` and a scalar closure residual. **DECIDED 07-30: this is Departure 2's target.** | L | LANE+PRINCIPAL | 0 |
 | 2 | Unique simple positive root `K_*` of `C_record(K)`, with the five-channel mutation audit as its acceptance check (geometry, clock, measure, regulator, action-partition) | L | LANE | 1 |
-| 3 | **Slot 6 — parent-derived functional regulator + finite renormalization.** The only slot the corpus names as the ORIGIN of response normalization. Currently "OPEN, PRINCIPAL-GUARDED" | L | PRINCIPAL then LANE | **decision below** |
-| 4 | **Adjudicate slot 6 vs slot 12** — if 12 is discharged as written ("no hidden finite selector"), 6 cannot supply a scale and step 3 closes by fiat | S | PRINCIPAL | 0 |
+| 3 | **Slot 6 — parent-derived functional regulator + finite renormalization.** The only slot the corpus names as the ORIGIN of response normalization. **GUARD LIFTED 2026-07-30 (Q-17); chartered to the lane, O-SC1 first** | L | LANE | 0 |
+| 3a | **O-SC1 — derive the finite renormalization condition from the parent.** Target-blind, sealed BEFORE any response is evaluated. **THE ACTIVE CONSTRUCTION ITEM.** Acceptable outcomes: DERIVED / UNDERIVABLE-AND-REPORTED / BLOCKED-BY-ORDERING. Adopting it voids the release (F-S6) | L | LANE | 3 |
+| 3b | **O-SC2 — exhibit covariance across a regulator FAMILY** whose membership is defined in advance | M | LANE | 3a |
+| 4 | ~~Adjudicate slot 6 vs slot 12~~ **RULED 2026-07-30: slot 12 re-posed as SCHEME-COVARIANCE.** One derived finite renormalization condition is permitted; slot 6 keeps its originating role. Falsifiers F-SC1/2/3 frozen. Registration owed via paste 130 | DONE | PRINCIPAL | — |
 | 5 | Slot 1 — absolute physical `T_R`. Derivation-only; adoption foreclosed by sealed text; `sqrt(2)` energy convention open | L | LANE | — |
-| 6 | **F-shift. Slot 9 — exclude the finite `c F^2` deformation.** Reached by NO scale-breaker (`d c_R/d x = 0`). Needs its own instrument. Every route has died here | L | LANE+PRINCIPAL | — |
+| 6 | **F-shift. Slot 9 — exclude the finite `c F^2` deformation.** Reached by NO scale-breaker (`d c_R/d x = 0`). **SETTLED 2026-07-30 (Q-18): admits no instrument from inside the condition class, PROVED — the class is closed under `K -> K + c`. Four exits enumerated; E2/E3/E4 dead; E1 unposable (no public UV region). The floor route is the axiom restated, not a fifth exit.** Live options are exactly two: 6a or 6b | L | PRINCIPAL | — |
+| 6a | **Name a genuine fifth exit.** One well-posed repair exists: F-FL1 — exhibit a condition fixing the SMALL-`s` end of the proper-time integral. A bottom-of-spectrum condition provably cannot; a domain / measure / admissible-mode-content statement might | L | LANE | — |
+| 6b | **Earn the induced-only axiom via slot 18.** alpha's conditionality equals that axiom's status exactly. Slot 18 cannot fix a normalization and CAN retire the postulate's freeness | L | LANE | 16 |
+| 6c | ~~is "moot" acceptable where slot 9 demands "excluded"?~~ **RULED 2026-07-30 (Q-19): SLOT 9 RETIRED AS POSED.** Replaced by S9-A (determine the TOTAL by a derived, overdetermined condition) and S9-B (state which exit obtains, NONE permitted). Count stays eighteen. Five guards; F-S9A/B/C frozen | DONE | PRINCIPAL | — |
+| 6d | ~~Rule R-30's F2~~ **RULED 2026-07-30 (Q-20): F2 FIRED. THE PRIMARY-ROUTE DECLARATION LAPSED.** The route is NOT refuted and slot 2 stays required; F1 remains frozen and live. Re-declaration needs S9-A attempted on the route. First frozen falsifier in the program to fire and be honored | DONE | PRINCIPAL | — |
+| **NOTE** | **NO DECLARED PRIMARY ROUTE EXISTS as of 2026-07-30 (Q-20).** Band-1 items are peers until one is re-declared on evidence | — | — | — |
 | 7 | **F-ratio. Slot 2's depth `x`** — provably unavoidable on this carrier (Q-01), so no ratio shortcut exists. P2: public boson/odd/ghost superdeterminant, then a finite isolated stationary point | L | LANE | census deliverables |
 | 8 | `beta` — the cross-sector internal/external metric conversion. Live home is `STAGE8_CROSS_SECTOR_METRIC_RULE_ADMISSIBILITY_SPEC_V001` §6 (six-item pass condition). NOT `L_open` | L | LANE | — |
 | | **BAND 2 — TRANSPORT. Cannot originate a scale; only carries one.** | | | |
@@ -121,8 +128,8 @@ conflict.
 | R2 | `DEPARTURE_2_..._V001` (05:53, sealed) | carries "no supersession note" and the four-channel framing | V002, 15 minutes later | V001 stays sealed; V002 is the live tracker. Never cite V001 §2/§4/§6 alone |
 | R3 | `STAGE8_NAMESPACE_REGISTER_DRAFT_V003` (03:19) | latest namespace draft | the `Gamma_K` collision, found 06:08 | v004 must add it. It sits on the step-1 object |
 | R4 | `STAGE8_LANE_STATUS.md` (03:19) | current through R-45 | Q-12..Q-15 unregistered | append R-46+; never rewrite the table |
-| R5 | `TASK_LIST.md` (07-29, sealed) | priority order "THEORY on task 18/slot 9 first" | Q-13: slot 9 is real and is reached by NO scale-breaker, so its sequencing changes even though its importance does not | append an erratum pointer; do not rewrite |
-| R6 | `THE_MAP.md` (07-29, sealed) | 18-slot status table | Q-13's scale-breaking classification | append an erratum pointer; do not rewrite |
+| R5 | `TASK_LIST.md` | ~~priority order stale~~ **CLEARED 2026-07-30: erratum pointer 2 appended, re-sealed** | Q-13/16/17/18/19 | DONE |
+| R6 | `THE_MAP.md` | ~~slot table lacks the classification~~ **CLEARED 2026-07-30: erratum pointer 2 appended, re-sealed** | Q-13 and the four rulings | DONE |
 
 **THE RULE, AND IT IS NOW STANDING:** before registering any supervision result into the governing
 chain, check its write time against this table. If an artifact predates a register row that touches
@@ -138,8 +145,8 @@ lines, and any ruling later than that time overrides it without further notice.
 ================================================================================
 | Q | Item | State |
 |---|------|-------|
-| NEW | **Promote slot 6?** Two independent lines reached it in six hours; "PRINCIPAL-GUARDED" is why neither could act | READY — step 3 |
-| NEW | **Slot 6 vs slot 12** | READY — step 4, and it is cheap |
+| NEW | **Promote slot 6?** Two independent lines reached it in six hours; "PRINCIPAL-GUARDED" is why neither could act | READY — step 3, posed next |
+| — | Slot 6 vs slot 12 | **RULED 2026-07-30 — slot 12 re-posed as scheme-covariance; slot 6 keeps its originating role; O-SC1/O-SC2 created** |
 | — | Departure 2 target | **RULED 2026-07-30: re-point at `Gamma_K` + `C_record(K)`** |
 | Q4 | O-1 / F'-5 | BLOCKED — needs DEP-0 object reconciliation |
 | Q5 | Which stratum is the lever | BLOCKED — needs P2's outcome |

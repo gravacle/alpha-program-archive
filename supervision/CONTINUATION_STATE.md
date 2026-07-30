@@ -3110,3 +3110,114 @@ Departure 2 at Gamma_K + C_record(K), or keep it a channel audit; (2) promote sl
 PRINCIPAL-GUARDED", which is why neither line could act on it; (3) adjudicate slot 6 vs slot 12.
 NOT RECOMMENDED: continuing the channel-by-channel audit. No object to act on, and it would produce
 artifacts that read as progress — the ALLOW shape.
+
+### 2026-07-30 (same session) — TWO PRINCIPAL RULINGS, AND THE F-SCALE BAND NOW HAS A PROTECTED ORIGIN
+
+RULING 1: DEPARTURE 2 IS RE-POINTED at Gamma_K + C_record(K) — the readiness file's own next_gate —
+and is no longer a channel-by-channel audit. The five-channel mutation audit becomes the acceptance
+check on that construction.
+
+RULING 2 (sealed: SLOT12_SCHEME_COVARIANCE_PRINCIPAL_DECISION_2026-07-30.md; register row Q-16):
+*** SLOT 12 IS RE-POSED AS SCHEME-COVARIANCE. *** Physical outputs must be independent of the
+regulator FAMILY; exactly ONE finite renormalization condition is permitted, admissible only if
+DERIVED from the parent rather than chosen. A forced condition is not a hidden finite selector; a
+condition selected by its outcome is, and stays forbidden. Slot 6 KEEPS its originating role.
+GROUNDS: with K_bare = 0 there is no counterterm to absorb anything, so the induced coefficient IS
+what the regulated calculation produces — demanding total regulator-independence demands that the
+coupling not depend on what generates it. Scheme-independence never meant condition-freeness. And
+the absolute form of slot 12 is a machinery-shaped requirement in front of a physical mechanism,
+which the principal's own binding rule of 07-29 forbids.
+IT DOES NOT MAKE SLOT 6 EASIER — two new obligations: O-SC1 derive the finite renormalization
+condition from the parent, target-blind and sealed BEFORE any response is evaluated (if adopted
+instead, slot 6's originating role LAPSES automatically, F-SC1); O-SC2 exhibit covariance across a
+regulator family whose membership is defined in advance. F-SC3: if the condition fixes a PRODUCT
+rather than a magnitude it delivers nothing — the failure mode that already killed several routes.
+SCOPE: discharges no slot; adopts no regulator or scheme; reaches NOT slot 9 (d c_R/d x = 0);
+amends no immutable artifact (APPLIED NOT AMENDED, R-14/R-29 precedent); NOT in force in the
+governing chain until registered — owed via paste 130.
+
+OPERATIONAL CONSEQUENCE: the F-scale band keeps its only named origin, so Gamma_K + C_record(K) and
+slot 6 can no longer be closed by slot 12's acceptance condition before either is attempted, and
+Departure 2's REGULATOR channel — the one absent from the audit's V001 — stays live.
+
+RULING 3 (sealed: SLOT6_RELEASE_PRINCIPAL_DECISION_2026-07-30.md; register row Q-17):
+*** THE PRINCIPAL GUARD ON SLOT 6 IS LIFTED AND THE LANE IS CHARTERED, O-SC1 FIRST. *** No response
+evaluation, no coefficient, no coupling until the finite renormalization condition exists as a
+sealed target-blind artifact or is reported underivable. The guard could go because Q-16's F-SC1 now
+carries its protective function: a lane that ADOPTS the condition gets a recorded lapse of slot 6's
+originating role, not a number. THE ORDER IS THE SUBSTANCE — evaluate a response first and then find
+a condition reproducing it, and the condition was selected by its outcome, which is what produced
+ledger row 516's K = 3/16 + E1(1)/(12 pi^2) and got it rejected at row 517.
+ACCEPTABLE OUTCOMES: DERIVED / UNDERIVABLE-AND-REPORTED / BLOCKED-BY-ORDERING (slot 6 is position 4
+of 9 in the frozen EM order with 3-5 open). F-S6: adopting the condition voids the release and the
+guard returns by default.
+
+O-SC1 IS NOW THE PROGRAM'S ACTIVE CONSTRUCTION ITEM. It is the first executable step on the F-scale
+band since the band was identified.
+
+DEPLOY STATE, AND IT IS THE APPARATUS WORKING: corpus_check fires RED on authority_currency for both
+new rulings — "principal ruling not cited by governing chain" — so the commit is BLOCKED until Codex
+registers them. Written, sealed and mirrored; NOT deployed. Q-16 sha256 028e355a...; the checker
+names the exact files. This is the enforcement mechanism for the timing discipline, not a defect.
+
+### 2026-07-30 (same session) — THE FLOOR DISPUTE SETTLED. F-SHIFT IS NOW A PROVED NEGATIVE WITH TWO
+### NAMED EXITS, AND SLOT 18 TURNS OUT TO BE LOAD-BEARING FOR alpha's STATUS.
+
+Sealed: RESULT_FLOOR_BOUNDARY_VALUE_SETTLED_2026-07-30.md; register row Q-18.
+
+THE DISPUTE: was Gamma_BR,k_R = 0 a derived spectral fact (principal: operator -> floor -> boundary
+value, leg 1 SOUND) or a chosen subtraction (slot-9 attack: "the floor IS the subtraction")?
+
+*** THE SETTLEMENT IS A THIRD THING, AND THE DECIDING ARGUMENT IS NEW: THE CAPACITY CONDITION AND THE
+PROPER-TIME FLOOR ACT ON OPPOSITE ENDS OF THE SAME INTEGRAL. *** lambda_0(D_BR^2) = k_R^2 is a
+bottom-of-spectrum statement, and the bottom of the spectrum governs LARGE s in STr' exp(-s L) —
+it supplies infrared decay exp(-s lambda_0). The floor s >= 1/k_R^2 cuts SMALL s, which is where the
+F^2 logarithm lives. exp(-s L) is well defined and nonvanishing for every s > 0 no matter where the
+spectrum starts, so NO value of lambda_0 can empty the small-s range. OPERATOR -> FLOOR is a TYPE
+MISMATCH, not an unfinished proof.
+CONSEQUENCE: the operator-floor chain CANNOT be completed by discharging its own named gaps. It names
+obstructions at step 1 (complete normalized L_BR) and step 2 (lowest eigenvalue for the complete public
+operator); closing BOTH still leaves the lower limit unfixed. Its own flags were already honest —
+proper_time_floor_status = ADOPTED_BY_INDUCED_ONLY_FUNCTIONAL, gamma_at_floor_zero = DERIVED_GIVEN_FLOOR.
+BOUNDED NEGATIVE, the cleanest the program has produced (roots parent tree + supervision, md/json,
+exclusions node_modules + external/ + custodian_private): lower-endpoint files 12, lambda_0 files 16,
+BOTH ZERO. The two objects have never appeared in the same file in either direction, and no artifact
+anywhere distinguishes the small-s from the large-s end of this integral.
+THE AXIOM SAYS IT ITSELF, and the verb is the evidence — alpha_induced_only_boundary_action_principle
+_v001.md:16-19: "The lower proper-time boundary is the first durable record scale; Gamma_BR,k_R=0
+STATES that no separate public stiffness is installed before the record branch opens." A claim about
+public field CONTENT, adopted, carrying real physical consequence. Position A was right that it is not
+spectral; position B was right that it is not arbitrary; neither was right that it is one or the other.
+LEG 1 SURVIVES INTACT: Gamma_BR,k_R = 0 given the floor is exact arithmetic. What fails is only the
+claim that the floor follows from the operator.
+
+F-SHIFT RESTATED, replacing "the leg with no instrument": it admits no instrument from INSIDE the
+condition class and this is PROVED, not merely unattempted — the class is closed under K -> K + c.
+Four exits (E1 UV fixed point, E2 superconvergence, E3 derived-scale boundary condition, E4 integer
+pairing); E2 contradicts the program's own running result, E3 has an executed countermodel, E4 has no
+candidate and the discrete measure data enter additively, E1 is unposable because an induced-only
+action has no public ultraviolet region. THE FLOOR ROUTE IS NOT A FIFTH EXIT; IT IS THE AXIOM RESTATED.
+LIVE OPTIONS ARE EXACTLY TWO: name a genuine fifth exit (the one well-posed repair is F-FL1 — exhibit
+a condition fixing the SMALL-s end; a domain/measure/admissible-mode statement might, a
+bottom-of-spectrum condition provably cannot), or earn the induced-only axiom via slot 18.
+
+*** AND THAT IS WHY SLOT 18 MATTERS MORE THAN THE ROAD SHOWED. *** alpha's conditionality equals the
+induced-only axiom's status, exactly and no more. The slot-9 attack's own escape clause — a postulate
+with one free number per predicted coefficient is a reparametrization "unless the postulate is
+independently earned by predicting something else first" — IS SLOT 18. So slot 18 is load-bearing for
+alpha's EPISTEMIC STATUS while remaining irrelevant to alpha's VALUE: it cannot fix a normalization
+(Q-13) and it can retire the postulate's freeness. Both hold without tension, and it explains why
+FINAL-CLAIM was correctly placed on slot 18 rather than on alpha.
+
+CARRIED FORWARD, TYPED NOT ADOPTED: Gamma_K + C_record(K) is a CANDIDATE FIFTH EXIT — an
+existence/onset condition, none of E1-E4 in kind. But an onset condition fixes the TOTAL K, which is
+sufficient for alpha's value (alpha_micro = 1/(4 pi K_*) consumes the total) and NOT sufficient for
+slot 9 as posed, since it makes the deformation MOOT rather than EXCLUDED — the disposition the attack
+judged inadequate for E4. NEW PRINCIPAL QUESTION QUEUED: is "moot" acceptable where the slot demands
+"excluded"? The attack itself recommends retiring slot 9 as posed and replacing it with the exit
+question. It counts as an exit only if the onset condition is DERIVED and OVERDETERMINED; an adopted
+onset condition is the same defect one level up.
+
+WORKING RULE ADDED THIS SESSION (principal): proceed in strict sequence and LOG work in progress
+before opening any new direction; run process silently and surface it only when something is wrong.
+Recorded in reviewer memory as feedback_sequence_and_silent_process.
