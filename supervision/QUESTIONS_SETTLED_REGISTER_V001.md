@@ -449,6 +449,142 @@ further ordering statements do not.
 
 ---
 
+## Q-13. "Which of the eighteen slots can ever fix the number?" — AND THE CORRECTION OF Q-12
+
+SUPERSEDES THE OVERREACH IN Q-12. Q-12 is not withdrawn; its core survives. Six specific claims in
+it are corrected below. Established 2026-07-30 by a hostile audit of Q-12 against the primary
+ledger (170 blocked/rejected rows classified; `alpha_strict_route_decision_ledger_v001.csv`, 795
+rows total, exclusions as stated in the source artifact).
+
+### PART A — THE SLOT CLASSIFICATION. THIS IS THE ACTIONABLE RESULT.
+
+Test applied: does discharging the slot introduce a NEW DIMENSIONFUL, INDEPENDENTLY FIXED quantity
+(scale-breaking, could select), or only an invariance / limit / exhaustion / matching / protocol
+requirement (scale-covariant, cannot select)?
+
+**FOUR SLOTS CAN BREAK A SCALE: 1 (absolute `T_R`), 2 (full gravitational action), 6 (functional
+regulator + finite renormalization), 13 (charged pole / infraparticle threshold — POLE BRANCH ONLY).**
+
+**TWO ACT ON OTHER FREEDOMS: slot 9** (the ADDITIVE shift — translation-breaking, NOT
+scale-breaking) **and slot 14** (supplies dimensionless mass RATIOS, so it attacks the already
+scale-invariant depth `x`, not the scaling orbit).
+
+**TWELVE CANNOT FIX A NORMALIZATION UNDER ANY CIRCUMSTANCES: 3, 4, 5, 7, 8, 10, 11, 12, 15, 16, 17,
+18.** They are invariance, limit, exhaustion, matching-identification or protocol obligations.
+Slot 8 is actively anti-selective — it DEMANDS invariance under cell count, packing density, valence
+and refinement rate, and a condition that requires invariance cannot select. Slot 16 transports a
+scale supplied by slot 13 and cannot originate one. **DISCHARGING ALL TWELVE PERFECTLY CHANGES
+NOTHING ABOUT THE NUMBER.**
+
+**THREE CONSEQUENCES:**
+
+1. **SLOT 6 IS THE MOST UNDER-PRIORITISED ITEM IN THE PROGRAM.** It is the only scale-breaking slot
+   the corpus itself names as the ORIGIN of response normalization —
+   `EM_DEPENDENCY_ORDER_FREEZE_V001.md:32-34`: "Because zero bare `F^2` is adopted, **the
+   functional-regulator and finite renormalization step is where response normalization can
+   originate**." It sits at position 4 of 9 in the frozen order, UPSTREAM of the pole (7) and Thomson
+   (8). Both of the corpus's independent enumerations of scale-breakers terminate at a local anomaly
+   or renormalization condition, which is slot 6's content. Its status is merely "OPEN,
+   PRINCIPAL-GUARDED."
+
+2. **SLOTS 6 AND 12 DIRECTLY CONTRADICT EACH OTHER AND NOBODY HAS ADJUDICATED IT.** Slot 6 is where a
+   scale MAY ORIGINATE; slot 12 demands continuum-regulator independence with "no hidden finite
+   selector." **If slot 12 is discharged as written, slot 6 CANNOT supply a scale.** One of the two
+   obligations must be re-posed. This is a live contradiction inside the eighteen and it is
+   unrecorded anywhere else.
+
+3. **SLOT 9 IS NOT DOWNSTREAM OF ANY SCALE-BREAKER.** It cannot be discharged by slot 1, 2, 6 or 13.
+   `BOHM_SLOT9_THEORY_ATTACK_2026-07-29.md:97-99`: "`c_R` is `x`-independent, so it is invisible to
+   any condition that acts through `x` ... **The saddle that selects `x` cannot select `c_R`, because
+   `partial c_R / partial x = 0`.**" Anyone sequencing slot 9 behind an absolute scale is sequencing
+   it behind something that provably does not reach it.
+
+### PART B — SIX CORRECTIONS TO Q-12
+
+1. **"ONE OBSTRUCTION" IS WRONG. THERE ARE THREE INDEPENDENT FREEDOMS.**
+   - **F-scale**, a multiplicative normalization — the scaling orbit. **21 ledger rows.**
+   - **F-shift**, an ADDITIVE offset (`c_R` / `K0`). **10 rows.** `alpha_strict_route_decision_ledger_v001.csv:429`,
+     decision `gravity_match_does_not_remove_additive_K0` — "countermodels with the same gravity
+     coefficient regulator and EM slope retain different additive Maxwell stiffness ... **do not infer
+     absolute EM normalization from `G`**." **A SHIFT IS NOT A DILATION. NO SCALE-BREAKING INGREDIENT
+     DISCHARGES IT.**
+   - **F-ratio**, the dimensionless depth `x`, which is ALREADY scale-invariant, so a scale-breaker
+     cannot fix it either (`STAGE8_T7_E1_SUCCESSOR_PROGRAM_SPEC_V001.md:455`: "THE HAZARD, STATED:
+     `tau_R` is scale-INVARIANT").
+   Q-12 also contradicted itself 35 lines apart — ruling "the ambiguity was never a rescaling" and
+   then folding slot 9 back in as "one obstruction, not five." Both cannot stand. **The second is
+   struck.** And `STAGE8_GRAVITY_EVIDENCE_ADMISSION_AND_FIVE_STRATA_BINDING_V001.md:138,150` forbids
+   collapsing `x`, `rho` and `T_R` — `routes_merged = false`.
+
+2. **THE COUNT: NOT EIGHT ROWS, AND NOT ALL OF THEM.** The true scaling-orbit population is **21**,
+   2.6x Q-12's list. But of Q-12's own eight, TWO ARE NOT INSTANCES: `joint_record_state_qfi_metric_v001`
+   (QFI 1, 3/4, 0 — three discrete states, one degenerate, not a continuous family) and
+   `minimal_public_carrier_dimension_v001` (a discrete occupancy choice, and its status is
+   `CLOSED_BUT_INSUFFICIENT`, not `BLOCKED`). Honest share: **21 of 170 blocked/rejected rows
+   (12.4%); 21 of the 50 UNDERDETERMINATION rows (42%)** — the largest single mechanism, and a
+   minority.
+
+3. **"EVERY CONDITION THE PROGRAM HAS IMPOSED IS SCALE-COVARIANT" IS FALSE.** At least EIGHT imposed
+   conditions DO break the scaling, and they failed differently — **by MONOTONICITY, with no interior
+   root**: ledger:138 `monotone_no_finite_scale`, "under common homothety every positive heat-kernel
+   term is strictly monotone and the one-carrier induced determinant selects only an endpoint"; also
+   ledger:130, 142, 156, 164, 263. And TWICE a condition selected a definite number and was rejected
+   for being WRONG (ledger:149; ledger:517, rejected against its declared holdout). **So breaking the
+   symmetry is necessary and nowhere near sufficient — a scale-breaker must also survive the
+   monotonicity failure mode.**
+
+4. **PAIRING `beta` WITH `c_R` WAS WRONG, AND IT IS THE OVERREACH IN MINIATURE.** Three registered
+   senses: `beta` = the cross-sector FIBER-RADIUS conversion (a metric datum); `c_R` = the ADDITIVE
+   finite `F^2` coefficient (slot 9); `C_R` = the COMPACTNESS RATIO (the gravity-side selector that
+   worked). Welding a metric-datum freedom to an affine-shift freedom and naming the pair after the
+   third object is exactly how "one obstruction" was manufactured.
+
+5. **"THE ONE SUCCESSFUL ABSOLUTE-SCALE DERIVATION" IS NOT ONE.**
+   `BID_CTP_HAMILTON_JACOBI_SCALE_BRIDGE_GATE_V001.md:184-185`: "the causal-cell formulas are exact
+   conditional algebra, **not an absolute scale derivation**." The cell file contradicts itself —
+   `:7` claims it derives the absolute scale, while `:164-165` flag
+   `absolute_record_interval_derived_in_declared_branch = false` and
+   `primitive_record_radius_derived_in_declared_branch = false`. Corpus-accurate word: **SELECTOR**.
+   And **`G` is necessary and NEVER SUFFICIENT** — the file names its FOURTH input as the selector
+   (`:59-60` "This fourth input is the selector"), and that input is the ADOPTED Level-1 rule
+   `C_R = 1`, not `G`.
+
+6. **"NO ARTIFACT DRAWS THE MASS ARROW" IS FALSE AND IS STRUCK.** Seven artifacts in four lineages
+   draw it, including a titled no-go: `reports/alpha_parent_mass_threshold_no_go_v001.md:9` — "the
+   current parent operator cannot provide the logarithmic decoupling spectrum **needed by the induced
+   gauge stiffness** ... Representation Casimirs are diffusion eigenvalues, **not a substitute for the
+   missing symmetry-breaking mass operator**"; and in the LIVE cleanroom as a failure rule,
+   `ABSOLUTE_STIFFNESS_SELECTOR_ROUTE_LEDGER_V003.md:116-126` — "The route fails if ... the Thomson
+   limit is asserted without a derived massive charged sector." **BUT THE ARROW POINTS FROM SLOT 13
+   TO SLOT 16, NOT TO SLOT 9.** A mass is NECESSARY for the Thomson/induced-stiffness step,
+   NOT SUFFICIENT for slot 9 (a scale does not move a shift), and NOT the only scale-breaker — 39 of
+   41 catalogued ingredients are not masses, and `EM_DEPENDENCY_ORDER_FREEZE_V001.md:32-34` names
+   SLOT 6, not slot 14, as the origin of normalization. Also
+   `EM_DEPENDENCY_ORDER_FREEZE_V001.md:28-30`: "**Thomson matching may not presuppose a sharp massive
+   charged pole.**"
+
+### PART C — WHAT THE CORPUS ASKS FOR, COUNTED
+
+**41 distinct scale-breaking ingredients** are named across reopen/release/closure clauses. Full
+catalogue in the source audit. Two independent in-corpus enumerations exist and BOTH terminate at a
+local anomaly / renormalization condition or an empirical calibration:
+`field_access_allow_require_unification_v001.md:7633-7671` ("There are only three clean ways") and
+`f_charged_step18c_local_chiral_scale_breaking_attempt_v001.md:120-134`. **That is the corpus telling
+you twice, independently, that its own shortlist for the charge sector is a RENORMALIZATION
+CONDITION — slot 6, not slot 14.**
+
+BOUNDED NEGATIVES WORTH KEEPING: `conformal anomaly` ZERO hits anywhere. `trace anomaly` ZERO.
+`scale breaking` ZERO. `anomalous dimension` ONE hit total. `Planck` in a reopen condition appears
+ALWAYS as a prohibition, never as a permitted input.
+
+REOPENS IF: the slot classification is challenged at a specific slot with the obligation text quoted,
+or a thirteenth slot is shown to carry a dimensionful independently-fixed quantity.
+
+**ACTIVE WORK ARISING:** `DEPARTURE_2_RESCALING_EXCLUSION_FOUR_CHANNEL_AUDIT_V001.md` — the one
+departure aimed at the scaling family, recovered and undischarged, reduced to a four-item checklist.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
