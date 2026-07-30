@@ -243,6 +243,40 @@ generic, the connection is suggestive and closes.**
 
 ---
 
+## OBS-07. AN UNDERIVED *MAGNITUDE* SITS IN THE WRITE-TAIL JOIN — AT A STAGE NOBODY ENUMERATED
+
+**Status: UNCLAIMED. Found 2026-07-30 by Einstein under paste 156, while auditing something else.**
+
+Theory candidate 001 claimed no free coupling parameter can be inserted anywhere in the source-to-record
+chain. Einstein's independent reconstruction found ~12 stages where the candidate named four, and found
+that **stage S8 — the physical write-tail join — is covered by no closure and closed by no other ruling.**
+
+```text
+physical_write_tail_join_derived = false | TYPE-U | would-build: write-tail join specification
+exchange_magnitude_derived       = false | TYPE-U | would-build: exchange magnitude derivation
+```
+
+*** WHAT MAKES THIS AN OBSERVATION RATHER THAN A GAP: EXACTNESS HOLDS ONLY "FOR FIXED INTEGRATED ACTION"
+— WHICH IS A MAGNITUDE. *** Every other insertion site in the chain was closed by something that forbade a
+strength. This one is not forbidden; it is **unbuilt**, and it has a magnitude in it.
+
+**WHY IT IS PLAUSIBLY SIGNIFICANT.** The program's four independent closures were argued precisely to show
+alpha cannot be a strength assigned anywhere. **If a magnitude survives at S8, either the coupling can live
+there — which would refute the theory's negative half — or S8 carries a constraint nobody has written
+down.** Both are worth knowing and neither is currently known.
+
+**WHAT IS NOT CLAIMED.** That S8 carries alpha. That the magnitude is free rather than determined by
+something upstream. That the theory is refuted — Einstein explicitly graded it *cut down, not killed*.
+**Under Q-52 this may now be specified in order to be tested**, which was not permitted this morning.
+
+**IT FELL OUT OF OTHER WORK.** Nobody set out to find it; it surfaced in an audit of an enumeration. **That
+is the pattern the principal named — the observations that matter are arriving as by-products, which is
+why they get a register rather than a framework slot.**
+
+Links: [[theory-candidate-001]], [[obs-05-write-impedance-refuted]], Q-53, Q-52.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **When a candidate fails, ask which kind of failure it is.** A theorem foreclosing it is a refutation and

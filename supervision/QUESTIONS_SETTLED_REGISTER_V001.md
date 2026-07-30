@@ -2170,6 +2170,119 @@ REOPENS IF: the response-extraction layer is specified, or `Gamma_K`'s charter i
 
 ---
 
+## Q-52. "May a constraint prevent a test?"
+
+*** RULING: NO. NO CONSTRAINT IN THIS PROGRAM MAY PREVENT A NEW THEORY OR A NEW PHYSICAL PROPERTY FROM
+BEING TESTED. WHERE A GOVERNANCE CONSTRAINT AND A TEST CONFLICT, THE CONSTRAINT YIELDS. *** Principal act,
+2026-07-30, `TESTABILITY_PRECEDES_CHARTER_SCOPE_DECISION_2026-07-30_V001.md`. **Program-wide; supersedes
+charter scope where they conflict.**
+
+**THE DISTINGUISHING QUESTION: does the constraint stop us from CLAIMING something unearned, or from
+FINDING OUT whether something is true?** The first stands; the second falls. Constraints against
+fabrication — no computed alpha or kappa as a claim, no comparison to measurement, refutations reported and
+never repaired, the holdout untouched, seal-before-execution, F-GK3 disclosure, Q-37 — **all stand
+unchanged.**
+
+**WHAT FALLS:** a charter naming one "sole construction target" that thereby forbids specifying anything
+else; any fence without a written release condition; any rule under which a missing object cannot be
+specified because specifying it is out of scope; any reading of F-GK3 that treats declaring a premise as
+forbidden rather than required.
+
+**IMMEDIATE CONSEQUENCES.** (a) **The `Gamma_K` charter is amended; `Gamma_K` is no longer the sole
+construction target, and the response-extraction layer of Q-51 is an authorized target in its own right.**
+(b) **The reviewer's standing instruction not to supply what is absent is WITHDRAWN where the purpose is a
+test** — a lane may write a specification if it is declared, marked `derived = false`, and never reported
+as derived. (c) Theory candidates and observations are testable objects and may be given lane time without
+first being fitted into a framework that never envisioned this work. (d) **A premise may be varied to test
+it; considering `C_R != 1` or the competitor `tau` family is not adopting it.**
+
+**WHY IT WAS NEEDED.** Eleven rulings today (Q-41…Q-51) and **not one construction**, because Q-51
+established the sole chartered target cannot be started. **With nothing buildable, every lane task was
+audit work, and audit work against a moving register produced three stale artifacts in one day.** The
+reviewer had been filling lanes rather than reporting that the program had no startable target. **The
+constraint, not the physics, was the blocker.**
+
+**GUARD — "PERMITS TESTING" MUST NOT DECAY INTO "PERMITS ASSUMING."** Q-37 stands; a check that cannot
+return evidence against what it checks is not a test; anything specified in order to be tested is
+`derived = false` until a test passes. **This decision fails if any artifact reports as DERIVED an object
+specified in order to be tested. Grep-auditable, on the next sweep with the Q-48 fence audit.**
+
+**AUTHORIZES NO CLAIM. `0 of 18` and `0 of 11` unmoved. Retracts no refutation** — OBS-05, OBS-06 as
+structural, and theory 001's section 4 stay killed.
+
+---
+
+## Q-53. "Is theory candidate 001's insertion-point enumeration complete?"
+
+*** RULING: NO — NOT AS A COUNT. THE THEORY IS NOT KILLED; IT IS CUT DOWN. *** Established 2026-07-30 by
+Einstein under paste 156 (`STAGE8_THEORY_CANDIDATE_001_ENUMERATION_AUDIT_EINSTEIN_V001.md`, seal
+`e3cb4a4d…`; sealed on disk, commit pending the baseline reseal).
+
+**THE CHAIN HAS ~12 STAGES, NOT FOUR.** Blind reconstruction with the candidate withheld, 30 citations
+verified. **"Exactly four points" occurs in no artifact but the candidate.** But most uncovered
+parameter-capable stages ARE closed — **by rulings the candidate never cited**: QR3 kills the arbitrary
+record Gram; the intrinsic measure is unique with the `1 + a·u_D` family killed at `a = 0`; `tau_R` is
+derived and is "a check rather than a normalization premise"; the sector projector is the unique
+functional-calculus projector. **Verdict: under-argued in its own favour on seven stages, over-claimed on
+one word.**
+
+*** THE LIVE FINDING IS S8 — THE PHYSICAL WRITE-TAIL JOIN. *** Covered by no closure and closed by no
+other ruling. `physical_write_tail_join_derived = false | TYPE-U`; exactness holds only "for fixed
+integrated action" — **a magnitude** — with `exchange_magnitude_derived = false | TYPE-U`. **An underived
+magnitude at a stage the enumeration never mentioned, and by the candidate's own standard it is
+missing-not-forbidden — the exact weakness the candidate assigned to its own weakest closure.** Recorded
+as OBS-07.
+
+**THREE FURTHER CORRECTIONS.** (1) **Closures (1) and (2) are BASE-LEVEL ONLY** — the dressed record copy
+does not generally commute with the source, and the candidate's wording dropped the qualifier. (2)
+**Closure (2) is three claims under one number**: monomorphism proved; base-level no-crossed-product
+proved but with its crossed-exclusion leg derivative of closure (1); full-parent level an unfilled gap.
+Grade: **"cannot at the base level; has-not-yet above it."** (3) **Closure (4) carries an unstated
+conditionality** — Q-49's `tau = 1` unit-value adoption sits at the precise evaluation point of the
+positive half.
+
+*** THE POSITIVE HALF IS NOT ENTAILED. *** "Alpha IS the impedance" is **an import from the adopted
+K-route, not a conclusion**, its referent is unbuilt (Q-47), and the "same object under two names" escape
+is sealed shut by Q-51. **The conjunction licenses the NEGATIVE half only.** Section 1's conditional
+sentence stands; the categorical display text does not.
+
+**THE AUDIT WORKED AS DESIGNED.** The candidate's own section 5 named this as its most likely failure
+mode, and Einstein reports that prediction "realized in the bounded sense." **An independent reviewer found
+what the author could not, which is why it was not given to the author.**
+
+---
+
+## Q-54. "How do we stop chasing negatives that are artifacts of constraints?"
+
+**RULING: ADOPTED — THE NEGATIVE RESULT TYPING PROTOCOL, WITH GATE ENFORCEMENT.** Principal direction
+2026-07-30; `NEGATIVE_RESULT_TYPING_PROTOCOL_V001.md`.
+
+**The principal:** *"We need to be able to test and not inject artificial failure cases that are not
+necessarily applicable."*
+
+*** THE CORPUS REPORTED FOUR DIFFERENT CLAIMS IN ONE VOCABULARY. *** **TYPE-R refuted** (the only type
+that is physical content) | **TYPE-U unbuilt** | **TYPE-S scope-empty** (must carry roots, exclusions,
+fences in force, query) | **TYPE-C constraint-blocked** (under Q-52 a governance defect, not a result).
+**Only TYPE-R may be cited as physical content or used to kill a theory or observation.**
+
+**IT COST US THREE TIMES TODAY.** Lane 1's "the response operator does not exist" was bounded-roots TYPE-S,
+and **90 minutes later a derived, hostile-verified operator bundle turned up** (Q-50) — a theory was being
+built on it. The floor's secondhand status was TYPE-C and **the reviewer filed a staleness defect that did
+not exist** (Q-45→Q-49). `C_R = 1`'s "no falsifier is frozen" was bookkeeping, **one inference from being
+reported as untestable**, and lane 2 then showed a falsifier is designable.
+
+**FOUR MECHANISMS, ALL IMPLEMENTED.** (1) A typed flag format. (2) A paste-header requirement, effective
+from the 157th relay, needing no code. (3) **A new `untyped_negative` gate check, growth-gated at
+baseline 3309** so existing flags are not retro-fixed but nothing new enters untyped; terminal fence
+declarations exempt. (4) **`NO_VERDICT` is now a legal lane outcome** — a test whose failure condition
+rests on untested, inapplicable or unbuilt premises returns NO_VERDICT, not a failure.
+
+**AND A NEGATIVE NOW CARRIES THE SAME EVIDENTIARY BURDEN AS A POSITIVE.** Reporting "not found" requires
+stating the search. **The old asymmetry made absence the cheapest legitimate action, which is exactly why
+Einstein found the theory candidate under-argued in its own favour on seven stages.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

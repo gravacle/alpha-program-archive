@@ -42,6 +42,7 @@ CHECKS = (
     "path_list_word_splitting",
     "relay_sequence_head",
     "authority_currency",
+    "untyped_negative",
 )
 RED_CHECKS = {
     "seal_integrity",
@@ -1153,6 +1154,72 @@ def check_path_list_word_splitting(ctx: dict[str, Any]) -> CheckResult:
     )
 
 
+# Negative-result typing. Every `<flag> = false` and every "not found" must say
+# which of four things it means:
+# TYPE-R refuted (the only type that is physical content), TYPE-U unbuilt,
+# TYPE-S scope-empty, TYPE-C constraint-blocked. Three phantom negatives on
+# 2026-07-30 consumed lane time and one nearly anchored a theory candidate,
+# because a negative produced by a constraint reads exactly like a result about
+# the world. Growth-gated against the baseline: existing untyped flags are not
+# retro-fixed, but nothing new enters untyped.
+UNTYPED_NEGATIVE_RE = re.compile(r"^\s*[a-z][a-z0-9_]*\s*=\s*false\b", re.IGNORECASE)
+NEGATIVE_TYPE_RE = re.compile(r"\bTYPE-[RUSC]\b")
+# Terminal fence declarations are a fixed, mandated vocabulary asserting that
+# nothing was computed. They are not findings and carry no scope, so typing them
+# would be noise rather than signal.
+FENCE_FLAG_RE = re.compile(
+    r"^\s*(?:alpha|proof_authorized|kappa_record|kappa_Thomson|coupling|radius|scale|root"
+    r"|eigenvalue|beta_function|coupling_evaluation|alpha_value)"
+    r"[a-z0-9_]*\s*=\s*false",
+    re.IGNORECASE,
+)
+
+
+def check_untyped_negative(ctx: dict[str, Any]) -> CheckResult:
+    root = ctx["archive"]
+    findings: list[Finding] = []
+    seen_paths: set[Path] = set()
+    for p in walk_files([ctx["archive"], ctx["supervision"]], {".md"}):
+        resolved = p.resolve()
+        if resolved in seen_paths:
+            continue
+        seen_paths.add(resolved)
+        text = read_text(p)
+        if text is None:
+            continue
+        for idx, line in enumerate(text.splitlines(), start=1):
+            if not UNTYPED_NEGATIVE_RE.match(line):
+                continue
+            if FENCE_FLAG_RE.match(line):
+                continue
+            if NEGATIVE_TYPE_RE.search(line):
+                continue
+            findings.append(
+                Finding(
+                    safe_rel(p, root),
+                    idx,
+                    "negative flag carries no TYPE-R/U/S/C marker; "
+                    "refuted, unbuilt, scope-empty and constraint-blocked are not the same claim",
+                )
+            )
+    return CheckResult(
+        "untyped_negative",
+        "YELLOW",
+        status="YELLOW" if findings else "GREEN",
+        issue_count=len(findings),
+        metric=len(findings),
+        summary=f"{len(findings)} negative flags without a negative-result type marker",
+        findings=findings,
+        details={
+            "protocol": "NEGATIVE_RESULT_TYPING_PROTOCOL_V001.md",
+            "types": "TYPE-R refuted | TYPE-U unbuilt | TYPE-S scope-empty | TYPE-C constraint-blocked",
+            "only_TYPE_R_is_physical_content": True,
+            "terminal_fence_flags_exempt": True,
+            "scope": "flags risk of a work-state negative being read as a world-state result",
+        },
+    )
+
+
 CHECK_FUNCS = {
     "seal_integrity": check_seal_integrity,
     "deploy_state": check_deploy_state,
@@ -1170,6 +1237,7 @@ CHECK_FUNCS = {
     "path_list_word_splitting": check_path_list_word_splitting,
     "relay_sequence_head": check_relay_sequence_head,
     "authority_currency": check_authority_currency,
+    "untyped_negative": check_untyped_negative,
 }
 
 

@@ -142,6 +142,33 @@ the standing `Gamma_K` charter, since `K` is typed as a local surrogate for indu
 
 ---
 
+## 4B. INDEPENDENT AUDIT RETURNED — CUT DOWN, NOT KILLED
+
+**Einstein, 2026-07-30, paste 156, seal `e3cb4a4d…`.** The audit was given to an independent reviewer
+because the author cannot certify his own enumeration.
+
+**SECTION 5's PREDICTION WAS REALIZED.** This document named "a fifth insertion point exists; the chain was
+enumerated by the reviewer, not derived" as its most likely failure mode. **That is what returned.**
+
+- **The chain has ~12 stages, not four.** "Exactly four points" appears in no artifact but this one.
+- **Most uncovered stages are nonetheless closed — by rulings this document never cited.** Under-argued in
+  its own favour on seven stages; over-claimed on one word.
+- *** S8, THE PHYSICAL WRITE-TAIL JOIN, IS COVERED BY NOTHING *** — `physical_write_tail_join_derived =
+  false | TYPE-U`, with exactness only "for fixed integrated action," **a magnitude**, and
+  `exchange_magnitude_derived = false | TYPE-U`. Recorded as OBS-07.
+- **Closures (1) and (2) are BASE-LEVEL ONLY.** The dressed record copy does not generally commute with the
+  source; section 2's wording dropped the qualifier and is corrected here.
+- **Closure (2) is three claims under one number**, graded "cannot at the base level; has-not-yet above it."
+- *** THE POSITIVE HALF IS NOT ENTAILED. *** "Alpha IS the impedance" is an import from the adopted K-route,
+  not a conclusion; its referent is unbuilt. **The conjunction licenses the NEGATIVE half only.** Section 1's
+  conditional sentence stands; the categorical display text and coda do not, and are withdrawn as quoted.
+
+**SURVIVING FORM:** *no free coupling parameter has been found at any enumerated stage of the chain, at base
+level, with S8 unresolved and the enumeration incomplete as a count.* **That is weaker than what section 1
+claims and it is what the evidence supports.**
+
+---
+
 ## 5. HOW THIS THEORY DIES
 
 - **Any of the four closures is wrong.** Most exposed: (2). "Not specified and
