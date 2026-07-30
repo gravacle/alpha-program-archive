@@ -2327,6 +2327,45 @@ fires.
 
 ---
 
+## Q-56. "Are theory 001's closures proofs or adoptions?"
+
+*** RULING: ZERO OF FIVE ARE UNCONDITIONAL STRUCTURAL TYPE-R CLOSURES OF THE PARAMETER-LOCATION QUESTION.
+THEORY CANDIDATE 001'S NEGATIVE HALF IS A CONDITIONAL STATEMENT OVER THE ACTIVE PREMISE STACK, NOT A
+PREMISE-INDEPENDENT EXHAUSTION THEOREM. *** Established 2026-07-30 by Codex lane 1 under paste 160
+(`STAGE8_THEORY_001_CLOSURE_RETYPE_UNDER_Q54_V001.md`, `ea24057b…`, archive `626fa1f`, gate GREEN).
+
+- **Closure 1, carrier.** Base commutation is TYPE-R **only inside the stipulated graded-tensor /
+  trivial-record-grading carrier**; above base it is refuted or unbuilt.
+- **Closure 2, composition.** Monomorphism TYPE-R; no-base-crossed-product TYPE-R **on the same stipulated
+  foundation**; completed-CTP crossed-product exclusion **NO_VERDICT, blocked by TYPE-U producer absence**.
+- **Closure 3, write.** Scalar write-multiplier rejection is the strongest TYPE-R subtest **but depends on
+  the ADOPTED projection-module retraction axiom. It is not an unconditional no-write-parameter theorem.**
+- **Closure 4, bare term.** `K_bare = 0` is **TYPE-C**, an adopted induced-only compositeness condition;
+  finite-deformation exclusion remains TYPE-U.
+- **S8.** Exchange magnitude TYPE-C under ER-A branch data; physical write-tail join TYPE-U (Q-55).
+
+*** THE REVIEWER'S THEORY DOES NOT DO WHAT THE REVIEWER CLAIMED. *** It was written as a structural
+result — four independent rulings closing four insertion points, therefore alpha cannot be a strength
+assigned anywhere. **What it actually says is that no free parameter survives GIVEN the current adopted
+premises**, of which Q-45 classes 17 of 26 as untested. **Closure 3, the one closure called "sharpest"
+and "forbidden a strength rather than merely lacking one," rests on an adopted axiom.**
+
+**THIS IS A RESULT ABOUT METHOD, AND IT IS THE USEFUL PART.** The standing principle is that permissions
+never force a number and only overdetermination does. **Theory 001 attempted to force a location by
+exhaustion. Exhaustion over an adopted premise stack forces nothing — it restates the stack.** Any future
+claim resting on "alpha has nowhere else to live" inherits every untested premise in that stack, and must
+say so.
+
+**THE CANDIDATE IS NOT REFUTED; IT IS DEMOTED.** Its surviving form is honest and worth keeping: *no free
+coupling parameter survives at any enumerated stage, at base level, conditional on the active premise
+stack, with the enumeration incomplete as a count and S8 unresolved.* **Theory 001 status: REDUCED.**
+
+**THREE INDEPENDENT PASSES CUT IT DOWN IN ONE AFTERNOON** — Einstein's enumeration audit (Q-53), lane 1's
+S8 test (Q-55), and lane 1's retyping (Q-56). **Each was told it could kill the thing cheaply, and each
+did part of the job.** The candidate cost one document and returned a method finding.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

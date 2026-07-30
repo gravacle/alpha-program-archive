@@ -1,6 +1,8 @@
 THEORY CANDIDATE 001 — THE COUPLING'S LOCATION IS FORCED BY EXHAUSTION
 
-STATUS: CANDIDATE. Not a result, not a derivation, not a producer.
+STATUS: REDUCED (Q-56). Not a result, not a derivation, not a producer.
+*** THE CENTRAL CLAIM OF SECTION 1 IS WITHDRAWN AS A STRUCTURAL RESULT. ***
+Zero of five closures are unconditional TYPE-R. See section 4C.
 DATE: 2026-07-30. Reviewer lane (supervision).
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
 theory_status = CANDIDATE_WITH_PREREGISTERED_PREDICTION
@@ -166,6 +168,27 @@ enumerated by the reviewer, not derived" as its most likely failure mode. **That
 **SURVIVING FORM:** *no free coupling parameter has been found at any enumerated stage of the chain, at base
 level, with S8 unresolved and the enumeration incomplete as a count.* **That is weaker than what section 1
 claims and it is what the evidence supports.**
+
+---
+
+## 4C. RETYPED UNDER Q-54 — THE CLAIM IS DEMOTED, NOT REFUTED
+
+**Codex lane 1, paste 160, `ea24057b…`, archive `626fa1f`.**
+
+*** ZERO OF FIVE CLOSURES ARE UNCONDITIONAL STRUCTURAL TYPE-R CLOSURES OF THE PARAMETER-LOCATION
+QUESTION. *** Closure 1 is TYPE-R only inside the stipulated carrier; closure 2's completed-CTP leg is
+NO_VERDICT on TYPE-U producer absence; **closure 3 — the one section 2 called sharpest — depends on the
+ADOPTED retraction axiom**; closure 4 is TYPE-C; S8 is TYPE-C under ER-A.
+
+**SECTION 1 SAID:** "there is no place left to put a free coupling parameter," presented as forced by four
+independent rulings. **THAT IS WITHDRAWN.** What the evidence supports is: *no free coupling parameter
+survives at any enumerated stage, at base level, **conditional on the active premise stack**, with the
+enumeration incomplete as a count and S8 unresolved.*
+
+*** THE METHOD FINDING IS THE VALUABLE PART. *** Permissions never force a number; only overdetermination
+does. **This document tried to force a LOCATION by exhaustion — and exhaustion over an adopted premise
+stack forces nothing. It restates the stack.** Any future work invoking "alpha has nowhere else to live"
+inherits all 17 untested premises and must say so.
 
 ---
 
