@@ -4,32 +4,81 @@ Date: 2026-07-30
 
 ## Result first
 
-**Five of six families have no presently candidate-compatible published
-same-alpha comparator.** Only a future electron magnetic-anomaly output has a
-formula-level comparator that can be frozen now. Even that positive row does
-not establish A32 compliance: the ratified rule required the expression to be
-citable before candidate-universe construction, and the universe was already
-collected before this record.
+**Five of six families do not yet support a formula-level comparator
+payload.** The sixth, the electron magnetic-anomaly branch, has a
+published formula payload frozen before any theory prediction, but Q-28 now
+refutes that precision branch under the third admissibility clause. The
+payload is retained as a preregistration and refutation record; it is not a
+live Slot-18 comparator path. Zero of the six current families satisfies all
+three conditions today; the eligibility stage has not been executed.
 
-This is a formula/payload freeze and a timing finding. It evaluates no
-expression, produces no comparator mean or uncertainty value, computes no
-distinctness statistic, and declares no candidate eligible.
+This record does not attain A32. Q-27 now identifies `unused` with the sealed
+historical-lineage clause, but no candidate-specific lineage test is run here.
+No expression is evaluated, no comparator mean or uncertainty value is
+produced, no distinctness statistic is computed, and no candidate is declared
+eligible.
+
+### Standing A32 qualification
+
+The Q-25 registration in
+`STAGE8_SLOT18_Q23_Q28_GOVERNING_REGISTRATION_V001.md:236-259` records:
+
+```text
+THE LIMITATION IS PERMANENT AND
+MUST TRAVEL WITH EVERY A32 HEADLINE
+...
+process independence between
+collector and custodian was never established, and no independent attestation exists.
+```
+
+That permanent custodian-independence qualification accompanies this
+comparator preregistration and any later A32 or FINAL-CLAIM use of it.
 
 ## Governing comparator contract
 
-`BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md:2042-2050` states:
+Sources consumed by this record, typed by role:
 
 ```text
-Comparators are published standard-theory QED/SM expressions cited before
-candidate-universe construction. They are evaluated with the identical alpha
-input
+RATIFIED AUTHORITY:
+/Users/bgm/MB Work/alpha_supervision/A32_FREEZE_V002_RATIFIED_2026-07-28.md
+SHA-256: 32dbfc33b4f07407903ec014627ea64de57b5b1a6dc017dd27c6504729c3a327
+
+PROPOSAL PROVENANCE FOR THE RATIFIED WORDING:
+/Users/bgm/MB Work/alpha_supervision/A32_SIX_ITEM_PROPOSALS_2026-07-28.md
+SHA-256: 5185ad0f5e7097fe0e0886e61771fc57e49f169f034cc52cc7c9bf11543c07ea
+
+PUBLIC COLLECTION-TIMING EVIDENCE:
+/Users/bgm/MB Work/a32_holdout/transcript.md
+SHA-256: 4052a842203204798b527246acc02e0768b06a33d76407c063c17ee1b40bb7cd
+
+CURRENT APPEND-ONLY QUESTION REGISTER:
+/Users/bgm/MB Work/alpha_supervision/QUESTIONS_SETTLED_REGISTER_V001.md
+SHA-256: 2bf6a21f4d70d63a85e3f11d347a21954143dd7a2b3301cc2ab49a7dde0098bb
+
+CONTROLLING SLOT-18 ADMISSIBILITY AUTHORITY:
+/Users/bgm/MB Work/alpha_supervision/SLOT18_ADMISSIBILITY_PRINCIPAL_DECISION_2026-07-30.md
+SHA-256: a132f4b2421610c7df4e9a8746286999b31672f1f2d805588ed3f1ad81ad6259
+
+SUPPORTING REFUTATION FINDING:
+/Users/bgm/MB Work/alpha_supervision/FINDING_D_TEST_DEGENERATE_ON_PRECISION_OBSERVABLES_2026-07-30.md
+SHA-256: 34f9f9658f9aae1632de23ba470e0de8c82eb91666c50e91f2d8e516568d7f4a
+```
+
+The ratified comparator rule says at
+`/Users/bgm/MB Work/alpha_supervision/A32_FREEZE_V002_RATIFIED_2026-07-28.md:67-74`:
+
+```text
+published
+standard-theory (QED/SM) expressions, citable BEFORE candidate-universe construction,
+evaluated with the identical alpha input
+under the frozen convention
+alpha(0) = 1/(4 pi kappa_Thomson),
+perturbative order FROZEN PER FORMULA at
+preregistration, no candidate-specific fitted parameter, refit, channel coefficient, or
+post-selection
 ...
-with perturbative order frozen per formula
-at preregistration. No candidate-specific fitted parameter, refit, channel
-coefficient, or post-selection is allowed
-...
-A candidate with no published standard expression is
-ineligible for that candidate.
+A candidate with no published standard expression is ineligible FOR THAT
+CANDIDATE.
 ```
 
 The admissibility condition at V011:2083-2089 additionally requires:
@@ -51,37 +100,42 @@ measurement uncertainty/covariance from the custodian commitment payload
 
 The scalar distinctness rule at V011:2052-2058 is not evaluated here.
 
-## Independent timing defect
+## Timing resolution and freeze point
 
-The comparator class requires citation **before candidate-universe
-construction**. Lane evidence
-`STAGE8_SLOT18_BOUNDED_SCOPE_INVENTORY_V001.md:450-476` records both the
-requirement and the absence of a concrete instance:
+The earlier V011 wording says `cited before` at V011:2042-2050. The later
+ratified A32 authority says `citable BEFORE`. Its proposal provenance makes
+that reading explicit at
+`/Users/bgm/MB Work/alpha_supervision/A32_SIX_ITEM_PROPOSALS_2026-07-28.md:55-64`:
 
 ```text
-published standard-theory (QED/SM) expressions, citable BEFORE
+for each candidate observable,
+the standard QED/standard-model expression as published in citable literature BEFORE
 candidate-universe construction
-...
-The governing A32 sources name this class, but do not name one concrete
-publication, expression, formula version, perturbative order, or comparator
-payload.
-...
-a later silent choice cannot cure the timing defect.
 ```
 
-The public collection already exists, while
-`provenance/bid_stage_subjects_v011.json:22-24` says only that its seal remains
-unresolved:
+The selected report identifies its publication date on its first page:
+P. J. Mohr et al., *J. Phys. Chem. Ref. Data* 54, 033105 (2025), DOI
+`10.1063/5.0279860`, “Published Online: 16 September 2025.” The public
+collection transcript records collection on 2026-07-28 at
+`/Users/bgm/MB Work/a32_holdout/transcript.md:10-23`. Thus the expression was
+published in citable literature before candidate-universe construction.
+
+The current seal state remains pre-prediction.
+`provenance/boundary_incidence_dynamics_preregistration_v011.json:651-658`
+states:
 
 ```text
-No sealed HOLDOUT-UNIVERSE-SEAL immutable subject exists; A32 public collection artifacts are deployed
+"prediction_map_sealed": false,
+...
+"holdout_result_sealed": false,
+"BID_final_claim_sealed": false,
+"external_unused_holdout_preregistered": false
 ```
 
-Therefore the present record is early relative to any theory prediction but
-late relative to the literal pre-universe citation clause. It freezes a usable
-payload for review; it does not retroactively prove preregistration timing.
-Closing that conflict requires a later authority ruling. This lane does not
-repair or reinterpret it.
+Therefore this record freezes the concrete formula, order, input convention,
+uncertainty source, and units before a prediction exists. It does not claim
+that the older V011 word `cited` was satisfied; the later ratified `citable`
+rule controls this payload.
 
 ## Global execution contract, frozen without values
 
@@ -89,9 +143,12 @@ If a future candidate reaches a row marked `FORMULA_AVAILABLE`, its comparator
 runner must obey all of the following:
 
 1. **Shared alpha token.** Accept one symbolic serialized `alpha(0)` input from
-   the sealed theory-output record and pass the identical byte sequence to BID
-   and comparator. The comparator must not load an independently inferred
-   alpha. No alpha value appears in this record.
+   the sealed theory-output record under the ratified convention
+   `alpha(0) = 1/(4 pi kappa_Thomson)` and pass the identical byte sequence to
+   BID and comparator. The input record must carry both the symbolic token and
+   that convention identifier; a bare token named `alpha(0)` is insufficient.
+   The comparator must not load an independently inferred alpha. No alpha
+   value appears in this record.
 2. **Conditional theory uncertainty.** Treat the shared alpha token as the
    fixed calibration input for the distinctness comparison. `sigma_comp`
    includes only the fixed publication's intrinsic theory uncertainty,
@@ -108,24 +165,72 @@ runner must obey all of the following:
 6. **Scalar-only present collector.** A vector or multi-component comparator
    fails closed under the Q-25 forward condition until a revised collector has
    committed its covariance before any prediction.
+7. **Third admissibility clause.** Before beacon selection, require that the
+   comparator's predictive uncertainty not be so far below a plausible BID
+   deviation that a `D >= 5` difference would automatically conflict with
+   established measurement. Apply this only as the comparator-precision
+   condition Q-28 states; no measured central value may be consulted.
 
 These are execution requirements, not an execution.
 
+## Later admissibility disposition
+
+Q-27 identifies `unused`. The controlling principal decision says at
+`/Users/bgm/MB Work/alpha_supervision/SLOT18_ADMISSIBILITY_PRINCIPAL_DECISION_2026-07-30.md:12-27`:
+
+```text
+`unused` IS the condition already sealed at
+`BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md:2080-2089` — "be absent as an outcome or target from the
+complete historical lineage."
+...
+a bounded search over the rule-11 scope, returning zero occurrences of the
+candidate observable as an outcome or a target.
+```
+
+Q-28 then adds clause 3 at `:44-56`:
+
+```text
+An observable is admissible only if the comparator's own predictive uncertainty is not so far below
+any plausible BID deviation that a `D >= 5` difference would be automatically in conflict with
+established measurement.
+...
+IT IS A CONDITION ON COMPARATOR PRECISION, NEVER ON A MEASURED CENTRAL VALUE.
+```
+
+The disposition of this record's only formula payload is explicit at `:75-80`:
+
+```text
+Family 6 — the charged magnetic form factor at the electron zero-momentum anomaly — is the one family
+holding a comparator payload, and it is the clearest failure of clause 3.
+```
+
+The payload below is therefore preserved, not executed or repaired.
+
+Q-28's falsifier at `:63-64` is binding:
+
+```text
+if clause 3 cannot be applied without consulting a measured central value, it
+breaches the comparison fence and must be withdrawn.
+```
+
+F-C3 is not tested here.
+
 ## Per-family availability
 
-| Rank from the Slot-18 inventory | Theory-output family | Comparator state | Frozen formula/order | `sigma_comp` source | Unit state |
+| Family number (inventory enumeration order) | Theory-output family | Comparator state | Frozen formula/order | `sigma_comp` source | Unit state |
 |---:|---|---|---|---|---|
 | 1 | Finite global-holonomy response | **MISSING** | None candidate-compatible | Undefined; fail closed | Physical observable and units not mapped |
 | 2 | Temporal-plaquette / connected-kernel susceptibility | **MISSING** | None candidate-compatible | Undefined; fail closed | Physical observable, kinematics, and units not mapped |
-| 3 | Electric/magnetic flux and retarded response | **MISSING** | Published QED response formulae exist as a class, but no formula is compatible with the current unexecuted protocol without a fixed candidate, kinematic domain, current normalization, and contact/edge prescription | Undefined; fail closed | Not fixed |
-| 4 | Causal-record durability / recoverability | **MISSING** | No QED/SM operational observable matching the defined record object was found in the bounded primary-source search | Undefined; fail closed | No quantitative observable or unit |
-| 5 | Charged spectrum / thresholds / nonzero-momentum response | **MISSING / SPLIT** | Charged masses are independent SM inputs, not same-alpha predictions; momentum-dependent QED expressions are not candidate-compatible until species, domain, current normalization, thresholds, and observable are fixed | Undefined; fail closed | Not fixed |
-| 6 | Charged magnetic form factor | **FORMULA AVAILABLE, CONDITIONALLY** for an electron zero-momentum magnetic anomaly only | Fixed-vintage CODATA-2022 electron-anomaly prescription: QED terms through `n = 5`, plus its specified weak and hadronic terms | CODATA Eq. (87), intrinsic theory uncertainty apart from alpha-input uncertainty | Dimensionless `a_e`; Eq. (72) is the only allowed deterministic `g` conversion |
+| 3 | Electric/magnetic flux and retarded response | **MISSING** | No formula frozen: the current unexecuted protocol lacks a fixed candidate, kinematic domain, current normalization, and contact/edge prescription | Undefined; fail closed | Not fixed |
+| 4 | Causal-record durability / recoverability | **MISSING** | No quantitative canonical operational quantity is defined yet, so no exact comparator identity can be selected | Undefined; fail closed | No quantitative observable or unit |
+| 5 | Charged spectrum / thresholds / nonzero-momentum response | **MISSING / SPLIT** | Elementary charged-fermion masses are independent SM inputs, not same-alpha predictions; other spectrum/threshold and momentum-response branches remain too broadly typed to freeze an exact candidate comparator | Undefined; fail closed | Not fixed |
+| 6 | Charged magnetic form factor | **FORMULA PAYLOAD AVAILABLE; BRANCH REFUTED BY Q-28 CLAUSE 3** for an electron zero-momentum magnetic anomaly only | Fixed-vintage CODATA-2022 electron-anomaly prescription: QED terms through `n = 5`, plus its specified weak and hadronic terms | CODATA Eq. (87), frozen as the fixed-vintage intrinsic theory uncertainty apart from alpha-input uncertainty | Dimensionless `a_e` only; no signed-`g` conversion is authorized |
 
-Five rows therefore cannot produce `D` regardless of a future BID mean until
-their comparator and candidate interfaces are supplied. The sixth still fails
-eligibility unless BID independently derives the same electron observable and
-Q-23's `unused` predicate is resolved.
+Five rows cannot produce `D` until their comparator and candidate interfaces
+are supplied. The sixth has a formula payload but is already ineligible under
+Q-28 clause 3. Q-27 resolves the meaning of `unused`; a future candidate would
+still have to pass its bounded rule-11 lineage test. No current row satisfies
+all prerequisites today, and no eligibility execution is claimed.
 
 ## Family evidence and rejection records
 
@@ -152,12 +257,10 @@ map, an A32-eligible canonical record, a concrete preregistered same-alpha
 comparator, and the frozen prediction/uncertainty payload.
 ```
 
-The nearest screened QED worldline/effective-action paper was
-Gies and Langfeld, arXiv:`hep-ph/0102185`, Eqs. (1)-(4),
-`https://arxiv.org/abs/hep-ph/0102185`. It is not the named three-site
-relative-history CTP scalar, and no canonical candidate map or
-publication-supplied uncertainty for that scalar was identified. No comparator
-is frozen.
+Because the theory record has not yet defined a physical observable identity,
+domain, unit, or uncertainty interface, selecting any external
+worldline/effective-action formula would choose a new target rather than match
+an already frozen candidate. No comparator is frozen.
 
 ### 2. Temporal plaquette / connected kernel — `MISSING`
 
@@ -184,10 +287,9 @@ the correct prerequisite for a later temporal-gradient/Maxwell comparison; it
 is not itself that comparison.
 ```
 
-The bounded primary-source screen included arXiv:`hep-lat/0011058` and
-arXiv:`hep-lat/9408014`. Their lattice-action observables do not supply a
-candidate-level expression, fixed uncertainty, and unit map for this CTP
-kernel. No comparator is frozen.
+Because this result is expressly a prerequisite rather than the physical
+comparison, there is no frozen observable identity against which an external
+formula can be matched. No comparator is frozen.
 
 ### 3. Flux / retarded response — `MISSING`
 
@@ -208,13 +310,10 @@ The Lorentzian continuation and CTP retarded Hessian must be derived from the
 same microscopic functional. A Euclidean equality alone is insufficient.
 ```
 
-The bounded primary-source screen included arXiv:`hep-th/0110180`,
-arXiv:`1303.3042`, and QED vacuum-polarization literature. Those formulae are
-background-, state-, species-, and kinematics-specific. Because the current
-protocol fixes none of the eventual canonical observable, momentum/domain
-metadata, contact/edge prescription, or output units, choosing one would
-select the candidate rather than preregister its comparator. No comparator is
-frozen.
+Because the current protocol fixes none of the eventual canonical observable,
+momentum/domain metadata, contact/edge prescription, or output units,
+selecting an external response formula would select the candidate rather than
+match an already frozen candidate. No comparator is frozen.
 
 ### 4. Causal-record durability / recoverability — `MISSING`
 
@@ -236,10 +335,9 @@ continuum/concurrency bridge if load-bearing, a public canonical candidate,
 and a published same-alpha comparator.
 ```
 
-The bounded search returned generic QED, circuit-QED measurement-record, and
-information-theory uses of "record"; none matched completed-record persistence
-or quasi-local recoverability as a published QED/SM observable with an
-equation, order, uncertainty, and units. No comparator is frozen.
+No quantitative canonical observable, domain, uncertainty, or unit exists
+yet. An exact-identity comparator cannot be selected before that object is
+defined. No comparator is frozen.
 
 ### 5. Charged spectrum / thresholds / momentum response — `MISSING / SPLIT`
 
@@ -252,8 +350,8 @@ the derived charged spectrum and every threshold entering the response;
 decoupling and matching rules;
 ```
 
-For a charged-mass or mass-threshold candidate, the 2025 Particle Data Group
-Standard Model review, Sec. 10.2.3, p. 6, states:
+For an elementary charged-fermion mass candidate, the 2025 Particle Data Group
+Standard Model review, Sec. 10.2.3, printed p. 7, states:
 
 ```text
 Only the nine fermion masses ... and four independent variables ...
@@ -263,19 +361,19 @@ are "physical" and have to be taken from experiment.
 Publication:
 `https://pdg.lbl.gov/2025/reviews/rpp2025-rev-standard-model.pdf`,
 S. Navas et al., *Phys. Rev. D* 110, 030001 (2024) and 2025 update.
-Using the candidate mass itself as a comparator input would be a
-candidate-specific identity, not a distinct same-alpha prediction.
+Using that candidate mass itself as a comparator input would be a
+candidate-specific identity, not a distinct same-alpha prediction. This
+finding does not classify every charged composite, bosonic, or bound-state
+mass.
 
-For the momentum-response branch, the bounded screen included Aoyama et al.,
-*Phys. Rev. D* 83, 053002 (2011), Eqs. (8)-(9), DOI
-`10.1103/PhysRevD.83.053002`, and Bonciani, Mastrolia, and Remiddi,
-arXiv:`hep-ph/0307295`, QED vertex form factors at arbitrary momentum
-transfer. These are possible formula classes only. The current family has not
-fixed the species, momentum/domain record, current normalization, mass and
-threshold inputs, or canonical observable, so no candidate-compatible
-formula/order/uncertainty payload can be frozen.
+For every remaining spectrum, threshold, or momentum-response branch, the
+current family has not fixed the species, momentum/domain record, current
+normalization, mass and threshold inputs, or canonical observable. Therefore
+no exact-identity formula/order/uncertainty payload can be frozen. Within this
+scoped family inspection, this is a missing-interface finding, not a claim that
+related QED formulae do not exist.
 
-### 6. Electron magnetic anomaly — conditional fixed payload
+### 6. Electron magnetic anomaly — fixed payload, candidate branch refuted
 
 The theory does not yet claim this output. 
 `BID_CONSOLIDATED_HOSTILE_AUDIT_MATRIX_V005.md:71` states:
@@ -291,8 +389,7 @@ It is not an anomalous magnetic
 moment and is not extracted from a scalar effective action.
 ```
 
-The comparator payload is nevertheless formula-complete for a future
-electron-anomaly output:
+The comparator payload remains formula-complete as a frozen audit record:
 
 ```text
 comparator_id =
@@ -309,7 +406,7 @@ observable =
   dimensionless electron magnetic-moment anomaly `a_e`
 
 observable_definition =
-  publication Eq. (72)
+  publication Eq. (72), definition only
 
 master_expression =
   publication Eq. (74)
@@ -327,37 +424,58 @@ weak_and_hadronic_payload =
   publication Eqs. (82)-(85), exactly as printed
 
 alpha_input =
-  the identical sealed symbolic `alpha(0)` token used by BID;
+  the identical sealed symbolic `alpha(0)` token used by BID under
+  `alpha(0) = 1/(4 pi kappa_Thomson)`;
   no CODATA-adjusted alpha value is loaded
 
+non_alpha_inputs =
+  the fixed CODATA-2022 input vintage underlying Eqs. (82)-(85);
+  no candidate-specific update or refit
+
+weak_hadronic_alpha_treatment =
+  hold the printed Eqs. (82)-(85) additive terms fixed;
+  substitute the shared alpha token only in Eq. (75);
+  this is a disclosed fixed-vintage convention, not a claim that every
+  implicit higher-order alpha dependence vanishes
+
 sigma_comp =
-  publication Eq. (87), intrinsic theory standard uncertainty apart
-  from uncertainty in the fine-structure constant
+  publication Eq. (87), held as a fixed-vintage constant intrinsic theory
+  standard uncertainty apart from uncertainty in the fine-structure constant;
+  it is not rescaled as a function of the shared alpha token
 
 units =
   dimensionless `a_e`
 
 allowed_conversion =
-  publication Eq. (72) only
+  none; the canonical candidate must already be dimensionless `a_e`;
+  signed `g_e` and `|g_e|` candidates fail this payload's identity check
 
 later_coefficient_substitution =
   forbidden
 ```
 
-The publication gives the relevant formulae verbatim:
+The publication supplies the master expression at Eq. (74), the QED series at
+Eq. (75), and its intrinsic theory-uncertainty statement at Eq. (87):
 
 ```text
 ae(th) = ae(QED) + ae(weak) + ae(had)                         (74)
 ...
-The QED contribution may be written as [the n-indexed series] (75)
+The QED contribution may be written as
 ...
 The theoretical uncertainty of the electron anomaly (apart from
-uncertainty in the fine-structure constant) ...                  (87)
+uncertainty in the fine-structure constant) is dominated by two contributions
 ```
 
-No term is evaluated here. A future prediction must first derive the same
-physical electron observable from the sealed theory output, with its own
-uncertainty, rather than relabel an existing scalar coefficient.
+No term is evaluated here. Q-28 bars this branch as a current Slot-18
+candidate. If Q-28 ever reopens, the exact physical electron observable would
+still have to be derived from the sealed theory output, with its own
+uncertainty, rather than by relabeling an existing scalar coefficient.
+
+The fixed weak/hadronic terms and fixed Eq. (87) uncertainty make this payload
+deterministic and auditable, but they are explicit fixed-vintage
+approximations. If later authority requires every implicit alpha dependence or
+an alpha-dependent recomputation of `sigma_comp`, this payload fails closed;
+it may not be silently repaired after a prediction.
 
 ## Bounded negative method
 
@@ -411,8 +529,11 @@ formulae requiring a candidate-specific fitted coefficient or refit;
 formulae lacking a frozen observable/domain/unit/uncertainty interface.
 ```
 
-The negative is bounded to those roots, search families, publications, and
-exclusions. It is not a claim that no related equation exists anywhere.
+This publication screen is discovery evidence only. The five `MISSING`
+verdicts above do not assert universal literary absence; they fail closed
+because the theory-side canonical observable identity is not yet fixed. The
+screen is bounded to those roots, search families, publications, and
+exclusions.
 
 ## Status
 
@@ -420,13 +541,23 @@ exclusions. It is not a claim that no related equation exists anywhere.
 RETURN_VERDICT = MISSING SPECIFICATION
 families_reviewed = 6
 formula_available_families = 1
-candidate_compatible_comparator_missing_families = 5
-pre_universe_timing_condition_satisfied = false
+formula_payload_missing_families = 5
+presently_candidate_compatible_families = 0
+unused_identified_with_sealed_lineage_clause = true
+third_admissibility_clause_registered = true
+electron_anomaly_branch_refuted_by_clause3 = true
+current_six_family_all_three_condition_screen_nonempty = false
+eligibility_stage_executed = false
+empty_eligible_set_declared = false
+source_citable_before_universe_construction = true
+comparator_payload_preregistered_before_prediction = true
+older_V011_cited_wording_claimed_satisfied = false
 comparator_expression_evaluated = false
 mu_comp_computed = false
 sigma_comp_computed = false
 D_computed = false
-candidate_eligibility_asserted = false
+candidate_eligible_declared = false
+candidate_ineligibility_recorded = true
 measured_value_comparison_performed = false
 prediction_attempted = false
 alpha_computed = false

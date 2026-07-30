@@ -1112,6 +1112,197 @@ rejects the recorded custodian limitation as insufficient for a published claim.
 
 ---
 
+## Q-26. "What energy is conjugate to a causal diamond's proper time?"
+
+Also asked as: how do we settle the sqrt(2)? Misner-Sharp or Brown-York? What fixes the record interval's
+energy?
+
+**RULING: NEITHER — AND THE DICHOTOMY IS THE WRONG SHAPE.** Both are BOUNDARY energies, and the gate
+rejects both because the diamond "is the support of a CTP history difference, not a material timelike
+boundary." **That rejection generalizes: no quasilocal boundary energy can be right for a region with no
+boundary.** The `sqrt(2)` is the residue of asking a boundary construction to do a non-boundary job.
+
+**A THIRD CLASS EXISTS AND WAS NEVER CONSIDERED: the diamond's MODULAR HAMILTONIAN** — the generator of
+the modular automorphism group of the diamond algebra in the given state. Built from (region, state);
+needs no boundary, no boundary conditions, no reference spacetime. No competing member of its class.
+
+NOT A FREE CHOICE — two theorems: for a FREE MASSLESS field the modular flow of a double cone is
+GEOMETRIC, the flow of the conformal Killing vector preserving the diamond with the tips as fixed points
+(Hislop-Longo); and its normalization is fixed by KMS, not by a subtraction convention. The conversion to
+proper time is exact and derived, `tau = R tanh(s/2)` on the central worldline, mapping the full modular
+parameter onto the tip-to-tip interval.
+
+**BOUNDED NEGATIVE — modular theory is absent from this program.** Roots parent tree + supervision, types
+md/json/py, exclusions node_modules + external/ + custodian_private: modular Hamiltonian 0, modular flow
+0, modular automorphism 0, conformal Killing 0, double cone 0, Hislop 0, Casini 0, Bisognano 0,
+Wichmann 0, entanglement Hamiltonian 0; Tomita 2 (incidental, GNS), Unruh 1.
+
+GATE'S FIVE CONDITIONS, SCORED: 1 plausible (K generates its own flow); 2 hard, with a named candidate
+bridge (the causal-diamond first law relating area variation to `delta<K>`, NOT in this corpus); 3 partial
+(relative entropy makes vacuum subtraction intrinsic); **4 FAILS NAIVELY** — the conjugate parameter is
+MODULAR time, not proper time, **but with an exact derived conversion rather than an ambiguity**; 5 open.
+
+WHAT IT WOULD BUY: the corpus asserts `|Delta S_record| = E_R T_R` as a product rule; modular theory's
+exact statement for a region is the entanglement first law `delta S = delta<K>`, an identity. The relation
+the program asserts would become a theorem.
+
+**STATUS: PROPOSAL, PART-PROVABLE, NOT ADOPTED, DOES NOT DISCHARGE SLOT 1.** Four limits attached, the
+binding one being that geometric modular flow is a free/conformal result — **whether the sealed
+stationary quasifree in-state is in the applicable class must be CHECKED, not assumed.** Also flagged and
+deliberately NOT pursued: the modular periodicity is `2 pi` and the corpus marker is `pi hbar`; selection
+by numerical resemblance is the numerology fence.
+
+PROPOSAL AT: `PROPOSAL_MODULAR_CONJUGATE_ENERGY_2026-07-30.md`.
+
+REOPENS/CLOSES IF: the in-state check fails (candidate does not reach the applicable stage), or the
+gravity bridge is imported by principal act, or a fourth class of conjugate object is named.
+
+---
+
+## Q-27. "What does 'unused' mean in slot 18?"
+
+**RULING: `unused` IS the sealed clause at `BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md:2080-2089` —
+"be absent as an outcome or target from the complete historical lineage" — with "complete historical
+lineage" operationalized by the scope V011 rule 11 already defines for the contamination audit (all
+accessible repository history, attachments, logs, prompts, tickets, browser-history exports).**
+PRINCIPAL ACT, 2026-07-30. Supersedes Q-23's open state.
+
+**THIS IS AN IDENTIFICATION, NOT A DEFINITION.** Both halves are sealed text that was in the corpus
+throughout; what was missing was the statement that they are the same condition. The weaker act was the
+one available: a lane may not define its own admissibility predicate, and a principal should not invent
+one when the clause already exists.
+
+TEST LICENSED: a bounded search over the rule-11 scope returning zero occurrences of the candidate
+observable as an outcome or target; roots and exclusions stated, FILE LISTS reported.
+
+F-U1: if the rule-11 scope proves unbounded or unsearchable in practice, the identification fails and
+`unused` returns to undefined — report that rather than substituting a narrower scope.
+F-U2: the stronger reading (never CONSUMED by the derivation, whether or not it appears in the record) was
+considered and NOT adopted. A candidate that passes the lineage test but is later shown to have shaped the
+construction is not protected by this ruling and must be escalated.
+
+RULING AT: `SLOT18_ADMISSIBILITY_PRINCIPAL_DECISION_2026-07-30.md`.
+
+REOPENS IF: F-U1 or F-U2 fires.
+
+---
+
+## Q-28. "Can a precision observable be a slot-18 candidate?"
+
+Also asked as: is `D >= 5` meaningful on the electron anomaly? Why did the eligible set collapse?
+
+**RULING: NO — A THIRD ADMISSIBILITY CLAUSE IS ADDED.** PRINCIPAL ACT, 2026-07-30.
+
+> An observable is admissible only if the comparator's own predictive uncertainty is not so far below any
+> plausible BID deviation that a `D >= 5` difference would be automatically in conflict with established
+> measurement.
+
+**WHY: on the electron magnetic anomaly — the ONLY family with an available comparator payload
+(`formula_available_families = 1`) — the test inverts.** QED and experiment agree to ~10 figures, so
+`sigma_comp` and `sigma_meas` are minute; any BID prediction differing by more than a whisker gives `D`
+far above 5, and any difference that large is already excluded by measurement. **`D >= 5` is therefore
+passed by a refuted theory and failed by a correct one.** The apparent escape via a large `sigma_BID` cuts
+the other way: a prediction too uncertain to conflict with QED is too uncertain to make the distinctive
+claim FINAL-CLAIM requires.
+
+**FENCE POSTURE: it is a condition on comparator PRECISION, never on a measured central value.** `D`
+already admits `sigma_meas` into its denominator, so admitting uncertainties into an admissibility test is
+the posture the protocol already takes. No measured central value enters.
+
+APPLIED AT THE ELIGIBILITY STAGE, before the beacon selects — not at collection (so no re-collection) and
+not after selection (which would be selection-by-outcome).
+
+**EXPECTED IMMEDIATE CONSEQUENCE, stated rather than discovered: applying clause 3 today most likely
+leaves ZERO admissible families**, and "an empty eligible set fails closed." That is an honest outcome,
+not a defect. The correct response is to look for observables satisfying all three clauses, **not to relax
+the third.**
+
+F-C3: if clause 3 cannot be applied without consulting a measured central value, it breaches the
+comparison fence and must be WITHDRAWN — report the breach, do not soften the clause to fit.
+
+FINDING AT: `FINDING_D_TEST_DEGENERATE_ON_PRECISION_OBSERVABLES_2026-07-30.md`; ruling at
+`SLOT18_ADMISSIBILITY_PRINCIPAL_DECISION_2026-07-30.md`.
+
+REOPENS IF: F-C3 fires, or a formulation is found that preserves the intent without a precision condition.
+
+---
+
+## Q-29. "What exactly is the missing stitching / continuum rule?"
+
+Also asked as: why can't a finite-cell answer be called physical? What blocks the continuum limit? Is
+there a stitching principle anywhere?
+
+**RULING: IT IS NOT A MISSING CONTINUUM PRINCIPLE. IT IS TWO NAMED COHERENCE CONDITIONS, AND THE MEASURE
+THEY ACT ON IS ALREADY DERIVED AND FORCED.** Established 2026-07-30 by re-typing, not by derivation.
+
+**THE MEASURE IS DONE.** `STAGE8_T7_CODEX_BATTERY_TIER2_RETURNS_V001.md:86-97`, DERIVED:
+`<xi,xi>_(2,ell) = sum_(mu<nu) V_cell/(ell_mu^2 ell_nu^2) xi_(mu nu)^2` with
+`xi_(mu nu) = ell_mu ell_nu F_(mu nu)`; "each cell contributes `V_cell sum F^2`"; "general coframe =
+pullback by `wedge^2(e^-1)` times `|det e|`"; and its own summary — "**NO inverse weight, NO ad hoc
+weight, NO residual shape scalar ... the measure is forced, not chosen.**" The per-cell contribution is
+already in additive extensive form, and its coframe transformation is already a pullback.
+
+**WHAT IS MISSING IS TWO OBJECTS, NAMED IN THE SAME PLACE:** "the sealed RESPONSE-MAP PULLBACK on common
+refinements; and BOUNDARY-SUBEXTENSIVE INVARIANCE over `C_ref`", with
+`cellulation_independence_proved = false`. Corroborated at
+`STAGE8_CORRECTED_STATUS_MECHANISM_OPTIONS_WITH_COSTS_V001.md:27`.
+
+*** AND ONE OF THE TWO IS ALREADY CHARTERED. *** Boundary-subextensivity IS the extensivity obligation —
+`STAGE8_RL2B_OVER_CHARTER_AND_BLIND_ROUTE_FINDING_V001.md:106` states it as "(ii) boundary corrections
+subextensive at a certified...", and `STAGE8_RL2B_UNIFORMITY_REFUTED_RESULT_V001.md:161` lists CONNECTED
+EXTENSIVITY as the fourth of R-L2b's four obligations. **So the genuinely unattacked half is (i), the
+response-map pullback on common refinements.**
+
+**FOUR CONSUMERS FOR ONE PAIR OF CONDITIONS:** Q-22's rank 1 (a total finite triple, which would make the
+coefficient absolute and the floor unnecessary); every finite-cell stiffness route (the 07-27 sealed
+failure rule); and lane 2's tier-1 slot-18 families, whose stated requirements — "regulator/refinement and
+packing independence", "the many-cell limit, long-wavelength locality, frequency convergence, packing
+independence" — ARE these two conditions.
+
+WHY THE FRAMING MATTERED: "no derived stitching rule exists" is true and was read as *a continuum
+principle is missing*. An obligation described as a missing principle attracts no work; "prove the
+response map commutes with refinement" is a stated target with a known shape.
+
+DOES NOT ESTABLISH: that (i) or (ii) is provable. F-2 still forbids pinning the cellulation, and R-L2b
+carries a refuted-uniformity result whose bearing on (ii) is not assessed here.
+
+RESULT AT: `RESULT_STITCHING_RULE_DECOMPOSED_2026-07-30.md`.
+
+REOPENS IF: (i) or (ii) is proved or refuted, or a third missing condition is named.
+
+---
+
+## Q-30. "Does the modular-Hamiltonian candidate apply to this construction?" — CLOSES Q-26
+
+**RULING: NO. NOT_APPLICABLE.** Established 2026-07-30 by Codex lane 1 under paste 136
+(`STAGE8_MODULAR_CONJUGATE_ENERGY_LIMIT1_APPLICABILITY_RESULT_V001.md`,
+`73a5a36c9de72a476fcb5f8dacd1615383c05a6dc4d9407c8e7406265a9fcd94`, `spec_amended = false`).
+
+Q-26's limit 1 was the binding one and it fired: **the free/quasifree state is only the free SUBGATE.**
+`Gamma_K` requires the completed **interacting** source-record-gravity CTP object, not the flat free-field
+local algebra of a standard double cone. Hislop-Longo's geometric modular flow is a free-field theorem
+about the local algebra of a double cone; neither the state nor the algebra at the applicable stage is in
+that class.
+
+**WHAT DIES:** the modular Hamiltonian as a candidate for the conjugate energy in this construction; any
+use of `tau = R tanh(s/2)` as the record's modular-to-proper-time conversion; and the suggestion that the
+`sqrt(2)` dissolves by better typing. No spec amendment was made and none should be.
+
+**WHAT SURVIVES, and it is only the negative half of Q-26:** both Misner-Sharp and Brown-York remain
+rejected by the gate's own reasoning, and that rejection still generalizes to every quasilocal BOUNDARY
+energy, since the diamond is a CTP history-difference support. **So the conjugate energy remains
+unidentified and the candidate class is now one narrower.** Q-26's bounded negative (modular theory absent
+from the corpus) also stands as a fact about the corpus.
+
+Section 2.2 of `STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001` is unchanged and correct as written: the required
+conjugate energy does not exist yet, and the spec does not choose.
+
+REOPENS ONLY IF: a modular characterization is derived for the interacting completed object rather than
+imported from the free case. **Do not reopen it by locating a free subgate and arguing from there** — that
+is the move this ruling refuses.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
