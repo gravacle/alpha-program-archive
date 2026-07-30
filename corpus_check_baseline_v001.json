@@ -26,12 +26,12 @@
   "yellow_counts": {
     "cannot_fail_checks": 2,
     "deleted_content": 543,
-    "hardcoded_claim_flags": 2927,
+    "hardcoded_claim_flags": 2926,
     "orphaned_result": 1146,
     "relay_sequence_head": 3,
-    "scope_declaration": 107,
+    "scope_declaration": 100,
     "substring_certification": 6,
-    "superseded_path_hardwire": 548,
-    "unsourced_quantitative_claim": 16
+    "superseded_path_hardwire": 518,
+    "unsourced_quantitative_claim": 15
   }
 }

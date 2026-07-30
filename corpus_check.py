@@ -176,6 +176,20 @@ def refuse_custodian_root(path: Path) -> None:
         raise SystemExit(f"REFUSING custodian_private root: {resolved}")
 
 
+# Directory trees that are byte-copies of an authoritative root scanned elsewhere.
+# A mirror is a second physical copy of one logical corpus, so resolve() cannot dedupe it;
+# counting it would double every metric derived from the mirrored content. Populated by
+# roots_from_args and empty whenever the authoritative root is the mirror itself.
+MIRROR_ROOTS: set[Path] = set()
+
+
+def is_mirror_path(path: Path) -> bool:
+    for mirror in MIRROR_ROOTS:
+        if path == mirror or mirror in path.parents:
+            return True
+    return False
+
+
 def walk_files(roots: Iterable[Path], suffixes: set[str] | None = None) -> Iterable[Path]:
     seen: set[Path] = set()
     for root in roots:
@@ -184,7 +198,7 @@ def walk_files(roots: Iterable[Path], suffixes: set[str] | None = None) -> Itera
         refuse_custodian_root(root)
         for dirpath, dirnames, filenames in os.walk(root):
             d = Path(dirpath)
-            if is_custodian_path(d):
+            if is_custodian_path(d) or is_mirror_path(d):
                 dirnames[:] = []
                 continue
             dirnames[:] = [name for name in dirnames if name not in SKIP_DIRS and not is_custodian_path(d / name)]
@@ -238,6 +252,11 @@ def roots_from_args(args: argparse.Namespace) -> dict[str, Any]:
     external_supervision = Path(args.supervision_root).resolve() if args.supervision_root else Path("/Users/bgm/MB Work/alpha_supervision")
     supervision_for_authority = external_supervision if external_supervision.exists() else archive / "supervision"
     refuse_custodian_root(supervision_for_authority)
+    MIRROR_ROOTS.clear()
+    archive_supervision = (archive / "supervision").resolve()
+    if supervision_for_authority.resolve() != archive_supervision and archive_supervision.exists():
+        MIRROR_ROOTS.add(archive_supervision)
+    scan_roots = [p for p in scan_roots if not is_mirror_path(p.resolve())]
     governing = Path(args.governing_root).resolve() if args.governing_root else archive / "workspace"
     refuse_custodian_root(governing)
     program_root = Path(args.program_root).resolve() if args.program_root else Path("/Users/bgm/Documents/New project/gravity_emergence_evidence_program")

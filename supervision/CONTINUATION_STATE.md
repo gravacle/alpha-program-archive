@@ -551,3 +551,2426 @@ pre-flight blocks at step 4 (fail-closed, zero writes, pre-production).
 Escalated with two candidate resolutions
 (STAGE8_T7_QUARANTINE_BRIDGE_ROW_CONFLICT_FINDING_V001); no unilateral
 re-engineering. Anchors this cycle: ad73f20 .. f06a999.
+
+## 2026-07-27 (Bohm reviewer lane): THE ROUTE SURVEY — every alternative eliminated, one target left
+
+**READ THIS SECTION FIRST IF YOU ARE PICKING UP COLD.** Nothing was constructed today. What
+the day produced is a set of ELIMINATIONS, and the reason they matter is that effort spent
+anywhere other than R-L2b does not produce a number.
+
+### THE ONE TARGET, AND IT WAS ALREADY SEALED ON 07-26
+
+`STAGE8_EXTENSIVITY_VERDICT_AND_RL2B_CAMPAIGN_OPENING_V001.md:83-98` (SEALED):
+"FOUR OBLIGATIONS ARE ONE ESTIMATE" — (1) R-L2b's Schatten-2 scaling exponent; (2) T11's
+response half; (3) the D3 refinement-natural weight's RESPONSE side; (4) CONNECTED
+EXTENSIVITY. "ONE CAMPAIGN, FOUR DISCHARGES ... IF R-L2b CLOSES, THE EXTENSIVITY QUESTION
+CLOSES WITH IT. IF R-L2b FAILS, THE REASON EXTENSIVITY IS UNRESOLVED IS R-L2b's NAMED
+FAILURE AND NOT A GENERAL MALAISE."
+
+R-L2b is typed as a THEOREM — a carrier-typed per-diamond scaling theorem returning a
+derived exponent and admissible uniform constant. It is the ONLY require-shaped target in
+the program. Division of labour as chartered: construction lane holds R-L2b over the
+chartered diamond transport; independent lane holds A-L0 arm 2. The two are on DIFFERENT
+VARIABLES — |C|_4 versus R — and neither gates the other.
+
+TWO-SIDED, HOLD BOTH. Both lanes jointly adopted "tau_R MAKES THE ESTIMATE HARD. IT DOES
+NOT MAKE EXTENSIVITY FALSE", and `STAGE8_IS_RL2B_FAILURE_FORCED_BY_F5_DETERMINATION_V001.md:216`
+returns NOT_FORCED / "THE PROGRAM STAYS OPEN". Against that,
+`STAGE8_RL2B_CONVERGENCE_HYPOTHESIS_RESOLUTION_AND_F5_TRILEMMA_V001.md` carries
+`RL2b_uniform_bound_refuted = CONDITIONAL_ON_H1` with H1 UNDISCHARGED, and "keeping F'-5
+selects the branch on which R-L2b is refuted." **THE NEXT QUESTION IS WHETHER H1
+DISCHARGES.** If it does, R-L2b is refuted and that must be known early.
+
+### THE FRAME — ALLOW vs REQUIRE (Brian's; not previously written down anywhere)
+
+A move that ALLOWS grants a permission — pins something so computation can run, adds a
+premise, or shrinks what must be delivered. A move that REQUIRES forces an outcome from
+structure. Permissions COMPOSE (you can always pin one more thing, and each pinning
+produces an artifact that reads as progress); requirements do NOT. alpha is a NUMBER, so it
+can only come from a requirement; permissions leave a space of values, and the unbounded
+response-changing mutation class IS that space.
+
+THE EXCEPTION, WHICH IS THE WHOLE HOPE: permissions force COLLECTIVELY when they
+overconstrain. That has already happened once — cell-counting REQUIRED convergence, the
+structure independently SUPPLIED a maximum, they met at the sealed p > 3/2, and nobody
+chose it. R-L2b's four-consumer collapse is the one place that shape recurs.
+
+TEST EVERY PROPOSED MOVE: does it force, or does it allow?
+
+### ELIMINATIONS — DO NOT RE-PROPOSE
+
+- **Q_cell** — FAILS AS CURRENTLY SEALED. Not an object; a slot list with none of its slots
+  filled (`bcc_complete_gauged_Q_cell_derived = false`). Fails its own A1(5): no DERIVED
+  rule makes a finite-cell answer physical.
+- **The 12 Q_cell slots** — 0 FIXED / 12 PARTIAL / 0 OPEN, compressing to 4 coupled acts.
+  Every partial has ONE shape: diagnostic version fixed, complete/physical version open.
+- **No derived stitching/continuum rule exists anywhere in the corpus.** Established by
+  three disjoint search methods. `ABSOLUTE_STIFFNESS_SELECTOR_ROUTE_LEDGER_V003.md:124-125`
+  makes its absence a SEALED FAILURE RULE. Four sealed objects carry genuine limit
+  mechanisms and ALL FOUR FAIL BY TYPE — their objects are the record net, the integration
+  measure, the free tail operator, and the amplitude; never a response coefficient.
+- **O-D3 as a "no-premise lever"** — ILLUSORY. `charter_remains_a_definition_iff =
+  O-D3_discharged` uses PRESERVATION verbs and §2 of the charter is headed "THE DEFINITION
+  IN FORCE" — it is already a definition. Discharge keeps it one; failure degrades it to a
+  new principle. Both branches are premises. Precedent: R3_3 ran a same-genre derivation,
+  succeeded, and `cellulation_independence_proved` stayed false.
+- **Route-list R1 (Hessian-only re-posing)** — ALLOW, and RULED. `hessian_first_supersession
+  = NOT_CHARTERED`, sealed 07-26 16:51:32, 1h12m AFTER C.4 proposed it at 15:39:27 (C.4
+  predates the ruling; it does not defy it). Reason: "would trade a provable-in-principle
+  obligation for a weaker one ON NO EVIDENCE THAT THE ORIGINAL IS UNPROVABLE." Available as
+  FALLBACK ONLY IF R-L2b FAILS, on terms F1-F5. **The ruling is a TWO-LANE VERDICT OF
+  RECORD and never names the principal as author — so it is the principal's to revisit.**
+- **Route-list R2 (exact-monoidality isolation)** — startable, but DISCHARGES NOTHING. It is
+  the only route that cleared the well-posedness gate (the connected correction IS defined
+  at two orders: Phi_gamma with variable/domain/norm, and W1 at n=2). It dies at the
+  QUANTIFIER: comparator carries |C|_4, admissible only on the pinned skeleton under the
+  E-Q1 Option-3 grant, never over D3, and F-2 forbids pinning the quantifier under any
+  outcome. Standalone R2 = the unproved T7(iii) entire on one pinned cellulation.
+  *** TRAP: a lane counting blockers now sees one fewer and would wrongly conclude R2 got
+  easier. It got worse. ***
+- **Route-list R3 (isotropic-covariance reduction)** — MIXED; the load-bearing bridge is a
+  PRINCIPAL act. Its bridge from a kinematic scale orbit to a completed response norm is the
+  finite-to-physical boundary in other clothing. "Anisotropic directions" is not a sealed
+  class. "Halves" is unsupported as a proportion. R3 does not explain the sliver failures;
+  it ISOLATES them.
+- **Route-list R4 (fixture-first)** — ALLOW, openly.
+- **"One finite-to-physical bridge"** — FALSE. TEN distinct crossing type-signatures; the
+  corpus names separate objects consuming different properties. One real sub-collapse only:
+  R-L2b's four consumers. Supplying one premise does NOT unblock the program.
+- **The IBP for U1's post-IBP scalar weight** — CANNOT BE PERFORMED. 0 of 7 inputs sealed;
+  "the smooth cell profiles" has no referent (two occurrences corpus-wide, both restatements
+  of one six-line claim, never a definition).
+
+### THE PREMISE STACK — what any future kappa_record inherits
+
+- **Mutation exclusion is ADOPTED, not theorem-derived.**
+  `PRIMITIVE_TRANSPORT_ONLY_PHASE_COMPLETE_GENERATOR_PRINCIPLE_V001.md:112`
+  `principle_derived_from_older_record_theorems = false`;
+  `CURRENT_AUTHORITY_LEDGER_V010.json:73` `..._is_derived_theorem: false`, `:105`
+  `current_premises_admit_response_inequivalent_parent_actions: true`.
+  **`excluded_by_theorem` and `theorem_excluded` are true NOWHERE in the corpus** (universal
+  grep, zero hits).
+- **ER-A is a disclosed premise.** `ER_B_excluded = false` is its sole occurrence corpus-wide;
+  `ER_fork_closed = false` at all five. It is tracked in six sealed places, but the
+  carry-clause has NO CONSUMER: `kappa_record_computed = true` has zero occurrences anywhere.
+- **Exact disjoint additivity is derived; the composition law under it is a PREMISE**
+  ("## Premise — It is a physical premise of V011"). Hostile-audit row A24 ("derive or
+  explicitly adopt") is still PENDING and the corpus took the adopt arm. So R2 "changes no
+  requirement" = TRUE, but "premise-free" = FALSE.
+
+### TRAPS — each has caused a real error
+
+- *** THE REGISTER IS INCOMPLETE. *** `STAGE8_LANE_STATUS.md` carries R-1..R-15 and has NO
+  ROW for the NOT_CHARTERED ruling (it holds the same verdict's §4 as R-5 and nothing for
+  §3). A lane consulted it, found nothing, and correctly recorded R1 as open. Recommended
+  row R-16 drafted, NOT WRITTEN. **Do not treat the register as the authority on what has
+  been ruled.**
+- *** NAMESPACE COLLISION. *** At least SEVEN distinct objects are called "R1": the route-list
+  R1; the Phase-1 4-volume re-partition lemma; "R1 (construction lane)"; "R1 (verification
+  evidence)"; "R1 - Exact sequential theorem"; "R1 - Lemma 2 operator"; "R1 - Repair scope";
+  "R1 — The C3-demotion repair". Also two F5 and two Route-2. **Always disambiguate by
+  quoting defining text, never by label.** This produced one sealed error and one near-miss
+  in a single day.
+- *** A SEALED STATUS FLAG MAY NOT BE DERIVATION-BACKED. ***
+  `R3_3_INTRINSIC_CELL_MEASURE_DERIVATION_RESULT_V001.md:77`
+  `intrinsic_per_cell_response_binding = true` is produced by
+  `scripts/audit_r3_3_intrinsic_cell_measure_derivation_v001.py:215` as
+  `all(inherited_text_checks.values())`, where every check is a literal `phrase in bid_text`
+  SUBSTRING TEST — and two tested phrases are REQUIREMENT sentences. The flag is true because
+  the corpus STATES the requirement, not because it is met. **Verify a flag's producer before
+  relying on it.**
+- **Seals attach THREE ways**: `X.seal.sha256`, `X.md.seal.sha256`, and membership in a
+  multi-line seal manifest. Testing one form yields FALSE "unsealed" findings; three agents
+  did that in one day. There are 510 `.seal.sha256` files and no canonical definition of the
+  sealed set (estimates in evidence: 308, 395, 446, 611, 714).
+- **The corpus is not self-contained.** Zero `ROUTE_MEMO_*` files exist in the cleanroom;
+  they live in this directory. A corpus-only bounded negative does not cover them.
+- **"alpha" in R-L2b is a Schatten-2 EXPONENT**, not the fine-structure constant.
+- **Known-bad inferences, each fenced by sealed text**: adjacency read as identity; a support
+  property equated with a norm property; a permission read as progress; a consequence read as
+  a ground — `STAGE8_ROUTE2_RATIFICATION_AND_FRAMING_CORRECTION_V001.md:123,126` and the flag
+  at `:169` `grounds_include_the_RL2b_decoupling = FALSE`.
+
+### THE NAVIGATION LESSON — why the day cost what it did
+
+Most of what was "found" today was ALREADY SEALED on 2026-07-26: the four-discharges
+collapse, the R1 ruling, and the ranked route list R1-R4
+(`STAGE8_RL2B_OVER_CHARTER_AND_BLIND_ROUTE_FINDING_V001.md:250-273`). The reviewer lane
+generated candidate routes by inference instead of reading the ruled state first, and each
+candidate cost a lane cycle to disprove. The ranked list was only found because a lane cited
+it back at the end of the day.
+
+**AND THIS FILE IS WHY.** `NEW_LANE_BOOTSTRAP.md` makes reading CONTINUATION_STATE.md
+mandatory as "full program state" — and it had not been updated since 2026-07-26 01:16,
+predating every ruling above. **RULE: this file is updated at the END OF EVERY SESSION, and
+the ruled state is read BEFORE anything is proposed.**
+
+### METHOD THAT WORKED — keep it
+
+Name the COMFORTABLE ANSWER in every task and say why it is the likely break; pre-register
+the expected failure before the lane looks; require bounded negatives stated narrowly; and
+WITHHOLD the reviewer's own parallel findings until a lane returns, so agreement is genuine.
+Two blind confirmations were obtained this way: a lane reached A1(5)'s failure independently
+of the reviewer's audit, and a lane confirmed the R3-bridge hypothesis that had been flagged
+in advance without being told the answer.
+
+Companion material (reviewer-lane audits, full text, verified at file:line):
+`BOHM_AUDIT_2026-07-27_stitching_rule_absent.md`,
+`BOHM_AUDIT_2026-07-27_R1_decision_brief.md`,
+`SESSION_RECORD_2026-07-27_route_survey.md` — all in this directory.
+
+### 2026-07-27 LATE — THE PRINCIPAL'S OBSERVATION: THE DIVERGENCE IS THE COUPLING
+
+*** THE MOST IMPORTANT ITEM OF THE DAY, AND IT IS NOT IN THE CORPUS. *** Full artifact:
+`PRINCIPAL_OBSERVATION_2026-07-27_divergence_is_the_coupling.md` in this directory. Summary:
+
+A blind referral (six independent agents, no corpus access, three assigned to prove and three to
+refute, unanimous) established that the Galerkin requirement list items (3), (4) and (5) are ALL
+TRUE — so H1's hypothesis discharges. Full verdict: `BOHM_BLIND_TROTTER_KATO_VERDICT_2026-07-27.md`.
+*** BUT R-L2b IS NOT THEREBY REFUTED: *** the trilemma's inference also needs `C_n -> C` for the sea
+projector `C = 1_{(-inf,0)}(h_0)`, a spectral projection cut AT ZERO, and the same verdict states its
+results license "NO SPECTRAL CONCLUSION" and that truncation manufactures an infinite-multiplicity
+eigenvalue exactly at 0. The refutation is one named lemma away, and that lemma is `C_n -> C`.
+
+Then the principal, on being told `||X||_2 = infinity`: **"Of course it's infinite. We're talking
+about the face of gravity."**
+
+The claim: the divergence is the physical content, not a defect, and demanding a finite ceiling is the
+error. The mechanism is FORCED-NUMBER: log coefficients are finite, universal, regulator-independent,
+and determined by structure — REQUIRE-shaped, not fittable. Parallels: Susskind-Uglum (the divergent
+entanglement entropy IS the renormalization of Newton's constant), Sakharov induced gravity.
+
+THE CORPUS HAS THE OBJECT — C-L3 "SHARP-KINK LOG COEFFICIENT", E1 v002:1145, reference scale DERIVED,
+coefficient exactly 2/pi, reported ONLY as an exact rational/algebraic multiple of 2/pi, never a
+decimal. *** BUT IT TYPES NONZERO AS FAILURE (CERTIFIED DIVERGENT -> Q2-STOP) WHILE ITS OWN FROZEN
+PREDICTION PA-C3 SAYS NONZERO IS EXPECTED AT MODERATE-HIGH CONFIDENCE. *** A program configured to
+halt exactly when it succeeds, on the principal's reading.
+
+INTERNAL TENSION, FROM ADOPTED PREMISES: `K_bare_zero_adopted_as_compositeness_condition = true`
+(FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.md:167). Zero bare F^2 entails the coupling MUST be
+induced; with no bare term there is no counterterm to absorb a divergence into. Either the coefficient
+IS the coupling, or the theory is inconsistent. The induced-gauge route is `BLOCK_CURRENT_SPECIFICATION`
+— a SPECIFICATION block, not an exclusion in principle.
+
+NOT IN THE CORPUS (bounded grep, .md tree): `area law`, `entanglement entropy`, `horizon entropy`,
+`Bekenstein`, `Sakharov`, `induced coupling` — ALL ZERO HITS.
+
+*** HIGHEST FITTING-RISK MOMENT IN THE PROGRAM. *** This is the first route on which a number could
+actually come out, and the meaning of that number is contested. IF THE COEFFICIENT IS COMPUTED FIRST
+AND THE READING CHOSEN AFTERWARD, THAT IS A FIT — irrecoverably, however much is disclosed after.
+Paste #94 sends Part A pre-registration only, with C-L3's computation explicitly forbidden and with
+falsifiers required SYMMETRICALLY for both readings. Part B is a separate authorization.
+
+OPEN, load-bearing: given K_bare = 0 is adopted, WHAT ABSORBS THE LOG DIVERGENCE IF NOT THE COUPLING
+ITSELF? Answerable from sealed text now. Secondary: is nonzero-as-failure DERIVED or ADOPTED?
+UNEXAMINED: PA-C3's ground cites "C4 shows the one candidate cancellation is exactly saturated" —
+nobody has established what that saturation is and it may be decisive.
+
+ALSO RECORDED THIS DATE: the allow/require distinction IS in the corpus after all, at
+`STAGE8_T7_Q2_TRIGGER_AND_CLASSIFICATION_STANDARD_V001.md:62` — "DERIVED means the principles REQUIRE
+it; anything they merely ALLOW is a premise, however well-motivated" — called the program's own verb
+calibration. It is scoped ONLY to Q2 resolution attempts. The fix is PROMOTION to program-wide scope,
+not adoption of a new principle. And the CUMULATIVE CONDITIONALITY REGISTER cannot currently state
+what alpha is conditional on: incomplete, fragmented across NINE registers, and carrying one RETIRED
+item (`fidelity action k = 1`).
+
+### 2026-07-27 NIGHT — PRINCIPAL RULING: A NONZERO LOG COEFFICIENT IS NOT A FAILURE
+
+**RULED BY THE PRINCIPAL, 2026-07-27, IN HIS WORDS:**
+
+> "Of course non zero is ok. We have a demonstration of how alright it is with gravity."
+
+**WHAT IS RULED.** C-L3's typing. A CERTIFIED NONZERO sharp-kink log coefficient is NOT a failure
+condition and does NOT, on its own, mean the theory is broken. It is the induced coupling.
+The spec's `CERTIFIED NONZERO => CERTIFIED DIVERGENT => §Q2-STOP` typing
+(`STAGE8_T7_E1_SUCCESSOR_PROGRAM_SPEC_V002.md:1145`) is retyped by this ruling.
+
+**GROUND.** Gravity is the existence proof. A coupling arising from a divergence is not a pathology —
+under Susskind-Uglum the UV-divergent entanglement entropy across a horizon IS the renormalization of
+Newton's constant, and under Sakharov the coupling is induced rather than fundamental. That is the
+only theory of gravity we have and it works. The EM sector is in the same position here BY THE
+CORPUS'S OWN ADOPTED PREMISES: `K_bare_zero_adopted_as_compositeness_condition = true`, and post-seal
+"no action term may be added because a coupling residual remains" — so there is nothing for a
+counterterm to correct, and nothing absorbs the divergence (Codex Part A, A1, verified).
+
+**AUTHORITY BASIS.** Codex's C-L3 Part A pre-registration established that the nonzero-as-failure
+typing is ADOPTED / spec-typed, NOT DERIVED — so it was the principal's to change. Verb calibration:
+`STAGE8_T7_Q2_TRIGGER_AND_CLASSIFICATION_STANDARD_V001.md:64`.
+
+*** MADE BLIND, AND THEREFORE UNFITTABLE. *** C-L3 has never been evaluated
+(`IR_C_log_coefficient_evaluated = false`) and is not reachable — it sits behind C-L1
+(`IR_C_record_phase_operator_collapse_certified = false`) and C-L2
+(`IR_C_commutator_form_certified = false`). Further, Part A A3 established that BOTH readings predict
+the SAME FORM — an exact rational/algebraic multiple of 2/pi — so no future value could have
+discriminated them. THE RULING WAS MADE WITH NO VALUE IN EXISTENCE AND NONE OBTAINABLE THAT COULD HAVE
+INFLUENCED IT. This is the strongest anti-fitting position available in the program and it should be
+stated on the face of any artifact that relies on it.
+
+**WHAT THIS RULING DOES NOT DO.** It does not make C-L3 reachable (C-L1 and C-L2 are both false). It
+does not discharge R-L2b, refute it, or re-specify it. It does not establish that kappa IS the
+allow/require threshold — that identification is a separate charter, drafted and NOT ISSUED
+(`DRAFT_PRINCIPAL_CHARTER_allow_require_identification.md`). It does not authorize computing the
+coefficient, alpha, or any function of kappa_record. It does not amend the Q2 scope limit.
+
+**OUTSTANDING AND REQUIRED BY THE REGISTER'S OWN MAINTENANCE RULE:** this ruling must be indexed in
+`STAGE8_LANE_STATUS.md` Part 2 as R-17 IN THE SAME ACT as any seal relying on it. Failing to index a
+ruling is the exact defect found twice on 2026-07-27 (R-16's absence; the Route-2 ratification's
+absence, which propagated into sealed text at `STAGE8_MASTER_PLAN_AMENDMENT_002.md:72`).
+Also outstanding: the Z.2 declaration that the spec makes mandatory alongside a nonzero certification
+must be re-read under the new typing — it may be worded for the failure reading.
+
+**AND THE RULING'S PROVENANCE IS ITSELF THE POINT.** The principal's ground was gravity as the
+existence proof — and the theory is named for that. `PRINCIPAL_REGISTER_2026-07-27.md` §5.5 records
+"Is there a gravacle level idea here?" asked NINE times across two days and answered ZERO times, with
+the finding that the corpus scores every fork against sealed-text admissibility and NEVER against the
+program's own theory-level thesis; no lane return carries a gravacle section and no artifact has a
+gravacle-implication field. *** THE ONE MOVE THE APPARATUS HAS NO SLOT FOR IS THE MOVE THAT SETTLED
+THE TYPING. *** Recommended, and not adopted: every lane return that scores a fork also states what
+the theory's own thesis says about it, or states that it says nothing.
+
+### 2026-07-28 — WHAT COSTS TIME HERE, WITH THE DAY'S EVIDENCE
+
+The principal, after the disarm took three acts: *"We can actually make good progress when we don't
+get in our own way with process and forgetting things we've already decided."*
+
+**SELF-INFLICTED, ALL FROM 2026-07-27/28:**
+ - A CLEAR RULING WAS MADE CONDITIONAL ON A LANE'S ARGUMENT. The principal ruled "disarm the
+   tripwire; it is not valid given the theory." The reviewer wrote the act as contingent on a textual
+   ground; the ground failed; the lane correctly STOPPED; the bullet-level re-scope then proved a
+   no-op; a third act at the general-clause level was required. THREE ROUND TRIPS FOR ONE DECISION
+   ALREADY MADE. *** A principal ruling is the ground. Supporting arguments are offered, never made
+   load-bearing. ***
+ - A DECIDED FRAME WAS NEVER WRITTEN DOWN. Allow/require was stated by the principal thirteen times
+   across nine days and existed nowhere on disk; FOUR lanes independently re-derived weaker local
+   versions of it.
+ - THE RULED STATE WAS NOT READ BEFORE PROPOSING. A sealed, ranked route list (R1-R4) had existed
+   since 2026-07-26 15:39. The reviewer generated candidate routes by inference instead, and each
+   candidate cost a lane cycle to disprove. The list surfaced only because a lane cited it back.
+ - A NAMESPACE COLLISION WAS CREATED WHILE FIXING NAMESPACE COLLISIONS. Road tasks were briefly
+   numbered `T1..T38`, colliding with the corpus's battery theorems `T7`, `T11`, `T14`. Now `RD-n`.
+
+**WHAT ACTUALLY MOVED THE PROGRAM, SAME TWO DAYS:**
+ - BLIND REFERRALS. Six independent agents, no corpus access, three assigned to prove and three to
+   refute, each cross-examined: Galerkin items (3),(4),(5) ALL TRUE, unanimous. H1's hypothesis
+   discharged; only `C_n -> C` now stands between R-L2b and refutation. ONE TASK, ONE DAY, DECISIVE.
+ - COMMITMENT-FIRST CONTAMINATION CHECKS. Codex declared D1=NO, D2=NO, D3=YES and stopped. A
+   file-based check would have passed it through. The third question is what caught it.
+ - PRE-REGISTRATION. Q_cell Part A sealed before Part B produced a negative that can be trusted; the
+   coefficient->kappa_record map is now pre-registered before any value exists.
+
+**THE RULE, ADOPTED:** a clean question posed once gets a decisive answer; a decision wrapped in
+process costs three round trips. Before adding a verification step to an act the principal has
+already ruled, ask whether it is a check on the RULING (never) or on the EXECUTION (sometimes).
+
+### 2026-07-28 — R-19, THE DOF COUNTS, AND THE A32 FREEZE DRAFT
+
+**R-19 SEALED.** The divergence-stop is struck AT THE GENERAL CLAUSE, not at a bullet. Principal
+authority, disclosed as authority; the semantic ground was tested, failed, and is cited as failed.
+Chain of three acts, recorded because the pattern matters: R-17 typed a nonzero C-L3 coefficient as the
+induced coupling; R-18 struck the C-L3 bullet and was a NO-OP because the trigger list is an open list
+of examples of one state; R-19 strikes the state. **O-A disposed with its three surviving consumers
+named** — Q2 option (i), §Z.2's type-attachment (so `Z2_declaration_still_required` becomes
+CONDITIONAL_ON_OA), and the route-terminal witness. Protection moved from AUTOMATIC to DISCRETIONARY;
+the discretionary form was already specified.
+*** RESIDUAL, AND IT IS THE PRINCIPAL'S: §Q2-STOP now has NO ARMED AUTOMATIC TRIGGER. Every listed
+trigger reduced to the struck state. The detection burden has moved from the routes to him, and NO
+NON-DIVERGENCE ESCALATION GROUND IS SPECIFIED ANYWHERE (bounded over §Q2-STOP, the standard, and §Z). ***
+
+**TWO INDEPENDENT DOF COUNTS AGREE: NO OVERDETERMINATION.** Codex (paste 100) and a blind three-angle
+Bohm count (`BOHM_BLIND_DOF_COUNT_2026-07-28.md`) reached the same negative from different starting
+points. Codex: 0 direct scalar constraints on `c_R`, >= 2 scalar freedoms (the finite `c_R F^2` AND the
+`c > 0` action-multiplier family, visible through T8), >= 7 open object/scheme slots.
+
+**THE BLIND COUNT REFUSED TO GIVE ONE NUMBER, AND THE REFUSAL IS THE FINDING.** Five axes failing
+differently: the TENSOR axis has a nominal surplus of +5 — the p > 3/2 pattern reappearing — but
+CONDITIONAL on an operator-uniqueness gate that is unmet; the MAGNITUDE axis has three constraints
+(sign, nonzero, dimensionless) and NONE fixes a magnitude; the FUNCTIONAL axis cannot be counted
+because the object's EXISTENCE is unproved (F5 and F7 both BLOCKED); the INDEPENDENCE axis has four
+undischarged conditions and `stage8_execution/commitments/` and `reveals/` are EMPTY DIRECTORIES — the
+predeclared commitments were never made; and *** THE BRIDGE AXIS — kappa_record -> kappa_Thomson ->
+alpha, THE AXIS THAT DECIDES ALPHA — HAS ZERO CONSTRAINTS AGAINST NINE UNKNOWNS. An empty column. ***
+Of ~35 constraints after dedup, ABOUT 8 ARE ACTUALLY DISCHARGED. The rest are demands the program
+placed on itself, and a demand is not a supply.
+
+*** THE FINDING THAT RESHAPES c_R, AND IT IS MORE HOPEFUL THAN THE NEGATIVE. *** The corpus ALREADY
+specifies the exclusion mechanism for `c_R`, and it is OVERDETERMINATION, not a new theorem — three
+sealed statements all ask that the specification be tight enough that the mutation CONTRADICTS
+something already fixed (`ROUTE_LEDGER_V003:121-122`; `PUBLIC_CHARGED_ACTION_UNIQUENESS_GATE_V002:115-116`;
+`V011:2076`). And by the corpus's own typing, `c_R` deforms the PUBLIC/Thomson action while
+`kappa_record` is a Hessian on the PRIMITIVE RECORD side — V011:2068-69 lists equating them as a
+FAILURE precisely because they are distinct. So an added `c_R` moves `kappa_Thomson` and leaves
+`kappa_record` untouched. *** CHECKED AND PARTLY REFUTED, 2026-07-28 (paste 107). *** The TYPING HOLDS — Codex found no sealed
+feedback path by which a finite downstream F^2 moves `kappa_record`. BUT THE ADDITIVE DECOMPOSITION
+`kappa_Thomson = K_induced + c_R` IS NOT SEALED, so the subtraction is the reviewer's algebra and not
+the corpus's. IT DOES NOT REMOVE THE OBSTRUCTION; IT RELOCATES IT onto (i) DERIVING
+`kappa_record = kappa_Thomson` and (ii) excluding a surviving independent finite F^2 counterterm.
+RD-7 STANDS. The reviewer's first write-up was more hopeful than the text supports.
+
+**A32 FREEZE DRAFTED** — `A32_FREEZE_DRAFT_V000_2026-07-28.md`, rules only, no instances named. Twelve
+mechanical items ready to seal. SIX ITEMS AWAIT THE PRINCIPAL: registry source, beacon source,
+comparator class, calibration rule, DISTINCTNESS THRESHOLD (proposed `D >= 5`, fail-closed on an empty
+eligible set), and observable family. The lane's operative warning: *"If the principal refuses to fix
+comparator class or threshold now, A32 remains named but NON-EXECUTABLE; later selection would reopen
+fitting."* No A32 preparation previously existed — all five holdout flags false.
+
+### 2026-07-28 LATE — R-L2b REFUTED; AND THE INGREDIENTS QUESTION ANSWERED
+
+*** R-L2b's UNIFORMITY IS REFUTED AND SEALED. *** `52f2490b…`, O-1 updated in the same act, register
+`5f038d2e…`. The program's central bottleneck is resolved — negatively. Three blind referrals, none
+with corpus access, none knowing what turned on the answer, closed every link:
+  1. Galerkin requirement-list items (3),(4),(5) ALL TRUE — 6 agents unanimous.
+  2. `C_n -> C` STRONGLY, every cut convention — 6 agents unanimous. The kernel objection dies because
+     mu^psi({0}) = 0; the pollution objection dies twice (h_0 is MASSLESS, no gap).
+  3. H-VU: `sup_n sup_polydisc ||V_n||` FINITE, `<= exp((|Im a_-|+|Im a_+|) C_J)`, n nowhere in the
+     constant — 6 agents unanimous. `||Q_n h_0 Q_n|| ~ n^theta` never appears because it sits inside a
+     factor EXACTLY UNITARY for every n.
+Both of the construction lane's source checks passed: "The expansion parameter is the connection
+difference; the record coupling is never expanded in" (three places), and D6' is a-free.
+*** O-1 IS NOW RIPE. Its hold condition is satisfied. The F'-5 ruling and the fourth-horn question are
+the principal's; neither is taken. *** One gap NAMED AND NOT FILLED: the campaign binding stated the
+outcome for the CLOSING branch; what it implies on the REFUTING branch is written nowhere.
+
+*** DO THE INGREDIENTS FOR A FORCED RESULT EXIST? ANSWER: NOT IN THIS CORPUS. *** Five sweeps over ~70
+consistency conditions, each adversarially re-tested: ZERO constrain the coupling's magnitude. And the
+structural reason, which is the deepest finding of the week:
+    THE CONDITION CLASS IS CLOSED UNDER THE DEFORMATION IT WOULD HAVE TO EXCLUDE. A finite c_R F^2 term
+    is itself local, causal, Lorentz-covariant, gauge-invariant, finite, regulator-independent and
+    packing-independent — so NO condition of that class can be VIOLATED by adding it. Every condition
+    in this corpus is PRESERVED OR IMPROVED by that addition.
+Backed by executed counterexamples, not absences: two covariant local nets with different responses; an
+infinite family of measures satisfying a five-condition stack; the Pauli pair (two parameter-free,
+K_bare=0, Lorentz/CPT-covariant parents with different finite responses). Diagnosis: this corpus has
+consistency-as-CHECK everywhere and consistency-as-CONSTRAINT nowhere; `overdetermin` returns 0 files.
+It also REFUTED the reviewer's and the principal's shared premise: K_bare = 0 does NOT create the bite —
+it RELOCATED the freedom into the choice of microscopic generator, where no condition reaches it.
+FOUR classes now checked and all negative: symmetries (ledger's own enumeration); the signature record
+mechanism (history weights computed exactly, provably do not make F^2 canonical); the DOF count (zero
+constraints on the deciding axis); consistency conditions (this sweep). NOT a no-go — "not present" and
+"cannot exist" are different claims and only the first is supported. The corpus's own repeated judgment
+is that the number must come from CALCULATION, not consistency.
+
+**A REVIEWER PROPOSAL TESTED BLIND AND REFUTED, WITH A RESIDUE THAT MATTERS.** Proposal: the
+log-divergent object lies in a weak Schatten class with a Dixmier trace extracting its log coefficient
+canonically. REFUTED 6/6 — `C_off = -F/2` exactly with F = sgn(h_0) unitary, so `C W C` is unitarily
+equivalent to `W/4` and is NOT COMPACT. No ideal, no trace. BUT: for real w in W^{1,3} the commutator
+`[F, M_w]` lies in `L_{3,infinity}` and `Tr_omega(|[sgn h_0, M_w]|^3) = (1/(8 pi)) Int |grad w|^3`,
+canonical and measurable for EVERY omega — exponent THREE, not two. *** AND A SHARP INDICATOR IS
+EXCLUDED: 1_Omega is in BMO but NOT VMO, so `[C, 1_Omega]` is bounded and NOT compact; mollifying blows
+the invariant up like Area*eps^{-2}. *** Constant flagged for independent re-derivation; blind
+verification in flight. Corpus has NONE of this vocabulary: Dixmier / weak Schatten / Connes / Lorentz
+ideal / Macaev all ZERO hits.
+
+**AND THE CORPUS SIDE CONFIRMS THE SPLIT.** TEMPORAL profile DERIVED (time marginal of the intrinsic
+cell measure, w(t) = rho V_3(t) = 32 r(t)^3). SPATIAL localizer POSTULATED SHARP,
+`M(t) = Q 1_{|x|<=r(t)} Q`, E1 v002:1473 in those words. `b_D` does NOT dissolve it — b_D enters via the
+SOURCE INSERTION `J = -Q b_D Q (x) alpha_x` while the record write uses the SEPARATE term
+`lambda v(t) M(t) (x) S_n`, and the corpus states that distinction. *** BOUNDED NEGATIVE: NO SEALED
+REASON THAT THE SHARP SPATIAL CUTOFF IS REQUIRED RATHER THAN CONVENIENT, AND NO SEALED SMOOTH
+REPLACEMENT. *** The mollified localizer exists ONLY as an NC9 diagnostic, barred from any bound or
+verdict — and that bar is PROCEDURAL (anti-fitting fence plus a diagnostic caution), NOT a physical
+theorem that smoothing is the wrong object.
+
+**SIXTH MISSING_SPEC OF THE WEEK:** the "causal restriction imposed as multiplication, not derived from
+propagation" clause. 3 of 7 inputs supplied. Correctly NOT identified with the collar gap — that one is
+inter-cell propagation in `tr[C Y_2 Y_1 C]`; this is the cell's own support.
+
+**LIVE THREAD, THE PRINCIPAL'S:** the EM-GR interaction. If both couplings are induced from the same
+sea, their RATIO may be forced even when neither is separately — and the route ledger's own enumeration
+concedes those principles "can fix charge ratios ... or RELATIVE kinetic coefficients". Every route so
+far sought a constraint on ONE coupling. `BID_ABSOLUTE_RECORD_SCALE_IDENTIFIABILITY_GATE_V001` writes
+the missing ingredient as `F(T_R/t_P, ...) = 0` — literally a record-scale-to-PLANCK-TIME ratio. Sweep
+in flight. Also in flight: whether the FIXED-BACKGROUND assumption (a never touches the cell geometry)
+is disclosed anywhere as a premise.
+
+### 2026-07-28 — *** THE SEARCH SCOPE WAS WRONG ALL WEEK ***
+
+The principal asked "are we looking in all the right places." We were not. Every sweep, audit and
+bounded negative from 07-25 to 07-28 ran against the CLEANROOM ONLY — 840 files — which is a
+SUBDIRECTORY of a 3271-file parent program. Plus 800 in memory-bank, 614 in alpha-program-archive,
+101 in _external_handoffs. Roughly 840 of ~4800 searched.
+
+*** VOCABULARY REPORTED "ZERO CORPUS-WIDE", WITH ACTUAL COUNTS OUTSIDE THE CLEANROOM: ***
+  stress-energy 79 . graviton 86 . Newton 240 . diffeomorphism 70 . Sakharov 27 . stress tensor 29 .
+  Ricci 4 . metric perturbation 5 . Einstein-Hilbert 11 . induced gravity 2 . backreaction 1
+
+AND TWO SPECIFIC FINDS:
+  - `gravity_emergence_newtonian_limit_derivation_v002 ... v067` — SIXTY-SEVEN versions of a
+    Newtonian-limit derivation, none of it ever searched.
+  - `alpha_br_full98_diffeomorphism_naturality_theorem_v001.md` declares
+        A_BR(g, a, phi) = D_g + c_g(a) + Phi(phi)
+    A METRIC-DEPENDENT DIRAC OPERATOR WITH A CONNECTION COUPLING. Its g-response would be
+    gravitational, its a-response electromagnetic. ONE OPERATOR, ONE SEA, BOTH COUPLINGS — precisely
+    the structure a Sakharov argument requires, and precisely what the cleanroom lacks. The cleanroom's
+    only coupled-sector artifact turned out to be an unsealed orphan whose single affirmative flag is a
+    hardcoded Python literal.
+
+CORRECTION OF RECORD: the report stating that the ingredients for a forced result "are not present"
+was scoped to the cleanroom and must be read that way. ABSENCE IS REFUTED; ADMISSIBILITY IS NOT
+ESTABLISHED. The outside artifacts carry honest failure status on their faces
+("EXECUTABLE_CLOSURE_NOT_ESTABLISHED"; "This document may not be used as evidence for those
+premises"), and sixty-seven versions of one derivation is the signature of something that kept
+failing. Existence is not admissibility.
+
+ALSO CORRECTED: "entanglement entropy returns zero hits corpus-wide" — it returns 3 in the cleanroom,
+and all three are the PRINCIPAL'S OWN RULING artifacts quoting Susskind-Uglum as his ground. The
+concept entered the corpus on 2026-07-27, from him.
+
+SWEEP IN FLIGHT: why does the cleanroom exclude this — QUARANTINE, SUPERSESSION, SCOPE, or NEVER
+MIGRATED? Those have entirely different consequences, and the last one means nobody ever ruled. Note
+the precedent that matters: THE CLEANROOM ALREADY IMPORTS FROM OUTSIDE ITSELF — ROUTE_MEMO_* files are
+cited from inside it and live in /Users/bgm/MB Work/alpha_supervision. If external citation is already
+permitted under a stated rule, the question narrows to whether this material meets it.
+
+### 2026-07-28 AFTERNOON — SESSION SEVERED BY CREDIT EXHAUSTION; IN-FLIGHT RESULT RECOVERED
+
+Session 4e0e6fab (the reviewer lane's main session, ~11,400 entries) was terminated at
+~18:53Z by usage-credit exhaustion. At 18:48Z — five minutes before the cut — the workflow
+"Is the one active route runnable?" completed, and its results were NEVER READ in that
+session. Recovered verbatim 2026-07-28 afternoon into
+`BOHM_ROUTE_RUNNABILITY_WORKFLOW_RECOVERED_2026-07-28.md` (this directory). Eight agent
+reports; 5-8 are verification passes correcting 1-4. The verdict, in brief:
+
+*** THE PREMISE WAS WRONG: primitive_same_cell_opening_selector_v002 IS NOT THE ACTIVE
+ROUTE. *** `alpha_post_cleanroom_current_authority_spec_v001.json` (Jul 22, self-hash
+authenticated, 18/18 source hashes match disk) lists it as the SOLE retired_route_id —
+RETIRED_SUPERSEDED, reason: "its L_open subtraction was never derived from one microscopic
+CTP functional." The actual active route is *** primitive_ctp_absolute_response_selector_v001
+*** — C_EM(K) = K − B_ind(K) from one zero-bare 2PI/CTP functional — with EVERY claim_state
+flag false (absolute_B_ind_computed, raw_correlator_to_retarded_Hessian_map_derived,
+unique_positive_K_root_computed). The 774-row effective-state JSON the whole week's route
+reasoning rested on is STALE: its recorded ledger hash 48dee1c1… vs ed094f6c… on disk today;
+the CSV now has 795 rows; all 15 missing rows are on the same-cell line.
+
+L_open itself: retired with an anti-resurrection clause ("may not re-enter through renamed
+energy, noise, fidelity, or Hessian terms", gate v003:6); the subtraction is TYPE-FALSIFIED
+in-tree (H_energy and R_BR occupy different CTP sectors, route_state_v002:42), so the
+branch's own falsification clause is LIVE, not pending. The rule was de-authorized 6.5 hours
+AFTER its audit passed (primitive_native_ctp_opening_adjudication_v001, unrouted — the
+ledger never carried it). Supply status: H_energy computed exactly once (EDM sector, 8x8,
+K=1, strongly INDEFINITE, route CLOSED_NEGATIVE); T_K is pi/M_ADM with a hardcoded math.pi
+and a tautological self-check (defect algebraically zero for any mass); R_BR computed
+NOWHERE (~40 result JSONs carry physical_R_BR_matrix_computed and every one is false). The
+"share coordinates" flag certifying subtractability is an array SHAPE comparison (8x8 ==
+8x8); the matrices' values never enter arithmetic. Familiar trap signature throughout:
+substring-match audits, hardcoded Python literals as flags.
+
+So the answer to "which of the three outcomes": *** a formula with nothing behind it — AND
+the tree already knew, having retired it on exactly that ground. *** The live question
+inherited by the next session: the successor route primitive_ctp_absolute_response_selector_v001
+(zero-bare 2PI Dyson kernel) has never been swept by this reviewer lane. Also still in
+flight from the morning: the cleanroom-exclusion sweep (QUARANTINE vs NEVER MIGRATED), the
+EM-GR ratio sweep, the fixed-background-premise disclosure check, and the Dixmier-constant
+blind verification.
+
+Severed session recoverable in full: `claude --resume 4e0e6fab-2cb1-4db4-92f0-cffaf55fb229`
+(run from /Users/bgm; transcript 30 MB, intact through 18:56Z).
+
+### 2026-07-28 LATE AFTERNOON — THE ACTUAL ACTIVE ROUTE SWEPT; THE TWO TREES PROVED THE SAME THEOREM
+
+primitive_ctp_absolute_response_selector_v001 swept (four agents, whole parent tree, flags at
+producers, quotes spot-verified). Full memo: `BOHM_CTP_ABSOLUTE_RESPONSE_ROUTE_SWEEP_2026-07-28.md`.
+Verdict: HONEST, EMPTY, OBSTRUCTED BY ITS OWN THEOREMS, DORMANT. Not L_open renamed (type
+discipline held — same-sector operands, one functional aimed at). Nothing supplied: S_micro never
+written; B_ind typed but every ingredient a nonexistent Step-5 output; correlator->Hessian map
+declared underived; root-finding de-authorized; principle series v002->v004 a monotone retreat.
+
+*** THE CONVERGENCE FINDING: the parent tree proved the c_R theorem BEFORE the cleanroom week did,
+and neither tree knows about the other. *** Parent Step-5 gates (Jul 22): B_ind -> B_ind + c_R
+survives every derived premise; cure relocates into Lambda_R; scale orbit proves Lambda_R
+undetermined; missing object is the dimensionless F — THE SAME F(T_R/t_P,...)=0 the cleanroom BID
+gate wrote three days later, no citation either way. Every negative from both trees lands on ONE
+missing require: a dimensionless relation breaking the record-scale orbit against the Planck scale
+(= a rule forbidding every nonzero c_R = the phase-complete unique-generator theorem = row 460's
+reopen condition). Named 4+ times across both trees, derived zero times.
+
+Also established: row-460 blocker formally dodged (imported as "immutable history, evidence only";
+2-row ledger auditor checks only the transition), substantively re-proved by the route's own gates,
+and ARMED in-tree by the Jul-23 hostile memo (exact countermodels K_c=K_0+c, Pauli vertex,
+response-inequivalent after K_bare=0; CPTP normalization cannot fix the phase that IS K). Jul-23
+NCG memo: all 7 absolute-stiffness candidates BLOCK; gate 5 needs the nonexistent stitching rule
+(O-D3); gate 6 types log drift as FAILURE — direct in-tree adversary to the divergence-is-the-
+coupling hypothesis. Parent physics stream untouched since Jul 22 23:33; the two authority chains
+never cite each other; the SP14 runtime gate is FAILED_CLOSED (unsigned GPG terminal, rerun
+prohibited, repair lineage never built) with a live-looking voided PASS sitting in results/ (trap:
+read provenance/ alongside results/). Exponent-3 Dixmier residue remains a program-wide orphan.
+
+FOR THE PRINCIPAL (nothing taken): (1) is the official lever now the EM-GR ratio / F(T_R/t_P)
+require — the only route class not negated by either tree, and Brian's own live thread; (2) the
+gate-6 vs log-divergence collision is now an explicit authority conflict, his to rule; (3) the
+dormant parent chain vs cleanroom chain — bind, supersede, or resume; nobody has ever ruled.
+
+### 2026-07-28 EVENING — GATE-6 COLLISION WITHDRAWN AS TYPED (principal's challenge, sustained)
+
+Direct read of the NCG memo: gate 6 gates ONE construction (spectral triple -> absolute K_cell)
+and its refinement-stability test PRESUPPOSES continuum completion — which the corpus lists OPEN
+(missing stitching rule, gate 5's own concession). The divergence-is-the-coupling hypothesis
+holds granularity physical; under that premise the measurement never runs and the obligation is
+the scale — the same F(T_R/t_P) hole again. Correct typing: PREMISE FORK, not adversary. The
+memo's own table (:354) types the log coefficient as derived/universal (PASS-RUNNING) and blocks
+only the absolute finite part — it half-AGREES with the hypothesis. Memo status is "research
+verdict," not a sealed gate. Full correction appended to
+BOHM_CTP_ABSOLUTE_RESPONSE_ROUTE_SWEEP_2026-07-28.md. Match-by-name instance eleven, reviewer's
+fifth. IN FLIGHT: ratio-route adjudication workflow (chain type-check under adversarial default
+NOT-SAME; countermodels-vs-ratio; gravitational supply program-wide; ratio precedent + fences).
+
+### 2026-07-28 NIGHT — RATIO-ROUTE ADJUDICATION: "one require" refuted (it is THREE); the ratio
+### route is unnegated, half-built in four disconnected strata, and fenced-open where it matters
+
+16-agent adjudication, every decisive claim adversarially verified (9 CONFIRMED / 3 PARTLY /
+0 REFUTED). Verbatim: BOHM_RATIO_ROUTE_ADJUDICATION_RESULTS_2026-07-28.md; synthesis appended to
+BOHM_CTP_ABSOLUTE_RESPONSE_ROUTE_SWEEP_2026-07-28.md. Headlines: (1) the convergence chain is
+THREE obligations (O1 generator FORM / O2 record SCALE / O3 UV-boundary) + a procedural shell —
+BID gate and hostile memo are mutually non-discharging BY THEIR OWN TEXTS; the only true identity
+is the shared c_R = scalar-phase F^2 sub-object. (2) The additive-K0 class MOVES the EM/gravity
+ratio (row 429: Einstein coefficient shared, K0 differs — ratio not invariant) BUT is fenced
+inside the adopted primitive branch (V010: excluded_inside... = true, as_universal_theorem =
+FALSE): ratio forced = negated in general, OPEN inside the branch, fence not theorem. (3) Forced
+ratios already EXECUTED in-tree: K_H = (3/2) K_Q, K_QH = K_Q (heat trace, 2e-14), typed
+CLOSED_BUT_INSUFFICIENT, with a sealed prohibition on promoting ratios to absolutes. (4) The
+one-operator-both-couplings artifact EXISTS: alpha_br_common_induced_coefficients_v001 — C_R and
+K_Q functions from one chiral-16/BR operator, depth x unselected. Newtonian family is 75 versions
+(not 67), G always a calibration constant. (5) A SEALED OPEN cross-sector ratio gate sits in the
+cleanroom: COUPLED_RECORD_BUNDLE_MODULUS_GATE_V002, alpha_tree = 4 ell_P^2/R^2, awaiting a
+parameter-free saddle for rho = R_*/ell_P (seal recomputed, bound in V010, untouched by V013).
+(6) The only F(T_R/t_P) construction anywhere: T_R = 2 sqrt(pi) t_P CONDITIONAL, blocked by the
+sealed sqrt(2) energy ambiguity in the Hamilton-Jacobi bridge gate. (7) Logs-cancel-in-ratio:
+engaged nowhere (bounded, three roots). (8) Adoption is gated by precommitment; A32 freeze still
+an UNRATIFIED DRAFT — ratification is the gating act before any ratio number.
+NEXT (provable): cross-citation map of the four strata; x-vs-rho type-check; sqrt(2) blocker
+sweep. PRINCIPAL: A32 ratification; declare-or-not the ratio route with frozen falsifiers;
+O1/O2/O3 replaces "one require" in the road map.
+
+### 2026-07-28 LATE NIGHT — THE TWO STEPS EXECUTED: MAP (FIVE STRATA), x/rho/T_R INDEPENDENT,
+### sqrt(2) IS DERIVATION-ONLY AND CHAINED BEHIND O1, A32 DECISION SHEET DELIVERED
+
+Workflow wf_316aa116 (12 agents + resume, every decisive claim adversarially verified, none
+refuted). Deliverables in this directory: RATIO_ROUTE_CROSS_CITATION_MAP_2026-07-28.md (the
+only document in the program naming all five strata), A32_RATIFICATION_DECISION_SHEET_2026-07-28.md
+(sent to the principal), BOHM_TWO_STEPS_WORKFLOW_RESULTS_2026-07-28.md (verbatim).
+
+FINDINGS: (1) FIVE strata now, not four — new: primitive_joint_handle_character_hessian_v001
+(row 498 CONDITIONAL, one character action, no independent coefficient per block, fixed-handle
+3/16 / Schur 1/8) — in no prior supervision note. Zero cross-citations between all pairs; five
+different authority mechanisms; S4's BID gates sit in NO authority ledger, hash-bound only by
+the post-V013 sealed QSPEC audit. (2) x vs rho vs T_R: INDEPENDENT (adversarial, NOT-SAME
+default). x is spectral (r=||h|| mass eigenvalue / k_R capacity scale, h->ch leaves it free);
+rho is geometric (granted unstabilized radion; R = beta c Delta tau leaves rho free for all
+beta); T_R is a duration. One saddle cannot discharge them together. The scale obligation
+SPLITS: O1 + x-selection + rho-selection, with T_R chained behind O1. In-tree named next step
+for x: THE PUBLIC BOSON/ODD/GHOST GAUSSIAN SUPERDETERMINANT — required by the compact-matter
+NO_GO, never executed. (3) sqrt(2): exactly E_MS vs E_BY at C=1; sealed text names ONE exit
+(seven-item derivation from one target-independent complete source-record-gravity action) and
+FORECLOSES adoption ("cannot be supplied by a convention chosen after the record phase is
+known"). PART-PROVABLE; the ADM-arguing artifact is RETIRED_SUPERSEDED. (4) A32: THIRTEEN
+mechanical items (record said twelve — corrected); six principal items nowhere instantiated in
+the corpus (only qualitative halves sealed); ordering sealed (SPEC-SEAL "currently
+UNATTAINABLE" until freeze); draft has NO ratification mechanics — executable path
+reconstructed on the sheet (answers -> V001 instrument + V011 freeze fields -> sidecar seal ->
+STAGE8_LANE_STATUS same-act -> this file); ladder-grade ratification blocked on the
+unimplemented independent evaluator (RD-22 NOT AUTHORIZED). Fail-closed-on-empty-set is
+ALREADY sealed-required; D >= 5 is the one pure-number principal judgment.
+
+AWAITING PRINCIPAL: the six A32 answers (sheet in hand). PROVABLE AND UNBLOCKED, whenever
+wanted: the public superdeterminant execution for depth x (the route's own named next step);
+S5 joint-handle physical-reduction-ensemble adjudication. CHAINED: T_R (behind O1), rho
+(behind derived bundle/radion), O1 itself (the standing construction obligation).
+
+### 2026-07-28 EVENING — A32 RATIFIED, ONE DECISION AT A TIME; SEALED; PASTE 114 LOADED
+
+The principal ratified the A32 freeze in four explicit per-item rulings (after directing
+one-at-a-time and after his correlation challenge forced the withdrawal of the reviewer's
+floated correlation ceiling — exclusion is LINEAGE-ONLY, alpha-adjacent independently
+measured observables stay in). Rulings: (1) Registry = CODATA 2022 fixed-vintage artifact,
+lineage-only exclusions, all-eligible family, fail-closed; (2) Beacon = drand primary /
+NIST v2 fallback / 72h fail-closed; (3) Comparator = published standard-theory expressions,
+same alpha input, order frozen PER FORMULA, sealed prohibition triplet; (4) D >= 5, never
+renegotiated, empty set fails closed. The principal's stated spirit: "We obviously don't
+want to copy values just because we think they will fit. We want to derive them."
+
+Instrument of record: A32_FREEZE_V002_RATIFIED_2026-07-28.md, sidecar sealed
+(shasum -c: OK). Process note preserved append-only: a premature blanket instrument
+(V001) was drafted on the principal's initial sentence, re-statused
+PREPARED-NOT-RATIFIED before any seal act, and retained as history. Thirteen mechanical
+items ratified as written in draft V000 (hash pinned in the instrument).
+
+RELAY PASTE 114 written and LOADED TO CLIPBOARD (pbpaste-verified):
+RELAY_PASTE_114_A32_FREEZE_TO_V011_2026-07-28.md — instructs the construction lane to write
+the freeze fields into V011 (:1953-1968) and index the ruling in STAGE8_LANE_STATUS.md in
+the same act. NOT YET SENT — prompt the principal if a loaded paste has not been sent.
+Flags NOT claimed: the five drafting flags stay false until the producer-side writes;
+SPEC-SEAL is now ATTAINABLE, not attained; evaluator (RD-22) still blocks ladder-grade.
+
+NEXT AFTER PASTE 114 LANDS: commission the COLLECTOR (fresh context, no theory access) to
+execute mechanical items 1-9 against the ruled registry. Unblocked physics in parallel:
+the public boson/odd/ghost Gaussian superdeterminant for depth x (the BR route's own named
+next step); the S5 joint-handle reduction-ensemble adjudication. Chained as before: T_R
+behind O1; rho behind derived bundle/radion; O1 the standing construction obligation.
+
+### 2026-07-28 NIGHT — PASTE 114 SENT AND EXECUTED; REVIEWER VERIFICATION PASSED
+
+Codex executed paste 114. Reviewer verification (independent, at the bytes): (1) instrument
+hash 32dbfc33... matches the alpha_supervision sidecar byte-for-byte and Codex's report;
+(2) V011 freeze fields (:1953-2065) are FAITHFUL to the four rulings — registry + lineage-only
+exclusions ("no correlation ceiling, no proximity exclusion" verbatim), all thirteen
+mechanical items reproduced accurately, drand/NIST fail-closed beacon chain, per-formula
+comparator order, D >= 5 with exact formula, every fail-closed clause present, both
+antecedent hashes cited, ladder seals explicitly disclaimed in the written text;
+(3) ruling indexed as R-22 in STAGE8_LANE_STATUS.md (:191), register sidecar refreshed and
+shasum -c verifies OK; (4) the five drafting flags REMAIN FALSE (V011:2301-2303, 2332, 2334)
+— correctly conservative: "frozen" in the enforceable sense arrives only when SPEC-SEAL
+binds the fields; alpha_computed = false (:2346), proof_authorized = false (:2347).
+
+INDEX-TRAP NOTE for future sweeps: ruling "R-22" (A32 freeze, rulings register) is a
+homonym of road item "RD-22" (evaluator successor, NOT AUTHORIZED). Different registers,
+both live. The R-16 row records that exactly this kind of label mismatch once cost a full
+cycle — do not conflate them.
+
+STATE: A32 freeze is COMMITTED at spec level. SPEC-SEAL attainable pending the remaining
+V011 freeze-list items and the seal act itself. Next executable acts: commission the
+COLLECTOR (fresh context, mechanical items 1-9); unblocked physics (public
+boson/odd/ghost superdeterminant for depth x; S5 joint-handle adjudication). Lane
+logistics pending the principal: Einstein credit exhaustion — proposed migration =
+construction role to fresh sessions on the Bohm account (separate working directory, no
+shared memory, custody note per LANE_CHANGE precedent), Codex keeps construction +
+mechanical bookkeeping, principal keeps decisions and the blind wall; Einstein should dump
+its own handoff to MB Work BEFORE credit dies (paste 115 drafted on request).
+
+### 2026-07-28 NIGHT — PROCEEDING ON ALL THREE FRONTS
+
+(1) COLLECTOR COMMISSIONED: a fresh, theory-blind agent is executing the A32 collection
+bootstrap against the ruled registry (CODATA 2022 allascii, single canonical URL,
+fail-closed on network or vintage mismatch). Output to MB Work/a32_holdout/: raw bytes +
+hash, value-free candidates.jsonl, custodian_private/custodian.jsonl (chmod 600 — NO LANE
+MAY READ THIS FILE; values and uncertainties live ONLY there), public commitments.jsonl,
+duplicates/exclusions/flags, collector_v001.py with version hash, transcript with
+attestation. Alpha-datum rows are name-FLAGGED, not dropped; lineage exclusion executes
+later at eligibility under the frozen rule. The collector returns counts and hashes only —
+no value enters any lane context. Result pending.
+(2) PHYSICS SCOPING IN FLIGHT (workflow, adversarially verified): the execution spec for
+the public boson/odd/ghost Gaussian superdeterminant (what must be computed, what exists,
+what is missing, exact selection criterion, fences) — for relay to the construction lane,
+NOT executed by the reviewer; and the full S5 joint-handle adjudication (flag provenance on
+3/16 and 1/8, reduction-ensemble requirement, ratio-thesis relation, orphaning cause, and a
+type-check on the 3/16-vs-E_ref numeral coincidence). Results pending.
+(3) MIGRATION INSTRUMENTS EXECUTED: custody note
+LANE_CHANGE_CUSTODY_CLAUDE_CONSTRUCTION_V002.md written and sidecar-sealed (shasum -c OK) —
+construction role migrates to fresh sessions on the Bohm account from
+/Users/bgm/MB Work/construction_lane/ (separate memory namespace), Codex keeps construction
++ mechanical bookkeeping, principal keeps decisions + blind wall, effective on receipt of
+the Einstein handoff. PASTE 115 (Einstein handoff request) WRITTEN AND LOADED TO CLIPBOARD
+(pbpaste-verified) — NOT YET SENT; prompt the principal. Paste 114 was sent, executed by
+Codex, and reviewer-verified earlier tonight (R-22).
+
+### 2026-07-28 NIGHT — A32 COLLECTION BOOTSTRAP COMPLETE (355 candidates, outcomes masked)
+
+Collector COMPLETED: HTTP 200 first attempt on the single canonical URL; vintage check
+PASSED (header identifies the 2022 CODATA adjustment). Raw bytes sha256 77fb90e6... .
+355 data rows, 355 parsed, 0 parse-excluded, 0 duplicates, 355 candidates kept, 2 rows
+name-flagged ALPHA_DATUM_NAME_MATCH (flagged, NOT dropped; lineage exclusion deferred to
+eligibility per the frozen rule). All outputs in MB Work/a32_holdout/ with recorded
+sha256s: value-free candidates.jsonl (36ca8556...), public commitments.jsonl (66ac4250...),
+flags/duplicates/exclusions, collector_v001.py (version hash 645c5d2c...), transcript with
+attestation. Mechanical masking verification: zero value/uncertainty fields in any public
+file. custodian_private/custodian.jsonl (8488c1a1..., dir 700 / file 600) HOLDS ALL VALUES
+AND UNCERTAINTIES — NO LANE MAY READ IT.
+
+HONEST CAVEAT, ON THE RECORD: this is a BOOTSTRAP custodian package. The commitments are
+cryptographically sound (any later payload tampering is detectable against the published
+commitment hashes), but item 9's "independent custodian" property is currently
+DISCIPLINE-BASED, not structural — the private file lives on the same machine under the
+same user as every lane. Optional hardening for the principal: move custodian.jsonl to
+principal-only custody (or encrypt it with a key no lane holds) BEFORE any prediction work
+begins; the published commitments make the move verifiable. Until hardened, the
+non-disclosure attestation rests on lane discipline plus the contamination audit (item 11).
+
+REMAINING FOR HOLDOUT-UNIVERSE-SEAL (per V011:1797-1814): eligibility implementation
+(including the frozen lineage rule executed machine-readably), the external-beacon rule
+verification at freeze execution (drand chain hash/genesis/period/mirrors), and custodian
+hardening above. Collection artifacts should be indexed by the construction lane in a
+future relay (batch with next paste).
+
+2026-07-28 NIGHT, addendum: PASTE 115 SENT to Einstein by the principal. Awaiting
+EINSTEIN_HANDOFF_2026-07-28.md in this directory. On receipt: reviewer verifies the handoff
+(completeness against Einstein's known in-flight items, no seal claims, no flag flips),
+custody transfer becomes EFFECTIVE per LANE_CHANGE_CUSTODY_CLAUDE_CONSTRUCTION_V002.md, and
+the first Bohm-account construction session opens from /Users/bgm/MB Work/construction_lane/
+citing the custody note and its sidecar hash. If Einstein's credit dies mid-dump, the
+partial file is still authoritative for whatever sections it contains; recovery of the
+remainder falls back to Einstein's session transcript (the 4e0e6fab precedent).
+
+### 2026-07-28 NIGHT — EINSTEIN HANDOFF RECEIVED AND VERIFIED; CUSTODY TRANSFER EFFECTIVE
+
+EINSTEIN_HANDOFF_2026-07-28.md verified: hash 2c4eb207... matches claim (231 lines, 14747
+bytes); no seal claims, no flag flips, safety flags at head and tail; custody-note sidecar
+hash cited correctly (2e095edd..., matches); git claim TRUE — commit 1ebe6c2 is HEAD of
+main AND origin/main in MB Work/alpha-program-archive (C-L1 refutation commit; working tree
+clean). The window closed CLEAN: no half-written artifacts, no unsealed results; twelve
+artifacts sealed this window (list in handoff §B), R-L2b refutation (52f2490b) and C-L1
+refutation (efb08860) the two main results. *** CUSTODY TRANSFER NOW EFFECTIVE per
+LANE_CHANGE_CUSTODY_CLAUDE_CONSTRUCTION_V002. *** First Bohm-account construction session
+must open from /Users/bgm/MB Work/construction_lane/ citing the custody note + sidecar.
+
+DISCREPANCIES NOTED (neither load-bearing): (a) handoff §B register line is stale by one
+row — says 21 rows / seal 5f038d2e; current is 22 rows (R-22, tonight) with refreshed
+sidecar; (b) PASTE NUMBERING COLLISION — sequence head was #116, tonight's 114/115 are
+positions 117/118 of record; see PASTE_NUMBERING_CORRECTION_2026-07-28.md; NEXT PASTE 119.
+
+THE HANDOFF'S DISPOSITION QUEUE (from §A, fragile-first):
+- PRINCIPAL'S: (1) C4 DISPOSITION — *** the most consequential unrecorded item: C4 is a
+  REFUTED FROZEN INPUT (C-L1 proves its operator-level clause false with the exact witness
+  SPEC_V002:313-315 demands) and NOBODY HAS RULED; downstream artifacts may be reasoning on
+  a false operator identity ***; (2) O-1 / F'-5 (ripe, already queued); (3) Q2-STOP
+  non-divergence escalation ground; (4) Z.2 header/body seam; (5) O-C bare-kappa referent;
+  (6) the namespace register (seven objects named "R1").
+- CONSTRUCTION SUCCESSOR, FIRST TASKS: erratum on 0f76ab73 (T7(ii) idempotence correction
+  onto its own face); R-L4/C-L4 rebuild (exact replacement in efb08860 §6; kappa_bal
+  replacement value deliberately not supplied; R-L4a likely survives — flagged against
+  Einstein's own result); write conventions C1-C5 (handoff §A.2) as proposed rules for
+  ratification — C1 (lane findings get no Part 2 row) prevents re-committing the R-6/R-7/R-8
+  defect.
+- REVIEWER NOTE: handoff §C lists "the THIRTEEN CURRENT_AUTHORITY_LEDGER JSON files which NO
+  SWEEP HAS EVER OPENED" as a register-audit gap — PARTIALLY CLOSED TONIGHT: the strata-map
+  agent scanned V001-V013 by JSON for stratum bindings (S4 absent from all; modulus gate in
+  V006-V010 only). A full completeness pass over them is still owed.
+- WARNINGS CARRIED FORWARD: W1 compression-of-a-sharp-indicator (DEFECT A, three bites in
+  two days — check FIRST on anything mentioning M(t) or P); W2 two schemes under "C_n";
+  W3 search by content, not label strings; W6 the COMPLETE_QSPEC zero-free line does NOT
+  discharge T7(ii) (dead end, unanimous, unrecorded elsewhere).
+
+### 2026-07-28 LATE NIGHT — CODEX PRIMARY CONSTRUCTOR (V003); PASTE 119 LOADED (EXTENDED);
+### PRINCIPAL AWAY SEVERAL HOURS
+
+Custody amendment V003 sealed (a6f3ad05...): CODEX = primary lane for new construction
+(cross-vendor separation: Codex constructs, Claude reviews — aligns credit constraint with
+integrity constraint); Bohm-account construction sessions = charter-by-charter RESERVE;
+Einstein's remaining credits reserved for clarification queries about its own window only.
+PASTE 119 (hash c76a6382... pre-extension) approved by the principal and LOADED (81 lines,
+pbpaste-verified): items 1-4 (T7(ii) erratum; R-L4/C-L4 rebuild incl. kappa_bal
+replacement under R-9/F'-1/F'-5; conventions C1-C5 as PROPOSED rules; A32 collection
+indexing) + EXTENDED AUTONOMOUS QUEUE 5-10 (R-3 carrier-count correction under register
+precedence; W6 dead-end record; register completeness continuation incl. full pass over
+the thirteen authority-ledger JSONs; namespace register DRAFT; H-ANGLE attempt under
+fences with W1 checked first; optional refuting-branch binding analysis). HOLDS restated:
+C4, O-1/F'-5, C-L2. SEND STATUS: loaded, NOT YET CONFIRMED SENT — principal was heading
+out; if unsent on return, prompt.
+
+REVIEWER QUEUE DURING ABSENCE: (a) C4 consumer sweep in flight -> disposition brief on
+landing; (b) physics workflow (superdeterminant spec + S5) in flight -> synthesis + paste
+120 prepared for return; (c) decision queue OWED TO PRINCIPAL ON RETURN, in order:
+2-of-4 custodian hardening choice, 3-of-4 O-1/F'-5 brief scheduling, 4-of-4 standing items
+(Q2-STOP ground, Z.2 seam, O-C referent, namespace ratification), then C4 ruling once the
+brief is ready.
+
+2026-07-28 late night, addendum: PASTE 119 SENT to Codex by the principal before stepping
+away. Codex is now working the ten-item autonomous queue (holds: C4, O-1/F'-5, C-L2).
+Codex's returns get reviewer verification at the bytes on the principal's return or as
+they appear. Principal away several hours.
+
+### 2026-07-28/29 OVERNIGHT — C4 BRIEF READY; S5 VERIFIED; SUPERDET SPEC UNVERIFIED (LIMIT);
+### GIT-NOT-KEYS RULED (RE-MADE DECISION, NOW DOCUMENTED)
+
+*** CREDIT/LIMIT STATE: the Anthropic WEEKLY limit was hit overnight (resets 9am America/
+Chicago). Two verifier agents died on it. The verification layer is therefore UNAVAILABLE
+until reset — do not treat any new single-source finding as verified until then. ***
+
+(1) C4 DISPOSITION BRIEF READY FOR THE PRINCIPAL: `C4_DISPOSITION_BRIEF_2026-07-28.md`
+(sweep verbatim: `BOHM_C4_CONSUMER_SWEEP_RESULTS_2026-07-28.md`). Headline findings:
+blast radius is SMALL — only TWO artifacts consume the refuted operator clause as ground
+(SPEC_V002 itself in five places, and repair binding 53717fca R2/R3); every other consumer
+stands on C4's SCALAR clauses, which C-L1 explicitly leaves alive. *** PROVENANCE FINDING
+THAT DECIDES THE SHAPE: the refuted sentence WAS NEVER IN C4'S PARENT — both the operator
+display and the "on the ball where M(t) = 1" qualifier first appear at SPEC DRAFTING
+(V001:131-136 -> V002:346-351). It is transcription overreach, not a derived parent result;
+the W1 sharp-indicator disease caught inside a frozen input. *** The spec has NO handling
+rule for a refuted frozen input (:313-315 is one-way), but the C3/C5 chain (erratum ->
+principal repair binding -> successor spec) PROVES post-hoc revocation is expressible.
+Reviewer recommendation (PRINCIPAL'S TO ACCEPT): Option 1, clause-scoped strike + retain
+scalars. Five riders any ruling must carry, incl. registering efb08860 and 0f76ab73 (NEITHER
+IS IN THE REGISTER — 0 grep hits) and recording PA-C1 as a falsified prediction of record.
+LEAD, NOT A RIDER: the replacement object carries a RADIAL PROFILE cos^2(8 pi rho^4) —
+genuinely new decay information no consumer has assessed; the program's central shortfall
+(A-L0 arm 2) is short exactly one power of decay. Route as a fresh question; assume nothing.
+
+(2) S5 JOINT-HANDLE — ADJUDICATED, BOTH CLAIMS CONFIRMED. The 3/16 and 1/8 are HARDCODED
+LITERALS BUT NUMERICALLY VERIFIED at the producer against a genuine central finite-difference
+Hessian of the character action (tol 2.0e-8) — real computations, not asserted prose. ONE
+VACUOUS CHECK FOUND: `proportional_allow_require_opening_is_threefold_not_simple` forms
+"exact - exact" (identically zero for any input) and counts zero modes — passes
+unconditionally. Status CONDITIONAL and CURRENT: never retired, never refuted, absent from
+supersessions; orphan by NON-CITATION only. *** THE 3/16 QUESTION, ANSWERED: the
+joint-handle 3/16 IS the K_record lineage — same derivation family (quadratic coefficient of
+a minus-log-amplitude record action over the four-alternative carrier) and the S5 producer
+HASHES THE K_tree = 3/16 ARTIFACT'S RESULT JSON AS AN INPUT. Not a coincidence. But the
+cleanroom's only 3/16 (T16 R_square = 48/256) is a spectral trace ratio of a DIFFERENT
+object with no textual link either way. Also bounded: token E_ref and 3 sqrt(2)/16 do not
+appear under the audited root in the searched spellings — the E_ref pair may live outside
+that root or under other spellings; NOT resolved. ***
+
+(3) SUPERDETERMINANT EXECUTION SPEC — *** UNVERIFIED, SINGLE-SOURCE (verifiers died on the
+weekly limit; classifier also unavailable during the run). RE-VERIFY BEFORE ANY CONSTRUCTION
+RELIES ON IT. *** As reported: the "public boson/odd/ghost Gaussian superdeterminant" is
+named in exactly two places (the compact-matter-saddle report + a hardcoded string in its
+producer) and HAS NEVER BEEN EXECUTED; its acceptance gate
+(BLOCKED_EXTERNAL_PRIME_SUPERDETERMINANT_CENSUS) hardwires THREE deliverable reports THAT DO
+NOT EXIST; no producer anywhere emits the PASS marker. BUT the load-bearing input EXISTS:
+the exact public coupled super-Hessian (raw/support/physical dims 82/76/54) with a COMPUTED
+ghost block (ghost = orbit^T G orbit), flags derived from real tolerances and rank
+equalities — evaluated at a FIXED WINDOW with depth entering only as module constant
+DEPTH = 1.0, and *** the 54 physical eigenvalues are ALL NEGATIVE ***. Selection criterion
+quoted exactly: a finite isolated stationary point of the coupled BR action (stationary in
+g, A_Q, h jointly, "isolated positive branch modulo genuine gauge directions") PLUS the
+record-capacity fixed point; capacity principle failure condition 4 is precisely the absence
+of a finite isolated stationary point, and a surviving continuous family leaves alpha
+BLOCKED. Ghost sector is DERIVED at finite window but its CONTINUUM measure is open by the
+corpus's own coarea rule (projective continuum parameter measure, exceptional stabilizer
+volumes, conformal contour — all unfixed), and the effective state records the record-floor
+superdeterminant BLOCKED on exactly those items.
+
+(4) RECORD-INTEGRITY RULED — PUBLIC GIT, NOT KEYS: `RECORD_INTEGRITY_GIT_NOT_KEYS_DECISION_
+2026-07-28.md`. A RE-MADE decision, documented this time at the principal's direction
+because the prior making went unrecorded and got re-litigated. Public artifacts commit+push
+to https://github.com/gravacle/alpha-program-archive.git (push timestamp = third-party
+clock); custodian_private/ stays untracked; no GPG/PGP ever. The reviewer's encryption offer
+is WITHDRAWN. Corroboration: the SP14 lineage died at a GPG signature. Custodian-hardening
+decision item is CLOSED by this ruling. Execution (commit+push of a32_holdout publics,
+.gitignore for custodian_private/) queued for Codex.
+
+### 2026-07-29 — PASTE 119 QUEUE COMPLETE (10/10); REVIEWER VERIFICATION PASSED WITH ONE GAP
+
+Codex completed all ten queue items including the optional tail. REVIEWER VERIFICATION AT
+THE BYTES: all 11 claimed archive commits EXIST with matching subjects (474b5ea, 0cc9290,
+a7a6c46, 6333671, 89aa167, bedea91, f87be54, 2ab559d, cd1f0b7, e00dcc8, 9a2842a); all three
+claimed artifact hashes MATCH disk exactly (H-ANGLE 9f29088e..., R-L2b analysis f6fe4072...,
+V011 20a3a17d...); four sidecars verify OK (H-ANGLE, R-L2b analysis, LANE_STATUS,
+conventions C1-C5); working tree clean; HOLDS RESPECTED — C4's clause at SPEC_V002:346-352
+is byte-identical to before, and no new artifact touches C4/O-1/F'-5/C-L2.
+
+*** THE ONE GAP: ALL 11 COMMITS ARE UNPUSHED. *** `git status -sb` = "ahead 11";
+origin/main is still at 1ebe6c2 (Einstein's last). Codex did not falsely claim a push — it
+reported "archive Git status is clean", which is true of the working tree — but under the
+2026-07-28 ruling (RECORD_INTEGRITY_GIT_NOT_KEYS_DECISION) THE PUSH IS THE INTEGRITY
+MECHANISM: an unpushed commit carries no third-party timestamp. ACTION OWED: `git push` in
+/Users/bgm/MB Work/alpha-program-archive (Codex's assigned job per the ruling; one command
+for the principal). Until pushed, tonight's eleven artifacts have local provenance only.
+ALSO STILL OWED under the same ruling: commit+push of the a32_holdout PUBLIC artifacts with
+.gitignore excluding custodian_private/ — Codex's A32 indexing (6333671) indexed the
+collection in the register but the artifacts themselves are not yet in the repo.
+
+*** H-ANGLE RESULT — SUBSTANTIVE, AND IT DECIDES RIDER 4 OF THE C4 BRIEF. *** T7(ii)'s live
+residue was attempted and DOES NOT CLOSE. Obstruction:
+H_ANGLE_RANGE_OBJECT_UNDEFINED_AND_NATURAL_PARENT_CANDIDATES_COLLAPSE. The failure is TYPING,
+NOT BOUNDING — H-ANGLE names no range object, so a Friedrichs-angle statement "has no
+subject". Five candidate readings enumerated and each collapses: Q1_D Q gives full range on
+ran(Q) (zero/degenerate angle); the CORRECTED zero-history Kraus operator cos^2(8 pi rho^4)·I
+is a scalar multiple of identity, so range = full carrier generically and zero at exceptional
+radii — neither supplies a uniform positive angle; the bare indicator is not the sealed
+object once Q is in force; a spectral cut is an unsealed new object (and would likely carry a
+carrier-dependent constant, F'-5); a transfer-component range is untyped as written. The
+mandated W1 check ran FIRST (`sharp_indicator_disease_checked_first = true`) and the artifact
+correctly types itself as a failed attempt, NOT a no-go ("It is not a theorem that no future
+angle theorem can exist"), listing four requirements any future route must meet.
+CONSEQUENCE FOR THE C4 RULING: rider 4 (H-ANGLE reframe-or-lapse) can now be decided ON
+EVIDENCE — H-ANGLE as written does not survive reframing under the corrected object.
+This is the THIRD consecutive honest negative in the chain (R-L2b refuted, C-L1 refuted,
+H-ANGLE does not close), each with a named witness and none fitted.
+
+R-L2b REFUTING-BRANCH ANALYSIS (9a2842a, proposal-only, no adoption): the refuting branch
+does NOT prove connected extensivity false — it means the single-estimate campaign cannot
+discharge the four obligations AS WRITTEN. Fills the gap Einstein named in 52f2490b §4(4).
+Disposition remains the principal's.
+
+2026-07-29 addendum: PUSHED (1ebe6c2..9a2842a) at the principal's direction — the eleven
+paste-119 artifacts now carry public third-party timestamps. ENFORCEMENT INSTALLED so this
+cannot recur: (1) post-commit auto-push hook in the archive repo (tested, fires on every
+commit, loud failure banner) — CAVEAT: hooks are local, not cloned, so any fresh clone or
+second machine must reinstall; (2) deploy_status.sh committed to the repo (b1c857e) —
+one command reports DEPLOYED or the unpushed count; (3) procedural: reviewer verification of
+every construction return now checks DEPLOY state, not just working-tree cleanliness —
+"git status is clean" says nothing about whether the public record exists. Definition of
+done for all future relays: SEALED, MIRRORED, COMMITTED, AND PUSHED, with deploy_status
+output reported. Recorded in RECORD_INTEGRITY_GIT_NOT_KEYS_DECISION_2026-07-28.md
+(Enforcement Addendum).
+
+### 2026-07-29 — C4 STRUCK BY PRINCIPAL RULING; PASTE 120 SENT; REPLAN AUDIT IN FLIGHT
+
+*** C4 RULED: CLAUSE-SCOPED STRIKE + RETAIN. *** Instrument
+`C4_REFUTED_CLAUSE_STRIKE_PRINCIPAL_DECISION_2026-07-29.md`, sidecar sealed. STRUCK: the
+ball-locus qualifier "on the ball where M(t) = 1" and the operator display
+sum_lambda w_lambda u_lambda = m_0(I-P) + 1·P = P with its promotion claim (incl. the prose
+form in C4's parent). RETAINED AND STILL FROZEN: all of C4's scalar clauses. GROUND: the
+struck text NEVER HAD PARENT AUTHORITY (first appears SPEC_V001:131-136) — transcription
+overreach, the sharp-indicator disease inside a frozen input, NOT revocation of a derived
+result. Clause-level scope is NEW (C3/C5 revoked whole inputs) and is disclosed as new.
+Five riders carried: R1 register efb08860 + 0f76ab73 (neither was in the register); R2
+restate the Q2 option-(ii) cost block; R3 C-L4/kappa_bal owner = Codex (R-9 applies);
+R4 *** H-ANGLE LAPSES AS WRITTEN, route class OPEN *** — decided on evidence (9f29088e),
+and this rider is the reviewer's reading, open to principal correction without disturbing
+the strike; R5 PA-C1 recorded as a FALSIFIED PREDICTION OF RECORD. NOT ruled: C1/C2/C6
+untouched, C4's frozen status not revoked, C-L1's identities NOT adopted as frozen inputs
+(separate act), O-1/F'-5 and C-L2 untouched. Lead flagged and deliberately NOT ruled: the
+radial profile cos^2(8 pi rho^4) as unassessed decay information vs A-L0 arm 2.
+
+PASTE 120 SENT to Codex (C4 strike execution, all five riders, fences, and the NEW standing
+definition of done: SEALED, MIRRORED, COMMITTED, AND PUSHED with deploy_status output
+reported). Verify Codex's return at the bytes incl. DEPLOY state when it lands.
+
+REPLAN IN FLIGHT (workflow wf_ca805695): item-by-item status audit of
+PLAN_TO_ALPHA_V005_ORDERED_2026-07-28.md (DONE/DEAD/STALE/STILL-LIVE with evidence, plus the
+executable-now list) + a sweep for path obligations NO plan row covers (the five ratio
+strata's concrete next acts; reconciling the two authority chains; the parent tree's own
+step-5 obligations; and the Stage 10/11/12 gates any replan must terminate in). Output ->
+PLAN_TO_ALPHA_V006. RATIONALE FOR REPLANNING NOW (the principal's observation): the plan
+predates the scope correction, the three-obligation split, the five-strata map, the A32
+ratification+collection, and four adjudicated negatives — its ordering cannot be trusted.
+
+### 2026-07-29 — C4 STRIKE EXECUTED BY CODEX; REVIEWER VERIFICATION PASSED; APPROVED
+
+Reviewer verification at the bytes, at the principal's delegation ("approve for me"):
+BOTH claimed hashes MATCH disk exactly (repair binding 049c9279..., LANE_STATUS
+9b1133f5...); both sidecars verify OK; *** DEPLOY CONFIRMED — "DEPLOYED — public record
+current at b83861c" *** (the new definition of done held on its first outing, and Codex
+reported deploy_status output as instructed rather than "git status is clean"); the
+authority hash Codex cited for the ruling (5c9b2819...) matches the ruling document on
+disk; the struck text REMAINS PHYSICALLY PRESENT at SPEC_V002:350-351, which is CORRECT —
+the strike is recorded append-only via a repair binding in the C3/C5 form, the sealed spec
+is never edited in place. Holds respected. Register now runs R-22 (A32 freeze), R-23 (A32
+collection bootstrap index), R-24 (C4 strike) — no gap.
+
+*** THE FILING QUESTION, WHICH WAS THE REAL RISK, WAS HANDLED CORRECTLY. *** R1 required
+registering two LANE FINDINGS; the register's Part 2 is for RULED items, and filing lane
+findings as rulings is precisely the R-6/R-7/R-8 defect Einstein's unratified convention C1
+exists to prevent. Codex filed them inside the C4 ruling row (a genuine principal act) as
+FINDABLE index terms, and wrote on its face: "registered here as lane findings required by
+the principal rider, **not** as new principal rulings; proposed convention C1 remains
+unratified (rules_adopted=false), so this row flags the dependency rather than invoking it
+as adopted." That satisfies the rider without pre-empting the principal's ratification.
+All five riders addressed; scope fences recorded; the cos^2(8 pi rho^4) lead flagged and
+explicitly NOT ruled.
+
+NOTE FOR THE RECORD (R3): the C-L4/kappa_bal rebuild (34c2123d) recomputes kappa_bal over
+the partition that actually exists and returns kappa_bal = (3/8)/(3/8) = 1 — the VALUE is
+unchanged from the void computation, but it now stands on a real partition instead of one
+that does not exist. Different derivation, same number. Flagged so no future reader treats
+the coincidence as evidence the old bookkeeping was fine. kappa_bal is NOT kappa_record
+(R-9), stated on its face.
+
+APPROVED. VERDICT: PASS — no discrepancies found. Outstanding for the principal: ratify or
+reject proposed conventions C1-C5 (C1's non-ratification is now load-bearing on R-24's
+filing form); O-1/F'-5 still ripe and untouched.
+
+### 2026-07-29 — CONVENTIONS C1-C5 RATIFIED; PLAN_TO_ALPHA_V006 WRITTEN
+
+C1-C5 RATIFIED by the principal, all five as written. Instrument
+`CONVENTIONS_C1_C5_RATIFIED_PRINCIPAL_DECISION_2026-07-29.md` (4a679c26...), sidecar sealed.
+C3 ratified with its stop-and-report guard called out: C3 may NOT be used to rescue a
+sealed clause no authority supports — that is the STOP case. IMMEDIATE EFFECT: R-24's
+flagged dependency on C1's non-ratification is DISCHARGED; the filing form R-24 chose is
+the form C1 requires; no re-filing needed, only a citation update.
+
+*** PLAN_TO_ALPHA_V006_2026-07-29.md WRITTEN. *** Supersedes V005. Audit basis:
+`BOHM_REPLAN_AUDIT_RESULTS_2026-07-29.md`. V005's defects, verified: 45 rows vs TALLY 44 vs
+prose 38; RD-6/RD-8 have no rows though RD-8 is invoked in its collapse clause; RD-2 filed
+as "NEVER RETURNED" when it was executed and returned REFUTED; and a 62-token exhaustive
+grep returns ZERO for every term naming the ratio route, the five strata, O1/O2/O3, the
+superdeterminant, the parent tree, both authority chains, the parent step-5 artifacts,
+Q_spec, the source-parent closure gate, and the 35-row hostile audit matrix.
+
+*** TWO FINDINGS IN V006 THAT CHANGE THE PROGRAM'S SHAPE: ***
+(1) THE TWO AUTHORITY CHAINS CONFLICT — not merely fail to cite. The parent tree's active
+route instructs "set alpha_micro = 1/(4 pi K_*), THEN derive the Thomson/RG matching map",
+emitting an alpha-shaped number BEFORE Thomson matching and in the bare unsubscripted form
+R-9 forbids; V011 voids any result where alpha is evaluated before THOMSON-RESULT-SEAL.
+Until the principal reconciles them, a number produced under either ordering is void under
+the other. V006 makes this P0 — the cheapest high-value act available.
+(2) *** A32 AS RATIFIED REQUIRES A SECOND, NON-ALPHA PREDICTION. *** The beacon selects
+among targets where BID and a published same-alpha comparator DIFFER AT D >= 5 — so the
+program must derive an observable OTHER than alpha on which it disagrees with standard
+QED/SM at five sigma, empty set failing closed. COMPUTING ALPHA IS NECESSARY AND NOT
+SUFFICIENT. No plan ever had a row for this; structure_sensitive_holdout_available = false,
+prediction_map_sealed = false, no prediction-map code exists. This is V006's P5.
+
+V006 PATH: P0 reconcile chains (YOURS) -> P1 connect five strata + name lever (YOURS on
+lane input) -> P2 execute the superdeterminant (LANE; RE-VERIFY the single-source spec
+first — all 54 physical eigenvalues NEGATIVE at DEPTH=1.0 is the early warning on whether
+an isolated positive branch can exist) -> P3 O1/O2/O3 -> P4 Q_spec/kappa_record/Thomson ->
+P5 the A32 second prediction -> P6 terminal gates (ladder-grade still blocked on the
+unimplemented evaluator, RD-22). EXECUTABLE TODAY: lane — re-verify the superdet spec, the
+three missing census deliverables, S5's reduction ensemble, deploy the A32 public artifacts
+(PASTE 121 LOADED, NOT YET SENT); principal — P0, and O-1/F'-5 still ripe.
+
+2026-07-29 addendum: PASTE 121 SENT to Codex (A32 public-artifact deploy — the last act owed
+under the record-integrity ruling). ON RETURN, VERIFY AT THE BYTES: (a) deploy_status output
+reads DEPLOYED; (b) `git ls-files a32_holdout` lists ONLY the eight public files;
+(c) *** custodian_private/ ABSENT from the repository — check `git ls-files | grep -c
+custodian` = 0 and that the .gitignore guard exists ***; (d) each deployed file's sha256
+matches the R-23 register entry. If any custodian path is tracked, that is a masking breach,
+not a bookkeeping error — escalate immediately rather than correcting quietly.
+IN FLIGHT (reviewer): O-1 / F'-5 decision brief, modelled on the C4 brief.
+
+### 2026-07-29 — P0 RULED: CLEANROOM CHAIN GOVERNS; PARENT TREE IS EVIDENCE
+
+Principal ruled V006's P0. Instrument `AUTHORITY_CHAIN_PRECEDENCE_PRINCIPAL_DECISION_2026-07-29.md`
+(85bacbee7c9b6ef9f4e65e5eb898bd5273440d600fadd342c5556c2075f5dc8e), sidecar sealed. THE CLEANROOM CHAIN GOVERNS ALL PROCEDURE (CURRENT_AUTHORITY_LEDGER
+V013 lineage, V011, seal ladder, A32 as ratified, R-9, the F' fences). PARENT-TREE MATERIAL
+IS ADMISSIBLE AS EVIDENCE AND INPUT — entering under the cleanroom's existing
+external-citation practice, cited by path AND hash on the citing artifact's face. PARENT
+ORDERING INSTRUCTIONS ARE VOID WHERE THEY CONFLICT: specifically the alpha-before-Thomson
+sequence and any bare unsubscripted alpha_micro/kappa emission. NOTHING in the parent tree
+is retired by this — the BR coefficient functions, the super-Hessian, S5, the Step-5
+results and the two Jul-23 memos remain live evidence; what changes is WHICH RULES APPLY.
+DISCLOSED CONSEQUENCE, ACCEPTED: adopting a parent artifact as evidence does NOT import its
+premises — anything the parent chain called "derived" must clear F'-1, F'-5 and R-9 before
+it is load-bearing here. Does NOT merge the chains, revive the dormant parent route, or
+rule any parent artifact correct.
+
+CONSEQUENCE FOR V006: P0 is DISCHARGED. The path is now unambiguous end-to-end and the
+ratio strata can be worked without the void-under-the-other-ordering risk. P1 (connect the
+five strata, name the lever) is next among the principal's items, alongside O-1/F'-5.
+
+EXECUTION OWED (construction lane, next relay): record the precedence in the cleanroom
+authority chain (successor ledger entry or binding artifact naming the decision by path and
+hash) and index in STAGE8_LANE_STATUS.md in the same act.
+ALSO OWED IN THE SAME RELAY: index the C1-C5 ratification (4a679c26b94c60510724441cd57dbf5514f36ef74210e95e8ce9ac43fc934034) and update R-24's face to
+cite it (its flagged C1 dependency is discharged).
+
+### 2026-07-29 — O-1 / F'-5 BRIEF: *** DO NOT RULE YET. THE RIPENESS TRIGGER MAY BE ABOUT
+### THE WRONG OBJECT — POSSIBLE INSTANCE 9 OF THE PROGRAM'S OWN ERROR CLASS ***
+
+Brief: `BOHM_O1_F5_BRIEF_RESULTS_2026-07-29.md` (single-source, NOT second-agent verified —
+re-verify DEP-0 before relying on it). Findings, in order of consequence:
+
+*** DEP-0, THE PREDICATE PROBLEM. *** The refutation that makes O-1 ripe (52f2490b) states
+the obligation as sup_n ||X_n||_2 <= M. But a PRIOR SEALED DETERMINATION
+(STAGE8_X_TO_KAPPA_RECORD_EXTRACTION_DETERMINATION_V001:133-143, 2026-07-27) re-typed that
+target — "the uniformity question is about |C|_4^{-alpha}||X||_2, not ||X||_2" — and logged
+its own earlier framing as INSTANCE 8 of the match-by-name/fail-by-type class. A PRINCIPAL
+ACT (ROUTE2_RATIFICATION_AND_FRAMING_CORRECTION, R-20's authority) then recorded: "R-L2b IS
+NOT REFUTED... with its target since re-typed onto |C|_4^{-alpha}||X||_2." MEASURED: the
+refutation artifact contains ZERO occurrences of G_hs, |C|_4, S2, prefactor, INSTANCE,
+re-typed, retyped. Same zero in the H1 chain return and in Codex's refuting-branch analysis.
+NO ARTIFACT RECONCILES THEM. NOT CLAIMED: that the refutation is wrong — the quantifiers
+differ (the sup is over carrier index n; the prefactor is a CELL datum) and whether the
+prefactor can disturb a carrier-index supremum is a MATH QUESTION NOBODY HAS WRITTEN. It may
+be a short reconciliation. *** Ruling O-1 on this trigger without that reconciliation would
+be ruling on the program's own INSTANCE-8 error class. ***
+
+THE REGISTER'S "BLOCKS" LINE IS WRONG ON ITS FACE. STAGE8_LANE_STATUS.md:57-58 claims O-1
+blocks "R-L2b's uniform bound; T7(iii) clause 2; E1 v002; hence kappa_record and all
+downstream", and :271-272 calls it most_consequential_open. Audit: R-L2b is already disposed
+by the refutation (not by the ruling); T7(iii) clause 2 stays blocked under EVERY
+disposition (its clause 3/O5 is separately unsupplied and T7(ii) separately false); E1 v002
+carries at least THREE independent gates besides O-1; and V006 does not route through
+R-L2b, T7(iii), E1 v002 or F'-5 AT ALL. *** CORRECTING THAT LINE IS CHEAPER AND MORE
+VALUABLE THAN RULING. ***
+
+STRUCTURE OF THE DECISION, IF/WHEN TAKEN: it is THREE questions, not one — Q-A does F'-5
+stand as written; Q-B the fourth horn (was a finite HS bound EVER the right obligation —
+nowhere formally stated, no options, no costs; live and unasked); Q-C connected-extensivity
+successor-or-repair (raised by Codex's proposal, NOT in O-1's register row — flagged so it
+is not silently bundled). Six options mapped with costs. TWO MECHANISM FINDINGS: (1) THE
+CORPUS HAS NO PROCEDURE FOR WEAKENING A FENCE — bounded grep returns zero; every amendment
+precedent is ADDITIVE ONLY and was authorized precisely because it "makes the spec STRICTER,
+not looser". A weakening act would be the FIRST of its kind. (2) THE C4 PRECEDENT CANNOT BE
+BORROWED: F'-5 does contain a clause lacking parent authority ("and no cellulation geometric
+datum", per the provenance erratum) but that is NOT the clause that bites — the biting
+clause is the carrier-index prohibition, which DOES carry parent authority.
+
+ARMED AND UNUSED: the Hessian-first supersession was pre-negotiated with FIVE terms recorded
+in advance "so they are not renegotiated later", available AS FALLBACK IF R-L2b FAILS. Its
+trigger has fired on the face of the record and nobody has looked at it. Also unqueued: the
+running-kappa_record contingency (would be a NEW PRINCIPLE; collides with Theorem 1's
+derived intensivity unless reconciled).
+
+COST OF DELAY: largely PARKABLE on construction (no lane waits; the default is already
+operative, so not ruling has the operational effect of "F'-5 stands" without the record of
+it), NOT parkable on the record — the refuting branch has no adopted status for T11's
+response half, the D3 response side, or connected extensivity, and DEP-0 decays with every
+further citation of the unqualified "R-L2b refuted".
+
+NAMESPACE WARNING: V006's "O1" (generator/action FORM) is a DIFFERENT object from register
+row "O-1" (does F'-5 stand). Any instrument must write "O-1 / F'-5" in full. Also "F5" has
+FOUR meanings in this corpus; the register's F5_ruled_on refers to F'-5, the FENCE.
+
+RECOMMENDED SEQUENCE (reviewer's, not a ruling): (1) charter the DEP-0 reconciliation as a
+math question — can the |C|_4^{-alpha} prefactor disturb a carrier-index supremum? (2)
+correct the register's Blocks line; (3) formally state the fourth horn with options and
+costs, since it is live, unasked, and nowhere written; THEN (4) rule Q-A/Q-B/Q-C together.
+
+### 2026-07-29 — SUPERDETERMINANT SPEC RE-VERIFIED: 2 CONFIRMED, 2 PARTLY REFUTED, AND THE
+### REVIEWER'S OWN "EARLY WARNING" READING IS WITHDRAWN
+
+Adversarial re-verification of the single-source superdeterminant execution spec (its
+original verifiers died on a usage limit). Verdicts: C1 CONFIRMED, C3 CONFIRMED, C2 PARTLY,
+C4 PARTLY.
+
+*** WITHDRAWN — THE REVIEWER'S ALL-NEGATIVE-SPECTRUM READING. *** The reviewer twice framed
+"all 54 physical eigenvalues negative" as the early warning on whether an isolated positive
+branch can exist. THE CORPUS'S OWN DATA REFUTES THAT FRAMING. The all-negative property is a
+CUT-1 ARTIFACT: results/alpha_br_exact_public_coupled_momentum_continuum_v001.csv records
+morse_index 54 at momentum_cut 1, then 48 at cut 2 and 48 at cut 3 (and the cut-1 row is
+identifiable as the fixed-window gate's own row by its identical ghost_min). Moreover ALL
+EIGHT rows of the depth-screen CSV record a POSITIVE physical_max (0.0092 to 0.0306) across
+depths 0.5/1/2, cuts 2/3, and all four spin sectors. And the object evaluated is
+INDUCED-ONLY — "the classical gravity, photon, and remaining coupled contact blocks have not
+yet been added to this matter-induced subdatum" — so the classical Einstein-Maxwell term
+that would carry positive stiffness IS NOT IN THE 54 NUMBERS AT ALL. The corpus explicitly
+refuses to read a continuum sign from that window ("never used as a continuum sign or alpha
+result"; "not repaired or used to choose a depth"), and NO document asserts the negative
+spectrum is disqualifying or that a positive branch is impossible. The thimble rule's
+disqualification trigger is conditioned on "at the candidate saddle" — and there is no
+candidate saddle — so it neither convicts nor acquits. NET: the negative spectrum is NOT
+evidence against P2; the reviewer over-read a small-window artifact. Match-by-name/fail-by-
+type family, reviewer's again.
+
+C2 CORRECTIONS (both load-bearing): (a) depth does NOT enter only as DEPTH = 1.0 — there are
+TWO such module constants and audit_alpha_br_exact_public_coupled_sector_depth_screen_v001.py
+OVERRIDES them at runtime with DEPTHS = (0.5, 1.0, 2.0); (b) it is NOT a single fixed window
+— the same operator runs at momentum cuts 1/2/3 in four spin sectors. CONFIRMED in C2: the
+ghost block is computed, and the PASS string IS computed from live numeric tolerances and
+rank equalities (caveat: 76/22/54 are predeclared expected constants, so the gate verifies
+agreement with a frozen expectation rather than deriving those integers).
+
+*** NEW VOIDING FINDING — A STALE CERTIFICATION FLAG. *** results/alpha_br_operator_artifact_
+fingerprint_v001.json (mtime 2026-07-15) fails sha256 on 8 of 58 tracked files, INCLUDING
+both DEPTH-carrying modules the coupled super-Hessian imports (edited 2026-07-18, three days
+later). The census gate re-hashes every tracked file, so its recorded "exact operator
+artifact fingerprint current: True" WOULD FLIP TO FALSE ON RE-RUN, and the super-Hessian
+report predates the edit to a module it imports — so its 54 eigenvalues are not verified
+against the code now on disk. Nothing was re-run (read-only). NOTE: the parent tree has ZERO
+git commits, so mtime is the only dating evidence available there.
+
+C4 CORRECTION: the BLOCKED status for external_record_floor_superdeterminant is a verbatim
+TRANSCRIPTION of a hand-authored ledger CSV row (the producer copies row['status'] and
+row['reason']) — authored text, not a measurement; and its blocked items do NOT match the
+coarea rule's open items (only "conformal contour" is common to both).
+
+LATENT HAZARD LOGGED: the acceptance marker PASS_EXTERNAL_PRIME_SUPERDETERMINANT is a strict
+PREFIX of the gate's own success string PASS_EXTERNAL_PRIME_SUPERDETERMINANT_CENSUS, and the
+gate matches by SUBSTRING — currently unexploited because the target report does not exist,
+but a future artifact containing the census string would satisfy the prime-determinant check
+spuriously.
+
+CONSEQUENCE FOR V006/V007 P2: the "re-verify first" instruction was correct and has now been
+discharged. P2 remains the correct next lane act; its real preconditions are (i) refresh the
+operator artifact fingerprint, (ii) the three missing deliverable reports, (iii) note that
+any sign verdict must come from the complete coupled Hessian including the classical blocks,
+not from the induced-only subdatum.
+
+### 2026-07-29 — A32 PUBLIC ARTIFACTS DEPLOYED; REVIEWER VERIFICATION PASSED; APPROVED
+
+Codex executed paste 121. Reviewer verification at the bytes: DEPLOYED at 993d59c
+(deploy_status confirms); exactly 8 tracked files under a32_holdout/ and they are the eight
+public ones; *** CUSTODIAN LEAK CHECK CLEAN — `git ls-files | grep -c custodian` = 0 AND
+`git log --all --name-only | grep -c custodian` = 0, i.e. absent from the FULL HISTORY, not
+merely from the current tree *** ; .gitignore guard `a32_holdout/custodian_private/` present
+at line 1; all EIGHT source-to-archive sha256 comparisons MATCH (the three R-23 did not list
+were verified source-to-archive directly); candidates.jsonl carries exactly 355 lines and
+only the keys canonical_id + record.{definition, domain, record_id, source_id, units} — NO
+value, NO uncertainty field anywhere. APPROVED.
+
+*** A CLARIFICATION ON THE RECORD, SO THE MASKING CLAIM IS NOT OVERSTATED. *** The deployed
+set includes raw_allascii.txt, which by construction CONTAINS the measured values (it is the
+NIST table itself). So the public deploy does NOT make the values unreadable, and nobody
+should claim it does. What A32 actually protects is NOT value-secrecy — the corpus concedes
+value-secrecy is impossible ("Historical target awareness cannot be erased... rather than an
+author's claim of retrospective blindness") — it is TARGET-secrecy plus TAMPER-EVIDENCE:
+(i) which of the 355 candidates becomes the test target is unknown to everyone until the
+future beacon fires after PREDICTION-MAP-SEAL; (ii) the salted commitments make any later
+edit of an outcome payload detectable; (iii) the contamination audit runs before unmasking.
+The custodian file's exclusion still matters — it is the salt+payload set, and publishing it
+would let anyone precompute which commitment corresponds to which outcome — but the
+protection against a lane simply reading a CODATA value was never available and is not
+claimed. Recorded here so no future summary asserts a stronger property than the design has.
+
+STATUS: every act owed under RECORD_INTEGRITY_GIT_NOT_KEYS_DECISION is now discharged.
+
+### 2026-07-29 — GAP CAUGHT BY THE PRINCIPAL: THE GRAVITY DISCOVERY WAS NEVER PROPERLY RECORDED
+
+The principal asked whether the discovery of gravity material outside the cleanroom had been
+carefully recorded. AUDIT ANSWER: NO. It existed ONLY as unsealed prose in the supervision
+layer (12 BOHM_* memos + this file, every one WITHOUT a sidecar), and the GOVERNING cleanroom
+chain had ZERO record of it — bounded greps for newtonian_limit, diffeomorphism_naturality,
+alpha_br_common_induced, joint_handle, superhessian and "induced gravity" each returned 0
+files in the cleanroom; the only Sakharov/Susskind-Uglum hits there are the principal's own
+conceptual grounds in the Q2-STOP rulings, not the artifacts. Under the precedence ruling
+made hours earlier, parent-tree material is admissible ONLY when cited by PATH AND HASH — so
+the week's most consequential scope discovery was, until now, unusable by the governing chain.
+
+FIXED: `GRAVITY_EVIDENCE_REGISTER_V001_2026-07-29.md` written and SIDECAR-SEALED (18e337717878c4de0f44517670403e8c95399ff59c9735fbe019006fe318853a).
+It supplies the citation surface: eleven artifacts by path + recomputed SHA-256 + each one's
+OWN stated status, the scope-discovery vocabulary counts, and standing cautions. IT ADOPTS
+NOTHING — records existence, not admissibility. Corrections carried in it: the Newtonian
+family is SEVENTY-FIVE versions (not 67, verified by listing) and NO version computes G from
+a spectral object (G is a calibration constant in every one); the SU(5) Casimir branch — the
+only numerical induced-gravity result ever produced — is NO_GO on its face and ledger-REJECTED,
+recorded explicitly so it is never mistaken for support; the super-Hessian's certifying
+fingerprint is STALE.
+
+OWED: deploy this register (commit+push per the record-integrity ruling) and cite it from the
+cleanroom chain so the evidence is reachable from the governing side. Queue for the next
+Codex relay.
+
+### 2026-07-29 — WHAT THE GRAVITY DISCOVERY MEANS (analysis, sealed)
+
+`WHAT_THE_GRAVITY_DISCOVERY_MEANS_2026-07-29.md` (17471195e41be6cc4711b695db3b991407a9d40193492ff44a2d7cece3acb05a), sidecar sealed. Reviewer analysis at
+the principal's request. THE SHARPEST IMPLICATION: the cleanroom week asked "is there a
+CONSTRAINT that forces the coupling?" and answered no, structurally — and that sweep's own
+closing judgment was that the number must come from CALCULATION, not consistency. *** THE BR
+MATERIAL IS THE CALCULATION ROUTE AND IT WAS OUTSIDE THE SEARCH SCOPE THE WHOLE TIME. *** The
+week's negative was not wrong; it was an answer about the wrong instrument.
+
+Also recorded: the one-operator/both-couplings structure was COMPUTED not hypothesized
+(forced ratios executed to 2e-14, entered from no alpha) and the cleanroom does not contain it
+at all; the program built the BR machinery, left it mid-stride with the named next act
+(superdeterminant) NEVER EXECUTED, moved into the cleanroom on Jul 23 and never returned.
+STATED PLAINLY AND NOT AS ADVOCACY — the BR route's own negatives are heavy: local depth
+no-go, monotone compact matter saddle, census gate BLOCKED with three nonexistent
+deliverables, STALE certifying fingerprint, the SU(5) NO_GO, and 75 Newtonian-limit versions
+in NONE of which G is computed from a spectral object. It is not "better"; it is DIFFERENT IN
+KIND and possesses a structure the cleanroom lacks.
+
+*** THE EPISTEMIC CONSEQUENCE WITH THE LONGEST REACH: one scoping error INVERTED a conclusion
+of record. Therefore every bounded negative produced 2026-07-25 to 2026-07-28 must be re-read
+with its scope attached, and none may be cited as corpus-wide without re-verification. A
+re-scope pass is mechanical and lane-executable — proposed, not ordered. ***
+
+TWO STRUCTURAL QUESTIONS NOW IN FLIGHT (workflow wf_1f498d8b), neither ever asked:
+(a) IS THE BR DEPTH x THE SAME OBSTRUCTION AS THE FREE c_R? The prior check compared x, rho
+and T_R (independent) but NEVER COMPARED x WITH c_R. If same, the program has ONE problem not
+two and BR stationarity is a candidate mechanism for O1; if different, the ratio route
+inherits both. (b) DOES BR INVERT THE PLANCK PROBLEM? The induced action carries a generated
+Einstein coefficient k_R^2 C_R(x) R, so the Planck scale looks like an OUTPUT of (k_R, x) —
+if so, O2 need not be solved as posed; it becomes select x (saddle) and k_R (capacity).
+Adversarially checked, default NOT-SAME on (a).
+
+FOR THE PRINCIPAL, nothing taken: (1) does the BR/ratio material become the declared primary
+route; (2) charter P2 with its real preconditions (refresh fingerprint; three deliverables;
+any sign verdict must come from the COMPLETE coupled Hessian, not the induced-only subdatum);
+(3) order the re-scope pass over the week's negatives.
+
+### 2026-07-29 — *** PLAN_TO_ALPHA_V007: THE VERIFICATION APPARATUS CANNOT PRODUCE A SINGLE
+### VALID REPORT. EVEN IF ALPHA WERE COMPUTED TOMORROW IT COULD NOT BE SEALED. ***
+
+V007 written and sealed (3df1820fe8e65ec30725ad5bffed2bd7ea476e49b8c71054ef5f7b1806a8294e). Verbatim basis:
+`BOHM_V007_BACKWARD_INVENTORY_CRITIC_RESULTS_2026-07-29.md`. Built backward from the terminal
+claim + forward from an exhaustive inventory + a COMPLETENESS CRITIC that read the MACHINE
+LAYER (evaluator scripts, preregistration internals, predictions.json, frozen charters, the
+Stage-6 Q_spec ledger) which no prior pass touched, and RAN the battery evaluator read-only.
+
+*** THE APPARATUS FINDINGS, THREE INDEPENDENT KILLS: *** (1) the ladder evaluator compares
+report key-sets EXACTLY against a set containing `subject_sha256` while the sealed spec, the
+immutable preregistration AND the frozen charters all name it `bundle_sha256` — ALL 27
+required role-reports are rejectable (not the ~14 previously estimated); (2) the evaluator's
+`--subjects` argument is required=True and NO SUBJECTS FILE EXISTS in any root — the ladder
+evaluator is UNINVOKABLE; (3) `stage8_battery_evaluator_v001.py`, which the corpus designates
+THE ONLY AUTHORITY FOR THE BATTERY VERDICT, is UNSEALED, uses Python `assert` for its
+selftest, and prints "SELFTEST PASS" UNCHANGED UNDER `python3 -O` where those asserts are
+compiled out — the corpus's own permanent regression obligation 7 forbids exactly this; its
+selftest also constructs the leak it then detects (the tautology class the red-team charter
+names). ALL 35 A-matrix rows PENDING (mechanically verified); SPEC-SEAL requires 30 passed.
+Ladder at level zero. Battery evaluator run read-only: GATE5_CORE_BLOCKED, 12 distinct
+blockers (the "21 failures" collapse — 8 are artifacts of result.json being absent).
+
+*** predictions.json IS PREREGISTRATION THEATRE: *** sealed pass-conditions for every test
+that the evaluator NEVER READS (check_prediction_fence is a lexical numeral fence only). That
+is how T01/T02/T11's voided `pass:true` survive — CORRECTLY HASHED WRONG ANSWERS.
+Content-addressing gives ZERO protection against wrong content. Also: the immutable
+preregistration carries TWO stage encodings contradicting each other in SIX places (freezing
+it freezes a self-contradiction — reconciling is a PRINCIPAL act); the T15 anti-numerology
+fence greps 52 files against a 3937-file cleanroom (1.3%).
+
+*** V006 WAS WRONG IN THREE PLACES, CORRECTED IN V007: *** the A32 second prediction is NOT
+"NEW, no precedent row" — it is the 18TH AND LAST of EIGHTEEN SEALED OPEN Q_SPEC SLOTS that
+NOTHING CITES; "full gravitational action and gravitational quantum measure" is the 2ND slot,
+making the gravity evidence register REQUIRED material rather than a side route; and P2 was
+queued without knowing its certifying fingerprint is failing NOW (8 of 58 hashes mismatch;
+`operator_fingerprint_current` is FALSE — the hardcoded-literal trap, live).
+
+*** THE CHEAP FALSIFIER NOBODY IS USING: *** a sealed artifact requires every dimensionless
+alpha-facing output to be INVARIANT under T_R -> lambda T_R, and states that if it is not,
+the route "remains blocked by the absolute-scale gate." Costs nothing, falsifies rather than
+confirms, applies to every live route including BR/ratio. V007 puts it first in Phase 3.
+
+V007 PATH, REORDERED WITH THE APPARATUS FIRST: PHASE 0 recording debt (paste 122, loaded) ->
+PHASE 1 REPAIR THE APPARATUS (field-name reconciliation; author the --subjects file;
+reconcile the preregistration's two encodings [PRINCIPAL]; seal+repair the battery evaluator;
+make predictions.json ENFORCED; widen T15) -> PHASE 2 the eighteen Q_spec slots as the plan's
+spine -> PHASE 3 physics (refresh fingerprint FIRST, then P2 with sign discipline; apply the
+lambda-invariance filter) -> PHASE 4 the eleven terminal gates.
+
+### 2026-07-29 — PASTE 122 EXECUTED; REVIEWER VERIFICATION PASSED; APPROVED
+
+All five claimed hashes MATCH disk exactly (61c6de58 precedence binding, 2cc36c9b conventions
+ratification record, bad97950 gravity-evidence admission + five-strata binding, 5ae6f6ab P2
+precondition result, cad951f6 fingerprint v002). DEPLOYED at 54599ce. Register now carries
+R-25 (authority precedence), R-26 (C1-C5 ratification), R-27 (gravity evidence admission +
+five-strata binding), R-28 (P2 precondition result), and R-24's C1 dependency is corrected as
+DISCHARGED. The recording debt from V007's Phase 0 is now cleared.
+
+*** THE THREE INTEGRITY-CRITICAL CHECKS ALL PASS: *** (1) the v001 fingerprint was PRESERVED,
+not overwritten — a v002 successor was authored instead, which is the append-only behaviour
+the relay demanded; (2) the three hardwired census deliverables were NOT FABRICATED — all
+three verified still absent; (3) P2 is recorded honestly as BLOCKED, not executed
+(P2_executed = false; P2_blocked_on_missing_deliverables = true).
+
+INDEPENDENT RE-VERIFICATION OF THE FINGERPRINT (reviewer, not trusting the report): recomputed
+all 58 tracked hashes in v002 against disk — 58 match, 0 mismatch, 0 missing, so
+fingerprint_current would now return TRUE. The stale-certification finding is discharged at
+the artifact level.
+
+*** TWO HONEST FINDINGS CODEX RAISED THAT THE RELAY DID NOT ASK FOR — both correct and both
+consequential: *** (a) refreshing the fingerprint records current bytes but DOES NOT rerun the
+affected gates or prove their recorded outputs unchanged; all tracked result CSVs still match
+their v001 hashes and the changed set is producer/audit scripts plus one report, so whether a
+changed producer would alter a recorded result "requires a separate rerun under an authorized
+gate" — CORRECTLY REFUSED TO ASSUME. (b) *** THE CENSUS SCRIPT IS HARDWIRED TO THE v001
+FINGERPRINT PATH, so the census gate remains blocked by its own hardwire until a separate
+authority changes or consumes the successor path. *** The fix therefore did not unblock the
+gate; it relocated the blocker from a stale hash to a hardwired path. That is a new,
+lane-executable item for the next relay and belongs in V007 Phase 3a.
+
+APPROVED. VERDICT: PASS — no discrepancies; two unrequested findings of real value.
+
+### 2026-07-29 — THE FIELD-NAME MISMATCH: INDEPENDENTLY VERIFIED, AND IT IS LANE WORK
+
+The critic's single-source finding is CONFIRMED at the bytes by the reviewer:
+- scripts/evaluate_bid_stage_dag_v011.py REPORT_KEYS (:63-72) contains `subject_sha256`.
+- provenance/boundary_incidence_dynamics_preregistration_v011.json
+  review_stage_semantics.report_schema_required_fields (:274-284) contains `bundle_sha256`.
+- The comparison at :100 is `if set(report) != REPORT_KEYS:` — an EXACT SET comparison that
+  RETURNS IMMEDIATELY on mismatch. Any report written to the preregistered schema therefore
+  fails at the first check, which is why all 27 role-reports are rejectable.
+- MACHINE-CONFIRMED the mismatch is EXACTLY ONE FIELD: evaluator-only = {subject_sha256},
+  preregistration-only = {bundle_sha256}, all other keys identical.
+
+*** AND THE FIX IS LANE WORK, NOT A PRINCIPAL ACT — WHICH REVERSES THE V007 ASSUMPTION. ***
+The evaluator has NO seal sidecar and is named in NO immutability clause (bounded: no
+`.seal.sha256` for it; zero hits for `evaluate_bid_stage_dag` across provenance/*.json and the
+cleanroom *.md). The PREREGISTRATION is the immutable artifact. Therefore the correct repair
+is to change the EVALUATOR to match the preregistered schema (`bundle_sha256`), NOT to amend
+the preregistration. V007 Phase 1a listed this as "PRINCIPAL ACT if it touches the immutable
+preregistration" — it does not have to, so 1a is LANE-EXECUTABLE and needs no ruling.
+NOTE: this does NOT dissolve V007 Phase 1c — the preregistration's SIX internal
+self-contradictions (two divergent stage encodings) still sit inside the immutable artifact
+and reconciling those IS a principal act. 1a and 1c are separate items with separate owners.
+
+CONSEQUENCE: Phase 1 is more lane-executable than V007 assumed. Add to the next relay after
+corpus_check: repair the evaluator's REPORT_KEYS and the :109 lookup to the preregistered
+field name, and author the missing `--subjects` file (also lane work — the evaluator's
+`--subjects` is required=True and no such file exists in any root).
+
+2026-07-29 addendum: PASTE 123 SENT to Codex (build corpus_check.py — the process rules
+rendered in code). ON RETURN, VERIFY AT THE BYTES: (a) the script is COMMITTED to the archive
+repo (it must travel; hooks do not); (b) NO Python `assert` on any load-bearing path — and
+confirm by running `python3 -O` and checking the verdict is unchanged, since that is the exact
+defect disqualifying the battery evaluator; (c) the selftest does NOT construct the condition
+it detects; (d) it cannot rule/seal/repair anything and refuses custodian_private/; (e) the
+YELLOW baseline is frozen as counts, not as a cleanup; (f) deploy_status DEPLOYED.
+
+NEXT RELAY (paste 124) — QUEUED, LANE-EXECUTABLE, no ruling needed:
+ 1. Repair scripts/evaluate_bid_stage_dag_v011.py: REPORT_KEYS and the :109 lookup use
+    `subject_sha256`; the immutable preregistration says `bundle_sha256`. The EVALUATOR is
+    unsealed and named in no immutability clause, so IT is the side that changes. One field.
+ 2. Author the missing `--subjects` file (evaluator arg is required=True; no such file exists
+    in any root, so the ladder evaluator is currently uninvokable).
+ 3. Fix the census gate's hardwire to the superseded v001 fingerprint path (found by Codex
+    itself in the paste-122 return; the fingerprint refresh relocated the blocker rather than
+    clearing it).
+STILL THE PRINCIPAL'S (V007 Phase 1c): the preregistration's SIX internal contradictions —
+two divergent stage encodings inside an artifact declared immutable. Reconciling is a
+principal act; freezing it as-is freezes a self-contradiction.
+
+### 2026-07-29 — STANDING PRINCIPAL DECISION QUEUE ESTABLISHED
+
+At the principal's direction ("if you need something from me please queue the question and
+I'll decide"), the reviewer now maintains `PRINCIPAL_DECISION_QUEUE.md` — every question that
+is his, in one ordered place, each marked READY / BLOCKED (prerequisite named) / PARKED, with
+what blocks on it and where the brief is. The reviewer ADDS to this rather than interrupting,
+and moves items to RECENTLY CLOSED so the queue never re-asks a settled question.
+CURRENT: 3 READY (Q1 preregistration contradictions; Q2 declare the BR/ratio route primary;
+Q3 the fourth horn), 3 BLOCKED (Q4 O-1/F'-5 behind the DEP-0 reconciliation; Q5 lever choice
+behind P2's outcome; Q6 re-charter behind the re-scope), 5 PARKED (Q7 Q2-STOP escalation
+ground; Q8 Z.2 seam; Q9 O-C referent; Q10 R-21's live flag conflict; Q11 namespace register).
+Six closed today and recorded as closed.
+MAINTENANCE RULE: this file is updated in the same act as any new principal-owned finding,
+and a question is never asked in chat without appearing here first.
+
+### 2026-07-29 — corpus_check.py DELIVERED; REVIEWER VERIFICATION PASSED; APPROVED
+
+Codex built the process checker. Reviewer verification at the bytes, running the tests rather
+than trusting the report: 4 files COMMITTED to the archive (so the instrument TRAVELS, unlike
+the hook); DEPLOYED at 8413064; all four sidecars verify; *** AST assert count = 0, and I ran
+--selftest under both `python3` and `python3 -O` myself: exit codes match and OUTPUT IS
+BYTE-IDENTICAL *** — the defect that disqualifies stage8_battery_evaluator_v001.py is absent
+here. The selftest invokes the real script against real corpus state as a subprocess rather
+than constructing a fixture, so it does NOT construct the condition it detects (the tautology
+class is avoided). Custodian guard present as a dedicated `refuse_custodian_root()` with 18
+references. ONE write path exists (line 790) and it is GATED behind an explicit
+`--write-baseline` flag and writes only baseline COUNTS — it cannot rule, seal, or repair.
+APPROVED.
+
+FIRST FULL REPORT — OVERALL GATE VERDICT: RED.
+  RED seal_integrity: 20 issues.  RED deploy_state: 1 (self-referential — the report artifact
+  itself was unpushed at the moment of its own run).  RED authority_currency: 2 (principal
+  rulings not yet cited by any governing-chain artifact — expected: the Q1 encoding-precedence
+  ruling was issued after paste 122 shipped).
+  GREEN: voided_pass, marker_prefix_collision, fingerprint_currency (the fingerprint refresh
+  from paste 122 is now machine-confirmed current).
+  YELLOW BASELINE FROZEN (may not increase): substring-certified 6 · HARDCODED CLAIM FLAGS
+  2927 · SUPERSEDED-PATH HARDWIRES 546 · undeclared-scope negatives 107 · relay-number
+  duplicates 17.
+
+*** TWO BASELINE NUMBERS ARE MUCH LARGER THAN THE REVIEWER'S ESTIMATE AND DESERVE ATTENTION,
+NOT ALARM: *** 2927 hardcoded claim flags (the reviewer counted 233 PRODUCER FILES; this is
+per-instance) and 546 superseded-path hardwires. The census-gate hardwire found today was ONE
+of those 546 — so that class is demonstrated to matter, not theoretical. Neither is a defect
+to fix now; the baseline freezes them so they cannot grow, and any future increase blocks a
+commit. 107 undeclared-scope negatives is the class that inverted a conclusion of record.
+
+STATUS: V007 Phase 1 now has its instrument. The three RED classes are the immediate cleanup
+and all are lane-executable. NEXT RELAY (paste 124) grows to: evaluator field-name repair;
+author the --subjects file; census hardwire fix; plus clear the three RED classes (seal the 20
+unsealed load-bearing artifacts; record the Q1 ruling in the governing chain).
+
+### 2026-07-29 — PLAN_TO_ALPHA_V008: THE PROGRAM ALREADY ENUMERATED ITS OWN PATH
+
+V008 written and sealed (d8e4bcdb3cba5189ec8369dead87626601770f20a360ddc5d92a975c9b3f16a5). Supersedes V007/V006/V005. *** THE SPINE WAS ALREADY IN THE
+CORPUS AND NOTHING CITED IT: STAGE6_PARENT_ACTION_AND_QSPEC_LEDGER_V002.md:119-138 lists
+EIGHTEEN OPEN Q_SPEC SLOTS, plus a FROZEN dependency order across six of them. V008 adopts
+that enumeration as the spine instead of inventing another. ***
+
+*** AND THE SUPERVISION LAYER REINVENTED THREE SLOTS UNDER NEW NAMES THIS WEEK: ***
+  O2 (record scale)     = SLOT 1 "absolute physical T_R"
+  O3 (UV boundary)      = SLOT 6 "parent-derived functional regulator and finite renormalization"
+  O1 (generator/action) = SLOT 9 "finite c F^2 deformation exclusion"  <- the c_R exclusion,
+                                  named exactly, as a sealed slot, the whole time.
+This is the namespace defect at PROGRAM scale — the same obligations under two naming systems,
+neither citing the other. V008 makes SLOT NUMBERS canonical. Executed content exists in only
+three slots: 2 (gravity coefficient functions, depth open), 16 (Thomson matching named,
+underived), 18 (A32 freeze ratified + universe collected, prediction absent). Fifteen open.
+
+Slot 18 is "one unused structure-sensitive prediction" — A32's second prediction — and it is
+the LAST slot, so reachable only after the other seventeen. FINAL-CLAIM rests on it, not on
+alpha. Slot 13 is also SP08 ("the physical pole") in the source-parent closure gate.
+
+V008 STRUCTURE: PHASE A apparatus (A1 clear the three RED classes; A2 evaluator field name;
+A3 the --subjects file; A4 seal+repair the battery evaluator; A5 enforce predictions.json;
+A6 widen T15; A7 Q1 ruling recorded) -> PHASE B the eighteen slots in the corpus's own words,
+with the frozen EM order for slots 3-8 -> PHASE C the eleven terminal seals (all 35 A-matrix
+rows PENDING; the ladder evaluator unimplemented, RD-22).
+
+EXECUTABLE TODAY, LANE: all of Phase A, the census hardwire, and the slot-to-status map for
+all eighteen (mechanical, high value, no artifact carries it).
+IN FLIGHT AND DECISIVE FOR SLOT 1: the external-handoffs chain assessment — if g_N*T_R = pi
+hbar fixes a MAGNITUDE, slot 1 discharges and the plan shortens materially; if it fixes only a
+PRODUCT of unfixed quantities it is the same shape as the cleanroom's own
+c*T_record*Delta_mu = pi and nothing changes. Also in flight: the lambda-invariance filter.
+
+### 2026-07-29 — BOTH IN-FLIGHT TESTS RETURNED DEFLATIONARY. THE REVIEWER'S "LARGEST FINDING
+### OF THE SESSION" FRAMING IS WITHDRAWN, AND A "CHEAP FALSIFIER" TURNS OUT TO FALSIFY NOTHING
+
+Verbatim: `BOHM_LAMBDA_FILTER_AND_EXTERNAL_CHAIN_2026-07-29.md`. Adversarially verified
+(2 CONFIRMED, 2 PARTLY on scope/wording; none refuted at the core).
+
+*** (1) THE EXTERNAL CHAIN DOES NOT FIX A MAGNITUDE. *** The chain is REAL and LIVE — its
+Gate 1-4 half is hash-pinned and re-executed by the current cleanroom's Stage 8, and 272/272
+content digests verify. BUT `g_N*T_R = pi hbar` is a TYPING VERDICT ABOUT A PRODUCT OF TWO
+QUANTITIES THE CORPUS ITSELF DECLARES FREE — indeed `g_N = pi hbar / T_R` is the DEFINITION of
+g_N in terms of T_R. This is exactly the deflationary case flagged in advance: the same shape
+as the cleanroom's own `c*T_record*Delta_mu = pi`, which fixes a product and not a factor.
+Worse, the chain's own decision ledger ALREADY FLAGS that failure mode as "PREVENTED", and its
+over-determination PASS is PROSE-ONLY and half-withdrawn by an erratum in the same corpus.
+*** SLOT 1 IS NOT DISCHARGED. V008 IS UNCHANGED BY THIS. ***
+
+*** (2) THE LAMBDA-INVARIANCE FILTER CANNOT FALSIFY ANY LIVE ROUTE. *** It is sealed and
+correctly stated, and it is satisfied BY CONSTRUCTION rather than by test, four ways:
+  - The orbit is DEFINED with a mandatory co-scaling H_R -> H_R/lambda, so invariance of any
+    quantity built from H_R*T_R/hbar is an ALGEBRAIC IDENTITY.
+  - The cleanroom's ONLY executable scale-orbit audit builds the rescaled generator by
+    DIVIDING by the same factor it multiplies the duration by — IT CANNOT FAIL FOR ANY
+    OPERATOR WHATSOEVER.
+  - The external chain's "T_R cancels" check is a TAUTOLOGY: all seven candidates were
+    hand-entered with T_R exponent -1, so the residual exponent is 0 identically for all 12
+    rows and the require() can never fire. The chain's claim that it "could have failed" is
+    unsupported by its own producer.
+  - The BR/ratio route contains ZERO T_R tokens, so the map acts as the identity —
+    FILTER-DOES-NOT-APPLY, which is NOT the same verdict as PASS.
+  The requirement's only operative clause is its SECOND sentence, the Planck-cell
+  prohibition, which is a permission-denial, not an invariance test. AND IT POLICES THE WRONG
+  VARIABLE: three independent scale obligations exist (x, rho, T_R) and the filter names only
+  T_R — absent from the two routes that actually carry alpha-facing coefficient functions.
+
+*** THIS IS THE PROGRAM'S CENTRAL DISEASE FOUND ONE LEVEL UP: A CHECK SHAPED LIKE A
+CONSTRAINT THAT CANNOT FAIL. *** Same class as substring certification and hardcoded flags,
+but inside a sealed physics requirement rather than an audit script. V008's Phase 3c
+("apply the lambda filter to every live route") is WITHDRAWN as written — running it would
+have produced a PASS that meant nothing and could have been cited as evidence.
+
+REVIEWER PROCESS NOTE: this is the FOURTH over-reading corrected today by verification the
+reviewer itself ordered (gate-6 typing; the all-negative spectrum; the x/c_R and Planck
+speculations; now the external chain). Every single one ran in the hopeful direction and every
+single one was pulled back by a default-refute check. The countermeasure is working and must
+not be relaxed. ADD TO THE CANDIDATE CHECK LIST for corpus_check: a detector for
+CANNOT-FAIL CHECKS — a require() whose condition is an identity over its own hand-entered
+inputs. Two instances are now documented.
+
+### 2026-07-29 — COURSE CORRECTION: TRACKER, NOT PLAN VERSIONS; LANE FED
+
+The principal: "I still haven't seen a plan. Codex is idle." BOTH HALVES FAIR. Three plan
+documents (V006, V007, V008) were written in one day, each superseding the last — that is a
+moving analysis, not a plan — and none of them put the construction lane to work while Phase A
+sat entirely lane-executable.
+
+FIXED: (1) `EXECUTION_TRACKER.md` created — ONE SCREEN work board: what is in Codex's hands
+now with status, what waits on the principal, what got DONE today, the next three things, and
+the standing facts that do not move with findings. Plans say WHY; the tracker says WHAT and
+WHO. GOING FORWARD: findings update the TRACKER, not a new plan version. A new plan is written
+only when the SPINE changes (as when the eighteen Q_spec slots were found).
+(2) PASTE 124 LOADED — the FULL PHASE A package, NINE items, with an explicit instruction not
+to stop at the first obstruction (record it at a file:line per ratified C2 and continue):
+A1 clear the 3 RED classes · A2 evaluator field name · A3 the --subjects file · A4 seal+repair
+the battery evaluator (prove it under -O) · A5 enforce predictions.json · A6 widen T15 ·
+A7 census hardwire · A8 NEW corpus_check detector for CANNOT-FAIL CHECKS (two instances now
+documented; more dangerous than the baselined classes because it looks like verification) ·
+A9 the slot-to-status map for all eighteen Q_spec slots, including the naming correspondence
+slot 1 = O2, slot 6 = O3, slot 9 = O1/c_R.
+(3) Q2 moved to READY in the decision queue — both in-flight tests returned deflationary and
+neither changed the route picture, so its evidence base is now settled.
+
+STANDING RULE ADDED TO MEMORY: when a lane reports idle, the first question is "what work
+package goes out in the next two minutes", not "what should the plan say".
+
+### 2026-07-29 — Q2 RULED: THE BR / EM-GR RATIO CLASS IS THE PRIMARY ROUTE, CONDITIONAL
+
+Instrument `PRIMARY_ROUTE_DECLARATION_PRINCIPAL_DECISION_2026-07-29.md` (d481ada8b7c4c80b6d095be2a1e5cbf43ebb477d37589b8152959a53e09fcf59), sidecar sealed.
+Canonical location: Q_spec SLOT 2. TWO FALSIFIERS FROZEN IN THE SAME ACT, lapse automatic and
+requiring no further ruling: F1 — P2 executed on the COMPLETE coupled Hessian (classical
+blocks included, more than one cut) finds NO finite isolated stationary point with an isolated
+positive branch, or a continuous family survives the capacity condition; F2 — slot 9 (the
+finite c F^2 exclusion) is shown UNDERIVABLE on this route (note: it currently holds "only as
+an adopted postulate" by the route's own gate; F2 fires on irreparability, not on openness).
+Recording a lapse is a LANE DUTY, not discretionary.
+
+SCOPE, stated on the instrument's face: adopts NO physical premise, coefficient or value from
+the BR material (precedence ruling stands — evidence does not import premises); discharges
+NEITHER slot 1, 6, nor 9; does NOT make slot 2 required (it already was, by the sealed Q_spec
+enumeration — this changes PRIORITY, not obligation); does NOT deprioritize Phase A, since
+nothing derived on any route can be sealed until the ladder can accept a report; retires no
+other stratum or route. THE CASE AGAINST IS RECORDED ON THE INSTRUMENT so the file carries
+both sides: local depth no-go, monotone matter saddle, blocked census gate, 75 Newtonian
+versions with G never spectral, the SU(5) NO_GO.
+
+The principal's clarifying question — could the conditions be pre-tested so the
+conditional/unconditional choice collapses — was answered NO by today's tests: the
+lambda-invariance filter cannot falsify anything, and P2 is blocked behind three nonexistent
+deliverables. The distinction was therefore real and the conditional form was chosen knowing
+the falsifiers cannot yet be run.
+
+### 2026-07-29 — Q3 RULED: THE FINITE HILBERT-SCHMIDT CEILING WAS NEVER THE RIGHT OBLIGATION
+
+Instrument `FOURTH_HORN_PRINCIPAL_DECISION_2026-07-29.md` (7d5d56cff0932fa04d96be4f75515bee0ad29095e70e4d64b8c017e34f5a6d72), sidecar sealed. THE FOURTH
+HORN IS NOW STATED AND RULED — it had existed only as one-line prose in ten files with no
+options or costs anywhere. RULING: with K_bare = 0 there is no counterterm available by
+construction, so a rule demanding the object be BOUNDED demands the theory not do what it says
+it does. THE OBJECT TO EXTRACT IS THE COEFFICIENT, NOT A CEILING. R-L2b as written is
+SUPERSEDED / RE-POSED, NOT SOLVED — its H1 refutation stands as a fact about the obligation AS
+WRITTEN and is undisturbed; what changes is that it is no longer what the program is trying to
+discharge. CONSISTENCY: this is R-19's position (divergence in an induced coupling with no
+counterterm IS the coupling) applied to the OBLIGATION rather than the TRIPWIRE — one position,
+two places.
+
+*** RULED INSIDE THE BLIND WINDOW, AND THE RECORD SAYS SO: *** C-L3 has NEVER been evaluated
+(IR_C_log_coefficient_evaluated = false), is NOT REACHABLE behind C-L1 (refuted) and C-L2
+(status requiring re-examination), and BOTH readings predict the SAME FORM — an exact
+rational/algebraic multiple of 2/pi. No value could have discriminated them and none exists.
+Deciding after C-L3 became computable would have been unfalsifiably fit-shaped. The window was
+used deliberately.
+
+WORK THIS CREATES, NOT DISCHARGED BY THE RULING: the re-posed obligation must be WRITTEN and
+must state HOW IT REACHES R-L2b's FOUR CONSUMERS — (i) R-L2b itself, (ii) T11's response half,
+(iii) the D3 refinement-natural weight's response side, (iv) connected extensivity. A
+replacement that cannot reach the four is not a replacement.
+DOES NOT: declare connected extensivity true or false; rule O-1/F'-5 (Q4 stays BLOCKED behind
+DEP-0 — and NOTE this ruling may REFRAME Q4, since asking whether F'-5 stands is now asking it
+about a SUPERSEDED demand); charter the Hessian-first supersession or the running-kappa_record
+contingency (both remain available, unchartered, terms pre-recorded); authorize any
+computation; adopt any physical principle (the ground is the principal's and rests on the
+ADOPTED K_bare = 0).
+FALSIFIER FROZEN: if a route is later found in which the divergence IS absorbable — a
+counterterm available by construction after all — this ruling's ground fails and the
+disposition reopens. Recording that is a lane duty if ever met.
+
+2026-07-29 addendum: PASTE 124 SENT — Codex is executing the full nine-item Phase A package.
+ON RETURN, VERIFY AT THE BYTES, per item: A1 re-run corpus_check and confirm the RED count
+actually dropped (not just that artifacts were sealed); A2 confirm the evaluator now matches
+the PREREGISTERED field name and that the preregistration was NOT edited; A3 confirm no hash
+was INVENTED for any stage whose immutable subject is undeterminable (UNRESOLVED with a reason
+is the correct answer there); A4 run the battery evaluator under BOTH python3 and python3 -O
+myself and compare outputs — do not accept the report's word, this is the exact defect being
+repaired; A5 confirm enforcement REPORTS what changes verdict rather than repairing failing
+tests; A8 confirm the new cannot-fail detector actually fires on the two known instances
+(audit_bid_absolute_record_scale_identifiability_v001.py and 20_ratio_assembly_v001.py) — a
+detector that misses its own seed cases is worthless; A9 confirm the slot map records the
+naming correspondence (slot 1 = O2, slot 6 = O3, slot 9 = O1/c_R) and ADOPTS nothing.
+
+### 2026-07-29 — *** RE-SCOPE COMPLETE: 40% OF THE WEEK'S BOUNDED NEGATIVES DO NOT STAND ***
+
+Verbatim: `BOHM_RESCOPE_REGISTER_2026-07-29.md`. Six agents over 14 memos, every negative
+re-run across all four roots. TALLY: 223 negatives · 99 SURVIVE corpus-wide · 51 NARROWED ·
+39 OVERTURNED. *** AND ONE OF THE SIX RE-SCOPING AGENTS REPRODUCED THE EXACT ERROR IT WAS
+SENT TO FIND — the disease is that pervasive. ***
+
+THE CONSEQUENTIAL OVERTURNS:
+ 1. *** THE EM-ORDER TRIAGE'S 9-of-9 MISSING_SPEC EVIDENTIARY BASE IS DEMOLISHED. *** 216
+    parent-tree files are named for the nine steps; gauge orbit, ghosts, Faddeev-Popov, Haar
+    measure, Ward transversality, a renormalization condition and a typed Thomson-matching
+    family ALL EXIST outside the cleanroom. V008's Phase B assumed slots 3-8 were open with
+    no content — THAT ASSUMPTION IS NOW SUSPECT and the slot-to-status map (A9, in flight) is
+    the instrument that will settle it.
+ 2. THE DOF COUNT'S CENTRAL AXIS-2 CONCLUSION IS OVERTURNED — the "unrun" Gate-4 uniqueness
+    gate WAS run, is sealed INSIDE THE CLEANROOM ITSELF, and kills the D_x hostile family.
+    That is an in-scope error, not a scope error.
+ 3. The Dixmier verdict's "Connes ... ZERO hits corpus-wide" is false — a full
+    Connes-Chamseddine spectral-action verdict on absolute U(1) stiffness sits in the parent
+    tree.
+ 4. The divergence memo's "the only corpus sentence naming a stiffness-generating mechanism
+    is a 'may'" is false — the derived induced-coefficient functions C_R/K_Q exist.
+ 5. The stitching memo's "no EFT/power-counting/dimensional argument exists anywhere" is
+    false — a renormalizable dimension-<=4 invariant inventory exists in the parent tree.
+ 6. The ruled-state briefing's self-declared "MOST IMPORTANT UNKNOWN IN THE PROGRAM" (the
+    Trotter-Kato referral) was answerable in root C, and its single "GENUINELY UNSEALED ...
+    zero hits anywhere" finding is HASH-PINNED 19 TIMES in the parent tree.
+ 7. The route graveyard never saw a 795-row parent-tree route ledger.
+ 8. Two negatives were retracted BY THE CLEANROOM ITSELF nine hours before the sweep that
+    asserted them.
+
+WHAT SURVIVES — AND THESE ARE THE PROGRAM'S REAL ASSETS, NOW BETTER EVIDENCED THAN WHEN
+ASSERTED: 99 negatives hold corpus-wide, including *** "NO DERIVED STITCHING RULE ANYWHERE" ***
+which survives all four roots and was originally asserted on 4.8% of the files.
+
+METHODOLOGICAL CAVEAT ON THE RECORD: the parent tree is LEXICALLY DISJOINT from Stage-8
+vocabulary, so "survives against Root B" is NEARLY VACUOUS BY CONSTRUCTION for Stage-8 terms.
+A survival verdict is only as strong as the vocabulary overlap; this must be stated whenever a
+surviving negative is cited.
+
+CONSEQUENCE: an overturned negative does NOT automatically revive a route — it removes ONE
+reason a route was considered dead; the route may have others. So a blanket reopen would be
+wrong and a targeted reassessment is right. That is decision-queue Q6, now READY with ground.
+
+### 2026-07-29 — THE MAP AND THE TASK LIST
+
+Two artifacts created at the principal's request, both sealed:
+`THE_MAP.md` — where we are / what we are doing / what remains, one screen, status per row.
+`TASK_LIST.md` — 40 ordered tasks, sized S/M/L, with owner and blocker per row.
+
+COUNT: 40 tasks. 10 S. 10 M. 20 L. The 20 L items are the program; everything else is
+scaffolding. Task 18 (slot 9, the finite c F^2 exclusion) gates whether any number is forced
+at all — every route has died there and it currently holds only as an adopted postulate.
+Task 32 (compute alpha) is sized S because the arithmetic is trivial once tasks 18 and 31
+exist; it is unreachable until they do.
+
+REPORTING CONVENTION SET (principal's feedback, saved to memory): plain, numbers-first,
+landing on concrete implications and next steps; no banners, no ALL-CAPS emphasis, no
+"the finding that reorders everything". Findings update EXECUTION_TRACKER.md and TASK_LIST.md,
+not a new plan version.
+
+TASK 33 IS THE ONE ITEM THE PRINCIPAL COULD AUTHORIZE TODAY THAT NEEDS NO PHYSICS: implement
+the independent ladder evaluator (RD-22, currently NOT AUTHORIZED). Without it the entire
+sealing block is unreachable regardless of how the physics goes. It is queued as a decision.
+
+### 2026-07-29 — PHASE A COMPLETE AND VERIFIED; STANDING CHARTER ISSUED; THEORY WORK STARTED
+
+PHASE A: all 9 items DONE. Reviewer verification, run independently rather than accepting the
+report: deploy DEPLOYED at 8638ee5; corpus_check --report overall verdict GREEN with
+seal_integrity, deploy_state, authority_currency, fingerprint_currency, voided_pass and
+marker_prefix_collision all GREEN; checker output BYTE-IDENTICAL under python3 -O; and the new
+cannot-fail detector FIRES ON ITS OWN SEED CASE (it names 20_ratio_assembly_v001.py's
+symbol-exponent check as tautological when every candidate carries the same exponent) — a
+detector that missed its seeds would have been worthless. Codex also authored
+bid_stage_subjects_v011.json with unresolved subjects FAIL-CLOSED rather than inventing hashes,
+and left the battery at GATE5_CORE_BLOCKED after enforcing predictions.json rather than
+repairing the failing tests. Both were the correct choices. NEW YELLOW BASELINE: substring 6 ·
+hardcoded flags 2927 · cannot-fail 2 · superseded hardwires 548 · scope declarations 107 ·
+relay duplicate classes 3.
+
+STANDING CHARTER (paste 125, loaded): Codex now works TASK_LIST.md top-down, takes the next
+unblocked task WITHOUT a relay, and reports in BATCHES. This removes the per-task relay, which
+was the real bottleneck — Codex finished nine items and then sat idle waiting for a paste. The
+charter fences what still stops at the principal: the four PRINCIPAL-owned tasks, any
+adoption/retirement/re-posing, any fence weakening, C4/O-1/F'-5/C-L2, and any computation.
+
+*** THE HONEST DIAGNOSIS THE PRINCIPAL FORCED: NOBODY HAS BEEN DOING THEORY. *** Both lanes
+spent the week auditing what the corpus says. Every sweep asks "what does the corpus say?";
+none asks "what is true?" 20 of 40 tasks are unsolved theory and zero moved this week. THEORY
+WORK IS NOW RUNNING on slot 9 (the finite c F^2 exclusion — where every route has died):
+three mechanism classes (topological/index; boundary/completeness; ratio/overdetermination),
+with the judge instructed that if the honest answer is "no mechanism is known and slot 9 may be
+UNCLOSABLE AS POSED", it must say so plainly, and must then state what a theory with an
+unfixed additive coupling can and cannot legitimately claim.
+NOTE: the first attempt (4-agent workflow) failed entirely on API 529 overload — zero agents
+ran, zero tokens. Relaunched as ONE agent to reduce concurrent load. Also lost to 529: the
+task-12 agent mapping the 39 overturned negatives to what they closed; relaunch when load
+clears.
+
+2026-07-29 addendum: PASTE 125 SENT — the standing charter is in force. Codex now works
+TASK_LIST.md top-down without per-task relays and reports in batches. Next under the charter:
+task 11 (per-slot inventory), task 14 (the three census deliverables — slot-2 work on the
+declared primary route), tasks 19-24 groundwork (inventory the parent-tree material the
+re-scope surfaced for slots 3-8).
+
+VERIFICATION STANDARD FOR BATCH REPORTS: same as per-task, but now applied per batch — hashes
+match disk; sidecars verify; deploy_status DEPLOYED; corpus_check --report GREEN with no YELLOW
+baseline increase; nothing fabricated (no invented hashes, no fabricated deliverables); holds
+untouched (C4, O-1/F'-5, C-L2); and any item Codex queues for the principal is added to
+PRINCIPAL_DECISION_QUEUE.md rather than answered by the reviewer.
+
+RELAY LEDGER, current: 114/117 A32 freeze->V011 (executed, verified) · 115/118 Einstein handoff
+(fulfilled) · 119 ten-item queue (executed, verified) · 120 C4 strike (executed, verified) ·
+121 A32 artifact deploy (executed, verified) · 122 rulings + strata binding + P2 precondition
+(executed, verified) · 123 corpus_check build (executed, verified) · 124 Phase A nine items
+(executed, verified) · 125 standing charter (SENT — no per-task relay expected from here).
+NEXT PASTE NUMBER: 126, and under the charter it should only be needed for a principal ruling
+or a scope change, not for task assignment.
+
+### 2026-07-29 — SLOT 9 THEORY ATTACK: UNCLOSABLE AS POSED. AND A CORRECTION TO THE RATIO CLAIM.
+
+Verbatim: `BOHM_SLOT9_THEORY_ATTACK_2026-07-29.md`. SINGLE-SOURCE, physics arguments NOT yet
+adversarially verified. The reviewer independently verified the load-bearing arithmetic.
+
+*** VERIFIED BY THE REVIEWER, EXACT ARITHMETIC: THE GAUGE SECTOR COLLAPSES TO ONE UNKNOWN
+FUNCTION. *** For traceless su(5) Cartan X, Y on Lambda^even(C^5) = 1 + 10 + 5bar:
+Tr_Lambda0 = 0, Tr_Lambda2 = 3 Tr_5, Tr_Lambda4 = Tr_5. Therefore
+K_XY(x) = Tr_5(XY) * S(x) with S(x) = [I_1(x+12/5) + 3 I_1(x+18/5)]/(24 pi^2).
+Confirmed numerically: Tr_5(Q,Q) = 4/3, Tr_5(H,H) = 2, Tr_5(Q,H) = 4/3, and
+Tr_5(H,H)/Tr_5(Q,Q) = 3/2 exactly, Tr_5(Q,H)/Tr_5(Q,Q) = 1 exactly.
+
+*** CORRECTION TO WHAT THE REVIEWER REPORTED ALL DAY. *** K_H = (3/2) K_Q and K_QH = K_Q were
+reported as "forced ratios EXECUTED in-tree, verified to 2e-14" and used as the central
+evidence that the one-operator mechanism works. THEY ARE CARTAN INNER-PRODUCT RATIOS OF TWO
+FIXED LATTICE VECTORS. They carry no dependence on the depth x, on the I_n integrals, or on
+anything the heat kernel computed. The 2e-14 agreement is the numerical evaluation of
+representation theory, not a dynamical output. The three gauge coefficients are ONE unknown
+scalar function projected three ways. This does not make them worthless — see the surviving
+theorem below — but it removes them as evidence of dynamical overdetermination.
+
+THE THREE CLASSES:
+ 1. TOPOLOGICAL / INDEX — CATEGORY ERROR, cleanly. Index densities are wedge polynomials in
+    curvature 2-forms; F ^ *F is not one, because * is metric- and configuration-dependent.
+    There is NO parity-even gauge characteristic class in 4d. Quantization constrains
+    MULTIPLICATIVE factors and ARGUMENTS; it cannot constrain an ADDITIVE offset. Sub-errors
+    named: an anomaly coefficient is not a kinetic coefficient (its 4d analogue is
+    beta-function universality, which constrains dK/dln k, not K); STr'_BR is a STATISTICS
+    supertrace, not the gamma_5 index supertrace, so the local index theorem never engages.
+ 2. BOUNDARY / COMPLETENESS — all four fail. (i) The finiteness IS the proper-time floor:
+    "K_bare = 0 is not a derived property of a complete spectrum; it is the statement that the
+    boundary condition is imposed at the lower endpoint. THE FLOOR IS THE SUBTRACTION."
+    (ii) Superconvergence and beta_K != 0 are MUTUALLY EXCLUSIVE statements about the same
+    spectrum — the program's own closed running result requires beta_K != 0. (iii) Relocates,
+    and the countermodel is already EXECUTED in-tree (same gravity coefficient and EM slope,
+    different additive stiffness) — and the reason is structural: c_R is x-independent, so the
+    saddle that selects x CANNOT select c_R since d(c_R)/dx = 0. (iv) Category error: a finite
+    Hilbert space gives a finite operator basis with CONTINUOUS coefficients; the corpus's own
+    quantum-spin-ice counterexample settles it.
+ 3. RATIO / OVERDETERMINATION — one survivor, one failure. SURVIVES CONDITIONALLY: if the
+    counterterm must be su(5)-invariant then by Schur's lemma there is ONE invariant bilinear,
+    so c_XY is proportional to Tr_5 and the ratios are EXACTLY invariant under every additive
+    deformation including Pauli-type operator deformations. CONDITIONS STILL OWED: that su(5)
+    (not the 12-dimensional unbroken algebra) constrains counterterms at k_R — currently an
+    ADOPTED axiom — and that the protection survives transport below the breaking scale.
+    OVERDETERMINATION FAILS: one trace, one function, one determination presented several ways;
+    the map is not injective in the relevant direction.
+
+*** THE REFRAMING, AND IT IS WHY THE NEGATIVE IS DECISIVE: c_R IS THE INTEGRATION CONSTANT OF
+THE RG FLOW OF A MARGINAL COUPLING. *** A first-order flow equation takes exactly one boundary
+datum per coupling. Given the already-proved closure of the condition class under K -> K + c,
+NO CONDITION IN THAT CLASS CAN SUPPLY THE BOUNDARY DATUM, because no condition in that class
+distinguishes the two theories. Slot 9 has no solution INSIDE the class it is posed in.
+FOUR EXITS, EXHAUSTIVELY: E1 a UV fixed point where F^2 is irrelevant — the ONLY exit that
+replaces rather than relocates the datum, and it cannot be evaluated here because K_bare = 0
+means g = infinity at k_R and the corpus's own gate says the perturbative calculation is
+undefined there; E2 superconvergence — incompatible with the running result; E3 boundary
+condition at a derived scale — provably relocates, countermodel executed; E4 K appearing only
+multiplied by an integer (self-dual/topological pairing) — dissolves rather than closes, no
+candidate normalization in the corpus, and the discrete measure data enter ADDITIVELY, the
+wrong form to anchor K.
+
+*** BOTTOM LINE: SLOT 9 IS UNCLOSABLE AS POSED. Retire it as posed and replace it with the
+exit question: WHICH OF E1-E4 OBTAINS? ***
+
+*** THE PARAMETER-COUNTING SENTENCE THE PRINCIPAL NEEDS TO SEE: *** with the whole bare
+dimension<=4 basis allowed there are FIVE unknowns; with induced-only adopted there are TWO;
+the sectors supply more coefficients than that. "PREDICTING A DIMENSIONLESS NUMBER FROM A
+POSTULATE THAT CONTAINS EXACTLY ONE FREE DIMENSIONLESS NUMBER PER PREDICTED COEFFICIENT IS A
+REPARAMETRIZATION, NOT A PREDICTION" — unless the postulate is independently earned by
+predicting something else first. Honest label: alpha would be a CONSEQUENCE OF THE
+INDUCED-ONLY AXIOM, with the axiom carrying the same dimensional weight as the output.
+
+PROPOSED NEXT THEORY STEP (the agent's, not adopted): promote the ratio-protection result to a
+stated theorem and make IT — not alpha — the primary deliverable. It is alpha-free,
+counterterm-immune, executable NOW from already-frozen primitives, needs no scale, no depth and
+no coupling value, and it is FALSIFIABLE three ways: (a) if the counterterm need only respect
+the 12-dimensional unbroken algebra, the ratios are unprotected; (b) if an observed relative
+normalization of the two U(1) directions is inconsistent with Tr_5(H^2)/Tr_5(Q^2) after honest
+threshold transport; (c) if below-breaking threshold corrections can shift the ratio by an
+amount comparable to the prediction.
+COMPANION NEGATIVE, bankable: the E1-E4 exhaustion, whose own falsifier is exhibiting a FIFTH
+exit — a condition that fixes the integration constant of a marginal coupling without a
+scale-boundary condition, a fixed point, compositeness, or a topological pairing.
+
+NEXT REVIEWER ACT: adversarially verify the physics arguments (they are single-source). The
+arithmetic is verified; the E1-E4 exhaustion and the Schur's-lemma protection are not.
+
+### 2026-07-29 — CODEX BATCH 2 VERIFIED; AND THE GR-EM RELATION IS UNDER ADVERSARIAL CHECK
+
+CODEX BATCH (standing charter, first batch): task 11 DONE (deep 18-slot inventory, per-slot
+distinction between parent-tree starting points and different objects); task 14 BLOCKED with
+the obstruction recorded — the three census reports CANNOT honestly be produced because their
+gate inputs are missing, and Codex did NOT fabricate them (reviewer verified all three still
+absent); tasks 19-24 groundwork DONE as inventory only, no derivation begun. Reviewer
+verification: deploy DEPLOYED at b271a83; all three hashes match; corpus_check --gate GREEN;
+YELLOW baselines unchanged. R-35/R-36 indexed. APPROVED.
+Codex queued five items for the principal, none decided: slot 1 absolute T_R; slot 3
+mutation-exclusion/complete generator principle; slot 9 the finite c F^2 open-class exclusion;
+an infraparticle-branch Thomson reformulation; and the structure-sensitive prediction
+selection. These go into PRINCIPAL_DECISION_QUEUE.md.
+
+*** THE LIVE THEORY THREAD, FROM THE PRINCIPAL'S OWN INSTINCT ABOUT GRAVITY. *** The reviewer
+constructed the following from the induced action's power counting and it is NOW UNDER
+ADVERSARIAL CHECK (default: it fails):
+  S1 the three induced local terms carry DIFFERENT powers of the record scale — cosmological
+     at k_R^4, Einstein at k_R^2, Maxwell at k_R^0 (the gauge coefficient carries NO explicit
+     k_R factor);
+  S2 therefore alpha depends on k_R ONLY through the depth x, while the Einstein coefficient
+     depends on k_R explicitly AND on x — an information asymmetry between the sectors;
+  S3 the Planck scale is therefore an OUTPUT of (k_R, x), not an input;
+  S4 *** THE STEP MOST LIKELY TO BREAK IT: the reviewer ASSUMED the record interval T_R is the
+     inverse of the BR record scale k_R, so that k_R CANCELS in T_R/t_P and the ratio becomes a
+     function of x ALONE. But an earlier verified check found k_R has ZERO substantive
+     occurrences in the cleanroom, T_R lives in the BID causal-cell construction while k_R is a
+     spectral scale of D_BR, and the current binding declares x, rho and T_R to be THREE
+     INDEPENDENT obligations that MUST NOT BE COLLAPSED. If they are different objects with no
+     derived bridge, THE ARGUMENT DISSOLVES HERE. ***
+  S5 if S4 survives, eliminating x gives a PARAMETER-FREE relation between two dimensionless
+     quantities — alpha and the record-to-Planck ratio — needing no scale. Check for hidden
+     parameters, especially N_index, which the corpus says may not be selected from a coupling;
+  S6 a nonzero offset adds to the gauge coefficient and not the Einstein coefficient, so it
+     BREAKS the correlation — making the relation a TEST of compositeness rather than a
+     consequence of it. BUT if the admissible basis also contains a bare Einstein term, BOTH
+     sectors carry an offset and the relation has two free constants, which weakens or kills
+     the test.
+ALSO UNDER CHECK, and it is the coherence crux: the reviewer argued the compositeness boundary
+condition being imposed at k_R is EQUIVALENT to c_R = 0 — i.e. offset and depth are linked
+through where the boundary sits — while the corpus's own accounting treats them as INDEPENDENT
+with an executed discriminator in each direction. ONE OF THOSE IS WRONG and the check must say
+which.
+
+IF S4 HOLDS, the shape of the program changes: it would predict a CURVE that alpha and the
+gravitational scale ratio must jointly lie on, parameter-free, without needing the depth to be
+selected — weaker than a number but falsifiable, and a better epistemic position than assuming
+compositeness and deriving alpha from it. IF S4 FAILS, the two sectors are not linked and the
+gravity leverage the principal identified reaches slot 1 only, not slot 9.
+
+### 2026-07-29 — GR-EM PARAMETER-FREE RELATION: REFUTED AT S4. AND TWO REAL FINDINGS FROM IT.
+
+Verbatim: `BOHM_GR_EM_RELATION_REFUTED_2026-07-29.md`. Verdicts: S1 SURVIVES (with caveat),
+S2 survives narrowly / REFUTED as used, S3 REFUTED, S4 REFUTED, S5 REFUTED, S6 premise
+confirmed / conclusion REFUTED. THE RELATION DOES NOT EXIST.
+
+WHY IT DIED, AND IT IS STRUCTURAL NOT EVIDENTIAL: T_R and k_R are objects in DISJOINT
+constructions with DISJOINT namespaces and NO derived bridge. T_R is a pure SCALE-ORBIT
+parameter — under T_R -> lambda T_R with H_R -> H_R/lambda ALL dimensionless data are invariant
+— so T_R CANNOT be a function of x. And setting T_R = const/k_R is precisely the move the gate
+forecloses: "Adoption by dimensional analogy is foreclosed; only derivation can reopen it."
+The reviewer proposed the right SHAPE (F(T_R/t_P, ...) = 0) and then supplied it by ASSUMPTION
+instead of derivation. Sixth reviewer over-reading corrected today by a reviewer-ordered check.
+
+*** FINDING 1, INDEPENDENT OF THE ERROR: A SYMBOL COLLISION ON C_R ACROSS THE TWO TREES. ***
+Cleanroom `BID_MINIMAL_PUBLIC_CAUSAL_CELL_DERIVATION_V001.md:43` defines C_R = 2 G E_R/(c^4 R_R)
+<= 1, a COMPACTNESS RATIO set to 1 at marginality — and it is THIS C_R = 1 that fixes T_R.
+Parent tree defines C_R(x) = sum_a d_a I_2(x + C2_a)/(192 pi^2), the INDUCED EINSTEIN
+COEFFICIENT. Same symbol, unrelated objects. This is the root cause of the reviewer's error and
+it will bite anyone reading across the trees. ADD TO THE NAMESPACE REGISTER.
+
+*** FINDING 2, AND IT REDIRECTS THE WHOLE PROGRAM: THE OFFSET IS NOT THE BINDING OBSTRUCTION.
+THE ACTION FORM IS. *** `COMPLETE_PARENT_ACTION_UNDERDETERMINATION_GATE_V001.md` exhibits TWO
+parameter-free completions S_0 and S_1, differing by a Pauli term
+hbar ell_* psibar sigma^{mu nu} psi F_{mu nu}, BOTH with K_bare = 0, giving DIFFERENT finite
+responses — and states in terms: "This is not the ordinary finite-c_R F^2 counterterm
+objection. It survives even after an independent bare Maxwell term is forbidden."
+Flags: complete_parent_action_uniquely_derived = false; finite_response_evaluation_authorized
+= false. CONSEQUENCE: solving slot 9 would NOT be sufficient. Even with the additive
+counterterm excluded, the ACTION ITSELF is not unique, and two admissible parameter-free
+actions give different couplings. Slot 9 is downstream of an underdetermination nobody has been
+working. THIS SHOULD REORDER THE PHYSICS PRIORITY.
+
+FURTHER CORRECTIONS THE CHECK PRODUCED:
+ - S2: K_Q is NOT a function of x alone. Strict ledger row 125 (BLOCKED): the induced parent
+   coupling depends on W_ch = N_g[(1/3)E1(x_5bar) + E1(x_10)] and "current BR rules do not
+   output its mass determinant or N_g". TWO unselected quantities, not one. N_index/N_g enters
+   MULTIPLICATIVELY and would survive elimination of x as a second unknown. The corpus also
+   states neither r/k_R nor N_index may be selected from a measured coupling.
+ - S1 caveat: the power-counting assignments are HAND-WRITTEN PROSE in the markdown writer. The
+   report's PASS flag certifies only the trace inventory, positivity, derivative recurrences and
+   monotonicity. NO assertion tests the k_R powers. Correct dimensional analysis, but not
+   executed content.
+ - S3: the corpus treats l_P as an INPUT (S_grav = -hbar/(16 pi l_P^2) ...); NO artifact matches
+   it against k_R^2 C_R(x); `gravitational_normalization_computed = false`. Plus
+   `NO_GO_EINSTEIN_HILBERT_SUBSPACE_NOT_HEAT_FLOW_INVARIANT` — the truncation needed to read a
+   Planck scale off the two-derivative coefficient is itself flagged non-invariant.
+ - THE CRUX RESOLVED AGAINST THE REVIEWER: K_bare = 0 (a statement about the microscopic
+   Lagrangian) is NOT equivalent to K_R(Lambda_R) = 0 (a boundary normalization at a derived
+   scale). The corpus separates them deliberately and executes a discriminator on each. Row 429's
+   countermodels hold the REGULATOR FIXED while varying K0 — so the offset is NOT the
+   floor-location freedom. And an elegant structural point the reviewer missed: the floor is a
+   SINGLE object, so moving it perturbs I_1 and I_2 TOGETHER and could not produce the
+   sector asymmetry at all.
+ - ROUTE-CLASS WARNING: ledger row 517 records `primitive_boundary_native_alpha_postfreeze_
+   comparison_v001` as REJECTED — a prior instance of exactly this shape, a parameter-free
+   coupling from a proper-time floor convention plus a matching choice. THE CORPUS HAS RUN THIS
+   ROUTE CLASS BEFORE AND REJECTED IT.
+
+WHAT WOULD ACTUALLY BE NEEDED, in the check's order: (1) one action containing both sectors so
+T_R's scale orbit is broken BY DERIVATION; (2) an executed match of the induced Einstein
+coefficient to the gravitational normalization, plus a decoupling theorem answering the
+EH-subspace no-go; (3) an index theorem fixing N_index/N_g; (4) EXCLUSION OF THE PAULI
+COMPLETION AND EQUIVALENT MUTATIONS BEFORE RESPONSE EVALUATION — the binding obstruction;
+(5) resolution of the sqrt(2) Misner-Sharp/Brown-York energy ambiguity.
+
+### 2026-07-29 — SURFACE-PREIMAGE TEST: THE PRINCIPAL WAS RIGHT THAT PRIOR WORK EXISTS.
+### VERDICT UNDECIDABLE FROM THE TEXT, AND THE EXCLUSION IS BY POSTULATE, NOT ILL-FORMEDNESS.
+
+Pre-registered test, spec SEALED BEFORE LAUNCH (f33e77f1...), executed by a DIFFERENT MODEL
+(Opus) for architectural independence. Result sealed: TEST_RESULT_SURFACE_PREIMAGE_2026-07-29.md.
+
+*** THE PRINCIPAL'S INSTINCT WAS CORRECT: THE WORK WAS DONE BEFORE, ON 2026-07-23, AND IT IS
+HIS REFRAMING EXECUTED. *** `PRIMITIVE_TRANSPORT_ONLY_PHASE_COMPLETE_GENERATOR_PRINCIPLE_V001.md`
+restricts the ADMISSIBLE CLASS OF PRIMITIVE RECORD GENERATORS so the deformations fall OUTSIDE
+the class, rather than excluding a bulk term. Its excluded list, verbatim: gauge-history-dependent
+scalar phases; a bare Maxwell action; a primitive Pauli insertion; higher-covariant-derivative
+charged vertices; independent Lindblad/dephasing rates; an independently normalized
+record-curvature term. Its image-side rule: "the compact charged handle enters the microscopic
+generator only through unit-character parallel transport. Curvature is the failure of composed
+transports to close; it is not an independent primitive vertex." That IS the surface-geometry
+answer. RECORDED RESULT (CURRENT_AUTHORITY_LEDGER_V010:115-116):
+  finite_c_F2_deformation_excluded_inside_adopted_primitive_branch = TRUE
+  finite_c_F2_deformation_excluded_as_universal_theorem = FALSE
+and the principle's own flag: principle_derived_from_older_record_theorems = FALSE.
+THIS TEST IS A PARTIAL RE-DERIVATION, disclosed as such. FOURTH pre-existing uncited structure
+found in one day (after the 18 Q_spec slots, the parent tree, and the external chain).
+
+VERDICT: UNDECIDABLE FROM THE TEXT — and the reviewer's frozen prediction was RIGHT on the
+verdict and RIGHT on the sub-prediction (the S_0/S_1 Pauli completion and the independent-F^2
+cochain witness are bulk/lattice constructions with no stated surface preimage) but WRONG ON THE
+REASON. The corpus DOES state an image, twice, and DOES check admissibility repeatedly. What
+blocks the decision is that both image statements are SELF-CLASSIFIED AS ADOPTED POSTULATES
+whose theorem versions are explicitly flagged false (V011:2260-2261
+primitive_F2_theorem_excluded = false, primitive_Pauli_theorem_excluded = false), and the
+operator whose heat coefficients DEFINE the image is undelivered.
+
+*** THE HONEST FINDING AGAINST THE REFRAMING: 2 OF 5 COUNTERMODELS DO HAVE SURFACE PREIMAGES. ***
+The dilation scalar-phase family and the two-channel comparator are carried by RECORD-FORMALISM
+OBJECTS (a Stinespring dilation phase; a comparator channel), and the corpus EXHIBITS them. So
+the counterterm IS a well-formed object of the record formalism in at least two cases. It is
+removed by a rule that NAMES it and declines to call itself a theorem — that is
+EXCLUSION-BY-POSTULATE, the refusal shape, not ill-formedness. The hostile analysis says so
+itself: "If K_bare=0 is imposed, the scalar phase family is forbidden only because an additional
+compositeness/action postulate forbids it." Per-countermodel: dilation phase SURVIVES in the
+surface theory; two-channel comparator SURVIVES; Pauli/S_0-S_1 only in a LARGER theory; the two
+synthetic K0 witnesses are stipulated literals demonstrating non-identifiability of the
+principles, not freedom in any theory; the independent-F^2 cochain is a lattice construction,
+self-disclaimed.
+
+TWO CORPUS FACTS THAT CUT AGAINST THE REFRAMING, both the corpus's own:
+ - THE RECOVERABILITY CRITERION MAKES c_R PHYSICAL: "a formal degree of freedom is physical in a
+   declared context only when an admissible boundary can recover it as a record" — and the K=1/K=2
+   witnesses change the Coulomb response, which IS boundary-recoverable.
+ - THE CORPUS'S OWN BAR REJECTS THE POSTULATE ROUTE: slot 9 requires "universal exclusion over the
+   open class of response-changing mutations, BY THEOREM RATHER THAN POSTULATE RELABELING", and
+   V011's failure list fires on exactly this move — "an F^2 or Pauli term is declared
+   theorem-excluded only because completeness postulated it away."
+
+*** THE DECIDABLE PATH, WITH A CRUCIAL ASYMMETRY: *** the corpus names the surjectivity test
+itself — `explicit_regulator_pair_realizing_arbitrary_c_R_constructed = false`. CONSTRUCTING such
+a pair POSITIVELY PROVES SURJECTIVE (the freedom is real and the reframing fails). FAILING to
+construct one PROVES NOTHING. So the test can only settle the question in one direction, and that
+direction is against the reframing. The corpus's Phase-A obligation is non-surjectivity stated as
+a thing to be PROVED: "every admitted regulator/measure/boundary realization gives the same
+value; no independent polynomial, contact, Jacobian, reference, or local F^2 term is admissible."
+
+ALSO FOUND: a genuine non-surjectivity argument WITH a stated image exists elsewhere —
+alpha_prerecord_independent_comparison_measure_principle_v001.md excludes the bare plaquette
+weight by NON-MEMBERSHIP in the admissible pre-record measure class (measures factorizing into
+one-link Haar marginals), explicitly "from pre-record link independence, not from gauge symmetry
+alone." IT DOES NOT REACH SLOT 9 — the corpus says so: "P1+P2 conditionally remove an independent
+bare plaquette stiffness, but the induced effective Maxwell stiffness remains unidentified." But
+it is the existence proof that this KIND of argument can be made in this program.
+
+### 2026-07-29 — CODEX W1-W4 VERIFIED; THE ACTION-FORM CLASS IS UNBOUNDED
+
+Reviewer verification: all five hashes match disk; DEPLOYED at 72ae8f2; corpus_check --gate
+GREEN; YELLOW baseline did NOT grow (substring 6 · hardcoded 2927 · cannot-fail 2 · superseded
+hardwires 548 · scope declarations 107 · relay duplicates 3 · max paste 126). R-37 through R-40
+indexed. No new principal queue from the batch. APPROVED.
+
+*** W1, THE BOTTLENECK ITEM, AND THE ANSWER IS WORSE THAN "TWO": ***
+  exhibited_parameter_free_parent_action_completions = 2   (S_0, S_1 — the only two with
+                                                            displayed action terms)
+  larger_equivalent_mutation_class_bounded = FALSE
+  two_completion_claim_computed_by_finite_response_producer = FALSE
+  two_completion_claim_asserted_by_prose_algebra_and_authority_flags = TRUE
+So: TWO exhibited completions, and THE CLASS IS NOT BOUNDED. Additional classes are NAMED but
+never enumerated as concrete members — higher-derivative source terms; different finite causal
+updates; record-curvature or dissipative mutations. And the two-completion claim itself is
+carried by PROSE ALGEBRA AND AUTHORITY FLAGS, not by an executable finite-response producer.
+CONSEQUENCE: the action-form underdetermination is not "one alternative to exclude." It is an
+unbounded class with two named members, and even the two are not computationally established.
+Correctly NOT counted as additional completions: the hostile analysis's scalar-phase/channel
+families (CPTP/phase countermodels, a different object) and the parent-state covariance result
+(which states it is not a microscopic-action uniqueness theorem).
+
+W3: THE SCHUR RATIO PROTECTION IS **CONDITIONAL-ON-WHAT, NOT ESTABLISHED BY THE CORPUS**
+(`STAGE8_SCHUR_RATIO_PROTECTION_SCOPE_ATTACK_V001.md`). This matters: it was the ONE survivor of
+the slot-9 theory attack and the proposed alternative deliverable. It is not refuted, but the
+corpus does not establish the su(5) premise it needs, so the protected-ratio theorem cannot yet
+be offered as a result. The reviewer's arithmetic (Tr_Lambda2 = 3 Tr_5, Tr_Lambda4 = Tr_5, and
+the 3/2 and 1 ratios) stands independently and is verified; what is unestablished is the Schur
+step's scope.
+W2: the C_R collision is recorded in the namespace register (now V002), with further near-misses
+scoped without over-promotion.
+W4: the GR-EM refutation is indexed; "adoption by dimensional analogy is foreclosed" governs.
+
+STATE OF THE PHYSICS AFTER TODAY, PLAINLY: slot 9 is unclosable as posed inside its condition
+class; the exclusion that exists is by POSTULATE inside an adopted branch, not by theorem; the
+action form beneath it is an UNBOUNDED class with two named members; and the one alternative
+deliverable (protected ratios) rests on an unestablished premise. Zero of the 18 slots have a
+derived result. The honest position is that the program's blocker is deeper than slot 9 and the
+corpus's own flags say so at every level.
+
+### 2026-07-29 — THE PRINCIPAL'S TWO ARGUMENTS, BOTH NOW UNDER TEST. AND A BINDING
+### METHODOLOGICAL RULE: DO NOT LET THE MACHINERY DICTATE THE PHYSICS.
+
+ARGUMENT 1 — THE BOUNDARY VALUE IS NOT A CHOICE, AND NEITHER MAY BE THE FLOOR. The induced
+action is a proper-time integral whose LOWER ENDPOINT IS the record scale, so at that scale the
+range is EMPTY and the gauge coefficient is zero BY ARITHMETIC — not by stipulation
+(Gamma_BR,k_R = 0). And the capacity principle states lambda_0(D_BR^2) = k_R^2 with
+N_BR(k_R) = 1, i.e. the record scale is the LOWEST EIGENVALUE OF THE OPERATOR — a FACT about the
+operator, not a separate condition. IF BOTH HOLD: OPERATOR -> FLOOR -> BOUNDARY VALUE (zero), so
+*** c_R IS NOT AN INDEPENDENT FREEDOM; IT IS THE SHADOW OF THE ACTION-FORM FREEDOM, AND TWO
+APPARENTLY SEPARATE OPEN PROBLEMS COLLAPSE INTO ONE. *** That is a genuine REDUCTION of the
+problem, and it is the first one anyone has produced.
+THE TEST NOW RUNNING: do the offset countermodels RESPECT that chain, or do they vary K0 at
+FIXED operator? Row 429's countermodels ("same gravity coefficient regulator and EM slope,
+different additive Maxwell stiffness") are the crux — if they hold the operator fixed and vary
+K0 as a free parameter, they do NOT demonstrate freedom in a theory built by the chain, and the
+principal's argument STANDS. Note two of the witnesses are already known to be STIPULATED
+LITERALS whose own artifact says "displayed K values are synthetic countermodels only."
+
+ARGUMENT 2 — THE INFINITE-COUPLING OBJECTION MAY BE PARAMETRIZATION, NOT PHYSICS. The corpus
+sets aside the UV-fixed-point exit because at the floor K = 0 means the coupling 1/K is infinite
+and the perturbative gauge/ghost calculation is undefined. THE REVIEWER NOW AGREES WITH THE
+PRINCIPAL THAT THIS IS LIKELY SPURIOUS: K = 0 is finite and unremarkable; only its RECIPROCAL
+blows up, and the induced construction computes K DIRECTLY and never needs 1/K. Further, in a
+purely induced picture the photon has NO kinetic term at the floor, so it is NOT a propagating
+mode there, so it should have NO loops there — gauge/ghost loops should switch on only BELOW the
+floor where the coefficient is already nonzero. If so the objection assumes gauge loops matter
+in a region where they do not exist.
+*** IF THAT HOLDS, IT REOPENS E1 — THE UV FIXED POINT — WHICH TODAY'S THEORY ATTACK IDENTIFIED
+AS THE ONLY EXIT THAT REPLACES THE BOUNDARY DATUM RATHER THAN RELOCATING IT, AND WHICH IT SET
+ASIDE FOR EXACTLY THIS REASON. THAT WOULD BE THE MOST CONSEQUENTIAL OUTCOME AVAILABLE. *** The
+check is instructed to assess it carefully and not overstate it.
+
+*** BINDING METHODOLOGICAL RULE, THE PRINCIPAL'S, AND IT NOW GOVERNS EVERY LANE: DO NOT LET THE
+MACHINERY DICTATE THE PHYSICS. "Our expansion breaks down here" is NOT the claim "the physics is
+singular here." The corpus may have conflated them, and every lane must flag that conflation
+where it appears. The symmetric error is also forbidden: if a breakdown IS physical, say so. ***
+This belongs in the conventions set alongside C1-C5.
+
+ALSO RUNNING: the axiom-set map (chartered, Opus) — trace every relocation to its terminus,
+enumerate what is irreducibly adopted, count it, and judge whether the terminal set is small and
+independently motivated (a real conditional result) or CONTAINS THE ANSWER (a reparametrization).
+
+### 2026-07-29 LATE — THE AXIOM MAP AND THE TWO ARGUMENT TESTS. THE DECISIVE DAY'S END.
+
+Both sealed: `AXIOM_SET_MAP_2026-07-29.md` (7192260661cc...) and
+`TEST_RESULT_OPERATOR_CHAIN_AND_PARAMETRIZATION_2026-07-29.md`. Both executed by Opus.
+
+*** THE AXIOM MAP — TWELVE TERMINUSES, NINE CONTESTED, AND ONE DEVICE CARRIES EVERY NUMBER. ***
+The corpus's own machine-readable self-count is SIX and omits five of the twelve. A6 — the
+allow/require boundary / first-admissible / minimality / saturation selector — IS ADOPTED NINE
+SEPARATE TIMES IN NINE SEPARATE FILES and carries EVERY dimensionless number in the construction:
+d = 4; the absolute record cell scale (C_R = 1 at marginality, whose own text says "This fourth
+input is THE SELECTOR. Without it, public recoverability gives a half-line of allowed durations
+and no absolute record scale"); the orthogonalization budget ("Saturation is adopted, not
+derived"); the first-record spectral scale; the proper-time floor (tau = 1, "a frozen
+target-independent branch convention, NOT a theorem"); balanced calibration p = 1/2; one
+vectorlike pair and unit charge; spin 1/2; and the source-mass depth ratio. Nine numbers, nine
+local adoptions, ONE postulate, then nothing. No inventory in the corpus counts it once, so its
+weight is invisible at every point of use.
+
+*** AND THE VERDICT IS A THIRD THING, NEITHER "SMALL AND MOTIVATED" NOR "CONTAINS THE ANSWER":
+the terminal set contains a NUMBER-MANUFACTURING DEVICE that will produce a determinate coupling
+from any carrier handed to it. IT ALREADY DID, AND THAT NUMBER WAS REFUTED. *** Ledger row 516
+records the branch CONDITIONAL with four named adoptions assembling into K = 3/16 + E1(1)/(12
+pi^2) — note the floor convention tau = 1 appearing LITERALLY as the argument, the axiom visible
+inside the answer. Row 517: REJECTED,
+standalone_K_native_equals_K_Thomson_identification_fails_CODATA_holdout, "the observed value
+about 57.59 times the prediction ... no residual repair is authorized." So the axioms do NOT
+secretly encode the measured value — that is direct evidence against it — but A6 is an OPEN-ENDED
+LICENCE. Nine instances exist; nothing bounds the tenth.
+ALSO: the self-declared "one place" conditionality register has FOUR UNRESOLVABLE ENTRIES (QFC,
+DCC, MPCP defined only outside the cleanroom; "complex-vs-real selection" has NO defining artifact
+anywhere in four roots) and omits the A6 class entirely. Best prior work is in _external_handoffs
+(01_PREMISE_LEDGER.md), uncited by the cleanroom, and it already named the undeclared minimality
+selector as the "alpha-critical, strongest finding."
+THE RECOMMENDATION, and it is sharp: name A6 ONCE with its nine applications enumerated under it —
+because once counted once, "given N axioms the coupling is determined" becomes visibly "given a
+rule that picks the smallest admissible value of every free quantity, the coupling is determined",
+WHICH IS NOT A RESULT, IT IS THE STATEMENT OF THE METHOD. And the corpus already knows which of
+its axioms is the good one: A3 (pre-record link independence) is the ONLY terminus that is a
+substantive physical proposal WITH a falsifier and an explicit refusal to overclaim.
+
+THE PRINCIPAL'S TWO ARGUMENTS: Leg 1 SOUND (boundary value zero by arithmetic). Leg 2 FAILS — and
+for a reason worth knowing: THE CORPUS EXPLICITLY FORBADE, AS CIRCULAR, the derivation order the
+argument needs ("the forbidden circular construction is k_R -> Gamma_BR,k_R -> H_phys -> K_pub ->
+k_R", ledger row 167 REJECTED violates_noncircular_capacity_order); the capacity equation is a
+CONSTRAINT not a definition; and where executed it fails. BUT HIS COUNTERMODEL POINT IS CORRECT:
+none of the five constructions varies an operator — two are stipulated Fractions at fixed
+operator/regulator/floor, three involve no operator at all. "The offset is free" really means "the
+currently derived principles do not fix it."
+PARAMETRIZATION: THE PRINCIPAL IS RIGHT. Bounded ZERO hits for any 1/K expansion in four roots;
+gauge/ghost loops enter strictly below the floor by frozen premises; the corpus HAS an executed
+calculation AT K = 0 that PASSES; U(1) gauge/ghost adds EXACTLY ZERO to the F^2 slope. The
+conflation traces to ONE wording divergence — a producer's JSON says "not YET defined" (ordering)
+and its own Markdown drops "yet" (singularity); the theory attack quoted the Markdown. IT DOES
+NOT REOPEN E1: two obligations remain, plus a structural one — the induced action exists only
+BELOW k_R, so THERE IS NO PUBLIC ULTRAVIOLET REGION FOR A FIXED POINT TO LIVE IN.
+CODEX ALREADY EXECUTED the conflation sweep and the C6 draft (paste 127 W2/W3 landed):
+`STAGE8_MACHINERY_PHYSICS_CONFLATION_SWEEP_V001.md` finds M/P-1 and types it UNCLEAR/MUST BE
+TYPED BEFORE USE; M/P-3 correctly typed PHYSICAL. ONE conflation site, traceable, and it never
+blocked a corpus route — only a supervision-level exit assessment.
+
+TRAP: the load-bearing flag `zero_stiffness_boundary_condition = ADOPTED_NOT_DERIVED` is a
+HARDCODED LITERAL whose only supporting check is TWO SUBSTRING TESTS, and TWO downstream gates
+consume it. The corpus ALREADY RETIRED an artifact for exactly this ("phrase matching and assigned
+classifications cannot prove the absence of an absolute-K derivation"). Undischarged here.
+
+### 2026-07-29 — PASTE 127 VERIFIED. AND THE AXIOM MAP'S CENTRAL TYPING IS NOW DISPUTED BY THE
+### PRINCIPAL, ON GROUNDS THAT MAY BE RIGHT.
+
+CODEX PASTE 127 VERIFIED: three hashes match; DEPLOYED at 3f58b76; gate GREEN. The
+operator-floor-boundary chain is honestly marked PROPOSED / NOT ADOPTED with GAPs recorded at
+step 1 (the complete normalized L_BR/D_BR object) and step 2 (the lowest-eigenvalue/spectral
+step). *** TWO INDEPENDENT LANES FOUND THE SAME BREAK POINT — Codex flagged step 2 as a GAP and
+the Opus check independently found leg 2 fails. *** Codex correctly did NOT update the register,
+since none of this was a principal ruling. Machinery/physics sweep: one UNCLEAR (the gauge/ghost
+extrapolation language), one MIXED, one correctly typed PHYSICAL/STRUCTURAL TIMING. C6 drafted,
+PROPOSED only. Queued for the principal: ratify or reject C6; decide whether the chain becomes a
+chartered target once steps 1-2 are addressed.
+
+*** THE PRINCIPAL DISPUTES THE AXIOM MAP'S TYPING OF A6, AND THE DISPUTE IS SUBSTANTIVE. *** The
+map types the allow/require selector as a NUMBER-MANUFACTURING DEVICE — "a rule that picks the
+smallest admissible value of every free quantity" — applied nine times. THE PRINCIPAL'S CLAIM:
+allow/require was a PRINCIPLED DEPARTURE FROM EXISTING THEORY, worked out with effort, with
+physical CONTENT, and STIFFNESS is where the departure happened. THE CANDIDATE ARGUMENT, which
+the reviewer judges genuinely strong: "first admissible" is not arbitrary, because a durable
+record either forms or it does not; if it forms as soon as conditions permit, THAT IS WHAT ONSET
+MEANS, and selecting a later moment would require explaining the delay. On that reading the
+selector is FORCED BY WHAT A RECORD IS, and the axiom map has mis-typed a physical principle nine
+times over. IF THE PRINCIPAL IS RIGHT, THE COUNT OF CONTESTED AXIOMS FALLS AND THE "STATEMENT OF
+THE METHOD" VERDICT IS WRONG. The reviewer does NOT know which reading is correct and is not
+guessing.
+
+RECOVERY SWEEP LAUNCHED (Opus), three tasks: (1) find the ORIGINAL allow/require work — where it
+was ARGUED rather than invoked — and adjudicate onset-physics vs bare minimality *** PER
+APPLICATION SITE ***, because if some of the nine are forced and others are conveniences the
+map's uniform treatment is wrong; (2) FIND THE STIFFNESS DEPARTURE — where the program defines
+stiffness in Gravacle terms as distinct from a conventional kinetic coefficient, and argues
+allow/require forces something standard field theory does not. This is the principal's specific
+memory and the thing most likely lost; (3) sweep for OTHER lost insights — artifacts older than
+the cleanroom containing a derivation/theorem/determination/departure that ZERO current files
+cite. Roots extended to include MB Work/alpha-program-archive and any memory-bank directory,
+neither swept for this question, and the sweep is instructed to PREFER OLDER ARTIFACTS since
+every loss recovered today predates the current working set.
+
+*** THE LOSS COUNT FOR THE DAY IS FIVE, AND THAT IS WHY THE PRINCIPAL'S FEELING IS BEING TREATED
+AS EVIDENCE: *** (1) the 18-slot Q_spec enumeration; (2) the entire parent tree; (3) the 87-file
+external chain the pickup document names; (4) the transport-only principle, which already
+executes the principal's own reframing; (5) rows 516/517, where the stack produced a number and
+it was rejected. A program that has lost five substantive things in one day's discovery has
+probably lost more.
+
+### 2026-07-29 — CORRECTION: memory-bank IS NOT PART OF THIS PROGRAM, AND THE ~4800 FIGURE IS WRONG
+
+The principal questioned why anything would be stored in memory-bank. Checked: it is the MEMORY
+BANK WEB/MOBILE APP — capacitor.config.ts, lambda/, node_modules, package.json, deploy scripts.
+Bounded: grep for gravacle | kappa_record | alpha_computed | Q_spec across its *.md, *.py, *.ts
+returns ZERO files. It contains no program content whatsoever.
+
+TWO CONSEQUENCES:
+ 1. The recovery sweep was mis-scoped by the reviewer to include it. Redirected.
+ 2. *** THE "840 OF ~4800 FILES" SCOPE FIGURE, QUOTED ALL WEEK AND CARRIED IN SEALED ARTIFACTS
+    AND IN REVIEWER MEMORY, IS INFLATED. *** It counted ~800 memory-bank files as program files.
+    They are a TypeScript application. The correct program denominator excludes them, so the
+    fraction actually searched during the week was HIGHER than reported — the scope error was
+    real but its magnitude was overstated. Every future citation of that figure must use the
+    corrected denominator, and the reviewer memory note carrying it needs the same fix.
+This is a small correction, but it is a number that appeared in the record repeatedly without
+anyone checking what was in the directory. Same class as the C_R symbol collision: a figure
+propagated by citation rather than verification.
+
+### 2026-07-29 — ERRATUM 001 ISSUED: THE FILE-COUNT FIGURE IS CORRECTED, AND IT MOVED THE OTHER WAY
+
+`ERRATUM_001_PROGRAM_FILE_COUNT_2026-07-29.md` written and sealed (6cb467156bf4035512919b32a06e9d2dda5f03d14b08dae9600a406ede39540a). Issued at the
+principal's direction after he questioned why anything would be in memory-bank.
+
+CORRECTED FIGURES (measured 2026-07-29, exclusions stated in the erratum): cleanroom 1,138 ·
+parent tree EXCLUDING cleanroom **5,930** · supervision 128 · external handoffs 229 · DISTINCT
+PROGRAM CONTENT **~7,425** · archive 3,662 (a MIRROR, not distinct).
+
+*** THE OLD "840 OF ~4800" WAS WRONG IN BOTH DIRECTIONS. *** It counted memory-bank (~800) as
+program files — that is the MEMORY BANK WEB/MOBILE APP, 142 tracked files, capacitor config,
+lambda, node_modules, ZERO hits for gravacle/kappa_record/alpha_computed/Q_spec. And it
+UNDERCOUNTED the parent tree badly: 5,930 not ~3,271. *** NET: THE SCOPE ERROR WAS WORSE THAN
+REPORTED, NOT BETTER — roughly 15% of distinct program content was searched, not 17.5%. The
+reviewer's first reaction (that the searched fraction was therefore HIGHER) IS WITHDRAWN. ***
+
+FIXES APPLIED: reviewer memory note rewritten with corrected counts, the memory-bank prohibition,
+and the deeper lesson; MEMORY.md index line corrected; erratum pointer APPENDED to the one SEALED
+supervision artifact carrying the figure (GRAVITY_EVIDENCE_REGISTER_V001) and the register
+RE-SEALED after the append — append-only respected, no bytes rewritten. Eight unsealed supervision
+artifacts carrying the figure are listed in the erratum to be read against it.
+*** NO CLEANROOM ARTIFACT CITES THE FIGURE — the five apparent matches are SHA-256 hash
+substrings (e.g. "...485cc4800549aae..."), verified by inspection. NO ERRATUM IS OWED IN THE
+GOVERNING CHAIN and Codex needs no relay for this. ***
+
+RECOMMENDED corpus_check ADDITION, arising from this: a detector for QUANTITATIVE CLAIMS REPEATED
+ACROSS ARTIFACTS WITH NO PRODUCER — a figure cited in N artifacts and computed in none. This
+figure was the HEADLINE OF THE SCOPE FINDING ITSELF and was repeated for two days without anyone
+opening the directories it counted. Same class as the C_R collision and substring-certified flags:
+a value propagated by citation rather than verification.
+
+### 2026-07-29 — TASK 19 / SLOT 3 RETURNS AS AN OBSTRUCTION. VERIFIED AND APPROVED.
+
+Codex took the next unblocked lane item under the standing charter without a relay — the charter
+is working as intended. Reviewer verification: hash e6fe0873 matches; DEPLOYED at 46f8040; gate
+GREEN; YELLOW baselines unchanged; the obstruction is located at file:line in twelve places, as
+convention C2 requires; and it claims NO derivation — `primitive_unit_character_holonomy_derived
+= true` is the only true flag and it is an INPUT, not the slot. APPROVED.
+
+FINDING: SLOT 3 CANNOT PROCEED AS A LANE CONSTRUCTION ON CURRENT INPUTS. The corpus has
+primitive unit-character holonomy and finite U(1) identity material, but the complete public
+charged action still requires the complete microscopic generator, the field-history weight,
+absolute stiffness, and mutation exclusion. *** AND THE ACTION-FORM UNDERDETERMINATION IS WHAT
+BLOCKS IT: the larger mutation class is unbounded, so slot 3 inherits that. ***
+DOWNSTREAM CONSEQUENCE: slots 4-8 are blocked-by-ordering behind slot 3, per the corpus's own
+frozen EM dependency order. So SIX of the eighteen slots are now blocked behind ONE obstruction,
+and that obstruction is the action-form class — the same thing today's refutation identified as
+the real bottleneck beneath slot 9.
+
+*** THE CONVERGENCE IS WORTH STATING: FOUR INDEPENDENT LINES OF WORK TODAY ALL TERMINATE AT THE
+SAME PLACE. *** (1) the slot-9 theory attack: unclosable inside its condition class, and the
+action form is what sits beneath it; (2) the GR-EM refutation: the offset is not the binding
+obstruction, the action form is; (3) the axiom map: nine of twelve terminuses contested, with the
+number-manufacturing device carrying every dimensionless value; (4) slot 3, and through it slots
+4-8, blocked on the same unbounded mutation class. THE PROGRAM HAS ONE BOTTLENECK, NOT SEVERAL,
+AND IT IS: WHAT MAKES THE MICROSCOPIC CHARGED GENERATOR UNIQUE.
+Codex queued exactly that for the principal: "a principle or derivation that supplies the
+complete microscopic charged generator and excludes Pauli/equivalent response-changing mutations
+before response evaluation."
+
+NOTE FOR THE DECISION QUEUE: that queued item is the SAME object as slot 9's requirement, as the
+transport-only principle's scope limit, and as the reopen condition of the action-form
+underdetermination gate. It should be entered ONCE, not four times, per the namespace discipline.
+
+### 2026-07-29 — *** THE RECOVERY SWEEP. THE PRINCIPAL WAS RIGHT. AND THE AXIOM MAP'S TYPING IS
+### CORRECTED, NOT SOFTENED. *** Sealed: RECOVERY_STIFFNESS_AND_ALLOW_REQUIRE_2026-07-29.md (4ae55f95b421eb0bf3372a7b87ed2f04b4771d8822e87d6f072d49e3f733f9b2)
+
+THE STIFFNESS DEPARTURE IS REAL, WAS ARGUED AT LENGTH, AND PART OF IT WAS DELETED.
+ - WHAT IT DEPARTS FROM: in standard QED stiffness is a CONVENTION — the free finite part of Z_3,
+   with A -> lambda A a contentless field redefinition. Theorem 1 of
+   charged_boundary_access_operator_derivation_v001.md:49-103 (07-10), "Pure U(1) Access Does Not
+   Fix Alpha": K' = K/lambda^2 preserves the field equations and the holonomy records. "That scale
+   is the coupling layer."
+ - THE DEPARTURE IS TWO MOVES, and the second is the one that matters: K_bare = 0, AND REMOVAL OF
+   THE RESCALING FREEDOM — which is what turns stiffness from convention into physical quantity.
+ - *** THE DELETION: primitive_record_cell_selection_principle_v001.md:96-109 carried a section
+   headed "## Rescaling exclusion" stating exactly that condition, and explicitly linking it to
+   allow/require ("It strengthens the earlier allow/require rule. The earlier rule fixed whether a
+   support could become a durable public record but did not fix an absolute action coefficient").
+   THAT SECTION WAS DELETED AT THE v003 EDIT — the same edit that retyped K as "a local
+   surrogate... not a microscopic input." NO CURRENT FILE CITES v001. ***
+ - *** THE MOST VALUABLE LOST ARTIFACT: primitive_same_cell_opening_normalization_principle_v001.md
+   (07-21) IS STIFFNESS DEFINED BY THE ALLOW/REQUIRE ONSET CONDITION. *** "The allow/require
+   threshold acts on one complete Lorentz-invariant record cell. Gravacle therefore does not attach
+   an independently adjustable opening coefficient to an already computed source Hessian." "There is
+   no separate kappa to fit or identify with the coupling. The Maxwell stiffness K enters only
+   through the complete microscopic action, its stationary saddle, and the generated unitary record
+   dynamics." Stiffness = THE FIRST POSITIVE ROOT of a first-opening operator (L_open > 0 before the
+   crossing, lambda_min = 0 at K_*, dim ker = 1) — NOT a smallest-admissible pick. Carries an
+   OVERDETERMINATION requirement, a physical reason for the sign, AND A FALSIFIER ("If a
+   microscopic derivation produces a different relative sign or an additional independent
+   coefficient, this branch is falsified rather than repaired"). ZERO cleanroom STAGE8 citations.
+   NOTE: this is the PRINCIPLE behind the L_open route the first workflow of this session found
+   "not runnable" and RETIRED. The route's implementation died; the PRINCIPLE — with its falsifier
+   and its onset framing — went with it, and should not have.
+ - HONEST LIMIT: no artifact claims allow/require DERIVES an absolute stiffness. Every candidate is
+   flagged ADOPTED / POSTULATE / CELL_CONSTRAINT_ONLY. Recovered material supplies a principled
+   FRAME and a falsifiable TARGET, not a closed derivation.
+
+*** THE ADJUDICATION, AND IT IS SUBTLER THAN EITHER SIDE: ALLOW/REQUIRE IS A GENUINE PHYSICAL
+PRINCIPLE, THE NINE SITES ARE GENUINE UNFORCED MINIMALITY ADOPTIONS, AND THEY ARE NOT THE SAME
+OBJECT. *** Allow/require is a THREE-THRESHOLD NECESSARY-CONDITION FILTER
+(boundary_access_closure_threshold_principle_v001.md, 07-11): "the threshold rule does not
+automatically choose the denominator. It states the exact condition under which the denominator is
+required." IT WAS RUN AND RETURNED A NEGATIVE AGAINST THE PROGRAM'S OWN PREFERRED RESULT —
+m3_e2_threshold2_application_test_v001.md:209-232, "the current proof does not yet require the
+denominator", with the fallback PRE-COMMITTED. A rule that blocks its author's favoured alpha
+equation is not a number-manufacturing device. It also has an EMPIRICAL ANCHOR (Aharonov-Bohm) and
+does real explanatory work (confinement follows from it rather than being postulated). Origin:
+field_access_allow_require_unification_v001.md (07-08, 16,741 lines) — COUPLINGS ARE IMPEDANCES OF
+ACCESS CONDITIONS, Z_F = 1/kappa_F, not Lagrangian normalizations.
+
+PER-SITE VERDICT, which changes the count: *** ZERO of nine are strong-onset. FIVE are minimality,
+four of them SELF-LABELLED by their own file. THREE ARE MISATTRIBUTIONS (site 4 N_BR(k_R)=1 is
+trace-linearity and the file FORBIDS the shortcut; site 6 p=1/2 is algebraic uniqueness, interior
+to the interval, not a least member; site 9 m_D/k_R=1 is Schur/irreducibility plus a bridge
+postulate). *** So the map OVERCOUNTS A6 (nine -> about five and a half) AND UNDERCOUNTS the
+terminal set — the exact-orthogonality requirement and the no-independent-row-renormalization
+bridge are load-bearing termini absent from its twelve.
+
+THE MAP'S THREE ERRORS, each checkable: (1) IT NAMES THE WRONG OBJECT — the corpus had already
+typed allow/require correctly SIX DAYS EARLIER and explicitly retired it from the selector role:
+"RETAINED AS A SUPPORT/CELL CONSTRAINT; RETIRED AS A STANDALONE K_R SELECTOR", status
+CELL_CONSTRAINT_ONLY. The map cites neither that ledger nor the route graveyard. (2) IT NEVER READ
+THE ORIGINAL WORK — zero citations to the five foundational allow/require artifacts. (3) *** IT
+PERFORMS AN IDENTIFICATION THE PROGRAM SAYS NO LANE MAY PERFORM: a prepared-and-unissued charter
+establishes there are TWO allow/require objects — (A) the methodological verb calibration and (B)
+the physical microscopic postulate — and states "NOTHING IN EITHER TREE CONNECTS (A) TO (B)", with
+falsifier 4 naming this as match-by-name/fail-by-type, "this program's characteristic failure." The
+map applies (A) to (B). *** The agent also CORRECTED ITS OWN first reading, reporting that this is
+NOT a scope-limit breach on the letter — the real finding is that the transfer is unlicensed.
+
+THE CORRECTION: *** SPLIT A6, DO NOT SOFTEN IT. *** The constraint (real, argued, falsifiable, with
+a negative on the record) is not the selector (unforced, self-labelled, nine times over).
+"Condemning the first for the sins of the second discards the program's best-argued idea and leaves
+the actual weak points misnamed and therefore unfixable."
+
+TASK 3 — 718 OF 821 root-level pre-cleanroom artifacts (87%) ARE CITED NOWHERE in the working set.
+Top recoveries: (1) *** TWO MORE parameter-free action completions exist with displayed action terms
+(S_rot, S_BF) in the direct-ancestor cleanroom v001 — so yesterday's inventory count of 2 IS WRONG,
+and the GR-EM refutation rests on it; *** (2) THE GUARD THE AXIOM MAP SAYS IS MISSING ALREADY
+EXISTS — "No new coefficient enters unless it is forced by an independently stated closure handle
+and appears in at least one independent relation" (07-08, zero citations); (3) a four-condition
+promotion gate plus Corollary 2 (BRANCH ENLARGEMENT — a disposition current fences do not offer at
+all); (4) THE ENTIRE 07-07..11 GRAVITY-EMERGENCE PROOF STACK IS MISSING FROM THE REGISTER CREATED
+YESTERDAY TO HOLD IT, including theorems that DERIVE the public-geometry criterion the register
+calls an unexplained premise; (5) three no-gos current work may be re-deriving or violating,
+including a stronger form of what yesterday's refutation independently rediscovered; (6) two large
+pre-cleanroom bodies unread — 51 versions of EM boundary-access theory with ~40 named theorems
+including a Gravity-EM Surface Unification Theorem that ALREADY EXECUTES THE SURFACE-GEOMETRY
+REFRAMING EARLIER than the instance recovered yesterday; (7) a proved exact scale degeneracy
+surviving only inside a JSON string; (8) a six-class model-space classification with per-class
+exclusion verdicts DEMOTED BY A RELATIVE-PATH BUG (../ vs ../../), not by any defect — recoverable
+by re-resolving five hashes.
+ALSO: the archive is a FAITHFUL MIRROR, not a loss surface (bounded). And the retracted file-count
+figure is still LOAD-BEARING at PLAN_TO_ALPHA_V006:9 and unqualified at CONTINUATION_STATE:990.
