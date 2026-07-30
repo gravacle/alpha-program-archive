@@ -16,7 +16,9 @@ S = one lane session.
 |---|------|-----|-----|----------|
 | 0 | ~~PASTE 130~~ **RETURNED AND VERIFIED 2026-07-30 07:07.** Five hashes match; Q-13..Q-20 registered; O-SC1 step zero = BLOCKED_BY_ORDERING; deployed 996591e | DONE | LANE 1 | — |
 | **0a** | **PASTE 131 -> CODEX LANE 1.** Erratum 002 + detector request, the `Gamma_K` charter, the mandatory scoping step, lane protocol | S | REVIEWER -> LANE 1 | nothing |
-| **0b** | **PASTE 132 -> CODEX LANE 2 (new lane).** Slot 18: why it is now primary, the ordering facts, a five-part bounded inventory, lane protocol | S | REVIEWER -> LANE 2 | nothing |
+| 0b | ~~PASTE 132~~ **SENT 2026-07-30 to CODEX LANE 2.** Slot 18 scoping running | DONE | LANE 2 | — |
+| **0d** | **PASTE 133 -> CODEX LANE 1.** Author `STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001` (assembly steps 1-4; gates 5-6 frozen as acceptance criteria). Carries Q-22's rank-6 conditionality as a Section-0 declared condition | S | REVIEWER -> LANE 1 | nothing |
+| **0e** | **REVIEWER: re-run the ~11 suspect bounded negatives** flagged by the new `path_list_word_splitting` detector (18 sites, 07-27..07-29 reviewer artifacts). Re-execution needs no independence; Einstein can check the re-runs | S | REVIEWER | — |
 | **0c** | **THREE WRITERS, ONE WORKING TREE.** Commit only own files by explicit path; shared lane-status file is read-modify-write in one step; write scopes are `Gamma_K`/measure/namespace (lane 1) vs `STAGE8_SLOT18_*`/A32 (lane 2). Codex's 996591e absorbed 8 reviewer files | — | ALL LANES | — |
 | | **BAND 1 — KILL THE THREE FREEDOMS. Only this band decides whether alpha is forced at all.** | | | |
 | **1** | *** **`Gamma_K` + `C_record(K)` — THE SOLE CONSTRUCTION TARGET, CHARTERED 2026-07-30 (Q-21).** Root of the dependency graph; nothing upstream. NOT a primary-route declaration. F-GK1..F-GK5 frozen *** | L | LANE | — |
