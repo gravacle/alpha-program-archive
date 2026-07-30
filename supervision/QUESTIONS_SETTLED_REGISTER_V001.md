@@ -2467,6 +2467,49 @@ alpha was drawn from `pi/sqrt(2)`** — the exact restraint the paste demanded.
 
 ---
 
+## Q-59. "Can `C_R = 1` select alone?"
+
+*** RULING: NO. IT IS A CONDITIONAL SELECTOR, NOT A COMPLETED ABSOLUTE-SCALE DERIVATION. Q-58 SURVIVES —
+IT REMAINS THE SOLE ORBIT-BREAKER — BUT IT SELECTS ONLY AFTER AN UNBUILT SOURCE-RECORD-GRAVITY /
+HAMILTON-JACOBI BRIDGE SUPPLIES THE ENERGY/ACTION INTERFACE AND A FIRST DURABLE-PUBLIC CLOSURE THEOREM. ***
+Established 2026-07-30 by Codex lane 1 under relay 161
+(`STAGE8_C_R_SELECTOR_NONSELECTION_DIAGNOSIS_V001.md`, `e2ee7b0b…`, archive `5ef3ae1`, gate GREEN).
+
+**WHAT SELECTING WOULD MEAN:** fixing a unique isolated stable Planck-unit record interval and the
+associated radius, energy and mass units. **It has not selected because the energy/action interface is
+unbuilt and marginality is adopted rather than derived.**
+
+*** THE `sqrt(2)` IS A GENUINE PHYSICAL FORK, NOT A CONVENTION. *** It is **Misner-Sharp versus
+reference-subtracted Brown-York energy at marginality** (`BID_CTP_HAMILTON_JACOBI_SCALE_BRIDGE_GATE_V001.md:50-104`).
+**Sealed text does not settle it.** The two give **different exact conditional roots whose ratio is
+`sqrt(2)`**, and `Misner_Sharp_and_Brown_York_candidates_coincide_at_marginality = false | TYPE-R` — an
+executed refutation, not an absence. **The choice changes `T_R` by `sqrt(2)`.**
+
+*** AND HERE IS WHY Q-58 STILL SURVIVES, WHICH THE TYPING IS WHAT MAKES VISIBLE. *** Both identifications
+are typed `TYPE-U` — **unbuilt, not adopted.** The lane records that resolution is *not necessarily* a
+binary act of choosing: the bridge would **derive** the identification as part of the stationary cell
+target. **So this is an unbuilt derivation, not a second free parameter, and the program still has exactly
+one unselected absolute scale.**
+
+*** BUT THE WARNING IS SHARP: IF THE BRIDGE IS NEVER BUILT AND SOMEONE PICKS AN IDENTIFICATION, THAT PICK
+BECOMES A SECOND SCALE-BEARING ADOPTION — TYPE-C RATHER THAN TYPE-U — AND BY Q-58's OWN CRITERION THE
+PROGRAM WOULD MOVE FROM CONDITIONAL DERIVATION TOWARD FIT. *** The `sqrt(2)` must be derived, never chosen.
+
+**THE MISSING OBJECTS, NAMED:** complete Lorentzian CTP action/boundary/time-flow data; a constant
+Hamilton-Jacobi record energy; a proof that the branch-energy difference equals the gravitating closure
+energy; a reference-subtraction / no-spectator theorem; a derived marginal first durable-public closure;
+and an isolated stable positive interval solution.
+
+**ONE EXECUTED REFUTATION WORTH KEEPING:** `strict_untrapped_inequality_alone_selects_unique_scale = false
+| TYPE-R`. **The inequality alone does not select** — that is proved, not merely unbuilt.
+
+*** OPEN CORRESPONDENCE QUESTION, NOT ASSUMED EITHER WAY: IS THIS ENERGY/ACTION BRIDGE THE SAME LAYER AS
+THE RESPONSE-EXTRACTION LAYER OF Q-51, OR A SECOND INDEPENDENT UNBUILT LAYER? *** If the same, the program
+has one blocking layer serving two issues. **If different, it has two.** This program has found a missing
+object already present under another name at least ten times; **it must be checked, not assumed.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
