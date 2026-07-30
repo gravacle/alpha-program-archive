@@ -1522,6 +1522,48 @@ as a physical observable distinct from `Z_Q`.
 
 ---
 
+## Q-36. "Does the EM/GR surface body supply what `Gamma_K` needs?"
+
+Also asked as: is the coupled gravity-EM surface saddle the same object as `Gamma_K`? What is the
+Gravity-EM Surface Unification Theorem? Does the surface body shrink the root adoption?
+
+**RULING: NO. ZERO COMPLETE SECTION-1 PIECES. THE ROOT ADOPTION IS UNCHANGED IN SCOPE.** Established
+2026-07-30 by Codex lane 1 under paste 144 (`STAGE8_EM_GR_SURFACE_BODY_SCOPE_FOR_GAMMA_K_V001.md`,
+`6b9ee31f…`).
+
+CONTEXT: the body is large and essentially uncited — 490 entries matching
+`gravity_electromagnetism|gravity_em|em_surface|surface_unification` over the parent tree (machine count,
+2026-07-30), of which the cleanroom cited three, two written the same day.
+
+**IT SUPPLIES USEFUL ADJACENT BR / ACTION-REGISTRATION STRUCTURE AND ZERO COMPLETE `Gamma_K` SECTION-1
+PIECES.** The MIXED verdict on the root premise stands exactly as stated: the root is not recoverable as a
+completed object, and using the declared subcomponents now would be a NEW ADOPTION.
+
+**`Gamma_BR[g, A_Q, h]` IS A DIFFERENT OBJECT.** Typed as a distinct Boundary-Resolved effective-action
+object — not `Gamma_K`, and not currently a sealed specialization of it. **Answered by type, not by name**,
+which is the third time today that discipline changed an answer (O7; the two stiffnesses; this).
+
+**THE GRAVITY-EM SURFACE UNIFICATION THEOREM IS LOCATED AND CLASSIFIED: a closed ordinary-branch capstone.**
+It joins ordinary EM and gravity access at a record-forming surface. **It does NOT derive the complete
+microscopic source-record-gravity CTP functional, nor any of the eleven `Gamma_K` producer objects.**
+
+**THE ORDERING CONVERGENCE IS REAL BUT NARROWER THAN I CLAIMED.** Both the surface saddle and `Gamma_K`
+forbid target/root/capacity closure before the target-independent object is derived — **but they are not
+the same object-ordering.** My earlier reading, that two formulations had converged on one admissible
+order, is corrected: they converge on the PRINCIPLE, not the ordering.
+
+WHAT SURVIVES FROM THE SURFACE PRINCIPLE REGARDLESS: its statement of the forbidden circular construction
+`k_R -> Gamma_BR,k_R -> H_phys -> K_pub -> k_R`, and the discipline that "a failed test rejects the branch;
+it does not supply a Lagrange multiplier that repairs it." That is the allow/require onset stated
+correctly, and it is not in the working set.
+
+CONSEQUENCE: **the root-premise adoption is now a clean decision at its stated size.** Nothing shrinks it,
+and the principal rules on the sentence lane 1 extracted.
+
+REOPENS IF: a surface-body object is later sealed as a specialization of a `Gamma_K` producer.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
