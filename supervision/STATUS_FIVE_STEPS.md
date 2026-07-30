@@ -3,7 +3,7 @@
 Kept current by the reviewer lane. The principal's own five-step framing, one section each. No analysis;
 see `EXECUTION_TRACKER.md` for the ordered road and the register for rulings.
 
-**LAST UPDATED: 2026-07-30, 08:00.**
+**LAST UPDATED: 2026-07-30, 10:00.**
 **THE ONE HONEST METRIC: slots with a derived result = ZERO of 18. Unchanged today.**
 
 ---
@@ -131,5 +131,75 @@ Fifteen register rows (Q-11..Q-25). Structurally: twelve of eighteen slots prova
 every live path now runs through one unbuilt object; the proper-time floor is the price of an incomplete
 carrier, so the floor and the stitching gap are one problem; F-shift is a proved negative with exactly two
 exits; and alpha's conditionality has a name and an earning condition.
+
+`alpha_computed = false`; `proof_authorized = false`; `kappa_record_computed = false`.
+
+---
+
+## UPDATE 10:00 — WHAT MOVED, AND WHERE THE LANES ARE
+
+**NOBODY IS ON THE VALUE PATH.** Lane 1 is checking whether `Gamma_K`'s output could ever be PROMOTED;
+lane 2 is checking whether slot 18 can reach a measurable quantity. Both are gates on promotion and
+standing. **Neither produces a number.** Defensible for these two turns — they are cheap checks that
+de-risk a charter — and it should not survive them. `Gamma_K`'s eleven Section-1 pieces are named and
+untouched.
+
+**STEP 1 unchanged in substance, better understood.** Spec `2d63dfad` + amendment `5bbf0152`, verdict
+`READY_WITH_CONDITIONS_DISCHARGED_AS_SPECIFICATION`. Amendment's costly result: **the v001
+continuous-modulus "teeth" clause does NOT survive into live v002**, so the equivalence arm cannot exclude
+continuous moduli and the uniqueness gate is the sole catch. Per-channel: all five admitted-mutation
+families are NAMED, NOT ENUMERATED, each gated behind the joint operator.
+
+**A NEW GATE ON STEP 1's PROMOTION, and it was not on the board this morning (Q-29).** `C_record(K)` is a
+SINGLE-CELL object. `Gamma_K` would yield a one-cell `K_*`; calling it physical requires the stitching
+rule; the stitching rule requires the response-map pullback. **So (i) gates whether the number can be
+promoted, not whether it can be produced.** Proving it first de-risks the whole charter.
+
+**THE STITCHING RULE IS NOT A MISSING PRINCIPLE (Q-29).** The per-cell measure is DERIVED AND FORCED.
+Missing is (i) response-map pullback on common refinements and (ii) boundary-subextensive invariance —
+and (ii) IS R-L2b's chartered extensivity obligation. Four consumers: Q-22 rank 1, every finite-cell
+stiffness route, and lane 2's three tier-1 families.
+
+**(i) IS NOT OBSTRUCTED (Q-31).** O7's refutation is real but typed to Route T's transfer operator, not to
+T11's response-map pullback; the rescope kills Route T's transport only. **The finite-cell route class
+stays open.** In flight under paste 140: an adversarial attempt to construct the response-map ANALOGUE of
+O7's witness, because typing-safe is not substance-safe.
+
+**STEP 2 unchanged.** Cannot start; gate still not fully frozen (unenumerated family, undefined
+equivalence relation, deferred tolerances).
+
+**STEP 3 unchanged.** Blocked, unassigned, primacy lapsed.
+
+**STEP 4 unchanged.** Not started.
+
+**STEP 5 unchanged.** Unreachable.
+
+**SLOT 18 — admissibility now has three clauses and zero families satisfy them.** `unused` IDENTIFIED with
+the sealed lineage clause (Q-27); clause 3 added on comparator precision (Q-28) after the finding that
+`D >= 5` on the electron anomaly is passed by a refuted theory and failed by a correct one. Lane 2's
+comparator work: `formula_available_families = 1`, and that one is refuted by clause 3. Correctly hedged
+as "not an executed empty eligible set." **The real blocker is an INTERFACE**: three families emit numbers
+and nobody has said what dimensionful quantity they are numbers of. In flight under paste 138: recover the
+impedance-of-access material and ask what access condition each diagnostic is the impedance of. (The
+"51 files" figure is a machine count: `grep -rli --include='*.md' "impedance"` over
+`Documents/New project/gravity_emergence_evidence_program`, excluding `node_modules`, `external/` and
+`custodian_private`, run 2026-07-30. Uncitedness is asserted from the 718-of-821 sweep, not recomputed
+here.)
+
+**REFUTED TODAY:** the modular-Hamiltonian candidate for the conjugate energy (Q-30) — the free/quasifree
+state is only the free subgate; `Gamma_K` needs the completed interacting object. Both boundary energies
+remain rejected and the conjugate energy is unidentified with one fewer candidate class.
+
+**METHOD, now earned by five instances:** the bottleneck has been mis-description at least as much as
+missing mathematics. The four channels were ingredients of a superseded formula; F-FL1's answer was rank 1
+of an existing table; the stitching rule decomposed into two named objects; O7 turned out to be a
+different map. **Type the obstruction before attacking it.**
+
+## OPEN PRINCIPAL ITEMS (10:00)
+
+1. **Re-declare a primary route, or leave none declared.** None since Q-20. Unanswered.
+2. **Put a lane on `Gamma_K`'s eleven Section-1 pieces** once the two checks return.
+3. Registration coupling — a reviewer ruling blocks every lane's commit until the owning lane registers
+   it. Recurs; not urgent.
 
 `alpha_computed = false`; `proof_authorized = false`; `kappa_record_computed = false`.
