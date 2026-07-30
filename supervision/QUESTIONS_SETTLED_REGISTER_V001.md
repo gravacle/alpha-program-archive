@@ -1303,6 +1303,43 @@ is the move this ruling refuses.
 
 ---
 
+## Q-31. "Is the response-map pullback already obstructed by O7?"
+
+Also asked as: does the refinement-intertwiner failure close the finite-cell route class? Is the stitching
+rule refuted rather than unproved?
+
+**RULING: NO. DOES_NOT_TRANSFER.** Established 2026-07-30 by Codex lane 1 under paste 139
+(`STAGE8_O7_RESPONSE_PULLBACK_TRANSFER_CHECK_V001.md`,
+`dcf29eeae27c25ee17c93671acb32336c5e227d97a2280a3fa8668f17610c57d`).
+
+**O7's obstruction is REAL and stays real — but it is typed to ROUTE T's transfer-operator refinement
+mechanism, not to T11's response-map pullback.** The refuting witness (`(3/8)^k` vs `3/8`, every refined
+cell inserting an `O(1)` record cycle) acts on the transfer operator and record-tier tensor data, not on
+the response map. Anchors: majorant spec `:313` and `:378` (O7 as a Route-T/O3 transfer mechanism); proof
+draft `:489` and phase result `:27` (what the witness acts on); T11 return `:84` and `V011:1407` (T11's
+missing object is response-map pullback + boundary-subextensive invariance).
+
+**AND THE RESCOPE READING IS CONFIRMED AND NARROWED:** `refinement_intertwiner_derived = false (unchanged;
+now not required)` means not required for the **Route-Q derived arm**, and it kills **Route T's transport
+mechanism only** — `STAGE8_T7_MAJORANT_ARM_RESCOPE_PRINCIPAL_DECISION_V001.md:18` and `:75`. It does NOT
+discharge the stitching rule's requirement.
+
+**CONSEQUENCE: THE FINITE-CELL ROUTE CLASS IS NOT CLOSED, AND (i) THE RESPONSE-MAP PULLBACK REMAINS OPEN
+— unproved, unattacked, and NOT refuted.** With Q-29's four consumers (Q-22's rank 1, every finite-cell
+stiffness route, and lane 2's three tier-1 slot-18 families) it is the highest-leverage single open object
+in the program.
+
+METHOD NOTE WORTH KEEPING: this was a pure typing check and it turned on refusing to infer sameness from
+the shared word "refinement." Two objects, one word, opposite verdicts. Q-11's match-by-name/fail-by-type
+is now the second most-cited discipline in this register after search-before-deriving.
+
+RESULT AT: as above; question posed in `RELAY_PASTE_139_O7_TRANSFER_2026-07-30.md`.
+
+REOPENS IF: a witness is exhibited that acts on the response map itself rather than on the transfer
+operator.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
