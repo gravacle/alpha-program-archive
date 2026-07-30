@@ -184,12 +184,36 @@ physics.
 **A 13-ITEM DERIVATION-VERSUS-FIT CHECKLIST EXISTS. THE PROGRAM FAILS ITEMS 1b, 4, 5 AND 12 TODAY.**
 `NO_VERDICT` is the correct grade of any overdetermination claim in this corpus.
 
-### THE WORK NOW SPLITS IN TWO — AND ONLY ONE HALF WAS EVER TRACKED
+### FORCING DOES NOT REQUIRE A PAIR — REVIEWER CORRECTION, 2026-07-30
 
-*** BUILDING THE MACHINERY (issues 1 and 2) PRODUCES A NUMBER. IT DOES NOT PRODUCE A DERIVATION. *** A
-value determined by one condition is a value the theory PERMITS. Forcing requires a pair, and there are
-none. **Constructing a pair is a second, parallel programme of work that nobody was tracking before
-2026-07-30.**
+*** AN EARLIER VERSION OF THIS SECTION SAID "FORCING REQUIRES A PAIR." THAT WAS WRONG AND CONTRADICTED
+Q-58. *** The principal caught it. **A number can be forced two ways:**
+
+1. **A REQUIRE-SHAPED CONDITION WITH A UNIQUE SOLUTION** — exact determination. One condition, one
+   admissible value.
+2. **OVERDETERMINATION** — two premise-disjoint conditions agreeing.
+
+**Q-61's boundary clause says exact determination is never OVERdetermination. That is taxonomy, not an
+adequacy verdict — it does not say exact determination fails to determine.** And **Q-58 already ruled that
+with exactly one unselected absolute scale a computed alpha "could honestly claim to be a conditional
+derivation," never mentioning pairs.** If a pair were required, Q-58 was false when written.
+
+*** IF THE STRUCTURE REDUCES TO ONE BOUNDARY OBJECT UNDER ONE CLOSURE CONDITION WITH A UNIQUE ROOT, ZERO
+PAIRS IS CORRECT — there is nothing left over to be redundant WITH, and demanding a pair would demand
+redundancy a well-posed problem does not have. ***
+
+**WHAT OVERDETERMINATION BUYS IS EPISTEMIC, NOT LOGICAL:** evidence against fitting, because the agreement
+could have failed. **The same protection is available via Q-61's own [O3] — target blindness as a process
+fact** (premises sealed before the target was known, executed target-entry sweep, no post-hoc tuning). **A
+unique require plus documented target-blindness is not a fit.**
+
+**CORRECTED STANDING: the program needs a REQUIRE-SHAPED DETERMINATION WITH A UNIQUE ROOT, TARGET-BLIND. A
+pair would be stronger evidence, not a prerequisite.** This puts weight back on **R-L2b — the one
+require-shaped target the program already has**, which the reviewer had stopped tracking while looking for
+pairs.
+
+**STATUS: this correction is the reviewer's reasoning and is QUEUED FOR EINSTEIN ADJUDICATION (relay 166),
+since Einstein wrote the specification. Do not treat it as settled until that returns.**
 
 **BEST PAIR LEADS:** the cross-sector **Requirement I/II on `beta`** — the corpus's ONLY sealed
 two-conditions-one-quantity specification, **anti-tautology falsifier already frozen**, both legs unbuilt.
