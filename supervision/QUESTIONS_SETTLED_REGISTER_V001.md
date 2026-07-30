@@ -2011,6 +2011,36 @@ ruling. **It is Q-47 here, and the register is authoritative.**
 
 ---
 
+## Q-48. "Ledger scope and the CAR-source fence."
+
+**RULING: BOTH RESOLVED BY PRINCIPAL ACT.** 2026-07-30,
+`LEDGER_SCOPE_AND_CAR_FENCE_RELEASE_DECISION_2026-07-30_V001.md`.
+
+**(1) LANE 2'S COUNTING CONVENTION IS RATIFIED AS-IS.** `ledger_scope_decision_needed = false`. One class
+per status-and-test-equivalent premise; differing epistemic status splits; mirrors and downstream
+consequences not recounted. **Rationale: Q-37 made "can this independently fail?" the question, and the
+ratified unit counts exactly that.** *** THE COUNT REMAINS A LOWER BOUND AND MUST ALWAYS BE REPORTED AS
+ONE — ratifying the unit does not certify the enumeration exhaustive.*** 17 of 26 (Q-45) is now a ratified
+lower bound rather than a provisional one.
+
+**(2) THE CAR-NAMED HISTORICAL FLOOR/MASS SOURCE IS RELEASED READ-ONLY.** `CAR_SOURCE_READ = PERMITTED`,
+`CAR_SOURCE_CITE = PERMITTED`, `CAR_SOURCE_IMPORT_INTO_CONSTRUCTION = FORBIDDEN`,
+`CAR_SOURCE_USE_AS_PREMISE_OR_LICENCE = FORBIDDEN`. **Rationale: the fences ban ENTRY, not comparison.
+Reading a historical artifact to establish what status it records imports nothing and licenses nothing.**
+*** THE DEFECT BEING CORRECTED IS THAT THE FENCE WAS ERECTED WITH NO WRITTEN RELEASE, so a lane could
+neither use the source nor establish it was not needed. A fence with no release condition is not a
+safeguard; it is an unfalsifiable exclusion.***
+
+**TESTS ATTACHED.** (1) is definitional and fails if a premise is found that the unit cannot classify —
+one sharing status and test with another yet able to fail independently. (2) fails if any artifact is found
+in which CAR-source content entered a construction, premise or licence rather than a citation; **auditable
+by grep, and to be audited at the next register sweep.**
+
+**UNBLOCKS NOTHING ON THE VALUE PATH.** `C_R = 1` remains untested and without a falsifier; `0 of 18`
+unmoved.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
