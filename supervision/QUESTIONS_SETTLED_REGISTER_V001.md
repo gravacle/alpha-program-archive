@@ -1653,6 +1653,51 @@ would be a different act with a different test.
 
 ---
 
+## Q-39. "Does F-K1 fire? Can an onset quantity be transported to a continuum coupling?"
+
+Also asked as: does Q-34 survive? Is slot 16's machinery density-shaped? Does "threshold-conditioned" mean
+onset-conditioned?
+
+**RULING: F-K1 DOES NOT FIRE. Q-34 STANDS. But the transport is UNDETERMINED — not proved possible and not
+proved impossible — and Q-34's cost is confirmed as real interface work rather than a rename.** Established
+2026-07-30 by Codex lane 2 under paste 145 (`STAGE8_SLOT16_REPOSED_SCOPE_AND_FK1_AUDIT_V001.md`,
+`df0d1c74…`), verdict MISSING SPECIFICATION.
+
+**F-K1 REQUIRED a sealed no-go, a `K_*`-applicable density-first requirement, or an executed countermodel.
+None was found.** The written finite-cell route IS density-shaped, but nothing establishes that a cell
+quantity CANNOT reach a continuum coupling without an intervening density. **So `kappa_record` does not
+return and Q-34 survives its first falsifier test.**
+
+**SLOT 16'S MATERIAL IS MORE THAN A NAME AND LESS THAN A MAP.** V011 carries an inline protocol requiring
+"decoupling and matching rules" and "the zero-momentum Thomson prescription"; status is "UNDEFINED under
+infraparticle branch; **BLOCKED_BY slot 13** otherwise." Historical material supplies conditional sketches
+and a non-identifiability result; **no standalone governing slot-16 artifact exists.**
+
+**THE INPUT TYPING IS NOT AGNOSTIC, so Q-34's cost is confirmed.** The concrete carriers are
+intensive-response, flux-curvature, or action-normalization shaped. V011: "The primitive record
+susceptibility is the intensive Hessian … evaluated after the thermodynamic/linked-cluster limit."
+Historical material types its input as "an absolute primitive closed-record action coefficient" and says
+plainly "**It is not the physical Thomson-limit coupling.**" Lane 2's own hedge is correct: with no
+completed matching function, it would be too strong to say the machinery consumes an intensive input
+throughout — **but Q-34 created substantive interface work, not a relabelling.**
+
+*** MY "THRESHOLD-CONDITIONED MIGHT ALREADY BE ONSET-SHAPED" HYPOTHESIS IS REFUTED. *** Sealed text orders
+"interacting charged pole or infraparticle threshold" BEFORE "Thomson matching conditioned on the threshold
+outcome" — so "threshold-conditioned" means conditioned on **slot 13's threshold outcome**, not onset-shaped.
+And "Thomson matching may not presuppose a sharp massive charged pole" still binds. **The re-posing is
+therefore forced rather than natural**, which is the opposite of what I hoped and the reason I asked for the
+hypothesis to be refuted rather than confirmed loosely.
+
+**ONE HONEST CIRCULARITY TO RECORD:** the closest explicit statement lane 2 could find on the density
+question is my own text from `RESULT_TWO_STIFFNESS_OBJECTS_2026-07-30.md` — "nothing in the corpus answers
+that." **So the corpus contains nothing on onset-to-continuum transport beyond what was written today**, and
+the F-K1 negative rests on absence rather than on an argument.
+
+REOPENS IF: a density-first requirement applicable to `K_*` is exhibited, or slot 13 resolves and unblocks
+the matching protocol.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
