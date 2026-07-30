@@ -1827,6 +1827,44 @@ or by a principal act if it does not.
 
 ---
 
+## Q-43. "How do the source and record sectors compose?" — NARROWS Q-42
+
+**RULING: THE BASE COMPOSITION IS TYPED. `CAR(K_Sigma,q)` GRADED-TENSOR `R(C)`.** Established 2026-07-30 by
+Codex lane 1 under paste 151 (`STAGE8_GAMMA_K_SOURCE_RECORD_COMPOSITION_TYPING_TESTS_V001.md`,
+`1fa7c918…`). **Q-42 is narrowed, not closed.**
+
+**TEST 1, COMMUTATION — SETTLED.** Source and record observables **COMMUTE** at the base level, because the
+record factor has trivial fermion grading. **That is a tensor structure, not a crossed product.**
+
+**TEST 4, QUOTIENT VERSUS EXTENSION — SETTLED, AND MY ALTERNATIVE IS WRONG.** The physical outgoing record
+in the full parent is a **stable dressed outgoing-record monomorphism**, NOT a quotient of the source
+sector. The record is not obtained by coarse-graining the source.
+
+**CROSSED PRODUCT IS NEITHER SPECIFIED NOR FORCED.** My reading — that "records are made by sources" implies
+a crossed product — is not supported by the text.
+
+*** TEST 3 SPLIT, AND THE SPLIT IS THE RESULT. *** "Record without source" does not have one answer: **a
+carrier / ready state EXISTS before source action; durable public records REQUIRE source, write, and
+nonreturn.** So the binary I posed was too coarse. **The carrier is a genuine tensor factor; DURABILITY is
+what source action confers.** Logged as OBS-04, because it is the algebraic form of allow/require — the
+threshold governs durability, not existence.
+
+**COMPLETED PUBLIC RECORD SECTOR:** the sealed inductive/direct-limit record algebra, as Q-42 found.
+
+**WHAT REMAINS — Q-42 NARROWED TO:** the complete source-record-field **CTP producer**, with physical
+quotient, measure, state/effects, and response-facing dynamics. The base composition is no longer the
+blocker; the CTP producer is.
+
+**NO PRODUCER FLAG FLIPPED. `0 of 11` unchanged.**
+
+PROCESS NOTE, recorded because it is the second instance today: lane 1's first commit went RED on a literal
+relay marker in its own artifact — the same class as the reviewer's wrapped paste cross-reference. The
+relay-sequence check is doing its job and the wording was repaired rather than the check weakened.
+
+REOPENS/CLOSES IF: the CTP producer is constructed, or shown obstructed.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
