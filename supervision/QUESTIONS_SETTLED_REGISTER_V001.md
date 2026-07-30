@@ -1865,6 +1865,37 @@ REOPENS/CLOSES IF: the CTP producer is constructed, or shown obstructed.
 
 ---
 
+## Q-44. "Does the finite reversible write carry a coupling strength?"
+
+**RULING: NO — AND THE MULTIPLIER IS EXPLICITLY EXCLUDED, NOT MERELY ABSENT.** Established 2026-07-30 by
+Codex lane 1 under paste 152 (`STAGE8_GAMMA_K_FINITE_REVERSIBLE_WRITE_OBS05_TEST_V001.md`, `b4250480…`).
+**OBS-05 is refuted as stated.**
+
+The write IS specified: a source-controlled self-adjoint record-incidence generator/evolution,
+`B_ch = P_ch tensor B_Q`. **`lambda P_ch tensor B_Q` with `lambda != 1` FAILS THE RETRACTION AXIOM.** So
+the write is forced to unit strength.
+
+Active `K` is typed as **a local surrogate for induced connection RESPONSE** in the retarded
+action-Hessian/closure-residual problem — **not a write strength.** Thresholded nonreturn is not sealed as
+a condition on write strength, and `C_record(K)` is an on-shell closure residual, not write impedance
+renamed.
+
+*** THE RESIDUE IS THE RESULT: THE WRITE HAS NO FREEDOM, SO THE COUPLING CANNOT LIVE THERE. *** `lambda = 1`
+is compelled rather than conventional. **Alpha must therefore be a property of the RESPONSE to a
+unit-normalized write** — which is what `K`'s own typing already said, and which inverts the hypothesis
+rather than merely denying it.
+
+WHAT SURVIVES: durability = write + nonreturn + persistence (Q-43, OBS-04), untouched. Only
+alpha-as-write-impedance dies.
+
+PROCESS NOTE: lane 1 declined to commit because its lane-status entry would have referenced another lane's
+uncommitted work and its fence forbade touching it. **Correct call.** The reviewer had already committed
+that work; the fence is now clear.
+
+REOPENS IF: the retraction axiom is itself shown to be a convention rather than a requirement.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

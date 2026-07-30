@@ -182,7 +182,26 @@ forms", restated in terms of the operation rather than the outcome.
 carries a parameter at all; and that the parameter is `K`. **Neither is established.** If the write is
 specified without a strength, this observation is wrong and says so.
 
-**STATUS: UNCLAIMED. Under test by relay 152.**
+**STATUS: REFUTED 2026-07-30 — see the residue below, which is the opposite of what was guessed.**
+
+**HOW IT DIED (`STAGE8_GAMMA_K_FINITE_REVERSIBLE_WRITE_OBS05_TEST_V001.md`, `b4250480…`):** the finite
+reversible write IS specified — a source-controlled self-adjoint record-incidence generator,
+`B_ch = P_ch tensor B_Q`. **But it carries no surviving strength parameter, and not by omission: the
+would-be multiplier is EXPLICITLY EXCLUDED — `lambda P_ch tensor B_Q` with `lambda != 1` FAILS THE
+RETRACTION AXIOM.** And active `K` is typed as a local surrogate for induced connection RESPONSE in the
+retarded action-Hessian/closure-residual problem, not as a write strength. Thresholded nonreturn is not
+sealed as a condition on write strength, and `C_record(K)` is an on-shell closure residual rather than
+write impedance in other clothing.
+
+*** THE RESIDUE, AND IT IS WORTH MORE THAN THE HYPOTHESIS WAS: THE WRITE IS FORCED TO UNIT STRENGTH. ***
+`lambda = 1` is not a convention — it is compelled by the retraction axiom. So **the write has no freedom
+at all**, and the coupling cannot live there. **Whatever alpha is, it is a property of the RESPONSE to a
+unit-normalized write, not of the write.** That is consistent with `K`'s own typing as induced connection
+response, and it inverts the guess: the source writes with unit strength, and what carries the coupling is
+how the connection responds to it.
+
+**WHAT SURVIVES OF OBS-04's CHAIN:** durability = write + nonreturn + persistence, unchanged. Only the
+identification of alpha with the write's impedance is dead.
 
 ---
 
