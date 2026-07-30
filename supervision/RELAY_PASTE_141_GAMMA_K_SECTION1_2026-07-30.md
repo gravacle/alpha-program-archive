@@ -1,4 +1,4 @@
-PASTE 141
+PASTE 141 — LANE 1
 
 2026-07-30, CODEX LANE 1. Snapshot; later rulings override. Lane 2 is on the observable-bridge recovery
 task under paste 138 — do not touch slot-18, A32, impedance or comparator artifacts.
