@@ -1480,6 +1480,48 @@ REOPENS IF: any of F-K1/F-K2/F-K3 fires.
 
 ---
 
+## Q-35. "Does a dimensionless observable shorten slot 18's bridge?"
+
+Also asked as: is finite holonomy the native family? Can `Z_Q` be the non-alpha prediction?
+
+**RULING: NO, AND THE REASON MATTERS MORE THAN THE ANSWER — THE THEORY'S MOST NATIVE OBSERVABLE IS ALPHA
+ITSELF.** Established 2026-07-30 by Codex lane 2 under paste 143
+(`STAGE8_SLOT18_Q34_NATIVENESS_AND_HOLONOMY_BRIDGE_RESULT_V001.md`, `8abb4089…`), verdict
+MISSING_SPECIFICATION.
+
+**NATIVENESS RANKING under Q-34's lens (onset/access-shaped above density-shaped):** finite global
+holonomy -> causal-record durability -> temporal plaquette/kernel. As predicted, and the density-shaped
+kernel ranks last.
+
+**THE SHORTCUT IS DEAD. Dimensionlessness removes ZERO of the four required bridge components** — it could
+only make unit conversion trivial *after* a common convention is frozen. My hypothesis that a dimensionless
+quantity dodges the unit map was wrong.
+
+*** AND THE KILL IS STRUCTURAL, NOT INCIDENTAL: `Z_Q` IS DIMENSIONLESS BECAUSE HISTORICAL TEXT DEFINES IT
+AS ALPHA'S RECIPROCAL. *** V011 therefore excludes it as a deterministic re-expression of alpha; it cannot
+be the non-alpha slot-18 observable. The separately named `H_CTP` scalar is not sealed as a dimensionless
+physical observable and has not been identified with `Z_Q`.
+
+**THE TENSION THIS EXPOSES, and it is worth carrying:** the impedance framing says couplings ARE impedances
+of access conditions (`Z_F = 1/kappa_F`). So the access-condition observable of the compact U(1) sector IS
+the coupling — necessarily, not accidentally. **The theory's most native, most access-shaped, dimensionless
+quantity turns out to be alpha itself.** Slot 18 demands a NON-alpha observable, so it pushes the program
+away from exactly the quantity its foundations are best at expressing. That is a structural tension between
+what this theory says well and what its terminal claim requires, and nothing in the corpus records it.
+
+**THE NEW `unused` PREDICATE IS ALREADY DOING WORK:** Q-27's identification REFUTES the exact `H_CTP`
+identity, because it already occurs as both target and outcome. First candidate excluded by the predicate,
+on the day it was defined.
+
+REMAINING FOR THE TOP FAMILY: all four interfaces — public physical observable, canonical A32 candidate,
+candidate-compatible published comparator, sealed uncertainties. Admissibility: structure-sensitive NOT
+established (no comparator exists); clause 3 not executable without comparator uncertainty.
+
+REOPENS IF: a dimensionless observable is found that is NOT a re-expression of alpha, or `H_CTP` is sealed
+as a physical observable distinct from `Z_Q`.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
