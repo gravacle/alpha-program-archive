@@ -945,6 +945,58 @@ REOPENS IF: any of F-GK1..F-GK5 fires.
 
 ---
 
+## Q-22. "What could fix the small-`s` end of the proper-time integral?"
+
+Also asked as: is there a fifth exit? Can the floor be derived after all? What makes the induced
+coefficient absolute rather than running?
+
+**RULING: A CONDITION CLASS EXISTS AND IS ALREADY RANKED, AND IT IS BLOCKED BY THE STITCHING RULE.
+NOT REFUTED, NOT AVAILABLE. NOT A FIFTH EXIT TODAY.** Settled 2026-07-30; F-FL1 discharged as a
+question, not as a repair.
+
+**THE ANSWER IS RANK 1 OF AN EXISTING TABLE.** `alpha_spectral_ncg_absolute_stiffness_research_v001.md:349`
+— "Fully finite **total** record-cell triple plus exact normalized determinant/CTP trace ... Finite
+matrix determinant gives an absolute cell Hessian once `D[A]`, state, measure, and unit character are
+fixed", blocked by "Current carrier is only internally finite; spacetime spectral support, cell density,
+and CTP construction are missing." **On a total finite triple there is no small-`s` divergence to cut and
+no floor is needed at all.** Its blocking fact is the STITCHING GAP, whose absence is a sealed failure
+rule (`ABSOLUTE_STIFFNESS_SELECTOR_ROUTE_LEDGER_V003.md:116-126`: the route fails if "a finite-cell
+answer is called physical without a derived stitching or continuum rule").
+
+**THE CANCELLATION CLASS IS DEAD STRUCTURALLY.** A vanishing primed supertrace cannot help: the `F^2`
+divergence is LOGARITHMIC, coming from `A_4`, and a log cannot be cancelled by mode counting. A vanishing
+`F^2` part of `A_4` would BE superconvergence, which contradicts the program's own nonzero running,
+`alpha_step5_zero_bare_compositeness_boundary_v002.md:53`: `lim d K_1D/d ln Q = -1/(6 pi^2)`. This is
+rank 2 and E2, blocked twice over.
+
+The other rows close the space: ranks 3-4 buy the small-`s` end by reintroducing a bare action, which
+`K_bare = 0` forbids; rank 5 fixes ratios only; rank 6 — the CURRENT carrier — is PASS-RUNNING /
+BLOCK-ABSOLUTE because "`A_4` logarithm and finite local `F^2` mutation require subtraction/matching";
+rank 7 is kinematics only.
+
+*** THE REFRAMING, AND IT IS THE RESULT: THE PROPER-TIME FLOOR IS THE PRICE OF AN INCOMPLETE CARRIER. ***
+Q-18 typed the floor as the induced-only axiom's content; Q-22 sharpens it — **the axiom stands in for a
+finiteness property the carrier does not have.** So the floor and the stitching gap are ONE problem seen
+from two sides, tracked separately until now. Same shape as `beta` in Q-10.
+
+**CONSEQUENCE FOR THE `Gamma_K` CHARTER, to be stated before construction rather than after:**
+`Gamma_K` on the current carrier lands at RANK 6, not rank 1 — it supplies the CTP construction and the
+measure, not spacetime finiteness. So a completed `Gamma_K` with a unique simple positive `C_record` root
+determines `K_*` **conditionally on the induced-only axiom, not absolutely**; the closure residual is
+built from an action carrying the `A_4` log, so `k_R` appears in the equation fixing `K_*`. This does NOT
+fire F-GK1 and does not weaken the charter — it is what F-GK3 exists to force into the open.
+
+WHAT WOULD LIFT IT: a derived stitching or continuum rule, which moves the construction from rank 6 to
+rank 1 and makes the coefficient absolute. **That object now has two independent consumers** — the floor
+(this row) and any finite-cell stiffness route (the 2026-07-27 finding).
+
+RESULT AT: `RESULT_FFL1_SMALL_S_END_2026-07-30.md`.
+
+REOPENS IF: a derived stitching/continuum rule appears, or someone exhibits a small-`s` condition outside
+the seven ranked rows. Work on the cancellation class does NOT reopen it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
