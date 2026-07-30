@@ -3221,3 +3221,74 @@ onset condition is the same defect one level up.
 WORKING RULE ADDED THIS SESSION (principal): proceed in strict sequence and LOG work in progress
 before opening any new direction; run process silently and surface it only when something is wrong.
 Recorded in reviewer memory as feedback_sequence_and_silent_process.
+
+
+### 2026-07-30 (06:00-10:30, reviewer + two Codex lanes) — NINETEEN RULINGS, AND THE VALUE PATH CHANGED OBJECT
+
+**READ Q-34 FIRST IF PICKING UP COLD. It moved the critical path.**
+
+*** Q-34: ALPHA'S STIFFNESS IS `K_*`, THE ONSET ROOT — NOT `kappa_record`, THE INTENSIVE HESSIAN. SLOT 16
+IS RE-POSED TO CARRY `K_* -> kappa_Thomson`. *** Basis: two stiffness objects sit on the value path and
+NOTHING RELATES THEM — 20 files carry `K_*`, 263 carry `kappa_record`, 7 carry both and ALL SEVEN WERE
+CREATED 2026-07-30. Grounds are the program's own: couplings are IMPEDANCES OF ACCESS CONDITIONS, "not
+Lagrangian normalizations"; allow/require is the central mechanism and `K_*` is it made quantitative; the
+record cell is primitive; the stiffness departure (K_bare = 0 PLUS removal of the rescaling freedom) makes
+stiffness physical. `kappa_record` is the construction one builds when the coupling IS a Lagrangian
+normalization — the premise these foundations deny — and it already carries a refutation (V010 ray,
+kappa_L -> 0).
+THE PRINCIPAL'S THRESHOLD OBSERVATION IS WHY: a threshold tells you WHEN, not HOW MUCH ("the threshold rule
+does not automatically choose the denominator", status = CELL_CONSTRAINT_ONLY). The onset route gets a
+magnitude by applying the condition to a K-INDEXED FAMILY, converting a *when* into a *which* — and that
+works only if everything else is fixed independently, WHICH IS EXACTLY WHAT `Gamma_K`'s ELEVEN SECTION-1
+PIECES ARE.
+COST, STATED NOT HIDDEN: slot 16 must now transport a CELL quantity to a CONTINUUM coupling. The old
+reading had the continuum step already taken; now it is ahead of us and unattempted. F-K1/F-K2/F-K3 frozen.
+*** OPERATIONAL: THE LINKED-CLUSTER / EXTENSIVITY / R-L2b CAMPAIGN IS NO LONGER ON ALPHA'S VALUE PATH. ***
+Not retired, not refuted — it serves `kappa_record`, which keeps its other roles. `Gamma_K`'s eleven pieces
+are the critical path.
+
+THE DAY'S OTHER RULINGS, in order:
+Q-16 slot 12 re-posed as SCHEME-COVARIANCE; one derived finite renormalization condition permitted; slot 6
+keeps its originating role (O-SC1/O-SC2 created). Q-17 slot 6's principal guard LIFTED, O-SC1 first.
+Q-18 THE FLOOR IS THE INDUCED-ONLY AXIOM'S CONTENT — neither a spectral fact nor a subtraction; the
+capacity condition and the proper-time floor act on OPPOSITE ENDS of the integral (bottom-of-spectrum
+governs large s; the floor cuts small s), so OPERATOR -> FLOOR is a TYPE MISMATCH and the chain cannot be
+completed by closing its own gaps. alpha's conditionality equals that axiom's status exactly, and the
+earning clause IS slot 18. Q-19 slot 9 RETIRED AS POSED -> S9-A (determine the TOTAL by a derived,
+overdetermined condition) + S9-B (the exit question). Q-20 R-30's F2 FIRED; the primary-route declaration
+LAPSED; first frozen falsifier in the program to fire and be honored. Q-21 `Gamma_K` + `C_record(K)`
+CHARTERED as sole construction target, explicitly NOT a primary-route declaration. Q-22 F-FL1 settled: the
+condition that would fix the small-s end EXISTS (rank 1, a total finite triple) and is blocked by the
+stitching gap; THE FLOOR IS THE PRICE OF AN INCOMPLETE CARRIER. Q-23 "unused" undefined. Q-24/Q-25 A32
+masking: custodian independence never established (limitation permanent, inherited by FINAL-CLAIM);
+covariance CLOSED BY EVIDENCE as vacuous by construction; forward condition — this collector cannot commit
+a multi-component observable. Q-26/Q-30 the modular-Hamiltonian candidate for the conjugate energy:
+proposed, then REFUTED (free/quasifree is only the free subgate). Q-27 "unused" IDENTIFIED with the sealed
+lineage clause, scope = rule 11's contamination-audit scope. Q-28 THIRD ADMISSIBILITY CLAUSE added on
+comparator precision — on the electron anomaly `D >= 5` is passed by a refuted theory and failed by a
+correct one. Q-29 the stitching rule DECOMPOSES: the per-cell measure is DERIVED AND FORCED; missing is
+(i) response-map pullback + (ii) boundary-subextensivity. Q-31 O7 DOES NOT TRANSFER (typed to Route T's
+transfer operator). Q-32 (i) not settleable either way — you cannot refute the pullback without the
+pullback. Q-33 CORRECTS Q-32: the comparison IS defined, at BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001
+Theorem 3, whose five hypotheses ARE (i) and (ii); so the stitching rule is one theorem's hypothesis list,
+tracked by connected_linked_cluster_density_proved = false.
+
+LANE STATE AT 10:30. Lane 1: `Gamma_K` spec (2d63dfad) + amendment (5bbf0152) + Section-1 inventory
+(979863a0) — **0 of 11 SUPPLIED, 11 of 11 PARTIALLY SUPPLIED, 0 NOT ADDRESSED**, dependency root at the
+complete source-record-field Hilbert space and rho_pre, construction STOPPED at F-GK3 because that root
+needs a carrier/domain plus physical quotient and measure producer that is not a declared premise.
+Lane 2: slot-18 comparator preregistration (formula_available_families = 1, and that one refuted by clause
+3) + dependency map (no family has a direct edge to Q-21; three tier-1 families each lack the same
+four-part bridge) + impedance recovery — **0 of 3 diagnostic-to-observable maps recovered**;
+SLOT18_PREDICTION_REACHABLE_NOW = false. The impedance SEMANTICS exists and names access conditions; the
+IDENTITIES do not.
+
+METHOD, EARNED BY EIGHT INSTANCES TODAY: **the bottleneck has been mis-description at least as much as
+missing mathematics.** The four channels were ingredients of a superseded formula; F-FL1's answer was rank
+1 of an existing table; the stitching rule was two objects already named; O7 was a different map; the
+comparison was defined in a theorem nobody consulted; and two stiffness objects sat on the value path
+unrelated. **Type the obstruction before attacking it, and search before deriving.**
+
+OPEN FOR THE PRINCIPAL: re-declare a primary route or leave none (open since Q-20); the `Bash(git commit *)`
+ask-rule still interrupts every commit; Einstein's independent review queue (the `Gamma_K` spec re-review
+is first, since my review of it was not independent).

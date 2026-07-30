@@ -1427,6 +1427,59 @@ resolves and this row is superseded by that outcome.
 
 ---
 
+## Q-34. "Which stiffness is alpha's — `K_*` or `kappa_record`?"
+
+Also asked as: what does slot 16 transport? Is the extensivity campaign on the value path? Onset or
+intensive?
+
+**RULING: `K_*`, THE ONSET ROOT. SLOT 16 IS RE-POSED TO CARRY `K_* -> kappa_Thomson`.** PRINCIPAL ACT,
+2026-07-30. Basis: `RESULT_TWO_STIFFNESS_OBJECTS_2026-07-30.md` (`f3eb0c84…`); ruling at
+`ALPHA_STIFFNESS_IS_K_STAR_PRINCIPAL_DECISION_2026-07-30.md`.
+
+THE GAP RULED ON: `kappa_record` is an INTENSIVE HESSIAN, a density on the completed chain requiring the
+volume-density limit and Theorem 3's five hypotheses. `K_*` is an ONSET ROOT on ONE cell,
+`alpha_micro = 1/(4 pi K_*)`. Bounded negative: 20 files carry `K_*`, 263 carry `kappa_record`, **7 carry
+both and all seven were created 2026-07-30.** No pre-existing artifact relates them, and the typing freeze
+warns that "the two Hessians are generically DIFFERENT physical quantities."
+
+**GROUNDS — THE PROGRAM'S OWN COMMITMENTS.** Couplings are IMPEDANCES OF ACCESS CONDITIONS, `Z_F =
+1/kappa_F`, explicitly "not Lagrangian normalizations" — an impedance of an access condition is
+threshold-shaped, not a volume density. Allow/require is the central mechanism and `K_*` is it made
+quantitative. The record cell is primitive. The stiffness departure (`K_bare = 0` PLUS removal of the
+rescaling freedom) makes stiffness physical rather than conventional. **`kappa_record` is the construction
+one builds when the coupling IS a Lagrangian normalization — the premise these foundations deny** — and
+that route already carries a refutation (V010 ray, `kappa_L -> 0`).
+
+**WHY THE THRESHOLD OBSERVATION MATTERS (the principal's):** a threshold tells you WHEN, not HOW MUCH —
+"the threshold rule does not automatically choose the denominator", `status = CELL_CONSTRAINT_ONLY`. The
+onset route gets a magnitude by applying the condition to a `K`-INDEXED FAMILY, converting a *when* into a
+*which*. **That works only if everything else is fixed independently — which is exactly what `Gamma_K`'s
+eleven Section-1 pieces are.** They are the data the threshold cannot supply.
+
+*** THE COST, STATED NOT HIDDEN: SLOT 16 MUST NOW TRANSPORT A CELL QUANTITY TO A CONTINUUM COUPLING. ***
+Under the old reading the continuum step was already taken (a density matched to a scale). Under this
+ruling it has not been, and slot 16 must take it. The ruling relocates a hard problem; it does not remove
+one.
+
+*** OPERATIONAL CONSEQUENCE: THE LINKED-CLUSTER / EXTENSIVITY / R-L2b CAMPAIGN IS NO LONGER ON ALPHA'S
+VALUE PATH. *** Not retired, not refuted — it serves `kappa_record`, which keeps its other sealed roles.
+But proving Theorem 3's five hypotheses does not produce alpha under this ruling, and that campaign should
+not be resumed as value-path work without a further ruling. **`Gamma_K`'s eleven Section-1 pieces are now
+the critical path.**
+
+DOES NOT: retire `kappa_record`; claim the two are different; discharge slot 16 or any slot; lift F-GK3
+(11 of 11 pieces partially supplied, none complete, root blocked on an undeclared premise); authorize any
+computation.
+
+FROZEN: **F-K1** — if a cell quantity is shown untransportable to a continuum coupling without first
+constructing a density, this ruling FAILS and `kappa_record` returns. **F-K2** — if completed `Gamma_K`
+produces an intensive object, the premise is false. **F-K3** — if re-posed slot 16 needs Theorem 3's
+conditions anyway, the routes were never distinct and the ruling bought nothing; say so.
+
+REOPENS IF: any of F-K1/F-K2/F-K3 fires.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

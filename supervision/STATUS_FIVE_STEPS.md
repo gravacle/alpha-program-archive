@@ -3,7 +3,7 @@
 Kept current by the reviewer lane. The principal's own five-step framing, one section each. No analysis;
 see `EXECUTION_TRACKER.md` for the ordered road and the register for rulings.
 
-**LAST UPDATED: 2026-07-30, 10:00.**
+**LAST UPDATED: 2026-07-30, 10:45.**
 **THE ONE HONEST METRIC: slots with a derived result = ZERO of 18. Unchanged today.**
 
 ---
@@ -201,5 +201,49 @@ different map. **Type the obstruction before attacking it.**
 2. **Put a lane on `Gamma_K`'s eleven Section-1 pieces** once the two checks return.
 3. Registration coupling — a reviewer ruling blocks every lane's commit until the owning lane registers
    it. Recurs; not urgent.
+
+`alpha_computed = false`; `proof_authorized = false`; `kappa_record_computed = false`.
+
+
+---
+
+## UPDATE 10:45 — Q-34 CHANGED WHICH OBJECT THE VALUE PATH RUNS ON
+
+*** ALPHA'S STIFFNESS IS `K_*`, THE ONSET ROOT — NOT `kappa_record`, THE INTENSIVE HESSIAN. SLOT 16 IS
+RE-POSED TO CARRY `K_* -> kappa_Thomson`. *** Two stiffness objects sat on the value path with nothing
+relating them (20 files carry `K_*`, 263 carry `kappa_record`, 7 carry both — all seven created today).
+Ruled on the program's own commitments: couplings are impedances of access conditions, "not Lagrangian
+normalizations"; allow/require made quantitative; the record cell primitive; stiffness made physical by
+removing the rescaling freedom.
+
+**STEP 1 IS NOW THE CRITICAL PATH, not a parallel effort.** `Gamma_K` produces `K_*`, and `K_*` is alpha's
+stiffness. Section-1 inventory: **0 of 11 SUPPLIED, 11 of 11 PARTIALLY SUPPLIED, 0 NOT ADDRESSED.**
+Dependency root = the complete source-record-field Hilbert space and `rho_pre`. **Construction STOPPED at
+F-GK3**: that root needs a carrier/domain plus physical quotient and measure producer that is not a
+declared premise. **THAT BLOCK IS NOW THE SINGLE THING BETWEEN THIS PROGRAM AND ITS OWN NUMBER.** In flight
+under paste 142: is the missing premise RECOVERABLE (lane work) or a NEW ADOPTION (principal act)?
+
+**STEP 4 CHANGED SHAPE.** Slot 16 must now transport a CELL quantity to a CONTINUUM coupling. Under the old
+reading the continuum step was already taken — `kappa_record` is a density, so matching it to
+`kappa_Thomson` was scale transport. Now the continuum step is AHEAD of slot 16 and unattempted. **The
+ruling relocates a hard problem; it does not remove one.** F-K1 is frozen against exactly this.
+
+**AND ONE WHOLE CAMPAIGN LEFT THE VALUE PATH.** The linked-cluster / extensivity / R-L2b programme serves
+`kappa_record`. Not retired, not refuted, still holding its other sealed roles — but proving Theorem 3's
+five hypotheses does not produce alpha under this ruling. It has consumed more effort than anything else
+in the program and carries four obligations and a refuted arm. **Do not resume it as value-path work
+without a further ruling.**
+
+**STEPS 2, 3, 5 unchanged.** Step 2 cannot start; step 3 blocked, unassigned, primacy still lapsed; step 5
+unreachable and purely derivative of the others.
+
+**SLOT 18 — a possible shortening is being tested.** Lane 2 recorded `Z_Q` as dimensionless and the
+holonomy family as a finite-regulator scalar. Since `D` compares two theory predictions with measurement
+entering only through uncertainties, **a dimensionless observable may need no unit map and no dimensional
+bridge at all.** In flight under paste 143, together with a nativeness ranking of the three families under
+Q-34's lens: access/onset-shaped ranks above density-shaped, and the temporal-plaquette kernel is both
+density-shaped and fails the Q-25 scalar-collector condition.
+
+**THE HONEST METRIC IS UNCHANGED: ZERO of 18 slots has a derived result.**
 
 `alpha_computed = false`; `proof_authorized = false`; `kappa_record_computed = false`.
