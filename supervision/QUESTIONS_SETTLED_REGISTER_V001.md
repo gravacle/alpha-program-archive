@@ -1742,6 +1742,53 @@ RESOLVES WHEN: relay 148 returns `ROOT DERIVED` or names the failing step.
 
 ---
 
+## Q-41. "Does the GNS/covariance route build the root?" — RESOLVES Q-40, NARROWS Q-38
+
+**RULING: PARTIALLY. THE STATE IS CONSTRUCTIBLE; THE ALGEBRA IT LIVES ON IS NOT THE ONE SECTION 1
+REQUIRES.** Established 2026-07-30 by Codex lane 1 under paste 148
+(`STAGE8_GAMMA_K_QUASIFREE_ROOT_ROUTE_ATTEMPT_V001.md`, `8980666f…`).
+
+```
+SOURCE_QUASIFREE_GNS_DERIVED = true
+ROOT_DERIVED                 = false
+PRODUCER_FLAG_FLIPPED        = false
+FAILURE_STEP                 = STEP_3_DIFFERENT_ALGEBRA
+F_RP1_STANDS_NARROWED        = true
+```
+
+*** THE HALF THAT WORKED IS A REAL CONSTRUCTION, AND IT IS THE FIRST OF THE DAY. *** The continuum
+covariance `C(p) = (I - h_0/|p|)/2` **does** construct a legitimate source-sector quasifree CAR state and
+its GNS representation — **without the withdrawn finite-rank Galerkin route.** Q-40's reading of the
+Galerkin correction was right: what was withdrawn was an approximation scheme, and the state does not need
+it.
+
+**THE HALF THAT FAILED IS NOW PRECISELY TYPED.** That algebra is the **source-sector** algebra. Section 1
+requires the **completed source-record-field CTP algebra.** Those are different objects, and the gap
+between them is the failure step.
+
+**AND THE THRESHOLD HAZARD MATERIALIZED EXACTLY AS ITS OWN TEXT WARNED: allow/require CONSTRAINS `rho_pre`
+but does not SELECT it.** The threshold "does not automatically choose the denominator; it states the exact
+condition under which the denominator is required" — so the selection half of the hypothesis fails while
+the construction half succeeds.
+
+**WHAT THIS DOES TO Q-38.** F-RP1 stands, NARROWED. It is no longer "seven inputs with no constructive
+content." It is: **the source sector is constructible; the completed record-field algebra is not; and the
+state within it is constrained but unselected.** That is a materially better diagnosis than this morning's.
+
+*** AND IT GIVES THE PROGRAM'S BOTTLENECK A PRECISE TYPE FOR THE FIRST TIME. *** The "complete microscopic
+generator" that four independent lines converged on 2026-07-29 IS the extension from a constructed
+source-sector CAR algebra to the completed source-record-field CTP algebra. **That is a well-posed
+mathematical question**, not a missing specification — and it is the first time the central obstruction has
+had a statable form.
+
+`0 of 11` is UNCHANGED — no producer flag flipped, and the root piece is not complete. But a genuine
+sub-construction now exists that did not exist this morning.
+
+REOPENS/CLOSES IF: the source-sector algebra is extended to the completed CTP algebra, or that extension is
+shown obstructed.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
