@@ -3292,3 +3292,64 @@ unrelated. **Type the obstruction before attacking it, and search before derivin
 OPEN FOR THE PRINCIPAL: re-declare a primary route or leave none (open since Q-20); the `Bash(git commit *)`
 ask-rule still interrupts every commit; Einstein's independent review queue (the `Gamma_K` spec re-review
 is first, since my review of it was not independent).
+
+
+### 2026-07-30 (10:30-12:30) — Q-35 THROUGH Q-40. THE ROOT WAS TESTED AND THE TEST FIRED.
+
+*** Q-37/Q-38: THE ROOT PREMISE WAS ADOPTED AS A HYPOTHESIS WITH A FROZEN TEST, AND F-RP1 FIRED IN ONE
+TURN. *** The principal corrected my framing and the correction is the durable result: one adopts a
+hypothesis IN ORDER to test it — the adoption is what makes it falsifiable, not a cost paid to proceed.
+STANDING RULE ESTABLISHED: **every adoption carries its test, or is marked untested.** By that standard
+this adoption and A6 are opposites though the corpus calls both "adopted": stated once, counted, tested by
+gates frozen in advance — versus stated nine times, never counted, never tested.
+WHAT F-RP1 FOUND: the declared inputs have NO definite constructive content for the states, the inner
+product, the domain, `rho_pre` on the completed algebra, the quotient/measure formula, the record-effect
+family, **or the executable mutation-channel members.** That last means THE FIVE-CHANNEL AUDIT IS
+UNEXECUTABLE — its channels have no enumerable members, confirming as a blocking fact what the spec review
+logged as a documentation gap. Adoption lapsed automatically; second frozen falsifier honored today.
+
+*** BUT Q-40 MAY OVERTURN THAT READING, AND IT CAME FROM THE PRINCIPAL. *** The Galerkin correction
+withdrew a finite-rank APPROXIMATION SCHEME, not the state: `continuum_covariance_formula_derived = true`
+survives; what is false is `genuine_finite_rank_continuum_restriction_constructed`. The failure is spectral
+— a nested `Q_n` with `[Q_n,h_0]=0`, `Q_n -> I` cannot exist for the massless Dirac multiplier because a
+finite-dimensional reducing subspace needs an `L2` eigenvector of a purely continuous spectrum.
+**A QUASIFREE STATE IS DETERMINED BY ITS COVARIANCE**, and this corpus says so twice
+(`R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_SPEC_V001.md:228`;
+`STAGE8_T7_PARENT_STATE_REGULATOR_RESTRICTION_SPEC_V001.md:65`). GNS appears in 88 cleanroom files,
+quasifree in 58, CAR algebra in 10. **So the continuum state may need no finite-rank family at all, with
+allow/require SELECTING `rho_pre` as the pre-record state while the covariance CONSTRUCTS it.** If that
+holds, F-RP1 was a verdict about the SPECIFICATION, not the physics. Relay 148 tests it — the first
+construction attempt of the program with a named route rather than a permission.
+
+Q-35: the dimensionless shortcut for slot 18 is dead, and structurally — `Z_Q` is dimensionless BECAUSE
+historical text defines it as alpha's reciprocal, so V011 excludes it as a re-expression of alpha. **The
+impedance framing makes the access observable of the compact U(1) sector the coupling itself**, so slot 18
+pushes away from the quantity this theory expresses best. Nativeness ranking: finite holonomy -> durability
+-> temporal plaquette. Q-27's `unused` predicate refuted the `H_CTP` identity on the day it was defined.
+Q-36: the EM/GR surface body (490 files, essentially uncited) supplies ZERO complete Section-1 pieces;
+`Gamma_BR[g,A_Q,h]` is a different object by type; the Gravity-EM Surface Unification Theorem is a closed
+ordinary-branch capstone. My "two formulations converged on one order" reading is CORRECTED — they converge
+on the principle, not the object-ordering.
+Q-39: **F-K1 does NOT fire, so Q-34 stands** — but on thin ground: no sealed no-go, no `K_*`-applicable
+density-first requirement, no countermodel, and the closest statement on the question is a supervision
+artifact written the same day. Slot 16's carriers ARE intensive/flux-curvature/action-normalization shaped,
+so Q-34 created real interface work; it is `BLOCKED_BY slot 13`; and my "threshold-conditioned might be
+onset-shaped" hypothesis is REFUTED — sealed text orders the pole/threshold BEFORE matching. **The
+re-posing is forced, not natural.**
+
+COVERAGE DEFECT FOUND AND FIXED-IN-PROCESS: the `Gamma_K` spec (08:04) cites ONE of the day's rulings; the
+amendment (08:18) cites none. Lane 1's coverage pass through Q-38 found **no CONTRADICTED rows and nine NOT
+REFLECTED** (Q-16, Q-19, Q-29, Q-31, Q-32/33, Q-34, Q-36, Q-37, Q-38), with amendment text recorded.
+**Nothing in this program checks whether a test's assumptions match the current ruling set** — the
+mutation-channel gap was established at 08:40 and rediscovered by a construction attempt at 11:47. A
+mechanical stale-coverage detector is recommended (`register_coverage_through`), NOT a semantic one.
+
+Q-07 RE-CONFIRMED on the principal's memory of an event-horizon calculation: **no curvature term was
+projected.** The horizon work computes Reissner-Nordstrom radii whose result key is `"no_horizon"` — sizes
+computed to certify horizons are ABSENT. What is real underneath it: **`C_R = 1` IS a marginal
+self-gravitation condition and the corpus's ONLY absolute-scale selector**, adopted, passed to the producer
+as a function argument with `physical_premise_proved_by_script = false`. In flight under paste 149:
+classify the whole standing premise stack as TESTED or UNTESTED under Q-37's rule.
+
+STATE AT 12:30: `0 of 11` Section-1 pieces supplied, unchanged since the program began. Zero of eighteen
+slots derived. Lane 1 on the GNS/covariance route to the root; lane 2 on the premise classification.
