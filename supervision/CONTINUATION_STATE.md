@@ -2974,3 +2974,139 @@ exclusion verdicts DEMOTED BY A RELATIVE-PATH BUG (../ vs ../../), not by any de
 by re-resolving five hashes.
 ALSO: the archive is a FAITHFUL MIRROR, not a loss surface (bounded). And the retracted file-count
 figure is still LOAD-BEARING at PLAN_TO_ALPHA_V006:9 and unqualified at CONTINUATION_STATE:990.
+
+### 2026-07-30 (00:00-06:00, reviewer lane) — THE QUESTIONS REGISTER, THREE RULINGS, AND THE ONE
+### LIVE LEVER. Appended 2026-07-30 on resume; the state was 11 hours stale, five commits behind.
+
+Sealed this window, all verified and pushed (archive 2e9c48b, working tree clean, nothing unpushed):
+QUESTIONS_SETTLED_REGISTER_V001.md (debcc42, then Q-11 361b0d1, Q-12 9d6905d, Q-13 2e9c48b),
+DEPARTURE_2_RESCALING_EXCLUSION_FOUR_CHANNEL_AUDIT_V001.md (ebd639e),
+ERRATUM_001_PROGRAM_FILE_COUNT_2026-07-29.md.
+
+THE REGISTER IS THE PROCESS FIX FOR THE WEEK'S DOMINANT FAILURE. Indexed BY QUESTION, phrased as
+someone would re-ask it, because findings indexed by answer are unreachable. 13 rows, append-only,
+adopts and derives nothing. Every row carries ruling + proof location + reopen condition. Standing
+rule: grep it before opening any line of work. It was built on the day the reviewer lane proposed a
+route that a retirement index had already closed.
+
+Q-11 REFUTED THE FIRST-OPENING ROUTE (nine-agent run; four reads, one adjudication, three hostile
+verifiers, 2-1 to sustain, dissent said the ruling was too generous). The recovered
+primitive_same_cell_opening_normalization_principle_v001 contains ZERO hits for
+fubini|beta|metric|diamond|radius|length|ell_P|planck|conversion|internal|external over its own 83
+lines. The internal/external typing was the reviewer's overlay. One equality only
+(lambda_min[L_open(K_*)] = 0); beta does not appear in L_open, so every member of R = beta c Delta tau
+satisfies it trivially. Parameter count unchanged: ALLOW, not REQUIRE. And the route was already
+formally retired (L_open_route_retired = true), with the retirement text anticipating the exact move
+attempted: "the retired L_open subtraction may not be reused by renaming its terms." Live home for
+Q-10 is STAGE8_CROSS_SECTOR_METRIC_RULE_ADMISSIBILITY_SPEC_V001 §6, not L_open.
+ONE SURVIVOR: both constructions use alpha = 1/(4 pi K), so composing gives
+beta^2 = 16 pi ell_P^2 K_* / (c^2 Delta_tau^2). Blocked three ways today; reopens only if T_K becomes
+the output of a stated variational problem with a metric and a region attached. PART-PROVABLE.
+
+Q-13 IS THE ACTIONABLE ONE, AND IT RE-PRIORITISES THE WHOLE SLOT LIST. Test: does discharging the
+slot introduce a new dimensionful independently-fixed quantity, or only an invariance/limit/
+exhaustion/matching/protocol requirement? FOUR slots can break a scale (1, 2, 6, 13-pole-branch).
+TWO act on other freedoms (9 = additive shift; 14 = dimensionless ratios). TWELVE CANNOT FIX A
+NORMALIZATION UNDER ANY CIRCUMSTANCES (3,4,5,7,8,10,11,12,15,16,17,18) — discharging all twelve
+perfectly changes nothing about the number. Slot 8 is actively anti-selective. Slot 16 transports a
+scale and cannot originate one.
+CONSEQUENCE 1: SLOT 6 IS THE MOST UNDER-PRIORITISED ITEM IN THE PROGRAM. EM_DEPENDENCY_ORDER_FREEZE
+_V001.md:32-34 names it as where response normalization can originate, and both of the corpus's
+independent enumerations of scale-breakers terminate at a renormalization condition. Status today is
+merely "OPEN, PRINCIPAL-GUARDED".
+CONSEQUENCE 2: SLOTS 6 AND 12 CONTRADICT EACH OTHER, UNADJUDICATED. If 12 is discharged as written
+(continuum-regulator independence, no hidden finite selector), 6 cannot supply a scale.
+CONSEQUENCE 3: slot 9 is downstream of NO scale-breaker; partial c_R / partial x = 0.
+Q-13 also struck six claims in Q-12: three independent freedoms not one (F-scale 21 rows, F-shift 10
+rows, F-ratio already scale-invariant); scaling-orbit population 21 of 170 blocked/rejected rows
+(12.4%), 42% of the underdetermination rows — largest single mechanism, still a minority; at least
+eight imposed conditions DO break the scaling and failed by MONOTONICITY instead; beta/c_R/C_R are
+three different objects; the "one successful absolute-scale derivation" is a SELECTOR whose fourth
+input is the adopted C_R = 1, not G.
+
+THE LIVE LEVER: DEPARTURE 2, THE RESCALING EXCLUSION. Opened on the principal's instruction. Of the
+four departures from standard field theory, three are scale-covariant with their own "does not
+select" rulings; Departure 2 is a DEMAND THAT THE SCALING FAMILY BE DEFEATED, written 07-20 15:10 in
+primitive_record_cell_selection_principle_v001.md:95-109 and DELETED AT v002 THREE MINUTES LATER.
+Its value: it converts "a scaling symmetry nobody can break" into four named channels.
+CHANNEL 1 cell — plausibly closed, conditional on C_R = 1 being adopted not forced.
+CHANNEL 2 duration — plausibly closed, sqrt(2) energy-convention ambiguity disclosed.
+CHANNEL 3 matter action — OPEN, needs microscopic-generator uniqueness (the program's single
+most-cited missing object; four independent lines converged on it).
+CHANNEL 4 field-energy integral — OPEN, LEAST EXAMINED, step one is scoping what the corpus says.
+CEILING, STATED IN THE ARTIFACT: at most "the scaling family is defeated in N of 4 channels."
+NOTHING IN IT REACHES SLOT 9 — a shift is not a dilation.
+
+TWO CORRECTIONS OWED IN THE GOVERNING CHAIN, both found at 05:53 and therefore NOT in relay paste
+129 (written 03:07): (a) RECOVERY_STIFFNESS_AND_ALLOW_REQUIRE_2026-07-29 and STAGE8_RESCALING_
+EXCLUSION_RECOVERY_ERRATUM_V001 attribute the deletion to "the v003 edit" — wrong, it is absent
+already at v002; (b) v004 was never checked and is also missing the heading. The parent tree is on
+branch main with ZERO commits, so there is no history to recover from — the v001 file on disk is the
+only carrier.
+
+RELAY PASTE 129 STATUS UNKNOWN AT RESUME: no verification or return record exists for it anywhere in
+the supervision directory (pastes 127 and 128 both have one). Four items — three governing-chain
+registrations of the 07-29/30 rulings, plus the cross-sector metric-rule spec as the constructive
+piece. Flagged to the principal on resume.
+
+### 2026-07-30 (resume, reviewer lane) — DEPARTURE 2 RE-SCOPED. THE ONE LIVE LEVER IS AN ACCEPTANCE
+### CHECK ON AN OPERATOR NOBODY BUILT, AND THE MISSING CHANNEL IS SLOT 6.
+
+Executed V001's own channel-4 step one ("determine what the corpus even says about it"). It answered
+the question and then invalidated the question. Sealed:
+DEPARTURE_2_RESCALING_EXCLUSION_FOUR_CHANNEL_AUDIT_V002.md; register rows Q-14 and Q-15 appended.
+
+FIVE RESULTS, ALL PROVABLE AND ALL CARRYING file:line.
+1. The field-energy integral is defined once, sixteen lines above the exclusion that names it
+(v001:74-77, I_F,* = integral sqrt|g_*| F^2). BOUNDED NEGATIVE, roots parent tree + external handoffs
++ supervision, exclusions node_modules/external/custodian_private: "field-energy integral|energy
+integral" = 6 hits in 6 files, EVERY ONE the exclusion sentence or a restatement. Zero independent
+occurrences.
+2. THE FOUR CHANNELS ARE THE FOUR INGREDIENTS OF A SUPERSEDED FORMULA. They decompose the post-saddle
+division rule K_R = 4(Phi_* - Gamma_rest,*)/I_F,*. I_F survives in the live v002 only in the envelope
+identity :111-120, and :121-123 says "This identity checks the implementation. It does not select
+K_*." Channel 4 is an implementation check, not a selector channel.
+3. THE DELETION WAS NOT SILENT — "no supersession note" is WITHDRAWN. v002:3-16 is headed "## Correction
+to v001", names the deleted rule, gives the reason (the division rule presumes the field configuration
+and action partition are K-independent; a coupled saddle need not be), and certifies "No numerical cell
+or alpha value was evaluated between the two versions." Three minutes later, restated the same minute
+in preregistration v002. The real defect is narrower: a citation-graph loss. Nothing cited v001 until
+07-29. Codex still owes the governing-chain correction on STAGE8_RESCALING_EXCLUSION_RECOVERY_ERRATUM.
+4. THE REQUIREMENT IS LIVE AND STRONGER, AND THE CHANNEL LIST IS FIVE: geometry, clock, measure,
+REGULATOR, action-partition (v002:131-133 failure rule 3, a BLOCKING rule; preregistration v002
+required_construction). v001 enumerated the classes three inconsistent ways in 131 lines; "four" came
+from picking the middle list.
+5. THE AUDIT CANNOT BE RUN. results/primitive_record_cell_joint_selector_readiness_v001.json: five
+failed authorization checks, the fifth being joint_operator_passes_mutation_audit — a check ON the
+operator. No Gamma_K, no C_record(K), so no K_*, so nothing for a channel audit to move. next_gate:
+"derive one complete target-independent Gamma_K and BR closure operator whose joint stationary problem
+outputs Delta_tau(K) and a scalar C_record(K)." Its adjudication: the principle "would turn alpha into
+a surface-selected eigenvalue if its joint operator were constructed."
+
+THE CONVERGENCE (PART-PROVABLE): the live channel V001 was MISSING is REGULATOR, and regulator +
+finite renormalization IS SLOT 6. Q-13 reached slot 6 six hours earlier from the opposite direction
+(classifying all eighteen slots by scale-breaking capacity) and called it the most under-prioritised
+item in the program. Two independent lines, same terminus. Q-13's unadjudicated slot-6/slot-12
+contradiction is now load-bearing in two places: discharge 12 as written and the regulator channel
+closes by fiat.
+
+Q-15 SEPARATES TWO THINGS THAT WERE ABOUT TO BE CONFLATED: Q-11 refuted the first-opening principle as
+a fixer of BETA (beta does not appear in L_open). It says nothing about K_*, which is what L_open was
+built to select, and the retirement index retires by NON-COMPUTABILITY while stating "Whether a
+first-opening root can be formed from one microscopic CTP functional is open." v002:95-97,:104 poses
+that root problem one day earlier. beta arm refuted; K_* arm unbuilt. L_open itself stays prohibited.
+
+NEW UNREGISTERED NAMESPACE COLLISION, and it sits on the next-gate object: Gamma_K is the complete
+microscopic CTP functional indexed by the COUPLING in v002, and a BID amplitude functional indexed by
+a CELL SET in the live cleanroom (BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md:34,
+Gamma_K(A) = -log|A_K(A)|, 12 files). Third instance after C_R and K_H. Register before any lane
+writes Gamma_K in a Departure-2 context.
+CITATION FACT, same class as 718-of-821: the ONLY cleanroom file citing the live v002 principle is the
+07-29 recovery erratum. v003 cited once, v004 zero, readiness result zero. The joint-selector route is
+outside the working set.
+
+QUEUED FOR THE PRINCIPAL (three, and the first two are one decision seen twice): (1) re-point
+Departure 2 at Gamma_K + C_record(K), or keep it a channel audit; (2) promote slot 6, currently "OPEN,
+PRINCIPAL-GUARDED", which is why neither line could act on it; (3) adjudicate slot 6 vs slot 12.
+NOT RECOMMENDED: continuing the channel-by-channel audit. No object to act on, and it would produce
+artifacts that read as progress — the ALLOW shape.

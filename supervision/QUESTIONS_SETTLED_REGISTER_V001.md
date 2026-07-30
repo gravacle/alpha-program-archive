@@ -585,6 +585,93 @@ departure aimed at the scaling family, recovered and undischarged, reduced to a 
 
 ---
 
+## Q-14. "Was the rescaling exclusion deleted without a supersession note, and is the four-channel audit the way to discharge it?"
+
+Also asked as: is Departure 2 a live lever we can work now? What does the corpus say about the
+field-energy integral? Did an unversioned tree lose a necessary condition?
+
+**RULING: THE DELETION WAS SUPERSEDED, NOT SILENT; THE REQUIREMENT IS LIVE AND STRONGER; THE CHANNEL
+LIST IS FIVE, NOT FOUR; AND THE AUDIT IS AN ACCEPTANCE CHECK ON AN OPERATOR THAT WAS NEVER BUILT.**
+Established 2026-07-30 by executing the channel-4 scoping step V001 of the tracker asked for.
+
+The supersession note is `primitive_record_cell_selection_principle_v002.md:3-16`, headed "## Correction
+to v001", three minutes after v001 (mtimes 15:10 -> 15:13, 2026-07-20), restated the same minute in
+`provenance/primitive_record_cell_selection_preregistration_v002.json`. Reason given: the division rule
+`K_R = 4(Phi_* - Gamma_rest,*)/I_F,*` "is valid only if the selected field configuration and the action
+partition are already independent of `K_R`. A coupled matter-electromagnetic-gravitational saddle need
+not have that property." Plus: "No numerical cell or alpha value was evaluated between the two versions."
+
+THE REQUIREMENT SURVIVES AS A BLOCKING RULE, not a remark: `v002:131-133` failure rule 3 — the
+construction blocks if "changing an admitted boundary condition, measure, regulator, or action partition
+changes `K_*` without a theory-derived exclusion" — and rule 4 on rescaling `A`. Preregistration v002
+requires "a mutation audit over admitted geometry, clock, measure, **regulator**, and action-partition
+alternatives."
+
+**THE FOUR CHANNELS WERE THE FOUR INGREDIENTS OF THE SUPERSEDED DIVISION RULE.** The live list is five:
+geometry, clock, measure, regulator, action-partition. `field-energy integral` is not among them —
+`I_F` survives only in the envelope identity at `v002:111-120`, which `:121-123` disposes of: "This
+identity checks the implementation. **It does not select `K_*`**." Bounded negative, roots parent tree
++ external handoffs + supervision, types md/json/csv/py, exclusions node_modules + `external/` +
+custodian_private, case-insensitive: `field-energy integral|energy integral` = 6 hits in 6 files, **every
+one the exclusion sentence or a restatement of it. Zero independent occurrences.**
+
+**AND IT CANNOT BE RUN.** `results/primitive_record_cell_joint_selector_readiness_v001.json` lists five
+failed authorization checks, the fifth being `joint_operator_passes_mutation_audit` — a check ON the
+operator. There is no `C_record(K)`, so no `K_*`, so nothing for a channel audit to move. `next_gate`:
+"derive one complete target-independent `Gamma_K` and BR closure operator whose joint stationary problem
+outputs `Delta_tau(K)` and a scalar `C_record(K)`." The adjudication is worth keeping: the principle
+"would turn alpha into a surface-selected eigenvalue if its joint operator were constructed."
+
+WHAT DIES: the four-channel audit as the next work item; "channel 4 is the least-examined place where
+the freedom probably lives"; "no supersession note"; and the V001 argument that the 07-24 minimal-cell
+derivation could not have known the requirement existed (it was live and stronger from 07-20 15:13).
+WHAT DOES NOT: Departure 2 is still the only departure that demands the scaling family be defeated, and
+v002 rule 3 makes that demand blocking. The ceiling also stands — discharging it is necessary for a
+selector and is not a number.
+
+FULL WORKING: `DEPARTURE_2_RESCALING_EXCLUSION_FOUR_CHANNEL_AUDIT_V002.md` (this directory).
+
+REOPENS IF: `Gamma_K` and `C_record(K)` are constructed, at which point the five-channel mutation audit
+becomes the acceptance criterion and should be run in full. Nothing else reopens the four-channel form.
+
+CAUTION CARRIED FORWARD: `Gamma_K` is a NEW UNREGISTERED COLLISION. In `v002` it is the complete
+microscopic CTP functional indexed by the coupling; in the live cleanroom it is a BID amplitude
+functional indexed by a cell set (`BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md:34`,
+`Gamma_K(A) = -log|A_K(A)|`, 12 files). Third instance after `C_R` and `K_H`.
+
+---
+
+## Q-15. "Does Q-11's refutation also kill the first-positive-root determination of the stiffness?"
+
+Also asked as: is the root-condition route dead? Did the L_open refutation close K_*?
+
+**RULING: NO. TWO DIFFERENT TARGETS, TWO DIFFERENT VERDICTS. The `beta` arm is refuted; the `K_*` arm is
+unbuilt.** Established 2026-07-30 alongside Q-14.
+
+Q-11's argument is a parameter count: `beta` does not appear in `L_open`, so every member of
+`R = beta c Delta tau` satisfies `lambda_min[L_open(K_*)] = 0` trivially, and the count is unchanged.
+**That argument is silent on `K_*`, which is the quantity `L_open` was built to select.**
+
+And the retirement is by non-computability, not refutation.
+`STAGE8_FIRST_OPENING_ROOT_PRINCIPLE_RECOVERY_INDEX_V001.md:70-79`:
+`first_opening_root_computable_from_current_working_set = false`, `L_open_route_retired = true`, and in
+its own words "Whether a first-opening root can be formed from one microscopic CTP functional is open."
+
+The same shape is posed one day EARLIER by
+`primitive_record_cell_selection_principle_v002.md:95-97,:104` — `C_record(K_*) = 0`,
+`dC_record/dK != 0` at `K_*`, `K_* > 0`, `alpha_micro = 1/(4 pi K_*)`. Whether the 07-21 principle is
+its operator realization is a plausible lineage and is NOT asserted.
+
+WHAT THIS PERMITS: treating `C_record(K)` as a live target. WHAT IT DOES NOT PERMIT: reusing `L_open`.
+The prohibition is explicit and unchanged — "the retired `L_open` subtraction may not be reused by
+renaming its terms" — and the two defects in the object itself (unauthorized subtraction; `R_BR` is not
+the modulus gate's Fubini-Study object) stand as Q-11 recorded them.
+
+REOPENS/CLOSES IF: `C_record(K)` is constructed and either yields a unique simple positive root or is
+shown to admit a surviving stiffness-changing family under the five-channel audit of Q-14.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
