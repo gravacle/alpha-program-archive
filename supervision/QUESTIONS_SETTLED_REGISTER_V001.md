@@ -4339,6 +4339,37 @@ theorem is claimed.**
 
 ---
 
+## Q-107. "Is the correlator-to-Hessian map an indefinite primitive?"
+
+*** RULING: NO — IT IS **DOWNSTREAM OF `Obj_0`** AND BELONGS IN `S_sector`. ITS "USED AS PRIMITIVE"
+CLASSIFICATION WAS A **MISCATEGORIZATION**, NOT AN INDEFINITENESS. *** Established 2026-07-31 by Codex lane
+2 under relay 200 (`STAGE8_CORRELATOR_HESSIAN_MAP_RELATION_DOMAIN_FIX_AUDIT_V001.md`, `516d041d…`, seal
+verified).
+
+*** THE INDEFINITE COUNT DROPS, AND IT DROPS BY CORRECTING A CATEGORY RATHER THAN BY WISHFUL READING. ***
+Q-105's seven now stand as: **four descendants** (`rho_pre`, `U_BR`, effects/domains, **and this map**),
+**two indefinite** (the quotient/measure bundle, `B0`), **one circular** (`PrimitiveInventory_0`) — **with
+`B0`'s status under test at relay 201.**
+
+**AND PART OF THE MAP IS DEFINITE ALREADY.** *** THE FORMAL RELATION IS FIXED, CONDITIONALLY: the Schur
+complement, `H_C[G] = i hbar G^-1`, the Keldysh congruence, and retarded mixed-block extraction. *** **What
+remains unfixed is the PHYSICAL DOMAIN** — invertible bilocal `G`, `Log_0`, contacts, boundaries and
+endpoint domains — **all of which require the CTP package.**
+
+*** AND IT DELIVERED THE REQUIREMENT STATEMENT RELAY 199 NEEDS, WHICH IS THE POINT OF RUNNING THE TWO
+TOGETHER: THE QUOTIENT MUST SUPPLY the gauge-fixed physical space, the branch metric and reality involution,
+DeWitt conventions, the measure, contacts, boundaries, and Ward-compatible endpoints. *** **Codex 1's
+decomposition can now be checked against a stated requirement rather than judged on its own terms.**
+
+**No sealing today** — prerequisites, test owner and an adversarial quotient countermodel are all absent;
+physical verdict `NO_VERDICT`. **Q-92's conditions held again.**
+
+*** SO THE INDEFINITE PROBLEM IS NARROWING TO ONE OBJECT: THE QUOTIENT/MEASURE BUNDLE. It is what the map
+waits on, what `Obj_0` waits on, and — if `B0` turns out to be the target rather than an input — the ONLY
+genuinely indefinite thing left on the blocker list. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
