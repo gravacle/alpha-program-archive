@@ -5605,6 +5605,44 @@ tested within hours.**
 
 ---
 
+## Q-134. "Are the two response layers the same object?"
+
+*** RULING: NO. `response_layers_same_object = false | TYPE-R`, executed by feature comparison. ***
+Established 2026-07-31 by Codex lane 2 under relay 228
+(`STAGE8_RESPONSE_LAYER_IDENTITY_COMPARISON_AUDIT_V001.md`, `51861f5d…`, 51 lines, seal verified,
+fence-clean, no `= true`).
+
+```text
+ROUTE B   the BR/CTP fluctuation-response operator:  G -> H_R[G], induced kernel, projector
+ROUTE A   the Stage-10 GEOMETRIC MATCHING layer: causal-diamond / skeleton response
+          normalization, selecting E_ref
+
+DIFFERENT carriers, probes, domains, and output types.
+NO sealed identity, restriction, projection, or completion relation exists.
+response_layer_pipeline_composition = NO_VERDICT | TYPE-U
+```
+
+**The lane's own words:** *"A future pipeline may compose them, but conflating them now would be
+unproved-identity transport."*
+
+*** THE LEVERAGE HOPE IS DEAD — ONE BUILD WILL NOT UNBLOCK BOTH ROUTES. THE RELAY WAS WRITTEN WITH
+"DIFFERENT UNTIL SHOWN OTHERWISE" AS THE DEFAULT AND WITH THE NEGATIVE AS AN EQUAL LEAD, AND THAT IS
+WHAT CAME BACK. ***
+
+*** BUT THE REAL RESULT IS THE POSITIVE INSIDE IT: **ROUTE A IS NOW CONFIRMED INDEPENDENT OF ROUTE B's
+BLOCKED OBJECT.** The program has been ASSERTING that the geometric route does not need `B0`. THIS
+ESTABLISHES IT STRUCTURALLY: `E_ref` is decided by the geometric matching layer, whose carriers,
+probes, domains and outputs differ from the BR/CTP operator that sits under `B0`. **THE SCALE SIDE
+DOES NOT RUN THROUGH THE OBJECT SIX ROUTES FAILED TO DETERMINE.** ***
+
+**Method note.** This is the class of question that has cost this program most — six cross-construction
+identifications refuted 2026-07-29, six `B0` routes closed for want of a bridge, and a sealed `TYPE-R`
+scoped back the same day after the reviewer transported it past what it named. *** A SHARED NOUN IS
+NOT AN IDENTITY. TESTING IT COST ONE SHORT RELAY AND PREVENTED TWO LANES BUILDING ONE OBJECT FOR A JOB
+IT CANNOT DO. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
