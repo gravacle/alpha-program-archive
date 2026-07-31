@@ -154,7 +154,44 @@ are one scale choice or several is Einstein's live item.**
 - **The reviewer cannot re-seal the baseline** (classifier-blocked). Brian runs `shasum -a 256
   corpus_check_baseline_v001.json > corpus_check_baseline_v001.json.seal.sha256`.
 
-### THE WORK PLAN IS EIGHT OBJECTS (Q-74) — READ THIS FIRST
+### THE ROAD IS THREE STEPS (Q-83) — READ THIS FIRST, IT SUPERSEDES THE FRAME BELOW
+
+```text
+alpha_micro = 1/(4 pi K_*)          K_* = the root of C_record(K) = 0
+
+STEP 1   C_record(K) EVALUABLE    the loop-closing map / response-extraction layer
+STEP 2   THE SCALE FIXED          C_R = 1 selects, via the Hamilton-Jacobi bridge;
+                                  k_R sits INSIDE step 1's equation (Q-73)
+STEP 3   RUN SECTION 5.3          the uniqueness gate, ALREADY WRITTEN
+```
+
+*** THERE IS NO FOURTH STEP. NO RELAY IS ISSUED UNLESS IT NAMES WHICH STEP IT ADVANCES, OR NAMES THE
+SPECIFIC BLOCKAGE IT CLEARS. "It would be good to know" is not a justification, and the reviewer is bound
+before any lane is. ***
+
+**PARKED — description, not steps:** the 32 `PATHLESS-CLAIMED` inventory; the identifier registry and its
+four alias `NO_VERDICT`s; the authority-edge modelling decision; the prose-rule amendment; boundary
+re-typing beyond what a step needs; OBS-08 and the graph-model question. **Unparked only by showing an item
+blocks a step.**
+
+**HOW THE EIGHT MAP ONTO THE ROAD:**
+
+```text
+STEP 2   instance 1 (C_R = 1)      the scale selector itself
+STEP 2   instance 2 (tau = 1)      feeds k_R, which sits in step 1's equation
+STEP 1   instances 5, 6            rooted in the producer algebra
+   ?     instances 3, 4, 7, 8      interface-level only (Q-81) -- BLOCKING STATUS UNKNOWN
+```
+
+*** THE OPEN SHARPENING QUESTION: DO 3, 4, 7 AND 8 BLOCK A STEP, OR ONLY DEGRADE THE CONDITIONALITY OF THE
+RESULT? If they only degrade it they are DISCLOSURE work, writable at the end, and the road is roughly half
+as long as the register implies. One lane's question, not yet asked. ***
+
+**THE HONEST ACCOUNTING:** much of 2026-07-30 and 07-31 **measured** the program rather than building it.
+**That was necessary — the road could not have been written in three lines without it — and it is now
+finished.** *** FOCUS IS NOT SPEED: A STEP TAKEN WRONGLY IS NOT PROGRESS ALONG THE ROAD, IT IS A FIT. ***
+
+### THE EIGHT — SUPERSEDED AS THE PRIMARY FRAME, RETAINED AS THE OBJECT LIST (Q-74)
 
 *** THE AXIOM FLOOR IS REAL, SMALL AND CLEAN: 18 axioms, few, motivated, target-blind, several
 falsifier-armed, AND NONE CARRIES ABSOLUTE SCALE. *** Q-45's untested rows concentrate **away** from it.
