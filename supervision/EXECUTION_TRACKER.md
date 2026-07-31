@@ -47,35 +47,47 @@ but timeliness.
 - **An alias merge creating a cycle** (Einstein item 2).
 - **Any of the six bridge objects or nine package items already existing under another name.**
 
-## THE PROGRAM IS DOWN TO THREE ISSUES (2026-07-30 evening)
-
-**Everything open reduces to three questions, and each has a lane on it.**
+## THE THREE ISSUES — ISSUE 3 IS ANSWERED (Q-71)
 
 ```text
-ISSUE 1   Can C_R = 1 actually SELECT?                          CODEX 1  [relay 161]
-ISSUE 2   Can the response-extraction layer be BUILT?           CODEX 2  [relay 162]
-ISSUE 3   Does a FORCING route exist at all?                    EINSTEIN [relay 163]
+ISSUE 1   Can C_R = 1 SELECT?              NO, not alone (Q-59). Needs the six-object
+                                           Hamilton-Jacobi bridge. Alias resolved (Q-67),
+                                           so that chain has a naming artefact, not a hole.
+ISSUE 2   Can the response layer be BUILT?  OPEN. Package heads the critical path; B0 is
+                                           its load-bearing stop (Q-68).
+ISSUE 3   Does a FORCING route exist?       *** YES. THE THRESHOLD. *** (Q-71)
 ```
 
-**ISSUE 1.** `C_R = 1` is the only condition breaking the record layer's scale orbit
-(`T_R -> lambda T_R`, `H_R -> H_R/lambda`), and it has produced no scale:
-`absolute_record_interval_derived_in_declared_branch = false`, with a disclosed `sqrt(2)`
-energy-identification ambiguity at marginality. *** IF IT CANNOT SELECT ALONE THERE IS AN UNNAMED PARTNER,
-AND A SECOND SCALE-FIXING CONDITION MOVES THE PROGRAM TOWARD FIT TERRITORY. This is what could invalidate
-Q-58. ***
+*** ISSUE 3 IS SETTLED AND THE ANSWER WAS ALREADY IN THE CORPUS. *** The principal's instinct — *"it's a
+matter of reaching the threshold, not overdetermination"* — is confirmed against sealed text.
+`STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001.md:64` already says a completed `Gamma_K` with **a unique simple
+positive `C_record` root** determines `K_*` **conditionally on the induced-only axiom, not absolutely** —
+which is Q-65's *conditional derivation, singly-attested*, written a day before the grading existed.
 
-**ISSUE 2.** Four objects sit upstream of `Gamma_K`; one is specified (Q-57). Without this layer there is
-no `C_record(K)`, no `K_*`, **no alpha at all.** Pure buildability.
+**§5.3 IS A COMPLETE UNIQUENESS GATE WITH ANTI-FITTING BUILT IN.** It fails if existence is shown without
+uniqueness, if a continuous family survives, if a second inequivalent positive root survives, **or if
+uniqueness is obtained only by narrowing the admitted family after seeing the root.** And the root is
+**solved once and independently reproduced** — freeze-before-root-finding.
 
-**ISSUE 3.** Whether any two independently-motivated conditions in the corpus could land on one value.
-"Only overdetermination forces a number" has never been given a testable specification.
+## THE ROUTE, RESTATED
 
-*** THE DEPENDENCY IS NOT SYMMETRIC. ISSUES 1 AND 2 PRODUCE A NUMBER. ISSUE 3 DECIDES WHETHER THAT NUMBER
-IS A DERIVATION OR A VALUE THE THEORY MERELY PERMITS. You can solve 1 and 2 completely and still have only
-a fit *** — which is what the standing principle has always said: permissions never force a number.
+```text
+complete Gamma_K  ->  run the §5.3 uniqueness gate  ->  a DERIVED unique simple positive
+root forces K_*, conditionally on the induced-only axiom
+```
 
-**If Einstein reports no candidate pair exists, that is the most consequential negative available** — the
-forcing route would be empty regardless of how well 1 and 2 go.
+**THE OPEN OBLIGATION HAS A NAME: `constant_root_uniqueness_derived = false`.** *** BOTH EXISTENCE AND
+UNIQUENESS MUST BE DERIVED (Q-65). AN ADOPTED UNIQUENESS IS A FIT WEARING A THRESHOLD'S CLOTHES. ***
+
+**THE PAIR-HUNT WAS A DETOUR.** Q-61 found zero live pairs and the reviewer read the route as empty; it was
+the wrong route. **Do not re-open pair-hunting as the primary route.** A pair would be stronger evidence —
+one grade up — never a prerequisite.
+
+## WHAT THE LANES ARE FOR NOW
+
+**Not assembling a second leg. Earning existence and uniqueness of ONE root.** Current assignments are
+vindicated rather than redirected: the package critical path leads to a completed `Gamma_K`, which is
+exactly what the uniqueness gate needs.
 
 ## HOW TO READ THE SLOT COUNTS — A CORRECTION
 
