@@ -3141,6 +3141,52 @@ Codex 2's B0 files were untracked in the shared tree and **left unread because B
 
 ---
 
+## Q-76. "Should S9-A keep demanding overdetermination?"
+
+*** RULING: NO. "AND OVERDETERMINED" IS STRUCK. S9-A NOW READS: determination of the total physical
+stiffness by a condition whose EXISTENCE AND UNIQUENESS ARE BOTH DERIVED. *** Principal act 2026-07-31,
+`S9A_AMENDMENT_THRESHOLD_FORCING_DECISION_2026-07-31_V001.md`. **Amends the obligation; does not edit the
+sealed registration record** (`STAGE8_Q13_Q19_GOVERNING_REGISTRATION_RECORD_V001.md:287-288`).
+
+**INHERITED ERROR, NOT A DELIBERATE BAR.** The wording was written while "only overdetermination forces a
+number" was believed; **Q-65 refuted that.** Nothing in its registration gives a rationale for the stronger
+demand.
+
+*** AND IT WAS ACTIVELY HARMFUL: Q-61 FOUND ZERO LIVE PAIRS, SO S9-A AS WRITTEN WAS PRESENTLY
+UNSATISFIABLE. ANY LANE TOLD TO DISCHARGE IT WOULD HUNT FOR A PAIR — THE EXACT DETOUR THE PROGRAM ALREADY
+TOOK ONCE, SEALED INTO AN OBLIGATION WHERE IT WOULD HAVE REPEATED ITSELF WITHOUT ANYONE CHOOSING IT. ***
+
+**THE PRINCIPAL'S GROUNDS:** the whole program is rooted in **thresholds**. Q-71 established the forcing
+shape is the threshold and §5.3 is already a complete uniqueness gate for it. **In a threshold-rooted
+architecture overdetermination is not a higher grade waiting to be reached — it is a category that does not
+naturally arise.**
+
+*** OVERDETERMINATION IS NOT RETAINED AS AN AVAILABLE STRONGER GRADE TO PURSUE. Holding it open as an
+aspiration is what sent lanes at an empty route. It is not a target, not a bonus, not a fallback. ***
+
+**ONE THING IS RECORDED INSTEAD, AS A DISCLOSURE RATHER THAN A GOAL.** Q-65 established exactly what
+redundancy alone supplies: **corroboration against a WRONG condition — error-risk, not fit-risk.** *** THE
+THRESHOLD ROUTE CANNOT SELF-CHECK THIS. §5.3's "solved once and independently reproduced" catches
+computational and implementation error; IT CANNOT CATCH THE CONDITION ITSELF BEING PHYSICALLY WRONG,
+BECAUSE THERE IS NOTHING TO DISAGREE WITH IT. ***
+
+```text
+S9A_RESIDUAL_ERROR_RISK_DISCLOSED = true
+S9A_RESIDUAL_ERROR_RISK_CLOSED    = false | TYPE-C
+    constraint: no second independent condition exists in the corpus (Q-61)
+    release:    an independently-motivated second condition landing on the same quantity
+```
+
+**ANY REPORTED ALPHA MUST CARRY THAT DISCLOSURE.** A derivation forced by one derived unique condition is
+genuine and **singly-attested**; if that condition is wrong rather than merely unproven, **nothing in this
+route detects it.**
+
+**THE STANDARD IS NOT RELAXED.** Q-65's certificates, freeze-before-root-finding, the target-entry sweep,
+and §5.3's prohibition on narrowing the admitted family after seeing the root all stand. *** A DEMAND THAT
+WAS NEVER REQUIRED IS WITHDRAWN, AND THE COST OF WITHDRAWING IT IS DISCLOSED. *** **S9-A remains open.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
