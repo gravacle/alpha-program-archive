@@ -4667,6 +4667,70 @@ construction could be presented as target-independent **with no test able to tel
 
 ---
 
+## Q-115. "Is the N4 limiter route — `independently derived primitive dynamics` — satisfiable from the corpus?"
+
+*** RULING: NO AS THINGS STAND. THE CORPUS'S PRIMITIVE DYNAMICS IS **ADOPTED**, NOT DERIVED, AND SAYS SO
+IN ITS OWN WORDS. *** Established 2026-07-31 by the reviewer, tracing Q-114's N4 limiter. **Read at source;
+no lane involved.**
+
+**The chain, each link quoted:**
+
+```text
+B0 spec        the limiter: the B0 stop-spec "does not refute a future construction in which
+               INDEPENDENTLY DERIVED primitive dynamics is used by an explicit B0 construction
+               witness."  (STAGE8_CTP_PHYS_INPUT_PACKAGE_B0_LOAD_BEARING_STOP_SPEC_V001.md:727)
+
+A24            "Connected primitive dynamics additionally requires an EXPLICITLY ADOPTED OR
+               INDEPENDENTLY DERIVED global-boundary-descent/quasi-free-completeness rule."
+               (BID_CONSOLIDATED_HOSTILE_AUDIT_MATRIX_V005.md:74, status PENDING)
+
+the rule       BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS_V001.md EXISTS -- 220 lines.
+               *** AND IT TOOK THE ADOPTED BRANCH. ***
+```
+
+**Its own §"Adopted primitive principle", verbatim (`:22-25`):**
+
+> *"This is an additional microscopic Gravacle premise. **It does not follow from CAR, locality, or
+> disjoint monoidality alone.** It is **target-value-free but historically target-aware**, and is
+> **forward-adopted before further evaluation** under this branch."*
+
+**Status flags (`:193-197`):** `global_boundary_descent_principle_adopted = true` ·
+`primitive_quasi_free_completeness_adopted = true` · `forward_adopted_before_further_branch_evaluation =
+true` · **`historically_target_blind = false`** · `target_value_used_in_construction = false`.
+
+*** SO THE ONE ROUTE THE `B0` SPEC ITSELF NAMES AS ACCEPTABLE REQUIRES **INDEPENDENTLY DERIVED** PRIMITIVE
+DYNAMICS, AND WHAT THE CORPUS HAS IS **ADOPTED** — BY AN ARTIFACT THAT STATES IT DOES NOT FOLLOW FROM ITS
+OWN STRUCTURAL INPUTS. THE N4 LIMITER IS NOT SATISFIABLE WITHOUT DERIVING THIS RULE FIRST. ***
+
+**AND THE SHARPER EDGE — THE EXCLUSION IS DOING PHYSICAL WORK.** The principle reads: *"No independent
+primitive higher-CAR, record-only, contact, or overlap kernel is allowed."* And
+`BID_SOURCE_PARENT_CLOSURE_GATE_V002.md:54` records:
+
+```text
+primitive_quartic_competitor_rejected_only_by_adopted_quasi_free_completeness: true
+```
+
+*** THE WORD IS "ONLY." A QUARTIC COMPETITOR — DESCRIBED IN SP07 AS "OTHERWISE INVISIBLE," AGREEING ON THE
+VACUUM AND ONE-SOURCE SECTORS — IS EXCLUDED **SOLELY** BY THE ADOPTION. DROP THE PREMISE AND A RIVAL
+PRIMITIVE DYNAMICS SURVIVES. THAT IS NOT BOOKKEEPING; IT IS AN ALTERNATIVE MICROSCOPIC DYNAMICS HELD OUT BY
+A CHOICE. *** `BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_AUDIT: PASS_BLOCKED`.
+
+**A NINTH DEBT-IN-AXIOM-CLOTHING, AND IT SITS ON THE ONE NAMED ROUTE TO `B0`.** Q-74 counted eight on the
+value path. **This one was not among them** because it was reached from the `B0` side, which nothing had
+traced before.
+
+*** AND IT IS A LOAD-BEARING EXEMPLAR FOR RELAY 210. "Target-value-free but historically target-aware" is
+the corpus stating, in one sentence, that it is clean on the **INPUTS** reading and **NOT CLEAN ON THE
+SPECIFICATIONS** reading. **HELD BACK FROM CODEX 2 DELIBERATELY** — 210 asks the lane to find the
+load-bearing uses independently, and handing over the best exemplar would contaminate the sweep and destroy
+its value as a check on thoroughness. **Compare on return.** ***
+
+**What this does NOT establish:** that the rule is underivable. It is adopted, and no one has tried to
+derive it. **TYPE-C, constraint-blocked — a derivation obligation with no attempt on record, not a
+refutation.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
