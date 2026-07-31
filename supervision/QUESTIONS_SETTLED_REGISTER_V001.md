@@ -3694,6 +3694,49 @@ done, which the road had recorded as finished.**
 
 ---
 
+## Q-90. "Is `COMMON_ORIGIN` generative or formation?"
+
+*** RULING: THE FORCED BINARY IS REFUTED. THE CLASS IS **GENERATIVE IN DERIVATIONAL PROVENANCE** AND
+**SIMULTANEOUSLY FORMATION IN PHYSICAL ORDER**. THEY ARE DIFFERENT AXES AND ARE CONSISTENT. *** Established
+2026-07-31 by Codex lane 2 under relay 184
+(`STAGE8_COMMON_ORIGIN_GENERATIVE_VS_FORMATION_TYPING_V001.md`, `d72dfa25…`, 1059 lines, **three
+independent hostile reviews: SEAL-READY**, publication approved by the reviewer after seal and fence
+verification).
+
+```text
+derivational provenance:  the package must be DERIVED from one joint operator
+physical order:           antecedent carrier -> write/nonreturn/persistence -> durable record
+```
+
+*** `relay_184_claim_that_these_categories_necessarily_contradict = false | TYPE-R`. THE REVIEWER POSED A
+BINARY THAT DOES NOT EXIST — THE SEVENTH FALSE CONSTRAINT, AND THE THIRD IN A ROW INTRODUCED BY THE
+REVIEWER'S OWN FRAMING. ***
+
+**Q-43 REFUTES ONLY SOURCE-ONLY CREATION OF THE ANTECEDENT CARRIER — NOT DERIVATION OF JOINT DYNAMICS FROM
+A SOURCE-RECORD-FIELD FRAMEWORK.** `source_only_temporal_carrier_generation = false | TYPE-R`. *** AND THE
+SHARP DISTINCTION: Q-43 EXPRESSLY SETTLES **DYNAMICS**, NOT **EFFECTS**. Whether record effects have joint
+origin remains `NO_VERDICT`, as does P5's isolated temporal meaning. ***
+
+**THE THEORY'S ROOT IS FORMATION-SHAPED** — antecedent carrier, onset, write, nonreturn, persistence,
+recoverability, marginal closure. **No additional Q-80 ontology class is required.** **Q-81's
+`COMMON_ORIGIN_CTP_PRODUCER_ALGEBRA` remains controlling and unbuilt.**
+
+*** NOTHING REPLACES P0. *** `literal_threshold_for_P0_substitution = false | TYPE-R`. **P0 remains the
+joint framework/dynamics role; the threshold is DOWNSTREAM and is only one part of the formation
+condition.** **The reviewer's suggestion that a formation theory needs a formation condition rather than a
+seed is refuted as a substitution — the threshold does not do P0's job.**
+
+*** AND THE VERSION OF P0 THE PRINCIPAL AND REVIEWER FEARED IS NOT THE SEALED ONE. *** **A source-only
+carrier-generating P0 WOULD be inconsistent with Q-43 — but that is not what the corpus specifies.** The
+sealed P0 is the **joint** framework. `joint_P0_specified_but_unbuilt = false | TYPE-U`;
+**buildability in principle remains `NO_VERDICT`**; `derived_seed_found_in_bounded_scope = false | TYPE-S`.
+
+**WHAT THE CHALLENGE ACHIEVED:** it did not overturn the class, **but it established what P0 is not** — not
+a source that creates the carrier — **and left the one genuinely open question sharp: whether record
+EFFECTS have joint origin, which Q-43 does not settle.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
