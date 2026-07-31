@@ -16,22 +16,128 @@ STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
 
 ```text
 CODEX 1   relay 213   CAN THE QUASI-FREE COMPLETENESS RULE BE DERIVED? Adopted,
-          QUEUED      never attempted (Q-115). If derivable, N4's limiter route
+          RUNNING     never attempted (Q-115). If derivable, N4's limiter route
                       opens and the ninth debt clears. ADVANCES STEP 1.
 
-CODEX 2   relay 212   THE CENSUS. (a) Is 5.3's "admitted family" the same object as
-          QUEUED      the MIXED_TYPE_ALLOWANCE_ENVELOPE? (b) Does "open" mean NOT
-                      YET ENUMERATED or NOT ENUMERABLE? Plus the exemplar the 210
-                      sweep missed. *** DOES NOT WAIT ON B0. *** UNBLOCKS STEP 3.
+CODEX 2   relay 214   IS THE OPEN ACTION-FORM CLASS INSIDE 5.3's ADMITTED FAMILY?
+          RUNNING     The one conditional left standing by Q-118; sizes the census.
+                      *** DOES NOT WAIT ON B0. *** UNBLOCKS STEP 3.
 
 EINSTEIN  relay 211   IS "ONE OPERATOR" DERIVED OR IMPORTED? Tests the premise the
           RUNNING     six routes assumed rather than running a seventh route. FABLE.
                       ADVANCES STEP 1.
 ```
 
-**RETURNED THIS SESSION:** 209 (Codex 1, MD-3 specified, `CM3_passes_MD3 = false | TYPE-R`,
-fiber `NO_VERDICT` on four named blockers) · 210 (Codex 2, seam OPEN, **§5.3's anti-narrowing
-defence NOT EXECUTABLE**, `K_(1,3)` confirmed specification-level target-aware).
+**RETURNED THIS SESSION:** 209 (Q-116, MD-3 specified, `CM3_passes_MD3 = false | TYPE-R`, fiber
+`NO_VERDICT` on four blockers) · 210 (Q-117, seam OPEN, §5.3 anti-narrowing NOT EXECUTABLE) ·
+212 (Q-118, **"open" = NOT YET ENUMERATED**, `Section_5_3_reachable_in_principle = true | TYPE-C`,
+the two objects **overlapping but not identical**).
+
+---
+
+## *** THE ROADMAP AS OF 2026-07-31 EVENING — WHAT IS DEFINED AND WHAT IS NOT ***
+
+**Answering the principal's question directly: the road is NOT uniformly well-defined. One step is
+clear, one is partly blocked, one bottoms out in an axiom.**
+
+```text
+STEP 3   RUN 5.3          *** THE CLEAREST PART OF THE ROAD, AND SEQUENCING FORCES IT FIRST. ***
+STEP 2   FIX THE SCALE    PARTLY DEFINED -- known blockers, one leg never examined
+STEP 1   C_record         *** NOT WELL-DEFINED -- bottoms out in B0, which is ASSUMED ***
+```
+
+### STEP 3 — now a four-link chain, every link named (Q-118, Q-120)
+
+```text
+3.1  GIVE THE OPEN ACTION-FORM CLASSES CONCRETE MEMBER IDENTITIES AND PROVENANCE
+     *** THIS IS THE ACTUAL BLOCKER. They cannot be classified because they have no member
+     identities -- not because the criterion is unclear. ***
+3.2  CLASSIFY EACH against 5.3's action-partition criterion.
+     ALREADY DONE FOR TWO: S_0 and S_1 ARE admitted mutation candidates. Census >= 2.
+3.3  FREEZE THE LEDGER -- eight fields per member (canonical identity, domain/codomain, action
+     form and branch choices, source/record embeddings, provenance and adoption time,
+     TARGET-AWARENESS DECLARATION, mutation relation) PLUS a coverage proof over all envelope
+     axes, PLUS an adversarial omitted-member countermodel.
+3.4  5.3 EXECUTABLE.
+
+Section53_census_frozen   = false | TYPE-C     Section53_executable_now = false | TYPE-U
+open_action_form_complete_cardinality = NO_VERDICT | TYPE-U
+```
+
+*** AND IT MUST HAPPEN BEFORE STEPS 1 AND 2 COMPLETE. Q-118 §2.3: "freeze it BEFORE ANY ROOT IS
+SEEN." A census built after the number exists is worthless — not because anyone cheated, but because
+of the order of operations. THE PROGRAM HAS BEEN TREATING 5.3 AS END-OF-ROAD WORK. IT IS NOT. ***
+
+### STEP 2 — known blockers plus one leg nobody has looked at
+
+```text
+S3 join blocked      three vacuity repairs supply ZERO of six Dom(S3_CORE) members (Q-96)
+the fork survives    EVEN FULLY BUILT, the core leg does NOT close the sqrt(2) fork --
+                     Cod(S3_CORE) carries no candidate identifier
+THE NAMING LEG       17 objects, SEPARATE FROM THE CORE LEG, *** NEVER EXAMINED BY ANYONE ***
+```
+
+### STEP 1 — the foundation is an axiom, and we now know exactly what would end that (Q-121)
+
+**182 sites across 55 files. DERIVED: ZERO, ANYWHERE.** "One operator" is postulated in **two
+terminal axioms** — **A1**, whose own axiom-map row reads *"Reason given? No"*, and **A5**, which
+self-concedes *"Gauge and Lorentz covariance alone do not imply this rule."* The method layer
+re-imports it (~40 sites); ~150 inherited sites terminate there. **Nothing weaker replaces it**
+(W1–W4 all fail or reify). **So the six routes measured the right object — under an adopted premise.**
+
+*** `NECESSITY_DERIVED` BECOMES CLAIMABLE AT EXACTLY THREE NAMED RELEASES — THE FIRST FINITE LIST
+THE PROGRAM HAS EVER HAD FOR ITS OWN FOUNDATION: ***
+
+```text
+R1   the induced-only derivation
+R2   the map + projector
+R3   the quasi-free-completeness derivation   <-- Q-115/Q-119; relay 215 is scoping it NOW
+```
+
+**Also from Q-121:** no T1–T7 clause tests P0 — **source-oneness is signature-assumed and
+test-unverified**; the only "one" inside a failure-capable test constrains the completed carrier, not
+the source.
+
+### *** THE PRINCIPAL DECISION — NOT A LANE TASK ***
+
+```text
+OPTION A   SPEND ON R1/R2/R3 -- convert the foundation from ASSUMED to DERIVED.
+           Honest route. One of the three is already in flight.
+OPTION B   ACCEPT one-ness as an axiom, DISCLOSE it, and build forward.
+           Faster. But alpha's foundation then rests on a premise the corpus itself records as
+           HISTORICALLY TARGET-AWARE, and "induced" gets materially weaker.
+```
+
+**Step 3's census is NOT part of this decision — sequencing forces it either way.**
+
+### REFUTED THIS SESSION, REVIEWER'S OWN
+
+*** THE GRAPH-WALKER MECHANISM IS DEAD. *** Einstein pre-registered signatures before reading and
+killed it three ways: this program's walkers **demonstrably do see written fixed points** (Q-86
+classified P7; the executed census found zero actual cycles — OBS-08's phenomenology is an untested
+import with an executed counterinstance); the specific residue is **absent from all six returns**,
+with the would-be defining relation among the OPEN slots (absent, not present-but-unresolvable); and
+the coarse match is double-entailed. **Thirteenth framing to dissolve; the reviewer's.**
+
+**What survives:** `H_FIXEDPOINT` as the **ontology** of `B0` is `NO_VERDICT` — six archaeological
+searches cannot separate an unwritten fixed-point relation from an unwritten operator.
+
+---
+
+## *** THE SEQUENCING FINDING — §5.3 IS NOT THE LAST STEP ***
+
+**Q-118 §2.3:** *"Freeze it **before any root is seen**."*
+
+*** THE ADMITTED-FAMILY CENSUS CANNOT BE BUILT AFTER THE NUMBER EXISTS WITHOUT DESTROYING THE VERY
+PROPERTY §5.3 CHECKS. THE PROGRAM HAS BEEN TREATING §5.3 AS END-OF-ROAD WORK. IT IS NOT — IT MUST
+PRECEDE STEPS 1 AND 2 COMPLETING, OR THE GATE IS COMPROMISED BY CONSTRUCTION RATHER THAN BY ANYONE
+CHEATING. ***
+
+**The ledger each admitted member needs:** canonical object identity · exact domain/codomain · action
+form and branch choices · source/record embeddings · provenance and adoption time · **target-awareness
+declaration** · mutation relation · **and a proof the membership predicate covers all envelope axes.**
+Plus a dedicated owner running the mutation audit **and an adversarial omitted-member countermodel**.
+**Any unclassified member keeps §5.3 unexecutable.**
 
 ---
 

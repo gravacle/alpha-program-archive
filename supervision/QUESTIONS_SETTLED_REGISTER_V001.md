@@ -4798,6 +4798,218 @@ complete and must not be treated as a corpus-wide negative. *** It is supplied t
 
 ---
 
+## Q-118. "Is §5.3 reachable at all — and is the open action-form class the same object as its admitted family?"
+
+*** RULING: REACHABLE. `Section_5_3_reachable_in_principle = true | TYPE-C`, condition: a frozen pre-root
+census and provenance. AND THE TWO OBJECTS ARE OVERLAPPING BUT NOT IDENTICAL. *** Established 2026-07-31 by
+Codex lane 2 under relay 212 (`STAGE8_SECTION53_ADMITTED_FAMILY_CENSUS_REACHABILITY_AUDIT_V001.md`,
+`4411b91a…`, 65 lines, seal verified, fence-clean).
+
+```text
+OPEN_ACTION_FORM_not_enumerable          = false | TYPE-S   no text proves undecidability or an
+                                                            intrinsically unbounded membership predicate
+OPEN_ACTION_FORM_complete_census_present = false | TYPE-U   would-build: enumerate members + provenance
+Section_5_3_reachable_in_principle       = true  | TYPE-C   condition: frozen pre-root census
+Section_5_3_executable_now               = false | TYPE-U
+```
+
+*** THE FEARED OUTCOME DID NOT MATERIALIZE. "Open" means **NOT YET ENUMERATED**, not non-enumerable — the
+envelope's own text says its axes ARE enumerated and typed, and what is missing is a numeric measure or
+complete internal parametrization, **not the typed shape**
+(`STAGE8_ALLOWANCE_ENVELOPE_WITH_CLOTHING_WITHDRAWN_V001.md:67-75`). ***
+
+**2.1 — the objects separate.** §5.3 quantifies over the **gate-specific admitted family of
+response-changing microscopic constructions** (`STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001.md:581`). The
+envelope is a **set-valued typed envelope** with scalar, discrete, operator/action-form, algebraic,
+admissibility and categorical axes (`…ALLOWANCE_ENVELOPE…:55-75`). **The §5.3 family is a gate-specific
+subset or projection.** *** THE OPEN ACTION-FORM CLASS REACHES §5.3 **ONLY IF ITS MEMBERS ARE ADMITTED
+MUTATIONS** — AND THE ENVELOPE NAME ALONE DOES NOT PROVE THAT INCLUSION. THAT CONDITIONAL IS NOW THE
+CHEAPEST OPEN QUESTION ON THE STEP-3 SIDE. ***
+
+*** AND THE SCHEDULING CONSEQUENCE IS THE REAL FINDING, LARGER THAN THE HEADLINE. §2.3: "FREEZE IT
+**BEFORE ANY ROOT IS SEEN**." THE CENSUS CANNOT BE BUILT AFTER THE NUMBER EXISTS WITHOUT DESTROYING THE
+VERY PROPERTY §5.3 CHECKS. SO THIS IS **NOT END-OF-ROAD WORK** — IT MUST PRECEDE STEPS 1 AND 2 COMPLETING,
+OR THE GATE IS COMPROMISED BY CONSTRUCTION. THE PROGRAM HAS BEEN TREATING §5.3 AS THE LAST THING. IT IS NOT.
+***
+
+**What freezing requires (§2.3), as specified:** a ledger of every admitted response-changing family member
+carrying canonical object identity · exact domain/codomain · action form and branch choices · source/record
+embeddings · provenance and adoption time · **target-awareness declaration** · mutation relation · **and a
+proof that the ledger's membership predicate covers all envelope axes**. Plus a dedicated owner running the
+mutation audit **and an adversarial omitted-member countermodel**. **Any unclassified member keeps §5.3
+unexecutable.**
+
+**CALIBRATION CHECK PASSED.** The lane was handed `BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS_V001.md`
+after its 210 sweep missed it; this audit **found it at `:17-25`**, confirmed it as an inputs/specifications
+instance, **and correctly declined to let it bear on non-enumerability.** *** THE LANE DID NOT OVER-READ A
+SUPPLIED EXEMPLAR — WHICH IS THE FAILURE MODE HANDING ONE OVER RISKS. ***
+
+**REVIEWER DEFECT, RECORDED.** The reviewer's automated `= true` pre-scan **missed
+`Section_5_3_reachable_in_principle = true`** because the pattern required a lowercase leading character.
+**A capitalized flag would have been invisible to every fence scan run this session.** *** SAME
+WORD-MATCHING FAILURE CLASS THE CORPUS, THE AUDIT SCRIPT, THE AUDIT OF THE AUDIT AND THIS REGISTER HAVE ALL
+HIT — NOW IN THE REVIEWER'S OWN CHECK. Scans must be case-insensitive on the identifier. ***
+
+---
+
+## Q-119. "Can the Quasi-Free Completeness rule be derived?"
+
+*** RULING: NOT AS THE CORPUS STANDS.
+`global_boundary_descent_quasi_free_completeness_derived = false | TYPE-U`, would-build: **an independent
+primitive completeness theorem.** *** Established 2026-07-31 by Codex lane 1 under relay 213
+(`STAGE8_QUASI_FREE_COMPLETENESS_DERIVABILITY_AUDIT_V001.md`, `d463ce15…`, 458 lines, seal verified,
+fence-clean).
+
+*** THE DIAGNOSIS IS SHARPER THAN THE VERDICT, AND IT IS THE VALUE OF THIS RELAY: THE CORPUS DERIVES THE
+**LIFT INSIDE** THE ADOPTED PRIMITIVE CLASS — `operator_valued_quasi_free_CAR_lift_derived = true`, which
+is real — **BUT DOES NOT DERIVE THE CLASS BOUNDARY ITSELF.** The theorem that exists lives inside the very
+fence whose placement is the question. ***
+
+**THE COMPETITOR IS PHYSICALLY DISTINGUISHABLE, AND THAT IS THE FINDING NOBODY HAS ACTED ON.**
+
+```text
+the quartic competitor IS DETECTED, and it DIFFERS ON THE TWO-SOURCE SECTOR.
+its rejection is EXACTLY BY THE ADOPTED PREMISE UNDER TEST -- not by any independent no-go theorem.
+```
+
+*** SO THE TWO MICROSCOPIC LAWS ARE NOT OBSERVATIONALLY IDENTICAL. THERE IS A SECTOR WHERE THEY DISAGREE.
+THE PROGRAM EXCLUDES THE RIVAL BY FIAT WHILE A PHYSICAL DISCRIMINATOR SITS UNUSED. *** SP07 called the
+competitor *"otherwise invisible"* — **that is true on the vacuum and one-source sectors and FALSE on the
+two-source sector.** The invisibility was always scope-limited; nothing had said where the scope ended.
+
+**THE DEBT IS THEREFORE DISCHARGEABLE IN PRINCIPLE.** TYPE-U with a named would-build is work-state, **not
+a refutation and not an axiom**. *** BUT Q-82 APPLIES AND MUST NOT BE SKIPPED: PATHLESSNESS IS DIAGNOSTIC,
+AND IF NO PRINCIPLE BEARS ON THE TWO-SOURCE SECTOR, THIS IS TERMINAL — AND TERMINAL IS WHAT AN AXIOM LOOKS
+LIKE. WHICH IT IS HAS NOT BEEN ESTABLISHED. ***
+
+**Status as it stands:** *"an adopted Road A step-1 premise unless and until an independent primitive
+completeness theorem is supplied."*
+
+**Reviewer note (Q-69 discipline):** the artifact contains
+`primitive_quasi_free_completeness_derived = true` and `global_boundary_descent_principle_derived = true`
+at `:450-451`. **Both sit under the heading *"What does not exist is:"*** — absent flags being named, not
+asserted. **Checked at source. The lane's summary was accurate.** *** THIS IS THE THIRD ARTIFACT TODAY
+WHOSE `= true` LINES ARE HYPOTHETICALS. A FLAG SCAN THAT DOES NOT READ THE SURROUNDING HEADING PRODUCES A
+FALSE POSITIVE EVERY TIME. ***
+
+---
+
+## Q-120. "Is the open action-form class inside §5.3's admitted family?"
+
+*** RULING: SPLIT — AND THE BLOCKER IS NOT THE CRITERION, IT IS MISSING MEMBER IDENTITIES. ***
+Established 2026-07-31 by Codex lane 2 under relay 214
+(`STAGE8_OPEN_ACTION_FORM_ADMISSION_TO_SECTION53_AUDIT_V001.md`, `fd688838…`, 65 lines, seal verified,
+fence-clean, no `= true`).
+
+```text
+S_0 and S_1   ARE admitted mutation candidates under 5.3's action-partition criterion.
+other classes NOT INDIVIDUALLY CLASSIFIABLE -- they lack concrete member identities and provenance.
+
+open_action_form_complete_cardinality = NO_VERDICT | TYPE-U | would-build: pre-root member manifest
+open_action_form_members_all_admitted = NO_VERDICT | TYPE-U | criterion applies; members unnamed
+Section53_census_frozen               = false | TYPE-C
+Section53_executable_now              = false | TYPE-U
+```
+
+*** THE CENSUS IS AT LEAST 2 AND ITS TOTAL SIZE IS UNRESOLVED. THE CRITERION WORKS — IT WAS APPLIED
+SUCCESSFULLY TWICE. WHAT IS MISSING IS THE MEMBERS THEMSELVES. THAT MAKES STEP 3'S BLOCKER A NAMING AND
+PROVENANCE TASK, NOT A CONCEPTUAL ONE. ***
+
+---
+
+## Q-121. "Is `B0`'s one-ness derived or imported?"
+
+*** RULING: NEITHER — IT IS **ASSUMED**. POSTULATED IN TWO SEALED TERMINAL AXIOMS, DERIVED NOWHERE, AND NOT
+A METHOD IMPORT. AND NOTHING WEAKER REPLACES IT. *** Established 2026-07-31 by Einstein under relay 211
+(`STAGE8_ONE_OPERATOR_PREMISE_ADJUDICATION_EINSTEIN_V001.md`, `36e300ab…`, 336 lines, seal verified,
+fence-clean, **no `= true` anywhere**).
+
+**182 sites across 55 files. DERIVED: ZERO.**
+
+```text
+A1   the "one complete parent" Level-1 family -- THE AXIOM MAP'S OWN ROW: "Reason given? No"
+A5   transport-only = single-operator completeness, with its own self-concession:
+     *** "Gauge and Lorentz covariance alone do not imply this rule." ***
+method layer re-imports it (~40 sites); ~150 inherited sites all terminate there
+BID states its own status: "excluded by the BID postulate, not proved absent by restating that postulate"
+```
+
+**No weaker relation delivers.** W1 (joint constraint) fails T4/T5 verbatim and collapses on a dilemma —
+a parameter-bearing tie is barred, a parameter-free one **is** single-carrier descent. W2 fails or reifies.
+W3 is a genuinely different requirement. W4 is not weaker — it exposes a **hidden fusion of token one-ness
+with type one-ness**, the latter well-posed only after the open equivalence-relation slot and MD-3.
+
+*** SO THE SIX ROUTES WERE MEASURING THE RIGHT OBJECT — UNDER AN ADOPTED PREMISE. ***
+
+*** AND THE PROGRAM NOW HAS A FINITE NAMED LIST OF WHAT WOULD END THE ASSUMPTION, WHICH IT HAS NEVER HAD
+FOR ITS OWN FOUNDATION. `NECESSITY_DERIVED` IS CLAIMABLE AT EXACTLY THREE RELEASES: ***
+
+```text
+R1   the induced-only derivation
+R2   the map + projector
+R3   the quasi-free-completeness derivation      <-- SEE Q-122
+```
+
+**Also established:** **no T1–T7 clause tests P0** — source-oneness is **signature-assumed and
+test-unverified**; the only "one" inside a failure-capable test constrains the **completed carrier, not the
+source**. And rank-1 `:433` says common origin *"does not derive induced-only action."*
+
+**GRAPH-WALKER PREDICTION: REFUTED**, scoped to the six returns, **signatures pre-registered before
+reading.** Three grounds: this program's walkers **demonstrably do see written fixed points** (Q-86
+classified P7; the executed census reported **zero actual cycles** — OBS-08's phenomenology is an untested
+import **with an executed counterinstance**); the specific residue is **absent from all six returns**, the
+would-be defining relation being among the **OPEN** slots (absent, not present-but-unresolvable); and the
+coarse match is double-entailed. *** THIRTEENTH FRAMING TO DISSOLVE. THE REVIEWER'S, OFFERED AS "A
+MECHANISM AND NOT A HOPE." ***
+
+**NOT refuted:** `H_FIXEDPOINT` as the **ontology** of `B0` — `NO_VERDICT`, non-verdict tilt toward
+absence. **Six archaeological searches cannot separate an unwritten fixed-point relation from an unwritten
+operator.**
+
+**The lane again folded corrections against itself (§7):** its own census arithmetic refuted (one family →
+two axioms — substance strengthened, count wrong), and **a transport-error leg struck from its own W1/W2
+analysis — Q-99's schema sentence used beyond its seal, the exact error class this relay names, committed
+by its draft and caught by its verifier.**
+
+---
+
+## Q-122. "Does any sealed principle decide the two-source sector?"
+
+*** RULING: NOTHING BEARS. `two_source_sector_deciding_principle_found = false | TYPE-S`. ***
+Established 2026-07-31 by Codex lane 1 under relay 215
+(`STAGE8_TWO_SOURCE_SECTOR_PRINCIPLE_ROUTE_AUDIT_V001.md`, `c82c54c6…`, 436 lines, seal verified,
+fence-clean, no `= true`).
+
+*** ROUTE STATUS, THE LANE'S OWN TYPING:
+`GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS = AXIOM_CURRENT / TERMINAL_DEBT_CURRENT`. ***
+
+**THE DISCRIMINATOR IS REAL AND CONCRETE:**
+
+```text
+adopted law   has H_K
+the rival     adds lambda n_i n_j tensor I_R
+              *** THE EXECUTABLE DETECTS THE RESULTING TWO-SOURCE-SECTOR DIFFERENCE. ***
+```
+
+**But every existing exclusion route does one of three things:** validates the **adopted lift only**; is
+**explicitly insufficient**; or **rejects the rival by the adopted quasi-free premise itself** — which is
+circular.
+
+*** SO R3 HAS NO ROUTE FROM INSIDE THE CORPUS. Q-82 APPLIES AS WRITTEN: PATHLESSNESS IS DIAGNOSTIC, A NODE
+WITH NO DISCHARGE ROUTE IS TERMINAL, AND TERMINAL IS WHAT AN AXIOM LOOKS LIKE. THE LANE TYPED IT
+`AXIOM_CURRENT` WITHOUT BEING ASKED TO. ***
+
+**TYPE-S, not TYPE-R — and the distinction is the whole of it.** Nothing in the corpus decides it. **That
+is not the same as undecidable.** Deriving one-ness is still possible; **it just cannot be done by
+archaeology. It needs a principle from outside the corpus.**
+
+*** AND THERE IS A GENUINE POSITIVE BURIED HERE THAT SHOULD NOT BE LOST: THE AXIOM IS **FALSIFIABLE IN
+PRINCIPLE**. `lambda n_i n_j tensor I_R` VERSUS `H_K` IS A SPECIFIC STRUCTURAL DIFFERENCE AND THE
+EXECUTABLE ALREADY DETECTS IT. THIS IS A POSTULATE THAT COULD BE SHOWN WRONG — WHICH IS STRICTLY BETTER
+THAN ONE THAT COULD NOT. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
