@@ -3104,6 +3104,43 @@ does not count.** *** THE FIRST-FLOOR QUESTION REOPENS THERE. *** See the Q-72 c
 
 ---
 
+## Q-75. "Do the three chains separate?"
+
+*** RULING: NO. `three_chains_still_separate = false | TYPE-R` — AN EXECUTED REFUTATION. AND Q-64's
+122-EDGE GRAPH WAS A SERIOUS UNDERCOUNT: AT LEAST 41 MISSED EDGES, ~25.2% OF THE ENLARGED GRAPH. ***
+Established 2026-07-31 by Codex lane 1 under relay 172
+(`STAGE8_PROSE_FLAG_DEPENDENCY_EXTRACTION_V001.md`, `c2b1d21c…`, archive `db1b234`, gate GREEN).
+
+**THE CHAINS CONNECT THROUGH THE `T_R -> k_R` MISSING BRIDGE AND THE PROSE EDGE WHERE `k_R` APPEARS IN THE
+EQUATION FIXING `K_*`.** The Hamilton-Jacobi scale bridge and the response-extraction path are **not**
+independent. **Q-73's single example generalized.**
+
+*** THE REVIEWER'S PARALLELISM CLAIM IS NOW REFUTED BY EXECUTED TEST, NOT MERELY DOUBTED. *** It was made
+on Q-64's zero-shared-nodes finding **while Einstein's own artifact warned in the same breath that this
+proved nobody had STATED a shared prerequisite, not that the physics was independent.** **The schedule
+survived by luck — both chains needed doing regardless — but the reasoning was wrong, and the live risk was
+declaring one path complete on its own.**
+
+**NO CYCLE IN THE ENLARGED GRAPH:** `enlarged_graph_cycle_found = false | TYPE-R`, **with
+test/would-execute edges and Q-69-prohibited flag/discharge merges held out by kind.** The acyclicity
+result survives a 25% larger graph, which strengthens it.
+
+**EXACT COUNT IS `NO_VERDICT`, AND THE REASON IS A REPRODUCIBILITY DEFECT WORTH FIXING:** *** Q-64's
+COMPLETE MACHINE-READABLE EDGE TABLE WAS NEVER COMMITTED AS A STANDALONE EDGE LIST *** (`:77`), so the
+census's graph **cannot be exactly reproduced or diffed against.** The second prerequisite is an
+adjudication rule for whether each remaining prose candidate is direction-bearing — **a principal or lane
+rule, not a lane's to invent.**
+
+**METHODOLOGICAL CONFIRMATION:** Q-73 recorded that the graph captures dependencies in one syntactic form
+only, and warned no parallelism claim was safe until the others were extracted. **A quarter of the graph
+was missing. The warning was proportionate.**
+
+**PROCESS NOTE, CORRECT BEHAVIOUR:** relay 173 and Q-74 landed mid-run; the lane checked them, found they
+did not change its extraction rules, **did not execute another lane's relay**, and reported the fact.
+Codex 2's B0 files were untracked in the shared tree and **left unread because B0 was off-limits.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
