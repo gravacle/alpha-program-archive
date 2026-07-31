@@ -5244,6 +5244,82 @@ WOULD HAVE BEEN WRONGLY KILLED — BY A SPEC WHOSE OWN DELIVERABLE IS `beta`. **
 
 ---
 
+## Q-127. "What is in `cleanroom_output/` — and is the register wrong about it?"
+
+*** RULING: THE REGISTER IS WRONG ON AT LEAST THREE COUNTS. ALL FOUR GATES WERE **RUN AND PASSED**, AND
+ONE DEBT-IN-AXIOM-CLOTHING HAS A **SCOPED DERIVATION**. *** Established 2026-07-31 by the reviewer, after
+Einstein's relay 217 tripped over the directory looking for the Stage-10 brief. **Six seals verified
+directly; no lane involved in the finding.**
+
+*** `/Users/bgm/MB Work/alpha-program-archive/cleanroom_output/` HOLDS **87 FILES** AND SITS **OUTSIDE THE
+`workspace/` SUBTREE THAT EVERY LANE, EVERY SWEEP AND EVERY AUDIT SCRIPT ENTERS.** IT WAS FOUND BY
+ACCIDENT. ***
+
+**THE GATES — SPEC + EXECUTABLE + RESULT, ALL SEALS VERIFIED:**
+
+```text
+GATE 1  (35)  "The Comparison Group Is U(1), Target-Independently"
+GATE 2  (41)  "r = 3 Is a Theorem; the Accounting Is Exact"
+GATE 3  (38)  "Hilbert-Functor Uniqueness -- The Forms Are Derived"
+GATE 4  (32)  exactly ONE normalized differential equivalence class, P1-P4 all confirmed
+GATE 4  (44)  one public-collapse covector ray; "Gate 4 Core Complete"
+```
+
+**CORRECTIONS TO TODAY'S OWN ENTRIES, RECORDED AS ERRORS:**
+
+```text
+Q-114 N6 / OBS-09   "Gates 2/3/4 executed and passed -- ALL THREE NEVER RUN."   *** WRONG. ***
+relay 208           Gate 2 "designated by premise, gate unpassed."              *** WRONG --
+                    Gate 2's own result says r = 3 IS A THEOREM. ***
+reviewer, in chat   "the program has never closed a clothing item."             *** WRONG, WITH SCOPE. ***
+```
+
+**GATE 4 P3, VERBATIM:** *"What the spec had as an axiom ('independent primitive F²… axiomatically
+disallowed') is, **at the differential level and within the enumerated family**, now **derived**."*
+*** THAT IS CLOTHING ITEM 4 (`K_bare = 0`) WITH A DERIVATION. THE SCOPE QUALIFIER IS LOAD-BEARING AND
+MUST TRAVEL WITH IT — DIFFERENTIAL LEVEL, ENUMERATED FAMILY. NOT UNIVERSAL. ***
+
+**Gate 4 also establishes:** interior closure ⟺ `a = b` constant on connected complexes (**which Q-114's
+N5 recorded as frozen-not-valued, with `:527` forbidding the assumption — it is derived here, not
+assumed**); the `D_x` continuum **dies for every `x ≠ 1`**; normalization forces `|a| = 1`; and the unique
+class is **unit-weight covariant incidence modulo gauge — a compact gauge field with holonomy as the sole
+physical freedom.** In its own words: *"the gauge-field character of the record surface **emerging** from
+closure + normalization rather than being adopted."*
+
+*** OBS-09's CONCLUSION SURVIVES AND IS STRENGTHENED, THOUGH ITS PREMISE WAS WRONG. It argued N6 is not a
+`B0` route because no bridge exists from any incidence object to `B0` (Q-114 N3). **The gates having
+PASSED makes that empirical rather than hypothetical: BID is determined and `B0` is still exactly where it
+was.** ***
+
+**BUT `STATUS.json` READS `final_status: BLOCKED`** — a concluded phase that met a stop rule: *"at least
+two load-bearing choices … each admit two or more physically admissible alternatives, and the supplied
+principles contain no target-independent selector."*
+
+*** AND ITS `unresolved_load_bearing_items` ALREADY CONTAIN FINDINGS THIS LANE REDISCOVERED INDEPENDENTLY
+TODAY: ***
+
+```text
+"Family E: connected many-record generator fixed ONLY BY ADOPTED QUASI-FREE COMPLETENESS -- Fork 5"
+                                                          <-- Q-115 / Q-119 / Q-122
+"Family F: parent zero-form/Pauli competitors excluded ONLY BY ADOPTED SINGLE-OPERATOR COMPLETENESS"
+                                                          <-- Q-121
+```
+
+*** SO A FULL DAY OF LANE WORK PARTLY REDISCOVERED WHAT A SEALED, CONCLUDED PHASE HAD ALREADY WRITTEN
+DOWN. THE FINDINGS ARE CORROBORATED — WHICH IS GENUINE VALUE, TWO INDEPENDENT ROUTES AGREEING — BUT THE
+COST WAS A DAY. ***
+
+**THE PROCESS DEFECT, AND IT IS THE THIRD OF THIS CLASS TODAY.** *** A SUBTREE THE SWEEPERS DO NOT ENTER
+IS INVISIBLE, AND EVERY "CORPUS-WIDE" NEGATIVE REPORTED BY ANY LANE THIS PROGRAM HAS EVER RUN IS SUSPECT
+IN PROPORTION TO WHAT ITS ROOTS EXCLUDED. *** Same class as `reference_search_the_whole_program`, same
+class as the stale-criteria sweep, same class as the memory carrying a struck bar. **Three found on one
+day, all three by accident while doing something else.**
+
+**Reconciliation of all 87 files issued as relay 222 (Codex 1)**, with the scope-discipline requirement
+stated first: **a scoped derivation reported as universal would be worse than not finding it.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

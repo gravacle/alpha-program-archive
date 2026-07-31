@@ -370,6 +370,32 @@ class with an explicit derivation and pre-emptively refuses the restatement shor
 
 ---
 
+*** CORRECTION 2026-07-31, SAME DAY — THE PREMISE ABOVE IS WRONG AND THE CONCLUSION IS STRENGTHENED. ***
+
+**"Gates 2/3/4 executed and passed — ALL THREE NEVER RUN" IS FALSE.** All four gates were run and
+passed, with spec + executable + result sealed in `alpha-program-archive/cleanroom_output/` — a
+directory **outside the `workspace/` subtree every sweep enters** (Q-127):
+
+```text
+GATE 1 (35)  the comparison group is U(1), target-independently
+GATE 2 (41)  *** r = 3 IS A THEOREM; the accounting is exact ***
+GATE 3 (38)  Hilbert-functor uniqueness -- the forms are DERIVED
+GATE 4 (32)  exactly ONE normalized differential equivalence class, P1-P4 confirmed
+GATE 4 (44)  one public-collapse covector ray; Gate 4 core complete
+```
+
+*** BUT THE CONCLUSION SURVIVES AND GETS STRONGER. This observation argued that N6 is not a `B0` route
+because **no bridge exists from any incidence object to `B0`** (Q-114 N3, TYPE-S). That argument never
+depended on the gates being unrun. **With the gates PASSED, the point is empirical rather than
+hypothetical: the BID side is determined, and `B0` is exactly where it was.** ***
+
+**Also corrected:** Gate 4 **derives** interior closure ⟺ `a = b` constant on connected complexes.
+Q-114's N5 recorded the `(a_e,b_e)` family as *"frozen, not valued"* with `:527` forbidding the
+assumption. **It is derived there, not assumed** — within the enumerated family, at the differential
+level. **The scope qualifier is load-bearing.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **When a candidate fails, ask which kind of failure it is.** A theorem foreclosing it is a refutation and
