@@ -4068,6 +4068,52 @@ attached rather than only a missing prerequisite.**
 
 ---
 
+## Q-100. "Can derived objects be used to build `Obj_0`?"
+
+*** RULING: NO — AND THE REASON IS SPECIFIC TO THIS CLASS, NOT A GENERAL PROHIBITION ON BUILDING WITH
+DERIVED RESULTS. THE REVIEWER'S CHALLENGE IS REFUTED, BY A BETTER ARGUMENT THAN THE ONE HE ATTACKED. ***
+Established 2026-07-31 by Codex lane 2 under relay 191, §10 and `:684-700`.
+
+**THE REVIEWER CHALLENGED relay 192's constraint** — *"derived objects are not primitives; a derived object
+in the inventory would smuggle its own prerequisites in"* — **on the grounds that a derived object carries
+its prerequisites DISCHARGED, so building on it smuggles nothing.** *** THAT REASONING IS CORRECT IN
+GENERAL AND IRRELEVANT HERE. ***
+
+**The sealed structure separates two frozen contexts:**
+
+```text
+I_prim     the frozen PRIMITIVE context -- ONLY THIS IS VISIBLE TO THE Obj_0 CONSTRUCTOR
+S_sector   the frozen DERIVED SECTOR reference context -- "S_sector values are NOT
+           constructor inputs"; visible ONLY during port execution, and
+           NEVER RECLASSIFIED AS PRIMITIVE
+```
+
+*** THE REASON: `Obj_0` MUST BE THE COMMON ORIGIN. IF IT WERE BUILT OUT OF THE SOURCE GNS, THEN THE SOURCE
+GNS IS PRIOR TO `Obj_0`, AND `Obj_0` IS NOT THE ORIGIN — IT IS A DERIVATIVE. USING A DERIVED SECTORAL OBJECT
+AS A CONSTRUCTOR INPUT WOULD INVERT THE VERY RELATION THE CLASS ASSERTS. ***
+
+**So the constraint is not "derived objects are unsafe." It is "the origin cannot be built from its own
+descendants."** **In ordinary mathematics one builds on derived results freely; here one cannot, because the
+object's DEFINING PROPERTY is being upstream of them.**
+
+**AND THE DERIVED OBJECTS ARE NOT DISCARDED.** The source GNS, the record direct limit and the base tensor
+join live in `S_sector` and are **visible during port execution** — available for consistency checking
+against the constructed object, **never as material for constructing it.** **Q-97's "inventory too thin"
+stands: the primitives genuinely are what is available, and they are insufficient.**
+
+*** SECOND COUNTERWEIGHT IN TWO DAYS. Nine constraints have been withdrawn as false; this one and Q-94's
+"P0 must be built" both survived testing. THE FALSE-CONSTRAINT HUNT IS ONLY CREDIBLE BECAUSE IT ALSO
+RETURNS NEGATIVES. ***
+
+**ALSO RECORDED FROM THE SAME RETURN:** **P5 now precedes completed P2, with P5's family kind frozen before
+execution.** **Physical common origin remains `NO_VERDICT` until an instance and an independent validator
+defeat the hostile controls.** **Road status `ADVANCES_STEP_1_ONLY`; step-1 completion remains
+`NO_VERDICT`.** **The primitive inventory requirement is now fully stated: frozen, target-independent,
+authoritative, exactly typed, closed, upstream-only, and free of descendants, flags, targets, fixtures and
+unproved aliases.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
