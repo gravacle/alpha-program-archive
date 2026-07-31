@@ -3880,6 +3880,47 @@ has shown it impossible.** **That is a real, narrow, open route — not a shortc
 
 ---
 
+## Q-95. "Is the joint P0 buildable in principle?"
+
+*** RULING: `NO_VERDICT`. NEITHER A QUALIFYING CONSTRUCTOR NOR AN IMPOSSIBILITY THEOREM EXISTS IN THE
+BOUNDED NAMED AND TOKEN-INDEPENDENT SIGNATURE CENSUSES. THE QUESTION IS GENUINELY OPEN, NOT UNASKED. ***
+Established 2026-07-31 by Codex lane 2 under relay 189
+(`STAGE8_JOINT_P0_BUILDABILITY_IN_PRINCIPLE_RESULT_V001.md`, `1b8c9fd6…`, 1410 lines, **three independent
+hostile reviews returned SEAL-READY**).
+
+```text
+joint_P0_constructor_found_in_named_and_signature_matched_packet = false | TYPE-S
+joint_P0_impossibility_theorem_found                             = false | TYPE-S
+```
+
+**P0 IS TYPED:** *a joint source-record-field provenance/dynamics object that makes P1-P7's actual
+structures constructible.* *** IT IS NOT A SOURCE THAT CREATES THE ANTECEDENT CARRIER — the reading the
+principal challenged and Q-90 refuted, now confirmed a third time. ***
+
+*** AND THE RESULT IS NOT A STALL: IT CONVERTED "IS IT BUILDABLE" INTO A NAMED MINIMAL OBJECT PLUS SIX
+NAMED MISSING INPUTS. *** The **`MINIMAL_JOINT_P0_PRESENTATION`** contains `Obj_0`, its signature and
+support, a construction record, an **explicit dependency graph**, **seven attempt ports**, and a
+**common-origin certificate** — and **omits completed P1-P7 outputs**. Deletion-minimality remains TYPE-U.
+
+**THE SIX MISSING CONSTRUCTION INPUTS, NAMED:** the exact signature/domain/codomain; a frozen primitive
+inventory; a target-independent construction rule; a certificate-generation rule; port and graph schemas;
+and a separately isolated validation package (certificate-acceptance oracle, graph acceptance/completeness
+oracle, and independent nonempty fixtures for P0-T1 through P0-T8 and all seven ports).
+
+**Q-92(c) BLOCKED CONSTRUCTION AND THE LANE STOPPED:** `minimal_joint_P0_constructed = false | TYPE-U`,
+`P0_Q92_c_construction_release = false | TYPE-C`. **Second consecutive honest stop under Q-92.**
+
+*** AND THE TWO LANES CONVERGED INDEPENDENTLY: `AttemptPort_i_or_P0_bare_existence_suffices_for_Pi_
+consumers = false | TYPE-R` reproduces Q-94's finding from the P0 side. Ports must expose actual or
+canonical structures. The accessor-supplying `EXTRACTIVE_EXISTENCE_INTERFACE` remains the one unrefuted
+alternative and is still `NO_VERDICT`. ***
+
+**P5 UNCHANGED AND SHARP:** the class requires **derivational** joint origin; **actual** joint origin for
+record effects remains `NO_VERDICT`. **The frozen finite T7 PVM exists but is predeclared input and does
+not discharge P5.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
