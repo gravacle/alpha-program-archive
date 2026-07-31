@@ -184,6 +184,30 @@ physics.
 **A 13-ITEM DERIVATION-VERSUS-FIT CHECKLIST EXISTS. THE PROGRAM FAILS ITEMS 1b, 4, 5 AND 12 TODAY.**
 `NO_VERDICT` is the correct grade of any overdetermination claim in this corpus.
 
+### IS THERE A FLOOR AT ALL? — THE QUESTION WAS MALFORMED (Q-70)
+
+**The register reported "no chain terminates in `derived = true`" three times as a finding.** *** IT IS A
+CATEGORY MISTAKE. A WELL-FOUNDED THEORY BOTTOMS OUT IN AXIOMS, NOT DERIVED RESULTS. *** The principal
+caught it by asking whether a floor exists at all.
+
+```text
+TYPE-C  adopted premise or constraint   -> A LEGITIMATE FLOOR. A theory may rest on these.
+TYPE-U  unbuilt, carries a would-build  -> A DEBT. The corpus itself says it should exist.
+```
+
+**A boundary of TYPE-C is a finished foundation; a boundary of TYPE-U is an unpaid ledger. Opposite
+diagnoses, reported as one.** Q-67 hints at the split: the bridge's terminal blockers are **all TYPE-U
+except the marginality node, which is TYPE-C.**
+
+*** THE CLASS THAT MATTERS MOST IS DEBT-IN-AXIOM-CLOTHING — AN ADOPTION WRITTEN WHERE A DERIVATION WAS
+OWED. That substitution is this program's characteristic error. *** **Relay 169 has Einstein classifying
+every boundary leaf; not settled until it returns.**
+
+**AND IT MAY COLLAPSE INTO A QUESTION ALREADY ASKED:** if the floor is an axiom set, the test is
+defensibility — few, independently motivated, target-blind — which is Q-65's standard, measured at **17 of
+26 untested**. **"Is there a floor?" and "would a computed alpha be a derivation?" may be the same
+question.**
+
 ### FORCING DOES NOT REQUIRE A PAIR — REVIEWER CORRECTION, 2026-07-30
 
 *** AN EARLIER VERSION OF THIS SECTION SAID "FORCING REQUIRES A PAIR." THAT WAS WRONG AND CONTRADICTED
@@ -212,8 +236,23 @@ pair would be stronger evidence, not a prerequisite.** This puts weight back on 
 require-shaped target the program already has**, which the reviewer had stopped tracking while looking for
 pairs.
 
-**STATUS: this correction is the reviewer's reasoning and is QUEUED FOR EINSTEIN ADJUDICATION (relay 166),
-since Einstein wrote the specification. Do not treat it as settled until that returns.**
+*** STATUS: SETTLED 2026-07-31 BY Q-65. EINSTEIN ADJUDICATED AND THE PRINCIPLE IS WRONG AS WRITTEN. ***
+The reviewer's correction was sustained **4½ of 5**, and attacked where he asked: **point 1 miscounted** —
+exact joint determination is a **third** forcing shape; **point 4** holds only if the reduction is itself
+derived, and today it is a stack of adoptions; **point 5 is WRONG** — target-blindness does NOT substitute
+for redundancy, because **provenance is not structural** and the gap is priced, not waved off.
+
+**THE GRADE: a unique require plus certificates gives "CONDITIONAL DERIVATION, SINGLY-ATTESTED" — one
+grade below a pair, not disqualified.** Items 4′/5′ (require-status and root-structure certificates, the
+solvability counterfactual) replace the pair items; **freeze-before-root-finding and the target-entry
+sweep become keystones.** **What redundancy alone supplies is corroboration against a WRONG condition —
+error-risk, not fit-risk.**
+
+*** R-L2b IS REFUTED AS WRITTEN | TYPE-R — the corpus's only require-shaped target, and its refutation is
+the solo route's proof-of-concept: a require that could die, and did. ***
+
+**OPEN FOR THE PRINCIPAL: S9-A's own wording embeds the over-strong principle ("derived and
+overdetermined") and may want relaxing.**
 
 **BEST PAIR LEADS:** the cross-sector **Requirement I/II on `beta`** — the corpus's ONLY sealed
 two-conditions-one-quantity specification, **anti-tautology falsifier already frozen**, both legs unbuilt.
