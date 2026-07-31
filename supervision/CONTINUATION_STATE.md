@@ -154,6 +154,40 @@ are one scale choice or several is Einstein's live item.**
 - **The reviewer cannot re-seal the baseline** (classifier-blocked). Brian runs `shasum -a 256
   corpus_check_baseline_v001.json > corpus_check_baseline_v001.json.seal.sha256`.
 
+### THE WORK PLAN IS EIGHT OBJECTS (Q-74) — READ THIS FIRST
+
+*** THE AXIOM FLOOR IS REAL, SMALL AND CLEAN: 18 axioms, few, motivated, target-blind, several
+falsifier-armed, AND NONE CARRIES ABSOLUTE SCALE. *** Q-45's untested rows concentrate **away** from it.
+**As a foundation it is better than this document previously recorded.**
+
+*** BUT EVERY ADOPTION THE VALUE PATH TOUCHES IS DEBT-IN-AXIOM-CLOTHING — 8 OF 8. THE CLOTHING DOES NOT
+SCATTER; IT SITS EXACTLY WHERE ALPHA WOULD COME FROM. ***
+
+```text
+1 the only absolute-scale selector      5 the grading
+2 the floor unit                        6 the crossed-product exclusion
+3 the write amplitude                   7 the write-admissibility law
+4 the stiffness zero                    8 the sector functor
+```
+
+**The tell:** the one scale-carrying leaf is `C_R = 1`, and **its own release condition reads "derives,
+rather than assumes, the marginal closure condition."** *** THE CORPUS WROTE DOWN THAT A DERIVATION WAS
+OWED THERE, THEN ADOPTED IT ANYWAY. ***
+
+**COUNTS:** `AXIOM 18 · CLOTHING 8 · DEBT ~64 · NO_VERDICT 66`. Debts outnumber axioms **3.5:1** and **the
+floor's value-bearing edge is 100% clothed** — but the debt is **mostly QUEUE, not wish**: ~13
+`would-build`s name existing sealed specs, ~14 are ladder rungs behind now-specified S1, ~10-12 are wishes,
+**and the wish set contains exactly the two proofs the clothing set needs.**
+
+*** "IS THERE A FLOOR?" AND "WOULD A COMPUTED ALPHA BE A DERIVATION?" COINCIDE ON THE CLOTHING SET.
+Clearing the eight is SIMULTANEOUSLY what makes the floor real and what lifts Q-65's grade off its ceiling.
+ONE WORKSTREAM, TWO EXIT CRITERIA. *** **Relay 173 is deriving what would discharge each.**
+
+**THE FIRST-FLOOR QUESTION IS REOPENED, NOT CLOSED.** The Q-74 typing was `.md`-scoped and Codex 1's sweep
+reports `ledger_derived_ground_exists_locally = true`. **Derived ground may exist in the JSON layer, which
+no audit had read.** Also open: `dependency_graph_needs_authority-edge_decision = true` — **authority edges
+are a third syntactic form the graph does not carry, and whether they belong in it is a principal act.**
+
 ### THE THREE ISSUES — TWO NOW ANSWERED, AND THE ANSWERS CHANGE THE SHAPE OF THE WORK
 
 *** ISSUE 1 — ANSWERED (Q-59). `C_R = 1` CANNOT SELECT ALONE. *** It remains the sole absolute
