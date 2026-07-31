@@ -1,93 +1,99 @@
-TASK LIST — WHAT MUST BE COMPLETED TO COMPUTE ALPHA
+TASK LIST — WHAT STANDS BETWEEN NOW AND COMPUTING ALPHA
 
-2026-07-31. Register head Q-100. One screen.
+2026-07-31, end of day. Register head Q-128. Published `aaaa159`. One screen.
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
 
 ```text
 alpha = 1/(4 pi K_*)        K_* = the root of C_record(K) = 0
 ```
 
-*** EVERYTHING FUNNELS THROUGH STEP 1 (Q-93). STEPS 2 AND 3 BOTH DEPEND ON IT. ***
+*** THE PLAN: BUILD ROUTE A WHILE CERTIFYING VIA STEP 3. ROUTE A's BLOCKER IS ONE SPECIFIED OBJECT.
+ROUTE B's BLOCKER IS AN OBJECT NOTHING DETERMINES. ***
 
 ---
 
-## STEP 1 — MAKE `C_record(K)` EVALUABLE
+## ROUTE A — THE GEOMETRIC ROUTE *** THIS IS THE ONE WE ARE PURSUING ***
 
-**1.1 `Obj_0` — the joint microscopic operator.** Buildability `NO_VERDICT` (Q-95). Six inputs:
-
-```text
-1.1.1  the exact physical signature        prior one REFUTED (Q-99); replacement schema
-                                           specified; exact physical version UNBUILT
-1.1.2  the frozen primitive inventory      INSUFFICIENT (Q-97); descendants cannot
-                                           substitute (Q-100)
-1.1.3  a target-independent construction rule      UNBUILT
-1.1.4  a certificate-generation rule               UNBUILT
-1.1.5  port and graph schemas                      UNBUILT
-1.1.6  an isolated validation package              UNBUILT
-```
-
-**1.2 The producer algebra** — P1-P7 over `Obj_0`. **All seven consume STRUCTURE, not existence (Q-94).**
-
-**1.3 The response-extraction layer** — the complete BR/CTP fluctuation-response operator, the exact induced
-kernel, the raw-correlator-to-retarded-Hessian map, and the covariant local projector. **Map specified
-(Q-57); the layer needs `CTP_PHYS_INPUT_PACKAGE` (0 complete / 9 partial / 0 absent), B0 load-bearing.**
-
-**1.4 `Gamma_K` and `C_record(K)`** — downstream of 1.3. **`C_record(K) = DeltaPhi[K;X_K] - pi`**; the
-`K`-on-both-sides form `C_EM(K) = K - B_ind(K) = 0` exists as a **different named object** whose
-identification with `C_record` is **forbidden as things stand and owed as a derivation** (Q-86).
-
-## STEP 2 — FIX THE SCALE
-
-**2.1 `C_R = 1` must select.** Cannot select alone (Q-59). Needs the Hamilton-Jacobi bridge:
-`S1 -> {S2,S4} -> S3 -> S5 -> S6`.
-
-**2.2 The S3 join.** Specified as a **non-choosing** procedure (Q-87). **Blocked: the three vacuity repairs
-supply ZERO of six `Dom(S3_CORE)` members (Q-96).** *** AND EVEN FULLY BUILT, THE CORE LEG DOES NOT CLOSE
-THE FORK — `Cod(S3_CORE)` CARRIES NO CANDIDATE IDENTIFIER. ***
-
-**2.3 The `sqrt(2)` fork.** Misner-Sharp vs reference-subtracted Brown-York; roots differ by `sqrt(2)`;
-coincidence at marginality REFUTED. *** MUST BE DERIVED, NEVER CHOSEN. THREE DOORS THROUGH WHICH IT COULD BE
-CLOSED BY PICKING ARE NAMED AND NOT TAKEN. ***
-
-**2.4 The `tau = 1` pin.** `PIN-CONTINGENT CONSEQUENTIALITY` (Q-82). Needs one **complete public
-`D_BR`/`L_BR` spectral theorem** with derived quotient trace and isolated lowest public eigenspace (Q-84,
-Q-88). **`N_BR(k_R) = 1` constrains the bottom to one public counted mode but does not decide isolation.**
-
-**2.5 The `T_R`-to-`k_R` bridge.** `T_R_and_k_R_have_derived_bridge = false` (Q-73). **`k_R` sits inside
-step 1's equation via the `A_4` log.**
-
-## STEP 3 — RUN §5.3
-
-**3.1 The action-form closure theorem.** Step 3's unlisted prerequisite (Q-89). **Needs step 1's complete
-producer/action universe (Q-93).** *** A GENERATION RULE SUFFICES; A BARE BOUND DOES NOT. ***
-
-**3.2 Run the uniqueness gate.** One simple positive root, no inequivalent admitted positive root, no
-continuous modulus, **uniqueness not obtained by narrowing the family after seeing the root**, root solved
-once and independently reproduced.
-
-## AT THE END — DISCLOSURE, NOT ROAD WORK
-
-**Four clothed adoptions DEGRADE rather than block (Q-85):** ER-A amplitude, `K_bare = 0`, the
-projection-module retraction / write-admissibility law, and the sector functor. **Each adds a conditionality
-clause that must travel with any reported number (Q-76).** **Plus the `S9A_RESIDUAL_ERROR_RISK`: a
-singly-attested derivation cannot self-check a condition that is WRONG rather than unproven.**
-
----
-
-## LIVE NOW — THE THREE ROUTES THAT COULD UNBLOCK 1.1
-
-*** STEP 1 IS BLOCKED AT ITS FOUNDATION. THREE NAMED ROUTES COULD SHOW IT IS NOT, ALL CHEAP RELATIVE TO
-BUILDING ANYTHING, NONE PREVIOUSLY TRIED. ***
+**Blocked on ONE object: `beta`, the record cell's internal(angle) → external(length) conversion.**
+Thirteen sealed junctions; **every derived one is `beta`-invariant, every `beta`-sensitive one is
+adopted/gap/unbuilt** (Q-126, all four verifiers CONFIRMED). Internal normalization is fully pinned;
+`causal_diamond_shape_derived = true`. **The shape is derived; the conversion is not.**
 
 ```text
-relay 194  CODEX 2   corpus-wide primitive exhaustiveness -- Q-97 disclaimed it, and the
-                     cleanroom is ~1,138 of ~7,425 program files
-relay 195  CODEX 1   is the signature schema over-specified -- its own author declined
-                     exclusivity and named its vocabulary as an import
-relay 193  EINSTEIN  is marginality causal-geometric -- would unblock STEP 2 independently
-                     of step 1, without building the energy bridge
-UNASSIGNED           EXTRACTIVE_EXISTENCE_INTERFACE (Q-94) -- the one unrefuted
-                     alternative to constructing Obj_0 at all
+A1  POSE the joint saddle system over (T_R, rho = R_*/ell_P), breathing + squashing modes
+    *** RUNNING -- relay 221, Einstein/Opus 5 ***
+A2  SOLVE it: the parent action class, radion stabilization, spectrum and matching rule
+    DERIVED TOGETHER (C8). Sequential = the F-equation = leaves beta free.
+A3  PROVE CLOSURE, not touching. Bar: a REQUIRE with derived existence AND uniqueness
+    (Q-65/Q-76, PRINCIPAL_AMENDMENT_002). Parameter-count test: no residual one-parameter family.
+A4  DERIVE the Misner-Sharp / Brown-York fork -- NEVER CHOOSE. Any quasilocal-energy-consuming
+    requirement is a silent fork choice and must be declared. This is what Stage 10 is for.
 ```
+
+*** DO NOT COMPLETE THE CORPUS'S F-EQUATION. Executed twice: `F(T_R/t_P, dimensionless) = 0` CONTAINS
+NO FIBER RADIUS; under `R -> beta R` every member passes identically. Q-08 corroborates: deriving
+`T_R` does not reopen the fiber question. *** **`beta` is a radion. This is radion stabilization —
+standard Kaluza-Klein moduli physics.** The corpus named the fixer's shape twice and built neither.
+
+**LEAD IF A2/A3 STALL:** `alpha_br_full98_diffeomorphism_naturality_theorem_v001.md` (parent tree,
+outside the swept subtree) declares `A_BR(g,a,phi) = D_g + c_g(a) + Phi(phi)` — **one operator whose
+`g`-response is gravitational and whose `a`-response is electromagnetic.** That is the shape
+"radion stabilization against electromagnetic stress" needs.
+
+## ROUTE B — THE ALGEBRAIC ROUTE *** BLOCKED AT ITS FOUNDATION; NOT BEING FUNDED ***
+
+```text
+B1  B0        undetermined by SIX routes (Q-106/110/111/112/113/114); its ONE-NESS IS ASSUMED --
+              two terminal axioms, 182 sites, ZERO derivations, nothing weaker replaces it (Q-121)
+B2  the generator / residual: DeltaPhi[K;X_K] UNBUILT (Q-125)
+B3  MD-3 exists and defeats CM-3 (Q-116) -- but cannot RUN until B2
+B4  pi is DERIVED AND PROTECTED (Q-125) -- the first orthogonality value of the primitive
+    two-character U(1) record map. *** DONE. ***
+```
+
+**Exactness is `NO_VERDICT` until B2.** The tower's effect on `DeltaPhi` cannot be settled first.
+
+## STEP 3 — CERTIFICATION *** SEQUENCING-FORCED TO GO FIRST, NOT LAST ***
+
+*** "FREEZE IT BEFORE ANY ROOT IS SEEN." A census built after the number exists cannot demonstrate
+the family was not narrowed — not because anyone cheated, but because of the order of operations. ***
+
+```text
+C1  NAME concrete members of the three open action-form classes  <-- THE BLOCKER. A naming and
+    (higher-derivative source terms; different finite causal          provenance task, NOT a
+     updates; record-curvature/dissipative mutations)                 conceptual one (Q-124).
+C2  CLASSIFY each against 5.3's action-partition criterion. S_0 and S_1 ALREADY ADMITTED.
+C3  FREEZE the ledger: 8 fields per member + coverage proof over all envelope axes +
+    an adversarial omitted-member countermodel. Any unclassified member keeps 5.3 unexecutable.
+C4  RUN 5.3.  *** CONFIRMED **CURRENT**, NOT STALE (Q-128) -- the gate that certifies "forced
+    rather than fitted" is sound as written. ***
+```
+
+**Do NOT demand enumeration of the infinite tower** — that framing was withdrawn (Q-124). An infinite
+tower is what a non-renormalizable gravitational EFT looks like. **Bound it; do not list it.**
+
+## RUNNING NOW
+
+```text
+EINSTEIN (Opus 5)  relay 221   A1 -- pose the joint saddle system
+CODEX 1            relay 222   reconcile cleanroom_output/ -- 87 unswept files, FOUR PASSED GATES
+CODEX 2            --          free
+```
+
+*** HOLD THE LAST 6% OF FABLE FOR ADVERSARIALLY ATTACKING A `beta` CANDIDATE. A false closure is the
+single most expensive mistake available — it would be scored as progress and inherited downstream. ***
+
+## THE DISCLOSURE THAT TRAVELS WITH ANY NUMBER
+
+**18 axioms + 9 debt-in-axiom-clothing adoptions** (Q-123; the count was 8 — A24 has **two** adjacent
+"derive or adopt" clauses and only the first was ever counted). **One has a named admissible rival
+that nothing excludes**: `H_K` versus `H_K + lambda n_i n_j tensor I_R`, differing on the two-source
+sector, rejected only by the adopted premise (Q-122, `AXIOM_CURRENT / TERMINAL_DEBT_CURRENT`).
+
+*** THE DEFECT IS THE UNEXCLUDED RIVAL — NOT ANYONE'S KNOWLEDGE OF THE TARGET. A derivation forces a
+number only if no rival premise is equally admissible. That is what §5.3 tests, and it is algebra. ***
+
+**Every rival excluded is one slot fewer, and slot count is the only thing that makes "forced" mean
+anything when everybody already knows the answer.**
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

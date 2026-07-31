@@ -12,21 +12,31 @@ STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
 
 ---
 
-## LANES RIGHT NOW
+## LANES RIGHT NOW — 2026-07-31 EVENING, ALL THREE BUILDING
 
 ```text
-CODEX 1   relay 213   CAN THE QUASI-FREE COMPLETENESS RULE BE DERIVED? Adopted,
-          RUNNING     never attempted (Q-115). If derivable, N4's limiter route
-                      opens and the ninth debt clears. ADVANCES STEP 1.
+EINSTEIN  relay 221   *** A1 -- POSE THE JOINT SADDLE SYSTEM over (T_R, rho = R_*/ell_P)
+(OPUS 5)  RUNNING     with breathing and squashing modes. THE FIRST GENUINELY CONSTRUCTIVE
+                      RELAY THIS PROGRAM HAS ISSUED. *** ADVANCES STEP 2 / ROUTE A.
 
-CODEX 2   relay 214   IS THE OPEN ACTION-FORM CLASS INSIDE 5.3's ADMITTED FAMILY?
-          RUNNING     The one conditional left standing by Q-118; sizes the census.
-                      *** DOES NOT WAIT ON B0. *** UNBLOCKS STEP 3.
+CODEX 1   relay 222   RECONCILE cleanroom_output/ -- 87 files outside the swept subtree,
+          RUNNING     FOUR PASSED GATES, and at least three register entries contradicted.
+                      Scope discipline first: a scoped derivation reported as universal
+                      would be worse than not finding it.
 
-EINSTEIN  relay 211   IS "ONE OPERATOR" DERIVED OR IMPORTED? Tests the premise the
-          RUNNING     six routes assumed rather than running a seventh route. FABLE.
-                      ADVANCES STEP 1.
+CODEX 2   relay 223   *** C1 -- GIVE THE THREE OPEN ACTION-FORM CLASSES CONCRETE MEMBER
+          RUNNING     IDENTITIES. *** The one step-3 blocker that is a naming-and-provenance
+                      task rather than a conceptual one. UNBLOCKS STEP 3.
 ```
+
+*** HOLD THE LAST 6% OF FABLE FOR ADVERSARIALLY ATTACKING A `beta` CANDIDATE — not for building
+one. A false closure is the most expensive mistake available: it would be scored as progress and
+inherited downstream. Fable's profile is attacking results including its own (relay 217: all four
+verifiers CONFIRMED, three corrections folded against its own headline). ***
+
+**RETURNED 2026-07-31:** 209 Q-116 · 210 Q-117 · 212 Q-118 · 213 Q-119 · 214 Q-120 · 211 Q-121 ·
+215 Q-122 · 216 Q-124 · 218+219 Q-125 · 217 Q-126 · 220 Q-128. **Plus Q-123 and Q-127, reviewer,
+read at source.**
 
 **RETURNED THIS SESSION:** 209 (Q-116, MD-3 specified, `CM3_passes_MD3 = false | TYPE-R`, fiber
 `NO_VERDICT` on four blockers) · 210 (Q-117, seam OPEN, §5.3 anti-narrowing NOT EXECUTABLE) ·
