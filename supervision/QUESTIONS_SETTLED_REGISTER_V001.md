@@ -3443,6 +3443,46 @@ IT IS A FIT. ***
 
 ---
 
+## Q-84. "Does the `tau = 1` pin collapse?"
+
+*** RULING: `NO_VERDICT` — NOT COLLAPSE. THE COLLAPSE CONDITION CONCERNS A DIFFERENT OPERATOR THAN THE ONE
+THE PROGRAM WOULD HAVE REACHED FOR. *** Established 2026-07-31 by Codex lane 1 under relay 180
+(`STAGE8_TAU_PIN_SPECTRAL_COLLAPSE_CHECK_V001.md`, `3779535a…`, archive `85df3cd`, gate GREEN).
+
+**The collapse condition concerns the complete public capacity operator `D_BR^2` / complete normalized
+`L_BR`** — with `lambda_0(D_BR^2) = k_R^2` and `lambda_1(D_BR^2) > k_R^2`, the isolated-lowest-eigenspace
+structure that pins `k_R` — **NOT the Q-47 source-record non-return Hamiltonian.**
+
+*** Q-47's ABSOLUTELY CONTINUOUS SPECTRUM RESULT IS REAL AND TYPES TO THE WRONG OPERATOR. *** The relay
+warned *"do not assume it is the one you expect"* and the lane checked rather than assumed.
+`q47_nonreturn_spectrum_identified_with_capacity_spectrum = false | TYPE-S`, scope recorded. **This is the
+name-match trap for the fourth time in three days — corpus, audit script, audit of the audit, register —
+and the first time it was caught before it produced a false result rather than after.**
+
+**SO THE EIGHT DOES NOT BECOME SEVEN.** `eight_count_reduced_by_this_check = false | TYPE-C`, release: a
+derived spectral theorem for the complete public capacity operator. **`tau = 1` remains PIN-CONTINGENT
+CONSEQUENTIALITY.**
+
+*** BUT THE CHECK DID ADVANCE SOMETHING, AND IT IS THE POINT OF THE RESULT. Q-82 RECORDED `tau = 1` AS
+HAVING NO DISCHARGE ROUTE AT ALL — BELOW WISH-GRADE. IT NOW HAS A NAMED `would-build`: ***
+
+```text
+complete_public_capacity_spectrum_continuous_nonisolated_bottom_derived = false | TYPE-U
+    would-build: complete public D_BR / L_BR spectral theorem
+complete_public_capacity_spectrum_isolated_lowest_public_eigenspace_derived = false | TYPE-U
+    would-build: the same theorem with quotient trace and isolated lowest public eigenspace
+```
+
+**One named spectral theorem decides it in either direction.** *** THE SEALED CORPUS DOES NOT DECIDE
+WHETHER THE CAPACITY OPERATOR HAS CONTINUOUS SPECTRUM. *** If a later result derives continuous spectrum or
+a non-isolated bottom, **absorption reopens and the floor loses pin support in the `A_4`/`K_*` equation.**
+**Nothing downstream collapses now.**
+
+**ROAD STATUS (Q-83): step 2, feeding step 1's equation.** **The item is not discharged; its route is now
+named where it was absent.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
