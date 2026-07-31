@@ -2697,6 +2697,59 @@ REOPENS: automatically, when relay 164 returns and this lane resumes.
 
 ---
 
+## Q-64. "How much unbuilt work stands between the program and a number?"
+
+*** RULING: NO CYCLE. THE PROGRAM IS DEEP, NOT CIRCULAR. AT LEAST 172 NAMED UNBUILT OBJECTS, ACYCLIC, TO
+DEPTH >= 5, ON TWO DISJOINT CRITICAL PATHS, WITH A BOUNDARY CONSISTING ENTIRELY OF UNBUILT LEAVES. ***
+Established 2026-07-30 by Einstein under relay 164
+(`STAGE8_ALPHA_DEPENDENCY_CLOSURE_CENSUS_EINSTEIN_V001.md`, seal `05dccaf5…`, archive `df18b41`, gate
+GREEN — **the first Einstein artifact the gate accepted directly**).
+
+**ZERO SCCs, ZERO NON-TEST SELF-LOOPS ACROSS ALL 122 STATED CONSTRUCTION EDGES.** The lead-with condition
+did not fire. *** AND THE ONE "CIRCULAR UNTIL…" PHRASE IN SEALED PROSE IS A **TEST** LOOP, NOT A
+CONSTRUCTION LOOP: `C_R = 1`'s FALSIFIER is gated on the unstartable response object, but its
+CONSTRUCTION is not. *** Test edges were held out of cycle detection **by kind**, precisely so the
+distinction could not blur. **This corrects the reviewer's earlier "close to circular" characterization of
+the `C_R` falsifier — it is test-circular, not construction-circular, and those are different problems.**
+
+**THE COUNT.** 172 distinct named unbuilt objects = **82 sealed identifiers + 90 prose-named targets that
+exist only as `would-build` children and name no path to their own construction**, over 122 stated edges.
+**Separately: ~350 distinct UNTYPED-LEAF identifiers (~1,050 pre-Q-54 `derived = false` lines with no
+`would-build`) — counted, never walked, never guessed at.** *** NO INFERRED EDGE EXISTS ANYWHERE: linking
+was exact-identifier, verifier-noted correspondence, or nothing. ***
+
+*** IT BOTTOMS OUT — IN THE WRONG THING. EVERY CHAIN TERMINATES, AND NONE TERMINATES IN ANYTHING DERIVED.
+THE GRAPH'S ENTIRE BOUNDARY IS UNBUILT GROUND. *** Longest stated chain, depth 5: `Gamma_K` → the
+raw-correlator map (the one Q-51 object now specified) → `CTP_PHYS_INPUT_PACKAGE` → P1…P8 → their
+`would-build` targets. **Depth 5 is a floor twice over** — package internals are fenced, and 90 chains end
+where sealed text simply stops stating.
+
+*** THE TWO LAYERS SHARE ZERO NODES ON STATED EDGES. Q-60's "may share the package" CONJECTURE IS
+UNSUPPORTED. *** Nothing in the six bridge objects' `would-build`s names the package, any P-row, or any
+response-side object. **TYPE-S, scoped: this proves nobody has STATED a shared prerequisite, not that the
+physics is independent.**
+
+*** THE INCIDENT, RECORDED ON THE ARTIFACT'S FACE, AND IT IS THIS PROGRAM'S DISEASE BITING THE CENSUS'S OWN
+TOOLING: the first convergence run reported 43 shared nodes — ALL FALSE — because a seed regex let `C_R`
+SUBSTRING-MATCH `C_record`. *** Caught by path-tracing before anything was reported; the corrected
+word-boundary run gives the answer. **Substring matching has now produced a false positive in the corpus,
+in an audit script, and in the audit of the audit.**
+
+*** TWO CRITICAL PATHS, DISJOINT — AND THAT IS ITSELF THE FINDING. *** By transitive unblock count the
+**package** wins (package → map → all four Q-51 objects → `Gamma_K`/`C_record` → the S9-A
+overdetermination target), **so the census CONFIRMS rather than redirects: Codex 2 already sits on that
+head.** The **bridge** side — the six Q-59 objects unblocking the selector's consummation — **is a second
+critical path sharing nothing with the first, and its head is UNASSIGNED.** **Nothing on stated text forces
+either to wait for the other: they can be worked in parallel.**
+
+**SEVEN TYPED NEGATIVES.** One TYPE-R (no cycle — **the census's only physical-content negative**), three
+TYPE-S with full scope, one TYPE-U, one TYPE-C (the package fence), and **one `NO_VERDICT`: three literally
+required pathless identifiers whose fate rides on an unmerged alias — CUSTODIAN'S TO RESOLVE.** One phantom
+identifier corrected (`T1_through_T7` occurs nowhere; the flag is `T1_through_T8`). **Four alias candidates
+carried unmerged with evidence on both sides rather than decided.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
