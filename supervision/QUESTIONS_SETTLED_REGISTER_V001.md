@@ -4167,6 +4167,65 @@ AND NEITHER PERFORMED: restating marginality geometrically, and any pick of the 
 
 ---
 
+## Q-102. "Is the signature schema over-specified?"
+
+*** RULING: YES AS A PRESENTATION, NO IN FUNCTIONAL CONTENT. THE FLAT-RECORD ALTERNATIVE **SURVIVES** Q-99's
+OWN KILLER. `flat_record_plus_validated_relational_invariant_survives_Q99_killer = true`. *** Established
+2026-07-31 by Codex lane 1 under relay 195
+(`STAGE8_OBJ0_SIGNATURE_SCHEMA_OVERSPECIFICATION_TEST_V001.md`, `764abb4e…`, 373 lines, seal verified).
+
+*** THIS IS THE FIRST POSITIVE AFTER A LONG RUN OF NEGATIVES, AND IT CAME FROM ONE OF THE TWO RELAYS THE
+REVIEWER HAD JUST FLAGGED AS FRAMED TOWARD "NO". THE LANE RETURNED A POSITIVE ANYWAY. ***
+
+**THE MINIMAL CONTENT:** a **flat record** carrying `(o, r, g)`, seven port rows, traces, graph data,
+coherence and a certificate — **plus a separately validated invariant `K0-K6`.** *** IT DEFEATS
+`FLAT-SIGNATURE-INDEPENDENT-ORIGIN-REASSEMBLY`. The old flat metadata died because it carried no witness
+content; `K0-K6` reject the hostile reassembly. ***
+
+**WHAT IS DECORATIVE AND WHAT IS LOAD-BEARING:** *** THE IMPORTED VOCABULARY — dependent typing,
+refinement, proof-carrying interfaces — IS DECORATIVE. It does EXPRESSIVE work only, not physical work. ***
+**Load-bearing: witness content, replay, graph DIRECTION, role/type separation, and aggregate independent
+validation.** **Removing the vocabulary admits no countermodel if `K0-K6` remain; removing witness content
+admits dummy or self-asserted traces.**
+
+*** SO THE SCHEMA'S DIFFICULTY WAS AN ARTEFACT OF ITS VOCABULARY, NOT OF THE PHYSICS — AND THE PRINCIPAL'S
+CONCERN THAT THE PROGRAM WAS DOING TYPE THEORY RATHER THAN PHYSICS IS CONFIRMED BY TEST. ***
+
+**AND IT CONSTRUCTED, under Q-92, at schema level:** the minimal formal schema exists. **Scope stated
+honestly — `ExactSig_0_constructed = false | TYPE-C`, `Obj_0_constructed = false | TYPE-C`,
+`Step_1_completed_by_this_artifact = false | TYPE-C`.**
+
+*** THIS DIRECTLY SUPPORTS THE PRINCIPAL'S "ALPHA IS A RELATION" READING: A VALIDATED RELATIONAL INVARIANT
+ENFORCES CO-REFERENCE AS WELL AS AN INDEXING OBJECT DOES. ***
+
+---
+
+## Q-103. "Are there primitives outside the cleanroom?"
+
+**RULING: YES — INCLUDING HISTORICAL `c`, `hbar` AND `G`, PLUS EXTERNAL CTP/SOURCE ARTIFACTS. BUT THE
+ENLARGED INVENTORY IS STILL INSUFFICIENT AND Q-97 STANDS.** Established 2026-07-31 by Codex lane 2 under
+relay 194 (`STAGE8_PRIMITIVE_INVENTORY_CORPUS_WIDE_EXHAUSTIVENESS_AUDIT_V001.md`, `48af3d37…`, seal
+verified). **Corpus scope: 8,557 Markdown/JSON/Python files across three roots** — **against the ~1,138
+cleanroom files every prior "we have only these primitives" claim was scoped to.**
+
+```text
+additional candidates outside cleanroom       = yes
+enlarged inventory sufficient for Obj_0       = no   | TYPE-C
+corpus-wide exhaustiveness                    = NO_VERDICT
+   -- no signed manifest, no dedicated owner, no failed adversarial countermodel
+```
+
+**Descendants — source GNS, record direct limit, base tensor join — remain `S_sector`, not `I_prim`
+(Q-100 held).** **Q-92 freeze not authorized.**
+
+*** AND THE FINDING THAT OUTWEIGHS THE HEADLINE: SEVEN OBJECTS ARE **USED AS PRIMITIVES WITHOUT SEALED P0
+AUTHORITY** — `rho_pre`, `U_BR`, effects/domains, quotient/measure, the raw-correlator map, `B0`, AND
+`PrimitiveInventory_0` ITSELF. *** **That is seven clothed adoptions in the foundation, and one of them is
+the inventory the foundation is supposed to be enumerated from.** **Q-74's eight sat on the value path;
+these sit underneath it.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
