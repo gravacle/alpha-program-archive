@@ -5523,6 +5523,88 @@ worthless — so if it is built at all, it is built now.**
 
 ---
 
+## Q-132. "What would derive the `E_ref` fork?"
+
+*** RULING: NOTHING AVAILABLE DOES — AND THE FORK IS NOW EXPLICIT, WITH THE `sqrt(2)` LOCALIZED TO ONE
+DENOMINATOR. *** Established 2026-07-31 by Codex lane 2 under relay 226
+(`STAGE8_EREF_FORK_DERIVATION_SCOPE_AUDIT_V001.md`, `7340488a…`, 14 lines, seal verified, fence-clean,
+no `= true`). *** NO FORK WAS CHOSEN. ***
+
+```text
+E_ref  in  { E_* = m_* ,  mu = m_*/sqrt(2) }        sealed, Stage-10 brief :8-18
+rho    =  (3/16) g_N^2 / (m_* E_ref)               the consumer, ratio result :9-17
+```
+
+*** THE TWO CANDIDATES DIFFER BY EXACTLY `sqrt(2)` IN THE PUBLIC-RESPONSE DENOMINATOR. THE FORK THE
+PROGRAM HAS CARRIED FOR DAYS AS "MISNER-SHARP VERSUS BROWN-YORK" IS NOW **ONE EXPLICIT CHOICE IN ONE
+EXPLICIT FORMULA.** *** Seat occupancy leaves exactly this fork (`26…:56-70`); the Stage-10
+public-response normalization is the **named deciding consumer** (`45…:34-45`). **Continuous interval
+dependence cancels; `E_ref` itself remains consequential.**
+
+**FIVE CANDIDATE GROUNDS CHECKED WITHOUT CHOOSING — NONE SELECTS:**
+
+```text
+first-principles quasilocal energy      NO_VERDICT | TYPE-U   response not built
+positivity / monotonicity / limit       NO_VERDICT | TYPE-S   no one-sided sealed constraint
+consistency with sealed results         NO_VERDICT | TYPE-S   *** BOTH SURVIVE ***
+marginal C_R = 1                        NO_VERDICT | TYPE-R   coincidence route REFUTED, no alternative
+record-cell boundary conditions         NO_VERDICT | TYPE-U   Stage-10 response/matching unexecuted
+
+E_ref_derived     = false | TYPE-U | would-build: Stage-10 physical response/matching with
+                                     *** PRE-FROZEN PREDICTIONS *** and Ward/causal tests
+E_ref_choice_made = false | TYPE-C | the fork must be DERIVED, NEVER SELECTED
+```
+
+*** THE STRUCTURAL OBSERVATION, AND IT IS THE MOST IMPORTANT THING IN THIS ENTRY: THE WOULD-BUILD IS
+**"STAGE-10 PHYSICAL RESPONSE/MATCHING."** STEP 1's BLOCKER AT 1.3 IS **"THE COMPLETE BR/CTP
+FLUCTUATION-RESPONSE OPERATOR."** **BOTH ROUTES NOW TERMINATE IN A RESPONSE LAYER.** IF THEY ARE THE
+SAME OBJECT, IT IS THE HIGHEST-VALUE SINGLE BUILD IN THE PROGRAM — ONE OBJECT UNBLOCKING THE SCALE
+SIDE OF ROUTE A AND STEP 1 OF ROUTE B. **NOT YET ESTABLISHED. NAMED. AND UNPROVED-IDENTITY TRANSPORT
+IS THE ERROR THIS PROGRAM COMMITS MOST OFTEN — IT MUST BE TESTED, NOT ASSUMED.** ***
+
+---
+
+## Q-133. "What lifts the `beta`/radion flat direction?"
+
+*** RULING: NOTHING SEALED DOES — `sealed_radion_lifting_mechanism_exists = false | TYPE-S`. BUT THE
+CANDIDATE POTENTIAL IS NOW **WRITTEN**. *** Established 2026-07-31 by Codex lane 1 under relay 225
+(`STAGE8_RADION_POTENTIAL_MECHANISM_SCREEN_AND_CANDIDATE_V001.md`, `d9d1d4f5…`, 480 lines, seal
+verified, fence-clean).
+
+```text
+*** V(phi) = A_- exp(-p phi) + A_+ exp(q phi) + V_0 ***        leading_candidate_written = true
+
+sealed_radion_lifting_mechanism_exists = false | TYPE-S
+leading_candidate_derived              = false | TYPE-U
+radion_stabilization_derived           = false | TYPE-U
+seat_occupancy_lifts_radion            = false | TYPE-R   *** EXECUTED REFUTATION ***
+```
+
+*** THE STRUCTURAL RULE, AND IT IS THE ANSWER TO THE QUESTION THE RELAY ASKED: **A ONE-SIDED TERM IS
+MONOTONE OR `beta`-BLIND; IT CANNOT CLOSE `beta`.** A TERM THAT SCALES THE SAME WAY AS WHAT IS ALREADY
+THERE **SHIFTS** THE FLAT DIRECTION RATHER THAN LIFTING IT. CLOSURE REQUIRES **TWO TERMS WITH
+OPPOSITE `R`-SCALING** AND AN INTERIOR STATIONARY POINT. ***
+
+**THE CHEAPEST LIVE TARGET:** a **fixed flux / charged-current inverse-power** term competing against
+a **derived surface/spectrum opposite-scaling** term. **Both sides currently missing or
+constraint-blocked.**
+
+*** AND THE FLUX SIDE'S GAP IS NAMED EXACTLY — "CHARACTER, NOT FLUX" (`:142-147`, corroborating
+`STAGE8_JOINT_SADDLE_SYSTEM_POSING_EINSTEIN_V001.md:161-170`). THE CORPUS HAS A **FIXED INTEGER
+CHARACTER**. WHAT IS MISSING IS *"a derived statement that the fixed integer character becomes a fixed
+geometric flux or current through the `beta`-sensitive surface, with domain, measure, and **held-fixed
+rule**."* ***
+
+**THAT HELD-FIXED RULE IS N4 (Q-130).** *** SO THE FLUX SIDE IS **BLOCKED BEHIND** THE
+what-is-held-fixed question, NOT MERELY UNBUILT. THE SURFACE/SPECTRUM SIDE IS NOT — IT IS THE
+INDEPENDENT HALF AND CAN PROCEED NOW. ***
+
+**`seat_occupancy_lifts_radion = false | TYPE-R` is a candidate killed by execution, not assumption**
+— and seat occupancy was one of the same day's `cleanroom_output/` recoveries (Q-129). **Recovered and
+tested within hours.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
