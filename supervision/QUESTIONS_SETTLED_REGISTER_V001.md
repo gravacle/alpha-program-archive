@@ -4026,6 +4026,48 @@ UNTIL NOW. ***
 
 ---
 
+## Q-99. "Does `Obj_0`'s signature enforce `COMMON_ORIGIN`?"
+
+*** RULING: NO. THE PRIOR `Sig_0` DOES NOT ENFORCE IT AT ALL. `prior_flat_Sig_0_forces_common_origin =
+false | TYPE-R` — AN EXECUTED SPECIFICATION-LEVEL REFUTATION. *** Established 2026-07-31 by Codex lane 2
+under relay 191 (`STAGE8_OBJ0_EXACT_SIGNATURE_DOMAIN_CODOMAIN_SPEC_AND_BUILD_STOP_V001.md`, `f7fa3c0f…`,
+1805 lines, seal verified).
+
+*** THE SIGNATURE CONTAINS ONLY OBJECT/TYPE METADATA. THE SEVEN ATTEMPT PORTS AND THE ORIGIN CERTIFICATE
+ARE **SIBLING MEMBERS OF THE OUTER PRESENTATION** — the signature does not depend on, contain, or validate
+any of them. *** Relay 191 asked whether the signature **forces** the certificate or merely **permits** it.
+**It does neither. The class name was doing the work the signature was supposed to do.**
+
+**Test executed: `FLAT-SIGNATURE-INDEPENDENT-ORIGIN-REASSEMBLY`.** **This refutes the signature schema — not
+joint P0, and it is not an impossibility theorem.**
+
+*** THE MECHANISM THE REPLACEMENT IDENTIFIES IS THE FINDING: CO-REFERENCE. *** The proposed schema is
+`CERTIFIED_PROVENANCE_INDEXED_DEPENDENT_PRODUCER_SIGNATURE` — *a proof-carrying, many-sorted signature whose
+successful instance contains one `Obj_0`, **seven actual/canonical structure-producing interfaces INDEXED BY
+THAT SAME OBJECT**, one replayable construction record, one explicit direction-bearing dependency graph,
+per-port origin-trace generators, and an independently checkable aggregate-certificate generator.*
+**"Common origin" formally MEANS the ports are indexed by the object rather than sitting beside it.**
+
+*** AND THE LANE NAMED ITS OWN IMPORT UNDER Q-80, UNPROMPTED: *** *"The terms dependent type, refinement,
+and proof-carrying interface are imported mathematical/software vocabulary… They do not supply a physical
+premise, a constructor, or an existence theorem."* **It also declined to claim exclusivity: "A flat record
+plus a separately validated relational invariant might express the same obligation; no test here excludes
+that alternative."** **Declared a formal requirement schema, explicitly NOT a Q-80 class ruling and NOT a
+physical ontology.**
+
+```text
+conditional_signature_requirement_schema_specified = true
+Obj_0_exact_signature_specified                    = false | TYPE-U
+Obj_0_exact_signature_freezable_now                = false | TYPE-C
+```
+
+**The exact physical category, internal domain and codomain, the P1 domain equivalence and the P6
+action/evolution equivalence all remain unbuilt.** **Build stop taken under Q-92(c,e,f) — the first relay to
+cite the amended conditions.** **Fourth consecutive honest stop, and the first with an executed refutation
+attached rather than only a missing prerequisite.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
