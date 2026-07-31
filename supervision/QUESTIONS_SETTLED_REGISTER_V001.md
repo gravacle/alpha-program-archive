@@ -4226,6 +4226,48 @@ these sit underneath it.**
 
 ---
 
+## Q-104. "Does `K0-K6` hold over the three structures we already have?"
+
+*** RULING: NO. FIVE CLAUSES REFUTED BY EXECUTED TEST, ONE `NO_VERDICT`, ONE HOLDING NARROWLY. THE
+RELATIONAL ROUTE DOES NOT DISSOLVE STEP 1's FOUNDATION. *** Established 2026-07-31 by Codex lane 1 under
+relay 197 (`STAGE8_K0_K6_DERIVED_STRUCTURES_INVARIANT_TEST_V001.md`, `56effc1b…`, 365 lines, seal verified).
+
+```text
+K0  false | TYPE-R          K4  false | TYPE-R
+K1  false | TYPE-R          K5  TRUE, narrowly -- the I_prim / S_sector split
+K2  NO_VERDICT -- no traces exist    K5 full witnesses  false | TYPE-U
+K3  false | TYPE-R          K6  false | TYPE-R
+```
+
+*** THE REASON, AND IT IS A TYPING FACT RATHER THAN A SHORTFALL: THE THREE DERIVED STRUCTURES ARE
+`S_sector` **REFERENCE STRUCTURES**, NOT A SEVEN-ROW CO-REFERENCE INVARIANT INSTANCE. THEY ARE REAL AND
+USEFUL AND THEY ARE THE WRONG KIND OF THING TO SATISFY `K0-K6`. ***
+
+**`K0-K6` does not defeat independent-origin reassembly on these structures** — `false | TYPE-C`, **because
+no invariant instance and no validator exist to run it against.**
+
+**THE GAP IS NAMED: M1-M7** — a chosen single root triple `(o,r,g)`; seven executed port rows; exact row
+content; frozen subcontext witnesses; trace and replay semantics; cross-row coherence; and aggregate
+validation. *** IT OVERLAPS CODEX 2's SEALING TASK **AND IS LARGER THAN IT**. ***
+
+`ValidatedFlatCoReferenceInvariant_over_Q41_Q42_Q43_constructed = false | TYPE-C`.
+
+*** THE REVIEWER'S READING IS REFUTED, AND THIS TIME IT WAS THE OPTIMISTIC DIRECTION. *** He wrote that the
+block "may have been ours, not the physics'" and that the three derived structures **become available** once
+the origin-object requirement is dropped. **They do not become available as invariant material — they were
+never that kind of object.** **Q-100's exclusion was not the only thing keeping them out.**
+
+*** AND THE NEGATIVE IS CREDIBLE IN A WAY THE EARLIER RUN WAS NOT: RELAY 197 CARRIED THE SYMMETRIC-FRAMING
+BLOCK — "if the invariant holds, say so plainly; if it fails, say so plainly; neither answer is the safe
+one." IT RETURNED FIVE EXECUTED REFUTATIONS ANYWAY. *** **The prior run's negatives were suspected of being
+framing artifacts; this one cannot be.**
+
+**WHAT SURVIVES:** Q-102 stands — a flat record plus a validated invariant **does** defeat the countermodel
+**at schema level**, and the imported vocabulary **is** decorative. **The relational form is sound. It has
+no instance.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
