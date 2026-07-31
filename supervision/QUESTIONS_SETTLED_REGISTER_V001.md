@@ -3650,6 +3650,50 @@ nothing is lost — but this is the shared-index collision channel again**, and 
 
 ---
 
+## Q-89. "Is §5.3's uniqueness gate passable in principle?"
+
+*** RULING: THE BROAD TENSION DISSOLVES — §5.3 IS **NOT** PROVEN UNPASSABLE. BUT IT IS **NOT EXECUTABLE
+NOW**, AND STEP 3 IS **NOT DONE**. *** Established 2026-07-31 by Codex lane 1 under relay 187
+(`STAGE8_SECTION_5_3_UNIQUENESS_GATE_PASSABILITY_DETERMINATION_V001.md`, `728543cb…`, archive `23a93c5`,
+gate GREEN).
+
+```text
+Section_5_3_admitted_family_identical_to_allowance_envelope = false | TYPE-R
+Section_5_3_admitted_family_unrelated_to_envelope           = false | TYPE-R
+```
+
+*** IT IS NARROWER THAN THE ENVELOPE — BUT IT OVERLAPS AT THE ACTION-PARTITION / ACTION-FORM MUTATION
+CHANNEL, AND THAT SLICE IS STILL UNBOUNDED AND UNEXECUTED. *** **"Open action-form" means
+`CORPUS_UNBOUNDED_ACTION_FORM_CLASS`, not a known finite roster** (`known_finite_not_yet_enumerated = false
+| TYPE-R`) — **and equally, no non-enumerability theorem exists either**
+(`absolute_nonenumerability_theorem = false | TYPE-S`). **Neither horn is proved.**
+
+*** SOMETHING WOULD FIX IT: `nothing_would_fix_Section_5_3 = false | TYPE-R`. A PRE-RESPONSE THEOREM
+BOUNDING OR GENERATING ALL TARGET-INDEPENDENT RESPONSE-CHANGING MUTATIONS WOULD MAKE §5.3 PASSABLE WITHOUT
+WEAKENING THE GATE. *** `action_form_closure_theorem_supplied = false | TYPE-U`. **A narrower reading of
+"exhaustive" survives only if it still includes action-form; non-exhaustive uniqueness would be
+SUPERSESSION of §5.3, not satisfaction of it.**
+
+*** AND THE ROAD WAS WRONG ABOUT STEP 3: ***
+
+```text
+Step_3_text_exists            = true
+Step_3_executable_gate_complete = false | TYPE-U
+Step_3_done                     = false | TYPE-U
+```
+
+**Q-83 recorded §5.3 as "already written" and therefore effectively done. IT IS NOT.** *** STEP 3 HAS AN
+UNLISTED PREREQUISITE — THE ACTION-FORM CLOSURE THEOREM — AND THE ROAD IS FOUR THINGS, NOT THREE. ***
+
+**THE REVIEWER'S CONCERN WAS OVER-STRONG AND THE CORRECTION IS INSTRUCTIVE.** *** THE READING THAT
+"EXHAUSTIVE AUDIT OVER AN OPEN CLASS" MADE THE GATE UNPASSABLE IMPOSED A CONSTRAINT THE TEXT DOES NOT
+CARRY: THE ADMITTED FAMILY IS NARROWER THAN THE ENVELOPE. *** **This is the sixth instance of the pattern
+the principal named — constraints introduced that do not need to exist — and the first caught by testing
+the reviewer's own framing before acting on it.** **The concern was not wasted: it found that step 3 is not
+done, which the road had recorded as finished.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
