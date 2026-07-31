@@ -3737,6 +3737,43 @@ EFFECTS have joint origin, which Q-43 does not settle.**
 
 ---
 
+## Q-91. "Who commits?"
+
+*** RULING: NO LANE RUNS ANY GIT COMMAND. THE REVIEWER IS THE SOLE COMMITTER. *** Principal direction
+2026-07-31, `COMMIT_CUSTODY_STANDING_RULE_2026-07-31_V001.md`, effective relay 188. **Makes the overnight
+seal-only protocol permanent.**
+
+**A lane writes its artifact, computes and verifies its seal sidecar, mirrors both to the archive
+workspace, reports hashes and paths, and stops.** *** IT RUNS NO `git add`, `commit`, `push`, `pull`,
+`reset`, `stash` OR `restore`; IT DOES NOT TOUCH THE BASELINE; IT DOES NOT RUN `deploy_status.sh`; AND IT
+NEVER ASKS FOR PUBLICATION AUTHORIZATION. *** `--report` on its own artifact is permitted; **`--gate` is
+not a lane's concern and a RED gate is never a reason to stop working.**
+
+**WHY: FOUR SHARED-INDEX COLLISIONS IN TWO DAYS.** Nothing was lost — every artifact was sealed and every
+seal verified — **but attribution corrupted repeatedly**: a commit swallowed another lane's staged register
+update, a commit title was rewritten to a different relay, and one lane nearly swept another's in-flight
+work. *** AND THE LARGER COST WAS LANE TIME: lanes have been unstaging their own files, restoring the
+index, waiting on baseline bumps and requesting publication. NONE OF THAT IS A LANE'S JOB AND ALL OF IT
+COMPETED WITH THE PHYSICS. ***
+
+**PER-LANE WORKTREES ARE WITHDRAWN AS THE FIX.** *** THEY SOLVE PARALLEL COMMITS. THE PROGRAM DOES NOT NEED
+PARALLEL COMMITS — IT NEEDS PARALLEL WORK. *** Single-committer custody gives the same isolation **with no
+change to any lane's working paths.**
+
+**WHAT THE REVIEWER OWES IN RETURN:** every artifact verified before commit — **seal against the stated
+hash, fence scan for computed values, and THE ARTIFACT READ RATHER THAN THE REPORT.** **That last is not
+optional: twice a lane's summary omitted a finding its own flag block contained, and both were caught only
+by opening the file.** **The reviewer owns the baseline, resealing, gate repair, push conflicts and
+rebases.**
+
+*** SEALING REMAINS THE LANE'S OBLIGATION. A LANE THAT REPORTS AN UNSEALED ARTIFACT HAS NOT FINISHED — the
+seal is what makes single-committer custody safe, because the reviewer verifies what the lane SEALED rather
+than what the reviewer hopes it wrote. ***
+
+**Nothing about the physics discipline changes.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
