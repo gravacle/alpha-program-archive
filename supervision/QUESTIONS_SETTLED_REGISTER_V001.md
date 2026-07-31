@@ -3774,6 +3774,41 @@ than what the reviewer hopes it wrote. ***
 
 ---
 
+## Q-92. "When may a lane build rather than specify?"
+
+*** RULING: THE STANDING "SPECIFY; DO NOT BUILD" INSTRUCTION IS WITHDRAWN. A LANE MAY CONSTRUCT WHEN ITS
+PREMISES ARE DECLARED, ITS TESTS ARE WIRED, ITS PREREQUISITES EXIST, AND IT NAMES THE STEP IT COMPLETES.
+*** Adopted by the reviewer 2026-07-31 and **flagged for the principal's correction**; effective relay 188.
+
+```text
+(a) premises declared at the outset (F-GK3)
+(b) failure-capable tests attached and WIRED to the verdicts they test
+(c) prerequisites EXIST rather than being specified
+(d) the road step it completes is named (Q-83)
+```
+
+**If (c) fails, specify and name what is missing — that is still the right answer and not a lesser one.**
+*** A CONSTRUCTED OBJECT MAY REPORT `derived = true` ONLY IF ITS TESTS WERE EXECUTED AND PASSED. A
+SPECIFICATION NEVER MAY. ***
+
+*** WHY: THE PROGRAM HAS PRODUCED ROUGHLY TWELVE SPECIFICATIONS AND ZERO CONSTRUCTIONS, BECAUSE EVERY RELAY
+THE REVIEWER WROTE SAID "SPECIFY; DO NOT BUILD." *** The reviewer read Q-52's *"you may specify a missing
+object in order to test it"* **as a ceiling. It was removing a prohibition, not setting one.** **But the
+road needs objects to EXIST: step 1 needs `C_record(K)` evaluable, step 2 needs the scale actually fixed. A
+specification with `derived = false` moves neither.**
+
+**THIS IS THE EIGHTH FALSE CONSTRAINT, AND THE REVIEWER IMPOSED IT IN EVERY RELAY FOR THREE DAYS.** It was
+found by applying the principal's own test — *does the constraint prevent fabrication, or prevent finding
+out?* **Two others of the reviewer's flagged by the same test and still under review: "do not evaluate even
+symbolically," and "state the route, do not walk it."** *** THE SECOND IS RIGHT FOR THE `sqrt(2)` FORK,
+WHERE WALKING IT RISKS CHOOSING, AND PROBABLY WRONG ELSEWHERE, WHERE WALKING IT IS THE DERIVATION. ***
+
+**WHAT MUST NOT RELAX, AND DOES NOT:** no computed alpha or kappa as a claim; no comparison to any measured
+constant; the `sqrt(2)` derived-never-chosen rule; §5.3's ban on narrowing the admitted family after seeing
+the root; report refutations, never repair them; the holdout untouched.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
