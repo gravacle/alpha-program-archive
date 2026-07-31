@@ -3,8 +3,17 @@
 Maintained by the Fable supervision lane through 2026-07-25 midday; then by
 the Claude construction+supervision lane (fresh account, custody note
 LANE_CHANGE_CUSTODY_CLAUDE_CONSTRUCTION_V001, seal fc585326…).
-Updated at each milestone. Last update: 2026-07-25, afternoon (v002 repair
-cycle in flight — see final section).
+Updated at each milestone. **LAST UPDATE: 2026-07-31. Register head Q-114.
+Published at `30ffbe8`.**
+
+*** IF YOU ARE PICKING UP COLD, READ THE FINAL SECTION OF THIS FILE FIRST
+("2026-07-31 — SIX ROUTES, ONE OBJECT, AND THE PREMISE UNDER TEST"), THEN
+`EXECUTION_TRACKER.md`. THE SECTIONS BELOW ARE HISTORY AND SEVERAL OF THEIR
+FRAMINGS HAVE SINCE BEEN REFUTED — THE REGISTER IS THE AUTHORITY, NOT THIS
+NARRATIVE. ***
+
+**Before starting any work: grep `QUESTIONS_SETTLED_REGISTER_V001.md`.** It is
+indexed by question, which is why older records went unfound.
 
 ## If picking up cold, read in this order
 
@@ -3620,3 +3629,109 @@ classify the whole standing premise stack as TESTED or UNTESTED under Q-37's rul
 
 STATE AT 12:30: `0 of 11` Section-1 pieces supplied, unchanged since the program began. Zero of eighteen
 slots derived. Lane 1 on the GNS/covariance route to the root; lane 2 on the premise classification.
+
+---
+
+## 2026-07-31 — SIX ROUTES, ONE OBJECT, AND THE PREMISE UNDER TEST
+
+**Register head Q-114. Published at `30ffbe8`. Gate GREEN.** *** THIS IS THE CURRENT SECTION. EVERYTHING
+ABOVE IS HISTORY. ***
+
+### The road, and where it is blocked
+
+```text
+alpha = 1/(4 pi K_*)        K_* = the root of C_record(K) = 0
+
+STEP 1   C_record(K) EVALUABLE   <-- BLOCKED AT ITS FOUNDATION: B0
+STEP 2   THE SCALE FIXED         C_R = 1 selects, via the Hamilton-Jacobi bridge
+STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
+```
+
+**Everything funnels through step 1 (Q-93). Step 1's foundation is `B0` — the complete microscopic
+source-record-field boundary operator, root of the descent DAG.**
+
+### Six routes have closed, and they were all the same kind
+
+```text
+Q-106  accessor      parked on the block, not around it
+Q-110  codomain      fixes a FIBER, not a point
+Q-111  primitive     reaches PRESENTATION STRUCTURE only
+Q-112  historical    never built, never superseded
+Q-113  joint         0/9 collapse . 3/9 shrink . 0/9 CONFLICT
+Q-114  incidence     NO ARROW -- incidence x B0 returns ZERO across all three roots
+```
+
+*** EVERY ONE WAS ARCHAEOLOGICAL: IT SEARCHED FOR DETERMINATION ALREADY WRITTEN DOWN. NONE WAS
+CONSTRUCTIVE. SIX SEARCHES RETURNING NOTHING IS THE EXPECTED RESULT IF `B0` WAS SIMPLY NEVER WRITTEN. ***
+
+**Two lanes running blind converged on the same stopping point** — the strongest evidence the program has
+that `B0` is a genuine physical obligation and not a bookkeeping artifact.
+
+### The deeper finding: `B0` is UNPINNED, not merely unbuilt
+
+**No test the corpus can run — and none in the sealed battery even after every named blocker lands —
+distinguishes a real `B0` from an object that does no work at all.** The countermodel is **CM-3**, the
+opaque-carrier constant-descent root, which survives even a combinatorially rich interior: a candidate may
+carry a full incidence skeleton as declared internal data and remain indiscriminable.
+
+**The missing discriminator has a name — MD-3, `B0_DESCENT_NON_DEGENERACY` — it is cheap, it is blocked
+behind nothing, and it has been on no blocker list since relay 203.**
+
+### The premise, written down for the first time
+
+> ***`B0` IS ONE OPERATOR, IT EXISTS, AND THE CORPUS DETERMINES IT.***
+
+```text
+THE CORPUS DETERMINES IT   tested six times, six noes -- but NEVER a requirement of the PHYSICS.
+                           It is a requirement of our METHOD.
+IT EXISTS                  Q-95: no constructor AND no impossibility theorem. Open both ways.
+ONE OPERATOR               THE WEAKEST CLAIM. Never derived. What the physics demands is that
+                           P5 (rho_pre) and P6 (dynamics) share a SOURCE. That a single OPERATOR
+                           is required is an import until shown otherwise.
+```
+
+**The mechanism that makes this live:** OBS-08 — *a fixed point looks exactly like a cycle to a graph
+walker.* **All six routes walked the dependency graph.** A graph-walker meeting a fixed point reports
+underdetermination every time, for structural reasons rather than bad searching.
+
+### What is NOT closed — two openings nobody has scheduled
+
+```text
+N6 [TYPE-C]   BID_conditional_determination_route_credited = false
+              *** THE ROUTE EXISTS *** (:657-662, :709-710, :795-798).
+              Release: Gates 2/3/4 executed and passed -- ALL THREE NEVER RUN.
+              CONSTRAINT-BLOCKED IS NOT REFUTED.
+
+N4 limiter    the B0 spec NAMES THE SHAPE OF A CONSTRUCTION IT WOULD ACCEPT:
+              independently derived primitive dynamics + an explicit B0 construction witness.
+```
+
+*** N6 IS NOT A `B0` ROUTE — SEE OBS-09. *** Gates 2/3/4 would determine the **BID** operator, and N3
+found **no bridge from any combinatorial object to `B0`**. The reviewer carried N6 into the tracker as a
+`B0` opening and corrected it the same day. **What survives is that Gate 4 is require-shaped in the
+Q-65/Q-71 sense — exactly one normalized equivalence class against a hostile counterfamily — which is a
+shape the program has very little of.** **N4's limiter is unaffected and remains unscheduled.**
+
+### Lanes as of this update
+
+```text
+CODEX 1   relay 209   write MD-3, the acceptance test; does the Q-113 fiber ACT on C_record?
+CODEX 2   relay 210   target-independence seam: INPUTS or SPECIFICATIONS? Plus K_(1,3)
+EINSTEIN  relay 211   is "ONE operator" derived or imported? FABLE.
+```
+
+### Corrections recorded this day, both the reviewer's
+
+- **The `B_chi` signature TYPE-R does not generalize.** It reaches the **named candidate only**; the `B0`
+  spec carries a limiter leaving a future construction open. Treating it as a general kill would have been
+  unproved-identity transport. *** A SEAL REACHES WHAT IT NAMES AND NO FURTHER. ***
+- **The complex is not simply free.** `K` is a class and `K_L` has `L` free, **but `K_(1,3)` IS designated
+  at V011 `:262-263` by a target-aware premise, gate unpassed.** Third status.
+
+### Method note worth keeping
+
+**N11: `a_new_Q80_class_was_required = false`. The existing TYPE-R/U/S/C vocabulary sufficed.** *** AFTER
+TWELVE DISSOLVED FRAMINGS — MOST OF THEM THE REVIEWER'S, EVERY FIX A NEW CATEGORY — THIS WAS THE FIRST TIME
+THE VOCABULARY HELD UNDER A NEW OBJECT. That is a method result, not a null. ***
+
+alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

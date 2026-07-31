@@ -65,7 +65,16 @@ N4 limiter    the B0 spec NAMES THE SHAPE OF A CONSTRUCTION IT WOULD ACCEPT:
               construction witness.
 ```
 
-*** NEITHER IS SCHEDULED. BOTH ARE CHEAPER THAN BUILDING `B0`. ***
+*** N6 IS NOT A `B0` ROUTE — CORRECTED, SEE OBS-09. *** Gates 2/3/4 would determine the **BID**
+operator, and Q-114's N3 found **no bridge from any combinatorial object to `B0`**. Passing all three
+leaves `B0` where it is. **Gate 2's own text confines it to "a premise consequence," and the premise is
+the target-aware `K_(1,3)` designation; `BID_v011_specification_sealed = false`.**
+
+**What survives:** *** GATE 4 IS REQUIRE-SHAPED IN THE Q-65/Q-71 SENSE — EXACTLY ONE NORMALIZED
+EQUIVALENCE CLASS, DERIVED AGAINST A HOSTILE COUNTERFAMILY. THE PROGRAM HAS VERY FEW OBJECTS OF THAT
+SHAPE. *** It is real work; it is not foundation work.
+
+**N4's limiter remains unscheduled and is unaffected by this correction.**
 
 ---
 

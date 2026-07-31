@@ -319,6 +319,57 @@ Links: [[project_allow_require_boundary]], Q-69, Q-75, Q-80, Q-81.
 
 ---
 
+## OBS-09. THE N6 OPENING IS TWO STEPS FROM `B0`, AND THE SECOND STEP DOES NOT EXIST
+
+**Status: UNCLAIMED. Recorded 2026-07-31 by the reviewer, scoping Q-114's N6.**
+
+Q-114 recorded `BID_conditional_determination_route_credited = false | TYPE-C` — **the route exists**,
+released by Gates 2/3/4 executed and passed, all three never run. **The reviewer initially carried this
+into `EXECUTION_TRACKER.md` as an unopened route toward `B0`. THAT WAS WRONG AND IS CORRECTED HERE.**
+
+**The gates, read at source (`BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md:1679-1711`):**
+
+```text
+GATE 2   first-opening topology accounting -- verify the explicit first-opening premise gives the
+         rooted star and the 4+3=7 graded dimension.
+         *** ITS OWN TEXT: "Record this only as a premise consequence." ***
+
+GATE 3   Hilbert functor classification -- from general positive-definite forms, classify those
+         satisfying the six Elementary Record Hilbertization conditions through degrees 0,1,2.
+         Pass requires ONE unitary equivalence class and must explicitly derive M_0=M_1=M_2=I.
+         "Merely restating the isometry hypothesis is not a completed gate."
+
+GATE 4   differential uniqueness -- from D_(a,b) against ALL mandatory hostile counterfamilies,
+         including the full epsilon_(c,d) hostile augmentation family. Pass requires EXACTLY ONE
+         normalized differential equivalence class and one public-collapse covector ray.
+```
+
+*** WHAT THE GATES WOULD BUY IS A DETERMINED **BID** OPERATOR. AND Q-114's N3 ESTABLISHED
+`bridge_from_any_incidence_object_to_B0_found = false | TYPE-S` — NO SEALED MAP, INCLUSION, RESTRICTION OR
+FORGETFUL FUNCTOR RELATES ANY COMBINATORIAL OBJECT TO `B0`. SO PASSING ALL THREE GATES LEAVES `B0`
+EXACTLY WHERE IT IS. ***
+
+**This is the error relay 211 warns lanes against, committed by the reviewer the same day it was written
+down: a seal reaches what it names and no further.** Q-114 named the BID route; carrying it to `B0`
+required a bridge that does not exist.
+
+**WHAT SURVIVES, AND IT IS NOT NOTHING.** *** GATE 4 IS REQUIRE-SHAPED IN THE Q-65/Q-71 SENSE: IT DEMANDS
+**EXACTLY ONE** NORMALIZED EQUIVALENCE CLASS, DERIVED AGAINST AN ADVERSARIAL COUNTERFAMILY. THAT IS THE
+SAME SHAPE AS §5.3 AND THE PROGRAM HAS VERY FEW OBJECTS OF IT. *** Gate 3 likewise demands one unitary
+class with an explicit derivation and pre-emptively refuses the restatement shortcut.
+
+**Two cautions to carry if it is ever scheduled:**
+
+1. **Gate 2 cannot fix the complex.** Its own text confines it to recording a **premise consequence** —
+   and the premise in question is the **target-aware** designation of `K_(1,3)` at V011 `:262-263`
+   (Q-114 N2). **A passed Gate 2 would confirm a premise implies the star, not derive the star.**
+2. **`BID_v011_specification_sealed = false`.** The specification the gates would execute against is
+   itself unsealed.
+
+**TYPE-C, unchanged. Constraint-blocked is not refuted — but it is not a `B0` route either.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **When a candidate fails, ask which kind of failure it is.** A theorem foreclosing it is a refutation and
