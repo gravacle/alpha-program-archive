@@ -3844,6 +3844,42 @@ steps.** **Q-85's "three independent road bodies" is superseded: they are not in
 
 ---
 
+## Q-94. "Do P1-P7's consumers need structure, or only existence?"
+
+*** RULING: STRUCTURE. ALL SEVEN. ZERO PURE-EXISTENCE ROWS. THE ROAD DOES NOT SHORTEN. *** Established
+2026-07-31 by Codex lane 1 under relay 190 (`STAGE8_P1_P7_CONSUMER_STRUCTURE_REQUIREMENT_AUDIT_V001.md`,
+`1ebc7a3f…`, 419 lines, seal verified both copies, mirrors byte-identical).
+
+```text
+pure_existence_rows_found                                 = false | TYPE-R
+bare_existence_theorem_suffices_for_current_consumers     = false | TYPE-R
+P1..P7_existence_only                                     = false | TYPE-R  (seven separate refutations)
+C_record_K_evaluability_needs_bare_existence_only         = false | TYPE-R
+Step_1_road_shortened_by_existence_only_reading           = false | TYPE-R
+```
+
+**Consumers checked: the rank-1 conformance tests, the CTP physical package, the
+raw-correlator-to-retarded-Hessian map, `Gamma_K`/`C_record(K)`, §5.3, and the action-form closure
+theorem.** *** EACH LINK OF `producer -> G -> E_R -> Pi_R,ind -> p_loc -> scalar` CONSUMES ACTUAL OR
+CANONICAL STRUCTURES, NOT BARE EXISTENCE. `C_record(K)` EVALUABILITY NEEDS THE ALGEBRA EXHIBITED. ***
+
+*** THIS IS THE COUNTERWEIGHT THE FALSE-CONSTRAINT HUNT NEEDED. THE REVIEWER PROPOSED A SHORTCUT — DERIVE
+P0's PROPERTIES RATHER THAN BUILD IT — AND IT IS REFUTED NINE WAYS. **"P0 MUST BE BUILT" IS A REAL
+CONSTRAINT, NOT A FALSE ONE.** Eight constraints have been withdrawn in three days; this one survives
+testing, and the discipline is only credible because both outcomes occur. ***
+
+**ONE RESIDUE, LEFT OPEN AND PROPERLY:** the lane named a Q-80 class
+**`EXTRACTIVE_EXISTENCE_INTERFACE`** — *a theorem could substitute for the object **only if it supplies
+canonical accessors for the structures the consumers call.*** `extractive_existence_theorem_could_
+substitute_for_hand_construction = NO_VERDICT`. *** BARE ASSERTION WOULD BE A NEW CLOTHED ADOPTION — the
+lane confirmed the counter the relay asked it to weigh, so the shortening would have relocated the debt
+rather than removed it. ***
+
+**So the refuted form is "bare existence." The unrefuted form is an accessor-supplying theorem, and nobody
+has shown it impossible.** **That is a real, narrow, open route — not a shortcut.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
