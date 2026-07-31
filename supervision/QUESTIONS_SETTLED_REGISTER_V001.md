@@ -5366,6 +5366,56 @@ real, and it was one instance.
 
 ---
 
+## Q-129. "What does `cleanroom_output/` actually contain that the register does not?"
+
+*** RULING: SUBSTANTIAL RECOVERIES, ALL SCOPED — AND ONE OF THEM COLLAPSES TWO CONTINUOUS FREEDOMS INTO
+A SINGLE DISCRETE FORK. *** Established 2026-07-31 by Codex lane 1 under relay 222
+(`STAGE8_CLEANROOM_OUTPUT_RECONCILIATION_LEDGER_V001.md`, `a156870a…`, 294 lines, seal verified,
+fence-clean). **87 files: 52 non-sidecar, 35 sidecars, all 35 verify target bytes.** The sidecars carry
+metadata after the hash line, which emits a malformed-line warning — **format hygiene, not a seal
+mismatch.**
+
+**CORROBORATES Q-127:** Gates 1, 2, 3 and both Gate 4 cores were run and passed. **And the scope
+discipline held** — Gate 4 P3 is *"a scoped derivation of the no-independent-edge/handle-magnitude item
+**at the differential level and within the enumerated family**, not a universal primitive exclusion."*
+*** THE LANE REFUSED TO INFLATE IT, WHICH WAS THE FAILURE MODE THE RELAY NAMED FIRST. ***
+
+*** THE RECOVERY THAT MATTERS — TWO SEALED RESULTS THE SUPERVISION LANE HAD NEVER SEEN: ***
+
+```text
+21_DIMENSIONLESS_RATIO_RESULT_V001.md   (:9-17, :19-39, :55-68)      NOVEL / SUPERSEDES IN SCOPE
+    *** T_R CANCELS IN THE INTERFACE RATIO, AND CONTINUOUS A/C FREEDOM BECOMES A FINITE
+    DISCRETE IDENTIFICATION FORK. ***   It does NOT derive a coupling.
+
+26_SEAT_OCCUPANCY_RESULT_V001.md        (:8-38, :56-70)              NOVEL
+    Decides seat occupancy ahead of Stage 10 and *** REDUCES THE SURVIVING FAMILY TO ONE
+    STAGE-10 `E_ref` FORK. ***   Also records `tau_orth = T_R` as ADOPTED, NOT DERIVED.
+```
+
+*** `E_ref` IS THE MISNER-SHARP / BROWN-YORK FORK. SO THE SCALE SIDE MAY REDUCE TO **ONE DERIVATION**
+— AND IT IS ALREADY ON THE ROUTE-A TASK LIST AS A4, AND THE STAGE-10 BRIEF ALREADY SEALS IT AS THE
+SANCTIONED PATH: "deciding the `E_ref` fork by derivation is what Stage 10 is for." ***
+
+**Families A and C were two of the load-bearing open forks in `STATUS.json`'s stop rule.** Family A is
+now typed **OPEN, NARROWED**: *"the continuous A freedom cancels out of the interface ratio, but
+Q-120/Q-124/Q-125 keep action-form membership/protection unresolved."*
+
+**WHAT IS NOT CLAIMED, AND THE LEDGER IS EXPLICIT:** *"Stage 10 and absolute-scale work remain
+blocked."* `STATUS.json` remains `final_status: BLOCKED`. **A continuous freedom becoming a discrete
+fork is a reduction, not a resolution.**
+
+**Also recovered:** cycle 7 forces **thresholded durability** for incident many-cell work.
+
+*** THE STRUCTURAL POINT FOR THE ROAD: AN INFINITE FREEDOM REPLACED BY A BINARY CHOICE IS THE LARGEST
+KIND OF SIMPLIFICATION AVAILABLE SHORT OF A DERIVATION — AND THE BINARY IS ONE THE PROGRAM HAS ALREADY
+NAMED, ALREADY FENCED ("DERIVED, NEVER CHOSEN"), AND ALREADY SCHEDULED. THE SUPERVISION LANE DID NOT
+KNOW IT HAD THIS. ***
+
+**Reviewer note:** this is why relay 222 was funded over more building. **Two unswept sealed results
+narrowed a load-bearing fork, and neither cost a single new derivation.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
