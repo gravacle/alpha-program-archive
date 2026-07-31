@@ -13,6 +13,32 @@ kappa_Thomson, a coupling, a scale, a root, an eigenvalue, a beta function, `E_R
 absolute interval. **No comparison to any measured constant.** **Q-52:** you may specify a missing object
 to test it — declared, `derived = false`, never reported as derived. **Q-54:** every negative typed.
 
+### STANDING CLAUSE — NEW TERRITORY (Q-80, applies to every relay)
+
+```text
+NEW TERRITORY. This program may be doing physics no existing framework
+envisioned, and its own bookkeeping categories are provisional. If something
+you find does not fit an available class:
+
+  1. DO NOT force it into the nearest bin.
+  2. DO NOT report it as an error, a defect, or a corpus deficiency.
+  3. DO NOT dispose of it with NO_VERDICT and move on.
+  4. DO name a new class, define it, and say exactly what the object
+     resists about the existing ones.
+
+A category that had to be invented IS A FINDING, and it should be led with.
+Absence of a fit is evidence about the OBJECT, not about your analysis.
+
+Distinguish two cases explicitly and never conflate them:
+  NO_VERDICT      it does not fit because information is MISSING
+  NEW CLASS       it does not fit because the CATEGORIES ARE WRONG
+
+Imported standards get the same scrutiny as corpus claims. If a framing came
+from outside this program -- from mathematics, from ordinary physics practice,
+from software engineering -- SAY SO and say why it applies here. Three such
+imports failed on 2026-07-31 alone.
+```
+
 ---
 
 ### THE PRINCIPAL'S OBSERVATION, AND WHY IT REOPENS YOUR OWN CLASSIFICATION
