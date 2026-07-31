@@ -2942,8 +2942,21 @@ survives, or *** IF UNIQUENESS IS OBTAINED ONLY BY NARROWING THE ADMITTED FAMILY
 independently reproduced" **is freeze-before-root-finding — which Einstein independently named a keystone
 in Q-65.**
 
-**THE OBLIGATION IS OPEN BUT NAMED:** `constant_root_uniqueness_derived = false`. **It is the only
-uniqueness flag on the threshold and it is not yet earned.**
+*** REVIEWER CORRECTION, SAME DAY: THE FLAG NAMED HERE WAS THE WRONG OBJECT. *** The entry first cited
+`constant_root_uniqueness_derived = false` as the threshold's open obligation. **It is not.** It lives in
+`R3_4_CAUSAL_DIAMOND_SPECTRAL_PULLBACK_RESULT_V001.md:119` and refers to **"uniqueness of the CONSTANT ROOT
+PREPARATION against all admitted preparation sectors"** (`:98`) — **a source-STATE selection question**,
+where "constant root" is the normalized null-shell preparation on the causal diamond. **It is a different
+object from the `C_record(K) = 0` threshold root.** *** THE REVIEWER MATCHED ON THE WORD "root." THAT IS
+THE EXACT FAILURE MODE THIS PROGRAM HAS HAD AT LEAST TEN TIMES, COMMITTED IN THE REGISTER ITSELF. ***
+
+**THE THRESHOLD'S ACTUAL OBLIGATIONS ARE TWO, BOTH IN THE `Gamma_K` SPEC:** `root_solved = false` (`:671`),
+gated by **§5.3's uniqueness gate** — which requires **one simple positive root, no inequivalent admitted
+positive root, no continuous modulus**, and forbids obtaining uniqueness by narrowing the admitted family
+after seeing the root. **Neither existence nor uniqueness is earned.**
+
+**The R3.4 preparation-uniqueness obligation is REAL and remains open — it is simply a different
+obligation, sitting on the source-state side rather than the threshold side.**
 
 *** SO THE PAIR-HUNT WAS A DETOUR. *** Q-61 surveyed the corpus for pairs, found zero live, and the
 reviewer treated that as the route being empty. **It was the wrong route. The program's route to a forced
