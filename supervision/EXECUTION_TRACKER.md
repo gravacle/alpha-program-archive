@@ -1,147 +1,122 @@
 # EXECUTION TRACKER — what is actually being done, by whom, right now
 
-**LAST UPDATED 2026-07-30, end of day. Register head Q-64. THREE LANES RUNNING OVERNIGHT.**
-
-## OVERNIGHT STATE — PRINCIPAL ASLEEP, LANES WORKING QUEUES
+**LAST UPDATED 2026-07-31. Register head Q-114. Published at `085ec60`.**
 
 ```text
-CODEX 1   relay 167   bridge critical path: alias precondition, triage the six Q-59
-                      objects, specify the two most load-bearing, depth report
-CODEX 2   relay 168   package resumed (blocker released by Q-64): T8 rewiring,
-                      word-boundaried triage re-verify, next object, CYCLE CHECK
-                      INSIDE THE FENCE
-EINSTEIN  relay 166   forcing-boundary adjudication, canonical identifier registry,
-                      then walk the 90 prose-targets and ~350 untyped identifiers
-                      into the graph
+alpha = 1/(4 pi K_*)        K_* = the root of C_record(K) = 0
+
+STEP 1   C_record(K) EVALUABLE   <-- BLOCKED AT ITS FOUNDATION: B0
+STEP 2   THE SCALE FIXED         C_R = 1 selects, via the Hamilton-Jacobi bridge
+STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
 ```
 
-*** WRITE PROTOCOL TONIGHT: LANES SEAL BUT DO NOT COMMIT. *** No `git add`, no push, no touching the
-baseline, no reading deploy state. **Three lanes on one working tree with nobody awake to arbitrate cost
-three blocked commits and one near-miss today.** A sealed artifact with a verified sidecar loses nothing
-but timeliness.
+---
 
-## MORNING PICKUP — DO THESE IN ORDER
+## LANES RIGHT NOW — ALL THREE LOADED
 
-1. **Collect each lane's sealed artifacts.** One per queue item.
-2. **Verify every seal against its sidecar** before trusting any content.
-3. **Fence-scan each**: no computed alpha/kappa/coupling/scale/root/eigenvalue/beta, no measured-constant
-   comparison, terminal flags false.
-4. **Commit in ONE reviewed pass**, then **re-baseline `scope_declaration` to the ACTUAL count** and
-   review the delta. **Do not pre-authorize growth** — an earlier `+15` allowance was withdrawn for
-   exactly this reason.
-5. **Register the returns.** Lanes must not assign Q-numbers; the register is the reviewer's.
-6. *** SET UP GIT WORKTREES — one per lane, own directory, own branch. This is the structural fix for the
-   collision class and it was deferred only because changing three lanes' paths unattended was the larger
-   risk. ***
+```text
+CODEX 1   relay 209   WRITE MD-3 (B0_DESCENT_NON_DEGENERACY). The acceptance test.
+                      Plus: does the Q-113 residual fiber ACT on C_record?
+                      Blocked behind nothing. UNBLOCKS STEP 1.
+
+CODEX 2   relay 210   CLOSE THE TARGET-INDEPENDENCE SEAM. Does the corpus's
+                      "target-independent" mean INPUTS or SPECIFICATIONS? Plus the
+                      K_(1,3) target-aware premise at V011 :262-263.
+                      UNBLOCKS STEP 3.
+
+EINSTEIN  relay 211   IS "ONE OPERATOR" DERIVED OR IMPORTED? Tests the premise the
+                      six routes assumed rather than running a seventh route.
+                      FABLE. ADVANCES STEP 1.
+```
+
+---
+
+## THE STATE OF `B0` — SIX ROUTES, ONE STOPPING POINT
+
+```text
+Q-106  accessor      parked on the block, not around it
+Q-110  codomain      fixes a FIBER, not a point
+Q-111  primitive     reaches PRESENTATION STRUCTURE only
+Q-112  historical    never built, never superseded
+Q-113  joint         0/9 collapse . 3/9 shrink . 0/9 CONFLICT
+Q-114  incidence     NO ARROW -- incidence x B0 returns ZERO across all three roots
+```
+
+**Four were algebraic, one was not, all six stop at the same object.** *** TWO LANES RUNNING BLIND
+CONVERGED ON IT, WHICH IS THE STRONGEST EVIDENCE THE PROGRAM HAS THAT `B0` IS A GENUINE PHYSICAL
+OBLIGATION AND NOT A BOOKKEEPING ARTIFACT. ***
+
+**AND THE DEEPER FINDING: `B0` IS NOT MERELY UNBUILT, IT IS UNPINNED.** No test the corpus can run
+— and none in the sealed battery even after every named blocker lands — distinguishes a real `B0`
+from an object that does no work at all. **CM-3 survives even a combinatorially rich interior.**
+
+---
+
+## WHAT IS NOT CLOSED — TWO OPENINGS WITH NAMED RELEASE CONDITIONS
+
+```text
+N6 [TYPE-C]   BID_conditional_determination_route_credited = false
+              *** THE ROUTE EXISTS *** (:657-662, :709-710, :795-798).
+              Release: Gates 2/3/4 executed and passed -- ALL THREE NEVER RUN.
+              CONSTRAINT-BLOCKED IS NOT REFUTED. AN UNOPENED ROUTE, NOT A DEAD ONE.
+
+N4 limiter    the B0 spec NAMES THE SHAPE OF A CONSTRUCTION IT WOULD ACCEPT:
+              independently derived primitive dynamics + an explicit B0
+              construction witness.
+```
+
+*** NEITHER IS SCHEDULED. BOTH ARE CHEAPER THAN BUILDING `B0`. ***
+
+---
+
+## THE PREMISE UNDER TEST (relay 211)
+
+> ***`B0` IS ONE OPERATOR, IT EXISTS, AND THE CORPUS DETERMINES IT.***
+
+```text
+THE CORPUS DETERMINES IT   tested six times, six noes -- but this was never a requirement
+                           of the PHYSICS. It is a requirement of our METHOD. All six routes
+                           were ARCHAEOLOGICAL; none was constructive.
+IT EXISTS                  Q-95: no constructor AND no impossibility theorem.
+ONE OPERATOR               THE WEAKEST CLAIM. Never derived. Relay 211 tests it.
+```
+
+**The mechanism that makes this live:** OBS-08 — *a fixed point looks exactly like a cycle to a
+graph walker.* **All six routes walked the graph.** A graph-walker meeting a fixed point reports
+underdetermination every time, for structural reasons.
+
+---
 
 ## LEAD CONDITIONS TO CHECK FIRST IN EVERY RETURN
 
-- *** ANY CHAIN TERMINATING IN SOMETHING `derived = true`. *** Q-64 found the graph's **entire boundary
-  unbuilt**. The first chain reaching derived ground would be **the first floor this program has found.**
-- *** A CYCLE INSIDE THE PACKAGE FENCE (Codex 2). *** One of three places a cycle could still hide, and
-  Codex 2 is the only lane that can see inside. A cycle makes the program unfinishable rather than
-  unfinished.
-- *** THE "ONLY OVERDETERMINATION FORCES A NUMBER" PRINCIPLE BEING WRONG AS WRITTEN (Einstein item 1). ***
-  It has directed lane assignments for days. **The reviewer believes it is too strong and asked to be
-  attacked on it.**
-- **An alias merge creating a cycle** (Einstein item 2).
-- **Any of the six bridge objects or nine package items already existing under another name.**
+- *** DESCENT DEGENERATE (209). *** If distinct realizers give the same `C_record`, `B0`'s
+  underdetermination is **GAUGE, not a gap** — and six routes measured a quantity that does not act.
+- *** "ONE" DERIVED (211). *** Settles the premise the other way and clears the road's foundation.
+- *** THE TERM IS FIXED AND MEANS SPECIFICATIONS (210). *** A clean positive; this program has few.
+- **Any chain terminating in something `derived = true`.** Still none. The graph's entire boundary
+  is unbuilt.
 
-## THE WORK IS TWO WORKSTREAMS AND ONE RANK-1 OBJECT (Q-78)
+---
 
-```text
-LANES NOW
-  CODEX 1   relay 176   the rank-1 object: completed source-record-field CTP producer algebra
-  CODEX 2   relay 177   the C_R selector chain -- verify order, specify S4
-  EINSTEIN  relay 175   re-type the boundary by discharge route; resolve tau = 1
-```
+## STANDING DISCIPLINE
 
-*** RANK 1: THE COMPLETED SOURCE-RECORD-FIELD CTP PRODUCER ALGEBRA. *** The **only** object literally
-named by any of the eight releases (instance 5's: *"a derivation of the completed source-record-field
-algebra forcing this grading"*). **Discharges instance 6 as a corollary; advances 7, 8, 3 and weakly 4.
-Both of Q-74's wish-grade proofs root in it.** Construction is **extension-typed `NOT_SPECIFIED` with a
-named obstruction.** **This is where Q-42 started and it is still the centre.**
+- **Q-91 custody: NO LANE RUNS GIT. The reviewer is sole committer.** Lanes seal, mirror, report,
+  stop. Four attribution collisions caused this rule.
+- **Read the artifact, not the report.** Twice a lane's summary omitted a finding its own flag block
+  contained. Check every `= true`.
+- **Verify the seal against the stated hash before trusting content.** Then fence-scan.
+- **No unproved-identity transport.** A seal reaches what it names and no further — caught in relay
+  208 on the scoped `B_chi` TYPE-R, then repeated by the reviewer in chat.
+- **Rebaseline `corpus_check_baseline_v001.json` to ACTUAL after each commit and reseal via the
+  Write tool** — the classifier blocks shell redirects into the sidecar.
+- **Q-83: no relay is issued unless it names which step it advances, or the blockage it clears.**
 
-**WORKSTREAM 2 — `C_R = 1`.** Discharges **none** of the other seven, **but clears the ladder head
-dominating the ~64-debt mass** — maximum debt movement, zero clothing movement — **and is the most
-reachable of the eight: queue-grade, sealed order, S1 and S2 already specified as Q-52 test objects.**
+## PARKED — NOT ABANDONED
 
-*** THE LIVE POSSIBILITY WORTH WATCHING: S4 IS THE REFERENCE-SUBTRACTION / NO-SPECTATOR THEOREM, AND
-REFERENCE SUBTRACTION IS EXACTLY WHAT DISTINGUISHES BROWN-YORK-WITH-SUBTRACTION FROM MISNER-SHARP. IF S4
-DERIVES THAT IDENTIFICATION RATHER THAN CHOOSING IT, THE `sqrt(2)` FORK CLOSES WITHOUT BECOMING A SECOND
-SCALE-BEARING ADOPTION. ***
+The 32 `PATHLESS-CLAIMED` inventory (relay 181); the canonical identifier registry and the escalated
+alias `NO_VERDICT`s; the authority-edge modelling decision; the prose-extraction rule amendment
+(precision 1.000, recall 0.641, misses its own exemplar — **NOT ADOPTED**); the `B0`/P0 ordering
+question (relay 204, written, unsent). *** A PARKED ITEM IS UNPARKED ONLY BY SHOWING IT BLOCKS A
+STEP. ***
 
-**`tau = 1` MAY NOT BE A HOLE AT ALL.** Q-78 found the corpus names **no** discharge route — below
-wish-grade. **The principal's correction (relay 175): a node with no discharge path is TERMINAL, and
-terminal is what an axiom looks like.** **If `tau = 1` is a genuine unit convention the absence is correct
-and the eight becomes seven; if any dimensionless quantity depends on its value it is the worst instance,
-not the starkest hole.** **Open.**
-
-**THE 64-DEBT ROSTER IS PAID IN FULL** — response 39, selector 10, write 13, fourth-horn 1, each with a
-sealed-text citation. **The register may now cite it as a work list, not a count.**
-
-## TWO REVIEWER RULES WERE TESTED AND BOTH PARTLY FAILED (Q-79)
-
-- *** THE CYCLE-MANUFACTURE RATIONALE IS DEAD. *** 333 authority edges merged with 283 construction edges
-  gave **ZERO cycles.** `authority_cycle_manufacture_rationale_holds = false | TYPE-R`. **The semantic case
-  for separating them survives; the empirical case is gone.** **The authority-edge decision is the
-  principal's and now rests on semantics alone.**
-- **The prose rule scores precision 1.000, recall 0.641 — and MISSES ITS OWN MOTIVATING EXEMPLAR.**
-  `exemplar_caught_by_rule_as_written = false | TYPE-R`. **"`k_R` appears in the equation fixing `K_*`"
-  does not say `k_R` must exist BEFORE `K_*`.** *** A RULE REFUTED BY ITS OWN ORIGIN NEEDS AMENDMENT, NOT
-  ADOPTION — the fix is to add "appears in / enters / is carried by the expression that determines Y" as a
-  direction-bearing form, now justified by measurement rather than assertion. NOT YET ADOPTED. ***
-- **Q-75's reproducibility defect is CLOSED:** Q-64's original edge table never existed; a reconstructed
-  standalone machine-readable table is now committed.
-
-## STANDING CLAUSE — NEW TERRITORY (Q-80)
-
-**Included verbatim in every relay from 176 onward.** If something fits no available class, **name a new
-one** — do not force it, do not call it a corpus defect, do not dispose of it with `NO_VERDICT`. **A
-category that had to be invented is a finding.** `NO_VERDICT` = information missing; **NEW CLASS =
-categories wrong.** **Imported standards get the same scrutiny as corpus claims.**
-
-*** THE EVIDENCE: THREE IMPORTED FRAMINGS FAILED ON 2026-07-31, ALL THREE THE REVIEWER'S, ONE REGISTERED
-THREE TIMES BEFORE THE PRINCIPAL CAUGHT IT. ***
-
-## HOW TO READ THE SLOT COUNTS — A CORRECTION
-
-`0 of 18` and `0 of 11` measure **derived slots** and nothing else. **They are not a measure of progress and
-must not be reported as one.** On 2026-07-30 they did not move while the program established that it has
-exactly one unselected absolute scale, eliminated exhaustion as a method, found that its chartered target
-could not be started, specified an object that did not exist, and measured its conditionality for the first
-time. **A day can move everything that matters and leave these two numbers untouched.**
-
-## WHAT WOULD ACTUALLY MOVE IT
-
-1. **The correlator-to-Hessian map** — Codex 2, running. If it exists under another name, the blocking
-   layer shrinks.
-2. **A test for `C_R = 1`** — designable (paste 154) but gated on the unstartable object. **Circular until
-   the response layer exists.**
-3. **Overdetermination, not exhaustion** — Q-56 established exhaustion over an adopted stack forces
-   nothing. **Nobody has specified what overdetermination would have to look like here.** That is the open
-   methodological question and it is Codex 1's likely next item.
-
-## STANDING FACTS THAT DO NOT CHANGE WITH FINDINGS
-
-- Permissions compose and never force a number. **Only overdetermination does.**
-- The log divergence IS the coupling, not a defect.
-- `alpha = 1/(4 pi kappa_Thomson)`; `alpha_micro = 1/(4 pi K_*)`.
-- **Only TYPE-R negatives are physical content** (Q-54). TYPE-U/S/C are work-state.
-- Every adoption carries its test or is marked untested (Q-37).
-- Done means SEALED, MIRRORED, COMMITTED, AND PUSHED.
-
-## PRIOR BOARD STATE — 2026-07-29 AND EARLIER, PRESERVED
-
-================================================================================
-PHASE A COMPLETE AND VERIFIED (2026-07-29), corpus_check GREEN, deployed 8638ee5. All 9 items
-(A1 seals/authority-currency/deploy · A2 evaluator field name · A3 `--subjects` file · A4 battery
-evaluator seal+repair · A5 predictions.json enforcement · A6 T15 fence widening · A7 census
-fingerprint path · A8 cannot-fail detector · A9 slot-to-status map) DONE; reviewer re-ran the
-checker and the `-O` comparison independently.
-DONE THAT DAY: A32 ratified (4 rulings) · A32 universe collected, 355 candidates, masked ·
-record-integrity ruled (git not keys) + auto-push hook + deploy_status · C4 clause-scoped strike
-+ 5 riders · conventions C1-C5 ratified · authority-chain precedence ruled · Q1 preregistration
-encoding precedence ruled · gravity evidence register written and sealed · five-strata binding
-recorded · corpus_check.py built and verified under `-O` · 223 bounded negatives re-scoped
-(99 hold, 51 narrower, 39 wrong) · V008 built on the 18-slot spine.
+alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
