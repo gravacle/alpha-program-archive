@@ -69,6 +69,37 @@ uniqueness, if a continuous family survives, if a second inequivalent positive r
 uniqueness is obtained only by narrowing the admitted family after seeing the root.** And the root is
 **solved once and independently reproduced** — freeze-before-root-finding.
 
+## THREE MISSING BRIDGES, NOT TWO — AND THEY ARE NOT PARALLEL (Q-73)
+
+```text
+1  HAMILTON-JACOBI SCALE BRIDGE   six Q-59 objects; lets C_R = 1 actually select
+2  RESPONSE-EXTRACTION LAYER      package -> map -> Gamma_K; gives C_record(K) a function
+3  T_R -> k_R BRIDGE              connects the selected scale to the equation fixing K_*
+                                  *** T_R_and_k_R_have_derived_bridge = false ***
+```
+
+*** THE REVIEWER TOLD THE PRINCIPAL BRIDGES 1 AND 2 COULD BE WORKED IN PARALLEL. THAT WAS WRONG. ***
+Q-64 found the chains share zero nodes **on stated `would-build` edges**, and Einstein warned in the same
+breath that this proved **nobody had STATED a shared prerequisite, not that the physics was independent.**
+
+**The physics is not independent, and the corpus says so twice.**
+`STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001.md:64-67`: the closure residual is built from an action carrying the
+`A_4` logarithm, **"so `k_R` — the floor — appears in the equation that fixes `K_*`."** **A logarithm needs
+a reference scale.** And the connector is named and absent: `T_R_and_k_R_have_derived_bridge = false`.
+
+*** GENERAL DEFECT: THE DEPENDENCY GRAPH CAPTURES ONLY `would-build` EDGES. Real dependencies also live in
+prose and in `*_have_derived_bridge = false` flags. NO PARALLELISM CLAIM IN THIS REGISTER IS SAFE UNTIL
+THOSE ARE EXTRACTED — relay 172 is doing that now. ***
+
+## NAME-MATCHING: THE REGISTER ITSELF GOT BITTEN (Q-71 correction)
+
+`constant_root_uniqueness_derived = false` is **NOT** the threshold's obligation. It is uniqueness of the
+**constant root PREPARATION against all admitted preparation sectors** — a source-state question in the
+causal-diamond spectral pullback. **The reviewer matched on the word "root."** The threshold's actual
+obligations are **`root_solved = false`** plus **§5.3's uniqueness gate**, and neither existence nor
+uniqueness is earned. **The substring failure mode has now produced false positives in the corpus, in an
+audit script, in the audit of the audit, and in the register.**
+
 ## THE ROUTE, RESTATED
 
 ```text
