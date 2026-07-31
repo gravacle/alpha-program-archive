@@ -5176,6 +5176,74 @@ protection theorem — and for a BVP residual that is the more natural route. **
 
 ---
 
+## Q-126. "Does anything close `beta` — the record cell's internal/external conversion?"
+
+*** RULING: NOTHING CLOSES — AND THE SURFACE DESCRIPTION SAYS WHY IN ONE SENTENCE. *** Established
+2026-07-31 by Einstein under relay 217
+(`STAGE8_RECORD_CELL_SURFACE_AND_BETA_CLOSURE_HUNT_EINSTEIN_V001.md`, `04c10c0d…`, 284 lines, seal
+verified, fence-clean). *** ALL FOUR ADVERSARIAL VERIFIERS RETURNED **CONFIRMED** — CITATION-SPAN
+CORRECTIONS ONLY. THE FIRST TIME IN THIS PROGRAM'S RECENT HISTORY. ***
+
+> *** OF THE THIRTEEN SEALED INTERFACE QUANTITIES ON THE RECORD CELL, **EVERY JUNCTION THAT IS DERIVED
+> IS `beta`-INVARIANT, AND EVERY JUNCTION WHERE `beta` COULD APPEAR IS ADOPTED, GAP, OR UNBUILT. NO
+> JUNCTION IS SIMULTANEOUSLY DERIVED AND `beta`-SENSITIVE.** ***
+
+**THE SURFACE, BOTH GEOMETRIES ON ONE OBJECT — THE DIAMOND FINALLY CONSULTED.**
+
+```text
+INTERNAL   the projective record degree; Fubini-Study (imported convention, dimensionless only);
+           *** THE DERIVED UNIQUE COUNTING METRIC -- SO THE INTERNAL NORMALIZATION IS FULLY PINNED.
+           THE WHOLE CONVERSION FREEDOM SITS AT THE JUNCTION. ***
+           Phase period 2 pi hbar; marker DeltaS_record = pi hbar = 2 J_FS, an ACTION, with the
+           non-identifications sealed.
+EXTERNAL   R_R = c T_R / 2; the adopted C_R = 1 selector; sealed diamond volumes; Omega_c with
+           uniqueness open; the null edge's sealed failure as a selector.
+           *** causal_diamond_shape_derived = true -- THE SHAPE IS DERIVED; THE CONVERSION IS NOT. ***
+```
+
+**THE DECISIVE EXECUTED RESULT — RUN INDEPENDENTLY BY ATTACKER AND VERIFIER, IDENTICAL OUTCOME.** The
+corpus's **own named locus** is `beta`-**invariant AS-TYPED**: its sealed closure form
+`F(T_R/t_P, dimensionless branch data) = 0` **contains no fiber radius**, so under V002's `R -> beta R`
+map **every member of the `beta` family passes identically.**
+
+*** SO EVEN COMPLETING THE PROGRAM'S OWN NAMED F-EQUATION WOULD FIX THE DIAMOND AND LEAVE `beta`
+FREE. *** Sealed corroboration that this is a **non-implication, not an oversight**: **Q-08 — deriving
+`T_R` absolutely does NOT reopen the fiber question.** Two independent routes, same conclusion.
+
+**WHAT WOULD ACTUALLY FIX IT, NOW SPECIFIED:** *** A JOINT SADDLE SYSTEM OVER `(T_R, rho = R_*/ell_P)`
+WITH **BREATHING AND SQUASHING MODES** — AND NO SEALED SENTENCE PERFORMS THAT JOIN (proximity sweep:
+ZERO HITS). *** Requirements **C1–C8**, including the Q-65/Q-76 require bar with singly-attested
+disclosure; `beta`-degeneracy breaking by parameter count; **radion stabilization against
+electromagnetic stress**; typed escapes from all four no-gos; mutation-obstruction survival; native
+internal/external typing that **closes rather than touches**; target-independent fork-declared
+provenance (**a quasilocal-energy-consuming requirement is a silent Misner-Sharp/Brown-York choice and
+must be flagged** — the brief seals the sanctioned path: **deciding the `E_ref` fork by derivation is
+what Stage 10 is for**); and **C8 JOINTNESS**, sealed at V002: *"the complete parent action class,
+radion stabilization, spectrum, and matching rule must be derived together."*
+
+*** `beta` IS A RADION AND THIS IS RADION STABILIZATION — A RECOGNIZABLE KALUZA-KLEIN MODULI PROBLEM
+WITH KNOWN MACHINERY, NOT AN EXOTIC ONE-OFF. THE CORPUS NAMED THE FIXER'S SHAPE **TWICE
+INDEPENDENTLY** — the coupled gravity-record stationarity equation and the cross-sector metric rule —
+**AND BUILT NEITHER.** ***
+
+**Candidates: non-empty, every member adopted or unbuilt.** Twelve-candidate closure sweep executed
+with a **withheld-closure hunt run and empty**. Nine typed negatives, two executed TYPE-R. Overlay
+audit (the Q-11 hazard): **PASS** — every internal/external typing native to its cited text.
+
+**PATH CORRECTION:** the register's citation of the Stage-10 brief is **stale**; the file resolves at
+the archive's `cleanroom_output/` — **outside the workspace subtree the lane's own agents sweep.**
+Verified with sidecar. *** A SUBTREE THE SWEEPERS DO NOT ENTER IS THE SAME FAILURE CLASS AS
+`reference_search_the_whole_program`. ***
+
+**N8 → PRINCIPAL AMENDMENT 002.** `cross_sector_spec_falsifier_battery_executable = false | TYPE-C`.
+The cross-sector spec's live falsifier battery **still embedded the struck overdetermination bar** —
+F3 `:265-267` and minimal-pass item 3 `:292`. *** A `beta` CANDIDATE SCORED AGAINST F3 AS WRITTEN
+WOULD HAVE BEEN WRONGLY KILLED — BY A SPEC WHOSE OWN DELIVERABLE IS `beta`. *** Amended by
+`PRINCIPAL_AMENDMENT_002_OVERDETERMINATION_BAR_STRUCK_EVERYWHERE_2026-07-31_V001.md` (`f1c50042…`).
+**Reported, not repaired — correctly.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
