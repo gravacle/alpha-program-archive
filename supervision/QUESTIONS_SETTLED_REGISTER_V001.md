@@ -3610,6 +3610,46 @@ specification. It cannot run, and every blocker is named.**
 
 ---
 
+## Q-88. "Does the sealed counting fact decide the `tau` pin?"
+
+*** RULING: IT CONSTRAINS THE BOTTOM BUT DOES NOT DECIDE ISOLATION. `N_BR(k_R) = 1` IS CARDINALITY, NOT
+CONVENTION — IT REQUIRES A ONE-DIMENSIONAL PUBLIC BOTTOM ONCE THE TRACE AND QUOTIENT ARE DERIVED. *** But
+`counting_fact_decides_isolation = false | TYPE-U`. Established 2026-07-31 by Codex lane 1 under relay 185
+(`STAGE8_COMPLETE_PUBLIC_DBR_LBR_SPECTRAL_THEOREM_SPEC_V001.md`, `a751b72c…`, 492 lines, seal verified,
+gate GREEN).
+
+**The sealed force, at `:85-89`:** *"`N_BR(k_R)=1` is not merely a label: the capacity principle requires
+the first ... quotient Hilbert space whose lowest public eigenspace is one-dimensional."* With
+
+```text
+N_BR(k) = Tr_BR 1_[0,k^2](D_BR^2)
+N_BR(k) = 0   for k < k_R
+```
+
+*** SO THE BOTTOM CARRIES EXACTLY ONE PUBLIC COUNTED MODE AT `k_R`. THAT IS A REAL CONSTRAINT AND IT WAS
+SITTING IN THE CORPUS UNUSED. *** **It does not settle whether that bottom is ISOLATED, and isolation is the
+whole pin.** **The would-build stands: a complete public `D_BR`/`L_BR` spectral theorem with derived
+quotient trace and spectral type.**
+
+*** AND THE ROAD STAYS PARALLEL: `spectral_theorem_depends_on_producer_algebra = false | TYPE-S`. BODY 2
+DOES NOT SIT BEHIND BODY 3. *** The relay asked precisely this, warning it would make the road more
+sequential than Q-85 recorded. **It does not.**
+
+**`theorem_proof_reachable_now = false | TYPE-U`** — *** THE STATEMENT IS REACHABLE NOW; THE PROOF IS NOT.
+*** The theorem can be written down today and cannot be established today, which is the honest form of a
+Q-52 specification.
+
+**The lane also confirmed the Q-84 correction independently: the theorem concerns the complete public
+`D_BR^2`/`L_BR` spectrum, NOT the non-return operator.** **The operator misidentification is now checked
+twice.**
+
+**PROCESS NOTE, SHARED-TREE:** commit `e299225` auto-included the relay-186 supervision paste and rewrote
+its own title; the lane did not inspect those contents. **The reviewer authored the swept-in files, so
+nothing is lost — but this is the shared-index collision channel again**, and it is the third instance.
+**Per-lane worktrees remain the unimplemented structural fix.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
