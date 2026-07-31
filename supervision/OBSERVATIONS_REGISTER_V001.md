@@ -396,6 +396,84 @@ level. **The scope qualifier is load-bearing.**
 
 ---
 
+## OBS-10. THE TWO ROUTES ARE THE INSIDE AND OUTSIDE VIEWS OF ONE SURFACE — SO `beta` IS THE DICTIONARY, AND THEIR AGREEMENT IS A CONDITION ON IT
+
+**Status: UNCLAIMED. Recorded 2026-07-31 by the reviewer. *** ORIGINATED WITH THE PRINCIPAL, NOT WITH
+ANY LANE *** — from the question: *"Are the routes two different views of reality? Because there is
+only one record surface."***
+
+### The derivation, step by step, with what is sealed and what is inferred
+
+```text
+1  SEALED.  ONE RECORD CELL CARRIES BOTH STRUCTURES -- a causal diamond bearing a primitive
+   projective record degree -- AND BOTH CONSTRUCTIONS AGREE THAT OBJECT EXISTS.
+   (Q-126, relay 217, all four adversarial verifiers CONFIRMED.)
+   *** THIS IS WHY beta WAS ATTACKABLE AT ALL: unlike every route that died for want of a
+   bridge, THERE IS NOTHING TO CONNECT -- IT IS ONE THING. ***
+
+2  SEALED.  The threshold route's residual is  C_record(K) = DeltaPhi[K;X_K] - pi.
+   *** DeltaPhi IS A PHASE: DIMENSIONLESS, INTERNAL, AN ANGLE. ***
+   And pi is DERIVED -- the first orthogonality value of the primitive two-character U(1)
+   record map (Q-125).
+
+3  SEALED.  The geometric route expresses alpha as A RATIO OF LENGTHS -- ell_P to a bundle
+   fiber radius. EXTERNAL, LORENTZIAN.
+
+4  SEALED (definition).  beta IS the conversion between internal angle and external length.
+   The record cell's inside is projective/Fubini-Study, dimensionless; its outside is the
+   Lorentzian causal diamond, lengths; NOTHING SAYS HOW MUCH EXTERNAL LENGTH CORRESPONDS TO
+   ONE UNIT OF INTERNAL ANGLE (Q-126).
+
+5  INFERRED.  *** THE THRESHOLD ROUTE IS THE SURFACE DESCRIBED FROM THE INSIDE. THE GEOMETRIC
+   ROUTE IS THE SAME SURFACE DESCRIBED FROM THE OUTSIDE. beta IS THE DICTIONARY BETWEEN THEM. ***
+   This is not an analogy -- it follows from 2, 3 and 4 being about the same object by 1.
+
+6  INFERRED, AND THIS IS THE OPERATIONAL CONTENT.  *** IF ONE SURFACE HAS AN INSIDE DESCRIPTION
+   AND AN OUTSIDE DESCRIPTION AND beta IS THE ONLY THING RELATING THEM, THEN REQUIRING BOTH
+   DESCRIPTIONS TO YIELD THE SAME alpha IS **A CONDITION ON beta**. ***
+   NOBODY HAS WRITTEN THAT CONDITION DOWN.
+```
+
+### Why this shape may survive where every prior candidate failed
+
+*** EVERY `beta` CANDIDATE SO FAR HAS DIED THE SAME DEATH: IT **TOUCHED** BOTH GEOMETRIES WITHOUT
+**CLOSING**. *** `boundary_access_closure_threshold_principle_v001.md` touched both and was retired as
+`CELL_CONSTRAINT_ONLY`; the joint saddle system (Q-130) reproduced that failure and said so.
+
+**A consistency requirement between two COMPLETE descriptions is a different object from a term that
+merely mentions both.** It **constrains** rather than **relates**. *** THAT IS A REASON TO TEST IT, NOT
+A REASON TO BELIEVE IT. ***
+
+### What it corrects, in this register
+
+*** Q-134 ESTABLISHED THAT THE TWO RESPONSE LAYERS ARE **DIFFERENT OBJECTS** — different carriers,
+probes, domains, output types, and **no sealed identity, restriction, projection or completion
+relation.** THAT RULING IS CORRECT AS STATED AND PREVENTED A REAL CONFLATION. ***
+
+*** BUT IT IS INCOMPLETE AS A CONCLUSION. IF THERE IS **ONE** SURFACE, THEN THE **ABSENCE** OF ANY
+RELATION BETWEEN TWO DESCRIPTIONS OF IT IS NOT A TIDY SEPARATION — IT IS A **MISSING MAP, AND AN
+OBLIGATION NOBODY HAS DISCHARGED.** Two descriptions of one object owe a compatibility statement. ***
+
+### Honest limits
+
+- **Neither description is complete**, so the consistency condition **cannot be RUN**. It may be
+  **writable symbolically**, and writing it is what nobody has done.
+- **It must CLOSE, not touch.** The standing bar (Q-65/Q-76, `PRINCIPAL_AMENDMENT_002`): a require
+  whose **existence and uniqueness are both derived**. A condition that admits a one-parameter family
+  after being imposed has not closed.
+- **Step 5 is an inference, not a seal.** If the corpus somewhere denies that the two routes describe
+  the same surface, **that denial defeats this and must be looked for first.**
+
+### Standing note
+
+*** THIS PROGRAM'S BEST LEADS HAVE REPEATEDLY COME FROM THE PRINCIPAL QUESTIONING A FRAMING RATHER
+THAN FROM A LANE EXECUTING ONE. "The work is to describe the surface" redirected a day of hygiene into
+the physics; "we know what the number is" reframed target-blindness from ignorance to unusable-input;
+and this observation exists because "there is only one record surface" was asserted against two labels
+the reviewer had invented. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **When a candidate fails, ask which kind of failure it is.** A theorem foreclosing it is a refutation and

@@ -5643,6 +5643,107 @@ IT CANNOT DO. ***
 
 ---
 
+## Q-135. "Is the Stage-10 geometric matching layer built?"
+
+*** RULING: NAMED AND PARTIALLY SCOPED; THE MATCHING MAP ITSELF EXISTS NOWHERE.
+`stage10_matching_map_derived = false | TYPE-S`, swept across `cleanroom_output` plus workspace and
+program roots. *** Established 2026-07-31 by Codex lane 2 under relay 229
+(`STAGE8_STAGE10_GEOMETRIC_MATCHING_LAYER_SCOPE_V001.md`, `443466a7…`, 48 lines, seal verified,
+fence-clean, no `= true`). **No branch chosen.**
+
+```text
+causal-diamond geometry                       DERIVED          <-- a real asset
+K_(1,3) skeleton and cell conventions         named, *** EMBEDDING MAP ABSENT ***
+pre-frozen predictions                        required before computation
+public response / Ward-causal test / matching condition   NOT constructed, NOT typed
+
+stage10_matching_map_derived      = false | TYPE-S
+E_ref_deciding_increment_present  = false | TYPE-U
+E_ref_fork_resolved               = false | TYPE-C
+```
+
+**THE DELIVERABLE IS THE MINIMAL BUILD, AND IT IS NOW CONCRETE:** *a pre-root geometric matching
+functional on the causal diamond and embedded skeleton, with **both `E_ref` branches represented**,
+explicit domain/codomain, Ward/causal tests, and a derivation proving one branch forced.*
+
+*** THE SCALE SIDE HAS GONE FROM "STAGE 10 WILL DECIDE IT" — A PLACEHOLDER — TO A BOUNDED, NAMED BUILD
+TARGET. And the design carries its own anti-fit discipline: BUILD THE FUNCTIONAL CARRYING **BOTH**
+BRANCHES, THEN DERIVE WHICH IS FORCED. ***
+
+**OPEN AND NOT TO BE TRANSPORTED:** Q-114 recorded `K_(1,3)` as *"designated by target-aware premise,
+gate unpassed."* **Gate 2's result in `cleanroom_output/` reads "r = 3 Is a Theorem; the accounting is
+exact"** (Q-127). Same object superseded, or two different things? **If `r = 3` is a theorem, the
+skeleton the embedding needs is on far firmer ground than the register says.** *** UNTESTED. NAMED. ***
+
+---
+
+## Q-136. "What is held fixed under `R -> beta R`, and in which frame?"
+
+*** RULING: THE FRAME LEAD IS **REFUTED** — `beta` IS FRAME-INVARIANT. AND THE HELD-FIXED RULE IS NOT
+MERELY UNSTATED: **THE CORPUS HAS ALREADY MADE THE CHOICE, SILENTLY.** *** Established 2026-07-31 by
+Einstein under relay 224 (`STAGE8_HELD_FIXED_AND_FRAME_DETERMINATION_EINSTEIN_V001.md`, `5199a3db…`,
+237 lines, seal verified, fence-clean, no `= true`). **Twelve typed negatives; five corrections folded,
+four against this lane's own prior work.**
+
+**THE FRAME QUESTION IS DEAD, AND ONE SEALED LINE SETTLES IT** — precisely because it displays both
+quantities at once:
+
+```text
+ds_5^2 = g_mu-nu dx^mu dx^nu + R^2 (d-theta + A_mu dx^mu)^2
+```
+
+*** `R` IS A PROPER RADIUS IN THE FIBER BLOCK AND `c Delta tau` A PROPER INTERVAL IN THE BASE BLOCK —
+**OF THE SAME METRIC**. THERE IS NO SECOND METRIC ON THE LINE, SO `beta` IS A DIMENSIONLESS INVARIANT
+OF ONE FIVE-GEOMETRY. A FRAME CHOICE DOES NOT SUPPLY THE CONVERSION, AND NO `beta` DERIVATION IS
+CIRCULAR FOR WANT OF A FRAME DECLARATION. R7 IS WITHDRAWN AS STATED. *** What survives is
+sector-limited: **the frame ambiguity is real once `R` is dynamical** — which is exactly where the
+joint-saddle posing lives.
+
+**SCOPE CORRECTION, THE LANE'S OWN:** relay 221's *"zero hits corpus-wide"* for Weyl/Jordan/Einstein
+**had been taken over two files only.** Re-run properly corpus-wide, `"Weyl rescaling"` = 2 hits, **both
+the lane's own**; every other `Weyl` use is carriers, spinors, determinants, or the BCC walk. *** THE
+NEGATIVE SURVIVES; THE CONCLUSION BUILT ON IT DID NOT. ***
+
+**N4 SPLITS — the reviewer's flat framing was wrong:**
+
+```text
+PARENT LEVEL    *** UNSTATED, AND MORE COMPLETELY THAN PREVIOUSLY RECORDED. ***
+                the 5d gravitational normalization HAS NO NAME IN THIS CORPUS -- every
+                G_5 / kappa_5 / M_5 hit is a guardrail, a gamma-5 matrix, an M5 milestone,
+                or a GUT coupling.  "circumference": ZERO hits corpus-wide.
+                *** ell_P IS NEVER DEFINED ANYWHERE, IN ANY ROOT. ***
+                "dimensional reduction" is asserted EXACTLY ONCE.
+                THE REDUCED ACTION IS A WRITTEN-DOWN RESULT WITH NO WRITTEN-DOWN DERIVATION
+                AND NO WRITTEN-DOWN PARENT NORMALIZATION.
+REDUCED LEVEL   stated and uniform -- ell_P held fixed.
+```
+
+*** AND THE FINDING THAT IS WORSE THAN "UNSTATED": THE CHOICE HAS ALREADY BEEN MADE, SILENTLY. ***
+**The over-determination is structural and was confirmed without evaluating any prefactor:** both
+displayed terms descend from **one 5d density over one fiber whose extent is set by `R`**, so an
+`R`-independent 4d Einstein-Hilbert coefficient is possible **only if `ell_P` absorbs the fiber
+extent.** *** HOLDING BOTH FIXED IS OVER-DETERMINED. THE CORPUS RESOLVES IT BY DISPLAYING THE REDUCED
+FORM WITH `ell_P` CONSTANT AND NEVER SAYING SO. ***
+
+*** THAT IS AN UNDERIVED ADOPTION SITTING **BENEATH** THE SEALED `beta^2` AND EVERY WEIGHT DOWNSTREAM.
+AND UNDER THE CORRECTED BAR, AN ADOPTED HELD-FIXED RULE CANNOT FORCE A NUMBER. ***
+
+**AN INTEGRITY FINDING, NEW AT SOURCE AND IN NEITHER PRIOR RELAY:** V001 wrote the same reduction with
+`G_4` — a **four**-dimensional Newton constant — and said it *"reduces **schematically** to."* **V002
+replaced `G_4` with `ell_P^2` of the same shape, DELETED THE WORD "SCHEMATICALLY," and wrote
+"dimensional reduction gives."** *** AN EPISTEMIC STRENGTHENING WITH ZERO ADDED DERIVATION. A HEDGE WAS
+REMOVED WITHOUT ANYTHING BEING PROVED. ***
+
+**THE RELAY'S OWN §2.3 PREMISE IS REFUTED:** N4 and the frame are **separate** questions, because the
+single written line is **degenerate between two unstated stipulations** — `ell_P` fundamental, **or** an
+`R`-dependent Weyl rescaling silently applied. **Two unknowns, one equation.**
+
+**A COST THE BRIEFING ASSERTED IS ALSO REFUTED:** Branch B does **not** make the orbit unphysical —
+`beta` moves along it at fixed base metric. *** N4 GOVERNS THE **WEIGHTS ALONG** THE ORBIT, NOT WHETHER
+THE ORBIT EXISTS. *** **Branches priced, neither chosen.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
