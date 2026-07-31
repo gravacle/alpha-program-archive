@@ -3363,6 +3363,48 @@ especially when a question seems obvious. Q-70's malformed floor question seemed
 
 ---
 
+## Q-81. "What kind of object is the rank-1 producer algebra?"
+
+*** RULING: IT IS NOT AN EXTENSION AT ALL. `pure_algebraic_extension_class_sufficient_for_rank1_object =
+false | TYPE-R` — AN EXECUTED REFUTATION. A NEW CLASS WAS REQUIRED AND IS NAMED:
+`COMMON_ORIGIN_CTP_PRODUCER_ALGEBRA`. *** Established 2026-07-31 by Codex lane 1 under relay 176
+(`STAGE8_RANK1_CTP_PRODUCER_ALGEBRA_Q52_SPEC_V001.md`, `e191d379…`, archive `ea947e6`, gate GREEN).
+
+*** THIS IS Q-80's FIRST USE AND IT FIRED CORRECTLY. *** The lane declined to force the object into
+tensor / crossed-product / direct-limit / C*-extension language and **named a class instead.**
+
+**THE NEW CLASS:** one microscopic source-record-field CTP producer package carrying, **from a common
+origin**, the algebraic carrier, the source and record embeddings, the quotient and measure, `rho_pre`,
+effects and domains, dynamics, and the raw contour-correlator interface.
+
+**WHAT IT RESISTS ABOUT THE OLD CLASSES, IN THE LANE'S WORDS:** *"the old classes can classify how algebras
+are joined, but they do not by themselves supply `rho_pre`, record effects, the physical quotient, the
+invariant contour/spacetime measure, common domains, CTP branch data, or the source-record-field
+dynamics."* *** "A PURE TENSOR/CROSSED/DIRECT-LIMIT ANSWER CAN THEREFORE PASS AN ALGEBRAIC RELATION TEST
+WHILE STILL FAILING THE PRODUCER OBLIGATION." ***
+
+**AND IT IS PROPERLY CONSTITUTED UNDER Q-80: "a new class, not a relaxation," falsifiable — a candidate
+fails it by lacking any required common-origin component or by failing its tests.**
+
+*** SO A FOURTH IMPORTED FRAMING HAS FAILED. *** For two days this was posed as an **extension problem** —
+Q-42 asked which extension type, Q-43 answered "graded tensor product at base level," Q-50 and Q-51 chased
+the layer. **The full object is none of them.** **The question "which extension is it?" was malformed, in
+exactly the way Q-70's floor question was malformed**, and Q-80 caught it on first application.
+
+**SPECIFIED, NOT CONSTRUCTED:** premises P0-P7, `derived = false`, with failure-capable tests T1-T7 —
+source compatibility, record compatibility, CTP/field signature, common-origin state and effects,
+dynamics/normalization, raw-output interface, and **new-class membership.**
+
+*** AND IT WEAKENED EINSTEIN'S Q-78 RANKING, AS INSTRUCTED. *** Q-78 claimed the rank-1 object "advances 7,
+8, 3, and weakly 4." **Codex 1 reports instance 5 directly, instance 6 as a corollary, and instances 3, 4,
+7, 8 ONLY AT INTERFACE LEVEL**, with 1 and 2 not advanced. **The relay told it to disagree with the ranking
+if the evidence said so, and it did.** **The dominance claim survives in reduced form.**
+
+**THE FIVE-SPELLINGS `NO_VERDICT` IS PRESERVED, NOT MERGED** (Q-78 N5). The working spelling is recorded
+and **Q-69 held.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
