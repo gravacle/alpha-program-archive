@@ -4555,6 +4555,44 @@ the historical route. The joint-constraint and incidence routes remain open.**
 
 ---
 
+## Q-113. "Does the joint constraint system determine `B0`?"
+
+*** RULING: NO — `joint_system_determines_B0 = false | TYPE-R`. THE FIBER SHRINKS AND DOES NOT COLLAPSE.
+*** Established 2026-07-31 by Codex lane 1 under relay 206
+(`STAGE8_B0_JOINT_IPRIM_CODOMAIN_CONSTRAINT_SYSTEM_V001.md`, `b765965f…`, 443 lines, seal verified,
+mirrors byte-identical).
+
+*** THE SLOT TABLE, WHICH IS WHAT THE RELAY DEMANDED: **0/9 COLLAPSE · 3/9 SHRINK · 0/9 CONFLICT.** ***
+
+```text
+SHRUNK   production codomain
+         presentation / unit constants
+         the formal CTP representation layer
+
+OPEN     type · arity · intrinsic domain/codomain · dynamical parameters
+         carrier/core · physical representation · descent maps · equivalence relation
+```
+
+**Residual fiber: `IprimPresentedCodomainCompatibleBoundaryOriginRealizer`.**
+`B0_constructed_from_joint_system = false | TYPE-C` — missing a concrete candidate, a uniqueness theorem or
+selector, full candidate property tests, and an independently failed adversarial countermodel.
+
+*** `0/9 CONFLICT` IS A QUIET POSITIVE AND SHOULD BE RECORDED AS ONE. The relay asked deliberately whether
+`I_prim` fixes a slot one way while the codomain constraints require another, and said such an
+inconsistency would outrank everything else on the board. **THERE IS NONE. THE CORPUS IS CONSISTENT WHERE
+THE TWO ROUTES OVERLAP.** ***
+
+*** AND THE SHAPE OF WHAT REMAINS IS THE FINDING. THE THREE SLOTS THAT SHRANK ARE EXACTLY THE PRESENTATION
+LAYER — codomain, units, formal representation. THE SIX STILL OPEN ARE THE STRUCTURAL AND PHYSICAL CONTENT:
+TYPE, ARITY, DOMAIN, CARRIER/CORE, **DESCENT MAPS**, AND THE EQUIVALENCE RELATION. ***
+
+**THE ALGEBRAIC ROUTES HAVE NOW SHRUNK EVERYTHING THEY CAN REACH, AND WHAT THEY CANNOT REACH IS PRECISELY
+THE COMBINATORIAL DATA A BOUNDARY OPERATOR'S INCIDENCE STRUCTURE WOULD FIX.** *** THAT SETS UP RELAY 208
+EXACTLY: FOUR ROUTES HAVE CLOSED — ACCESSOR (Q-106), PRIMITIVE (Q-111), HISTORICAL (Q-112), AND NOW JOINT
+(Q-113). ALL FOUR WERE ALGEBRAIC. THE ONLY ROUTE STILL OPEN IS THE ONLY ONE THAT IS NOT. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
