@@ -5088,6 +5088,94 @@ THIS PROGRAM. A COMPLETENESS CLAIM OVER AN INVENTORY IS ONLY AS GOOD AS THE SWEE
 
 ---
 
+## Q-124. "What are the open action-form classes, concretely?"
+
+*** RULING: THREE, AND THEY ARE NOW NAMED. *** Established 2026-07-31 by Codex lane 2 under relay 216
+(`STAGE8_OPEN_ACTION_FORM_MEMBER_MANIFEST_V001.md`, `e042f0aa…`, 59 lines, seal verified, fence-clean, no
+`= true`).
+
+```text
+CONCRETE ADMITTED   S_0, S_1 -- admitted action-partition mutations
+SCHEMATIC OPEN      1. higher-derivative source terms          UNDECIDABLE | TYPE-U
+                    2. different finite causal updates         UNDECIDABLE | TYPE-U
+                    3. record-curvature / dissipative mutations UNDECIDABLE | TYPE-U
+
+open_class_cardinality      = NO_VERDICT | TYPE-U
+action_form_manifest_complete = false | TYPE-C
+Section53_census_frozen     = false | TYPE-C   (the freeze is a separate act; not performed)
+```
+
+**All ledger fields beyond class name are MISSING for the three.** *** THE LANE DID NOT CLAIM
+COMPLETENESS AND DID NOT FREEZE — BOTH EXPLICITLY REQUIRED BY THE RELAY, BOTH HONOURED. ***
+
+*** REVIEWER FRAMING WITHDRAWN. The relay asked the lane to ENUMERATE the family. CLASS 1 IS AN INFINITE
+TOWER — that is what a non-renormalizable gravitational effective action looks like, not a defect.
+DEMANDING A FINITE LIST WAS A BOOKKEEPING STANDARD IMPORTED WHERE PHYSICS HAS BETTER MACHINERY. The
+question is not "how many members" but "does the tower move the answer." ***
+
+---
+
+## Q-125. "Is the `DeltaPhi = pi` threshold protected against the higher-derivative tower?"
+
+*** RULING: SPLIT, AND THE SPLIT IS THE FINDING. **`pi` IS PROTECTED AND DERIVED. THE FUNCTION COMPARED
+TO IT IS NEITHER.** *** Established 2026-07-31 by Codex lane 1 under relays 218 + 219
+(`STAGE8_DELTAPHI_PI_PROTECTION_DETERMINATION_V001.md`, `031eb087…`, 463 lines, seal verified,
+fence-clean).
+
+**THE POSITIVE, AND IT IS REAL CONTENT — WE NOW KNOW WHY IT IS `pi`:**
+
+```text
+primitive_phase_record_map_derived            = true
+first_orthogonality_target_pi_protected       = true
+DeltaPhi_target_value_pi_is_periodicity_fixed = true
+protection_scope = fixed primitive U(1) two-character record map
+```
+
+*** `pi` IS **THE FIRST ORTHOGONALITY VALUE OF THE PRIMITIVE CHARACTER-PAIR RECORD MAP**. IT IS NOT A
+FITTED COEFFICIENT AND NOT A RESPONSE NORMALIZATION. Changing local action coefficients changes what
+accumulated phase a process produces; **it does not change the zero of this fixed overlap map** unless it
+changes the record map, character pair, or state. ***
+
+**THE NEGATIVE, IN THE ARTIFACT'S OWN WORDS:** *"the sealed compact-phase argument protects the **target**
+of the comparison, not the **function** being compared to it."*
+
+```text
+DeltaPhi_map_protected_against_action_form_mutations = false | TYPE-U
+DeltaPhi_function_of_K_and_XK_derived                = false | TYPE-U
+higher_derivative_tower_moves_DeltaPhi               = NO_VERDICT
+leading_higher_derivative_correction_identified      = false | TYPE-U
+higher_derivative_suppression_stated                 = false | TYPE-U
+```
+
+*** SO EXACTNESS IS UNRESOLVED AND STAYS THAT WAY UNTIL THE COMPLETED GENERATOR/RESIDUAL AND THE
+ACTION-FORM CLOSURE THEOREM EXIST. THE PROGRAM PRESENTS ALPHA AS AN EXACT PURE NUMBER; THAT CLAIM IS
+CURRENTLY UNSUPPORTED IN A GRAVITATIONAL EFT, AND NOW HAS A NAMED WOULD-BUILD RATHER THAN NO ROUTE. ***
+
+**THE OTHER TWO CLASSES — AND THE PATTERN IS THE ONE THIS PROGRAM KEEPS FINDING:**
+
+```text
+finite causal updates   NOT covered by the compact-target protection | TYPE-U
+record-curvature        *** BRANCH-EXCLUDED ONLY AS AN ADOPTED PRIMITIVE RULE *** | TYPE-C
+dissipative mutations   EXPLICITLY OUTSIDE the unitary phase-protection premise unless a unitary
+                        dilation / complete carrier is derived | TYPE-U
+```
+
+*** RECORD-CURVATURE IS EXCLUDED **BY ADOPTION, NOT DERIVATION** — THE SAME SHAPE AS THE QUARTIC
+COMPETITOR IN Q-115/Q-122. THAT IS A SECOND EXCLUSION DOING PHYSICAL WORK ON AN ADOPTED RULE, AND IT
+BEARS ON THE Q-123 COUNT. *** And the dissipative case was flagged in advance by the relay as the most
+likely to break a protection argument — **non-unitary evolution does not respect the invariances that
+protect a phase — and it did.**
+
+**REVIEWER CORRECTION FOLDED (relay 219, sent mid-task).** The 218 framing aimed at a phase-like object.
+The sealed characterization is **an on-shell joint eigenvalue/boundary-value residual**, which is not
+topologically protected in general. **And `DeltaPhi` occurs at exactly two sites corpus-wide, both calling
+it a "sealed display" rather than defining it.** *** THE CORPUS ALREADY POSED THIS BETTER THAN THE
+REVIEWER DID: hard failure rule 3 names an action-partition change that moves `K_*` **"without a
+theory-derived exclusion"** as a HARD FAILURE of the strict alpha route. The bar is an EXCLUSION, not a
+protection theorem — and for a BVP residual that is the more natural route. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
