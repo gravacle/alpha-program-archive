@@ -4370,6 +4370,46 @@ genuinely indefinite thing left on the blocker list. ***
 
 ---
 
+## Q-108. "Does the quotient/measure bundle decompose?"
+
+*** RULING: YES — BUT INTO **TWO COUPLED PACKAGES**, NOT FOUR PRIMITIVES AND NOT ONE OBJECT. **BOTH HORNS OF
+THE REVIEWER'S BINARY ARE REFUTED, TYPE-R EACH.** *** Established 2026-07-31 by Codex lane 1 under relay 199
+(`STAGE8_QUOTIENT_MEASURE_BUNDLE_DECOMPOSITION_TEST_V001.md`, `fcb0c232…`, 515 lines, seal verified,
+mirrors byte-identical).
+
+```text
+old_bundle_is_one_object    = false | TYPE-R
+four_independent_primitives = false | TYPE-R
+
+U1  branch/source typing package    compound index ordering + CTP branch metric/
+                                    reality/involution + branch/source embeddings on C0
+U3  physical-domain package         gauge-fixed physical quotient + descended
+                                    invariant contour/spacetime measure
+```
+
+*** AND TWO FORMAL LAYERS **ARE** DEFINITE: the index `I = (a, mu, x)` with Keldysh ordering, and the formal
+CTP branch metric / reality convention. *** **What is not definite is their PHYSICAL INSTANTIATION** — the
+consumer needs them as **completed U1/U3 data on `C0`, derived from `B0`/`C0`.**
+`components_sealed_as_I_prim = 0/4 | TYPE-C`.
+
+**The sealed dependency graph reads `B0` feeds `C0`, `U1`, `U2` and `U3`.**
+
+*** SO THE CHAIN CONVERGES: THE QUOTIENT/MEASURE BUNDLE WAITS ON `U1`/`U3`, WHICH WAIT ON `C0`, WHICH WAITS
+ON `B0`. AND `B0` IS THE OBJECT EINSTEIN IS TYPING RIGHT NOW UNDER RELAY 201 — THE ONE Q-105 CALLED "THE
+OBJECT STILL TO BE CONSTRUCTED, NOT A DEFINITE INPUT." ***
+
+**AND IT DELIVERED THE CONSUMER REQUIREMENT WITHOUT FIXING THE MAP** (correctly — that was Codex 2's item):
+the correlator-to-Hessian consumer needs a completed
+**`RAW_TO_RETHESS_PHYSICAL_DOMAIN_AND_CONTRACTION_PACKAGE`** — `C0` plus `U1`/`U3` data **sufficient to
+contract, quotient, invert, select the physical block, and carry contact/boundary/domain conventions.**
+**That matches Q-107's independently-stated requirement from the other side.**
+
+**THE REVIEWER'S FRAMING WAS WRONG AND THE QUESTION WAS STILL PRODUCTIVE.** *** ASKING "FOUR OBJECTS OR
+ONE?" FORCED A DECOMPOSITION NOBODY HAD PERFORMED, AND THE ANSWER — TWO COUPLED PACKAGES — IS MORE USEFUL
+THAN EITHER OFFERED OPTION. A BINARY CAN BE FALSE AND STILL BE THE RIGHT THING TO ASK. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
