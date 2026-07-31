@@ -3239,6 +3239,95 @@ more than eight.
 
 ---
 
+## Q-78. "What would discharge the eight?"
+
+*** RULING: NONE IS DISCHARGEABLE TODAY, AND ONE OBJECT DOMINATES — THE COMPLETED SOURCE-RECORD-FIELD CTP
+PRODUCER ALGEBRA. *** Established 2026-07-31 by Einstein under relay 173
+(`STAGE8_CLOTHING_DISCHARGE_CONDITIONS_AND_LEDGER_FLOOR_EINSTEIN_V001.md`, archive `ee345fe`, gate GREEN,
+seal verified). **Owed wording quoted verbatim and character-exact-verified in every row.**
+
+*** RANK 1: THE COMPLETED SOURCE-RECORD-FIELD CTP PRODUCER ALGEBRA. *** It is **the only object literally
+named by any instance's release** — instance 5's, *"a derivation of the completed source-record-field
+algebra forcing this grading."* **It discharges instance 6 as a corollary and advances 7, 8, 3, and weakly
+4.** The shared-object hypothesis **survived adversarial verification in weakened, exact form** — 6 by
+corollary, 8 adjacently, 7 via its dynamics component, **never by name-matching.** Its construction is
+extension-typed **NOT_SPECIFIED with a named obstruction.** **And Q-74's two wish-grade proofs — the
+grading-forcing derivation and the crossed-product exclusion — serve instances 5 and 6, both rooted in that
+same algebra.**
+
+**INSTANCE 1 (`C_R = 1`) IS THE OTHER WORKSTREAM.** It discharges **none** of the other seven —
+`[C_R, tau]` independent, no sealed relation to 3 or 4 — **but it clears the ladder head dominating the
+~64-debt mass: maximum debt movement, zero clothing movement.** *** AND IT IS THE MOST REACHABLE OF THE
+EIGHT: queue-grade, sealed order, and S1's two Q-52 specs already exist. *** **The selector and the algebra
+are separate workstreams, exactly as the census's disjoint critical paths predicted.**
+
+*** INSTANCE 2 (`tau = 1`) IS THE PROGRAM'S STARKEST SPECIFICATION HOLE: THE CORPUS NAMES NO DISCHARGE
+ROUTE AT ALL — BELOW WISH-GRADE, since a wish at least has a `would-build`. *** The corpus states the
+negative itself: *"No test selects the unit member."* **A discharge object — a selection theorem over
+V011's admitted positive-`tau` family — is Q-52-declared for the first time in this artifact,
+`derived = false`.**
+
+**Instance 4's frozen falsifier exists but only tests the ADOPTION — the falsifier is not the discharge
+object.** **Q-69 held: both verifiers audited every row for exactly that identification and found no
+violation anywhere.**
+
+**ITEM 2 — THE FIRST-FLOOR QUESTION CLOSES NEGATIVE IN THE JSON LAYER.** All 13 ledgers read in full.
+`ledger_derived_ground_exists_locally = true` **survives, but every derived entry is relative/structural,
+supplied-input-conditional, a derived no-go, or process/tooling — each with a same-file FALSE continuation
+flag between it and the value path.** **No value-path terminus flag is true anywhere, and word-boundaried
+search for the eight instances' tokens returns ZERO hits: the ledgers neither name, clothe, nor discharge
+any of them.**
+
+**TWO POSITIVES FROM THE LEDGERS.** (1) *** THEY PRACTISE EXACTLY THE COMPANION-NEGATIVE DISCIPLINE THE
+CLOTHING CLASS LACKS — A READY-MADE TEMPLATE. *** (2) V013's rejection of V012 on **pure process-integrity
+grounds** proves **ledger ground is defeasible custody**, so *** DISCHARGE CONDITIONS MUST BIND TO
+DERIVATION OBJECTS, NEVER TO LEDGER STATE. *** **This bears directly on Q-77.**
+
+**ITEM 3 — THE ROSTER IS PAID IN FULL.** *** ALL 64 DEBTS NAMED: response 39 (three edge classes),
+selector 10, write 13, fourth-horn 1 (`connected_cross_cell_terms_derived`) *** — each with a sealed-text
+edge citation making it independently verifiable, two largest blocks spot-checked verbatim at source. **The
+"~42 unrecoverable" was true of sealed text; the overnight session record held the enumeration. The
+register may now cite 64 as an actual work list.**
+
+---
+
+## Q-79. "Do the reviewer's two graph rules survive testing?"
+
+*** RULING: BOTH ARE PARTLY REFUTED, AND THE PROSE RULE IS REFUTED BY ITS OWN MOTIVATING EXAMPLE. ***
+Established 2026-07-31 by Codex lane 1 under relay 174
+(`STAGE8_GRAPH_RULE_TESTS_AUTHORITY_AND_PROSE_V001.md`, `1fcedc16…`, archive `1f53450`, gate GREEN).
+
+**TEST 1 — THE CYCLE RATIONALE IS DEAD.** 333 authority edges extracted from all 13 ledgers, merged with
+283 reconstructed current-state `would-build` edges plus 4 bridge/prose edges. **Tarjan: ZERO CYCLES.**
+
+```text
+authority_cycle_manufacture_rationale_holds = false | TYPE-R
+```
+
+*** THE REVIEWER ARGUED THAT MERGING A FORWARD-ACYCLIC "REQUIRES" RELATION WITH A BACKWARD-POINTING
+"OBSOLETES" RELATION MANUFACTURES CYCLES. IT DOES NOT — MEASURED, NOT ARGUED. *** **The semantic case for
+separation survives; the empirical case is gone, and the decision now rests on semantics alone.**
+
+*** TEST 2 — PRECISION 1.000, RECALL 0.641, AND THE RULE MISSES ITS OWN EXEMPLAR. *** 1626 candidate
+sentence units, deterministic sample of 80.
+
+```text
+prose_rule_low_precision            = false | TYPE-R
+prose_rule_low_recall               = true  | TYPE-R
+exemplar_caught_by_rule_as_written  = false | TYPE-R
+```
+
+**The rule misses `k_R -> K_*` because the sentence says `k_R` APPEARS IN the equation fixing `K_*`, not
+that `k_R` must EXIST OR BE DETERMINED BEFORE `K_*`.** *** THE REVIEWER FLAGGED THIS EXACT RISK WHEN
+PROPOSING THE RULE AND IT CAME TRUE. A RULE THAT MISSES THE CASE THAT MOTIVATED IT IS REFUTED BY ITS OWN
+ORIGIN. *** **Perfect precision means nothing it caught was wrong; 36% of real dependencies were missed.**
+
+**ALSO ESTABLISHED:** `q64_original_exact_edge_table_found = false | TYPE-S` — **the original table does
+not exist and never did.** Codex 1 reconstructed **283 current-state edges**, and **a standalone
+machine-readable edge table is now committed**, closing the Q-75 reproducibility defect.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
