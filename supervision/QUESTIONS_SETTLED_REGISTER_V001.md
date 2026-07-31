@@ -3921,6 +3921,111 @@ not discharge P5.**
 
 ---
 
+## Q-96. "Do the vacuity repairs unblock the S3 join?"
+
+*** RULING: NO — AND NOT MARGINALLY. THE THREE REPAIRS SUPPLY **ZERO** OF THE SIX `Dom(S3_CORE)` MEMBERS.
+NOT ONE, AT EVERY INDEX. *** Established 2026-07-31 by Einstein under relay 186
+(`STAGE8_S3_VACUITY_DEFECTS_VERIFICATION_AND_DOMAIN_ADEQUACY_GATE_EINSTEIN_V001.md`, `ebfd731b…`, 661
+lines, seal verified).
+
+```text
+6 domain members unbuilt after all three repairs land   supplied by repairs: 0
+9 objects for the core-equality leg                     supplied by repairs: 0
+14 counting S4's own auxiliaries                        supplied by repairs: 0
+17 with the naming leg                                  supplied by repairs: 0
+```
+
+*** AND WORSE, THE FINDING THAT REFRAMES STEP 2: ALL FOURTEEN CORE OBJECTS COULD BE BUILT, THE CORE LEG
+COULD PASS COMPLETELY, AND THE `sqrt(2)` FORK WOULD STILL BE OPEN. `Cod(S3_CORE)` CARRIES NO CANDIDATE
+IDENTIFIER; T13A IS "NEVER CLASSIFICATION" — AND S3 RECORDS THIS ITSELF AT `:1024-1028`. ***
+
+**ALL EIGHT DEFECTS CONFIRMED AT SOURCE, NONE REFUTED, NONE REPAIRED**, both countermodels re-run
+independently. **Codex 2's self-refutation holds and is worse than it argued:** the same file guards
+emptiness for P11 and P12 with the two-row idiom **and withholds it from P9** — *** AN INCOMPLETELY APPLIED
+DISCIPLINE, NOT IGNORANCE. *** **Two widenings Codex 2 missed: S4.P10 is unguarded on the identical
+pattern, and S2 carries an internal two-class mismatch** (`:71-73` advertises the first-durable saddle;
+`:249-250` tests the S1 class). **Same genus, different species — the repairs are non-interchangeable.**
+
+**THREE GATES, THREE HOSTS, ONE DISCHARGE OBJECT — sealed P8.** *** BUT SUFFICIENCY IS `NO_VERDICT |
+TYPE-U`, AND THE REGISTER IS EXPLICITLY WARNED NOT TO BOOK "THREE BLOCKERS BECOME ONE" — THAT WOULD
+UNDERSTATE THE DEBT. *** It needs P8's four unbuilt pullbacks and a class-inclusion ordering no artifact
+establishes. **NEW: no dedicated verdict owner exists at any of the three sites, so Q-92(b) fails as well as
+(c) — any gate is TWO conditions short of construction, not one.**
+
+**S1's MISSING EXPORT CLAUSE IS NAMED:** `S1_CLOSURE_CONSUMED_ENERGY_FUNCTIONAL_EXPORT_CLAUSE`. *** S1 IS
+NOT DEFECTIVE RELATIVE TO ITS OWN SCOPE — it disclaims the RHS at `:218` and forbids reporting to a
+gravitating-energy flag at `:245-246`. THIS IS AN INTERFACE CONTRACT GAP BETWEEN TWO CORRECTLY-SCOPED
+ARTIFACTS. *** **Three objects, not one: clause != P11 != the functional.**
+
+**THE ADAPTER IS A MISSING OBJECT, AND EACH OF THE THREE SPECS ACTIVELY FENCES IT OUT FOR A DIFFERENT
+REASON.** **S2 is reference-SILENT — both its reference occurrences are prohibitions — which matters
+because *** THE BUILT ADAPTER MUST NOT DOUBLE-SUBTRACT. *** **The sealed depth report's leaf enumeration
+dropped the obligation entirely while the primary gate requires it.**
+
+*** AND THREE DOORS THROUGH WHICH THE FORK COULD BE CLOSED BY PICKING ARE NAMED AND NOT TAKEN: THE EXPORT
+SLOT, P9's TIME NORMALIZATION, AND P10's REFERENCE SUBTRACTION. ***
+
+---
+
+## Q-97. "Can the primitive inventory be frozen?"
+
+**RULING: NO — THE INVENTORY IS TOO THIN. A PREFREEZE AUDIT WAS PRODUCED, NOT A FROZEN INVENTORY.**
+Established 2026-07-31 by Codex lane 1 under relay 192
+(`STAGE8_FROZEN_PRIMITIVE_INVENTORY_PREFREEZE_RESULT_V001.md`, `476baa18…`, 297 lines, seal verified).
+
+**Enumerated: 6 current Level-1 postulates from the authority ledgers, plus the bounded 26-class value-path
+premise inventory.** *** THE KEY SPLIT: THE SOURCE GNS, THE RECORD DIRECT LIMIT, AND THE BASE TENSOR JOIN
+ARE **REAL BUT DERIVED/SECTORAL — NOT PRIMITIVE INPUTS.** *** The three things the program has actually
+built are not available as primitives to build P0 from.
+
+```text
+P0_primitive_inventory_sufficient_to_build_Obj_0_kind = false | TYPE-C
+Obj_0_kind_buildable_from_current_inventory           = false | TYPE-C
+complete_corpus_wide_primitive_inventory_exhaustiveness = NO_VERDICT
+rho_pre_sealed_as_P0_primitive                        = false | TYPE-S
+```
+
+**The inventory lacks the selected signature, the complete `PrimitiveInventory_0`, the construction rule,
+the certificate-generation rule, port/graph schemas, and the isolated validation package** — **the same six
+Q-95 named, which is a consistency check passed.** **Third consecutive honest stop under Q-92.**
+
+---
+
+## Q-98. "Is Q-92 sufficient to prevent a bad construction?"
+
+*** RULING: NO. Q-92's CONDITIONS DID NOT CATCH THREE BAD CONSTRUCTIONS. ADVERSARIAL COUNTERMODELS DID.
+Q-92 IS AMENDED. *** Established 2026-07-31 by Einstein's §6 under relay 186 — **the first relay issued
+under Q-92's build permission.**
+
+*** IT ATTEMPTED THREE CONSTRUCTIONS AND ADVERSARIAL ATTACK KILLED ALL THREE, EACH REPRODUCING THE VERY
+DEFECT IT WAS SENT TO REPAIR: ***
+
+- **Gate v1** — accepted the certificate **by its type name**.
+- **The S1 export clause v1** — **passed vacuously on an empty class and empty inventory.**
+- **Gate v2** — closed v1's hole, then **died one level up: matched the class designator by name and
+  transported its own PASS across an unproved class identity.**
+
+*** THREE AUTHORS INDEPENDENTLY, TWO OF THEM WHILE EXPLICITLY HUNTING THE DEFECT. THAT IS EVIDENCE THE
+VACUITY/NAME-MATCH DEFECT IS **STRUCTURAL TO THIS CORPUS'S TEST IDIOM**, NOT A LAPSE. ***
+
+**Q-92 IS AMENDED — two conditions added:**
+
+```text
+(e) a DEDICATED VERDICT OWNER exists for each test        (Einstein: absent at all three S3 sites)
+(f) an ADVERSARIAL COUNTERMODEL was attempted and failed  (what actually caught all three)
+```
+
+*** THE HONEST ACCOUNTING: Q-92(b) — "failure-capable tests attached and wired" — IS NECESSARY AND WAS NOT
+SUFFICIENT. WHAT CAUGHT ALL THREE WAS THE COUNTERMODEL, NOT THE BUILD DISCIPLINE. ***
+
+**Einstein struck all three constructions, withdrew every `derived = true`, struck two Q-80 classes it had
+manufactured, and withdrew a lane-coined certificate as a respecification of P8 — all under its own name.**
+**Seventeen typed negatives, five new.** *** A LANE THAT BUILDS, FAILS, AND RETRACTS COMPLETELY IS THE
+DISCIPLINE WORKING — BUT IT WORKED BECAUSE THE LANE ATTACKED ITSELF, AND NOTHING IN Q-92 REQUIRED THAT
+UNTIL NOW. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
