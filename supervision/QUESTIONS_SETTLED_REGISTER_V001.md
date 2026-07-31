@@ -5320,6 +5320,52 @@ stated first: **a scoped derivation reported as universal would be worse than no
 
 ---
 
+## Q-128. "How many live gates embed a struck rule?"
+
+*** RULING: ONE FOUND, AND IT WAS ALREADY AMENDED. THE TWO SURFACES THE PROGRAM ACTUALLY DEPENDS ON ARE
+**CURRENT**. THE ROT IS NOT SYSTEMATIC. *** Established 2026-07-31 by Codex lane 2 under relay 220
+(`STAGE8_STALE_CRITERIA_SWEEP_LEDGER_V001.md`, `3742b1c8…`, 49 lines, seal verified, fence-clean, no
+`= true`).
+
+```text
+STAGE8_CROSS_SECTOR_METRIC_RULE_ADMISSIBILITY_SPEC_V001.md:265-267,292   *** STALE-BLOCKING ***
+    F3 / minimal-pass item 3 demand a second independent overdetermining requirement, while the
+    spec's own success criterion is "determination of beta."
+    ALREADY AMENDED -- PRINCIPAL_AMENDMENT_002 (f1c50042).
+
+STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001.md:530-581   §5.3                          *** CURRENT ***
+    five-channel mutation audit; no inequivalent admitted root; NO NARROWING AFTER ROOT.
+    "Preserves current anti-fitting rule; DOES NOT RELY ON 'only overdetermination.'"
+
+pre-root census requirement                                                      *** CURRENT ***
+    "sequencing constraint, not a struck physical premise."
+
+"no chain reaches derived ground" | "two disjoint critical paths" |
+generative/formation binary | bare-existence shortcuts                            STALE-INERT
+    all sit in records OF their own refutation; NONE operates as a live gate.
+
+stale_blocking_count            = 1          | TYPE-R  (executed)
+other_surface_exhaustiveness    = NO_VERDICT | TYPE-C
+    deciding evidence: a signed inventory of every live gate.
+```
+
+*** §5.3 BEING **CURRENT** IS THE RESULT THAT MATTERS. It is the gate that would certify a computed
+alpha as forced rather than fitted. **Had it been stale, everything the program has built toward
+certification would have been aimed at a gate scoring on a refuted rule.** It is not. Its anti-fit
+clauses stand on current rulings and never depended on overdetermination. ***
+
+**AND THE CAVEAT IS THE LANE'S OWN, CORRECTLY STATED:** keyword search reached **179 files, which is not
+179 gates**. *** SO THE FINDING IS "ONE FOUND," NOT "ONE EXISTS." Exhaustiveness is NO_VERDICT and must
+not be reported as a clean bill. *** **Not funded:** converting one to the other needs a signed inventory
+of every live gate — a materially larger task than a keyword sweep, and nothing currently points at a
+second offender.
+
+**What this settles about the scare:** the cross-sector spec was **an isolated lapse, not systematic
+rot.** The alarming shape of the discovery — a falsifier rejecting the program's own deliverable — was
+real, and it was one instance.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
