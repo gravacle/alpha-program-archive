@@ -3328,6 +3328,41 @@ machine-readable edge table is now committed**, closing the Q-75 reproducibility
 
 ---
 
+## Q-80. "How should lanes handle findings that fit no existing category?"
+
+*** RULING: NAME A NEW CLASS. DO NOT FORCE, DO NOT REPORT AS A DEFECT, DO NOT DISPOSE OF IT WITH
+`NO_VERDICT`. A CATEGORY THAT HAD TO BE INVENTED IS A FINDING. *** Principal direction 2026-07-31 —
+*"Toto, I've a feeling we're not in Kansas anymore."* Recorded as
+`NEW_TERRITORY_STANDING_CLAUSE_2026-07-31_V001.md`; **included verbatim in every relay from 176 onward.**
+
+*** THE EVIDENCE IS THREE IMPORTED FRAMINGS FAILING IN ONE DAY, ALL THREE THE REVIEWER'S: *** "only
+overdetermination forces a number" (Q-65, **false**, and it had directed lane assignments for days); "no
+chain reaches derived ground" reported as a defect (Q-70, **a category mistake** — a well-founded theory
+bottoms out in axioms, **and the register reported it three times as a finding**); and "two disjoint
+critical paths" (Q-75, **refuted by test** after a quarter of the graph turned out to be missing).
+
+*** IN EVERY CASE THE FIX WAS NOT BETTER CLASSIFICATION — IT WAS INVENTING A CATEGORY. ***
+"Debt-in-axiom-clothing" did not exist until Einstein needed it, **and it immediately located the whole
+problem.** `PATHLESS-CLAIMED` is a class the register still has no name for.
+
+**THE OPERATIVE DISTINCTION, WHICH LANES MUST NOT CONFLATE:** `NO_VERDICT` means **information is
+missing**; a **NEW CLASS** means **the categories are wrong.** **Absence of a fit is evidence about the
+OBJECT, not about the analysis.** **And imported standards now get the same scrutiny as corpus claims — if
+a framing came from mathematics, ordinary physics practice, or software engineering, the lane must say so
+and say why it applies here.**
+
+*** WHAT IT DOES NOT LICENSE: inventing a category to escape an inconvenient verdict. A new class must be
+DEFINED, must say what it EXCLUDES, and must be FALSIFIABLE in the Q-54 sense — an object must be able to
+fail to belong to it. It relaxes no fence, no typing rule, and no testability requirement. AND "THIS IS NEW
+TERRITORY" IS NEVER A REASON A RESULT IS RIGHT — it is a reason to check whether the QUESTION is well-posed
+before answering it. ***
+
+**THE REVIEWER IS BOUND TOO, AND MOST OF ALL: all three failures were his, one registered three times
+before the principal caught it. The clause applies to his framings, register entries and relay questions —
+especially when a question seems obvious. Q-70's malformed floor question seemed obvious for two days.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
