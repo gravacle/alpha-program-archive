@@ -4526,6 +4526,35 @@ neither reaching it. ***
 
 ---
 
+## Q-112. "Was `B0` ever built and superseded?"
+
+*** RULING: NO. `B0_ever_built = false | TYPE-R` — AN EXECUTED REFUTATION OVER THE VERSION HISTORY, NOT A
+NAME SEARCH. *** Established 2026-07-31 by Codex lane 2 under relay 207
+(`STAGE8_B0_VERSION_HISTORY_SUPERSESSION_AUDIT_V001.md`, `c5a664e3…`, seal verified).
+
+**The historical boundary-operator, charged-access, Galerkin and null-diamond artifacts are partial or
+differently shaped.** *** NONE SUPPLIES COMPLETE SOURCE-RECORD-FIELD DYNAMICS WITH `C0` AND `U1`/`U2`/`U3`.
+*** `B0_superseded_recoverable = false | TYPE-S`. **Version-history completeness remains `NO_VERDICT`
+pending a signed historical object manifest.**
+
+*** SO THERE IS NOTHING TO RECOVER — AND THE EPISTEMIC STATE THIS ESTABLISHES IS NOT THE ONE THE PROGRAM
+MIGHT HAVE ASSUMED. `B0` HAS NEVER BEEN ATTEMPTED IN THE PROGRAM'S ENTIRE HISTORY. ***
+
+**That is different from "tried and failed."** **The withdrawn finite-rank Galerkin route and the
+null-diamond family WERE tried and abandoned — both are on record.** *** `B0` ITSELF NEVER WAS. THERE IS NO
+EVIDENCE THAT IT IS HARD; ONLY THAT IT IS UNDONE. ***
+
+**THE SEARCH WAS THE RIGHT KIND AND IT CAME BACK CLEAN.** The relay asked for **history, not names** —
+supersession chains, withdrawn routes, erratum records, retired ledger entries, `_V001` where `_V002+`
+exists — **and typed candidates by SHAPE rather than by name, since a `B0`-shaped object would not have been
+called `B0`.** **This program's most repeated finding is that the missing thing already existed under
+another name. This time it did not.**
+
+**Third route closed on `B0` in one day: the accessor route (Q-106), the primitive route (Q-111), and now
+the historical route. The joint-constraint and incidence routes remain open.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
