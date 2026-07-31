@@ -5010,6 +5010,84 @@ THAN ONE THAT COULD NOT. ***
 
 ---
 
+## Q-123. "What would a computed alpha actually rest on — is the '18 axioms : 8 clothing' inventory current?"
+
+*** RULING: NO. THE COUNT IS **9 CLOTHING, NOT 8** — AND THE MISSING ONE IS THE ONE ADOPTION WITH A
+NAMED, ADMISSIBLE, UNEXCLUDED RIVAL. *** Established 2026-07-31 by the reviewer, tracing the floor claim
+against today's Q-115/Q-119/Q-122 findings. **Read at source; no lane involved.**
+
+*** THE FINDING IS ALGEBRAIC AND MUST BE STATED THAT WAY. `H_K` VERSUS `H_K + lambda n_i n_j tensor I_R`:
+BOTH ADMISSIBLE, DIFFERING ON THE TWO-SOURCE SECTOR, AND **NOTHING IN THE CORPUS EXCLUDES THE SECOND**
+(Q-122, `two_source_sector_deciding_principle_found = false | TYPE-S`). A DERIVATION FORCES A NUMBER ONLY
+IF NO RIVAL PREMISE IS EQUALLY ADMISSIBLE. HERE ONE IS. THAT — NOT ANYONE'S KNOWLEDGE OR INTENT — IS THE
+DEFECT, AND IT IS EXACTLY WHAT §5.3's "NO INEQUIVALENT ADMITTED POSITIVE ROOT" TESTS. ***
+
+**FRAMING CORRECTION, PRINCIPAL-DIRECTED, 2026-07-31.** An earlier draft of this entry led with
+*"historically target-aware."* **That was wrong as a headline.** *** THE AUTHOR'S KNOWLEDGE IS NOT A
+PROPERTY OF THE MATHEMATICS. A valid derivation from stated axioms is valid regardless of what anyone knew
+while writing them. *** The provenance flag is a **pointer** to where an unexcluded rival might be found —
+a search heuristic, never a verdict. **The rival is the finding. Provenance is a footnote.**
+
+**The one place history legitimately enters, and it is not psychological:** §5.3 forbids **narrowing the
+admitted family after the root is seen.** That is a fact about the **order of operations recorded in the
+provenance** — fixed before or after the number existed — checkable from adoption timestamps. **That is
+why the census ledger carries an adoption-time field and why Q-118 requires freezing before any root
+exists.** *** ORDER OF OPERATIONS, NOT STATE OF MIND. ***
+
+**The finding, verifiable in one step:** `GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS` **appears
+nowhere in `STAGE8_BOUNDARY_LEAF_TYPING_AXIOMS_VS_DEBTS_EINSTEIN_V001.md`** — not among the 18 axioms, not
+among the 8 clothing items, not in the debt reachability section. **Yet Q-122 typed it
+`AXIOM_CURRENT / TERMINAL_DEBT_CURRENT`.**
+
+*** AND THE MECHANISM OF THE MISS IS EXACT, WHICH IS WHAT MAKES THIS A FINDING RATHER THAN A COMPLAINT.
+A24 CONTAINS **TWO ADJACENT "DERIVE OR EXPLICITLY ADOPT" CLAUSES**: ***
+
+```text
+CLAUSE 1   "The record theory must derive or explicitly adopt a strong symmetric-monoidal functor
+            into (Hilb,tensor) before tensor composition is used."
+            *** CAPTURED -- clothing item 8, SECTOR-INDEPENDENCE / MONOIDAL FUNCTOR,
+            "marker (iii): A24 'derive OR explicitly adopt' PENDING with the adopt arm taken." ***
+
+CLAUSE 2   "Connected primitive dynamics additionally requires an explicitly adopted or
+            independently derived global-boundary-descent/quasi-free-completeness rule."
+            *** MISSED. SAME SENTENCE, SAME STRUCTURE, SAME ADOPT-ARM-TAKEN OUTCOME. ***
+```
+
+**Why it matters more than a count.** The floor artifact's §2 concludes *"THE FLOOR, AS A FLOOR, IS BETTER
+NEWS THAN THE REGISTER RECORDS."* *** THAT ASSESSMENT WAS MADE OVER A SET THAT DID NOT CONTAIN THIS
+ADOPTION — AND THEREFORE NEVER ASKED WHETHER IT HAS AN UNEXCLUDED RIVAL. IT DOES. The assessment is not
+refuted; it was simply made over an incomplete set. ***
+
+**WHAT IS NOT DISTURBED, AND SHOULD BE SAID PLAINLY:**
+
+```text
+"DOES ANY AXIOM CARRY ABSOLUTE SCALE? NO."       UNDISTURBED. The quasi-free rule carries no scale;
+                                                 C_R = 1 remains the only scale-carrying leaf and
+                                                 remains CLOTHING, not axiom. Q-58 stands.
+the 18-axiom floor itself                        UNDISTURBED as a floor. This is a NINTH CLOTHING
+                                                 ITEM, not a nineteenth axiom.
+```
+
+*** SO THE ANSWER TO "WHAT WOULD A COMPUTED ALPHA REST ON" IS: 18 AXIOMS + **9** DEBT-IN-AXIOM-CLOTHING
+ADOPTIONS, OF WHICH **ONE HAS A NAMED ADMISSIBLE RIVAL THAT NOTHING RULES OUT**, AND IT SITS ON THE
+PRIMITIVE DYNAMICS — WHICH IS PRECISELY WHAT "INDUCED" IS SUPPOSED TO MEAN. *** **The work this implies is
+ordinary mathematics: exclude the rival, or record that nothing does.** *** IT IS NOT AN AUDIT OF ANYONE'S
+INTENT. ***
+
+**AND THE ASSET, WHICH MUST TRAVEL WITH THE LIABILITY (Q-122).** *** THIS NINTH ITEM IS **FALSIFIABLE IN
+PRINCIPLE** — `H_K` VERSUS `H_K + lambda n_i n_j tensor I_R`, DIFFERING ON THE TWO-SOURCE SECTOR, WITH THE
+EXECUTABLE ALREADY DETECTING THE DIFFERENCE. *** Compare clothing items 1 and 4, which Q-45 flags as the
+two worst precisely because they are **UNTESTED with no frozen falsifier / kill-test blocked**. **On the
+one dimension that separates a live postulate from an inert one, the newly-counted item is stronger than
+two that were already counted.**
+
+**Reviewer note on method.** This was found by **tracing a claim rather than searching for a keyword** —
+the inventory was not wrong about anything it contained; it simply never reached the second half of a
+sentence. *** SUBSTRING AND NAME MATCHING HAVE NOW PRODUCED FALSE NEGATIVES AS WELL AS FALSE POSITIVES IN
+THIS PROGRAM. A COMPLETENESS CLAIM OVER AN INVENTORY IS ONLY AS GOOD AS THE SWEEP THAT BUILT IT. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
