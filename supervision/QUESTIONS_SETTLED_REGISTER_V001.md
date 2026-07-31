@@ -4462,6 +4462,70 @@ flipped the ruling, and found none.**
 
 ---
 
+## Q-110. "Does the codomain route determine `B0`?"
+
+*** RULING: NO — `codomain_constraints_determine_B0 = false | TYPE-R`. IT FIXES A **FIBER**, NOT A POINT.
+*** Established 2026-07-31 by Codex lane 1 under relay 202
+(`STAGE8_B0_CODOMAIN_ROUTE_UNDERDETERMINATION_TEST_V001.md`, `ee4dc9df…`, 609 lines, seal verified).
+`codomain_route_status = UNDERDETERMINED_FIBER`.
+
+*** BUT IT IS A REAL CONSTRAINT AND THE FAMILY IS NAMED, WHICH IS WHAT THE RELAY ASKED FOR: ***
+
+```text
+CodomainCompatibleBoundaryOriginRealizer :=
+  (Obj_B0, Sig_B0, Carrier_B0, Core_B0, Prov_B0, DESCEND_B0)
+```
+
+**What `B0` must produce IS fixed:** `C0`, and with `C0`, `U1`/`U2`/`U3`, **with common-origin / no-supplement
+descent witnesses.** **What remains open is exactly `B0`'s content:** type, arity, domain, codomain,
+parameters, carrier and core, representation, descent maps, and the equivalence relation.
+
+**And the theory's own content supplies OBLIGATIONS, NOT A CONSTRUCTOR** — single-origin microscopic
+operator, unitary Boundary-Resolved pre-record evolution, causal support, boundary-form vanishing,
+generated-carrier requirements, common-origin producer signature. **No independent `B0` constructor exists.**
+
+**THE PRINCIPAL'S BOUNDARY READING IS HALF-CONFIRMED:** *** DETERMINATION-BY-CONSUMERS IS A GENUINE
+CONSTRAINT ON `B0` — IT IS NOT A DEFICIENCY AND IT DOES NARROW THE OBJECT. IT SIMPLY DOES NOT NARROW IT TO
+ONE. ***
+
+---
+
+## Q-111. "How far does the `I_prim` route reach?"
+
+**RULING: TO PRESENTATION STRUCTURE ONLY. THE EXACT STOPPING POINT IS THE COMPLETE MICROSCOPIC BOUNDARY
+OPERATOR/DYNAMICS ITSELF.** Established 2026-07-31 by Codex lane 2 under relay 205
+(`STAGE8_IPRIM_ROUTE_TO_B0_STOPPING_POINT_AUDIT_V001.md`, `4c1ba9b5…`, seal verified), **run blind, without
+reading lane 1's artifact.**
+
+```text
+REACHES     the six Level-1 upstream premises
+            historical conversion constants c, hbar, G
+            formal index, Keldysh ordering, CTP branch metric/reality conventions
+
+DOES NOT    the physical B0 operator; the dynamics; quotient/measure; rho_pre;
+REACH       U_BR; effects/domains; the common-origin certificate
+```
+
+**"Only presentation structure is determined."** **No numerical fraction assigned — correctly, since a
+fraction would imply a measure nobody has.**
+
+**PRE-REGISTERED CONVERGENCE TEST, WRITTEN BEFORE SEEING LANE 1's ANSWER AS REQUIRED:** *** TYPED-OBJECT
+EQUIVALENCE UP TO AN EXPLICIT STRUCTURE-PRESERVING ISOMORPHISM, CHECKED BY BLINDED STRUCTURAL HASHES AND
+ADVERSARIAL DISTINGUISHING INPUTS — NOT PROSE OR FLAG AGREEMENT. *** **That is a real test and it was
+specified in advance.**
+
+*** THE CONVERGENCE RESULT, AND IT IS NOT THE ONE HOPED FOR: THE TWO ROUTES DO NOT MEET AT AN OBJECT. THEY
+MEET AT A **GAP**. *** `I_prim` supplies presentation structure — index, ordering, branch metric — which is
+part of what the codomain fiber leaves open under "representation." **But neither route reaches type,
+arity, domain, carrier/core, descent maps, or the equivalence relation, and combining them does not.**
+
+*** BOTH INDEPENDENT ROUTES STOP AT THE SAME OBJECT: THE PHYSICAL MICROSCOPIC BOUNDARY OPERATOR. THAT IS
+CONVERGENT FAILURE AT ONE POINT, AND IT IS THE STRONGEST EVIDENCE THE PROGRAM HAS THAT `B0` IS A GENUINE
+PHYSICAL OBLIGATION RATHER THAN A BOOKKEEPING ARTEFACT. Two lanes, two premise-disjoint methods, run blind,
+neither reaching it. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
