@@ -5416,6 +5416,113 @@ narrowed a load-bearing fork, and neither cost a single new derivation.**
 
 ---
 
+## Q-130. "Does the joint saddle system close `beta`?"
+
+*** RULING: THE SYSTEM **POSES** AND IT **DOES NOT CLOSE**. THE `beta`-DEGENERACY SURVIVES EVERY
+CONDITION IT PRODUCES. *** Established 2026-07-31 by Einstein under relay 221
+(`STAGE8_JOINT_SADDLE_SYSTEM_POSING_EINSTEIN_V001.md`, `e5e0e43f…`, 277 lines, seal verified,
+fence-clean). **The lane reported it as the `CELL_CONSTRAINT_ONLY` failure mode REPRODUCED, NOT
+ESCAPED — not as progress.**
+
+*** THE DISCOVERY, AND IT IS THE MOST IMPORTANT PHYSICS RESULT OF THE DAY: ***
+
+> ***WITH `phi = ln(R/ell_P)`, THE SEALED MAP IS EXACTLY THE SHIFT `phi -> phi + ln beta`.
+> **THE `beta`-DEGENERACY IS THE SHIFT SYMMETRY OF A MASSLESS RADION.** BREATHING **IS** THE `beta`
+> DIRECTION. AND THE ONE TERM THAT COULD MAKE IT STATIONARY IS THE ONE TERM THE REDUCTION DOES NOT
+> GENERATE.***
+
+**`beta` IS NO LONGER A MYSTERIOUS GAP. IT IS A MASSLESS MODULUS LACKING A STABILIZING POTENTIAL —
+A NAMED PROBLEM WITH KNOWN MACHINERY.** *** THE PROGRAM SPENT DAYS TREATING THIS AS AN UNIDENTIFIED
+CONVERSION. IT IS RADION STABILIZATION. ***
+
+**WHAT POSES — REAL CONSTRUCTION, THE FIRST THIS PROGRAM HAS PRODUCED.** The parent action written
+symbolically from the granted V002 ansatz **with `R` promoted to the radion field** — the promotion
+V002 authorizes and its own reduction declines (*"For constant `R`"*) — yielding **six labelled
+conditions from ONE simultaneous variation over `{g, A, R, T_R, lambda}`**. Symbolic throughout;
+nothing solved, no number produced.
+
+**WHY IT DOES NOT CLOSE — EXECUTED, NOT ASSERTED.**
+
+```text
+THE SEALED MAP DOES NOT FREEZE THE CONNECTION, AND A_mu IS A DYNAMICAL FIELD.
+The admissible map is  (g, A, R) -> (g, beta^-1 A, beta R),
+leaving base metric, Delta tau, period and gauge covariance untouched.
+Jordan-branch action scales by an overall constant -> source-free field equations UNCHANGED.
+*** THE SEALED REDUCED FORM IS EXACTLY INVARIANT: beta^2 R^2 . beta^-2 F^2 = R^2 F^2. ***
+Every condition invariant on both branches.
+*** TWO MODULI, ZERO DERIVED DETERMINING CONDITIONS -- THE RESIDUAL FAMILY IS TWO-PARAMETER. ***
+
+SECOND INDEPENDENT KILL: the 4d trace of the metric equation turns the radion condition into
+  box R = (c_2/c_1) R^3 F^2  -- A PROPAGATION EQUATION, NOT A ROOT CONDITION -- also invariant.
+```
+
+*** THE LANE'S POSING AGENT CLAIMED THE DEGENERACY WAS BROKEN; ITS ATTACKER EXECUTED THE MAP AND
+SHOWED IT WAS NOT. **THE ATTACKER IS RIGHT AND THE CLAIM WAS WITHDRAWN.** ***
+
+**TWO `TYPE-C` GAPS, BOTH WITH NAMED RELEASES — THESE ARE NOW THE LIVE WORK:**
+
+```text
+N4  what_is_held_fixed_under_the_map_at_parent_level = UNSTATED
+    The sealed conclusion "changing K_KK by beta^2" holds ONLY IF ell_P is held fixed.
+    *** THE TWO RESOLUTIONS DIVERGE COMPLETELY: on one, a DERIVED CHARGED CURRENT COULD BREAK THE
+    FAMILY; on the other, the potential has NO INTERIOR STATIONARY POINT REGARDLESS OF ANY SOURCE. ***
+
+N5  frame_declared = false  -- NEW REQUIREMENT R7, ADDED BY ATTACK
+    `Jordan`, `Einstein frame`, `Weyl rescaling`: *** ZERO HITS CORPUS-WIDE. ***
+    *** AND IT IS NOT HOUSEKEEPING: beta IS BY DEFINITION A RATIO OF AN INTERNAL LENGTH TO AN
+    EXTERNAL ONE, SO A MODULUS-DEPENDENT WEYL RESCALING IS ITSELF A CONVERSION CHOICE -- THE ONE
+    REMAINING DOOR A CONVERSION COULD ENTER THROUGH WITHOUT EVER APPEARING AS A NUMBER. ***
+    If so, ANY beta derivation that does not declare its frame is CIRCULAR.
+```
+
+**ALSO ESTABLISHED:** *** THE DESTABILIZER IS NAMED IN PROSE ONLY AND NEVER WRITTEN — THE COMPETITION
+HAS **ZERO** WRITTEN SIDES, NOT ONE. *** Two mutation-obstruction channels are contradicted by live
+sealed adoptions. **And the struck overdetermination bar still survives in the live cross-sector spec
+despite `PRINCIPAL_AMENDMENT_002` — reported, not repaired, correctly.**
+
+**SUB-RESULT WITHDRAWN AGAINST ITS OWN FIRST ANSWER:** the lane ruled V002 reopen condition 3
+unstatable (a 1-D fiber has one modulus); **one attacker confirmed it and a second REFUTED the
+ruling** — in Berger machinery the squashed direction is one-dimensional, and V002's clause targets
+`rho = R_*/ell_P`, **a fiber-over-external ratio — so squashing IS the ratio, and the ratio is
+`beta`. The clause names the target.** Retyped **UNDETERMINED**.
+
+---
+
+## Q-131. "Do the three open action-form classes have concrete members in the corpus?"
+
+*** RULING: NO — AND TWO OF THEM ARE `TYPE-S`, SCOPE-EMPTY. THE MEMBERS DO NOT EXIST TO BE FOUND. ***
+Established 2026-07-31 by Codex lane 2 under relay 223
+(`STAGE8_OPEN_ACTION_FORM_CONCRETE_MEMBER_IDENTITIES_C1_V001.md`, `04ca81a1…`, 61 lines, seal
+verified, fence-clean).
+
+```text
+higher_derivative_member_manifest = NO_VERDICT | TYPE-U   *** NO SCHEMA AND NO BOUND ***
+finite_causal_update_count        = NO_VERDICT | TYPE-U   no list, no closure proof
+record_curvature_concrete_member  = false      | TYPE-S   corpus-wide sweep: only a branch exclusion
+dissipative_concrete_member       = false      | TYPE-S   corpus-wide sweep: only a unitary-premise exclusion
+action_form_C1_complete           = false      | TYPE-C
+S0_S1_rederived_as_admitted       = true       | PROCESS FACT  (control: method reproduced the knowns)
+```
+
+*** REVIEWER ERROR, CORRECTED. Q-124 TYPED THIS AS "A NAMING AND PROVENANCE TASK, NOT A CONCEPTUAL
+ONE." **THAT IS WRONG.** TWO CLASSES CAME BACK `TYPE-S` — THERE IS NOTHING TO NAME. THE MEMBERS WOULD
+HAVE TO BE **WRITTEN**. C1 IS CONSTRUCTION, NOT BOOKKEEPING — THE SAME SHAPE AS `B0`: ARCHAEOLOGY
+RETURNS NOTHING BECAUSE NOTHING WAS EVER AUTHORED. ***
+
+**THE CONSEQUENCE.** §5.3 is sound — confirmed CURRENT (Q-128) — **but it quantifies over an admitted
+family the theory has never specified.** *** THE GATE IS FINE; THERE IS NOTHING TO RUN IT AGAINST.
+AND THE ADMITTED FAMILY IS THE THEORY'S OWN STATEMENT OF WHAT IT ALLOWS — IF IT WAS NEVER WRITTEN,
+THE THEORY HAS NOT SAID WHAT IT PERMITS, WHICH IS EXACTLY THE CONDITION UNDER WHICH "NO INEQUIVALENT
+ADMITTED ROOT" IS UNVERIFIABLE. ***
+
+**AND THE DECIDING SUB-QUESTION IS ANSWERED: NOTHING IN THE CORPUS BOUNDS THE HIGHER-DERIVATIVE
+CLASS.** So a bounding argument is a **required deliverable**, not an optional convenience.
+
+**Step 3 got heavier today, not lighter.** It still must precede any root — **building it later is
+worthless — so if it is built at all, it is built now.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
