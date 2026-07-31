@@ -35,7 +35,58 @@ the two objects **overlapping but not identical**).
 
 ---
 
-## *** THE ROADMAP AS OF 2026-07-31 EVENING — WHAT IS DEFINED AND WHAT IS NOT ***
+## *** DIRECTION CORRECTION, PRINCIPAL, 2026-07-31 EVENING: THE WORK IS TO DESCRIBE THE SURFACE ***
+
+**The principal:** *"I thought that the work is to describe the surface."* **He was right and the
+reviewer had drifted.** *** SLOT-COUNTING, CENSUS AUDITING AND ADOPTION INVENTORIES ARE HYGIENE. THEY
+ARE **ABOUT** THE WORK RATHER THAN BEING IT. A PROGRAM THAT ONLY DOES HYGIENE NEVER COMPUTES
+ANYTHING. ***
+
+**THE SURFACE IS THE RECORD CELL'S BOUNDARY — WHERE ITS INSIDE MEETS ITS OUTSIDE — AND THE OBJECT
+THAT DESCRIBES IT IS `beta`.**
+
+```text
+INSIDE    projective state space -- dimensionless angles, Fubini-Study
+OUTSIDE   the Lorentzian causal diamond -- lengths
+MISSING   *** HOW MUCH EXTERNAL LENGTH CORRESPONDS TO ONE UNIT OF INTERNAL ANGLE ***
+```
+
+**Named as the crux TWICE, INDEPENDENTLY, and recorded UNATTEMPTED.** The modulus gate: Fubini-Study
+*"does not fix their dimensional conversion relative to the spacetime metric or `ell_P`."* The
+Stage-10 handoff: *"the causal diamond is present but unconsulted … the cell's Lorentzian geometry
+never entered."*
+
+**The modulus gate carries the PROOF that `beta` is the whole blocker:** every `R = beta c Delta tau`,
+`beta > 0`, preserves base interval, phase periodicity, topology, gauge covariance and unit character
+**while changing `K_KK` by `beta^2`.** *** SO A FULLY DERIVED RECORD INTERVAL STILL LEAVES A
+ONE-PARAMETER FAMILY FREE. DERIVING `T_R` DOES NOT REOPEN IT. ***
+
+*** AND IT IS UNLIKE EVERY ROUTE THAT DIED TODAY: IT NEEDS NO BRIDGE. Six cross-construction
+identifications refuted 07-29 and six `B0` routes closed 07-31, ALL for want of a map between two
+constructions. ONE RECORD CELL ALREADY CARRIES BOTH STRUCTURES, AND BOTH CONSTRUCTIONS AGREE IT
+EXISTS. IT ALSO DOES NOT WAIT ON `B0`. ***
+
+**THE BAR IS ONE GRADE LOWER THAN OLDER NOTES STATE.** Program memos record *"only overdetermination
+forces a number."* **Q-65 refuted that** — a require with **derived existence and uniqueness** forces
+on its own; overdetermination is not required and was struck from S9-A. **The stale stricter bar may
+be part of why this target went unattempted.** Memory corrected 2026-07-31. **Permissions still never
+force — that half stands.**
+
+**What still binds:** *** TOUCHING BOTH GEOMETRIES IS NOT SUFFICIENT — THE CONDITION MUST CLOSE. ***
+`boundary_access_closure_threshold_principle_v001.md` touched both and was typed
+`CELL_CONSTRAINT_ONLY`, **"RETIRED AS A STANDALONE K_R SELECTOR."**
+
+**Closed by proof, not exhaustion — do not re-attempt:** the fiber radius is not the cell radius; the
+bundle can be derived from the record cell but **cannot yield a radius** (connections on a fixed line
+bundle form an affine space — topological and holonomic, no fiber metric, while a radius is metric
+datum); **no curvature term was ever projected** for the modulus radius. Q-07, Q-08, Q-09 settled;
+**Q-10 is the open one.**
+
+**RUNNING: relay 217, Einstein.**
+
+---
+
+## THE ROADMAP AS OF 2026-07-31 EVENING — WHAT IS DEFINED AND WHAT IS NOT
 
 **Answering the principal's question directly: the road is NOT uniformly well-defined. One step is
 clear, one is partly blocked, one bottoms out in an axiom.**
