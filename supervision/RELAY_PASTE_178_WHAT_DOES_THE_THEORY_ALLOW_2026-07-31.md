@@ -1,12 +1,12 @@
-PASTE 178 — NEXT FREE LANE — ITEM: WHAT DOES THE THEORY ACTUALLY ALLOW RIGHT NOW?
+PASTE 178 — CODEX 1 — ITEM: WHAT DOES THE THEORY ACTUALLY ALLOW RIGHT NOW?
 
 2026-07-31. Snapshot; later rulings override. **REGISTER HEAD AT ISSUE: Q-80.**
 
 ```text
-THIS RELAY   = characterize the admissible family with the clothing removed   [relay 178]
-CODEX 1      = the rank-1 producer algebra                                    [relay 176]
-CODEX 2      = the C_R selector chain, S4                                     [relay 177]
-EINSTEIN     = re-type the boundary by discharge route                        [relay 175]
+CODEX 1 (you) = characterize the admissible family with the clothing removed  [relay 178]
+                RUN THIS AFTER relay 176, not instead of it
+CODEX 2       = the C_R selector chain, S4                                    [relay 177]
+EINSTEIN      = re-type the boundary by discharge route                       [relay 175]
 ```
 
 **OFF LIMITS:** the producer-algebra extension (Codex 1); S4 and the `sqrt(2)` fork (Codex 2); the boundary
@@ -45,6 +45,16 @@ imports failed on 2026-07-31 alone.
 ```
 
 ---
+
+### WHY YOU AND NOT EINSTEIN
+
+*** EINSTEIN PRODUCED THE EIGHT (Q-74) AND THEIR DISCHARGE RANKING (Q-78). ITEM 3 ASKS WHETHER THE
+FREEDOM-RANKING DISAGREES WITH THAT DISCHARGE-RANKING — WHICH WOULD BE ASKING IT TO REFEREE ITS OWN TWO
+RESULTS. *** This program's most reliable lesson is that independent review catches what authors cannot:
+theory candidate 001 was cut down three times, every time by a lane that had not written it.
+
+**You did not write the eight. Read Einstein's Q-74 and Q-78 artifacts as INPUT, and disagree with them
+where the evidence says so.**
 
 ### THE PRINCIPAL'S POINT, AND WHY IT REFRAMES EVERYTHING BELOW IT
 
@@ -105,7 +115,7 @@ OUTPUT AND IT HAS NEVER BEEN STATED. ***
 
 ---
 
-REPORT BACK with your lane name on the first line: hashes, exact committed paths, gate verdict, the five
+REPORT BACK, with **CODEX 1** on your first line: hashes, exact committed paths, gate verdict, the five
 answers, **every negative typed.** *** IF THE ADMISSIBLE FAMILY IS LOW-DIMENSIONAL AND STATEABLE, LEAD WITH
 IT — it would be the first time this program has reported what it actually claims, as opposed to what it
 has not yet finished. ***
