@@ -2975,6 +2975,65 @@ forbids the specific form of that error. ***
 
 ---
 
+## Q-72. "Do the 13 JSON authority ledgers contradict anything?"
+
+**RULING: NO. THE SCOPE HOLE IS CLOSED AND NOTHING CHANGES.** Established 2026-07-31 by Codex lane 1 under
+relay 170 (`STAGE8_JSON_AUTHORITY_LEDGER_SWEEP_V001.md`, `5f2390f9…`, archive `8f5dc5e`, gate GREEN).
+
+**Exactly 13 ledgers, `CURRENT_AUTHORITY_LEDGER_V001.json` through `V013.json`.** They assert authority
+tuples, current/superseded results, Level-1 postulates, execution and protected flags, subordinate result
+bindings, and external-route audit status. **Protected flags remain false where expected; no
+`authorized = true`, no `computed = true`, no alpha, `kappa_record` or `kappa_Thomson` computation
+anywhere.**
+
+**No substantive JSON-vs-Markdown contradiction.** Raw candidates were typed `false | TYPE-S` — guard
+examples, hypothetical "would refute if true" text, or the axiom-versus-theorem distinction already
+reflected in V011/V013. **`ledger_construction_dependency_edge_found = false | TYPE-S`, so the Q-64 graph
+gains no nodes or edges and the acyclicity verdict is unaffected.**
+
+**WHY IT MATTERED ANYWAY:** every audit this program had run was markdown-shaped, so 13 authority-bearing
+files were invisible to the dependency census, the premise classification, the registry sweep and the
+`untyped_negative` gate. **A clean result here is worth having precisely because a dirty one would have
+invalidated findings nobody would have thought to re-check.**
+
+---
+
+## Q-73. "Does issue 1's output feed issue 2's equation?"
+
+*** RULING: YES, AND THE CONNECTOR IS A THIRD MISSING BRIDGE THAT THE DEPENDENCY GRAPH COULD NOT SEE. ***
+`T_R_and_k_R_have_derived_bridge = false`. Established 2026-07-31 from the principal's observation that a
+dependency was being asserted which no artifact states.
+
+**THE SEALED PROSE STATES THE COUPLING** (`STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001.md:64-67`): the closure
+residual is built from an action carrying the `A_4` logarithm, **"so `k_R` — the floor — appears in the
+equation that fixes `K_*`."** *** A LOGARITHM NEEDS A REFERENCE SCALE. So a scale-side quantity sits inside
+the equation whose root is the coupling. ***
+
+**AND THE CONNECTOR IS NAMED AND UNDERIVED:** `T_R_and_k_R_have_derived_bridge = false`. `T_R` is what
+`C_R = 1` would select on the scale side (issue 1); `k_R` is the floor appearing in the `K_*` equation
+(issue 2); **the bridge between them does not exist.** The proper-time floor is `s = 1/k_R^2`.
+
+*** SO THERE ARE THREE MISSING BRIDGES, NOT TWO: *** (1) the Hamilton-Jacobi scale bridge, six objects,
+which would let `C_R = 1` select; (2) the response-extraction layer, which would give `C_record(K)` a
+function to have a root; **and (3) the `T_R`-to-`k_R` bridge, which would connect the selected scale to the
+equation that fixes the coupling.**
+
+*** THIS CORRECTS Q-64's "TWO DISJOINT CRITICAL PATHS." *** They share zero nodes **on stated `would-build`
+edges** — Einstein typed that precisely and warned it proved nobody had STATED a shared prerequisite, not
+that the physics was independent. **The physics is not independent, and the corpus says so in a status flag
+and in prose. The census could not see either, because it walked only `would-build` fields.**
+
+**METHODOLOGICAL DEFECT, GENERAL:** *** THE DEPENDENCY GRAPH CAPTURES ONLY DEPENDENCIES EXPRESSED IN ONE
+SYNTACTIC FORM. *** Real dependencies also live in prose ("X appears in the equation that fixes Y") and in
+`*_have_derived_bridge = false` flags. **Any claim of parallelism between chains is unsafe until those are
+extracted.**
+
+**REVIEWER NOTE:** the reviewer asserted this coupling before checking it and was right by luck, not by
+evidence. **The principal asked for the artifact that states the dependency; there is one, and it is
+stronger than the assertion was.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
