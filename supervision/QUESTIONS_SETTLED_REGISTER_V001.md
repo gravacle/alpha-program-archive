@@ -2912,6 +2912,56 @@ category mistake. **The principal caught it by asking whether a floor exists at 
 
 ---
 
+## Q-71. "What actually forces the number — and did the program already know?"
+
+*** RULING: IT IS THE THRESHOLD, EXACTLY AS THE PRINCIPAL SAID. AND THE FORCING MECHANISM WAS ALREADY
+WRITTEN INTO `STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001.md` ON 2026-07-30 — NOBODY RECOGNIZED IT AS ONE. ***
+Established 2026-07-31 from the principal's statement *"my guess would have always been that it's a matter
+of reaching the threshold, not overdetermination"* and verified against sealed text.
+
+**Q-65 established that a require-shaped condition with DERIVED existence and uniqueness forces a number.**
+*** A THRESHOLD WITH A DERIVED UNIQUE ROOT IS PRECISELY THAT SHAPE. *** And this program is built on
+thresholds end to end — onset conditions, marginal closure, first durable record, `C_record(K) = 0` at
+`K_*`. **The forcing shape was never missing. It was the program's own architecture.**
+
+**THE SPEC ALREADY SAYS IT** (`:64-67`):
+
+```text
+a completed Gamma_K with a unique simple positive C_record root would determine K_*
+conditionally on the induced-only axiom, not absolutely
+```
+
+**"Conditionally, not absolutely" is Q-65's "conditional derivation, singly-attested" — written a day
+before Einstein derived the grading.**
+
+*** AND §5.3 IS A COMPLETE UNIQUENESS GATE, WITH ANTI-FITTING BUILT IN: *** it passes only on "one simple
+positive root and no inequivalent admitted positive root or continuous modulus," and **fails if existence
+is shown without uniqueness, if a continuous family survives, if a second inequivalent positive root
+survives, or *** IF UNIQUENESS IS OBTAINED ONLY BY NARROWING THE ADMITTED FAMILY AFTER SEEING THE ROOT
+***." **That last clause is target-fitting, forbidden by name.** And "the root is then solved once and
+independently reproduced" **is freeze-before-root-finding — which Einstein independently named a keystone
+in Q-65.**
+
+**THE OBLIGATION IS OPEN BUT NAMED:** `constant_root_uniqueness_derived = false`. **It is the only
+uniqueness flag on the threshold and it is not yet earned.**
+
+*** SO THE PAIR-HUNT WAS A DETOUR. *** Q-61 surveyed the corpus for pairs, found zero live, and the
+reviewer treated that as the route being empty. **It was the wrong route. The program's route to a forced
+number is: complete `Gamma_K` → run the §5.3 uniqueness gate → a derived unique simple positive root forces
+`K_*` conditionally on the induced-only axiom.** **This is the same failure pattern as every correspondence
+error in this program — the missing thing already existed — except that this time what already existed was
+the METHOD.**
+
+**CURRENT LANE ASSIGNMENTS ARE VINDICATED, NOT REDIRECTED.** Codex 2's package work heads the critical path
+to a completed `Gamma_K`, which is exactly what the uniqueness gate needs. **What changes is what the work
+is FOR: not assembling a second leg, but earning existence and uniqueness of one root.**
+
+*** WHAT WOULD STILL KILL IT: uniqueness ADOPTED rather than derived. Q-65 requires both existence and
+uniqueness to be DERIVED. An adopted uniqueness is a fit wearing a threshold's clothes, and §5.3 already
+forbids the specific form of that error. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
