@@ -4114,6 +4114,59 @@ unproved aliases.**
 
 ---
 
+## Q-101. "Is marginality energy-phrased by necessity or by inheritance?"
+
+*** RULING: THE BINARY DOES NOT FIT. THE SEALED CONDITION SPLITS INTO TWO OBJECTS AND EACH BIN FITS EXACTLY
+ONE — **IMPORTED FORM, NATIVE ROLE**. AND THE GEOMETRIC ROUTE DIES CLEANLY: `T_R` CONSUMES THE ENERGY
+IDENTIFICATION TWICE. *** Established 2026-07-31 by Einstein under relay 193
+(`STAGE8_MARGINALITY_ENERGY_PHRASING_ADJUDICATION_EINSTEIN_V001.md`, `71fd4f3a…`, 366 lines, seal
+verified).
+
+```text
+Object A  the boundary-point selection rule ("least positive T_R at the boundary of the
+          recoverable set")  -- ENERGY-PHRASED BY INHERITANCE. Its role is ORDER-THEORETIC;
+          its dress comes from the imported Misner-Sharp form no sealed derivation requires.
+
+Object B  the scale equation (marker + C_R = 1) -- ENERGY-CONSUMING BY NECESSITY. Every
+          sealed consumer producing a NUMBER substitutes an energy, which is exactly why
+          the fork is physical.
+```
+
+*** THE TENTH-FALSE-CONSTRAINT CLAIM IS **NOT EARNED**: inheritance holds only for A's dress, and no
+unblocking follows. ***
+
+*** THE KILL IS SHARPER THAN THE OBJECTION PREDICTED: THE `sqrt(2)` FORK SURVIVES EVEN AT A FIXED, GRANTED,
+GEOMETRIC `C = 1`. BOTH EXACT ROOTS ARE EVALUATED AT THE SAME `C = 1`. **MARGINALITY FIXES ONLY WHERE; THE
+ENERGY FIXES THE NUMBER.** *** So a geometric restatement would relocate nothing step 2 needs.
+
+**`T_R` CONSUMES THE IDENTIFICATION TWICE.** **Existence:** the product form `E_R T_R = s hbar` is legitimate
+only after a five-item list **whose item 4 is the conjugacy of `T_R` itself — unbuilt**
+(`Hamilton_Jacobi_conjugate_energy_selected = false | TYPE-U`). **Value:** the `sqrt(2)` between the roots.
+**`ERRATUM_002:117-119` seals it: `E_BY/E_MS = 2` exactly at `C = 1` — marginality fixes the fork's
+MAGNITUDE; conjugacy is its ENTRY POINT.**
+
+*** THE REVIEWER'S GLOSS OF Q-59 IS REFUTED (TYPE-R, verbatim comparison). *** Q-59 puts the fork **in the
+energy identification at marginality, not in the compactness formula.** **Correcting the gloss STRENGTHENS
+the kill rather than the challenge.**
+
+**NO CAUSAL-GEOMETRIC STATEMENT EXISTS** — TYPE-S over two layers and a 28-spelling extended lexicon, zero
+qualifying hits, reproducing the corpus's own prior nine-query zero. *** AND THE DEPENDENCY RUNS THE OTHER
+WAY: SEALED TEXT DEFINES "TRAPPED" AS `C_R > 1` — ENERGY → TRAPPING, THE EXACT REVERSE OF THE CHALLENGE'S
+PROPOSAL. *** The strict-untrapped TYPE-R killed the inequality-as-selector only; **no expansion route was
+ever written, hence never refuted — TYPE-U, not TYPE-R.**
+
+**TWO NEW Q-80 CLASSES.** *** `CAUSALLY-GLOSSED ENERGY DISPLAY` — an energy-defined formula carrying sealed
+causal vocabulary with no sealed independent definition. ITS EXISTENCE IS WHY THE PRINCIPAL'S QUESTION COULD
+NOT BE SETTLED FROM PHRASING ALONE. *** And `NON-ARRIVING ROUTE` — chains that mention `T_R` but never reach
+a fixing statement.
+
+**"DIES CLEANLY" MEANS DIES-AS-SEALED. TWO REVIVALS ARE NAMED:** **(r1)** an energy-free closure equation —
+**the null-diamond family is the corpus's sealed attempt at that shape and is sealed FAILING**; **(r2)** the
+seven-item bridge. *** EITHER WAY THE FORK CLOSES BY DERIVATION, NEVER BY PICK. TWO PRINCIPAL ACTS ARE NAMED
+AND NEITHER PERFORMED: restating marginality geometrically, and any pick of the fork. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
