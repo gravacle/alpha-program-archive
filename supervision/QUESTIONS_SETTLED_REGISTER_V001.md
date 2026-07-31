@@ -4731,6 +4731,73 @@ refutation.**
 
 ---
 
+## Q-116. "Can a `B0` candidate be discriminated from one that does no work?"
+
+*** RULING: YES — MD-3 IS SPECIFIED AND IT IS NOT VACUOUS. `CM3_passes_MD3 = false | TYPE-R`. ***
+Established 2026-07-31 by Codex lane 1 under relay 209
+(`STAGE8_B0_MD3_DESCENT_NON_DEGENERACY_ACCEPTANCE_TEST_V001.md`, `23f54271…`, 492 lines, seal verified,
+fence-clean).
+
+*** THIS IS THE FIRST ACCEPTANCE TEST THE PROGRAM HAS EVER HAD FOR ITS ROOT OBJECT. BEFORE TODAY A BUILT
+`B0` COULD NOT HAVE BEEN CHECKED AT ALL. ***
+
+**CM-3 fails because total constant descent maps make nontrivial candidate variation invisible to every
+descendant** — the countermodel that survived the accessor, codomain, primitive, historical, joint and
+incidence routes, and survived a combinatorially rich interior in relay 208, does not survive this.
+
+**MD-3 consumes:** a `B0` candidate packet · executable `DESCEND_B0` · `C0`/`U1`/`U2`/`U3` with
+`d_C0`/`d_U1`/`d_U2`/`d_U3` · a target-independent probe family · frozen candidate and descendant
+equivalence relations.
+
+**THE FIBER QUESTION IS NOT ANSWERED.** `fiber_action_on_C_record_today = NO_VERDICT`, blocked on four
+named absences: **the `C_record(K)` extraction/evaluation map; the response layer; the candidate
+equivalence relation; and no pair `r,r'` constructed or run.**
+
+*** AND THE LANE BUILT IN A SAFEGUARD THE REVIEWER DID NOT ASK FOR, WHICH IS THE RIGHT ONE. *** The two
+future verdicts are asymmetric by design (`:381-389`): `fiber_acts_on_road = true` needs only **one**
+MD3-distinct pair giving a non-equivalent `C_record`, but `fiber_is_gauge_relative_to_road = true`
+additionally requires **a sealed equivalence theorem that the equality is not an artifact of a missing
+extractor or collapsed test domain.** **THAT GUARDS AGAINST DECLARING THE FIBER FLAT WHEN THE TEST IS
+MERELY BLIND — the exact failure a reviewer hoping for "gauge" would have walked into.**
+
+**Reviewer note:** the artifact's only two `= true` flags sit under *"Possible future verdicts"* and are
+branch definitions, not results. **Checked at source before registering (Q-69).**
+
+---
+
+## Q-117. "Does the corpus fix whether `target-independent` means inputs or specifications?"
+
+*** RULING: NO. THE SEAM IS OPEN — AND §5.3'S ANTI-NARROWING DEFENCE IS **NOT EXECUTABLE**. ***
+Established 2026-07-31 by Codex lane 2 under relay 210
+(`STAGE8_TARGET_INDEPENDENCE_SEAM_AUDIT_V001.md`, `834e5041…`, 64 lines, seal verified).
+
+```text
+NO corpus-wide definition fixes the term.
+
+SPECIFICATIONS reading   5.3's anti-narrowing defence is DIRECTIONALLY VALID BUT NOT
+                         EXECUTABLE -- the admitted-family census and provenance are UNFROZEN.
+INPUTS-only reading      a target-aware family could still be selected while numerical target
+                         data are absent.
+K_(1,3)                  CONFIRMED specification-level target-aware; designates the rooted-star
+                         sub-object and fixes downstream dimensions; accounting gate unpassed.
+```
+
+*** THE CONSEQUENCE, STATED PLAINLY: THE PROGRAM CANNOT CERTIFY A NUMBER EVEN IF IT HAD ONE. §5.3 IS THE
+GATE THAT WOULD ESTABLISH A COMPUTED ALPHA WAS FORCED RATHER THAN FITTED, AND ITS PRIMARY CLAUSE CANNOT
+CURRENTLY BE RUN. THAT IS A MISSING CAPABILITY AT THE END OF THE ROAD, NOT A DELAY. ***
+
+**SWEEP GAP — RECORDED, NOT HELD AGAINST THE LANE.** The audit is 64 lines and **did not surface
+`BID_GLOBAL_BOUNDARY_DESCENT_QUASI_FREE_COMPLETENESS_V001.md`**, whose `:22-25` reads *"target-value-free
+but **historically target-aware**"* — **the corpus stating the inputs/specifications distinction about
+itself, in one sentence, on a load-bearing microscopic premise.** The reviewer had found it independently
+(Q-115) and **held it back deliberately as a thoroughness check.** *** THE CHECK FIRED. The sweep is not
+complete and must not be treated as a corpus-wide negative. *** It is supplied to the lane in relay 212.
+
+**This does not downgrade the ruling** — the finding is that no definition exists, and the missed exemplar
+**strengthens** rather than weakens it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

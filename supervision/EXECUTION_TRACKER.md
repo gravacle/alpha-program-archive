@@ -12,22 +12,67 @@ STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
 
 ---
 
-## LANES RIGHT NOW — ALL THREE LOADED
+## LANES RIGHT NOW
 
 ```text
-CODEX 1   relay 209   WRITE MD-3 (B0_DESCENT_NON_DEGENERACY). The acceptance test.
-                      Plus: does the Q-113 residual fiber ACT on C_record?
-                      Blocked behind nothing. UNBLOCKS STEP 1.
+CODEX 1   relay 213   CAN THE QUASI-FREE COMPLETENESS RULE BE DERIVED? Adopted,
+          QUEUED      never attempted (Q-115). If derivable, N4's limiter route
+                      opens and the ninth debt clears. ADVANCES STEP 1.
 
-CODEX 2   relay 210   CLOSE THE TARGET-INDEPENDENCE SEAM. Does the corpus's
-                      "target-independent" mean INPUTS or SPECIFICATIONS? Plus the
-                      K_(1,3) target-aware premise at V011 :262-263.
-                      UNBLOCKS STEP 3.
+CODEX 2   relay 212   THE CENSUS. (a) Is 5.3's "admitted family" the same object as
+          QUEUED      the MIXED_TYPE_ALLOWANCE_ENVELOPE? (b) Does "open" mean NOT
+                      YET ENUMERATED or NOT ENUMERABLE? Plus the exemplar the 210
+                      sweep missed. *** DOES NOT WAIT ON B0. *** UNBLOCKS STEP 3.
 
 EINSTEIN  relay 211   IS "ONE OPERATOR" DERIVED OR IMPORTED? Tests the premise the
-                      six routes assumed rather than running a seventh route.
-                      FABLE. ADVANCES STEP 1.
+          RUNNING     six routes assumed rather than running a seventh route. FABLE.
+                      ADVANCES STEP 1.
 ```
+
+**RETURNED THIS SESSION:** 209 (Codex 1, MD-3 specified, `CM3_passes_MD3 = false | TYPE-R`,
+fiber `NO_VERDICT` on four named blockers) · 210 (Codex 2, seam OPEN, **§5.3's anti-narrowing
+defence NOT EXECUTABLE**, `K_(1,3)` confirmed specification-level target-aware).
+
+---
+
+## THE PLAN — WHY THESE THREE, AND WHAT EACH RETURN DECIDES
+
+*** WE ARE NO LONGER ONLY PUSHING ON `B0`. 210 OPENED STEP-3 WORK THAT RUNS INDEPENDENTLY,
+WHICH HAS NOT BEEN TRUE FOR DAYS. ***
+
+**Why not build `B0` now.** Premature in two independent ways: **nothing determines it** (six
+routes), and **MD-3 cannot yet accept it** (four blockers — `C_record` extraction map, response
+layer, candidate equivalence relation, no constructed realizer pair). **All three queued items
+are cheaper than a `B0` construction and any of them could make it unnecessary or
+differently-shaped.**
+
+```text
+RETURN                          CONSEQUENCE
+
+(b) NOT ENUMERABLE              *** STEP 3 IS UNREACHABLE AS WRITTEN. Steps 1 and 2 are
+                                building toward a gate that cannot be passed. STOP AND
+                                RE-PLAN. THIS IS THE ONE PRINCIPAL DECISION IN THE SET. ***
+
+(b) NOT YET ENUMERATED          Step 3 is work, not a wall. Freeze the census and 5.3
+                                becomes executable.
+
+(a) DIFFERENT OBJECTS           The open action-form class never contaminated the gate.
+                                Cheapest good outcome on the board.
+
+211 "ONE" IS AN IMPORT          B0 may not need pinning; six routes measured something the
+                                physics never required.
+
+211 "ONE" IS DERIVED            B0 is a genuine single obligation, MD-3 is its gate, and a
+                                construction is needed. 213 then says whether its dynamics
+                                can be derived or must be adopted.
+
+213 DERIVABLE                   N4's limiter opens -- the one construction route the B0 spec
+                                itself names as acceptable.
+```
+
+*** EVERY RELAY IS SELF-CONTAINED. LANES CARRY NO STATE BETWEEN RELAYS. A relay that assumes a
+lane "still has" earlier context will be answered as a different question — that is what
+happened to paste #80. ***
 
 ---
 
