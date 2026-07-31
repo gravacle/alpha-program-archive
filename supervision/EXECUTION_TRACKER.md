@@ -1,26 +1,51 @@
 # EXECUTION TRACKER — what is actually being done, by whom, right now
 
-**LAST UPDATED 2026-07-30 evening. Register head Q-56.**
+**LAST UPDATED 2026-07-30, end of day. Register head Q-64. THREE LANES RUNNING OVERNIGHT.**
 
-## LANES — LIVE NOW
+## OVERNIGHT STATE — PRINCIPAL ASLEEP, LANES WORKING QUEUES
 
 ```text
-CODEX 1   FREE.      Last: Q-56 closure retype (RETURNED). Next candidate: what shape of
-                     argument could force a number, given exhaustion cannot. HELD until
-                     Einstein and Codex 2 return -- both bear on it.
-CODEX 2   RUNNING.   Paste 158 -- specify the raw-correlator-to-retarded-Hessian map;
-                     first check whether it is the Q-50 scalarization bridge under another name.
-EINSTEIN  RUNNING.   Paste 159 -- are C_R = 1, tau = 1, tau_R, T_R, tau_orth independent?
-                     How many unselected absolute scales does the program actually have?
+CODEX 1   relay 167   bridge critical path: alias precondition, triage the six Q-59
+                      objects, specify the two most load-bearing, depth report
+CODEX 2   relay 168   package resumed (blocker released by Q-64): T8 rewiring,
+                      word-boundaried triage re-verify, next object, CYCLE CHECK
+                      INSIDE THE FENCE
+EINSTEIN  relay 166   forcing-boundary adjudication, canonical identifier registry,
+                      then walk the 90 prose-targets and ~350 untyped identifiers
+                      into the graph
 ```
 
-**FENCE DISCIPLINE:** three lanes, one archive working tree. Each paste carries the other lanes'
-off-limits list. **Stage only your own paths; never `git add -A`.**
+*** WRITE PROTOCOL TONIGHT: LANES SEAL BUT DO NOT COMMIT. *** No `git add`, no push, no touching the
+baseline, no reading deploy state. **Three lanes on one working tree with nobody awake to arbitrate cost
+three blocked commits and one near-miss today.** A sealed artifact with a verified sidecar loses nothing
+but timeliness.
 
-## WAITING ON THE PRINCIPAL
+## MORNING PICKUP — DO THESE IN ORDER
 
-- **Nothing blocking.** Baseline reseal was done 2026-07-30 evening; gate GREEN, tree clean.
-- Standing: the reviewer cannot re-seal integrity files (classifier). Brian runs those.
+1. **Collect each lane's sealed artifacts.** One per queue item.
+2. **Verify every seal against its sidecar** before trusting any content.
+3. **Fence-scan each**: no computed alpha/kappa/coupling/scale/root/eigenvalue/beta, no measured-constant
+   comparison, terminal flags false.
+4. **Commit in ONE reviewed pass**, then **re-baseline `scope_declaration` to the ACTUAL count** and
+   review the delta. **Do not pre-authorize growth** — an earlier `+15` allowance was withdrawn for
+   exactly this reason.
+5. **Register the returns.** Lanes must not assign Q-numbers; the register is the reviewer's.
+6. *** SET UP GIT WORKTREES — one per lane, own directory, own branch. This is the structural fix for the
+   collision class and it was deferred only because changing three lanes' paths unattended was the larger
+   risk. ***
+
+## LEAD CONDITIONS TO CHECK FIRST IN EVERY RETURN
+
+- *** ANY CHAIN TERMINATING IN SOMETHING `derived = true`. *** Q-64 found the graph's **entire boundary
+  unbuilt**. The first chain reaching derived ground would be **the first floor this program has found.**
+- *** A CYCLE INSIDE THE PACKAGE FENCE (Codex 2). *** One of three places a cycle could still hide, and
+  Codex 2 is the only lane that can see inside. A cycle makes the program unfinishable rather than
+  unfinished.
+- *** THE "ONLY OVERDETERMINATION FORCES A NUMBER" PRINCIPLE BEING WRONG AS WRITTEN (Einstein item 1). ***
+  It has directed lane assignments for days. **The reviewer believes it is too strong and asked to be
+  attacked on it.**
+- **An alias merge creating a cycle** (Einstein item 2).
+- **Any of the six bridge objects or nine package items already existing under another name.**
 
 ## THE PROGRAM IS DOWN TO THREE ISSUES (2026-07-30 evening)
 
