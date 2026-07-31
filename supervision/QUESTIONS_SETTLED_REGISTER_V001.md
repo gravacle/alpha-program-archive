@@ -3483,6 +3483,79 @@ named where it was absent.**
 
 ---
 
+## Q-85. "How many of the eight are road work?"
+
+*** RULING: FOUR. INSTANCES 3, 4, 7 AND 8 ARE **DEGRADING, NOT BLOCKING** — DISCLOSURE WORK, NOT ROAD WORK.
+THE ROAD IS 4 ENTRIES AND ABOUT **THREE INDEPENDENT BODIES**. *** Established 2026-07-31 by Codex lane 1
+under relay 183 (`STAGE8_CLOTHING_INSTANCES_3_4_7_8_ROAD_STANDING_V001.md`, `4fa56aca…`, 498 lines).
+
+**The relay's mapping warning was real and the lane checked it:** instances 3/4/7/8 are **ER-A amplitude,
+`K_bare = 0`, projection-module retraction / write admissibility, and the sector functor.** Grading and
+crossed-product exclusion are 5 and 6.
+
+**ALL FOUR ARE DEGRADING.** *** STEP 1 CAN COMPLETE UNDER THEIR ADOPTED CONSTRAINTS; STEP 2 IS THE SCALE
+SELECTOR PATH AND IS SEPARATE FROM THEM. *** **Note that `K_bare = 0` — the induced-only axiom — does not
+block step 1.**
+
+**THE CONDITIONALITY THEY ADD, WHICH MUST TRAVEL WITH ANY NUMBER (Q-76):** the ER-A envelope and S8
+integrated action; induced-only `K_bare = 0` plus its mutation-exclusion debt; the adopted projection-module
+retraction / write-admissibility law; the adopted strong symmetric-monoidal sector functor. **Their
+grade-lift objects are named: exchange-magnitude theorem plus ER-B exclusion; induced-only
+microscopic-action derivation plus pre-response mutation exclusion; projection-module
+support/retraction/bimodule theorem; derived monoidal sector functor.**
+
+*** THE ROAD, COLLAPSED TO THREE BODIES: (1) THE SCALE SELECTOR; (2) THE `tau` SPECTRAL-PIN THEOREM; (3) THE
+RANK-1 PRODUCER ALGEBRA, WITH INSTANCE 6 AS A COROLLARY. ***
+
+---
+
+## Q-86. "Is `C_record(K)` a self-consistency residual?"
+
+*** RULING: NO FOR `C_record` — SEALED TEXT REFUSES IT EXPLICITLY. BUT IT IS A **NEAR-MISS, NOT A FIFTH
+FAILED IMPORT**: THE REVIEWER'S OBJECT EXISTS IN SEALED TEXT VERBATIM, ONE LEVEL DOWN, UNDER ITS OWN NAME.
+*** Established 2026-07-31 by Einstein under relay 182
+(`STAGE8_CRECORD_FIXED_POINT_READING_ATTACK_EINSTEIN_V001.md`, `d28e9291…`, seal verified).
+
+**`C_record`'s only sealed typing is "a joint eigenvalue/boundary-value problem"** (`GAMMA_K spec:451`).
+**`K` enters ONCE**, and the only concrete sealed display compares to the constant `pi`, **not to `K`**:
+
+```text
+C_record(K) = DeltaPhi[K; X_K] - pi          (scope inventory :331)
+```
+
+*** BUT THE SAME SEALED SECTION CARRIES A GENUINE K-ON-BOTH-SIDES FORM AS A DIFFERENT NAMED OBJECT: ***
+
+```text
+C_EM(K) = K - B_ind(K) = 0                   (spec:475)
+```
+
+**THE IDENTIFICATION IS FORBIDDEN AS THINGS STAND** (`:497-499` — not an "isolated scalar projection")
+**AND OWED AS A DERIVATION** (`:492-493` — it fails "if merely asserted rather than recovered as a
+projection of the stationary equation"). *** SEALED RELATIONSHIP: CONTAINMENT WITH AN UNDERIVED BRIDGE.
+THE VERDICT EXISTS ONLY AS COINCIDE-BUT-MUST-BE-PROVEN. ***
+
+**THE REVIEWER'S FIVE READINGS, ADJUDICATED:** (1) partially right, one level down. (2) **wrong for
+`C_record`, right at `C_EM`.** (3) *** NARROWING FAILS BOTH DIRECTIONS — it is one LAYER (= step 1), not one
+map: producer/package head → `G` → `E_R` → `Pi_R,ind` → `p_loc` → conditional scalar, five obligations. ***
+The grain that survives: **the blocker IS localized to one nameable layer.** (4) **"The Hessian is the
+stiffness" has ZERO sealed sentences** — no occurrence of "stiffness" in the 1116-line map spec; TYPE-S, not
+TYPE-R, since nothing refutes a future derivation. (5) *** WRONG ON ITS PREMISE. ACYCLICITY SURVIVES
+UNTOUCHED. *** The census has **no edge kind for definitional dependence**; a fixed-point equation is
+**node-internal data**. **The graph reported zero ACTUAL cycles; both hazards were held-out
+counterfactuals.**
+
+**PARTIALLY RIGHT AT EXACTLY ONE LOCATION:** P7's sealed build clause **`solve dGamma_2PI/dG = 0`**
+(`raw-map:48`) is **the corpus's one genuine both-sides structure — in `G`, not `K`** — and it is co-located
+with the flag/discharge hazard. **R15 is not.** **Q-69 stands.** **New class PROPOSED, NOT ADOPTED:
+`FIXED-POINT-NODE`; P7 instances it, `C_record` fails membership by design.**
+
+*** AND EINSTEIN RETIRED ITS OWN NEGATIVE UNDER ITS OWN NAME: its blanket "no sealed clause puts `K` on both
+sides" was FALSE, refuted by `spec:475` by its own verifier, corrected everywhere and recorded on the
+artifact face. The reading was upgraded from UNLICENSED to PARTIALLY-LICENSED-AT-`C_EM`, and the import
+charge downgraded to the identification only. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
