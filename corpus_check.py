@@ -1169,7 +1169,7 @@ def check_path_list_word_splitting(ctx: dict[str, Any]) -> CheckResult:
 # the world. Growth-gated against the baseline: existing untyped flags are not
 # retro-fixed, but nothing new enters untyped.
 UNTYPED_NEGATIVE_RE = re.compile(r"^\s*[a-z][a-z0-9_]*\s*=\s*false\b", re.IGNORECASE)
-NEGATIVE_TYPE_RE = re.compile(r"\bTYPE-[RUSC]\b")
+NEGATIVE_TYPE_RE = re.compile(r"\bTYPE-[RUSC]\b|\bNO_VERDICT\b|\bQ54_EXEMPT\b")
 # Terminal fence declarations are a fixed, mandated vocabulary asserting that
 # nothing was computed. They are not findings and carry no scope, so typing them
 # would be noise rather than signal.

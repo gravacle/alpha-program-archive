@@ -3405,6 +3405,44 @@ and **Q-69 held.**
 
 ---
 
+## Q-83. "What is actually on the road to alpha?"
+
+*** RULING: THREE STEPS. NOTHING ELSE IS ON IT. NO RELAY IS ISSUED UNLESS IT NAMES WHICH STEP IT ADVANCES.
+*** Principal direction 2026-07-31 — *"laser focused on the path to compute alpha."* Recorded as
+`ROAD_FOCUS_RULE_2026-07-31_V001.md`, effective relay 183.
+
+```text
+STEP 1   C_record(K) EVALUABLE   the loop-closing map / response-extraction layer
+STEP 2   THE SCALE FIXED         C_R = 1 selects, via the Hamilton-Jacobi bridge;
+                                 k_R sits INSIDE step 1's equation (Q-73)
+STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
+```
+
+**Legitimate relay justifications: `ADVANCES STEP 1/2/3`, or `UNBLOCKS` — which must name the step and the
+specific blockage.** *** "IT WOULD BE GOOD TO KNOW" IS NOT AN UNBLOCK. THE REVIEWER IS BOUND BY THIS BEFORE
+ANY LANE IS. ***
+
+**PARKED, NOT ABANDONED:** the 32 `PATHLESS-CLAIMED` inventory (relay 181, written and held); the canonical
+identifier registry and four alias `NO_VERDICT`s; the authority-edge modelling decision; the
+prose-extraction rule amendment; boundary re-typing beyond what a step needs; OBS-08 and the graph-model
+question. *** A PARKED ITEM IS UNPARKED ONLY BY SHOWING IT BLOCKS A STEP. ***
+
+**THE HONEST ACCOUNTING:** *** A LARGE FRACTION OF 2026-07-30 AND 07-31 MEASURED THE PROGRAM RATHER THAN
+BUILDING IT. *** That was necessary — the blocker was unknown, and the road could not have been stated in
+three lines without it. **The measurement phase is finished, not wasted.**
+
+*** AND THE SHARPENING EXPOSES A QUESTION NOBODY HAS ASKED. *** Q-81 found the rank-1 object advances
+instances 5 and 6 substantively and **3, 4, 7, 8 only at interface level.** Instances 1 and 2 are the scale
+side. **So: DO 3, 4, 7 AND 8 ACTUALLY BLOCK A STEP, OR ONLY DEGRADE THE CONDITIONALITY OF THE RESULT?** **If
+they do not block, they are not road work — they are DISCLOSURE work, and disclosure can be written at the
+end.** **One lane's question, and it would cut the work list roughly in half.**
+
+**NOTHING IS RELAXED.** Q-52, Q-54, Q-69, Q-76, Q-80, the `sqrt(2)` prohibition and §5.3's ban on narrowing
+the admitted family all stand. *** FOCUS IS NOT SPEED. A STEP TAKEN WRONGLY IS NOT PROGRESS ALONG THE ROAD;
+IT IS A FIT. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
