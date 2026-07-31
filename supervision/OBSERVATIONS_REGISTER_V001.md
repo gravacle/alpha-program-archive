@@ -277,6 +277,48 @@ Links: [[theory-candidate-001]], [[obs-05-write-impedance-refuted]], Q-53, Q-52.
 
 ---
 
+## OBS-08. IF THE RANK-1 OBJECT HAS A *COMMON ORIGIN*, THE DEPENDENCY-GRAPH MODEL MAY NOT APPLY TO IT
+
+**Status: UNCLAIMED. Recorded 2026-07-31 by the reviewer, from Q-81.**
+
+Q-81 established the rank-1 object is **not an extension** — not tensor, crossed, direct-limit or
+C*-extension — and named a new class: `COMMON_ORIGIN_CTP_PRODUCER_ALGEBRA`. Its defining property is that
+the carrier, embeddings, quotient, measure, `rho_pre`, effects, domains, dynamics and correlator interface
+all come **from a common origin**.
+
+*** A DEPENDENCY GRAPH ASSUMES THINGS ARE BUILT FROM PREREQUISITES — A IS ASSEMBLED AFTER B EXISTS. AN
+OBJECT WHOSE PARTS SHARE A COMMON ORIGIN IS NOT ASSEMBLED FROM ITS PARTS AT ALL. ITS COMPONENTS ARE
+CO-GIVEN. ***
+
+**If that is right, then for this object:**
+
+- **"What must be built first" may have no answer** — not because the answer is unknown, but because the
+  question presumes sequential assembly.
+- **Its `would-build` children may not be prerequisites but ASPECTS** — things you read off the origin
+  rather than things you construct before it.
+- **Acyclicity may be the wrong health criterion here.** The program treats a cycle as fatal because
+  construction must terminate. **Co-given components would look exactly like a cycle to a graph walker,
+  and would not be a defect.**
+
+**WHY THIS IS PLAUSIBLY SIGNIFICANT.** *** BOTH OVERNIGHT CYCLE HAZARDS FIRED ON "IDENTIFYING A FLAG WITH
+THE OBJECT THAT DISCHARGES IT" (Q-69), AND BOTH SAT IN OR NEAR THIS OBJECT. *** That was read as a merge
+error to be avoided. **An alternative reading: co-given components genuinely are mutually referring, and
+the graph model was reporting a real structural feature as a defect.** **Not established — the Q-69 rule
+should stand until this is settled, because a false merge is still a false merge.**
+
+**WHAT IS NOT CLAIMED.** That the dependency graph is wrong generally — it has been productive and its
+acyclicity result survived a 25% enlargement (Q-75). Only that **it may not be the right model for objects
+of the new class**, and the new class is one day old.
+
+*** THE PATTERN THIS BELONGS TO: FOUR IMPORTED FRAMINGS FAILED IN TWO DAYS — only-overdetermination-forces
+(Q-65), no-chain-reaches-derived-ground (Q-70), two-disjoint-critical-paths (Q-75), which-extension-is-it
+(Q-81). "Dependency graph," "critical path" and "acyclicity" are all imports too, and none has been tested
+as such. ***
+
+Links: [[project_allow_require_boundary]], Q-69, Q-75, Q-80, Q-81.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **When a candidate fails, ask which kind of failure it is.** A theorem foreclosing it is a refutation and
