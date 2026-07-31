@@ -2374,7 +2374,7 @@ did part of the job.** The candidate cost one document and returned a method fin
 
 **RULING: IT DOES NOT EXIST UNDER ANY NAME, AND A CONDITIONAL SPECIFICATION NOW EXISTS WHERE NOTHING DID.
 DERIVATION REMAINS TYPE-U; PHYSICAL VERDICT `NO_VERDICT`.** Established 2026-07-30 by Codex lane 2 under
-relay 158 (`STAGE8_RAW_CORRELATOR_TO_RETARDED_HESSIAN_MAP_SPEC_V001.md`, `57c06fcb…`, 1116 lines,
+the 158th relay (`STAGE8_RAW_CORRELATOR_TO_RETARDED_HESSIAN_MAP_SPEC_V001.md`, `57c06fcb…`, 1116 lines,
 prepublication gate GREEN).
 
 *** THE CORRESPONDENCE CHECK CAME BACK NEGATIVE, AND PROPERLY TYPED. *** A bounded 22-file search found no
@@ -2534,7 +2534,7 @@ independent ones.**
 
 *** THE SHARING IS NOT ESTABLISHED AND MUST NOT BE ASSUMED. *** Lane 1 wrote "may consume" as a conjecture
 and **was fenced from inspecting the package** — `CTP_PHYS_INPUT_PACKAGE` was explicitly off-limits under
-relay 161. **No search was run.** This is precisely the shape of claim that has been wrong ten times in
+the 161st relay. **No search was run.** This is the shape of claim that has been wrong ten times in
 this program.
 
 **VERIFICATION POINT, NO NEW LANE NEEDED:** Codex 2 is specifying the package under relay 162 right now.
@@ -2747,6 +2747,128 @@ TYPE-S with full scope, one TYPE-U, one TYPE-C (the package fence), and **one `N
 required pathless identifiers whose fate rides on an unmerged alias — CUSTODIAN'S TO RESOLVE.** One phantom
 identifier corrected (`T1_through_T7` occurs nowhere; the flag is `T1_through_T8`). **Four alias candidates
 carried unmerged with evidence on both sides rather than decided.**
+
+---
+
+## Q-65. "Does only overdetermination force a number?"
+
+*** RULING: NO. THE STANDING PRINCIPLE IS WRONG AS WRITTEN. "Permissions never force a number" is RIGHT;
+"only overdetermination does" is FALSE. A REQUIRE-SHAPED CONDITION WITH DERIVED EXISTENCE AND UNIQUENESS
+FORCES A NUMBER. *** Established 2026-07-31 by Einstein under relay 166 item 1
+(`STAGE8_FORCING_BOUNDARY_ADJUDICATION_EINSTEIN_V001.md`, `05c832ad…`, seal verified).
+
+*** THE SLOGAN FUSED TWO DIFFERENT THINGS: FORCING IS A FACT ABOUT THE ADMISSIBLE SET; ANTI-FITTING IS A
+FACT ABOUT HOW WE KNOW THE POINT WASN'T CHOSEN. *** The corpus half-knew — the tracker's own produce/force
+asymmetry line, and **Q-58's grading, which is incompatible with the slogan read strictly.** Einstein owns
+that contradiction as much as the reviewer: **it wrote Q-58 and then a checklist whose items 4-5
+presuppose a pair.**
+
+**THE REVIEWER'S CORRECTION IS SUSTAINED 4½ OF 5, AND ATTACKED WHERE HE ASKED.** **Point 1 MISCOUNTS** —
+exact joint determination is a **third** forcing shape. **Point 4 holds only if the reduction itself is
+derived** — today it is a stack of adoptions. **Point 5 is WRONG**: `[O3]` does not supply the same
+protection, because **provenance is not structural**; the gap is **priced, not waved off**.
+
+**THE ANSWER: a unique require plus certificates suffices for "CONDITIONAL DERIVATION, SINGLY-ATTESTED" —
+ONE GRADE BELOW A PAIR.** Items **4′/5′** (require-status and root-structure certificates, the solvability
+counterfactual) replace the pair items; **freeze-before-root-finding and the target-entry sweep become
+keystones.** *** AND THE ONE THING REDUNDANCY ALONE SUPPLIES: INDEPENDENT CORROBORATION AGAINST A **WRONG**
+CONDITION — WHICH IS ERROR-RISK, NOT FIT-RISK. ***
+
+*** R-L2b IS **REFUTED AS WRITTEN | TYPE-R** — AND ITS REFUTATION IS THE SOLO ROUTE'S PROOF-OF-CONCEPT: A
+REQUIRE THAT COULD DIE, AND DID. *** Typed, not built.
+
+**The route restatement is shorter than "build two independent legs," so the reviewer's error WAS costing
+lane time.** **FLAGGED FOR THE PRINCIPAL: S9-A's own wording embeds the over-strong principle ("derived and
+overdetermined") and may want relaxing.**
+
+---
+
+## Q-66. "The canonical registry and the graph boundary." (Einstein, relay 166 items 2-3)
+
+`STAGE8_CANONICAL_IDENTIFIER_REGISTRY_EINSTEIN_V001.md` (`aad6dc23…`) and
+`STAGE8_GRAPH_BOUNDARY_WALK_EINSTEIN_V001.md` (`c8e5b049…`), seals verified.
+
+**REGISTRY — ZERO MERGES, SO NO CYCLE WAS CREATED.** (a) bare-vs-branch `absolute_record_interval` —
+**NO_VERDICT, escalated to the principal.** (b) the Q-51 operator vs the extension flag — **NO_VERDICT, and
+the highest-value pending merge: the ruling moves a Q-51 object between pathless and pathed.** (c) the
+exchange-magnitude pair — **DISTINCT**, confirmed twice. (d) `kappa_record` vs `K_*` — **the corpus's own
+sealed NO_VERDICT governs** (Q-62). The `C_R` pair was fenced; **on discovering Codex 1 was adjudicating
+it, reading stopped.**
+
+**The namespace is cleaner than feared, not clean:** zero collisions inside the anchored population; **two
+real families outside it — a case-fold doublet mixing typed and untyped spellings of the same identifier
+(the cycle hazard), and one token-reorder pair**; 18 one-name-across-eras identifiers. *** SCOPE HOLE
+ESCALATED: THE 13 JSON AUTHORITY LEDGERS HAVE NEVER BEEN SWEPT BY ANYTHING. ***
+
+**BOUNDARY WALK — NO CHAIN ANYWHERE TERMINATES IN `derived = true`. THE FIRST FLOOR HAS STILL NOT BEEN
+FOUND**, and the enlarged graph is acyclic (236 node records, Tarjan). **90 prose-targets split 43
+restatements / 18 real / 29 NO_VERDICT** — *** and NINE OF THE ELEVEN MAX-UNBLOCK P-ROW CHILDREN ARE
+SAME-LINE RESTATEMENTS OF THEIR OWN ROWS. THEY WERE NEVER NINE INDEPENDENT OBJECTS. ***
+
+**THE UNTYPED MASS IS NOW A NUMBER: 372 identifiers — 64 LIVE (17.2%), 14 retired, 10 off-path, 284
+honestly UNKNOWN.** "Most are probably not on the value path" is confirmed. One costly-error correction
+applied (a RETIRED flag the sealed text names LIVE) and **an extractor bug caught by verification (11
+identifiers recovered, none live).**
+
+---
+
+## Q-67. "The bridge critical path." (Codex 1, relay 167)
+
+**ALIAS RESOLVED:** `C_R_marginal_selector_derived_rather_than_adopted` and
+`marginal_closure_condition_derived_rather_than_assumed` are **the same TYPE-C obligation**
+(`STAGE8_BRIDGE_ITEM0…`, `ba1babe5…`). **So that pathless node has a release — the `C_R` chain has a naming
+artefact, not a hole.**
+
+**SIX OBJECTS: 0 COMPLETE / 6 PARTIAL / 0 ABSENT.** Dependency order **S1 → S2 → S4 → S3 → S5 → S6**
+(`0a631fbb…`). **S1** (complete Lorentzian CTP action/boundary/time-flow) and **S2** (constant
+Hamilton-Jacobi record energy) are now **specified as Q-52 test objects, `derived = false | TYPE-U`**
+(`e6bf47f6…`, `ecfbab95…`); **S2 cannot be attempted until S1 exists.**
+
+**`bridge_chain_reaches_derived_ground = false | TYPE-S`** (`6f09985d…`). **Terminal blockers are all
+TYPE-U except the marginality node, which is TYPE-C** — i.e. the bridge bottoms out in one **adopted**
+obstacle and otherwise in unbuilt ones.
+
+---
+
+## Q-68. "The package interior." (Codex 2, relay 168)
+
+*** LEAD: ONE CONDITIONAL P8 CONTROL PATH REACHES A DERIVED FINITE OPERATOR-RESPONSE BUNDLE — THE CLOSEST
+THING TO A FLOOR ANYONE HAS FOUND. BUT IT IS NOT A MANDATORY CONSTRUCTION CHILD, SO PHYSICAL REACHABILITY
+REMAINS `NO_VERDICT`. *** (`c2279d27…`.)
+
+**T8's identity and sufficiency verdicts are now separated** — the defect the lane caught in its own work.
+**Triage confirmed word-boundaried: 0 COMPLETE / 9 PARTIAL / 0 WHOLLY ABSENT** (`ebdad2b9…`); **B0 is the
+load-bearing stop.** The **physical `Log_0` germ is specified without being constructed**; L0-L3 and
+physical promotion remain TYPE-U (`14573a67…`).
+
+*** CYCLE CHECK: strict graph 20 nodes / 47 edges and selected label-preserving 39 / 100 are ACYCLIC — BUT
+IF P7's "PHYSICAL PACKAGE" IS LATER IDENTIFIED WITH `CTP_PHYS_INPUT_PACKAGE`, A TWO-NODE CYCLE FIRES.
+GLOBAL ACYCLICITY THEREFORE REMAINS `NO_VERDICT`. *** (`25bf671b…`.)
+
+---
+
+## Q-69. "Why both overnight cycle hazards have the same shape." (Reviewer synthesis)
+
+*** TWO LANES THAT COULD NOT SEE EACH OTHER FOUND TWO INDEPENDENT CONDITIONAL CYCLES IN ONE NIGHT, AND
+BOTH FIRE UNDER THE SAME OPERATION. ***
+
+- **Einstein (Q-66):** ratifying the R15 collapse manufactures `{producer ↔ crossed-product-exclusion}`
+  against the sealed reverse `blocked_by` — **"existing only if a flag is identified with its discharge
+  object."**
+- **Codex 2 (Q-68):** identifying P7's "physical package" with `CTP_PHYS_INPUT_PACKAGE` fires a two-node
+  cycle.
+
+*** IN BOTH CASES THE CYCLE IS MANUFACTURED BY IDENTIFYING A **FLAG** WITH THE **OBJECT THAT DISCHARGES
+IT**. THE FLAG AND ITS DISCHARGE OBJECT ARE NOT THE SAME NODE, AND MERGING THEM CREATES A FALSE EDGE FROM
+THE OBLIGATION BACK TO ITS OWN PRECONDITION. ***
+
+**STANDING RULE, EFFECTIVE NOW: NEVER IDENTIFY A FLAG WITH THE OBJECT THAT DISCHARGES IT — not in a
+registry merge, not in an alias ratification, not to tidy a graph.** **Any proposed merge must state which
+side is the obligation and which the discharge, and a merge across that boundary is refused by default.**
+
+**This is why the registry work must not "tidy," and it is the concrete reason Einstein's zero-merge
+discipline was correct rather than merely cautious.** Both hazards remain **hypothetical** — no merge has
+been ratified — **and the morning ratification must preserve the flag/discharge distinction or escalate.**
 
 ---
 

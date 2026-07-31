@@ -771,6 +771,12 @@ def check_relay_sequence_head(ctx: dict[str, Any]) -> CheckResult:
     for p in walk_files([ctx["archive"], ctx["supervision"]], {".md", ".txt"}):
         if p.name.startswith("CORPUS_CHECK_REPORT_"):
             continue
+        # Only a RELAY_PASTE_* file DECLARES a relay head. A lane artifact that cites the
+        # relay it answers ("Paste 167 completed...") is a reference, not a competing
+        # declaration, and counting it reported a duplicate class for every relay a lane
+        # named at line start. Same false-positive shape as scanning .md for shell syntax.
+        if not p.name.startswith("RELAY_PASTE_"):
+            continue
         text = read_text(p)
         if text is None:
             continue
