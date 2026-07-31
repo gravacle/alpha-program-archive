@@ -47,78 +47,62 @@ but timeliness.
 - **An alias merge creating a cycle** (Einstein item 2).
 - **Any of the six bridge objects or nine package items already existing under another name.**
 
-## THE THREE ISSUES — ISSUE 3 IS ANSWERED (Q-71)
+## THE WORK IS TWO WORKSTREAMS AND ONE RANK-1 OBJECT (Q-78)
 
 ```text
-ISSUE 1   Can C_R = 1 SELECT?              NO, not alone (Q-59). Needs the six-object
-                                           Hamilton-Jacobi bridge. Alias resolved (Q-67),
-                                           so that chain has a naming artefact, not a hole.
-ISSUE 2   Can the response layer be BUILT?  OPEN. Package heads the critical path; B0 is
-                                           its load-bearing stop (Q-68).
-ISSUE 3   Does a FORCING route exist?       *** YES. THE THRESHOLD. *** (Q-71)
+LANES NOW
+  CODEX 1   relay 176   the rank-1 object: completed source-record-field CTP producer algebra
+  CODEX 2   relay 177   the C_R selector chain -- verify order, specify S4
+  EINSTEIN  relay 175   re-type the boundary by discharge route; resolve tau = 1
 ```
 
-*** ISSUE 3 IS SETTLED AND THE ANSWER WAS ALREADY IN THE CORPUS. *** The principal's instinct — *"it's a
-matter of reaching the threshold, not overdetermination"* — is confirmed against sealed text.
-`STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001.md:64` already says a completed `Gamma_K` with **a unique simple
-positive `C_record` root** determines `K_*` **conditionally on the induced-only axiom, not absolutely** —
-which is Q-65's *conditional derivation, singly-attested*, written a day before the grading existed.
+*** RANK 1: THE COMPLETED SOURCE-RECORD-FIELD CTP PRODUCER ALGEBRA. *** The **only** object literally
+named by any of the eight releases (instance 5's: *"a derivation of the completed source-record-field
+algebra forcing this grading"*). **Discharges instance 6 as a corollary; advances 7, 8, 3 and weakly 4.
+Both of Q-74's wish-grade proofs root in it.** Construction is **extension-typed `NOT_SPECIFIED` with a
+named obstruction.** **This is where Q-42 started and it is still the centre.**
 
-**§5.3 IS A COMPLETE UNIQUENESS GATE WITH ANTI-FITTING BUILT IN.** It fails if existence is shown without
-uniqueness, if a continuous family survives, if a second inequivalent positive root survives, **or if
-uniqueness is obtained only by narrowing the admitted family after seeing the root.** And the root is
-**solved once and independently reproduced** — freeze-before-root-finding.
+**WORKSTREAM 2 — `C_R = 1`.** Discharges **none** of the other seven, **but clears the ladder head
+dominating the ~64-debt mass** — maximum debt movement, zero clothing movement — **and is the most
+reachable of the eight: queue-grade, sealed order, S1 and S2 already specified as Q-52 test objects.**
 
-## THREE MISSING BRIDGES, NOT TWO — AND THEY ARE NOT PARALLEL (Q-73)
+*** THE LIVE POSSIBILITY WORTH WATCHING: S4 IS THE REFERENCE-SUBTRACTION / NO-SPECTATOR THEOREM, AND
+REFERENCE SUBTRACTION IS EXACTLY WHAT DISTINGUISHES BROWN-YORK-WITH-SUBTRACTION FROM MISNER-SHARP. IF S4
+DERIVES THAT IDENTIFICATION RATHER THAN CHOOSING IT, THE `sqrt(2)` FORK CLOSES WITHOUT BECOMING A SECOND
+SCALE-BEARING ADOPTION. ***
 
-```text
-1  HAMILTON-JACOBI SCALE BRIDGE   six Q-59 objects; lets C_R = 1 actually select
-2  RESPONSE-EXTRACTION LAYER      package -> map -> Gamma_K; gives C_record(K) a function
-3  T_R -> k_R BRIDGE              connects the selected scale to the equation fixing K_*
-                                  *** T_R_and_k_R_have_derived_bridge = false ***
-```
+**`tau = 1` MAY NOT BE A HOLE AT ALL.** Q-78 found the corpus names **no** discharge route — below
+wish-grade. **The principal's correction (relay 175): a node with no discharge path is TERMINAL, and
+terminal is what an axiom looks like.** **If `tau = 1` is a genuine unit convention the absence is correct
+and the eight becomes seven; if any dimensionless quantity depends on its value it is the worst instance,
+not the starkest hole.** **Open.**
 
-*** THE REVIEWER TOLD THE PRINCIPAL BRIDGES 1 AND 2 COULD BE WORKED IN PARALLEL. THAT WAS WRONG. ***
-Q-64 found the chains share zero nodes **on stated `would-build` edges**, and Einstein warned in the same
-breath that this proved **nobody had STATED a shared prerequisite, not that the physics was independent.**
+**THE 64-DEBT ROSTER IS PAID IN FULL** — response 39, selector 10, write 13, fourth-horn 1, each with a
+sealed-text citation. **The register may now cite it as a work list, not a count.**
 
-**The physics is not independent, and the corpus says so twice.**
-`STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001.md:64-67`: the closure residual is built from an action carrying the
-`A_4` logarithm, **"so `k_R` — the floor — appears in the equation that fixes `K_*`."** **A logarithm needs
-a reference scale.** And the connector is named and absent: `T_R_and_k_R_have_derived_bridge = false`.
+## TWO REVIEWER RULES WERE TESTED AND BOTH PARTLY FAILED (Q-79)
 
-*** GENERAL DEFECT: THE DEPENDENCY GRAPH CAPTURES ONLY `would-build` EDGES. Real dependencies also live in
-prose and in `*_have_derived_bridge = false` flags. NO PARALLELISM CLAIM IN THIS REGISTER IS SAFE UNTIL
-THOSE ARE EXTRACTED — relay 172 is doing that now. ***
+- *** THE CYCLE-MANUFACTURE RATIONALE IS DEAD. *** 333 authority edges merged with 283 construction edges
+  gave **ZERO cycles.** `authority_cycle_manufacture_rationale_holds = false | TYPE-R`. **The semantic case
+  for separating them survives; the empirical case is gone.** **The authority-edge decision is the
+  principal's and now rests on semantics alone.**
+- **The prose rule scores precision 1.000, recall 0.641 — and MISSES ITS OWN MOTIVATING EXEMPLAR.**
+  `exemplar_caught_by_rule_as_written = false | TYPE-R`. **"`k_R` appears in the equation fixing `K_*`"
+  does not say `k_R` must exist BEFORE `K_*`.** *** A RULE REFUTED BY ITS OWN ORIGIN NEEDS AMENDMENT, NOT
+  ADOPTION — the fix is to add "appears in / enters / is carried by the expression that determines Y" as a
+  direction-bearing form, now justified by measurement rather than assertion. NOT YET ADOPTED. ***
+- **Q-75's reproducibility defect is CLOSED:** Q-64's original edge table never existed; a reconstructed
+  standalone machine-readable table is now committed.
 
-## NAME-MATCHING: THE REGISTER ITSELF GOT BITTEN (Q-71 correction)
+## STANDING CLAUSE — NEW TERRITORY (Q-80)
 
-`constant_root_uniqueness_derived = false` is **NOT** the threshold's obligation. It is uniqueness of the
-**constant root PREPARATION against all admitted preparation sectors** — a source-state question in the
-causal-diamond spectral pullback. **The reviewer matched on the word "root."** The threshold's actual
-obligations are **`root_solved = false`** plus **§5.3's uniqueness gate**, and neither existence nor
-uniqueness is earned. **The substring failure mode has now produced false positives in the corpus, in an
-audit script, in the audit of the audit, and in the register.**
+**Included verbatim in every relay from 176 onward.** If something fits no available class, **name a new
+one** — do not force it, do not call it a corpus defect, do not dispose of it with `NO_VERDICT`. **A
+category that had to be invented is a finding.** `NO_VERDICT` = information missing; **NEW CLASS =
+categories wrong.** **Imported standards get the same scrutiny as corpus claims.**
 
-## THE ROUTE, RESTATED
-
-```text
-complete Gamma_K  ->  run the §5.3 uniqueness gate  ->  a DERIVED unique simple positive
-root forces K_*, conditionally on the induced-only axiom
-```
-
-**THE OPEN OBLIGATION HAS A NAME: `constant_root_uniqueness_derived = false`.** *** BOTH EXISTENCE AND
-UNIQUENESS MUST BE DERIVED (Q-65). AN ADOPTED UNIQUENESS IS A FIT WEARING A THRESHOLD'S CLOTHES. ***
-
-**THE PAIR-HUNT WAS A DETOUR.** Q-61 found zero live pairs and the reviewer read the route as empty; it was
-the wrong route. **Do not re-open pair-hunting as the primary route.** A pair would be stronger evidence —
-one grade up — never a prerequisite.
-
-## WHAT THE LANES ARE FOR NOW
-
-**Not assembling a second leg. Earning existence and uniqueness of ONE root.** Current assignments are
-vindicated rather than redirected: the package critical path leads to a completed `Gamma_K`, which is
-exactly what the uniqueness gate needs.
+*** THE EVIDENCE: THREE IMPORTED FRAMINGS FAILED ON 2026-07-31, ALL THREE THE REVIEWER'S, ONE REGISTERED
+THREE TIMES BEFORE THE PRINCIPAL CAUGHT IT. ***
 
 ## HOW TO READ THE SLOT COUNTS — A CORRECTION
 
