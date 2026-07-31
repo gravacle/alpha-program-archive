@@ -3556,6 +3556,60 @@ charge downgraded to the identification only. ***
 
 ---
 
+## Q-87. "Can the S3 join derive the energy identification?"
+
+*** RULING: `NO_VERDICT`. S3 IS NOW FULLY SPECIFIED AS A NON-CHOOSING PROCEDURE, BUT THE CURRENT S1/S2/S4
+INTERFACES CANNOT EXECUTE THE JOIN. THE FORK REMAINS OPEN AND NOTHING WAS SELECTED. *** Established
+2026-07-31 by Codex lane 2 under relay 179
+(`STAGE8_C_R_SELECTOR_S3_ENERGY_IDENTIFICATION_JOIN_SPEC_V001.md`, `fd157d3f…`, 1345 lines, seal verified,
+publication approved by the reviewer after fence scan).
+
+**S3's TYPE, FROM SEALED TEXT:** the proof that **the CTP branch-energy difference is the same energy
+entering gravitational closure.** It must produce a common-origin certificate, a reference-fixed HJ
+functional, a closure-energy functional, a full-domain functional identity, and a separately routed
+classification result.
+
+*** THE LANE REFUTED THREE UPSTREAM SPECS — TWO OF THEM ITS OWN — AND REPAIRED NONE. *** Two are
+**vacuity** defects, which is the `cannot_fail` failure mode in a new costume:
+
+```text
+S1 closure-energy export not found          TYPE-S
+S1 contract insufficiency                   TYPE-R   <- executed refutation
+S2 lacks a nonempty-domain gate             TYPE-S
+S2 constancy test admits EMPTY-DOMAIN VACUITY  TYPE-R
+S4 admits an EMPTY STATIONARY DOMAIN        TYPE-S / TYPE-R
+   "refutes a defect in this lane's earlier S4 specification and was not repaired"
+no S2/S4 reference-application adapter      TYPE-S
+```
+
+*** A CONSTANCY PROOF THAT PASSES ON AN EMPTY DOMAIN PROVES NOTHING. BOTH DEFECTS WOULD HAVE PRODUCED A
+CLEAN-LOOKING PASS. ***
+
+**TWO Q-69-DISTINCT OBJECTS SPECIFIED**, both `derived = false | TYPE-U`:
+`BRIDGE_SELECTOR_S3_HJ_CLOSURE_ENERGY_CORRESPONDENCE_CERTIFICATE` and
+`S3_ENERGY_CLASSIFICATION_CERTIFICATE`. **Missing core prerequisites: P8, P10, P11; P13 supplies the
+nonvacuous representation test; P9 and P12 belong only to the named-classification leg.**
+
+*** THE NON-CHOOSING ROUTE IS NOW FULLY WRITTEN, AND THIS IS THE RESULT THAT MATTERS: ***
+
+```text
+same S1 origin -> S2 symbolic constant HJ energy -> apply S4's forced reference via P10
+  -> derive closure-consumed energy via P11 -> prove full-domain functional identity
+  -> validate representation invariance with P13 -> attach P9 time correspondence
+  -> compare against P12's PRE-TARGET candidate signatures
+```
+
+*** EXACTLY ONE FUNCTIONAL MATCH YIELDS A NAMED IDENTIFICATION. BOTH MATCHES MEAN AMBIGUITY. ZERO MATCHES
+REFUTES PAIR EXHAUSTIVENESS AND REQUIRES A CONSTITUTED Q-80 NEW-CLASS RECORD. MISSING INPUTS RETURN
+`NO_VERDICT`. *** **The candidate signatures are compared PRE-TARGET — the procedure cannot pick the fork's
+answer, only discover it.** **Tests T-1A through T13B are individually routed, and no test can set a derived
+flag.**
+
+**ROAD STATUS (Q-83): step 2, body 1. The route to closing the `sqrt(2)` fork by derivation now EXISTS as a
+specification. It cannot run, and every blocker is named.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
