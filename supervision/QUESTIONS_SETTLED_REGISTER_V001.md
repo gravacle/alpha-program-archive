@@ -4268,6 +4268,77 @@ no instance.**
 
 ---
 
+## Q-105. "Can the seven used-as-primitive objects be sealed?"
+
+*** RULING: **ZERO OF SEVEN.** *** Established 2026-07-31 by Codex lane 2 under relay 198
+(`STAGE8_SEVEN_USED_AS_PRIMITIVES_SEALABILITY_AUDIT_V001.md`, `dd8de647…`, seal verified).
+
+```text
+rho_pre, U_BR, record effects/domains   DESCENDANTS -- belong in S_sector (Q-100)
+quotient/measure, raw-correlator map, B0   INDEFINITE construction/interface objects
+PrimitiveInventory_0                    UNINSTANTIATED PLACEHOLDER -- cannot authorize
+                                        its own contents; that would be CIRCULAR
+```
+
+*** THE SERIOUS OUTCOME IS THE MIDDLE ROW, AND THE RELAY NAMED IT IN ADVANCE: AN INDEFINITE OBJECT IN
+LOAD-BEARING USE IS WORSE THAN A MISSING ONE, BECAUSE IT LOOKS PRESENT. THREE ARE INDEFINITE AND IN USE. ***
+
+**And the inventory is circular as posed** — it cannot enumerate its own contents and be one of them.
+**Q-92 sealing not authorized for any candidate: none has all prerequisites, dedicated test ownership, and a
+failed adversarial countermodel.**
+
+*** SO THE FOUNDATION IS NOT A BOOKKEEPING PROBLEM. THE HOPEFUL READING — "these are undeclared, not
+missing" — IS REFUTED. THREE ARE MISFILED, THREE ARE INDEFINITE, ONE IS CIRCULAR. ***
+
+---
+
+## Q-106. "Can an accessor-supplying theorem replace building `Obj_0`?"
+
+*** RULING: NO — AND THE LANE REFUSED THE QUESTION AS POSED, CORRECTLY. THE RELAY ASKED WHICH OF Q-99 OR
+Q-100 KILLED IT. THE ANSWER IS **NEITHER**, AND EINSTEIN SAID SO: *"saying otherwise to satisfy the question
+would be the fit."* *** Established 2026-07-31 by Einstein under relay 196
+(`STAGE8_ACCESSOR_THEOREM_SUBSTITUTION_ADJUDICATION_EINSTEIN_V001.md`, `dc47fbe0…`, 362 lines, seal
+verified).
+
+**IT DIES TWICE ON GROUNDS THAT NEED NO RULING.**
+
+*** (1) ACCESSOR INDETERMINACY. "The `P3` of `Obj_0`" NEEDS TWO UNIQUENESS RESULTS AND THE REVIEWER SUPPLIED
+ONE. Given the object, each P-row STILL ADMITS MANY WITNESSES. *** Verified at source: **P6 is a sealed
+DISJUNCTION** (`S_CTP`, *or an equivalent evolution such as* `U_BR[A,g]`); **P3 is a COMPATIBILITY
+condition — and compatibility is not determination**; **P2 is closed under automorphism composition**; and
+**the ports are Sigma-bound WITNESSES, not projections.** *** THERE IS NO FUNCTION FROM THE OBJECT TO ITS
+ROW-STRUCTURES ANYWHERE IN THE CORPUS. THE DEFINITE DESCRIPTION FAILS TO DENOTE EVEN GRANTING EXISTENCE,
+UNIQUENESS, AND `I_prim`-ONLY PROVENANCE. ***
+
+**(2) CONDITIONALITY.** The reviewer's premise is *unique **if it exists***, and **`∃≤1` without `∃`
+licenses no description at all**, while existence is Q-95's `NO_VERDICT`. *** THE MOVE PROPOSES TO UNBLOCK
+"OBTAIN `Obj_0`" BY ASSUMING `Obj_0` EXISTS. ***
+
+*** AND THE DEEPEST FINDING, WHICH REFRAMES ALL FOUR ROUTES: THE ACCESSOR ROUTE IS NOT A WAY **AROUND** THE
+BLOCKED FOUNDATION — IT IS PARKED **ON** IT. The theorem's existential weight sits in `I_prim`, and `I_prim`
+is exactly what Q-97 calls insufficient. THE FOURTH ROUTE SHARES ITS LOAD-BEARING PREREQUISITE WITH THE
+THREE THAT DIED. IT IS NOT THE LAST ROUTE STANDING; IT IS THE SAME BLOCK WEARING A DIFFERENT NAME. ***
+
+**"SERVES TWICE" FAILS ON A NAME MATCH**, verified by the lane itself: **§5.3's uniqueness is ROOT
+uniqueness in `K`** — object, quantifier and domain all differ from object-uniqueness of `Obj_0`. *** AND
+THE HAZARDS ARE OPPOSITE: §5.3 FAILS ON EXISTENCE-WITHOUT-UNIQUENESS; THIS ROUTE OFFERED
+UNIQUENESS-WITHOUT-EXISTENCE. ***
+
+**Q-99 does NOT kill it and the lane restored that point to the reviewer** rather than borrowing a
+convenient killer. **Two horns: the reviewer's actual proposal — uniqueness alone, never mentioning the
+ports — is Q-99-refuted; the whole-package form survives Q-99 but is not a route around anything.** **Either
+Q-99-refuted or not-a-route.**
+
+**ALSO CORRECTED:** the relay's "seven consumers" is a **count conflation** — **six consumer sections, seven
+P-rows** — the Q-69 shape at bookkeeping level, propagated from the charter. **And Q-94's class is worded at
+extraction but scoped at evaluability: a real under-specification in the CLASS, not in the ruling.**
+
+**The lane misnamed the primary killer twice in draft and withdrew both times, struck two proposed Q-80
+classes (four total for this lane), and left Q-94's `NO_VERDICT` exactly as sealed — no impossibility
+theorem is claimed.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
