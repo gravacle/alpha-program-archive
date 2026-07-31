@@ -2872,6 +2872,46 @@ been ratified — **and the morning ratification must preserve the flag/discharg
 
 ---
 
+## Q-70. "Is 'no chain reaches derived ground' bad news?"
+
+*** RULING: THE QUESTION WAS MALFORMED. A WELL-FOUNDED THEORY BOTTOMS OUT IN AXIOMS, NOT IN DERIVED
+RESULTS. *** Reviewer correction 2026-07-31, prompted by the principal asking whether a floor exists at
+all. **Queued to Einstein as relay 169 for adjudication; not settled here.**
+
+**Q-64 and Q-66 both reported that no chain terminates in `derived = true`, and the reviewer repeated it as
+"the first floor has not been found" — as though a dependency graph OUGHT to bottom out in derived
+objects.** *** IT OUGHT NOT. Nobody derives mathematics down to nothing; you stop at primitives. ***
+
+**SO THE BOUNDARY BEING UNBUILT IS ONLY BAD NEWS IF ITS LEAVES ARE THINGS THAT OUGHT TO HAVE BEEN
+DERIVABLE. Q-54's typing already separates them:**
+
+```text
+TYPE-C  adopted premise or constraint     -> A LEGITIMATE FLOOR. A theory may rest on these.
+TYPE-U  unbuilt, carries a would-build    -> A DEBT. The corpus itself says it should exist.
+```
+
+*** A BOUNDARY OF TYPE-C IS A FINISHED FOUNDATION. A BOUNDARY OF TYPE-U IS AN UNPAID LEDGER. THE REGISTER
+HAS BEEN REPORTING TWO OPPOSITE DIAGNOSES AS ONE. ***
+
+**The data already hints at the split:** Q-67's bridge depth report found terminal blockers **all TYPE-U
+except the marginality node, which is TYPE-C** — one axiom, five debts. **Nobody has run that typing across
+the whole boundary.**
+
+**THE CLASS THAT MATTERS MOST IS THE THIRD ONE: DEBT-IN-AXIOM-CLOTHING — an adoption written where a
+derivation was owed.** *** THAT SUBSTITUTION IS THIS PROGRAM'S CHARACTERISTIC ERROR, and a boundary made
+mostly of it would be the most serious finding in the program's history. ***
+
+**AND IT MAY COLLAPSE INTO A QUESTION ALREADY BEING ASKED.** If the floor is an axiom set, the test of it
+is not existence but **defensibility — few, independently motivated, target-blind** — which is Q-65's
+anti-fit standard, and whose measure already exists: **17 of 26 untested (Q-45).** **So "is there a floor?"
+and "would a computed alpha be a derivation?" may be nearer the same question than the register has
+treated them.** Relay 169 asks Einstein whether that is right.
+
+**REVIEWER ERROR RECORDED PLAINLY:** "no first floor" was reported three times as a finding when it was a
+category mistake. **The principal caught it by asking whether a floor exists at all.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
