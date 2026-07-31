@@ -4410,6 +4410,58 @@ THAN EITHER OFFERED OPTION. A BINARY CAN BE FALSE AND STILL BE THE RIGHT THING T
 
 ---
 
+## Q-109. "Is `B0` an input or the target?"
+
+*** RULING: THE TARGET — `BOTH_SPLIT`, PRIMITIVE-POSITIONED AND TARGET-STATUSED. THE REVIEWER'S READING IS
+CONFIRMED **AND THE CORRECTION IS BAD NEWS, NOT GOOD.** *** Established 2026-07-31 by Einstein under relay
+201 (`STAGE8_B0_INPUT_OR_TARGET_ADJUDICATION_EINSTEIN_V001.md`, `3d4ad604…`, 346 lines, seal verified).
+
+**Three independent sealed columns say target in their own words:** the audit's Authority column
+(*"TYPE-U, not adopted primitive"*), the audit's own verdict prose inside the INDEFINITE cell (*"not a
+definite input"*), and the prefreeze Status column (*"TYPE-U construction debt"*). **Its own spec types it
+`B0_Q70_local_classification = TYPE_U_CONSTRUCTION_DEBT`.**
+
+*** RE-BINNING IS NOT PROGRESS, AND THE REVIEWER FRAMED IT AS THOUGH IT WERE. `B0` LEAVES ONE BIN AND
+ENTERS ANOTHER; IT LEAVES THE BLOCKER LIST NOT AT ALL, AND STILL HARD-BLOCKS `C0`, `U1`, `U2`, `U3`, ITEM 1
+AND THE PACKAGE. AND THE RETYPE MAKES THE OBLIGATION **HEAVIER**: AN INDEFINITE INPUT MIGHT BE SHARPENED BY
+FIXING A DEFINITION; **A TARGET MUST BE BUILT.** ***
+
+**AND THE CLEANEST TEST IS THE REGISTER'S OWN GLOSS TURNED AGAINST IT.** Q-105 justified the middle row by
+*"an indefinite object in load-bearing use is worse than a missing one, because it looks present."* *** `B0`
+DOES NOT LOOK PRESENT — IT IS OPENLY TYPE-U WITH A `would-build` AT EVERY SITE. IT IS THE MISSING ONE THAT
+GLOSS CONTRASTS AGAINST. ***
+
+*** THE STRUCTURAL FACT, VERIFIED AT SOURCE (B-P4): "C0 DESCENDS FROM B0; U1/U2/U3 DESCEND FROM THE PAIR
+(B0,C0); NONE IS AN INPUT TO B0." **`B0` TAKES NOTHING AND FEEDS EVERYTHING. IT IS THE ROOT OF THE DESCENT
+DAG** — which is exactly how it landed on a used-as-primitive list. ***
+
+**WHY "INDEFINITE" WAS THE WRONG WORD:** **`B0`'s ROLE is definite** — sealed identity, fixed direction,
+production codomain. **Its CONTENT is undetermined**
+(`B0_explicit_mathematical_map_domain_codomain_found = false | TYPE-S`). **So "indefinite" is true
+TRIVIALLY, as it is of every unbuilt target, and carries no information beyond TYPE-U.** *** THE FAILING
+WORD IS NEITHER "INDEFINITE" NOR "IN USE" — IT IS THE PRESUPPOSITION **"AS A PRIMITIVE"** THAT BOTH
+CONJUNCTS RIDE ON. *** **And "INDEFINITE" means something different in `B0`'s row than in the other two:
+theirs are used-but-underdetermined; `B0`'s cell is a statement about CATEGORY. The middle row is not one
+category but two.** **The row heading also merges `B0_CONSTRUCTION_WITNESS` with its own output — two ends
+of one construction edge.**
+
+*** `B0` vs P0: IDENTITY **REFUTED** — four sealed negatives from three independent lanes, each returning
+`qualifying_identity_found = false`. **THE PROGRAM IS NOT COUNTING ONE BLOCKER TWICE.** *** **But ordering
+is `NO_VERDICT`: no sealed sentence places either in the other's construction inputs.** *** TWO
+CONSTRUCTION DEBTS OF THE SAME PHYSICAL SHAPE SIT AT THE ROOTS OF TWO DIFFERENT LADDERS, AND THAT ORDERING
+QUESTION IS NOW NAMED. ***
+
+**NO CONSUMER THINKS IT HAS `B0`.** Every dependency is declared conditional and every dependent is itself
+unbuilt; the rest are decorative fence lines whose verdicts survive deleting the token. **Q-69 sweep clean.**
+
+**Also found: the audit's Result line says four descendants while its own table has three** — the register
+reproduced the table, correctly. **Einstein withdrew two of its own draft claims, including one asserting
+`B0` is "not indefinite at all" — the reviewer's stronger reading — as wrong.** **Symmetric framing audited
+in both directions: it looked specifically for a single site treating `B0` as supplied, which would have
+flipped the ruling, and found none.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
