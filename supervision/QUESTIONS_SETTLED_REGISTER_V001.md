@@ -3187,6 +3187,58 @@ WAS NEVER REQUIRED IS WITHDRAWN, AND THE COST OF WITHDRAWING IT IS DISCLOSED. **
 
 ---
 
+## Q-77. "There are `derived = true` flags outside the cleanroom, and no audit has ever counted them."
+
+*** FINDING, NOT A RULING. STATUS UNDETERMINED AND URGENT. *** Found 2026-07-31 by the reviewer while
+reading Codex 2's B0 artifact (`ec848d29…`) rather than its report — **the artifact quoted a source the
+report did not mention.**
+
+`primitive_complete_boundary_transition_functional_principle_v002.md:120-126`, **at the PROGRAM ROOT,
+OUTSIDE the cleanroom**, carries:
+
+```text
+complete_boundary_ctp_functional_derived = true
+primitive_phase_record_map_derived       = true
+complete_transfer_operator_constructed   = false
+stationary_record_cell_derived           = false
+microscopic_transverse_Hessian_computed  = false
+physical_thomson_alpha_computed          = false
+alpha_computed                           = false
+```
+
+*** AND THE CLAIMS IMMEDIATELY ABOVE THOSE FLAGS ARE THE THINGS THE CLEANROOM SAYS ARE MISSING: *** (1)
+`U_BR`, `rho_pre` and every admitted record effect follow from **one complete microscopic operator**; (2)
+**the mixed response kernel, noise kernel and first-record overlap are DERIVED from that same functional** —
+which is the response-extraction layer's content; (3) the stationary proper interval and source threshold
+are **outputs rather than units or regulators**; (4) *** THE FIRST POSITIVE CLOSURE ROOT IS SIMPLE AND
+UNIQUE UNDER EVERY ADMITTED TARGET-INDEPENDENT MUTATION *** — which is the §5.3 uniqueness gate's content;
+(5) threshold and renormalization matching connect `K_micro` to Thomson alpha.
+
+*** WHAT IS NOT ESTABLISHED, AND MUST NOT BE ASSUMED: WHETHER THIS IS GENUINE DERIVED GROUND OR A PRINCIPLE
+ASSERTING ITS OWN CONSEQUENCES. *** The filename says **principle**, and in this corpus "principle"
+conventionally means an **adopted Level-1 rule, not a theorem.** **A `derived = true` flag inside a
+principle document may record a derivation or may record the principle's own claim about itself.** *** THAT
+IS EXACTLY THE DEBT-IN-AXIOM-CLOTHING PATTERN — OR ITS EXACT REVERSE, REAL DERIVED GROUND SITTING OUTSIDE
+THE FENCE. THE TWO READINGS HAVE OPPOSITE CONSEQUENCES AND THE REVIEWER CANNOT ADJUDICATE THEM. ***
+
+**WHY NO AUDIT SAW IT.** Q-64's census, Q-74's boundary typing, the premise classification and the
+`untyped_negative` gate are **all cleanroom-scoped**. The cleanroom is roughly 1,138 of ~7,425 program
+files. *** EVERY "NO CHAIN REACHES DERIVED GROUND" FINDING IN THIS REGISTER IS SCOPED TO ~15% OF THE
+PROGRAM, AND THE REGISTER HAS NOT BEEN SAYING SO. ***
+
+**FENCE POSITION:** reading this to establish what it says is permitted — **Q-48 (fences ban entry, not
+comparison) and Q-52 (no constraint may prevent a test).** *** IMPORTING ITS CONTENT INTO CONSTRUCTION IS
+NOT PERMITTED and no such import has occurred. ***
+
+**IF IT IS DERIVED GROUND:** the first floor exists, the response layer may be less missing than Q-51
+recorded, and root uniqueness may already have a claim. **IF IT IS A PRINCIPLE ASSERTING ITS OWN
+CONSEQUENCES:** it is a large clothing instance outside the boundary Einstein typed, and the eight becomes
+more than eight.
+
+**QUEUED FOR ADJUDICATION. NO FLAG MOVES ON THIS ENTRY.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
