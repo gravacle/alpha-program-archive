@@ -4593,6 +4593,80 @@ EXACTLY: FOUR ROUTES HAVE CLOSED — ACCESSOR (Q-106), PRIMITIVE (Q-111), HISTOR
 
 ---
 
+## Q-114. "Does the incidence structure determine `B0`?"
+
+*** RULING: NO — AND NOT BECAUSE DETERMINATION FAILS. THERE IS NO ARROW.
+`bridge_from_any_incidence_object_to_B0_found = false | TYPE-S`. *** Established 2026-07-31 by Einstein
+under relay 208 (`STAGE8_INCIDENCE_STRUCTURE_DETERMINATION_TEST_EINSTEIN_V001.md`, `9cdc25e2…`, 263 lines,
+seal verified, fence-clean, **no `= true` flag anywhere**).
+
+**`incidence` × {`B0`,`Obj_B0`,`B_0`} → ZERO across all three roots**, word-boundaried. `BID` × `B0` → three
+hits, **all non-identity rows**. `B_chi`/`d_chi` → twelve lines, all definitions, disclaimers, refutation
+rows or exclusions. **None is a construction map.**
+
+*** THE FIFTH AND LAST ROUTE. ACCESSOR (Q-106) · CODOMAIN (Q-110) · PRIMITIVE (Q-111) · HISTORICAL (Q-112)
+· JOINT (Q-113) · INCIDENCE (Q-114). FOUR WERE ALGEBRAIC; THIS ONE WAS NOT; ALL SIX STOP AT THE SAME PLACE.
+TWO LANES RUNNING BLIND CONVERGED ON IT — WHICH IS THE STRONGEST EVIDENCE THE PROGRAM HAS THAT `B0` IS A
+GENUINE PHYSICAL OBLIGATION AND NOT A BOOKKEEPING ARTIFACT. ***
+
+**TWO REVIEWER CLAIMS NARROWED BY THE ARTIFACT, BOTH RECORDED AS CORRECTIONS:**
+
+```text
+CLAIMED   the signature incompatibility refutes the combinatorial route generally
+ACTUAL    the sealed TYPE-R reaches the NAMED B_chi CANDIDATE ONLY (N4, SCOPE-LIMITED).
+          The B0 spec's own limiter: it "does not refute a future construction in which
+          independently derived primitive dynamics is used by an explicit B0 construction
+          witness." Transporting the seal would have been unproved-identity transport.
+
+CLAIMED   the complex K is a free choice
+ACTUAL    THIRD STATUS. K is a class and K_L has L free -- but K_(1,3) IS designated at
+          V011 :262-263, by TARGET-AWARE PREMISE, gate unpassed. Designated-by-premise,
+          not free. Einstein corrected its own headline on this (§7.1).
+```
+
+**WHAT IS NOT CLOSED, AND THIS IS THE PART THAT MATTERS.** Two openings survive, both with named release
+conditions:
+
+```text
+N6 [TYPE-C]   BID_conditional_determination_route_credited = false
+              *** THE ROUTE EXISTS *** (:657-662, :709-710, :795-798).
+              Release: Gates 2/3/4 executed and passed -- ALL THREE NEVER RUN --
+              plus BID_v011_specification_sealed = false.
+              TYPE-C IS CONSTRAINT-BLOCKED, NOT REFUTED. AN UNOPENED ROUTE, NOT A DEAD ONE.
+
+N4 limiter    the B0 spec NAMES THE SHAPE OF A CONSTRUCTION IT WOULD ACCEPT:
+              independently derived primitive dynamics + an explicit B0 construction witness.
+```
+
+**AND MD-3 IS THE SEQUENCING FINDING.** `B0_DESCENT_NON_DEGENERACY` — from Einstein's relay 203 — is
+**still on no blocker list**, is cheap, and is **blocked behind nothing**. Without it, `B0` is not merely
+unbuilt but **UNPINNED**: no test the corpus can run, and none in the sealed battery even after every named
+blocker lands, could distinguish a real `B0` from an object that does no work at all. **CM-3 survives a
+combinatorially rich interior** (N10, executed) — a candidate may carry the full incidence skeleton as
+declared internal data and remain indiscriminable.
+
+*** MD-3 IS THE SAME OBJECT AS THE REVIEWER'S "DOES THE FIBER ACT ON THE ROAD?" QUESTION, REACHED
+INDEPENDENTLY FROM THE OTHER SIDE. Descent non-degeneracy asks whether a candidate `B0` does any downstream
+work; the fiber question asks whether distinct realizers in `IprimPresentedCodomainCompatibleBoundaryOrigin-
+Realizer` produce the same `C_record`. **THEY ARE ONE TEST, AND IT IS THE ACCEPTANCE CRITERION FOR ANY `B0`
+BUILD.** ***
+
+**N7 [TYPE-S] IS A THIRD IMPORT STRUCK:** `sealed_decomposition_B0_as_skeleton_plus_content_found = false`.
+**No sealed statement says `B0` = (combinatorial part) + (physical content).** Assembling the parts would
+not assemble `B0` even if every part were determined.
+
+**N11 [TYPE-R, executed]: `a_new_Q80_class_was_required = false`. TYPE-R/U/S/C sufficed.** *** FIRST TIME
+THE EXISTING TYPING VOCABULARY HAS HELD UNDER A NEW OBJECT. The lane records having struck four manufactured
+classes and declining to add a fifth. AFTER TWELVE DISSOLVED FRAMINGS, THE VOCABULARY STOPPED NEEDING
+EXTENSION — THAT IS A METHOD RESULT, NOT A NULL. ***
+
+**Einstein's own named seam, carried forward unresolved:** whether the corpus's *"target-independent"* means
+**inputs** or **specifications**. Unfixed, that reading is the exact seam through which a target-dependent
+construction could be presented as target-independent **with no test able to tell**. Compounded by N2 —
+`K_(1,3)` is designated by a **target-aware** premise.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
