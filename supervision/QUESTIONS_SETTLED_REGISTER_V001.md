@@ -2991,10 +2991,30 @@ examples, hypothetical "would refute if true" text, or the axiom-versus-theorem 
 reflected in V011/V013. **`ledger_construction_dependency_edge_found = false | TYPE-S`, so the Q-64 graph
 gains no nodes or edges and the acyclicity verdict is unaffected.**
 
-**WHY IT MATTERED ANYWAY:** every audit this program had run was markdown-shaped, so 13 authority-bearing
-files were invisible to the dependency census, the premise classification, the registry sweep and the
-`untyped_negative` gate. **A clean result here is worth having precisely because a dirty one would have
-invalidated findings nobody would have thought to re-check.**
+*** REVIEWER CORRECTION, SAME DAY: THIS ENTRY WAS UNDER-REGISTERED. THE LANE'S HEADLINE WAS "NO
+CONTRADICTION"; ITS FLAG BLOCK SAYS MORE, AND THE REVIEWER REGISTERED THE HEADLINE. *** Caught by Einstein
+under relay 169. The artifact's own flags (`:355-363`):
+
+```text
+ledger_derived_ground_exists_locally        = true
+ledger_authority_edges_exist                = true
+dependency_graph_needs_authority-edge_decision = true
+```
+
+**And its own prose (`:366-369`):** the program "has been **under-reporting what the JSON layer
+contains**: local derived flags, Level-1 postulate leaves, V013's rejection of V012, and
+**authority/result-binding edges that no markdown-only dependency walk can see.**"
+
+*** SO TWO THINGS FOLLOW THAT THIS ENTRY ORIGINALLY DENIED. (1) THE FIRST-FLOOR QUESTION REOPENS IN THE
+LEDGERS — `ledger_derived_ground_exists_locally = true` means derived ground may exist where no markdown
+audit counts it. (2) AUTHORITY EDGES EXIST AND THE DEPENDENCY GRAPH NEEDS A DECISION ABOUT THEM — which is
+the same defect relay 172 is extracting for prose and flags, in a third syntactic form. ***
+
+**`ledger_construction_dependency_edge_found = false` stands** — no CONSTRUCTION edges. **Authority edges
+are a different kind and were never denied.**
+
+**REVIEWER PATTERN, SECOND INSTANCE TODAY:** Q-60's answer was also inside an artifact and absent from its
+summary. *** READ THE ARTIFACT, NOT THE REPORT. ***
 
 ---
 
@@ -3031,6 +3051,56 @@ extracted.**
 **REVIEWER NOTE:** the reviewer asserted this coupling before checking it and was right by luck, not by
 evidence. **The principal asked for the artifact that states the dependency; there is one, and it is
 stronger than the assertion was.**
+
+---
+
+## Q-74. "Is the boundary axioms or debts?"
+
+*** RULING: THE AXIOM FLOOR IS REAL, SMALL AND CLEAN — AND EVERY ADOPTION THE VALUE PATH TOUCHES IS
+DEBT-IN-AXIOM-CLOTHING, 8 OF 8. THE CLOTHING DOES NOT SCATTER; IT SITS EXACTLY WHERE ALPHA WOULD COME
+FROM. *** Established 2026-07-31 by Einstein under relay 169
+(`STAGE8_BOUNDARY_LEAF_TYPING_AXIOMS_VS_DEBTS_EINSTEIN_V001.md`, archive `5648297`, gate GREEN, seal
+verified).
+
+```text
+AXIOM 18  ·  CLOTHING 8  ·  DEBT ~64  ·  NO_VERDICT 66
+```
+
+**THE EIGHT CLOTHED ADOPTIONS:** the only absolute-scale selector; the floor unit; the write amplitude; the
+stiffness zero; the grading; the crossed-product exclusion; the write-admissibility law; the sector functor.
+*** EACH IS AN ADOPTION THE CORPUS'S OWN TEXT SAYS WAS OWED AS A DERIVATION. ***
+
+**THE FLOOR IS BETTER THAN THE REGISTER RECORDED.** The 18 axioms are **few, motivated, target-blind,
+several with frozen falsifiers, and NONE carries absolute scale.** *** THE ONE SCALE-CARRYING LEAF IS THE
+`C_R = 1` MARGINALITY NODE — AND IT IS CLOTHING, its own release reading "derives, rather than assumes, the
+marginal closure condition." *** **Q-45's untested rows concentrate in the CLOTHING set, not the axiom
+set.**
+
+**NOT NEARLY FOUNDED, BUT NOT AXIOM-ROTTEN.** Debts outnumber axioms **3.5:1** and **the floor's
+value-bearing edge is 100% clothed** — but the debt mass is **one ordered ladder and one package interior,
+not scattered wishes.** **The debt is mostly QUEUE, not wish:** ~13 `would-build`s name existing sealed
+specs or objects — including P8's pair, **the only debt touching a sealed derived object** (Q-68's
+near-floor), and the scalar bridge, an execution path over existing specs; ~14 are ladder rungs behind
+now-specified S1; ~10-12 are wishes as posed — *** and the wish set contains exactly the two proofs the
+clothing set needs. ***
+
+*** THE TWO QUESTIONS COINCIDE, AND MORE EXACTLY THAN THE REVIEWER SUSPECTED: "IS THERE A FLOOR?" AND
+"WOULD A COMPUTED ALPHA BE A DERIVATION?" MEET ON THE CLOTHING SET. *** Clearing those eight is
+**simultaneously** what makes the floor real and what lifts Q-65's grade off its ceiling. **Today a
+computed alpha would be conditional on eight adoptions the corpus itself says were owed as derivations.**
+The questions differ only by the process certificates a derivation needs on top of a clean floor. **ONE
+WORKSTREAM, TWO EXIT CRITERIA.**
+
+**THREE DEFECTS OWNED, TWO OF THEM EINSTEIN'S OWN.** (1) Its earlier boundary walk **recorded counts where
+it owed names** — the 64-member roster is unenumerated, ~42 slots unrecoverable, **escalated**. (2) Its
+direct read typed `K_bare = 0` as AXIOM and **the sealed release defeats it** — the falsifier tests the
+adoption, the release says a derivation is owed; **both recorded, unmerged.** (3) One Q-69-barred
+flag/object identification inside its own workflow output, **caught by its verifier and flipped**, with the
+clothing finding relocated to its true bearer rather than lost.
+
+**N-LEDGER, AND IT REOPENS A CLOSED QUESTION:** this typing is `.md`-scoped, and Codex 1's
+`ledger_derived_ground_exists_locally = true` means **the JSON ledgers may carry floor this classification
+does not count.** *** THE FIRST-FLOOR QUESTION REOPENS THERE. *** See the Q-72 correction.
 
 ---
 
