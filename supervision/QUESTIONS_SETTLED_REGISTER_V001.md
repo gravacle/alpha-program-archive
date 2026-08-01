@@ -9436,6 +9436,38 @@ computed. NOT BLOCKED BY PROCESS. NOT HIDDEN BY MACHINERY — today's audits rem
 
 *** BRANCH 2 IS CHEAP, DECISIVE-SHAPED, AND MUST RUN BEFORE 1 OR 3 IS CHOSEN. Relay 303. ***
 
+## Q-221. IDENTITY-vs-PROPERTIES: UNDECIDABLE-YET at the induced operator — and the DECIDING EXPERIMENT is named.
+
+**Relay 303 (Task 2d, Codex 1).** `STAGE8_TASK2D_ALPHA_CHAIN_STATE_IDENTITY_DEPENDENCY_AUDIT_V001.md`,
+`5f3f585d9b8696d53d1a002245fe055019a59f72e248b627aa7ba6661f743dc7`, 589 lines. Hash verified,
+fence-clean.
+
+```text
+PROPERTIES-ONLY    the conditional map G -> H_R[G] . the projector at fixed operator .
+                   authorization clause 1 . Thomson matching AT FIXED COMPLETED INPUTS
+UNDECIDABLE-YET    *** the complete induced operator, and everything through it: projected
+                   response, B_ind(K), the fixed point, R_comp, clauses 2-6, end-to-end
+                   Thomson *** -- the chain's core
+IDENTITY           *** NO CONSUMER EARNS IT -- because no fixed-dynamics two-state comparison
+                   exists anywhere in the corpus. *** The Q-219 continuum is NOT certified
+                   gauge-like. OBS-14: NEITHER CONFIRMED NOR REFUTED.
+```
+
+### The deciding build, named by the lane
+
+> *** "A TARGET-INDEPENDENT RESPONSE-STATE FACTORIZATION TEST: freeze ONE complete non-state CTP
+> package, place AT LEAST TWO concrete admissible states on it, and COMPARE THE FULL INDUCED
+> OPERATORS BEFORE PROJECTION." ***
+
+*** ASYMMETRY OF THE TEST, STATED IN ADVANCE: the dynamics slot can be a declared TEST FIXTURE
+(the K_L precedent) because the two arms of the test are decisive DIFFERENTLY:
+  VARIANCE on ANY fixed package -> the chain CAN consume identity -> *** OBS-14 DIES *** and the
+    new-physics ask is real;
+  INVARIANCE on a fixture -> SUPPORTING ONLY (invariance on the physical package not implied) --
+    typed as such, never as the theorem.
+And the two concrete admissible states EXIST: Q-211's two distinguished scalarization candidates.
+***
+
 ---
 
 ## HOW TO USE THIS REGISTER
