@@ -6518,6 +6518,66 @@ PROGRAM HAS BEEN PROTECTING ALL SESSION. ***
 
 ---
 
+## Q-153. "Does a native finite-algebra theorem close the tower?"
+
+*** RULING: NO — AND IT FAILS ON THE EXACT CONDITION THE RELAY NAMED AS DECIDING. *** Established
+2026-08-01 by Codex lane 1 under relay 246
+(`STAGE8_ROUTE4_NATIVE_FINITE_ALGEBRA_THEOREM_AUDIT_V001.md`, `4065fdcc…`, 538 lines, seal verified,
+fence-clean).
+
+```text
+*** route4_existing_skeleton_reaches_external_continuum_sector = false | TYPE-R  (EXECUTED) ***
+route4_currently_closes_all_orders_tower            = false | TYPE-U
+route4_upgrade_from_derived_material_now_supplied   = false | TYPE-U
+route4_theorem_from_currently_derived_material_only = false | TYPE-S
+route4_refuted_forever                              = false | TYPE-S   <-- PROPERLY TYPED
+route2_only_untouched_route                         = true
+```
+
+**Relay 246 §3.2 stated the deciding condition:** *"a finite-algebra theorem that bounds only the
+record sector repeats route 1's failure in different notation."* *** THAT IS WHAT IT DOES. The native
+skeleton exists and binds the **internal/primitive incidence layer**; it does not reach the external
+continuum source/field side. ***
+
+*** ROUTES 1 AND 4 NOW DIE THE SAME DEATH, BOTH BY EXECUTED `TYPE-R`, BOTH ON THE INTERNAL/EXTERNAL
+SEAM. THAT IS A PATTERN, NOT TWO COINCIDENCES. ***
+
+---
+
+## Q-154. "Does a convergence/resummation theorem close the tower?"
+
+*** RULING: NO — AND "RESUMMATION" WAS THE WRONG FRAME. *** Established 2026-08-01 by Codex lane 2 at
+high effort under relay 247
+(`STAGE8_ROUTE2_RESPONSE_INVARIANT_CONVERGENCE_RESUMMATION_DETERMINATION_V001.md`, `d8e12e51…`,
+236 lines, seal verified, fence-clean).
+
+*** THE RELAY'S §2.3 REFRAME FIRED: `C_record` IS A FUNCTIONAL OF A COMPLETED JOINT
+EIGENVALUE/BOUNDARY-VALUE PROBLEM, AND **THE CORPUS DOES NOT ESTABLISH THAT ITS HIGHER-DERIVATIVE
+DEPENDENCE IS A POWER SERIES AT ALL.** ***
+
+**The correct certificate is a UNIFORM FINITE-RESPONSE-FACTORIZATION THEOREM:**
+
+```text
+finitely many EXACT TOWER INVARIANTS
+complete response FACTORIZATION through them
+*** UNIFORM ALL-ORDERS CONTROL preserving spectral, boundary, Ward and contact data ***
+proof that the remaining tower CANNOT CHANGE THE RESPONSE
+```
+
+*** AND THE DIAGNOSIS OF WHY THE EXISTING MACHINERY MISSES: GENERATING-FUNCTION, VITALI/DUHAMEL,
+CLUSTER-MAJORANT, REGULATOR AND RESOLVENT RESULTS **ALL HAVE THE WRONG QUANTIFIER** — THEY CONCERN
+**FIXED** PARENTS, ARCHITECTURES, OR FINITE VOLUMES, **NOT EVERY ADMITTED ACTION-FORM MUTATION.** ***
+
+**`TYPE-U`, not refuted.** *** UNDER THE SUPPLIED STANDING, **ALL FOUR NAMED ALL-ORDERS ROUTES ARE NOW
+CLOSED OR UNBUILT — ALL FOUR PROBED IN ONE NIGHT, NONE REFUTED FOREVER.** ***
+
+*** AND THE FOUR RESULTS TOGETHER ARE ONE FINDING, RECORDED AS **OBS-11**: THE CORPUS DERIVES RESULTS
+THAT HOLD AT A **FIXED INSTANCE**; ALPHA REQUIRES RESULTS THAT HOLD **UNIFORMLY OVER THE ADMITTED
+FAMILY**; §5.3 IS ITSELF A UNIFORMITY REQUIREMENT; AND EVERY ROUTE HAS DIED IN THAT GAP. **UNIFORMITY
+IS THE OPERATIVE WORD IN ROUTE 2's OWN CERTIFICATE.** ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

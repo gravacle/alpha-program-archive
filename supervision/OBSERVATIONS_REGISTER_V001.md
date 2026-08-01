@@ -474,6 +474,67 @@ the reviewer had invented. ***
 
 ---
 
+## OBS-11. EVERY DERIVED RESULT IN THIS PROGRAM IS FIXED-INSTANCE. §5.3 REQUIRES UNIFORMITY OVER A FAMILY. THAT MISMATCH IS THE WHOLE BLOCKAGE.
+
+**Status: UNCLAIMED. Recorded 2026-08-01 by the reviewer, after all four all-orders routes returned in
+one night.**
+
+*** THE SAME FAILURE APPEARS IN FOUR INDEPENDENT INVESTIGATIONS RUN BY THREE LANES ON FOUR DIFFERENT
+QUESTIONS. IT HAS NOT BEEN WRITTEN DOWN AS ONE THING. ***
+
+```text
+Q-150  THE SELECTOR      the candidate escapes Gate 4's kill by lying OUTSIDE GATE 4's QUANTIFIER,
+                         and therefore outside its FORCING. Every Gate-4 covector constraint ranges
+                         over the READOUT WEIGHT; none over WHAT IS READ.
+                         *** THE FUNCTIONAL IS FORCED; ITS ARGUMENT IS FREE. ***
+
+Q-152  ROUTE 1           the finite record incidence algebra constrains the INTERNAL sector; the
+                         tower lives on CONTINUUM variables PLUS record variables.      TYPE-R
+
+Q-153  ROUTE 4           the native skeleton binds the INTERNAL/PRIMITIVE incidence layer; it does
+                         NOT REACH the external continuum sector.                        TYPE-R
+
+Q-154  ROUTE 2           generating-function, Vitali/Duhamel, cluster-majorant, regulator and
+                         resolvent results *** ALL HAVE THE WRONG QUANTIFIER: they concern FIXED
+                         parents, architectures, or finite volumes -- NOT EVERY ADMITTED
+                         ACTION-FORM MUTATION. ***
+```
+
+### The statement
+
+> ***THE CORPUS DERIVES RESULTS THAT HOLD AT A **FIXED INSTANCE**. ALPHA REQUIRES RESULTS THAT HOLD
+> **UNIFORMLY OVER THE ADMITTED FAMILY**. EVERY ROUTE HAS DIED IN THAT GAP.***
+
+**And §5.3 is precisely a uniformity requirement** — *"no inequivalent admitted positive root"* is a
+statement about **every member of a family**, not about a computed instance. *** SO THE GATE'S
+QUANTIFIER AND THE CORPUS'S DERIVATIONS ARE MISMATCHED BY CONSTRUCTION, AND THAT MISMATCH IS NOT A
+SERIES OF SEPARATE GAPS — IT IS ONE GAP SEEN FROM FOUR SIDES. ***
+
+### Why this is not merely a restatement of "things are unbuilt"
+
+*** IT PREDICTS THE SHAPE OF WHAT WOULD WORK. Route 2's own answer already names it: a **UNIFORM
+finite-response-factorization theorem** — finitely many exact tower invariants, complete response
+factorization through them, **uniform all-orders control**, and proof that the remainder cannot change
+the response. **UNIFORMITY IS THE OPERATIVE WORD IN ALL FOUR CASES.** ***
+
+**It also explains why the gates passing did not help.** Gates 1–4 determine the record surface
+essentially completely **at a fixed structure**, with total dimensionful content zero. *** A COMPLETE
+DETERMINATION AT A FIXED INSTANCE IS NOT A CONSTRAINT ON A FAMILY, WHICH IS WHY "WHAT THE GATES CANNOT
+KILL, THEY ALSO CANNOT FORCE." ***
+
+### Honest limits
+
+- **This is a reviewer synthesis across four lane results, not a lane finding.** *** IT HAS NOT BEEN
+  ADVERSARIALLY TESTED, AND THE REVIEWER'S SYNTHESES HAVE BEEN WRONG BEFORE IN THIS PROGRAM —
+  THIRTEEN FRAMINGS HAVE DISSOLVED, MOST OF THEM THE REVIEWER'S. ***
+- **The four instances may share a surface form without sharing a cause.** Internal-versus-external
+  (Q-152, Q-153) and fixed-versus-uniform (Q-150, Q-154) are **different axes**, and collapsing them
+  may be the error. **That is the first thing to attack.**
+- **It suggests no route it does not already name.** If it is right, it says the missing object is
+  **a uniformity theorem**, which is what route 2's certificate already demands.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **When a candidate fails, ask which kind of failure it is.** A theorem foreclosing it is a refutation and
