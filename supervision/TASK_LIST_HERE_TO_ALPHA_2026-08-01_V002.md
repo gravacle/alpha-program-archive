@@ -191,8 +191,8 @@ P7 vs CTP_PHYS_INPUT_PACKAGE -- UNDECLARED, and it decides acyclicity (Q-196). *
 ## 9. THE PLAN — SIX TASKS. TASK 6 COMPUTES ALPHA. STEPS LIVE INSIDE THEIR TASK.
 
 ```text
-TASK 1  CLEAR THE PATH                                    STATE: OPEN -- D1 pending (principal)
-        a. rule D1 (P7 identity; fixes Task 2's build order)
+TASK 1  CLEAR THE PATH                                    STATE: a DONE . b,c OPEN
+        a. rule D1 -- *** RULED (DoR 005): P7 consumes the ASSEMBLED SPACE only. BUILD IS ACYCLIC. ***
         b. send relay 270; rule the smooth fork
         c. rule D4 (typing repair)
 
