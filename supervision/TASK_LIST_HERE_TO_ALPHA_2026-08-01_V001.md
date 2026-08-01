@@ -1,3 +1,6 @@
+*** SUPERSEDED 2026-08-01 BY V002. Phase 0 is ANSWERED and the front-line target has changed from
+"twelve seams" to ONE object: CTP_PHYS_INPUT_PACKAGE. DO NOT PLAN FROM THIS FILE. ***
+
 TASK LIST — FROM HERE TO A COMPUTED ALPHA
 
 2026-08-01, ~09:45. Register head Q-183. Published `c28d7ff`.
