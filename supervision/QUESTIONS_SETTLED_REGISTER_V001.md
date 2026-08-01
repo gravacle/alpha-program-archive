@@ -9396,6 +9396,46 @@ unbuildable for want of "a completed carrier / common trace." **THE CARRIER NOW 
 C0_008 + U1_008.** The descent presentation is buildable-in-principle for the first time.
 Relay 302 begins it. ***
 
+## Q-220. PIECE 1 DOES NOT CONSTRUCT — AND THE MISSING INPUT IS TYPED AT LAST: **PHYSICS THE CORPUS DOES NOT CONTAIN.**
+
+**Relay 302 (Task 2d, Codex 2).** `STAGE8_P5_COMMON_ORIGIN_DESCENT_PIECE1_ORIGIN_TRACE_ATTEMPT_V001.md`,
+`713b4dd5a7f31712d892f9622c64ff04f4ac38a864ac2daca9806007f0d7cf21`. Hash verified, fence-clean.
+
+```text
+Q-219 lifted the CARRIER blocker; it did not lift the ORIGIN-TRACE blocker. The premise maps
+d_C0^P, d_U1^P are explicitly NOT the required common-origin maps.
+
+*** THE TYPED ANSWER, THE FIRST OF ITS KIND IN THIS PROGRAM:
+STATE  identity  = PHYSICS_THE_CORPUS_DOES_NOT_CONTAIN
+EFFECT identity  = PHYSICS_THE_CORPUS_DOES_NOT_CONTAIN
+DOMAIN           = DERIVABLE_LOOKING once operator instances exist ***
+
+AND THE ADOPTION DOOR IS CLOSED, CORRECTLY: "No discrete adoption can repair this... Declaring
+selected outputs inside Omega would create A BAG, NOT A ROOT."
+```
+
+### What this means, said plainly
+
+*** THE PROGRAM'S DERIVED CONTENT — the gauge structure, the grammar, the carriers, the finite
+theorems — IS INTACT. WHAT THE CORPUS NEVER CONTAINED IS THE MICROSCOPIC IDENTITY OF THE STATE
+AND THE EFFECTS: the concrete rho_pre and the concrete record effects from which B_ind would be
+computed. NOT BLOCKED BY PROCESS. NOT HIDDEN BY MACHINERY — today's audits removed all of that.
+**ABSENT.** ***
+
+### The fork, and the one question that decides which branch matters
+
+```text
+1  AUTHOR NEW PHYSICS -- a new sealed principle determining the state/effects. PRINCIPAL-LEVEL.
+2  *** TEST WHETHER ALPHA NEEDS THE IDENTITY AT ALL: does the alpha-facing chain consume the
+   state's IDENTITY, or only its CONSTRAINED PROPERTIES? If every downstream consumer uses only
+   the properties (positivity, Tr=1, reality, the one-cell restriction), THE CONTINUUM IS
+   HARMLESS -- like gauge -- and alpha is computable WITHOUT the absent physics. IF ANYTHING
+   CONSUMES THE IDENTITY, branch 1 is unavoidable and the program must say so. ***
+3  ACCEPT: alpha is not computable from the current corpus. The honest terminal statement.
+```
+
+*** BRANCH 2 IS CHEAP, DECISIVE-SHAPED, AND MUST RUN BEFORE 1 OR 3 IS CHOSEN. Relay 303. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
