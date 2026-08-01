@@ -6625,6 +6625,38 @@ REFUTERS: A DIMENSIONLESS QUANTITY LIVING EXTERNALLY, OR A DIMENSIONFUL ONE LIVI
 
 ---
 
+## Q-156. "What does sector-reach require?"
+
+*** RULING: SPECIFIED AS A TYPED REQUIREMENT — AND THE REVIEWER'S SECOND IDENTIFICATION OF THE NIGHT IS
+**REFUTED**. *** Established 2026-08-01 by Codex under relay 249
+(`STAGE8_SECTOR_REACH_REQUIREMENT_V001.md`, `40d61b7c...`, 828 lines, seal verified, fence-clean).
+
+```text
+*** sector_reach_equals_dimensionful_reach = false | TYPE-R ***
+completed_external_sector_producer_derived          = false | TYPE-U
+current_derived_material_full_external_sector_reach = false | TYPE-U
+```
+
+*** THE REFUTATION, AND THE RELAY NAMED ITS OWN REFUTERS IN ADVANCE: **`K`, `B_ind(K)` AND `p_loc` ARE
+DIMENSIONLESS EXTERNAL RESPONSE-SIDE OBJECTS.** SO DIMENSIONFULNESS IS **NEITHER NECESSARY NOR
+SUFFICIENT** FOR SECTOR-REACH. FIFTEENTH FRAMING TO DISSOLVE IN THIS PROGRAM; THE REVIEWER'S, AND THE
+SECOND IN ONE NIGHT. ***
+
+**THE REQUIREMENT, NOW CHECKABLE:** continuum source/field/CTP response data · **`B0` provenance OR
+REPLACEMENT PROVENANCE** · quotient/measure · boundary/contact/Ward data · external response codomain ·
+finite-to-complete transport when starting internally · **no hidden supplementation.**
+
+*** AND THE SECOND CLAUSE IS THE LOAD-BEARING ONE: `:593` — a result "either descends from `B0`, **or
+states the complete `B0`-REPLACEMENT PROVENANCE**." **THE CORPUS'S OWN REQUIREMENT ADMITS A
+REPLACEMENT.** THAT IS THE SAME SHAPE AS Q-151's "WEAKER THAN FULL ORIGIN DETERMINATION" AND IT IS
+PRECISELY WHAT RELAY 251 ASKS ABOUT P5. ***
+
+**REVIEWER NOTE.** *** THE REVIEWER JUDGED THIS RELAY LIKELY NOT WORTH ITS COST AND SAID SO TO THE
+PRINCIPAL. **IT REFUTED A REVIEWER IDENTIFICATION AND PRODUCED A CHECKABLE REQUIREMENT WITH A
+LOAD-BEARING REPLACEMENT CLAUSE.** THE JUDGEMENT WAS WRONG. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
