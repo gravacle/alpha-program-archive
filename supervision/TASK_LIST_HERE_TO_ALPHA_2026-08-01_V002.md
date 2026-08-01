@@ -191,9 +191,9 @@ P7 vs CTP_PHYS_INPUT_PACKAGE -- UNDECLARED, and it decides acyclicity (Q-196). *
 ## 9. THE PLAN — SIX TASKS. TASK 6 COMPUTES ALPHA. STEPS LIVE INSIDE THEIR TASK.
 
 ```text
-TASK 1  CLEAR THE PATH                                    STATE: a DONE . c DONE . b IN FLIGHT
+TASK 1  CLEAR THE PATH                                    *** STATE: COMPLETE (DoR 005/006/007) ***
         a. rule D1 -- *** RULED (DoR 005): P7 consumes the ASSEMBLED SPACE only. BUILD IS ACYCLIC. ***
-        b. send relay 270; rule the smooth fork
+        b. DONE -- smooth fork RULED (DoR 007): DERIVE THE LIMIT; (M,g) off the table
         c. rule D4 -- *** RULED (DoR 006): TYPE-P adopted, lazy migration. ***
 
 TASK 2  BUILD THE SPACE (CTP_PHYS_INPUT_PACKAGE)          STATE: IN FLIGHT -- relay 282 (step a)
@@ -209,6 +209,8 @@ TASK 3  BUILD THE FUNCTIONAL (the action side)            STATE: relay 272 writt
 TASK 4  DERIVE THE RESPONSE                               STATE: BLOCKED ON 2 + 3
         a. instantiate the (already-fixed) response map on the space
         b. induced CTP operator + covariant projection    c. B_ind(K)
+        d. *** THE DISCRETE-TO-CONTINUUM EQUIVALENCE (STITCHING) THEOREM -- DoR 007's named
+           obligation; gates the public/alpha-facing chain, checked again at Task 6 ***
 
 TASK 5  SOLVE                                             STATE: BLOCKED ON 4
         K = B_ind(K) with R_comp = 0 and full stationarity -> K_*
