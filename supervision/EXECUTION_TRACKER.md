@@ -118,12 +118,16 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~15:05. BOTH LANES FULL.
+## 6. LANE LEDGER — 2026-08-01, ~15:30. BOTH LANES FULL.
 
 ```text
-RELAY  LANE     TASK        QUESTION                                STATE
-290    CODEX 1  3b          gravity + matter summands at source     PASTED, RUNNING
-289    CODEX 2  2b/SUPPORT  kill the adoption proposal              PASTED, RUNNING
+RELAY  LANE     TASK  QUESTION                                     STATE
+291    CODEX 1  2b    redraft the adoption (Fields 1 + 7)          PASTED, RUNNING
+292    CODEX 2  3a    the record content of Gamma_rest             PASTED, RUNNING
 ```
 
-REGISTERED THROUGH Q-205. ON THE PRINCIPAL NEXT: DoR 008 (after 289); D2 evidence arrives with 290.
+REGISTERED THROUGH Q-207. DoR 008 PENDING -- awaits the V002 proposal + its second kill-pass.
+D2 EVIDENCE BANKED (Q-206): the EH sector is TYPE-P with l_P a physical input; rules at Task 6.
+TODAY'S TASK-LEVEL SCORE: Task 1 COMPLETE . 2 proved theorems (matrix experiment, plane coverage,
+both independently verified) . seam 10 reduced to a lawful four-plane family . the kill-gate
+caught an uncounted adoption and a smuggled measure before ratification.
