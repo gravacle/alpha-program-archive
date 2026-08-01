@@ -6883,6 +6883,51 @@ CANDIDATE IN THIS PROGRAM SO FAR. ***
 
 ---
 
+## Q-161. "Does step 1 discharge the physical connection?"
+
+*** RULING: **NO — A CONDITIONAL THEOREM, NOT A DISCHARGE.** BUT THE BLOCKER IS NOW ONE LEVEL MORE
+SPECIFIC AND HAS A NAME. *** Established 2026-08-01 by Codex lane 1 under relay 254
+(`STAGE8_COMPARISON_FRAME_LOCALIZATION_STEP1_RESULT_V001.md`, `d5daf02b...`, 287 lines, seal verified,
+fence-clean).
+
+```text
+conditional_comparison_connection_required    = true
+target_independent_localization_theorem_found = false | TYPE-S
+physical_public_EM_connection_derived         = false | TYPE-C
+```
+
+**GIVEN the three PRPS localization premises, a comparison connection is REQUIRED:**
+
+```text
+D = d - i a ,     a -> a + d theta
+D_i = d - i a_i ,  a_j = a_i + d theta_ij
+```
+
+*** THAT IS A GENUINE `U(1)` CONNECTION WITH ITS GAUGE TRANSFORMATION, **FORCED RATHER THAN CHOSEN**
+— CONDITIONAL ON PREMISES THE CORPUS STILL CARRIES AS **ADOPTED/UNBUILT**. ***
+
+*** THE TRAP THE RELAY NAMED DID **NOT** FIRE. Relay 254 warned that a connection which INHERITS the
+comparison frame rather than localizing it MOVES the adoption without discharging it — "which is what
+has happened to every candidate in this program so far." **THE LANE DID NOT DO THAT.** It stated the
+conditional plainly and typed the flag `TYPE-C` rather than claiming a flip. ***
+
+**THE BLOCKER IS NOW BETTER NAMED THAN IT WAS:**
+
+```text
+BEFORE   "the physical connection is adopted"
+NOW      the connection is REQUIRED given three named localization premises, and what is
+         missing is *** A TARGET-INDEPENDENT LOCALIZATION THEOREM *** --
+         target_independent_localization_theorem_found = false | TYPE-S
+```
+
+*** `TYPE-S` MEANS NOTHING IN THE CORPUS HAS IT. **THAT IS A BUILD, NOT A SEARCH.** ***
+
+**And this is the shape every step of this route has taken: the debt does not dissolve, it resolves
+into smaller and better-named pieces.** *** THAT IS PROGRESS IN SPECIFICITY, NOT IN DISCHARGE, AND IT
+SHOULD BE SAID AS SUCH. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
