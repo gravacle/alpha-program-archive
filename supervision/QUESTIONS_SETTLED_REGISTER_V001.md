@@ -8477,6 +8477,56 @@ Q-158  P5 needs a DESCENT PRESENTATION, not a unique microscopic origin
 beside the known one. *** "This is a bookkeeping refutation, not a construction. The object under the
 long name remains unbuilt." ***
 
+## Q-192. `C0/U1-U3` ARE the package's four requirements, restated — and `C0` explicitly EXCLUDES the B0-required content.
+
+**Done by Bohm directly, 2026-08-01**, while relay 281 runs.
+*** REVIEWER-CONSTRUCTED — REQUIRES VERIFICATION. ***
+
+**The four objects the package spec says must be derived from `B0`
+(`STAGE8_CTP_PHYS_INPUT_PACKAGE_B0_LOAD_BEARING_STOP_SPEC_V001.md:836-842`):**
+
+```text
+C0  narrow carrier/algebra extension
+U1  physical branch/source typing on C0
+U2  action/evolution + state/effects + action contact rules on C0
+U3  quotient + descended measure + boundary/edge/gluing + endpoint operator domains
+    + predeclared contour prescription on C0
+
+MICRO_CTP_FUNCTIONAL_EVALUATION(C0,U1,U2,U3; J,R,g_+,g_-) := Z_inc[J,R;g_+,g_-]      (:802)
+```
+
+### They line up with the package's stated (a)-(d) almost one-to-one
+
+```text
+(a) G bilocal with invertible physical inverse      <- C0 (carrier/algebra) + U2 (action/evolution)
+(b) Log_0 and contour measure defined               <- U3 (descended measure + predeclared contour)
+(c) branch metric, reality involution, DeWitt        <- U1 (physical branch/source typing)
+(d) contacts, boundary data, Ward endpoints          <- U2 (contact rules) + U3 (boundary/edge/
+                                                        gluing + endpoint operator domains)
+```
+
+*** SO "BUILD THE CTP PACKAGE" AND "DERIVE `C0/U1-U3`" ARE **THE SAME TASK IN TWO VOCABULARIES.** ***
+
+### And the artifact's own typing narrows where the B0-dependence can live
+
+```text
+:653-656  C0 is typed a NARROW CARRIER CHILD, and
+          *** "C0 EXCLUDES state, dynamics, quotient, measure, effects, contacts, Ward identities,
+          and inverse results" ***
+:666-667  B0-C0-DIRECTION-AND-SIGNATURE-TEST: Item 0 derives narrow C0 FROM B0, while :765-767
+          EXCLUDES B0-required content FROM C0
+```
+
+*** `C0` DOES NOT CARRY `B0`'s CONTENT — IT IS EXPLICITLY STRIPPED OF IT. **SO THE B0-DEPENDENCE SITS
+EITHER IN `U1-U3` OR IN THE **DERIVATION DIRECTION** (that `C0` must be derived FROM `B0` rather than
+presented), NOT IN `C0`'s CONTENT.** THAT IS A MUCH NARROWER PLACE TO LOOK THAN "THE PACKAGE NEEDS
+`B0`." ***
+
+**Bearing on relay 281 (in flight):** *** ITS TASK 3.3 ASKS WHICH OF (a)-(d) NEEDS A MICROSCOPIC
+ORIGIN VERSUS A CERTIFIED PRESENTATION. **THIS CORRESPONDENCE SAYS THE ANSWER IS EQUIVALENTLY: WHICH
+OF `C0`, `U1`, `U2`, `U3`. AND `C0` IS ALREADY EXCLUDED FROM CARRYING B0 CONTENT — SO IF A SUBSTITUTE
+EXISTS ANYWHERE, `C0` IS WHERE IT IS MOST LIKELY TO WORK.** ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
