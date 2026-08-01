@@ -9311,6 +9311,33 @@ HONEST REMAINDERS: common-origin d_U1 TYPE-U . continuum realization TYPE-U .
 
 **Package state: C0 built . U1 built . bridge under forcing . U2/U3/certification remain.**
 
+## Q-217. The functor is NOT forced — 1,088 survivors — and the REAL blocker is deeper: the completion cannot yet EXPRESS `B_square`.
+
+**Relay 299 (Task 2f, Codex 1).**
+`STAGE8_TASK2F_FINITE_INCIDENCE_REALIZATION_FUNCTOR_FORCING_PROTOCOL_RESULT_V001.md`,
+`a4d8b9c44fd0705ba97fd49d1e0c8373c28e12e2c3acea9409b60217b274a0f8`, 711 lines. Hash verified,
+fence-clean.
+
+```text
+PROTOCOL RESULT: *** K_square admits EXACTLY 1,088 incidence-respecting sequential filtrations.
+ALL 1,088 PASS every applicable constraint (naturality, boundary/orientation, finite support,
+unit weight). An extra v_00-first anchor still leaves 272. *** Q-213's one-cell pass constrains
+a DIFFERENT map and eliminates none. NO UNIQUE FUNCTOR.
+
+*** THE DEEPER FINDING: the full functor is NO_VERDICT because C0/U1 SUPPLIES NO FINITE SCALAR
+REPRESENTATION OR NON-TAUTOLOGICAL SOURCE OPERATOR CORRESPONDING TO B_square. THE OPERATOR-LEVEL
+FALSIFIER CANNOT RUN — NOT BECAUSE A MAP IS UNCHOSEN, BUT BECAUSE THE COMPLETION CANNOT YET
+EXPRESS THE OBJECT THE SEALED SPECTRUM LIVES ON. ***
+
+CONSEQUENCES: the adoption ask is NOT honestly sizable at label level (1,088 vs 272 is the wrong
+family); DoR 008 remains VALID; U1 (Q-216) adds no incidence operator and changes nothing here.
+```
+
+*** THE REDIRECT: THE FALSIFIER'S INCIDENCE AUDITS WAIT ON THE PACKAGE'S OWN REMAINING CONTENT —
+THE SOURCE/DYNAMICS OPERATORS THAT U2/U3 MUST SUPPLY — NOT ON PICKING A FILTRATION. **RELAY 300
+(U2, IN FLIGHT) IS THE NEXT WORD ON EXACTLY THAT.** No decision goes to the principal until it
+returns. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
