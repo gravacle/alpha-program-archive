@@ -8580,6 +8580,51 @@ finding them. *** AND "a valid single package would still need a SEPARATE COVERA
 EITHER THE DESCENT PRESENTATION (four testable pieces) OR THE P5-FAMILY EXCLUSION THEOREM (the
 forcing protocol applied).** BOTH ARE SMALLER THAN `B0` AND NEITHER HAS BEEN ATTEMPTED. ***
 
+## Q-194. SPLIT: a B0 **substitute is admissible** — but it becomes an admissible realization of the B0 role, not a bypass of it.
+
+**Relay 281 (Codex 1).** `STAGE8_CTP_PHYS_INPUT_PACKAGE_B0_SUBSTITUTE_ADMISSIBILITY_ADJUDICATION_V001.md`,
+`3cd4b080aff0fc07dcc19e957655cec69cbb9f138a89f51d2605797f5ad012f2`, 518 lines. Hash verified,
+fence-clean.
+
+```text
+*** VERDICT: SPLIT. A COMPLETE ROLE-REALIZING REPLACEMENT PRESENTATION IS **ADMISSIBLE** --
+BUT IT CANNOT BYPASS THE B0 ROLE'S PROVENANCE AND DESCENT REQUIREMENTS. ***
+
+C0  carrier/algebra, representation, common domain, embeddings, source maps
+U1  branch metric, involution, index order, source typing
+U2  dynamics, state, effects, contacts, domains
+U3  quotient, measure, boundary/edge data, endpoint domains, contour prescription
+
+*** NONE OF THE FOUR REQUIRES UNIQUELY RECONSTRUCTING THE MICROSCOPIC ORIGIN. ***
+ALL FOUR REQUIRE: one FROZEN CONSTRUCTION TRACE . complete d_C0/d_U1/d_U2/d_U3 maps .
+                  certificates . *** AND NO POST-OUTPUT SUPPLEMENTATION. ***
+
+-> "A successful 'substitute' therefore becomes AN ADMISSIBLE REALIZATION OF THE ABSTRACT B0 ROLE."
+```
+
+*** THIS IS THE ANSWER, AND IT IS BETTER THAN "BLOCKED" AND WORSE THAN "ROUTE AROUND IT." **THE SIX
+FAILED ROUTES SOUGHT A UNIQUE MICROSCOPIC ORIGIN. THAT IS NOT REQUIRED. WHAT IS REQUIRED IS A
+COMPLETE, FROZEN, CERTIFIED REALIZATION OF THE ROLE — AND `B0` WAS ALWAYS A ROLE, NOT A PARTICULAR
+OBJECT.** ***
+
+**And the substitute findings do not reach it:** *** "No existing artifact supplies that complete
+realization. **Q-151, Q-156 and Q-158 EACH PROVIDE ONLY PART OF THE REQUIRED INTERFACE.**" — so the
+reviewer's Q-193 framing that the descent presentation routes AROUND `B0` is corrected: it
+**realizes** `B0`. ***
+
+### Q-192 checked independently and REFINED — two corrections to the reviewer's mapping
+
+```text
+*** Log_0 IS DOWNSTREAM D1, NOT AN IMMEDIATE U3 OUTPUT. ***
+*** WARD COMPATIBILITY IS DOWNSTREAM D4; U3 SUPPLIES ONLY ITS ENDPOINT DOMAINS. ***
+```
+
+The (a)-(d) to `C0/U1-U3` correspondence holds in outline and **was wrong in two places.** Bohm's
+mapping put `Log_0` under U3 and Ward endpoints under U2+U3 directly.
+
+**Reviewer standing:** ten proposals — six refuted, one half right, one survived with corrected
+reasoning, *** one (Q-192) CONFIRMED IN OUTLINE AND CORRECTED IN DETAIL. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
