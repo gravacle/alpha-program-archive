@@ -1,6 +1,11 @@
-TASK LIST — FROM HERE TO A COMPUTED ALPHA — V002
+TASK LIST — FROM HERE TO A COMPUTED ALPHA — V002 *** THE GOVERNING PLAN ***
 
-2026-08-01, ~12:15. Register head Q-198. Published `c7e3509`.
+2026-08-01, ~12:30. Register head Q-198.
+*** RULED BY THE PRINCIPAL 2026-08-01: "The PLAN is what we follow. If there is a need to change the
+plan we note that and then follow the updated plan but I want to know about the change."
+GOVERNANCE: every relay carries a TASK ID from section 9. Work with no task ID does not ship. A
+needed change is logged in section 10 FIRST, surfaced to the principal in the next message, and only
+then executed. ***
 *** SUPERSEDES V001 ENTIRELY. V001 WAS BUILT BEFORE Q-184..Q-198 AND ITS PHASE 0 IS NOW ANSWERED. ***
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
 
@@ -179,6 +184,60 @@ P7 vs CTP_PHYS_INPUT_PACKAGE -- UNDECLARED, and it decides acyclicity (Q-196). *
 4  *** COMPUTE, DO NOT AUDIT. *** V011's matrix experiment sat unrun for weeks and returned an
    exact spectrum in 20 minutes (R_square = 3/16, three-way verified). Seam 10's census reproduced
    on first attempt. **EVERY PROSE CHASE TODAY RETURNED TYPE-U OR TYPE-S.**
+```
+
+---
+
+## 9. *** THE TASK PACKAGES — EVERY RELAY NAMES ONE. WORK OUTSIDE THEM DOES NOT SHIP. ***
+
+```text
+T-A  RESOLVE -- the five blocking decisions. PRINCIPAL'S, not lanes'.
+     D1 P7 identity (RECOMMENDED RULING PENDING: P7 consumes P1-P6,P8 only) . D2 the EH summand in
+     Gamma_K . D3 leading-order acceptability . D4 the TYPE-P typing repair . D5 the smooth fork
+     (send relay 270 first).                                              STATE: 0 of 5 ruled.
+
+T-B  THE PACKAGE -- build CTP_PHYS_INPUT_PACKAGE. THE FRONT-LINE CONSTRUCTION.
+     T-B1 C0 carrier/algebra presentation + d_C0     T-B2 U1 conventions + d_U1
+     T-B3 U2 dynamics/state/effects + d_U2  *** CONTAINS rho_pre; FED BY T-C ***
+     T-B4 U3 quotient/measure/boundary + d_U3
+     Bar: frozen trace . certificates . NO POST-OUTPUT SUPPLEMENTATION.   STATE: 0 of 4 started.
+     *** BLOCKED-BY: D1 (build order). NOT blocked for T-C. ***
+
+T-C  P5 BY EXCLUSION -- the forcing protocol on the P5 family. The one named shortcut.
+     Feeds T-B3. Falls back to the descent-presentation build if the family cannot be frozen.
+                                              STATE: RELAY 282 LOADED (Codex 1).
+
+T-D  ACTION-SIDE CO-INPUTS -- built ALONGSIDE T-B, not after it.
+     seam 11 closure action . rows 17-18 gravity/matter summands . seam 4's c (RELAY 272 HELD) .
+     seam 10's coupling ray (8 unselected grading laws).                  STATE: 0 started.
+
+T-E  EVALUATION CHAIN -- *** BLOCKED UNTIL T-B DELIVERS. DO NOT START. ***
+     instantiate seam 9's map on the package -> induced CTP operator -> projections -> B_ind ->
+     the fixed point K = B_ind(K) + R_comp = 0 + full stationarity.
+
+T-F  AUTHORIZATION -- *** RUNS LAST. GATES A ROOT; PRODUCES NOTHING. ***
+     seam 8's exhaustive admitted-family audit . v004's six checks (Ward, Gauss, Einstein,
+     causality, positivity, limits) . tower: close a route OR invoke D3.
+
+T-G  MACHINERY REPAIR -- pending D4. Retire the 16 non-protective fences . scope the evaluation
+     fences . implement TYPE-P. *** NOTHING TOUCHING A32 OR THE MEASURED-CONSTANT BAN. ***
+
+T-H  VERIFICATION DEBT -- Codex kill-passes on unverified reviewer claims: the Q-189/190 chain
+     residue, Q-193, Q-196's escape reading. Bohm scorecard: 10 proposals, 6 refuted.
+```
+
+---
+
+## 10. CHANGE LOG — *** EVERY PLAN CHANGE LANDS HERE FIRST AND IS SURFACED TO THE PRINCIPAL. ***
+
+```text
+2026-08-01  C1  Fable review: sec 2 "everything downstream" overclaim corrected to
+                evaluation-chain-only; action-side debts are CO-INPUTS.        SURFACED: yes
+2026-08-01  C2  Fable review: relays 270/272 + smooth fork restored (sec 4b).  SURFACED: yes
+2026-08-01  C3  Fable review: the two "roots" reconciled (rho_pre = U2's pre-state).
+                                                                               SURFACED: yes
+2026-08-01  C4  Governance ruling adopted; task packages T-A..T-H added; this log created.
+                                                                               SURFACED: this message
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
