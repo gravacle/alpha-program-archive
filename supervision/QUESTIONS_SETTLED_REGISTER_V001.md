@@ -8113,6 +8113,64 @@ PRESERVED:  distinct reduced kernel planes = 4 . *** DISTINCT UNSELECTED GRADING
 **REVIEWER COLLAPSE/PATTERN PROPOSALS: EIGHT PROPOSED, SIX REFUTED OUTRIGHT, ONE HALF RIGHT.** THIS IS
 EXACTLY WHY BOHM'S CONSTRUCTIONS NOW GET A CODEX VERIFIER. ***
 
+## Q-184. THE LIVE VERSION STATES ITS OWN AUTHORIZATION GATE — and confirms the v002 action is superseded.
+
+**Done by Bohm directly, 2026-08-01**, verifying Einstein's off-list debt count at source.
+`primitive_record_cell_selection_principle_v004.md:186-240`.
+
+**All four off-list debts confirmed VERBATIM in one passage** (`:186-194`) — rows 13–16 stand:
+
+> *"The first durable record is a simultaneous solution of the full **Dyson, source/metric/constraint,
+> boundary, and public-closure equations.** A phase condition such as `Delta Phi = pi` can identify the
+> first orthogonal comparison **only after the complete generator supplies the physical spectral gap.**
+> It does not fix the **ultraviolet subtraction** or replace the full residual equation. It is
+> evaluated in the separate **record-probability sector**, not by postselecting the inclusive response
+> functional at a zero-probability effect."*
+
+### *** AND IMMEDIATELY AFTER IT, v004 STATES THE GATE ITSELF ***
+
+> *"**Numerical root finding is FORBIDDEN until the same target-independent operator derives:**"*
+
+```text
+1  the complete global Lorentzian CTP domain and measure
+2  the exact induced inverse kernel and boundary displacement
+3  a finite absolute local response and unique covariant projection
+4  vanishing of BOTH projected and complementary Dyson residuals, with a derived pairing
+   BEFORE any orthogonality claim
+5  one stationary first-record interval and public closure map
+6  Ward, Gauss, Einstein, causality, positivity, and limiting checks
+```
+
+**And its failure rules:** *** the route FAILS if a trial Maxwell term is inserted into `S_micro`, if a
+local counterterm or projector is chosen AFTER alpha comparison, or if the scalar equation is solved
+while the full residual remains nonzero. ***
+
+### v004's OWN FLAG BLOCK — the honest task list, in the live file's words
+
+```text
+*** v002_microscopic_K_action_superseded = true ***   <- PHASE 0 ITEM 2, ANSWERED AT SOURCE
+zero_probability_record_log_forbidden = true
+inclusive_CTP_response_is_separate_from_record_probabilities = true
+
+ELEVEN FALSE:
+complete_CTP_bilocal_source_quotient_derived        nonzero_differentiable_CTP_log_neighborhood_derived
+raw_correlator_to_retarded_Hessian_map_derived      zero_bare_full_Dyson_residual_derived
+scalar_K_minus_B_projection_derived                 unique_covariant_local_projection_derived
+complementary_Dyson_residual_vanishes               fixed_total_charge_variational_principle_derived
+exact_induced_boundary_displacement_derived         complete_induced_CTP_operator_derived
+absolute_B_ind_computed
+```
+
+*** THE PROGRAM DID NOT NEED A RECONSTRUCTED TASK LIST. **THE LIVE VERSION HAS CARRIED ONE ALL ALONG —
+SIX NUMBERED AUTHORIZATION ITEMS AND ELEVEN FALSE FLAGS — AND NO PLAN IN THIS PROGRAM WAS BUILT
+AGAINST IT.** The reviewer's list was reconstructed from a census of a SUPERSEDED lineage. ***
+
+**Bearing on relay 276 (in flight):** this answers the `K` half at source —
+`v002_microscopic_K_action_superseded = true`. *** 276's remaining value is the `C_record` form, the
+full lineage enumeration, and whether any artifact re-derives `alpha = 1/(4 pi K_*)` FOR THE LIVE
+SURROGATE `K`. **THAT LAST QUESTION IS UNTOUCHED BY THIS FINDING AND REMAINS THE SHARPEST ONE ON THE
+BOARD.** ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
