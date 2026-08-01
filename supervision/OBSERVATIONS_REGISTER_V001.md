@@ -614,3 +614,18 @@ IT IS EMERGENT: a bare elemental alpha is an input, not a prediction. The progra
 induced branch; a failed unique fixed point would mean the bare branch was true. *** Observed
 electrons are DRESSED (charge + induced cloud); records form via dressed electrons. Framing, not a
 theorem.
+
+---
+
+## OBS-14 — THE STATE MAY BE A ROLE, NOT AN OBJECT (principal-originated, 2026-08-01, PRE-REGISTERED before the test)
+
+The principal, on Q-220's "PHYSICS_THE_CORPUS_DOES_NOT_CONTAIN": "I wonder if we may have some
+continuation of the issues that we've had with expecting the wrong structure at the record level?"
+The pattern is real -- five same-shaped dissolutions today (smooth base Q-172; Lorentzian forms
+Q-210; laws-vs-planes Q-204/205; historical summands Q-206; and B0-is-a-role Q-194). The precise
+form: expecting a concrete rho_pre (one density matrix as microscopic identity) may be a
+textbook-QM import into a records-first framework; the record surface may support only the
+CONSTRAINED PROPERTIES plus the record history, with "the state" a ROLE filled by any member of
+the admissible continuum. CHECKABLE: relay 303's identity-vs-properties audit IS the test,
+registered here BEFORE its return. If any consumer varies across the continuum, the conjecture
+FAILS THERE and that consumer is the named new-physics ask. Framing, not a theorem.
