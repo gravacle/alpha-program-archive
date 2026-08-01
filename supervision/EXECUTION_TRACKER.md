@@ -1,6 +1,6 @@
 # EXECUTION TRACKER — what is actually being done, by whom, right now
 
-**LAST UPDATED 2026-08-01, ~05:30. Register head Q-160. Published at `297ad91`.**
+**LAST UPDATED 2026-08-01, ~06:00. Register head Q-165. Published at `ceec71d`.**
 
 *** SECTIONS BELOW THE LANE BLOCK ARE HISTORY AND SEVERAL OF THEIR FRAMINGS HAVE SINCE BEEN
 REFRAMED OR REFUTED. THE REGISTER IS THE AUTHORITY. ***
@@ -15,24 +15,43 @@ STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
 
 ---
 
-## LANES RIGHT NOW — 2026-08-01, ~05:30. REGISTER HEAD Q-160.
+## LANES RIGHT NOW — 2026-08-01, ~06:00. REGISTER HEAD Q-165.
 
 ```text
-252  POSE THE CROSSING OBJECT -- COMMON_ORIGIN_SOURCE_RECORD_FIELD_CTP_PRODUCER_WITH_P5_PORT.
-     *** THE ONE MISSING OBJECT. Every other blocker is a consequence of its absence. ***
-     Specified from two derived requirements (Q-156 sector-reach, Q-158 descent presentation).
-     BUILD IT, DO NOT RUN IT.
+CODEX 1   259  BUILD TARGET 2 -- CANONICAL_PRPS_TO_GATE4_LOCALIZATION_BRIDGE.  *** PASTED, RUNNING ***
+               A DISCRETE/SMOOTH correspondence between Gate 4's incidence-gauge structure and
+               PRPS's smooth frame/patch demands. Both sides exist in the corpus and BOTH ARE
+               RECORD-SIDE (Q-165 cross-case 2). Carries two hazards: the standard discrete-to-
+               smooth connection correspondence must pass a TRANSFER CHECK (the KK lesson), and
+               GATE 2's FIRST-OPENING COMPLEX IS A TREE -- no plaquettes, no loops, so any
+               plaquette-holonomy construction has no carrier there.
 
-254  DISCHARGE STEP 1 -- localize the comparison frame and derive the physical connection, from
-     the three conditions at PRIMITIVE_RELATIVE_PHASE_STABILIZER_V002.md:98-115.
-     Step one of four on a route NAMED IN SEALED TEXT AND NEVER EXECUTED, discharging a premise
-     the ledger says ALPHA DIRECTLY DEPENDS ON.
+CODEX 2   IDLE.  *** THIS IS THE FAILURE TO WATCH. ***
 
-NEXT, AND INDEPENDENT OF STEP 1 (verified at source, not assumed):
-     STEP 3 -- shortest-onset saturation. J_FS,rel = pi hbar/2; THE LOWER BOUND IS DERIVED,
-     SATURATION IS ADOPTED. It is a shortest RELATIVE projective path on the record cell -- the
-     same geometry in which pi/2 was just derived as a first orthogonality. IF THE QUARTER TURN
-     IS THE FIRST ORTHOGONALITY, SATURATION MAY BE FORCED RATHER THAN ASSUMED.
+EINSTEIN  258  CAN THE RESPONSE-MAP PULLBACK SUPPLY S6?  *** PASTED, RUNNING, NO ARTIFACT YET ***
+               S6 = the finite-to-complete transport. The O7 pullback transfer check is already
+               sealed-refuted (DOES_NOT_TRANSFER); the response-map pullback is neither proved
+               nor refuted. S6 FLIPS TARGET 1 ONLY (Q-165) -- it does not touch TARGET 2.
+```
+
+### THE TWO BUILD TARGETS (Q-165) — the whole forward board
+
+```text
+TARGET 1  COMMON_ORIGIN_SOURCE_RECORD_FIELD_CTP_PRODUCER_WITH_P5_PORT   <- S6 flips this
+TARGET 2  CANONICAL_PRPS_TO_GATE4_LOCALIZATION_BRIDGE                   <- relay 259, separate
+```
+
+**They are NOT the same object** — different domains, codomains, required inputs and failure tests.
+A and C collapsed for build order (P5 is a *port*); **B did not.** Step 1 of the holonomy route
+stays blocked until TARGET 2 is built, regardless of what happens to `S6`.
+
+### RETURN LEDGER — every relay since 250 accounted
+
+```text
+250 -> Q-157   251 -> Q-158   252 -> Q-164   253 -> Q-160   254 -> Q-161
+255 -> Q-162   256 -> Q-163   257 -> Q-165 (2f3a36dc, verified, pushed at ceec71d)
+258 -> OUTSTANDING, Einstein, no artifact in the archive
+259 -> ISSUED to Codex 1
 ```
 
 **READ FIRST:** `WHAT_IS_MISSING_2026-08-01_V001.md` (one screen, the position) and
