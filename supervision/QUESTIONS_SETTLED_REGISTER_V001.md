@@ -7128,6 +7128,78 @@ fifth.** The half that survived (A≡C for build order) is real and removes a ta
 
 **Issued on this basis:** relay 259 — build TARGET 2 — to Codex 1.
 
+## Q-166. TARGET 2 does not build — and the obstruction now has a NAME and a would-build spec.
+
+**Asked:** relay 259 (Codex 1, high effort). **Answered:**
+`STAGE8_PRPS_GATE4_LOCALIZATION_BRIDGE_ATTEMPT_V001.md`,
+`f651817ffbfd52caa57be7e63437e2e0682f421c911611151389df8f14579cf7`, 358 lines. Hash verified against
+the stated value; fence-clean; no fenced quantity set.
+
+```text
+canonical_PRPS_to_Gate4_localization_bridge_built      = false | TYPE-U
+standard_correspondence_transfers_to_this_structure    = false | TYPE-U
+reverse Gate4-to-smooth reconstruction                 = false | TYPE-U
+all three PRPS premises                                = false | TYPE-U  (each, separately)
+standard_smooth_to_discrete_connection_correspondence_available = true
+```
+
+**The transfer check that relay 259 mandated is exactly what failed.** The standard smooth-to-discrete
+connection restriction **exists as imported geometry** — and the corpus **does not supply the canonical
+patch/cover/path-to-incidence realization** needed to transfer it to PRPS/Gate 4. *** THE MACHINERY IS
+AVAILABLE AND DOES NOT REACH THIS STRUCTURE. THAT IS THE KK LESSON HOLDING A SECOND TIME, ON A
+DIFFERENT IMPORT. ***
+
+### The named obstruction — this is the value of the return
+
+```text
+CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR = missing | TYPE-U
+would-build: a canonical construction from PRPS local endpoint-comparison patches, overlaps, and
+smooth frame changes to the BID/Gate-4 incidence graph, vertices, oriented edges, and vertex-gauge
+maps.
+```
+
+**TARGET 2 is no longer "a bridge is missing". It is a named functor with a stated domain and
+codomain.**
+
+### The loop question, settled at TWO levels — and the second one is new
+
+```text
+bridge_needs_loops_for_transport_gauge_level      = false
+bridge_needs_loops_for_curvature_plaquette_level  = true
+
+first_opening_loop_or_face_carrier_available = false | TYPE-R
+   test: first-opening artifacts classify loop/face as COMPOSITION or HIGHER-ORDER CELL, not as part
+   of the minimal first-opening object.
+```
+
+*** THE TREE DOES NOT BLOCK TRANSPORT OR GAUGE. IT BLOCKS **CURVATURE** — AND CURVATURE IS WHERE A
+MAXWELL TERM WOULD HAVE TO COME FROM. AND THE `TYPE-R` SAYS THE FIRST-OPENING CARRIER IS UNAVAILABLE
+**BECAUSE THE LOOP IS CLASSIFIED AS A COMPOSITION** — WHICH IS THE MANDATED, UNSEALED COMPOSITION-LOOP
+PREDICTION AT `V011:1836-1863`. ***
+
+### TWO FLAGS THE LANE'S OWN CHAT SUMMARY OMITTED
+
+*** REGISTERED FROM THE ARTIFACT, NOT THE REPORT — THE STANDING RULE, AND IT PAID AGAIN. ***
+
+```text
+later_temporal_plaquette_diagnostic_available = true
+   COMPLETE_QSPEC_TEMPORAL_PLAQUETTE_RESPONSE_RESULT_V001.md -- A PLAQUETTE OBJECT DOES EXIST IN THE
+   CORPUS. It was not mentioned in the lane's summary.
+later_temporal_plaquette_closes_PRPS_bridge = false | TYPE-R
+   its own scope ceiling (DIAGNOSTIC_SPEC_V001.md:204-230) expressly excludes local Maxwell form,
+   the spatial magnetic plaquette sector, the Thomson limit, kappa_record, and alpha. Next step named
+   in its result: a many-cell/long-wavelength locality test, then a spatial magnetic plaquette
+   response and a Hodge-duality test.
+```
+
+### Standing after this return
+
+**Both build targets are now unbuilt with named obstructions.** TARGET 1 awaits `S6` (relay 258,
+Einstein, outstanding). TARGET 2 awaits `CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR`. *** STEP 1
+OF THE HOLONOMY ROUTE REMAINS BLOCKED, AND `physical_public_EM_connection_derived` DOES NOT FLIP. ***
+
+**Issued on this basis:** relay 260 — build the mandated composition-loop prediction — to Codex 2.
+
 ---
 
 ## HOW TO USE THIS REGISTER
