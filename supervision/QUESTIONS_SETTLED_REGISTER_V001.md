@@ -9186,6 +9186,28 @@ DURABILITY, FROM SEALED TEXT: *** thresholded source NONRETURN + exact completed
 sealed; the job is instantiation with common-origin provenance. WHICH IS, AGAIN, THE CTP
 COMPLETION. EVERY ROAD IN TASK 3 NOW VISIBLY CONVERGES ON TASK 2's PACKAGE. ***
 
+## Q-211. SECOND KILL-PASS CLEAN — both repairs hold, no regression. DoR 008 goes to the principal with a clean bill.
+
+**Relay 293 (SUPPORT, Codex 2).** `STAGE8_FIELD_CTP_V002_SECOND_ADVERSARIAL_KILL_DETERMINATION_V001.md`,
+`58f2c82121e7fb34c91212ca0181c71c455eca077ce9f6d060835eb0407c3c93`, 419 lines. Hash verified,
+fence-clean.
+
+```text
+FIELD 1  Q-201 GENUINELY supplies the sequential N <= M system. Zero-extension is not derived --
+         *** and it is EXPLICITLY DISCLOSED WITHIN the Field 1 adoption. No phantom functor, no
+         hidden eighth. *** V001_FIELD1_DEFECT_SURVIVES_V002 = false | TYPE-R.
+FIELD 7  the module inner product is B-VALUED; scalarization needs a separate B -> C positive
+         functional, and *** AT LEAST TWO INEQUIVALENT CANDIDATES EXIST -- so the module FORCES
+         NEITHER AND EXPORTS NONE. *** V001_FIELD7_DEFECT_SURVIVES_V002 = false | TYPE-R.
+REGRESSION  none found (TYPE-S). Join, fences, exclusions, four consequences unchanged.
+CUSTODY  the lane did not ratify: FIELD_CTP_PRESENTATION_RATIFIED = false | TYPE-C;
+         C0_PROP_AVAILABLE_FOR_USE = false | TYPE-C -- *** RATIFICATION IS THE PRINCIPAL'S. ***
+```
+
+*** THE GATE'S FULL HISTORY: draft (7 claimed) -> kill (8 found, measure smuggled) -> repair by
+REMOVAL -> second kill CLEAN. THE PROPOSAL REACHING THE PRINCIPAL IS TWICE-ATTACKED AND HONESTLY
+COUNTED. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
