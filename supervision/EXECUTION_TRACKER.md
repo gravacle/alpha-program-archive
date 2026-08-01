@@ -118,16 +118,15 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~18:00.
+## 6. LANE LEDGER — 2026-08-01, ~18:30.
 
 ```text
-RELAY  LANE     TASK  QUESTION                                       STATE
-301    CODEX 1  2d    force the scalarization functional             PASTED, RUNNING
---     CODEX 2  --    held ONE return: next work depends on whether
-                      the state port opens derived
+RELAY  LANE     TASK  QUESTION                                            STATE
+302    CODEX 2  2d    the descent presentation, piece 1: the ORIGIN TRACE  PASTED, RUNNING
+--     CODEX 1  --    held for 302's outcome (piece 2, or the sized ask)
 ```
 
-REGISTERED THROUGH Q-218. PACKAGE: C0 built . U1 built . U2 skeleton built, state port under
-forcing . dynamics port = the one-gap-three-consumers object . U3 + certification queued.
-FALSIFIER: one-cell arm PASSING; incidence arm waits on source-dynamics content (Q-217).
-NOTHING ON THE PRINCIPAL until 301 returns.
+REGISTERED THROUGH Q-219. THE DAY'S LINE (Q-219): GRAMMAR IS ADOPTABLE AND BUILT; THE STATE IS
+PHYSICS AND MUST DESCEND -- a continuum choice would be a FIT, not an adoption. The descent
+presentation is buildable-in-principle FOR THE FIRST TIME (carrier exists: C0_008 + U1_008).
+NOTHING ON THE PRINCIPAL until 302 returns.
