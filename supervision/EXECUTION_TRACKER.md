@@ -1,6 +1,6 @@
 # EXECUTION TRACKER — what is actually being done, by whom, right now
 
-**LAST UPDATED 2026-08-01, ~06:30. Register head Q-166. Published at `390a488`.**
+**LAST UPDATED 2026-08-01, ~07:00. Register head Q-169. Published at `4db81c2`.**
 
 *** SECTIONS BELOW THE LANE BLOCK ARE HISTORY AND SEVERAL OF THEIR FRAMINGS HAVE SINCE BEEN
 REFRAMED OR REFUTED. THE REGISTER IS THE AUTHORITY. ***
@@ -15,37 +15,65 @@ STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
 
 ---
 
-## LANES RIGHT NOW — 2026-08-01, ~06:30. REGISTER HEAD Q-166. *** ALL THREE LANES LOADED. ***
+## LANES RIGHT NOW — 2026-08-01, ~07:00. REGISTER HEAD Q-169. *** ALL THREE LANES LOADED. ***
 
 ```text
-CODEX 1   261  BUILD CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR.  *** PASTED, RUNNING ***
-               The named TYPE-U obstruction under TARGET 2 (Q-166). Candidate named: the NERVE
-               1-SKELETON -- vertices = patches, edges = overlaps. The prior attempt searched for
-               nerve/Cech/cover/overlap and found NOTHING SEALED, so the candidate is UNSEALED,
-               not refuted. CRUX: a nerve gives one graph PER COVER; Gate 4 gives ONE graph, and
-               cover-independence comes only in the refinement colimit. Five independence checks
-               to run SEPARATELY: cover, lift, path representative, ordering, refinement.
-               *** FLAGGED AS THE THIRD IMPORT IN A ROW. TRANSFER CHECK MANDATORY. ***
+CODEX 1   263  CAN A PRPS COVER'S NERVE REALIZE GATE 2's K_1,3?  *** PASTED, RUNNING ***
+               The one of TARGET 2's three missing objects that can KILL THE NERVE ROUTE CHEAPLY.
+               K_1,3 as a nerve is an exact condition: four patches, one meeting the other three,
+               THE THREE LEAVES PAIRWISE DISJOINT. Carries the consequence to test -- K_1,3 is a
+               tree, a tree is contractible, so a GOOD cover would make the endpoint-comparison
+               domain contractible and its principal U(1) bundle TRIVIAL. Three ways the chain
+               can break, each a real result. FOURTH IMPORT IN A ROW; transfer check mandatory.
 
-CODEX 2   260  BUILD THE MANDATED COMPOSITION-LOOP PREDICTION.  *** PASTED, RUNNING ***
-               V011:1836-1863, fully specified, four vertices and four edges, ordered loop
-               holonomy exp(i Phi). MANDATED for CORE-RESULT-SEAL at V011:1790 and UNSEALED at
-               V011:2321. It is the program's loop carrier and the curvature level needs it.
-               PRINCIPAL TRAP CARRIED: "holonomy" names FOUR objects; sense 3's Phi must NOT be
-               identified with sense 4's sealed pi/2.
+EINSTEIN  262  IS THE TREE/LOOP SPLIT THE ALLOW/REQUIRE BOUNDARY?  *** PASTED, RUNNING ***
+               PRINCIPAL'S HYPOTHESIS. Mechanism: gauge-removable on a tree, gauge-invariant on a
+               loop, so the boundary sits at CYCLE RANK > 0. Leads with the RIVAL reading (a
+               unique require forces too; on a tree the class is unique, so the first opening may
+               REQUIRE THE TRIVIAL CLASS rather than be silent). Section 2b added after Q-168:
+               *** THE LOOP CARRIER IS ITSELF PROTOCOL-MANDATED, SO "CYCLE RANK > 0" MAY BE A FACT
+               ABOUT A CHOSEN PROTOCOL, NOT ABOUT THE RECORD. *** Told NOT to cite Codex 2's
+               agreement as support.
 
-EINSTEIN  258  CAN THE RESPONSE-MAP PULLBACK SUPPLY S6?  *** OUTSTANDING, NO ARTIFACT YET ***
-               S6 = the finite-to-complete transport. The O7 pullback is sealed-refuted
-               (DOES_NOT_TRANSFER). S6 FLIPS TARGET 1 ONLY.
-
-QUEUED    262  IS THE TREE/LOOP SPLIT THE ALLOW/REQUIRE BOUNDARY?  -> EINSTEIN, on 258's return.
-               *** PRINCIPAL'S HYPOTHESIS, NOT A REVIEWER COLLAPSE. *** Mechanism: gauge-removable
-               on a tree, gauge-invariant on a loop, so the boundary sits at CYCLE RANK > 0.
-               Relay leads with the RIVAL reading -- a UNIQUE require forces too, and on a tree
-               the gauge class is unique, so the first opening may REQUIRE THE TRIVIAL CLASS
-               rather than be silent. Sharpest test named: the sealed quarter-turn holonomy is
-               require-shaped and sits at first opening, where there is no loop.
+CODEX 2   264  WHERE IS THE FIRST FILLED TWO-CELL?  *** LOADED ***
+               Curvature needs a filled 2-cell; the composition loop is UNFILLED and cannot carry
+               one (V011: "no 2-cell", "No filled 2-cell is included in the trace carrier").
+               Sweep every 2-cell in the corpus and type each DERIVED / ADOPTED / IMPORTED /
+               DIAGNOSTIC. *** IF NONE IS DERIVED, THERE IS NO LOCAL CURVATURE TWO-COCHAIN, NO
+               LOCAL MAXWELL DENSITY, AND THE EM SECTOR IS UNBUILT AT ITS FOUNDATION -- WHICH
+               BEARS DIRECTLY ON ALPHA. *** Must stay TYPE-U, not TYPE-R.
 ```
+
+### THE CURVATURE CHAIN — three sealed results, one wall
+
+```text
+Q-166   bridge_needs_loops_for_curvature_plaquette_level = true
+Q-168   the loop EXISTS -- exact cycle rank 1, generator e_a0 - e_0b + e_ab - e_ba
+Q-168   *** composition_loop_is_curvature_plaquette_carrier = false | TYPE-R ***
+        no face generator, no face area, no local curvature two-cochain, no Maxwell density
+```
+
+*** CURVATURE NEEDS LOOPS. THE LOOP THE PROGRAM GETS CANNOT CARRY CURVATURE. RELAY 264 ASKS WHETHER
+ANY DERIVED FILLED TWO-CELL EXISTS AT ALL. ***
+
+### S6 IS CLOSED AS A ROUTE (Q-169) — AND THE REAL GAP IS NAMED
+
+```text
+the P8 ledger row IS S6's would-build, and it has TWO CONJUNCTS:
+  (i)  a source-inclusive continuum/refinement system WITH ITS EMBEDDINGS   <-- DOES NOT EXIST
+  (ii) response naturality under them                                       <-- the pullback
+*** THE PULLBACK IS THE SECOND. THE FIRST DOES NOT EXIST. TYPE-U/TYPE-C, NOT TYPE-R. ***
+
+CORRECTED: discharging S6 would NOT confer sector reach (one of seven clauses) and would NOT
+make Gates 1-4 one trace -- "BAG-PLUS-ONE".
+SURVIVES: S6 is reachable WITHOUT determining B0.
+```
+
+### OPEN CUSTODY ITEM — declared by Einstein, on the reviewer
+
+*** Q-33's SOURCE ARTIFACT HAS NO `.seal.sha256` SIDECAR WHILE THE SEALED CHECK IT CORRECTS DOES.
+AN UNSEALED ARTIFACT IS CORRECTING A SEALED ONE. *** The answer is invariant either way, but the
+status conflict is real and unresolved.
 
 ### THE TWO BUILD TARGETS (Q-165) — the whole forward board
 
@@ -63,9 +91,9 @@ stays blocked until TARGET 2 is built, regardless of what happens to `S6`.
 ```text
 250 -> Q-157   251 -> Q-158   252 -> Q-164   253 -> Q-160   254 -> Q-161
 255 -> Q-162   256 -> Q-163   257 -> Q-165 (2f3a36dc, verified, pushed at ceec71d)
-258 -> OUTSTANDING, Einstein, no artifact in the archive
-259 -> Q-166 (f651817f, verified, pushed at 6c08717)
-260, 261 -> ISSUED and running.  262 -> staged for Einstein.
+258 -> Q-169 (6ca465a6)   259 -> Q-166 (f651817f)   260 -> Q-168 (58103771)
+261 -> Q-167 (f600362c)   *** ALL VERIFIED AGAINST STATED HASHES, ALL FENCE-CLEAN ***
+262, 263, 264 -> ISSUED. Nothing outstanding.
 ```
 
 **READ FIRST:** `WHAT_IS_MISSING_2026-08-01_V001.md` (one screen, the position) and
