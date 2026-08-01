@@ -200,7 +200,8 @@ TASK 2  BUILD THE SPACE (CTP_PHYS_INPUT_PACKAGE)          STATE: *** FIELD HOME 
         + STANDING FALSIFIER). C0 assembly now proceeds under TYPE-P marks. *** b resumes; c-f open
         a. P5-family exclusion theorem -- the shortcut into U2
         b. C0 + d_C0     c. U1 + d_U1     d. U2 + d_U2 (rho_pre lives here)     e. U3 + d_U3
-        f. certify: frozen trace, no post-output supplementation
+        f. certify: frozen trace, no post-output supplementation, *** AND (C16) the
+           presentation-to-incidence COMPARISON MAPS so every sealed finite falsifier check RUNS ***
 
 TASK 3  BUILD THE FUNCTIONAL (the action side)            STATE: c STOPPED AT STEP 1 (Q-202) --
         blocked on Task 2's field/CTP sector; a, b, d open

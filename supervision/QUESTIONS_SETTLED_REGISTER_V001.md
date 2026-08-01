@@ -9217,6 +9217,39 @@ property of the finite" — the completion has no independent authority. *** Car
 quantities (gap existence, B_ind convergence, cellulation-independence) still need their own
 theorems; Task 4d stands. C0_prop AVAILABLE FOR USE under `TYPE-P | premises: DoR-008`.
 
+## Q-213. `C0` IS ASSEMBLED — the package's first component exists. Falsifier check 1 PASSES; check 2 exposes the map the falsifier itself needs.
+
+**Relay 295 (Task 2b, Codex 1).**
+`STAGE8_CTP_PHYS_INPUT_PACKAGE_C0_DOR008_ASSEMBLY_AND_FIRST_RESTRICTION_TEST_V001.md`,
+`1467ab9850022931e68dc9ffa625d95099d8f6bb74d734dc9d0466f169bd00b6`, 608 lines. Hash verified,
+fence-clean.
+
+```text
+*** C0 ASSEMBLED, marked TYPE-P | premises: DoR-008 -- THE FIRST COMPONENT OF
+CTP_PHYS_INPUT_PACKAGE EXISTS, FOR THE FIRST TIME IN THE PROGRAM. ***
+
+THE MAP, honestly typed: d_C0^P : P_008 -> C0_008 is TOTAL -- premise-level descent from the
+ratified presentation. *** IT IS NOT the independently derived common-origin
+d_C0 : B0_candidate -> C0. That provenance gap STANDS, as DoR 008 said it would. ***
+
+FALSIFIER CHECK 1 (single record cell): *** PASS_AT_C0_SCOPE. *** The M_3(C) record factor, the
+source-record algebra, and the represented action are REPRODUCED through the tensor-unit
+embedding. THE FINITE AUTHORITY'S FIRST AUDIT OF THE COMPLETION: PASSED.
+
+FALSIFIER CHECK 2 (K_square): *** UNEXECUTABLE | TYPE-U. *** No sealed map connects the
+sequential N<=M presentation to the eight-dimensional incidence carrier
+C_0(K_square) (+) C_1(K_square). No disagreement found; DoR 008 NOT void --
+*** BUT THE STANDING FALSIFIER REMAINS UNCERTIFIED ON INCIDENCE-CLASS RESULTS. ***
+```
+
+### The new named object — the falsifier's own missing tooth (C16)
+
+*** THE PRESENTATION-TO-INCIDENCE COMPARISON MAP: sequential label carrier -> each sealed finite
+incidence complex. WITHOUT IT THE FINITE AUTHORITY CANNOT AUDIT THE COMPLETION ON EXACTLY THE
+RESULTS THAT MATTER MOST (K_square's spectrum, the four planes). **ADDED TO TASK 2f: the
+certification is not complete until the comparison maps exist and every sealed finite check RUNS.**
+***
+
 ---
 
 ## HOW TO USE THIS REGISTER
