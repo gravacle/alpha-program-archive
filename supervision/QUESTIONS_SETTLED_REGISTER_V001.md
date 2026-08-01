@@ -8278,6 +8278,46 @@ computation. **BOTH ARE CORRECT TYPINGS AND THE LANE REFUSED TO MANUFACTURE A SP
 LANES STALLED ON IT IN ONE DAY**, BOTH CORRECTLY REFUSING TO BYPASS THE CONTROL. THE HEADING NOW
 READS "THESE ARE REVIEWER STEPS. LANES DO NOT DO THEM." ***
 
+## Q-188. Bohm's `K` withdrawal SURVIVES — narrowly, and the citation was wrong.
+
+**Relay 279 (Codex 1), adversarial attack on Q-186.**
+`STAGE8_K_NORMALIZATION_IDENTITY_AND_SURROGATE_SLOT_ADVERSARIAL_VERIFICATION_V001.md`,
+`efe006c000a420dd2233332ba81c4bfb446121d0849180b65eac876589e89d93`, 350 lines. Hash verified. One
+structural quote of the formula with its status at `:242`; no value computed.
+
+```text
+*** THE v003 LEDGER BOHM CITED IS SUPERSEDED. *** The conclusion survives for a DIFFERENT REASON
+than the one given: *** LIVE v004 INDEPENDENTLY DERIVES THE SAME IDENTITY *** for its local
+Maxwell-surrogate coefficient --   alpha_micro(K) = 1/(4 pi K).
+
+v001 carries THE SAME formula, not a competing one.        -> the two-alpha-formulas fear is dead
+Ledger K is NOT a fifth meaning -- it is the local Maxwell action/Hessian coefficient, distinct
+   from K_ext and K_ind.
+No microscopic-v002-to-surrogate-v004 map exists, and *** NONE IS NEEDED FOR NORMALIZATION. ***
+```
+
+### *** THE DISTINCTION THAT MATTERS, AND BOHM DID NOT DRAW IT ***
+
+> *** "This proves the normalization **CONVERSION**, not that surrogate `K` **EQUALS** the physical
+> induced coefficient `B_ind`." ***
+
+```text
+v004 EXPRESSLY DISTINGUISHES  B_surrogate(K) = K  FROM  B_ind(K).
+alpha_micro_from_physical_K_star_derived = false | TYPE-U
+*** A SURROGATE-TO-EXACT-INDUCED-RESPONSE DERIVATION IS STILL REQUIRED. ***
+```
+
+*** SO: THE FORMULA CONVERTS `K` TO ALPHA. **NOTHING YET SHOWS THE `K` THE PROGRAM WOULD SOLVE FOR IS
+THE PHYSICAL INDUCED COEFFICIENT.** THE ALARM STAYS WITHDRAWN; A **NEW, NARROWER, NAMED DEBT** REPLACES
+IT — and it is the same object as v004's standing `absolute_B_ind_computed = false`. ***
+
+**Reviewer standing:** the withdrawal holds, but *** BOHM CITED A SUPERSEDED FILE AND MISSED THE
+SURROGATE/`B_ind` GAP ENTIRELY. THE CONCLUSION WAS RIGHT BY LUCK OF STRUCTURE, NOT BY THE ARGUMENT
+GIVEN. *** Nine proposals, six refuted, one half right, **one survived-with-corrected-reasoning.**
+
+**Custody:** the lane reported *"Per `LOCKED_PROCESS.md`, I performed no registration, git, commit, or
+push action."* *** THE HEADING FIX WORKED. NO STALL THIS TIME. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
