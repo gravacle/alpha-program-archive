@@ -535,6 +535,45 @@ KILL, THEY ALSO CANNOT FORCE." ***
 
 ---
 
+## *** REFUTED 2026-08-01, SAME NIGHT, BY THE ATTACK IT ASKED FOR (Q-155). ***
+
+**`OBS11_axes_collapse = false | TYPE-R`** and **`sector_axis_is_quantifier_axis = false | TYPE-R`** —
+Codex lane 1 under relay 248 (`STAGE8_OBS11_AXIS_COLLAPSE_ATTACK_V001.md`, `63e8301f…`, 224 lines,
+seal verified, fence-clean). *** BOTH CROSS-CASES WERE **FOUND IN THE CORPUS**, NOT HYPOTHESISED: ***
+
+```text
+UNIFORM BUT INTERNAL     Gate 4's differential/covector results quantify UNIFORMLY over their
+                         declared internal hostile/readout families AND STILL DO NOT REACH the
+                         external response sector.
+FIXED BUT SPANNING       the pre-root equivalence theorem spans continuum source/field variables
+                         PLUS record variables, but only at fixed S_0, fixed carrier, fixed
+                         quotient/measure/Ward inputs.
+```
+
+*** THE MECHANISM IS THE ONE THE RELAY NAMED AS THE RISK: "'over a family' and 'over a sector' use the
+same English preposition but are DIFFERENT MATHEMATICAL ROLES." **IT WAS A PUN ON "OVER."** THE RELAY
+ASKED WHETHER IT WAS. IT WAS. FOURTEENTH FRAMING TO DISSOLVE IN THIS PROGRAM; THE REVIEWER'S. ***
+
+### What replaces it — sharper, not weaker
+
+```text
+FAMILY-UNIFORMITY   the result must hold over EVERY ADMITTED MEMBER
+SECTOR-REACH        the result must reach the EXTERNAL CONTINUUM SECTOR
+*** INDEPENDENT REQUIREMENTS. A FUTURE §5.3 CONSTRUCTION MUST DECLARE **BOTH**. ***
+```
+
+*** AND IT PREVENTED A WASTED PROGRAM. UNDER OBS-11 THE NEXT BUILD WAS "A UNIFORMITY THEOREM" — WHICH
+WOULD HAVE ADDRESSED **AT MOST HALF** THE FOUR FAILURES. **ROUTES 1 AND 4 WOULD HAVE STAYED EXACTLY
+WHERE THEY ARE, BECAUSE THEIR PROBLEM WAS NEVER QUANTIFICATION.** ***
+
+**Sector-reach — the half that actually killed two routes and has never been stated — issued as relay
+249.** *** ITS §2.4 CARRIES A SECOND REVIEWER IDENTIFICATION (sector-reach = dimensionful reach) AND
+FLAGS IT AS SUSPECT ON THESE GROUNDS: SAME SHAPE OF CLAIM, SAME AUTHOR, THREE HOURS LATER. ***
+
+---
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **When a candidate fails, ask which kind of failure it is.** A theorem foreclosing it is a refutation and

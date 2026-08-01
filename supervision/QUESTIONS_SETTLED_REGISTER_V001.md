@@ -6578,6 +6578,53 @@ IS THE OPERATIVE WORD IN ROUTE 2's OWN CERTIFICATE.** ***
 
 ---
 
+## Q-155. "Do the two axes in OBS-11 actually collapse?"
+
+*** RULING: **NO. `OBS11_axes_collapse = false | TYPE-R`, EXECUTED.** THE REVIEWER'S SYNTHESIS IS
+REFUTED, AND BY THE EXACT MECHANISM THE RELAY NAMED AS THE RISK. *** Established 2026-08-01 by Codex
+lane 1 under relay 248 (`STAGE8_OBS11_AXIS_COLLAPSE_ATTACK_V001.md`, `63e8301f...`, 224 lines, seal
+verified, fence-clean).
+
+```text
+sector_axis_is_quantifier_axis = false | TYPE-R
+OBS11_axes_collapse            = false | TYPE-R
+```
+
+*** BOTH CROSS-CASES WERE **FOUND IN THE CORPUS**, NOT CONSTRUCTED AS HYPOTHETICALS: ***
+
+```text
+UNIFORM BUT INTERNAL   Gate 4's differential/covector results quantify UNIFORMLY over their
+                       declared internal hostile/readout families AND STILL DO NOT REACH the
+                       external response sector.
+FIXED BUT SPANNING     the pre-root equivalence theorem spans continuum source/field variables
+                       PLUS record variables, but only at fixed S_0, fixed carrier, fixed
+                       quotient/measure/Ward inputs.
+```
+
+**The lane's diagnosis:** *"the collapse argument is a word-level trap: 'over a family' and 'over a
+sector' use the same English preposition, but they are different mathematical roles."* *** RELAY 248
+ASKED, IN THOSE WORDS, WHETHER IT WAS A PUN ON "OVER." IT WAS. FOURTEENTH FRAMING TO DISSOLVE IN THIS
+PROGRAM; THE REVIEWER'S. ***
+
+**WHAT REPLACES IT IS SHARPER, NOT WEAKER:**
+
+```text
+FAMILY-UNIFORMITY   the result must hold over EVERY ADMITTED MEMBER
+SECTOR-REACH        the result must reach the EXTERNAL CONTINUUM SECTOR
+*** INDEPENDENT. A FUTURE §5.3 CONSTRUCTION MUST DECLARE **BOTH**. ***
+```
+
+*** AND IT PREVENTED A WASTED PROGRAM. UNDER OBS-11 THE NEXT BUILD WAS "A UNIFORMITY THEOREM." THAT
+WOULD HAVE ADDRESSED **AT MOST HALF** THE FOUR FAILURES — **ROUTES 1 AND 4 WOULD HAVE STAYED EXACTLY
+WHERE THEY ARE, BECAUSE THEIR PROBLEM WAS NEVER QUANTIFICATION.** ***
+
+**Sector-reach issued as relay 249 (Codex 2, high).** *** ITS §2.4 CARRIES A **SECOND** REVIEWER
+IDENTIFICATION — THAT SECTOR-REACH AND **DIMENSIONFUL** REACH ARE THE SAME BOUNDARY — AND FLAGS IT AS
+SUSPECT ON STATED GROUNDS: SAME SHAPE OF CLAIM, SAME AUTHOR, THREE HOURS LATER. IT NAMES ITS OWN
+REFUTERS: A DIMENSIONLESS QUANTITY LIVING EXTERNALLY, OR A DIMENSIONFUL ONE LIVING INTERNALLY. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
