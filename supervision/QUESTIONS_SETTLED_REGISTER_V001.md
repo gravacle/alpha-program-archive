@@ -7068,6 +7068,66 @@ PROGRAM CLAIMS TO DERIVE. ***
 
 **Second P5 symbol collision across live specs. Struck overdetermination bar: eighth report.**
 
+## Q-165. Is it one seam or three? TWO BUILD TARGETS — and the reviewer's fifth collapse came back HALF right.
+
+**Asked:** relay 257 (Codex 1, high effort). **Answered:**
+`STAGE8_ONE_SEAM_OR_THREE_SEAMS_ADJUDICATION_V001.md`,
+`2f3a36dc073c295c32cde2ffcf82f24a565b8d5818f796b28293ad998faba0ed`, 376 lines. Seal verified against
+the stated hash; fence-clean; no fenced quantity set.
+
+```text
+one_boundary_for_A_B_C            = false | TYPE-R
+three_independent_boundaries      = false | TYPE-R
+two_build_targets_for_A_B_C       = true
+```
+
+**The program has TWO build targets, not one and not three:**
+
+```text
+TARGET 1  COMMON_ORIGIN_SOURCE_RECORD_FIELD_CTP_PRODUCER_WITH_P5_PORT
+TARGET 2  CANONICAL_PRPS_TO_GATE4_LOCALIZATION_BRIDGE
+```
+
+**A and C collapse for build order.** `C_reduces_to_A_for_build_order = true` — P5 is a **port** of
+the common-origin producer, not an independent record-side blocker. But
+`C_identical_to_A_as_object = false | TYPE-R`: P5 is only the state/effect/domain port; P4, P6, P7,
+quotient/measure, dynamics, contact/source rules and the raw-correlator interface remain **separate
+producer ports**.
+
+**B does not collapse.** `canonical_bridge_same_as_crossing_object = false | TYPE-R` — *"the canonical
+localization bridge and the crossing producer have different domains, codomains, required inputs, and
+failure tests."*
+
+**WHAT REFUTED THE COLLAPSE WAS CROSS-CASE 2, NOT CROSS-CASE 1.**
+*** THE REVIEWER REPORTED THIS BACKWARDS IN CHAT AND IS CORRECTING IT HERE. *** The probe on `K`,
+`B_ind`, `p_loc` returned `discrete_external_cross_case_found = false | TYPE-S` — **scope-empty, no
+physical content.** The refutation came from the other side:
+
+```text
+smooth_record_side_nonexternal_cross_case_found = true
+   -- LOCAL_PROJECTIVE_RECORD_BUNDLE_V001.md is SMOOTH machinery that is RECORD-SIDE and
+      NOT the finite Route-1/Route-4 incidence skeleton. Category: SMOOTH_RECORD_SIDE_NONEXTERNAL.
+external_equals_smooth = false | TYPE-R
+```
+
+**So "external" is not "smooth", and the sector boundary is not the discrete/smooth boundary.**
+
+**And P5 does not straddle discrete/smooth.** `P5_reduces_to_B = false | TYPE-R`. Its straddle is
+**sectoral only**: the recorded P5 texts do not require the PRPS endpoint-frame / overlap-patch bridge,
+and the bridge does not require a `rho_pre`/effects/domains interface.
+
+### The scheduling consequence, which is the whole value of the answer
+
+*** `S6` — the finite-to-complete transport — FLIPS TARGET 1 ONLY. THE LOCALIZATION BRIDGE IS
+UNTOUCHED BY IT, AND THE HOLONOMY ROUTE'S STEP 1 STAYS BLOCKED UNTIL TARGET 2 IS BUILT SEPARATELY. ***
+A single "crossing object" would have left the localization theorem exactly where Q-163 left it.
+
+**Reviewer track record on collapse proposals over this stretch: 0 for 4, then HALF right on the
+fifth.** The half that survived (A≡C for build order) is real and removes a target; the half that died
+(A≡B) would have sent the program building one object where two are needed.
+
+**Issued on this basis:** relay 259 — build TARGET 2 — to Codex 1.
+
 ---
 
 ## HOW TO USE THIS REGISTER
