@@ -6059,6 +6059,82 @@ branch.**
 
 ---
 
+## Q-144. "Does record structure force a gravitational normalization?"
+
+*** RULING: **NEITHER 4.1 NOR 4.2 IS AVAILABLE — AND THE TYPE IS `TYPE-U`, NOT `TYPE-R`.** THE
+FORBIDDING RULING WAS THE ATTRACTIVE ANSWER AND IT IS NOT THE EARNED ONE. *** Established 2026-08-01
+by Einstein under relay 236
+(`STAGE8_PARENT_NORMALIZATION_FROM_RECORD_STRUCTURE_DETERMINATION_EINSTEIN_V001.md`, `2ddd8d11…`,
+450 lines, seal verified, fence-clean).
+
+*** THE CONVERGENCE — FOUR INDEPENDENT DIRECTIONS RUN TO EXHAUSTION, LANDING ON ONE OBJECT: ***
+
+> ***GATES 1–4 DETERMINE THE RECORD SURFACE ESSENTIALLY COMPLETELY, AND THEIR TOTAL DIMENSIONFUL
+> CONTENT IS **ZERO** — a group, integers, forms modulo congruence, a class modulo gauge, a ray up to
+> positive scale.***
+
+Gate 4's `C1`/`C2`/`C4` are conditions on **form**; **`C3` is the only constraint carrying a number,
+and that number is a COUNT with both feet inside the record sector.** *** AND V011 PRE-DECLARED THE
+BOUNDARY IN THE SENTENCE RIGHT AFTER `C3`: the dimensionful conversion "remains downstream of the
+independently derived causal record interval." GATE 4 FORCED ELECTROMAGNETISM'S STRUCTURE IN A
+CURRENCY THAT CANNOT PAY FOR GRAVITY'S SCALE. ***
+
+**WHY `TYPE-U` AND NOT `TYPE-R` — five grounds at source, and the decisive one INVERTS the inference:**
+the corpus's sole scale-orbit-breaker is `C_R = 1`, which *"IS, in content, a marginal self-gravitation
+condition, and it IS the corpus's only absolute-scale selector."* *** A CORPUS WHOSE ONLY
+ORBIT-BREAKER IS GRAVITATIONAL DOES NOT **FORBID** A GRAVITATIONAL NORMALIZATION — IT **REQUIRES** ONE
+AND HAS NOT BUILT IT. *** Also: `V011:1726` forbids producing an "excluded by theorem" flag merely from
+the completeness postulate, and **Gate 5 — the gate that would supply a genuine forbidding lemma —
+never ran**, with `finite_curvature_deformation_excluded: false` still live. *** THREE OF FIVE INTERNAL
+ESTABLISHERS VOTED FORBIDS; ALL THREE WERE KNOCKED DOWN BY THEIR OWN ATTACKERS. ***
+
+**ONE `TYPE-R` SURVIVES AND IT NARROWS THE SEARCH:** a gravitational weight posed as a **magnitude on
+the record differential** dies twice — `C2` forces one constant on a connected complex, then `C3`
+drives it to unit modulus. *** WHATEVER CONVERTS INTERNAL TO EXTERNAL IS **NOT A MAGNITUDE ON RECORD
+INCIDENCE.** ***
+
+**4.1 FAILS FROM THE DERIVED SIDE.** The cleanroom ratio is not `alpha`, and the dissolution hope dies
+because the corpus routes the derived route's own last fork through the same object: **the `E_ref` fork
+IS the internal/external cell-geometry ratio, "the first point in the program where the gravity-facing
+geometry becomes load-bearing for the coupling."** *** DISCARDING THE KK IMPORT DOES NOT DISCARD THE
+PROBLEM. *** **And the reviewer's entering hazard was refuted by the lane's own agent:** a dimensionless
+answer *can* carry a gravitational length — `alpha_tree = 4 ell_P^2/R^2` is dimensionless and does.
+
+*** A FIFTH ROOT — AND IT SETTLES THE THESIS QUESTION FROM PRIMARY SOURCE. THE PROGRAM'S OWN GRAVITY
+ARM LIVES IN THE **PARENT OF THE CLEANROOM ROOT**, ~937 FILES, **OUTSIDE EVERY ROOT ANY RELAY HAS EVER
+NAMED.** Both surviving chains declared they could not retire that risk and quoted it second-hand; the
+lane read it directly. ***
+
+```text
+THE PRIMITIVE RECORD-UNIT COUPLING THEOREM types c, hbar and G as
+    *** "THE THREE PRIMITIVE CONVERSION CONSTANTS OF THE ORDINARY BRANCH" ***
+states plainly that it "does not derive a unit-free numerical constant from pure theory"
+names deriving G from record-capacity units as a DEEPER OPEN TASK
+*** AND WHERE G_N GETS AN EQUALS SIGN IT IS A WEIGHTED LEAST-SQUARES ESTIMATOR OVER A FAMILY OF
+    RECORDS, "recovered operationally and emergently." AN ESTIMATOR MEASURES; IT DOES NOT DERIVE. ***
+```
+
+*** THE PREMISE CONFLICT, REPORTED NOT REPAIRED: THE GEOMETRIC ROUTE'S PREMISE — THAT GRAVITY SETS
+ELECTROMAGNETISM'S SCALE — RUNS THE ARROW **OPPOSITE** TO THE PROGRAM'S OWN GRAVITY ARM, WHICH TAKES
+`G` AS **PRIMITIVE** AND PROPOSES TO DERIVE THE DIMENSIONLESS CONSTANTS AS RATIOS **GIVEN** IT.
+**NOTHING IN EITHER ARM ADJUDICATES BETWEEN THEM.** ***
+
+**"THE THESIS IS NOT FALSE AND NOTHING HERE REFUTES IT."** *** AND: "AN ADOPTION IS NOT A PROOF OF
+UNDERIVABILITY." ***
+
+**TWO HAZARDS CARRIED:** *** SIX LIVE SYMBOL COLLISIONS, MOST DANGEROUSLY THAT `g_N` IN
+`cleanroom_output` IS **NOT NEWTON'S CONSTANT** — and it sits inside the ratio formula this program has
+been quoting. *** And the struck overdetermination bar now has **three** live sites in the cross-sector
+spec, none applied.
+
+**Issued as relay 237 (Codex 1) to adjudicate.** *** ITS FIRST INSTRUCTION IS THE CHEAP RESOLUTION:
+"THE ORDINARY BRANCH" MAY **SCOPE** THE PRIMITIVENESS CLAIM. If `G` is primitive on the ordinary branch
+and derivable on the record branch, both statements are true and the conflict dissolves into an
+unstated scope. *** **And it must distinguish what the corpus's language blurs: "recovered operationally
+and emergently" is NOT "derived from record structure."**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
