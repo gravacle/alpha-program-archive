@@ -9361,6 +9361,41 @@ THE SECOND KILL-PASS ALREADY FOUND "AT LEAST TWO INEQUIVALENT DISTINGUISHED CAND
 A TWO-MEMBER INSTANTIATED FAMILY IS THE PROGRAM'S BEST-CASE PROTOCOL TARGET — Q-200-COMPLIANT
 WHERE ALMOST NOTHING ELSE IS. Relay 301 runs it. ***
 
+## Q-219. The scalarization family is a CONTINUUM — and that draws the line the whole day was walking toward: GRAMMAR CAN BE ADOPTED; THE STATE CANNOT.
+
+**Relay 301 (Task 2d, Codex 1).** `STAGE8_TASK2D_SCALARIZATION_FUNCTIONAL_FORCING_PROTOCOL_RESULT_V001.md`,
+`d13920e2a7687ac53a896e70cd0d12168f74fe0f368425179a455a8ae249ae98`, 543 lines. Hash verified,
+fence-clean.
+
+```text
+THE CENSUS: normalization, U1 reality, and the one-cell tensor-unit restriction leave
+*** CONTINUOUSLY MANY inequivalent positive functionals. *** The kill-pass's "at least two
+distinguished" was a floor, not a count. unique_scalarization_forced = false | TYPE-R.
+THE REASON, PRECISE: *** the sealed rho_pre supplies REQUIRED PROPERTIES ONLY -- positive,
+trace-class, Tr = 1 -- NOT a concrete density, carrier map, or common-origin descent. ***
+rho_pre placement: TYPE-U. The U2 state port remains unbuilt.
+```
+
+### The structural conclusion — the day's real finding
+
+*** THE PACKAGE HAS NOW CLEANLY SEPARATED INTO TWO KINDS OF CONTENT:
+
+GRAMMAR   labels, algebra, completion, conventions, skeleton -- ADOPTABLE, twice-attacked,
+          BUILT (C0, U1, the U2 skeleton). Seven premises, honestly counted.
+PHYSICS   the STATE's concrete identity . the DYNAMICS instance . the certified EFFECTS.
+          *** NOT ADOPTABLE. Selecting a state from a CONTINUUM by hand is not an adoption --
+          IT IS A FIT, and it is exactly what the fences exist to prevent. A continuum ask is
+          not an ask. ***
+
+THE ONLY HONEST ROUTES INTO THE PHYSICS CONTENT: derive the COMMON-ORIGIN DESCENT PRESENTATION
+(Q-193's four testable pieces -- origin trace, state/effect/domain properties, dynamics
+compatibility, admissibility) -- OR new sealed physical input. ***
+
+*** AND ONE BLOCKER HAS QUIETLY LIFTED: Q-193's TYPE-C said the descent presentation was
+unbuildable for want of "a completed carrier / common trace." **THE CARRIER NOW EXISTS --
+C0_008 + U1_008.** The descent presentation is buildable-in-principle for the first time.
+Relay 302 begins it. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
