@@ -1,6 +1,8 @@
 # EXECUTION TRACKER — what is actually being done, by whom, right now
 
-**LAST UPDATED 2026-08-01, ~08:00. Register head Q-174. Published at `3d32d31`.**
+**LAST UPDATED 2026-08-01, ~08:30. Register head Q-176. Published at `4429104`.**
+*** THE ROAD IS IN `RESEARCH_PLAN_2026-08-01_V001.md` — TWELVE SEAMS, ONE PROTOCOL, SEVEN
+CHANGE-COURSE TRIGGERS. READ IT FIRST. ***
 
 *** SECTIONS BELOW THE LANE BLOCK ARE HISTORY AND SEVERAL OF THEIR FRAMINGS HAVE SINCE BEEN
 REFRAMED OR REFUTED. THE REGISTER IS THE AUTHORITY. ***
@@ -15,35 +17,67 @@ STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
 
 ---
 
-## LANES RIGHT NOW — 2026-08-01, ~08:00. REGISTER HEAD Q-174. *** ALL THREE LANES LOADED. ***
+## LANE LEDGER — 2026-08-01, ~08:30. *** SENT / NOT SENT, CONFIRMED. ***
 
 ```text
-CODEX 1   266  IS PRPS's SMOOTH PHRASING ITSELF AN IMPORT?  *** PASTED, RUNNING ***
-               Four TARGET-2 builds have failed, each lower than the last, ending at TYPE-S:
-               NOTHING DEFINES THE RECORD-SIDE PATCHES. Before a fifth, ask whether the DEMAND
-               is right. Gate 4 derived a compact gauge field DISCRETELY; PRPS phrases its three
-               premises SMOOTHLY. Is there a discrete conditional Gate 4 already satisfies?
-               *** GUARDED: the sealed refutation stands -- vertex rephasing is NOT smooth frame
-               change, chain transport is NOT patch overlap. A restatement of that is the WRONG
-               ANSWER. ***
-
-CODEX 2   267  THE GATES SELECT. DOES ANYTHING AFTER THEM?  *** PASTED, RUNNING ***
-               The CENSUS. Count instances of "machinery present, selection absent", and HUNT
-               DELIBERATELY for a forced post-gate construction -- finding one refutes the claim
-               and is the most valuable return.
-
-EINSTEIN  268  DOES AUTOMORPHISM FORCING SURVIVE COMPOSITION?  *** LOADED ***
-               The MECHANISM, not the census. Einstein found it itself while refuting Q-174:
-               the witness that survived every self-correction is the star's OWN AUTOMORPHISM
-               GROUP. *** THE DOUBT IS STRONG AND STATED FIRST: the star is symmetric, three
-               interchangeable leaves, and that is what makes "quantify over all functionals,
-               get exactly one ray" work. COMPOSITIONS AND REGULATORS BREAK SYMMETRY. ***
-               Told not to reintroduce the gauge-invariance mechanism it just struck from four
-               of its own chains, and to check whether Gates 1-4 force by ONE mechanism or FOUR.
+RELAY  LANE       QUESTION                                  PASTED?  ARTIFACT?  ->
+266    CODEX 1    is PRPS's smooth phrasing an import?       YES      YES        Q-175
+267    CODEX 2    the Gates select -- anything after?        YES      YES        Q-176
+268    EINSTEIN   does automorphism forcing survive?         YES      *** NO -- RUNNING ***
+269    (none)     do the Gates require?                      *** RETIRED UNSENT -- Q-176 refuted
+                                                             its hypothesis before it ran ***
+270    CODEX 1    what actually requires smoothness?         *** NO -- WRITTEN, SEALED, NOT SENT ***
+271    CODEX 1    run V011's matrix experiment               *** NO -- ON CLIPBOARD, NOT SENT ***
 ```
 
-*** 267 AND 268 ARE DELIBERATELY SPLIT AND EACH IS TOLD THE OTHER EXISTS, TOLD NOT TO COORDINATE, AND
-TOLD NOT TO CITE THE OTHER. TWO LANES AGREEING BECAUSE THEY WERE TOLD TO IS NOTHING. ***
+*** TWO RELAYS ARE WRITTEN AND UNSENT: **270 AND 271**. ONE IS RUNNING: **268**. NOTHING ELSE IS
+OUTSTANDING — EVERY RELAY 258–267 RETURNED, WAS HASH-VERIFIED, FENCE-SCANNED AND REGISTERED. ***
+
+### LANDED SINCE THE LAST RECAP — all hash-verified against stated values, all fence-clean
+
+```text
+262 -> Q-174  the tree/loop split is NOT the allow/require boundary. REFUTED THREE WAYS.
+263 -> Q-171  the nerve route cannot be TESTED -- the cover does not exist
+264 -> Q-173  no derived filled two-cell; the formalism has one, nothing selects it
+265 -> Q-172  five TYPE-S -- nothing defines the record-side patch space
+266 -> Q-175  *** AN INTERNAL DISCRETE RECORD-SIDE CONNECTION **IS DERIVED** ***
+267 -> Q-176  *** "nothing after the Gates selects" REFUTED. T7 forces post-Gate.
+              TWELVE TYPED SEAMS + A REUSABLE FORCING PROTOCOL. ***
+```
+
+### TRIGGERS FIRED THIS SESSION (see RESEARCH_PLAN §5)
+
+```text
+T7  FIRED -- Q-176 refuted the reviewer's pattern claim; relay 269 retired unsent.
+T5  WOULD HAVE FIRED AT TARGET 2 had it existed: four relays (Q-166, Q-167, Q-171, Q-172)
+    before the object narrowed. *** THAT IS THE COST OF NOT HAVING THE RULE. ***
+T6  APPROACHING -- Einstein reported at ~10% weekly credit. At 5%, invert roles:
+    Bohm constructs, CODEX VERIFIES BOHM. DO NOT collapse constructor and verifier.
+```
+
+### DECISIONS OF RECORD MADE TODAY
+
+```text
+DoR 004  *** THE EVALUATION FENCE IS LIFTED FOR V011's COMPOSITION-LOOP MATRIX EXPERIMENT AND
+         NOTHING ELSE. *** Ruled by the principal. Conditional on the pre-registered test
+         protocol: Phi = pi frozen in spec; symbolic authoritative; a SEPARATELY coded
+         100-decimal numerical diagonalization as check; "No result may modify BID."
+         Executed by relay 271 -- WHICH HAS NOT BEEN SENT.
+```
+
+### TWO REVIEWER ERRORS RECORDED TODAY
+
+```text
+1  THE O7 VERDICT WAS CARRIED BACKWARDS into relay 258's brief (Q-169). The subject of
+   DOES_NOT_TRANSFER is O7's OBSTRUCTION, not the pullback. Caught only because the relay
+   ordered the lane to read the refuted mechanism first.
+2  *** "ONE OBJECT IS MISSING" WAS AN UNSUPPORTED GENERALIZATION *** from Q-157's narrow
+   TYPE-R about TWO named blockers. Q-165 -> two. Q-176 -> twelve. Same shape both times:
+   a narrow TYPE-R widened into a claim about the whole program.
+```
+
+*** THE TWELVE SEAMS WERE **NOT** NEW. Three are documented in artifacts dated **23–24 JULY**.
+NONE WAS WRITTEN TODAY. THE PROBLEM DID NOT GROW; THE COUNT WAS NEVER TAKEN. ***
 
 ### THE PATTERN — THREE LANES, THREE UNRELATED QUESTIONS, ONE SHAPE
 
