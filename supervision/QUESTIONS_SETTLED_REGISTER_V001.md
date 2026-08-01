@@ -6737,6 +6737,78 @@ FOR IT. ***
 
 ---
 
+## Q-159. "Is the holonomy tension between Gate 2 and Gate 4 a real contradiction?"
+
+*** RULING: **NO — THE GATES QUANTIFY OVER DIFFERENT OBJECTS, AND EMPTINESS IS A DETERMINATION.** BUT
+THE REAL FINDING IS A SYMBOL COLLISION ON THE CRITICAL PATH. *** Established 2026-08-01 by Einstein
+under relay 245 (`STAGE8_HOLONOMY_FIRST_OPENING_TENSION_ADJUDICATION_EINSTEIN_V001.md`, `8fbdc830...`,
+341 lines, seal verified, fence-clean). *** THE LANE ATTACKED ITS OWN PRIOR FINDING AND FOLDED **FOUR**
+CORRECTIONS AGAINST ITSELF. ***
+
+**THE RESOLUTION.** The two gates quantify over **different objects** — operator families versus
+complexes — *** SO THERE WAS NEVER A CONTRADICTION. *** Gate 4's own spec sentence already contains
+the case split: *"removes edge phases on trees ... residual phases only on loops."* **The tension
+quoted half of it.** And Gate 2 did not land on a tree by accident: **it enumerated loop-bearing
+complexes and outbid them on minimality.** *** EMPTINESS IS A DETERMINATION, MADE ON PURPOSE, IN THE
+PARAGRAPH THAT FORCES THE STAR — carried by the root-incidence clause independently of the ambiguous
+word "loop." *** **The carrier lives one composition later, in a fully specified, mandated, unsealed
+composition-loop object.**
+
+*** THE REAL FINDING — "HOLONOMY" NAMES **FOUR** OBJECTS, AND THEY BEHAVE OPPOSITELY: ***
+
+```text
+GATE 4's GRAPH-CYCLE HOLONOMY     the derived gauge field's "sole physical freedom" --
+                                  NO CARRIER at first opening, and NOTHING CONSUMES IT. *** INERT. ***
+
+THE SEALED V013 QUARTER-TURN      (pi/2) Q_Sigma (x) Y -- PRESENT AND LOAD-BEARING AT FIRST OPENING
+UNIT-FLUX RECORD-CHANGING         (33:26-28, 45:51). Used by GATE 1's FIRST KILLER; consumed by the
+HOLONOMY                          STAGE-10 FLUX PARTITION.
+                                  *** PREMISE LEDGER: "ADOPTED/IMPORTED -- load-bearing for the
+                                  HOLONOMY NORMALIZATION ON WHICH ALPHA DIRECTLY DEPENDS." ***
+                                  physical_public_EM_connection_derived = false | TYPE-C
+```
+
+*** THE DERIVED HOLONOMY IS INERT. THE LOAD-BEARING ONE IS ADOPTED. **THAT IS A DEBT SITTING DIRECTLY
+UNDER ALPHA'S NORMALIZATION**, AND IT IS NOT THE ASYMMETRY THE RELAY SENT THE LANE AFTER. ISSUED AS
+RELAY 253. ***
+
+**FOUR CORRECTIONS THE LANE FOLDED AGAINST ITSELF, ALL VERIFIED AT SOURCE:**
+
+```text
+N7 WAS OVER-TYPED     the index set is EMPTY, so TYPE-S, not TYPE-R -- and by the lane's own rule
+                      that only TYPE-R is physical content, *** IT BOOKED IT AS CONTENT IT DOES NOT
+                      CARRY. ***
+THE NOVELTY CLAIM     "I have not found this stated" REFUTED TWICE: V002 says "the first-opening tree
+                      itself carries no loop holonomy"; a T7 result says "a tree has no physical U(1)
+                      holonomy." *** BOTH IN A ROOT IT HAD ALREADY ENTERED, BOTH ONE GREP AWAY, AND
+                      THE NEGATIVE CARRIED NO SCOPE BLOCK WHILE THE SAME DOCUMENT SCOPED ITS OTHERS. ***
+THE DISCIPLINE LEDGER claimed three TYPE-R entries each on an executed test; there are five, and N7
+                      labels itself "READ, NOT COMPUTED."
+THE HEADLINE          false under the fourth sense of "holonomy."
+"NO FREE PARAMETER"   REFUTED on the relay's own counters -- the ray's positive scale is free and no
+                      clause selects a state. Rigidity is confined to the connection sector AND INERT.
+```
+
+**The arithmetic was exonerated: the reading was right; the typing, the novelty claim and the ledger
+were not.**
+
+**THREE DEFECTS FOUND, NONE REPAIRED — AND ONE CORRECTS THE REVIEWER:**
+
+```text
+*** GATE 4's P2 TREE HALF IS PRINTED AS PASSED AND COVERED BY NO require() -- ASSERTED, NEVER
+EXECUTED -- AND IT IS THE EXACT CLAUSE THE RESOLUTION LEANS ON. ***
+V011 DROPPED the V002 disclaimer that would have prevented this relay (version sweep: V002 only).
+*** THE REVIEWER'S PREMISE "BOTH GATES PASSED" IS IMPRECISE: THE GOVERNING SPEC'S OWN GATE FLAGS ARE
+STILL FALSE. The reviewer repeated that framing all night. ***
+```
+
+**Struck overdetermination bar: seventh report.**
+
+*** THE LANE'S OWN SUMMARY, QUOTED RATHER THAN PARAPHRASED: "Nothing moves on the road. The stake was
+editorial and epistemic, and it's better to say that than to dress a null result as progress." ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
