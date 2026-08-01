@@ -6809,6 +6809,80 @@ editorial and epistemic, and it's better to say that than to dress a null result
 
 ---
 
+## Q-160. "Can the load-bearing quarter-turn holonomy be derived?"
+
+*** RULING: **PARTIAL DERIVATION — AND `pi/2` IS DERIVED, BY TWO INDEPENDENT ROUTES.** THE FIRST TIME
+ANY PART OF A DEBT SITTING **DIRECTLY UNDER ALPHA'S NORMALIZATION** HAS BEEN CONVERTED TO DERIVED. ***
+Established 2026-08-01 by Codex at high effort under relay 253
+(`STAGE8_LOAD_BEARING_HOLONOMY_DERIVABILITY_DETERMINATION_V001.md`, `8eba3542...`, 360 lines, seal
+verified, fence-clean).
+
+```text
+*** DERIVED ***
+  pi/2   from THE ZERO OF THE SURVIVAL AMPLITUDE cos(theta) - i(v_z/|v|) sin(theta)
+         (SOURCE_FLUX_CONDITIONED_RECORD_WRITE_GATE_V003:47-64) -- AND INDEPENDENTLY from the first
+         orthogonalizing character half-turn inside the declared representation
+         (PRIMITIVE_RECORD_ACTION_CHARACTER_BRIDGE_GATE_V002:109-118). *** TWO ROUTES. ***
+         *** IT IS THE FIRST ORTHOGONALITY OF THE **READY RECORD RAY UNDER AN EQUATORIAL TWO-LEVEL
+         TRANSITION.** ***
+  the EQUATORIAL CLASS is FORCED (v_z = 0); Y_R is a representative up to rephasing/orientation
+  the UNIT-FLUX PROJECTOR, within the declared primitive one-source sector
+
+*** STILL ADOPTED OR UNBUILT ***
+  unit winding / charge normalization          ADOPTED / IMPORTED
+  unit flux -> first orthogonal write          EXPLICITLY ADOPTED
+  physical compact connection, complete write operator, phase observability   UNBUILT
+
+quarter_turn_is_arbitrary_free_coefficient = false | TYPE-R
+load_bearing_holonomy_debt_fully_discharged = false | TYPE-C
+full_holonomy_derivation_impossible = NO_VERDICT -- *** NO NO-GO WAS EXECUTED; THE NODE IS NOT
+PATHLESS. ***
+```
+
+*** THE RELAY'S §2.3 LEAD FIRED. IT ASKED: "`pi` WAS DERIVED AS THE FIRST ORTHOGONALITY VALUE OF THE
+TWO-CHARACTER `U(1)` RECORD MAP. A QUARTER TURN IS THE FIRST ORTHOGONALITY OF **SOMETHING**. WHAT?"
+**THE READY RECORD RAY UNDER AN EQUATORIAL TWO-LEVEL TRANSITION. TWICE NOW A QUANTITY THAT LOOKED
+LIKE A STIPULATION HAS TURNED OUT TO BE A FIRST ORTHOGONALITY.** ***
+
+**AND ASKING FOR THE ADOPTION TO BE SPLIT RATHER THAN TREATED AS A LUMP WAS DECISIVE — it split into
+seven items with four different standings.**
+
+**TWO CORRECTIONS:**
+
+```text
+*** holonomy_derivation_attempt_absent = false | TYPE-R *** -- the reviewer wrote that it believed no
+derivation had ever been attempted and would rather be wrong. SEVERAL ATTEMPTS EXIST.
+
+*** unit_winding_status_internally_uniform = false | TYPE-R *** -- AN OLDER ARTIFACT CALLS UNIT
+WINDING **DERIVED**, BUT THAT ARGUMENT **ASSUMES UNPROVED FAITHFULNESS AFTER THE RESPONSE-NULL
+QUOTIENT**. The current least-favorable authority classifies it as adopted/imported. **A STALE
+"DERIVED" CLAIM CAUGHT BEFORE ANYTHING INHERITED IT.**
+```
+
+**THE DISCHARGE ROUTE IS NAMED IN SEALED TEXT AND HAS NEVER BEEN EXECUTED (`:300-316`):**
+
+```text
+1  DERIVE localization of the comparison frame and the physical connection, from the three
+   conditions at PRIMITIVE_RELATIVE_PHASE_STABILIZER_V002.md:98-115        <-- RELAY 254
+2  DERIVE rather than INHERIT the physical current/charge operator and the primitive source sector
+   -- BID_CHARGED_HANDLE_ACTIVATION_DERIVATION_V002.md:104-114 expressly withholds species
+   multiplicity, the connected action, and the response
+3  DERIVE shortest-onset saturation rather than adopt it
+   -- BOUNDARY_RECORD_ONSET_SATURATION_ACTION_GATE_V003.md:97-108
+4  CONSTRUCT the complete flux-conditioned source-record operator and decide `chi`
+   -- SOURCE_FLUX_CONDITIONED_RECORD_WRITE_GATE_V003.md:140-144 names exactly that next gate
+
+RELEASE: ONE COMPLETE PHYSICAL DERIVATION JOINING CONNECTION, CHARGE SECTOR, ONSET RULE, WRITE
+         OPERATOR, AND RESPONSE.
+```
+
+**Steps 2-4 need the connection; step 1 is first for that reason, not by preference. Issued as relay
+254 with the standing trap named:** *** A CONNECTION THAT **INHERITS** THE COMPARISON FRAME RATHER
+THAN LOCALIZING IT MOVES THE ADOPTION AND DOES NOT DISCHARGE IT — WHICH IS WHAT HAS HAPPENED TO EVERY
+CANDIDATE IN THIS PROGRAM SO FAR. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
