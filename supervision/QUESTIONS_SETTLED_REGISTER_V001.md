@@ -6189,6 +6189,89 @@ FORCED RATHER THAN FITTED. ORDER OF OPERATIONS, NOT ANYONE'S FAULT. ***
 
 ---
 
+## Q-146. "Can the admitted-family census be built?"
+
+*** RULING: PARTLY — CANDIDATE FORMS NOW EXIST WHERE NOTHING DID, BUT THE TWO DECIDING ITEMS REMAIN
+OPEN, AND ONE NOW HAS A NAMED TARGET. *** Established 2026-08-01 by Codex lane 2 under relay 239
+(`STAGE8_ADMITTED_FAMILY_CENSUS_BUILD_V001.md`, `db966e2b…`, 76 lines, seal verified, fence-clean, no
+`= true`).
+
+```text
+higher_derivative_response_changing_bound = NO_VERDICT | TYPE-U
+      *** WOULD-BUILD: A PRE-ROOT EQUIVALENCE THEOREM ***
+finite_causal_update_closed   = false      | TYPE-U    no closure proof, no cardinality
+admitted_family_census_frozen = false      | TYPE-C
+manifest_completeness         = NO_VERDICT | TYPE-U
+```
+
+**Class 1: a derivative-order schema and leading candidate forms specified — no response-changing
+bound.** **Class 2: candidate finite update schemas written — no closure proof.** **Class 3: candidate
+record-curvature and dissipative operators written; *** CURVATURE HELD OUT BY **ADOPTION**, DISSIPATION
+BY THE **UNITARY PREMISE**, NEITHER BY DERIVATION. ***** Controls `S_0`, `S_1` re-derived and hold.
+
+*** THE BOUND IS THE WHOLE CENSUS QUESTION, AND IT NOW HAS A NAME: **A PRE-ROOT EQUIVALENCE THEOREM.**
+WITHOUT IT §5.3 CANNOT QUANTIFY OVER AN INFINITE CLASS NO MATTER HOW MANY MEMBERS ARE WRITTEN. ***
+
+**REVIEWER NOTE ON LANE CAPACITY.** *** THIS LANE IS RUNNING AT **LOW REASONING EFFORT**
+(`gpt-5.6-luna low`). A PRE-ROOT EQUIVALENCE THEOREM IS A GENUINE MATHEMATICAL OBJECT, NOT A SWEEP.
+**A `NO_VERDICT` FROM AN UNDER-POWERED LANE IS THE EASIEST WAY TO ACCIDENTALLY CONVERT `TYPE-U`
+(UNBUILT) INTO `TYPE-R` (IMPOSSIBLE).** THE THEOREM SHOULD GO TO A HIGHER-EFFORT LANE. ***
+
+---
+
+## Q-147. "Is the census complete?"
+
+*** RULING: **NO — AN OMITTED MEMBER SCHEMA EXISTS, AND IT IS ON THE AXIS THE CENSUS NEVER COVERED.**
+THE CENSUS CANNOT FREEZE AS STRUCTURED. *** Established 2026-08-01 by Codex lane 1 under relay 240
+(`STAGE8_SECTION53_ADVERSARIAL_OMITTED_MEMBER_COUNTERMODEL_V001.md`, `9faa88e8…`, 404 lines, seal
+verified, fence-clean). *** BUILT **BLIND** — the lane never saw the census. ***
+
+```text
+omitted_member_schema_found                      = true
+state_effect_branch_structurally_response_facing = true
+concrete_omitted_member_built                    = false | TYPE-U   (a SCHEMA, not a member)
+state_effect_branch_unique_selector_found        = false | TYPE-S
+```
+
+*** `CTP_PRESTATE_EFFECT_BRANCH_MUTATION` — A CONSTRUCTIBLE **NON-ACTION-FORM** SCHEMA ON THE **P5
+STATE/EFFECT/DOMAIN AXIS**: `rho_pre`, ADMITTED RECORD EFFECTS, AND DOMAINS. ***
+
+**THE PREDICTION FIRED.** The relay pointed the lane at exactly this: the envelope is typed along
+scalar, discrete, operator/action-form, algebraic, admissibility and categorical axes — **and all five
+census slots were action-form shaped.** *** THE HOLE WAS WHERE THE HYPOTHESIS SAID, AND IT WAS FOUND BY
+A LANE THAT COULD NOT SEE THE CENSUS. THE BLIND-INDEPENDENCE CONFIGURATION EARNED ITS COST ON ITS FIRST
+RUN. ***
+
+**THREE THINGS MAKE IT CREDIBLE RATHER THAN CONVENIENT:**
+
+```text
+TYPED HONESTLY      concrete_omitted_member_built = false | TYPE-U. A SCHEMA, CONSTRUCTIBLE, NOT
+                    BUILT. The lane did not inflate a possibility into a refutation -- the failure
+                    mode the relay warned against in the opposite direction.
+ARGUED STRUCTURALLY :262 -- changing the P5 state/effect/domain package changes the functional being
+                    evaluated. Response-changing as a TYPE claim, not a computed difference.
+                    THE FENCE HELD AND THE POINT WAS STILL MADE.
+CORROBORATED        :275 -- cleanroom_output independently records the same non-action-form freedom.
+```
+
+*** AND P5 IS PRECISELY WHERE THE PROGRAM ALREADY KNEW ITS HARDNESS WAS. Q-81: "THE HARDNESS SITS IN
+P5 AND P6" — requiring `rho_pre` and the effects to be **supplied by the same source as the dynamics**.
+**THE CENSUS WAS BUILT WITHOUT COVERING THE AXIS THE PROGRAM'S OWN HARDEST OPEN PROBLEM LIVES ON.** ***
+
+**`state_effect_branch_unique_selector_found = false | TYPE-S`: no uniqueness derivation and no
+exclusion theorem for P5 exists.** So the census must **cover the axis** or **derive an upstream
+exclusion**. **Issued as relay 241 (Codex 1).**
+
+*** ITS FIRST INSTRUCTION IS THE CHEAP CHECK, WITH A TRAP NAMED: THE COMMON-ORIGIN REQUIREMENT MAY
+**BE** THE UPSTREAM EXCLUSION — BUT **P0 IS UNBUILT**, AND AN EXCLUSION CONDITIONAL ON AN UNBUILT
+OBJECT IS `TYPE-C`, NOT A DISCHARGE. **A CENSUS FROZEN ON IT WOULD BE FROZEN ON A PROMISE.** ***
+
+**AND THIS OUTRANKS RELAY 238's RESULT WHATEVER IT IS.** *** A SELECTOR THAT CLOSED WOULD NOW BE
+CERTIFIED AGAINST A FAMILY KNOWN TO BE INCOMPLETE — AND THAT CERTIFICATION WOULD HAVE LOOKED LIKE A
+PASS. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
