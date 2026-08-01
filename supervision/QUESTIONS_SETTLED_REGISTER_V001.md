@@ -8933,6 +8933,38 @@ TO THE FINITE SOURCE-RECORD STRUCTURE.** This is also recognizably the morning's
 field component is not an algebraic tensor factor"). NOT claimed as an identity — recorded as the
 observed convergence, with Q-201's own would-build list as the build spec. ***
 
+## Q-203. The field/CTP carrier CANNOT be instantiated from the sealed stack — a named principal adoption is the immediate route.
+
+**Relay 285 (Task 2b, Codex 1).** `STAGE8_FIELD_CTP_CARRIER_AND_C0_JOIN_INSTANTIATION_ATTEMPT_V001.md`,
+`e916f15742805a9f79f9386133c3a9662201e6363f739bddc682fbebb402ba37`, 507 lines. Hash verified,
+fence-clean.
+
+```text
+all five build items: TYPE-U -- carrier/join . generators/relations . joint representation .
+common dense domain . branch embeddings/source maps. Q-201's source-record instance INTACT;
+nothing new instantiated; C0 and d_C0 remain unbuilt.
+
+*** THE COMPACT CONNECTION IS ADOPTED CONTENT ALREADY -- but its ALGEBRA, REPRESENTATION, CTP
+COMPLETION, AND JOIN RELATION ARE UNSPECIFIED. The gap is not the field's existence; it is that
+the field has never been given an algebraic HOME. ***
+
+IMMEDIATE ROUTE: a frozen  FIELD_CTP_ALGEBRAIC_PRESENTATION_ADOPTION  with ELEVEN fields
+(label space, connection generator class, star/relations, completion, CTP completion, join
+relation, representation class, domain rule, branch embeddings, source maps, provenance scope).
+
+THE PRICE, THE ARTIFACT'S OWN LIST:
+1  C0 becomes *** TYPE-P *** -- conditional on the adoption, NOT derived
+2  a merely LISTED presentation still fails Q-200 -- every field must be an INSTANTIATED object
+   with certificates
+3  the adoption does NOT by itself prove d_C0's common-origin provenance
+4  it CANNOT include state/dynamics/quotient/measure/effects/contacts/Ward/U1 -- C0's interface
+5  it does NOT discharge DoR 007's stitching theorem (Task 4d)
+```
+
+*** THE NEW TYPING EARNS ITS KEEP ON ITS SECOND DAY OF EXISTENCE: A C0 BUILT THIS WAY IS HONESTLY
+`TYPE-P`, VISIBLY CONDITIONAL, INSTEAD OF A QUIET IMPORT. THE DECISION GOES TO THE PRINCIPAL AS THE
+PLAN PROVIDES. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
