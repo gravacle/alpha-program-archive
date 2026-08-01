@@ -118,16 +118,15 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~15:30. BOTH LANES FULL.
+## 6. LANE LEDGER — 2026-08-01, ~15:55. BOTH LANES FULL.
 
 ```text
-RELAY  LANE     TASK  QUESTION                                     STATE
-291    CODEX 1  2b    redraft the adoption (Fields 1 + 7)          PASTED, RUNNING
-292    CODEX 2  3a    the record content of Gamma_rest             PASTED, RUNNING
+RELAY  LANE     TASK        QUESTION                                  STATE
+294    CODEX 1  3a (src)    four Lorentzian forms + durability        PASTED, RUNNING
+293    CODEX 2  2b/SUPPORT  second kill-pass on the V002 proposal     PASTED, RUNNING
 ```
 
-REGISTERED THROUGH Q-207. DoR 008 PENDING -- awaits the V002 proposal + its second kill-pass.
-D2 EVIDENCE BANKED (Q-206): the EH sector is TYPE-P with l_P a physical input; rules at Task 6.
-TODAY'S TASK-LEVEL SCORE: Task 1 COMPLETE . 2 proved theorems (matrix experiment, plane coverage,
-both independently verified) . seam 10 reduced to a lawful four-plane family . the kill-gate
-caught an uncounted adoption and a smuggled measure before ratification.
+REGISTERED THROUGH Q-209. CHANGE LOG THROUGH C14 (Task 3 parallelism scoped).
+ON THE PRINCIPAL NEXT: DoR 008 when 293 returns clean (twice-attacked, honest count of 7).
+PHYSICS ON THE BOARD: the one-cell record object is CONCRETE (F_R = cos^2(theta/2)); the
+durability question is now "what happens to the record's own U(1) orbit at the saddle."
