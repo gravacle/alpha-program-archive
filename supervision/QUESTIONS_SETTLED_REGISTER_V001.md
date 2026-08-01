@@ -9066,6 +9066,36 @@ matter content need BOTH the field home AND the metric sector. *** THE METRIC SE
 FUTURE NEED, AND IT IS D2's REAL CONTENT. ***
 ```
 
+## Q-207. DO NOT RATIFY INTACT — the kill-pass caught a HIDDEN EIGHTH ADOPTION and a SMUGGLED MEASURE.
+
+**Relay 289 (SUPPORT, Codex 2, attacking Codex 1's draft).**
+`STAGE8_FIELD_CTP_ADOPTION_PROPOSAL_ADVERSARIAL_KILL_DETERMINATION_V001.md`,
+`bc06fa98789f79cffafbf57b1c565ee3d6a525f116cfcf492ab5c6e81adb9b18`, 492 lines. Hash verified,
+fence-clean.
+
+```text
+*** BLOCKER 1 — THE HIDDEN EIGHTH ADOPTION (predicted by attack item 2): Field 1's direct-limit
+labels assume an UNINSTANTIATED REFINEMENT-INDEX/PATH FUNCTOR not supplied by Q-201. FAILS Q-200.
+minimum_disclosed_choice_count_after_field1_audit = 8, not 7. ***
+
+*** BLOCKER 2 — THE SMUGGLED IMPORT (predicted by attack item 3): Field 7's left-regular
+representation CANONICALLY SUPPLIES A TRACE AND HAAR/GNS MEASURE STRUCTURE — refuting the
+proposal's no-state/no-measure claim. C0's exclusion list VIOLATED. ***
+
+proposal_survives_intact / ready_for_ratification / count_is_seven / eleven_instantiated /
+certificates_complete / exclusion_passed  — ALL false | TYPE-R.
+
+WHAT PASSED, AND IT MATTERS FOR THE REPAIR: no rho_pre, dynamics, quotient, effects/contacts/
+Ward/response, or U1 import (ALL TYPE-S) . no Task 4-6 output preformed . both identity traps
+respected . the four claimed consequences SURVIVE CONDITIONALLY.
+
+FIELD_CTP_PRESENTATION_RATIFIED = false | TYPE-C — ratification correctly blocked.
+```
+
+*** THE PROCESS WORKED EXACTLY AS DESIGNED: DRAFTER AND KILLER WERE DIFFERENT LANES, THE PASS RAN
+BEFORE RATIFICATION, AND BOTH FINDS WERE THE NAMED FAILURE MODES. DoR 008 STAYS PENDING; THE
+REDRAFT REPAIRS TWO FIELDS AND RETURNS THROUGH THE SAME GATE. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
