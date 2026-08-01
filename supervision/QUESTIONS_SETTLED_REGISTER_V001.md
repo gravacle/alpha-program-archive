@@ -8171,6 +8171,73 @@ full lineage enumeration, and whether any artifact re-derives `alpha = 1/(4 pi K
 SURROGATE `K`. **THAT LAST QUESTION IS UNTOUCHED BY THIS FINDING AND REMAINS THE SHARPEST ONE ON THE
 BOARD.** ***
 
+## Q-185. The live `C_record` is an ABSTRACT OUTPUT TYPE. No authority appoints an executable formula — and the two rival forms are PROPORTIONAL.
+
+**Relay 276 (Codex 1).** `STAGE8_C_RECORD_LIVE_DEFINITION_CURRENCY_AUDIT_V001.md`,
+`885265bbce9f2999a4369d25ba4fb9cf3be3a3e59d48d763d0e6238fefce3b51`, 425 lines. Hash verified,
+fence-clean.
+
+```text
+*** THE ONLY LIVE C_record(K) IS THE ABSTRACT OUTPUT TYPE: "the scalar closure residual derived from
+the complete on-shell Gamma_K/BR stationary problem." NO AUTHORITY THROUGH Q-184 APPOINTS A UNIQUE
+EXECUTABLE FORMULA. ***
+
+*** CORRECTS Q-181: on their common stationary branch,  C_phase(K) = pi * C_mass(K)  ***
+   -- so the phase and mass-ratio forms have THE SAME ZERO AND THE SAME SIMPLICITY CONDITION there.
+   THE "TWO DIFFERENT TARGETS, AT MOST ONE CAN BE ALPHA'S" FEAR IS RESOLVED.
+   The mass-ratio route nevertheless remains RETIRED_SUPERSEDED; the proportionality does NOT
+   revive it and does NOT appoint the phase form.
+
+95-CONSUMER AUDIT:  16 files carry a recognized explicit form . *** 79 USE ONLY THE NAME OR THE
+ABSTRACT CONTRACT. *** tuple superseded . v003 C_EM superseded . active v004 C_EM is a SEPARATE
+prospective response residual.
+```
+
+*** **GAP IN THE RETURN, FLAGGED BY THE REVIEWER:** relay 276 §1b (which `K` is live; does anything
+re-derive the formula for it; is there a sealed surrogate map; does v001 carry a DIFFERENT alpha
+formula) **WAS NOT ANSWERED.** One passing mention at `:166`. **THE LANE DELIVERED ONE OF TWO
+REQUIRED LINES.** ***
+
+---
+
+## Q-186. The `K` scare RESOLVES: `alpha = 1/(4 pi K)` is a NORMALIZATION IDENTITY, and the surrogate occupies the same slot.
+
+**Done by Bohm directly, 2026-08-01**, after relay 276 left §1b unanswered.
+*** REVIEWER-CONSTRUCTED — **REQUIRES CODEX VERIFICATION** under the standing rule. ***
+
+**`alpha_complete_dimension_convention_ledger_v003.md:200-209` — the formula is a CONVENTION, not an
+underived law:**
+
+```text
+e_HL^2 = 1/K ,  e_G = e_HL/sqrt(4 pi) ,  alpha_micro = e_HL^2/(4 pi) = e_G^2 = 1/(4 pi K)
+*** "This is a normalization identity only. IT DOES NOT SELECT K." ***
+```
+
+**And `primitive_record_cell_selection_principle_v004.md:8` and `:125-133`:**
+
+> *"Version 002 placed a local Maxwell term with coefficient `K` inside the microscopic action. The
+> active branch instead has **ZERO BARE MAXWELL STIFFNESS**. Here `K` labels a local surrogate for an
+> exact **INDUCED** connection response; it is not a microscopic input."*
+> `H_R[G_K] = K L_T + declared higher/nonlocal structures`, `L_T` the **uniquely normalized transverse
+> Maxwell kernel**.
+
+*** SO THE SURROGATE `K` IS THE COEFFICIENT OF THE TRANSVERSE MAXWELL KERNEL IN THE **INDUCED**
+RETARDED ACTION-HESSIAN — **THE SAME NORMALIZATION SLOT** THE IDENTITY IS WRITTEN FOR. THE DIFFERENCE
+IS BARE VERSUS INDUCED, NOT A DIFFERENT ROLE. **THE IDENTITY THEREFORE TRANSFERS WITHOUT
+RE-DERIVATION, AND THE REVIEWER'S "THE DEFINING EQUATION MAY BELONG TO A SUPERSEDED OBJECT" ALARM IS
+WITHDRAWN.** ***
+
+**And the replacement is the stronger position, not the weaker one:** *** ZERO BARE MAXWELL STIFFNESS
+MEANS THE MAXWELL TERM IS NOT ASSUMED — IT IS **INDUCED**. THAT IS THE PROGRAM WORKING AS ADVERTISED.
+***
+
+*** WHAT DOES **NOT** RESOLVE: "It does not select `K`." THE IDENTITY GIVES ALPHA **FROM** `K` AND
+SAYS NOTHING ABOUT WHICH `K` IS PHYSICAL. **THAT IS THE ELEVEN-FALSE-FLAG PROBLEM OF Q-184, NOT A
+FORMULA PROBLEM.** ***
+
+**Reviewer standing:** eight collapse/pattern proposals, six refuted, one half right. *** THIS IS A
+NINTH REVIEWER CLAIM AND IT IS NOT VERIFIED. IT MUST BE ATTACKED BEFORE ANYTHING RESTS ON IT. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
