@@ -7452,6 +7452,78 @@ hypothesis list — is unaffected.
 NAMED. IT IS NOT A TASK; IT IS A PROPERTY OF THE CORPUS THAT ANY FUTURE SEAL-BASED ARGUMENT MUST
 ACCOUNT FOR. ***
 
+## Q-171. The nerve route is not refuted — it CANNOT BE TESTED. The corpus does not define a PRPS cover.
+
+**Asked:** relay 263 (Codex 1, high effort). **Answered:**
+`STAGE8_PRPS_COVER_NERVE_K13_REALIZATION_TEST_V001.md`,
+`ff7be3e92fd8311e828c5e3d50e643e3ff23ebdfe8b8802c499a15ad42e47979`, 403 lines. Hash verified;
+fence-clean.
+
+```text
+K13_PRPS_NERVE_REALIZATION_PROVED   = false | TYPE-U
+K13_PRPS_NERVE_REALIZATION_REFUTED  = false | NO_VERDICT
+PRPS_GOOD_COVER_PROVED              = false | TYPE-U
+ROOT_LEAF_ASSIGNMENT_FORCED_BY_PRPS = false | TYPE-U
+ORIENTATION_FROM_PRPS_NERVE_DERIVED = false | TYPE-U
+
+TARGET_2_STATUS = BLOCKED_BY_TYPE_U_PRPS_GOOD_STAR_COVER_REALIZATION
+```
+
+*** THE RELAY WAS DESIGNED TO KILL THE NERVE ROUTE CHEAPLY IF IT COULD. **IT DID NOT KILL IT — IT
+FOUND THE ROUTE CANNOT BE TESTED AT ALL**, BECAUSE *"the corpus does not define an actual PRPS cover
+whose nerve can be checked against `K_1,3`."* `NO_VERDICT` ON REFUTATION IS THE CORRECT TYPING AND THE
+LANE USED IT. ***
+
+### The descent — three consecutive failures, each BELOW the last
+
+```text
+Q-166  THE BRIDGE       does not build; the standard correspondence DOES NOT TRANSFER
+Q-167  THE FUNCTOR      a map per chosen cover; all five independence checks TYPE-U;
+                        "functor" is ASPIRATIONAL -- no categories, no morphism preservation
+Q-171  THE REALIZATION  *** cannot be tested; THE COVER DOES NOT EXIST ***
+```
+
+*** PRPS DEMANDS, AS A PREMISE, THAT *"comparison data must be transported between overlapping
+patches."* **IT NEVER SAYS WHAT THE PATCHES ARE.** ***
+
+### The conditional chain from relay 263 §3 HOLDS — only its antecedent is missing
+
+```text
+K13_STAR_PATTERN_SATISFIABLE_BY_SOME_COVER = true | IMPORTED_GENERAL_TOPOLOGY
+if_good_PRPS_cover_has_nerve_K13_then_domain_contractible = true
+contractible_domain_would_remove_topological_bundle_class = true
+```
+
+*** SO THE CONSEQUENCE THE REVIEWER POSED IS REAL: **a good PRPS cover with nerve `K_1,3` WOULD make
+the endpoint-comparison domain contractible and WOULD remove the topological bundle class.** THE
+IMPLICATION IS ESTABLISHED. THE ANTECEDENT IS NOT. *** And satisfiability by *some* cover is
+explicitly `IMPORTED_GENERAL_TOPOLOGY` — which is why it proves nothing here.
+
+### What the reviewer checked at source afterwards, and it is the same gap one level up
+
+**`LOCAL_PROJECTIVE_RECORD_BUNDLE_V001.md` — the corpus's smooth record-side machinery — has every
+piece except the one:**
+
+```text
+:22     "On a LOCAL PATCH U_i, choose a normalized lift"     *** U_i IS ASSUMED, NOT DEFINED ***
+:26-30  z_j = g_ij z_i, g_ij = exp(i theta_ij) in U(1)       transition functions PRESENT
+:32-36  g_ij g_jk g_ki = 1                                   triple-overlap cocycle PRESENT
+:38-42  "therefore define a complex line bundle, equivalently a principal U(1) comparison bundle"
+```
+
+*** IT BUILDS THE BUNDLE **FROM** THE PATCHES AND NEVER BUILDS THE PATCHES. ***
+
+**And the same artifact places one primitive record degree *"on every ADMISSIBLE CAUSAL RECORD CELL"*
+— which raises a typing question the program has never asked:** *** IF THE UNDERLYING SET IS THE SET
+OF RECORD CELLS, IT IS **DISCRETE**, AND "LOCAL PATCH", "OVERLAP", "SMOOTH FRAME CHANGE" AND
+"REFINEMENT" DO NOT MEAN WHAT THE SMOOTH-SIDE PREMISES NEED. **THAT WOULD MAKE ONE SIDE OF THE BRIDGE
+ILL-TYPED RATHER THAN MERELY UNPROVED — AND IT WOULD EXPLAIN ALL THREE FAILURES WITH ONE FACT.** ***
+**Reviewer hypothesis, NOT a finding. A discrete index set can carry a topology or a limit
+construction, and the corpus may supply one.**
+
+**Issued on this basis:** relay 265 — does anything in this corpus **define the patches**? — to
+Codex 1. It distinguishes USES of `U_i` from DEFINITIONS of `U_i` and requires both to be counted.
+
 ---
 
 ## HOW TO USE THIS REGISTER
