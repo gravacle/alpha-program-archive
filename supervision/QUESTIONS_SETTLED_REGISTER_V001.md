@@ -7826,6 +7826,69 @@ falsifies. **RUNNING IT WOULD HAVE BEEN WASTE, AND RETIRING IT IS THE HONEST ACT
 right, one still running.** *** THE SEVENTH DIED THE WAY IT SHOULD HAVE — BY A LANE TOLD TO HUNT ITS
 COUNTEREXAMPLE. ***
 
+## Q-177. The mandated matrix experiment IS RUN. `R_square = 3/16`, exactly — and three independent computations agree.
+
+**Asked:** relay 271 (Codex 1, high effort), under `DECISION_OF_RECORD_004`. **Answered:**
+`STAGE8_V011_COMPOSITION_LOOP_MATRIX_EXPERIMENT_RESULT_V001.md`,
+`29fcbb76748cec8ecbaa8f9debb1e60736c85dbcf54823cb8076c3f17d6e3ffb`, 357 lines. Artifact AND sidecar
+hashes both verified. **In scope: no fenced quantity set, no measured-constant comparison.**
+
+*** THIS IS THE FIRST QUANTITY THIS PROGRAM HAS EVER EVALUATED. IT WAS MANDATED AT `V011:1790` FOR
+CORE-RESULT-SEAL, FULLY SPECIFIED, PRE-REGISTERED AT `Phi = pi`, AND **HAD NEVER BEEN RUN** — BLOCKED
+BY A REVIEWER FENCE UNTIL THE PRINCIPAL LIFTED IT FOR THIS ITEM ALONE. ***
+
+### The outputs, at the spec's frozen `Phi = pi`
+
+```text
+p_pi(z) = z^8 - 8 z^6 + 20 z^4 - 16 z^2 + 4  =  *** (z^4 - 4 z^2 + 2)^2 ***
+
+eigenvalues   -sqrt(2+sqrt2), -sqrt(2-sqrt2), +sqrt(2-sqrt2), +sqrt(2+sqrt2)
+              *** EACH WITH MULTIPLICITY 2 ***
+kernel multiplicity   0
+Tr[B^2] = 16      Tr[B^4] = 48      *** R_square = 3/16 ***
+```
+
+### *** THREE INDEPENDENT COMPUTATIONS AGREE ***
+
+```text
+1  the lane's SYMBOLIC result -- authoritative per the spec
+2  the lane's SEPARATELY CODED 100-DECIMAL JACOBI DIAGONALIZATION -- the spec's mandated check
+3  *** THE REVIEWER'S OWN INDEPENDENT NUMPY DIAGONALIZATION, RUN AT VERIFICATION TIME ***
+   Hermitian: true. Eigenvalues, both traces, the kernel multiplicity and the characteristic
+   polynomial all reproduced exactly. (z^4-4z^2+2)^2 expanded matches coefficient by coefficient.
+```
+
+**And the free internal consistency check the relay demanded came back clean:** `spectrum_real = true`,
+`spectrum_symmetric_about_zero = true` — *** the `+/-` pairing a bipartite block structure predicts.
+A VIOLATION WOULD HAVE MEANT THE CONSTRUCTION WAS WRONG SOMEWHERE. IT DID NOT VIOLATE. ***
+
+### *** R_square IS EXACTLY RATIONAL — REGISTERED AS A STRUCTURAL FACT ONLY ***
+
+`Tr[B^4]/Tr[B^2]^2 = 48/256 = 3/16`. **A dimensionless ratio, exactly rational, with no approximation
+anywhere in its derivation.** *** A STANDING REVIEWER OBSERVATION HOLDS THAT **IF** A RECORD-SIDE
+QUANTITY IS EXACTLY RATIONAL, IRRATIONALITY DOWNSTREAM WOULD HAVE TO ENTER FROM ELSEWHERE. **THAT
+OBSERVATION IS ABOUT A DIFFERENT QUANTITY AND NOTHING HERE CONNECTS THE TWO. NO COMPARISON IS MADE,
+NO CONSEQUENCE IS DRAWN, AND NONE MAY BE DRAWN FROM THIS ENTRY.** ***
+
+### What it discharges — and the three things it does NOT
+
+```text
+DISCHARGES  V011_composition_loop_matrix_experiment_computed = true
+            The mandated experiment is EXECUTED. It was TYPE-C -- constraint-blocked by a relay
+            fence -- and is now run.
+```
+
+*** IT DOES **NOT** SEAL THE PREDICTION. IT DOES **NOT** FORCE `K_square`. IT DOES **NOT** TOUCH
+ALPHA. *** The lane stated all three itself, unprompted, and the sealed standing is unchanged:
+`K_square_protocol_mandated = true`, `structure_derived = true`,
+`evaluating_the_spectrum_changes_neither = true`. **`V011_carrier_selection_derived_from_composition =
+false | TYPE-R` STANDS.**
+
+**And the spec's own two declarations travel with the result, as relay 271 required:** *"This is a new
+forward mathematical consequence, **not an empirical holdout**"* and *"It remains **target-aware**
+because the broader program knows its desired structures."* *** THIS IS A CORRECTNESS RESULT, NOT A
+CONFIRMATION. A32 IS UNTOUCHED. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
