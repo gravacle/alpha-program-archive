@@ -7708,6 +7708,49 @@ report.
 tree can carry a require and wrong about why.** *** THE FORCING ON THE TREE IS **AUTOMORPHIC**, NOT
 GAUGE-CLASS UNIQUENESS. The reviewer's mechanism is struck along with the principal's. ***
 
+## Q-175. A record-side connection IS DERIVED — and four TARGET-2 builds were chasing the wrong object.
+
+**Asked:** relay 266 (Codex 1, high effort). **Answered:**
+`STAGE8_PRPS_SMOOTH_PHRASING_IMPORT_ADJUDICATION_V001.md`,
+`e09349f5b71a790b40700669227268e7a4615750c9d03d164daa373bb40af3df`, 354 lines. Artifact AND sidecar
+hashes both verified; fence-clean.
+
+```text
+DISCRETE_GATE4_CONNECTION_CONDITIONAL_EXISTS   = true
+GATE4_SATISFIES_DISCRETE_CONNECTION_CONDITIONAL = true
+*** INTERNAL_RECORD_SIDE_CONNECTION_DERIVED = true | DISCRETE_GATE4_SCOPE ***
+
+SMOOTH_PRPS_CONNECTION_DERIVED_FROM_RECORD_STRUCTURE = false | TYPE-U
+DISCRETE_CONNECTION_DELIVERS_PRPS_SMOOTH_CONNECTION  = false | TYPE-R
+```
+
+*** THE MIDDLE OUTCOME THE RELAY NAMED AS MOST LIKELY AND MOST USEFUL: **A DISCRETE CONDITIONAL EXISTS
+AND GATE 4 SATISFIES IT — BUT IT DELIVERS A WEAKER OBJECT THAN PRPS's SMOOTH `D = d - i a`.** ***
+
+### The consequence, and it rescopes a build target
+
+**In the lane's own words: *"Four Target-2 failures were chasing the [wrong object]."*** *** TARGET 2
+IS **NOT** THE ROUTE TO DERIVE "ANY CONNECTION AT ALL." **GATE 4 ALREADY GIVES THE INTERNAL DISCRETE
+RECORD-SIDE CONNECTION, AND IT IS DERIVED.** TARGET 2 IS THE **SMOOTH-UPGRADE ROAD**, NEEDED ONLY IF
+THE PROGRAM WANTS THE PRPS SMOOTH CONNECTION OR THE PHYSICAL PUBLIC EM CONNECTION. ***
+
+**The guard held.** The relay forbade re-running the sealed refutation that vertex rephasing is not
+smooth frame change and chain transport is not patch overlap. *** THE LANE DID NOT RE-RUN IT. IT FOUND
+A **DIFFERENT** CONDITIONAL WITH ITS OWN DISCRETE PREMISES, WHICH IS EXACTLY WHAT WAS ASKED, AND THEN
+TYPED THE GAP TO PRPS's CONCLUSION AS `TYPE-R` RATHER THAN PAPERING OVER IT. ***
+
+### Standing after this
+
+```text
+DERIVED     an internal discrete record-side connection, at Gate-4 scope
+NOT DERIVED the smooth PRPS connection                                    TYPE-U
+REFUTED     that the discrete one delivers the smooth one                 TYPE-R
+```
+
+*** SO THE FOUR TARGET-2 FAILURES (Q-166, Q-167, Q-171, Q-172) ARE **NOT** FAILURES TO GET A
+CONNECTION. THEY ARE FAILURES TO GET A **SMOOTH** ONE, AND THE PROGRAM NOW HAS TO DECIDE WHETHER IT
+NEEDS THE SMOOTH ONE AT ALL. **THAT IS A PRINCIPAL'S QUESTION AND IT IS ON THE BOARD.** ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
