@@ -118,16 +118,16 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~19:00.
+## 6. LANE LEDGER — 2026-08-01, ~19:40.
 
 ```text
-RELAY  LANE     TASK  QUESTION                                            STATE
-303    CODEX 1  2d    does alpha consume the state's IDENTITY, or only    PASTED, RUNNING
-                      its constrained PROPERTIES?  (tests OBS-14)
---     CODEX 2  --    held for 303 -- everything routes on its verdict
+RELAY  LANE     TASK  QUESTION                                        STATE
+304    CODEX 2  2d    the response-state factorization test           PASTED, RUNNING
+                      (OBS-14's referee; asymmetry pre-registered)
+--     CODEX 1  --    held on 304's verdict
 ```
 
-REGISTERED THROUGH Q-220. CHANGE LOG THROUGH C17. OBS-14 PRE-REGISTERED before its test.
-THE FORK 303 DECIDES: properties-only -> the continuum is gauge-like, the "absent physics"
-dissolves, Task 2d unblocks for the target chain. identity-consumer found -> the new-physics ask,
-named exactly, goes to the principal. NOTHING ON THE PRINCIPAL until it returns.
+REGISTERED THROUGH Q-221 (+ fence note). CHANGE LOG THROUGH C17. OBS-14 pre-registered.
+THE FORK: operators DIFFER -> OBS-14 dies, the new-physics ask localizes and goes to the
+principal. EQUAL -> supporting-only, typed as such; the physical-package question remains.
+NOTHING ON THE PRINCIPAL until it returns.
