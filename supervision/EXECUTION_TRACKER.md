@@ -118,14 +118,14 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~14:30.
+## 6. LANE LEDGER — 2026-08-01, ~14:50.
 
 ```text
-RELAY  LANE     TASK  QUESTION                                  STATE
-287    CODEX 1  2b    draft the field/CTP adoption PROPOSAL     PASTED, RUNNING
-288    CODEX 2  3d    the plane-coverage theorem                PASTED, RUNNING
+RELAY  LANE     TASK        QUESTION                                STATE
+289    CODEX 2  2b/SUPPORT  kill the adoption proposal              PASTED, RUNNING
+--     CODEX 1  --          idle BY SEQUENCING -- everything funnels through DoR 008
 ```
 
-REGISTERED THROUGH Q-204, all verified. NOTHING OUTSTANDING.
-ON THE PRINCIPAL NEXT: DoR 008 (ratify/reject the adoption) when 287 returns.
-SEAM 10 STATE: laws INFINITE (Q-204, verified); planes conjectured <= 4; 288 decides.
+REGISTERED THROUGH Q-205, all verified (incl. the plane-coverage theorem, 49/49 independent check).
+ON THE PRINCIPAL NEXT: DoR 008 -- ratify/reject/repair the seven-adoption package when 289 returns.
+SEAM 10: four planes, proved. Step 3 resumes after DoR 008 supplies the physical sector typing.
