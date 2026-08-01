@@ -205,7 +205,8 @@ TASK 2  BUILD THE SPACE (CTP_PHYS_INPUT_PACKAGE)          STATE: b -- source/rec
 
 TASK 3  BUILD THE FUNCTIONAL (the action side)            STATE: c STOPPED AT STEP 1 (Q-202) --
         blocked on Task 2's field/CTP sector; a, b, d open
-        a. closure action (seam 11)      b. gravity + matter summands
+        a. closure action (seam 11)      b. gravity + matter CONTENT of Gamma_rest (Q-206:
+           the four-summand decomposition was historical; rows 17-18 corrected)
         c. multiplier c (seam 4)         d. coupling-ray degeneracy (seam 10)
         runs ALONGSIDE Task 2
 

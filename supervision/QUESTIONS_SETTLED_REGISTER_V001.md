@@ -9035,6 +9035,37 @@ independently verified).** THE OBJECT WAS ALWAYS THE PLANE. Task 3d resumes at p
 a lawful family of four — the first time in this program a selection step is LEGAL by its own rules.
 ***
 
+## Q-206. The four-summand decomposition is HISTORICAL VOCABULARY — and the gravity sector's standing is finally quoted: TYPE-P, with `l_P` a PHYSICAL INPUT.
+
+**Relay 290 (Task 3b, Codex 1).** `STAGE8_GRAVITY_MATTER_SOURCE_SUMMANDS_LIVE_V004_STANDING_V001.md`,
+`58208084e8da8d9d7dd7c048d917363be1c00e5a9b5870ce1c6409083c23a72c`, 482 lines. Hash verified,
+fence-clean.
+
+```text
+*** THE LEAD CHECK FIRED: v004 CHANGES THE DECOMPOSITION. *** The four names -- S_EH[g],
+S_gravity,boundary[g], the Dirac sum, Gamma_record[X] -- are HISTORICAL SOURCE VOCABULARY. Active
+v004 carries the UNDECOMPOSED zero-bare target:
+   Gamma_2PI = (i hbar/2) Tr_C log G^(-1) + Gamma_rest[..., source, record, g, gauge, edge]
+*** CENSUS ROWS 17-18 WERE FRAMED FROM THE SUPERSEDED READING AND ARE CORRECTED (C13): they now
+name the GRAVITY and MATTER CONTENT OF Gamma_rest, not sealed summands. ***
+
+STANDINGS, QUOTED AT LAST (D2's evidence, banked for Task 6):
+  GRAVITY   active EH + Dirichlet boundary action: *** TYPE-P, WITH l_P TAKEN AS A PHYSICAL
+            INPUT. NOT RECORD-DERIVED. *** mixed gravitational domain TYPE-U.
+  MATTER    one-particle source ontology TYPE-P; public spin quotient derived WITHIN that premise;
+            complete Dirac operator, Phi_BR, common CTP domain, renormalization all TYPE-U.
+  RECORD    a one-cell Euclidean fidelity candidate EXISTS; *** NO SEALED MAP identifies it with
+            complete Gamma_record[X] ***; the Lorentzian/CTP record summand TYPE-U.
+
+INTERACTION: separability NOT sealed.
+  gravity_matter_record_interaction_is_only_via_stationarity = NO_VERDICT
+  no explicit cross-term found; NONE EXCLUDED inside the unbuilt record functional.
+
+AND: the pending field adoption (DoR 008) CANNOT supply the METRIC sector -- the gravity and
+matter content need BOTH the field home AND the metric sector. *** THE METRIC SECTOR IS A SEPARATE
+FUTURE NEED, AND IT IS D2's REAL CONTENT. ***
+```
+
 ---
 
 ## HOW TO USE THIS REGISTER
