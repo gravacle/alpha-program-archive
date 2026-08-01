@@ -188,41 +188,41 @@ P7 vs CTP_PHYS_INPUT_PACKAGE -- UNDECLARED, and it decides acyclicity (Q-196). *
 
 ---
 
-## 9. *** THE TASK PACKAGES — EVERY RELAY NAMES ONE. WORK OUTSIDE THEM DOES NOT SHIP. ***
+## 9. *** THE TASK PACKAGES — EVERY RELAY NAMES ONE (TASK 1 .. TASK 8). WORK OUTSIDE THEM DOES NOT SHIP. ***
 
 ```text
-T-A  RESOLVE -- the five blocking decisions. PRINCIPAL'S, not lanes'.
+TASK 1  RESOLVE -- the five blocking decisions. PRINCIPAL'S, not lanes'.
      D1 P7 identity (RECOMMENDED RULING PENDING: P7 consumes P1-P6,P8 only) . D2 the EH summand in
      Gamma_K . D3 leading-order acceptability . D4 the TYPE-P typing repair . D5 the smooth fork
      (send relay 270 first).                                              STATE: 0 of 5 ruled.
 
-T-B  THE PACKAGE -- build CTP_PHYS_INPUT_PACKAGE. THE FRONT-LINE CONSTRUCTION.
-     T-B1 C0 carrier/algebra presentation + d_C0     T-B2 U1 conventions + d_U1
-     T-B3 U2 dynamics/state/effects + d_U2  *** CONTAINS rho_pre; FED BY T-C ***
-     T-B4 U3 quotient/measure/boundary + d_U3
+TASK 2  THE PACKAGE -- build CTP_PHYS_INPUT_PACKAGE. THE FRONT-LINE CONSTRUCTION.
+     TASK 2.1 C0 carrier/algebra presentation + d_C0     TASK 2.2 U1 conventions + d_U1
+     TASK 2.3 U2 dynamics/state/effects + d_U2  *** CONTAINS rho_pre; FED BY TASK 3 ***
+     TASK 2.4 U3 quotient/measure/boundary + d_U3
      Bar: frozen trace . certificates . NO POST-OUTPUT SUPPLEMENTATION.   STATE: 0 of 4 started.
-     *** BLOCKED-BY: D1 (build order). NOT blocked for T-C. ***
+     *** BLOCKED-BY: D1 (build order). NOT blocked for TASK 3. ***
 
-T-C  P5 BY EXCLUSION -- the forcing protocol on the P5 family. The one named shortcut.
-     Feeds T-B3. Falls back to the descent-presentation build if the family cannot be frozen.
+TASK 3  P5 BY EXCLUSION -- the forcing protocol on the P5 family. The one named shortcut.
+     Feeds TASK 2.3. Falls back to the descent-presentation build if the family cannot be frozen.
                                               STATE: RELAY 282 LOADED (Codex 1).
 
-T-D  ACTION-SIDE CO-INPUTS -- built ALONGSIDE T-B, not after it.
+TASK 4  ACTION-SIDE CO-INPUTS -- built ALONGSIDE TASK 2, not after it.
      seam 11 closure action . rows 17-18 gravity/matter summands . seam 4's c (RELAY 272 HELD) .
      seam 10's coupling ray (8 unselected grading laws).                  STATE: 0 started.
 
-T-E  EVALUATION CHAIN -- *** BLOCKED UNTIL T-B DELIVERS. DO NOT START. ***
+TASK 5  EVALUATION CHAIN -- *** BLOCKED UNTIL TASK 2 DELIVERS. DO NOT START. ***
      instantiate seam 9's map on the package -> induced CTP operator -> projections -> B_ind ->
      the fixed point K = B_ind(K) + R_comp = 0 + full stationarity.
 
-T-F  AUTHORIZATION -- *** RUNS LAST. GATES A ROOT; PRODUCES NOTHING. ***
+TASK 6  AUTHORIZATION -- *** RUNS LAST. GATES A ROOT; PRODUCES NOTHING. ***
      seam 8's exhaustive admitted-family audit . v004's six checks (Ward, Gauss, Einstein,
      causality, positivity, limits) . tower: close a route OR invoke D3.
 
-T-G  MACHINERY REPAIR -- pending D4. Retire the 16 non-protective fences . scope the evaluation
+TASK 7  MACHINERY REPAIR -- pending D4. Retire the 16 non-protective fences . scope the evaluation
      fences . implement TYPE-P. *** NOTHING TOUCHING A32 OR THE MEASURED-CONSTANT BAN. ***
 
-T-H  VERIFICATION DEBT -- Codex kill-passes on unverified reviewer claims: the Q-189/190 chain
+TASK 8  VERIFICATION DEBT -- Codex kill-passes on unverified reviewer claims: the Q-189/190 chain
      residue, Q-193, Q-196's escape reading. Bohm scorecard: 10 proposals, 6 refuted.
 ```
 
@@ -236,7 +236,7 @@ T-H  VERIFICATION DEBT -- Codex kill-passes on unverified reviewer claims: the Q
 2026-08-01  C2  Fable review: relays 270/272 + smooth fork restored (sec 4b).  SURFACED: yes
 2026-08-01  C3  Fable review: the two "roots" reconciled (rho_pre = U2's pre-state).
                                                                                SURFACED: yes
-2026-08-01  C4  Governance ruling adopted; task packages T-A..T-H added; this log created.
+2026-08-01  C4  Governance ruling adopted; task packages TASK 1-8 added; this log created.
                                                                                SURFACED: this message
 ```
 
