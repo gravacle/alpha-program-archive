@@ -188,32 +188,41 @@ P7 vs CTP_PHYS_INPUT_PACKAGE -- UNDECLARED, and it decides acyclicity (Q-196). *
 
 ---
 
-## 9. THE ROUTE — ONE FLAT LIST, IN ORDER. ITEM 19 COMPUTES ALPHA.
+## 9. THE PLAN — SIX TASKS. TASK 6 COMPUTES ALPHA. STEPS LIVE INSIDE THEIR TASK.
 
 ```text
- 1  Rule D1, the P7 identity                      fixes the build order        PENDING (principal)
- 2  Send relay 270; rule the smooth fork          may delete items of work     RELAY WRITTEN
- 3  Rule D4, the typing repair                    keeps the record honest      PENDING (principal)
- 4  P5-family exclusion theorem                   shortcut into item 7         RELAY 282 IN FLIGHT
- 5  Build C0 + d_C0                               carrier/algebra              NOT STARTED
- 6  Build U1 + d_U1                               conventions                  NOT STARTED
- 7  Build U2 + d_U2                               dynamics/state/effects; rho_pre lives here
- 8  Build U3 + d_U3                               quotient/measure/boundary    NOT STARTED
- 9  Certify the package                           frozen trace, no post-output supplementation
-10  Build the closure action (seam 11)            alongside 5-9                NOT STARTED
-11  Build the gravity + matter summands           alongside 5-9                NOT STARTED
-12  Force the multiplier c (seam 4)               relay 272 WRITTEN, HELD
-13  Break the coupling-ray degeneracy (seam 10)   8 unselected grading laws    NOT STARTED
-14  Instantiate the response map on the space     the algebra is already fixed BLOCKED ON 9
-15  Derive the induced CTP operator + projection                               BLOCKED ON 14
-16  Compute B_ind(K)                                                           BLOCKED ON 15
-17  Solve K = B_ind(K) + full residual -> K_*                                  BLOCKED ON 16
-18  Run the six checks + the no-other-root audit  rule D2 and D3 here          BLOCKED ON 17
-19  COMPUTE  alpha = 1/(4 pi K_*)                 ships with declared adoptions BLOCKED ON 18
+TASK 1  CLEAR THE PATH                                    STATE: OPEN -- D1 pending (principal)
+        a. rule D1 (P7 identity; fixes Task 2's build order)
+        b. send relay 270; rule the smooth fork
+        c. rule D4 (typing repair)
+
+TASK 2  BUILD THE SPACE (CTP_PHYS_INPUT_PACKAGE)          STATE: IN FLIGHT -- relay 282 (step a)
+        a. P5-family exclusion theorem -- the shortcut into U2
+        b. C0 + d_C0     c. U1 + d_U1     d. U2 + d_U2 (rho_pre lives here)     e. U3 + d_U3
+        f. certify: frozen trace, no post-output supplementation
+
+TASK 3  BUILD THE FUNCTIONAL (the action side)            STATE: relay 272 written, held
+        a. closure action (seam 11)      b. gravity + matter summands
+        c. multiplier c (seam 4)         d. coupling-ray degeneracy (seam 10)
+        runs ALONGSIDE Task 2
+
+TASK 4  DERIVE THE RESPONSE                               STATE: BLOCKED ON 2 + 3
+        a. instantiate the (already-fixed) response map on the space
+        b. induced CTP operator + covariant projection    c. B_ind(K)
+
+TASK 5  SOLVE                                             STATE: BLOCKED ON 4
+        K = B_ind(K) with R_comp = 0 and full stationarity -> K_*
+
+TASK 6  AUTHORIZE AND COMPUTE ALPHA                       STATE: BLOCKED ON 5
+        a. the six checks (Ward, Gauss, Einstein, causality, positivity, limits)
+        b. dC/dK != 0, K_* > 0, seam 8's no-other-root audit    c. rule D2, D3
+        d. COMPUTE alpha = 1/(4 pi K_*)
 ```
 
-Support (off the route, serves it): machinery repair pending D4; Codex verification of reviewer
-claims; custody per LOCKED_PROCESS.md.
+Support, off the plan: machinery repair (pending D4) . Codex verification of reviewer claims .
+custody per LOCKED_PROCESS.md.
+
+*** RECAP RULE (principal, 2026-08-01): RECAP THIS PLAN, WITH STATES, EVERY TIME A TASK COMPLETES. ***
 
 ## 10. CHANGE LOG — *** EVERY PLAN CHANGE LANDS HERE FIRST AND IS SURFACED TO THE PRINCIPAL. ***
 
