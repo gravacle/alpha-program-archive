@@ -188,60 +188,32 @@ P7 vs CTP_PHYS_INPUT_PACKAGE -- UNDECLARED, and it decides acyclicity (Q-196). *
 
 ---
 
-## 9. THE ROUTE — SIX TASKS, EACH HANDS ITS OUTPUT TO THE NEXT. THE LAST ONE COMPUTES ALPHA.
-
-*** RULED BY THE PRINCIPAL 2026-08-01: "The goal of the plan is to move from here to compute alpha."
-THE TASKS ARE THE ROUTE, NOT WORK CATEGORIES. EVERY RELAY NAMES ITS TASK. ***
+## 9. THE ROUTE — ONE FLAT LIST, IN ORDER. ITEM 19 COMPUTES ALPHA.
 
 ```text
-TASK 1  CLEAR THE PATH                                              STATE: D1 RULING PENDING
-        Rule D1 (P7 identity -- fixes the build order for Task 2).
-        Send relay 270 -> rule D5 (may DELETE seams 1 and 3 from the route entirely).
-        Rule D4 (typing repair -- keeps the record honest for everything after).
-        D2 and D3 are DECLARATIONS THAT TRAVEL WITH THE NUMBER; rule them by Task 6.
-        HANDS TO TASK 2: a fixed build order and a pruned route.
-
-TASK 2  BUILD THE SPACE -- CTP_PHYS_INPUT_PACKAGE                   STATE: 2.3 IN FLIGHT (relay 282)
-        2.1 C0 carrier/algebra + d_C0        2.2 U1 conventions + d_U1
-        2.3 U2 dynamics/state/effects + d_U2   *** contains rho_pre. THE P5-FAMILY EXCLUSION
-            THEOREM (relay 282) IS THE SHORTCUT INTO THIS SUBTASK; fallback is the
-            descent-presentation build. ***
-        2.4 U3 quotient/measure/boundary + d_U3
-        BAR: frozen trace . four descent maps . certificates . NO POST-OUTPUT SUPPLEMENTATION.
-        HANDS TO TASK 4: the named gauge-fixed physical space.
-
-TASK 3  BUILD THE FUNCTIONAL -- Gamma_record,matter,gravity          STATE: relay 272 HELD (the c
-        seam 11 closure action . rows 17-18 gravity/matter summands .        multiplier)
-        seam 4's multiplier c . seam 10's coupling ray (8 unselected grading laws).
-        *** RUNS ALONGSIDE TASK 2 -- co-inputs, not consequences (Q-176). ***
-        HANDS TO TASK 4: a writable Gamma_2PI decomposition on Task 2's space.
-
-TASK 4  DERIVE THE RESPONSE                                          STATE: BLOCKED ON 2 AND 3
-        Instantiate seam 9's ALREADY-FIXED algebra on the space -> complete induced CTP operator
-        -> unique covariant local projection -> *** B_ind(K) ***.
-        HANDS TO TASK 5: absolute_B_ind, computable.
-
-TASK 5  SOLVE                                                        STATE: BLOCKED ON 4
-        The fixed point *** K = B_ind(K) *** with R_comp = 0 and source/metric/Gauss/
-        record-effect/interval/boundary stationarity -> *** K_* ***.
-        HANDS TO TASK 6: the candidate root.
-
-TASK 6  AUTHORIZE AND COMPUTE ALPHA                                  STATE: BLOCKED ON 5
-        v004's six pre-root checks (Ward, Gauss, Einstein, causality, positivity, limits) .
-        dC/dK != 0 at K_*, K_* > 0 . seam 8's exhaustive no-other-root audit .
-        THEN:  *** alpha = 1/(4 pi K_*) *** -- shipped WITH its declared adoptions: the formula
-        itself is adopted (Q-140 N11), and LEADING-ORDER-ONLY unless a tower route closed (D3).
+ 1  Rule D1, the P7 identity                      fixes the build order        PENDING (principal)
+ 2  Send relay 270; rule the smooth fork          may delete items of work     RELAY WRITTEN
+ 3  Rule D4, the typing repair                    keeps the record honest      PENDING (principal)
+ 4  P5-family exclusion theorem                   shortcut into item 7         RELAY 282 IN FLIGHT
+ 5  Build C0 + d_C0                               carrier/algebra              NOT STARTED
+ 6  Build U1 + d_U1                               conventions                  NOT STARTED
+ 7  Build U2 + d_U2                               dynamics/state/effects; rho_pre lives here
+ 8  Build U3 + d_U3                               quotient/measure/boundary    NOT STARTED
+ 9  Certify the package                           frozen trace, no post-output supplementation
+10  Build the closure action (seam 11)            alongside 5-9                NOT STARTED
+11  Build the gravity + matter summands           alongside 5-9                NOT STARTED
+12  Force the multiplier c (seam 4)               relay 272 WRITTEN, HELD
+13  Break the coupling-ray degeneracy (seam 10)   8 unselected grading laws    NOT STARTED
+14  Instantiate the response map on the space     the algebra is already fixed BLOCKED ON 9
+15  Derive the induced CTP operator + projection                               BLOCKED ON 14
+16  Compute B_ind(K)                                                           BLOCKED ON 15
+17  Solve K = B_ind(K) + full residual -> K_*                                  BLOCKED ON 16
+18  Run the six checks + the no-other-root audit  rule D2 and D3 here          BLOCKED ON 17
+19  COMPUTE  alpha = 1/(4 pi K_*)                 ships with declared adoptions BLOCKED ON 18
 ```
 
-### SUPPORT FUNCTIONS — SERVE THE ROUTE, ARE NOT ON IT
-
-```text
-MACHINERY REPAIR   pending D4: retire the 16 non-protective fences, scope evaluation fences,
-                   TYPE-P. Nothing touching A32 or the measured-constant ban.
-VERIFICATION DEBT  Codex kill-passes on unverified reviewer claims (Q-189/190/193/196 residue).
-                   Bohm scorecard: 10 proposals, 6 refuted -- this function exists for a reason.
-CUSTODY            the reviewer's four steps (LOCKED_PROCESS.md). Lanes seal, mirror, report, stop.
-```
+Support (off the route, serves it): machinery repair pending D4; Codex verification of reviewer
+claims; custody per LOCKED_PROCESS.md.
 
 ## 10. CHANGE LOG — *** EVERY PLAN CHANGE LANDS HERE FIRST AND IS SURFACED TO THE PRINCIPAL. ***
 
