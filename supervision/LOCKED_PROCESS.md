@@ -29,6 +29,21 @@ CODEX 1 . CODEX 2 . BOHM   -- all three CONSTRUCT.
 Q-91's separation of constructor and verifier does not lapse because a lane was retired. ***
 ```
 
+## PREFLIGHT — THREE LINES, BEFORE ANY RELAY SHIPS
+
+```text
+DOES THE OBJECT EXIST?   IS THE VERSION CURRENT?   ARE ITS INPUTS PRESENT?
+*** IF ANY ANSWER IS NO, **THAT** IS THE RELAY. ***
+```
+
+*** ADDED 2026-08-01 AFTER FOUR RELAYS ON TARGET 2 (259, 261, 263, 265) EACH RETURNED "THE THING
+UNDERNEATH YOU DOES NOT EXIST." THE FOURTH QUESTION SHOULD HAVE BEEN THE FIRST. AND THE WHOLE
+RESEARCH PLAN WAS BUILT ON A `Gamma_K` FORMULA TWO LANES LATER FOUND SUPERSEDED. ***
+
+**AND: the reviewer tests his own hypotheses BEFORE they become relays.** Eight collapse proposals,
+six refuted. Seam 10 cost a full lane cycle to refute what a three-second computation would have
+killed. *** LANES ARE FOR WHAT THE REVIEWER CANNOT DO IN MINUTES. ***
+
 ## THE THREE THINGS IN A RELAY THAT PROTECT THE RESULT
 
 *** THESE EARNED THEIR KEEP. NOTHING ELSE IN A RELAY DID. ***
