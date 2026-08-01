@@ -6657,6 +6657,86 @@ LOAD-BEARING REPLACEMENT CLAUSE.** THE JUDGEMENT WAS WRONG. ***
 
 ---
 
+## Q-157. "Is P5 internal or external?"
+
+*** RULING: **IT STRADDLES — AND COMMON ORIGIN IS **THE SECTOR-CROSSING REQUIREMENT ITSELF**. ONE
+BLOCKER, NOT TWO.** *** Established 2026-08-01 by Codex under relay 250
+(`STAGE8_P5_SECTOR_ASSIGNMENT_V001.md`, `898cd5f4...`, 579 lines, seal verified, fence-clean).
+
+```text
+P5a  rho_pre                 STRADDLING_EXTERNAL_CTP_STATE
+P5b  admitted record effects STRADDLING_RECORD_FACING_ON_COMPLETED_OBJECT
+P5c  domains                 STRADDLING_COMMON_DOMAIN_AND_EXTERNAL_PHYSICAL_DOMAIN
+
+*** P5_common_origin_is_sector_crossing_requirement = true ***
+P5_internal_only                          = false | TYPE-R
+P5_external_whole                         = false | TYPE-R
+*** P5_external_sector_two_independent_blockers = false | TYPE-R ***
+
+build_order_next_target = COMMON_ORIGIN_SOURCE_RECORD_FIELD_CTP_PRODUCER_WITH_P5_PORT
+```
+
+*** THE STRADDLE HYPOTHESIS FIRED. Relay 250 §2.3 proposed it and said "test it, do not assume it": if
+the state sits on one side of the boundary and the source on the other, **common origin IS a
+sector-crossing requirement.** IT IS. ***
+
+**AND IT EXPLAINS THE WHOLE NIGHT IN ONE LINE — NOTHING IN THIS CORPUS CROSSES SECTORS:**
+
+```text
+ROUTES 1 & 4   internal machinery could not reach the external tower -- they were attempting a
+               crossing with no crossing object
+THE SELECTOR   the functional is forced (internal); its ARGUMENT is free (straddling)
+THE CENSUS     incomplete on exactly the P5 axis -- the axis that crosses
+COMMON ORIGIN  permanently TYPE-C -- because it asks for a crossing nothing supplies
+```
+
+**Each component assigned separately, as the relay required — and the parts do differ.**
+
+---
+
+## Q-158. "What does P5 need from the source?"
+
+*** RULING: **LESS THAN FULL DETERMINATION.** P5 DOES NOT REQUIRE THE DESCENT MAP TO IDENTIFY A UNIQUE
+MICROSCOPIC ORIGIN. *** Established 2026-08-01 by Codex at high effort under relay 251
+(`STAGE8_P5_COMMON_ORIGIN_DESCENT_REQUIREMENT_V001.md`, `a33be83c...`, 230 lines, seal verified,
+fence-clean).
+
+**THE REQUIRED PROPERTY — a P5 COMMON-ORIGIN DESCENT PRESENTATION:**
+
+```text
+executable descent maps producing rho_pre, effects, domains, AND dynamics
+ONE SHARED MICROSCOPIC CONSTRUCTION TRACE
+positivity, normalization, completeness and domain-compatibility certificates
+covariance, causality and dynamics compatibility
+a target-independent admissibility manifest
+```
+
+*** DISTINCT SOURCES MAY SATISFY P5 **IF THEY DESCEND TO ISOMORPHIC CERTIFIED PACKAGES.** ***
+
+**BUT THE BAR IS NOT LOWERED CARELESSLY:** *** CO-LOCATION OR A BARE EXISTENCE CLAIM IS **INSUFFICIENT**
+— THE DESCENT AND PROVENANCE MUST BE **EXPLICIT**. *** **No existing derived object supplies the
+complete presentation**; the corpus types or consumes individual components and none provides all
+descent maps and certificates.
+
+**HONEST LIMIT, AND THE LANE KEPT IT:** the logical dependency is weaker; **the construction dependency
+is not resolved.** `P5_weaker_interface_buildable_without_full_origin_now = NO_VERDICT`. *** LOGICALLY
+WEAKER IS NOT THE SAME AS BUILDABLE NOW. ***
+
+*** THIRD INDEPENDENT FINDING THAT THE HARD OBJECT ADMITS A SUBSTITUTE, ACROSS THREE LANES AND THREE
+QUESTIONS: ***
+
+```text
+Q-151  the tower needs a RESPONSE-COMPLETE FINITE PRESENTATION -- weaker than full origin (TYPE-R x2)
+Q-156  sector-reach requires "B0 provenance OR THE COMPLETE B0-REPLACEMENT PROVENANCE"
+Q-158  P5 needs a DESCENT PRESENTATION, not a unique origin
+```
+
+*** `B0` — UNDETERMINED BY SIX INDEPENDENT ROUTES — IS NOT WHAT THIS PROGRAM NEEDS. IT NEEDS **DESCENT
+PRESENTATIONS WITH EXPLICIT PROVENANCE.** THAT IS A DIFFERENT OBJECT, AND NO SEARCH HAS EVER BEEN RUN
+FOR IT. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
