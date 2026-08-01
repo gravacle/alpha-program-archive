@@ -5856,6 +5856,91 @@ parent-normalization/frame law is required."*
 
 ---
 
+## Q-139. "Is `kappa_5` or `ell_P` fundamental?"
+
+*** RULING: NOTHING IN THE CORPUS FORCES EITHER. `held_fixed_branch_derived = false | TYPE-U`. AND THE
+PROGRAM HAS BEEN RUNNING ON THE NON-STANDARD BRANCH, SILENTLY. *** Established 2026-07-31 by Codex lane
+1 under relay 232 (`STAGE8_KAPPA5_ELL_P_FUNDAMENTAL_FORK_DETERMINATION_V001.md`, `71569dc8…`, 381 lines,
+seal verified, fence-clean).
+
+```text
+kappa5_fixed_branch_standard_import          = true | TYPE-C
+ell_P_fixed_branch_adopted_by_reduced_route  = true | TYPE-C   *** THE LIVE ROUTE, SILENTLY ***
+beta2_obstruction_under_ell_P_fixed          = true | TYPE-C
+held_fixed_branch_derived                    = false | TYPE-U
+```
+
+**The standard KK reading makes `kappa_5` upstream and defines `ell_P` from it plus fiber extent** —
+but the lane was careful: *"that is an explicit **imported parent model**, not a **derived record-cell
+law**."* **The record cell's internal direction does not settle it either.**
+
+*** ON THE `kappa_5`-FIXED BRANCH: `K_KK -> beta^3 K_KK` (`:213`, `:318`), AND THE SEALED "changing
+`K_KK` by `beta^2`" *"becomes branch-conditional and **FALSE ON THIS BRANCH**"* (`:226`). ***
+
+*** SO `phi = ln(R/ell_P)`, `rho = R_*/ell_P`, AND THE RADION SCREENS ARE ALL BRANCH-CONDITIONAL —
+**INCLUDING Q-130's IDENTIFICATION THAT THE `beta`-DEGENERACY IS A MASSLESS RADION'S SHIFT SYMMETRY.**
+THAT RESULT IS REAL AND IT IS CONDITIONAL ON A BRANCH NOBODY HAS DERIVED. *** `:36` — *"the diagnosis
+is branch-conditional, not sealed branch-free structure."*
+
+**The lane did not take the branch that preserves `beta^2`** — the trap the relay named in its own
+section. **It reported the branch that breaks it.**
+
+---
+
+## Q-140. "Can the inside/outside consistency condition close `beta`?"
+
+*** RULING: OBS-10 STEP 6 IS **REFUTED**. STEP 5 SURVIVES AS AN UNDEFEATED **INFERENCE**, NOT A SEALED
+FACT. AND A REAL CONDITION FELL OUT ANYWAY — IN THE WRONG VARIABLE FROM THE ONE THE RELAY ASKED FOR. ***
+Established 2026-07-31 by Einstein under relay 230
+(`STAGE8_INSIDE_OUTSIDE_CONSISTENCY_CONDITION_EINSTEIN_V001.md`, `15793db5…`, 263 lines, seal verified,
+fence-clean, its only `= true` explicitly marked hypothetical). **Thirteen typed negatives.**
+
+*** THE REFUTATION OF STEP 6: THE CONDITION MAY NOT BE WRITTEN AS `alpha_threshold =
+alpha_geometric`. *** The threshold route ends in `alpha_micro = 1/(4 pi K_*)`; the Thomson-facing route
+in `alpha(0) = 1/(4 pi kappa_Thomson)`; and **V011 states their equality *"is not assumed. It must
+follow from the complete amplitude or fail,"* with its falsifier list firing on that equality being
+assumed.** *** AN ALPHA-EQUALITY CONDITION IS NOT A CONDITION ON `beta` — IT IS **AN ADOPTION OF THE
+KAPPA IDENTIFICATION WEARING A CONDITION'S CLOTHING.** THE REVIEWER'S IDEA WOULD HAVE SMUGGLED IN THE
+ONE IDENTIFICATION THE PROGRAM FORBIDS. ***
+
+**THE GENUINE RESULT, UPHELD BY BOTH ATTACKERS (`:109-111`):**
+
+```text
+K_* = K_KK   ->   rho^2 = 16 pi K_*        *** THE rho-FORM: FORK-FREE ***
+```
+
+*** AND THE REVIEWER ASKED FOR THE WRONG VARIABLE (`:188`): "the `rho`-form is fork-free. The relay
+asked for the `beta`-form, which is the one that imports the fork." THE FRAMING IMPORTED THE `sqrt(2)`
+UNNECESSARILY. ***
+
+**IT DOES NOT CLOSE.** Three unknowns against two equations, **plus three independently sufficient
+obstructions**: the held-fixed branch is undetermined so the outside's weight is branch-indexed (`beta^2`
+vs `beta^3`); `k_R` sits unbridged inside the equation fixing `K_*`; **both matching maps are unbuilt.**
+*"It touches both geometries and leaves a family — the retired boundary-access failure mode, named not
+escaped."* *** THE LANE CONVICTED ITS OWN CONDITION ON PARAMETER COUNT. ***
+
+**THE MISSING THIRD RELATION IS NAMED:** a second dimensionless ratio, ***`ell_P/(c Delta tau)`, that
+nothing in the corpus derives*** (`:43`, `:209`).
+
+**TWO CORRECTIONS THAT CHANGE WHAT WE THOUGHT WE HAD:**
+
+```text
+N11  *** alpha_micro = 1/(4 pi K_*) IS ITSELF **ADOPTED**. *** The threshold route's headline
+     formula -- at the top of every task list written today -- is not derived.
+
+     THE INSIDE IS NOT CLEANLY DIMENSIONLESS. DeltaPhi is, but K_* is fixed by an equation
+     carrying the A_4 log: *** "A LOGARITHM NEEDS A REFERENCE SCALE." *** A scale-side quantity
+     sits inside the threshold route after all.
+```
+
+**ON OBS-10's STEP 5, AND THE REVIEWER'S ERROR:** the response-layer audit does **not** defeat it —
+*"the trap is a name,"* since that audit's "Route A" was the **Thomson `E_ref` matching layer, not the
+Kaluza-Klein route**, which it never mentions. **But nothing affirms step 5 at route level either**, and
+the step-1 artifact posts its own limit: *** "the same-object ground was NOT EXTENDED TO THE FIBER." ***
+**The reviewer extended it in OBS-10 step 5. That goes further than the lane that built it.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
