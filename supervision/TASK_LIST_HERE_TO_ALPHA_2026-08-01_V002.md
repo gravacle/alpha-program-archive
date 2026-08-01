@@ -208,7 +208,8 @@ TASK 3  BUILD THE FUNCTIONAL (the action side)            STATE: c STOPPED AT ST
         a. closure action (seam 11)      b. gravity + matter CONTENT of Gamma_rest (Q-206:
            the four-summand decomposition was historical; rows 17-18 corrected)
         c. multiplier c (seam 4)         d. coupling-ray degeneracy (seam 10)
-        runs ALONGSIDE Task 2
+        *** ALONGSIDE-TASK-2 SCOPED (Q-209/C14): SOURCE-LEVEL work only; the complete CTP record
+        build queues behind Task 2 + three walls (completion, continuation, embedding) ***
 
 TASK 4  DERIVE THE RESPONSE                               STATE: BLOCKED ON 2 + 3
         a. instantiate the (already-fixed) response map on the space

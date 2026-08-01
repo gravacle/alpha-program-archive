@@ -9115,6 +9115,49 @@ STATUS             PROPOSED_NOT_ADOPTED -- the drafter itself states the second 
                    is still required. DoR 008 REMAINS PENDING.
 ```
 
+## Q-209. The record content needs THREE walls, not two — and the one-cell object is finally CONCRETE.
+
+**Relay 292 (Task 3a, Codex 2).** `STAGE8_TASK3A_GAMMA_REST_RECORD_CONTENT_AT_SOURCE_DETERMINATION_V001.md`,
+`6847351304e54c0bba9054c43679884bae8079d5e61bf7635a321d273b28fd99`, 564 lines. Hash verified,
+fence-clean.
+
+```text
+*** THREE CONSTRUCTION WALLS, ALL TYPE-U (the relay guessed two; the source says three): ***
+  1  finite-cell -> complete causal ensemble           (the recurring completion wall)
+  2  Euclidean fidelity -> Lorentzian/CTP object       (continuation -- and ORDINARY ANALYTIC
+                                                        CONTINUATION ALONE IS INSUFFICIENT)
+  3  completed record object -> joint Gamma_rest        (the embedding onto the common carrier)
+
+THE ONE-CELL OBJECT, CONCRETE AT LAST:
+  F_R(theta) = cos^2(theta/2)          S_R,E(theta) = -hbar log[cos^2(theta/2)]
+  fidelity is KINEMATIC . fidelity-as-Euclidean-weight is an ADOPTED premise (TYPE-P) .
+  *** REFUTED as a current standalone microscopic action (TYPE-R) *** -- retained only as a
+  possible diagonal probability observable.
+
+THE LORENTZIAN COUNTERPART IS NOT SPECIFIED -- sealed text leaves FOUR possibilities (amplitude
+action . CTP influence action . dissipative/noise kernel . unitary kinetic action) and selects
+none.
+
+SEAM 11's TRIAL POTENTIALS, CONCRETE:  V_1 = (|r|^2-1)^2 , V_2 = (|r|^2-2)^2
+  NOT Q-200 instances of complete actions . no sealed constraint cuts between them .
+  *** BOTH REJECTED UNCHANGED by the isolated-background test -- each retains a CONTINUOUS PHASE
+  ORBIT; durability unbuilt. ***
+
+CROSS-TERMS: the live signature PERMITS internal cross-terms (true); none found (TYPE-S);
+  neither required nor excluded (NO_VERDICT x2).
+```
+
+### THE SCHEDULING CORRECTION — pre-declared in the relay, and it fired (C14)
+
+```text
+Task3a_source_level_work_can_run_alongside_Task2      = true
+Task3a_complete_CTP_record_build_can_run_alongside_Task2 = false | TYPE-R
+corrected: DoR008_field_home_alone_completes_Task3a   = false | TYPE-R
+```
+
+*** THE PLAN'S "TASK 3 RUNS ALONGSIDE TASK 2" IS SCOPED: source-level work yes; the COMPLETE
+record build queues behind Task 2 AND the walls above. AND DoR 008 ALONE DOES NOT FINISH 3a. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
