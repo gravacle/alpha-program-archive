@@ -118,15 +118,14 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~20:15.
+## 6. LANE LEDGER — 2026-08-01, ~20:50.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-305    CODEX 1  2d    the quasifree lead -- device or law?            PASTED, RUNNING
---     CODEX 2  --    held on 305, which sizes D6
+306    CODEX 2  2d    force the STATE-CLASS stratum                   LOADED
+--     CODEX 1  --    free; held on 306 (the covariance question follows its verdict)
 ```
 
-REGISTERED THROUGH Q-222. THE DAY'S TERMINUS SO FAR: the new-physics ask is REAL and LOCALIZED
-(the pre-state's response-relevant cumulant class, Q-222); OBS-14 refuted by its own
-pre-registered test; 305 checks whether the adopted quasifree branch shrinks the ask to a
-two-point function before D6 is posed to the principal.
+D6 RULED (principal): TEST THE CLASS STRATUM BEFORE AUTHORING. The allow/require ladder:
+functionals ALLOWED (Q-219) -> classes UNDER TEST -> the covariance, then the fixed point,
+above. REGISTERED THROUGH Q-223. CHANGE LOG THROUGH C18.
