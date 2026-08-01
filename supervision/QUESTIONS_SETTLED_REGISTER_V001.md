@@ -9096,6 +9096,25 @@ FIELD_CTP_PRESENTATION_RATIFIED = false | TYPE-C — ratification correctly bloc
 BEFORE RATIFICATION, AND BOTH FINDS WERE THE NAMED FAILURE MODES. DoR 008 STAYS PENDING; THE
 REDRAFT REPAIRS TWO FIELDS AND RETURNS THROUGH THE SAME GATE. ***
 
+## Q-208. The V002 proposal is in — both blockers repaired by REMOVAL, not disclosure. Second kill-pass required before DoR 008.
+
+**Relay 291 (Task 2b, Codex 1).** `STAGE8_FIELD_CTP_ALGEBRAIC_PRESENTATION_ADOPTION_PROPOSAL_V002.md`,
+`76916244bdbcac7c2a6d4afae40f35127540d1d9e4cfc86fb72318506671161f`, 859 lines. Hash verified,
+fence-clean, PROPOSED_NOT_ADOPTED marks present.
+
+```text
+FIELD 1 REPAIRED   the phantom refinement functor is REMOVED: labels now use Q-201's ACTUAL
+                   sequential N <= M system with Lambda_N = Z^N and zero-extension. The eighth
+                   adoption is eliminated rather than disclosed -- the count is HONESTLY 7.
+FIELD 7 REPAIRED   left-regular replaced by a HILBERT C*-MODULE representation: no scalar state,
+                   trace, cyclic vector, or measure exported. *** SCALARIZATION REQUIRES A LATER
+                   POSITIVE FUNCTIONAL OUTSIDE C0 -- the exclusion boundary is now structural. ***
+PRESERVED          the even spatial join . both identity fences . the clean exclusion list .
+                   the four conditional consequences.
+STATUS             PROPOSED_NOT_ADOPTED -- the drafter itself states the second adversarial pass
+                   is still required. DoR 008 REMAINS PENDING.
+```
+
 ---
 
 ## HOW TO USE THIS REGISTER
