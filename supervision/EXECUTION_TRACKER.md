@@ -1,6 +1,6 @@
 # EXECUTION TRACKER — what is actually being done, by whom, right now
 
-**LAST UPDATED 2026-08-01, ~07:00. Register head Q-169. Published at `4db81c2`.**
+**LAST UPDATED 2026-08-01, ~08:00. Register head Q-174. Published at `3d32d31`.**
 
 *** SECTIONS BELOW THE LANE BLOCK ARE HISTORY AND SEVERAL OF THEIR FRAMINGS HAVE SINCE BEEN
 REFRAMED OR REFUTED. THE REGISTER IS THE AUTHORITY. ***
@@ -15,46 +15,85 @@ STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
 
 ---
 
-## LANES RIGHT NOW — 2026-08-01, ~07:00. REGISTER HEAD Q-169. *** ALL THREE LANES LOADED. ***
+## LANES RIGHT NOW — 2026-08-01, ~08:00. REGISTER HEAD Q-174. *** ALL THREE LANES LOADED. ***
 
 ```text
-CODEX 1   263  CAN A PRPS COVER'S NERVE REALIZE GATE 2's K_1,3?  *** PASTED, RUNNING ***
-               The one of TARGET 2's three missing objects that can KILL THE NERVE ROUTE CHEAPLY.
-               K_1,3 as a nerve is an exact condition: four patches, one meeting the other three,
-               THE THREE LEAVES PAIRWISE DISJOINT. Carries the consequence to test -- K_1,3 is a
-               tree, a tree is contractible, so a GOOD cover would make the endpoint-comparison
-               domain contractible and its principal U(1) bundle TRIVIAL. Three ways the chain
-               can break, each a real result. FOURTH IMPORT IN A ROW; transfer check mandatory.
+CODEX 1   266  IS PRPS's SMOOTH PHRASING ITSELF AN IMPORT?  *** PASTED, RUNNING ***
+               Four TARGET-2 builds have failed, each lower than the last, ending at TYPE-S:
+               NOTHING DEFINES THE RECORD-SIDE PATCHES. Before a fifth, ask whether the DEMAND
+               is right. Gate 4 derived a compact gauge field DISCRETELY; PRPS phrases its three
+               premises SMOOTHLY. Is there a discrete conditional Gate 4 already satisfies?
+               *** GUARDED: the sealed refutation stands -- vertex rephasing is NOT smooth frame
+               change, chain transport is NOT patch overlap. A restatement of that is the WRONG
+               ANSWER. ***
 
-EINSTEIN  262  IS THE TREE/LOOP SPLIT THE ALLOW/REQUIRE BOUNDARY?  *** PASTED, RUNNING ***
-               PRINCIPAL'S HYPOTHESIS. Mechanism: gauge-removable on a tree, gauge-invariant on a
-               loop, so the boundary sits at CYCLE RANK > 0. Leads with the RIVAL reading (a
-               unique require forces too; on a tree the class is unique, so the first opening may
-               REQUIRE THE TRIVIAL CLASS rather than be silent). Section 2b added after Q-168:
-               *** THE LOOP CARRIER IS ITSELF PROTOCOL-MANDATED, SO "CYCLE RANK > 0" MAY BE A FACT
-               ABOUT A CHOSEN PROTOCOL, NOT ABOUT THE RECORD. *** Told NOT to cite Codex 2's
-               agreement as support.
+CODEX 2   267  THE GATES SELECT. DOES ANYTHING AFTER THEM?  *** PASTED, RUNNING ***
+               The CENSUS. Count instances of "machinery present, selection absent", and HUNT
+               DELIBERATELY for a forced post-gate construction -- finding one refutes the claim
+               and is the most valuable return.
 
-CODEX 2   264  WHERE IS THE FIRST FILLED TWO-CELL?  *** LOADED ***
-               Curvature needs a filled 2-cell; the composition loop is UNFILLED and cannot carry
-               one (V011: "no 2-cell", "No filled 2-cell is included in the trace carrier").
-               Sweep every 2-cell in the corpus and type each DERIVED / ADOPTED / IMPORTED /
-               DIAGNOSTIC. *** IF NONE IS DERIVED, THERE IS NO LOCAL CURVATURE TWO-COCHAIN, NO
-               LOCAL MAXWELL DENSITY, AND THE EM SECTOR IS UNBUILT AT ITS FOUNDATION -- WHICH
-               BEARS DIRECTLY ON ALPHA. *** Must stay TYPE-U, not TYPE-R.
+EINSTEIN  268  DOES AUTOMORPHISM FORCING SURVIVE COMPOSITION?  *** LOADED ***
+               The MECHANISM, not the census. Einstein found it itself while refuting Q-174:
+               the witness that survived every self-correction is the star's OWN AUTOMORPHISM
+               GROUP. *** THE DOUBT IS STRONG AND STATED FIRST: the star is symmetric, three
+               interchangeable leaves, and that is what makes "quantify over all functionals,
+               get exactly one ray" work. COMPOSITIONS AND REGULATORS BREAK SYMMETRY. ***
+               Told not to reintroduce the gauge-invariance mechanism it just struck from four
+               of its own chains, and to check whether Gates 1-4 force by ONE mechanism or FOUR.
 ```
 
-### THE CURVATURE CHAIN — three sealed results, one wall
+*** 267 AND 268 ARE DELIBERATELY SPLIT AND EACH IS TOLD THE OTHER EXISTS, TOLD NOT TO COORDINATE, AND
+TOLD NOT TO CITE THE OTHER. TWO LANES AGREEING BECAUSE THEY WERE TOLD TO IS NOTHING. ***
+
+### THE PATTERN — THREE LANES, THREE UNRELATED QUESTIONS, ONE SHAPE
 
 ```text
-Q-166   bridge_needs_loops_for_curvature_plaquette_level = true
-Q-168   the loop EXISTS -- exact cycle rank 1, generator e_a0 - e_0b + e_ab - e_ba
-Q-168   *** composition_loop_is_curvature_plaquette_carrier = false | TYPE-R ***
-        no face generator, no face area, no local curvature two-cochain, no Maxwell density
+THE COVER  (Q-172)  transition functions, cocycle, principal U(1) bundle ALL PRESENT
+                    *** THE SPACE IS ABSENT -- five TYPE-S results ***
+THE LOOP   (Q-168)  incidence rank 3, cycle rank 1, generator, gauge-invariant Phi ALL DERIVED
+                    *** THE CARRIER IS PROTOCOL-MANDATED, NOT FORCED ***
+THE FACE   (Q-173)  C_2, face cochains, boundary maps, curvature, response formula ALL SPECIFIED
+                    *** THE FACE IS "SELECTED, NOT FORCED" -- a frozen regulator-stage test object ***
 ```
 
-*** CURVATURE NEEDS LOOPS. THE LOOP THE PROGRAM GETS CANNOT CARRY CURVATURE. RELAY 264 ASKS WHETHER
-ANY DERIVED FILLED TWO-CELL EXISTS AT ALL. ***
+**MACHINERY PRESENT, SELECTION RULE ABSENT.** *** BUT THE GATES **DO** FORCE — Gate 1's `U(1)`
+target-independently, Gate 2's `r = 3` and `K_1,3` "uniquely up to isomorphism", Gate 4's EXACTLY ONE
+normalized class. **SO THE QUESTION IS NOT WHETHER ANYTHING FORCES; IT IS WHAT THE GATES HAVE THAT THE
+LATER CONSTRUCTIONS LACK.** THAT IS 267 AND 268. ***
+
+### TARGET 2 — FOUR BUILDS, EACH FAILING LOWER THAN THE LAST
+
+```text
+Q-166  THE BRIDGE       does not build; the standard correspondence DOES NOT TRANSFER    TYPE-U
+Q-167  THE FUNCTOR      a map per chosen cover; five independence checks all TYPE-U;
+                        "functor" ASPIRATIONAL -- no categories, no morphism preservation
+Q-171  THE REALIZATION  cannot be tested; the cover does not exist                    NO_VERDICT
+Q-172  *** THE PATCHES  five TYPE-S. NOTHING IN THE CORPUS HAS THEM. ***
+```
+
+*** AND THE ONLY SUBSTITUTE IS AN ADOPTION: the corpus DOES define an adopted smooth spacetime `(M,g)`
+and an adopted principal `U(1)_rel` bundle. **USING `(M,g)` TO SUPPLY THE PATCHES WOULD BE AN IMPORTED
+SMOOTH-DOMAIN ACT, NOT A DERIVATION.** THAT IS THE FIFTH RE-IMPORT ENTRANCE REACHED FROM A NEW
+DIRECTION, AND IT IS **A PRINCIPAL'S DECISION, NOT A LANE'S.** ***
+
+### THE ALLOW/REQUIRE HYPOTHESIS — REFUTED (Q-174)
+
+```text
+THE INVERSION   the corpus's own origin definition: "ALLOWED U(1) holonomy, REQUIRED charge/flux
+                access" -- holonomy is on the ALLOW side, the opposite of the proposed mechanism
+THE MISMATCH    the allow/require filter types a variable whose domain is "a loop, handle, sector,
+                component, or operator block" -- loop is 1 OF 5. It decides by a TRACE CONDITION
+                AND FOUR SPECTRAL/SECTOR CONDITIONS, not graph topology
+THE WITNESS     *** require_shaped_object_lives_on_a_tree = true | TYPE-R | EXECUTED ***
+                Gate 4's covector ray: over ALL nonzero readout functionals on the first-opening
+                star, tree kernel 0 -> EXACTLY ONE RAY, alternatives REFUTED. Forcing at cycle
+                rank ZERO, via the star's AUTOMORPHISM GROUP.
+SURVIVES        edge_phase_content_dies_at_cycle_rank_zero -- TRUE AND NARROW. One object, one
+                documentation line, inside Gate 4's differential sector.
+```
+
+*** THE REVIEWER'S RIVAL READING WAS ALSO STRUCK: A TREE **CAN** CARRY A REQUIRE, BUT THE FORCING IS
+**AUTOMORPHIC**, NOT GAUGE-CLASS UNIQUENESS. ***
 
 ### S6 IS CLOSED AS A ROUTE (Q-169) — AND THE REAL GAP IS NAMED
 
@@ -91,9 +130,10 @@ stays blocked until TARGET 2 is built, regardless of what happens to `S6`.
 ```text
 250 -> Q-157   251 -> Q-158   252 -> Q-164   253 -> Q-160   254 -> Q-161
 255 -> Q-162   256 -> Q-163   257 -> Q-165 (2f3a36dc, verified, pushed at ceec71d)
-258 -> Q-169 (6ca465a6)   259 -> Q-166 (f651817f)   260 -> Q-168 (58103771)
-261 -> Q-167 (f600362c)   *** ALL VERIFIED AGAINST STATED HASHES, ALL FENCE-CLEAN ***
-262, 263, 264 -> ISSUED. Nothing outstanding.
+258 -> Q-169   259 -> Q-166   260 -> Q-168   261 -> Q-167   262 -> Q-174
+263 -> Q-171   264 -> Q-173   265 -> Q-172
+*** ALL VERIFIED AGAINST STATED HASHES, ALL FENCE-CLEAN. NOTHING OUTSTANDING. ***
+266, 267, 268 -> ISSUED.
 ```
 
 **READ FIRST:** `WHAT_IS_MISSING_2026-08-01_V001.md` (one screen, the position) and
