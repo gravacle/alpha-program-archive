@@ -1,6 +1,6 @@
 # EXECUTION TRACKER — what is actually being done, by whom, right now
 
-**LAST UPDATED 2026-08-01, ~06:00. Register head Q-165. Published at `ceec71d`.**
+**LAST UPDATED 2026-08-01, ~06:30. Register head Q-166. Published at `390a488`.**
 
 *** SECTIONS BELOW THE LANE BLOCK ARE HISTORY AND SEVERAL OF THEIR FRAMINGS HAVE SINCE BEEN
 REFRAMED OR REFUTED. THE REGISTER IS THE AUTHORITY. ***
@@ -15,23 +15,36 @@ STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
 
 ---
 
-## LANES RIGHT NOW — 2026-08-01, ~06:00. REGISTER HEAD Q-165.
+## LANES RIGHT NOW — 2026-08-01, ~06:30. REGISTER HEAD Q-166. *** ALL THREE LANES LOADED. ***
 
 ```text
-CODEX 1   259  BUILD TARGET 2 -- CANONICAL_PRPS_TO_GATE4_LOCALIZATION_BRIDGE.  *** PASTED, RUNNING ***
-               A DISCRETE/SMOOTH correspondence between Gate 4's incidence-gauge structure and
-               PRPS's smooth frame/patch demands. Both sides exist in the corpus and BOTH ARE
-               RECORD-SIDE (Q-165 cross-case 2). Carries two hazards: the standard discrete-to-
-               smooth connection correspondence must pass a TRANSFER CHECK (the KK lesson), and
-               GATE 2's FIRST-OPENING COMPLEX IS A TREE -- no plaquettes, no loops, so any
-               plaquette-holonomy construction has no carrier there.
+CODEX 1   261  BUILD CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR.  *** PASTED, RUNNING ***
+               The named TYPE-U obstruction under TARGET 2 (Q-166). Candidate named: the NERVE
+               1-SKELETON -- vertices = patches, edges = overlaps. The prior attempt searched for
+               nerve/Cech/cover/overlap and found NOTHING SEALED, so the candidate is UNSEALED,
+               not refuted. CRUX: a nerve gives one graph PER COVER; Gate 4 gives ONE graph, and
+               cover-independence comes only in the refinement colimit. Five independence checks
+               to run SEPARATELY: cover, lift, path representative, ordering, refinement.
+               *** FLAGGED AS THE THIRD IMPORT IN A ROW. TRANSFER CHECK MANDATORY. ***
 
-CODEX 2   IDLE.  *** THIS IS THE FAILURE TO WATCH. ***
+CODEX 2   260  BUILD THE MANDATED COMPOSITION-LOOP PREDICTION.  *** PASTED, RUNNING ***
+               V011:1836-1863, fully specified, four vertices and four edges, ordered loop
+               holonomy exp(i Phi). MANDATED for CORE-RESULT-SEAL at V011:1790 and UNSEALED at
+               V011:2321. It is the program's loop carrier and the curvature level needs it.
+               PRINCIPAL TRAP CARRIED: "holonomy" names FOUR objects; sense 3's Phi must NOT be
+               identified with sense 4's sealed pi/2.
 
-EINSTEIN  258  CAN THE RESPONSE-MAP PULLBACK SUPPLY S6?  *** PASTED, RUNNING, NO ARTIFACT YET ***
-               S6 = the finite-to-complete transport. The O7 pullback transfer check is already
-               sealed-refuted (DOES_NOT_TRANSFER); the response-map pullback is neither proved
-               nor refuted. S6 FLIPS TARGET 1 ONLY (Q-165) -- it does not touch TARGET 2.
+EINSTEIN  258  CAN THE RESPONSE-MAP PULLBACK SUPPLY S6?  *** OUTSTANDING, NO ARTIFACT YET ***
+               S6 = the finite-to-complete transport. The O7 pullback is sealed-refuted
+               (DOES_NOT_TRANSFER). S6 FLIPS TARGET 1 ONLY.
+
+QUEUED    262  IS THE TREE/LOOP SPLIT THE ALLOW/REQUIRE BOUNDARY?  -> EINSTEIN, on 258's return.
+               *** PRINCIPAL'S HYPOTHESIS, NOT A REVIEWER COLLAPSE. *** Mechanism: gauge-removable
+               on a tree, gauge-invariant on a loop, so the boundary sits at CYCLE RANK > 0.
+               Relay leads with the RIVAL reading -- a UNIQUE require forces too, and on a tree
+               the gauge class is unique, so the first opening may REQUIRE THE TRIVIAL CLASS
+               rather than be silent. Sharpest test named: the sealed quarter-turn holonomy is
+               require-shaped and sits at first opening, where there is no loop.
 ```
 
 ### THE TWO BUILD TARGETS (Q-165) — the whole forward board
@@ -51,7 +64,8 @@ stays blocked until TARGET 2 is built, regardless of what happens to `S6`.
 250 -> Q-157   251 -> Q-158   252 -> Q-164   253 -> Q-160   254 -> Q-161
 255 -> Q-162   256 -> Q-163   257 -> Q-165 (2f3a36dc, verified, pushed at ceec71d)
 258 -> OUTSTANDING, Einstein, no artifact in the archive
-259 -> ISSUED to Codex 1
+259 -> Q-166 (f651817f, verified, pushed at 6c08717)
+260, 261 -> ISSUED and running.  262 -> staged for Einstein.
 ```
 
 **READ FIRST:** `WHAT_IS_MISSING_2026-08-01_V001.md` (one screen, the position) and

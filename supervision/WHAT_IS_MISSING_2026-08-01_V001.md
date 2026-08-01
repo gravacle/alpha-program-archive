@@ -1,26 +1,37 @@
 WHAT IS MISSING, AND WHAT WOULD ADDRESS IT
 
-2026-08-01, ~05:00. Register head Q-158. Published `cc9c71c`. One screen.
+2026-08-01, ~06:30. Register head Q-166. Published `390a488`. One screen.
+*** REVISED IN PLACE. THE PRIOR VERSION SAID **ONE** OBJECT IS MISSING. Q-165 REFUTED THAT. ***
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
 
 ---
 
-## 1. ONE OBJECT IS MISSING. EVERYTHING ELSE IS A CONSEQUENCE OF ITS ABSENCE.
+## 1. **TWO** OBJECTS ARE MISSING. THEY ARE NOT THE SAME OBJECT.
 
 ```text
-*** COMMON_ORIGIN_SOURCE_RECORD_FIELD_CTP_PRODUCER_WITH_P5_PORT ***
+TARGET 1  *** COMMON_ORIGIN_SOURCE_RECORD_FIELD_CTP_PRODUCER_WITH_P5_PORT ***
+          blocked on S6, the finite-to-complete transport
+TARGET 2  *** CANONICAL_PRPS_TO_GATE4_LOCALIZATION_BRIDGE ***
+          blocked on CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR
 ```
 
-**`P5` — `rho_pre`, the admitted record effects, and the domains — STRADDLES the internal and external
-sectors, and its common-origin requirement IS the sector-crossing requirement** (Q-157,
-`P5_common_origin_is_sector_crossing_requirement = true`; `P5_internal_only = false | TYPE-R`;
-`P5_external_whole = false | TYPE-R`; **`two_independent_blockers = false | TYPE-R`**).
+**Q-165 tested whether the internal/external boundary, the discrete/smooth boundary and the P5
+straddle are one boundary. They are two.** `one_boundary_for_A_B_C = false | TYPE-R`;
+`three_independent_boundaries = false | TYPE-R`; `two_build_targets_for_A_B_C = true`.
 
-*** NOTHING IN THIS CORPUS CROSSES SECTORS. THAT IS THE WHOLE BLOCKAGE. ***
+*** `C_reduces_to_A_for_build_order = true` — **P5 IS A PORT OF TARGET 1, NOT AN INDEPENDENT
+BLOCKER.** BUT `canonical_bridge_same_as_crossing_object = false | TYPE-R`: the bridge and the producer
+have different domains, codomains, required inputs and failure tests. **`S6` FLIPS TARGET 1 ONLY.** ***
+
+**`P5` still straddles the internal and external sectors** (Q-157) — that finding stands, and nothing
+in this corpus crosses sectors. **But the sector boundary is NOT the discrete/smooth boundary**:
+`external_equals_smooth = false | TYPE-R`, refuted by a real category,
+`SMOOTH_RECORD_SIDE_NONEXTERNAL` — the local projective record bundle is smooth machinery that is
+record-side and is not the finite incidence skeleton.
 
 ---
 
-## 2. WHAT IT MUST SUPPLY — SPECIFIED, NOT GUESSED
+## 2. WHAT **TARGET 1** MUST SUPPLY — SPECIFIED, NOT GUESSED
 
 ```text
 FROM Q-158 -- THE P5 COMMON-ORIGIN DESCENT PRESENTATION
@@ -40,6 +51,33 @@ FROM Q-156 -- SECTOR-REACH
 
 *** DISTINCT SOURCES MAY SATISFY P5 IF THEY DESCEND TO **ISOMORPHIC CERTIFIED PACKAGES**. BUT
 CO-LOCATION AND BARE EXISTENCE ARE **INSUFFICIENT** — DESCENT AND PROVENANCE MUST BE EXPLICIT. ***
+
+---
+
+## 2b. WHAT **TARGET 2** MUST SUPPLY — NAMED, WITH A STATED DOMAIN AND CODOMAIN
+
+**Q-166. The attempt returned `canonical_PRPS_to_Gate4_localization_bridge_built = false | TYPE-U`.
+The standard smooth-to-discrete connection correspondence EXISTS as imported geometry and DOES NOT
+TRANSFER — the corpus supplies no canonical patch/cover/path-to-incidence realization.**
+
+```text
+CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR = missing | TYPE-U
+  domain    PRPS local endpoint-comparison patches, overlaps, smooth frame changes
+  codomain  BID/Gate-4 incidence graph -- vertices, oriented edges, vertex-gauge maps
+
+PATCH_OVERLAP_TRANSPORT_TO_GATE4_EDGE_TRANSPORT_THEOREM = missing | TYPE-U
+  must be independent of nonsealed choices of COVER, LIFT, PATH REPRESENTATIVE, ORDERING,
+  and REFINEMENT -- *** FIVE NAMED CHOICES, EACH TO BE CHECKED SEPARATELY ***
+
+GATE4_TO_SMOOTH_PRPS_RECONSTRUCTION_THEOREM = missing | TYPE-U
+  *** ONLY IF THE REVERSE DIRECTION IS DEMANDED. IT IS NOT. DO NOT FUND IT. ***
+```
+
+*** AND THE LOOP QUESTION CAME BACK **SPLIT**: `bridge_needs_loops_for_transport_gauge_level = false`,
+`bridge_needs_loops_for_curvature_plaquette_level = true`. **THE TREE DOES NOT BLOCK TRANSPORT OR
+GAUGE. IT BLOCKS CURVATURE — AND CURVATURE IS WHERE A MAXWELL TERM WOULD HAVE TO COME FROM.**
+`first_opening_loop_or_face_carrier_available = false | TYPE-R`, *because the loop is classified as a
+COMPOSITION* — which is the mandated, unsealed composition-loop prediction at `V011:1836-1863`. ***
 
 ---
 
@@ -109,15 +147,24 @@ THE ALL-ORDERS TOWER -- unbounded, so a number today is LEADING-ORDER with uncon
 ## 7. WHAT TO DO
 
 ```text
-1  *** BUILD THE CROSSING OBJECT. *** Specification in §2. It is the only thing that is missing;
-   everything in §4 follows from it. This is the first time the program has had a NAMED BUILD TARGET
-   rather than an object that defeated every search.
+1  *** BUILD BOTH TARGETS. THEY ARE INDEPENDENT AND MUST BE FUNDED SEPARATELY. ***
+   TARGET 1 -- spec in section 2. Its minimal buildable item is S6, the finite-to-complete
+   transport; the O7 pullback is already sealed-refuted, the response-map pullback is open.
+   TARGET 2 -- spec in section 2b. Its named obstruction is the patch-cover-to-incidence functor.
 
-2  FREEZE THE CENSUS PRE-ROOT -- sequencing-forced, and it WAITS on 1, because the census cannot
-   cover the P5 axis until the crossing object exists.
+2  *** THE COMPOSITION-LOOP PREDICTION IS MANDATED AND UNSEALED. *** V011:1790 requires it for
+   CORE-RESULT-SEAL; V011:2321 records composition_loop_prediction_sealed = false. It is the
+   program's loop carrier and the curvature level cannot proceed without it.
 
-3  DO NOT FUND B0 DETERMINATION. See §3.
+3  FREEZE THE CENSUS PRE-ROOT -- sequencing-forced, and it WAITS on TARGET 1, because the census
+   cannot cover the P5 axis until the crossing object exists.
+
+4  DO NOT FUND B0 DETERMINATION. See section 3.
 ```
+
+*** THREE IMPORTS HAVE NOW BEEN TESTED FOR TRANSFER TO THIS STRUCTURE. THE KALUZA-KLEIN FRAMING WAS
+AN IMPORT AND THE ROUTE WAS REFRAMED. THE SMOOTH-TO-DISCRETE CONNECTION RESTRICTION IS AVAILABLE AND
+DOES NOT TRANSFER. **RUN THE TRANSFER CHECK ON EVERY IMPORTED CONSTRUCTION BEFORE LEANING ON IT.** ***
 
 *** THE HONEST LIMIT: `P5_weaker_interface_buildable_without_full_origin_now = NO_VERDICT`.
 **LOGICALLY WEAKER IS NOT BUILDABLE-NOW.** THE CONSTRUCTION DEPENDENCY IS UNRESOLVED, AND NO EXISTING
