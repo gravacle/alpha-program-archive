@@ -6981,6 +6981,95 @@ CONNECTION AND, THROUGH IT, THE ELECTROMAGNETIC FIELD. ***
 
 ---
 
+## Q-163. "Can the target-independent localization theorem be built?"
+
+*** RULING: **NO — `BLOCKED_BY_MISSING_CANONICAL_BRIDGE`.** THE INGREDIENTS EXIST ON BOTH SIDES; THE
+MAP BETWEEN THEM DOES NOT. *** Established 2026-08-01 by Codex lane 1 under relay 256
+(`STAGE8_TARGET_INDEPENDENT_LOCALIZATION_THEOREM_BUILD_RESULT_V001.md`, `448840fb...`, 303 lines).
+**Verified against the stated hash — matches. *** CUSTODY MISS: THE SIDECAR WAS NOT MIRRORED; Q-91
+REQUIRES ARTIFACT + SIDECAR. *** **
+
+```text
+PREMISE 1  endpoint comparison frame is LOCAL      NOT DERIVED
+           -- though LOCAL_PROJECTIVE_RECORD_BUNDLE_V001.md:16-43 DOES define local patches,
+              local lifts, overlap transition functions and a principal U(1)
+PREMISE 2  smooth relative-frame changes REDUNDANT NOT DERIVED
+           -- Gate 4 proves VERTEX-REPHASING equivalence for INCIDENCE data; PRPS concerns
+              INDEPENDENT SMOOTH CHANGES of the endpoint comparison frame
+PREMISE 3  transport across OVERLAPPING PATCHES    NOT DERIVED
+           -- Gate 4 proves the incidence differential on a DIRECTED EDGE/VERTEX CHAIN has one
+              normalized covariant transport class; PRPS asks for comparison data across patches
+```
+
+*** THE REVIEWER'S **FOURTH** COLLAPSE OF THE NIGHT, REFUTED — AND BY THE EXACT WARNING THE RELAY
+CARRIED: "cells and patches are not obviously the same object." **THE GAP HAS A SHAPE: GATE 4 IS
+DISCRETE — VERTICES, EDGES, CHAINS. PRPS IS SMOOTH — SMOOTH FRAME CHANGES, OVERLAPPING PATCHES, LOCAL
+LIFTS.** ***
+
+**Issued as relay 257: is the discrete/smooth seam the SAME boundary as internal/external and as the
+P5 straddle — one seam or three?** *** IT CARRIES THE REVIEWER'S RECORD ON THIS MOVE — **0 FOR 4** —
+AND TWO CONCRETE PROBES: are `K`, `B_ind(K)`, `p_loc` (dimensionless, external) DISCRETE or
+CONTINUOUS; and is `LOCAL_PROJECTIVE_RECORD_BUNDLE`'s smooth machinery INTERNAL or EXTERNAL. ***
+
+---
+
+## Q-164. "Does the crossing object pose?"
+
+*** RULING: **IT POSES ONLY BY GLUING — AND THE CORPUS HAD ALREADY RULED IT.** BUT ONE ITEM FLIPS THE
+VERDICT. *** Established 2026-08-01 by Einstein under relay 252
+(`STAGE8_CROSSING_PRODUCER_POSE_AND_GLUING_VERDICT_EINSTEIN_V001.md`, `80702f14...`, 348 lines, seal
+verified, fence-clean). **Posed and not run; the fence was audited first and hardest in all eleven
+agent outputs, no breach.**
+
+**THE SEALED GROUND:** `record_side_only_P5_derivation_available = false | TYPE-R` — *"finite record
+incidence/readout machinery does not supply the completed source-record-field CTP
+state/effect/domain/dynamics provenance."* *** THREE OF THE LANE'S OWN ESTABLISHERS READ THAT FILE
+COVER TO COVER AND WALKED PAST IT. ***
+
+*** THE REFRAMING, AND IT CHANGES THE WORK: **THE CORPUS DOES NOT LACK EXTERNAL REACH. IT HAS REACH ON
+THE SOURCE SIDE AND CLOSURE ON THE RECORD SIDE. WHAT IT LACKS IS ONE OBJECT WITH A FOOT IN EACH.** THE
+ONLY RELATION BETWEEN THE TWO SEALED BLOCKS IS A TENSOR JOIN THE PRODUCER CLASS PRE-EMPTIVELY EXCLUDES
+— **A TENSOR PRODUCT IS CO-LOCATION, BECAUSE THE FIELD COMPONENT IS NOT AN ALGEBRAIC TENSOR FACTOR.**
+THE PROBLEM IS **GLUING, NOT REACH.** *** Its own triage: **zero complete, nine partial, zero
+not-found.**
+
+**Six candidate traces scored on generated-versus-received: none reaches three of three, and *** THE
+FIELD IS RECEIVED BY EVERY ONE. *** Source and record CAN be joined; the field/CTP extension is
+`TYPE-U`.**
+
+```text
+*** ONE ITEM FLIPS IT: S6, THE FINITE-TO-COMPLETE TRANSPORT. DISCHARGE IT AND GATES 1-4 BECOMES A
+CROSSING TRACE **WITHOUT ANYONE DETERMINING B0**. NO OTHER SINGLE ITEM DOES THAT. ***
+  one mechanism ALREADY SEALED-REFUTED -- O7 pullback transfer, DOES_NOT_TRANSFER
+  *** THE RESPONSE-MAP PULLBACK IS NEITHER PROVED NOR REFUTED -- issued as relay 258 ***
+```
+
+**THE POSITIVE HOLDS:** `B0` provenance does **not** require `B0` determined — the requirement admits
+data *"declared as premises at the outset"* and carries an anti-deflation clause: a missing item *"does
+not fail physically by that fact alone."* **UNBUILT, NOT CLOSED.** *** THAT CLAUSE ALSO CONDEMNED FOUR
+`TYPE-R` OVERCLAIMS THE LANE'S OWN AGENTS MADE, WHICH IT RETYPED DOWNWARD. ***
+
+**But the bar is not soft:** the weakening struck injectivity; *** THE CONCRETENESS CLAUSE SURVIVED IT
+IN THE SAME SECTION — "'Some source exists' or 'all fields appear in one file' is insufficient." **A
+DECLARED ROOT IS LEGAL; A DECLARED BAG IS NOT.** ***
+
+**THREE HAZARDS CARRIED FORWARD UNREPAIRED:**
+
+```text
+*** ZERO OF EIGHT CERTIFICATE CONDITIONS DISCHARGED, AND CONDITION 7 -- PROVENANCE, THE ONE THE
+PRODUCER EXISTS TO SUPPLY -- IS ABSENT. WHAT EXISTS TODAY IS CO-LOCATION. ***
+*** rho_pre IS DEFINED TWO-TO-THREE TIMES WITH INCOMPATIBLE CARRIERS -- inside the common-carrier
+condition. ***
+*** A FIFTH RE-IMPORT ENTRANCE, THREE LINES WIDE: the adopted global-domain principle fixes a
+globally hyperbolic metric and, at :19-22, carries an EINSTEIN-HILBERT BULK TERM and a fixed
+reference subtraction. ANY PRODUCER DISCHARGING THAT CLAUSE BY CITATION RE-IMPORTS THE GRAVITY THIS
+PROGRAM CLAIMS TO DERIVE. ***
+```
+
+**Second P5 symbol collision across live specs. Struck overdetermination bar: eighth report.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
