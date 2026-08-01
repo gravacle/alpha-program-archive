@@ -6135,6 +6135,60 @@ and emergently" is NOT "derived from record structure."**
 
 ---
 
+## Q-145. "Is `G` primitive or emergent — and does the premise conflict stand?"
+
+*** RULING: THE CONFLICT RESOLVES AS A **STRUCTURE / VALUE DISTINCTION**, NOT A CONTRADICTION. AND THE
+CONFLICT WAS BETWEEN THE CORPUS AND THE REVIEWER'S PARAPHRASE OF IT, NOT INSIDE THE CORPUS. ***
+Established 2026-08-01 by Codex lane 1 under relay 237
+(`STAGE8_G_PRIMITIVE_OR_EMERGENT_ADJUDICATION_V001.md`, `273f03dd…`, 398 lines, seal verified,
+fence-clean).
+
+```text
+G_primitiveness_branch_scoped     = true
+G_role_in_ordinary_branch_derived = true
+
+DERIVED       G's ROLE -- its typing as the primitive source-geometry conversion of the
+              STABLE ORDINARY RECORD BRANCH. *** STRUCTURAL EMERGENCE: SUPPORTED. ***
+NOT DERIVED   G's UNIT-FREE VALUE -- operationally recovered by an ESTIMATOR, and left to
+              deeper record-capacity / dimensionless-ratio work.
+```
+
+**`:214-215`, at source:** the emergence thesis *"is a **structural/explanatory** emergence claim about
+public classical geometry and source-law form. It does not, in the quoted primary sources, assert that
+the **unit-free value** of `G` is already derived."*
+
+*** SO THERE IS NO CONTRADICTION INSIDE THE CORPUS. THE REVIEWER HAD BEEN CARRYING "GRAVITY EMERGES
+FROM RECORD STRUCTURE" **WITHOUT THE STRUCTURAL QUALIFIER**, AND THAT FLAT VERSION DOES CONFLICT WITH
+`G` PRIMITIVE. THE ACTUAL THESIS IS NARROWER AND CONSISTENT. ***
+
+**AND THE CHEAP DISSOLUTION DOES NOT GO THROUGH.** The branch is **the stable ordinary record branch**
+— not a separate ordinary branch standing opposite a record branch where `G` is derived. **Branch
+scoping is real; it does not make the two claims about different objects.**
+
+*** WHAT IT COSTS, AND IT IS THE OPERATIVE SENTENCE: THE WEAKER POSITION — `alpha` DERIVED FROM RECORD
+STRUCTURE **GIVEN** `c`, `hbar` AND `G` AS PRIMITIVE ORDINARY-BRANCH CONVERSIONS — IS **COHERENT BUT
+NOT SUFFICIENT TODAY**, FOR EXACTLY ONE REASON: **THE RECORD-SIDE ELECTROMAGNETIC RESPONSE /
+DIMENSIONLESS-RATIO SELECTOR REMAINS UNBUILT.** ***
+
+**THAT IS THE OBJECT TWO DAYS OF WORK CONVERGED ON.** Not `beta` — imported framing. Not the parent
+normalization — merged into the converter and typed `TYPE-U`. Not the branch fork — axiom-shaped and
+downstream of the import. *** THE BLOCKER IS THE RECORD-SIDE DIMENSIONLESS-RATIO SELECTOR, AND IT IS
+**UNBUILT, NOT FORBIDDEN.** ***
+
+**Issued as relay 238 (Einstein/Opus 5) to build it.** *** AND THE STRUCTURAL REASON IT IS THE RIGHT
+TARGET: GATES 1–4 DETERMINE THE RECORD SURFACE ESSENTIALLY COMPLETELY AND THEIR TOTAL DIMENSIONFUL
+CONTENT IS **ZERO**. THAT CURRENCY CANNOT PAY FOR GRAVITY'S SCALE — **IT IS EXACTLY THE CURRENCY A
+DIMENSIONLESS RATIO IS DENOMINATED IN.** FOR THE FIRST TIME THE PROGRAM IS ASKING THE RECORD SURFACE
+FOR SOMETHING IT CAN PAY. ***
+
+**Relay 238's binding constraint, recorded here because it will matter:** *** IT IS THE FIRST RELAY
+THIS PROGRAM HAS ISSUED THAT COULD PRODUCE A NUMBER. IT IS INSTRUCTED TO **BUILD THE SELECTOR AND NOT
+RUN IT**, AND TO **STOP AND REPORT IF IT APPEARS TO CLOSE** — BECAUSE §5.3 MUST RUN AGAINST A PRE-ROOT
+FROZEN CENSUS THAT DOES NOT YET EXIST, AND A NUMBER PRODUCED BEFORE THAT FREEZE CANNOT BE CERTIFIED AS
+FORCED RATHER THAN FITTED. ORDER OF OPERATIONS, NOT ANYONE'S FAULT. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
