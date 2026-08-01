@@ -8374,6 +8374,59 @@ reasoning. **THIS IS A TENTH AND IT IS A DEPENDENCY CLAIM OF EXACTLY THE KIND TH
 IT IS READ FROM STATED "ONLY IF" AND "MUST BEFORE" SENTENCES RATHER THAN INFERRED FROM A PATTERN — BUT
 IT IS UNVERIFIED AND MUST BE ATTACKED.** ***
 
+## Q-190. CORRECTION TO Q-189, BY ITS OWN AUTHOR: seam 9 is not the root. `CTP_PHYS_INPUT_PACKAGE` is, and it has four itemized requirements.
+
+**Done by Bohm directly, 2026-08-01**, reading `STAGE8_CORRELATOR_HESSIAN_MAP_RELATION_DOMAIN_FIX_AUDIT_V001.md`
+(62 lines) immediately after registering Q-189. *** REVIEWER-CONSTRUCTED — REQUIRES VERIFICATION. ***
+
+### Seam 9's formal half is ALREADY FIXED
+
+```text
+D^2 Gamma_1PI = Gamma_AA - Gamma_AG Gamma_GG^(-1) Gamma_GA
+H_C[G] := i hbar G^(-1)
+H_R[G] = (T_CTP^T H_C[G] T_CTP)_(delta,c)
+
+formal_relation_fixed = true | TYPE-C   -- conditional specification, QUOTIENT-PARAMETRIC
+physical_map_derived  = false | TYPE-U  -- would-build: *** CTP_PHYS_INPUT_PACKAGE plus P1-P8
+                                            and T1-T6 ***
+```
+
+*** THE ALGEBRA IS DONE. **WHAT IS MISSING IS THE SPACE IT ACTS ON.** ***
+
+### So Q-189's chain extends one level deeper, and the root moves
+
+```text
+Q-189 SAID:  ... -> seam 9 -> complete induced CTP operator -> ... -> K = B_ind(K)
+*** CORRECTED: seam 9 is itself gated on CTP_PHYS_INPUT_PACKAGE, which needs P1-P8 --
+    AND P5 IS SEAM 6 -- which bottoms out at rho_pre. ***
+```
+
+*** THIS **CONFIRMS** Q-181's "near-serial, `rho_pre` at the root" RATHER THAN COMPETING WITH IT.
+Q-189's claim that seam 9 gates six flags stands; **its implication that seam 9 is the root was
+WRONG AND IS WITHDRAWN.** ***
+
+### The single build target, with the corpus's own four requirements
+
+*** `CTP_PHYS_INPUT_PACKAGE` — **ONE NAMED, GAUGE-FIXED PHYSICAL SPACE** ON WHICH: ***
+
+```text
+(a) G is a bilocal correlator with an INVERTIBLE PHYSICAL INVERSE
+(b) Log_0 and the CONTOUR MEASURE are defined
+(c) BRANCH METRIC, REALITY INVOLUTION, COMPOUND-INDEX/DeWITT CONVENTIONS are fixed
+(d) CONTACTS, BOUNDARY DATA, and WARD-COMPATIBLE ENDPOINT DOMAINS are specified
+
+"Only then can the retarded support and adjointness tests be run *** WITHOUT SELECTING A QUOTIENT
+TO MAKE THE MAP WORK. *** "
+```
+
+*** THAT LAST CLAUSE IS THE WHOLE DISCIPLINE OF THIS PROGRAM IN ONE LINE, AND IT IS THE EXACT TRAP
+THE REVIEWER FELL INTO ON SEAM 10 — SELECTING THE SECTOR THAT MADE THE ANSWER COME OUT. ***
+
+**Scheduling consequence:** *** THE PROGRAM DOES NOT HAVE TWELVE OR EIGHTEEN INDEPENDENT TARGETS AT
+THE FRONT. IT HAS **ONE** WITH FOUR ITEMIZED REQUIREMENTS, AND EVERYTHING ELSE IS DOWNSTREAM OF IT.
+**THAT IS A NAMEABLE BUILD, NOT A SEARCH.** *** (Q-176's ruling still binds: this does not merge the
+downstream debts into one — closing the package does not select P5, fix `c`, or derive `B0`.)
+
 ---
 
 ## HOW TO USE THIS REGISTER
