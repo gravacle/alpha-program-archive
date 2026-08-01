@@ -122,7 +122,7 @@ D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-306    CODEX 2  2d    force the STATE-CLASS stratum                   LOADED
+306    CODEX 2  2d    force the STATE-CLASS stratum                   PASTED, RUNNING
 --     CODEX 1  --    free; held on 306 (the covariance question follows its verdict)
 ```
 
