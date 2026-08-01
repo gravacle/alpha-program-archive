@@ -21,6 +21,14 @@ the results. Nothing more."
 4  COMMIT AND PUSH.  Mirror artifact and sidecar. Push. Done means pushed.
 ```
 
+## LANES — 2026-08-01. EINSTEIN RETIRED AT 9% CREDIT.
+
+```text
+CODEX 1 . CODEX 2 . BOHM   -- all three CONSTRUCT.
+*** WHEN BOHM CONSTRUCTS, A CODEX LANE VERIFIES IT under the adversarial brief below.
+Q-91's separation of constructor and verifier does not lapse because a lane was retired. ***
+```
+
 ## THE THREE THINGS IN A RELAY THAT PROTECT THE RESULT
 
 *** THESE EARNED THEIR KEEP. NOTHING ELSE IN A RELAY DID. ***
