@@ -5941,6 +5941,46 @@ the step-1 artifact posts its own limit: *** "the same-object ground was NOT EXT
 
 ---
 
+## Q-141. "Is the held-fixed branch derivable, or an axiom?"
+
+*** RULING: **AXIOM-SHAPED. NOTHING SELECTS IT.** `held_fixed_branch_derived = false | TYPE-U`;
+`held_fixed_branch_axiom_shaped = true`. *** Established 2026-07-31 by Codex lane 1 under relay 234
+(`STAGE8_HELD_FIXED_BRANCH_DERIVABILITY_AND_AXIOM_PRICE_V001.md`, `39f7ea6d…`, 413 lines, seal
+verified, fence-clean).
+
+```text
+record_cell_constrains_parent_normalization         = false | TYPE-S
+kappa5_fixed_by_construction                        = NO_VERDICT | TYPE-U
+diffeomorphism_invariance_selects_held_fixed_branch = false | TYPE-S
+record_internal_fiber_selects_branch                = false | TYPE-S
+parent_normalization_scaling_law_derived            = false | TYPE-U
+held_fixed_branch_derivable_now                     = false | TYPE-U
+
+*** R_independent_4D_coefficient_derives_ell_P_fixed = false | TYPE-R  <-- EXECUTED REFUTATION ***
+```
+
+*** THAT LAST ONE WAS THE RELAY'S §2.1 TRAP-CHECK AND IT FIRED. THE REVIEWER ASKED WHETHER A
+DOWNSTREAM `R`-INDEPENDENCE REQUIREMENT WAS QUIETLY FORCING THE UPSTREAM BRANCH — THE MECHANISM THAT
+PRODUCED Q-139's SILENT ADOPTION. **IT IS NOT.** THE ADOPTION WAS NOT EVEN BEING PROPPED UP BY A
+DOWNSTREAM DEMAND; IT WAS SIMPLY INHERITED. ***
+
+**The standard KK reading supports `kappa_5`-fixed only as an *imported parent model, not a
+record-derived theorem*. The live reduced route preserves `ell_P`-fixed, but that requires an underived
+parent-normalization/frame law.**
+
+*** SO ANY GEOMETRIC-ROUTE NUMBER MUST CARRY EXPLICIT BRANCH CONDITIONALITY: `KAPPA5_FIXED` OR
+`ELL_P_FIXED`. THIS JOINS THE ADOPTED SET. ***
+
+**AND ONE FLAG BEARS ON THE PARADIGM QUESTION:** `record_internal_fiber_selects_branch = false |
+TYPE-S`. *** THE FACT THAT THE FIBER IS THE RECORD CELL'S INTERNAL DIRECTION DOES NOT SELECT THE
+BRANCH — CONSISTENT WITH THAT DIRECTION NOT BEING A SPATIAL DIMENSION IN THE SENSE THE KK FRAMING
+ASSUMES. Issued as relay 235. ***
+
+**The lane again declined both traps** — it did not take the branch that preserves `beta^2`, and it did
+not take the branch the live route already uses.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
