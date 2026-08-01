@@ -3,8 +3,13 @@
 Maintained by the Fable supervision lane through 2026-07-25 midday; then by
 the Claude construction+supervision lane (fresh account, custody note
 LANE_CHANGE_CUSTODY_CLAUDE_CONSTRUCTION_V001, seal fc585326…).
-Updated at each milestone. **LAST UPDATE: 2026-07-31. Register head Q-114.
+Updated at each milestone. **LAST UPDATE: 2026-08-01, ~05:30. Register head Q-160.
 Published at `30ffbe8`.**
+
+*** PICKING UP COLD ON 2026-08-01: READ THESE TWO FIRST, THEY ARE ONE SCREEN EACH AND CURRENT —
+`WHAT_IS_MISSING_2026-08-01_V001.md` (the position: ONE missing object, named and specified) and
+`DERIVED_RESULTS_INVENTORY_2026-08-01_V001.md` (what the program actually has derived). THEN
+`EXECUTION_TRACKER.md`. THE REGISTER IS THE AUTHORITY; THIS NARRATIVE IS HISTORY. ***
 
 *** IF YOU ARE PICKING UP COLD, READ THE FINAL SECTION OF THIS FILE FIRST
 ("2026-07-31 — SIX ROUTES, ONE OBJECT, AND THE PREMISE UNDER TEST"), THEN
