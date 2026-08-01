@@ -7889,6 +7889,42 @@ forward mathematical consequence, **not an empirical holdout**"* and *"It remain
 because the broader program knows its desired structures."* *** THIS IS A CORRECTNESS RESULT, NOT A
 CONFIRMATION. A32 IS UNTOUCHED. ***
 
+## Q-178. Seam 10: the eight-fold degeneracy is FOUR-fold, and charge conservation cuts it to ONE.
+
+**Done by Bohm directly, 2026-08-01.** Reproduced `FULL_CARRIER_DILATION_SELECTOR_OBSTRUCTION_GATE_V001.md`'s
+nullity census exactly (22/8/12/4/3) from the 16-dim odd/odd span, then asked what it never asked.
+
+```text
+8 nullity-2 triples -> *** ONLY 4 DISTINCT SOLUTION SPACES ***
+   (w_S,w_R,w_E) -> (w_R,w_S,-w_E) preserves the kernel exactly.
+   (2,1,1)~(1,2,-1)  (2,1,-1)~(1,2,1)  (2,-1,1)~(1,-2,-1)  (2,-1,-1)~(1,-2,1)
+   *** conjugation by Z_R, Z_E, Z_R Z_E maps all four to THEMSELVES -- they are genuinely distinct ***
+
+The four differ by which ladder channel survives:
+   (2, 1, 1)  sigma_+(S) sigma_-(R) sigma_-(E) + h.c.   sum(w) = +4
+   (2, 1,-1)  sigma_+(S) sigma_-(R) sigma_+(E) + h.c.   sum(w) = +2
+   (2,-1, 1)  sigma_+(S) sigma_+(R) sigma_-(E) + h.c.   sum(w) = +2
+   (2,-1,-1)  sigma_+(S) sigma_+(R) sigma_+(E) + h.c.   *** sum(w) = 0 ***
+
+*** OF ALL EIGHT, EXACTLY TWO HAVE w_S + w_R + w_E = 0 -- AND THEY ARE THE SAME SOLUTION SPACE. ***
+```
+
+**`w_S + w_R + w_E = 0` is `w_S = -(w_R + w_E)`: what the source carries, record and environment carry
+away.** *** IT IS A **CANDIDATE** CONSTRAINT, NOT DERIVED — BUT IT IS FAILURE-CAPABLE IN THE FORCING
+PROTOCOL'S SENSE: IT KILLS THREE OF FOUR RATHER THAN PASSING VACUOUSLY. FIRST THING FOUND THAT CUTS
+THIS OBSTRUCTION SINCE IT WAS RECORDED ON 23 JULY. ***
+
+**Also true in all eight, and stated nowhere in the corpus:** the E-factor is `X` or `Y` only — never
+`I`, never `Z`. Every surviving solution is off-diagonal on the environment.
+
+**Reviewer error caught by the reviewer:** a ladder rule `[G,Z_w] = -2(w·s)G` was derived that appeared
+to explain the whole census. *** IT IS WRONG ON 15 OF 49 TRIPLES — it covers only the E-off-diagonal
+sector. It is exact on all eight nullity-2 cases, so the structural reading holds, but it does not
+explain the full distribution and was withdrawn. ***
+
+**T2 has NOT fired.** The obstruction survives. It is half the recorded size with a named candidate
+selector.
+
 ---
 
 ## HOW TO USE THIS REGISTER
