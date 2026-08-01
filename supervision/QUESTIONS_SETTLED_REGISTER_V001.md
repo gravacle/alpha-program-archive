@@ -8527,6 +8527,59 @@ ORIGIN VERSUS A CERTIFIED PRESENTATION. **THIS CORRESPONDENCE SAYS THE ANSWER IS
 OF `C0`, `U1`, `U2`, `U3`. AND `C0` IS ALREADY EXCLUDED FROM CARRYING B0 CONTENT — SO IF A SUBSTITUTE
 EXISTS ANYWHERE, `C0` IS WHERE IT IS MOST LIKELY TO WORK.** ***
 
+## Q-193. The corpus names its own smallest front-line deliverable — and it is NOT `B0`.
+
+**Done by Bohm directly, 2026-08-01**, reading
+`STAGE8_P5_COMMON_ORIGIN_DESCENT_REQUIREMENT_V001.md:190-230` while relay 281 runs.
+*** REVIEWER-CONSTRUCTED — REQUIRES VERIFICATION. ***
+
+```text
+*** P5_and_full_origin_are_the_same_object = false | TYPE-R ***
+    test: P5 is a DESCENDED INTERFACE / ATTEMPT PORT, not the whole origin object
+    -- THIS IS A REFUTATION. PHYSICAL CONTENT.
+
+P5_weaker_interface_buildable_without_full_origin_now = NO_VERDICT
+    deciding evidence: an executable descent presentation constructed WITHOUT consuming complete P0
+
+P5_buildable_now_from_existing_derived_objects = false | TYPE-C
+    constraint: no completed carrier / common trace / descent maps / property certificate available
+```
+
+### The artifact's own conclusion, verbatim
+
+> *"The first opening on P5 is conceptual and concrete: **fund the DESCENT PRESENTATION, not
+> necessarily a unique reconstruction of the entire microscopic source.** It is a **smaller
+> deliverable with independently testable pieces** — origin trace, state/effect/domain properties,
+> dynamics compatibility, and pre-root admissibility."*
+
+*** FOUR INDEPENDENTLY TESTABLE PIECES. **THIS IS THE MOST CONCRETE BUILD INSTRUCTION IN THE CORPUS
+AND NO PLAN IN THIS PROGRAM HAS EVER BEEN BUILT AGAINST IT.** ***
+
+### Two named release conditions — and one is a THEOREM, not a construction
+
+```text
+1  construct a joint P0/P5 producer and execute the P5 tests
+2  *** SEAL AN UPSTREAM THEOREM PROVING UNIQUENESS/EQUIVALENCE/EXCLUSION ACROSS THE P5 FAMILY ***
+   (STAGE8_SECTION53_P5_AXIS_COVERAGE_AND_EXCLUSION_AUDIT_V001.md:23-70,187-194)
+```
+
+*** ROUTE 2 IS A **THEOREM ABOUT A FAMILY**, NOT A RECONSTRUCTION OF AN ORIGIN. IT IS EXACTLY THE
+SHAPE OF ARGUMENT THE GATES ALREADY USE SUCCESSFULLY — AND IT IS EXACTLY WHAT THE FORCING PROTOCOL
+(Q-176) IS FOR: frozen typed family, declared equivalence, failure-capable constraints, coverage
+proof, singleton survivor. **THE PROTOCOL AND THIS RELEASE CONDITION ARE THE SAME OBJECT.** ***
+
+### The honest caveat
+
+`TYPE-C` on buildability means the four pieces do not exist — funding the descent presentation means
+**building** origin trace, property certificates, dynamics compatibility and admissibility, not
+finding them. *** AND "a valid single package would still need a SEPARATE COVERAGE THEOREM before
+§5.3 could call the complete P5 axis closed." ***
+
+**Standing:** *** THE FRONT OF THE ROAD IS NOT "DETERMINE `B0`" — SIX ROUTES ALREADY FAILED THAT AND
+`P5_and_full_origin_are_the_same_object = false | TYPE-R` SAYS IT WAS THE WRONG TARGET. **IT IS
+EITHER THE DESCENT PRESENTATION (four testable pieces) OR THE P5-FAMILY EXCLUSION THEOREM (the
+forcing protocol applied).** BOTH ARE SMALLER THAN `B0` AND NEITHER HAS BEEN ATTEMPTED. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
