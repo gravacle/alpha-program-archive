@@ -5796,6 +5796,66 @@ checked before reporting.**
 
 ---
 
+## Q-138. "What is the parent action, and what is `ell_P`?"
+
+*** RULING: BOTH NOW EXIST. THE CORPUS HAS A NAMED 5d GRAVITATIONAL NORMALIZATION AND A DEFINED `ell_P`
+FOR THE FIRST TIME — AND A SILENT ADOPTION HAS BECOME AN EXPLICIT, WELL-POSED BINARY. *** Established
+2026-07-31 by Codex lane 2 under relay 231
+(`STAGE8_PARENT_KK_ACTION_ELL_P_DEFINITION_AND_REDUCTION_V001.md`, `01c4c0db…`, 78 lines, seal
+verified, fence-clean, no `= true`).
+
+```text
+PARENT ACTION    S_5 = (1/2 kappa_5^2) integral sqrt(-G) R_5,  on the supplied S^1 ansatz
+NORMALIZATION    kappa_5^2 -- the inverse 5D Einstein-Hilbert coefficient.
+                 *** NAMED FOR THE FIRST TIME IN THIS CORPUS. ***
+DEFINITION       ell_P^2 := kappa_5^2 / (2 pi R_0)
+                 *** ell_P WAS PREVIOUSLY NEVER DEFINED IN ANY ROOT (Q-136). ***
+REDUCTION        THE FIBER FACTOR 2 pi R_0 ENTERS THE 4D EINSTEIN-HILBERT COEFFICIENT.
+                 *** IT DOES NOT DISAPPEAR. ***
+```
+
+*** THE CIRCULARITY GUARD HELD, AND IT WAS THE RELAY'S PRIMARY RISK. `:70` — "answer this without
+circularity; **the definition precedes the scaling test**." The lane did not define `ell_P` by
+stipulating what is held fixed and then recover the stipulation. ***
+
+**AND THE FORK IS NOW EXPLICIT INSTEAD OF SILENT (`:66`):**
+
+```text
+kappa_5 HELD FIXED   ->  the 4D Einstein-Hilbert coefficient SCALES WITH THE FIBER VOLUME
+                         -> ell_P is NOT constant under R -> beta R
+ell_P HELD FIXED     ->  the parent normalization MUST SCALE with the fiber extent
+
+*** YOU CANNOT HAVE BOTH. THE CORPUS HAD BEEN QUIETLY ASSUMING THE SECOND WITHOUT SAYING SO. ***
+
+ell_P_held_fixed_under_R_scaling = NO_VERDICT | TYPE-U
+  would-build: an independent parent-normalization / frame law
+```
+
+*** WHY THIS DECIDES MORE THAN IT APPEARS TO: Q-136 ESTABLISHED THAT THE SEALED CONCLUSION *"changing
+`K_KK` by `beta^2`"* **HOLDS ONLY IF `ell_P` IS HELD FIXED**. AND `beta^2` IS THE STATEMENT THAT
+DIAGNOSED `beta` AS THE ENTIRE BLOCKER ON THE GEOMETRIC ROUTE. **IF `ell_P` IS NOT FIXED, THAT
+DIAGNOSIS RESTS ON THE OTHER BRANCH.** ***
+
+**THE UNCOMFORTABLE DIRECTION, POSED AND NOT ASSERTED.** In textbook Kaluza-Klein, `kappa_5` is the
+**fundamental** parameter and the 4D gravitational constant is **derived** from it plus the
+compactification volume — **the branch on which `ell_P` is NOT fixed, and therefore the branch on which
+the sealed `beta^2` does not hold as written.** *** BUT THIS FIBER IS NOT A GENERIC EXTRA DIMENSION —
+IT IS THE RECORD CELL'S INTERNAL DIRECTION, WHICH COULD GENUINELY CHANGE WHICH PARAMETER IS PRIMITIVE.
+ISSUED AS RELAY 232 TO BE **ARGUED**, NOT ASSERTED EITHER WAY. ***
+
+*** AND THE TRAP WAS GIVEN ITS OWN SECTION IN THAT RELAY: **DO NOT PICK THE BRANCH THAT PRESERVES
+`beta^2`.** `beta^2` IS A DOWNSTREAM CONSEQUENCE, NOT EVIDENCE ABOUT WHICH PARAMETER IS FUNDAMENTAL.
+CHOOSING THE BRANCH THAT KEEPS A PRIOR RESULT INTACT IS **FITTING — THE SAME FAILURE THE ANTI-FIT
+APPARATUS EXISTS TO PREVENT, ONE LEVEL DEEPER THAN USUAL, AND IT WOULD LOOK LIKE CONSISTENCY RATHER
+THAN LIKE FITTING.** ***
+
+**What this closes:** the three-way convergence of Q-133, Q-136 and Q-137 on "the parent action and
+its normalization" is **discharged as a construction**. **What it does not close:** the held-fixed
+rule itself — *"the reduction alone fixes neither `kappa_5` nor `ell_P`. An independent
+parent-normalization/frame law is required."*
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
