@@ -5744,6 +5744,58 @@ THE ORBIT EXISTS. *** **Branches priced, neither chosen.**
 
 ---
 
+## Q-137. "Is there a derived positive-power term to lift the radion?"
+
+*** RULING: NO. AND WITH IT, **BOTH SIDES OF THE RADION COMPETITION ARE ABSENT — FOR THE SAME
+REASON.** *** Established 2026-07-31 by Codex lane 1 under relay 227
+(`STAGE8_RADION_POSITIVE_POWER_SURFACE_SPECTRUM_TERM_V001.md`, `0b4b69c8…`, 321 lines, seal verified,
+fence-clean, no `= true`).
+
+```text
+the ONLY role-compatible positive candidate:  V_+^surf(phi) = A_+ exp(phi),  q = 1
+                                              *** SYMBOLIC AND UNDERIVED ***
+
+sealed null / causal-diamond surface data     R_f^0  -- *** beta-BLIND ***
+a wrapped 5D surface/spectrum-density term    R_f^1 -- but TYPE-U, not derived
+compact level spacing / lowest eigenvalue     INVERSE powers -- wrong side
+pure circle curvature                         *** NO radion potential | TYPE-R (executed kill) ***
+counting metric, causal-diamond volumes       beta-BLIND unless the missing cross-sector metric
+                                              rule is supplied
+thresholded durability                        not an R_f-dependent potential term as sealed
+```
+
+**THE PAIRING ARITHMETIC:** an interior stationary point of `V = A_- exp(-p phi) + A_+ exp(q phi) +
+V_0` requires **`p > 0` AND `q > 0`**. With `q = 1` the only survivor, **the negative side still needs
+a `p > 0` that nothing supplies.**
+
+*** THE CONVERGENCE, AND IT IS THE FINDING: THE SURVIVING CANDIDATE *"would require a complete
+**PARENT-DERIVED** boundary/surface action and coefficient"* (`:29`, `:90`), AND IT IS A MUTATION
+OBSTRUCTION *"unless the complete parent action class, radion stabilization, spectrum, and matching
+rule are derived **together**"* (`:117-118`, C8 sealed at
+`COUPLED_RECORD_BUNDLE_MODULUS_GATE_V002.md:72-84`). ***
+
+*** THREE INDEPENDENT RETURNS NOW TERMINATE AT ONE OBJECT: ***
+
+```text
+Q-136   the held-fixed rule is unstated AT PARENT LEVEL; the 5d gravitational normalization
+        HAS NO NAME; ell_P is NEVER DEFINED IN ANY ROOT; the reduced action is a written-down
+        result with NO written-down derivation                                    -> PARENT
+Q-133   the NEGATIVE-power side needs the held-fixed rule                          -> PARENT
+Q-137   the POSITIVE-power side needs a complete parent-derived surface action     -> PARENT
+```
+
+*** THE GEOMETRIC ROUTE HAS EXACTLY ONE BOTTLENECK: THE PARENT ACTION AND ITS NORMALIZATION.
+EVERYTHING ELSE ON THAT ROUTE IS DOWNSTREAM OF IT. THREE LANES REACHED THAT CONCLUSION FROM THREE
+DIFFERENT DIRECTIONS WITHOUT BEING TOLD TO. ***
+
+**Issued as relay 231 (Codex 2) — the first relay in this program whose instruction is *write it, it
+is not there to be found*.** Its guard: **defining `ell_P` by stipulating what is held fixed and then
+"deriving" that the same thing is held fixed is a circle**, and it would be inherited by `beta^2`, both
+sides of the potential, and the whole geometric route. **Order of dependence must be stated and
+checked before reporting.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
