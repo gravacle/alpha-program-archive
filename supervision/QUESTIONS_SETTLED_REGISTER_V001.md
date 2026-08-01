@@ -6447,6 +6447,77 @@ independent report, three sites, applied by nobody.**
 
 ---
 
+## Q-151. "What property would a microscopic generator need to fix the tower — and is it weaker than full origin determination?"
+
+*** RULING: **WEAKER. TWICE REFUTED.** THE CENSUS'S LAST GAP DOES **NOT** LOGICALLY REQUIRE THE ORIGIN
+OBJECT. *** Established 2026-08-01 by Codex lane 2 at high effort under relay 243
+(`STAGE8_MICROSCOPIC_GENERATOR_TOWER_FIXING_PROPERTY_V001.md`, `b78d3f7a…`, 227 lines, seal verified,
+fence-clean).
+
+```text
+response_complete_finite_presentation_implies_full_origin_determination = false | TYPE-R
+route3_logically_requires_full_origin                                   = false | TYPE-R
+sealed_derived_response_complete_finite_presentation_found              = false | TYPE-S
+route3_weaker_certificate_currently_derived                             = false | TYPE-U
+route3_currently_independent_of_step1_origin_work                       = NO_VERDICT
+```
+
+*** NOTE THE PRECISION IN THE LAST TWO: **LOGICALLY** INDEPENDENT IS `TYPE-R`; **CURRENTLY**
+INDEPENDENT IS `NO_VERDICT`, BECAUSE THE ONLY AVAILABLE SKELETON MAY STILL ROUTE THROUGH STEP-1 WORK IN
+PRACTICE. THE LANE DID NOT COLLAPSE THE TWO. ***
+
+**THE PROPERTY, NAMED PRECISELY — a RESPONSE-COMPLETE FINITE PRESENTATION:** finite generators or an
+exhaustive generation grammar · decidable response-equivalence relations · exact descent of every
+descendant coefficient from finite primitive data · **proof that no admitted response-changing class
+lies outside the presentation.**
+
+**A candidate skeleton already exists:** the **boundary-superconnection filtration** and the
+**quasi-free / single-operator completeness rules**. *** BUT ADOPTED, HISTORICALLY TARGET-AWARE,
+LIMITED TO FINITE STATIONARY ONE-COMPLEXES, AND LACKING COEFFICIENT DESCENT AND RESPONSE COMPLETENESS.
+A ROUTE-4 THEOREM RESTING ON IT WOULD **MOVE** THE ADOPTION, NOT DISCHARGE IT. *** **Route 4 named as
+the cheapest current candidate.**
+
+---
+
+## Q-152. "Is there a cutoff that closes the all-orders tower?"
+
+*** RULING: NO — AND THE HOPEFUL BRANCH IS **REFUTED BY EXECUTION**, NOT MERELY UNFOUND. ***
+Established 2026-08-01 by Codex lane 1 under relay 244
+(`STAGE8_ROUTE1_CUTOFF_EXISTENCE_AUDIT_V001.md`, `66d40ccd…`, 391 lines, seal verified, fence-clean).
+
+```text
+*** internal_finite_record_algebra_terminates_tower = false | TYPE-R  (EXECUTED) ***
+*** causal_diamond_shape_supplies_route1_cutoff     = false | TYPE-R  (EXECUTED) ***
+route1_cutoff_supplied                  = false | TYPE-U
+record_interval_supplies_route1_cutoff  = false | TYPE-U
+spectral_floor_supplies_route1_cutoff   = false | TYPE-U
+section_5_3_supplies_cutoff             = false | TYPE-U
+proper_time_floor_supplies_route1_cutoff = false | TYPE-C
+```
+
+*** THE TOWER IS **`EXTERNAL_WITH_INTERNAL_INCIDENCE_CONSTRAINTS`**: THE FINITE RECORD INCIDENCE
+ALGEBRA CONSTRAINS THE **INTERNAL** SECTOR, BUT THE TOWER LIVES ON **CONTINUUM SOURCE/FIELD VARIABLES
+PLUS RECORD VARIABLES**. THE FINITE ALGEBRA DOES NOT TERMINATE IT. ***
+
+**The relay's hope was that Gate 2's forced finite complex (`r = 3`, `4+3 = 7`, tree kernel `0`) might
+terminate the tower exactly — an exact bound rather than a suppression, which would also have merged
+routes 1 and 4.** *** IT IS REFUTED. **ROUTES 1 AND 4 DO NOT MERGE, AND ROUTE 4 MUST NOW STAND ON ITS
+OWN AND REACH THE EXTERNAL SECTOR — WHICH IS THE DECIDING CONDITION PUT TO IT IN RELAY 246.** ***
+
+**BOARD AFTER ONE NIGHT — ALL FOUR ROUTES PROBED OR IN FLIGHT:**
+
+```text
+1  finite cutoff                *** CLOSED -- TYPE-R on the internal branch ***
+2  convergence / resummation    relay 247 (Codex 2, high)
+3  microscopic generator        property named and WEAKER than full origin; certificate TYPE-U
+4  native finite-algebra        relay 246 (Codex 1) -- cheapest remaining
+```
+
+*** AND THE ONE THAT CLOSED, CLOSED **BY EXECUTION RATHER THAN BY ABSENCE** — THE DISTINCTION THIS
+PROGRAM HAS BEEN PROTECTING ALL SESSION. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
