@@ -62,8 +62,16 @@ Q-151, Q-156 and Q-158 each supply ONLY PART of the interface. No artifact suppl
 Log_0 is downstream D1, NOT an immediate U3 output. Ward compatibility is downstream D4. (Q-194)
 ```
 
-*** EVERYTHING ELSE IN THIS LIST IS DOWNSTREAM OF THIS ONE OBJECT. IT IS THE BEST-SPECIFIED UNBUILT
-THING IN THE PROGRAM. ***
+*** THE **EVALUATION CHAIN** (SECTION 3) IS DOWNSTREAM OF THIS OBJECT. **THE ACTION-SIDE DEBTS ARE
+NOT** — seam 11 (the closure action), rows 17-18 (the gravity and matter summands), seam 4's `c` and
+seam 10's coupling ray are **CO-INPUTS to the stationary problem**, built alongside the package, not
+consequences of it. Q-176's ruling binds: closing the package does not select P5, fix `c`, or derive
+the action. *** [REVIEW CORRECTION, Fable pass 2026-08-01: the prior wording repeated the refuted
+seven-seam collapse in softer language.]
+
+*** IDENTITY THAT RECONCILES THE TWO "ROOTS": `rho_pre` IS U2's "positive normalized pre-state"
+(v004:17-19) — SO Q-181's "rho_pre AT THE ROOT" AND Q-190's "PACKAGE AT THE ROOT" ARE THE SAME
+STATEMENT IN TWO VOCABULARIES. *** It is the best-specified unbuilt thing in the program.
 
 ---
 
@@ -105,6 +113,16 @@ D4  *** THE Q-54 TYPING REPAIR. *** TYPE-C conflates FIVE states. Adopt TYPE-P f
 
 ---
 
+## 4b. QUEUED WORK V002 HAD SILENTLY DROPPED — [REVIEW CORRECTION, Fable pass]
+
+```text
+RELAY 270  WRITTEN, NEVER SENT -- "what actually requires a smooth connection?"
+           *** IT INFORMS THE SMOOTH FORK AND MAY RETIRE SEAMS 1 AND 3 ENTIRELY -- A
+           ROUTE-SHORTENING ITEM THAT VANISHED FROM THE PLAN. *** restored as D5's informer.
+RELAY 272  WRITTEN, HELD -- force the T7 action multiplier c. A pass-2 build; hold stands.
+D5 (restored from V001's D3)  THE SMOOTH FORK -- send 270 before deciding it.
+```
+
 ## 5. MACHINERY — MEASURED, NOT ASSERTED (Q-198)
 
 ```text
@@ -119,7 +137,7 @@ SCOPE:  evaluation fences . cross-lane holds
 
 ---
 
-## 6. THE OTHER DEBTS — REAL, BUT ALL DOWNSTREAM OF SECTION 2
+## 6. THE OTHER DEBTS — SPLIT: EVALUATION-CHAIN DEBTS (downstream of §2) vs ACTION-SIDE CO-INPUTS (NOT downstream — see §2 correction)
 
 ```text
 row 13  a complete generator          row 16  a record-probability sector

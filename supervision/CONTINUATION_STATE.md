@@ -3740,3 +3740,17 @@ TWELVE DISSOLVED FRAMINGS — MOST OF THEM THE REVIEWER'S, EVERY FIX A NEW CATEG
 THE VOCABULARY HELD UNDER A NEW OBJECT. That is a method result, not a null. ***
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
+
+
+---
+
+## 2026-08-01 SESSION CLOSE-OF-DAY STATE (appended; entries above may be stale)
+
+Register head Q-198. Task list: TASK_LIST_HERE_TO_ALPHA_2026-08-01_V002.md (amended by Fable review).
+THE INSIGHT TO KEEP: B0 IS A ROLE, NOT AN OBJECT (Q-194) — bar: frozen trace + d_C0/d_U1/d_U2/d_U3 +
+certificates + no post-output supplementation. rho_pre is U2's pre-state, so Q-181 and Q-190 name the
+same root. Blocking decisions D1 (P7 identity — a SPECIFICATION decision, unreadable from prose),
+D2 (EH summand in Gamma_K), D3 (leading-order acceptability), D4 (TYPE-P typing repair), D5 (smooth
+fork — send relay 270 first). Machinery audit Q-198: 16 of 20 relay fences protect nothing; retire
+bare token bans. Lanes: Einstein RETIRED (credit). Codex 1 + Codex 2 + Bohm construct; Bohm's work
+gets Codex verification (Bohm scorecard: 10 proposals, 6 refuted).
