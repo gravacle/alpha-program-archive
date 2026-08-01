@@ -6928,6 +6928,59 @@ SHOULD BE SAID AS SUCH. ***
 
 ---
 
+## Q-162. "Does first orthogonality force saturation?"
+
+*** RULING: **NO — `first_orthogonality_entails_saturation = false | TYPE-R`, EXECUTED.** THE
+DISTINCTION THE RELAY FLAGGED AS POSSIBLY REAL **IS** REAL. *** Established 2026-08-01 by Codex lane 1
+under relay 255 (`STAGE8_ONSET_SATURATION_STEP3_FORCE_CHECK_V001.md`, `4a12e9e3...`, 312 lines, seal
+verified, fence-clean).
+
+```text
+first_orthogonality_entails_saturation         = false | TYPE-R
+relative_onset_saturation_derived              = false | TYPE-C
+shortest_path_physical_selection_theorem_found = false | TYPE-S
+```
+
+> ***WHERE THE PROCESS ENDS IS FORCED inside the declared two-level geometry. HOW IT GETS THERE — the
+> shortest relative projective path, the bound saturation — REMAINS ADOPTED.***
+
+**AND THE IMPORTED THEOREM IS NAMED: `MANDELSTAM-TAMM` (with Fubini-Study), the standard quantum
+speed limit.** *** THAT MAKES THE PHYSICS CLEAN: MANDELSTAM-TAMM BOUNDS THE **TIME TO REACH AN
+ORTHOGONAL STATE**. SATURATING IT MEANS THE EVOLUTION IS **GEODESIC IN FUBINI-STUDY** — THAT THE
+PROCESS TAKES THE **OPTIMAL** PATH. **REACHING ORTHOGONALITY DOES NOT FORCE TAKING THE SHORTEST ROUTE
+THERE.** TWO GENUINELY DIFFERENT CLAIMS. *** It remains an import over standard Hilbert/Fubini-Study
+geometry, not a record-structure derivation.
+
+*** THE REVIEWER'S THIRD PROPOSED COLLAPSE OF THE NIGHT, AND THE THIRD REFUTED: ***
+
+```text
+OBS-11's axis collapse             REFUTED -- a pun on the preposition "over"
+sector-reach = dimensionful reach  REFUTED -- K, B_ind(K), p_loc are dimensionless AND external
+first orthogonality = saturation   REFUTED -- WHERE versus HOW
+```
+
+*** ALL THREE WERE FLAGGED AS SUSPECT **IN THE RELAY THAT CARRIED THEM**, AND ALL THREE REFUTATIONS
+WERE CHEAP AND PRODUCED A SHARPER OBJECT. THE ALTERNATIVE — NOT PROPOSING THEM — WOULD HAVE LEFT THREE
+VAGUER QUESTIONS UNASKED. **PROPOSE THE COLLAPSE, NAME IT AS SUSPECT, LET THE LANE KILL IT.** ***
+
+**THE ROUTE NOW HAS TWO NAMED `TYPE-S` BUILD TARGETS — BUILDS, NOT SEARCHES:**
+
+```text
+STEP 1   a TARGET-INDEPENDENT LOCALIZATION THEOREM        -- issued as relay 256
+STEP 3   a SHORTEST-PATH PHYSICAL SELECTION THEOREM       -- open
+```
+
+**Relay 256 carries the three premises verbatim** (`PRIMITIVE_RELATIVE_PHASE_STABILIZER_V002.md:98-115`)
+and a **fourth** proposed collapse, flagged in the reviewer's own name: **Gate 4's "modulo gauge" may
+supply premise 2 and its incidence transport may supply premise 3, leaving only locality open.** ***
+BUT "MODULO GAUGE" IS ABOUT A DIFFERENTIAL EQUIVALENCE CLASS AND PREMISE 2 IS ABOUT RELATIVE-FRAME
+CHANGES; AND CELLS AND PATCHES ARE NOT OBVIOUSLY THE SAME OBJECT. *** And the stake is stated: the
+corpus **explicitly declines to introduce `a` as a physical field or identify it with electromagnetism
+because these premises are unestablished** — *** AN UNPROVED IDENTITY HERE WOULD MANUFACTURE THE
+CONNECTION AND, THROUGH IT, THE ELECTROMAGNETIC FIELD. ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
