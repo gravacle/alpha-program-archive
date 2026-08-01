@@ -9439,8 +9439,11 @@ computed. NOT BLOCKED BY PROCESS. NOT HIDDEN BY MACHINERY — today's audits rem
 ## Q-221. IDENTITY-vs-PROPERTIES: UNDECIDABLE-YET at the induced operator — and the DECIDING EXPERIMENT is named.
 
 **Relay 303 (Task 2d, Codex 1).** `STAGE8_TASK2D_ALPHA_CHAIN_STATE_IDENTITY_DEPENDENCY_AUDIT_V001.md`,
-`5f3f585d9b8696d53d1a002245fe055019a59f72e248b627aa7ba6661f743dc7`, 589 lines. Hash verified,
-fence-clean.
+`5f3f585d9b8696d53d1a002245fe055019a59f72e248b627aa7ba6661f743dc7`, 589 lines. Hash verified.
+**Fence note:** two scan hits (`:197`, `:422`) inspected at source — both are STRUCTURAL CITATIONS
+of the adopted conversion formula (one quoting `alpha_complete_dimension_convention_ledger_v004`,
+one inside a would-build block). No value present, nothing computed. The Q-181 `:213` precedent
+applies.
 
 ```text
 PROPERTIES-ONLY    the conditional map G -> H_R[G] . the projector at fixed operator .
