@@ -1,6 +1,12 @@
 DERIVED RESULTS INVENTORY — WHAT THIS PROGRAM ACTUALLY HAS
 
-2026-08-01. Register head Q-160. One screen.
+2026-08-01, ~07:30. Register head Q-171. Published `0790d52`. One screen.
+*** AND THE SMOOTH SIDE HAS NO DOMAIN. Q-171: the corpus does not define an actual PRPS cover, and
+`LOCAL_PROJECTIVE_RECORD_BUNDLE` builds its principal `U(1)` bundle **from** patches `U_i` that it
+assumes at `:22` and never defines. **THE TRANSITION FUNCTIONS, THE TRIPLE-OVERLAP COCYCLE AND THE
+BUNDLE ARE ALL PRESENT; THE SPACE THEY LIVE ON IS NOT.** Whether anything defines the patches is under
+test (relay 265). ***
+
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
 
 *** THE REGISTER RECORDS QUESTIONS SETTLED. IT DOES NOT COLLECT WHAT THE PROGRAM **HAS**. THIS DOES.
@@ -30,6 +36,12 @@ THE PRE-ROOT EOM EQUIVALENCE THEOREM. Q-149. conditional_EOM_redundancy_theorem_
           incidence magnitude and U(1) holonomy. FINITE BASIS AT EACH DERIVATIVE ORDER.
           *** THE TRANSFER TO THIS STRUCTURE WAS CHECKED, NOT ASSUMED. *** The Pauli mutation
           survives (TYPE-R) -- the equivalence is not vacuous.
+
+THE COMPOSITION-LOOP CARRIER, BUILT. Q-168. composition_loop_structural_carrier_result_built
+          = true. *** EXACT INCIDENCE RANK 3, EXACT CYCLE RANK 1, cycle generator
+          e_a0 - e_0b + e_ab - e_ba. Phi = THE GAUGE-INVARIANT RATIO OF THE TWO ORDERED PATH
+          TRANSPORTS. *** composition_loop_carries_global_holonomy = true. Phi was NOT evaluated.
+          **BUT SEE SECTION 5: THE CARRIER IS PROTOCOL-MANDATED, NOT FORCED.**
 
 MD-3, THE ACCEPTANCE TEST FOR THE ROOT OBJECT. Q-116. CM3_passes_MD3 = false | TYPE-R.
           The countermodel that survived all six origin routes and a combinatorially rich interior
@@ -106,6 +118,43 @@ ROUTES, IS NOT WHAT THIS PROGRAM NEEDS — IT NEEDS DESCENT PRESENTATIONS WITH E
 
 ---
 
+## 4b. *** THE TRANSFER-CHECK RESULT — FOUR IMPORTS TESTED, AND IT IS ITSELF A FINDING ***
+
+**Every imported construction this program has leaned on has now been checked against THIS structure
+rather than assumed to apply. The record:**
+
+```text
+KALUZA-KLEIN framing                      Q-142  *** AN IMPORT. Route reframed (DoR 003). ***
+smooth-to-discrete connection restriction Q-166  available, DOES NOT TRANSFER
+nerve / Cech construction                 Q-167  candidate PER COVER only; all five independence
+                                                 checks TYPE-U; "functor" ASPIRATIONAL
+nerve theorem / good-cover hypothesis     Q-171  *** CANNOT BE TESTED -- THE COVER DOES NOT EXIST ***
+```
+
+*** FOUR FOR FOUR. **NOT ONE IMPORTED CONSTRUCTION HAS REACHED THIS STRUCTURE.** THE ONE TRANSFER
+CHECK THAT **PASSED** IS IN SECTION 1 — THE PRE-ROOT EOM EQUIVALENCE THEOREM, WHERE THE TRANSFER WAS
+CHECKED RATHER THAN ASSUMED AND THE PAULI MUTATION SURVIVED. **THAT CONTRAST IS THE POINT: THE CHECK
+IS NOT A FORMALITY AND IT DOES SOMETIMES PASS.** ***
+
+---
+
+## 4c. THE CURVATURE WALL — THREE SEALED RESULTS, ONE CONSEQUENCE
+
+```text
+Q-166  bridge_needs_loops_for_transport_gauge_level      = false
+       bridge_needs_loops_for_curvature_plaquette_level  = true
+Q-168  the loop EXISTS -- exact cycle rank 1 (section 1)
+Q-168  *** composition_loop_is_curvature_plaquette_carrier = false | TYPE-R ***
+       V011: "no 2-cell" (:1840); "No filled 2-cell is included in the trace carrier" (:1881-1882)
+       -- so NO face generator, NO face area, NO local curvature two-cochain, NO Maxwell density
+```
+
+*** CURVATURE NEEDS LOOPS. THE LOOP THE PROGRAM GETS CANNOT CARRY CURVATURE. **AND CURVATURE IS WHERE
+A MAXWELL TERM WOULD HAVE TO COME FROM.** WHETHER ANY **DERIVED** FILLED TWO-CELL EXISTS ANYWHERE IS
+UNDER TEST (relay 264) AND IS **NOT** ASSERTED HERE EITHER WAY. ***
+
+---
+
 ## 5. PARTIALLY DERIVED — WITH THE REMAINDER ITEMIZED
 
 ```text
@@ -125,6 +174,15 @@ action; the Thomson response; alpha.
 J_FS,rel = pi hbar/2 -- *** THE LOWER BOUND IS DERIVED from the imported theorem. SATURATION IS
 ADOPTED, NOT DERIVED. *** And the object is a shortest RELATIVE projective path on the record cell
 -- the same geometry in which pi/2 was just derived.
+
+THE COMPOSITION LOOP (section 1) -- *** ITS STRUCTURE IS DERIVED; ITS **SELECTION** IS NOT. ***
+  DERIVED    incidence rank 3, cycle rank 1, the generator, Phi as a gauge-invariant ratio
+  NOT FORCED V011_carrier_selection_derived_from_composition = false | TYPE-R -- the general
+             composition law PERMITS SEQUENTIAL CHAINS and never derives the commuting/confluent
+             two-handle diamond that would necessitate K_square. K_square_protocol_mandated = true.
+             *** COMPOSITION **ALLOWS** THE DIAMOND; IT DOES NOT **REQUIRE** IT. ***
+  UNSEALED   V011_composition_loop_prediction_sealed = false | TYPE-U -- still MANDATED for
+             CORE-RESULT-SEAL at V011:1790.
 ```
 
 ---
