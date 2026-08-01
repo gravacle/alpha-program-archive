@@ -3,7 +3,8 @@
 Date: 2026-08-01  
 Lane: Codex lane 2  
 Task: 2d  
-Register head at construction start: Q-216
+Register head at construction start: Q-216  
+Send-time currency recheck: Q-217
 
 ## Lead determination
 
@@ -72,8 +73,9 @@ DOES_THE_OBJECT_EXIST = PARTIAL
           U2 instance exists
 
 IS_THE_VERSION_CURRENT = true
-  basis: register read through Q-216; Q-216 makes U1_008 current and leaves U2
-         next
+  basis: register read through Q-217; Q-216 makes U1_008 current and leaves U2
+         next; Q-217 confirms that C0/U1 still supplies no finite scalar
+         representation or non-tautological B_square source operator
 
 ARE_THE_INPUTS_PRESENT = PARTIAL
   basis: C0_008 and U1_008 exist; the P5 census contains rows rather than
@@ -81,8 +83,12 @@ ARE_THE_INPUTS_PRESENT = PARTIAL
 ```
 
 Q-216 does not supply state, dynamics, effects, contacts, or U3 content. It
-only establishes U1 conventions on the C0 interface. No later bearing ruling
-was present at construction start.
+only establishes U1 conventions on the C0 interface. Q-217 arrived after the
+initial construction and seal. It does not supply a missing U2 instance. It
+independently confirms the scalar-realization absence found here and redirects
+the finite-incidence realization problem to future source/dynamics operators
+across U2/U3. That redirect is a consumer requirement, not permission to pull
+the `B_square` bridge or any U3 datum into this U2 assembly.
 
 ### 1.2 Exact signature
 
@@ -132,6 +138,7 @@ P7  contact/source rules and a raw-correlator output interface.
 | `STAGE8_FIELD_CTP_V002_SECOND_ADVERSARIAL_KILL_DETERMINATION_V001.md` | `58f2c82121e7fb34c91212ca0181c71c455eca077ce9f6d060835eb0407c3c93` | Scalarization firewall and countermodel |
 | `primitive_record_cell_selection_principle_v004.md` | `13d227ceb2198d96b0e4e2fef57b874cea71cb755320508fbf4c6d64a00c507e` | Formal state/effect/contact consumer roles |
 | `primitive_complete_boundary_transition_functional_principle_v002.md` | `be79ca5e08010b53285cd157ba4c18d2029f08bc93bea2db02d5423b67428c34` | Complete record-conditioned CTP architecture |
+| `STAGE8_TASK2F_FINITE_INCIDENCE_REALIZATION_FUNCTOR_FORCING_PROTOCOL_RESULT_V001.md` | `a4d8b9c44fd0705ba97fd49d1e0c8373c28e12e2c3acea9409b60217b274a0f8` | Q-217: 1,088 filtration survivors and missing scalar/source realization of `B_square` |
 | Decision of Record 008 | `d51a6d5c5bb0020a081cfd2adfb545b9f5ed86ce660d3feacadc5ef68140fb19` | Premise standing and finite-authority falsifier |
 
 All conditional construction claims below carry `TYPE-P | premises: DoR-008`.
@@ -741,6 +748,34 @@ ONE_SHARED_INTERFACE_IS_ALL_OF_U2 = false | TYPE-R |
         ContactPort, and DomainPort fields
 ```
 
+### 7.1 Send-time Q-217 incidence redirect
+
+Q-217 establishes that the finite label-level functor is not forced: all
+1,088 incidence-respecting sequential filtrations survive the applicable
+tests, and even the additional `v_00`-first anchor leaves 272. More importantly
+for this artifact, it finds that `C0_008/U1_008` has no finite scalar
+representation or non-tautological source operator corresponding to
+`B_square`. The operator-level falsifier therefore cannot yet be posed.
+
+This does not change the U2 partial-assembly verdict. It confirms that the
+scalar state port is genuinely absent at C0/U1 level, and it adds one
+downstream requirement on the source/dynamics content still to be built:
+the eventual U2/U3 package must make `B_square` expressible before the
+incidence falsifier can run. Q-217 assigns that burden to U2/U3 jointly; it
+does not identify U2 alone as the missing bridge.
+
+```text
+Q217_SUPPLIES_MISSING_U2_INSTANCE = false | TYPE-S |
+  scope: state, dynamics, effects, contacts, and domains supplied by Q-217
+Q217_CHANGES_U2_PARTIAL_ASSEMBLY_VERDICT = false | TYPE-R |
+  test: Q-217 supplies no instance for any of the four open U2 ports
+B_SQUARE_SOURCE_DYNAMICS_REALIZATION_INSTANTIATED = false | TYPE-U |
+  would-build: source/dynamics operator realization across the completed
+               U2/U3 package that expresses B_square on its physical carrier
+U2_ALONE_IDENTIFIED_AS_B_SQUARE_BRIDGE = false | TYPE-R |
+  test: Q-217 assigns the remaining source/dynamics content to U2/U3 jointly
+```
+
 ## 8. Scope and searches
 
 Roots entered:
@@ -796,6 +831,8 @@ U2_EFFECT_PORT_INSTANTIATED = false | TYPE-U
 U2_DYNAMICS_COMMON_ORIGIN_INSTANCE_INSTANTIATED = false | TYPE-U
 U2_CONTACT_RULE_INSTANTIATED = false | TYPE-U
 U2_DYNAMICS_EFFECT_COMMON_DOMAIN_INSTANTIATED = false | TYPE-U
+B_SQUARE_SOURCE_DYNAMICS_REALIZATION_INSTANTIATED = false | TYPE-U
+U2_ALONE_IDENTIFIED_AS_B_SQUARE_BRIDGE = false | TYPE-R
 
 d_U2_SKELETON_PREMISE_LEVEL_TOTAL = true | TYPE-P | premises: DoR-008
 d_U2_PREMISE_LEVEL_TOTAL = false | TYPE-U

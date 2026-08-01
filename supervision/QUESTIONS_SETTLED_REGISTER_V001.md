@@ -9338,6 +9338,29 @@ THE SOURCE/DYNAMICS OPERATORS THAT U2/U3 MUST SUPPLY — NOT ON PICKING A FILTRA
 (U2, IN FLIGHT) IS THE NEXT WORD ON EXACTLY THAT.** No decision goes to the principal until it
 returns. ***
 
+## Q-218. `U2` is PARTIAL — `rho_pre` has nowhere to sit, BECAUSE the module was built clean. The state port needs the scalarization functional, and TWO candidates exist.
+
+**Relay 300 (Task 2d, Codex 2).**
+`STAGE8_CTP_PHYS_INPUT_PACKAGE_U2_DOR008_PREMISE_LEVEL_PARTIAL_ASSEMBLY_DETERMINATION_V001.md`,
+`2b6291227b7ac5967796014c2ad217c9eb084b5bb6df23fed0a7bca464e8bfab`. Hash verified, fence-clean.
+
+```text
+BUILT at premise level: the inclusive module identity . bounded carrier/domain anchor . the typed
+U2 skeleton with a total skeleton map.
+*** NOT ASSEMBLED: the declared rho_pre CANNOT BE PLACED on the state-free Hilbert C*-module
+C0_008 -- no positive scalarization or trace is supplied. ***
+OPEN PORTS (all TYPE-U): state . effects . dynamics common-origin instance . contact rule .
+common domain. U2_008_INSTANCE_EXISTS = false | TYPE-U. PHYSICAL_VERDICT = NO_VERDICT.
+Q-217 folded at send time: U2 alone is NOT the B_square expressibility bridge.
+```
+
+*** THE STOP IS THE DESIGN WORKING, NOT A DEFECT: the kill-pass FORCED the module state-free
+(Field 7's repair -- no exported trace or measure), and the V002 text priced it: "scalarization
+requires a later positive functional outside C0." **THE STATE PORT IS THAT LATER FUNCTIONAL, AND
+THE SECOND KILL-PASS ALREADY FOUND "AT LEAST TWO INEQUIVALENT DISTINGUISHED CANDIDATES" (Q-211).**
+A TWO-MEMBER INSTANTIATED FAMILY IS THE PROGRAM'S BEST-CASE PROTOCOL TARGET — Q-200-COMPLIANT
+WHERE ALMOST NOTHING ELSE IS. Relay 301 runs it. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
