@@ -7395,6 +7395,63 @@ THE ONE FINDING IT WANTS TO OWN." *** Struck overdetermination bar: **ninth** re
 
 **Issued on this basis:** relay 262 — is the tree/loop split the allow/require boundary? — to Einstein.
 
+## Q-170. The Q-33 seal conflict — RESOLVED. It is not a hierarchy violation, and it is not singular.
+
+**Raised by:** Einstein in the relay-258 return (Q-169), declared and correctly left to the reviewer:
+*"Q-33's source artifact has no `.seal.sha256` sidecar while the sealed check it corrects does. An
+unsealed artifact is correcting a sealed one."* **Checked at source by the reviewer.**
+
+### The facts
+
+```text
+BID_MONOIDAL_EXTENSIVITY_DERIVATION_V001.md            *** NO SIDECAR ***  -- Q-33's source
+STAGE8_RESPONSE_MAP_O7_ANALOGUE_WITNESS_CHECK_V001.md  has a sidecar        -- the corrected check
+```
+
+**Both facts confirmed.** *** BUT THE FRAMING "AN UNSEALED ARTIFACT CORRECTING A SEALED ONE" IMPLIES A
+HIERARCHY THIS CORPUS DOES NOT HAVE. ***
+
+```text
+workspace/*.md          649
+WITHOUT A SIDECAR       151   *** 23%. Q-33's SOURCE IS ONE OF 151, NOT AN ANOMALY. ***
+```
+
+**And the corpus's own integrity check agrees:** `seal_integrity` is severity `RED` but reports status
+`GREEN` while *listing* 2078 unsealed artifacts by class. *** THE CHECKER **ENUMERATES** UNSEALED FILES;
+IT DOES NOT **FAIL** ON THEM. SEALING IS NOT UNIVERSAL IN THIS PROGRAM AND UNSEALED IS NOT DEFECTIVE. ***
+
+### The content verifies in present state
+
+Every line Q-33 quotes is present at its cited location today:
+
+```text
+:83   "Disjoint additivity alone does not prove a thermodynamic response on a connected cellulation"
+:118  "the limit depends on cellulation, the connected response gate fails"
+:123  exact_disjoint_monoidal_additivity_proved = true
+```
+
+### The residual risk, stated precisely and NOT larger than it is
+
+*** A SEAL IS AN **INTEGRITY** MECHANISM, NOT A **TRUTH** MECHANISM. IT PINS CONTENT AGAINST LATER
+EDITING; IT CERTIFIES NOTHING ABOUT CORRECTNESS. **SO THE ONLY THING MISSING IS THE GUARANTEE THAT THIS
+TEXT IS UNCHANGED SINCE Q-33 WAS WRITTEN.** The content agrees NOW. Nothing in Q-33's ruling depends on
+a claim the artifact does not presently make. ***
+
+### NOT REPAIRED — deliberately
+
+*** THE REVIEWER DID **NOT** SEAL IT. SEALING IT TODAY WOULD PIN THE CURRENT BYTES AND SILENTLY IMPLY A
+CUSTODY THAT NEVER EXISTED — **A REPAIR DISGUISED AS A RECORD.** THE STANDING RULE IS REPORT, NEVER
+REPAIR, AND IT APPLIES TO PROCESS DEFECTS AS WELL AS TO PHYSICS. ***
+
+**Einstein's own assessment stands and is confirmed: the answer is invariant either way.** Q-33's
+ruling — that the comparison IS defined and that (i) and (ii) are two conditions in one theorem's
+hypothesis list — is unaffected.
+
+**Standing:** `q33_source_unsealed = true`; `q33_ruling_affected_by_seal_status = false`;
+`unsealed_workspace_md_is_systemic_not_anomalous = true` (151/649). *** THE 151-FILE CLASS IS NOW
+NAMED. IT IS NOT A TASK; IT IS A PROPERTY OF THE CORPUS THAT ANY FUTURE SEAL-BASED ARGUMENT MUST
+ACCOUNT FOR. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
