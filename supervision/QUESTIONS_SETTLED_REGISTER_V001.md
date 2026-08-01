@@ -9471,6 +9471,46 @@ IDENTITY           *** NO CONSUMER EARNS IT -- because no fixed-dynamics two-sta
 And the two concrete admissible states EXIST: Q-211's two distinguished scalarization candidates.
 ***
 
+## Q-222. **DIFFERENT.** OBS-14 IS REFUTED BY ITS PRE-REGISTERED TEST — and the new-physics ask LOCALIZES to the state's RESPONSE CUMULANTS.
+
+**Relay 304 (Task 2d, Codex 2).** `STAGE8_RESPONSE_STATE_FACTORIZATION_TEST_FIXTURE_RESULT_V001.md`,
+`e8ce5095f02d8291b43350880fff40b0362d1c81f2d1bbc5b51b41db3926d770`. Hash verified, fence-clean.
+
+```text
+On ONE frozen non-state fixture, Q-211's exact states:
+  omega_epsilon (multiplicative)  ->  *** THE ZERO OPERATOR *** -- all connected second cumulants
+                                      vanish
+  omega_H (centered character direction) -> *** A NONZERO OPERATOR ***
+FULL_PREPROJECTION_OPERATOR_EQUAL = false | TYPE-R . not U1-equivalent either | TYPE-R.
+"Branch exchange, reality, and index conventions cannot identify a zero operator with a nonzero
+one."
+
+*** OBS14_STATE_IS_ROLE_ONLY_AT_RESPONSE_PRODUCER = false | TYPE-R. THE PRINCIPAL'S CONJECTURE
+IS REFUTED, CLEANLY, BY THE TEST REGISTERED BEFORE ITS RESULT EXISTED. ***
+
+FIRST STATE-SENSITIVE COMPONENT = the CONNECTED CTP SECOND RESPONSE OPERATOR.
+*** NEW_PHYSICS_ASK_LOCALIZED = RESPONSE_RELEVANT_STATE_CUMULANT_CLASS. ***
+The fixture is explicitly nonphysical: it proves the chain CAN consume identity; it selects no
+physical state and no value.
+```
+
+### What this means, and it is smaller and better than Q-220 feared
+
+*** THE CHAIN CONSUMES THE STATE **THROUGH ITS CONNECTED CORRELATIONS** — of course it does:
+**INDUCED RESPONSE IS CORRELATION STRUCTURE. ALPHA MEASURES THE RECORD MEDIUM'S CONNECTED
+CORRELATIONS.** A factorizing state carries no correlations, hence zero stiffness, hence no
+coupling. THE ABSENT PHYSICS IS NOT "WHO THE STATE IS" — IT IS **WHICH CONNECTED RESPONSE
+CUMULANTS THE PRE-STATE HAS.** ***
+
+### The sealed lead that must be checked BEFORE the principal is asked to author physics
+
+*** THE P5 CENSUS CONTAINS "AN ADOPTED STATIONARY **QUASIFREE** STATE/CONTOUR BRANCH" (typed,
+never promoted). A QUASIFREE STATE IS **EXACTLY** ONE WHOSE RESPONSE-RELEVANT CUMULANT CLASS IS
+ITS TWO-POINT FUNCTION — the higher connected cumulants vanish BY THE CLASS. IF THAT ADOPTED
+BRANCH GOVERNS, THE ASK REDUCES FROM "a cumulant class" TO "the two-point function on the
+ratified carrier" — WHICH MAY BE CONSTRAINED OR EVEN DERIVABLE. Relay 305 checks this before
+any D6 decision is posed. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER

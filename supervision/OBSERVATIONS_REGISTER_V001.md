@@ -629,3 +629,8 @@ CONSTRAINED PROPERTIES plus the record history, with "the state" a ROLE filled b
 the admissible continuum. CHECKABLE: relay 303's identity-vs-properties audit IS the test,
 registered here BEFORE its return. If any consumer varies across the continuum, the conjecture
 FAILS THERE and that consumer is the named new-physics ask. Framing, not a theorem.
+
+*** OUTCOME (Q-222, relay 304): REFUTED at the response producer -- two admissible states give a
+zero vs nonzero connected response operator on a frozen fixture. The state is NOT role-only where
+alpha is made. The ask localized to the RESPONSE-RELEVANT CUMULANT CLASS. The pre-registration
+held: the conjecture died by its own declared test. ***
