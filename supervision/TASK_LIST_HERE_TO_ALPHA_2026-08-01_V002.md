@@ -196,8 +196,9 @@ TASK 1  CLEAR THE PATH                                    *** STATE: COMPLETE (D
         b. DONE -- smooth fork RULED (DoR 007): DERIVE THE LIMIT; (M,g) off the table
         c. rule D4 -- *** RULED (DoR 006): TYPE-P adopted, lazy migration. ***
 
-TASK 2  BUILD THE SPACE (CTP_PHYS_INPUT_PACKAGE)          STATE: b PARTIAL -- source/record half
-        INSTANTIATED (Q-201); the FIELD/CTP half is THE gap; a failed-at-coverage (Q-200)
+TASK 2  BUILD THE SPACE (CTP_PHYS_INPUT_PACKAGE)          STATE: b -- source/record half built
+        (Q-201); field half needs ADOPTION (Q-203); *** DRAFT COMMISSIONED (relay 287), PRINCIPAL
+        RATIFIES BEFORE ANYTHING BUILDS ON IT ***
         a. P5-family exclusion theorem -- the shortcut into U2
         b. C0 + d_C0     c. U1 + d_U1     d. U2 + d_U2 (rho_pre lives here)     e. U3 + d_U3
         f. certify: frozen trace, no post-output supplementation
