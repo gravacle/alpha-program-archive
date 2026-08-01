@@ -9004,6 +9004,37 @@ degeneracy is genuinely unbounded and seam 10 needs a new physical input. ***
 **The census correction stands either way: seam 10's "eight-fold" was an artifact of counting LAWS
 under an arbitrary bound. The object was always the PLANE.**
 
+## Q-205. THE PLANE-COVERAGE THEOREM IS PROVED — seam 10's family is EXACTLY FOUR PLANES, and coverage is REPAIRED.
+
+**Relay 288 (Task 3d, Codex 2).** `STAGE8_TASK3D_PLANE_COVERAGE_THEOREM_V001.md`,
+`50f0195979c4ee6fcb03e5a262e7f06b7f4d4270caffeb6674836b80fb7d7caf`, 443 lines. Hash verified,
+fence-clean.
+
+```text
+*** THE THEOREM:  dim_R K(w) = 4 N_D(w) + 2 N_O(w)  on the declared reduced odd/odd carrier. ***
+Nullity two forces N_D = 0 (no diagonal I_E/Z_E relation) and N_O = 1 (exactly one off-diagonal
+sign-pair). *** EVERY NULLITY-2 KERNEL IS EXACTLY ONE OF FOUR X_E/Y_E PLANES, ALL FOUR REALIZED.
+THE LAW-TO-KERNEL IMAGE HAS CARDINALITY EXACTLY FOUR. ***
+
+*** REVIEWER VERIFICATION, INDEPENDENT CODE: THE FORMULA CHECKED ON ALL 49 PRIMITIVE CENSUS
+TRIPLES — 49 AGREE, 0 FAIL — PLUS THE INFINITE FAMILY AND ARBITRARY LARGE TRIPLES
+((7,3,4), (5,-2,3)...). ***
+
+CONSEQUENCES (the lane's, all typed):
+  infinite law-multiplicity adds NO new reduced kernel plane
+  kernel-image equivalence DERIVED -- TYPE-P, conditional on the declared reduced carrier + Z_w ansatz
+  *** THE FOUR-PLANE FAMILY IS FINITE, INSTANTIATED, Q-200-COMPLIANT -- TYPE-P ***
+  full physical grading-law equivalence      NO_VERDICT
+  complete-carrier coverage                  TYPE-U (the reduced carrier is the declared scope)
+  step 3 deliberately NOT executed           TYPE-C -- the theorem was the deliverable
+```
+
+*** SEAM 10's HISTORY IN ONE LINE: "eight-fold degeneracy" (23 July) -> reviewer's false halving
+(Q-178, refuted Q-183) -> laws INFINITE (Q-204) -> **planes EXACTLY FOUR (this entry, proved and
+independently verified).** THE OBJECT WAS ALWAYS THE PLANE. Task 3d resumes at protocol step 3 with
+a lawful family of four — the first time in this program a selection step is LEGAL by its own rules.
+***
+
 ---
 
 ## HOW TO USE THIS REGISTER
