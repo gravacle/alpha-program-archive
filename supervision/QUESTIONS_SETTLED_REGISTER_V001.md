@@ -9511,6 +9511,31 @@ BRANCH GOVERNS, THE ASK REDUCES FROM "a cumulant class" TO "the two-point functi
 ratified carrier" — WHICH MAY BE CONSTRAINED OR EVEN DERIVABLE. Relay 305 checks this before
 any D6 decision is posed. ***
 
+## Q-223. The quasifree branch governs the FREE SOURCE ONLY — not the completed `rho_pre`. D6 is a genuine principal physics question, NARROWED.
+
+**Relay 305 (Task 2d, Codex 1).** `STAGE8_TASK2D_QUASIFREE_BRANCH_RHO_PRE_GOVERNANCE_AUDIT_V001.md`,
+`8aad619a542aba5991288485509c91a41425aa2fed81fb77d95c73119c0db84d`, 562 lines. Hash verified,
+fence-clean.
+
+```text
+GOVERNANCE: SOURCE_QUASIFREE_BRANCH_GOVERNS_COMPLETED_RHO_PRE = false | TYPE-R.
+   The branch governs the FREE SOURCE-CAR state and free contour only. Source state, finite
+   source-record state, and completed rho_pre live on DIFFERENT ALGEBRAS with NO SEALED TRANSPORT.
+v004 requires only positivity / trace-class / unit trace of full rho_pre -- quasifreeness NOT
+   imposed. NO sealed KMS, passivity, Hadamard, extremality, Gibbs, or thermal selector exists in
+   scope. Parent-State Covariance supplies a COMMON-ORIGIN REQUIREMENT, no identity.
+
+*** THE TECHNICAL CORRECTION, RECORDED: quasifreeness Wick-determines fundamental CAR moments by
+the two-point covariance -- but connected cumulants of COMPOSITE BILINEAR CURRENTS do NOT all
+vanish. THE RESPONSE CUMULANTS MAY BE NONZERO WHILE BEING **DETERMINED BY** THE TWO-POINT
+FUNCTION. The reviewer's "vanish by the class" framing (Q-222) is corrected to
+"determined-by-the-class." The reduction the lead promised SURVIVES IN THIS FORM: a quasifree-
+class joint state would make the ask = ONE TWO-POINT COVARIANCE. ***
+
+D6, AS NARROWED: the JOINT STATE/COVARIANCE CLASS . its COMMON-ORIGIN DESCENT . the RESPONSE
+REDUCTION it supports. A principal physics question -- nothing sealed answers it.
+```
+
 ---
 
 ## HOW TO USE THIS REGISTER
