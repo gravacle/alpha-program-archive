@@ -118,16 +118,15 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~19:40.
+## 6. LANE LEDGER — 2026-08-01, ~20:15.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-304    CODEX 2  2d    the response-state factorization test           PASTED, RUNNING
-                      (OBS-14's referee; asymmetry pre-registered)
---     CODEX 1  --    held on 304's verdict
+305    CODEX 1  2d    the quasifree lead -- device or law?            PASTED, RUNNING
+--     CODEX 2  --    held on 305, which sizes D6
 ```
 
-REGISTERED THROUGH Q-221 (+ fence note). CHANGE LOG THROUGH C17. OBS-14 pre-registered.
-THE FORK: operators DIFFER -> OBS-14 dies, the new-physics ask localizes and goes to the
-principal. EQUAL -> supporting-only, typed as such; the physical-package question remains.
-NOTHING ON THE PRINCIPAL until it returns.
+REGISTERED THROUGH Q-222. THE DAY'S TERMINUS SO FAR: the new-physics ask is REAL and LOCALIZED
+(the pre-state's response-relevant cumulant class, Q-222); OBS-14 refuted by its own
+pre-registered test; 305 checks whether the adopted quasifree branch shrinks the ask to a
+two-point function before D6 is posed to the principal.
