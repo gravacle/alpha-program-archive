@@ -587,3 +587,14 @@ FLAGS IT AS SUSPECT ON THESE GROUNDS: SAME SHAPE OF CLAIM, SAME AUTHOR, THREE HO
    successor — that is the whole reason for keeping it.
 
 `alpha_computed = false`; `proof_authorized = false`; `kappa_record_computed = false`.
+
+---
+
+## OBS-12 — SMOOTHNESS LIVES IN THE FIBER, NOT THE BASE (principal-originated, 2026-08-01)
+
+The record surface as derived is CONTINUOUS FIBERS (ray in C^2, U(1) phase, transition functions)
+over a DISCRETE BASE (cells, incidence, chains — K_1,3, K_square). "Smooth at the record surface"
+can only mean (a) an EMERGENT LIMIT over refinements — whose cellulation-independence is the
+never-derived stitching rule — or (b) an ADOPTED ambient (M,g), the re-import. The principal's
+image (grainy, event-like) matches everything derived. CONFIRMED IN SHAPE by Q-199: the smooth-
+required subset is exactly the continuum-limit obligations. Status: framing, not a theorem.

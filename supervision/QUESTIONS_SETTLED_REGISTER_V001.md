@@ -8814,6 +8814,66 @@ changing the verdict."***
 WROTE THOSE FENCES.** THE PRINCIPAL ASKED THREE TIMES TODAY WHY PROCESS WAS CONSUMING THE WORK; THIS
 IS THE MEASURED ANSWER. ***
 
+## Q-199. SMOOTHNESS IS REQUIRED ONLY FOR A NAMED SUBSET — and the subset is exactly the alpha-facing chain.
+
+**Relay 270 + addendum 283 (Task 1b, Codex).** `STAGE8_DOWNSTREAM_SMOOTH_CONNECTION_REQUIREMENT_AUDIT_V001.md`,
+`46bfeb7d1c05a70661caa473cb47700efce70d074507563de8af576f26e7c207`, 347 lines. Hash verified,
+fence-clean. **Acceptance criterion MET: cites live v004 (4 sites), uses DoR-006 typing (TYPE-P
+present). The addendum repaired the stale brief mid-run.**
+
+```text
+VERDICT: REQUIRED ONLY FOR A NAMED SUBSET.
+
+DISCRETE SUFFICES FOR   finite comparison/transport . holonomy . charge/flux access . onset .
+                        finite writes . formal face curvature . the finite graph Ward identity
+SMOOTH REQUIRED FOR     step 1 physical_public_EM_connection_derived . local D = d - i a,
+                        curvature, Maxwell tensor . D3 continuum/refinement covariance .
+                        continuum CTP connection-history Hessian . continuum Ward/transversality .
+                        *** microscopic-flux-to-Thomson matching ***
+
+FOUR-STEP ROUTE: step 1 NEEDS smooth . step 2 does NOT . step 3 consumes NO connection .
+                 step 4 needs only DISCRETE holonomy.
+
+*** A DISCRETE-ONLY PROGRAM KEEPS THE INTERNAL RECORD MACHINERY AND CANNOT REACH THE PUBLIC EM
+RESPONSE OR THE ALPHA-FACING CHAIN. Target 2 is LOAD-BEARING FOR THAT SUBSET ONLY -- "unless
+replaced by an independently certified DISCRETE-TO-CONTINUUM EQUIVALENCE THEOREM. None was
+found." ***
+```
+
+*** THE SUBSET IS PRECISELY "THE OBLIGATIONS THAT NEED THE LIMIT TO EXIST" — the fiber/base reading
+(OBS-12): the record surface is CONTINUOUS FIBERS OVER A DISCRETE BASE; base-smoothness exists only
+as a refinement limit, and the limit's cellulation-independence IS the never-derived stitching rule.
+*** The smooth-fork ruling (Task 1b) now goes to the principal with this evidence.
+
+---
+
+## Q-200. The P5 exclusion shortcut FAILS AT COVERAGE — seven census rows, ZERO complete certified packages.
+
+**Relay 282 (Task 2a, Codex).** `STAGE8_P5_FAMILY_EXCLUSION_THEOREM_ATTEMPT_V001.md`,
+`00300b0a888fd3efe2ab3be48cd275d35da58b547002aecb4adb8bb36f155fce`. Hash verified, fence-clean.
+**First artifact under DoR-006 typing — TYPE-P used correctly.**
+
+```text
+protocol step 1  seven census rows FROZEN UNCHANGED                                  RAN
+protocol step 2  certified-package isomorphism specified structurally                RAN
+protocol step 3  constraints attached; inclusive identity effect is NOT a mutation
+                 (false | TYPE-R); ad hoc assemblies excluded (true | TYPE-P);
+                 *** the remaining constraints KILL NO CANDIDATE BECAUSE NONE IS
+                 INSTANTIATED ***                                                    RAN
+protocol step 4  *** COVERAGE FAILS: contours, effects, instruments, domains are OPEN
+                 SCHEMAS with no generator or completeness proof ***                 FAILED
+protocol step 5  NOT RUN. cardinality NO_VERDICT.
+
+P5_family_coverage_proved = false | TYPE-U
+P5_exclusion_theorem_completed = false | TYPE-C
+TASK2_U2_discharged_by_this_attempt = false | TYPE-C
+```
+
+*** THE SHORTCUT DID NOT FAIL BECAUSE EXCLUSION IS WRONG — IT FAILED BECAUSE THE CENSUS HOLDS ROWS,
+NOT PACKAGES. THE LANE RAN THE PROTOCOL HONESTLY AND STOPPED AT THE STEP THAT COULDN'T BE PROVED.
+**TASK 2a FALLS BACK, AS THE PLAN PROVIDED, TO THE DESCENT-PRESENTATION BUILD — WHICH IS TASK 2's
+MAIN ROAD ANYWAY.** The failure cost one relay and validated the protocol's honesty. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
