@@ -118,16 +118,16 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~13:15. PLAN GOVERNANCE IN FORCE.
+## 6. LANE LEDGER — 2026-08-01, ~13:45. TASK 1 COMPLETE.
 
 ```text
-RELAY  LANE     TASK   QUESTION                                   STATE
-270    CODEX 1  1b     what actually requires a smooth connection  PASTED, RUNNING
-282    CODEX 2  2a     the P5-family exclusion theorem             PASTED, RUNNING
-272    (queued) 3c     force the multiplier c                      WRITTEN, HELD -- next free lane
-EINSTEIN        --     RETIRED (credit)                            IDLE
+RELAY  LANE     TASK  QUESTION                          STATE
+284    CODEX 1  2b    build C0 + d_C0                   PASTED, RUNNING
+272    CODEX 2  3c    force the multiplier c            PASTED, RUNNING
+EINSTEIN              RETIRED (credit)                  IDLE
 ```
 
-ON THE PRINCIPAL WHEN 270 RETURNS: the smooth-fork ruling (closes TASK 1; full recap due).
-DECISIONS RULED TODAY: DoR 005 (P7 = assembled space; build acyclic) . DoR 006 (TYPE-P, lazy).
-REGISTER HEAD: Q-198. GOVERNING PLAN: TASK_LIST_HERE_TO_ALPHA_2026-08-01_V002.md sec 9.
+TASK 1 COMPLETE: DoR 005 (build acyclic) . DoR 006 (TYPE-P) . DoR 007 (derive the limit; seams
+1/3 hand-built road retired; stitching theorem = Task 4d).
+LANDED TODAY THROUGH: Q-200. NOTHING OUTSTANDING. NOTHING ON THE PRINCIPAL until a return lands.
+GOVERNING PLAN: TASK_LIST_HERE_TO_ALPHA_2026-08-01_V002.md sec 9. Register head Q-200.
