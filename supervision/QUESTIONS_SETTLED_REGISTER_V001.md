@@ -8318,6 +8318,62 @@ GIVEN. *** Nine proposals, six refuted, one half right, **one survived-with-corr
 **Custody:** the lane reported *"Per `LOCKED_PROCESS.md`, I performed no registration, git, commit, or
 push action."* *** THE HEADING FIX WORKED. NO STALL THIS TIME. ***
 
+## Q-189. v004's eleven false flags are a CHAIN WITH ONE ROOT, and the root is seam 9.
+
+**Done by Bohm directly, 2026-08-01**, reading `primitive_record_cell_selection_principle_v004.md`
+end to end (241 lines, 7 sections). *** REVIEWER-CONSTRUCTED — REQUIRES CODEX VERIFICATION. ***
+
+### The actual equation, which is sharper than "the root of `C_record(K) = 0`"
+
+```text
+B_ind(K) = p_loc[Pi_R,ind[G_K]]
+C_EM(K)  = p_loc[R_phys[G_K]] = *** K - B_ind(K) ***          (v004:155-157)
+
+*** SO THE SCALAR PROBLEM IS A FIXED-POINT EQUATION:  K = B_ind(K).  ***
+
+BUT v004 states plainly it is NECESSARY AND NOT SUFFICIENT. A valid saddle must ALSO satisfy
+   R_comp[G_K] := (I - Pi_loc) R_phys[G_K] = 0        the COMPLEMENTARY residual
+plus source, metric, Gauss, record-effect, interval and boundary stationarity.
+*** "This prevents a scalar root from hiding a failed full operator." ***
+```
+
+### The dependency, stated by v004 itself — not inferred
+
+> *"**Only if the complete operator derives** one such projection, a pairing when orthogonality is
+> claimed, and its extension to every physical CTP block **may one define** `B_ind(K)`, `C_EM(K)`."*
+> (`:149-152`)
+
+> *"The CTP metric, index order, Keldysh block inversion, gauge quotient, contact terms, and boundary
+> terms **must therefore be derived before a physical Dyson residual can be written**."* (`:107-113`)
+
+```text
+CTP metric / index order / Keldysh inversion / gauge quotient / contacts / boundary
+   -> raw_correlator_to_retarded_Hessian_map_derived        *** = SEAM 9 ***
+      -> complete_induced_CTP_operator_derived
+         -> unique_covariant_local_projection_derived
+         -> scalar_K_minus_B_projection_derived
+            -> absolute_B_ind_computed
+               -> the fixed point K = B_ind(K)
+```
+
+*** ELEVEN FALSE FLAGS, **ONE ROOT**. AND THE ROOT IS **SEAM 9** — WHICH IS ALREADY ON THE
+TWELVE-SEAM LIST. **THE OFF-LIST DEBTS AND THE SEAM LIST MEET HERE.** ***
+
+### Why this matters for scheduling
+
+**Q-181 said the critical path is near-serial with `rho_pre` at the root, and that a parallel start is
+not licensed.** *** THIS IS CONSISTENT AND SHARPER: `rho_pre` feeds the CTP construction, and the
+first thing the CTP construction must produce is the correlator-to-Hessian map. **SEAM 9 IS NOT ONE OF
+TWELVE PEERS — IT IS THE GATE ON SIX OF THE ELEVEN LIVE FLAGS.** ***
+
+**And v004 forbids the shortcut explicitly:** *"Writing `G^(-1) - K_ind[G]` without those factors is
+**forbidden**."* (`:123-124`)
+
+*** REVIEWER STANDING: nine proposals, six refuted, one half right, one survived with corrected
+reasoning. **THIS IS A TENTH AND IT IS A DEPENDENCY CLAIM OF EXACTLY THE KIND THAT HAS FAILED BEFORE.
+IT IS READ FROM STATED "ONLY IF" AND "MUST BEFORE" SENTENCES RATHER THAN INFERRED FROM A PATTERN — BUT
+IT IS UNVERIFIED AND MUST BE ATTACKED.** ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
