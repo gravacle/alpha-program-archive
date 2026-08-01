@@ -6374,6 +6374,79 @@ HAVE BEEN.** ***
 
 ---
 
+## Q-150. "Can a record-side dimensionless-ratio selector be built, and does it close?"
+
+*** RULING: **IT BUILDS AND IT DOES NOT CLOSE** — AND THE REASON REFUTES THE REVIEWER'S FRAMING RATHER
+THAN MERELY FAILING TO MEET IT. *** Established 2026-08-01 by Einstein under relay 238
+(`STAGE8_RECORD_SIDE_DIMENSIONLESS_RATIO_SELECTOR_CONSTRUCTION_EINSTEIN_V001.md`, `c363c787…`,
+422 lines, seal verified, fence-clean). *** BUILT AND NOT RUN. THE FENCE WAS AUDITED FIRST AND HARDEST
+IN ALL ELEVEN AGENT OUTPUTS; NO BREACH; THE STOP-AND-REPORT CLAUSE DID NOT FIRE BECAUSE IT DOES NOT
+CLOSE. ***
+
+*** THE CORRECTION TO THE REVIEWER'S FRAMING, AND IT IS THE SHARPEST THING IN THE RUN: ***
+
+> ***"WHAT THE GATES CANNOT KILL, THEY ALSO CANNOT FORCE. **DENOMINATION IS A TYPE-CHECK, NOT A
+> DETERMINATION: BEING IN THE RIGHT CURRENCY IS NOT THE SAME AS HAVING THE MONEY.**"***
+
+**The relay's premise was that the record surface can pay in dimensionless currency because its total
+dimensionful content is zero.** *** THE CANDIDATE SHAPE — A RATIO OF TWO READOUTS BY THE SAME DERIVED
+RAY ON THE SAME COMPLEX — **DOES** CANCEL BOTH RESIDUAL FREEDOMS AND **DOES** EVADE THE SURVIVING
+`TYPE-R`. **BUT THE EVASION IS THE CAUSE OF THE FAILURE:** IT ESCAPES GATE 4's KILL BY LYING **OUTSIDE
+GATE 4's QUANTIFIER**, AND THEREFORE OUTSIDE GATE 4's **FORCING**. ***
+
+**Checkable in nine sealed lines:** *** EVERY GATE-4 COVECTOR CONSTRAINT RANGES OVER THE **READOUT
+WEIGHT**; NOT ONE RANGES OVER **WHAT IS READ**. THE FUNCTIONAL IS FORCED; ITS **ARGUMENT** IS FREE. ***
+
+**AND THE DEEPER DEFEAT DOES NOT DEPEND ON ANY OF THAT.** The program's own **Derivation Rule for
+dimensionless ratios** has three conditions — **two allow, exactly one is require-shaped: BOUNDARY
+RESOLUTION.**
+
+```text
+ADOPTED   five occurrences across the gravity root, every one a numbered premise in an assumption
+          list, plus a Given clause of the gravity spine's proof target. 693 FILES SWEPT, ZERO
+          DERIVATIONS -- and, diagnostically, *** NO STATUS FLAG AT ALL, IN A CORPUS THAT FLAGS
+          EVERYTHING. ***
+
+*** AND IT IS A **QUOTIENT**: it removes duplicates no record distinguishes and retains
+record-changing alternatives AS BRANCHES. **AN EQUIVALENCE RELATION NEVER YIELDS A POINT.** A
+SELECTOR BUILT ON IT MOVES THE ADOPTION RATHER THAN DISCHARGING IT — AND WOULD NOT CLOSE EVEN IF IT
+WERE DERIVED. ***
+```
+
+*** THE CORPUS PRE-REGISTERED ITS OWN FAILURE. The frozen spec, **before the assembly ran**, sealed:
+"the expected verdict is a discrete surviving family — the reduction of a continuous freedom to a
+finite identification fork, not a unique number" — **AND NAMED THE SLOT THAT WOULD FAIL. IT RAN; THE
+PREDICTION FIRED ON THAT SLOT.** That is far stronger than five chains reasoning to it afterward, and
+**no establisher found it.** ***
+
+**TRIPLE CONVERGENCE ON ONE UNBUILT OBJECT, ONE ARM OF IT BLIND:**
+
+```text
+five chains          put the free datum in the ARGUMENT/STATE slot
+ray-sufficiency      the derived ray fixes the algebra and its labels but NOT its GENERATOR or
+                     SPECTRAL MEASURE
+Q-147 (relay 240)    a lane working BLIND found the census incomplete on exactly the
+                     P5 STATE/EFFECT/DOMAIN axis
+*** SAME OBJECT: THE STATE AND THE EFFECTS MUST DESCEND FROM THE SAME SOURCE AS THE DYNAMICS. ***
+```
+
+**NEW STRUCTURAL FACT, AND THE LANE REPORTS IT AS UNSTATED ANYWHERE:** *** THE HOLONOMY CATEGORY IS
+**EMPTY AT FIRST OPENING**. GATE 4's SOLE PHYSICAL FREEDOM IS **LOOP** HOLONOMY. GATE 2's FORCED
+COMPLEX IS A **TREE** — `dim C_1 = 3`, `rank d = 3`, tree kernel `0` (`41:15-16`). **THE ONLY SURVIVING
+PHYSICAL FREEDOM GATE 4 LEAVES HAS NO CARRIER ON THE COMPLEX GATE 2 FORCES.** A TENSION BETWEEN TWO
+**PASSED** GATES. ***
+
+**AND A CORRECTION TO THE REVIEWER'S READ OF THE STOP-FENCE:** *** BECAUSE THE REACHABLE SET IS
+**FINITE RATHER THAN DENSE**, A PREMATURELY PRODUCED NUMBER WOULD BE **MORE** SUSCEPTIBLE TO BEING
+FITTED, NOT LESS. THE REVIEWER HAD ASSUMED THE OPPOSITE. *** And the fence is not waiting on
+bookkeeping: the census is known unfreezable as structured, and the uniqueness gate needs a pre-root
+equivalence theorem.
+
+**Two corrections folded against the lane's own critic (§9).** **Struck overdetermination bar: sixth
+independent report, three sites, applied by nobody.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
