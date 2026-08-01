@@ -82,19 +82,68 @@ TIER 3 -- THE CARRIER OR DOMAIN ITSELF IS ABSENT
 
 ---
 
-## 4. THE ORDER OF WORK
+## 4. THE ORDER OF WORK — KILL-TESTS FIRST, THEN BUILD
+
+*** RULED BY THE PRINCIPAL 2026-08-01: **tackle the hardest things first, consistent with
+dependencies.** THOSE ONLY CONFLICT IF "TACKLE" MEANS "BUILD". **A KILL-TEST ASKS WHETHER AN
+OBSTRUCTION EXISTS AND USUALLY DOES NOT REQUIRE THE UPSTREAM OBJECT — SO IT CAN RUN OUT OF DEPENDENCY
+ORDER.** ***
+
+### PASS 1 — KILL-TESTS, RANKED BY PROBABILITY THE PROGRAM DIES. DEPENDENCY ORDER IGNORED.
 
 ```text
-NOW        seam 4 and seam 10 -- Tier 1. They are the only two where the protocol has somewhere
-           to bite immediately.
-NEXT       Tier 2, cheapest first: seam 8 (a census), then 2 (a theorem), then 9.
-NOT NOW    Tier 3. *** A SEAM WHOSE CARRIER IS ABSENT CANNOT BE FORCED -- STEP 1 OF THE PROTOCOL
-           IS UNAVAILABLE. FUNDING IT IS FUNDING A SEARCH, NOT A PROOF. ***
-ALWAYS     any mandated, fully-specified, pre-registered, pre-root computation that has never
-           been run -- these are cheap and they clear real debts. (Relay 271 is one.)
+KT1  IS Gamma_K's g THE ADOPTED METRIC?                                    *** HIGHEST ***
+     Gamma_K = (K/4) integral sqrt(|g|) F F + Gamma_record,matter,gravity.
+     The corpus defines an ADOPTED smooth (M,g) carrying an EINSTEIN-HILBERT BULK TERM.
+     If they are the same g, the functional whose root IS alpha rests on an adopted spacetime.
+     *** AN INTEGRITY KILL, NOT A TECHNICAL ONE. *** -- IN FLIGHT: relay 274 sec 2.3
+
+KT2  CAN SEAM 10's RESIDUAL 4-FOLD BE BROKEN BY ANYTHING THE CORPUS LICENSES?
+     The ONLY seam that is a DEGENERACY rather than an ABSENCE. If nothing breaks it there is no
+     unique coupling ray and no alpha on this route. *** THIS IS TRIGGER T2. ***
+     -- IN FLIGHT: relay 273 attacks the reviewer's charge-conservation candidate
+
+KT3  IS Delta Phi DEFINED, AND WHAT DOES EVALUATING IT CONSUME?
+     C_record(K) = Delta Phi[K;X_K] - pi. An input outside the twelve seams is a THIRTEENTH DEBT
+     sitting at the centre of the target.                    -- IN FLIGHT: relay 274 sec 2.4
+
+KT4  IS THERE AN OBSTRUCTION THEOREM AGAINST Gamma_record,matter,gravity ITSELF?
+     *** NOBODY HAS EVER ASKED. It is the term every other seam feeds. If the second term is
+     barred, nothing downstream matters. *** -- NOT SCHEDULED. THIS IS THE HOLE IN THE BOARD.
+
+KT5  DOES THE UNBOUNDED TOWER MAKE ANY NUMBER PERMANENTLY LEADING-ORDER-ONLY?
+     Decides whether "computed alpha" can ever mean EXACT.   -- known open, not scheduled
 ```
 
----
+*** A KILL-TEST RETURNING "NO OBSTRUCTION FOUND" IS `TYPE-U`, **NOT A CLEARANCE.** IT BUYS PERMISSION
+TO PROCEED, NOT CONFIDENCE. ***
+
+### PASS 2 — BUILD, IN DEPENDENCY ORDER, AMONG WHAT SURVIVES
+
+*** PENDING RELAY 274's DEPENDENCY MAP. **DO NOT FIX THE BUILD ORDER BEFORE IT RETURNS** — 274
+classifies every seam REQUIRED / GATE / OPTIONAL / UNCLEAR, and seam 8 is a live candidate for GATE
+(the exhaustive admitted-family audit is written as an AUTHORIZATION condition on a root, not an
+ingredient of one). ***
+
+**Provisional, subject to that map:** Tier 1 first (seam 4, seam 10), then Tier 2 cheapest-first,
+Tier 3 not funded while its carrier is absent.
+
+### WHY NOT PURE DEPENDENCY ORDER
+
+*** IT WOULD BUILD SEAMS 5, 6, 11 AND 12 — WEEKS OF WORK — AND ONLY THEN DISCOVER AT SEAM 10 THAT THE
+COUPLING RAY IS DEGENERATE. **KILL-TESTS FIRST GETS THE BAD NEWS EARLY, WITHOUT NEEDING THE INPUTS.**
+***
+
+### CONSEQUENCE FOR WHAT IS QUEUED RIGHT NOW
+
+```text
+274  EINSTEIN   KT1 + KT3          *** SEND -- highest-ranked kill-tests ***
+273  CODEX 1    KT2                *** SEND -- and it attacks the reviewer's own result ***
+270  CODEX 1    what requires smoothness   *** PROMOTED -- it is KT1-adjacent: if smoothness is
+                required and only the adopted (M,g) supplies it, KT1 fires ***
+272  CODEX 2    force the T7 multiplier    *** HELD -- this is a PASS 2 BUILD. It was drafted
+                before this ordering existed and is out of order under it. ***
+```
 
 ## 5. *** CHANGE-COURSE TRIGGERS — CHECK THESE ON EVERY RETURN ***
 
