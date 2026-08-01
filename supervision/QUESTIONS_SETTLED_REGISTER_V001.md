@@ -9293,6 +9293,24 @@ restriction, and orientation compatibility are failure-capable constraints. IF T
 UNIQUENESS (the Q-205 precedent), THE MAPS ARE DERIVED AND NO ADOPTION IS NEEDED. IF A RESIDUAL
 FAMILY SURVIVES, ITS SIZE IS THE HONEST ADOPTION ASK. Relay 299 runs span A. ***
 
+## Q-216. `U1` ASSEMBLED — the package's second component, clean: no new adoptions, nothing smuggled.
+
+**Relay 298 (Task 2c, Codex 2).** `STAGE8_CTP_PHYS_INPUT_PACKAGE_U1_DOR008_ASSEMBLY_DETERMINATION_V001.md`,
+`1b0e928c452c10a8be72be22ff81fd7677f5045d2ad8d398a9f7f7f57b9ab3b0`. Hash verified, fence-clean.
+
+```text
+U1_008 ASSEMBLED AT C0 SCOPE -- all six convention components INSTANTIATED: orientation, branch
+metric, reality involution, compound-index order, source symmetry, embeddings.
+   TYPE-P | premises: DoR-008. d_U1 premise-level, total.
+*** NO NEW ADOPTION. NO U2/U3 CONTENT PULLED FORWARD -- the V001 smuggling lesson held. ***
+
+HONEST REMAINDERS: common-origin d_U1 TYPE-U . continuum realization TYPE-U .
+   quotient compatibility and finite-incidence restriction TYPE-C --
+   *** BOTH BLOCKED ON THE SAME BRIDGE RELAY 299 IS NOW FORCING. ***
+```
+
+**Package state: C0 built . U1 built . bridge under forcing . U2/U3/certification remain.**
+
 ---
 
 ## HOW TO USE THIS REGISTER
