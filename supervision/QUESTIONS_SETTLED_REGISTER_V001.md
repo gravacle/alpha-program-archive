@@ -8965,6 +8965,45 @@ THE PRICE, THE ARTIFACT'S OWN LIST:
 `TYPE-P`, VISIBLY CONDITIONAL, INSTEAD OF A QUIET IMPORT. THE DECISION GOES TO THE PRINCIPAL AS THE
 PLAN PROVIDES. ***
 
+## Q-204. The `|w| <= 2` bound is CONVENTIONAL — the law family is INFINITE. But the infinite family adds NO NEW PLANE.
+
+**Relay 286 (Task 3d, Codex 2).** `STAGE8_TASK3D_COUPLING_RAY_FORCING_PROTOCOL_AND_COVERAGE_FAILURE_V001.md`,
+`1ad1271f8841a77a8c4a257bd3da0985c6f9b8c691bf4d5de5a4bc1e4d835ade`, 482 lines. Hash verified,
+fence-clean.
+
+```text
+*** THE LANE'S LEAD: the enumeration bound |w_i| <= 2 is CONVENTIONAL. EXPLICIT INFINITE PRIMITIVE
+FAMILY  w(n) = (n+1, n, 1), n >= 2, ALL OF NULLITY TWO. bounded_exhaustiveness REFUTED | TYPE-R.
+Protocol coverage FAILS before survivor counting. ***
+
+step 2  no sealed same-plane physical equivalence          TYPE-U
+step 3  no sealed constraint eliminates any plane          TYPE-S ; CPT/positivity/Lorentz tests
+                                                           blocked TYPE-C
+step 5  not executed                                       TYPE-C
+unique coupling ray                                        UNBUILT, TYPE-U
+```
+
+### Reviewer verification AND the redirect — computed, then conjectured
+
+```text
+*** VERIFIED BY DIRECT COMPUTATION (reviewer, independent code): w(n) has nullity 2 at
+n = 2, 3, 5, 9 — AND EVERY ONE LANDS ON THE SAME KERNEL PLANE AS (2,1,1). ***
+
+THE LAWS ARE INFINITE. THE PLANES — the physical kernels — MAY STILL NUMBER FOUR.
+Mechanism: a nullity-2 law annihilates exactly ONE sign-pair channel, and there are only FOUR
+sign-pair planes on the (verified) X_E/Y_E support.
+```
+
+*** REVIEWER CONJECTURE, UNVERIFIED IN GENERAL (scorecard noted): **every nullity-2 grading law's
+kernel is one of the four sign-pair planes.** If PROVED: the selection family is the FOUR PLANES —
+finite, instantiated, Q-200-compliant — and the infinite law-multiplicity is DESCRIPTIVE REDUNDANCY,
+which IS the step-2 equivalence the protocol was missing, DERIVED rather than adopted. Coverage
+would be REPAIRED and selection legal again. If REFUTED — a nullity-2 law off the four planes — the
+degeneracy is genuinely unbounded and seam 10 needs a new physical input. ***
+
+**The census correction stands either way: seam 10's "eight-fold" was an artifact of counting LAWS
+under an arbitrary bound. The object was always the PLANE.**
+
 ---
 
 ## HOW TO USE THIS REGISTER
