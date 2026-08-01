@@ -7925,6 +7925,46 @@ explain the full distribution and was withdrawn. ***
 **T2 has NOT fired.** The obstruction survives. It is half the recorded size with a named candidate
 selector.
 
+## Q-179. Automorphism forcing does NOT reach past first opening — and Einstein deflated its own Q-174 witness.
+
+**Relay 268 (Einstein).** `STAGE8_AUTOMORPHISM_FORCING_MECHANISM_ADJUDICATION_EINSTEIN_V001.md`,
+`49d4955ed2b8fbf4854db5a71d7c14e63dd171e6f3fef2b951e69ebbe4e1ea4f`, 315 lines. Hash verified,
+fence-clean. **The parallel lane's result was disregarded in full — independence held.**
+
+```text
+THE WITNESS DOES NOT SURVIVE AS THE LOAD-BEARER.
+   Gate 4's V3 needs the star's three leaves INTERCHANGEABLE. They are the three comparison axes:
+   "matter return, compact electromagnetic access, source/proper-time access" -- *** DISTINGUISHABLE
+   BY DEFINITION. *** Permuting them is an automorphism of the BARE GRAPH, not of the DECORATED
+   record object. The corpus's only forgetting device (Handle-Blind) is self-flagged "explicit new
+   target-aware content" and is scoped to edge magnitudes, not leaf readout weights.
+
+*** THE SAME UNLICENSED FORGETTING IS LOAD-BEARING AT GATE 2, whose uniqueness check runs on
+classes produced by quotienting by exactly those permutations. ONE PREMISE, TWO GATES, DERIVED AT
+NEITHER. ***
+
+"THE GATES FORCE" IS A SUMMARY, NOT A MECHANISM -- at least SEVEN structurally distinct executed
+kill-types across five gate-halves, no two sharing a kill set. Automorphism covariance occurs at
+EXACTLY ONE SITE, as one conjunct of four, never a sole killer.
+   sweep: "automorph" = 3 lines, 1 file, 0 scripts across all 87 gate-root files.
+   The governing spec's Gate-4 toolkit says "Apply only:" and lists eight items -- no automorphism
+   item. *** V3 IS A CLEANROOM ADDITION, NOT A GOVERNING INHERITANCE. ***
+
+THE REVIEWER'S STATED DOUBT IS REFUTED, BUT NOT AS PREDICTED. Symmetry does NOT run out -- the
+composition carrier's oriented automorphism group is nontrivial and four of the seven argument
+types use no symmetry at all. *** WHAT RUNS OUT IS AN ANCHOR TO CONSUME: "No absolute magnitude is
+assigned to the constraint covector." ***
+
+THE MECHANISM RETURNS AN INVARIANT SUBSPACE of dimension = orbit count -- *** A QUOTIENT, NEVER A
+VALUE, AND A SINGLETON ONLY UNDER A TRANSITIVE ACTION. *** Decisive precondition: the observable
+must be an ORBIT INVARIANT. At the star the observable is a SUM and collapse produces it; at the
+composition carrier the datum is a RATIO and *** COLLAPSE ANNIHILATES IT. *** Both horns adverse.
+
+TEN EXECUTION GAPS tabulated, typed TYPE-U not TYPE-R -- a missing require() is not a refutation.
+```
+
+**Struck overdetermination bar: eleventh report.**
+
 ---
 
 ## HOW TO USE THIS REGISTER
