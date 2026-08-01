@@ -118,15 +118,16 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~18:30.
+## 6. LANE LEDGER — 2026-08-01, ~19:00.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                            STATE
-302    CODEX 2  2d    the descent presentation, piece 1: the ORIGIN TRACE  PASTED, RUNNING
---     CODEX 1  --    held for 302's outcome (piece 2, or the sized ask)
+303    CODEX 1  2d    does alpha consume the state's IDENTITY, or only    PASTED, RUNNING
+                      its constrained PROPERTIES?  (tests OBS-14)
+--     CODEX 2  --    held for 303 -- everything routes on its verdict
 ```
 
-REGISTERED THROUGH Q-219. THE DAY'S LINE (Q-219): GRAMMAR IS ADOPTABLE AND BUILT; THE STATE IS
-PHYSICS AND MUST DESCEND -- a continuum choice would be a FIT, not an adoption. The descent
-presentation is buildable-in-principle FOR THE FIRST TIME (carrier exists: C0_008 + U1_008).
-NOTHING ON THE PRINCIPAL until 302 returns.
+REGISTERED THROUGH Q-220. CHANGE LOG THROUGH C17. OBS-14 PRE-REGISTERED before its test.
+THE FORK 303 DECIDES: properties-only -> the continuum is gauge-like, the "absent physics"
+dissolves, Task 2d unblocks for the target chain. identity-consumer found -> the new-physics ask,
+named exactly, goes to the principal. NOTHING ON THE PRINCIPAL until it returns.
