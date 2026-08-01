@@ -8625,6 +8625,55 @@ mapping put `Log_0` under U3 and Ward endpoints under U2+U3 directly.
 **Reviewer standing:** ten proposals — six refuted, one half right, one survived with corrected
 reasoning, *** one (Q-192) CONFIRMED IN OUTLINE AND CORRECTED IN DETAIL. ***
 
+## Q-195. The front-line build is **ACYCLIC** — verified two ways. Plus a fourth symbol-identity defect.
+
+**Done by Bohm directly, 2026-08-01**, reading
+`STAGE8_CTP_PHYS_INPUT_PACKAGE_ITEM4_INTERNAL_CONSTRUCTION_CYCLE_CHECK_V001.md` (dated 2026-07-30).
+*** REVIEWER-CONSTRUCTED — REQUIRES VERIFICATION. ***
+
+```text
+*** "The current exact, test-excluded construction graph inside the package fence is ACYCLIC in the
+bounded source set. TWO INDEPENDENT GRAPH PROCEDURES AGREE: sorted-queue KAHN elimination visits
+every node, and TARJAN's algorithm returns NO CYCLIC STRONGLY CONNECTED COMPONENT." ***
+
+strict_exact_construction_cycle_found = false | TYPE-S
+strict_exact_core_graph_status            = ACYCLIC_IN_SCOPE
+label_preserving_expanded_graph_status    = ACYCLIC_IN_SCOPE
+```
+
+*** THIS MATTERS. **SIX ROUTES FAILING ON `B0` COULD HAVE MEANT THE FRONT-LINE BUILD WAS CIRCULAR —
+THAT YOU NEED THE PACKAGE TO BUILD THE PACKAGE. IT IS NOT. THE DEPENDENCY GRAPH ADMITS A TOPOLOGICAL
+ORDER.** THE BUILD IS HARD, NOT IMPOSSIBLE-BY-STRUCTURE. ***
+
+### The latent cycle, named and conditional
+
+> *"P7 says that it is built **'on the physical package'**, while the exact package identifier is
+> `CTP_PHYS_INPUT_PACKAGE`. **The current text supplies no direction-bearing identity between those
+> names. If a later sealed crosswalk identifies them, the already stated package-to-P7 edge plus the
+> new P7-to-package edge forms a TWO-NODE CYCLE.**"*
+
+*** SO THE ACYCLICITY HOLDS **ONLY BECAUSE TWO NAMES HAVE NEVER BEEN IDENTIFIED.** IF THEY ARE THE
+SAME OBJECT, THE FRONT-LINE BUILD IS CIRCULAR AND THE PROGRAM IS BLOCKED BY CONSTRUCTION, NOT BY
+DIFFICULTY. **THAT IS A KILL-TEST NOBODY HAS RUN.** ***
+
+### The fourth symbol-identity defect in one day
+
+```text
+C_record   FOUR senses                                     (Q-185)
+K          FOUR senses                                     (Q-181)
+B0         at least TWO -- operator/dynamics role vs an anchor hypothesis   (Q-191)
+*** P7 vs CTP_PHYS_INPUT_PACKAGE -- identity UNDECLARED, and the answer decides whether the
+front-line build is acyclic *** (this entry)
+```
+
+*** FOUR IDENTITY DEFECTS, ALL AT OR NEAR THE TARGET, ALL FOUND IN ONE DAY. **THE PATTERN IS NOT
+COINCIDENCE — THIS CORPUS NAMES OBJECTS FASTER THAN IT IDENTIFIES THEM**, AND EVERY PLAN BUILT ON A
+NAME RATHER THAN AN IDENTITY HAS INHERITED THE AMBIGUITY. ***
+
+**Standing:** the front-line build target is acyclic in scope, has a named latent cycle risk, and its
+completeness bar (frozen trace, four descent maps, certificates, no post-output supplementation) is
+stated. *** IT IS THE MOST WELL-SPECIFIED UNBUILT OBJECT IN THE PROGRAM. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
