@@ -8674,6 +8674,146 @@ NAME RATHER THAN AN IDENTITY HAS INHERITED THE AMBIGUITY. ***
 completeness bar (frozen trace, four descent maps, certificates, no post-output supplementation) is
 stated. *** IT IS THE MOST WELL-SPECIFIED UNBUILT OBJECT IN THE PROGRAM. ***
 
+## Q-196. The P7 identity check: RUN. The edge is UNDECLARED, the cycle is REAL if identified, and only a DECLARATION can settle it.
+
+**Done by Bohm directly, 2026-08-01**, at the principal's instruction, both lanes being busy.
+Source: `STAGE8_CTP_PHYS_INPUT_PACKAGE_ITEM4_INTERNAL_CONSTRUCTION_CYCLE_CHECK_V001.md:441-470`.
+
+```text
+P7's build clause (raw-map :48):
+  "solve delta Gamma_2PI/delta G = 0 *** ON THE PHYSICAL PACKAGE *** and derive the second-variation
+   Schur complement on its invertible tangent domain"
+
+CTP_PHYS_INPUT_PACKAGE's would-build (raw-map :1094):  "P1-P8"   -- *** WHICH CONTAINS P7 ***
+
+EDGE SUPPLIED:      CTP_PHYS_INPUT_PACKAGE -> P7
+EDGE NOT SUPPLIED:  P7 -> CTP_PHYS_INPUT_PACKAGE
+  reason: *** "physical package" is PROSE rather than the exact identifier ***
+
+HELD-OUT COUNTERFACTUAL, adding ONLY the unlicensed edge:
+  HYPOTHETICAL_EDGE = P7 -> CTP_PHYS_INPUT_PACKAGE
+  *** CYCLIC_SCC_COUNT = 1 . CYCLIC_SCCS = CTP_PHYS_INPUT_PACKAGE, P7 ***
+```
+
+### Determination
+
+*** THE CYCLE IS **REAL AND TWO-NODE** IF THE IDENTITY HOLDS. THE PRIOR ARTIFACT ALREADY PROVED THAT
+BY COUNTERFACTUAL TARJAN — **I ADD NOTHING TO IT AND CONFIRM IT.** ***
+
+*** AND THE IDENTITY **CANNOT BE SETTLED FROM THE PROSE.** "The physical package" is not the exact
+identifier and nothing declares the correspondence. **BUT SEMANTICALLY IT IS HARD TO READ AS ANYTHING
+ELSE** — it appears in a document whose subject IS `CTP_PHYS_INPUT_PACKAGE`. ***
+
+**The escape, and it is the only one:** *** IF P7 CONSUMES ONLY THE **OTHER** COMPONENTS (P1-P6, P8)
+RATHER THAN THE WHOLE SET INCLUDING ITSELF, THERE IS NO CYCLE. **THE PROSE DOES NOT SAY WHICH.** ***
+
+```text
+P7_physical_package_identity_declared = false | TYPE-S
+global_package_acyclicity = NO_VERDICT | prerequisite: a sealed direction-bearing adjudication
+*** cycle_resolvable_by_document_search = false | TYPE-R ***
+    test: the identity is absent from the prose by construction; the deciding fact is WHAT P7 WAS
+    MEANT TO CONSUME, which no artifact states
+```
+
+*** SO THIS IS **NOT A DISCOVERY TASK. IT IS A SPECIFICATION DECISION** — someone must declare
+whether P7 consumes the whole package or its complement. **THAT IS THE "NAMES FASTER THAN IDENTITIES"
+DEFECT (Q-195) IN ITS PUREST FORM: NO AMOUNT OF READING SETTLES IT, BECAUSE THE FACT WAS NEVER
+WRITTEN.** ***
+
+**Consequence if it goes the wrong way:** the front-line build is circular by construction, and the
+acyclicity result (Kahn + Tarjan, Q-195) holds only in the bounded scope that excludes this edge.
+
+---
+
+## Q-197. Infinite-dimensionality does NOT bar a gap — and the reviewer's reframing was right.
+
+**Relay 278 (Codex 2).** `STAGE8_BR_CLOSURE_OPERATOR_STRUCTURAL_SPECTRAL_GAP_DETERMINATION_V001.md`,
+`e2fc00d21fdc4a1844648b7248140ab05d9205a652a2b42330c1a366d53e33ed`. Hash verified.
+
+```text
+*** THE SPLIT THE RELAY ASKED FOR: ***
+ABSTRACT EXISTENCE needs   ellipticity . a closed domain . self-adjointness . compact resolvent
+PUBLIC-GAP EXISTENCE ALSO  the public quotient . null/private removal . branch selection .
+                           bottom positivity . simple public multiplicity
+Tr_BR, ghost signs and the D_BR^2-to-L_BR relation concern CAPACITY SEMANTICS or DOWNSTREAM
+TRANSFER -- *** NOT abstract cluster isolation. THREE OF THE SEVEN MISSING INPUTS ARE NOT NEEDED
+FOR EXISTENCE. ***
+
+D_BR is CONDITIONALLY ELLIPTIC under the standard Riemannian Dirac reading; its zero-order odd term
+   does not alter the principal symbol.
+self-adjointness on a named domain = UNBUILT | TYPE-U
+on the adopted compact surface a self-adjoint elliptic realization would have COMPACT RESOLVENT and
+   ISOLATED FINITE-MULTIPLICITY CLUSTERS = true | TYPE-C
+
+*** neither Phi-dagger-Phi NOR the parent Casimir forces a uniformly positive public gap: BOTH
+false | TYPE-R. Compactness does NOT force a simple bottom, and the raw unquotiented carrier FAILS
+the one-public-record multiplicity condition: false | TYPE-R. ***
+
+NO STRUCTURAL GAPLESS OBSTRUCTION FOUND = false | TYPE-S
+   -- continuous-spectrum results elsewhere concern a DIFFERENT Lorentzian source-tail operator
+```
+
+**Debt row 14 is REFINED, not discharged:** *** "conditional raw cluster isolation; physical public
+gap unbuilt." ***
+
+*** THE REVIEWER'S CORRECTION HELD: ASKING FOR A **GAP** RATHER THAN A **SPECTRUM** WAS THE RIGHT
+QUESTION, AND IT MOVED ROW 14 FROM "NOTHING KNOWN" TO A SPLIT WITH THREE INPUTS RULED OUT AS
+UNNECESSARY. **BUT NO GAP IS ESTABLISHED, AND TWO CANDIDATE SOURCES FOR ONE WERE REFUTED OUTRIGHT.**
+***
+
+## Q-198. *** THE MACHINERY IS BLOCKING LEGITIMATE WORK **AND DISTORTING THE RECORD'S TYPING**. ***
+
+**Relay 280 (Codex 2).** `STAGE8_PROCESS_MACHINERY_BLOCKAGE_AND_DISTORTION_AUDIT_V001.md`,
+`8907e18a26689a788c9225e94808c6d053dc43a0d0678091a4d45307f9f5dd31`, and
+`STAGE8_TYPE_C_OCCURRENCE_CLASSIFICATION_MANIFEST_V001.md`,
+`f737c76918580c8f04facbc7d9bd3a2e174bf945b5e49e86844f4080923a26af`. **Both hashes verified.**
+
+```text
+*** VERDICT: THE MACHINERY IS BLOCKING LEGITIMATE WORK AND DISTORTING THE RECORD'S TYPING. ***
+
+CENSUS   *** 487 exact TYPE-C mentions across 168 files. *** Pre-audit corpus: 464; the two audit
+         artifacts add 23 self-references.
+         -- THE REVIEWER'S UNVERIFIED "297" WAS WRONG AND IS SUPERSEDED.
+
+RELAY FENCES  27 mentions -> 20 owning statuses.
+         *** 16 OF 20 DO NOT PROTECT AGAINST TARGET-AWARE FITTING. ONLY FOUR GUARD VALUE
+         EVALUATION OR BRANCH SELECTION. ***
+```
+
+### The distortion, and it is worse than the blocking
+
+*** "Q-54's meaning has DRIFTED: `TYPE-C` now conflates **blocked checks, adopted premises, positive
+conditional theorems, `NO_VERDICT`, and unbuilt objects**." ***
+
+**Five different states wearing one marker.** *** THAT IS A CORRUPTED RECORD, NOT A SLOW ONE — AND IT
+IS EXACTLY THE FAILURE MODE RELAY 280 ASKED THE LANE TO HUNT: **"a rule that makes a lane report
+`TYPE-U` where `TYPE-R` is true, or file something out-of-scope that is in scope, CORRUPTS THE RECORD
+RATHER THAN MERELY SLOWING IT."** ***
+
+**Proposed remedy:** *** a new class `TYPE-P` for **premise-conditional** claims; `TYPE-C` returns to
+**constraint-blocked checks only**. ***
+
+### KEEP / SCOPE / RETIRE
+
+```text
+KEEP     adversarial testing . negative typing . collision checks . preflight . Q-69 . Q-92 .
+         custody . *** A32 . the measured-constant ban ***
+SCOPE    evaluation fences . cross-lane holds
+RETIRE   *** bare token bans . permanent relay fences without releases . TYPE-C on positive,
+         unbuilt, or NO_VERDICT states ***
+```
+
+*** "BARE TOKEN BANS" IS THE PRECISE DIAGNOSIS OF THE FENCE THAT KILLED V011's MATRIX EXPERIMENT AND
+NEARLY KILLED THE SPECTRAL-GAP ARGUMENT: **THE WORD "eigenvalue" WAS BANNED, NOT THE ACT OF FITTING.**
+***
+
+**And Q-195 arrived mid-audit, was checked, and *"strengthens the symbol-collision finding without
+changing the verdict."***
+
+**Reviewer accountability:** *** SIXTEEN OF TWENTY FENCE-BLOCKS PROTECTED NOTHING. **THE REVIEWER
+WROTE THOSE FENCES.** THE PRINCIPAL ASKED THREE TIMES TODAY WHY PROCESS WAS CONSUMING THE WORK; THIS
+IS THE MEASURED ANSWER. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
