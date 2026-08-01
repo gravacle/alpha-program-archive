@@ -188,45 +188,60 @@ P7 vs CTP_PHYS_INPUT_PACKAGE -- UNDECLARED, and it decides acyclicity (Q-196). *
 
 ---
 
-## 9. *** THE TASK PACKAGES — EVERY RELAY NAMES ONE (TASK 1 .. TASK 8). WORK OUTSIDE THEM DOES NOT SHIP. ***
+## 9. THE ROUTE — SIX TASKS, EACH HANDS ITS OUTPUT TO THE NEXT. THE LAST ONE COMPUTES ALPHA.
+
+*** RULED BY THE PRINCIPAL 2026-08-01: "The goal of the plan is to move from here to compute alpha."
+THE TASKS ARE THE ROUTE, NOT WORK CATEGORIES. EVERY RELAY NAMES ITS TASK. ***
 
 ```text
-TASK 1  RESOLVE -- the five blocking decisions. PRINCIPAL'S, not lanes'.
-     D1 P7 identity (RECOMMENDED RULING PENDING: P7 consumes P1-P6,P8 only) . D2 the EH summand in
-     Gamma_K . D3 leading-order acceptability . D4 the TYPE-P typing repair . D5 the smooth fork
-     (send relay 270 first).                                              STATE: 0 of 5 ruled.
+TASK 1  CLEAR THE PATH                                              STATE: D1 RULING PENDING
+        Rule D1 (P7 identity -- fixes the build order for Task 2).
+        Send relay 270 -> rule D5 (may DELETE seams 1 and 3 from the route entirely).
+        Rule D4 (typing repair -- keeps the record honest for everything after).
+        D2 and D3 are DECLARATIONS THAT TRAVEL WITH THE NUMBER; rule them by Task 6.
+        HANDS TO TASK 2: a fixed build order and a pruned route.
 
-TASK 2  THE PACKAGE -- build CTP_PHYS_INPUT_PACKAGE. THE FRONT-LINE CONSTRUCTION.
-     TASK 2.1 C0 carrier/algebra presentation + d_C0     TASK 2.2 U1 conventions + d_U1
-     TASK 2.3 U2 dynamics/state/effects + d_U2  *** CONTAINS rho_pre; FED BY TASK 3 ***
-     TASK 2.4 U3 quotient/measure/boundary + d_U3
-     Bar: frozen trace . certificates . NO POST-OUTPUT SUPPLEMENTATION.   STATE: 0 of 4 started.
-     *** BLOCKED-BY: D1 (build order). NOT blocked for TASK 3. ***
+TASK 2  BUILD THE SPACE -- CTP_PHYS_INPUT_PACKAGE                   STATE: 2.3 IN FLIGHT (relay 282)
+        2.1 C0 carrier/algebra + d_C0        2.2 U1 conventions + d_U1
+        2.3 U2 dynamics/state/effects + d_U2   *** contains rho_pre. THE P5-FAMILY EXCLUSION
+            THEOREM (relay 282) IS THE SHORTCUT INTO THIS SUBTASK; fallback is the
+            descent-presentation build. ***
+        2.4 U3 quotient/measure/boundary + d_U3
+        BAR: frozen trace . four descent maps . certificates . NO POST-OUTPUT SUPPLEMENTATION.
+        HANDS TO TASK 4: the named gauge-fixed physical space.
 
-TASK 3  P5 BY EXCLUSION -- the forcing protocol on the P5 family. The one named shortcut.
-     Feeds TASK 2.3. Falls back to the descent-presentation build if the family cannot be frozen.
-                                              STATE: RELAY 282 LOADED (Codex 1).
+TASK 3  BUILD THE FUNCTIONAL -- Gamma_record,matter,gravity          STATE: relay 272 HELD (the c
+        seam 11 closure action . rows 17-18 gravity/matter summands .        multiplier)
+        seam 4's multiplier c . seam 10's coupling ray (8 unselected grading laws).
+        *** RUNS ALONGSIDE TASK 2 -- co-inputs, not consequences (Q-176). ***
+        HANDS TO TASK 4: a writable Gamma_2PI decomposition on Task 2's space.
 
-TASK 4  ACTION-SIDE CO-INPUTS -- built ALONGSIDE TASK 2, not after it.
-     seam 11 closure action . rows 17-18 gravity/matter summands . seam 4's c (RELAY 272 HELD) .
-     seam 10's coupling ray (8 unselected grading laws).                  STATE: 0 started.
+TASK 4  DERIVE THE RESPONSE                                          STATE: BLOCKED ON 2 AND 3
+        Instantiate seam 9's ALREADY-FIXED algebra on the space -> complete induced CTP operator
+        -> unique covariant local projection -> *** B_ind(K) ***.
+        HANDS TO TASK 5: absolute_B_ind, computable.
 
-TASK 5  EVALUATION CHAIN -- *** BLOCKED UNTIL TASK 2 DELIVERS. DO NOT START. ***
-     instantiate seam 9's map on the package -> induced CTP operator -> projections -> B_ind ->
-     the fixed point K = B_ind(K) + R_comp = 0 + full stationarity.
+TASK 5  SOLVE                                                        STATE: BLOCKED ON 4
+        The fixed point *** K = B_ind(K) *** with R_comp = 0 and source/metric/Gauss/
+        record-effect/interval/boundary stationarity -> *** K_* ***.
+        HANDS TO TASK 6: the candidate root.
 
-TASK 6  AUTHORIZATION -- *** RUNS LAST. GATES A ROOT; PRODUCES NOTHING. ***
-     seam 8's exhaustive admitted-family audit . v004's six checks (Ward, Gauss, Einstein,
-     causality, positivity, limits) . tower: close a route OR invoke D3.
-
-TASK 7  MACHINERY REPAIR -- pending D4. Retire the 16 non-protective fences . scope the evaluation
-     fences . implement TYPE-P. *** NOTHING TOUCHING A32 OR THE MEASURED-CONSTANT BAN. ***
-
-TASK 8  VERIFICATION DEBT -- Codex kill-passes on unverified reviewer claims: the Q-189/190 chain
-     residue, Q-193, Q-196's escape reading. Bohm scorecard: 10 proposals, 6 refuted.
+TASK 6  AUTHORIZE AND COMPUTE ALPHA                                  STATE: BLOCKED ON 5
+        v004's six pre-root checks (Ward, Gauss, Einstein, causality, positivity, limits) .
+        dC/dK != 0 at K_*, K_* > 0 . seam 8's exhaustive no-other-root audit .
+        THEN:  *** alpha = 1/(4 pi K_*) *** -- shipped WITH its declared adoptions: the formula
+        itself is adopted (Q-140 N11), and LEADING-ORDER-ONLY unless a tower route closed (D3).
 ```
 
----
+### SUPPORT FUNCTIONS — SERVE THE ROUTE, ARE NOT ON IT
+
+```text
+MACHINERY REPAIR   pending D4: retire the 16 non-protective fences, scope evaluation fences,
+                   TYPE-P. Nothing touching A32 or the measured-constant ban.
+VERIFICATION DEBT  Codex kill-passes on unverified reviewer claims (Q-189/190/193/196 residue).
+                   Bohm scorecard: 10 proposals, 6 refuted -- this function exists for a reason.
+CUSTODY            the reviewer's four steps (LOCKED_PROCESS.md). Lanes seal, mirror, report, stop.
+```
 
 ## 10. CHANGE LOG — *** EVERY PLAN CHANGE LANDS HERE FIRST AND IS SURFACED TO THE PRINCIPAL. ***
 
