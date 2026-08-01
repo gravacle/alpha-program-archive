@@ -191,10 +191,10 @@ P7 vs CTP_PHYS_INPUT_PACKAGE -- UNDECLARED, and it decides acyclicity (Q-196). *
 ## 9. THE PLAN — SIX TASKS. TASK 6 COMPUTES ALPHA. STEPS LIVE INSIDE THEIR TASK.
 
 ```text
-TASK 1  CLEAR THE PATH                                    STATE: a DONE . b,c OPEN
+TASK 1  CLEAR THE PATH                                    STATE: a DONE . c DONE . b IN FLIGHT
         a. rule D1 -- *** RULED (DoR 005): P7 consumes the ASSEMBLED SPACE only. BUILD IS ACYCLIC. ***
         b. send relay 270; rule the smooth fork
-        c. rule D4 (typing repair)
+        c. rule D4 -- *** RULED (DoR 006): TYPE-P adopted, lazy migration. ***
 
 TASK 2  BUILD THE SPACE (CTP_PHYS_INPUT_PACKAGE)          STATE: IN FLIGHT -- relay 282 (step a)
         a. P5-family exclusion theorem -- the shortcut into U2

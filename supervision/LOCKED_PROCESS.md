@@ -66,7 +66,8 @@ ONLY THEN EXECUTED. THE PLAN IS WHAT WE FOLLOW. ***
 
 ```text
 A  "HUNT YOUR OWN COUNTEREXAMPLE, AND LEAD WITH IT IF YOU FIND ONE."
-B  TYPE EVERY NEGATIVE:  TYPE-R refuted . TYPE-U unbuilt . TYPE-S scope-empty . TYPE-C blocked.
+B  TYPE EVERY NEGATIVE:  TYPE-R refuted . TYPE-U unbuilt . TYPE-S scope-empty . TYPE-C
+                         constraint-blocked CHECKS ONLY . TYPE-P premise-conditional (DoR 006).
                          ONLY TYPE-R IS PHYSICAL CONTENT.
 C  NAME THE SYMBOL COLLISIONS THAT BEAR ON THIS QUESTION. Nothing generic.
 ```
