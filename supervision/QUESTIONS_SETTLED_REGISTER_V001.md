@@ -9208,6 +9208,15 @@ CUSTODY  the lane did not ratify: FIELD_CTP_PRESENTATION_RATIFIED = false | TYPE
 REMOVAL -> second kill CLEAN. THE PROPOSAL REACHING THE PRINCIPAL IS TWICE-ATTACKED AND HONESTLY
 COUNTED. ***
 
+## Q-212. DoR 008 RATIFIED — with the principal's falsifier: THE FINITE IS THE AUTHORITY.
+
+The seven field/CTP adoptions are ratified (see `DECISION_OF_RECORD_008_...`). *** CONDITION: the
+completed framework must reproduce every sealed finite result on restriction; any disagreement VOIDS
+the adoption and everything TYPE-P on it. Principal's basis: "the infinite is simply an emergent
+property of the finite" — the completion has no independent authority. *** Carried caveat: limit
+quantities (gap existence, B_ind convergence, cellulation-independence) still need their own
+theorems; Task 4d stands. C0_prop AVAILABLE FOR USE under `TYPE-P | premises: DoR-008`.
+
 ---
 
 ## HOW TO USE THIS REGISTER
