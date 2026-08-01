@@ -7524,6 +7524,190 @@ construction, and the corpus may supply one.**
 **Issued on this basis:** relay 265 — does anything in this corpus **define the patches**? — to
 Codex 1. It distinguishes USES of `U_i` from DEFINITIONS of `U_i` and requires both to be counted.
 
+## Q-172. `TYPE-S` on the patches: NOTHING in the corpus defines the record-side patch space.
+
+**Asked:** relay 265 (Codex 1, high effort). **Answered:**
+`STAGE8_RECORD_SIDE_PATCH_DEFINITION_SWEEP_V001.md`,
+`b8a9d4740863da0337a957437364b31d6a2c5da7ae385c948a738c58e4f7eb15`, 431 lines. Hash verified;
+fence-clean.
+
+```text
+actual_PRPS_patch_definition_found                    = false | TYPE-S
+actual_PRPS_cover_definition_found                    = false | TYPE-S
+underlying_record_side_patch_space_defined            = false | TYPE-S
+record_side_topology_for_PRPS_patches_defined         = false | TYPE-S
+record_side_smooth_structure_for_PRPS_patches_defined = false | TYPE-S
+
+smooth_side_demands_on_unspecified_record_patch_space = true
+
+TARGET_2_ANTECEDENT_STATUS = BLOCKED_BY_TYPE_U_PRPS_RECORD_SIDE_PATCH_SPACE_AND_COVER_THEOREM
+```
+
+*** `TYPE-S` IS SCOPE-EMPTY — **NOT UNBUILT, NOT REFUTED: NOTHING IN THE CORPUS HAS IT.** THE SMOOTH
+SIDE OF THIS PROGRAM IS A SET OF DEMANDS ON AN UNSPECIFIED SPACE. ***
+
+### The only available substitute, and its price — named by the lane, unprompted
+
+*** THE CORPUS **DOES** DEFINE ADJACENT OBJECTS: an adopted smooth spacetime `(M,g)`, an adopted smooth
+principal `U(1)_rel` bundle, causal diamonds, and causal-cell/refinement machinery.
+`adopted_global_smooth_spacetime_domain_exists = true`. **NONE OF THEM DEFINES THE PRPS/LPRB PATCH
+FAMILY**, and the lane stated the price itself: **"Using `(M,g)` to supply it would be an
+adopted/imported smooth-domain act, not a derivation from record structure."** ***
+
+**That is the fifth re-import entrance, reached from a new direction.** *** IT IS A PRINCIPAL'S
+DECISION, NOT A LANE'S, AND IT IS NOW ON THE BOARD AS AN EXPLICIT FORK. ***
+
+**Issued on this basis:** relay 266 — is PRPS's **smooth phrasing** itself an import? — to Codex 1.
+Guarded explicitly against re-running the sealed refutation that vertex rephasing is not smooth frame
+change and chain transport is not patch overlap.
+
+---
+
+## Q-173. No DERIVED filled two-cell. The formalism has one; nothing selects it.
+
+**Asked:** relay 264 (Codex 2, high effort). **Answered:**
+`STAGE8_FILLED_TWO_CELL_CARRIER_CENSUS_AND_EXTENSION_DETERMINATION_V001.md`,
+`bf75f3929d739eccd2c0b495f3ec99e3db7564fbc2cdbf78eb503e63d4ee7082`, 589 lines. Artifact AND sidecar
+hashes both verified; fence-clean.
+
+```text
+formal_curvature_capable_filled_carrier_specified = true
+concrete_periodic_filled_test_carrier_frozen      = true
+formal_face_curvature_on_selected_K_L_available   = true
+generated_face_response_formula_specified         = true
+```
+
+**The formalism is NOT missing.** `BareRec_2`, `C_2`, face cochains, boundary maps, local curvature and
+a generated face-response formula are **all formally specified**, and V011's periodic two-skeleton
+`K_L` is a curvature-capable carrier. *** BUT `K_L` IS A **FROZEN TEST/REGRESSION OBJECT SELECTED BY
+SPECIFICATION** — THE ARTIFACT'S OWN TABLE SAYS **"Selected, not forced"**, "No record-composition
+order is stated. It is introduced at the FILTRATION/REGULATOR stage", and the text *"later calls one
+hypercubic sequence a REGRESSION FIXTURE."* ***
+
+**And the alternatives fail the same way:** historical plaquette constructions are *"adopted, imported,
+unsealed, or diagnostic — not derived public faces."* The temporal plaquette uses two sequential
+record-cell stages and **no sealed identity makes it a `BareRec_2` filled face.** The `C_ref`
+refinement class is a *"selected audit class; no theorem derives it as the physical record complex."*
+
+### What would close it — two named objects
+
+```text
+PUBLIC_TWO_CELL_FORMATION_AND_ATTACHMENT_RULE          | TYPE-U
+RESPONSE_NATURALITY_UNDER_FACE_ATTACHMENT_THEOREM      | TYPE-U
+K_square_topological_filling_candidate_specified = true    -- a standard face attachment CAN be made,
+K_square_connection_preserved_under_candidate_inclusion = true   preserving the edge connection,
+                                                                 CONDITIONAL ON AN ATTACHING MAP
+```
+
+### The typing, and the lane got it exactly right
+
+*** "THE ELECTROMAGNETIC SECTOR IS UNBUILT **AT PHYSICAL FACE SELECTION AND RESPONSE** — NOT ABSENT
+FROM THE FORMALISM AND NOT REFUTED." **THAT IS THE PRECISE CLAIM AND IT IS NEITHER OVERSTATED NOR
+DEFLATED.** ***
+
+### *** THE PATTERN — THIRD INSTANCE, AND IT IS NOW THE FINDING ***
+
+```text
+THE COVER    transition functions, cocycle, principal U(1) bundle ALL PRESENT -- THE SPACE IS NOT (Q-172)
+THE LOOP     incidence rank, cycle rank, generator, gauge-invariant Phi ALL DERIVED
+             -- THE CARRIER IS PROTOCOL-MANDATED, NOT FORCED (Q-168)
+THE FACE     C_2, face cochains, boundary maps, curvature, response formula ALL SPECIFIED
+             -- THE FACE IS SELECTED, NOT FORCED (Q-173)
+```
+
+*** THREE FOR THREE: **THE MACHINERY IS PRESENT AND THE SELECTION RULE IS ABSENT.** THAT IS AN
+ALLOW/REQUIRE STATEMENT ARRIVING FROM THREE LANES THAT WERE ASKED THREE DIFFERENT QUESTIONS. ***
+
+**Issued on this basis:** relay 267 — **the Gates select; does anything after them?** — to Codex 2.
+
+## Q-174. The tree/loop split is NOT the allow/require boundary. REFUTED three ways — and one is an INVERSION.
+
+**Asked:** relay 262 (Einstein, high effort) — **the principal's hypothesis, not a reviewer collapse.**
+**Answered:** `STAGE8_TREE_LOOP_VERSUS_ALLOW_REQUIRE_ADJUDICATION_EINSTEIN_V001.md`,
+`58fd2e60632633786b49053697170224bcac99b9ea28002752f81f5d26bee4bb`, 328 lines. Hash verified;
+fence-clean; nothing computed or evaluated.
+
+### 1. THE INVERSION — the corpus puts holonomy on the ALLOW side
+
+*** THE ORIGIN DEFINITION OF ALLOW/REQUIRE, UNDER ITS OWN HEADING `### Allow`: **"Electromagnetic
+support is ALLOWED as compact `U(1)` holonomy/flux support"**, and in its summary table, **"ALLOWED
+`U(1)` holonomy, REQUIRED charge/flux access."** ***
+
+**The hypothesis's mechanism is that gauge-invariant loop holonomy is the REQUIRE side.** *** WHERE
+THE CORPUS SPEAKS TO THIS, IT SAYS THE OPPOSITE. ***
+
+### 2. THE CATEGORY MISMATCH — a graph criterion is the wrong kind of predicate
+
+**The three-threshold filter that IS the allow/require boundary types a variable whose domain reads
+*"a loop, handle, sector, component, or operator block"* — a loop is ONE OF FIVE, co-equal with four
+non-loop values.** Vocabulary sweep over all 399 lines, run by the lane itself:
+
+```text
+loop 1  .  cycle 0  .  tree 0  .  Betti 0
+```
+
+*** WHAT DECIDES ALLOW VERSUS REQUIRE IS **A TRACE CONDITION AND FOUR SPECTRAL/SECTOR CONDITIONS**.
+NOT GRAPH TOPOLOGY. ***
+
+### 3. THE COUNTEREXAMPLE — a require-shaped object living ON A TREE
+
+```text
+N2  require_shaped_object_lives_on_a_tree = true | TYPE-R | EXECUTED
+```
+
+*** THE RELAY DEMANDED THIS ABOVE EVERYTHING IF IT EXISTED, AND IT EXISTS — **INSIDE THE GATE SERIES
+THE HYPOTHESIS WAS BUILT FROM.** Gate 4's covector ray quantifies *"over ALL nonzero readout
+functionals on the first-opening record complex"* — the rooted star, **tree kernel 0** — and returns
+**"exactly one ray"**, with every deformation violating a named sealed constraint. **ALTERNATIVES
+REFUTED, NOT DISFAVOURED — THE CORPUS'S OWN BAR FOR A REQUIRE — EXECUTED AT CYCLE RANK ZERO.** ***
+
+**And the constraint doing the graph-structural work is the star's own AUTOMORPHISM GROUP** — an
+automorphism of the tree, **forcing on the tree.**
+
+### 4. THE POLARITY IS INVERTED AT THE OTHER END TOO
+
+*** AT CYCLE RANK **ONE**, THE CORPUS'S OWN BUILT LOOP CARRIER (Q-168) RECORDS THAT **COMPOSITION
+ALONE DOES NOT SET THE PHASE — A FREE PARAMETER.** AT HIGHER RANK IT REACHES FOR AN ADOPTED FROZEN
+BACKGROUND. **THE LOOP SIDE IS WHERE FREEDOM FIRST APPEARS, NOT REQUIREMENT.** ***
+
+```text
+N8  both_ends_of_the_proposed_boundary_are_protocol_set = true | TYPE-R | EXECUTED
+    the loop end by the square-carrier imperative; the tree end by the declared "first = minimal"
+    reading.
+```
+
+### What survives — real, and much smaller
+
+```text
+N5  edge_phase_content_dies_at_cycle_rank_zero = true | TYPE-R, carried -- *** TRUE AND NARROW ***
+```
+
+**A carrier-existence boundary for ONE object — a gauge-invariant `U(1)` graph-transport phase —
+inside Gate 4's differential sector. One documentation line.** *** CALLING IT THE ALLOW/REQUIRE
+BOUNDARY IS **Q-69 IN STRUCTURAL FORM**: IDENTIFYING WHERE A CARRIER FIRST **EXISTS** WITH WHERE A
+REQUIREMENT FIRST **BITES**. ***
+
+### Three corrections the lane made against its own run
+
+*** THE THIRD IS THE ONE TO KEEP: **FOUR OF ITS OWN CHAINS CITED GATE 4's V1 AS "GAUGE INVARIANCE
+FORCING ON A TREE" WHEN V1 IS AN INTERNAL-FIBER SCHUR CONDITION, NOT THE VERTEX-REPHASING GROUP — THE
+EXACT SYMBOL COLLISION THE BRIEF WARNED ABOUT, COMMITTED BY THE LANES POLICING IT, IN THE DIRECTION
+THAT FLATTERED THEIR SHARED VERDICT.** The witness survives on the automorphism constraint; **the
+mechanism claim is struck.** *** The lane's entering hazard also failed (its operator lives on a
+saddle's tangent space; an eleven-word graph sweep returns zero hits; adopted, unsealed, uncited), and
+the brief's own named sharpest test dissolved.
+
+**And on the thing that mattered most:** *** "No chain confirmed the hypothesis because you proposed
+it. The run's failure mode was the opposite — **OVER-REFUTATION ON DEFECTIVE EXHIBITS.** The verdict
+survived every correction; several exhibits did not." *** Struck overdetermination bar: **tenth**
+report.
+
+### Reviewer note
+
+**The reviewer's rival READING B — that a tree UNIQUELY REQUIRES the trivial class — was right that a
+tree can carry a require and wrong about why.** *** THE FORCING ON THE TREE IS **AUTOMORPHIC**, NOT
+GAUGE-CLASS UNIQUENESS. The reviewer's mechanism is struck along with the principal's. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
