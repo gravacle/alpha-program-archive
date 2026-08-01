@@ -118,15 +118,15 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~17:00. BOTH LANES FULL. THE PACKAGE IS BUILDING IN ORDER.
+## 6. LANE LEDGER — 2026-08-01, ~17:20.
 
 ```text
-RELAY  LANE     TASK  QUESTION                                          STATE
-297    CODEX 1  2f    the bridge to the finite carriers (2 spans)       PASTED, RUNNING
-298    CODEX 2  2c    assemble U1 on C0_008                             PASTED, RUNNING
+RELAY  LANE     TASK  QUESTION                                       STATE
+299    CODEX 1  2f    force the realization functor (protocol run)   PASTED, RUNNING
+298    CODEX 2  2c    assemble U1 on C0_008                          PASTED, RUNNING
 ```
 
-REGISTERED THROUGH Q-214. CHANGE LOG THROUGH C16. DoRs 005-008 in force.
-PACKAGE STATE: C0 EXISTS (Q-213, falsifier check 1 passed) . U1 assembling . bridge building .
-U2/U3/certification queued. COUPLING RAY: four planes, tests posable once 297's span B lands.
-NOTHING ON THE PRINCIPAL until a return.
+REGISTERED THROUGH Q-215. CHANGE LOG THROUGH C16. DoRs 005-008 in force.
+IF 299 FORCES UNIQUENESS: the falsifier arms with NO new adoption and the K_square check runs.
+IF IT RETURNS A RESIDUAL: the principal gets a SIZED adoption ask (span B's embedding follows the
+same path either way). NOTHING ON THE PRINCIPAL until a return.
