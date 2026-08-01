@@ -8874,6 +8874,61 @@ NOT PACKAGES. THE LANE RAN THE PROTOCOL HONESTLY AND STOPPED AT THE STEP THAT CO
 **TASK 2a FALLS BACK, AS THE PLAN PROVIDED, TO THE DESCENT-PRESENTATION BUILD — WHICH IS TASK 2's
 MAIN ROAD ANYWAY.** The failure cost one relay and validated the protocol's honesty. ***
 
+## Q-201. C0 does not assemble YET — the source/record half EXISTS, the FIELD/CTP half does not.
+
+**Relay 284 (Task 2b, Codex 1).** `STAGE8_CTP_PHYS_INPUT_PACKAGE_C0_DESCENT_BUILD_ATTEMPT_V001.md`,
+`f64d12def129b7dcd382d0857046d54d5bdc696cc62fbe0124f34fd9f2a2d8b4`, 407 lines. Seal verified,
+fence-clean.
+
+```text
+INSTANTIATED   source CAR/GNS . finite source-record algebra . outgoing-record algebra/GNS
+UNBUILT        field/CTP carrier + algebra . joint representation . common dense domain .
+               physical CTP branch embeddings + source maps . hence d_C0
+C0_derived = false | TYPE-U        d_C0_derived = false | TYPE-U
+
+*** THE GAP IS ONE SECTOR: the attempt "does not convert v004's formal H_CTP,phys, J, R schema
+into an INSTANCE." The would-build list is explicit: instantiate the field/CTP carrier and JOIN
+it to the existing tuple; generators/relations; one joint representation; one common domain;
+explicit forward/backward CTP embeddings. ***
+
+TWO IDENTITY TRAPS CLOSED: Gate 3's vertex-chain C_0 is NOT package C0 (TYPE-R); charge-conjugate
+K_+ (+) K_- is NOT CTP branch doubling (TYPE-R). Exclusion test PASSED; no post-output
+supplementation.
+```
+
+---
+
+## Q-202. The multiplier protocol STOPS AT STEP 1, correctly — the PHYSICAL family is not instantiated.
+
+**Relay 272 (Task 3c, Codex 2).** `STAGE8_T7_PHYSICAL_ACTION_MULTIPLIER_FORCING_PROTOCOL_STEP1_STOP_V001.md`,
+`5209d3cd77dcb9f71c909a10c10715ce47640b24313b3da223ee067d859e48cd`, 389 lines. Seal verified,
+fence-clean. *** Lane report not relayed; registered from the artifact per the standing rule. ***
+
+```text
+finite_primitive_response_closure_uniquely_derived = true
+finite_primitive_multiplier_family_instantiated    = true   -- the FINITE family EXISTS
+physical_multiplier_family_instantiated  = false | TYPE-U
+complete_physical_Qspec_CTP_amplitude_derived = false | TYPE-U
+*** MANDATORY STOP AT FAILED STEP 1 (the Q-200 no-schemas rule) — the physical family needs the
+COMPLETE PHYSICAL CTP AMPLITUDE, which does not exist. ***
+```
+
+**Consequence:** Task 3c is BLOCKED ON the same object as Task 2's gap — it resumes when the
+physical CTP structure exists.
+
+### *** THE PATTERN OF THE LAST THREE RETURNS — ONE WALL, THREE STOPS ***
+
+```text
+Q-200  P5 exclusion    stopped: census rows are SCHEMAS -- no instantiated packages
+Q-201  C0 build        stopped: the FIELD/CTP SECTOR has no instantiated carrier
+Q-202  multiplier c    stopped: the PHYSICAL family needs the CTP amplitude -- uninstantiated
+```
+
+*** THREE DIFFERENT QUESTIONS, ONE MISSING OBJECT CLASS: **AN INSTANTIATED FIELD/CTP CARRIER JOINED
+TO THE FINITE SOURCE-RECORD STRUCTURE.** This is also recognizably the morning's S6/gluing gap ("the
+field component is not an algebraic tensor factor"). NOT claimed as an identity — recorded as the
+observed convergence, with Q-201's own would-build list as the build spec. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER

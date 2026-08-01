@@ -196,12 +196,14 @@ TASK 1  CLEAR THE PATH                                    *** STATE: COMPLETE (D
         b. DONE -- smooth fork RULED (DoR 007): DERIVE THE LIMIT; (M,g) off the table
         c. rule D4 -- *** RULED (DoR 006): TYPE-P adopted, lazy migration. ***
 
-TASK 2  BUILD THE SPACE (CTP_PHYS_INPUT_PACKAGE)          STATE: IN FLIGHT -- relay 282 (step a)
+TASK 2  BUILD THE SPACE (CTP_PHYS_INPUT_PACKAGE)          STATE: b PARTIAL -- source/record half
+        INSTANTIATED (Q-201); the FIELD/CTP half is THE gap; a failed-at-coverage (Q-200)
         a. P5-family exclusion theorem -- the shortcut into U2
         b. C0 + d_C0     c. U1 + d_U1     d. U2 + d_U2 (rho_pre lives here)     e. U3 + d_U3
         f. certify: frozen trace, no post-output supplementation
 
-TASK 3  BUILD THE FUNCTIONAL (the action side)            STATE: relay 272 written, held
+TASK 3  BUILD THE FUNCTIONAL (the action side)            STATE: c STOPPED AT STEP 1 (Q-202) --
+        blocked on Task 2's field/CTP sector; a, b, d open
         a. closure action (seam 11)      b. gravity + matter summands
         c. multiplier c (seam 4)         d. coupling-ray degeneracy (seam 10)
         runs ALONGSIDE Task 2
