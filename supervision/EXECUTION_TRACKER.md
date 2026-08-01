@@ -43,13 +43,58 @@ B5  seam 10 -- the coupling ray. *** OBSTRUCTION STANDS: 8 distinct unselected g
 B6  seam 8 -- the gate. LAST. Authorizes a root; does not produce one.
 ```
 
-## 3. THE SIX OFF-LIST DEBTS — Q-181. ON NO CENSUS ROW.
+## 3. THE DEBT LIST IS **EIGHTEEN**, NOT TWELVE — ROWS 13–18 CREATED HERE
+
+*** `twelve_seam_list_is_a_complete_debt_list = false | TYPE-R | EXECUTED` (Q-181). THE SIX BELOW HAD
+NO CENSUS ROW, WHICH IS WHY NO PLAN EVER COUNTED THEM. **CREATED 2026-08-01 SO THEY ARE VISIBLE TO
+SCHEDULING.** ***
 
 ```text
-a complete generator . a spectral gap . a UV subtraction . a record-probability sector
-plus the second term's GRAVITY and MATTER summands
-*** THESE ARE WHAT DeltaPhi's EVALUATION CONSUMES. NONE IS ON THE TWELVE-SEAM LIST. ***
+#   DEBT                          WHAT IT BLOCKS                    SOURCE / STANDING
+13  A COMPLETE GENERATOR          DeltaPhi evaluation. *** IT IS THE THING THAT SUPPLIES THE
+                                  SPECTRAL GAP -- the phase condition identifies the first
+                                  orthogonal comparison ONLY AFTER the generator supplies it. ***
+                                  named verbatim in the later version's demotion sentence
+14  A PHYSICAL SPECTRAL GAP       DeltaPhi evaluation. *** MAY BE SEAM 10's -- relay 277 is
+                                  deciding that right now via the BR closure operator. ***
+15  AN ULTRAVIOLET SUBTRACTION    DeltaPhi evaluation. The phase condition expressly "DOES NOT FIX
+                                  THE ULTRAVIOLET SUBTRACTION or replace the full residual equation"
+16  A RECORD-PROBABILITY SECTOR   DeltaPhi is evaluated in a SEPARATE such sector
+17  THE GRAVITY SUMMAND of Gamma_record,matter,gravity   -- *** ON NO CENSUS ROW AT ALL ***
+18  THE MATTER SUMMAND  of Gamma_record,matter,gravity   -- *** ON NO CENSUS ROW AT ALL ***
 ```
+
+*** ROWS 13–16 ARE ALL NAMED VERBATIM IN ONE DEMOTION SENTENCE THE PROGRAM HAD NEVER PARSED. ROWS
+17–18 ARE TWO OF THE FOUR SUMMANDS THE SECOND TERM DECOMPOSES INTO — AND **NONE OF THOSE FOUR IS A
+LISTED SEAM**, WHICH IS ALSO WHAT REFUTED THE REVIEWER'S SEVEN-SEAM COLLAPSE. ***
+
+## 3b. TWO SYMBOL DEFECTS AT THE TARGET — BOTH SIDES OF `alpha = 1/(4 pi K_*)`
+
+```text
+C_record   FOUR SENSES: abstract placeholder . phase residual . MASS RATIO (sealed) . tuple-valued
+           map.                                          -- RELAY 276 IS RESOLVING THIS NOW
+
+K          *** FOUR SENSES, AND THIS ONE IS WORSE: ***
+           v002       microscopic Maxwell stiffness
+           v003/v004  a LOCAL SURROGATE, explicitly "NOT A MICROSCOPIC INPUT"
+           v001       K_R,* -- a ratio of a phase residual to a field integral, ALREADY CARRYING
+                      ITS OWN ALPHA FORMULA
+           plus       K_ext (extrinsic curvature) and K_ind (a kernel)
+
+*** "THE FORMULA alpha = 1/(4 pi K) IS STABLE ACROSS VERSIONS WHILE THE K INSIDE IT IS NOT, AND NO
+ARTIFACT RE-DERIVES THE FORMULA FOR THE SURROGATE K." ***
+```
+
+*** SO **BOTH SYMBOLS IN THE PROGRAM'S DEFINING EQUATION ARE AMBIGUOUS**, AND THE ADOPTED FORMULA HAS
+NEVER BEEN RE-DERIVED FOR THE `K` THE LIVE VERSIONS ACTUALLY USE. **RELAY 276 COVERS `C_record` ONLY.
+`K` NEEDS THE SAME TREATMENT AND IS NOT YET SCHEDULED.** ***
+
+## 3c. AND THE TARGET IS ASSEMBLED FROM TWO FILES OF DIFFERENT LINEAGES
+
+`relay_brief_attributes_both_blocks_to_one_file = false | TYPE-R | EXECUTED`. *** THE REVIEWER'S BRIEF
+TREATED `Gamma_K` AND `C_record` AS ONE SOURCE. THEY ARE TWO v002 FILES OF **DIFFERENT LINEAGES** — AND
+THE BRIEF'S OWN REPAIR-GUESS (that the residual is v001's) IS ALSO WRONG: **v001 HAS A DIFFERENT SYMBOL
+AND NO `pi`.** ***
 
 ## 4. KILL-TESTS — FOUR OF FIVE DONE
 
