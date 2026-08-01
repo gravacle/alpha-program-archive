@@ -9250,6 +9250,27 @@ RESULTS THAT MATTER MOST (K_square's spectrum, the four planes). **ADDED TO TASK
 certification is not complete until the comparison maps exist and every sealed finite check RUNS.**
 ***
 
+## Q-214. DoR 008 does NOT supply step 3's physical typing — all four planes survive, and TWO consumers now name the SAME missing bridge.
+
+**Relay 296 (Task 3d, Codex 2).** `STAGE8_TASK3D_FOUR_PLANE_STEP3_RATIFIED_TYPING_DETERMINATION_V001.md`,
+`88c21fc2e081f4d964561e778b51d485212ed48cc8119e8da5de23c59ad8f637`, 505 lines. Hash verified,
+fence-clean.
+
+```text
+DoR008_SUPPLIES_STEP3_PHYSICAL_TYPING_PACKAGE = false | TYPE-R    -- the honest kill of a hope
+EXECUTABLE TESTS: reduced Hermitian reality . source vector-U(1) . witness flip -- *** ALL FOUR
+PLANES SURVIVE ALL THREE. KILLS: NONE. NO CONFLICT. RESIDUAL FAMILY: 4. ***
+STILL UNEXECUTABLE (TYPE-C): physical CPT . closure positivity . Lorentz/sector -- because:
+  SRE_TO_RATIFIED_C0_CARRIER_MAP_DERIVED             = false | TYPE-U
+  PRESENTATION_TO_FINITE_INCIDENCE_COMPARISON_MAP    = false | TYPE-U   <- Q-213's C16, confirmed
+                                                                            INDEPENDENTLY
+```
+
+*** THE CONVERGENCE: the falsifier's K_square audit (Q-213) and step 3's physical selectors (this
+entry) are BLOCKED BY THE SAME OBJECT — the bridge from the ratified sequential presentation to the
+finite incidence/sector carriers. ONE BUILD ARMS THE FALSIFIER AND UNBLOCKS THE COUPLING-RAY CUT.
+IT IS THE UNAMBIGUOUS NEXT OBJECT ON THE CRITICAL PATH. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
