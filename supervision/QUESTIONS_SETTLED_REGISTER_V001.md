@@ -5981,6 +5981,84 @@ not take the branch the live route already uses.
 
 ---
 
+## Q-142. "Is the Kaluza-Klein framing derived, or imported?"
+
+*** RULING: **IMPORTED.** AND THE GRANTED ANSATZ IS **REFUTED** BY A REQUIREMENT THE CORPUS IMPOSES ON
+IT. *** Established 2026-07-31 by Codex lane 2 under relay 235
+(`STAGE8_KK_FRAMING_DERIVED_OR_IMPORTED_AUDIT_V001.md`, `5c08253c…`, 49 lines, seal verified,
+fence-clean, no `= true`). *** RAISED BY THE PRINCIPAL: "Are we sure that we're not still imposing any
+assumptions on the proof that doesn't align with the surface geometry? Gravity? The gravacle
+paradigm?" ***
+
+```text
+DERIVED      a compact U(1) comparison group (Gate 1, target-independently)
+             projective / Fubini-Study record geometry
+
+projective_state_space_is_spatial_KK_fiber        = false | TYPE-S
+five_dimensional_EH_derived_from_record_structure = false | TYPE-S
+the single-circle ansatz cannot supply an independent squashing mode
+     *** TYPE-R REFUTATION OF THE GRANTED ANSATZ AS A COMPLETE SADDLE CARRIER ***
+```
+
+**`S^1` is an imported interpretation — *"not established by `U(1)` alone."*** *** A GROUP BEING
+`U(1)` IS NOT THE CLAIM THAT THE STATE SPACE IS A CIRCLE. THE RELAY WARNED AGAINST THAT CONFLATION AND
+IT WAS THE ACTUAL DEFECT. ***
+
+*** WHY THIS EXPLAINS NINE FAILURES: `beta` ASKS "HOW MUCH EXTERNAL LENGTH IS ONE UNIT OF INTERNAL
+ANGLE." THAT PRESUPPOSES THE INTERNAL ANGLE LIVES ON A SPATIAL DIRECTION WITH A LENGTH. **IF IT DOES
+NOT, THERE IS NO SUCH CONVERSION TO FIND.** EVERY CANDIDATE DIED BY TOUCHING BOTH GEOMETRIES WITHOUT
+CLOSING — THE SIGNATURE OF A CATEGORY ERROR, NOT OF A HARD PROBLEM. ***
+
+**AND THE PARADIGM VIOLATION IS EXPLICIT:** the program claims gravity **emerges** from record
+structure, and its parent action was **postulated 5D Einstein-Hilbert**. *** THAT ASSUMES THE
+CONCLUSION. NO LANE WOULD HAVE FLAGGED IT — THE REVIEWER ASKED FOR "THE PARENT ACTION" WITHOUT
+REQUIRING IT TO BE EMERGENT. TWO OF THE THREE IMPORTS WERE THE REVIEWER'S. ***
+
+**Consequence: `DECISION_OF_RECORD_003` — the geometric route is rebuilt from derived objects only.**
+Nothing is deleted; the imported chain (`ell_P := kappa_5^2/(2 pi R_0)`, `beta^2`, the held-fixed
+branch, `rho`, **and the massless-radion identification**) is **re-typed CONDITIONAL on an underived
+framing**, and returns intact if the framing is ever derived.
+
+---
+
+## Q-143. "What derives `ell_P/(c Delta tau)`?"
+
+*** RULING: NOTHING — AND IT **CANNOT BE BRANCH-FREE**. BUT THE RESULT IS A **MERGER**: THE MISSING
+CONVERTER AND THE UNBUILT PARENT-NORMALIZATION LAW ARE **THE SAME OBJECT**. *** Established
+2026-07-31 by Einstein under relay 233
+(`STAGE8_SECOND_RATIO_DERIVATION_HUNT_AND_BRANCH_INDEX_EINSTEIN_V001.md`, `06763cfb…`, 459 lines, seal
+verified, fence-clean). **Nineteen typed negatives.**
+
+**THE DICHOTOMY, WITH NO THIRD CASE:** any candidate relation either **does not mention `ell_P`** (and
+does not convert) or **determines it across the family** — and is then **the parent-normalization law
+itself.** *** THAT IS WHY ALL SEVEN NAMED RECORD-SIDE CANDIDATES MISSED: THE TARGET IS PARENT-SIDE.
+TWO OPEN ITEMS BECOME ONE. ***
+
+**`ell_P` IS BRANCH-INDEXED BY ITS OWN DEFINITION, SO THE CONVERTER IS TOO.** `FORK:199-201` — *"If
+`kappa5` is fixed under `R -> beta R`, then `ell_P` is not constant"* — against the law where `ell_P`
+is fixed by construction, `c Delta tau` inert, and `:290` recording that **no theorem chooses between
+the laws.** *** OBSTRUCTION 1 DOES NOT STAND BESIDE THE THIRD EQUATION — IT SITS **INSIDE THE THIRD
+EQUATION'S OWN VARIABLE.** PROMOTED FROM PARALLEL TO PRIOR. *** The corpus had already listed
+*"inside/outside consistency conditions consuming `ell_P/(c Delta tau)`"* among what must be retyped
+branch-conditional (`AXIOM_PRICE:278`).
+
+**NEW `TYPE-R` EXECUTED AT SOURCE — A TRANSPORT DEFECT:** `PARENT_KK:56` writes the 4d Einstein-Hilbert
+coefficient as `1/(2 ell_P^2)`; `V002:38-39` writes it as `1/(16 pi ell_P^2)`. *** SAME SYMBOL, `8 pi`
+APART. THE PARENT DEFINITION DOES NOT, AS WRITTEN, SUPPLY THE `ell_P` IN `rho`. *** **The lane found
+the seam and deliberately wrote no numeral from it.**
+
+**CORRECTION TO THE REVIEWER'S BRIEF:** `rho^2 = 16 pi K_*` was called fork-free and allowed to read as
+clean. *** `rho` IS FORK-FREE **AND BRANCH-INDEXED**. DIFFERENT PROPERTIES; THE BRIEF CONFLATED
+THEM. ***
+
+**OBSTRUCTION SCORECARD: 3 OF 3 SURVIVE.** With a hypothetical third relation the count **does** close,
+3 against 3 — *"I say so rather than manufacture a failure"* — **but it closes onto a branch-indexed
+set.** `CELL_CONSTRAINT_ONLY` reproduced a third time. **Three refutations folded against the lane's
+own sealed work, including that its relay-221 saddle system's `delta/delta R` row silently adopts a
+branch.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
