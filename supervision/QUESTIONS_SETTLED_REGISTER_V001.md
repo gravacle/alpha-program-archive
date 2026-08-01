@@ -8238,6 +8238,46 @@ FORMULA PROBLEM.** ***
 **Reviewer standing:** eight collapse/pattern proposals, six refuted, one half right. *** THIS IS A
 NINTH REVIEWER CLAIM AND IT IS NOT VERIFIED. IT MUST BE ATTACKED BEFORE ANYTHING RESTS ON IT. ***
 
+## Q-187. The BR closure operator is INFINITE-DIMENSIONAL. The spectral gap is NOT seam 10's. Row 14 stands.
+
+**Relay 277 (Codex 2).** `STAGE8_BR_CLOSURE_OPERATOR_SPECTRUM_AND_SEAM10_IDENTITY_DETERMINATION_V001.md`,
+`de88ba684da719dcd5b2d37b781b2d85d10ef15dbb2043c6191b5f1e6f140804`, 349 lines. Hash verified,
+fence-clean.
+
+```text
+*** THE GLOBAL CARRIER IS AN INFINITE-DIMENSIONAL L^2 SPACE WITH A FINITE INTERNAL FIBER --
+NOT A FINITE MATRIX. *** No characteristic polynomial, eigenvalues, kernel multiplicity or
+spectral gap was computed: TYPE-C. *** THE LANE DID NOT INSTANTIATE BY CHOOSING. ***
+
+*** THE STAGE-C GAP IS NOT SEAM 10's:  false | TYPE-R ***
+   seam 10's 16-dimensional object is an OPERATOR SPAN.
+   Stage C's "16" is an INTERNAL FIBER.
+   *** THE CARRIERS AND SPECTRAL PREDICATES DIFFER. THE COINCIDENCE OF THE NUMBER 16 IS A
+   COINCIDENCE. ***
+
+CONSEQUENCE: the physical spectral gap REMAINS A SEPARATE OFF-LIST DEBT. *** ROW 14 STANDS.
+THE DEBT COUNT REMAINS EIGHTEEN — IT DOES NOT COLLAPSE TO SEVENTEEN. ***
+A seventh independent off-list input was NOT established: NO_VERDICT.
+
+STAGE C IS A CURRENT OBLIGATION, but V003/V004 SUPERSEDE V002's executable framing -- the same
+supersession pattern now found on the action, the residual, and this operator.
+```
+
+**Missing inputs named:** the complete public BR carrier/domain · a spectral-calculus realization ·
+the public quotient and `Tr_BR` · null/private removal · statistics/ghost signs · the normalized
+`D_BR^2`-to-`L_BR` relation · target-blind boundary/spin/bundle/moduli selection.
+
+*** THE HOPED-FOR COLLAPSE DID NOT HAPPEN. The reviewer put this relay first on the strength of a
+dependency-map ranking; it returned a clean `TYPE-R` on the identity and a `TYPE-C` on the
+computation. **BOTH ARE CORRECT TYPINGS AND THE LANE REFUSED TO MANUFACTURE A SPECTRUM.** ***
+
+### Reviewer defect corrected in the same turn
+
+*** `LOCKED_PROCESS.md` LISTED FOUR STEPS — verify hash, fence-scan, register, commit and push —
+**WITHOUT SAYING THEY ARE REVIEWER STEPS**, WHILE EVERY RELAY TELLS THE LANE TO READ THAT FILE. **TWO
+LANES STALLED ON IT IN ONE DAY**, BOTH CORRECTLY REFUSING TO BYPASS THE CONTROL. THE HEADING NOW
+READS "THESE ARE REVIEWER STEPS. LANES DO NOT DO THEM." ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
