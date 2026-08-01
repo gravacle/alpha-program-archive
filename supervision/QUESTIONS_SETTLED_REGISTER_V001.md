@@ -7200,6 +7200,201 @@ OF THE HOLONOMY ROUTE REMAINS BLOCKED, AND `physical_public_EM_connection_derive
 
 **Issued on this basis:** relay 260 — build the mandated composition-loop prediction — to Codex 2.
 
+## Q-167. The nerve gives a map PER COVER, not a functor — and "functor" was aspirational.
+
+**Asked:** relay 261 (Codex 1, high effort). **Answered:**
+`STAGE8_CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR_ATTEMPT_V001.md`,
+`f600362c64fe47ee3986b89765a1f631cc74d87873d9a29384377836c8eccad1`, 444 lines. Hash verified;
+fence-clean. *** EVERY POSITIVE FLAG IT RAISED IS TAGGED `IMPORTED_GENERAL_TOPOLOGY` OR
+`IMPORTED_CONDITIONAL`. NOTHING WAS CLAIMED AS DERIVED. ***
+
+```text
+PATCH_COVER_TO_INCIDENCE_GRAPH_DATA_MAP_PER_FIXED_COVER = true
+NERVE_ONE_SKELETON_CANDIDATE_PER_COVER = true | IMPORTED_GENERAL_TOPOLOGY
+
+ALL FIVE INDEPENDENCE CHECKS: cover . lift . path representative . ordering . refinement
+*** EVERY ONE TYPE-U. NOT ONE WAS PROVED. *** (lift: "formal imported match only; not sealed")
+```
+
+**And the corpus's own word for the missing object does not survive inspection:** *** "FUNCTOR" IS
+**ASPIRATIONAL**. The corpus supplies cover/overlap data on one side and graph/incidence data on the
+other — **but not the source and target categories, and not morphism preservation.** IT IS A MAP OF
+DATA, NOT A FUNCTOR. *** Registered because a later lane asked to "build the functor" would otherwise
+build a category theory the corpus does not have.
+
+### The obstruction sharpened — three named objects replace one
+
+```text
+DISTINGUISHED_PRPS_COVER_SELECTOR  = missing | TYPE-U
+NERVE_REALIZES_GATE4_K13           = missing | TYPE-U
+CECH_TRANSITION_TO_GATE4_EDGE_DATA = missing | TYPE-U
+```
+
+*** AND THE TARGET GRAPH IS NAMED AND DERIVED: **GATE 2 FORCES `K_1,3` — "uniquely up to
+isomorphism" — FROM MINIMALITY AND ROOT-INCIDENCE OVER ROOTED STRUCTURES. BUT GATE 2 NOWHERE STATES
+THAT `K_1,3` IS THE NERVE OF A SMOOTH ENDPOINT-COMPARISON COVER.** THAT UNSTATED STEP IS THE WHOLE
+OBJECT. *** Two candidate selectors were tested and both failed:
+`record_cell_selects_distinguished_PRPS_cover = false | TYPE-U`, and the first-opening incidence
+structure does not state that `K_1,3` is a cover nerve either.
+
+**Issued on this basis:** relay 263 — can a PRPS cover's nerve realize `K_1,3`? — to Codex 1. It is
+the one of the three that can **kill the nerve route cheaply**, and it carries a consequence to test:
+`K_1,3` is a tree, a tree is contractible, and a good cover with contractible nerve would make the
+endpoint-comparison domain contractible and its principal `U(1)` bundle trivial.
+
+---
+
+## Q-168. The composition loop EXISTS — cycle rank 1 — but it is PROTOCOL-MANDATED, NOT FORCED, AND IT IS NOT THE CURVATURE CARRIER.
+
+**Asked:** relay 260 (Codex 2, high effort). **Answered:**
+`STAGE8_COMPOSITION_LOOP_STRUCTURAL_PREDICTION_BUILD_V001.md`,
+`5810377123b823e680891a3337855750ac8f362951dca048dad3a78a34c79d79`, 464 lines. Artifact AND sidecar
+hashes both verified against stated values; fence-clean; `Phi` not evaluated.
+
+### The structure is built
+
+```text
+exact incidence rank  3
+*** EXACT CYCLE RANK  1 ***          -- the loop carrier EXISTS
+cycle generator       e_a0 - e_0b + e_ab - e_ba
+Phi                   the GAUGE-INVARIANT RATIO OF THE TWO ORDERED PATH TRANSPORTS
+composition_loop_structural_carrier_result_built = true
+composition_loop_carries_global_holonomy = true
+```
+
+*** AND THE PRINCIPAL TRAP WAS AVOIDED WITHOUT BEING TOLD THE ANSWER: **"No identity with the
+quarter-turn unit-flux holonomy was found or used."** ***
+
+### But the loop is NOT forced
+
+```text
+K_square_protocol_mandated = true
+V011_carrier_selection_derived_from_composition = false | TYPE-R
+   V011's general composition law PERMITS SEQUENTIAL CHAINS; it never derives the commuting/
+   confluent TWO-HANDLE DIAMOND needed to necessitate K_square.
+K_square_forced_if_commuting_two_handle_diamond_is_supplied = true | CONDITIONAL
+composition_forces_some_sequential_composite = true
+```
+
+*** COMPOSITION **ALLOWS** THE DIAMOND. IT DOES NOT **REQUIRE** IT. THE CARRIER IS SELECTED BY
+PROTOCOL, NOT DERIVED — AND THAT IS AN ALLOW/REQUIRE FINDING ARRIVING FROM A LANE THAT WAS NOT ASKED
+THE ALLOW/REQUIRE QUESTION. *** (Relay 262, testing the tree/loop split as an allow/require boundary,
+was written before this returned and is staged for Einstein. **The two are independent.**)
+
+### *** AND THE WALL: THE LOOP IS NOT THE CURVATURE CARRIER ***
+
+```text
+composition_loop_is_curvature_plaquette_carrier            = false | TYPE-R
+composition_loop_alone_closes_curvature_localization_bridge = false | TYPE-R
+composition_loop_to_temporal_plaquette_identity_derived     = false | TYPE-S
+```
+
+**V011 says it itself** — *"no `2`-cell"* (`:1840`) and *"No filled `2`-cell is included in the trace
+carrier"* (`:1881-1882`). **So the composition loop has no face generator, no face area, no local
+curvature two-cochain, and no local quadratic curvature density.**
+
+*** PUT Q-166 AND THIS TOGETHER: **CURVATURE NEEDS LOOPS (Q-166), AND THE LOOP THE PROGRAM GETS IS
+UNFILLED AND CANNOT CARRY CURVATURE (Q-168). THE CURVATURE LEVEL NEEDS A FILLED TWO-CELL THAT DOES NOT
+EXIST AT FIRST OPENING OR AT FIRST COMPOSITION — AND CURVATURE IS WHERE A MAXWELL TERM WOULD HAVE TO
+COME FROM.** *** The temporal plaquette IS a filled two-cell diagnostic, but it is a **different
+object** and `TYPE-S` on identity; the would-build is an explicit carrier-extension map from `K_square`
+to it preserving connection and response.
+
+### What was correctly NOT done
+
+`this_lane_authorized_to_complete_spectral_would_build = false | TYPE-C` —
+`V011_matrix_experiment_fully_specified = true`, but completing it requires V011's spectral outputs and
+**relay 260 prohibited evaluating `Phi` or computing eigenvalues.** *** THE LANE STOPPED AT THE FENCE
+AND SAID SO. `V011_composition_loop_prediction_sealed = false | TYPE-U` — STILL UNSEALED, STILL
+MANDATED FOR CORE-RESULT-SEAL. ***
+
+## Q-169. The response-map pullback does NOT supply `S6` — and it corrects a reviewer error I propagated into the brief.
+
+**Asked:** relay 258 (Einstein, high effort). **Answered:**
+`STAGE8_RESPONSE_MAP_PULLBACK_S6_ADJUDICATION_EINSTEIN_V001.md`,
+`6ca465a642c40895989aefb6ea1a401766af12a6ec72f8b448f4990aa87c5af9`, 317 lines. Hash verified;
+fence-clean; artifact and sidecar both mirrored.
+
+### *** FIRST: A REVIEWER ERROR, PROPAGATED INTO THE BRIEF ITSELF ***
+
+**Q-164 recorded, and relay 258 §1 then carried verbatim, that *"one mechanism is ALREADY
+SEALED-REFUTED: the O7 pullback transfer check, DOES_NOT_TRANSFER."*** *** THE FLAGS WERE ACCURATE.
+**THE FRAMING WAS BACKWARDS.** THE SUBJECT OF `DOES_NOT_TRANSFER` IS **O7's OBSTRUCTION**, NOT THE
+PULLBACK: ***
+
+> *"This is not a proof that the response-map pullback holds. It is only a typing negative: the
+> current O7 obstruction does not close it."*
+
+**The route was in BETTER shape than the reviewer reported.** And the mirror check closes the other
+direction too: building an O7-analogue witness for the pullback would require the pullback itself,
+*"so importing O7's witness across it would be a type error."* *** NEITHER THE PROOF ROUTE NOR THE
+REFUTATION ROUTE THROUGH O7 REACHES IT. THE OBVIOUS KILL SHOT MISSES. *** Registered as a reviewer
+error because the brief instructed the lane to read the refuted mechanism first — **and that
+instruction is the only reason it was caught.**
+
+### The answer: no, for three reasons, NONE of them O7's
+
+```text
+1  CODOMAIN MISMATCH   the pullback's codomain is a COMMON REFINEMENT INSIDE A FROZEN CLASS;
+                       S6's is the COMPLETED EXTERNAL SECTOR.
+                       *** WITHIN-CLASS NATURALITY IS NOT CROSS-SECTOR TRANSPORT. ***
+2  NO STANDING         the pullback has no independent standing -- it is ONE HYPOTHESIS inside a
+                       campaign already running, not a fresh isolated lever.
+3  SEALED AND MISSED   *** BY FOUR OF FIVE CHAINS: R-L2b's uniformity is REFUTED AS WRITTEN, and
+                       T11's response half CONSUMED R-L2b. ***
+```
+
+**The steelman was given the hardest run and fails at its premise:** the refinement limit that would
+reach the sector — *"the pullback's own limit is an EXHAUSTION limit, the OPPOSITE INDEX DIRECTION."*
+And a recorded refinement pathology sits **inside** the shape-regular class.
+
+### The cleanest statement of what is actually missing
+
+*** THE CORPUS'S OWN P8 LEDGER ROW **IS** `S6`'s WOULD-BUILD, AND IT HAS **TWO CONJUNCTS**: ***
+
+```text
+(i)  construct a source-inclusive continuum/refinement system WITH ITS EMBEDDINGS   <-- DOES NOT EXIST
+(ii) prove response naturality under them                                           <-- the pullback
+```
+
+*** THE PULLBACK IS THE **SECOND** CONJUNCT. THE FIRST DOES NOT EXIST. **IT IS A FINISHING LEMMA OVER
+EMBEDDINGS NOBODY HAS BUILT.** ***
+
+### Typing, and it matters more than the answer
+
+`TYPE-U`/`TYPE-C`, **not** `TYPE-R` — the pullback is neither proved nor refuted, and the
+requirement's own S8 clause forbids converting absence into refutation. *** UNDER Q-54 THIS RELAY
+RETURNS **NO PHYSICAL CONTENT**; UNDER Q-92 IT IS STILL A COMPLETE ANSWER. THE LANE SAID BOTH HALVES
+RATHER THAN CLAIMING THE STRONGER ONE. ***
+
+### Two further corrections to claims the reviewer put in the brief
+
+*** RELAY 258 §2.4 ASKED THE LANE TO CHECK, NOT INHERIT, THE CLAIM THAT DISCHARGING `S6` MAKES GATES
+1–4 A CROSSING TRACE. **IT CHECKED, AND THE CLAIM IS FALSE.** ***
+
+```text
+discharging S6 would NOT confer sector reach -- it is ONE OF SEVEN CLAUSES
+discharging S6 would NOT make Gates 1-4 one trace -- *** "BAG-PLUS-ONE" ***
+```
+
+**What survives intact is the premise:** *** `S6` IS REACHABLE **WITHOUT DETERMINING `B0`** — the
+`B0`-replacement clause and "declared as premises at the outset" both stand. ***
+
+### An open custody item, declared by the lane and left to the reviewer
+
+*** Q-33's SOURCE ARTIFACT HAS **NO** `.seal.sha256` SIDECAR WHILE THE SEALED CHECK IT CORRECTS
+**DOES**. AN UNSEALED ARTIFACT IS CORRECTING A SEALED ONE. *** The lane declared it and noted the
+answer is invariant either way. **Reviewer: this is a real status conflict and it is now on the
+board.**
+
+### A run-level observation worth keeping
+
+*** "NO CHAIN FABRICATED ANYTHING, BUT FOUR OF MY OWN AGENTS' `TYPE-R` CLAIMS HAD TO BE RETYPED
+DOWNWARD. THE FAILURE MODE THIS PROGRAM KEEPS REPEATING ISN'T DEFLATION — IT'S EACH LANE OVER-TYPING
+THE ONE FINDING IT WANTS TO OWN." *** Struck overdetermination bar: **ninth** report.
+
+**Issued on this basis:** relay 262 — is the tree/loop split the allow/require boundary? — to Einstein.
+
 ---
 
 ## HOW TO USE THIS REGISTER

@@ -1,41 +1,41 @@
 {
-  "alpha_computed": false,
-  "baseline": "corpus_check_yellow_counts_v001",
-  "date": "2026-08-01",
-  "discipline": "YELLOW classes may not increase; RED classes block in --gate.",
-  "proof_authorized": false,
-  "red_checks": [
-    "authority_currency",
-    "deploy_state",
-    "fingerprint_currency",
-    "marker_prefix_collision",
-    "seal_integrity",
-    "voided_pass"
-  ],
-  "yellow_checks": [
-    "cannot_fail_checks",
-    "deleted_content",
-    "hardcoded_claim_flags",
-    "orphaned_result",
-    "path_list_word_splitting",
-    "relay_sequence_head",
-    "scope_declaration",
-    "substring_certification",
-    "superseded_path_hardwire",
-    "unsourced_quantitative_claim",
-    "untyped_negative"
-  ],
-  "yellow_counts": {
-    "cannot_fail_checks": 4,
-    "deleted_content": 543,
-    "hardcoded_claim_flags": 2926,
-    "orphaned_result": 1066,
-    "path_list_word_splitting": 3,
-    "relay_sequence_head": 1,
-    "scope_declaration": 164,
-    "substring_certification": 6,
-    "superseded_path_hardwire": 521,
-    "unsourced_quantitative_claim": 22,
-    "untyped_negative": 3402
-  }
+ "alpha_computed": false,
+ "baseline": "corpus_check_yellow_counts_v001",
+ "date": "2026-08-01",
+ "discipline": "YELLOW classes may not increase; RED classes block in --gate.",
+ "proof_authorized": false,
+ "red_checks": [
+  "authority_currency",
+  "deploy_state",
+  "fingerprint_currency",
+  "marker_prefix_collision",
+  "seal_integrity",
+  "voided_pass"
+ ],
+ "yellow_checks": [
+  "cannot_fail_checks",
+  "deleted_content",
+  "hardcoded_claim_flags",
+  "orphaned_result",
+  "path_list_word_splitting",
+  "relay_sequence_head",
+  "scope_declaration",
+  "substring_certification",
+  "superseded_path_hardwire",
+  "unsourced_quantitative_claim",
+  "untyped_negative"
+ ],
+ "yellow_counts": {
+  "cannot_fail_checks": 4,
+  "deleted_content": 543,
+  "hardcoded_claim_flags": 2926,
+  "orphaned_result": 1066,
+  "path_list_word_splitting": 3,
+  "relay_sequence_head": 1,
+  "scope_declaration": 168,
+  "substring_certification": 6,
+  "superseded_path_hardwire": 521,
+  "unsourced_quantitative_claim": 22,
+  "untyped_negative": 3402
+ }
 }
