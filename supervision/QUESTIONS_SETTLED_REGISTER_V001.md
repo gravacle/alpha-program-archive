@@ -6320,6 +6320,60 @@ THAT IS THE CONDITION UNDER WHICH A POSITIVE, WHEN IT COMES, WILL MEAN SOMETHING
 
 ---
 
+## Q-149. "Can the higher-derivative tower be bounded pre-root?"
+
+*** RULING: **AT EACH ORDER, YES — ACROSS ALL ORDERS, NO.** AND A THEOREM WAS **PROVED** — THE FIRST OF
+THIS SESSION. *** Established 2026-08-01 by Codex lane 2 **at high reasoning effort** under relay 242
+(`STAGE8_PRE_ROOT_HIGHER_DERIVATIVE_EQUIVALENCE_THEOREM_V001.md`, `c6ad988a…`, 213 lines, seal
+verified, fence-clean).
+
+```text
+pre_root_EOM_equivalence_relation_specified = true
+conditional_EOM_redundancy_theorem_proved   = true
+finite_basis_at_each_fixed_derivative_order = true | CONDITIONAL_ON_H1-H8_AND_FINITE_FIELD_CONTENT
+known_Pauli_control_removed_by_this_theorem = false | TYPE-R   *** IT SURVIVES ***
+```
+
+**THE THEOREM:** EOM-exact and fixed-boundary-exact operators are **removable by local field
+redefinitions** — *** AND THE TRANSFER WAS CHECKED, NOT ASSUMED. The redefinition must preserve **the
+physical quotient, measure, contacts, Ward domains, counting metric, unit incidence magnitude, and
+`U(1)` holonomy.** That is the redundancy argument adapted to THIS structure rather than imported from
+generic field theory — the guard put in after the Kaluza-Klein framing was audited as an import. ***
+
+**The equivalence is not vacuous:** the **Pauli mutation survives**, `TYPE-R`, because it changes the
+source vertex. **It removes real members and leaves real ones.**
+
+*** ACROSS ALL ORDERS THE BASIS REMAINS INFINITE: "the corpus supplies no cutoff, convergence theorem,
+or UV completion that closes the union." §5.3 REMAINS BLOCKED ON THE ALL-ORDERS CLASS — `TYPE-U`, NOT
+A REFUTATION OF AN EVENTUAL BOUND. ***
+
+**FOUR NAMED ROUTES WOULD CLOSE IT (`:169-171`, `:192`):**
+
+```text
+1  a finite cutoff / order relevant to the exact response
+2  an all-orders convergence / resummation theorem with finitely many response invariants
+3  *** A UV COMPLETION OR MICROSCOPIC GENERATOR THAT FIXES THE FULL TOWER ***
+4  a stronger native finite-algebra theorem
+```
+
+*** ROUTE 3 IS `P0`/ORIGIN-SHAPED. **THE CENSUS'S LAST GAP MAY ROUTE BACK TO THE SAME MICROSCOPIC
+OBJECT THE THRESHOLD ROUTE IS BLOCKED ON — WHICH WOULD MEAN THE TWO ROUTES ARE LESS INDEPENDENT THAN
+THE PROGRAM HAS BEEN TREATING THEM.** ISSUED AS RELAY 243, ASKING **WHAT PROPERTY IS NEEDED, NOT WHERE
+THE OBJECT IS** — the six origin searches are done and re-running them is the failure this program has
+already committed. ***
+
+**THE EXACTNESS CONSEQUENCE, NOW PRECISE RATHER THAN A WORRY:** *** A COMPUTED ALPHA WOULD BE
+**LEADING-ORDER WITH UNCONTROLLED HIGHER-ORDER CORRECTIONS** UNLESS ONE OF THE FOUR EXISTS. Q-125 RAISED
+THIS AS A CONCERN; IT IS NOW A NAMED, BOUNDED, FOUR-ROUTE GAP. ***
+
+**LANE-CAPACITY NOTE, AND IT IS DEMONSTRABLE.** *** THE SAME OBJECT RETURNED `NO_VERDICT` FROM THIS
+LANE AT **LOW** REASONING EFFORT (Q-146) AND A **PROVED CONDITIONAL THEOREM WITH EIGHT STATED
+HYPOTHESES** AT **HIGH** EFFORT, IN UNDER THREE MINUTES. THE REVIEWER FLAGGED THE RISK THAT AN
+UNDER-POWERED LANE'S `NO_VERDICT` WOULD BE READ AS EVIDENCE THE THEOREM DID NOT EXIST. **IT WOULD
+HAVE BEEN.** ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
