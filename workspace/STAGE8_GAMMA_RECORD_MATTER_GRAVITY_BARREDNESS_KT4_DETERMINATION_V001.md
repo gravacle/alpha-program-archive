@@ -1,0 +1,439 @@
+# Stage 8 — `Gamma_record,matter,gravity` Barredness KT4 Determination v001
+
+Date: 2026-08-01  
+Lane: CODEX LANE 2  
+Road role: obstruction test on the unknown source-record-matter-gravity action  
+Construction performed: none
+
+## Lead verdict
+
+**No sealed universal bar was found.** The current standing is
+**UNDERDETERMINED (`TYPE-U`)**, not BARRED and not cleared as constructible.
+
+```text
+Gamma_record_matter_gravity_current_status = UNDERDETERMINED | TYPE-U |
+  would-build: one complete normalized microscopic source-record-field-gravity
+  CTP action/functional with physical quotient, measure, state/effects, durable
+  saddle, Ward/causal/positivity domains, and a pre-response action-family
+  selection or closure theorem
+
+universal_Gamma_record_matter_gravity_bar_found = false | TYPE-S |
+  roots: R1-R4 below |
+  exclusions: E1-E8 below |
+  queries: Q1-Q6 below |
+  result: zero deduplicated universal object-level obstruction results
+
+complete_admissible_Gamma_record_matter_gravity_constructed = false | TYPE-U |
+  would-build: the complete object named above
+
+Gamma_record_matter_gravity_constructible = NO_VERDICT |
+  reason: the corpus supplies neither a complete witness nor a universal
+  impossibility theorem
+```
+
+This is not the third verdict offered in the relay, “no obstruction search has
+ever run.” Obstruction searches have run. Three prior determinations explicitly
+distinguish missing construction from impossibility:
+
+- `STAGE8_GAMMA_K_SCOPE_INVENTORY_AND_Q21_REGISTRATION_V001.md:486-505`
+  returns **MISSING SPECIFICATION**, says no named mathematical obstruction was
+  found, and records that F-GK1 does not fire.
+- `STAGE8_SECTION_5_3_UNIQUENESS_GATE_PASSABILITY_DETERMINATION_V001.md:357-385`
+  finds no theorem making a future closure theorem impossible.
+- `STAGE8_ACTION_FORM_CLOSURE_THEOREM_SPEC_AND_BUILD_STOP_V001.md:445-470,501-504`
+  states what a genuine non-enumerability theorem would require and says the
+  corpus supplies no such theorem.
+
+The negative above is therefore a searched, scoped `TYPE-S` result. It is not
+a `TYPE-R` physical result and is not permission to assert that an admissible
+action exists.
+
+## 1. Version correction before adjudication
+
+The relay quotes the historical v002 partition accurately. The source states:
+
+> `Gamma_K[X] = (K/4) integral_Omega sqrt(|g|) F_(mu nu) F^(mu nu) d^4x`
+> `+ Gamma_record,matter,gravity[X].`
+
+and then:
+
+> “The second term may depend on `A` and on the other fields in `X`, but it may
+> not contain a separately adjustable local `F^2` coefficient. If the
+> microscopic theory generates another such term, it must be combined into the
+> single displayed `K` before selection.”
+
+Source:
+`/Users/bgm/Documents/New project/gravity_emergence_evidence_program/primitive_record_cell_selection_principle_v002.md:30-46`.
+
+But v002 is not the active action partition. The active successor says:
+
+> “Version 002 placed a local Maxwell term with coefficient `K` inside the
+> microscopic action. The active branch instead has zero bare Maxwell
+> stiffness. Here `K` labels a local surrogate for an exact induced connection
+> response; it is not a microscopic input.”
+
+Source:
+`/Users/bgm/Documents/New project/gravity_emergence_evidence_program/primitive_record_cell_selection_principle_v004.md:3-9`;
+the construction spec repeats the correction at
+`STAGE8_GAMMA_K_CONSTRUCTION_SPEC_V001.md:135-166`.
+
+Accordingly:
+
+```text
+v002_microscopic_Maxwell_K_partition_is_active = false | TYPE-R |
+  test: express supersession statement in v004:3-9
+
+historical_Gamma_record_matter_gravity_name_retained_as_target_vocabulary = true
+
+active_unknown_object = COMPLETE_ZERO_BARE_SOURCE_RECORD_GRAVITY_CTP_FUNCTIONAL
+```
+
+The barredness search was applied to both the historical remainder class and
+the active complete zero-bare functional. Neither has a sealed universal
+impossibility result. The active target is nevertheless unbuilt: v004 leaves
+the physical quotient, retarded-Hessian map, full Dyson residual, local
+projection, boundary displacement, and complete induced operator underived at
+`:218-240`.
+
+## 2. Search scope, queries, and counts
+
+### Roots entered
+
+The canonical project path is a symlink. It was resolved before the recursive
+search so that the parent gravity arm was not silently skipped.
+
+```text
+R1 /Users/bgm/Documents/Documents - Brian’s MacBook Pro/New project/
+   gravity_emergence_evidence_program
+R2 /Users/bgm/Documents/Documents - Brian’s MacBook Pro/New project/
+   _external_handoffs/fable_alpha_cleanroom
+R3 /Users/bgm/MB Work/alpha-program-archive
+   including cleanroom_output, workspace, and supervision
+R4 /Users/bgm/MB Work/alpha_supervision
+```
+
+### Exclusions
+
+```text
+E1 every path component named a32_holdout
+E2 every path component named custodian_private
+E3 .git
+E4 node_modules
+E5 vendor
+E6 .proof_deps and site-packages
+E7 __pycache__, binaries, and generated bytecode
+E8 seal sidecars as searchable content
+```
+
+No excluded directory was entered. Markdown source artifacts were searched.
+Archive/supervision mirrors, historical versions, result JSON restatements,
+and scripts implementing the same verdict were deduplicated at the authority-
+lineage level before the result counts below.
+
+### Queries actually run
+
+`rg` was unavailable in this shell, so the sweep used `find` plus
+case-insensitive `grep -E`, with explicit non-identifier delimiters providing
+word boundaries.
+
+```text
+Q1 exact-object/name:
+   Gamma_record,matter,gravity | Gamma_record | Gamma_K
+
+Q2 target-neighbourhood:
+   source-record closure action | complete parent action |
+   complete microscopic action | complete CTP functional | S_CTP | Q_spec
+
+Q3 obstruction vocabulary:
+   obstruction | obstructed | no-go | no go | impossibility | impossible |
+   cannot exist | incompatible | inconsistent
+
+Q4 underdetermination vocabulary:
+   underdetermination | underdetermined | nonselection | non-derivation |
+   nonderivation | not selected | unselected
+
+Q5 coefficient compatibility:
+   separately adjustable local F^2 | primitive_F2 | generated_F2 |
+   Maxwell invariant | finite c_F2 | c_R | K_bare
+
+Q6 trial and status:
+   trial potential | trial form | V_1(r) | V_2(r) | bounded below |
+   phase orbit | durable record | superseded | withdrawn | active branch
+```
+
+For Q3 and Q4 each alternative was wrapped by
+`(^|[^[:alnum:]_]) ... ([^[:alnum:]_]|$)`; multiword alternatives retained
+their explicit whitespace expression. Q1, Q2, Q5, and Q6 used the same
+identifier-boundary discipline on each literal or identifier.
+
+The pre-artifact lexical screening snapshot contained `4,930` Markdown path
+instances:
+
+```text
+files containing obstruction vocabulary       = 915
+files containing underdetermination vocabulary = 387
+distinct content hashes among obstruction hits = 520
+distinct content hashes among underdetermination hits = 227
+```
+
+Those are screening counts, not physics verdicts; they include mirrors,
+historical prose, unrelated sectors, and documents that quote a word only to
+deny its applicability. After object typing, scope review, version review, and
+lineage deduplication:
+
+```text
+universal object-level bar lineages                         = 0
+concrete action-form witness-pair underdetermination lineages = 2
+adjacent coefficient/modulus nonselection lineages           = 2
+selected load-bearing scoped controls tabulated below        = 5
+  current at their stated scope                               = 4
+  historical/resolved at complete_Q_spec                      = 1
+```
+
+The first two counts are the requested target-level verdict counts. A direct
+underdetermination lineage was counted only when one authority exhibits a
+concrete alternative pair under shared premises; bare missing flags,
+specifications, mirrors, and downstream restatements were not counted. The
+adjacent count records independent nonselection mechanisms that act on the
+coefficient or geometric modulus rather than exhibiting a second complete
+action. Every lexical candidate was screened for a universal action-existence
+claim; the scoped-control table is deliberately contextual, not an exhaustive
+census of every downstream gate bearing the word “obstruction.”
+
+### The two direct underdetermination lineages
+
+| Lineage | Exact evidence | What it establishes |
+|---|---|---|
+| Closure-field action | `SOURCE_RECORD_CLOSURE_ACTION_UNDERDETERMINATION_GATE_V001.md:31-71,73-82,84-116` | Two target-free local potentials survive the displayed common structure; neither is promoted and neither is a complete action. |
+| Complete charged parent action | `COMPLETE_PARENT_ACTION_UNDERDETERMINATION_GATE_V001.md:24-75,77-90` | `S_0` and Pauli-mutated `S_1` both retain `K_bare=0` and give response-inequivalent action forms; current premises do not select one. |
+
+Two adjacent, independently deduplicated nonselection lineages were also
+found but not conflated with those action-form pairs:
+
+| Adjacent lineage | Exact evidence | Type boundary |
+|---|---|---|
+| Finite local response coefficient | `/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_step5_absolute_response_identifiability_v001.md:13-47,68-94` | A continuous `c_R F^2` CTP mutation is not selected by the stated Step-4 premises; this is coefficient identifiability, not a second complete-action witness. |
+| Coupled-bundle modulus/action class | `COUPLED_RECORD_BUNDLE_MODULUS_GATE_V002.md:49-84,102-115` | The proper-radius modulus and parent action class remain unselected; this is a geometric/action-class conditional, not an exhaustive action pair. |
+
+The latest magnitude gate is a corrected descendant of the first lineage, not
+a third witness. `SOURCE_RECORD_CLOSURE_MAGNITUDE_NONDERIVATION_GATE_V003.md:5-18,63-79`
+explicitly says the result is missing derivation, not a theorem that every
+future completion leaves the magnitude free. Task 19’s named “action
+obstruction” restates the `S_0/S_1` selection failure and is likewise not
+recounted.
+
+### Selected scoped controls: four current plus one resolved, none universal
+
+| Scoped result | Type at its actual scope | Why it is not a bar on every admissible action |
+|---|---|---|
+| Finite closed BID durability | `TYPE-R`: the exact one-cell unitary rewrites the endpoint and a finite closed discrete spectrum is recurrent. `BID_FINITE_RECORD_DURABILITY_NO_GO_V001.md:7-46`. | The same artifact lists superselection, pointer algebra, infinite causal/environmental limit, and open-system completion as inequivalent exits at `:36-70`. |
+| Exact many-cell orthogonality | `TYPE-R` over the tested incident-chain family: simultaneous exact orthogonality fails for the tested interacting chains. `alpha-program-archive/cleanroom_output/29_DURABLE_INTERVAL_LIMIT_RESULT_V001.md:8-39`. | The reconciliation ledger scopes it to the exact pass-condition wording and retains thresholded or disjoint composition at `STAGE8_CLEANROOM_OUTPUT_RECONCILIATION_LEDGER_V001.md:200-206`. |
+| Exact-commuting finite-rank continuum regulator | `TYPE-R`: the required nonzero finite-rank family commuting with the free massless Dirac multiplier does not exist. `STAGE8_T7_CONTINUUM_GALERKIN_PROVENANCE_CORRECTION_V001.md:16-28`. | It specifies a noncommuting Galerkin successor at `:41-76`; it closes one regulator family, not the action class. |
+| Primitive source scalarization | `TYPE-R` at the primitive layer: the available parent/effect returns a source operator and no canonical continuum scalarization. `STAGE8_T7_SOURCE_SCALARIZATION_NO_GO_RESULT_V001.md:5-20,67-107`. | Complete `Q_spec` supplies the incoming-state functional and derives the scalar relative-history amplitude: `COMPLETE_QSPEC_RELATIVE_HISTORY_CTP_AMPLITUDE_RESULT_V001.md:5-24,81-93`. This is the one resolved lineage. |
+| Full source-record-field CTP extension | `TYPE-U` construction obstruction, not an existence no-go: `FULL_SOURCE_RECORD_FIELD_CTP_EXTENSION_NOT_TYPED`. `STAGE8_GAMMA_K_COMPLETED_ALGEBRA_EXTENSION_ATTEMPT_V001.md:246-298,318-337`. | It names a missing typed extension and its required contents. Missing typing does not prove that no extension exists. |
+
+Two prominent lexical hits were excluded from the count after typing:
+
+- `STAGE8_TRACE_COLLAPSE_AND_GRAVITY_GAUGE_IMPOSSIBILITY_REGISTER_RECORD_V001.md:90-93`
+  says the ratio route is **not killed**; it proves depth selection is needed on
+  one carrier, not that the action cannot exist.
+- `FULL_CARRIER_DILATION_SELECTOR_OBSTRUCTION_GATE_V001.md:11-33,120-155`
+  is a reduced-carrier selector/nonselection result with explicit missing
+  completion data, not an exhaustive existence theorem.
+
+## 3. The local `F^2` constraint and Gate 4 P3
+
+### Result: no conflict, but no identity and no discharge
+
+```text
+v002_F2_partition_conflicts_with_Gate4_P3 = false | TYPE-R |
+  test: typed-object and quantifier comparison below
+
+Gate4_P3_proves_the_action_level_no_extra_F2_rule = false | TYPE-R |
+  test: P3 family versus continuum-action coefficient
+
+complete_record_action_satisfies_no_extra_F2 = NO_VERDICT |
+  reason: primitive syntax has a witness; continuum exclusion remains unbuilt
+```
+
+The v002 statement is an **action-partition rule**. It allows the microscopic
+record side to generate a local `F^2`; the generated contribution is combined
+into the single displayed coefficient. The forbidden object is a *separately
+adjustable residual* coefficient (`primitive_record_cell_selection_principle_v002.md:37-46`).
+
+Gate 4 P3 concerns a different typed object. Its hostile family consists of
+per-edge coefficients `(a_e,b_e)` in the degree-one incidence differential,
+and P3 excludes independent edge/handle magnitudes only within that enumerated
+family (`alpha-program-archive/cleanroom_output/30_GATE4_DIFFERENTIAL_UNIQUENESS_SPEC_V001.md:12-19,50-53`;
+`32_GATE4_DIFFERENTIAL_UNIQUENESS_RESULT_V001.md:26-29,46-55`).
+
+V011 makes the type separation explicit:
+
+```text
+incidence difference             order at least 1
+local curvature                  order at least 2
+quadratic Maxwell invariant      order at least 4
+```
+
+at `BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md:1071-1092`. It assigns the
+primitive/effective Maxwell classification to Gate 5 at `:1714-1727` and still
+records:
+
+```text
+primitive_F2_theorem_excluded = false
+generated_F2_coefficient_computed = false
+```
+
+at `:2257-2263`.
+
+Thus the two authorities are policy-compatible at primitive syntax—neither
+licenses appending an independent primitive magnitude—but Gate 4 does not
+prove or supply evidence for the action-level rule. Transporting P3 to the
+continuum coefficient would be an unproved identity.
+
+### Satisfiability on the record side
+
+There is a **partial syntactic witness**, not a complete-action witness.
+`PRIMITIVE_ADDITIVE_RECORD_FIDELITY_ACTION_V002.md:74-96` freezes
+
+```text
+S_R,E[a,g,R] = -hbar sum_(c in C) log F_R[Hol_boundary(c)(a)].
+```
+
+It says the candidate is not the complete electromagnetic action, adopts
+zero separate bare Maxwell stiffness, allows generated curvature stiffness,
+and forbids an added `c F^2` at `:106-120`. Its hard-failure/status block keeps
+the continuum condition open:
+
+```text
+finite_c_F2_deformation_excluded = false
+```
+
+at `:135-156`.
+
+```text
+record_side_candidate_obeys_no_separate_F2_at_primitive_syntax = true
+record_side_complete_continuum_F2_exclusion_derived = false | TYPE-U |
+  would-build: causal ensemble, continuum/CTP completion, regulator and Ward
+  domains, and a theorem excluding every finite local c_F2 deformation
+```
+
+The adverse check is the explicit finite CTP mutation in
+`/Users/bgm/Documents/New project/gravity_emergence_evidence_program/alpha_step5_absolute_response_identifiability_v001.md:13-47,68-94`.
+It is symmetry-compatible at the stated Step-4 scope and is not excluded by
+Gate 4. Conversely,
+`alpha_step5_zero_bare_compositeness_boundary_v002.md:8-29,64-75` gives a
+conditional boundary-difference mechanism in which an additive mutation
+cancels, while leaving the physical boundary, operator, regulator/measure, and
+curved CTP response underived. These results establish only (i) primitive
+syntactic compatibility and (ii) a conditional algebraic route by which a
+future record-derived boundary construction would be insensitive to an
+additive mutation. They do **not** establish the existence or logical
+satisfiability of a complete admissible action; its existence remains
+`NO_VERDICT` and its construction remains `TYPE-U`.
+
+## 4. Trial-form audit
+
+The relay’s premise that seam 11 contains four trial forms is false. The gate
+contains exactly **two** distinct trial potentials:
+
+```text
+V_1(r) = (|r|^2-1)^2
+V_2(r) = (|r|^2-2)^2
+```
+
+at `SOURCE_RECORD_CLOSURE_ACTION_UNDERDETERMINATION_GATE_V001.md:31-39`.
+The producer iterates only over `V1,V2` at
+`scripts/audit_source_record_closure_action_underdetermination_v001.py:32-54`,
+and the result JSON contains only those two. A possible source of confusion is
+the four Hermitian generator directions in
+`SOURCE_RECORD_GENERATOR_STRUCTURE_GATE_V001.md:36-50`; that artifact says at
+`:5-11` that it uses no trial potential and is not active authority.
+
+```text
+seam11_gate_contains_four_target_free_trial_potentials = false | TYPE-R |
+  test: exact trial manifest, producer iteration, and result-object census
+```
+
+| Test | `V_1` | `V_2` | Count and type |
+|---|---|---|---|
+| Explicit `F^2` monomial | absent; formula contains only `r` | absent; formula contains only `r` | `explicit_F2_monomial_count_in_displayed_potentials = 0/2`; syntactic count only |
+| Pointwise potential bounded below | yes | yes | passes `2/2`; gate `:41-52` |
+| Full-action/physical positivity established | no kinetic term or complete generator | same | established `0/2`; `false | TYPE-U`; would-build complete kinetic/domain/generator |
+| Isolated saddle as written | no; continuous phase orbit | no; continuous phase orbit | failures `2/2`; `TYPE-R` on the unchanged candidates; gate `:73-78` |
+| Durable record demonstrated | no | no | demonstrated `0/2`; `false | TYPE-U`; gate `:80-82` |
+| Complete admissible closure action | no | no | constructed `0/2`; `false | TYPE-U`; gate `:68-71,99-103` |
+
+The latest correction is decisive about the positivity column:
+`SOURCE_RECORD_CLOSURE_MAGNITUDE_NONDERIVATION_GATE_V003.md:45-67` says the
+positive radial second derivative is exact polynomial algebra, **not** physical
+stability, target-blind provenance, a complete record action, or a complete
+countermodel.
+
+Therefore neither displayed potential, standing alone, is a complete durable
+action. No completed candidate action was tested or rejected. The family is
+expressly non-exhaustive (“among many others,” action gate `:33`), and the same
+artifact names possible phase-orbit resolvers at `:75-78`.
+
+```text
+displayed_trial_potential_has_isolated_minimum = false for 2/2 | TYPE-R |
+  test: continuous phase orbit
+
+durable_record_from_displayed_trial_potential = not established for 2/2 | TYPE-U |
+  would-build: complete record/environment dynamics and durability tests
+
+complete_durable_candidate_action_constructed_from_either_trial = false | TYPE-U |
+  would-build: a complete action and its durability/stability tests
+
+admissible_completion_of_either_trial_is_impossible = false | TYPE-S |
+  roots: R1-R4 | exclusions: E1-E8 | queries: Q1-Q6 |
+  result: no exhaustive impossibility theorem over every allowed completion
+
+Gamma_record_matter_gravity_barred_by_trial_audit = false | TYPE-S |
+  roots: R1-R4 | exclusions: E1-E8 | queries: Q1-Q6
+```
+
+## 5. Final KT4 determination
+
+The corpus does not contain an existence no-go for the historical
+`Gamma_record,matter,gravity` remainder or for the active complete zero-bare
+source-record-gravity CTP functional. It contains two concrete action-form
+witness-pair underdetermination lineages, two adjacent coefficient/modulus
+nonselection lineages, and several real but scoped obstructions to particular
+candidate families or construction routes. Every scoped no-go tabulated here
+either names an escape, is resolved at the correct later layer, or is itself a
+missing-typing obstruction rather than a universal physical theorem.
+
+No typed conflict is present at the primitive-syntax level: v002’s
+action-partition rule and Gate 4 P3 are policy-compatible but act on different
+objects. A record-fidelity action supplies a primitive syntactic witness,
+while the continuum exclusion and complete-action satisfiability remain
+unbuilt.
+
+The correct ledger entry is therefore:
+
+```text
+KT4_VERDICT = UNDERDETERMINED | TYPE-U
+BARRED = not established | TYPE-S | scoped search above
+CONSTRUCTIBLE = NO_VERDICT
+
+alpha_computed = false
+proof_authorized = false
+kappa_record_computed = false
+```
+
+## 6. Bearing symbol collisions
+
+Only collisions that bear on this determination are recorded:
+
+1. `Gamma_K` is both the parent coupling-indexed microscopic functional and a
+   cleanroom cell-set amplitude logarithm; the draft namespace record states
+   the collision at `STAGE8_NAMESPACE_REGISTER_DRAFT_V004.md:20-30`.
+2. `K` is a microscopic Maxwell stiffness in historical v002 and an
+   induced-response surrogate coordinate in active v004.
+3. Gate 4’s filtration labels `F_1/F_2` and its per-edge `(a,b)` magnitude are
+   not the continuum action invariant `F_(mu nu)F^(mu nu)` or its coefficient.
+4. The four generator-basis directions are not the two closure-action trial
+   potentials.
+
+No identity was transported across any of these collisions.

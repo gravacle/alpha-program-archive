@@ -8010,6 +8010,109 @@ FOUR NAMED WAYS OUT REMAIN OPEN AND THE DECIDING QUESTION CANNOT EVEN BE POSED U
 CONSTRUCTED. **`DeltaPhi` IS THEREFORE ON THE CRITICAL PATH TWICE: FOR THE ROOT, AND FOR EXACTNESS.**
 *** (KT3, in flight with relay 274, is asking what it consumes.)
 
+## Q-181. KT1/KT3 — the dependency map. REQUIRED 8 · GATE 1 · OPTIONAL 0 · UNCLEAR 3. The road is LONGER.
+
+**Relay 274 (Einstein).** `STAGE8_C_RECORD_DEPENDENCY_MAP_AND_CRITICAL_PATH_EINSTEIN_V001.md`,
+`59dcdcbabf2b2f79a1754ce16b18d64219489d13eefe57fe7d731dc0b7b4d754`, 330 lines. Hash verified. One
+fence hit at `:213`, self-reported: the formula quoted structurally in a symbol-collision table, no
+value computed.
+
+```text
+*** C_record(K) IS DECLARED ABSTRACTLY -- "Let C_record(K) be the scalar closure residual derived
+from the complete on-shell problem" -- AND AT LEAST TWO SEALED INEQUIVALENT CLOSED FORMS COMPETE TO
+FILL IT: the PHASE form DeltaPhi[K;X_K] - pi, and a MASS-RATIO form M_ADM(K)/m_pole(K) - 1.
+With v001's tuple-valued version and two incompatible C_EMs, A LANE TRACKING THIS SYMBOL IS TRACKING
+FOUR OBJECTS. *** The map is valid only for the PHASE-FORM instantiation.
+
+KT1 METRIC -- SPLITS. g_K is a VARIATIONAL UNKNOWN selected by stationarity modulo public isometry,
+so the reviewer's feared reading is REFUTED. *** BUT THE SAME Gamma_K CARRIES AN EINSTEIN-HILBERT
+SUMMAND WITH AN ADOPTED PLANCK LENGTH, and its stationarity equation is an EINSTEIN EQUATION sourced
+by EM, Dirac and record stress tensors. THE RE-IMPORT IS A NAMED SUMMAND OF THE TARGET FUNCTIONAL,
+NOT AMBIENT. *** Disposition is the principal's.
+
+KT3 -- *** THE THIRTEENTH DEBT IS SIX. *** DeltaPhi's evaluation consumes a complete generator, a
+spectral gap, a UV subtraction and a record-probability sector -- NONE on the twelve-seam list --
+plus the second term's gravity and matter summands, which sit on NO CENSUS ROW AT ALL.
+
+BUCKETS  REQUIRED 8 . GATE 1 . *** OPTIONAL 0 *** . UNCLEAR 3
+   the one seam a chain filed optional was OVERTURNED. Seam 8 is the gate, confirmed four ways, and
+   is NOT STARTABLE today -- its quantification domain is seam 11's open family.
+CRITICAL PATH  the corpus's own sealed dependency order, NEAR-SERIAL, rho_pre at the root.
+   *** THE FIVE-WAY PARALLEL START IS NOT LICENSED. ***
+
+*** SUPPLIED: 0 OF 11. *** After a root there are still two unattempted transports and an adopted
+final formula. **NOTHING HERE SHORTENS THE ROAD.**
+```
+
+**The reviewer's collapse hypothesis is REFUTED positively, not by unavailability:** the second term
+decomposes at source into four named summands, **none of them a listed seam**, and three type-disjoint
+counterexamples suffice. *** WHAT SURVIVES: seams 5, 6 and 12 are ports of one producer — **scheduling,
+not ontology.** *** Einstein's own entering hypothesis (supersession) was refuted by its own run: the
+v002 form is *"superseded as an executable formula, but retained as target vocabulary."*
+
+**Next, ranked by the lane:** the BR closure operator and its spectrum — **nobody read it this run**,
+it sits immediately before both residuals, and it is the likely home of the spectral gap. Also: **the
+target lineage is at least SEVEN files, not four** — the supersession picture was drawn from four of
+seven.
+
+---
+
+## Q-182. KT4 — `Gamma_record,matter,gravity` is UNDERDETERMINED, not barred.
+
+**Relay 275 (Codex 2).** `STAGE8_GAMMA_RECORD_MATTER_GRAVITY_BARREDNESS_KT4_DETERMINATION_V001.md`,
+`7993f0a4c5a475c8d470b0befc6ab2b7745f352266558c5334b1603eaf8a700f`, 439 lines. Hash verified,
+fence-clean.
+
+```text
+*** UNIVERSAL ACTION-LEVEL BARS: 0. *** Verdict UNDERDETERMINED | TYPE-U.
+constructibility = NO_VERDICT   -- *** PERMISSION TO PROCEED, NOT A CLEARANCE. ***
+2 concrete action-form underdetermination lineages + 2 adjacent coefficient/modulus nonselection
+the v002 F^2 rule and Gate 4's P3 DO NOT CONFLICT -- they govern different typed objects.
+   Complete continuum compliance remains UNBUILT.
+seam 11 contains TWO trial potentials, not four -- *** REVIEWER ERROR IN RELAY 275, CORRECTED. ***
+   Neither alone supplies an isolated durable action; that does not bar a completed one.
+```
+
+*** AND THE SUPERSESSION FINDING ARRIVES INDEPENDENTLY FROM A SECOND LANE: "historical v002's
+microscopic-Maxwell partition is superseded by active v004's zero-bare induced-response formulation."
+**TWO LANES, DIFFERENT QUESTIONS, SAME THREAD. THE FORMULA THE ENTIRE PLAN WAS BUILT AROUND IS
+SUPERSEDED VOCABULARY.** ***
+
+**Custody note:** the lane requested authorization to write the register itself. *** DECLINED. Q-91
+makes the reviewer sole registrar and committer, and the lane correctly stopped rather than proceeding.
+This entry was written by the reviewer. ***
+
+---
+
+## Q-183. Bohm's seam-10 narrowing is REFUTED. The selector was CIRCULAR.
+
+**Relay 273 (Codex 1), adversarial recomputation of Q-178.**
+`STAGE8_SEAM10_NARROWING_ADVERSARIAL_RECOMPUTATION_V001.md`,
+`8bc5f105331eada77e052035e3b92d49ee07d042c5361853bb40d3540a2c5ce2`, 276 lines. Hash verified,
+fence-clean. **Independent enumeration, own code.**
+
+```text
+CLAIM 1  4 distinct kernel planes -- CORRECT.
+         *** BUT THE MAP (w_S,w_R,w_E)->(w_R,w_S,-w_E) FAILS FOR FOUR OF EIGHT TRIPLES.
+         Counterexample (2,-1,1). REVIEWER RE-RAN IT AGAINST HIS OWN CODE AND CONFIRMS THE
+         FAILURE. The grouping was computed correctly; the map offered to explain it is WRONG. ***
+CLAIM 2  CONFIRMED.        CLAIM 3  CONFIRMED.
+CLAIM 4  *** THE ARITHMETIC IS CORRECT AND THE PHYSICAL NARROWING IS FALSE. ***
+         The equation is ABSENT from sealed physics authorities; it admits six triples across
+         nullities 2, 4, 6 and 8; and it selects one plane ONLY AFTER PRESELECTING THE DESIRED
+         NULLITY-TWO SECTOR.
+         *** DECISIVE: ALL FOUR PLANES ALREADY SATISFY THEIR OWN SIGNED CONSERVATION EQUATION.
+         THE EXTRA UNSIGNED EQUATION IS THE NEUTRALITY CONDITION FOR THE ALL-RAISING CHANNEL --
+         IT SELECTS THE ANNOUNCED CHANNEL IN ITS PREMISE. It is NOT the corpus's compact
+         vector-U(1) conservation law. ***
+
+PRESERVED:  distinct reduced kernel planes = 4 . *** DISTINCT UNSELECTED GRADING LAWS = 8. ***
+```
+
+*** TRIGGER T2 DOES NOT FIRE, AND THE OBSTRUCTION IS **NOT** HALVED. Q-178's headline is withdrawn.
+**REVIEWER COLLAPSE/PATTERN PROPOSALS: EIGHT PROPOSED, SIX REFUTED OUTRIGHT, ONE HALF RIGHT.** THIS IS
+EXACTLY WHY BOHM'S CONSTRUCTIONS NOW GET A CODEX VERIFIER. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
