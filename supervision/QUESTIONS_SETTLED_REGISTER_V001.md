@@ -9158,6 +9158,34 @@ corrected: DoR008_field_home_alone_completes_Task3a   = false | TYPE-R
 *** THE PLAN'S "TASK 3 RUNS ALONGSIDE TASK 2" IS SCOPED: source-level work yes; the COMPLETE
 record build queues behind Task 2 AND the walls above. AND DoR 008 ALONE DOES NOT FINISH 3a. ***
 
+## Q-210. Wall 2 DISSOLVES as a selection problem — the Lorentzian form is already SPECIFIED. And the reviewer's orbit-is-U(1) reading is REFUTED.
+
+**Relay 294 (Task 3a source-level, Codex 1).**
+`STAGE8_TASK3A_FOUR_LORENTZIAN_FORMS_AND_DURABILITY_ADJUDICATION_V001.md`,
+`056c30481c9c2a055e9b4c7cd7d381e25caf4eaf5aa4ec8a170aa6ba67f65b00`, 444 lines. Hash verified,
+fence-clean. **Two Q-209-derived premises refuted by sealed text:**
+
+```text
+REFUTATION 1 -- THE "FOUR FORMS" WERE A LAYER-MIXED ENUMERATION, NOT FOUR PEERS.
+   The complete output architecture is ALREADY SPECIFIED: a *** DOUBLED COMPLEX CTP INFLUENCE
+   FUNCTIONAL ***. Single-branch evolution is UPSTREAM of it; coherent kinetic response and noise
+   are COMPONENTS of it. *** THE WALL-2 SELECTION PROBLEM DISSOLVES -- what remains is the
+   INSTANCE: the common-origin physical influence functional, TYPE-U. ***
+
+REFUTATION 2 -- THE REVIEWER'S HYPOTHESIS DIES: the trial potentials' continuous phase orbit is
+   *** NOT the declared vector U(1)_rel gauge orbit. THE CLOSURE FIELD IS EXPLICITLY
+   VECTOR-NEUTRAL. *** Quotienting by the existing gauge group does not remove the orbit; the
+   isolated-background failures STAND. (Reviewer scorecard: 11 proposed, 7 refuted.)
+
+DURABILITY, FROM SEALED TEXT: *** thresholded source NONRETURN + exact completed-record
+   PERSISTENCE and RECOVERABILITY. *** It does NOT require resolving the closure-field phase
+   orbit. Boundary pinning: a named, UNBUILT possibility only.
+```
+
+*** NET EFFECT ON THE THREE WALLS (Q-209): wall 2 is no longer "select among four" — the form is
+sealed; the job is instantiation with common-origin provenance. WHICH IS, AGAIN, THE CTP
+COMPLETION. EVERY ROAD IN TASK 3 NOW VISIBLY CONVERGES ON TASK 2's PACKAGE. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
