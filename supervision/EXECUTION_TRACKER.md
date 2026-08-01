@@ -118,15 +118,16 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~17:50.
+## 6. LANE LEDGER — 2026-08-01, ~18:00.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                       STATE
-299    CODEX 1  2f    force the realization functor (protocol)       PASTED, RUNNING
-300    CODEX 2  2d    assemble U2, dynamics slot honest              PASTED, RUNNING
+301    CODEX 1  2d    force the scalarization functional             PASTED, RUNNING
+--     CODEX 2  --    held ONE return: next work depends on whether
+                      the state port opens derived
 ```
 
-REGISTERED THROUGH Q-216. PACKAGE: C0 BUILT . U1 BUILT . bridge under forcing . U2 assembling.
-THE CONVERGENCE TO WATCH: if 300 lands its best case, the package blocks on ONE object -- the
-influence-functional instance -- which Tasks 3a and 3c already need. ONE GAP, THREE CONSUMERS.
-NOTHING ON THE PRINCIPAL until a return.
+REGISTERED THROUGH Q-218. PACKAGE: C0 built . U1 built . U2 skeleton built, state port under
+forcing . dynamics port = the one-gap-three-consumers object . U3 + certification queued.
+FALSIFIER: one-cell arm PASSING; incidence arm waits on source-dynamics content (Q-217).
+NOTHING ON THE PRINCIPAL until 301 returns.
