@@ -598,3 +598,19 @@ can only mean (a) an EMERGENT LIMIT over refinements — whose cellulation-indep
 never-derived stitching rule — or (b) an ADOPTED ambient (M,g), the re-import. The principal's
 image (grainy, event-like) matches everything derived. CONFIRMED IN SHAPE by Q-199: the smooth-
 required subset is exactly the continuum-limit obligations. Status: framing, not a theorem.
+
+---
+
+## OBS-13 — ALPHA-IN-THE-ELECTRON vs INDUCED: THE FIXED POINT IS WHERE THEY AGREE (principal-originated, 2026-08-01)
+
+The principal: we observe alpha in the electron; electrons form records; how does alpha not emerge
+before the field level? Resolution recorded: the elemental cell carries CHARGE (required, quantized,
+unit weight) but not COUPLING STRENGTH (the allowed holonomy value); strength is the induced
+stiffness of the collective response. The bootstrap -- records generate the field's stiffness while
+the field mediates record formation -- IS the fixed point K = B_ind(K): at K_*, per-event alpha and
+collective alpha coincide. The rival ("alpha irreducibly elemental") is the BARE branch = v002,
+superseded by v004's zero-bare DECLARATION (adopted, not derived). *** ALPHA IS COMPUTABLE ONLY IF
+IT IS EMERGENT: a bare elemental alpha is an input, not a prediction. The program's bet is the
+induced branch; a failed unique fixed point would mean the bare branch was true. *** Observed
+electrons are DRESSED (charge + induced cloud); records form via dressed electrons. Framing, not a
+theorem.
