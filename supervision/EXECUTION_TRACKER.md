@@ -118,15 +118,14 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~15:55. BOTH LANES FULL.
+## 6. LANE LEDGER — 2026-08-01, ~16:20. BOTH LANES FULL. FIRST BUILDS ON DoR 008.
 
 ```text
-RELAY  LANE     TASK        QUESTION                                  STATE
-294    CODEX 1  3a (src)    four Lorentzian forms + durability        PASTED, RUNNING
-293    CODEX 2  2b/SUPPORT  second kill-pass on the V002 proposal     PASTED, RUNNING
+RELAY  LANE     TASK  QUESTION                                        STATE
+295    CODEX 1  2b    assemble C0 + d_C0 (falsifier checks in-line)   PASTED, RUNNING
+296    CODEX 2  3d    step 3 on the four planes, ratified typing      PASTED, RUNNING
 ```
 
-REGISTERED THROUGH Q-209. CHANGE LOG THROUGH C14 (Task 3 parallelism scoped).
-ON THE PRINCIPAL NEXT: DoR 008 when 293 returns clean (twice-attacked, honest count of 7).
-PHYSICS ON THE BOARD: the one-cell record object is CONCRETE (F_R = cos^2(theta/2)); the
-durability question is now "what happens to the record's own U(1) orbit at the saddle."
+REGISTERED THROUGH Q-212. CHANGE LOG THROUGH C15. DECISIONS TODAY: DoR 005, 006, 007, 008.
+DoR 008 IN FORCE with the standing falsifier: THE FINITE IS THE AUTHORITY.
+NOTHING ON THE PRINCIPAL until a return -- next decisions are D2/D3, which rule at Task 6.
