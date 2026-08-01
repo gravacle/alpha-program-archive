@@ -118,16 +118,16 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~13:45. TASK 1 COMPLETE.
+## 6. LANE LEDGER — 2026-08-01, ~14:00.
 
 ```text
-RELAY  LANE     TASK  QUESTION                          STATE
-284    CODEX 1  2b    build C0 + d_C0                   PASTED, RUNNING
-272    CODEX 2  3c    force the multiplier c            PASTED, RUNNING
-EINSTEIN              RETIRED (credit)                  IDLE
+RELAY  LANE     TASK  QUESTION                                STATE
+285    CODEX 1  2b    instantiate the field/CTP carrier       PASTED, RUNNING
+286    CODEX 2  3d    break the coupling-ray degeneracy       PASTED, RUNNING
 ```
 
-TASK 1 COMPLETE: DoR 005 (build acyclic) . DoR 006 (TYPE-P) . DoR 007 (derive the limit; seams
-1/3 hand-built road retired; stitching theorem = Task 4d).
-LANDED TODAY THROUGH: Q-200. NOTHING OUTSTANDING. NOTHING ON THE PRINCIPAL until a return lands.
-GOVERNING PLAN: TASK_LIST_HERE_TO_ALPHA_2026-08-01_V002.md sec 9. Register head Q-200.
+RETURNS LANDED TODAY: through Q-202, all verified and registered. NOTHING OUTSTANDING.
+ON THE PRINCIPAL: nothing until a return -- 285 may surface an ADOPTION decision (arrives named,
+with its price); 286 may force the coupling ray or reopen the census bound.
+PLAN: Task 1 COMPLETE. Task 2: b partial, field half in flight. Task 3: c blocked on 2, d in flight.
+Register head Q-202. Governing plan sec 9; change log through C11.
