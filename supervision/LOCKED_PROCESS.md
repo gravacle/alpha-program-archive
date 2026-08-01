@@ -43,6 +43,11 @@ DOES THE OBJECT EXIST?   IS THE VERSION CURRENT?   ARE ITS INPUTS PRESENT?
 *** IF ANY ANSWER IS NO, **THAT** IS THE RELAY. ***
 ```
 
+*** AND PREFLIGHT RUNS AT **SEND TIME**, NOT ONLY AT WRITE TIME. A relay loaded later than the
+register head it was written under is RE-CHECKED against every entry since, before pbcopy.
+Installed 2026-08-01 after relay 270 shipped four hours stale across fifteen register entries and
+needed a mid-run addendum (283) to repair — a defect the principal caught, not the reviewer. ***
+
 *** ADDED 2026-08-01 AFTER FOUR RELAYS ON TARGET 2 (259, 261, 263, 265) EACH RETURNED "THE THING
 UNDERNEATH YOU DOES NOT EXIST." THE FOURTH QUESTION SHOULD HAVE BEEN THE FIRST. AND THE WHOLE
 RESEARCH PLAN WAS BUILT ON A `Gamma_K` FORMULA TWO LANES LATER FOUND SUPERSEDED. ***
