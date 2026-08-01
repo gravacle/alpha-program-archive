@@ -8914,7 +8914,11 @@ COMPLETE PHYSICAL CTP AMPLITUDE, which does not exist. ***
 ```
 
 **Consequence:** Task 3c is BLOCKED ON the same object as Task 2's gap — it resumes when the
-physical CTP structure exists.
+physical CTP structure exists. **Report addendum (relayed after registration):**
+`old_character_faithfulness_selector_valid = false | TYPE-R` — the earlier faithfulness argument
+conflated the attenuation multiplier with a complex-character exponent; current authority rejects the
+identification. `universal_physical_multiplier_no_go_found = false | TYPE-S`;
+`physical_multiplier_absorbable = NO_VERDICT`.
 
 ### *** THE PATTERN OF THE LAST THREE RETURNS — ONE WALL, THREE STOPS ***
 
