@@ -1,6 +1,6 @@
 WHAT IS MISSING, AND WHAT WOULD ADDRESS IT
 
-2026-08-01, ~06:30. Register head Q-166. Published `390a488`. One screen.
+2026-08-01, ~08:15. Register head Q-174. Published `d0b7217`. One screen.
 *** REVISED IN PLACE. THE PRIOR VERSION SAID **ONE** OBJECT IS MISSING. Q-165 REFUTED THAT. ***
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
 
@@ -12,7 +12,9 @@ alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
 TARGET 1  *** COMMON_ORIGIN_SOURCE_RECORD_FIELD_CTP_PRODUCER_WITH_P5_PORT ***
           blocked on S6, the finite-to-complete transport
 TARGET 2  *** CANONICAL_PRPS_TO_GATE4_LOCALIZATION_BRIDGE ***
-          blocked on CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR
+          *** BLOCKED ON THE PATCH SPACE ITSELF -- FIVE TYPE-S RESULTS. NOTHING IN THE CORPUS
+          DEFINES THE RECORD-SIDE PATCHES, A COVER, THE UNDERLYING SPACE, A TOPOLOGY ON IT, OR A
+          SMOOTH STRUCTURE ON IT. (Q-172) ***
 ```
 
 **Q-165 tested whether the internal/external boundary, the discrete/smooth boundary and the P5
@@ -54,30 +56,45 @@ CO-LOCATION AND BARE EXISTENCE ARE **INSUFFICIENT** — DESCENT AND PROVENANCE M
 
 ---
 
-## 2b. WHAT **TARGET 2** MUST SUPPLY — NAMED, WITH A STATED DOMAIN AND CODOMAIN
-
-**Q-166. The attempt returned `canonical_PRPS_to_Gate4_localization_bridge_built = false | TYPE-U`.
-The standard smooth-to-discrete connection correspondence EXISTS as imported geometry and DOES NOT
-TRANSFER — the corpus supplies no canonical patch/cover/path-to-incidence realization.**
+## 2b. TARGET 2 — FOUR BUILDS, EACH FAILING **LOWER** THAN THE LAST
 
 ```text
-CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR = missing | TYPE-U
-  domain    PRPS local endpoint-comparison patches, overlaps, smooth frame changes
-  codomain  BID/Gate-4 incidence graph -- vertices, oriented edges, vertex-gauge maps
-
-PATCH_OVERLAP_TRANSPORT_TO_GATE4_EDGE_TRANSPORT_THEOREM = missing | TYPE-U
-  must be independent of nonsealed choices of COVER, LIFT, PATH REPRESENTATIVE, ORDERING,
-  and REFINEMENT -- *** FIVE NAMED CHOICES, EACH TO BE CHECKED SEPARATELY ***
-
-GATE4_TO_SMOOTH_PRPS_RECONSTRUCTION_THEOREM = missing | TYPE-U
-  *** ONLY IF THE REVERSE DIRECTION IS DEMANDED. IT IS NOT. DO NOT FUND IT. ***
+Q-166  THE BRIDGE       does not build; the standard smooth-to-discrete correspondence exists as
+                        imported geometry and DOES NOT TRANSFER                          TYPE-U
+Q-167  THE FUNCTOR      a candidate map PER CHOSEN COVER. All five independence checks -- cover,
+                        lift, path representative, ordering, refinement -- TYPE-U, none proved.
+                        *** "FUNCTOR" IS ASPIRATIONAL: no source/target categories, no morphism
+                        preservation. It is a map of data. ***
+Q-171  THE REALIZATION  cannot be tested. K13_PRPS_NERVE_REALIZATION_REFUTED = false | NO_VERDICT
+                        -- *** the corpus does not define a cover to check ***
+Q-172  *** THE PATCHES  actual_PRPS_patch_definition_found                   = false | TYPE-S
+                        actual_PRPS_cover_definition_found                   = false | TYPE-S
+                        underlying_record_side_patch_space_defined           = false | TYPE-S
+                        record_side_topology_for_PRPS_patches_defined        = false | TYPE-S
+                        record_side_smooth_structure_for_PRPS_patches_defined = false | TYPE-S ***
 ```
 
-*** AND THE LOOP QUESTION CAME BACK **SPLIT**: `bridge_needs_loops_for_transport_gauge_level = false`,
-`bridge_needs_loops_for_curvature_plaquette_level = true`. **THE TREE DOES NOT BLOCK TRANSPORT OR
-GAUGE. IT BLOCKS CURVATURE — AND CURVATURE IS WHERE A MAXWELL TERM WOULD HAVE TO COME FROM.**
-`first_opening_loop_or_face_carrier_available = false | TYPE-R`, *because the loop is classified as a
-COMPOSITION* — which is the mandated, unsealed composition-loop prediction at `V011:1836-1863`. ***
+*** `TYPE-S` IS SCOPE-EMPTY: **NOT UNBUILT, NOT REFUTED — NOTHING IN THE CORPUS HAS IT.** THE SMOOTH
+SIDE OF THIS PROGRAM IS A SET OF DEMANDS ON AN UNSPECIFIED SPACE. `LOCAL_PROJECTIVE_RECORD_BUNDLE`
+HAS THE LIFTS, THE TRANSITION FUNCTIONS AND THE TRIPLE-OVERLAP COCYCLE, AND BUILDS A PRINCIPAL `U(1)`
+BUNDLE **FROM** PATCHES `U_i` THAT IT ASSUMES AT `:22` AND NEVER DEFINES. ***
+
+### *** THE FORK — AND IT IS THE PRINCIPAL'S, NOT A LANE'S ***
+
+```text
+A  BUILD A RECORD-SIDE PATCH-SPACE THEOREM        derive a domain from record structure
+   *** PROVABLE OR NOT -- NOBODY HAS TRIED. TYPE-S MEANS NO SEARCH HAS RUN, NOT THAT ONE FAILED. ***
+
+B  ADOPT THE SMOOTH DOMAIN FROM (M,g)             the corpus DOES define an adopted smooth
+   spacetime and an adopted principal U(1)_rel bundle
+   *** THE PRICE, IN THE LANE'S OWN WORDS: "an adopted/imported smooth-domain act, NOT a
+   derivation from record structure." AND (M,g) CARRIES AN EINSTEIN-HILBERT BULK TERM THREE LINES
+   BELOW ITS DOMAIN CLAUSE -- SO B RE-IMPORTS THE GRAVITY THIS PROGRAM CLAIMS TO DERIVE. ***
+
+C  *** THE DEMAND MAY BE WRONG. *** Gate 4 derived a compact gauge field DISCRETELY; PRPS phrases
+   its premises SMOOTHLY. If the smooth phrasing is itself an import, the fork dissolves.
+   UNDER TEST NOW (relay 266). *** RUN C BEFORE DECIDING A VERSUS B. ***
+```
 
 ---
 
@@ -147,24 +164,31 @@ THE ALL-ORDERS TOWER -- unbounded, so a number today is LEADING-ORDER with uncon
 ## 7. WHAT TO DO
 
 ```text
-1  *** BUILD BOTH TARGETS. THEY ARE INDEPENDENT AND MUST BE FUNDED SEPARATELY. ***
-   TARGET 1 -- spec in section 2. Its minimal buildable item is S6, the finite-to-complete
-   transport; the O7 pullback is already sealed-refuted, the response-map pullback is open.
-   TARGET 2 -- spec in section 2b. Its named obstruction is the patch-cover-to-incidence functor.
+1  *** RESOLVE THE TARGET-2 FORK IN ORDER: C, THEN A, THEN B. *** C is running. A has never been
+   attempted. B is an adoption and a principal's call, and it should be made LAST and EXPLICITLY,
+   never by a construction quietly citing (M,g).
 
-2  *** THE COMPOSITION-LOOP PREDICTION IS MANDATED AND UNSEALED. *** V011:1790 requires it for
-   CORE-RESULT-SEAL; V011:2321 records composition_loop_prediction_sealed = false. It is the
-   program's loop carrier and the curvature level cannot proceed without it.
+2  *** FIND OUT WHAT THE GATES HAVE. *** Three post-gate objects -- the cover, the loop carrier,
+   the filled face -- are all "machinery present, selection absent". The Gates FORCE. Nothing
+   after them does. TWO LANES ARE ON THIS: the census, and the automorphism mechanism.
 
-3  FREEZE THE CENSUS PRE-ROOT -- sequencing-forced, and it WAITS on TARGET 1, because the census
-   cannot cover the P5 axis until the crossing object exists.
+3  TARGET 1 -- spec in section 2. S6 is CLOSED as a route (Q-169): the P8 ledger row is its
+   would-build and has two conjuncts; the pullback is the second and THE FIRST DOES NOT EXIST.
 
-4  DO NOT FUND B0 DETERMINATION. See section 3.
+4  THE COMPOSITION-LOOP PREDICTION IS BUILT (Q-168) BUT UNSEALED AND MANDATED for CORE-RESULT-SEAL.
+   Its structure is derived; its SELECTION is not.
+
+5  FREEZE THE CENSUS PRE-ROOT -- waits on TARGET 1.
+
+6  DO NOT FUND B0 DETERMINATION. See section 3.
 ```
 
-*** THREE IMPORTS HAVE NOW BEEN TESTED FOR TRANSFER TO THIS STRUCTURE. THE KALUZA-KLEIN FRAMING WAS
-AN IMPORT AND THE ROUTE WAS REFRAMED. THE SMOOTH-TO-DISCRETE CONNECTION RESTRICTION IS AVAILABLE AND
-DOES NOT TRANSFER. **RUN THE TRANSFER CHECK ON EVERY IMPORTED CONSTRUCTION BEFORE LEANING ON IT.** ***
+*** FOUR IMPORTS HAVE NOW BEEN TRANSFER-TESTED AND **NONE REACHED THIS STRUCTURE**: the Kaluza-Klein
+framing (an import; route reframed), the smooth-to-discrete connection restriction (does not transfer),
+the nerve/Cech construction (per-cover only), and the nerve theorem's good-cover hypothesis (cannot
+even be tested). **THE ONE TRANSFER CHECK THAT PASSED IS THE PRE-ROOT EOM EQUIVALENCE THEOREM, WHERE
+TRANSFER WAS CHECKED RATHER THAN ASSUMED AND THE PAULI MUTATION SURVIVED. THE CHECK IS NOT A FORMALITY
+AND IT DOES SOMETIMES PASS.** RUN IT ON EVERY IMPORTED CONSTRUCTION BEFORE LEANING ON IT. ***
 
 *** THE HONEST LIMIT: `P5_weaker_interface_buildable_without_full_origin_now = NO_VERDICT`.
 **LOGICALLY WEAKER IS NOT BUILDABLE-NOW.** THE CONSTRUCTION DEPENDENCY IS UNRESOLVED, AND NO EXISTING
