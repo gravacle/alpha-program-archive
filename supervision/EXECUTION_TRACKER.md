@@ -1,23 +1,81 @@
-# EXECUTION TRACKER — what is actually being done, by whom, right now
+# EXECUTION TRACKER — THE TASK LIST
 
-**LAST UPDATED 2026-08-01, ~08:30. Register head Q-176. Published at `4429104`.**
-*** THE ROAD IS IN `RESEARCH_PLAN_2026-08-01_V001.md` — TWELVE SEAMS, ONE PROTOCOL, SEVEN
-CHANGE-COURSE TRIGGERS. READ IT FIRST. ***
+**2026-08-01, ~09:30. Register head Q-183. Published `c6b8fa0`.**
+*** SUPERSEDES THE TIER STRUCTURE IN `RESEARCH_PLAN_2026-08-01_V001.md` §3 — Q-181's DEPENDENCY MAP
+REPLACES IT. The plan's §4 KILL-TEST ORDERING STANDS. ***
 
-*** SECTIONS BELOW THE LANE BLOCK ARE HISTORY AND SEVERAL OF THEIR FRAMINGS HAVE SINCE BEEN
-REFRAMED OR REFUTED. THE REGISTER IS THE AUTHORITY. ***
-
-```text
-alpha = 1/(4 pi K_*)        K_* = the root of C_record(K) = 0
-
-STEP 1   C_record(K) EVALUABLE   <-- BLOCKED AT ITS FOUNDATION: B0
-STEP 2   THE SCALE FIXED         C_R = 1 selects, via the Hamilton-Jacobi bridge
-STEP 3   RUN SECTION 5.3         the uniqueness gate, ALREADY WRITTEN
-```
+alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
 
 ---
 
-## LANE LEDGER — 2026-08-01, ~08:30. *** SENT / NOT SENT, CONFIRMED. ***
+## 0. BLOCKING EVERYTHING — RESOLVE FIRST
+
+```text
+T0.1  *** WHICH C_record IS LIVE? ***                              RELAY 276, CODEX 1, RUNNING
+      Four objects answer to the name across 7+ lineage files, 95 consumers. Every downstream
+      relay is potentially aimed at the wrong one. NO BUILDING UNTIL THIS EMITS ONE LINE.
+
+T0.2  BR CLOSURE OPERATOR + SPECTRUM                               RELAY 277, CODEX 2, QUEUED
+      Nobody has read it. Sits immediately before BOTH residuals. Decides whether the spectral
+      gap is a SEPARATE debt or SEAM 10's. If seam 10's, two debts collapse to one.
+```
+
+## 1. THE STATE OF THE ELEVEN — Q-181
+
+```text
+REQUIRED 8 . GATE 1 . OPTIONAL 0 . UNCLEAR 3        *** SUPPLIED: 0 OF 11 ***
+CRITICAL PATH: near-serial, rho_pre at the ROOT. *** PARALLEL START NOT LICENSED. ***
+GATE: seam 8 (admitted-family audit) -- an AUTHORIZATION condition on a root, not an ingredient.
+      NOT STARTABLE -- its quantification domain is seam 11's open family.
+```
+
+## 2. BUILD ORDER, ONCE T0.1 CLEARS
+
+```text
+B1  rho_pre -- THE ROOT OF THE CRITICAL PATH. Seams 5, 6, 12 are PORTS OF ONE PRODUCER
+    (scheduling, not ontology -- Q-181). Build the producer, get three ports.
+B2  seam 11 -- the source-record closure action. *** NOT BARRED (Q-182, KT4), underdetermined.
+    TWO trial potentials exist; neither alone gives an isolated durable action. ***
+B3  seam 4 -- the action multiplier c. Relay 272 is WRITTEN AND HELD as out of order.
+B4  seam 9 -- raw-correlator -> retarded-Hessian physical map.
+B5  seam 10 -- the coupling ray. *** OBSTRUCTION STANDS: 8 distinct unselected grading laws
+    (Q-183). The reviewer's narrowing was REFUTED as circular. ***
+B6  seam 8 -- the gate. LAST. Authorizes a root; does not produce one.
+```
+
+## 3. THE SIX OFF-LIST DEBTS — Q-181. ON NO CENSUS ROW.
+
+```text
+a complete generator . a spectral gap . a UV subtraction . a record-probability sector
+plus the second term's GRAVITY and MATTER summands
+*** THESE ARE WHAT DeltaPhi's EVALUATION CONSUMES. NONE IS ON THE TWELVE-SEAM LIST. ***
+```
+
+## 4. KILL-TESTS — FOUR OF FIVE DONE
+
+```text
+KT1  metric        SPLIT. g_K is a VARIATIONAL UNKNOWN (feared reading refuted) -- *** BUT AN
+                   EINSTEIN-HILBERT SUMMAND WITH AN ADOPTED PLANCK LENGTH IS A NAMED TERM OF
+                   Gamma_K ITSELF. DISPOSITION IS THE PRINCIPAL'S. ***          Q-181
+KT2  seam 10       OBSTRUCTION STANDS. 8 unselected grading laws. T2 did NOT fire.  Q-183
+KT3  DeltaPhi      *** THE THIRTEENTH DEBT IS SIX. ***                              Q-181
+KT4  Gamma_record  NOT BARRED. TYPE-U, permission not clearance.                    Q-182
+KT5  the tower     *** ONLY ROUTE 4 IS TYPE-R. Routes 1,2,3 + protection are UNBUILT, NOT
+                   BARRED. A number is leading-order-only but NOT PERMANENTLY. ***  Q-180
+```
+
+## 5. DECISIONS OUTSTANDING — THE PRINCIPAL'S
+
+```text
+D1  *** THE EINSTEIN-HILBERT SUMMAND IN Gamma_K. *** Einstein: "the re-import is a NAMED SUMMAND
+    of the target functional, not an ambient one level up... The disposition is yours."
+D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
+D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
+```
+
+## 6. LANE LEDGER
+
+ — 2026-08-01, ~08:30. *** SENT / NOT SENT, CONFIRMED. ***
 
 ```text
 RELAY  LANE       QUESTION                                  PASTED?  ARTIFACT?  ->
