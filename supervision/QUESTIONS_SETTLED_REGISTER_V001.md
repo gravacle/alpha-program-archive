@@ -9271,6 +9271,28 @@ entry) are BLOCKED BY THE SAME OBJECT — the bridge from the ratified sequentia
 finite incidence/sector carriers. ONE BUILD ARMS THE FALSIFIER AND UNBLOCKS THE COUPLING-RAY CUT.
 IT IS THE UNAMBIGUOUS NEXT OBJECT ON THE CRITICAL PATH. ***
 
+## Q-215. The bridge is TWO independent map classes, neither canonical — and the lane refused to smuggle them as one adoption.
+
+**Relay 297 (Task 2f, Codex 1).**
+`STAGE8_TASK2F_PRESENTATION_TO_FINITE_AND_SRE_BRIDGE_BUILD_DETERMINATION_V001.md`,
+`9721dc049a79c0c9b9069ade6436ab93e3ff1266cfb25da753f39143c45794c5`, 624 lines. Hash verified,
+fence-clean.
+
+```text
+SPAN A  a FINITE-INCIDENCE REALIZATION FUNCTOR: sequential labels -> oriented chain carriers
+SPAN B  an S/R/E OPERATOR EMBEDDING into the C0 Hilbert module
+*** NEITHER IS CANONICAL UNDER DoR 008. TWO INDEPENDENT UNLICENSED CHOICES. The lane declined to
+fold them into one "ninth adoption" -- hiding two choices in one was V001's exact sin. NO
+ADOPTION WAS MADE. ***
+K_square check: UNEXECUTABLE, not failed. DoR 008 VALID. The four plane tests remain blocked.
+```
+
+*** BEFORE THESE BECOME TWO MORE RATIFICATION REQUESTS: THE FORCING PROTOCOL APPLIES. Each map
+class is a candidate family; naturality with inclusions, agreement on the ALREADY-PASSING one-cell
+restriction, and orientation compatibility are failure-capable constraints. IF THEY FORCE
+UNIQUENESS (the Q-205 precedent), THE MAPS ARE DERIVED AND NO ADOPTION IS NEEDED. IF A RESIDUAL
+FAMILY SURVIVES, ITS SIZE IS THE HONEST ADOPTION ASK. Relay 299 runs span A. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
