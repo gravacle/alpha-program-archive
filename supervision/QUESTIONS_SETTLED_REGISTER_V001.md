@@ -8427,6 +8427,56 @@ THE FRONT. IT HAS **ONE** WITH FOUR ITEMIZED REQUIREMENTS, AND EVERYTHING ELSE I
 **THAT IS A NAMEABLE BUILD, NOT A SEARCH.** *** (Q-176's ruling still binds: this does not merge the
 downstream debts into one — closing the package does not select P5, fix `c`, or derive `B0`.)
 
+## Q-191. The chain bottoms out at `B0` — and `B0` is the THIRD symbol collision at the target.
+
+**Done by Bohm directly, 2026-08-01**, following Q-190's chain into
+`STAGE8_CTP_PHYS_INPUT_PACKAGE_B0_LOAD_BEARING_STOP_SPEC_V001.md` (1600 lines).
+*** REVIEWER-CONSTRUCTED — REQUIRES VERIFICATION. ***
+
+```text
+CTP_PHYS_INPUT_PACKAGE requires, at
+STAGE8_CTP_PHYS_INPUT_PACKAGE_TRIAGE_AND_LOAD_BEARING_FUNCTIONAL_SPEC_V001.md:850-864:
+
+  *** B0 = COMPLETE_MICROSCOPIC_BOUNDARY_OPERATOR ***
+  COMPLETE_MICROSCOPIC_BOUNDARY_OPERATOR_derived = false | TYPE-U
+  would-build: construct the single microscopic source-record-field boundary operator/dynamics
+               from which C0/U1-U3 must be derived
+  *** "Specification stops here. This artifact does not specify B0's internal construction" ***
+```
+
+*** SO THE FRONT-LINE TARGET BOTTOMS OUT AT `B0` — THE OBJECT **SIX INDEPENDENT ROUTES FAILED TO
+DETERMINE** (Q-106, Q-110, Q-111, Q-112, Q-113, Q-114). ***
+
+### The third symbol collision, and it is live
+
+```text
+PACKAGE B0   an OPERATOR/DYNAMICS role -- the complete microscopic boundary operator
+T7 B0        *** B0(K, rho):  q_K(0) = z_c,K(0,0) != 0 *** -- an ANCHOR CONDITION, and the same
+             artifact says "the anchor is a hypothesis, NEVER A STRUCTURAL IDENTITY"
+```
+
+*** `C_record` HAD FOUR SENSES. `K` HAD FOUR. **`B0` HAS AT LEAST TWO, AND ONE OF THEM IS DECLARED A
+HYPOTHESIS RATHER THAN AN OBJECT.** THREE SYMBOL COLLISIONS, ALL AT THE TARGET, ALL FOUND IN ONE DAY.
+***
+
+### But the program has already established B0 admits SUBSTITUTES
+
+```text
+Q-151  the tower needs a RESPONSE-COMPLETE FINITE PRESENTATION -- weaker than full origin. TYPE-R x2
+Q-156  sector-reach admits "B0 provenance *** OR THE COMPLETE B0-REPLACEMENT PROVENANCE ***"
+Q-158  P5 needs a DESCENT PRESENTATION, not a unique microscopic origin
+```
+
+> ***THE DECIDING QUESTION, AND IT IS NOW THE SHARPEST ON THE BOARD: **DOES
+> `CTP_PHYS_INPUT_PACKAGE` REQUIRE `B0` ITSELF, OR DOES IT ADMIT A B0-REPLACEMENT PRESENTATION?**
+> IF THE FORMER, THE PROGRAM IS BLOCKED AT AN OBJECT SIX ROUTES COULD NOT REACH. IF THE LATTER,
+> THERE IS A PATH AND NOBODY HAS WALKED IT.***
+
+**And the bookkeeping refutation in the same artifact stands and is worth keeping:**
+`package_B0_new_independent_object = false | TYPE-R` — the package's `B0` is not a second object
+beside the known one. *** "This is a bookkeeping refutation, not a construction. The object under the
+long name remains unbuilt." ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
