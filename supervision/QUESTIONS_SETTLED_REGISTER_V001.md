@@ -6272,6 +6272,54 @@ PASS. ***
 
 ---
 
+## Q-148. "Does common origin close the P5 axis?"
+
+*** RULING: NO. THE FILTER IS **REAL** BUT **CONDITIONAL ON UNBUILT `P0`** — AND IT DOES NOT REACH THE
+CANDIDATES THAT MATTER. *** Established 2026-08-01 by Codex lane 1 under relay 241
+(`STAGE8_SECTION53_P5_AXIS_COVERAGE_AND_EXCLUSION_AUDIT_V001.md`, `1274b1b7…`, 398 lines, seal
+verified, fence-clean).
+
+```text
+ad_hoc_P5_choices_admitted             = false | TYPE-R   *** THE FILTER IS REAL, EXECUTED ***
+P5_common_origin_exclusion_closes_axis = false | TYPE-C   *** CONDITIONAL ON UNBUILT P0 ***
+P5_concrete_member_built               = false | TYPE-U
+P5_response_changing_family_bounded    = false | TYPE-S
+Section_5_3_can_quantify_over_complete_P5_family_now = false | TYPE-U
+```
+
+*** THE TRAP THE RELAY NAMED FIRED EXACTLY AS WRITTEN. Common origin **does** remove ad hoc
+`rho_pre` / effect / domain choices — that is an executed `TYPE-R`. **BUT IT DOES NOT EXCLUDE
+INEQUIVALENT TARGET-INDEPENDENT P5 PACKAGES SUPPLIED BY ALTERNATIVE COMPLETE MICROSCOPIC PRODUCERS.**
+IT FILTERS THE SLOPPY CANDIDATES AND LEAVES THE SERIOUS ONES. ***
+
+**And its standing is `TYPE-C`, not a discharge, because `P0` is unbuilt.** *** A CENSUS FROZEN ON IT
+WOULD HAVE BEEN FROZEN ON A PROMISE — WHICH THE RELAY WARNED AGAINST IN ADVANCE AND THE LANE HONOURED
+RATHER THAN BANKED. *** **No sealed P5 uniqueness theorem, finite family bound, coverage proof, or
+response-changing subset bound exists.**
+
+*** THE CENSUS STATE, ALL FOUR ITEMS OPEN AND NONE REFUTED: ***
+
+```text
+class 1  higher-derivative        UNBOUNDED         -> relay 242, the equivalence theorem
+class 2  finite causal updates    UNCLOSED
+class 3  curvature / dissipative  HELD OUT BY **ADOPTION**, NOT DERIVATION
+P5 axis                           UNCOVERED AND UNBOUNDED, no uniqueness theorem
+```
+
+*** SO THE CENSUS CANNOT FREEZE, §5.3 CANNOT EXECUTE AGAINST A COMPLETE FAMILY, AND **A SELECTOR THAT
+CLOSES CANNOT BE CERTIFIED.** THAT IS NOW THE BINDING CONSTRAINT ON THE WHOLE PROGRAM. *** And it is
+why relay 242 matters more than it looks: **it is the only one of the four with a named,
+standard-machinery route.**
+
+**METHOD NOTE — WORTH KEEPING.** *** THE LAST FOUR RETURNS WERE ALL NEGATIVES AND EVERY ONE WAS
+**EARNED**: a real filter typed `TYPE-C` rather than banked (this entry); a schema typed `TYPE-U`
+rather than inflated into a refutation (Q-147); a bound reported missing rather than manufactured
+(Q-146); and a forbidding ruling declined in favour of `TYPE-U` when three of five internal
+establishers had voted for it (Q-144). **THE LANES ARE REFUSING THE ATTRACTIVE ANSWER CONSISTENTLY.
+THAT IS THE CONDITION UNDER WHICH A POSITIVE, WHEN IT COMES, WILL MEAN SOMETHING.** ***
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
