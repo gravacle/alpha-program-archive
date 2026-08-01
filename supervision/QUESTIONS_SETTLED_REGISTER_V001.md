@@ -7965,6 +7965,51 @@ TEN EXECUTION GAPS tabulated, typed TYPE-U not TYPE-R -- a missing require() is 
 
 **Struck overdetermination bar: eleventh report.**
 
+## Q-180. KT5 answered from sealed text: `pi` is protected, the map that fixes `K_*` is NOT, and only one of the four tower routes is actually refuted.
+
+**Done by Bohm directly, 2026-08-01.** Sources: `STAGE8_DELTAPHI_PI_PROTECTION_DETERMINATION_V001.md`
+`:96-121`, plus the four tower-route status flags swept across the workspace.
+
+```text
+*** THE SPLIT, VERBATIM: "The target value `pi` is protected inside the already sealed primitive
+two-character record map. The map K -> DeltaPhi[K;X_K] is NOT protected by that argument and is not
+yet constructed." ***
+
+DeltaPhi_target_pi_protected_within_fixed_record_map = true
+DeltaPhi_map_protected_against_action_form_mutations = false | TYPE-U
+higher_derivative_tower_moves_DeltaPhi = NO_VERDICT
+   blocker: DeltaPhi[K;X_K] is UNBUILT and the higher-derivative source-term class is SCHEMATIC
+```
+
+**`C_record(K) = DeltaPhi[K;X_K] - pi`. The tower attacks exactly ONE side of that residual.** *** THE
+`pi` IS DERIVED AND IMMUNE. THE `DeltaPhi` SIDE DEPENDS ON THE ACTION FORM — WHICH IS WHERE THE TOWER
+LIVES — AND IT IS THE SIDE THAT DETERMINES `K_*`. ***
+
+### The four tower routes are NOT equally dead
+
+```text
+ROUTE 4  finite_record_algebra_terminates_higher_derivative_tower = false | *** TYPE-R ***
+         internal_finite_record_algebra_terminates_tower          = false | *** TYPE-R ***
+         REFUTED, and for a reason the program has now met three times: the tower lives on
+         CONTINUUM source/field variables while Gate 2/Gate 4 constrain only the FINITE incidence
+         sector and expressly exclude higher-degree and nonlocal differentials.
+ROUTE 1  all_orders_higher_derivative_tower_closed_by_cutoff      = false | TYPE-U
+ROUTE 2  fixed_operator_convergence_transports_to_action_tower    = false | TYPE-S
+ROUTE 3  linked_cluster_majorant_supplies_tower_factorization     = false | TYPE-U
+   plus  higher_derivative_tower_relevance_removed_by_protection  = false | TYPE-U
+```
+
+*** **ONLY ROUTE 4 IS `TYPE-R`. THREE ROUTES AND THE PROTECTION ROUTE ARE `TYPE-U`/`TYPE-S` — UNBUILT,
+NOT BARRED.** THE REVIEWER HAS BEEN REPORTING "THE TOWER IS UNBOUNDED ON ALL FOUR NAMED ROUTES" AS IF
+ALL FOUR WERE CLOSED. **THAT WAS WRONG AND IS CORRECTED HERE.** ***
+
+**KT5 verdict:** the tower **would** move `K_*` if it moves `DeltaPhi`, and nothing currently prevents
+that — but `higher_derivative_tower_moves_DeltaPhi = NO_VERDICT` because `DeltaPhi` is unbuilt and the
+source-term class is schematic. *** SO A NUMBER TODAY IS LEADING-ORDER-ONLY, BUT **NOT PERMANENTLY** —
+FOUR NAMED WAYS OUT REMAIN OPEN AND THE DECIDING QUESTION CANNOT EVEN BE POSED UNTIL `DeltaPhi` IS
+CONSTRUCTED. **`DeltaPhi` IS THEREFORE ON THE CRITICAL PATH TWICE: FOR THE ROOT, AND FOR EXACTNESS.**
+*** (KT3, in flight with relay 274, is asking what it consumes.)
+
 ---
 
 ## HOW TO USE THIS REGISTER
