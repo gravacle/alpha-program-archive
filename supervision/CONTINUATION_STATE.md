@@ -3773,3 +3773,48 @@ witness's残 remaining content) . U3 . the comparison maps (2f) . the stitching 
 PROCESS: LOCKED_PROCESS.md (act-based fences C19, machinery-appeal, send-time preflight);
 the plan = TASK_LIST_HERE_TO_ALPHA_2026-08-01_V002.md sec 9 (six tasks, recap at completions);
 Bohm scorecard ended ~13 proposed / 8 refuted -- keep the verification gate on all Bohm claims.
+
+===============================================================================
+SESSION UPDATE 2026-08-02 (~09:00) — THE LONG NIGHT: Q-238 -> Q-294
+===============================================================================
+
+REGISTER HEAD: Q-294. DoRs through 014 (015 RESERVED, in repair cycle V004).
+CHANGE LOG through C34. OBS-16, OBS-17 pre-registered. Git level with origin.
+
+THE ARC IN SIX SENTENCES:
+1. The two-origins problem was resolved end to end: Gen_Omega ratified at family
+   level (DoR-013; three convergent anchor classes, no member ever selected), the
+   germ ratified (DoR-014); the P5 witness is COMPLETE.
+2. The program's free input changed category: from p_ch (a real in (0,1)) to the
+   ordered integer pair (r_0, r_ch), same-rank freedom proven gauge, p_ch FORCED
+   symbolically to r_ch/(r_0+r_ch); pinning NO_VERDICT (K_square arm = the named
+   future detector).
+3. The finite theory is closed and verified: the retarded block is EXACTLY ZERO
+   and p-free at every stage, probes on or off (Q-243/Q-279); the noise blocks
+   carry the exact p-forms (kappa_eta, the dephasing weight).
+4. The P5 maximal chain is built, verified, six-account-ledgered (Q-288 door
+   flags): the retarded image is p-CLEAN on everything built, creator-free; the
+   weak-* tail creator exists mathematically (Q-285) and its only physical
+   custodian is the lift.
+5. Everything remaining converged on ONE object -- the field/spacetime signature
+   (Q-287) -- and the race SPLIT it: incidence/orientation/locality/CTP-reality
+   DERIVE from the record write structure; the amplitude side (six authored
+   structures) is authored openly (records are phase-rich, amplitude-poor --
+   proven mechanism). FIELD_SIGNATURE_PHYS is at V004 (frame-tangent
+   determination + Door F), one final review from DoR-015.
+6. OBS-17 (principal): the derived/authored provenance line IS the EM/GR
+   emergence split; alpha is the forcing function. OBS-16 (principal): only the
+   transition's requires force the origin; allows are gauge.
+
+LANES: 377 (V004) running Codex 2; 378 (verify the law-side subpackage) loaded
+for Codex 1. Relay head: 378. All artifacts sealed/mirrored/verified; the
+mirror-verify rule (post-C27) held all session.
+
+AFTER DoR-015 (in order): the raw-G rerun on the ratified signature; the lift;
+the background fiber (STAT_BG_LIFT_FIBER); the consumption signature (F vs
+W_gen -- W_free is DEAD TYPE-P; W_gen needs a physical creator, custodian = the
+lift's topology); then THE TRANSPORT EXECUTES and the p_ch verdict computes.
+Then Task 5 (root existence/uniqueness), A32, the final evaluation DoR, alpha.
+
+THE STANDING CAUTION: no evaluation anywhere -- alpha_computed = false;
+kappa_record_computed = false; the fences and door flags held through 40+ relays.
