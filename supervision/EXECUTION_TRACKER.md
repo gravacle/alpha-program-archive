@@ -173,6 +173,7 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 | 346 | Codex 1 | [4a] V002 review | RETURNED — Q-264 (DEAD twice: no anchor; exchanged root broken — orientation FORCED) |
 | 347 | Codex 2 | [4a] Gen_Omega V003 | RETURNED — Q-265 (anchor authored, 3 classes converge on same state + same symbolic p_ch form; 11/3/0) |
 | 348 | Codex 1 | [4a] V003 review | RETURNED — Q-266 (RATIFICATION-READY; convergence proven; DoR-013 RATIFIED family-level, C32) |
-| 349 | Codex 2 | [4a] SOURCE_GERM_PHYS V002 on the ratified origin (DoR-014 reserved) | **SENT** |
+| 349 | Codex 2 | [4a] Germ V002 | RETURNED — Q-267 (B14 proved family-level; 11/3/0; p_ch path mapped) |
+| 350 | Codex 1 | [4a] ADVERSARIAL REVIEW of germ V002 — the descent (DoR-014 gate) | **LOADED — NOT SENT** |
 
 Codex 2 HOLDS for 345's return (the race decides the next draft).

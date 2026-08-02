@@ -10434,6 +10434,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-267 — SOURCE_GERM_PHYS V002: complete as proposal — B14 PROVED by executable family-level descent from DoR-013, no anchor member selected; battery 11/3/0; the p_ch entry path is mapped: d_state → p_A → Z_inc → derivatives (2026-08-02, relay 349)
+
+**Artifact:** `STAGE8_SOURCE_GERM_PHYS_ADOPTION_PROPOSAL_V002.md`, `95b302d2…`, seal verified, mirror byte-identical. PROPOSED; DoR-014 reserved; cross-lane review pending.
+
+**The completion:** DoR-013's ratified origin supplies an executable family-level descent — B14 (the condition that killed germ V001) now PASSES with a proof and no anchor selection anywhere (self-kill checked: no selection, no replacement-state slot, no post-output supplementation, no conditional upgrades).
+
+**Battery:** 11 PASS / 3 CONDITIONAL (B5, B6, B9) / 0 FAIL.
+
+**The p_ch thread, mapped symbolically:** the origin's forced sector-dimension-ratio form enters through d_state → p_A → Z_inc → the derivatives — exactly the entry points Q-243's transport chain consumes. No ratio evaluated.
+
+**Honest accounting (the important boundary):** DoR-014 would open P1 and the P2/P4 ANALYTIC INTERFACES — but P3–P6 still require physical-package inputs; **the remaining work is NOT yet construction-only.** P7 stays a loaded spring (no new theorem once certified P2–P6 satisfy C1–C6, per Q-257).
+
+**Next station:** cross-lane adversarial review, then DoR-014 to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
