@@ -10078,6 +10078,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-244 — The X_K attempt: every incidence-side candidate intertwines and reproduces the sealed polynomial, but NONE is a restriction of C0_008 — proxy agreement is not a falsifier pass; the missing object is now a six-component package (2026-08-01, relay 326)
+
+**Artifact:** `STAGE8_TASK2F_X_K_INDEPENDENT_FIX_AND_K_SQUARE_FALSIFIER_ARM_ATTEMPT_V001.md`, `edad3f2b…`, seal verified, mirror byte-identical.
+
+**The construction was clean:** the X family was declared before any comparison output, uses no B_K matrix elements and no T_K (`TYPE-S` both); the T family was frozen before testing and not tuned to pass. The forcing protocol held.
+
+**What executed:** all 1,088 incidence-copy candidates PASS the intertwining test and PASS the sealed characteristic-polynomial test. But `INCIDENCE_COPY_IS_C0_008_FINITE_RESTRICTION = false | TYPE-R` — the copies are built FROM the incidence data, not obtained BY RESTRICTING the ratified completion. The anti-relabeling standard (Q-242) fires: **a matching proxy polynomial is not a DoR-008 pass.** The X family is also not unique as a raw sequential realization (`TYPE-R`).
+
+**Standing verdicts:** the arm remains `TYPE-C` unexecuted; reproduced/disagrees both NO_VERDICT; `DOR008_VOIDED_BY_THIS_ATTEMPT = false | TYPE-S` — the adoption is untouched either way.
+
+**The missing object, now fully specified (was "X_K", is now a package):** a finite-complex RESTRICTION package on the C0_008 side — (1) a C0 algebra/subquotient for the finite complex, (2) a comparison carrier, (3) a representation, (4) a cellular degree map, (5) an independently generated source incidence operator, (6) a representation intertwiner. Task 2f's remaining content is exactly this build.
+
+**Reading:** the incidence side is as ready as it can be — everything on that side passes. The falsifier's second arm now waits entirely on the COMPLETION side producing its own finite restriction to the square's geometry. That is construction on ratified data (the C0_008 object exists), not a search.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
