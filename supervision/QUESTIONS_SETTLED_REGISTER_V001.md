@@ -10171,6 +10171,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-250 — The class is NOT forced: DoR-008 determines the physical response only MODULO A TAIL (theorem both ways); the whole tail question compresses into one named theorem — alpha-facing output tail annihilation (2026-08-02, relay 333, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_RESPONSE_CLASS_FORCING_AND_TAIL_OUTPUT_INERTNESS_DETERMINATION_V001.md`, `fccd16a7…`, seal verified, mirror byte-identical.
+
+**Both halves are now theorems:**
+- Forcing REFUTED (`TYPE-R`): for any compliant H, the distinct object H + t with t ∈ z_tail·B** has IDENTICAL finite restrictions (`TAIL_ADDITION_PRESERVES_ALL_FINITE_RESTRICTION_DATA = true | TYPE-P`); restriction-compliance selects no unique complete element. The finite-core argument cannot derive its own class, and the sealed operations are not proven class-preserving end-to-end.
+- Determination PROVED (`PHYSICAL_RESPONSE_DETERMINED_MODULO_TAIL = true | TYPE-P`, with `TAIL_QUOTIENT_DETERMINACY = true | TYPE-P`): the falsifier discipline pins the response EXACTLY up to the tail summand. The entire remaining freedom of the physical response is the tail — nothing else.
+
+**What stays open (all NO_VERDICT, honestly):** whether the physical tail is nonzero, whether it is admitted content, whether p_ch has a component in it — because NONE of the alpha-facing outputs (ΔΦ, p_loc, B_ind, C_EM, R_comp, kappa_Thomson) is yet PROVED to factor through finite restrictions.
+
+**The sharpest missing object, named by the artifact: the ALPHA_FACING_OUTPUT_TAIL_ANNIHILATION_THEOREM.** If every alpha-facing output annihilates the tail, the tail is physically inert, the p_ch tail route is DEAD, and — combined with Q-243's p_ch-free finite retarded block — p_ch cancellation would stand on the tail side regardless of the response's untyped class. Note B_ind is on the list: tail-inertness of B_ind would mean no tail content can move the fixed point that defines K.
+
+**Reading:** the deciding question's tail half = one output-side theorem, checkable per output against sealed definitions. The background half is with relay 332.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
