@@ -229,3 +229,5 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 390 | Codex 2 | [4a] Verdict attempt | RETURNED — Q-308 (no full inverse: u_sq in ker L; kernel resolution is the gate) |
 | 391 | Codex 2 | [4a] THE KERNEL RESOLUTION — the dynamics where the response lives | **SENT** |
+
+STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
