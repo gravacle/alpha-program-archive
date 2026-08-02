@@ -10143,6 +10143,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-248 — The functor adoption proposal: the support-lens half SURVIVES its kill-pass; the source-generation rule CANNOT be stated at family level; even a ratified lens would NOT execute the arm (2026-08-01, relay 330)
+
+**Artifact:** `STAGE8_FINITE_INCIDENCE_REALIZATION_FUNCTOR_ADOPTION_PROPOSAL_V001.md`, `81446652…`, seal verified, mirror byte-identical. Nothing marked TYPE-P; DoR-012 NOT issued.
+
+**The self-kill worked as designed:** the full commissioned proposal did not survive. The five-field SUPPORT LENS survives as a proposal (all 1,088 members retained, none selected, averaging prohibited, only family-invariant outputs pass). The SOURCE-GENERATION RULE failed the gate four ways — it cannot be stated without selection, target copying, an undeclared measure, or answer-defined membership (`SOURCE_GENERATION_RULE_AT_FAMILY_LEVEL_PROPOSED = false | TYPE-U`).
+
+**The consequence, stated by the artifact itself:** `K_SQUARE_DOR008_FALSIFIER_ARM_EXECUTABLE_IF_ONLY_P1_P5_RATIFIED = false | TYPE-C` — ratifying the surviving lens buys a lawful lens but NOT the finite representation, source incidence operator, or intertwiner. The arm stays unexecutable under every honest version of this adoption.
+
+**Reading:** the adoption route cannot deliver the falsifier's second arm — the arm's missing objects are precisely the ones that cannot be had without selection. The limited lens is shelf-ready (`DOR012_LIMITED_SUPPORT_LENS_PROPOSAL_READY_FOR_PRINCIPAL_REVIEW = true`) but currently has no consumer that Q-241-style invariance theorems don't already serve. Ruling to the principal: ratify the limited lens or bank it and record 2f capped at one arm.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
