@@ -392,6 +392,15 @@ custody per LOCKED_PROCESS.md.
                 P2/P4 interfaces OPEN; construction chain begins (355 = P2). NO AUTHORED
                 OBJECTS REMAIN on the deciding subset's critical path. ***
                                                                                SURFACED: yes
+2026-08-02  C34 Q-287/Q-288 ruling: THE FIELD-SIGNATURE RACE. The one remaining object (the
+                physical field/spacetime signature) is attacked both ways simultaneously,
+                the Gen_Omega pattern: Codex 2 DERIVES from the record surface (beta-gap
+                attack, first run with the ratified origin's signed-incidence primitive,
+                T_cyl, and the separation machinery); Codex 1 DRAFTS the authored proposal
+                through the full gate with Q-288's door flags mandatory. DoR-015 RESERVED.
+                Relays 371/372. NOTE: authoring here would be the gate's third and largest
+                use; the derivation, if it lands, ends the program's oldest gap.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

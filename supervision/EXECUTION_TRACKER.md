@@ -197,8 +197,11 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 365 | Codex 1 | [4a] W into the battery | RETURNED — Q-283 (W_free dead TYPE-P; W_gen admissible-unbuilt; emptiness theorem set up) |
 | 367 | Codex 1 | [4a] Emptiness theorem | RETURNED — Q-285 (refuted: weak-* completion is the creator; custodian = the lift) |
 | 369 | Codex 1 | [4a] P5 verification | RETURNED — Q-286 (math CONFIRMED; accounting taxonomy defect; two accounts missing) |
-| 370 | Codex 1 | [4a] Corrected accounting package (field taxonomy + Schur + class-formation) | **SENT** |
+| 370 | Codex 1 | [4a] Accounting V002 | RETURNED — Q-288 (six accounts + door flags; chain creator-free) |
 
 | 366 | Codex 2 | [4a] P5 maximal chain | RETURNED — Q-284 (retarded image p-clean on everything built; stops at the raw-G lift; six objects remain) |
 
-| 368 | Codex 2 | [4a] The raw-G lift (source → field; T_cyl candidate) | **SENT** |
+| 368 | Codex 2 | [4a] Raw-G lift | RETURNED — Q-287 (unbuilt; T_cyl not the field layer; signature is THE object) |
+
+| 371 | Codex 2 | [4a] RACE: derive the field signature from the record surface | **LOADED — NOT SENT** |
+| 372 | Codex 1 | [4a] RACE: draft FIELD_SIGNATURE_PHYS through the gate (DoR-015 reserved) | WRITTEN — QUEUED behind 371 |
