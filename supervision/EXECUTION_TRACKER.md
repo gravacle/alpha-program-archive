@@ -148,7 +148,8 @@ transport, in plan order.
 | 324 | Codex 2 | [2d] Omega realization | RETURNED — Q-242 (RELABELING; enrichment = Gen_Omega generative rule) |
 | 326 | Codex 2 | [2f] X_K attempt | RETURNED — Q-244 (proxy passes, restriction missing; six-component package specified) |
 | 328 | Codex 2 | [2f] Restriction package | RETURNED — Q-246 (unbuildable from ratified signature; functor required) |
-| 330 | Codex 2 | [2f] Draft the realization-functor adoption proposal (DoR-012 reserved) | **SENT** |
+| 330 | Codex 2 | [2f] Functor adoption proposal | RETURNED — Q-248 (lens survives, source rule unstateable; NO DoR-012, lens banked, 2f capped) |
+| 332 | Codex 2 | [4a] The background channel — evaluation point p_ch-dependence and forcing | **LOADED — NOT SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
 

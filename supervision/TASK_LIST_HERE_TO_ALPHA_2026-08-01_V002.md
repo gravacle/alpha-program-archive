@@ -359,6 +359,13 @@ custody per LOCKED_PROCESS.md.
                 invariance discipline across all 1,088 members; DoR-012 RESERVED for
                 ratification). Relay 330 commissions the proposal. Task 2f: capped ->
                 proposal-in-flight.                                            SURFACED: yes
+2026-08-02  C29 Q-248 ruling: NO DoR-012. The surviving support lens is a pure ALLOW-object
+                (permissions never force); the arm waits on a require-shaped source object
+                no honest adoption can supply. Lens BANKED shelf-ready
+                (STAGE8_FINITE_INCIDENCE_REALIZATION_FUNCTOR_ADOPTION_PROPOSAL_V001, Q-248);
+                Task 2f CAPPED at one arm, reason of record: source-generation rule
+                unstateable at family level without selection. All lane capacity to Task 4.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
