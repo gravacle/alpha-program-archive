@@ -10719,6 +10719,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-288 — The corrected six-account ledger V002 is ASSEMBLED: four field accounts + stationary-Schur + class-formation with MANDATORY topology and tail-creator door flags; the built chain certified creator-free; the six physical operations honestly TYPE-U (2026-08-02, relay 370)
+
+**Artifact:** `STAGE8_TASK4A_P5_MAXIMAL_TRANSPORT_CHAIN_AND_DEPENDENCE_ACCOUNTING_PACKAGE_V002.md`, `31a738ec…`, seal verified, both mirrors byte-identical. Supersedes the V001 accounting per Q-286.
+
+**Assembled:** the four Q-282 field accounts (measure, contour, boundary/contact, domain closure), the stationary-Schur account, and the Q-285 class-formation account **with mandatory topology declarations and tail-creator door flags** — any future lift artifact must fill the flags, making a silent weak-* invocation structurally impossible. Q-284's verified operation rows preserved and cross-indexed; no verified content discarded.
+
+**Certified:** the built chain contains NO weak-star/bidual tail creator. The six physical operations remain TYPE-U — the ledger accounts, it does not build.
+
+**State of the deciding question after tonight:** the verdict chain is fully accounted, p-clean on everything built, creator-free, with its entire remaining distance in ONE object — the physical field/spacetime signature (Q-287) — and the fork (AUTHOR through the gate vs DERIVE from the record surface) is now formally ripe for the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
