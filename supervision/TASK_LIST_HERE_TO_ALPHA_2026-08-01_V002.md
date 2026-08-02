@@ -418,6 +418,13 @@ custody per LOCKED_PROCESS.md.
                 b := i hbar L(x)L (DoR-014 AMENDMENT 1). Relay 384 executes the
                 derivation; Door D re-runs; the freeze lifts on PASS. One fewer authored
                 field.                                                         SURFACED: yes
+2026-08-02  C37 Door D's second firing (U1-reality) diagnosed to a PARITY misplacement
+                (Q-302/Q-303: the i is Theta-odd, output-side property of the
+                W-convention; the exponent slot is source-even). Principal ruled: FIX THE
+                NORMALIZATION -- DoR-014 AMENDMENT 2: b := hbar L(x)L (Theta-even),
+                identity's i supplied by W's own definition. Still derived, no new
+                authorship. Relay 386 executes + full four-subtest Door D re-run; freeze
+                lifts on clean PASS.                                           SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
