@@ -10534,6 +10534,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-274 — P4 BUILT: the local anchored log germ is TYPE-P complete; Z_inc's exact zero hyperplanes located (record-degeneracy loci); one load-bearing sign corrected (Γ_N = −Log Z_N); the finite retarded block stays zero and rank-free through the physical log (2026-08-02, relay 356)
+
+**Artifact:** `STAGE8_TASK4A_P4_PHYSICAL_LOG_GERM_ON_P2_CALCULUS_CONSTRUCTION_V001.md`, `b4c77ea9…`, seal verified, mirror byte-identical. TYPE-P | premises: DoR-008/009/013/014.
+
+**The branch analysis (physics, not formality):** Z_inc has EXACT zeros on affine hyperplanes Ξ_n = log((1−p_A)/p_A) + i(2m+1)π — and monodromy prevents any global logarithm on their complement. The required LOCAL germ builds cleanly: on the predeclared neighborhood |Z−1| < 1/2 the anchored Log_0 branch is unique. The degeneracy loci sit at the log-odds of the charge weighting — located, characterized, not dodged.
+
+**The body, all TYPE-P:** Log_0, W_inc, the full Fréchet derivative tower, finite-restriction naturality, and the Q-243 Keldysh check — **the mixed finite retarded block remains EXACTLY ZERO and rank-parameter-free through the physical log.**
+
+**The load-bearing sign:** the earlier finite Γ_N is −Log Z_N, so dΓ_N|0 = −i·p_A does not belong to Log Z directly; the response-facing object is W_N = −iℏ·Log Z_N, which reproduces Q-243 correctly. A silent sign error here would have poisoned the transport — caught at construction.
+
+**Consumer state:** P5 now has EVERY source-analytic operand. Its physical raw G and response chain stay TYPE-U pending P3 (in flight); the nonzero-R independent finite reference also still TYPE-U.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
