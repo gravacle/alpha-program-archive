@@ -177,6 +177,6 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 | 350 | Codex 1 | [4a] Germ V002 review | RETURNED — Q-268 (REPAIR-THEN-READY; descent fiberwise over A0; A0-pinning is the theorem) |
 | 351 | Codex 2 | [4a] Germ V003 | RETURNED — Q-269 (A0 not pinned TYPE-R; freedom now DISCRETE; repairs complete) |
 | 352 | Codex 1 | [4a] V003 confirmation | RETURNED — Q-270 (4 bounded repairs; pinning NO_VERDICT overall; arm = future detector) |
-| 353 | Codex 2 | [4a] Germ V004 — four repairs + same-rank gauge theorem | **LOADED — NOT SENT** |
+| 353 | Codex 2 | [4a] Germ V004 — four repairs + same-rank gauge theorem | **SENT** |
 
 Codex 2 HOLDS for 345's return (the race decides the next draft).
