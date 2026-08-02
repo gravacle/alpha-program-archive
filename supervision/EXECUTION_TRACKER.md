@@ -223,4 +223,4 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 386 | Codex 2 | [4a] Execute Amendment 2 (even pairing) + FULL four-subtest Door D | **SENT** |
 *** DoR-015-DEPENDENT WORK FROZEN pending diagnosis + principal disposition (Q-300). ***
 
-| 387 | Codex 1 | [4a] AUDIT Door D's own transport (Jacobians, CTP metric, i/hbar) — principal's check | **LOADED — NOT SENT** |
+| 387 | Codex 1 | [4a] AUDIT Door D's own transport (Jacobians, CTP metric, i/hbar) — principal's check | **SENT** |
