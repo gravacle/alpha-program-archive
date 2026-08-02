@@ -118,13 +118,15 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-02, ~02:15.
+## 6. LANE LEDGER — 2026-08-02, ~02:50.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-317    CODEX 1  2d    wire the four handoffs of F_N                   PASTED, RUNNING
---     CODEX 2  --    takes the first named next-step on return
+318    CODEX 2  2d    the finite amplitude: canonical from sealed     PASTED, RUNNING
+                      content, or the last named free parameter?
+--     CODEX 1  --    the envelope's PathCert subtrace queues behind
 ```
 
-REGISTERED THROUGH Q-234. F_N = P_0 + Z_N P_ch EXISTS, falsifier-passing. DoRs 005-009 in
-force. 317's deliverable = tomorrow's queue: four certified receipts, four named next steps.
+REGISTERED THROUGH Q-235. F_N IS PURE PHASE -- numbers come only from interference under a
+state. If 318 returns canonical: 3a and 3c unblock, and the finite chain runs
+state -> law -> amplitude on two DoRs alone.
