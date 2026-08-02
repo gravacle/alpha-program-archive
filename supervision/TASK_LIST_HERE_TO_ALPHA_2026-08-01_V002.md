@@ -354,6 +354,11 @@ custody per LOCKED_PROCESS.md.
                 ruling). Premise-level build; Q-239's five TYPE-U fields enter as named
                 typed premises; p_ch answered structurally; NO evaluation, NO roots.
                 Task 4a: BLOCKED-ON-AUTHORIZATION -> AUTHORIZED.               SURFACED: yes
+2026-08-01  C28 Q-246 ruling: the finite-incidence realization functor will be ADOPTED via
+                the draft-then-ratify pattern (proposal through the kill-pass gate, verdict-
+                invariance discipline across all 1,088 members; DoR-012 RESERVED for
+                ratification). Relay 330 commissions the proposal. Task 2f: capped ->
+                proposal-in-flight.                                            SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
