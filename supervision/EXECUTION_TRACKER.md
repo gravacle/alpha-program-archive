@@ -225,4 +225,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 387 | Codex 1 | [4a] Transport audit | RETURNED — Q-305 (TEST-CLEAN; all firings physical; direct identification incompatible) -> C38 ruling |
 | 388 | Codex 2 | [4a] N-uniqueness | RETURNED — Q-306 (PROVED, N=i·Id forced; V007; FULL DOOR D PASS; FREEZE LIFTED; G007 exists) |
-| 389 | Codex 1 | [4a] CROSS-VERIFY the uniqueness proof, V007, and the pass | **LOADED — NOT SENT** |
+| 389 | Codex 1 | [4a] CROSS-VERIFY the uniqueness proof, V007, and the pass | **SENT** |
+
+| 390 | Codex 2 | [4a] THE PHYSICAL INVERSE/SCHUR + domains -> RetHess_phys -> THE p-VERDICT | **LOADED — NOT SENT** |
