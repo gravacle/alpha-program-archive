@@ -10312,6 +10312,26 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-259 — Gen_Ω V001: SURVIVES the Q-242 countermodel at fixed member; battery 10 pass / 4 conditional / 0 fail; p_ch verdict = PARAMETERIZED by the preparation primitive; eligible for adversarial review, NOT ratified (2026-08-02, relay 340)
+
+**Artifact:** `STAGE8_GEN_OMEGA_GENERATIVE_ORIGIN_RULE_ADOPTION_PROPOSAL_V001.md`, `f2043a2a…`, seal verified, mirror byte-identical. Nothing adopted; DoR-013 not issued.
+
+**The two authored primitives (the origin's proposed content):**
+1. A charge-covariant MIXING SOURCE-PREPARATION CHANNEL — generates the complete rho_S.
+2. A rooted SIGNED-INCIDENCE REALIZATION — generates the ready ray and the local write structure.
+
+**The countermodel verdict (the test that killed every predecessor):** at a fixed primitive member, the preparation channel has ONE invariant state — the two-state countermodel cannot substitute the other state without changing the origin. `GEN_OMEGA_V001_SURVIVES_Q242_ANTI_RELABELING = true` (proposal certificate, not adoption).
+
+**The p_ch verdict, option (b), reported not selected:** the rule does NOT derive p_ch. Across the proposal family, different preparation channels generate different p_ch values — **p_ch is parameterized by new origin physics.** If this draft ratifies as-is, the program's one free number lives at the origin, in the choice of preparation channel.
+
+**Two open flags for the adversarial review:**
+- The 4 conditional battery rows (which, and on what).
+- **The selection question:** primitive (2) supplies rooted signed-incidence structure — the exact kind of object the corpus lacked (J_ref territory, Q-246/Q-258). Authored physics MAY lawfully supply a require-shaped object (the law did); but the review must test hard whether (2) is honest new physics or a relabeled SELECTION among the 1,088 (the Q-248 trap). If (2) stands, it may also unblock 4d's geometric half — a cross-connection to check, not assume.
+
+**Status:** ELIGIBLE_FOR_ADVERSARIAL_REVIEW — the DoR-009 pattern's next station.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
