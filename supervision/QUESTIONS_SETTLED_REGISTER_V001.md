@@ -10594,6 +10594,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-279 — The finite nonzero-R reference: THE MIXED RETARDED BLOCK STAYS EXACTLY ZERO AND p-FREE WITH THE PROBE ON; the p-dependence lives entirely in the noise and J_δ/R blocks with its exact form computed (2026-08-02, relay 361)
+
+**Artifact:** `STAGE8_TASK4A_FINITE_NONZERO_R_REFERENCE_EXACT_PROBE_SOURCE_COMPUTATION_V001.md`, `c7624d88…`, seal verified, mirror byte-identical. TYPE-P | premises: DoR-008/009/013/014.
+
+**The headline:** with the nonzero R probe switched on, **the finite mixed retarded-candidate block remains EXACTLY ZERO and p_A-free** — the strongest finite evidence available that the retarded response carries no p_ch at any finite stage, probes or no probes.
+
+**Where p DOES live, exactly:** the probe-dependent noise and J_δ/R blocks are nonzero and carry κ_η = p(1−p)·e^{−η/2} / (1−p+p·e^{−η/2})² — the exact probe-dressed noise weight. Equal histories with a nonzero bilocal probe yield 1−p+p·exp[−Q_N(R)/2], not unity — dephasing with the probe on, in closed form.
+
+**Certificates:** zero-source normalization exact; the R = 0 restriction reproduces Q-243 exactly (the internal falsifier check passes). **P5's finite restriction target is established** — any future continuum response must reproduce these forms on restriction or DoR-008 voids.
+
+**Reading:** the finite theory keeps saying the same thing more strongly: retarded = p-free, noise = p-carrying, at every stage, now with probes. If 362's reduction holds, the verdict computation runs against exactly this reference.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
