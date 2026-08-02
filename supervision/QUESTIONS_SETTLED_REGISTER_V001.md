@@ -10346,6 +10346,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-261 — Cellulation independence does NOT discharge via the Q-241 move; the 1,088 were never geometric realizations at all; O-D3's residue is exactly TWO steps, and Gen_Ω's incidence primitive supplies neither (2026-08-02, relay 343)
+
+**Artifact:** `STAGE8_TASK4D_CELLULATION_INDEPENDENCE_OD3_VERDICT_INVARIANCE_THEOREM_V001.md`, `f20639a6…`, seal verified, mirror byte-identical.
+
+**What proved:** the MAXIMAL K_square verdict-invariance theorem (`true` — Q-241's result extended to its full natural scope: final unitary-equivalence verdicts).
+
+**The scope correction that matters:** the 1,088 members are SUPPORT FILTRATIONS of one fixed unfilled square — they were never full J_ref realizations, geometric cellulations, or causal-diamond decompositions. The program's shorthand ("the 1,088 = the realization freedom") was too generous; the geometric freedom is LARGER and lives elsewhere.
+
+**The negative results (all honest TYPE-U):** none of the five public continuum consumers factors through bare T_cyl (0/5); cellulation independence unproved; O-D3 undischarged; the charter's iff did NOT fire. O-D3 governs completed-response independence across CAUSAL-DIAMOND DECOMPOSITIONS — none of the charter's five pins, which items 1–5 already fix.
+
+**The residue, exactly two steps:** (1) support filtration → full geometric realization/refinement; (2) realization → decomposition-independent completed response. And checked without assuming it: Q-259's Gen_Ω incidence primitive supplies NEITHER.
+
+**Reading:** Task 4d's geometric half is authored/constructed territory in two named steps, decoupled from the deciding question's critical chain (which runs through Gen_Ω → germ → P2–P6, not through O-D3). 4d holds at T_cyl + the named residue until the origin work lands.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
