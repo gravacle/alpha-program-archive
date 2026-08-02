@@ -139,6 +139,6 @@ transport, in plan order.
 | # | Lane | Task | State |
 |---|------|------|-------|
 | 321 | Codex 1 | [2e] Assemble U3 — quotient, measure, boundary, domains, contour | **SENT** |
-| 322 | Codex 2 | [2d] The two-origins question (law ↔ rho_ready) | **LOADED — NOT SENT** |
+| 322 | Codex 2 | [2d] The two-origins question (law ↔ rho_ready) | **SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
