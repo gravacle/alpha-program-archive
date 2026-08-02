@@ -10887,6 +10887,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-301 — Door-D diagnosis: H-A CONFIRMED AND LOCALIZED — the check was right, the field layer is innocent; the defect is DoR-014's CHOICE C-B (incompatible pairing of the accumulated linear source with the same-cell bilocal source), whose OWN void condition fired (2026-08-02, relay 383)
+
+**Artifact:** `STAGE8_TASK4A_DOOR_D_FALSIFIER_CARRIER_AND_CHECK_DIAGNOSIS_V001.md`, `b105a2c9…`, seal verified, all copies byte-identical.
+
+**The verdict, clean:** `H_A_LOCALIZED`. Door D is CORRECTLY specified (`H_B = false | TYPE-R`; the raw identity is NOT open-path-only; the Keldysh zero does NOT supersede it; the endpoint-covariant rescue fails). The finite identity reduces to b(f,h) = iℏ·L(f)L(h) and fails on cycles AND open paths alike — a source-port tensor incompatibility (`SOURCE_PORT_TENSOR_COMPATIBILITY = false | TYPE-R`), not a quotient artifact.
+
+**What is INNOCENT (TYPE-S, load-bearing):** the Gate-4 quotient and the A6 host class are NOT refuted by this test — DoR-015's field layer, the cycle currents, and the triangulated carrier all stand. The freeze can lift wherever C-B is not consumed.
+
+**The fired clause:** Choice C-B's own raw-G-disagreement VOID CONDITION fired — the DoR-014 adoption anticipated exactly this failure mode and named its own remedy path. The would-build: the EXPLICIT TENSOR PRECERTIFICATE (`TYPE-U`) — the compatibility certificate any replacement pairing must carry.
+
+**The principal's neutral options (from the artifact, none selected):** (1) REPLACE C-B with a compatible pairing gated by the tensor precertificate; (2) ENLARGE the linear source realization; (3) RESTRICT the physical source family explicitly; (4) SUPERSEDE the same-correlator architecture.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
