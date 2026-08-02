@@ -9609,6 +9609,33 @@ RECORDS-FIRST FRAMEWORK THE CANDIDATE FUNDAMENTAL OBJECT IS THE RECORD TRANSITIO
 STATE AS ITS BOUNDARY DATA. The state resists forcing because it may not be the thing the
 physics determines directly. FRAMING, to be tested against the envelope -- not assumed. ***
 
+## Q-226. THE CONVERGENCE IS COMPLETE: one missing instance, FOUR consumers — and the pieces to attempt it EXIST.
+
+**Relay 308 (Task 2d, Codex 2).**
+`STAGE8_TASK2D_MULTIAXIAL_STATE_TRANSITION_ENVELOPE_SPECIFICATION_V001.md`,
+`bda00e99e964bd75d60429549e5f6c70762bf1607270b9a6294dc4c97cf2c635`, 753 lines. Hash verified,
+fence-clean.
+
+```text
+THE ENVELOPE IS SPECIFIABLE; THE PROTOCOL IS NOT RUNNABLE (step 1 TYPE-C). BECAUSE:
+   *** DynPort_U2_008 = TYPE-U -- THE COMMON-ORIGIN DOUBLED CTP INFLUENCE-FUNCTIONAL INSTANCE IS
+   MISSING, AND IT NOW HAS FOUR CONSUMERS: U2 . Task 3a . Task 3c . THE TRANSITION ENVELOPE. ***
+
+WHAT EXISTS (the raw material): exact finite source-record TRANSITIONS . the outgoing record-only
+GNS limit . the ratified CTP completion and join . the sequential N <= M label system.
+WHAT THEY DON'T YET FORM: a full-carrier path.
+ALSO: the path-provenance witness is PRECISELY SPECIFIED, uninstantiated . the completed-carrier
+quasifree predicate TYPE-S . symbol collision CORRECTED: G_joint already names the U(1)
+comparison group; the generator interface is now Gen_C0 (the FIFTH collision caught this way).
+```
+
+*** THE CONSTRUCTIVE READING, to be attempted not assumed: an influence functional at finite N is
+the trace over the record/environment sector of the DOUBLED finite dynamics -- and every
+ingredient of that sentence EXISTS as an instance. Common-origin provenance would be the
+construction itself: everything from the ONE finite dynamics. The N <= M system then carries the
+sequential compatibility. IF THIS BUILDS, THE FOUR-CONSUMER OBJECT ARRIVES BY EXACT FINITE
+COMPUTATION PLUS LIMIT -- THE ONLY PATTERN THAT HAS EVER WORKED IN THIS PROGRAM. Relay 309. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
