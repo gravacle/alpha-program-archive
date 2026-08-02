@@ -10971,6 +10971,18 @@ All six checks independent and clean; the complement's NO_VERDICT scope confirme
 
 ---
 
+## Q-308 — The verdict attempt stops at a STRUCTURAL fact: the physical cycle current u_□ lies in ker L, so G⁰⁰⁷ has NO full physical inverse (TYPE-R); the [q(1−q)]⁻¹ reciprocal exists only on the 1-D quotient and was correctly REFUSED (it would delete record-visible content); the next object is the kernel-resolution package (2026-08-02, relay 390)
+
+**Artifact:** `STAGE8_TASK4A_PHYSICAL_INVERSE_SCHUR_COMPLETED_DOMAIN_AND_P_VERDICT_ATTEMPT_V001.md`, `c0978378…`, seal verified, mirror byte-identical.
+
+**The theorem:** `G007_FULL_PHYSICAL_INVERSE_EXISTS = false | TYPE-R` — G⁰⁰⁷ = −ℏ²q(1−q)·L⊗L is rank-structured with the NONZERO physical cycle current u_□ in ker L. The reciprocal ∝ [q(1−q)]⁻¹ lives only on the one-dimensional quotient by ker L; promoting it to I_C[G] would delete record-visible physical content — refused, diagnostic only.
+
+**The structural fact worth naming (not yet a verdict):** the physical response family (the cycle currents, V005's allowed holonomy) lies in the KERNEL of the source covector — **the direction the physical response lives in is a direction the p-carrying correlator has no weight in.** Whether that becomes the cancellation mechanism is exactly what the kernel resolution decides; both verdict flags stay NO_VERDICT, correctly.
+
+**The named next object:** PHYSICAL_KERNEL_RESOLUTION_STATIONARY_2PI_AND_COMPLETED_DOMAIN_PACKAGE — how the dynamics acts on ker L (the response's own sector), the stationary 2PI blocks, the completed measure/contour/boundary/domain package, the physical background realization.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

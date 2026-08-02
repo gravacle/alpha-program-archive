@@ -227,4 +227,5 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 388 | Codex 2 | [4a] N-uniqueness | RETURNED — Q-306 (PROVED, N=i·Id forced; V007; FULL DOOR D PASS; FREEZE LIFTED; G007 exists) |
 | 389 | Codex 1 | [4a] Freeze-lift verification | RETURNED — Q-307 (CONFIRMED; the stack verified through V007) |
 
-| 390 | Codex 2 | [4a] THE PHYSICAL INVERSE/SCHUR + domains -> RetHess_phys -> THE p-VERDICT | **SENT** |
+| 390 | Codex 2 | [4a] Verdict attempt | RETURNED — Q-308 (no full inverse: u_sq in ker L; kernel resolution is the gate) |
+| 391 | Codex 2 | [4a] THE KERNEL RESOLUTION — the dynamics where the response lives | **LOADED — NOT SENT** |
