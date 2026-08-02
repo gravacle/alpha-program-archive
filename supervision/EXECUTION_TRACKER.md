@@ -233,6 +233,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 393 | Codex 2 | [4a] Intertwiner from origin | RETURNED — Q-311 (no global carrier; orientation not forced; two no-authorship routes named) |
 | 394 | Codex 1 | [4a] Orientation | RETURNED — Q-312 (CLOSED BY CITATION: V011 seals c_sq; covariance not invariance; two maps remain) |
 | 395 | Codex 2 | [4a] The two maps | RETURNED — Q-313 (Map 1 unique; descent preserves zeros; the STATIONARY PACKAGE is the last gap) |
-| 396 | Codex 1 | [4a] THE STATIONARY PACKAGE — the last unbuilt physics | **LOADED — NOT SENT** |
+| 396 | Codex 1 | [4a] V002: WHAT REQUIRES STATIONARITY? (principal's check; supersedes the build) | **LOADED — NOT SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
