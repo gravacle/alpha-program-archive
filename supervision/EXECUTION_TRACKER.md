@@ -118,14 +118,15 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~21:50.
+## 6. LANE LEDGER — 2026-08-01, ~22:15.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-308    CODEX 2  2d    spec the state-transition envelope              PASTED, RUNNING
---     CODEX 1  --    held on 308's spec sheet
+309    CODEX 1  2d    construct F_N -- the finite influence           PASTED, RUNNING
+                      functional, the four-consumer object
+--     CODEX 2  --    held; if F_N lands, four fronts open at once
 ```
 
-REGISTERED THROUGH Q-225. THE NIGHT'S FRAMING (registered, to be tested): the fundamental object
-is the RECORD TRANSITION; the state is its boundary data. Likely convergence: the joint dynamics
-edge = the influence-functional instance -- one gap, four consumers.
+REGISTERED THROUGH Q-226. CHANGE LOG THROUGH C19 (act-based fences live).
+THE FRONT IN ONE LINE: one missing instance, four consumers, every ingredient exists --
+309 attempts it by exact finite construction, with the one-cell falsifier riding along.
