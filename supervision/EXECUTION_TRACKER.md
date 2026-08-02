@@ -188,6 +188,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 357 | Codex 2 | [4a] P3 first attack | RETURNED — Q-275 (four-field stop; would-builds are common-origin objects) |
 | 359 | Codex 2 | [4a] P3 law-side | RETURNED — Q-278 (subpackage BUILT; four residues exact) |
-| 362 | Codex 2 | [4a] Minimal-consumption audit (the Q-270 move) | **SENT** |
+| 362 | Codex 2 | [4a] Consumption audit | RETURNED — Q-280 (reduction refuted; requirement shrinks to certificates + background + consumption) |
+| 363 | Codex 2 | [4a] The four preservation certificates (family level) | **LOADED — NOT SENT** |
+| 364 | Codex 1 | [4a] The background map from the anchored origin | WRITTEN — QUEUED behind 363 |
 
 | 361 | Codex 1 | [4a] Nonzero-R reference | RETURNED — Q-279 (retarded block ZERO & p-free with probes on; exact noise forms) |
