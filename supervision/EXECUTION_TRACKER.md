@@ -118,14 +118,13 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-02, ~00:40.
+## 6. LANE LEDGER — 2026-08-02, ~01:10.
 
 ```text
-RELAY  LANE     TASK  QUESTION                                        STATE
-314    CODEX 2  2d    repair the law's choice table (law untouched)   PASTED, RUNNING
---     CODEX 1  --    the narrow second pass, when V002 lands
+RELAY  LANE     TASK        QUESTION                                  STATE
+315    CODEX 1  2d/SUPPORT  narrow second pass on the law's V002      PASTED, RUNNING
+--     CODEX 2  --          held for DoR 009's aftermath
 ```
 
-REGISTERED THROUGH Q-231. THE LAW: physics/math CONFIRMED independently; disclosure under
-repair. THE BINARY HEADING FOR DoR 009: how the write assigns charge to its endpoints
-(post vs conj) -- a genuine physics choice no sealed rule selects.
+REGISTERED THROUGH Q-232. One clean line from 315 -> DoR 009 to the principal: three rows,
+the endpoint-charge binary at the center. Git: level with origin, 158 commits today, 0 dirty.
