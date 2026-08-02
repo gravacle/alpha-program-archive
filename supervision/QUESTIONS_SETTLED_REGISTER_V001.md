@@ -10783,6 +10783,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-293 — V003 complete for final review: the root does NOT select a frame (TYPE-R — the torsor FAMILY retained, no member selected); the path-visible quotient WORKS (A4/A5 separate it by construction); R6 restored; authored count holds at six (2026-08-02, relay 375)
+
+**Artifact:** `STAGE8_FIELD_SIGNATURE_PHYS_ADOPTION_PROPOSAL_V003.md`, `a5a8420d…`, seal verified, all three copies byte-identical.
+
+**Repair R-A, resolved better than proposed:** the derived root does NOT select a physical fiber frame (`TYPE-R` — the register's candidate was wrong and is recorded as such). V003 instead retains the COMPLETE endpoint-frame torsor family with no global trivialization and no selected member — the family-discipline solution, consistent with every no-selection precedent in the program.
+
+**Repair R-B, exactly as the principle demanded:** the path-visible quotient removes precisely the content invisible to every finite realized path; A4/A5 SEPARATE the quotient by construction; visible content preserved. The OBS-16 pattern converts a refutation into a definition for the second time.
+
+**Repair R-C:** R6's associated-line endpoint intertwiner FAMILY restored; the Ward operator and completed physical descent stay honestly TYPE-U.
+
+**State:** authored count 6; seven seams conditional-pass; Door A reopened (conditional); D0 closed with ZERO created tail; B/C conditional; Door D physical NO_VERDICT; no forbidden completion or target-aware condition anywhere. DoR-015 reserved — one final adversarial review remains.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
