@@ -11064,6 +11064,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-315 — Build i lands its lawful maximum: the restriction squares for P2, raw G, Map 1, and G⁰⁰⁷ all built with EXACT finite-shadow reproduction, plus Tail_raw = {0} on the bounded class; the refused identification is correct (source spaces ≠ the physical (Ā,G) tangent carriers); the residue waits on build ii's tangent structure (2026-08-02, relay 397)
+
+**Artifact:** `STAGE8_TASK4A_TRANSPORT_INFRASTRUCTURE_COMMON_DOMAIN_AND_PHYSICAL_SQUARES_BUILD_ATTEMPT_V001.md`, `f886284c…`, seal verified, mirror byte-identical.
+
+**Built (TYPE-P):** the P2 source/current restriction squares; bounded raw-G restriction maps; **Tail_raw = {0} on the bounded raw-bilinear class** (the tail's third proven zero, now at the raw-bilinear level); the Map 1 and G⁰⁰⁷_phys restriction squares; exact Q-243/Q-279 finite-shadow reproduction throughout.
+
+**Refused correctly (TYPE-R):** identifying the conserved-current/bilocal-source spaces with the physical (Ā,G) TANGENT carriers — the domain the stationary structure acts on is tangent-level, and that structure is precisely what build ii (the background realization, in flight) produces.
+
+**The residue, exact and interface-ready:** ρ_H,N (the physical restriction maps — the Q-245/Q-247 object, finally at the front of the queue), the common stationary graph domain, essential self-adjointness, the inverse/Schur square. Builds ii/iii now have their exact required interface.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
