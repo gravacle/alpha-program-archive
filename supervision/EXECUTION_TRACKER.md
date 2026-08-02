@@ -139,7 +139,7 @@ transport, in plan order.
 | # | Lane | Task | State |
 |---|------|------|-------|
 | 321 | Codex 1 | [2e] Assemble U3 | RETURNED — Q-239 (skeleton exact, instance TYPE-U at 5 fields) |
-| 323 | Codex 1 | [2f] The comparison maps — choice-invariance of the K_square falsifier arm | **LOADED — NOT SENT** |
+| 323 | Codex 1 | [2f] The comparison maps — choice-invariance of the K_square falsifier arm | **SENT** |
 | 322 | Codex 2 | [2d] The two-origins question (law ↔ rho_ready) | **SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
