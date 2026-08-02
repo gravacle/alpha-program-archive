@@ -9636,6 +9636,44 @@ construction itself: everything from the ONE finite dynamics. The N <= M system 
 sequential compatibility. IF THIS BUILDS, THE FOUR-CONSUMER OBJECT ARRIVES BY EXACT FINITE
 COMPUTATION PLUS LIMIT -- THE ONLY PATTERN THAT HAS EVER WORKED IN THIS PROGRAM. Relay 309. ***
 
+## Q-227. THE ZERO-SOURCE INFLUENCE KERNEL IS EXACTLY TRIVIAL — and the reduced channel is CHARGE DEPHASING. The response physics lives entirely in the SOURCE-HISTORY MAP.
+
+**Relay 309 (Task 2d, Codex 1).**
+`STAGE8_TASK2D_FINITE_N_INFLUENCE_FUNCTIONAL_INSTANCE_CONSTRUCTION_RESULT_V001.md`,
+`c49d31200460e96209375f06a7a655d343767695ef09805f1e396d1814833b6b`, 599 lines. Hash verified,
+fence-clean. MACHINERY_APPEAL = NOT_TRIGGERED — the physics, not the rules, set every limit here.
+
+```text
+EXACT, ALL N >= 1 (N = 1, 2 verified explicitly):
+   I_N(a_+, a_-) = <R_N| V_(a_-)^dagger V_(a_+) |R_N> = delta_(a_+, a_-)
+   *** THE ZERO-SOURCE INFLUENCE KERNEL IS THE IDENTITY -- with NO external history, the record
+   sector returns a trivial (diagonal) influence. ***
+
+   Phi_N(rho) = P_0 rho P_0 + P_ch rho P_ch
+   *** THE REDUCED SOURCE CHANNEL IS CHARGE-SECTOR DEPHASING: the record transition KILLS
+   coherence between neutral and charged sectors. RECORD FORMATION MAKES CHARGE CLASSICAL --
+   an exact, derived, finite-N statement of charge superselection from records. ***
+
+PASS: overlap kernel . reduced channel . sequential compatibility (N >= 1) . untraced one-cell
+restriction.  REFUTED (TYPE-R, honest): the identification with F_R = cos^2 -- domain/codomain
+mismatch.  FULL F_N[J_+, J_-]: TYPE-U, for THREE named lacks:
+   1  *** A SOURCE-HISTORY MAP  J, A, g -> U_N[J, A, g] *** -- how the finite transition depends
+      on the external field/source background. THE RESPONSE PHYSICS LIVES ENTIRELY HERE.
+   2  the scalar state/trace/effect port (the known state port).
+   3  common-origin descent to the field/CTP carrier.
+```
+
+### The constructive lead for lack 1 — from SEALED content
+
+*** GATE 4's DERIVED OBJECT IS "UNIT-WEIGHT **COVARIANT** INCIDENCE" — incidence WITH the
+connection. THE NATURAL SOURCE-HISTORY MAP: DECORATE THE EXACT FINITE TRANSITIONS WITH THE
+RECORD-SIDE U(1) HOLONOMY ALONG THEIR INCIDENCE (unit charge, derived), yielding U_N[a] and
+hence F_N[a_+, a_-] BY THE SAME TRACE ALREADY EXECUTED. Whether the decoration is the SEALED
+CONTENT of covariance or a choice is the standing question relay 310 must adjudicate, not
+assume. IF DERIVED: the influence functional's source dependence arrives from Gate 4 + the
+finite dynamics — both sealed instances — and OBS-15's prediction (the require lives on the
+transition) scores its first constructive hit. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
