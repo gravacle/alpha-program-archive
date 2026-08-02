@@ -169,6 +169,7 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 | 343 | Codex 2 | [4d] Cellulation independence | RETURNED — Q-261 (Q-241 move does not lift; O-D3 residue = two steps) |
 | 344 | Codex 2 | [4a] Gen_Omega V002 | RETURNED — Q-262 (repair holds at draft; 11/3/0; review pending) |
 
-| 345 | Codex 1 | [4a] The no-go attempt — adversarial complement to V002 | **SENT** |
+| 345 | Codex 1 | [4a] No-go attempt | RETURNED — Q-263 (fails at bistochasticity+faithfulness; anchor benchmark; faithfulness alone insufficient) |
+| 346 | Codex 1 | [4a] ADVERSARIAL REVIEW of Gen_Omega V002 — the anchor test | **LOADED — NOT SENT** |
 
 Codex 2 HOLDS for 345's return (the race decides the next draft).
