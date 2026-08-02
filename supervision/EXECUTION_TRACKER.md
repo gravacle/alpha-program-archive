@@ -210,7 +210,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 376 | Codex 1 | [4a] V003 final review | RETURNED — Q-294 (REPAIR_THEN_READY: frame tangents; Door F; bounded reruns) |
 | 377 | Codex 2 | [4a] V004 | RETURNED — Q-296 (frames RECORD-VISIBLE; u_aug current; Door F zero-tail; reruns pass) |
 | 379 | Codex 1 | [4a] V004 review | RETURNED — Q-297 (DEAD: frame mutation IS Gate-4 rephasing; triangulation complete) |
-| 380 | Codex 2 | [4a] V005 — the triangulated quotient (unaugmented currents on the physical carrier) | **LOADED — NOT SENT** |
+| 380 | Codex 2 | [4a] V005 — the triangulated quotient (unaugmented currents on the physical carrier) | **SENT** |
 | 372 | Codex 1 | [4a] RACE authored arm | RETURNED — Q-289 (nine fields, openly authored; doors A-C conditional, D open; awaits adjudication) |
 
 | 378 | Codex 1 | [4a] Subpackage verification | RETURNED — Q-295 (CONFIRMED_WITH_NOTES; the whole stack under P5 now verified) |
