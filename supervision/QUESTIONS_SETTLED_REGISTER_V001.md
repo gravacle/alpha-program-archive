@@ -10548,6 +10548,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-275 — P3 stops at the four analytic fields (measure, contour, boundary, domains — all TYPE-U); provenance discharged by DoR-013/014; and the artifact points the way: the would-builds are COMMON-ORIGIN-GENERATED objects, not topology-supplied ones (2026-08-02, relay 357)
+
+**Artifact:** `STAGE8_TASK4A_P3_COMPLETE_U3_PACKAGE_CONSTRUCTION_AND_FOUR_FIELD_STOP_V001.md`, `f97ee43e…`, seal verified, mirror byte-identical.
+
+**The stop:** a sharp four-field TYPE-U, not a refutation. P2 supports a completed source-topological GLUE subpackage, but topology cannot manufacture a measure, an analytic contour, physical boundary structure, or operator-domain realizations. `U3_008_INSTANCE_EXISTS = false | TYPE-U`; `P5_COMPLETE_INPUT_READY = false | TYPE-U`. Field (5), common-origin provenance: DISCHARGED, TYPE-P | DoR-013/014 — no longer a U3 blocker.
+
+**The named would-builds (the artifact's own words, and they share one shape):** a branch-joint measure GENERATED FROM THE COMMON ORIGIN; a COMMON-ORIGIN interacting contour/operator family; the preparation/gluing package; named unbounded operators with a common invariant closure domain — all four "on the discharged common-origin trace."
+
+**Reading:** the four fields were attacked with the wrong inputs. P2 is kinematics; these fields are DYNAMICS-side objects, and the program now owns ratified dynamics-side data it did not have when Q-239 first hit this wall: the law's finite amplitudes (F_N pure phase, A_N) as projective weights for the MEASURE; E_post's ratified time-orientation as the generator of the iε CONTOUR (the analytic shadow of time-ordering); the sequential glue's P2-limit for the BOUNDARY package; PathCert's GNS output generators for the DOMAINS. The next build runs from the law side.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

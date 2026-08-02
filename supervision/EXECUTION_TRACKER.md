@@ -185,4 +185,5 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 
 Codex 2 HOLDS for 345's return (the race decides the next draft).
 
-| 357 | Codex 2 | [4a] BUILD P3 — complete U3 | **SENT** |
+| 357 | Codex 2 | [4a] P3 first attack | RETURNED — Q-275 (four-field stop; would-builds are common-origin objects) |
+| 359 | Codex 2 | [4a] P3 SECOND ATTACK — the four fields from the law side | **LOADED — NOT SENT** |
