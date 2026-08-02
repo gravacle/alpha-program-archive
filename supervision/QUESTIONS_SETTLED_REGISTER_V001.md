@@ -9764,6 +9764,37 @@ functional follows from the law by the already-executed trace).
 **Next per the gate: the adversarial kill-pass by the OTHER lane (relay 313), then DoR 009 to the
 principal with the three choices and the conj countermodel in view.**
 
+## Q-231. THE LAW SURVIVES ITS KILL-PASS ON PHYSICS AND MATH — repair is BOOKKEEPING, and the true physical choice is exposed: ENDPOINT-CHARGE ASSIGNMENT.
+
+**Relay 313 (Codex 1, attacking Codex 2's draft).**
+`STAGE8_SOURCE_COUPLED_RECORD_TRANSITION_LAW_ADVERSARIAL_KILL_DETERMINATION_V001.md`,
+`db308e3fab80127305f18980a4934741c591e5fb02e2871c89ba7a22df6b40b2`, 801 lines. Hash verified,
+fence-clean. **Independent exact-arithmetic implementation (own code, 180 lines).**
+
+```text
+THE LAW ITSELF: *** ALL EIGHT CERTIFICATES INDEPENDENTLY CONFIRMED at N = 1, 2. A = 0 is EXACT
+OPERATOR EQUALITY (stronger than the certificate demanded). TARGET-AWARENESS: PASS -- no
+response value, stiffness, root, or measured quantity selected anything. HIDDEN CONTENT: PASS.
+***
+
+THE DEFECT -- ACCOUNTING, NOT PHYSICS. The "three independent choices" count is REFUTED:
+  NARROW no-contact: *** DERIVED *** (contacts from the fixed post representations and
+     open-chain holonomies) -- OFF the table;
+  BROAD no-contact: still PROPOSED (parent/curvature/distributed/source-contact classes open);
+  P1 and P3 are NOT independent rows.
+
+*** THE TRUE PHYSICAL RESIDUE, EXPOSED BY PUSHING THE COUNTERMODEL: conj FAILS C4 with the post
+law's endpoint representations -- BUT PASSES ALL EIGHT with ALTERNATE ENDPOINT CHARGE
+REPRESENTATIONS. **POST AND CONJ ASSIGN ENDPOINT CHARGES DIFFERENTLY, AND NO SEALED
+IRREVERSIBILITY OR TIME-ORIENTATION RULE SELECTS BETWEEN THEM.** The choice reaching DoR 009 is
+a genuine physics binary: HOW THE WRITE ASSIGNS CHARGE TO ITS ENDPOINTS. ***
+P2 stands as an honestly disclosed no-cross-cell-interaction premise.
+```
+
+**Repair (relay 314, drafter's lane): the LAW untouched; the choice table rebuilt to the corrected
+accounting -- the endpoint-charge binary . the broad-contact scope premise . P2. Then the narrow
+second pass, then DoR 009.**
+
 ---
 
 ## HOW TO USE THIS REGISTER
