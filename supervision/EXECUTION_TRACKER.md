@@ -143,7 +143,7 @@ transport, in plan order.
 | 325 | Codex 1 | [4a] THE TRANSPORT MAP — p_ch cancel or survive (DoR-011) | **SENT** |
 | 322 | Codex 2 | [2d] The two-origins question | RETURNED — Q-240 (no certified origin; reviewer candidate refuted) |
 | 324 | Codex 2 | [2d] Omega realization | RETURNED — Q-242 (RELABELING; enrichment = Gen_Omega generative rule) |
-| 326 | Codex 2 | [2f] Fix X_K independently, execute the K_square falsifier arm | **LOADED — NOT SENT** |
+| 326 | Codex 2 | [2f] Fix X_K independently, execute the K_square falsifier arm | **SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
 
