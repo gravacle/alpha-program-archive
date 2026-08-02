@@ -10234,6 +10234,24 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-254 — The consolidated missing-layer spec: 16 canonical rows, 11 packages; the MINIMAL DECIDING SUBSET is 8 packages with exactly ONE shared authored-physics gate — SOURCE_GERM_PHYS with its common-origin pointwise Z_inc[J,R] (2026-08-02, relay 336)
+
+**Artifact:** `STAGE8_TASK4A_MISSING_PHYSICAL_LAYER_CONSOLIDATED_SPEC_AND_CONSTRAINT_BATTERY_V001.md`, `241bf43f…`, seal verified, mirror byte-identical.
+
+**The consolidation:** 16 canonical rows deduplicated across Q-239/245/249/250/251/252 (identifications proven, e.g. Q-245's topology_src/Diff_src fields shown IDENTICAL to Q-249's by line citation), dependency-ordered, full constraint battery attached (DoR-008 falsifier, Q-243, Q-245, Q-247, Q-250, Q-251, Q-252, and the finite-authority principle as a battery item).
+
+**The headline:** `MINIMAL_SINGLE_CHANNEL_PACKAGE_COUNT = 8` (of 11), and `SHARED_AUTHORED_GATE_COUNT = 1`: **SOURCE_GERM_PHYS / the common-origin pointwise Z_inc[J,R]**. Everything else in the deciding subset is downstream construction, theorem work, or one selected consumer. One authored object gates the entire p_ch decision.
+
+**Two clean refutations en route:** the physical and mathematical tails are NOT identical (`TYPE-R`), and the finite zero background does NOT force the physical evaluation point (`TYPE-R`, consistent with Q-252).
+
+**Post-prompt hygiene:** Q-253 (landed mid-run) was checked and incorporated — it sharpens B_ind's tail certificate, does not change the result.
+
+**Note, not a claim:** the gate is characterized as COMMON-ORIGIN pointwise — the same territory as Q-242's Gen_Ω enrichment (the generative preparation/carrier-descent rule). Whether SOURCE_GERM_PHYS and Gen_Ω are one object or two is NOT established here and must be proven, not assumed; if one, a single authoring decision would feed both the p_ch decision and the P5 witness.
+
+**Reading:** the commissioning target exists and is small: author SOURCE_GERM_PHYS through the gate (the D6/law pattern), and the deciding subset opens.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
