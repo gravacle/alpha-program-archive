@@ -118,14 +118,14 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~21:30.
+## 6. LANE LEDGER — 2026-08-01, ~21:50.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-307    CODEX 1  2d    the multiaxial envelope, protocol re-run        PASTED, RUNNING
---     CODEX 2  --    held on 307's verdict
+308    CODEX 2  2d    spec the state-transition envelope              PASTED, RUNNING
+--     CODEX 1  --    held on 308's spec sheet
 ```
 
-REGISTERED THROUGH Q-224. Sealed cuts carried into 307: joint-multiplicative is IMPOSSIBLE on
-the carrier (no character of M_3(C)); the correlation constraint bites the COMPLETED state via
-dynamics. D6 stays unposed until the class stratum answers honestly.
+REGISTERED THROUGH Q-225. THE NIGHT'S FRAMING (registered, to be tested): the fundamental object
+is the RECORD TRANSITION; the state is its boundary data. Likely convergence: the joint dynamics
+edge = the influence-functional instance -- one gap, four consumers.
