@@ -212,7 +212,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 379 | Codex 1 | [4a] V004 review | RETURNED — Q-297 (DEAD: frame mutation IS Gate-4 rephasing; triangulation complete) |
 | 380 | Codex 2 | [4a] V005 | RETURNED — Q-298 (X_phys stands; physical currents = CYCLE family / loop holonomies) |
 | 381 | Codex 1 | [4a] V005 third pass | RETURNED — Q-299 (RATIFICATION-READY) -> DoR-015 RATIFIED (C35). THE FIELD LAYER EXISTS |
-| 382 | Codex 2 | [4a] THE RAW-G RERUN on the ratified signature (Door D executed) | **LOADED — NOT SENT** |
+| 382 | Codex 2 | [4a] Door D executed | RETURNED — Q-300 (FALSIFIER FIRED: identity fails on the cycle; DoR-015 work FROZEN) |
 | 372 | Codex 1 | [4a] RACE authored arm | RETURNED — Q-289 (nine fields, openly authored; doors A-C conditional, D open; awaits adjudication) |
 
 | 378 | Codex 1 | [4a] Subpackage verification | RETURNED — Q-295 (CONFIRMED_WITH_NOTES; the whole stack under P5 now verified) |
+
+| 383 | Codex 1 | [4a] DOOR-D DIAGNOSIS — defective adoption or mis-specified check | **LOADED — NOT SENT** |
+*** DoR-015-DEPENDENT WORK FROZEN pending diagnosis + principal disposition (Q-300). ***

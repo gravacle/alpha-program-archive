@@ -10875,6 +10875,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-300 — DOOR D FIRED: the bounded extension EXISTS but the resulting bilinear is not an admissible physical raw G — on the sealed square cycle the linear-source covector VANISHES while the same-cell bilocal trace is NONZERO, breaking D_J Ā = (i/ℏ)G on one carrier. DoR-015's standing falsifier is LIVE; downstream work FROZEN pending disposition (2026-08-02, relay 382)
+
+**Artifact:** `STAGE8_TASK4A_RAW_G_RERUN_ON_RATIFIED_SIGNATURE_AND_DOOR_D_EXECUTION_V001.md`, `bffd7ef2…`, seal verified, mirror byte-identical.
+
+**The execution:** the bounded-extension SUBTEST passes — the lift exists as an operator. The failure is admissibility: on c_□ = (1,−1,1,−1), D_J Ā[c_□,c_□] = 0 while G_R[c_□,c_□] ≠ 0 — the mandatory same-correlator identity fails. `DOOR_D_EXECUTION = FAIL`; `DOR015_STANDING_FALSIFIER_FIRED = true`; `PHYSICAL_RETHESS_P_CLEAN = NO_VERDICT`. Q-243/Q-279 remain valid and exactly reproduced — the incompatibility appears ONLY when the tuple is promoted to ONE physical correlator.
+
+**Process state:** THE FALSIFIER PHILOSOPHY WORKING AS RATIFIED — an adoption's named open check, executed, fired. Per the artifact: no DoR-015-dependent downstream work until the principal's disposition. FROZEN accordingly.
+
+**The diagnosis question that must precede disposition (commissioned as relay 383):** is this (a) a defect of the ADOPTED structures (the field representation/bilocal class genuinely produce an inadmissible G — repair territory, V006 with the identity as a mandatory certificate), or (b) a mis-specified CHECK — the Keldysh structure itself says the one-point sector is difference-typed and DIES on closed cycles while same-cell noise survives, so the identity D_J Ā = (i/ℏ)G may be an OPEN-PATH identity that cycles legitimately break, and Door D demanded of the cycle quotient an identity the physics never promised there. The two readings have opposite dispositions; the diagnosis decides which reaches the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
