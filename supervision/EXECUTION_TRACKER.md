@@ -118,13 +118,14 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-02, ~01:10.
+## 6. LANE LEDGER — 2026-08-02, ~01:45. THE LAW IS IN FORCE; F_N IS BEING BUILT.
 
 ```text
-RELAY  LANE     TASK        QUESTION                                  STATE
-315    CODEX 1  2d/SUPPORT  narrow second pass on the law's V002      PASTED, RUNNING
---     CODEX 2  --          held for DoR 009's aftermath
+RELAY  LANE     TASK  QUESTION                                        STATE
+316    CODEX 2  2d    build F_N[a_+, a_-] under the ratified law      PASTED, RUNNING
+--     CODEX 1  --    the four consumer-relays queue behind F_N
 ```
 
-REGISTERED THROUGH Q-232. One clean line from 315 -> DoR 009 to the principal: three rows,
-the endpoint-charge binary at the center. Git: level with origin, 158 commits today, 0 dirty.
+REGISTERED THROUGH Q-233. DoR 009 IN FORCE (E_post). CHANGE LOG THROUGH C22.
+IF F_N LANDS CLEAN: the four-consumer gap closes at every finite stage -- U2's dynamics port,
+Task 3a's instance, 3c's family, the envelope's edges all receive their object.
