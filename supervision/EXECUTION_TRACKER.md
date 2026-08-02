@@ -147,7 +147,8 @@ transport, in plan order.
 | 333 | Codex 1 | [4a] Class forcing | RETURNED — Q-250 (determined MODULO TAIL; annihilation theorem is the object) |
 | 334 | Codex 1 | [4a] Tail annihilation | RETURNED — Q-251 (PARTIAL: all six consumptions unspecified; B_ind term = p_loc(t_ind)) |
 | 335 | Codex 1 | [4a] B_ind signature | RETURNED — Q-253 (completed-layer; reduces to p_loc|Tail_ind = 0) |
-| 337 | Codex 1 | [4a] p_loc on the tail — the one-certificate derivation | **SENT** |
+| 337 | Codex 1 | [4a] p_loc certificate | RETURNED — Q-255 (consumption-untyped; candidates F/W; sequenced behind germ) |
+| 339 | Codex 1 | [4a] Build P7 — commuting-square certificate, germ-independent half | **LOADED — NOT SENT** |
 | 322 | Codex 2 | [2d] The two-origins question | RETURNED — Q-240 (no certified origin; reviewer candidate refuted) |
 | 324 | Codex 2 | [2d] Omega realization | RETURNED — Q-242 (RELABELING; enrichment = Gen_Omega generative rule) |
 | 326 | Codex 2 | [2f] X_K attempt | RETURNED — Q-244 (proxy passes, restriction missing; six-component package specified) |
