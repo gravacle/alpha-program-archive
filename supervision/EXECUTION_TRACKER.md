@@ -118,15 +118,15 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~22:15.
+## 6. LANE LEDGER — 2026-08-01, ~22:45.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-309    CODEX 1  2d    construct F_N -- the finite influence           PASTED, RUNNING
-                      functional, the four-consumer object
---     CODEX 2  --    held; if F_N lands, four fronts open at once
+310    CODEX 2  2d    minimal coupling: derived or chosen?            PASTED, RUNNING
+                      (then F_N[a_+,a_-] by the executed trace)
+--     CODEX 1  --    held on 310's standing verdict
 ```
 
-REGISTERED THROUGH Q-226. CHANGE LOG THROUGH C19 (act-based fences live).
-THE FRONT IN ONE LINE: one missing instance, four consumers, every ingredient exists --
-309 attempts it by exact finite construction, with the one-cell falsifier riding along.
+REGISTERED THROUGH Q-227. Sealed today at finite N: I_N = delta (zero-source influence trivial);
+Phi_N = CHARGE DEPHASING (record formation makes charge classical). The response physics lives
+in the source-history map; 310 tests whether Gate 4's "covariant incidence" DERIVES it.
