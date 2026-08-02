@@ -634,3 +634,26 @@ FAILS THERE and that consumer is the named new-physics ask. Framing, not a theor
 zero vs nonzero connected response operator on a frozen fixture. The state is NOT role-only where
 alpha is made. The ask localized to the RESPONSE-RELEVANT CUMULANT CLASS. The pre-registration
 held: the conjecture died by its own declared test. ***
+
+---
+
+## OBS-15 — THE ALLOW/REQUIRE BOUNDARY IS THE TRANSITION/STATE DIVIDE (principal-originated, 2026-08-01, PRE-REGISTERED)
+
+The principal, on Q-225's pattern: "Isn't this the definition of allow/require?" The claim:
+REQUIRE attaches to TRANSITION-FACTS (what records do -- comparison, opening, readout, response,
+interaction, completion); ALLOW attaches to STATE-DATA (what things are -- values, states, labels,
+filtrations, covariances). Supporting inventory: every forced object in the corpus (U(1), r=3,
+K_1,3, the covector ray, pi, pi/2, T7's closure, the four planes, the no-character theorem) is a
+transition-fact; every surviving freedom is a state-datum. The origin line reads accordingly:
+"required charge/flux ACCESS, allowed holonomy VALUE."
+
+PREDICTIONS (testable): (1) the transition-envelope protocol, once its object is real, WILL force
+where every state-stratum attempt failed; (2) no future require will pin a state-datum except as
+boundary data of a required transition; (3) D6's authorship, if ever needed, will be a TRANSITION
+principle, with the state falling out.
+
+FALSIFIER: one forced state-datum not derived through a transition-fact kills this.
+
+CAUTION, on the record: the principal's tree/loop identification (Q-174) and two reviewer pattern
+claims (Q-176, Q-183) died on this exact terrain. Difference here: the criterion is not a proxy
+(graph topology) but the corpus's own forced/free inventory. Still: FRAMING UNDER TEST, not law.
