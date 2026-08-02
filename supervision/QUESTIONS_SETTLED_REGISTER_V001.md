@@ -11049,6 +11049,21 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-314 — STATIONARITY_REQUIRED (active v004 explicitly demands it for B_ind(K) and the on-shell ΔΦ path); the synonym count is ZERO (all four objects genuinely unbuilt); the mis-bundle corrected: TWO transport-infrastructure objects + TWO stationary ones — and THREE outputs need no background at all (2026-08-02, relay 396)
+
+**Artifact:** `STAGE8_TASK4A_STATIONARITY_REQUIREMENT_AND_LAST_WALL_SYNONYM_AUDIT_DETERMINATION_V001.md`, `671a94a7…`, seal verified, mirror byte-identical.
+
+**The requirement stands, with the citation:** active v004 requires stationary evaluation for B_ind(K) and the on-shell ΔΦ[K;X_K] path. Q-252's finite no-stationary theorem does NOT erase completed stationarity — its own scope excludes the coupled common-history terms. The reviewer's dissolve hypothesis is dead; the build is real physics.
+
+**Both audits still paid:**
+- The bundle decomposes: transport infrastructure (the common domain; the physical squares) SEPARATE from the stationary pair (the background realization; then the 2PI/Schur blocks) — parallelizable, correctly ordered.
+- `SYNONYM_COLLAPSE_COUNT = 0 | TYPE-R` — none of the four is a rename; the principal's suspicion tested and honestly refuted; the vocabulary is, for once, clean.
+- **New typing classes with consequences:** p_loc is a BACKGROUND_AGNOSTIC_OPERATOR_FUNCTIONAL (B_ind's OUTER map needs no background — stationarity enters only through Π_R,ind[G_K]); kappa_Thomson uses its own distinct complete-amplitude A=0 reference; the visible quotients are BACKGROUND_INAPPLICABLE_FINITE_QUOTIENTs.
+
+**The build order of record:** (i) common domain + physical squares (parallel, infrastructure); (ii) the background realization (consuming DoR-015's adopted field, the seed, the Q-252 critical-set theorem); (iii) the stationary 2PI/Schur blocks on top; (iv) the verdict, lawfully.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
