@@ -385,6 +385,13 @@ custody per LOCKED_PROCESS.md.
                 P5 witness COMPLETE; germ V002 and the 8-package deciding subset OPEN.
                 Task 2d closes at ratified level; Task 4a resumes on the opened chain. ***
                                                                                SURFACED: yes
+2026-08-02  C33 *** DoR-014: SOURCE_GERM_PHYS RATIFIED (V004, four-cycle gate). The germ's
+                ONE parameter = ordered pair (r_0, r_ch), integers, same-rank freedom
+                proven GAUGE; p_ch forced to the pair's sector ratio, symbolic; pinning
+                NO_VERDICT with the K_square arm the named future detector. P1 complete;
+                P2/P4 interfaces OPEN; construction chain begins (355 = P2). NO AUTHORED
+                OBJECTS REMAIN on the deciding subset's critical path. ***
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
