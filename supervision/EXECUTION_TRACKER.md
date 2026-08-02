@@ -145,13 +145,13 @@ transport, in plan order.
 | 329 | Codex 1 | [4a] Separation theorem | RETURNED — Q-247 (holds on ratified classes, fails on bidual; typing question remains) |
 | 331 | Codex 1 | [4a] Response-class audit | RETURNED — Q-249 (UNTYPED by sealed text; covector can't feed tail directly) |
 | 333 | Codex 1 | [4a] Class forcing | RETURNED — Q-250 (determined MODULO TAIL; annihilation theorem is the object) |
-| 334 | Codex 1 | [4a] The tail annihilation theorem, output by output | **LOADED — NOT SENT** |
+| 334 | Codex 1 | [4a] The tail annihilation theorem, output by output | **SENT** |
 | 322 | Codex 2 | [2d] The two-origins question | RETURNED — Q-240 (no certified origin; reviewer candidate refuted) |
 | 324 | Codex 2 | [2d] Omega realization | RETURNED — Q-242 (RELABELING; enrichment = Gen_Omega generative rule) |
 | 326 | Codex 2 | [2f] X_K attempt | RETURNED — Q-244 (proxy passes, restriction missing; six-component package specified) |
 | 328 | Codex 2 | [2f] Restriction package | RETURNED — Q-246 (unbuildable from ratified signature; functor required) |
 | 330 | Codex 2 | [2f] Functor adoption proposal | RETURNED — Q-248 (lens survives, source rule unstateable; NO DoR-012, lens banked, 2f capped) |
-| 332 | Codex 2 | [4a] The background channel — evaluation point p_ch-dependence and forcing | **SENT** |
+| 332 | Codex 2 | [4a] The background channel — evaluation point p_ch-dependence and forcing | **RE-LOADED — NOT SENT** (first paste never landed) |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
 
