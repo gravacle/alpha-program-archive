@@ -10268,6 +10268,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-256 — The germ draft: 10/14 battery rows pass, 3 conditional, B14 KILLS IT — bundling law + independent state is not a generative common origin; the required enrichment is EXACTLY Gen_Ω; V001 not eligible for DoR-013 (2026-08-02, relay 338)
+
+**Artifact:** `STAGE8_SOURCE_GERM_PHYS_ADOPTION_PROPOSAL_V001.md`, `112a6658…`, seal verified, mirror byte-identical. Nothing adopted; DoR-013 not issued.
+
+**What survived (the draft is real work, not rubble):** the analytic two-choice germ's fields are COMPLETE; it realizes a common origin for the J and R source PORTS (`true`); the six-consumer finite-authority INTERFACE is specified; the background pair is NOT silently fixed (`TYPE-R` kill-pass clean); no measure/contour adopted inside; and the target-tuning checks all come back clean — the draft selects NEITHER p_ch cancellation NOR survival (`TYPE-S` both).
+
+**The kill (B14, TYPE-R):** `SOURCE_GERM_PHYS_REALIZES_GEN_OMEGA = false` — the draft BUNDLES the ratified law with an independently supplied state, which is precisely the relabeling Q-242's countermodel already killed at the P5 level. `B14_COMMON_ORIGIN_LEG_PASSES = false`; `V001_SURVIVES_MANDATORY_KILL_PASS = false`; full P1 contract NOT satisfied.
+
+**The identification question, RESOLVED:** germ ≠ Gen_Ω (`GEN_OMEGA_IDENTIFICATION = false | TYPE-R`) — but the germ REQUIRES Gen_Ω: the enrichment needed for B14 is exactly the generative preparation/carrier-descent rule, named, not smuggled as a third choice. And `SOURCE_GERM_PHYS_COULD_CONSUME_FUTURE_GEN_OMEGA = true` — the draft is architected to receive it.
+
+**Reading:** the program's ENTIRE remaining authored physics has converged to ONE object: Gen_Ω — the generative rule producing rho_S, the ready ray, and the law from shared primitive data (Q-242's spec). Author it and the germ completes (V002), the deciding subset opens, AND the P5 common-origin witness completes. One commissioning decision now carries everything.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
