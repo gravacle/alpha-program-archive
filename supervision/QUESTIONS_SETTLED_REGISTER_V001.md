@@ -10392,6 +10392,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-264 — Gen_Ω V002 is DEAD at the gate, two independent kills: no orbit-collapsing anchor (the affine witnesses P_(σ,λ) carry arbitrary state offsets through identical certificates), and the orientation family's exchanged-root member is BROKEN against sealed results (2026-08-02, relay 346)
+
+**Artifact:** `STAGE8_GEN_OMEGA_GENERATIVE_ORIGIN_RULE_V002_ADVERSARIAL_KILL_DETERMINATION_V001.md`, `e6586159…`, seal verified, mirror byte-identical.
+
+**Kill 1 (A1, exactly as Q-263's controls predicted):** V002's condition is a faithfulness variant without an anchor — its own affine witnesses P_(σ,λ) satisfy identical input-faithfulness certificates for ARBITRARY σ; only the state-valued affine offset changes. Q-260's state freedom survives. The A7 nonemptiness witness IS the A1 counterexample — the family is nonempty because it still contains the disease.
+
+**Kill 2 (A5) — and this one is a DISCOVERY, not just a defect:** under E_post, the plus root gives W(z)|r⟩ = z|p⟩ (producing Z_N — the sealed finite amplitude); the exchanged minus root gives W(z)|p⟩ = |r⟩ (producing factor 1) and FAILS to reproduce the sealed finite amplitude and charge/flux access. **The orientation is not a free two-member choice — the sealed record REFUTES the exchanged root.** The E_post-shape is forced at origin level. Repair is by removal: one member, with the refutation cited.
+
+**Rest of the ledger:** A2 (forced charge form) NOT TRIGGERED — no collapse happened, so the dimension-ratio implication stays untested; A3 survived but B9 requires P9/P10/P11, not P2–P6 alone; A4 and A6 wounded.
+
+**The V003 shape, forced by the record:** Q-263's dichotomy stands — anchor or Q-260 applies. V003 must carry an orbit-collapsing anchor. THE HONESTY REQUIREMENT FOR V003: the anchor must be justified from sealed/ratified structure if anything forces it, or presented as an authored choice with its p_ch consequence DISCLOSED (an anchor collapsing onto the normalized identity forces p_ch = sector-dimension ratio). Choosing the anchor BECAUSE of that consequence is target-tuning and dies; choosing it because the dichotomy leaves nothing else is the derivation. The gate must keep those apart.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
