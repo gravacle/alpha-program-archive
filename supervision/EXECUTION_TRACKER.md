@@ -232,6 +232,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 392 | Codex 1 | [4a] Cycle-kernel descent | RETURNED — Q-310 (four carriers; CTP≠incidence closure; beta_N zero LIFTS; intertwiner is the last object) |
 | 393 | Codex 2 | [4a] Intertwiner from origin | RETURNED — Q-311 (no global carrier; orientation not forced; two no-authorship routes named) |
 | 394 | Codex 1 | [4a] Orientation | RETURNED — Q-312 (CLOSED BY CITATION: V011 seals c_sq; covariance not invariance; two maps remain) |
-| 395 | Codex 2 | [4a] BUILD THE TWO MAPS — factorization + descent -> THE VERDICT | **LOADED — NOT SENT** |
+| 395 | Codex 2 | [4a] BUILD THE TWO MAPS — factorization + descent -> THE VERDICT | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
