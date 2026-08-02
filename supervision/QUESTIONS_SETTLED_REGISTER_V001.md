@@ -10861,6 +10861,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-299 — V005 third-pass review: RATIFICATION-READY. The cycle currents EXACTLY separate the Gate-4 scalar quotient; open-path content survives as endpoint-COVARIANT transport (nothing physical lost, correctly typed); the DoR-015 package is prepared (2026-08-02, relay 381)
+
+**Artifact:** `STAGE8_FIELD_SIGNATURE_PHYS_V005_THIRD_PASS_ADVERSARIAL_REVIEW_DETERMINATION_V001.md`, `c2251ed0…`, seal verified, all three copies identical.
+
+**The decisive check (W1):** the cycle currents exactly separate — no nonzero quotient class is missed, no visible loop removed. Open-path content is NOT lost: it remains available as endpoint-covariant transport, which is not a scalar quotient coordinate and was never supposed to be one. Both kill-tangents in the kernel; the sealed composition-loop witness survives.
+
+**W3 precision (recorded, no new adoption):** finite source restrictions are ADJOINTS of the retained isometric inclusions, not naive edge truncations — naive later-cycle truncation is invalid (TYPE-R).
+
+**Honest TYPE-U remainder (post-ratification work):** the A4 normalization theorem, the physical raw-G image, the completed Ward/domain package, Door-D execution, full Q-279 restriction. TYPE-S clean across the board: no selection, no re-augmentation, no target-aware predicate, no forbidden completion, no unflagged class formation.
+
+**Status:** `DOR_015_PACKAGE_PREPARED`; issuance is the principal's ruling — the only station left after five versions, two arms, and three adversarial passes.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
