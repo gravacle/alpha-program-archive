@@ -231,6 +231,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 391 | Codex 2 | [4a] Kernel resolution | RETURNED — Q-309 (all kernel blocks ZERO, p ABSENT, TYPE-P; support separation not yet cancellation; carriers unconnected) |
 | 392 | Codex 1 | [4a] Cycle-kernel descent | RETURNED — Q-310 (four carriers; CTP≠incidence closure; beta_N zero LIFTS; intertwiner is the last object) |
 | 393 | Codex 2 | [4a] Intertwiner from origin | RETURNED — Q-311 (no global carrier; orientation not forced; two no-authorship routes named) |
-| 394 | Codex 1 | [4a] THE ORIENTATION V002 — sharpened: reversal = involution; invariance BY the reality law (allow/require executes) | **LOADED — NOT SENT** |
+| 394 | Codex 1 | [4a] THE ORIENTATION V002 — reversal = involution; invariance by the reality law | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
