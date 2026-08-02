@@ -133,3 +133,12 @@ the law and rho_S sharing one origin (TYPE-U) . THE DECIDING QUESTION = Task 4's
 MORNING QUEUE, preflight-clean: U3 assembly . the comparison maps (2f) . the two-origins
 question (does anything seal a common origin for the law and the ready state?) . then Task 4's
 transport, in plan order.
+
+## 2026-08-02 — SESSION RESUMED ("Let's continue")
+
+| # | Lane | Task | State |
+|---|------|------|-------|
+| 321 | Codex 1 | [2e] Assemble U3 — quotient, measure, boundary, domains, contour | **LOADED — NOT SENT** |
+| 322 | Codex 2 | [2d] The two-origins question (law ↔ rho_ready) | **WRITTEN — NOT SENT** (queued behind 321) |
+
+Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
