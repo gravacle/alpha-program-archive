@@ -9834,6 +9834,37 @@ accounting, physics confirmed by independent exact arithmetic (Q-231) -> repaire
 (Q-232) -> narrow pass CLEAN (this entry). THE SOURCE_COUPLED_RECORD_TRANSITION_LAW STANDS BEFORE
 THE PRINCIPAL: eight sealed certificates, exact at N = 1, 2, target-blind, three honest rows.**
 
+## Q-234. **F_N EXISTS.** The four-consumer gap CLOSES at every finite stage — and the influence functional is one transparent line.
+
+**Relay 316 (Task 2d, Codex 2).**
+`STAGE8_RATIFIED_SOURCE_COUPLED_FINITE_N_INFLUENCE_FUNCTIONAL_RESULT_V001.md`,
+`2cd1ffcefd68ac03c6c09a4eca0dc9fe8d1adc8ac564cc0d050dfd41d79e6d0f`. Hash verified, fence-clean.
+
+```text
+*** THE OBJECT, EXPLICIT AND GENERAL:
+
+   F_N[a_+, a_-]  =  P_0  +  Z_N[a_+, a_-] P_ch ,        Z_N = product_j  conj(z_-,j) z_+,j
+
+IDENTITY ON THE NEUTRAL SECTOR; ON THE CHARGED SECTOR, THE ACCUMULATED RELATIVE U(1) PHASE
+BETWEEN FORWARD AND BACKWARD HISTORIES ALONG THE RECORD CHAIN. The record sector's influence on
+the field IS holonomy-difference dephasing on charge -- nothing else. ***
+
+ALL CHECKS PASS AT N = 1, 2: gauge covariance . equal-history identity . dephasing .
+zero-extension . *** THE DoR-008/009 ONE-CELL FALSIFIER ARM: PASS. ***
+FINITE_SOURCE_COUPLED_F_N_CONSTRUCTED = true | TYPE-P
+*** FINITE_FOUR_CONSUMER_OBJECT_GAP_CLOSED = true | TYPE-P ***
+HANDOFFS NOW EXIST: U2's dynamics port . Task 3a's instance . Task 3c's family . the envelope's
+edges.
+
+HONEST REMAINDER: the sandwich is OPERATOR-VALUED; canonical scalarization false | TYPE-R (the
+source projectors remain) -- the state-port question, which the transition-path structure now
+frames. No second variation, no kernel, no B_ind: downstream, own authorizations.
+```
+
+*** MARKED FOR WHAT IT IS: the first DYNAMICAL object of the Gravacle program, TYPE-P on DoR-008
++ DoR-009, exact at every finite stage, falsifier-passing. THE DAY THAT BEGAN WITH "ONE OBJECT IS
+MISSING" (wrong) ENDS WITH THE OBJECT THAT ACTUALLY WAS MISSING, BUILT. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
