@@ -10155,6 +10155,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-249 — The response chain is UNTYPED at its first physical link: no sealed text requires bidual content, none places RetHess_phys in the separable class either; the coherent p_ch block CANNOT feed the tail directly (2026-08-02, relay 331, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_PHYSICAL_RESPONSE_CLASS_SEALED_SIGNATURE_DETERMINATION_V001.md`, `8dc5e133…`, seal verified, mirror byte-identical.
+
+**The typing table's verdict:** `PHYSICAL_RESPONSE_CLASS = UNTYPED_BY_SEALED_TEXT`. Symmetric TYPE-S both ways: no sealed response object REQUIRES bidual content (the iε texts included), and none is TYPED into Q-247's norm/left-multiplier class. The finite s_J/s_R maps ARE norm/module-class — Q-247's separation applies to them — but Z_inc, raw G, H_R, Pi_R,ind, the stationary backgrounds, and the Thomson response all lack a sealed topology/class.
+
+**The refutation inside (TYPE-R, narrows the survival routes):** Q-243's coherent p_ch object w_N is a finite source COVECTOR — it is NOT a retarded operator and does NOT directly occupy the bidual tail. So p_ch cannot ride the tail directly; any survival must be INDIRECT: through an eventual bidual typing of the untyped links, or through the background evaluation point (undecided, relay 332 in flight).
+
+**Both channels stand NO_VERDICT** for the physical response — open because untyped, not because decided.
+
+**The next required object, specified by the artifact:** the PHYSICAL_RETHESS_CLASS_AND_RESTRICTION_PACKAGE — source topology/calculus, RetHess_phys class, physical restrictions, a finite-core theorem, contour/boundary completion, a commuting restriction square, and the stationary-background class.
+
+**Reading:** the class will not be found in sealed text — it must be DERIVED or RULED. Per the provable-first rule, the derivation attempt comes before any typing ruling: can the falsifier's own restriction discipline force the class?
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
