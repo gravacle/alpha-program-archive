@@ -10464,6 +10464,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-269 — A0 is NOT pinned by the falsifier (TYPE-R): the sealed one-cell results fix the projector algebra but admit the complete conditional p_ch family; the missing pinning object is named. Germ V003 completes both bounded repairs (2026-08-02, relay 351)
+
+**Artifact:** `STAGE8_SOURCE_GERM_PHYS_ADOPTION_PROPOSAL_V003.md`, `cc932b5a…`, seal verified, mirror byte-identical.
+
+**The pinning refutation (honest, TYPE-R):** the sealed one-cell record fixes the PROJECTOR ALGEBRA but provides no fixed source-sector ranks and no scalar marginal against which a rank mismatch would fail the restriction test — the sealed record admits the complete conditional p_ch family (consistent with the original open bracketing p_ch ∈ (0,1)). The falsifier detects nothing here.
+
+**The missing pinning object, named:** a sealed scalar source representation with fixed projector multiplicities and trace, PLUS a rank-preserving A0 restriction/intertwiner. Until such an object exists (sealed or ratified), A0's rank data is the germ's one parameter.
+
+**What the freedom has BECOME — register this prominently:** before tonight, the program's free input was p_ch, a REAL number bracketed open in (0,1). After DoR-013 + this chain, the free input is A0's sector-rank data — INTEGERS. p_ch's form is forced to a ratio of those integers. The continuum dial is gone; what remains unpinned is discrete combinatorial structure. That is a categorical narrowing of the program's input, independent of whether A0 ever gets pinned.
+
+**The repairs:** both complete as ordered — descent quotient-defined within fixed-A0 BI/DB/SYM fibers; all seven bare negatives typed. Battery 11/3/0; no anchor selection; no ratio evaluated.
+
+**Next station:** cross-lane confirmation of the repairs and the refutation, then DoR-014 with A0-as-parameter stated to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
