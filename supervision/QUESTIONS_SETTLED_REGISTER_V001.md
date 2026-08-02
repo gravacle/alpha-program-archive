@@ -10663,6 +10663,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-284 — P5's maximal chain: THE RETARDED IMAGE IS p_ch-CLEAN ON EVERYTHING BUILT; the chain stops exactly at the source-to-physical raw-G lift; the accounting table exists; the remaining distance is SIX named objects (2026-08-02, relay 366)
+
+**Artifact:** `STAGE8_TASK4A_P5_MAXIMAL_TRANSPORT_CHAIN_AND_DEPENDENCE_ACCOUNTING_PACKAGE_V001.md`, `2fc227d0…`, seal verified, mirror byte-identical. TYPE-P | premises: DoR-008/009/013/014.
+
+**Built and certified:** the exact source derivative tensor with its finite connected shadow; the FULL Q-279 restriction pattern reproduced (the conditional finite-shadow theorem's check passes); the finite Keldysh extraction exactly zero and p_ch-free; **the four-arrow dependence-accounting table assembled** (Q-282's corrected object exists).
+
+**The verdict-status sentence:** `the retarded image is p_ch-clean on everything built.` Nowhere in the constructed chain does p enter the retarded sector.
+
+**The stop and the list:** the chain halts before raw G — the source-to-physical LIFT is unbuilt (TYPE-U), the same lift theme as Q-281's fiber. Remaining objects, exactly: (1) the raw-G lift, (2) the physical inverse, (3) P5/P6 transport, (4) the background lift, (5) the induced response, (6) the consumption signature. Items (4) and (6) already have their own state (Q-281's fiber; Q-283's fork with 367 in flight).
+
+**Reading:** everything the program can build without the LIFT is built and p-clean. The lift — source layer to physical field layer — is now the single construction theme carrying all remaining distance to the verdict.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
