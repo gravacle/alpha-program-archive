@@ -9865,6 +9865,33 @@ frames. No second variation, no kernel, no B_ind: downstream, own authorizations
 + DoR-009, exact at every finite stage, falsifier-passing. THE DAY THAT BEGAN WITH "ONE OBJECT IS
 MISSING" (wrong) ENDS WITH THE OBJECT THAT ACTUALLY WAS MISSING, BUILT. ***
 
+## Q-235. Two receipts wire clean; two block on ONE object — the SCALAR CONTRACTION. And F_N is revealed as PURE PHASE.
+
+**Relay 317 (Task 2d, Codex 1).**
+`STAGE8_RATIFIED_FINITE_N_INFLUENCE_FUNCTIONAL_FOUR_CONSUMER_HANDOFF_RECEIPTS_V001.md`,
+`64dec22c9cca6910dc5ee5164f11fb393760dede130721d4dcab0a06f9365193`, 521 lines. Hash verified,
+fence-clean.
+
+```text
+CLEAN RECEIPTS: U2's finite dynamics subfield . the envelope's finite lower-row edge.
+BLOCKED: Task 3a (needs the scalar CTP functional, receives an operator-valued precursor) .
+         Task 3c (needs a normalized scalar amplitude; step 1 does NOT reopen).
+
+*** THE DECISIVE TEST, AND ITS PHYSICS: F_N^dagger F_N = I -- THE INFLUENCE IS PURE PHASE
+(|Z_N| = 1). Operator modulus carries NO information; a lawful scalar contraction omega(F_N)
+VARIES with state/effect weights. THE RESPONSE, WHEN IT COMES, IS PHASE INTERFERENCE UNDER A
+STATE -- the scalar contraction cannot be replaced by operator structure. ***
+
+NAMED PREFLIGHT-CLEAN WORK: 1) build OR SHARPLY STOP the shared finite state/effect-conditioned
+amplitude (serves U2, 3a, 3c at once); 2) the envelope's finite PathCert dynamics subtrace.
+```
+
+*** THE LEAD FOR THE AMPLITUDE, FROM SEALED CONTENT: the dynamics' initial states are SEALED --
+ready-cell PRODUCT states (Q-224 Theorem 2's own basis) -- and the INCLUSIVE MODULE IDENTITY is
+BUILT (Q-218). A finite contraction from the SEALED ready state through the BUILT inclusive
+identity may be CANONICAL -- derivable, not chosen. That is relay 318's question, posed as
+build-or-sharply-stop exactly as the receipt demands. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
