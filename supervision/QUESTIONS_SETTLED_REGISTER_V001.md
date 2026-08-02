@@ -10187,6 +10187,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-251 — The tail annihilation theorem: PARTIAL — 0 of 6 outputs proved to annihilate, 0 of 6 proved to see; ALL SIX consumptions are UNSPECIFIED by sealed text; B_ind's possible tail term is exactly p_loc(t_ind) (2026-08-02, relay 334, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_ALPHA_FACING_OUTPUT_TAIL_ANNIHILATION_THEOREM_DETERMINATION_V001.md`, `a71d4e59…`, seal verified, mirror byte-identical.
+
+**The verdict table:** every alpha-facing output — p_loc, B_ind, C_EM, R_comp, ΔΦ, kappa_Thomson — has CONSUMPTION UNSPECIFIED: the sealed text does not say how any of them consumes the completed response (ΔΦ's response-tail consumption expressly undefined, `TYPE-U`). Per the relay's own discipline, unspecified was NOT upgraded to annihilation. So the tail route is neither dead nor live: all six rows NO_VERDICT.
+
+**B_ind, the deepest row:** its exact POSSIBLE tail contribution is the single term p_loc(t_ind) — sealed text neither forces it to zero nor exhibits a nonzero physical instance. `B_IND_FIXED_POINT_TAIL_BLIND = NO_VERDICT`.
+
+**Two real findings in the margins:**
+- `VISIBLE_QUOTIENTS_ARE_COMPLETE_RESPONSE_OUTPUTS = false | TYPE-R` — the response-visible and outgoing-record-visible quotients are FINITE p_ch state quotients, not functions of the completed response; they are tail-independent BY DOMAIN (`true`) but can establish nothing downstream.
+- The theorem's failure mode is uniform: not one output has a defined consumption. The missing physics is the CONSUMPTION LAYER — how alpha-facing outputs eat the completed response — the same continuum stratum as Q-239's five fields and Q-249's class package.
+
+**Reading:** the deciding question now rests on (i) the background channel (relay 332, in flight) and (ii) the consumption layer, which sealed data does not contain. One derivation attempt remains before that becomes an authoring decision: B_ind's own v004 definition — if its inputs are all finite-stage objects, tail-blindness of the fixed point FOLLOWS from Q-247's separation without any consumption ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
