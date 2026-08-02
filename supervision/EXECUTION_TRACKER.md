@@ -188,3 +188,5 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 357 | Codex 2 | [4a] P3 first attack | RETURNED — Q-275 (four-field stop; would-builds are common-origin objects) |
 | 359 | Codex 2 | [4a] P3 SECOND ATTACK — law side | **SENT** |
+
+| 361 | Codex 1 | [4a] Finite nonzero-R reference (exact, probes on) | **LOADED — NOT SENT** |
