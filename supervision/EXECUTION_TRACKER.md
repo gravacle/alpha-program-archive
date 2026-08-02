@@ -211,4 +211,4 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 377 | Codex 2 | [4a] V004 — frame-tangent answer + Door F + reruns | **SENT** |
 | 372 | Codex 1 | [4a] RACE authored arm | RETURNED — Q-289 (nine fields, openly authored; doors A-C conditional, D open; awaits adjudication) |
 
-| 378 | Codex 1 | [4a] CROSS-VERIFY the law-side subpackage (the floor under P5) | **LOADED — NOT SENT** |
+| 378 | Codex 1 | [4a] Subpackage verification | RETURNED — Q-295 (CONFIRMED_WITH_NOTES; the whole stack under P5 now verified) |

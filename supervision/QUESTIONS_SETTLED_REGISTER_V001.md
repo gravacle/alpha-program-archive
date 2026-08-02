@@ -10811,6 +10811,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-295 — The law-side subpackage: CONFIRMED_WITH_NOTES — all six checks pass independently; no defect propagates into P5 or the seed; three boundary-honesty notes preserved (2026-08-02, relay 378)
+
+**Artifact:** `STAGE8_TASK4A_P3_LAW_SIDE_SUBPACKAGE_CROSS_VERIFICATION_DETERMINATION_V001.md`, `aaff9956…`, seal verified, mirrors byte-identical.
+
+**Confirmed:** the cylinder-amplitude system, the E_post orientation (single-root discipline carried), the glue pair's exactness, the bounded domains, the convention audit (W-convention and the Q-276 sign consistent through all consumers), and the door audit — no unflagged class formation, no sign error, no unbounded-domain leakage, no boundary overreach.
+
+**The three notes (boundaries kept honest):** OscCyl is a FINITE DIAGRAM, not a projective-limit class; BdGlue_law_limit is a PAIR, not an intertwiner; Dom_rec^bdd is RECORD-ONLY bounded structure. Consumers must not upgrade any of the three.
+
+**Standing:** every layer under the P5 chain is now independently verified — P2 (Q-276, corrected), the subpackage (this), the chain itself (Q-286). The verified stack awaits only DoR-015's signature layer.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
