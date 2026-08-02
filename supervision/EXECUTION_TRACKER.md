@@ -142,7 +142,8 @@ transport, in plan order.
 | 323 | Codex 1 | [2f] Comparison maps | RETURNED — Q-241 (verdicts choice-invariant; arm TYPE-C pending X_K) |
 | 325 | Codex 1 | [4a] Transport map | RETURNED — Q-243 (finite retarded block p_ch-FREE, derived; deciding question localized to the completion arrow) |
 | 327 | Codex 1 | [4a] Completion arrow | RETURNED — Q-245 (finite restrictions forced p_ch-free; re-entry = tail or background) |
-| 329 | Codex 1 | [4a] The separation theorem — prove or refute the tail | **SENT** |
+| 329 | Codex 1 | [4a] Separation theorem | RETURNED — Q-247 (holds on ratified classes, fails on bidual; typing question remains) |
+| 331 | Codex 1 | [4a] The response-class determination (typing audit of the sealed chain) | **LOADED — NOT SENT** |
 | 322 | Codex 2 | [2d] The two-origins question | RETURNED — Q-240 (no certified origin; reviewer candidate refuted) |
 | 324 | Codex 2 | [2d] Omega realization | RETURNED — Q-242 (RELABELING; enrichment = Gen_Omega generative rule) |
 | 326 | Codex 2 | [2f] X_K attempt | RETURNED — Q-244 (proxy passes, restriction missing; six-component package specified) |
