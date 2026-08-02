@@ -10608,6 +10608,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-280 — The core-only reduction is REFUTED (TYPE-R) — but the refutation SHRINKS the requirement: the four fields are needed only as DEPENDENCE-PRESERVATION CERTIFICATES, plus the background map and the output-consumption signature (2026-08-02, relay 362)
+
+**Artifact:** `STAGE8_TASK4A_MINIMAL_CONSUMPTION_AUDIT_AND_CORE_REDUCTION_DETERMINATION_V001.md`, `9ede2863…`, seal verified, mirror byte-identical.
+
+**The refutation (honest, three ways):** finite p-freeness does not determine the completed verdict because (1) restriction-invisible, source-dependent tail content at the RESPONSE level (Tail_R — Tail_src = {0} does not settle it) can preserve every finite result; (2) the physical stationary background is uninstantiated (Q-252); (3) the selected output's p_ch consumption/factorization is unspecified (Q-251).
+
+**The shrinkage (the audit's value):** the four P3 fields remain necessary — **but the SYMBOLIC verdict needs only DEPENDENCE-PRESERVATION CERTIFICATES from them, not their fully evaluated values.** A certificate that any admissible realization neither injects nor deletes p-dependence is a family-level object — the same shape that worked for the anchors — and may be provable NOW, since p enters the entire structure through one mapped channel (d_state → p_A → Z_inc, Q-267) and every finite p-form is known exactly (Q-279).
+
+**The verdict chain's remaining list, now exact:** (a) the four preservation certificates; (b) the background map — with the live observation that DoR-013's anchor FORCES the invariant state, so the physical background may be the forced state with its p-form DETERMINED, not free; (c) the output-consumption signature; plus P5/P6 transport structure at certificate level.
+
+**Discipline:** 361 was in flight and not assumed — correct.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
