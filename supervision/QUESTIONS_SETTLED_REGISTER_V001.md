@@ -10757,6 +10757,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-291 — FIELD_SIGNATURE_PHYS V002: the merge lands — authorship reduced to SIX independent structures; one field became a derived inheritance, one a conditional theorem, one pure governance; all seven seams pass conditionally; the field/residue reconciliation is exact (2026-08-02, relay 373)
+
+**Artifact:** `STAGE8_FIELD_SIGNATURE_PHYS_ADOPTION_PROPOSAL_V002.md`, `deaa86ee…`, seal verified, mirror byte-identical. Nothing authored marked TYPE-P; DoR-015 reserved.
+
+**The reduction (OBS-17's evidence sharpens):** the six remaining authored structures — external background, external realization, connection carrier, source rigging, field representation, bilocal class — are ALL amplitude/weight-side objects, exactly the phase-poor stratum Q-290's mechanism predicted. F5 is REMOVED from authorship (inherited from the derived CTP layer); F8 is a CONDITIONAL THEOREM, not a choice; F9 is governance. The nine V001 fields reconcile EXACTLY with Q-290's ten consumer-level residues.
+
+**Doors:** D0 CLOSED; A–C pass conditionally, honestly UNDECIDED_TYPE_U pending ratification; D open (the raw-G image, judgeable only in execution). The new raw-G test is POSED, not executed; the unit-modulus T_cyl no-go stands intact.
+
+**Next station:** cross-lane adversarial review (the seams first), then DoR-015 adopts the six knowingly.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
