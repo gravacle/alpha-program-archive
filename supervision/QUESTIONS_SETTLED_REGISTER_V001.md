@@ -10044,6 +10044,24 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-242 — Does the shared input tuple realize the P5 common-origin role? NO — RELABELING, refuted by P5's own text and an adversarial countermodel; the smallest enrichment is named (2026-08-01, relay 324)
+
+**Artifact:** `STAGE8_MINIMAL_OMEGA_P5_COMMON_ORIGIN_ROLE_REALIZATION_ATTEMPT_V001.md`, `576da30f…`, seal verified, mirror byte-identical.
+
+**The attempt was real:** the tuple candidate instantiated, all three promoted maps extensionally total, family frozen pre-test, no target-aware narrowing, no post-output supplementation (all TYPE-P / clean TYPE-S). The failure is substantive, not procedural.
+
+**The refutation (TYPE-R, the kill-pass fired):**
+- `CANDIDATE_IS_P5_DERIVATIONAL_COMMON_ORIGIN = false | TYPE-R`; `CANDIDATE_SURVIVES_RELABELING_TEST = false | TYPE-R`. The promoted descent maps merely PROJECT law and state fields already bundled inside Ω; P5's own text requires a Gen_Ω that OBTAINS them from shared antecedent inputs (`PROMOTED_EVALUATION_MAPS_MEET_P5_DESCENT_TYPE = false | TYPE-R`; root-concreteness and provenance certificates fail likewise).
+- **The countermodel is the teeth:** two DISTINCT admissible source states with the identical law and carrier BOTH pass every weak tuple certificate (`COUNTERMODEL_PASSES_ALL_WEAK_TUPLE_CERTIFICATES = true`). Bundling cannot distinguish them, therefore bundling cannot establish common origin.
+
+**Standing verdicts:** `P5_FINITE_COMMON_ORIGIN_WITNESS_COMPLETED = false | TYPE-U`; `PHYSICAL_COMMON_ORIGIN_EXISTENCE_VERDICT = NO_VERDICT` — existence is undecided, only the shortcut is dead.
+
+**The smallest enrichment, named:** a GENERATIVE preparation/carrier-descent rule producing the complete rho_S, the ready ray, and the law from shared primitive data. Unique microscopic-origin reconstruction remains UNNECESSARY (`TYPE-R`, consistent with Q-194/Q-240).
+
+**Reading:** the two-origins gap is now exactly one object wide — Gen_Ω, a generative rule. That is authored-physics territory (the D6/law pattern): if the program wants the P5 witness, the generative rule must be commissioned through the gate, not found.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
