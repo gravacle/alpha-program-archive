@@ -65,6 +65,29 @@ NOT SHIP. A NEEDED CHANGE IS LOGGED IN THE PLAN'S SECTION 10 FIRST, SURFACED TO 
 ONLY THEN EXECUTED. THE PLAN IS WHAT WE FOLLOW. ***
 ```
 
+## FENCES — ACT-BASED, NOT TOKEN-BASED (implements Q-198 + DoR 006's scoping; C19)
+
+```text
+*** WHAT IS BARRED IS THE ACT, NEVER THE WORD: ***
+BARRED   computing or bounding ALPHA, kappa_record, kappa_Thomson, or K_* / any root of the
+         physical residual . comparing ANYTHING to a measured constant . choosing a physical
+         fork that must be derived (Misner-Sharp/Brown-York etc.) . fitting any construction
+         toward a known target . touching a32_holdout/custodian_private/
+PERMITTED, EXPLICITLY: all structural mathematics of DECLARED objects -- spectra and
+         eigenvalues of declared finite/fixture objects (DoR 004 precedent) . operator
+         comparisons . existence/uniqueness arguments . gap-existence arguments . proofs about
+         infinite families (the Q-205 precedent: A PROOF ABOUT A FAMILY COUNTS AS
+         INSTANTIATION; the Q-200 rule bars SCHEMAS-PASSED-AS-INSTANCES, not structural
+         arguments)
+```
+
+*** THE MACHINERY-APPEAL RULE: ANY LANE THAT STOPS BECAUSE A FENCE (NOT PHYSICS) BLOCKS A
+STRUCTURAL RESULT MUST SAY SO IN ITS ARTIFACT WITH THE FLAG
+`FENCE_BLOCKED_STRUCTURAL_RESULT = true | what: ... | fence: ...`
+-- SO ARTIFICIAL CONSTRAINTS SURFACE AS FINDINGS INSTEAD OF DISSOLVING INTO NO_VERDICTs. The
+reviewer routes every such flag to the principal. A fence that blocks a non-fitting result is a
+DEFECT (DoR 004's ruling) and gets scoped or lifted, never silently obeyed. ***
+
 ## THE THREE THINGS IN A RELAY THAT PROTECT THE RESULT
 
 *** THESE EARNED THEIR KEEP. NOTHING ELSE IN A RELAY DID. ***
