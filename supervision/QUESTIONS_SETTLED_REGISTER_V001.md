@@ -10114,6 +10114,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-246 — The restriction package does NOT build from C0_008's ratified signature: the sequential index has no finite-complex object map; Task 2f is capped pending a finite-incidence realization functor (derived or adopted) (2026-08-01, relay 328)
+
+**Artifact:** `STAGE8_TASK2F_C0_008_FINITE_COMPLEX_RESTRICTION_PACKAGE_BUILD_AND_ARM_EXECUTION_ATTEMPT_V001.md`, `5515517c…`, seal verified, mirror byte-identical.
+
+**All six components TYPE-U.** The exact stopping point: component (1), the square-specific C0 algebra/subquotient, cannot be derived — C0_008's ratified index is SEQUENTIAL and carries no finite-complex object map. Independently, component (5) lacks a source-side cellular-incidence generator. C0_008 does provide sequential-cylinder ANALOGUES of components (1)–(3), but its ratified signature is not self-sufficient for cellular restriction.
+
+**What is additionally required, named:** a finite-incidence REALIZATION FUNCTOR and a rule generating the source input to s_J/s_R. This is the same absent object the program has met repeatedly (Q-217 unforced at 1,088 filtrations; the stitching-rule absence) — now located as the exact and only barrier to the falsifier's second arm.
+
+**Discipline held:** no finite outputs were recomputed because the arm never became eligible; reproduced/disagrees both NO_VERDICT; `DOR008_VOIDED_BY_THIS_ATTEMPT = false | TYPE-S`.
+
+**Reading:** Task 2f is capped in advance by the absent realization functor. The live options are (a) ADOPT a functor family as a disclosed DoR-008-style adoption with a verdict-invariance discipline (Q-241 proved the sealed verdicts are invariant across all 1,088 filtrations, which makes an adoption principled rather than arbitrary), (b) accept the falsifier standing on one arm, or (c) commission a fifth derivation attempt. Ruling belongs to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
