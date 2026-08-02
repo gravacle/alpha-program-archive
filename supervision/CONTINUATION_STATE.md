@@ -3754,3 +3754,22 @@ D2 (EH summand in Gamma_K), D3 (leading-order acceptability), D4 (TYPE-P typing 
 fork — send relay 270 first). Machinery audit Q-198: 16 of 20 relay fences protect nothing; retire
 bare token bans. Lanes: Einstein RETIRED (credit). Codex 1 + Codex 2 + Bohm construct; Bohm's work
 gets Codex verification (Bohm scorecard: 10 proposals, 6 refuted).
+
+
+---
+
+## 2026-08-02 ~05:00 SESSION FINAL STATE (supersedes the block above)
+
+Register head Q-238. DoRs 005-010. Change log through C25. Git level, relays 209-320 all closed.
+BUILT AND EXACT: the grammar (DoR 008) . THE LAW (DoR 009, E_post -- the Gravacle dynamics) .
+F_N = P_0 + Z_N P_ch . A_N = (1-p) + p Z_N . finite response structure (coherent -i p_ch, noise
+p_ch(1-p_ch)) . PathCert_N (the certified path). ALL falsifier-passing, all TYPE-P | DoR-008/009.
+THE ONE FREEDOM: p_ch in (0,1), bracketed by record existence; response-visible AND
+outgoing-visible quotients both equal p_ch alone.
+THE DECIDING QUESTION (Task 4): the finite-to-physical transport into DeltaPhi -- does p_ch
+cancel (alpha needs no further input) or survive (p_ch is THE physical input)?
+ALSO OPEN: the two-origins question (the law and rho_S share no sealed common origin -- the P5
+witness's残 remaining content) . U3 . the comparison maps (2f) . the stitching theorem (4d).
+PROCESS: LOCKED_PROCESS.md (act-based fences C19, machinery-appeal, send-time preflight);
+the plan = TASK_LIST_HERE_TO_ALPHA_2026-08-01_V002.md sec 9 (six tasks, recap at completions);
+Bohm scorecard ended ~13 proposed / 8 refuted -- keep the verification gate on all Bohm claims.
