@@ -10743,6 +10743,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-290 — The derivation arm: COMPONENT SPLIT. The ratified write structure DERIVES incidence, orientation, locality, and CTP-reality (premise-conditional, finite/cylindrical); it does NOT close the beta gap (TYPE-R, mechanism exact: unit-modulus weights cannot bound the lift); the authored residue is a ten-item list (2026-08-02, relay 371)
+
+**Artifact:** `STAGE8_TASK4A_RECORD_SURFACE_TO_PHYSICAL_FIELD_SIGNATURE_DERIVATION_AND_BETA_GAP_ATTACK_V001.md`, `65e4dd6a…`, seal verified, mirror byte-identical.
+
+**What DERIVES from the ratified write structure (the program's thesis partially vindicated):** a premise-conditional finite/cylindrical INCIDENCE + ORIENTATION + LOCALITY + CTP-REALITY signature — four component families the authored proposal no longer needs to author.
+
+**What does NOT derive, with the mechanism proven:** `BETA_GAP_CLOSED_BY_THE_RATIFIED_WRITE_SIGNATURE = false | TYPE-R`. The exact retest fails structurally: signs, phases, permutations, and unitary incidence weights all PRESERVE Q-287's unbounded bilocal counterexample — **unit-modulus structure cannot produce a bounded trace-class→T_cyl lift.** The write structure is phase-rich and amplitude-poor; the physical signature needs weight/amplitude structure the records provably do not carry.
+
+**The authored residue, exact (ten items):** physical geometric/support realization; field/source intertwiner; (μ,x) index; causal support; scalar CTP representation; quotient/Ward structure; measure/boundary package; completed bilocal class; stationary-background interface; physical restriction theorem.
+
+**Adjudication (Q-289 + Q-290):** the race ends in a SPLIT — derivation takes four families, authorship takes the ten-item residue. FIELD_SIGNATURE_PHYS V002 = the authored V001 REDUCED by the derived components (repair-by-removal, the program's oldest good habit), with the derived families entering as premise-marked structure. Then the adversarial review, then DoR-015 adopts the residue KNOWINGLY.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
