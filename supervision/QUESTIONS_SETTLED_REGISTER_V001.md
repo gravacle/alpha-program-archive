@@ -10298,6 +10298,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-258 — Task 4d, first result: THE PROGRAM'S FIRST DERIVED CONTINUUM OBJECT EXISTS — the kinematic cylindrical norm completion T_cyl, 5/5 proved; it is NOT the geometric refinement limit; the obstruction is the J_ref realization package, and the named next theorem is cellulation independence (O-D3) (2026-08-02, relay 341)
+
+**Artifact:** `STAGE8_TASK4D_STITCHING_THEOREM_GERM_INDEPENDENT_HALF_V001.md`, `430f0971…`, seal verified, mirror byte-identical.
+
+**The positive (TYPE-P, premises DoR-008):** `KINEMATIC_CYLINDRICAL_COMPLETION_EXISTS = true` — group colimit, norm completion, retraction naturality, norm-class separation, all proved: T_cyl core 5/5. The directed limit of the finite stages exists INSIDE the ratified classes — derived, not imported, and not bidual (the tail hazard was checked). This is the first continuum object the program has ever DERIVED.
+
+**The honest boundary (TYPE-R/U):** T_cyl is NOT the geometric refinement limit (`TYPE-R`); DoR-007's named equivalence theorem is NOT discharged; the five public continuum consumers are 0/5; `CELLULATION_INDEPENDENCE_PROVED = false | TYPE-U`. Sealed text does not fix a unique stitching-theorem statement (`TYPE-R` — the candidate family was carried, not chosen).
+
+**The decisive obstruction:** the missing J_ref realization package — the ratified index has NO cells, boundaries, incidence, or geometric refinements, and the forcing audit leaves the same 1,088 admissible filtrations (the 2f wall, Q-246/Q-248, now capping 4d too). The transport-functor charter remains a definition iff O-D3 (decomposition-independence) is discharged — the audit trail has said this since 2026-07-27.
+
+**Reading:** the wall is the same wall everywhere, and the program already owns the move that beat it once: Q-241 proved VERDICT-invariance across all 1,088 for the falsifier's content. Cellulation independence is that theorem one level up — if the continuum consumers' requirements are invariant across every admissible realization, the geometric stitching discharges WITHOUT J_ref ever being forced, and O-D3 discharges with it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
