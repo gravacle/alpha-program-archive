@@ -118,15 +118,18 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-02, ~03:30. THE DECIDING QUESTION IS RUNNING.
+## 6. LANE LEDGER — 2026-08-02, ~03:50. DAY CLOSED CLEAN.
 
 ```text
-RELAY  LANE     TASK  QUESTION                                        STATE
-319    CODEX 1  2d    the p_ch-dependence of the response structure   PASTED, RUNNING
-                      (under DoR 010; symbolic, finite, structural)
---     CODEX 2  --    held on the verdict
+LANES: both free. NOTHING OUTSTANDING -- every relay 209-319 returned, verified, registered.
+REGISTER HEAD: Q-237. DoRs 005-010 in force. CHANGE LOG THROUGH C25. GIT: level with origin.
 ```
 
-REGISTERED THROUGH Q-236. DoRs 005-010 in force. CHANGE LOG THROUGH C25.
-THE THREE PRE-TYPED OUTCOMES: cancels (alpha needs no further input) . survives via a named
-factor (p_ch is the final physical input) . undecidable-yet (the missing level, named).
+WHERE THE PROGRAM STANDS: the grammar built (DoR 008) . THE LAW ratified (DoR 009, E_post) .
+F_N = P_0 + Z_N P_ch exact, falsifier-passing . A_N = (1-p) + p Z_N exact . the finite response
+structure exact (coherent -i p_ch; noise p_ch(1-p_ch)) . the ONE remaining freedom: p_ch,
+bracketed open by record existence . the ONE deciding question: the finite-to-physical transport
+of the response into DeltaPhi -- WHICH IS TASK 4, the plan's own next stop.
+
+MORNING QUEUE (preflight-clean): the envelope's PathCert subtrace (Codex) . U3 assembly .
+the comparison maps (2f) . then Task 4's transport, in plan order.

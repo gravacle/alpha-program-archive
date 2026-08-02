@@ -9927,6 +9927,34 @@ program closes with NO further physics input. If it does NOT cancel, p_ch is THE
 -- and alpha's universality itself would demand a canonical p, which would be its own profound
 statement. THAT QUESTION BELONGS TO THE RESPONSE CHAIN AND ITS OWN AUTHORIZATIONS. ***
 
+## Q-237. THE FINITE p-STRUCTURE IS EXACT — coherent ∝ p_ch, noise ∝ p_ch(1−p_ch) — and the PHYSICAL verdict waits on the transport map, which is exactly where the plan already stands.
+
+**Relay 319 (Task 2d, Codex 1, under DoR 010).**
+`STAGE8_FINITE_P_CH_DEPENDENCE_AND_PHASE_RESIDUAL_TRANSPORT_DETERMINATION_V001.md`,
+`8a71b6cdeca839fb6e52dbac4c2d13f7b9d2dafc3531dc1cc8bdc9089b3410b0`, 615 lines. Hash verified,
+fence-clean.
+
+```text
+THE EXACT FINITE RESULT, all N:
+   first variation at coincidence:      partial_j Gamma_N|_0 = -i p_ch        (COHERENT)
+   connected second variation:          p_ch(1 - p_ch) (sum delta_1 theta)(sum delta_2 theta)
+Equal-history normalization does NOT cancel it.
+
+*** THE TYPE FINDING THAT DECIDES THE VERDICT: this Hessian is DIFFERENCE/DIFFERENCE -- which
+sealed CTP text assigns to NOISE/ATTENUATION. The COHERENT RETARDED response requires the MIXED
+difference/common derivative. And the corpus supplies NO MAP from the finite Hessian through the
+physical response operator and on-shell cell to DeltaPhi[K; X_K]. ***
+
+VERDICT: UNDECIDABLE-YET | TYPE-U at the physical residual. Neither "p_ch cancels" nor "p_ch is
+the final physical input" is established.
+```
+
+*** WHAT THE FINITE STRUCTURE ALREADY SAYS, PHYSICALLY: the record medium's NOISE kernel carries
+charge-shot weight p(1-p); its COHERENT mean phase shift carries p. The question of which
+survives into DeltaPhi is EXACTLY the finite-to-physical transport -- the territory the plan
+always held as Task 4 (the response derivation + the stitching theorem). THE DECIDING QUESTION
+DID NOT ESCAPE THE PLAN; IT LANDED ON THE PLAN'S OWN NEXT TASK. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
