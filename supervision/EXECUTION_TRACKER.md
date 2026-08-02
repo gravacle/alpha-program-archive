@@ -118,15 +118,14 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-02, ~00:10. THE LAW IS UNDER ATTACK.
+## 6. LANE LEDGER — 2026-08-02, ~00:40.
 
 ```text
-RELAY  LANE     TASK        QUESTION                                  STATE
-313    CODEX 1  2d/SUPPORT  kill the transition-law proposal          PASTED, RUNNING
---     CODEX 2  --          held for DoR 009 or the repair
+RELAY  LANE     TASK  QUESTION                                        STATE
+314    CODEX 2  2d    repair the law's choice table (law untouched)   PASTED, RUNNING
+--     CODEX 1  --    the narrow second pass, when V002 lands
 ```
 
-REGISTERED THROUGH Q-230. CHANGE LOG THROUGH C21. DoR 009 reserved.
-THE POSITION: the Gravacle dynamical law exists as a thrice-checked draft (self-attack included);
-one adversarial pass stands between it and the principal's ratification. If ratified: F_N, the
-dynamics port, the multiplier family, and the envelope's edges follow in one stroke.
+REGISTERED THROUGH Q-231. THE LAW: physics/math CONFIRMED independently; disclosure under
+repair. THE BINARY HEADING FOR DoR 009: how the write assigns charge to its endpoints
+(post vs conj) -- a genuine physics choice no sealed rule selects.
