@@ -10622,6 +10622,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-281 — The background map: direct identification TYPE-REFUTED (a density operator is not a field/propagator pair) — but the bounded seed BUILDS, the forced form is now EXPLICIT (p_A = r_ch/(r_0+r_ch)), and the residual is ONE named fiber that reintroduces NO state freedom (2026-08-02, relay 364)
+
+**Artifact:** `STAGE8_TASK4A_ANCHORED_ORIGIN_TO_PHYSICAL_BACKGROUND_MAP_IDENTIFICATION_DETERMINATION_V001.md`, `f893d210…`, seal verified, mirror byte-identical.
+
+**The refutation:** the anchored forced state is a SOURCE DENSITY OPERATOR; (Ābar_*, G_*) is a stationary FIELD/PROPAGATOR pair — different types, direct identification refuted. Correct kill.
+
+**What builds (TYPE-P):** the bounded source-analytic seed — D_J W(0) = −iℏ·p_A·L_n and 2·D_R W(0) = iℏ·p_A·Q_δ, **with p_A = r_ch/(r_0 + r_ch) — the forced sector form now written explicitly and symbolically.** The seed restricts to Q-279 EXACTLY, including the zero, p-free finite retarded block.
+
+**The residual, named:** STAT_BG_LIFT_FIBER([A]) — the lift of the seed to the physical (Ābar_*, G_*) pair, needing the source-field intertwiners, connected subtraction, the physical package, and the stationary 2PI map. Existence and uniqueness NO_VERDICT — **but the fiber does NOT reintroduce free state choice**; the state side is done, and what remains open is field-side lifting structure. Q-280 item (b) remains open at exactly this fiber.
+
+**Reading:** the verdict chain's item (b) has shrunk from "the background question" to "one lift fiber, state-freedom-free." Item (a) is with 363 in flight. Item (c), the consumption signature, is now the sharpest untouched piece — and Q-255's candidate W being battery-dead suggests the consumption typing may be FORCED, not ruled.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
