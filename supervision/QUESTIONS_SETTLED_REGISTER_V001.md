@@ -10983,6 +10983,18 @@ All six checks independent and clean; the complement's NO_VERDICT scope confirme
 
 ---
 
+## Q-309 — The kernel sector at every finite stage: ALL THREE BLOCKS EXACTLY ZERO with p ABSENT (TYPE-P, probes included) — but this is SUPPORT SEPARATION, not yet physical cancellation: the three cycle carriers (Z_N, Φ_c, R) are distinct and no sealed dynamics-bearing map connects them (2026-08-02, relay 391)
+
+**Artifact:** `STAGE8_TASK4A_KERNEL_SECTOR_DYNAMICS_2PI_DOMAIN_BACKGROUND_AND_P_VERDICT_DETERMINATION_V001.md`, `a4c916a7…`, seal verified, mirror byte-identical.
+
+**The finite theorems (TYPE-P):** the current response functional is exactly CONSTANT on ker L; at every finite stage, with Q-279 probes on: FINITE_KERNEL_BLOCK = 0, KERNEL-COMPLEMENT MIXING = 0, KERNEL-R MIXING = 0. `P_IS_ABSENT_FROM_CURRENT_FINITE_KERNEL_BLOCK = true | TYPE-P`. The strongest finite statement yet: nothing p-carrying touches the response's sector, in any block, ever.
+
+**The honest boundary:** the relay's proposed carrier identification FAILS — sequential relative-history Z_N, V005's composition-loop phase Φ_c, and the bilocal probe R are DIFFERENT CARRIERS, and no sealed dynamics-bearing map connects the physical kernel current to the untraced law or the 2PI blocks. So the finite result is **support separation, not physical cancellation** — both verdict flags stay NO_VERDICT. The completed source kernel was built (closed Banach subspace, dense finite core); the physical kernel response, 2PI blocks, domains, background remain TYPE-U.
+
+**The named next object:** CYCLE_KERNEL_RESPONSE_AND_2PI_DESCENT_PACKAGE — the derived map from the ratified law's dynamics to the cycle-kernel response (the dΦ_c = u_c relation is the sealed bridgehead: the cycle phase's own differential law).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

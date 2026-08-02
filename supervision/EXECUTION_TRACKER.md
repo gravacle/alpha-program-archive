@@ -228,6 +228,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 389 | Codex 1 | [4a] Freeze-lift verification | RETURNED — Q-307 (CONFIRMED; the stack verified through V007) |
 
 | 390 | Codex 2 | [4a] Verdict attempt | RETURNED — Q-308 (no full inverse: u_sq in ker L; kernel resolution is the gate) |
-| 391 | Codex 2 | [4a] THE KERNEL RESOLUTION — the dynamics where the response lives | **SENT** |
+| 391 | Codex 2 | [4a] Kernel resolution | RETURNED — Q-309 (all kernel blocks ZERO, p ABSENT, TYPE-P; support separation not yet cancellation; carriers unconnected) |
+| 392 | Codex 1 | [4a] THE CYCLE-KERNEL DESCENT — three bridges, then the verdict | **LOADED — NOT SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
