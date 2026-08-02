@@ -113,3 +113,9 @@ register entries as essays         -- capped at the flag block plus one sentence
 REPLACED WHOLE — NOT AMENDED, NOT EXTENDED, NOT VERSIONED. ***
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
+
+## MIRROR-VERIFY RULE (2026-08-01, after the C5-C25 loss)
+After EVERY edit to the plan, register, or tracker: cp to the archive mirror, then VERIFY the
+mirror is byte-identical (shasum both) BEFORE committing. On session resume: verify the plan's
+section-10 head (highest Cnn) matches the tracker's recorded C-head before any new work.
+C5-C25 were written, announced, and then lost because the pushed mirror never carried them.
