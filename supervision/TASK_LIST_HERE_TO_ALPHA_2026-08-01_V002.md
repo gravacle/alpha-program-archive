@@ -401,6 +401,15 @@ custody per LOCKED_PROCESS.md.
                 Relays 371/372. NOTE: authoring here would be the gate's third and largest
                 use; the derivation, if it lands, ends the program's oldest gap.
                                                                                SURFACED: yes
+2026-08-02  C35 *** DoR-015: FIELD_SIGNATURE_PHYS RATIFIED (V005; five versions, the race,
+                three adversarial passes). Provenance line of record: FOUR component
+                families DERIVED from the write structure; SIX amplitude-side structures
+                AUTHORED openly. The physical carrier is the triangulated quotient; the
+                response family is the CYCLE currents -- the origin table's own ALLOWED
+                holonomy, with open-path content endpoint-covariant (the REQUIRED access).
+                THE FIELD LAYER EXISTS. The verdict chain's execution opens: raw-G rerun,
+                lift, background fiber, consumption signature, THE TRANSPORT. ***
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

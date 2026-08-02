@@ -686,3 +686,9 @@ claims (Q-176, Q-183) died on this exact terrain. Difference here: the criterion
 **Falsifier (pre-registered):** (1) any of the ten residue items later DERIVING from record structure alone, or (2) the EM-side chain (the U(1)/phase/p_A line to alpha) turning out to REQUIRE authored amplitude content, breaks the mapping and kills this observation.
 
 **Status:** OPEN. DoR-015's ratification scope is its next test.
+
+**OBS-17 evidence note (2026-08-02, DoR-015):** the field-signature gate, run blind through
+three adversarial kills, converged on the origin table's own sentence — cycle scalars =
+ALLOWED U(1) holonomy; open-path endpoint-covariant transport = REQUIRED charge/flux
+access. The principal identified the convergence before ratifying. Final provenance line
+of record: four families derived / six structures authored. OBS-17's split stands.
