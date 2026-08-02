@@ -170,6 +170,6 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 | 344 | Codex 2 | [4a] Gen_Omega V002 | RETURNED — Q-262 (repair holds at draft; 11/3/0; review pending) |
 
 | 345 | Codex 1 | [4a] No-go attempt | RETURNED — Q-263 (fails at bistochasticity+faithfulness; anchor benchmark; faithfulness alone insufficient) |
-| 346 | Codex 1 | [4a] ADVERSARIAL REVIEW of Gen_Omega V002 — the anchor test | **LOADED — NOT SENT** |
+| 346 | Codex 1 | [4a] ADVERSARIAL REVIEW of Gen_Omega V002 — the anchor test | **SENT** |
 
 Codex 2 HOLDS for 345's return (the race decides the next draft).
