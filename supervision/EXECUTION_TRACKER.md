@@ -118,18 +118,16 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-02, ~03:50. DAY CLOSED CLEAN.
+## 6. LANE LEDGER — 2026-08-02, ~04:20.
 
 ```text
-LANES: both free. NOTHING OUTSTANDING -- every relay 209-319 returned, verified, registered.
-REGISTER HEAD: Q-237. DoRs 005-010 in force. CHANGE LOG THROUGH C25. GIT: level with origin.
+RELAY  LANE     TASK  QUESTION                                        STATE
+320    CODEX 2  2d    PathCert_N -- the finite certified path,        PASTED, RUNNING
+                      common-origin witness at the finite level
+--     CODEX 1  --    the path-level forcing run queues if the
+                      family declares
 ```
 
-WHERE THE PROGRAM STANDS: the grammar built (DoR 008) . THE LAW ratified (DoR 009, E_post) .
-F_N = P_0 + Z_N P_ch exact, falsifier-passing . A_N = (1-p) + p Z_N exact . the finite response
-structure exact (coherent -i p_ch; noise p_ch(1-p_ch)) . the ONE remaining freedom: p_ch,
-bracketed open by record existence . the ONE deciding question: the finite-to-physical transport
-of the response into DeltaPhi -- WHICH IS TASK 4, the plan's own next stop.
-
-MORNING QUEUE (preflight-clean): the envelope's PathCert subtrace (Codex) . U3 assembly .
-the comparison maps (2f) . then Task 4's transport, in plan order.
+REGISTERED THROUGH Q-237. DoRs 005-010 in force. If PathCert_N constructs: the envelope gains
+its first certified path, and OBS-15's predicted stratum (forcing over TRANSITIONS/paths)
+becomes testable.
