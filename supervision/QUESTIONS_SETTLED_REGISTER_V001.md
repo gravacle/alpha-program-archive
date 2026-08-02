@@ -9892,6 +9892,41 @@ BUILT (Q-218). A finite contraction from the SEALED ready state through the BUIL
 identity may be CANONICAL -- derivable, not chosen. That is relay 318's question, posed as
 build-or-sharply-stop exactly as the receipt demands. ***
 
+## Q-236. SHARP STOP, AND THE LAST FREEDOM HAS A NAME: **p_ch** — one real number, the charge weight of the pre-state.
+
+**Relay 318 (Task 2d, Codex 2).**
+`STAGE8_SHARED_FINITE_STATE_EFFECT_CONDITIONED_AMPLITUDE_SHARP_STOP_V001.md`,
+`2cbec1f0adefaa7f962bde505117c95a0f8c08cd6a8ea508aec4eef006fd6c12`. Hash verified, fence-clean.
+
+```text
+NOT CANONICAL (TYPE-R, proved by countermodel p=0 vs p=1). THE EXACT CONDITIONAL FAMILY:
+
+   *** A_N^(p) = (1 - p) + p Z_N ,   p = omega(P_ch) in [0,1] ***
+   A_1 = (1-p) + p conj(z_-) z_+        A_2 = (1-p) + p conj(z_-1)z_+1 conj(z_-2)z_+2
+
+INTERFERENCE BETWEEN "NOTHING HAPPENED" (neutral, weight 1-p) AND "THE FULL RELATIVE PHASE"
+(charged, weight p). Every check passes FOR EVERY p -- equal-history normalization, gauge
+invariance, zero-extension, the one-cell falsifier -- and NONE SELECTS p (TYPE-R).
+
+THE REQUIRED PHYSICAL DATUM: p_ch = Tr(rho_pre pi(P_ch)), with common-origin provenance TYPE-U.
+Response-visible free parameters: *** ONE, CONTINUOUS. *** Consumers: 3 conditionally advanced,
+0 fully unblocked; 3c's step 1 not reopened (TYPE-C).
+```
+
+### What this means, and it is the day's terminus
+
+*** THE ENTIRE REMAINING FREEDOM BETWEEN THE PROGRAM AND ITS RESPONSE CHAIN IS ONE REAL NUMBER
+WITH A PHYSICAL NAME: THE PROBABILITY THAT THE SOURCE IS CHARGED. And the sealed corpus already
+BRACKETS it: record existence requires BOTH sectors weighted (Q-229's own dynamics -- a product
+output when one sector holds everything, correlation only when both are weighted), so
+*** 0 < p_ch < 1 IS FORCED; THE VALUE IS NOT. ***
+
+THE DECISIVE DOWNSTREAM QUESTION, NAMED FOR TOMORROW: DOES THE FIXED POINT K = B_ind(K) DEPEND
+ON p_ch? If the p-dependence CANCELS in the response ratio, alpha is p-independent and the
+program closes with NO further physics input. If it does NOT cancel, p_ch is THE physical input
+-- and alpha's universality itself would demand a canonical p, which would be its own profound
+statement. THAT QUESTION BELONGS TO THE RESPONSE CHAIN AND ITS OWN AUTHORIZATIONS. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
