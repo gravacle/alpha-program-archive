@@ -164,4 +164,6 @@ Register head Q-238. Preflight run at write time against Q-238; nothing new sinc
 DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap recorded, reconstruction agent running.
 
 | 341 | Codex 1 | [4d] Stitching theorem | RETURNED — Q-258 (T_cyl exists 5/5; geometric half capped by J_ref; O-D3 next) |
-| 342 | Codex 1 | [4a] ADVERSARIAL REVIEW of Gen_Omega V001 (DoR-013 gate) | **LOADED — NOT SENT** |
+| 342 | Codex 1 | [4a] ADVERSARIAL REVIEW of Gen_Omega V001 (DoR-013 gate) | **SENT** |
+
+| 343 | Codex 2 | [4d] Cellulation independence — discharge O-D3 (Q-241 move) | **LOADED — NOT SENT** |
