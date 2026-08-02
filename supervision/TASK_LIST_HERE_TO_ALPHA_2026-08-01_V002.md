@@ -241,6 +241,15 @@ custody per LOCKED_PROCESS.md.
                                                                                SURFACED: yes
 2026-08-01  C4  Governance ruling adopted; task packages TASK 1-8 added; this log created.
                                                                                SURFACED: this message
+2026-08-01  C5-C25  DEFECT, RECORDED 2026-08-01: these entries were numbered and surfaced
+                in session (C8 six-task structure FINAL; C16 comparison maps; C19 act-based
+                fences; through C25) but were NEVER APPENDED TO THIS BLOCK. Reconstruction
+                from the session transcript is underway; until it lands, the numbers are
+                reserved and the session record is the authority.             SURFACED: yes
+2026-08-01  C26 DoR-011: Task 4a transport map CONSTRUCTION-ONLY authorized (principal's
+                ruling). Premise-level build; Q-239's five TYPE-U fields enter as named
+                typed premises; p_ch answered structurally; NO evaluation, NO roots.
+                Task 4a: BLOCKED-ON-AUTHORIZATION -> AUTHORIZED.               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
