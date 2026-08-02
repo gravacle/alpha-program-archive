@@ -118,15 +118,16 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~22:45.
+## 6. LANE LEDGER — 2026-08-01, ~23:10.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-310    CODEX 2  2d    minimal coupling: derived or chosen?            PASTED, RUNNING
-                      (then F_N[a_+,a_-] by the executed trace)
---     CODEX 1  --    held on 310's standing verdict
+311    CODEX 1  2d    force the coupling cell (<= 8 instantiable);    PASTED, RUNNING
+                      build F_N immediately if one survives
+--     CODEX 2  --    held; four fronts open if F_N lands
 ```
 
-REGISTERED THROUGH Q-227. Sealed today at finite N: I_N = delta (zero-source influence trivial);
-Phi_N = CHARGE DEPHASING (record formation makes charge classical). The response physics lives
-in the source-history map; 310 tests whether Gate 4's "covariant incidence" DERIVES it.
+REGISTERED THROUGH Q-228. The night's ladder: state strata never force (continuum) -> the
+coupling stratum is FINITE (faithfulness derived the cut) -> the protocol runs where it wins.
+If the residue is n = +/-1 only, the question reaching the principal is charge conjugation's
+role in record formation -- one crisp physical binary.
