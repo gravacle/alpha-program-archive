@@ -9738,6 +9738,32 @@ authority . sequential N <= M compatibility . faithfulness (n = +/-1) . and, dow
 four planes and the falsifier. AUTHORING IT THROUGH THE GATE, WITH EVERY CONSTRAINT AS A
 CERTIFICATE, IS D6's TRUE AND FINAL FORM. ***
 
+## Q-230. THE LAW IS DRAFTED. The battery is CONSISTENT, all eight certificates pass at N = 1, 2 — and the honest choice count is THREE.
+
+**Relay 312 (Task 2d, Codex 2).**
+`STAGE8_SOURCE_COUPLED_RECORD_TRANSITION_LAW_ADOPTION_PROPOSAL_V001.md`,
+`f623688927f25dcfa36c5eb8153e7157377ac6a9f98ee89790a32a9fee5a9864`. Hash verified, fence-clean,
+PROPOSED_NOT_ADOPTED marks present.
+
+```text
+*** C1-C8 ARE JOINTLY SATISFIABLE -- the sealed battery is CONSISTENT, and a law satisfying all
+of it EXISTS. Exact N = 1 and N = 2 verification PASSED on every certificate: gauge covariance,
+equal-history identity, dephasing persistence, charge access, one-cell reduction,
+zero-extension, character reality. ***
+
+THE THREE PROPOSED CHOICES (the honest authorship, counted):
+  1  forward post-write / backward-adjoint-pre ATTACHMENT
+  2  edge-local TENSOR-PRODUCT extension
+  3  NO additional contact or distributed term
+AND THE DRAFTER ATTACKED ITSELF: a live conj COUNTERMODEL shows the attachment is NOT uniquely
+forced (UNTRACED_ATTACHMENT_UNIQUELY_FORCED = false | TYPE-R) -- choice 1 is GENUINE, disclosed,
+not hidden. The full common-origin influence instance remains TYPE-U pending ratification (the
+functional follows from the law by the already-executed trace).
+```
+
+**Next per the gate: the adversarial kill-pass by the OTHER lane (relay 313), then DoR 009 to the
+principal with the three choices and the conj countermodel in view.**
+
 ---
 
 ## HOW TO USE THIS REGISTER
