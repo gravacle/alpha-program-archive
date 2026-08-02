@@ -141,7 +141,7 @@ transport, in plan order.
 | 321 | Codex 1 | [2e] Assemble U3 | RETURNED — Q-239 (skeleton exact, instance TYPE-U at 5 fields) |
 | 323 | Codex 1 | [2f] Comparison maps | RETURNED — Q-241 (verdicts choice-invariant; arm TYPE-C pending X_K) |
 | 325 | Codex 1 | [4a] Transport map | RETURNED — Q-243 (finite retarded block p_ch-FREE, derived; deciding question localized to the completion arrow) |
-| 327 | Codex 1 | [4a] The correlator-completion arrow — does the falsifier pin it p_ch-free | **LOADED — NOT SENT** |
+| 327 | Codex 1 | [4a] The correlator-completion arrow — does the falsifier pin it p_ch-free | **SENT** |
 | 322 | Codex 2 | [2d] The two-origins question | RETURNED — Q-240 (no certified origin; reviewer candidate refuted) |
 | 324 | Codex 2 | [2d] Omega realization | RETURNED — Q-242 (RELABELING; enrichment = Gen_Omega generative rule) |
 | 326 | Codex 2 | [2f] Fix X_K independently, execute the K_square falsifier arm | **SENT** |
