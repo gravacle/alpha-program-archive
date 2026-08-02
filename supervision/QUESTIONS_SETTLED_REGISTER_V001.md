@@ -9817,6 +9817,23 @@ THE CORRECTED ACCOUNTING:
 
 **Next: the narrow second pass (315, Codex 1), then DoR 009 with three rows in view.**
 
+## Q-233. CLEAN BILL — the law's V002 passes its final gate. DoR 009 goes to the principal.
+
+**Relay 315 (Codex 1).**
+`STAGE8_SOURCE_COUPLED_RECORD_TRANSITION_LAW_V002_NARROW_SECOND_PASS_DETERMINATION_V001.md`,
+`17aa3e08877f2f24f6528fa5111b668432d4af9842b25e1ceae9e365900aad4a`, 346 lines. Hash verified,
+fence-clean.
+
+```text
+ALL THREE CHECKS PASS: the law byte-level unchanged where claimed (diffed) . the repaired
+accounting faithful to the killer's own findings . no regression, PROPOSED marks intact.
+```
+
+**The gate's full history for the record: drafted with self-attack (Q-230) -> killed on
+accounting, physics confirmed by independent exact arithmetic (Q-231) -> repaired, law untouched
+(Q-232) -> narrow pass CLEAN (this entry). THE SOURCE_COUPLED_RECORD_TRANSITION_LAW STANDS BEFORE
+THE PRINCIPAL: eight sealed certificates, exact at N = 1, 2, target-blind, three honest rows.**
+
 ---
 
 ## HOW TO USE THIS REGISTER
