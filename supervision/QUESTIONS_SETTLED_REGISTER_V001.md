@@ -10498,6 +10498,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-271 — Germ V004: the same-rank gauge theorem is PROVED — trace-preserving block-unitary equivalence identifies all same-rank A0 presentations and preserves p_A, Z_inc, and its derivatives; the germ's residual freedom is EXACTLY ordered integer rank data; all four repairs complete (2026-08-02, relay 353)
+
+**Artifact:** `STAGE8_SOURCE_GERM_PHYS_ADOPTION_PROPOSAL_V004.md`, `d4cdbb66…`, seal verified, mirror byte-identical.
+
+**The gauge theorem (the substantive piece):** same-rank A0 presentations are gauge — identified by trace-preserving block-unitary equivalence, with p_A, Z_inc, and the derivatives all invariant. **Q-269's categorical narrowing is now UNCONDITIONAL: the program's residual input is ordered integer rank data, nothing else.** No hidden continuous parameter rides along.
+
+**The four repairs, complete as ordered:** full DoR-008 pinning NO_VERDICT (K_square unexecutable, named); executable scalar pinning refuted TYPE-R; B5/B6/B9 corrected to TYPE-U; all finite-pass claims scoped to executable A0-sensitive scalar checks. Battery 11/3/0. No anchor selection; no ratio evaluated.
+
+**Status:** final cross-lane confirmation, then DoR-014.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
