@@ -9570,6 +9570,45 @@ sealed cut (one factorization-axis endpoint is DEAD by structure) and Theorem 2 
 constraint (the correlation requirement bites the COMPLETED state, and the pre-state's role runs
 through what dynamics can generate from it). ***
 
+## Q-225. The class stratum does NOT force — and the reason names the true object: the STATE-TRANSITION PATH, not the state.
+
+**Relay 307 (Task 2d, Codex 1).**
+`STAGE8_TASK2D_MULTIAXIAL_STATE_CLASS_ENVELOPE_FORCING_PROTOCOL_RESULT_V001.md`,
+`1421bfc788ee577cb2673a3c394c7ac8f1f62d53f9e512e9d0a080df56e394db`, 718 lines. Hash verified,
+fence-clean.
+
+```text
+THREE STRUCTURAL FINDINGS CONTROL THE RESULT:
+1  FACTORIZATION IS SPLIT-INDEXED -- source-vs-record (finite dynamics) and
+   source-record-vs-field/CTP (C0's join) are DIFFERENT coordinates; only the latter is
+   exhaustively classified; the global partition index set is TYPE-S.
+2  THE CUMULANT AXIS IS UNDEFINED -- no joint generator family, no completed-carrier quasifree
+   predicate, no finitely-correlated definition. The axis cannot be valued, only named.
+3  *** TEMPORAL ROLES FORM A PATH, NOT A COORDINATE: rho_pre -> finite completed -> outgoing,
+   REQUIRING DYNAMICS EDGES. DynPort_U2_008 = TYPE-U. ***
+
+AND THE REVIEWER'S CUTTER DIES AT ITS SECOND STRATUM TOO (TYPE-R):
+   exact finite dynamics yields a CORRELATED output when both charge sectors carry weight, and a
+   PRODUCT output when the source occupies one sector -- *** BOTH yield the derived quasi-local
+   public-record state. RECORDS DO NOT REQUIRE A NON-PRODUCT COMPLETED STATE. ***
+   (Reviewer constraint proposals killed at both the pre-state and completed-state strata.)
+
+SURVIVING_CELL_COUNT = NO_VERDICT . STATE_CLASS_REQUIRED = NO_VERDICT.
+```
+
+### The refined object — and why the refusals keep happening
+
+*** THE LANE NAMES IT: the MULTIAXIAL_STATE_TRANSITION_ENVELOPE — state-class NODES, DYNAMICS
+EDGES between temporal roles, and COMMON-ORIGIN PROVENANCE FOR THE COMPLETE PATH. ***
+
+*** THE PATTERN ACROSS Q-219 -> Q-225 NOW READS AS ONE SENTENCE: **EVERY ATTEMPT TO FORCE THE
+STATE ALONE FAILS, AT EVERY STRATUM, WHILE EVERY STRUCTURAL FACT FOUND ALONG THE WAY ATTACHES TO
+THE TRANSITION** — the dynamics generates the correlations (Q-224), the roles are path-stages
+(this entry), the response consumes the pre-state THROUGH the dynamics fixture (Q-222). IN A
+RECORDS-FIRST FRAMEWORK THE CANDIDATE FUNDAMENTAL OBJECT IS THE RECORD TRANSITION, WITH THE
+STATE AS ITS BOUNDARY DATA. The state resists forcing because it may not be the thing the
+physics determines directly. FRAMING, to be tested against the envelope -- not assumed. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
