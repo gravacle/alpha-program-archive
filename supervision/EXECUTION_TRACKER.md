@@ -210,3 +210,5 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 376 | Codex 1 | [4a] V003 final review | RETURNED — Q-294 (REPAIR_THEN_READY: frame tangents; Door F; bounded reruns) |
 | 377 | Codex 2 | [4a] V004 — frame-tangent answer + Door F + reruns | **SENT** |
 | 372 | Codex 1 | [4a] RACE authored arm | RETURNED — Q-289 (nine fields, openly authored; doors A-C conditional, D open; awaits adjudication) |
+
+| 378 | Codex 1 | [4a] CROSS-VERIFY the law-side subpackage (the floor under P5) | **LOADED — NOT SENT** |
