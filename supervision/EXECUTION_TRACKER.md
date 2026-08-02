@@ -229,6 +229,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 390 | Codex 2 | [4a] Verdict attempt | RETURNED — Q-308 (no full inverse: u_sq in ker L; kernel resolution is the gate) |
 | 391 | Codex 2 | [4a] Kernel resolution | RETURNED — Q-309 (all kernel blocks ZERO, p ABSENT, TYPE-P; support separation not yet cancellation; carriers unconnected) |
-| 392 | Codex 1 | [4a] THE CYCLE-KERNEL DESCENT — three bridges, then the verdict | **LOADED — NOT SENT** |
+| 392 | Codex 1 | [4a] THE CYCLE-KERNEL DESCENT — three bridges, then the verdict | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
