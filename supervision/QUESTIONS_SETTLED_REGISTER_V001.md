@@ -9984,6 +9984,28 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-239 — Does U3 assemble on the ratified data? PARTIAL: the finite skeleton is exact; the U3 instance itself remains TYPE-U at five named fields (2026-08-01, relay 321)
+
+**Artifact:** `STAGE8_CTP_PHYS_INPUT_PACKAGE_U3_DOR008_DOR009_PREMISE_LEVEL_PARTIAL_ASSEMBLY_DETERMINATION_V001.md`, `b0118d89…`, seal verified, mirror byte-identical. All positives `TYPE-P | premises: DoR-008, DoR-009`.
+
+**Built exact at finite N (the skeleton):**
+- `U3_SKEL_008_FINITE_ASSEMBLED = true` — but `U3_008_INSTANCE_EXISTS = false | TYPE-U`.
+- **The common-gauge quotient constructs: `Q_N ≅ U(1)^N`**, coordinatized by the relative phases `r_j = z̄₋ⱼ z₊ⱼ` (orbit invariants complete, constant stabilizer removed). **F_N and A_N^(p) descend exactly to `Q_N`** — the physical (gauge-fixed) content of the influence functional lives on relative phases alone.
+- Finite CTP branch grammar, sequential quotient gluing (N≤M), finite boundary/edge/glue package, and bounded endpoint domains all instantiate with certificates.
+- Toward Task 4: `RAW_TO_RETHESS_FINITE_INPUTS_PARTLY_MATERIAL = true` — quotient + finite domains now material; `RAW_TO_RETHESS_PHYSICAL_DOMAIN_PACKAGE_COMPLETE = false | TYPE-U`. The correlator→retarded-Hessian map stays unexecutable.
+
+**Refuted shortcuts (the kill-passes worked, four TYPE-R):**
+- `U_N_IS_PLAIN_QUOTIENT_FUNCTION = false | TYPE-R` — the dynamics is NOT a plain function on the quotient; only covariant descent holds.
+- `FINITE_BRANCH_ORDER_EQUALS_PHYSICAL_CONTOUR_PRESCRIPTION = false | TYPE-R` — finite branch order ≠ the physical contour/iε prescription.
+- `NORMALIZED_HAAR_ON_Q_N_EQUALS_REQUIRED_DESCENDED_MEASURE = false | TYPE-R` — Haar on Q_N is NOT the descended measure; no measure was imported.
+- `INDEPENDENT_BRANCH_QUOTIENT_ADMISSIBLE = false | TYPE-R`; and the vacuous C0 unbounded-domain discharge was rejected (`VACUOUS_DOMAIN_PASS_ACCEPTED = false | TYPE-R`).
+
+**The five TYPE-U fields blocking the U3 instance:** (1) descended contour/spacetime measure; (2) interacting contour/iε prescription; (3) complete CTP boundary/edge data; (4) complete physical (unbounded) endpoint operator domains; (5) common-origin provenance. `TASK2F_COMPARISON_MAPS_COMPLETE = false | TYPE-U` noted in passing.
+
+**Reading:** Task 2e lands where U1/U2 did — everything the ratified finite data licenses is now built exact, and what is missing is exactly the continuum/physical layer (measure, contour, unbounded domains). The gap is named, not papered over; the measure kill-pass (Haar refuted) is the register's proof the boundary held.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
