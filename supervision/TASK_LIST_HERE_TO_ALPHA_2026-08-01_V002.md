@@ -366,6 +366,12 @@ custody per LOCKED_PROCESS.md.
                 Task 2f CAPPED at one arm, reason of record: source-generation rule
                 unstateable at family level without selection. All lane capacity to Task 4.
                                                                                SURFACED: yes
+2026-08-02  C30 Q-254 ruling: SOURCE_GERM_PHYS COMMISSIONED -- the one authored gate of the
+                8-package minimal deciding subset, drafted through the gate against the
+                Q-254 constraint battery (finite-authority item included); kill-pass before
+                review; DoR-013 RESERVED for ratification. Relay 338. Also tests the
+                germ = Gen_Omega identification (Q-242). The D6/law pattern, second use.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
