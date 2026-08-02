@@ -10128,6 +10128,21 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-247 — The separation theorem: PROVED on every ratified class, FAILS on the bidual; the tail channel now turns on ONE typing question — which class the physical response lives in (2026-08-01, relay 329, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_FINITE_RESTRICTION_SEPARATION_AND_BIDUAL_TAIL_DETERMINATION_V001.md`, `60b5b4c5…`, seal verified, mirror byte-identical.
+
+**The theorem (a category-relative split, both halves proven):**
+- Separation HOLDS (`TYPE-P`, proved with constructed sequential-cylinder retractions) on the ratified norm C*-algebra, the standard Hilbert module (inner-null), and the represented left-multiplier class. On the ratified classes, NO nonzero content hides from every finite restriction — the moving tail produces nothing there (`TYPE-R`).
+- Separation FAILS on the BIDUAL (`false | TYPE-R`): Tail_B** = M_cyl(Y)^⊥ = z_tail·B** — a nonzero weak-* moving-tail limit killed by every finite restriction. A p_ch-dependent bidual tail EXISTS mathematically (`BIDUAL_FINITE_RESTRICTIONS_EXCLUDE_P_CH_DEPENDENT_TAIL = false | TYPE-R`).
+- No topology change mid-proof (`TYPE-R` kill-pass clean).
+
+**Honest refutation of the relay's own preflight:** the physical rho_H,N are NOT instantiated (Q-238/Q-245 do not supply them; Q-246's absent package confirms). Therefore `PHYSICAL_RETHESS_SEPARATION = NO_VERDICT`; the norm/module proof does not transport (`TYPE-U`); whether Q-243's coherent block has a nonzero physical tail component: NO_VERDICT.
+
+**Reading:** channel (a) is CLOSED for everything in the ratified classes and OPEN exactly on the bidual. The deciding question's tail half is now a TYPING question: does the physical response construction (the object ΔΦ actually consumes) live in the norm/left-multiplier class — in which case the tail cannot carry p_ch and only the background channel (b) remains — or does it require bidual content, in which case the tail z_tail·B** is exactly where p_ch can hide? One sealed-signature reading decides which.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
