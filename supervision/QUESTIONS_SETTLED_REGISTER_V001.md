@@ -10636,6 +10636,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-282 — The universal preservation certificates are REFUTED (TYPE-R): the battery itself references p_ch, and p-blind operations may legitimately have kernels; what survives is the CONDITIONAL FINITE-SHADOW THEOREM, and item (a)'s corrected object is a four-arrow dependence-ACCOUNTING package (2026-08-02, relay 363)
+
+**Artifact:** `STAGE8_TASK4A_FOUR_DEPENDENCE_PRESERVATION_CERTIFICATES_FAMILY_LEVEL_DETERMINATION_V001.md`, `78ec90ce…`, seal verified, mirror byte-identical.
+
+**The refutation (all four universal theorems, TYPE-R):** the certificates' engine premise — admissibility never mentions p — is FALSE: the battery explicitly references p_ch (Q-243's p-free block IS a battery row). And p-blind operations may legitimately DELETE p-content: integration, retarded projection, boundary quotienting, and domain closure all can have kernels. Tail_R evades every full-realization certificate.
+
+**What survives (the useful half):** the CONDITIONAL FINITE-SHADOW THEOREM — any B1–B3-compliant completed chain must reproduce Q-279's ENTIRE finite pattern: the p-free retarded block AND the exact p-carrying noise/probe blocks. The falsifier discipline pins the finite shadow completely; what it cannot pin is the shadow-free part.
+
+**The corrected object for item (a):** not certificates but a four-arrow dependence-ACCOUNTING package — recording, per operation of the completed chain: kernel, image, sector transfers, the restriction square, and the Tail_R action. Construction-shaped, built alongside the realizations (P5's natural companion), not provable in advance.
+
+**Reading:** the verdict chain's three items now converge on ONE construction: the P5 transport chain built WITH its dependence accounting, plus the lift fiber (Q-281), plus the consumption signature — where Q-255's battery-dead candidate W suggests the typing may be forced rather than ruled. The shrinkage phase is over; the build phase is what remains.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
