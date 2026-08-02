@@ -10823,6 +10823,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-296 — V004: the frame-tangent question ANSWERED — endpoint frames are RECORD-VISIBLE (not boundary gauge); the repaired current is u_e^aug = ∫_γ a + θ_t − θ_s; A4 separation restored; Door F specified with zero common finite-projection tail (2026-08-02, relay 377)
+
+**Artifact:** `STAGE8_FIELD_SIGNATURE_PHYS_ADOPTION_PROPOSAL_V004.md`, `5a8d5598…`, seal verified, mirror byte-identical. DoR-015 not issued — one final review remains.
+
+**The determination, derived by the program's own criterion:** the finite H_N coordinate DISTINGUISHES endpoint-frame changes at fixed A — a record detects them — and the sealed corpus lacks any functor identifying such changes with Gate-4 gauge. So the frames are PHYSICS: record-visible, augmented-source content. The V003 defect was the currents' blindness, not the frames' irrelevance.
+
+**The repaired current:** u_e^aug = ∫_γ a + (θ_t − θ_s) — the connection line-integral PLUS the endpoint frame phases. This is the gauge-covariant object with endpoint charges: the structure the allow/require origin text always pointed at ("REQUIRED charge/flux access" — the endpoints carry the required content). A4 separation restored; dφ_e = u_e^aug holds.
+
+**Door F:** fully specified, ZERO common finite-projection tail. All Q-294 bounded reruns pass proposal-conditionally. The physical raw-G image stays NO_VERDICT (Door D — judged only in execution).
+
+**Next:** the final adversarial review, then DoR-015.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

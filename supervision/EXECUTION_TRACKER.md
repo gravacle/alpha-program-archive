@@ -208,7 +208,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 374 | Codex 1 | [4a] V002 review | RETURNED — Q-292 (REPAIR-THEN-READY: S3 endpoint frames; S5 separation; R6 restore) |
 | 375 | Codex 2 | [4a] V003 repairs | RETURNED — Q-293 (torsor family, quotient separates, R6 restored; ready for final review) |
 | 376 | Codex 1 | [4a] V003 final review | RETURNED — Q-294 (REPAIR_THEN_READY: frame tangents; Door F; bounded reruns) |
-| 377 | Codex 2 | [4a] V004 — frame-tangent answer + Door F + reruns | **SENT** |
+| 377 | Codex 2 | [4a] V004 | RETURNED — Q-296 (frames RECORD-VISIBLE; u_aug current; Door F zero-tail; reruns pass) |
+| 379 | Codex 1 | [4a] FINAL REVIEW of V004 — package DoR-015 or kill (last pass) | **LOADED — NOT SENT** |
 | 372 | Codex 1 | [4a] RACE authored arm | RETURNED — Q-289 (nine fields, openly authored; doors A-C conditional, D open; awaits adjudication) |
 
 | 378 | Codex 1 | [4a] Subpackage verification | RETURNED — Q-295 (CONFIRMED_WITH_NOTES; the whole stack under P5 now verified) |
