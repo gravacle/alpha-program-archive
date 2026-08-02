@@ -10951,6 +10951,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-306 — THE N-UNIQUENESS THEOREM PROVED AND THE FREEZE LIFTS: N = i·Id forced (survivor count ONE, authored choice NONE); germ V007 installed; FULL DOOR D = (PASS, PASS, PASS, PASS); the physical raw correlator exists in closed form: G⁰⁰⁷ = −ℏ²·q(1−q)·L⊗L (2026-08-02, relay 388)
+
+**Artifacts:** germ V007 `bd33e54c…` and the uniqueness/install/re-execution determination `00414b0d…`, seals verified, mirrors byte-identical.
+
+**The theorem:** on the Door-D-active source image, N = i·Id_{E_active} is the UNIQUE survivor — Condition 6 (the sealed identity coefficient) fixes the coefficient to i; U1 fixes the even-to-odd anti-intertwining law; cycle-kernel directions add no freedom (N(0)=0). Honest scope: uniqueness on the unused full bilocal complement is NO_VERDICT and NO extension was installed there. **Authored choice: NONE — the third OBS-16 confirmation: two requires, one survivor.**
+
+**The install and the pass:** germ V007 produces G⁰⁰⁷ = −ℏ²·q(1−q)·L⊗L with D_J Ā = (i/ℏ)G⁰⁰⁷ exactly. `DOOR_D_SUBTEST_VECTOR = (PASS,PASS,PASS,PASS)`. **`DOR015_FREEZE_LIFTS = true | TYPE-P`.** Three firings, three diagnoses, three derived repairs — the falsifier discipline converted a failing adoption into a proven one without a single authored patch.
+
+**What now exists:** the bounded physical raw-G lift and the connected subtraction. **The physical correlator carries the noise weight q(1−q) — the finite theory's p(1−p) form, arrived at the physical level** — while the finite ordered retarded shadow remains ZERO and p-FREE. **The chain's remaining stop:** the physical inverse/Schur and the completed-domain package; physical RetHess and its p-verdict NO_VERDICT — the deciding question's final gate.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

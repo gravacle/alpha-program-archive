@@ -692,3 +692,8 @@ three adversarial kills, converged on the origin table's own sentence — cycle 
 ALLOWED U(1) holonomy; open-path endpoint-covariant transport = REQUIRED charge/flux
 access. The principal identified the convergence before ratifying. Final provenance line
 of record: four families derived / six structures authored. OBS-17's split stands.
+
+**OBS-16 third confirmation (2026-08-02, Q-306):** the source→output normalization N was
+forced to i·Id by two requires jointly (the sealed identity coefficient + the involution
+law) — survivor count one, authored choice none. Bundling failed, choosing failed, the
+requires forced: three for three.
