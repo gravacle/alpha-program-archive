@@ -118,16 +118,14 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~23:10.
+## 6. LANE LEDGER — 2026-08-01, ~23:40. THE LAW IS BEING DRAFTED.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-311    CODEX 1  2d    force the coupling cell (<= 8 instantiable);    PASTED, RUNNING
-                      build F_N immediately if one survives
---     CODEX 2  --    held; four fronts open if F_N lands
+312    CODEX 2  2d    draft the SOURCE_COUPLED_RECORD_TRANSITION_LAW  PASTED, RUNNING
+                      (proposal; 8-certificate battery; DoR 009 rsvd)
+--     CODEX 1  --    the kill-pass, when the draft lands
 ```
 
-REGISTERED THROUGH Q-228. The night's ladder: state strata never force (continuum) -> the
-coupling stratum is FINITE (faithfulness derived the cut) -> the protocol runs where it wins.
-If the residue is n = +/-1 only, the question reaching the principal is charge conjugation's
-role in record formation -- one crisp physical binary.
+REGISTERED THROUGH Q-229. CHANGE LOG THROUGH C21. DoRs 005-008 in force; 009 reserved.
+THE POSITION: one law between the program and a computable alpha, entering through the gate.
