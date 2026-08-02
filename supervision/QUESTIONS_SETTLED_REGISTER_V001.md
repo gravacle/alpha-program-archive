@@ -10378,6 +10378,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-263 — The no-go FAILS at a named condition: bistochasticity + input-faithfulness collapses the orbit (existence benchmark, not adoption); hostile controls prove input-faithfulness ALONE does NOT remove state-parameterized freedom — putting V002's condition on notice (2026-08-02, relay 345)
+
+**Artifact:** `STAGE8_GEN_OMEGA_NONCIRCULAR_GENERATIVITY_NO_GO_ATTEMPT_V001.md`, `7000963e…`, seal verified, mirror byte-identical. No V002 material was read — the race stayed uncoordinated.
+
+**The benchmark condition:** Φ(I_src) = I_src (bistochasticity/unitality) + ker(Φ|traceless) = {0} (input-faithfulness). Mixing + unitality FORCE the unique invariant state to be the normalized carrier identity; input-faithfulness excludes every pure replacement channel; a nonempty depolarizing family witnesses — proven without mentioning Q-242's states, p_ch, or downstream outputs. Non-circular by construction.
+
+**The hostile controls (the finding with teeth):** input-faithfulness ALONE, ergodicity, irreducibility, Kraus fullness, Choi fullness, and minimal Stinespring form ALL FAIL to remove state-parameterized freedom. **Any successor needs an equivalent ORBIT-COLLAPSING STRUCTURAL ANCHOR, or Q-260 still applies.** This directly threatens V002 (Q-262), whose condition is an input-faithfulness variant — whether its uniformity/superselection structure plus the finite certificate amounts to an anchor is now THE review question.
+
+**An implication to trace, not claim (flagged for the review):** where the anchor forces the invariant state to the NORMALIZED IDENTITY, the state's charge weighting is a RATIO OF SECTOR DIMENSIONS — p_ch would be FORCED and exactly RATIONAL, flipping the verdict from parameterized to derived, with alpha's irrationality then carried entirely by the 4π (the standing exact-rational observation). Whether the physical origin MUST be anchored this way is exactly what ratification would decide — the review must trace this structurally without selecting it.
+
+**Status:** existence benchmark in hand; V002's cross-lane adversarial review is next, with the anchor question at its center.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
