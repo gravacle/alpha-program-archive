@@ -10406,6 +10406,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-265 — Gen_Ω V003: the anchor is NOT derivable from sealed structure (exact nonunital counterexample); it is AUTHORED as three anchor classes — and ALL THREE force the same normalized-identity state and the same symbolic sector-dimension-ratio form for p_ch (2026-08-02, relay 347)
+
+**Artifact:** `STAGE8_GEN_OMEGA_GENERATIVE_ORIGIN_RULE_ADOPTION_PROPOSAL_V003.md`, `1be5f6a7…`, seal verified, mirror byte-identical. PROPOSED_NOT_ADOPTED; DoR-013 reserved; cross-lane review pending.
+
+**The derivation attempt failed honestly:** no sealed structure derives an orbit-collapsing anchor. Specifically, unitality of the ratified REDUCED dynamics does NOT force the preparation channel unital — an exact commuting nonunital affine counterexample exists. (OBS-16 note: its strong reading — the transition's sealed requires reach down and force the anchor — FAILED this test. The observation survives on its falsifier's exact wording, but weakened: the anchor is authored dynamics-side structure, not derived transition requirement. Recorded, not spun.)
+
+**What V003 authors, disclosed:** the finite scalar source realization, plus THREE anchor classes — bistochasticity, detailed balance, irreducible symmetry covariance. **The convergence result that matters: all three force the SAME normalized-identity invariant state and the SAME symbolic sector-dimension-ratio form for p_ch.** No value evaluated. The authored choice among anchors is therefore p_ch-NEUTRAL — whichever member is chosen, the physical consequence is identical, which structurally defuses the target-tuning concern at the anchor-selection level (the review must still verify the convergence claim independently).
+
+**Repairs carried:** arbitrary-state affine witnesses AND replacement channels excluded; the exchanged root REMOVED as refuted (only the plus root reproduces Z_N and charge/flux access — the orientation is forced, per Q-264); battery 11 pass / 3 downstream-conditional / 0 fail.
+
+**What ratification would now mean:** adopting authored origin physics (the anchor class + scalar source realization) whose p_ch consequence is FORCED AND UNIFORM across the choice table: p_ch = a ratio of charge-sector dimensions, symbolically. If it survives review and ratifies, the program's last free number becomes a derived rational — and alpha's irrationality sits entirely in the 4π (the standing exact-rational observation).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
