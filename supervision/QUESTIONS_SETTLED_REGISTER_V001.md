@@ -10837,6 +10837,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-297 — V004 is DEAD at the gate: the one-edge frame mutation is EXACTLY Gate-4 vertex rephasing (V003's own S3 map is the identifying functor V004 claimed absent); u^aug fails to descend — and the death completes a three-review TRIANGULATION: the carrier was over-fine, the currents were right on the right quotient (2026-08-02, relay 379)
+
+**Artifact:** `STAGE8_FIELD_SIGNATURE_PHYS_V004_FINAL_ADVERSARIAL_REVIEW_DETERMINATION_V001.md`, `a2fc3b98…`, seal verified, all copies byte-identical.
+
+**The kill (both TYPE-R):** the frame mutation that changes raw H_e maps exactly, under V003's OWN S3 torsor-scalarization, to Gate-4 vertex rephasing — a change of REPRESENTATIVE, not of physical class. V004's record-visibility determination is refuted (the "no identifying functor" sweep missed that the proposal itself supplies the functor). Consequently u_e^aug is nonzero on a VERTICAL gauge tangent and does not descend to the inherited quotient. Door F independently survives (zero common finite-projection tail) but cannot rescue.
+
+**The triangulated truth (the register should say it once, plainly):** Q-294 killed V003 because the currents vanished on a tangent with dH ≠ 0. Q-297 kills V004 because that tangent is GAUGE. Together: dH ≠ 0 was representative motion; the currents' vanishing on it was CORRECT; the defect was never the currents — it was stating separation on the OVER-FINE framed carrier. **V005's shape is forced: quotient the framed carrier by Gate-4 rephasing (via V003's own S3 identification), keep the UNAUGMENTED currents, and prove A4/A5 separate the PHYSICAL quotient.** Frame directions are boundary gauge after all — option (b) of the original fork, now with the proof V004's failure supplies.
+
+**Standing:** Door F retained; DoR-015 remains reserved; the six-count unaffected.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
