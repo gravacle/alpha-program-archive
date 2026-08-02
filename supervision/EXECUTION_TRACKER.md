@@ -195,7 +195,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 361 | Codex 1 | [4a] Nonzero-R reference | RETURNED — Q-279 (retarded block ZERO & p-free with probes on; exact noise forms) |
 
 | 365 | Codex 1 | [4a] W into the battery | RETURNED — Q-283 (W_free dead TYPE-P; W_gen admissible-unbuilt; emptiness theorem set up) |
-| 367 | Codex 1 | [4a] The W_gen emptiness theorem (images, not kernels) | **SENT** |
+| 367 | Codex 1 | [4a] Emptiness theorem | RETURNED — Q-285 (refuted: weak-* completion is the creator; custodian = the lift) |
+| 369 | Codex 1 | [4a] CROSS-VERIFY the P5 chain + accounting table | **LOADED — NOT SENT** |
 
 | 366 | Codex 2 | [4a] P5 maximal chain | RETURNED — Q-284 (retarded image p-clean on everything built; stops at the raw-G lift; six objects remain) |
 
