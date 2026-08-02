@@ -163,4 +163,4 @@ Register head Q-238. Preflight run at write time against Q-238; nothing new sinc
 
 DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap recorded, reconstruction agent running.
 
-| 341 | Codex 1 | [4d] The stitching theorem — germ-independent half (P7 pattern) | **LOADED — NOT SENT** |
+| 341 | Codex 1 | [4d] The stitching theorem — germ-independent half (P7 pattern) | **SENT** |
