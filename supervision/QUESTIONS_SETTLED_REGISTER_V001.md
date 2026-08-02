@@ -9795,6 +9795,28 @@ P2 stands as an honestly disclosed no-cross-cell-interaction premise.
 accounting -- the endpoint-charge binary . the broad-contact scope premise . P2. Then the narrow
 second pass, then DoR 009.**
 
+## Q-232. THE LAW, V002: the honest count is THREE independent physics rows — endpoint charge, finite locality, external-parent scope.
+
+**Relay 314 (Task 2d, Codex 2).**
+`STAGE8_SOURCE_COUPLED_RECORD_TRANSITION_LAW_ADOPTION_PROPOSAL_V002.md`,
+`db1808e4da38cbfed8b12017885aff1bf63b0378e9971c37294e21fa08766fee`. Hash verified, fence-clean,
+PROPOSED_NOT_ADOPTED marks present. **The law and all eight certificates unchanged from the
+kill-passed V001.**
+
+```text
+THE CORRECTED ACCOUNTING:
+  narrow open-chain no-contact: *** DERIVED *** -- off the table, with the kill's proof cited
+  THE THREE INDEPENDENT PROPOSAL ROWS:
+    1  ENDPOINT CHARGE: the binary {E_post, E_conj} -- how the write assigns charge to its
+       endpoints. Both pass all eight certificates in their own representations. NO SEALED
+       SELECTOR.
+    2  FINITE LOCALITY (P2): no cross-cell interaction -- honest premise.
+    3  EXTERNAL-PARENT SCOPE: the broad contact classes (parent, curvature, distributed,
+       source-contact) excluded by declaration, priced.
+```
+
+**Next: the narrow second pass (315, Codex 1), then DoR 009 with three rows in view.**
+
 ---
 
 ## HOW TO USE THIS REGISTER
