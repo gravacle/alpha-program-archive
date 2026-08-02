@@ -11023,6 +11023,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-312 — The orientation CLOSES BY CITATION (V011 seals c_□ = (1,−1,1,−1) — no authorship was ever needed); reality gives COVARIANCE not pointwise invariance (the reviewer's strong claim TYPE-R), but zero support and symbolic p-dependence ARE orientation-invariant; the residue is the named class COVARIANT_BUT_UNINSTANTIATED_DESCENT (2026-08-02, relay 394)
+
+**Artifact:** `STAGE8_TASK4A_ORIENTATION_SEALED_FACT_REALITY_INVARIANCE_AND_P_VERDICT_DETERMINATION_V001.md`, `0a5ea70d…`, seal verified, all mirrors byte-identical.
+
+**Route (a) — WON:** the sealed V011 already seals the required traversal c_□ = (1,−1,1,−1). `ORIENTATION_SLOT: CLOSED_BY_CITATION | TYPE-P`. The Q-311 obstruction was partly self-imposed — the corpus had the datum.
+
+**Route (b) — honestly split:** strong orientation blindness REFUTED (`TYPE-R`) — the reality law gives COVARIANCE, not pointwise invariance (the reviewer's sharpened mechanism was too strong and is recorded as such). The allow/require grammar supplies no cycle-orientation THEOREM (`TYPE-S`). **But the verdict-relevant quantities — zero support and symbolic p-dependence — ARE orientation-invariant (`TYPE-P`).**
+
+**The named residue class (a genuinely new type):** COVARIANT_BUT_UNINSTANTIATED_DESCENT — symmetry removes the need to CHOOSE a family member, but does not CONSTRUCT the missing map. The relative-history→cycle factorization and the cycle→2PI descent remain TYPE-U; both verdict flags NO_VERDICT.
+
+**Reading:** every datum is now in hand — the orientation cited, the boundary computed, the zeros lifted, the kernel built. What remains is the construction of two maps whose every input exists. The verdict is one build away, with nothing left to choose and nothing left to author.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
