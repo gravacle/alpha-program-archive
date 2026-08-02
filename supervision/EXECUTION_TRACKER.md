@@ -204,4 +204,4 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 368 | Codex 2 | [4a] Raw-G lift | RETURNED — Q-287 (unbuilt; T_cyl not the field layer; signature is THE object) |
 
 | 371 | Codex 2 | [4a] RACE: derive the field signature from the record surface | **SENT** |
-| 372 | Codex 1 | [4a] RACE: draft FIELD_SIGNATURE_PHYS through the gate (DoR-015 reserved) | **LOADED — NOT SENT** |
+| 372 | Codex 1 | [4a] RACE: draft FIELD_SIGNATURE_PHYS through the gate (DoR-015 reserved) | **SENT** |
