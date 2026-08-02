@@ -10797,6 +10797,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-294 — V003 final review: REPAIR_THEN_READY — the frame-tangent refutation (varying an endpoint frame at fixed A gives a visible tangent the currents cannot see) plus one unflagged projective class-formation; the torsor scalarization itself SURVIVES family-wide (2026-08-02, relay 376)
+
+**Artifact:** `STAGE8_FIELD_SIGNATURE_PHYS_V003_FINAL_ADVERSARIAL_REVIEW_DETERMINATION_V001.md`, `6e191e56…`, seal verified, all copies byte-identical. DoR-015 NOT packaged.
+
+**Primary refutation (TYPE-R, exact):** V003 differentiates the full FRAMED carrier, but A4's currents see only CONNECTION variations. Hold A fixed, vary one endpoint frame: dH ≠ 0 (a visible tangent) while every u_e = ∫_γ a = 0. So A4 separation fails on the framed carrier, A5's dφ_e = u_e is refuted, S5 fails as written — and the Ward descent cannot rescue it because V003 leaves that descent TYPE-U. **The physical question underneath: are endpoint-frame directions record-visible content the currents must learn to see, or boundary gauge the quotient must absorb? V004 must answer it, not both-ways it.**
+
+**Secondary defect:** {X_N} → X_inf is an UNFLAGGED projective class-formation — Door V starts with X_inf already formed. The Q-288 accounting needs a new projective-limit DOOR F.
+
+**What survives (most of the object):** the torsor-family scalarization with C_Emb, S3, S7, and Door A genuinely FAMILY-WIDE; the set-level visibility quotient separated and visible-content-preserving; R6's intertwiner family complete; the six-count stands; D0 closed with zero created tail; no forbidden operation anywhere.
+
+**Release requires:** the explicit frame-tangent treatment, Door F, and the bounded reruns the artifact names.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

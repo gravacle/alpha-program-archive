@@ -207,5 +207,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 373 | Codex 2 | [4a] V002 merge | RETURNED — Q-291 (six authored structures; F5 inherited; seams conditional; reconciliation exact) |
 | 374 | Codex 1 | [4a] V002 review | RETURNED — Q-292 (REPAIR-THEN-READY: S3 endpoint frames; S5 separation; R6 restore) |
 | 375 | Codex 2 | [4a] V003 repairs | RETURNED — Q-293 (torsor family, quotient separates, R6 restored; ready for final review) |
-| 376 | Codex 1 | [4a] FINAL REVIEW of V003 — package DoR-015 or kill | **SENT** |
+| 376 | Codex 1 | [4a] V003 final review | RETURNED — Q-294 (REPAIR_THEN_READY: frame tangents; Door F; bounded reruns) |
+| 377 | Codex 2 | [4a] V004 — frame-tangent answer + Door F + reruns | **LOADED — NOT SENT** |
 | 372 | Codex 1 | [4a] RACE authored arm | RETURNED — Q-289 (nine fields, openly authored; doors A-C conditional, D open; awaits adjudication) |
