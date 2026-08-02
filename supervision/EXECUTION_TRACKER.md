@@ -172,6 +172,7 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 | 345 | Codex 1 | [4a] No-go attempt | RETURNED — Q-263 (fails at bistochasticity+faithfulness; anchor benchmark; faithfulness alone insufficient) |
 | 346 | Codex 1 | [4a] V002 review | RETURNED — Q-264 (DEAD twice: no anchor; exchanged root broken — orientation FORCED) |
 | 347 | Codex 2 | [4a] Gen_Omega V003 | RETURNED — Q-265 (anchor authored, 3 classes converge on same state + same symbolic p_ch form; 11/3/0) |
-| 348 | Codex 1 | [4a] ADVERSARIAL REVIEW of V003 — the convergence claim | **SENT** |
+| 348 | Codex 1 | [4a] V003 review | RETURNED — Q-266 (RATIFICATION-READY; convergence proven; DoR-013 RATIFIED family-level, C32) |
+| 349 | Codex 2 | [4a] SOURCE_GERM_PHYS V002 on the ratified origin (DoR-014 reserved) | **LOADED — NOT SENT** |
 
 Codex 2 HOLDS for 345's return (the race decides the next draft).
