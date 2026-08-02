@@ -194,4 +194,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 361 | Codex 1 | [4a] Nonzero-R reference | RETURNED — Q-279 (retarded block ZERO & p-free with probes on; exact noise forms) |
 
-| 365 | Codex 1 | [4a] Is the consumption typing FORCED? (W into the battery) | **LOADED — NOT SENT** |
+| 365 | Codex 1 | [4a] Is the consumption typing FORCED? (W into the battery) | **SENT** |
+
+| 366 | Codex 2 | [4a] BUILD P5 with the dependence-accounting package | **LOADED — NOT SENT** |
