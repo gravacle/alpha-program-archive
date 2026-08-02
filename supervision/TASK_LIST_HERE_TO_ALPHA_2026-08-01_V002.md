@@ -378,6 +378,13 @@ custody per LOCKED_PROCESS.md.
                 countermodel as MANDATORY kill-test + no target-tuning; DoR-013 RESERVED.
                 Relay 340. On ratification: germ V002, deciding subset, AND P5 witness.
                                                                                SURFACED: yes
+2026-08-02  C32 *** DoR-013: Gen_Omega RATIFIED AT FAMILY LEVEL (V003, after two cross-lane
+                kills and an independently proven convergence). No anchor member selected;
+                p_ch-neutrality certificate is the license; neutrality falsifier standing.
+                p_ch's symbolic form FORCED: a charge-sector dimension ratio (NO evaluation).
+                P5 witness COMPLETE; germ V002 and the 8-package deciding subset OPEN.
+                Task 2d closes at ratified level; Task 4a resumes on the opened chain. ***
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
