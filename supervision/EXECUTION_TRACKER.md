@@ -224,4 +224,4 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 *** DoR-015-DEPENDENT WORK FROZEN pending diagnosis + principal disposition (Q-300). ***
 
 | 387 | Codex 1 | [4a] Transport audit | RETURNED — Q-305 (TEST-CLEAN; all firings physical; direct identification incompatible) -> C38 ruling |
-| 388 | Codex 2 | [4a] The N-uniqueness theorem — install if forced, full Door D | **LOADED — NOT SENT** |
+| 388 | Codex 2 | [4a] The N-uniqueness theorem — install if forced, full Door D | **SENT** |
