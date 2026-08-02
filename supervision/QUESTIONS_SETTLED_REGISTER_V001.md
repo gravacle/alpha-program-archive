@@ -10332,6 +10332,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-260 — Gen_Ω V001 is DEAD at the DoR-013 gate: the cross-lane adversarial review found replacement channels R_ρ(τ) = Tr(τ)·ρ inside the admitted family — the two-state freedom survives as renamed channel choice; B14's condition is circular (2026-08-02, relay 342)
+
+**Artifact:** `STAGE8_GEN_OMEGA_GENERATIVE_ORIGIN_RULE_ADVERSARIAL_KILL_DETERMINATION_V001.md`, `a340f007…`, seal verified, mirror byte-identical.
+
+**The kill (A2, family-level countermodel):** the admitted G1 family contains REPLACEMENT CHANNELS R_ρ(τ) = Tr(τ)·ρ — channels that satisfy every G1 condition while merely encoding an arbitrarily chosen ρ. The V001 survival claim ("one invariant state per fixed member") was true and WORTHLESS: choosing the channel IS choosing the state, so Q-242's two-state freedom survives at family level under renamed bookkeeping. Also KILLED: A3 — B14's common-origin condition is circular.
+
+**Full attack ledger:** A1 selection trap SURVIVED (the incidence primitive is not a relabeled filtration choice — this part of V001 stands). A2 KILLED. A3 KILLED. A4 law fidelity SURVIVED (d_law reproduces DoR-009 exactly). A5 ready/pointer exchange WOUNDED. A6 p_ch parameterization WOUNDED (many-to-one, not one-to-one — the physical parameter is an equivalence class, not the channel). A7 finite authority SURVIVED.
+
+**Why this death matters differently from the last two:** V001's own drafting-lane kill-pass PASSED what the cross-lane review killed — the two-lane review pattern is load-bearing, exactly as the custody rules assume. And the kill is REPAIR-SHAPED: the family is too big, not wrong in kind. The repair targets are named: (1) a non-circular input-faithfulness/generativity condition excluding replacement channels — stated structurally, NOT by reference to the countermodel outcome (that would be answer-defined); (2) B14 restated non-circularly; (3) the exchange-symmetry consistency certificate; (4) honest fiber accounting for p_ch (channels → p_ch is many-to-one; the parameter is the fiber).
+
+**Standing:** DoR-013 NOT issued; C31's commission continues into V002 under the V001→V002 repair precedent (Q-207).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
