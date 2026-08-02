@@ -219,5 +219,5 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 383 | Codex 1 | [4a] Diagnosis | RETURNED — Q-301 (H-A localized to C-B; field layer innocent) -> DoR-014 AMENDMENT 1 (derive the pairing, C36) |
 | 384 | Codex 2 | [4a] Derived pairing + Door D | RETURNED — Q-302 (identity FIXED everywhere; U1-reality FAILS — the i is anti-linear-odd; freeze holds) |
-| 385 | Codex 1 | [4a] The involution's own law — reality-law reading before disposition | **LOADED — NOT SENT** |
+| 385 | Codex 1 | [4a] The involution's own law — reality-law reading before disposition | **SENT** |
 *** DoR-015-DEPENDENT WORK FROZEN pending diagnosis + principal disposition (Q-300). ***
