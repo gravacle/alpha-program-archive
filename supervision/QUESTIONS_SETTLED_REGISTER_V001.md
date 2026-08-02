@@ -10282,6 +10282,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-257 — P7's germ-independent core: 6 of 6 PROVED, plus the class-transport lemma; physical discharge waits on P2–P6, after which NO further P7 theorem work remains (2026-08-02, relay 339, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_P7_FINITE_CORE_SEPARATION_T5_COMMUTING_SQUARE_CERTIFICATE_V001.md`, `07205bf5…`, seal verified, mirror byte-identical.
+
+**Proved now (6/6, TYPE-P):** canonical retraction naturality; finite-cylinder density; norm-C* separation; standard-module separation; left-multiplier separation; finite PathCert compatibility.
+
+**The class-transport lemma (the sharp new tool):** an injective RetHess_phys embedding whose physical rho_H,N intertwine with the canonical Π_N FORCES Tail_R = {0}. In words: if the physical response layer, once built, embeds compatibly with the finite restrictions, the physical tail is ZERO — annihilation would come for free from compatibility, no p_loc typing ruling needed on that route.
+
+**The conditional T5 composition theorem:** built from four independently testable conditions (inverse, stationary-reduction, branch/index, retarded-extraction naturality). Once certified P2–P6 satisfy C1–C6, P7 discharges with no further theorem work.
+
+**Scope honesty:** P7 is NOT optional (no selected consumer factors through R_phys_class/Tail_R); ratifying P1 alone does NOT discharge it — P2–P6 must instantiate the physical topology, package, response class, restrictions, preservation certificates, and the T5 bottom leg. Physical Tail_R = {0} vs ≠ 0: NO_VERDICT, correctly.
+
+**Reading:** the theorem side of the deciding subset is now DONE-IN-ADVANCE — P7 is a loaded spring: build P2–P6 on a ratified germ and both the commuting square AND (via the class-transport lemma) tail-annihilation discharge by composition.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
