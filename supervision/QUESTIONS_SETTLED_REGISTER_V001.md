@@ -10572,6 +10572,12 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-277 — P2 V002 issued: the Q-276 sign correction, minimal diff verified (supersession header + the minus sign + one correction note; nothing else) (2026-08-02, relay 360)
+
+**Artifact:** `STAGE8_TASK4A_P2_PHYSICAL_SOURCE_TOPOLOGY_AND_DIFFERENTIAL_CALCULUS_CONSTRUCTION_V002.md`, `40b2af34…`, seal verified, mirror byte-identical. Supersedes V001 (`1339e3ce…`) per Q-276. P2 stands verified-and-corrected; the foundation is clean.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
