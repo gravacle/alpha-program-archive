@@ -10510,6 +10510,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-272 — Germ V004 final confirmation: RATIFICATION-READY. The gauge theorem independently verified; the quotient label is the ORDERED PAIR (r_0, r_ch), both positive on the durable branch; every check intact (2026-08-02, relay 354)
+
+**Artifact:** `STAGE8_SOURCE_GERM_PHYS_V004_FINAL_CONFIRMATION_REVIEW_DETERMINATION_V001.md`, `fc13f4e1…`, seal verified, mirror byte-identical.
+
+**Independent verification of the gauge theorem:** every same-ordered-rank A0 presentation lies in ONE trace-preserving block-unitary orbit; p_A, Z_inc, and all exported Fréchet derivatives (including Reg_D2) are invariant. The E1 precision probe resolved: the label is an ORDERED PAIR — P₀ and P_ch have distinct physical roles, so no rank-permutation gauge. Durable-branch constraint: r_0 > 0 and r_ch > 0.
+
+**Everything else:** all four Q-270 repairs correctly implemented; battery 11/3/0; B5/B6/B9 properly TYPE-U; K_square pinning NO_VERDICT (the arm stays the named future detector); B14, anchor non-selection, and the symbolic p_ch entry path intact.
+
+**The DoR-014 package, in one sentence:** ratification adopts SOURCE_GERM_PHYS V004 — the germ whose ONE parameter is the ordered integer pair (r_0, r_ch), with p_ch's symbolic form forced to the corresponding sector ratio, pinning NO_VERDICT, the neutrality and DoR-008 falsifiers binding — and opens P1 plus the P2/P4 analytic interfaces of the deciding subset.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
