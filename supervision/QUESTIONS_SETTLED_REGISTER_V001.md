@@ -10703,6 +10703,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-287 — The raw-G lift: UNBUILT with the reasons exact — T_cyl is NOT the field layer (wrong signature), the natural bounded route is REFUTED, and the transport's remaining distance has converged onto ONE object: the physical field/spacetime signature (2026-08-02, relay 368)
+
+**Artifact:** `STAGE8_TASK4A_RAW_G_SOURCE_TO_PHYSICAL_FIELD_LIFT_CONSTRUCTION_AND_TCYL_VERDICT_V001.md`, `3ef35b34…`, seal verified, mirror byte-identical.
+
+**What built:** an explicit cylindrical linear-lift SUBFAMILY — with no physical intertwiner selected (family discipline held).
+
+**The two negative results that matter:**
+- The natural unweighted bilocal map has NO bounded extension from P2's trace-class domain into T_cyl (`TYPE-R`) — the cheap route is closed by theorem, not difficulty.
+- **T_cyl lacks the physical field/spacetime signature raw G requires.** The program's derived kinematic continuum is real but is not the field layer; the field layer needs signature structure T_cyl does not carry.
+
+**Status flags:** physical tail creation NO_VERDICT (the door stays shut but unguarded pending the lift); the six accounts are with relay 370.
+
+**Reading — where the whole program now stands:** every thread of the deciding question (the raw-G lift, the background lift fiber, the class-formation door, the four analytic fields) has converged onto the physical field/spacetime layer — the same object family as O-D3's two-step residue and the old beta gap (the internal/external conversion of a record cell). This is the program's genuinely hard object, now reached by the shortest honest path rather than assumed at the start. The fork it presents — AUTHOR the field signature through the gate (the law/origin pattern, a third and largest use) versus DERIVE it from the record surface (the beta-gap attack, never yet run with tonight's machinery) — is a principal's ruling, to be put with 370's ledger in hand.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
