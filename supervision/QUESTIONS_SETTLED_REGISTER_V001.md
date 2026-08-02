@@ -9536,6 +9536,40 @@ D6, AS NARROWED: the JOINT STATE/COVARIANCE CLASS . its COMMON-ORIGIN DESCENT . 
 REDUCTION it supports. A principal physics question -- nothing sealed answers it.
 ```
 
+## Q-224. COVERAGE FAILS — the classes are AXES, not a partition. And two real theorems land anyway.
+
+**Relay 306 (Task 2d, Codex 2).** `STAGE8_TASK2D_STATE_CLASS_STRATUM_FORCING_PROTOCOL_RESULT_V001.md`,
+`8295786789472ccc8d1f50f7bd3347873c39f54b9a5202a6d8a2114b9ff1b60c`, 816 lines. Hash verified,
+fence-clean.
+
+```text
+COVERAGE FAILS: the four proposed classes are *** OVERLAPPING AXES, NOT AN EXHAUSTIVE DISJOINT
+FAMILY. *** Step 5 not executed. STATE_CLASS_REQUIRED = NO_VERDICT.
+NEW OBJECT NAMED: *** MULTIAXIAL_STATE_CLASS_ENVELOPE *** -- separating FACTORIZATION, CUMULANT
+CLOSURE, PROVENANCE, and TEMPORAL ROLE as independent axes.
+-- the reviewer's taxonomy repeated the wrong-structure pattern (a partition expected where the
+reality is a product of axes; the Q-210 layer-mixing error's sibling).
+
+*** THEOREM 1 (TYPE-P | DoR-008): JOINT MULTIPLICATIVE STATES ARE IMPOSSIBLE ON C0_008 --
+restriction to the unital M_3(C) record subalgebra would require a CHARACTER OF M_3(C), WHICH
+CANNOT EXIST. The zero-response state of the fixture test CANNOT LIVE ON THE PHYSICAL CARRIER.
+A genuine structural REQUIRE, free of charge. ***
+
+*** THEOREM 2 (TYPE-R, against the reviewer's constraint (v)): RECORD EXISTENCE DOES NOT EXCLUDE
+PRODUCT PRE-STATES -- "sealed dynamics begins with ready-cell product states and GENERATES
+correlated completed records." CORRELATIONS NEED NOT LIVE IN THE PRE-STATE; THE DYNAMICS MAKES
+THEM. The reviewer's record-existence kill was wrongly aimed at the pre-state stratum. ***
+
+ALSO: multiplicative != product (TYPE-R distinction) . joint quasifree and finitely-correlated
+classes UNBUILT (TYPE-U); finitely-correlated has NO sealed definition (TYPE-S).
+```
+
+*** NET: the class-stratum question STANDS, unanswered for a fixable reason -- the family must be
+rebuilt as the MULTIAXIAL ENVELOPE and the protocol re-run on it, now carrying Theorem 1 as a
+sealed cut (one factorization-axis endpoint is DEAD by structure) and Theorem 2 as a corrected
+constraint (the correlation requirement bites the COMPLETED state, and the pre-state's role runs
+through what dynamics can generate from it). ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
