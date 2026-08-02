@@ -205,5 +205,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 371 | Codex 2 | [4a] RACE derivation arm | RETURNED — Q-290 (SPLIT: four families derive; ten-item residue; unit-modulus mechanism proven) |
 | 373 | Codex 2 | [4a] V002 merge | RETURNED — Q-291 (six authored structures; F5 inherited; seams conditional; reconciliation exact) |
-| 374 | Codex 1 | [4a] ADVERSARIAL REVIEW of V002 — seams first (DoR-015 gate) | **SENT** |
+| 374 | Codex 1 | [4a] V002 review | RETURNED — Q-292 (REPAIR-THEN-READY: S3 endpoint frames; S5 separation; R6 restore) |
+| 375 | Codex 2 | [4a] V003 — rooted frames, visibility quotient, restored intertwiner | **LOADED — NOT SENT** |
 | 372 | Codex 1 | [4a] RACE authored arm | RETURNED — Q-289 (nine fields, openly authored; doors A-C conditional, D open; awaits adjudication) |

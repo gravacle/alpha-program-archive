@@ -10769,6 +10769,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-292 — V002 review: REPAIR-THEN-READY with two TYPE-R findings — open-path transport is an endpoint-fiber map (not scalar holonomy) without frames; A4's path currents need not separate the connection carrier; R6's endpoint intertwiner was dropped (2026-08-02, relay 374)
+
+**Artifact:** `STAGE8_FIELD_SIGNATURE_PHYS_V002_ADVERSARIAL_REVIEW_DETERMINATION_V001.md`, `d11c0ffd…`, seal verified, all mirrors byte-identical.
+
+**Finding 1 (S3, TYPE-R):** on the admitted full A1 family, open-path transport on a general principal U(1) bundle is an ENDPOINT-FIBER MAP, not a canonical scalar holonomy — endpoint frames, a global trivialization, or a groupoid-valued replacement are missing. Blocks applied C_Emb, S7's application, and Door A. **Repair candidate from DERIVED structure: the origin's ROOTED incidence — roots are basepoints; rooted endpoint frames may be exactly what the derivation already supplies.**
+
+**Finding 2 (S5, TYPE-R):** A4's path currents are not a map to individual (μ,x) indices and need not SEPARATE the physical connection carrier — connections differing outside every realized path can share all coordinates. Required: a source-kernel and separation certificate. **Repair candidate from the program's own principle: connections differing outside every realized path are RECORD-INVISIBLE — the OBS-16 move says quotient them as gauge rather than demand separation; the physical carrier is the path-visible quotient.**
+
+**Also:** R6's physical endpoint intertwiner dropped in the reconciliation (restore); S1/S2/S4/S6 conditional passes; F5 removal valid; D0 independently confirmed closed and tail-free; no forbidden completion anywhere.
+
+**Next:** V003 with the three repairs, then re-review, then DoR-015.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
