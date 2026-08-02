@@ -141,6 +141,8 @@ transport, in plan order.
 | 321 | Codex 1 | [2e] Assemble U3 | RETURNED — Q-239 (skeleton exact, instance TYPE-U at 5 fields) |
 | 323 | Codex 1 | [2f] The comparison maps — choice-invariance of the K_square falsifier arm | **SENT** |
 | 322 | Codex 2 | [2d] The two-origins question | RETURNED — Q-240 (no certified origin; reviewer candidate refuted) |
-| 324 | Codex 2 | [2d] Attempt the minimal Omega realization (P5 role) | **LOADED — NOT SENT** |
+| 324 | Codex 2 | [2d] Attempt the minimal Omega realization (P5 role) | **SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
+
+DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap recorded, reconstruction agent running.
