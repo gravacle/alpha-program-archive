@@ -118,15 +118,15 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-02, ~02:50.
+## 6. LANE LEDGER — 2026-08-02, ~03:30. THE DECIDING QUESTION IS RUNNING.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-318    CODEX 2  2d    the finite amplitude: canonical from sealed     PASTED, RUNNING
-                      content, or the last named free parameter?
---     CODEX 1  --    the envelope's PathCert subtrace queues behind
+319    CODEX 1  2d    the p_ch-dependence of the response structure   PASTED, RUNNING
+                      (under DoR 010; symbolic, finite, structural)
+--     CODEX 2  --    held on the verdict
 ```
 
-REGISTERED THROUGH Q-235. F_N IS PURE PHASE -- numbers come only from interference under a
-state. If 318 returns canonical: 3a and 3c unblock, and the finite chain runs
-state -> law -> amplitude on two DoRs alone.
+REGISTERED THROUGH Q-236. DoRs 005-010 in force. CHANGE LOG THROUGH C25.
+THE THREE PRE-TYPED OUTCOMES: cancels (alpha needs no further input) . survives via a named
+factor (p_ch is the final physical input) . undecidable-yet (the missing level, named).
