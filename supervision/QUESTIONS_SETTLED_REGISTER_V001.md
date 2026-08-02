@@ -10731,6 +10731,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-289 — The authored arm: FIELD_SIGNATURE_PHYS V001 complete — nine fields, openly authored (a smooth locally covariant 3+1 Lorentzian background family + incidence realization, claiming NO derivation); class-formation audit clean; door D open pending the physical raw-G image (2026-08-02, relay 372)
+
+**Artifact:** `STAGE8_FIELD_SIGNATURE_PHYS_ADOPTION_PROPOSAL_V001.md`, `d2d88dc5…`, seal verified, all three mirrors byte-identical. Nothing TYPE-P; DoR-015 reserved (`TYPE-C`: the derivation race and the adversarial review are not adjudicated).
+
+**The draft's shape:** seven newly authored structures + the inherited U1/CTP extension + one governance wrapper. It authors what the corpus was proven not to contain and SAYS SO — no derivation claim anywhere; the honesty boundary that killed earlier drafts is respected from the start.
+
+**The door audit (Q-288's flags, filled):** no weak-star, bidual, or distributional completion anywhere in the proposal; doors A–C close CONDITIONALLY at proposal level; door D (the physical raw-G image/quotient/restriction maps) remains NO_VERDICT — the one door that can only be judged when the lift actually runs. The raw-G bounded-extension rerun is POSED, not executed.
+
+**Status:** the race's authored arm is at the line. Adjudication waits on the derivation arm (relay 371, in flight): the derived components against the nine authored fields — whatever derives is subtracted from what ratification would adopt; the residue is what DoR-015 would knowingly author.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
