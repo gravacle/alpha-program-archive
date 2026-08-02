@@ -151,7 +151,7 @@ transport, in plan order.
 | 326 | Codex 2 | [2f] X_K attempt | RETURNED — Q-244 (proxy passes, restriction missing; six-component package specified) |
 | 328 | Codex 2 | [2f] Restriction package | RETURNED — Q-246 (unbuildable from ratified signature; functor required) |
 | 330 | Codex 2 | [2f] Functor adoption proposal | RETURNED — Q-248 (lens survives, source rule unstateable; NO DoR-012, lens banked, 2f capped) |
-| 332 | Codex 2 | [4a] The background channel — evaluation point p_ch-dependence and forcing | **RE-LOADED — NOT SENT** (first paste never landed) |
+| 332 | Codex 2 | [4a] The background channel — evaluation point p_ch-dependence and forcing | **SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
 
