@@ -372,6 +372,12 @@ custody per LOCKED_PROCESS.md.
                 review; DoR-013 RESERVED for ratification. Relay 338. Also tests the
                 germ = Gen_Omega identification (Q-242). The D6/law pattern, second use.
                                                                                SURFACED: yes
+2026-08-02  C31 Q-256 ruling: Gen_Omega COMMISSIONED -- the program's ONE remaining authored
+                object (germ V001 killed at B14; germ requires and can consume Gen_Omega).
+                Drafted through the full gate: constraint battery + Q-242's two-state
+                countermodel as MANDATORY kill-test + no target-tuning; DoR-013 RESERVED.
+                Relay 340. On ratification: germ V002, deciding subset, AND P5 witness.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
