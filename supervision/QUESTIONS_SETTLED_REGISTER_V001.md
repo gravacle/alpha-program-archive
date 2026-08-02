@@ -10995,6 +10995,18 @@ All six checks independent and clean; the complement's NO_VERDICT scope confirme
 
 ---
 
+## Q-310 — The CTP-to-cycle identity REFUTED (four carriers, not three; CTP closure ≠ incidence closure by exact boundary computation) — and one more zero LIFTS: β_N(k,r) = 0 on ker L, p-free, extending to the completed kernel in the P2 norm. The last object: an orientation-bearing intertwiner (2026-08-02, relay 392)
+
+**Artifact:** `STAGE8_TASK4A_CYCLE_KERNEL_RESPONSE_AND_2PI_DESCENT_BRIDGE_DETERMINATION_V001.md`, `a4a4f4e7…`, seal verified, both mirrors byte-identical.
+
+**The refutation (TYPE-R, exact):** FOUR typed carriers — Z_law,N (relative history), V005's graph-cycle Φ_c, the separate composition-loop phase, and the probe R. On K_square: ∂₁(1,1,1,1) = (−2,0,0,2) while ∂₁(1,−1,1,−1) = (0,0,0,0) — **CTP closure does not supply incidence closure.** The definitional shortcut is dead; the connection is a genuine orientation-bearing intertwiner, unbuilt.
+
+**The lifted zero (the quiet prize):** β_N(k,r) = D²W_N[(k,0),(0,r)] = 0 for k ∈ ker L — p-free, and it EXTENDS TO THE COMPLETED SOURCE KERNEL in the P2 norm. The first finite kernel-sector zero to survive completion by proof. It does not yet instantiate physical 2PI dynamics — the honest boundary.
+
+**The named last object:** CTP_RELATIVE_HISTORY_TO_INCIDENCE_CYCLE_DYNAMICS_INTERTWINER. **And the program now owns its natural source:** DoR-013's origin GENERATES BOTH CARRIERS — the preparation channel yields the relative-history side, the rooted signed-incidence realization yields the incidence side, from ONE primitive stratum. The intertwiner should be the origin's own descent-compatibility square (the common-input and covariance certificates of Q-242/DoR-013 are exactly the material) — the P5 witness earning its keep on the verdict's critical path.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
