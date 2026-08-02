@@ -199,4 +199,4 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 366 | Codex 2 | [4a] P5 maximal chain | RETURNED — Q-284 (retarded image p-clean on everything built; stops at the raw-G lift; six objects remain) |
 
-| 368 | Codex 2 | [4a] The raw-G lift (source → field; T_cyl candidate) | **LOADED — NOT SENT** |
+| 368 | Codex 2 | [4a] The raw-G lift (source → field; T_cyl candidate) | **SENT** |
