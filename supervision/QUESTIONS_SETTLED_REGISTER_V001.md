@@ -10650,6 +10650,19 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-283 — Candidate W splits: W_free (authored tail) is EXCLUDED TYPE-P by the battery; W_gen (common-origin GENERATED tail action) remains admissible but TYPE-U; the typing is NOT forced to F — and the surviving W must thread a tail-free source layer (2026-08-02, relay 365)
+
+**Artifact:** `STAGE8_TASK4A_P_LOC_CANDIDATE_W_BATTERY_AND_CONSUMPTION_TYPING_DETERMINATION_V001.md`, `5582cb14…`, seal verified, mirror byte-identical.
+
+**The determination:**
+- **W_free — an independently AUTHORED ℓ_tail — is excluded TYPE-P** (DoR-008 + B13/B14: finite restrictions cannot detect it, and the battery rejects unsupported authorship of exactly that kind). The dangerous version is dead by derivation, not by taste.
+- **W_gen — a frozen, common-origin, provenance-certified tail action — remains ADMISSIBLE but TYPE-U:** it would require P5/P6, the physical Tail_ind, a GENERATED ℓ_tail, and all B1–B14 certificates. B13/B14 expressly permit this form.
+- Therefore `P_LOC_FORCED_TO_CANDIDATE_F = false | TYPE-R` (Q-255's "effectively battery-dead" reading refuted at class level); `B_IND_TAIL_BLIND_BY_TYPING = NO_VERDICT`. Gate: `W_SURVIVES_ONLY_AS_COMMON_ORIGIN_GENERATED_FORM`.
+
+**The needle W_gen must thread (the next theorem, set up by tonight's own results):** any GENERATED tail action must arise from the ratified origin — whose outputs are finite-visible (Q-260's A7) — through the source layer, where **Tail_src = {0} by construction (Q-273)**. So W_gen exists only if some admissible chain operation CREATES response-level tail content from tail-free input. That is precisely a question the Q-282 accounting rows answer (which operations have image intersecting Tail_R) — and if no admissible operation creates tail content, **W_gen is EMPTY and F is forced after all, by the generation route rather than the battery route.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
