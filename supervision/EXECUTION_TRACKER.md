@@ -143,13 +143,14 @@ transport, in plan order.
 | 325 | Codex 1 | [4a] Transport map | RETURNED — Q-243 (finite retarded block p_ch-FREE, derived; deciding question localized to the completion arrow) |
 | 327 | Codex 1 | [4a] Completion arrow | RETURNED — Q-245 (finite restrictions forced p_ch-free; re-entry = tail or background) |
 | 329 | Codex 1 | [4a] Separation theorem | RETURNED — Q-247 (holds on ratified classes, fails on bidual; typing question remains) |
-| 331 | Codex 1 | [4a] The response-class determination (typing audit of the sealed chain) | **SENT** |
+| 331 | Codex 1 | [4a] Response-class audit | RETURNED — Q-249 (UNTYPED by sealed text; covector can't feed tail directly) |
+| 333 | Codex 1 | [4a] Derive the response class (forcing theorem / tail-inertness) | **LOADED — NOT SENT** |
 | 322 | Codex 2 | [2d] The two-origins question | RETURNED — Q-240 (no certified origin; reviewer candidate refuted) |
 | 324 | Codex 2 | [2d] Omega realization | RETURNED — Q-242 (RELABELING; enrichment = Gen_Omega generative rule) |
 | 326 | Codex 2 | [2f] X_K attempt | RETURNED — Q-244 (proxy passes, restriction missing; six-component package specified) |
 | 328 | Codex 2 | [2f] Restriction package | RETURNED — Q-246 (unbuildable from ratified signature; functor required) |
 | 330 | Codex 2 | [2f] Functor adoption proposal | RETURNED — Q-248 (lens survives, source rule unstateable; NO DoR-012, lens banked, 2f capped) |
-| 332 | Codex 2 | [4a] The background channel — evaluation point p_ch-dependence and forcing | **LOADED — NOT SENT** |
+| 332 | Codex 2 | [4a] The background channel — evaluation point p_ch-dependence and forcing | **SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
 
