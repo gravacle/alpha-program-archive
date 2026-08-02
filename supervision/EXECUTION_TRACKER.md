@@ -118,14 +118,14 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-01, ~20:50.
+## 6. LANE LEDGER — 2026-08-01, ~21:30.
 
 ```text
 RELAY  LANE     TASK  QUESTION                                        STATE
-306    CODEX 2  2d    force the STATE-CLASS stratum                   PASTED, RUNNING
---     CODEX 1  --    free; held on 306 (the covariance question follows its verdict)
+307    CODEX 1  2d    the multiaxial envelope, protocol re-run        PASTED, RUNNING
+--     CODEX 2  --    held on 307's verdict
 ```
 
-D6 RULED (principal): TEST THE CLASS STRATUM BEFORE AUTHORING. The allow/require ladder:
-functionals ALLOWED (Q-219) -> classes UNDER TEST -> the covariance, then the fixed point,
-above. REGISTERED THROUGH Q-223. CHANGE LOG THROUGH C18.
+REGISTERED THROUGH Q-224. Sealed cuts carried into 307: joint-multiplicative is IMPOSSIBLE on
+the carrier (no character of M_3(C)); the correlation constraint bites the COMPLETED state via
+dynamics. D6 stays unposed until the class stratum answers honestly.
