@@ -10480,6 +10480,24 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-270 — Germ V003 confirmation: REPAIR-THEN-READY with four bounded honesty repairs; no wider sealed detector pins A0 — but the pinning verdict is NO_VERDICT overall, not TYPE-R, because the K_square arm is unexecutable (2026-08-02, relay 352)
+
+**Artifact:** `STAGE8_SOURCE_GERM_PHYS_V003_CONFIRMATION_REVIEW_DETERMINATION_V001.md`, `92bfe577…`, seal verified, mirror byte-identical.
+
+**The wide sweep:** no wider sealed finite result pins A0 — the Q-269 refutation stands on every EXECUTABLE arm. But the review caught the over-claim: **full DoR-008 pinning is NO_VERDICT, not TYPE-R**, because the K_square arm remains unexecutable (the 2f cap, C29). The connection now matters forward: **if the K_square arm ever executes, it is a live candidate detector for A0's ranks** — the banked lens and the arm's missing restriction package have acquired a second reason to exist.
+
+**The four bounded repairs (V004):**
+1. Pinning verdict restated: refuted on executable scalar tests; NO_VERDICT overall (K_square arm excluded explicitly).
+2. B5/B6/B9 retyped TYPE-U (they were carrying TYPE-R marks — the anti-deflation clause runs both directions).
+3. "Passes all finite restrictions" claims scoped to exclude the unresolved arm.
+4. **The discrete-freedom claim needs its gauge theorem:** same-rank A0 presentations require an explicit trace-preserving unitary quotient before the residual freedom can be called integer rank data alone. (Q-269's categorical narrowing is CONDITIONAL on this quotient until proven.)
+
+**Otherwise:** both Q-268 repairs verified; the missing rank-pinning package confirmed absent AND correctly require-shaped; battery 11/3/0.
+
+**Status:** V004 with the four repairs, then confirmation, then DoR-014 with A0-as-parameter (NO_VERDICT on pinning) stated.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
