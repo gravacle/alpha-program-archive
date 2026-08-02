@@ -10913,6 +10913,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-303 — The reality-law determination: candidate (d) PROVED — the current clauses are genuinely incompatible. The parity table decides everything: exponent slot Θ-EVEN, W/Hessian Θ-ODD, iℏ·L⊗L Θ-ODD — Amendment 1 inserted output parity into a source-even slot (2026-08-02, relay 385)
+
+**Artifact:** `STAGE8_TASK4A_RATIFIED_BILOCAL_INVOLUTION_REALITY_LAW_DETERMINATION_V001.md`, `323852e8…`, seal verified, all copies byte-identical.
+
+**The sealed law:** Q_(−n)(Θ_R R) = conj(Q_n(R)), slotwise; slot exchange is the separate τ_R. All cheap fixes REFUTED: sesquilinear not required; no omitted swap in the executed test; argument exchange equivalent (symmetric pairing) and non-repairing; no sealed involution-odd normalizer exists, and one wouldn't preserve the identity anyway.
+
+**The parity table (the decider):** finite amplitude/exponent = Θ-EVEN; W and its Hessian = Θ-ODD; iℏ·L⊗L = Θ-ODD. **Amendment 1's defect precisely: an output-Hessian-parity tensor placed in an exponent slot requiring source-even parity.**
+
+**PROVABLE:** at least one current clause must be superseded (`CURRENT_RATIFIED_CLAUSES_JOINTLY_COMPATIBLE = false | TYPE-R`). **YOURS (the principal's):** which clause — (1) U1 source parity; (2) Amendment 1's normalization; (3) an explicitly authored odd line; (4) the source/output tensor identification.
+
+**The reviewer's reading for the ruling (from the table itself):** the i is the parity carrier, and it ALREADY lives on the output side — W = −iℏ·Log Z is the W-convention of record. Option (2) as a derived repair: b := ℏ·L⊗L in the source slot (Θ-even, fits), with the identity D_J Ā = (i/ℏ)G still holding because ITS i comes from W's own definition. No new authorship; the i migrates to where the convention already owns it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
