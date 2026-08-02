@@ -11086,6 +11086,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-317 — The geometric-locus test: THE GEOMETRY ASSEMBLES (REC_GEOM_DIAG_399 — one canonical family-wide object) but does NOT canonically induce the functional; the program's entire residue consolidates into ONE seam: the COMPLETED PHYSICAL LEGENDRE PAIRING AND ACTION MAP (2026-08-02, relay 399)
+
+**Artifact:** `STAGE8_TASK4A_COMPLETED_RECORD_GEOMETRY_GEOMETRIC_LOCUS_CANONICAL_FUNCTIONAL_TEST_V001.md`, `cd29b21b…`, seal verified, mirror byte-identical.
+
+**Step 1 SUCCEEDED:** the completed record geometry assembles canonically as ONE typed diagram — REC_GEOM_DIAG_399 — family-wide, from the ratified constituents. The principal's one-object reframe is now a built object.
+
+**Step 2 STOPPED at the named seam:** the diagram does not canonically induce Θ_phys or Γ_2PI. The first missing arrow: **COMPLETED_PHYSICAL_LEGENDRE_PAIRING_AND_ACTION_MAP** — the physical (Ā,G) tangent/duality structure, scalar pairing, measure, contour, boundary/contact data, common domain, and the completed Legendre map. Diagram assembly cannot manufacture that arrow — and note what this seam IS: every previously-missing object of the season (the four analytic fields, the tangent carriers, the domain, the pullback/solution map) packaged as ONE arrow. The residue has stopped scattering.
+
+**Honest boundaries kept:** Q-252 cannot supply existence (completeness does not force critical points); any future locus must restrict to Q-279's NONSTATIONARY finite data. All locus/background/verdict flags NO_VERDICT.
+
+**Reading:** the program's remaining physics is one arrow: the action structure — where the adopted amplitude-side six finally become a dynamics. It is the fourth and last commissioning-shaped object (law → origin → signature → ACTION). The fork (derive from the assembled diagram vs author through the gate vs the race) is the principal's.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
