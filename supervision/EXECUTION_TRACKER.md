@@ -217,5 +217,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 378 | Codex 1 | [4a] Subpackage verification | RETURNED — Q-295 (CONFIRMED_WITH_NOTES; the whole stack under P5 now verified) |
 
-| 383 | Codex 1 | [4a] DOOR-D DIAGNOSIS — defective adoption or mis-specified check | **SENT** |
+| 383 | Codex 1 | [4a] Diagnosis | RETURNED — Q-301 (H-A localized to C-B; field layer innocent) -> DoR-014 AMENDMENT 1 (derive the pairing, C36) |
+| 384 | Codex 2 | [4a] Execute the derived pairing + Door D re-run | **LOADED — NOT SENT** |
 *** DoR-015-DEPENDENT WORK FROZEN pending diagnosis + principal disposition (Q-300). ***

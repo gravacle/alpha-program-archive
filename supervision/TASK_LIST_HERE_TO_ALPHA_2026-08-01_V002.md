@@ -410,6 +410,14 @@ custody per LOCKED_PROCESS.md.
                 THE FIELD LAYER EXISTS. The verdict chain's execution opens: raw-G rerun,
                 lift, background fiber, consumption signature, THE TRANSPORT. ***
                                                                                SURFACED: yes
+2026-08-02  C36 DOOR D FIRED AND WAS DISPOSED: the raw-G identity failed in execution
+                (Q-300); diagnosis localized it to DoR-014 Choice C-B, whose own void
+                condition fired (Q-301) -- the field layer, quotient, and currents are
+                INNOCENT. Principal's ruling (the allow/require reading is his): the
+                pairing is a REQUIRE, not an allow -- C-B replaced by the DERIVED pairing
+                b := i hbar L(x)L (DoR-014 AMENDMENT 1). Relay 384 executes the
+                derivation; Door D re-runs; the freeze lifts on PASS. One fewer authored
+                field.                                                         SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
