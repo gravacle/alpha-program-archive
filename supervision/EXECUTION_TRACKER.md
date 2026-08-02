@@ -236,6 +236,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 396 | Codex 1 | [4a] Both audits | RETURNED — Q-314 (STATIONARITY_REQUIRED by v004; synonym count 0; mis-bundle corrected; p_loc background-agnostic) |
 | 397 | Codex 2 | [4a] Build i | RETURNED — Q-315 (squares built, Tail_raw={0}; tangent-level residue waits on build ii) |
 | 398 | Codex 1 | [4a] Build ii | RETURNED — Q-316 (SHARP STOP; missing pullback/solution map; the principal's locus reframe registered) |
-| 399 | Codex 2 | [4a] THE GEOMETRIC-LOCUS TEST — the principal's reframe executed | **LOADED — NOT SENT** |
+| 399 | Codex 2 | [4a] THE GEOMETRIC-LOCUS TEST — the principal's reframe executed | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
