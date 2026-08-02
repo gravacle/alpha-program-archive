@@ -181,8 +181,8 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 | 354 | Codex 1 | [4a] V004 final confirmation | RETURNED — Q-272 (READY; label = ordered pair; DoR-014 RATIFIED, C33) |
 | 355 | Codex 2 | [4a] P2 | RETURNED — Q-273 (BUILT; Tail_src = {0} by construction; P3/P4/P5 interfaces open) |
 | 356 | Codex 1 | [4a] P4 | RETURNED — Q-274 (BUILT; zeros located; sign corrected; retarded block zero & rank-free through the log) |
-| 358 | Codex 1 | [4a] CROSS-VERIFY P2 (the foundation) | WRITTEN — QUEUED behind 357 |
+| 358 | Codex 1 | [4a] CROSS-VERIFY P2 (the foundation) | **LOADED — NOT SENT** |
 
 Codex 2 HOLDS for 345's return (the race decides the next draft).
 
-| 357 | Codex 2 | [4a] BUILD P3 — complete U3 | **RE-LOADED — NOT SENT** (first paste never landed) |
+| 357 | Codex 2 | [4a] BUILD P3 — complete U3 | **SENT** |
