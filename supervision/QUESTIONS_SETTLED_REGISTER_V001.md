@@ -10522,6 +10522,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-273 — P2 BUILT on the ratified germ: discrete-character × (ℓ¹⊕ℓ¹⊕trace-class) topology with full Fréchet calculus; finite sources a dense core; THE MOVING TAIL HAS NO LIMIT IN THIS TOPOLOGY — Tail_src = {0} by construction (2026-08-02, relay 355)
+
+**Artifact:** `STAGE8_TASK4A_P2_PHYSICAL_SOURCE_TOPOLOGY_AND_DIFFERENTIAL_CALCULUS_CONSTRUCTION_V001.md`, `1339e3ce…`, seal verified, mirror byte-identical. TYPE-P | premises: DoR-008/009/013/014.
+
+**The construction:** topology_src = discrete character topology × the ℓ¹ ⊕ ℓ¹ ⊕ trace-class Banach norm topology; Diff_src = complex Fréchet calculus through first, second, mixed, and higher derivatives. Finite sources form a DENSE CORE; restrictions are contractive; differentiation COMMUTES with restriction (the property the transport chain needs).
+
+**The tail result:** Q-245's moving tail has NO limit in this topology — **Tail_src = Tail_germ = {0}**: at the source and germ levels the tail is excluded by construction, not by ruling. Physical Tail_R (P5's object) remains NO_VERDICT, correctly — the response layer is not yet built.
+
+**Discipline:** no rank value, measure, contour, or response class selected. **P3 and the analytic P4/P5 source interfaces are now open.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
