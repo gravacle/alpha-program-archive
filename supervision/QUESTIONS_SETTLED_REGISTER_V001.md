@@ -9702,6 +9702,42 @@ EXACTLY WHERE THE FORCING PROTOCOL HAS SUCCEEDED (Q-205). IT RUNS BEFORE ANY AUT
 POSED. And the n = +/-1 pair is charge conjugation's fingerprint -- whether a sealed
 CPT/reality convention identifies the two is precisely a protocol constraint, not a guess. ***
 
+## Q-229. The "eight cells" REFUTED (reviewer overclaim) — and the true bottom is reached: the coupling placement IS part of the unbuilt dynamics law.
+
+**Relay 311 (Task 2d, Codex 1).**
+`STAGE8_TASK2D_FINITE_COUPLING_FAMILY_FORCING_PROTOCOL_RESULT_V001.md`,
+`92c821001268a57b638fa42639dbed3926ecfc439ba5f3479182bcab9b152351`, 686 lines. Hash verified,
+fence-clean. MACHINERY_APPEAL = NOT_TRIGGERED.
+
+```text
+THE CENSUS DIES: Q-228's producer said "AT LEAST four, no exhaustive grammar" -- the reviewer
+converted that to "at most 4 x 2 = 8." REFUTED: the record-write placement is an OPEN CLASS
+(S_post, S_pre, S_conj distinct at generic holonomy, all reducing to the sealed write at A=0),
+and an explicit FIFTH contact-term class exists. (Reviewer overclaim; the scorecard grows.)
+
+WHAT THE RUN STILL KILLED AND SETTLED:
+  history-independent baseline: INSTANTIATED, THEN ELIMINATED by charge/flux access --
+     *** the origin table's REQUIRED side made its first clean kill at this stratum ***
+  incidence-line placement: wrong carrier for U_N (a stripped fixture) -- out
+  n = +1 vs -1: orientation/CPT-RELATED, but NOT identified on one fixed oriented history
+  actual-source placement: TYPE-U -- *** "the physical parent unbuilt" ***
+SURVIVOR COUNT: NO_VERDICT -- step 1 cannot declare an exhaustive family.
+```
+
+### The honest bottom, precisely stated
+
+*** WHERE THE CONNECTION ENTERS THE RECORD TRANSITION IS NOT A DECORATION CHOICE ON A FIXED
+DYNAMICS -- IT IS PART OF THE DYNAMICS ITSELF. THE FAMILY CANNOT EVEN BE DECLARED WITHOUT THE
+LAW. After eleven strata-and-family attempts (Q-219 -> Q-229), THE PROGRAM'S ENTIRE REMAINING
+PHYSICS GAP IS ONE OBJECT: **THE SOURCE-COUPLED RECORD-TRANSITION LAW** -- how the exact finite
+record transition depends on the gauge/source background. Everything else is built, forced, or
+typed. AND THE LAW ARRIVES INTO AN EXTRAORDINARY CONSTRAINT BATTERY, ALL SEALED: the A = 0
+reduction to the exact sealed write . I_N = delta at equal histories . charge dephasing
+persistence . gauge covariance . charge/flux ACCESS (a proven killer) . the one-cell finite
+authority . sequential N <= M compatibility . faithfulness (n = +/-1) . and, downstream, the
+four planes and the falsifier. AUTHORING IT THROUGH THE GATE, WITH EVERY CONSTRAINT AS A
+CERTIFICATE, IS D6's TRUE AND FINAL FORM. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
