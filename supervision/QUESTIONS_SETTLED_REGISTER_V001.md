@@ -10362,6 +10362,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-262 — Gen_Ω V002: the repair holds at draft level — uniform input-faithfulness on equal-trace charge-superselected differences + a finite operational certificate; replacement channels excluded, family nonempty; battery 11/3/0; review pending (2026-08-02, relay 344)
+
+**Artifact:** `STAGE8_GEN_OMEGA_GENERATIVE_ORIGIN_RULE_ADOPTION_PROPOSAL_V002.md`, `479cfb89…`, seal verified, mirror byte-identical. PROPOSED_NOT_ADOPTED; DoR-013 reserved; independent (cross-lane) review pending.
+
+**The repaired condition (the physics of "genuinely generative"):** uniform input-faithfulness on equal-trace charge-superselected differences, PLUS a finite operational certificate — the faithfulness is certified by finite means, keeping the origin inside finite authority.
+
+**Claims (draft-level, to be attacked by the review):**
+- Every replacement channel R_ρ excluded; the repaired family DEMONSTRABLY NONEMPTY; Q-242's replacement countermodel no longer kills.
+- Ready/pointer exchange repaired as an explicit TWO-MEMBER ORIENTATION FAMILY — the DoR-009 shape (E_post vs E_conj); a principal's orientation ruling will likely be part of ratification.
+- State selection remains OPEN: the κ_ch fibers are many-to-one — the physical parameter is still the fiber invariant, honestly carried from Q-260's A6.
+- Q-254 battery: 11 pass, 3 downstream-conditional, 0 fail.
+
+**Standing:** the no-go attempt (relay 345, other lane, uncoordinated) is still out. If it returns "no-go fails at a named condition," V002 gains an existence benchmark; if it returns "no-go proved," V002 is dead regardless of its own claims and the two artifacts go head-to-head at the source level. Sequencing: 345's return → adversarial review of V002 (Codex 1) → DoR-013 to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
