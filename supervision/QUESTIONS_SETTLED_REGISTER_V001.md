@@ -10203,6 +10203,23 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-252 — The background channel: no finite stationary point exists for any p_ch in (0,1); a = 0 evaluation is NOT forced (C1 is a reduction certificate, not an evaluation rule); the physical background pair (Ābar_*, G_*) is unbuilt and its p_ch dependence stays open (2026-08-02, relay 332, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_BACKGROUND_CHANNEL_STATIONARY_EVALUATION_POINT_DETERMINATION_V001.md`, `7cefd2c2…`, seal verified, mirror byte-identical.
+
+**The finite computation (exact, TYPE-R both ways):** the finite relative-phase functional has NO stationary point for 0 < p_ch < 1 — neither a = 0 nor any a*(p_ch) is stationary (`FINITE_ZERO_HISTORY_IS_STATIONARY = false`; `FINITE_STATIONARY_POINT_A_STAR_OF_P_EXISTS = false`). The naive channel-(b) mechanism (a p_ch-shifted finite stationary point) does not exist. What IS proven: the pullback stationary set equals the critical set of Θ (`TYPE-P`) — but the physical pullback map is uninstantiated.
+
+**The forcing disambiguation (the relay's central question, answered):**
+- `C1_IS_ZERO_SOURCE_OPERATOR_REDUCTION = true | TYPE-P` — but `C1_IMPLIES_ZERO_IS_STATIONARY = false | TYPE-R` and `C1_SELECTS_PHYSICAL_RESPONSE_BACKGROUND = false | TYPE-R`. **C1 certifies an operator identity at zero source; it is NOT an evaluation rule.** Evaluation at zero connection is NOT forced (`TYPE-R`).
+- Three distinct zeros properly separated: A_δ = 0 (difference source), J = R = 0 (probe sources), zero connection history — conflating them was the trap and the artifact refuses it.
+- No sealed CTP text selects a stationary history (`TYPE-S`); the Thomson text does NOT force the finite C1 background (`TYPE-R`) and the complete Thomson functional is uninstantiated (`TYPE-U`).
+
+**Verdict:** outcome (iii) — the physical response surface is PARTLY fixed, the common background VALUE is not. `PHYSICAL_COMMON_BACKGROUND_INSTANTIATED = false | TYPE-U`; its p_ch dependence and the background re-entry both NO_VERDICT.
+
+**Reading:** the background channel neither closes nor fires — it lands in the same place as the tail channel (Q-251): the missing physical layer. Both halves of the deciding question now bottom out in ONE unbuilt stratum: backgrounds, consumption specifications, restriction maps, class package, five fields. Convergence, not scatter.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
