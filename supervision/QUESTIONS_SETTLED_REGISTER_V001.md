@@ -10062,6 +10062,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-243 — The transport map, first construction: at finite level the retarded block is p_ch-FREE by derived projection; the coherent p_ch survives elsewhere; the complete ΔΦ verdict stays open at one named arrow (2026-08-01, relay 325, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_FINITE_HESSIAN_TO_DELTAPHI_TRANSPORT_MAP_CONSTRUCTION_AND_P_CH_TRACE_V001.md`, `70185aa8…`, seal verified, mirror byte-identical. All positives `TYPE-P | DoR-008, DoR-009, DoR-011`.
+
+**The derived structure (the partial answer to the deciding question):**
+- The exact finite Keldysh rotation was DERIVED (not assumed): T_CTP^T [[1,−1],[−1,1]] T_CTP = [[0,0],[0,1]]. The finite Hessian is purely difference/difference noise, and **its retarded (δ,c) block is ZERO — the p_ch(1−p_ch) noise factor is PROJECTED OUT of the finite retarded block** (`FINITE_NOISE_FACTOR_SURVIVES_FINITE_RETARDED_PROJECTION = false | TYPE-R`).
+- The kill-passes certify the projection is structural, not manufactured: no p_ch-carrying quantity divided out, no target-chosen normalization, no assumed retarded conversion (all `false | TYPE-R`).
+- **The coherent p_ch survives** in the difference one-point block (`…REMOVED_BY_KELDYSH_ROTATION = false | TYPE-R`) — but that block is NOT an input to the retarded Hessian (`TYPE-R`).
+- Honesty flags: the finite Hessian is NOT itself the raw physical correlator (`TYPE-R`), and the finite d/d component CANNOT supply the retarded Hessian by sealed block extraction — the physical retarded response needs the completed correlator, not the finite block alone.
+
+**What stays open:** `COMPLETE_PHYSICAL_RETHESS_P_CH_DEPENDENCE = NO_VERDICT`; `DELTAPHI_P_CH_DEPENDENCE = NO_VERDICT`. The physical transport map is not total (`TYPE-U`). **The first missing arrow is named:** the finite scalar/source functional → the completed raw bilocal correlator + the physical common/difference source family. Behind it: the five Q-239 fields, the physical response construction, X_K (correctly not supplied here, `TYPE-C`), and the response-to-phase map.
+
+**Reading:** the finite level now says: nothing in the finite retarded structure carries p_ch. If the completed correlator preserves that block structure, p_ch cancels in ΔΦ; if completion re-injects the one-point coherent block, it survives. The deciding question is now localized to ONE arrow — the completion of the correlator — and that arrow is where the five continuum fields actually bite.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
