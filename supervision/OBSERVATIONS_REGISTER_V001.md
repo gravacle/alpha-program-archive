@@ -657,3 +657,17 @@ FALSIFIER: one forced state-datum not derived through a transition-fact kills th
 CAUTION, on the record: the principal's tree/loop identification (Q-174) and two reviewer pattern
 claims (Q-176, Q-183) died on this exact terrain. Difference here: the criterion is not a proxy
 (graph topology) but the corpus's own forced/free inventory. Still: FRAMING UNDER TEST, not law.
+
+---
+
+## OBS-16 — The origin is allow/require replayed: only the transition's REQUIRES can force the origin state; allow-shaped generation contributes only gauge (principal, 2026-08-02, pre-registered)
+
+**The observation (the principal's, prompted by the Gen_Ω death pattern):** Gen_Ω's three deaths (Q-242 bundling, Q-260 replacement channels, Q-264 affine witnesses) are one failure: ALLOW-shaped structures (families, permissions) asked to FORCE a state. Q-263's anchor result is the boundary theorem at the origin: only orbit-collapsing (require-shaped) structure kills the state freedom. Therefore:
+
+1. Gen_Ω's viable form is THE REQUIRES OF THE RATIFIED TRANSITION STRUCTURE acting on the origin (candidates: the record channel's unitality P₀+P_ch = I, the pure-phase dynamics F_N†F_N = I, charge/flux access — the program's one require). d_state, if it exists, is a uniqueness theorem, not a production mechanism.
+2. Allow-shaped components of any origin draft contribute only GAUGE — record-invisible freedom, unphysical by finite authority.
+3. The origin's physical residue is exactly the RECORD-VISIBLE quotient — per Q-236, essentially p_ch. The ratification fork, in this vocabulary: p_ch is inside the required part (forced) or it is the one allowed number (the program's single input).
+
+**Falsifier (pre-registered):** a Gen_Ω draft that RATIFIES (survives the full gate) whose forcing content requires a state-side primitive that NO transition requirement pins — i.e., a genuine require at the origin that is not transition-derived — kills this observation.
+
+**Status:** OPEN. Relay 347 (anchor-forcing search) is its first test.
