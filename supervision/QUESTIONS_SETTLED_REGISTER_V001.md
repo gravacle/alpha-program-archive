@@ -10963,6 +10963,14 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-307 — The freeze-lift CONFIRMED by independent cross-verification: N's uniqueness re-derived, Door D re-run (all four PASS), G⁰⁰⁷ and both finite restrictions match exactly, the retarded shadow zero and p-free, the honest stop verified (2026-08-02, relay 389)
+
+**Artifact:** `STAGE8_TASK4A_N_UNIQUENESS_GERM_V007_AND_FULL_DOOR_D_CROSS_VERIFICATION_V001.md`, `6e36bf05…`, seal verified, both mirrors byte-identical.
+
+All six checks independent and clean; the complement's NO_VERDICT scope confirmed uninstalled and unconsumed. The verified stack now runs from P2 through germ V007 and the Door-D pass — every layer cross-checked by the non-building lane. The only remaining construction is with relay 390, in flight: the inverse/Schur, the domains, RetHess_phys, and the p-verdict.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
