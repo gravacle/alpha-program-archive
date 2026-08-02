@@ -671,3 +671,18 @@ claims (Q-176, Q-183) died on this exact terrain. Difference here: the criterion
 **Falsifier (pre-registered):** a Gen_Ω draft that RATIFIES (survives the full gate) whose forcing content requires a state-side primitive that NO transition requirement pins — i.e., a genuine require at the origin that is not transition-derived — kills this observation.
 
 **Status:** OPEN. Relay 347 (anchor-forcing search) is its first test.
+
+---
+
+## OBS-17 — The alpha computation as the EM/GR separator: the derivable/authored provenance split IS the EM/GR emergence split (principal, 2026-08-02, pre-registered)
+
+**The observation (the principal's standing suspicion, now evidenced):** the program pursues alpha because computing it should expose the emergence point for EM and GR. Tonight's field-signature race (Q-289/Q-290) produced the first hard form of that exposure — the derivation split fell on a physical line:
+
+- DERIVES from the record/write structure: incidence, orientation, locality, CTP-reality, the U(1) quotient on relative phases (Q-239), the E_post time-arrow, and the coupling seed p_A = r_ch/(r_0+r_ch) — the PHASE/TOPOLOGY sector. **The EM-side emergence is at the record level, by derivation.**
+- REFUSES to derive (proven mechanism: records are phase-rich, amplitude-poor — unit-modulus structure cannot bound the lift): the amplitude/weight/measure/metric layer — the ten-item authored residue. **The GR-side structure sits at a stratum records alone do not reach** — the beta gap restated as theorem, consistent with the singlet result (no depth-independent gravity/gauge ratio).
+
+**The claim:** the provenance line in the program's own ledger (derived vs knowingly-authored) IS the EM/GR emergence boundary. Alpha's role is the forcing function that made the machinery draw it.
+
+**Falsifier (pre-registered):** (1) any of the ten residue items later DERIVING from record structure alone, or (2) the EM-side chain (the U(1)/phase/p_A line to alpha) turning out to REQUIRE authored amplitude content, breaks the mapping and kills this observation.
+
+**Status:** OPEN. DoR-015's ratification scope is its next test.
