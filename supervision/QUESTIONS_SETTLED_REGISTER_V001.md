@@ -11076,6 +11076,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-316 — Build ii SHARP STOP: the background does not realize from carrier + seed + conditional theorem (the relay's input-completeness premise honestly refuted); the adopted field was consumed family-wide; the missing object named — AND the principal's reframe lands: background formation may not be DISTINCT from the record geometry at all (2026-08-02, relay 398 + the lane's analysis)
+
+**Artifact:** `STAGE8_TASK4A_PHYSICAL_BACKGROUND_REALIZATION_ON_ADOPTED_FIELD_BUILD_ATTEMPT_V001.md`, `a8375af0…`, seal verified, mirrors byte-identical.
+
+**The stop:** `PHYSICAL_BACKGROUND_REALIZATION_BUILT = false | TYPE-U`; my relay's premise refuted (`RELAY_ARE_INPUTS_PRESENT = false | TYPE-R`) — DoR-015 gives the carrier, Q-281 the seed, Q-252 a CONDITIONAL theorem; none supplies the completed pullback/solution map. The adopted field WAS consumed (family-wide codomain BGCarrier_015, no member selected). Missing: COMMON_ORIGIN_COMPLETED_STATIONARY_PULLBACK_AND_SOLUTION_MAP. Also cleaned up: G⁰⁰⁷ is NOT G_* (TYPE-R), and Q-252's finite nonstationarity creates NO tension (the finite functional omits the coupled completed terms — a future background must restrict to the honest nonstationary finite structure).
+
+**The principal's reframe (potentially dissolving the mechanism):** "background formation" may not be a distinct physical step — the corpus holds three differently-typed objects (admissible geometry → stationary locus → realized pair) but has never proven the FIRST arrow, and the separation may be bookkeeping. THE CANDIDATE: **BACKGROUND = the intrinsic stationary/critical locus of the completed record geometry** — if the record geometry, packaged as ONE object WITH its dynamics, canonically induces Θ_phys/Γ_2PI, then Crit(Θ_phys) IS the background family, no forming operation and no selected member needed; consumers act family-wide over the locus. The test is four steps: (1) assemble the completed record geometry as one object (incidence, connection/cycle structure, source maps, dynamics, adopted field); (2) determine whether Θ_phys/Γ_2PI is canonically induced; (3) prove the stationary locus nonempty and natural (restrictions, gauge, no-selection families); (4) test Π_R,ind and the stationary blocks UNIFORM over the locus. On success: `BACKGROUND_IS_DERIVED_GEOMETRIC_LOCUS = true` and the gap collapses structurally; on failure, the failing ingredient names exactly what lies beyond record geometry.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
