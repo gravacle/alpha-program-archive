@@ -175,6 +175,6 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 | 348 | Codex 1 | [4a] V003 review | RETURNED — Q-266 (RATIFICATION-READY; convergence proven; DoR-013 RATIFIED family-level, C32) |
 | 349 | Codex 2 | [4a] Germ V002 | RETURNED — Q-267 (B14 proved family-level; 11/3/0; p_ch path mapped) |
 | 350 | Codex 1 | [4a] Germ V002 review | RETURNED — Q-268 (REPAIR-THEN-READY; descent fiberwise over A0; A0-pinning is the theorem) |
-| 351 | Codex 2 | [4a] Germ V003 — bounded repairs + A0-pinning theorem attempt | **LOADED — NOT SENT** |
+| 351 | Codex 2 | [4a] Germ V003 — bounded repairs + A0-pinning theorem attempt | **SENT** |
 
 Codex 2 HOLDS for 345's return (the race decides the next draft).
