@@ -10901,6 +10901,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-302 — The derived pairing FIXES the identity (cycles AND open paths now PASS) but fails U1-REALITY: b = iℏ·L⊗L transforms with the wrong sign under the ratified anti-linear involution; Door D stays failed on that one subtest; the freeze holds (2026-08-02, relay 384)
+
+**Artifacts:** germ V005 attempt `b3b0a7d8…` and the re-execution determination `365db191…`, seals verified, mirrors byte-identical.
+
+**The progress:** `DOOR_D_SAME_CORRELATOR_IDENTITY = PASS`, cycle subtest PASS, endpoint-covariant subtest PASS — the require-derivation was RIGHT about the pairing's content; C-B's incompatibility is gone.
+
+**The new failure, exact:** `DOOR_D_U1_REALITY = FAIL | TYPE-R` — the derived pairing transforms with the WRONG SIGN under the ratified anti-linear U1 involution; the attempted germ V005 is not U1-real. The visible mechanism: the factor i in b = iℏ·L⊗L is ODD under any anti-linear map. Battery 10/3/1. The freeze holds.
+
+**The named next object:** a principal-level U1_REAL_TENSOR_PAIRING_COMPATIBILITY_DISPOSITION. The candidate resolutions all live in one question — WHAT DOES THE RATIFIED INVOLUTION'S SEALED TEXT REQUIRE of a bilocal pairing: (a) a SESQUILINEAR derivation (b := iℏ·L⊗L̄ — conjugate-linear in one slot, still derived, from L plus the involution itself); (b) reality WITH ARGUMENT EXCHANGE (the standard two-point hermiticity b(f,h)* = b(θh,θf) — in which case the executed reality TEST may have omitted the swap and the pairing passes the correct law); (c) an involution-odd normalization absorbing the i. Provable-first: the sealed text is read BEFORE the principal rules (relay 385).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
