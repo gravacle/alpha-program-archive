@@ -10677,6 +10677,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-285 — The emptiness theorem is REFUTED: weak-* bidual completion is an explicit tail CREATOR — but it is not physically instantiated, and the FIRST PHYSICAL CUSTODIAN of the door is the raw-G lift itself (2026-08-02, relay 367)
+
+**Artifact:** `STAGE8_TASK4A_W_GEN_TAIL_CREATION_IMAGE_THEOREM_DETERMINATION_V001.md`, `5f341414…`, seal verified, mirror byte-identical.
+
+**The refutation:** the universal emptiness claim dies — the weak-* bidual completion operation maps stage-visible inputs to nonzero elements of z_tail·B**. A creator class EXISTS in mathematics. Consequences typed honestly: `P_LOC_CONSUMPTION_FORCED_TO_F_BY_EMPTINESS = false | TYPE-R`; `PHYSICAL_W_GEN_NONEMPTY = NO_VERDICT` — the creator is explicit but NOT physically instantiated.
+
+**The containment (Q-284 incorporated mid-run):** the ENTIRE currently built chain is tail-free through the finite ordered retarded image. Nothing built so far performs the creating operation.
+
+**The custodian, named:** the first physical object that could perform weak-* bidual completion is **the unbuilt raw-G lift and P5 class formation** — exactly relay 368, in flight in the other lane. The convergence is total: 368's topology decisions ARE the door. If the lift lives on T_cyl/norm-class structures (where Q-247's separation holds), no tail is ever created and W_gen stays physically empty; if the lift requires weak-* completion at any step, that step is alpha's last non-finite door, and any ratification of it must be made knowing that.
+
+**Standing instruction absorbed into the record:** 368's every-limit-names-its-topology kill-pass is now the single most load-bearing clause in the program.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
