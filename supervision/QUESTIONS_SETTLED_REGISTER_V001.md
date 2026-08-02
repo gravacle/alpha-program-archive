@@ -9674,6 +9674,34 @@ assume. IF DERIVED: the influence functional's source dependence arrives from Ga
 finite dynamics — both sealed instances — and OBS-15's prediction (the require lives on the
 transition) scores its first constructive hit. ***
 
+## Q-228. MINIMAL COUPLING IS A CHOICE, NOT GATE 4's CONTENT — but the choice family is FINITE: at most 4 placements x 2 characters.
+
+**Relay 310 (Task 2d, Codex 2).**
+`STAGE8_TASK2D_SOURCE_HISTORY_MAP_COVARIANT_INCIDENCE_DERIVATION_ADJUDICATION_V001.md`,
+`ab156ee764db9d0bd48f54f1b879f1bfafcfac08b45520ca6c4fb582e48edf572`[sic — see verified hash
+ab156ee764db9d0bd48f54f1b879f1bafcfac08b45520ca6c4fb582e48edf572], 8m run. Hash verified,
+fence-clean. **The lane obeyed the stop rule: no U_N[A] was built on an unadjudicated choice.**
+
+```text
+GATE 4 DERIVES: unit MODULUS of the incidence coefficients, AFTER U_e is supplied.
+GATE 4 DOES NOT DERIVE: unit physical charge . minimal coupling . the character selection .
+   the U_e -> S_N bridge . where the connection enters the Lorentzian dynamics.
+
+*** THE COUNTERFAMILY IS DECISIVE: every integer character U_e^n passes Gate 4's closure and
+normalization. COUNTABLY INFINITE character family -- FAITHFULNESS (derived) CUTS IT TO
+n = +/-1, with no sealed equivalence identifying the pair. ***
+
+ATTACHMENT PLACEMENTS VISIBLE: incidence-line . actual source generator . record-write
+operator . history-independent baseline -- AT LEAST FOUR, no exhaustive selector.
+```
+
+*** THE TRANSFORMATION THIS EFFECTS ON THE ASK: the state stratum offered a CONTINUUM (no honest
+adoption possible, Q-219). THE COUPLING STRATUM OFFERS **AT MOST 4 x 2 = 8 INSTANTIABLE CELLS**,
+with one derived cutter (faithfulness) already applied. A FINITE, INSTANTIATED FAMILY IS
+EXACTLY WHERE THE FORCING PROTOCOL HAS SUCCEEDED (Q-205). IT RUNS BEFORE ANY AUTHORSHIP IS
+POSED. And the n = +/-1 pair is charge conjugation's fingerprint -- whether a sealed
+CPT/reality convention identifies the two is precisely a protocol constraint, not a guess. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
