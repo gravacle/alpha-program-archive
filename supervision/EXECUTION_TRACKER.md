@@ -187,6 +187,7 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 357 | Codex 2 | [4a] P3 first attack | RETURNED — Q-275 (four-field stop; would-builds are common-origin objects) |
-| 359 | Codex 2 | [4a] P3 SECOND ATTACK — law side | **SENT** |
+| 359 | Codex 2 | [4a] P3 law-side | RETURNED — Q-278 (subpackage BUILT; four residues exact) |
+| 362 | Codex 2 | [4a] Minimal-consumption audit (the Q-270 move) | WRITTEN — QUEUED behind 361 |
 
 | 361 | Codex 1 | [4a] Finite nonzero-R reference (exact, probes on) | **LOADED — NOT SENT** |
