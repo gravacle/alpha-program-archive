@@ -217,5 +217,5 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 | 378 | Codex 1 | [4a] Subpackage verification | RETURNED — Q-295 (CONFIRMED_WITH_NOTES; the whole stack under P5 now verified) |
 
-| 383 | Codex 1 | [4a] DOOR-D DIAGNOSIS — defective adoption or mis-specified check | **LOADED — NOT SENT** |
+| 383 | Codex 1 | [4a] DOOR-D DIAGNOSIS — defective adoption or mis-specified check | **SENT** |
 *** DoR-015-DEPENDENT WORK FROZEN pending diagnosis + principal disposition (Q-300). ***
