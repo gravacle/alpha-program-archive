@@ -10849,6 +10849,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-298 — V005: the physical carrier stands — X_phys = framed/(Gate-4 rephasing + path-invisible), both kill-tangents in its kernel, a sealed surviving witness; and the physical currents are the CYCLE family (open edges do not descend; loops do) (2026-08-02, relay 380)
+
+**Artifact:** `STAGE8_FIELD_SIGNATURE_PHYS_ADOPTION_PROPOSAL_V005.md`, `7ecf04e9…`, seal verified, mirror byte-identical. DoR-015 not issued — third-pass review remains.
+
+**The carrier:** X_phys = X_inf^fr / (Gate-4 vertex rephasing + all-finite path-invisible content), with K_N = q_N ∘ H_N. Both prior kill-tangents (Q-294's and Q-297's) lie in the kernel; the sealed composition-loop cycle is an explicit SURVIVING witness — the quotient removes exactly the proven gauge, no more.
+
+**The necessary precision (gauge theory's oldest fact, derived not imported):** individual open-edge u_e do NOT descend as physical scalars. The canonical unaugmented physical currents are the basis-free CYCLE family — u_c = Σ_e c_e·∫_{γ_e} a for c ∈ ker(B_Nᵀ), with dΦ_c = u_c. **The physical response currents are loop holonomies** — precisely the "ALLOWED U(1) holonomy" of the corpus's own allow/require origin table, arrived at by three review-kills rather than assumption. No endpoint augmentation remains.
+
+**State:** all consumers quotient-invariant; seven seams and the bounded reruns pass proposal-conditionally; Door F retains zero finite-projection tail; full Q-279/raw-G restriction honestly TYPE-U (execution is post-ratification). The holdout untouched.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
