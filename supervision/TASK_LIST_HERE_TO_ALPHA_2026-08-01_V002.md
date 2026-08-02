@@ -425,6 +425,13 @@ custody per LOCKED_PROCESS.md.
                 identity's i supplied by W's own definition. Still derived, no new
                 authorship. Relay 386 executes + full four-subtest Door D re-run; freeze
                 lifts on clean PASS.                                           SURFACED: yes
+2026-08-02  C38 Door D's third firing adjudicated by BOTH lanes (Q-304 residual closed-form;
+                Q-305 TEST-CLEAN, all firings physical, direct identification provably
+                incompatible with both requirements). Principal ruled: UNIQUENESS THEOREM
+                FIRST -- prove the source->output normalization N is FORCED (the unit i)
+                by the two requires jointly; on proof, install as DERIVED (germ V007) and
+                re-run full Door D; on a surviving family, the authored fallback returns
+                to the principal. Relay 388.                                   SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

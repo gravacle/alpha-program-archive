@@ -223,4 +223,5 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 386 | Codex 2 | [4a] Amendment 2 + Door D | RETURNED — Q-304 (parity/cycles/reality PASS; open-path fails by exact (1-i) residual; HELD for 387's audit) |
 *** DoR-015-DEPENDENT WORK FROZEN pending diagnosis + principal disposition (Q-300). ***
 
-| 387 | Codex 1 | [4a] AUDIT Door D's own transport (Jacobians, CTP metric, i/hbar) — principal's check | **SENT** |
+| 387 | Codex 1 | [4a] Transport audit | RETURNED — Q-305 (TEST-CLEAN; all firings physical; direct identification incompatible) -> C38 ruling |
+| 388 | Codex 2 | [4a] The N-uniqueness theorem — install if forced, full Door D | **LOADED — NOT SENT** |
