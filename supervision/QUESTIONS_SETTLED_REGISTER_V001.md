@@ -10252,6 +10252,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-255 — p_loc is output-local but CONSUMPTION-UNTYPED across all 27 sealed sources; the certificate is unbuildable from sealed text; the two authored candidates are stated and correctly sequenced BEHIND the germ (2026-08-02, relay 337, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_P_LOC_TAIL_ANNIHILATION_CERTIFICATE_DETERMINATION_V001.md`, `df2dbdcc…`, seal verified, mirror byte-identical.
+
+**The reading:** "local" in p_loc identifies the OUTPUT — the Maxwell coefficient returned — not the consumption. Across 12 parent definitions and 15 sealed cleanroom characterizations, NONE specifies finite-shadowed factorization, norm/module membership, or a weak-*/bidual pairing. Outcome (d) of the relay: `p_loc|Tail_ind = 0` stays TYPE-U; `B_ind sees tail` stays NO_VERDICT. The name proved nothing, exactly as the kill-pass required.
+
+**The two authored candidates, stated WITHOUT adoption (P9 material):**
+- Candidate F: p_loc = p̃ ∘ R_fin (factor through finite restrictions) — annihilates Tail_ind; the finite-authority-conformal typing.
+- Candidate W: p_loc = p_cyl + ℓ_tail — could see Tail_ind, at the price of importing independently sourced non-finite physics into alpha's defining map (the battery item Q-254 carries would kill this at the gate).
+
+**Sequencing hygiene:** Q-254 landed mid-run and was incorporated — P9 (authored p_loc) sits DOWNSTREAM in the dependency order; the current commissioning target is SOURCE_GERM_PHYS (relay 338, in flight). No authoring was attempted here.
+
+**Reading:** the tail channel's last derivation is exhausted; the channel now waits on the germ (P1) and then the P9 typing ruling, with Candidate W already effectively battery-dead unless the principal overrides finite authority — which would be a program-level reversal, not a detail.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
