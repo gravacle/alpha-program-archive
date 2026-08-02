@@ -153,7 +153,7 @@ transport, in plan order.
 | 328 | Codex 2 | [2f] Restriction package | RETURNED — Q-246 (unbuildable from ratified signature; functor required) |
 | 330 | Codex 2 | [2f] Functor adoption proposal | RETURNED — Q-248 (lens survives, source rule unstateable; NO DoR-012, lens banked, 2f capped) |
 | 332 | Codex 2 | [4a] Background channel | RETURNED — Q-252 (no finite stationary point; a=0 not forced; background pair unbuilt) |
-| 336 | Codex 2 | [4a] Consolidate the missing physical layer (commissioning basis) | **LOADED — NOT SENT** |
+| 336 | Codex 2 | [4a] Consolidate the missing physical layer (commissioning basis) | **SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
 
