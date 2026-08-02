@@ -178,6 +178,7 @@ DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap record
 | 351 | Codex 2 | [4a] Germ V003 | RETURNED — Q-269 (A0 not pinned TYPE-R; freedom now DISCRETE; repairs complete) |
 | 352 | Codex 1 | [4a] V003 confirmation | RETURNED — Q-270 (4 bounded repairs; pinning NO_VERDICT overall; arm = future detector) |
 | 353 | Codex 2 | [4a] Germ V004 | RETURNED — Q-271 (gauge theorem PROVED; freedom = ordered integer rank data; repairs complete) |
-| 354 | Codex 1 | [4a] FINAL CONFIRMATION of germ V004 — package DoR-014 | **SENT** |
+| 354 | Codex 1 | [4a] V004 final confirmation | RETURNED — Q-272 (READY; label = ordered pair; DoR-014 RATIFIED, C33) |
+| 355 | Codex 2 | [4a] BUILD P2 — source topology + calculus (construction chain begins) | **LOADED — NOT SENT** |
 
 Codex 2 HOLDS for 345's return (the race decides the next draft).
