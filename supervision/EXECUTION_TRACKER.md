@@ -145,7 +145,7 @@ transport, in plan order.
 | 322 | Codex 2 | [2d] The two-origins question | RETURNED — Q-240 (no certified origin; reviewer candidate refuted) |
 | 324 | Codex 2 | [2d] Omega realization | RETURNED — Q-242 (RELABELING; enrichment = Gen_Omega generative rule) |
 | 326 | Codex 2 | [2f] X_K attempt | RETURNED — Q-244 (proxy passes, restriction missing; six-component package specified) |
-| 328 | Codex 2 | [2f] Build the C0_008 restriction package, execute the arm | **LOADED — NOT SENT** |
+| 328 | Codex 2 | [2f] Build the C0_008 restriction package, execute the arm | **SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
 
