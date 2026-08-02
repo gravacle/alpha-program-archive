@@ -157,8 +157,10 @@ transport, in plan order.
 | 332 | Codex 2 | [4a] Background channel | RETURNED — Q-252 (no finite stationary point; a=0 not forced; background pair unbuilt) |
 | 336 | Codex 2 | [4a] Layer consolidation | RETURNED — Q-254 (8-package deciding subset; ONE authored gate: SOURCE_GERM_PHYS) |
 | 338 | Codex 2 | [4a] Germ draft | RETURNED — Q-256 (killed at B14; requires Gen_Omega; 10/14 battery) |
-| 340 | Codex 2 | [4a] Draft Gen_Omega — the generative origin rule (DoR-013 reserved) | **LOADED — NOT SENT** |
+| 340 | Codex 2 | [4a] Draft Gen_Omega — the generative origin rule (DoR-013 reserved) | **SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
 
 DoR-011 ratified (Task 4a construction-only). Plan C26 logged; C5-C25 gap recorded, reconstruction agent running.
+
+| 341 | Codex 1 | [4d] The stitching theorem — germ-independent half (P7 pattern) | **LOADED — NOT SENT** |
