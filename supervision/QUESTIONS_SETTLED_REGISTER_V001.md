@@ -10094,6 +10094,26 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-245 — The completion arrow: the falsifier forces every finite restriction p_ch-free but does NOT pin the completed block; p_ch's only re-entry channels are named — the tail and the background (2026-08-01, relay 327, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_CORRELATOR_COMPLETION_ARROW_AND_RESTRICTION_PINNING_DETERMINATION_V001.md`, `5b9a4a8b…`, seal verified, mirror byte-identical.
+
+**Built (TYPE-P):** the maximal finite-cylindrical arrow — finite amplitudes → direct-union scalar functional (A_fin^p restricts to every A_N^p, zero-extension exact) → exact finite derivatives → the ZERO finite mixed retarded block. Q_fin is dense in the ratified compact spectrum.
+
+**Refuted (TYPE-R, real kills):**
+- The naive continuous C*-extension of A_fin^p does NOT exist — refuted by a moving-tail sequence (`A_FIN_P_CONTINUOUS_IN_RATIFIED_PRODUCT_TOPOLOGY = false`; it is not an element of C(Q_∞)). The completion cannot be had by continuity alone.
+- The C0 operator bilocal source map is NOT the physical raw G (`TYPE-R`) — another proxy identification refused.
+
+**The pinning verdict:** `DOR008_FALSIFIER_PINS_COMPLETE_RETHESS_P_CH_FREE = NO_VERDICT`. The falsifier DOES force every genuine finite restriction to reproduce Q-243's zero p_ch-free retarded block — but pinning the COMPLETED block needs two unbuilt objects: the physical restriction maps and the SEPARATION THEOREM ∩_N ker(ρ_H,N) = {0} (`RESTRICTION_SEPARATION_THEOREM_DERIVED = false | TYPE-U`; Tail_R proved neither zero nor nonzero).
+
+**The most valuable sentence:** p_ch can re-enter the complete retarded Hessian ONLY through completed source-germ content outside the direct finite retarded block — either (a) a restriction-invisible physical contribution (the TAIL), or (b) a p_ch-dependent stationary/on-shell BACKGROUND. All three re-entry flags NO_VERDICT — open, not decided.
+
+**Scope hygiene:** no measure, contour, or source topology supplied here (all `TYPE-S`); arrow stops before Z_inc[J,R], raw bilocal G, and complete H_R[G] (`TYPE-U`). DoR-008 untouched.
+
+**Reading:** the deciding question is now TWO named objects wide: prove the separation theorem (closes channel (a)) and characterize the stationary background's p_ch dependence (channel (b)). Both are theorem-shaped, not search-shaped.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
