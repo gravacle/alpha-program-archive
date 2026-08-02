@@ -10420,6 +10420,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-266 — Gen_Ω V003 adversarial review: RATIFICATION-READY. No state-valued counterexample in any anchor class; at fixed A0 all three force the normalized-identity state and the same symbolic sector-dimension-ratio p_ch form; the anchor choice is p_ch-NEUTRAL; A0 and the anchor remain explicitly authored (2026-08-02, relay 348)
+
+**Artifact:** `STAGE8_GEN_OMEGA_GENERATIVE_ORIGIN_RULE_V003_ADVERSARIAL_REVIEW_DETERMINATION_V001.md`, `ae1f60b0…`, seal verified, mirror byte-identical. DoR-013 remains unissued — the principal's ruling is the only station left.
+
+**The independent verification (fresh constructions, no reuse of the draft's proofs):**
+- The affine-witness attack — the killer of V001 and V002 — found NO state-valued counterexample within bistochasticity (BI), finite-trace detailed balance, or irreducible symmetry covariance.
+- The convergence claim HOLDS under independent proof: at fixed A0, all three anchor classes force the normalized-identity invariant state and the SAME symbolic sector-dimension-ratio form for p_ch. **The anchor choice is p_ch-neutral.**
+- The commuting nonunital counterexample was independently CONFIRMED — the anchor cannot be derived from the existing transition structure; it is authored physics and says so.
+- B3–B8 all survived: target-tuning audit, finite authority, root removal, downstream accounting, law fidelity.
+
+**What DoR-013 would adopt:** the authored A0 (finite scalar source realization) + the anchored generative family (three convergent classes, member choice p_ch-irrelevant), producing rho_S, the single forced ready-root, and the ratified law from shared primitives — completing the P5 common-origin witness, opening germ V002 and the 8-package deciding subset, and fixing p_ch's symbolic form to a ratio of charge-sector dimensions (no value evaluated; evaluation stays fenced).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
