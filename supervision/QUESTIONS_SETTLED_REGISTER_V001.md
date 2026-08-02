@@ -11037,6 +11037,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-313 — Map 1 CONSTRUCTS UNIQUELY (T_N^char = Hol_c□⁻¹ ∘ Z_N: quotient-compatible, restriction-natural, reality-covariant); the source-level descent preserves the lifted zeros; the program's ENTIRE remaining gap is now the STATIONARY PACKAGE — four objects, named for the last time (2026-08-02, relay 395)
+
+**Artifact:** `STAGE8_TASK4A_RELATIVE_HISTORY_CYCLE_FACTORIZATION_AND_2PI_DESCENT_VERDICT_BUILD_V001.md`, `ea8f4e9a…`, seal verified, mirror byte-identical.
+
+**Built:** the relative-history→cycle factorization at scalar-character level — UNIQUE, with the sealed traversal citation carrying the signs; it factors Z_N (not the full endpoint-covariant U_N — the covariant part remains transport, as V005 typed it). The source-level cycle descent constructs and PRESERVES the lifted zero mixing block.
+
+**The stable wall:** the stationary 2PI blocks, the common completed domain, the physical background realization, and the restriction/Tail squares (TYPE-U). `physical_cycle_sector_RetHess_exists = false | TYPE-U`; the verdict cannot LAWFULLY be promoted from the p-clean source-level evidence — correct discipline, again.
+
+**Reading:** the gap has stopped moving. Every construction around it is finished; the four stationary objects are the program's last unbuilt physics. And the key to them is already proven: Q-252 showed NO finite stationary point exists for p ∈ (0,1) — so the stationary structure is intrinsically COMPLETED-LEVEL, and its bridgeheads exist: the pullback-stationary-set = critical-set-of-Θ theorem (TYPE-P at Q-252), the Q-281 seed with the forced state, the state-freedom-free lift fiber, the signature's structures, the completed kernel. The frontal build is next — the last one.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
