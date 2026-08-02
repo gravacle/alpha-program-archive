@@ -10450,6 +10450,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-268 — Germ V002 review: REPAIR-THEN-READY, two bounded repairs — and a substantive precision: the descent is family-neutral only at FIXED A0; admitted A0 sector-rank ratios differ, and p_A/Z_inc differ with them. A0 is a germ-family parameter (2026-08-02, relay 350)
+
+**Artifact:** `STAGE8_SOURCE_GERM_PHYS_V002_ADVERSARIAL_REVIEW_DETERMINATION_V001.md`, `5d2559e4…`, seal verified, mirror byte-identical.
+
+**What survived (most of it):** B14 not weakened; the state/replacement/affine attack lineage stays closed; the p_ch entry path d_state → p_A → Z_inc → derivatives MATCHES Q-243's chain; B5/B6/B9 honest; consumer accounting accurate.
+
+**The finding inside the repair (register it plainly):** V002's descent is valid FIBERWISE — over fixed A0 and other non-anchor data. The unrestricted claim d_germ^a = d_germ^b FAILS when admitted A0 realizations carry different sector-rank ratios, because p_A and therefore Z_inc differ. **Consequence: the anchor family is p_ch-neutral, but A0 is NOT — the sector-dimension ratio that p_ch is forced to is determined by A0's sector ranks, and the admitted A0 family spans more than one ratio.** The forced-form result (Q-265/Q-266, DoR-013) stands as: p_ch = the sector-rank ratio OF THE REALIZED A0. What pins A0's ranks is now the sharpest open question on the p_ch thread — the natural candidate being DoR-008's falsifier itself (A0 must reproduce the SEALED record cell's sector structure on restriction, and the sealed P₀/P_ch ranks are fixed finite facts). That candidate is a THEOREM to attempt, not an assumption.
+
+**The two bounded repairs (V003):** (1) restate the descent as a quotient over BI/DB/SYM + transient-channel variation AT FIXED A0, retaining A0 explicitly as a germ-family parameter; (2) add Q-54 types to seven nonterminal bare-false occurrences.
+
+**Status:** DoR-014 waits on the bounded repairs + cross-lane confirmation.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
