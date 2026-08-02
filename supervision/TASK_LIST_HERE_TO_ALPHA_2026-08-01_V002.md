@@ -432,6 +432,12 @@ custody per LOCKED_PROCESS.md.
                 by the two requires jointly; on proof, install as DERIVED (germ V007) and
                 re-run full Door D; on a surviving family, the authored fallback returns
                 to the principal. Relay 388.                                   SURFACED: yes
+2026-08-02  C39 Q-317 ruling: THE ACTION RACE (the fourth and last). The program's entire
+                remaining physics = ONE arrow (the completed physical Legendre pairing and
+                action map). Codex 2 DERIVES from REC_GEOM_DIAG_399 + the adopted six +
+                the proven normalizations; Codex 1 DRAFTS the authored proposal through
+                the full gate. DoR-016 RESERVED. Relays 400/401.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
