@@ -11100,6 +11100,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-318 — The action race, derivation arm: the SOURCE-SIDE Legendre structure derives UNIQUELY (P_src = A(J) + ½C(R); Leg_W = (D_J W, 2D_R W)); the physical action's authored residue is SIX exact items; the record-content refusal held a fourth time (2026-08-02, relay 400)
+
+**Artifact:** `STAGE8_TASK4A_COMPLETED_PHYSICAL_LEGENDRE_PAIRING_AND_ACTION_MAP_DERIVATION_ATTEMPT_V001.md`, `d220a4dc…`, seal verified, mirror byte-identical.
+
+**Derived uniquely (TYPE-P):** the source-side pairing P_src((J,R),(A,C)) = A(J) + ½·C(R) and the Legendre data Leg_W = (D_J W, 2·D_R W) — the source half of the arrow is FORCED by existing structure, no freedom.
+
+**The structural stop, honest:** W = F∘λ has a ONE-DIMENSIONAL Legendre image, constant on ker λ — and ker λ contains the sealed, record-visible cycle current u_□. The scalar quotient would delete physical record content: DIAGNOSTIC ONLY (the same refusal that has protected the cycle current at Q-308, Q-315, and here — the physical response sector cannot be quotiented away to make the mathematics convenient).
+
+**The authored residue, exact (the race's decision-grade list):** (1) the physical (Ā,G) tangent realization; (2) a transverse cycle action OR a lawful constrained-Legendre rule (the kernel sector's own action — where the physical response's dynamics must come from); (3) the physical measure/delta pairing; (4) the interacting contour; (5) the boundary/contact variational form; (6) the common graph domain and closure.
+
+**Status:** no locus or verdict authorized — correct. The authored arm (relay 401) drafts against exactly this residue; adjudication merges as before.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
