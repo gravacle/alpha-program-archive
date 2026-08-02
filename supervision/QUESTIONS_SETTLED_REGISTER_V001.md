@@ -10560,6 +10560,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-276 — P2 cross-verification: CONFIRMED on every structural claim; ONE narrowly-scoped sign defect (D²LogZ|₀ carries the −p(1−p) form; P2:456-457 printed the positive sign, which belongs to −LogZ); P4 and Q-243 unaffected (2026-08-02, relay 358)
+
+**Artifact:** `STAGE8_TASK4A_P2_FOUNDATION_CROSS_VERIFICATION_DETERMINATION_V001.md`, `78970c69…`, seal verified, mirror byte-identical.
+
+**Independently confirmed:** the topology, dense core, contractive restrictions, Fréchet calculus, restriction naturality, and **Tail_src = Tail_germ = {0}** — the foundation holds under fresh proofs.
+
+**The defect, exactly:** P2 lines 456–457 state D² Log Z|₀ with a positive sign; the correct value is −p(1−p)·ℓ_δ⊗ℓ_δ — the positive sign belongs to −Log Z (the Γ convention). The SAME stale sign appeared in the V002 germ review era. **Containment verified:** P4 already uses the corrected convention (Q-274's load-bearing catch), and Q-243's response-facing −iℏ·LogZ Hessian with its ZERO mixed-retarded block remains correct. Nothing downstream inherits it.
+
+**Disposition:** P2 V002 issued with the one-line correction citing this determination; no other change permitted in the correction.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
