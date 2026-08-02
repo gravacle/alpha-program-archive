@@ -10927,6 +10927,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-304 — Door D, third firing, and the residual is now CLOSED-FORM: D_J Ā − (i/ℏ)G_even = ℏ·q·(1−i)·L⊗L — parity FIXED, cycles PASS, U1-reality PASS; the open-path identity fails by exactly the even/odd normalization mismatch; disposition HELD for the transport audit (2026-08-02, relay 386)
+
+**Artifacts:** germ V006 `343117b7…` (uninstalled, TYPE-C) and the re-execution `bf74ee5b…`, seals verified, mirrors byte-identical.
+
+**The subtest vector:** (bounded extension PASS, cycle identity PASS, open-path identity FAIL | TYPE-R, U1-reality PASS). Amendment 2 repaired the parity without breaking anything else — and exposed the next layer exactly.
+
+**The residual, exact:** ℏ·q·(1−i)·L⊗L — vanishing on cycles (L(c_□) = 0), nonzero on admitted open directions. **The (1−i) factor IS the mismatch between the even source normalization (coefficient 1) and the odd output normalization (coefficient i).** The named next object: EVEN_SOURCE_TO_ODD_RAW_OUTPUT_NORMALIZATION_DISPOSITION — the map from the Θ-even source slot to the Θ-odd raw output was never specified, and the identity's two sides are being compared across that unspecified map.
+
+**Why disposition is HELD:** the principal's transport audit (relay 387, in flight, uncoordinated) examines precisely whether Door D's G-side transport carries the correct factors of i/ℏ through the source→output maps. If the audit finds the test's G-side lacks the even→odd normalization step, the residual is a TEST-transport artifact and the fix is the test's specification; if the audit comes back TEST-CLEAN, the normalization map is genuinely missing physics and the disposition authors-or-derives it. The two lanes' independent verdicts adjudicate — exactly the situation the principal's check was built for.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

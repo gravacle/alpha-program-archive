@@ -220,7 +220,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 383 | Codex 1 | [4a] Diagnosis | RETURNED — Q-301 (H-A localized to C-B; field layer innocent) -> DoR-014 AMENDMENT 1 (derive the pairing, C36) |
 | 384 | Codex 2 | [4a] Derived pairing + Door D | RETURNED — Q-302 (identity FIXED everywhere; U1-reality FAILS — the i is anti-linear-odd; freeze holds) |
 | 385 | Codex 1 | [4a] Reality law | RETURNED — Q-303 (incompatibility PROVED; parity table; i is output-side) -> AMENDMENT 2 (C37) |
-| 386 | Codex 2 | [4a] Execute Amendment 2 (even pairing) + FULL four-subtest Door D | **SENT** |
+| 386 | Codex 2 | [4a] Amendment 2 + Door D | RETURNED — Q-304 (parity/cycles/reality PASS; open-path fails by exact (1-i) residual; HELD for 387's audit) |
 *** DoR-015-DEPENDENT WORK FROZEN pending diagnosis + principal disposition (Q-300). ***
 
 | 387 | Codex 1 | [4a] AUDIT Door D's own transport (Jacobians, CTP metric, i/hbar) — principal's check | **SENT** |
