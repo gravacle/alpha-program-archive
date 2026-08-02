@@ -10027,6 +10027,23 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-241 — Does the K_square falsifier arm have choice-invariant content? YES for every listed sealed verdict (the 1,088-filtration blockage is MOOT for the falsifier); the arm still cannot EXECUTE for want of one named object (2026-08-01, relay 323)
+
+**Artifact:** `STAGE8_TASK2F_K_SQUARE_CHOICE_INVARIANT_FALSIFIER_CONTENT_DETERMINATION_V001.md`, `db9e5104…`, seal verified, mirror byte-identical.
+
+**The positive (TYPE-R against the blockage):**
+- `K_SQUARE_LISTED_RESULT_VERDICTS_CHOICE_INVARIANT = true` — every listed sealed K_square result is invariant under unitary permutation conjugacy across ALL 1,088 filtrations: charpoly z⁸−8z⁶+20z⁴−16z²+4, kernel multiplicity 0, Tr(B²)=16, Tr(B⁴)=48, R_square=3/16.
+- `FILTRATION_NONUNIQUENESS_BLOCKS_LISTED_RESULT_VERDICTS = false | TYPE-R` — Q-217's unforced-functor finding no longer blocks the falsifier's content. (Raw coordinate matrices DO differ across filtrations — `TYPE-R` — but verdicts don't.)
+- The invariant-subset check on the final target EXECUTED and passed.
+
+**Why the arm still returns NO_VERDICT (`K_SQUARE_DOR008_FALSIFIER_EXECUTED = false | TYPE-C`):** the completion side lacks an independently fixed finite representation with a source incidence operator X_K and an intertwiner satisfying T_K X_K = B_K T_K. `C0_SOURCE_INCIDENCE_OPERATOR_FOUND = false | TYPE-S`; `NONTAUTOLOGICAL_B_SQUARE_PREIMAGE_FIXED = false | TYPE-U` — pulling B_K backward through T_K to DEFINE X_K would make the test tautological, and the artifact refuses it. `DOR008_FALSIFIER_FIRED = NO_VERDICT` — the adoption is neither confirmed nor voided by this arm yet.
+
+**Domain finding:** Q-239's relative phases r_j and the square's edge holonomies are both gauge-invariant but live on different domains; no sealed map identifies them (`TYPE-S`), and the quotient alone does not close the comparison (`TYPE-R`).
+
+**Reading:** Task 2f is now narrowed from "force a functor at 1,088 filtrations" to ONE object: a nontautological X_K with its intertwiner. That is a smaller, named target — and until it exists the falsifier's K_square arm stays TYPE-C, not failed.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
