@@ -235,6 +235,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 395 | Codex 2 | [4a] The two maps | RETURNED — Q-313 (Map 1 unique; descent preserves zeros; the STATIONARY PACKAGE is the last gap) |
 | 396 | Codex 1 | [4a] Both audits | RETURNED — Q-314 (STATIONARITY_REQUIRED by v004; synonym count 0; mis-bundle corrected; p_loc background-agnostic) |
 | 397 | Codex 2 | [4a] Build i: the transport infrastructure (domain + squares) | **SENT** |
-| 398 | Codex 1 | [4a] Build ii: the background realization (consume the adopted field) | **LOADED — NOT SENT** |
+| 398 | Codex 1 | [4a] Build ii: the background realization (consume the adopted field) | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
