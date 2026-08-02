@@ -230,6 +230,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 390 | Codex 2 | [4a] Verdict attempt | RETURNED — Q-308 (no full inverse: u_sq in ker L; kernel resolution is the gate) |
 | 391 | Codex 2 | [4a] Kernel resolution | RETURNED — Q-309 (all kernel blocks ZERO, p ABSENT, TYPE-P; support separation not yet cancellation; carriers unconnected) |
 | 392 | Codex 1 | [4a] Cycle-kernel descent | RETURNED — Q-310 (four carriers; CTP≠incidence closure; beta_N zero LIFTS; intertwiner is the last object) |
-| 393 | Codex 2 | [4a] THE INTERTWINER FROM THE ORIGIN — the descent square, then the verdict | **SENT** |
+| 393 | Codex 2 | [4a] Intertwiner from origin | RETURNED — Q-311 (no global carrier; orientation not forced; two no-authorship routes named) |
+| 394 | Codex 1 | [4a] THE ORIENTATION — sealed fact or verdict-invariant (both routes) | **LOADED — NOT SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.

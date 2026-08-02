@@ -11007,6 +11007,22 @@ All six checks independent and clean; the complement's NO_VERDICT scope confirme
 
 ---
 
+## Q-311 — The origin does NOT derive the intertwiner: no global incidence-cycle carrier in DoR-013's images (the fiber-factorization certificate is absent); local signed incidence + E_post do not force the alternating global orientation — installing it by hand would be authorship (2026-08-02, relay 393)
+
+**Artifact:** `STAGE8_TASK4A_COMMON_ORIGIN_ORIENTATION_INTERTWINER_2PI_DESCENT_AND_P_VERDICT_DETERMINATION_V001.md`, `b556fb24…`, seal verified, mirror byte-identical.
+
+**The refusal, exact:** DoR-013 generates the ready ray and the finite law but no GLOBAL incidence-cycle carrier; a shared primitive domain induces an inter-image map only under a fiber-factorization condition whose certificate is absent. The boundary test stands (∂₁(1,1,1,1) = (−2,0,0,2) vs ∂₁(1,−1,1,−1) = 0): the ALTERNATING global edge orientation is not forced by the ratified local data. Installing diag(1,−1,1,−1) would be a new branch/path and cell/edge assignment — a choice, correctly refused.
+
+**What holds regardless:** the completed source-kernel mixing remains EXACTLY ZERO and p-free — it simply cannot yet be transported into an unbuilt physical 2PI carrier. Both verdict flags NO_VERDICT.
+
+**The residue is ONE GLOBAL DATUM — the edge orientation — and both escape routes are live and named:**
+(a) THE SEALED-FACT ROUTE: the sealed K_square operator B_K was computed WITH definite matrix signs — the global orientation it used may be SEALED FACT recoverable from the sealed artifacts' own sign conventions, making the intertwiner's orientation a citation, not a choice.
+(b) THE INVARIANCE ROUTE (the Q-241 move): prove the p-verdict is ORIENTATION-INVARIANT across the orientation family — then the descent executes family-wide under the no-selection discipline and the global choice is never made.
+
+Either route closes the gap without authorship; route (b) additionally makes the verdict robust.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
