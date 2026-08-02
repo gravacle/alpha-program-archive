@@ -10006,6 +10006,27 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-240 — Do the law and the ready state share a sealed common origin? NO CERTIFIED ORIGIN (TYPE-U), and the reviewer's law-characterizes-its-ready-state candidate is REFUTED (2026-08-01, relay 322)
+
+**Artifact:** `STAGE8_LAW_READY_STATE_SEALED_COMMON_ORIGIN_DETERMINATION_V001.md`, `6745b3c5…`, seal verified, mirror byte-identical.
+
+**Verdict:** `LAW_AND_RHO_READY_SHARE_CERTIFIED_DERIVATIONAL_ORIGIN = false | TYPE-U` — unbuilt, not physically refuted. But they DO share one declared executable finite input tuple (`= true | TYPE-P`): the same finite data feeds both. What is missing is a derivational ROOT, not a common workbench.
+
+**The reviewer's candidate died properly (TYPE-R, three ways):**
+- `LAW_ALONE_UNIQUELY_CHARACTERIZES_READY_STATE = false | TYPE-R` — at zero history the law EXCHANGES the rays both ways (|R_N⟩ → |P_N⟩ and |P_N⟩ → |R_N⟩); the ready ray is neither invariant nor uniquely selected (`READY_FIXED_BY_ZERO_HISTORY`, `POINTER_FIXED_BY_ZERO_HISTORY`, `PURE_TRANSITION_PROPERTY_SELECTS_READY` all false | TYPE-R).
+- **The p_ch merge is refuted too:** `LAW_CHARACTERIZES_READY_UP_TO_P_CH = false | TYPE-R`; `TWO_ORIGINS_QUESTION_REDUCES_TO_P_CH_ALONE = false | TYPE-R`. p_ch is the sole OUTGOING-record-visible datum but NOT the complete finite-path state; full source-density blocks in rho_N and the ready-ray provenance stay open. `SELECTING_P_CH_WOULD_COMPLETE_P5_COMMON_ORIGIN = false | TYPE-R`.
+- Reviewer scorecard: ~14 proposed / 10 refuted. The Codex-verification rule stands.
+
+**Scope findings:** Parent-State Covariance requires common origin but instantiates no d_state (`TYPE-R`); no sealed BID-root-ray → ready-ray bridge (`TYPE-S`); no law-internal "no prior record" predicate (`TYPE-S`); E_post orients endpoint labels (TYPE-P | DoR-009) but derives no physical source density (`TYPE-S`).
+
+**The two flags that leave the door open:**
+- `ANTECEDENT_CARRIER_BARS_FUTURE_JOINT_DERIVATIONAL_ORIGIN = false | TYPE-R` — nothing BARS a future joint origin.
+- `MINIMAL_WOULD_BUILD_IS_FULL_ORIGIN_DETERMINATION = false | TYPE-R` — the bar is NOT a unique microscopic origin (consistent with Q-194's role standard). The exact would-build: one origin Ω with executable d_law, d_state, and a ready-carrier bridge, plus common-input/covariance/domain/target-independence/no-supplementation certificates. `MINIMAL_WOULD_BUILD_EXISTS_NOW = false | TYPE-U`.
+
+**Reading:** the P5 witness is not going to fall out of the law; it needs the Ω role-realization built. The shared-input-tuple TYPE-P is the natural starting material.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
