@@ -118,16 +118,18 @@ D2  IS LEADING-ORDER-ONLY OUTPUT ACCEPTABLE, if no tower route closes?
 D3  THE TARGET-2 / SMOOTH FORK -- relay 270 written, unsent, would inform it.
 ```
 
-## 6. LANE LEDGER — 2026-08-02, ~04:20.
+## 6. LANE LEDGER — 2026-08-02, ~04:50. SESSION CLOSED CLEAN AT Q-238.
 
 ```text
-RELAY  LANE     TASK  QUESTION                                        STATE
-320    CODEX 2  2d    PathCert_N -- the finite certified path,        PASTED, RUNNING
-                      common-origin witness at the finite level
---     CODEX 1  --    the path-level forcing run queues if the
-                      family declares
+LANES: both free. NOTHING OUTSTANDING -- relays 209-320 all returned, verified, registered.
+REGISTER HEAD: Q-238. DoRs 005-010. CHANGE LOG THROUGH C25. GIT: level with origin.
 ```
 
-REGISTERED THROUGH Q-237. DoRs 005-010 in force. If PathCert_N constructs: the envelope gains
-its first certified path, and OBS-15's predicted stratum (forcing over TRANSITIONS/paths)
-becomes testable.
+THE STANDING POSITION: grammar built . THE LAW ratified (E_post) . F_N, A_N, the finite response
+structure, and PathCert_N all EXACT and falsifier-passing . the effective freedom = p_ch alone
+(response-visible AND outgoing-visible quotients agree) . the P5 witness's remaining content =
+the law and rho_S sharing one origin (TYPE-U) . THE DECIDING QUESTION = Task 4's transport.
+
+MORNING QUEUE, preflight-clean: U3 assembly . the comparison maps (2f) . the two-origins
+question (does anything seal a common origin for the law and the ready state?) . then Task 4's
+transport, in plan order.

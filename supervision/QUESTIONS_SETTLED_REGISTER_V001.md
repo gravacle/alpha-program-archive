@@ -9955,6 +9955,33 @@ survives into DeltaPhi is EXACTLY the finite-to-physical transport -- the territ
 always held as Task 4 (the response derivation + the stitching theorem). THE DECIDING QUESTION
 DID NOT ESCAPE THE PLAN; IT LANDED ON THE PLAN'S OWN NEXT TASK. ***
 
+## Q-238. **PathCert_N EXISTS** — the certified finite path, every check passing. And everything visible funnels through p_ch.
+
+**Relay 320 (Task 2d, Codex 2).**
+`STAGE8_ENVELOPE_FINITE_PATHCERT_DYNAMICS_SUBTRACE_CONSTRUCTION_V001.md`,
+`74a1f903ce79fc76a0f32a036a872b2d59b8944aa9e4211135d65ba8e9800db0`. Hash verified, fence-clean.
+
+```text
+THE CERTIFIED PATH, all finite N (TYPE-P | DoR-008, DoR-009):
+   rho_ready --U_N[a]--> rho_N --Rec_N--> (R_N, omega_N) --iota/J--> (R_inf, omega_out, GNS_out)
+CHECKS PASS: one-cell falsifier . equal-history collapse . whole-path zero-extension .
+record-state compatibility + GNS isometry . target independence . no post-output supplementation.
+
+SCOPE, honestly typed:
+   finite common-construction trace EXISTS (TYPE-P) -- *** BUT THE PHYSICAL P5 COMMON-ORIGIN
+   WITNESS REMAINS TYPE-U: THE LAW AND rho_S ARE STILL TWO INDEPENDENT DECLARED INPUTS, NOT ONE
+   ORIGIN. *** p_ch is the SOLE outgoing-record-visible state datum -- but NOT the complete
+   finite-path state (TYPE-R on that collapse): full source density blocks persist MID-PATH.
+   Envelope protocol: the finite lower-row family DECLARES -- at CONTINUUM cardinality (the
+   source blocks); complete physical envelope step 1 still TYPE-C.
+```
+
+*** THE CONVERGENT FACT ACROSS Q-236 AND THIS ENTRY: the mid-path continuum is INVISIBLE except
+through p_ch -- the response-visible quotient (Q-236) and the outgoing-record-visible quotient
+(here) are BOTH the single number p_ch. The world inside the path is large; everything it shows
+the field and the record is one probability. THE PROGRAM'S EFFECTIVE FREEDOM REMAINS EXACTLY
+ONE BRACKETED REAL NUMBER. ***
+
 ---
 
 ## HOW TO USE THIS REGISTER
