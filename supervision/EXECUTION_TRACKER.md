@@ -142,7 +142,8 @@ transport, in plan order.
 | 323 | Codex 1 | [2f] Comparison maps | RETURNED — Q-241 (verdicts choice-invariant; arm TYPE-C pending X_K) |
 | 325 | Codex 1 | [4a] THE TRANSPORT MAP — p_ch cancel or survive (DoR-011) | **SENT** |
 | 322 | Codex 2 | [2d] The two-origins question | RETURNED — Q-240 (no certified origin; reviewer candidate refuted) |
-| 324 | Codex 2 | [2d] Attempt the minimal Omega realization (P5 role) | **SENT** |
+| 324 | Codex 2 | [2d] Omega realization | RETURNED — Q-242 (RELABELING; enrichment = Gen_Omega generative rule) |
+| 326 | Codex 2 | [2f] Fix X_K independently, execute the K_square falsifier arm | **LOADED — NOT SENT** |
 
 Register head Q-238. Preflight run at write time against Q-238; nothing new since close.
 
