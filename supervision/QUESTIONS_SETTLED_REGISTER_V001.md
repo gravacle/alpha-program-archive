@@ -10691,6 +10691,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-286 — P5 chain verification: ALL MATHEMATICS RECOMPUTES (tensor, Q-279 restriction, p-clean retarded image, the stop, no built weak-*/bidual step, no built p-path); the DEFECT is the accounting TAXONOMY — wrong axis, two missing accounts (2026-08-02, relay 369)
+
+**Artifact:** `STAGE8_TASK4A_P5_MAXIMAL_CHAIN_AND_ACCOUNTING_CROSS_VERIFICATION_DETERMINATION_V001.md`, `260fb9fc…`, seal verified, mirror byte-identical.
+
+**Confirmed independently:** Q-284's derivative tensor; the FULL Q-279 restriction; the finite p_ch-clean retarded image; the raw-G stop; the six residue categories complete at coarse grain; **no built weak-star or bidual completion found; no built path carries p_ch into the finite retarded image** — the two claims Q-285 made load-bearing both hold on the built chain.
+
+**The defect:** the accounting identity. Q-282 requires accounts BY FIELD (measure, contour, boundary/contact, domain closure); Q-284 accounted BY OPERATION (differentiation, inversion, Keldysh extraction, induced response). Also missing: a STATIONARY SCHUR account, and — per Q-285 — the CLASS-FORMATION image/topology account (the door's own ledger). `FOUR_ARROW…ASSEMBLED` does not survive as Q-282 defined it; current tail accounting TYPE-U.
+
+**Disposition:** the corrected accounting package (Q-282 taxonomy + the Schur account + the class-formation account) is assembled over the VERIFIED chain by the verifying lane — it independently recomputed every entry and specified the required taxonomy itself.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
