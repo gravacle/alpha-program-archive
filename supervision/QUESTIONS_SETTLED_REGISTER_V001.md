@@ -10578,6 +10578,22 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-278 — The law-side P3 attack: a real subpackage BUILDS (cylinder amplitudes, orientation, glue, bounded domains, common origin — TYPE-P), and the four-field stop is now precisely characterized — each field needs structure NEITHER kinematics NOR the ratified law contains (2026-08-02, relay 359)
+
+**Artifact:** `STAGE8_TASK4A_P3_SECOND_ATTACK_LAW_SIDE_CONSTRUCTION_AND_NARROWED_STOP_V001.md`, `8e9a09c1…`, seal verified, mirror byte-identical.
+
+**Built (TYPE-P):** `P3_LAW_SIDE_SUBPACKAGE_BUILT = true` — the exact cylinder-amplitude system, the E_post orientation structure, the law-side glue pair (P2's source completion + PathCert's record-only GNS limit), bounded domains, on the discharged common origin.
+
+**The four residues, each now exact:**
+1. MEASURE: C7 gives zero-section PULLBACK consistency for AMPLITUDES — not Kolmogorov MARGINAL consistency for measures. Amplitude-consistency ≠ integration-out consistency; the projective-measure route fails at exactly that step.
+2. CONTOUR: E_post fixes time-oriented endpoint charge — an orientation, not an interacting iε prescription; the analytic continuation structure is genuinely additional.
+3. BOUNDARY: the law-side glue pair is exact but is not a JOINT physical boundary package.
+4. DOMAINS: GNS_out contains only BOUNDED record operators — no unbounded physical endpoint operator yet EXISTS to have a domain theory.
+
+**Reading:** after a kinematics-side and a law-side attack, the four fields are revealed as the CONTINUUM-DYNAMICS layer (integration over histories, interacting analytic structure, joint boundaries, unbounded generators) — physics the record-level corpus does not contain in ANY form yet found. Before any authoring decision, the provable-first question is: **does the p_ch verdict actually CONSUME these four fields, or does the transport run on the subpackage that built?** The finite retarded block is p-free and bounded-shadowed; the tail is dead at source level; the deciding computation may need less than full U3. That audit is the next relay — the Q-270-pattern move ("what actually requires it?") that has paid off every time it has run.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
