@@ -10939,6 +10939,18 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-305 — The transport audit: TEST-CLEAN — all three Door-D firings are PHYSICAL; every crossing coefficient-neutral; W's i is spent and cannot double-supply; the DIRECT source/output identification is INCOMPATIBLE with both requirements (TYPE-R). The missing object is one normalization map (2026-08-02, relay 387)
+
+**Artifact:** `STAGE8_TASK4A_DOOR_D_TRANSPORT_JACOBIAN_CTP_METRIC_AND_FACTOR_AUDIT_V001.md`, `0fcf42e8…`, seal verified, both mirrors byte-identical.
+
+**The audit:** the linear/bilocal Jacobians form the required symmetric-square pair; the CTP metric, Keldysh transform, quotient, and W3 restrictions are real and COEFFICIENT-NEUTRAL — none can supply a complex phase. Independent factor derivation: D_J Ā − (i/ℏ)G_b = q·[b − iℏ·L⊗L]. All three firings SURVIVE (Q-300, Q-302, Q-304 residual genuine).
+
+**The theorem the audit leaves standing:** `CURRENT_DIRECT_IDENTIFICATION_COMPATIBLE_WITH_BOTH_REQUIREMENTS = false | TYPE-R` — with the source pairing DIRECTLY identified as the raw output, the same-correlator identity (demanding the odd iℏ·L⊗L) and U1-reality (demanding the even slot) cannot both hold. The i in W = −iℏ·Log Z is already accounted; it cannot also be the source-to-output normalization.
+
+**The reviewer's reading for the disposition:** the two requirements TOGETHER may FORCE the missing map uniquely — an even→odd normalization N at the source-to-output boundary carrying exactly the unit factor i (any other phase fails one requirement or the other). If uniqueness proves, N is not authored: it is the unique solution of two requires — the OBS-16 shape a third time, and the (1−i) residual closes by derivation. If uniqueness fails, N is authored with a choice table. The disposition should commission the uniqueness theorem FIRST.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
