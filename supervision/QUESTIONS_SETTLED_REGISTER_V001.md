@@ -10220,6 +10220,20 @@ ONE BRACKETED REAL NUMBER. ***
 
 ---
 
+## Q-253 — B_ind is NOT tail-blind by domain (it consumes completed-layer objects); the fixed point's entire tail question REDUCES to one certificate: p_loc|Tail_ind = 0 (2026-08-02, relay 335, DoR-011)
+
+**Artifact:** `STAGE8_TASK4A_BIND_INPUT_SIGNATURE_AND_DOMAIN_TAIL_BLINDNESS_DETERMINATION_V001.md`, `790ae95b…`, seal verified, mirror byte-identical.
+
+**The refutation (honest, against the hoped-for shortcut):** `ALL_B_IND_INPUTS_FINITE_STAGE = false | TYPE-R`. The sealed v004 definition is B_ind(K) = p_loc[Π_R,ind[G_K]] — and Π_R,ind, p_loc, and G_K are ALL completed physical-response-layer objects; no finite-stage B_ind definition exists anywhere in the fifteen-definition lineage (`TYPE-S`), and v004 STRENGTHENED the completed typing by replacing K_ind[G_K] with the completed action-valued retarded Hessian.
+
+**The reduction (TYPE-P, the artifact's value):** `B_IND_TAIL_QUESTION_REDUCED_TO_P_LOC_ON_TAIL_IND = true` — at fixed background and fixed p_loc, **B_ind is tail-blind iff p_loc|Tail_ind = 0**. The exact possible exposure remains the single term p_loc(t_ind). That certificate is unbuilt; tail-blind vs sees-tail stays NO_VERDICT.
+
+**Channel hygiene (TYPE-R twice):** the tail and background channels are NOT identified, and proving p_loc|Tail_ind = 0 would close ONLY the tail channel — G_K's completed stationary-background dependence (Q-252) is a separate, still-open question.
+
+**Reading:** alpha's tail exposure is now ONE functional on ONE subspace: does the local projection p_loc annihilate restriction-invisible content? "Local" is the operative word — if p_loc's sealed definition consumes its argument through local/finite-region data, annihilation follows from Q-247's separation. That single reading is the next derivation.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
