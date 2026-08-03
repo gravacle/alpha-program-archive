@@ -514,6 +514,13 @@ custody per LOCKED_PROCESS.md.
                 commissioned: 440 derives (consumer typing from the draft's own
                 condition), 441 authors through the gate. DoR-017 reserved.
                                                                                SURFACED: yes
+
+2026-08-03  C50 *** DoR-017 RATIFIED (Q-367): THE ACTION-COMPARISON SQUARE IN FORCE,
+                CLOSED BY THE N MEMBER (certified covariant divergence-generated;
+                symbolic nu) under the three-layer test discipline. The square race
+                ran nine artifacts (Q-358-366), four firings, strictly shrinking
+                gaps. The transverse action's determiner is CLOSED. Relay 449
+                commissions the stationary response. ***                       SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

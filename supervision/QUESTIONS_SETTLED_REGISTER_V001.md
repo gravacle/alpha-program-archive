@@ -11700,6 +11700,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-367 — DoR-017 RATIFIED: THE ACTION-COMPARISON SQUARE IS IN FORCE, CLOSED BY THE N MEMBER — the certified covariant divergence-generated member, symbolic ν, under the three-layer test discipline (tagging, void-on-downstream-failure, the sealed-number end test); the principal asked "Will we test the non zero?" and ruled on the answered discipline (2026-08-03, principal's ruling)
+
+**Decision file:** `DOR_017_ACTION_COMPARISON_SQUARE_N_MEMBER_RATIFICATION_2026-08-03.md`, sealed and mirrored. The divergence-is-the-coupling steer is now RATIFIED PHYSICS carried under instrumentation that can kill it at every subsequent stage.
+
+**What this closes:** the transverse action's determiner (the object the whole excavation from Q-334 was dug for) — the square's gate cycle ran nine artifacts (Q-358–Q-366) with strictly shrinking gaps. **What opens:** the stationary response computation on the ratified square — the last object before THE p-VERDICT.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
