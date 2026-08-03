@@ -11280,6 +11280,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-333 — Computation three: the tower at FULL P2 GENERALITY — D_k = ½Σ Q^even(R_t); NO universal growth law (bounded, linear, super-linear, oscillatory all occur; unbudgeted supremum infinite); THE WEIGHTS STAY INVARIANT AT FULL GENERALITY; two load-bearing boundaries named (2026-08-03, relay 415, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_FINITE_RECORD_REFINEMENT_TOWER_FULL_SOURCE_GENERALITY_COMPUTATION_THREE_LANE1_V001.md`, `fc63b0d8…`, seal verified, both mirrors byte-identical.
+
+**The result:** the tower is a pure TRANSDUCER — sources in, accumulation out, with no preferred growth law of its own. The require side is depth-INSENSITIVE at full generality (the weights (1−p,p) invariant for arbitrary completed bilocal sources — the strongest form of the tier-invariance yet). Depth's FORM is entirely the sources' choice.
+
+**The two boundaries:** (1) P2 contains no single bilocal carrier coupling refinement tiers; (2) P2's cell cutoff N is NOT identified with refinement depth k — the telescoping corners give a bounded subfamily, not a forced physical feed. (The N↔k identification would have been a cheap depth rule; it does not exist — honestly barred.)
+
+**The convergence:** with the record-only tower trivial (Q-332) and the general tower lawless-by-itself (here), the theory-intrinsic depth question lands entirely on computation four: WHAT DOES THE RATIFIED ORIGIN FEED THE TOWER — the origin-fed k-dependence (relay 416, in queue) is the only candidate for a canonical depth law the theory itself selects.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
