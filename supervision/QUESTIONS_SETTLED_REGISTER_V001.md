@@ -11618,6 +11618,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-359 — THE SQUARE RACE, AUTHOR ARM: the two-variant action-comparison-square proposal SURVIVES ITS SELF-KILL GATE — Variant Q (quotient-only) and Variant QE (quotient plus endpoint-matched) both fully typed, NEITHER selected; the race is complete and goes to adjudication against the derived standard (2026-08-03, relay 441, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_ACTION_COMPARISON_SQUARE_ADOPTION_PROPOSAL_LANE2_V001.md`, `c419e798…`, seal verified, mirrors byte-identical. PROPOSED_NOT_ADOPTED throughout; ROUTE_SELECTION_BY_OUTCOME = false; register sweep and race discipline (blind to the derive arm) documented.
+
+**Contents:** every leg typed (network input carrier; the physical carrier legs; the exact action output type — reality-covariant scalar corrections in Flat(S_G); the carrier square; the action-comparison square; the evaluation and 2PI interfaces); the authored choice table with minimality and void conditions per row (notably A8 = exactly the V003/Z7 stage-covariance boundary, A10 = the family-invariance discipline); the honest family-size accounting; no explicit nonzero formula selected (with the reason argued); the DoR-008 finite falsifier run within the proposal.
+
+**Status:** adjudication commissioned (relay 442, Codex 1 — the derive arm's lane): judge the proposal against Q-358's derived standard — the forced diagram contained exactly; Variant Q adopted BY DERIVATION for the φ_div square (the certificate already forces it — no selection occurs); Variant QE recorded as the lawful typing of other consumers, banked not adopted; the authored residue audited against the five-item list. DoR-017 ruling follows adjudication.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
