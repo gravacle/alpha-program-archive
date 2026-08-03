@@ -11234,6 +11234,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-329 — The redundancy draft: the sealed state supports ONE collective candidate — Red_N = h₂(p_A) — and it SATURATES AFTER ONE CELL with zero cycle response; the growing version is extensive and self-killed; bridge accounting 0/2/6. THE THREE FAILURES NOW COMPOSE: the sealed finite layer is DEPTH-POOR (2026-08-03, relay 411)
+
+**Artifact:** `STAGE8_TASK4A_COLLECTIVE_BRANCH_REDUNDANCY_DEPTH_FUNCTIONAL_DRAFT_DETERMINATION_V001.md`, `a98a9550…`, seal verified, mirror byte-identical. New TYPE-P claims: ZERO — nothing to verify; the failure is self-contained.
+
+**The finding:** h₂(p_A) — the branch mixture's binary entropy — is the sealed state's only collective functional, and it commits FULLY at the first cell: in the sealed structure, record formation is COMPLETE at one cell, and nothing sealed grows thereafter (the sequential tower's weights are zero-extension-invariant; the corpus certified one-cell commitment and invariant continuation, never GROWTH).
+
+**The composed theorem-shaped fact (three independent failures, one cause):** the divergence draft found four depths with no bridge (Q-327); the cocycle died because the weight is a global mixture with no per-cell factors (Q-328); the redundancy saturates instantly (here). All three fail against the SAME feature: **THE SEALED FINITE LAYER CONTAINS NO DEPTH-BEARING DATA.** One-cell exactness plus invariant sequential extension is depth-free by construction. The transverse action's determiner cannot be bridged FROM data that does not exist.
+
+**The move class this forces (the reviewer's reading for the ruling):** not more continuum authoring and not more bridge attempts — **EXTEND THE SEALED FINITE LAYER: commission new exact finite computations that CREATE depth-bearing sealed data** — multi-cell refinement/tier towers (the O7 tier witness exists and was never transferred), ensembles with genuinely growing structure, computed exactly and sealed under the falsifier. The finite is the authority; the authority has simply not yet spoken about depth. Back to the program's home turf, where every exact computation this season has succeeded.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
