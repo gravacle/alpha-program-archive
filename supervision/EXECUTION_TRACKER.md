@@ -278,7 +278,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 439 | Codex 1 | [4a] Confirmation of descent V003 | RETURNED — Q-357 (CONFIRMED; foundation ready for the square commission) |
 | 440 | Codex 1 | [4a] Square race derive arm | RETURNED — Q-358 (QUOTIENT_ONLY forced for phi_div's square; forced diagram built; residue = 5 items) |
 | 441 | Codex 2 | [4a] Square race author arm | RETURNED — Q-359 (two variants survive the gate, neither selected; to adjudication) |
-| 442 | Codex 1 | [4a] Square race adjudication (J1-J7, merged candidate) | LOADED — NOT SENT |
+| 442 | Codex 1 | [4a] Square race adjudication (J1-J7, merged candidate) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
