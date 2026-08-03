@@ -11750,6 +11750,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-372 — THE ADJUDICATION KILLS THE RADIAL GERM (G2/G3/G7) AND THE TARGET-TUNING DEFENSE WORKED: the reverse-engineered tuner's profile EXACTLY MATCHES the submission — not numeric tuning but SUPPORT tuning (the complement factor chosen because it creates response blocks); AND the germ's foundation does not exist — the physical tangent Hilbert norms, Riesz maps, and carrier-unit isomorphisms are UNRATIFIED AUTHORED FIELDS (2026-08-03, relay 453, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_JET_RACE_ADJUDICATION_LANE1_V001.md`, `2e1b0110…`, seal verified, mirrors byte-identical. INSTANTIATION = NOT_READY; READY_FOR_DOR018_RULING = no; VOID_CANDIDATE = true (proposal-level).
+
+**G2, exact:** the proposal's own J3 minimality clause is outcome-facing ("least weight with nonzero CC and potentially nonzero CK jets" — CC/CK are the response blocks Q-368 published). The reviewer's five-step reverse-engineering from a desired response pattern reproduces the submitted φ = ν(1 + ½‖c‖²)e^{−1/‖k‖²} EXACTLY. The simpler K-only germ φ_cycle = ν·f(‖k‖²) satisfies every physical requirement and was rejected only for not populating response blocks. "Tuning the support of the response is already target-aware." The δ_rad relabeling is not a descent from ratified divergence content — the profile gains NO preference from the divergence steer. The J1/J3 void condition FIRED. (PROFILE_CONTAINS_P = false; no numeric fitting — the defense caught the subtler sin.)
+
+**G3, the redirect:** V005 expressly records A4_NORM_FORCED_BY_GATE4 = false/TYPE-U; nothing ratified supplies ‖·‖_C, ‖·‖_K, R_C, R_K, carrier units, quotient-norm descent, or automorphism isometry. Both symmetry witnesses pass only conditionally on the missing form — "neither witness supplies the premise it tests." **The metric stratum has arrived on the alpha critical path**: per OBS-17 this is the GR-side layer (amplitude/measure/METRIC) that records provably do not reach — now required infrastructure for the EM-side number. **G7:** cycle-creating stages generically break the stationary-root restriction family.
+
+**What passed:** G1 (no derived-status smuggling), G4 (the germ reproduces the finite-zero theorem), G5 (Schur substitutions), G6 (zero-degeneration honest).
+
+**The repair surface (reviewer's):** re-author from independently sourced divergence content with no response-facing justification; disclose/ratify the carrier metrics and units; prove or narrow the cycle-creating restriction. **Commissioned in parallel: 454 (Codex 2 — the CARRIER METRIC AND UNITS proposal through the full gate; DoR-019 reserved) and 455 (Codex 1 — derive the ratified divergence datum's ACTUAL descent content: what a profile may lawfully be sourced from, blind to all response consequences).** The germ V002 waits on both. DoR-018 stays reserved for the jets.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

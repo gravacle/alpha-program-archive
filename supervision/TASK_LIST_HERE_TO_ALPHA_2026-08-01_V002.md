@@ -528,6 +528,14 @@ custody per LOCKED_PROCESS.md.
                 generator exists — both lanes). THE JET RACE (the seventh): 451
                 derives from the divergence datum, 452 authors through the gate.
                 DoR-018 reserved.                                              SURFACED: yes
+
+2026-08-03  C52 THE RADIAL GERM KILLED (Q-372): the target-tuning defense FIRED (the
+                reverse-engineered tuner profile matched the submission — support
+                tuning); and the carrier geometry is unratified (V005's A4-norm
+                TYPE-U). Parallel: 454 authors the CARRIER METRIC/UNITS through the
+                gate (DoR-019 reserved); 455 derives the divergence datum's lawful
+                profile-source content. Germ V002 waits on both; DoR-018 held.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
