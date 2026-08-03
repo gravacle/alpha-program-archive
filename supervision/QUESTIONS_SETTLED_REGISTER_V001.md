@@ -11148,6 +11148,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-322 — V003 fails on an exact TRILEMMA: all-jet matching forces ε = 0 AND a zero Hessian on the physical cycle kernel (no two-sided inverse); avoiding it leaves the transverse action TYPE-U; without a holomorphy premise an INFINITE family of all-orders-FLAT germs survives (2026-08-03, relay 404)
+
+**Artifact:** `STAGE8_LEGENDRE_ACTION_PHYS_ADOPTION_PROPOSAL_V003.md`, `ef6f151d…`, seal verified, mirror byte-identical. Five of six seams pass; the tangent square built; DoR-016 reserved, not ready.
+
+**The trilemma, exact:** (i) literal source-to-physical jet matching kills the quartic (ε = 0) — and with it EVERY analytic transverse action, since the finite kernel data is zero at ALL orders (Q-309) — forcing a degenerate Hessian on the nonzero physical cycle kernel; (ii) respecting Q-313 leaves the action unbuilt; (iii) the surviving objects are FLAT GERMS — smooth, nonzero, all jets zero — an infinite-dimensional family nothing finite can see.
+
+**The two physical readings, both register-worthy:**
+- **READING A (the principal's standing divergence thread):** a flat germ (e^{−c/x²}-type) is the canonical NON-PERTURBATIVE form. The transverse cycle action being necessarily flat would mean the coupling's home is non-perturbative cycle dynamics — invisible to every finite jet, determined (if at all) by global/divergence structure, exactly the log-divergence-IS-the-coupling hypothesis arriving at the response sector. A holomorphy premise would kill this wrongly if the physics is genuinely non-perturbative.
+- **READING B (finite authority, strict):** a flat germ has ZERO finite shadow — record-invisible content — and the ratified basis forbids alpha from depending on what no record constrains. Then the physical transverse action is ZERO on the program's own quotient, the cycle sector is TOPOLOGICAL (zero response, nothing propagates along pure holonomy), and the trilemma's real defect is the RESPONSE CONTRACT's demand for a two-sided inverse on the FULL quotient — an imported convention that should never have covered a topological sector. The Q-270 audit ("what requires the full-quotient inverse?") decides between the readings.
+
+**Status:** the fork is the principal's, with the audit as the provable-first arm.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
