@@ -11628,6 +11628,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-360 — THE ADJUDICATION RETURNS NOT_READY (J1/J3/J4/J6/J7 KILL; J2/J5 PASS): the proposal's square is ill-typed at the pullback (B1-18a forms the undefined F_M ∘ ρ_f; lawful is F_N ∘ ρ_f), the five residue items are all incompletely discharged, and J7 names the load-bearing gap — WITHOUT A MEMBER/NORMALIZATION RULE THE FAMILY CANNOT YIELD A PHYSICAL ACTION RESULT (2026-08-03, relay 442, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_SQUARE_RACE_ADJUDICATION_LANE1_V001.md`, `9521e997…`, seal verified, mirrors byte-identical.
+
+**What PASSES:** J2 — the route resolution stands: Q-358 forces Variant Q for φ_div; banking QE is compatible with no-selection (the race's central question stays settled). J5 — the battery is genuinely adversarial with all three witnesses at the correct carriers.
+
+**The kills:** J1 — the forced diagram is not contained exactly: the contravariance error at B1-18a, D_G* not installed as derived, the Q-408 placement and DoR-008 obligations incomplete. J3 — none of the five residue items fully discharged; the algebraic-tensor comparison family and the QE fields are EXTRA to the forced Variant-Q residue. J4 — A3 unforced and ill-typed; A1/A6/A7/A9 belong only to the banked QE record. J6 — the board claims no finite check fails while its own restriction-square proof is a finitely checkable domain failure; the physical bottom-leg falsifier unrun. **J7 — the fresh attack: the retained zero member and the nonzero rescaling orbit make every member-sensitive Q-408 contribution non-invariant. The member/normalization rule is not bookkeeping — it is the named remaining physics of the square** (residue item 4), to be derived or put to ratification, never chosen silently.
+
+**Status:** proposal V002 commissioned (relay 443, Codex 2 — builder repairs): the typed kill list one-to-one, QE content moved wholly to the banked record, the bottom-leg falsifier run, and the normalization rule treated as the named open item. DoR-017 stays reserved.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
