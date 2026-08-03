@@ -11454,6 +11454,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-346 — CROSS-REVIEW: DETERMINER_RESULT CONFIRMED but DOOR 7 KILLED AS DECLARED (X2/X5/X7) — Q-313's Map 1 ALREADY descends the scalar character to the primitive cycle quotient, and DoR-016's Z^CTP is the SAME scalar; the residue narrows to the full-family Map-1 extension + the action-comparison square + a trace-kernel sufficiency theorem; CORRECTION OF RECORD on Q-345's door declaration (2026-08-03, relay 427, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_DETERMINER_DOOR7_CROSS_REVIEW_LANE2_V001.md`, `d738661e…`, seal verified, mirrors byte-identical.
+
+**What stands (CONFIRMED):** DoR-016 does not determine the transverse action; the finite network accumulation is TYPE-P-determined given histories; the one-edge falsifier is exact in its narrow scope (same-stage direct factorization).
+
+**What dies (the correction):** Q-345's D2 premise "no ratified carrier or composite reaches an incidence-cycle carrier" OMITTED Q-313. The ratified composite EXISTS at scalar-character level: doubled history → R_CTP cells → Z_N^CTP = Z_N → T_N^char = Hol_{c_square}⁻¹ ∘ Z_N → Q_square ⊂ the physical incidence-cycle quotient (Q-313, unique, TYPE-P; Q-315 certifies its restriction square). A symbol-collision ledger confirms DoR-016's Z^CTP and Q-313's Z_N are the same consumed scalar. **This is the questions-settled-register failure class: the door was declared without the register sweep finding Q-313.**
+
+**Map 1's strict ceiling (why the residue is real):** square-scoped (target = the sealed primitive Q_square, not a family-natural action on every realization); does not intertwine the full untraced dynamics; factors scalar Z/F/A content only; no Γ_2PI, no action normalization, no comparison square. X7's second product-kernel attack: NetAcc alone is NOT a sufficient action determiner.
+
+**The narrowed chain of record:** DoR-016 finite scalar character → Q-313 Map 1 on Q_square → full-family extension, IF IT EXISTS → the transverse action-comparison / 2PI descent. Six missing certificates named for any commissioning-grade interface; the two decisive ones: existing-Map compatibility (no rival CycleMap over a built theorem) and trace-kernel sufficiency/locality (equal Z^CTP ⇒ equal action, or the action consumes cellwise R_CTP — declared explicitly).
+
+**Status:** two arms commissioned in parallel — 428 (Codex 1: the family extension of Map 1, or its impossibility proof) and 429 (Codex 2: the sufficiency/kernel arm, developing its own X7 attack). OBS-17's second evidence note corrected accordingly.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

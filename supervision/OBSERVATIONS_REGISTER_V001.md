@@ -698,6 +698,10 @@ FORMAL OBJECT: Door 7, the network-CTP-tower-to-transverse-cycle-action descent,
 by the determiner derivation under DoR-016 and proven necessary by an executed one-edge
 test (open-path access nontrivial, cycle carrier zero, factorization refuted). The
 emergence point OBS-17 named is the single unbuilt interface on the critical path.
+[CORRECTION OF RECORD, Q-346: the bridge's first leg already existed — Q-313's Map 1
+descends the scalar character to the primitive cycle quotient. The unbuilt part is the
+full-family extension + the action-comparison square + trace-kernel sufficiency. The
+emergence point is PARTIALLY BUILT, narrower than the killed Door-7 declaration.]
 
 **OBS-16 third confirmation (2026-08-02, Q-306):** the source→output normalization N was
 forced to i·Id by two requires jointly (the sealed identity coefficient + the involution
