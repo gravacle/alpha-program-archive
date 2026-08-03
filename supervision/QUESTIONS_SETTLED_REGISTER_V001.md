@@ -11542,6 +11542,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-353 — THE JOINT FOUNDATION REVIEWS (434 + 435): the DESCENT'S CORE IS CONFIRMED but its package is KILLED on two exact scope claims (Z4/Z7); EXTENSION V002 IS CONFIRMED outright; the two maps are now PROVEN DIFFERENT on pendant characters — the physical split is exact: agreement precisely on the zero-extension image (2026-08-03, relays 434/435, lane-tagged)
+
+**Artifacts:** `STAGE8_TASK4A_DESCENT_CROSS_REVIEW_LANE1_V001.md`, `58b5aef0…` (DESCENT = KILLED, items Z4/Z7); `STAGE8_TASK4A_EXTENSION_V002_CROSS_REVIEW_LANE2_V001.md`, `d5cccfae…` (EXTENSION_V002 = CONFIRMED, V1–V4/V6 pass). Both seals verified, mirrors byte-identical.
+
+**What is CONFIRMED of the descent:** the fixed-stage formula and well-definedness, the kernel theorem (exactly vertex rephasing), the S8-A c₃ survival with the edge-exchange acting covariantly (H_{c₃} inverted, not deleted), general contravariant cellular restriction, boundary honesty, and a clean selection scan — "the two kills arise from map scope, not hidden member selection."
+
+**KILL 1 (P-432-1, the pendant counterexample):** on a cycle-plus-pendant rank-one stage with cycle characters 1 and pendant character w ≠ 1: D kills w (a vertex coboundary — Gate-4 gauge), but V002's terminal T^char = Hol⁻¹∘Z_M injects w into the cycle coordinate (Z_M = w). D ≠ T^char off the zero-extension image. **P-432-2 PARTIAL:** the repaired j_NM^Q square closes both maps' restriction naturality ON im(j_NM^Q) — the exact split is proven, not fuzzy. **P-432-3 OPEN:** which map the action square consumes is a scope decision the reviewer correctly declined to make (their sketch: consume the physical descent D; retain V002 on its sealed square/zero-extension scope).
+
+**KILL 2 (Z7, the cycle-creating identity edge):** extending a tree by a parallel identity edge takes Q_N = {*} to a nontrivial quotient — NO representative-independent upward map exists. The unscoped identity-extension certificate is FALSE for cycle-creating additions; upward naturality must be re-scoped to rank-preserving extensions (contravariant restriction stands confirmed).
+
+**Physical content:** the terminal scalar hears everything including gauge; the cycle descent hears only physics. Their difference is EXACTLY the gauge content of trees — the allow/require split again, now as the computed discrepancy between two constructed maps.
+
+**Status:** descent V002 commissioned (relay 436, Codex 2 — builder repairs): re-scope both certificates to the proven split, install both counterexamples as permanent regressions, and DERIVE from DoR-015's typing which map the action square consumes (resolve P-432-3 by derivation if forced; state it for ratification if not).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
