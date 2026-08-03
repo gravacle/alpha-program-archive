@@ -11162,6 +11162,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-323 — The trilemma audit: SPLIT. The full-quotient inverse is a Q-52 TEST-SPEC precondition (no alpha-facing consumer inverts on a cycle direction); complement-scoped inversion satisfies every displayed consumer — the spec amendment is the principal's; AND the reviewer's flat-germ-invisibility claim is REFUTED: the flat family is finite-visible OFF the active section (2026-08-03, relay 405)
+
+**Artifact:** `STAGE8_TASK4A_FULL_QUOTIENT_INVERSE_CONSUMER_DOMAIN_AND_TRILEMMA_AUDIT_DETERMINATION_V001.md`, `90737619…`, seal verified, mirrors byte-identical.
+
+**The machinery finding:** the full-quotient two-sided inverse is required ONLY by the Q-52 raw-map test specification — which itself says it is not a derivation and remains TYPE-U. No alpha-facing consumer applies the inverse to a pure record-cycle direction. Complement-scoped inversion satisfies EVERY displayed consumer. Amending the producer specification requires the principal — the exact "don't fail on machinery" class.
+
+**Q-313's true scope:** it forbids the zero-block SUBSTITUTION trick; it does NOT mandate a nonzero cycle Hessian. Reading B does not violate it.
+
+**The physics correction (TYPE-R against the reviewer's claim, register the refutation):** flat germs are NOT record-invisible — V003's construction makes them FINITE-VISIBLE away from the active section. Consequences: (a) finite authority does NOT force the cycle action to zero (the audit's second finding); (b) **the flat family is TESTABLE — the sealed finite pattern OFF the active section can kill, fix, or bound it**; (c) the relevance question (does any alpha-facing output consume cycle-action content?) is an executable computation.
+
+**Status:** trilemma NARROWED — the machinery half dissolves on the principal's spec amendment; the physics half (the cycle action: topological-zero vs non-perturbative, neither derived) proceeds by the off-section test. Both dependence verdicts NO_VERDICT.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
