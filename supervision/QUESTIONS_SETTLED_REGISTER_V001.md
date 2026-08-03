@@ -11558,6 +11558,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-354 — DESCENT V002 IS BUILT AND P-432-3 IS CLOSED BY DERIVATION: DoR-015 forces every physical scalar/action consumer to factor through the Gate-4 quotient — therefore the action square consumes D; T^char survives only on its sealed square / zero-extension scope; THE JOINT INFORMATION LAYER IS COHERENT (2026-08-03, relay 436, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_FAMILY_NATURAL_PREFIX_TO_CYCLE_DESCENT_LANE2_V002.md`, `89d98c3c…`, seal verified, mirrors byte-identical. READY_FOR_FINAL_REVIEW.
+
+**The repairs:** upward naturality re-scoped and PROVEN on cycle-rank-preserving identity extensions (constructed as the inverse of the contravariant restriction isomorphism); the cycle-creating upward map stated IMPOSSIBLE (TYPE-R, Z7 witness); the rank-one split PROVED with exact scope (D = T^char on the sealed square and im(j_NM^Q); permanent pendant w ≠ 1 witness off it). Fixed-stage descent, kernel theorem, and no-deletion unchanged and confirmed.
+
+**P-432-3 (the scope decision) closed as a theorem, not a choice:** DoR-015's typing forces physical action consumers through the Gate-4 quotient, hence through D. No ratification freedom remained.
+
+**The joint layer of record:** D at every finite signed edge-resolved rank + T^char on its sealed rank-0/1 scope + restriction-natural agreement on the zero-extension image + the permanent off-image disagreement theorem. Remaining TYPE-U: the action/2PI comparison square (the next and last object of the bridge) and the non-edge-resolved extension.
+
+**Status:** to Lane 1 for the final foundation review (relay 437) — the P-432-3 derivation chain is the item to attack. If it survives, the bridge's information layer is COMPLETE and cross-verified, and the action-comparison square is commissioned.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
