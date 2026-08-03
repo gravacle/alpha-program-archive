@@ -11816,6 +11816,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-378 — METRIC V003, THE CLEANED CANDIDATE: the forced semiform POSITIVE DEFINITE on the full carrier (fullness installed as derived); the quotient/null branches removed; the rank-preserving isometry correctly derived from W3; the authored DoR-019 residue is EXACTLY FOUR ITEMS (2026-08-03, relay 459, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_CARRIER_METRIC_AND_UNITS_PROPOSAL_LANE2_V003.md`, `29ec770a…`, seal verified, mirrors byte-identical.
+
+**DoR-019's exact content, now labeled:** DERIVED — the pullback semiform, family-wide fullness/nondegeneracy, the W3 rank-preserving isometry. AUTHORED — (1) the R5 completed-carrier identification, (2) the positivity/reality completion convention, (3) the A4 automorphism isometry (beyond W3's reach), (4) the carrier units and the R4 unit seam.
+
+**Status:** final check commissioned (relay 460, Codex 1). On PASS: the DoR-019 ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
