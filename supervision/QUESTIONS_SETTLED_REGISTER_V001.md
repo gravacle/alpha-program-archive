@@ -11392,6 +11392,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-341 — FIRING 3 SELECTS THE BRANCH BY KILL: Branch A (cycle-constrained scalar) is KILLED by DoR-015's family-naturality discipline — its physical nonzero sector is filtration-member-dependent (the source-space dimension itself moves); Branch B (doubled CTP access) SURVIVES EVERY CHECK; V003 not ratification-ready as a package (2026-08-03, relay 423, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_NETWORK_SOURCING_LAW_V003_RE_REVIEW_LANE1_V001.md`, `daec1110…`, seal verified, mirrors byte-identical. BRANCH_A = KILLED (T2, T3, T6, T8-A); BRANCH_B = SURVIVES; OVERALL = KILLED (package contains a killed branch); READY_FOR_RATIFICATION_RULING = no.
+
+**T2/T6, the family-naturality kill:** the ratified stack deliberately has NO geometric refinement datum (the thin category N≤M only; the refinement functor expressly removed; the stitching record keeps all 1,088 support filtrations alive), and DoR-015's source proposal REQUIRES every future consumer to be natural over the complete realization family or carry an independently ratified member-selection rule. Branch A does neither: the same final reciprocal pair batched coarsely admits the source s(1,1), batched edge-by-edge admits ONLY ZERO — member-dependent physical content, dimensions differing, no natural isomorphism possible. **T8-A:** the one-edge prefix of the reciprocal pair kills even V003's displayed nonemptiness (its base (s) has B₁ᵀ(s) ≠ 0); avoiding it requires exactly the unratified filtration member. **T3:** both W3 refutations STAND, but V003's functoriality display (NS3-A14) is ill-typed — the correct adjoint identity is ρ_ML = ρ_NL ∘ ρ_MN.
+
+**Banked, not lost:** Branch A's fixed-filtration all-prefix theorem is PASS as mathematics — a lemma, not a law. Revival condition stated: a ratified filtration/member rule PLUS a family-naturality theorem.
+
+**Branch B survives all eight items:** exact DoR-009 finite doubled trace, family-wide common-gauge covariance, exact projector multiplication, no joint contraction, six doors honest, fresh reality + identity-zero-extension attacks pass (Z→conj(Z), F→F†, A→conj(A) under branch exchange; A_{N+1} = A_N under identity extension).
+
+**The physical sentence:** the network-sourcing law's surviving carrier is the OPEN-PATH ACCESS side — DoR-015's "required charge/flux access." The scalar cycle route died because its content depended on how edges are grouped into stages, which the program ratifies as unphysical. Requires force (OBS-16); the drive lives on the require side.
+
+**Status:** V004 commissioned (relay 424, Codex 2): Branch B carried UNCHANGED, Branch A recorded as killed with its lemma banked and revival condition stated, the W3 typo corrected of record. Then final re-review → the DoR-016 ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

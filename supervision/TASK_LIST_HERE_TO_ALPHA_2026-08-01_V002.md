@@ -491,6 +491,14 @@ custody per LOCKED_PROCESS.md.
                 commissioned to Codex 2, relay 422, executing both named repairs; the
                 kill cases become permanent regressions. DoR-016 remains reserved.
                                                                                SURFACED: yes
+
+2026-08-03  C47 FIRING 3 (Q-341): BRANCH SELECTED BY KILL. Branch A dies on DoR-015
+                family-naturality (filtration-member-dependent content); Branch B
+                (doubled CTP access) survives every check. V004 commissioned to
+                Codex 2, relay 424: Branch B unchanged, Branch A recorded killed
+                with its fixed-filtration lemma banked + revival condition; W3
+                functoriality typo corrected. DoR-016 remains reserved.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
