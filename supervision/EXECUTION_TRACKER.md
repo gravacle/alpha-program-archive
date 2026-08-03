@@ -288,7 +288,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 449 | Codex 1 | [4b] The stationary response | RETURNED — Q-368 (exact Schur form; certificates pass; finite blocks zero p/nu-free; boundary = the member's jets) |
 | 450 | Codex 2 | [4b] Cross-verification of the stationary response | RETURNED — Q-369 (CONFIRMED all; jet boundary TYPE-U; the p-verdict blocks on the jets) |
 | 451 | Codex 1 | [4b] JET RACE derive arm: the jets from the divergence datum (D1-D5) | **SENT** |
-| 452 | Codex 2 | [4b] JET RACE author arm: the instantiation proposal (E1-E6) | LOADED — NOT SENT |
+| 452 | Codex 2 | [4b] JET RACE author arm: the instantiation proposal (E1-E6) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
