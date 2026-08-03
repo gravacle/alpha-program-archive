@@ -11470,6 +11470,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-347 — THE MAP-1 EXTENSION THEOREM: EXTENDS-WITH-BOUNDARY — unique extension on cycle-rank 0 and 1 stages (exactly Q-313 on Q_square, Q-315's square extended); NO-EXTENSION at rank ≥ 2, proven by a no-selection automorphism obstruction: a single traced character carries at most ONE integer cycle covector, and edge-exchange naturality forces the record-visible S8-A cycle into every no-selection lift's kernel (2026-08-03, relay 428, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_MAP1_FULL_FAMILY_EXTENSION_LANE1_V001.md`, `04002fb4…`, seal verified, mirrors byte-identical. Register-sweep run before construction (the Door-7 lesson applied); Map 1 consumed, no rival built.
+
+**The extension (TYPE-P):** rank 0 — unique terminal cycle projection; rank 1 — unique T^char = Hol_{c_G}⁻¹ ∘ Z_N, natural on cycle-rank-preserving arrows, reality/batching/zero-extension compatible, agreeing with Q-313 on Q_square, with Q-315's restriction square extended.
+
+**The obstruction (TYPE-R, exact):** on the admitted S8-A rank-two stage, the edge-exchange automorphism σ (a↔d) fixes Z_N but acts on cycles by σ(c₁) = c₂, σ(c₃) = −c₃; commuting with σ forces λ(c₃) = 0 for every no-selection lift λ — the record-visible c₃ (V005 separation theorem) is constant on the lift's image. Escaping it requires distinguishing parallel edges = an unratified selection. Kernel disclosure: for any Z_N-local map at rank ≥ 2, image dimension ≤ 1 while the physical quotient has rank ≥ 2 — no such map covers or separates the record-visible cycle quotient. **NOT the old 1,088-filtration problem: an intrinsic cycle-rank obstruction on one admitted finite stage.**
+
+**The residual family:** Hom(C_G, Z)-parameterized lifts at fixed higher-rank stages; a member choice would be a NEW disclosed physical direction (unauthorized).
+
+**Consequence for the bridge:** the traced scalar cannot carry multi-cycle content — the transverse action, which must preserve record-visible cycles, cannot be Z^CTP-local at rank ≥ 2. This is the extension arm's independent vote for INSUFFICIENT on 429's question: the descent's domain must be the cellwise/untraced level. Awaiting 429 (running) before the comparison-square commission.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
