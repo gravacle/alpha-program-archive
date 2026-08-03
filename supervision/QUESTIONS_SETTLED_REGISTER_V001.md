@@ -11782,6 +11782,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-375 — THE METRIC CROSS-REVIEW KILLS V001 ON FIVE ITEMS AND ENLARGES THE DERIVED PART: the finite pullback semiform s_G(c,d) = g_A4(u_c, u_d) IS FORCED (missed by the proposal); I_K injectivity is UNPROVEN with an admitted finite countermodel making g_K degenerate — the live alternative is the quotient carrier K_G/ker(I_K); plus an A4-isometry premise restated as proof and a reversed Riesz unit power (2026-08-03, relay 456, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_CARRIER_METRIC_CROSS_REVIEW_LANE1_V001.md`, `55975bfa…`, seal verified, mirrors byte-identical. METRIC_PACKAGE = NOT_READY.
+
+**Verdicts:** R1 KILL (the full positive package is unforced, but the FORCED semiform was missed — DoR-019's authored content was misstated), R2 KILL (I_K injectivity and the completed I_C identification asserted not proved; finite countermodel gives degenerate g_K), R3 PASS (provenance clean — no response inspection, no scale), R4 KILL (V005 supplies covariance/separation, NOT A4-isometry; the premise was restated as its own proof), R5 PASS (honest doors; DP1/DP7 partially executable), R6 KILL (the choice table omits the live K_G/ker(I_K) alternative and the fullness certificate), R7 KILL (the Riesz map A → A* carries U_A⁻², not U_A²).
+
+**The arc:** same as the square's — each kill converts authored territory to derived territory. The metric's derived core is now: the forced pullback semiform + (likely) the quotient by its kernel as the minimal nondegenerate carrier; the authored residue shrinks toward completion topology, units, and the C_prop side.
+
+**Status:** metric V002 commissioned (relay 457, Codex 2): install the forced semiform as derived; prove or refute I_K injectivity with the countermodel confronted (if refuted, the quotient carrier with nondegeneracy by construction); prove or honestly author the A4-isometry; fix the unit power; complete the choice table.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
