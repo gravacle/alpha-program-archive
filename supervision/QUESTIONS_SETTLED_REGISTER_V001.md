@@ -11654,6 +11654,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-362 — RE-ADJUDICATION: M1–M5 PASS (the K5 refutations CONFIRMED adversarially — MEMBER_RULE_DERIVABLE = no, the fiber is genuine); NOT_READY on M6/M7 — R1 lacks a REALIZATION-AUTOMORPHISM COVARIANCE requirement, witnessed by an explicit rank-two cycle-selective member that passes every listed R1 certificate while secretly selecting a cycle (2026-08-03, relay 444, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_SQUARE_V002_RE_ADJUDICATION_LANE1_V001.md`, `8629dd23…`, seal verified, mirrors byte-identical.
+
+**What passes:** M1 (the forced diagram verbatim, contravariance correct), M2 (exactly R1–R5 live), M3 (A3 gone, QE banked clean), M4 (the bottom-leg falsifier passing), **M5 (all three K5 refutations re-derived AND a fresh derivation route attempted and refuted — the member/normalization freedom is genuinely underived; the DoR-017 fiber stands)**.
+
+**The remaining defect (M6/M7):** R1's certificate list omits realization-automorphism covariance. The witness: an explicit rank-two member that responds differently to exchanged parallel cycles — it passes every listed R1 certificate yet violates the no-selection discipline (the same automorphism standard that killed Branch A at Q-341 and bounded the extension at Q-347, now applied to the member fiber). Consequence: the DoR-017 fiber must be restricted to AUTOMORPHISM-COVARIANT members before the ruling — otherwise a ratified member could smuggle a cycle selection.
+
+**Status:** square V003 commissioned (relay 445, Codex 2 — bounded): add the covariance certificate to R1, install the rank-two witness as a permanent regression, re-state the fiber over covariant members only. Then final re-adjudication.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
