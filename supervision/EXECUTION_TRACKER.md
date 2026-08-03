@@ -238,6 +238,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 398 | Codex 1 | [4a] Build ii | RETURNED — Q-316 (SHARP STOP; missing pullback/solution map; the principal's locus reframe registered) |
 | 399 | Codex 2 | [4a] Locus test | RETURNED — Q-317 (geometry assembles as ONE object; residue = ONE seam: the Legendre/action arrow) |
 | 400 | Codex 2 | [4a] ACTION RACE derive | RETURNED — Q-318 (source-side UNIQUE; six-item authored residue; refusal held) |
-| 401 | Codex 1 | [4a] ACTION RACE: draft LEGENDRE_ACTION_PHYS (DoR-016 reserved) | **LOADED — NOT SENT** |
+| 401 | Codex 1 | [4a] ACTION RACE: draft LEGENDRE_ACTION_PHYS (DoR-016 reserved) | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
