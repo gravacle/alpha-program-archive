@@ -11690,6 +11690,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-366 — THE SQUARE GATE CYCLE COMPLETES: V004 passes the final check on every item (the ρ_H,N cube closes with sign/conjugation, the S8-A exchange, inverse/Schur/retarded-extraction covariance); MERGED_CANDIDATE = READY; READY_FOR_DOR017_RULING = yes — the member ruling goes to the principal (2026-08-03, relay 448, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_SQUARE_V004_FINAL_CHECK_LANE1_V001.md`, `29612c34…`, seal verified, mirrors byte-identical.
+
+**The candidate of record:** the forced diagram (DoR-016 access → prefix traces → D_G → D_G*, T^char on its sealed scope, the Q-408 placement, the DoR-008 obligations) + the five authored residues R1–R5 with R1-COV across all carriers including the completed Hessian restriction + the QE banked record. Gate history: V001 five kills → V002 fiber typed, one certificate missing → V003 covariance installed, one carrier unproven → V004 the cube proved. Four firings, strictly shrinking gaps, every claim cross-verified.
+
+**Before the principal (DoR-017):** the member ruling over the covariant fiber — Z (zero member: the square closes with zero transverse correction) / N (the certified covariant divergence-generated member: the square closes carrying the divergence-determined content) / F (family-only: provably nonclosing) / reject. Uniqueness from ratified stock refuted by both lanes independently; no member selected anywhere in the artifacts; member-sensitive claims forbidden pre-ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
