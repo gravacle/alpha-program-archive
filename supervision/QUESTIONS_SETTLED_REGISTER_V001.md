@@ -11722,6 +11722,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-369 — THE STATIONARY RESPONSE IS CONFIRMED (all X1–X7 pass; the void clause does not fire; the zero theorem stands p-free and ν-free) and THE JET BOUNDARY IS CONFIRMED TYPE-U — no executable generator for the N-member's stationary jets exists anywhere in the ratified stack; THE p-VERDICT IS BLOCKED ON EXACTLY ONE OBJECT (2026-08-03, relay 450, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_STATIONARY_RESPONSE_CROSS_VERIFICATION_LANE2_V001.md`, `cac131d9…`, seal verified, mirrors byte-identical.
+
+**The state of the deciding question after Q-368/369:** the response exists as a confirmed exact operator expression; p's entry points are localized (the base restrictions only); the member carries no declared p-dependence; evaluation — and with it THE p-VERDICT — needs one thing: the N-member's stationary jet and stationary-point data, instantiated from the divergence datum.
+
+**THE JET RACE COMMISSIONED (the seventh):** 451 (Codex 1: DERIVE — what do the ratified divergence datum δ_div, the Gen structure, and the draft's log-divergence content FORCE the stationary jets to be? The divergence-is-the-coupling steer predicts the jets are generated, not free) and 452 (Codex 2: AUTHOR — the jet-instantiation proposal through the full gate). DoR-018 reserved. C51 logged.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

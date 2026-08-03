@@ -521,6 +521,13 @@ custody per LOCKED_PROCESS.md.
                 ran nine artifacts (Q-358-366), four firings, strictly shrinking
                 gaps. The transverse action's determiner is CLOSED. Relay 449
                 commissions the stationary response. ***                       SURFACED: yes
+
+2026-08-03  C51 THE STATIONARY RESPONSE CONFIRMED (Q-368/369): exact Schur form, all
+                certificates pass, zero theorem p-free and nu-free. The p-verdict
+                blocks on ONE object: the N-member's stationary jets (no ratified
+                generator exists — both lanes). THE JET RACE (the seventh): 451
+                derives from the divergence datum, 452 authors through the gate.
+                DoR-018 reserved.                                              SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
