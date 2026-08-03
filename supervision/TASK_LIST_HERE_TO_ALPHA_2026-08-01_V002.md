@@ -454,6 +454,14 @@ custody per LOCKED_PROCESS.md.
                 as kill-tests; DoR-016 RESERVED. Relay 409. The fifth and final authored
                 object -- or the fifth derivation, if the divergence structure forces it.
                                                                                SURFACED: yes
+2026-08-03  C42 Q-328 ruling: THE REDUNDANCY DRAFT COMMISSIONED -- the collective
+                redundancy functional of the branch state as the depth object, drafted
+                through the full gate: Q-409's 8 bridge items as the contract, the sealed
+                geometry estimator as the second test surface, the Q-328 kill's
+                constraints as battery rows (no per-cell additivity; the mixture
+                structure respected; the Q_N objects distinguished; nothing assumed
+                that must be built). DoR-016 RESERVED. Relay 411.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
