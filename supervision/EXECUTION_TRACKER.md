@@ -272,6 +272,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 433 | Codex 2 | [4a] The prefix-to-cycle descent | RETURNED — Q-352 (CONSTRUCTED at all ranks; kernel = vertex rephasing exactly; c3 survives; boundary honest) |
 | 434 | Codex 1 | [4a] Cross-review of the descent | RETURNED — Q-353 (core CONFIRMED; KILLED Z4/Z7 on scope: pendant mismatch + cycle-creating extension) |
 | 435 | Codex 2 | [4a] Cross-review of extension V002 | RETURNED — Q-353 (CONFIRMED; seams close on zero-extension image; P-432-3 open) |
+| 436 | Codex 2 | [4a] Descent V002: scope repair + P-432-3 derivation (S1-S6) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
