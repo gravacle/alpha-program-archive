@@ -265,6 +265,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 425 | Codex 1 | [4a] Final review of V004 | RETURNED — Q-343 (SURVIVES, all F1-F7 PASS; ready for ratification ruling) |
 | 426 | Codex 1 | [4a] Determiner under DoR-016 | RETURNED — Q-345 (finite accumulation DETERMINED; action BLOCKED ON DOOR 7, the cycle descent; necessity proven) |
 | 427 | Codex 2 | [4a] Cross-review determiner/Door 7 | RETURNED — Q-346 (determiner CONFIRMED; Door 7 KILLED — Q-313 Map 1 already exists; residue narrowed) |
+| 428 | Codex 1 | [4a] Map-1 full-family extension (build or prove impossible, E1-E6) | LOADED — NOT SENT |
+| 429 | Codex 2 | [4a] Trace-kernel sufficiency arm (K1-K6) | WRITTEN — QUEUED (load after 428 sent) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
 
