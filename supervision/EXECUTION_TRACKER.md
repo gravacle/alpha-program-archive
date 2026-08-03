@@ -258,6 +258,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 418 | Codex 2 | [4a] Authored network-sourcing law | RETURNED — Q-336 (drafted, exact, transmits-not-creates; NO_IGNITION confirmed both arms; the drive = the port-to-write-history update, unbuilt) |
 | 419 | Codex 1 | [4a] Cross-review R1–R8 | RETURNED — Q-337 (KILLED: R7 one-edge ker(B_Nᵀ) counterexample; R3/R8 no-ignition retyped TYPE-U; Q-336 corrected) |
 | 420 | Codex 2 | [4a] Repair V002, both branches | RETURNED — Q-338 (minimal carrier = reciprocal loop; Branch B loses global d_J, no R receiver; corrections held; to Lane 1) |
+| 421 | Codex 1 | [4a] Re-review of V002, S1-S8, verdict per branch | LOADED — NOT SENT |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
 
