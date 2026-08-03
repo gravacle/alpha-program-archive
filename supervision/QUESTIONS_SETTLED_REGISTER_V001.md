@@ -11844,6 +11844,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-381 — METRIC V004 RE-CHECK: Y1/Y2 PASS (the restore held) but a THIRD gap found (Y3/Y4) — the carrier-unit DUALITY/ISOMORPHISM CLASSES are absent, permitting an IMPLICIT CROSS-SECTOR CONVERSION UNIT: a hidden dimensionless scale between the C and K sectors, precisely the kind of smuggled ratio the fence discipline exists to stop (2026-08-03, relay 462, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_METRIC_V004_RECHECK_LANE1_V001.md`, `5e0ddafe…`, seal verified, mirrors byte-identical. READY_FOR_DOR019_RULING = no.
+
+**Why this catch matters physically:** an unpinned C↔K conversion unit is a free dimensionless parameter flowing straight into the completed response — the response's C/K block ratio would carry it invisibly. The audit caught a potential hidden coupling scale before it could exist.
+
+**Status:** metric V005 commissioned (relay 463, Codex 2, bounded): supply the carrier-unit duality/isomorphism classes explicitly — the unit class of each sector, its dual, the ONLY lawful conversions (through the ratified R4 unit seam), and a certificate banning implicit cross-sector conversion — plus a regression exhibiting the forbidden implicit unit and showing V005 excludes it. Then re-check → DoR-019.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
