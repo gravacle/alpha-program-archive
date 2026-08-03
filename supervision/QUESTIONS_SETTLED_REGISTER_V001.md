@@ -11572,6 +11572,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-355 — THE FINAL REVIEW KILLS ONLY THE UNIVERSALITY INFERENCE (F3/F6/F7): V005 permits TWO physical scalar routes — (1) closed-cycle quotient products and (2) endpoint-covariant transport contracted with matching endpoint data — so DoR-015 does NOT force every action consumer through D; CORRECTION OF RECORD on Q-354's "closed by derivation"; both map repairs and the entire fixed-stage core are CONFIRMED (2026-08-03, relay 437, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_DESCENT_V002_FINAL_REVIEW_LANE1_V001.md`, `20391cb9…`, seal verified, mirrors byte-identical. DESCENT_V002 = KILLED (F3/F6/F7); INFORMATION_LAYER = INCOMPLETE.
+
+**What is CONFIRMED:** F1 (the upward map exists exactly on cycle-rank-preserving inclusions as the inverse of an isomorphism; cycle-creating additions expressly impossible), F2 (the split with permanent pendant witness), F4 (the fixed-stage core unchanged), F5 (all regressions recompute).
+
+**The kill (F3), exact:** V005 expressly permits endpoint-covariant transport contracted with matching endpoint data — a GAUGE-INVARIANT physical scalar route that does not factor through q_G. F7's witness: a one-edge endpoint-contraction scalar varies while Q_G is a point. **Route (2) is DoR-016's own carrier** — the ratified network law consumes data exactly this way, so its physicality was already in force. Q-354's "P-432-3 CLOSED_BY_DERIVATION" and "JOINT_INFORMATION_LAYER = COHERENT/COMPLETE" are CORRECTED OF RECORD: P-432-3 is OPEN, with the missing certificate now named precisely — whether the action-comparison consumer is quotient-only or also consumes the ratified endpoint-contraction route.
+
+**The physical sentence:** the two routes are the two faces of the EM split — cycle holonomy (flux) and endpoint contraction (charge access). The transverse CYCLE action consumes D by its own signature; whether the full action-comparison square ALSO carries an endpoint-contraction leg is now the program's sharpest open question, sitting exactly on the allow/require surface.
+
+**Status:** descent V003 commissioned (relay 438, Codex 2): the bounded restatement — P-432-3 = OPEN with the two-route typing verbatim, the joint-layer board scoped, nothing else touched. The consumer-typing question then leads the square commission (derive from the divergence draft's own determination condition; ratification only if not forced).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
