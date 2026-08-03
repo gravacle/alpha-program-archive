@@ -446,6 +446,14 @@ custody per LOCKED_PROCESS.md.
                 off-section flat-germ check against sealed finite data (relay 406). The
                 machinery half of the Q-322 trilemma dissolves under self-policing; the
                 physics half proceeds by test.                                 SURFACED: yes
+2026-08-03  C41 Q-326 ruling: THE DIVERGENCE DRAFT COMMISSIONED -- the principal's oldest
+                thread (THE LOG DIVERGENCE IS THE COUPLING) drafted through the full gate
+                as the determiner of the transverse cycle action: the accumulated record-
+                depth divergence structure fixing the non-perturbative content. Battery +
+                Q-408's exact dependence forms as test targets; the countermodel lineage
+                as kill-tests; DoR-016 RESERVED. Relay 409. The fifth and final authored
+                object -- or the fifth derivation, if the divergence structure forces it.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
