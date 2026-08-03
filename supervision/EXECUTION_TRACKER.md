@@ -274,6 +274,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 435 | Codex 2 | [4a] Cross-review of extension V002 | RETURNED — Q-353 (CONFIRMED; seams close on zero-extension image; P-432-3 open) |
 | 436 | Codex 2 | [4a] Descent V002 repair | RETURNED — Q-354 (repaired; P-432-3 closed by derivation — the action square consumes D; joint layer coherent) |
 | 437 | Codex 1 | [4a] Final foundation review | RETURNED — Q-355 (KILLED F3/F6/F7: universality only; two ratified consumer routes; maps + core all CONFIRMED; Q-354 corrected) |
+| 438 | Codex 2 | [4a] Descent V003: bounded two-route restatement (T1-T4) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
