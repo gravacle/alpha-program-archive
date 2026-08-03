@@ -11268,6 +11268,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-332 — The access channel does NOT type-check (TYPE-R): C5 governs how histories affect writes, not what records export; THE RECORD EXPORTS EXACTLY ONE NUMBER — p; the maximal intrinsic tower is TRIVIAL (A_k = 1, D_k = 0 for all k). Intrinsic branch feedback does not deepen (2026-08-03, relay 414)
+
+**Artifact:** `STAGE8_TASK4A_INTRINSIC_FEEDBACK_TOWER_ACCESS_CHANNEL_TYPECHECK_DETERMINATION_CODEX_LANE2_V001.md`, `99d294e5…`, seal verified, mirror byte-identical, lane-tagged filename (the collision lesson applied).
+
+**The refutation:** the reviewer's expose∘feed candidate dies at typing — C5 proves an EXTERNAL history affects the charged write; it does not EXPORT data from a completed record. The record density cancels the phase and exposes ONLY p, while V007's ports require J ∈ ℓ¹₊⊕ℓ¹₋ and symmetric trace-class R. The maximal derived branch-only tower: weights (1−p,p), A_k = 1, Γ_k = 0, D_k = 0 — every finite k. **A future feedback law needs explicit record→J and record→R maps with full certificates: authored territory, honestly typed.**
+
+**The theorem worth the whole relay (register it as physics):** a completed record's total public content is the single number p. Records are maximally private — the branch weight is their entire export. Beside the season's reduction of the program's free input to p_A = r_ch/(r₀+r_ch): **the theory's sole input equals the record's sole export.** The two ONE-NUMBER results are the same number.
+
+**The synthesis pointing at computation four:** 414 killed the RECORD-ONLY intrinsic tower — but the theory's sources are not external to the theory: THE RATIFIED ORIGIN GENERATES THEM (DoR-013's d_state; germ V007's ports are its consumers). The canonical tower is therefore the ORIGIN-FED tower — tiers fed by Gen_Ω's own generated sources: no declared external data, no authored channel, the ratified generative structure consumed as built. Its k-dependence is the theory-intrinsic depth datum.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
