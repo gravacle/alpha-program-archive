@@ -11378,6 +11378,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-340 — V003 EXECUTES BOTH NAMED REPAIRS: Branch A's projective family is a genuine restriction-natural source law with an EXACT characterization (increment-local cycle kernels), the W3-adjoint route is REFUTED BY PROOF (two explicit counterexamples), and Branch B is repaired at the doubled level, consuming ONLY the ratified DoR-009 finite doubled trace (2026-08-03, relay 422, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_NETWORK_SOURCING_LAW_ADOPTION_PROPOSAL_CODEX_LANE2_V003.md`, `51724fae…`, seal verified, mirrors byte-identical. PROPOSED_NOT_ADOPTED; no branch/rank/ratio/orientation/frame/filtration member selected; all ten V002 survivors preserved verbatim.
+
+**Branch A route 1 (the survivor):** q ∈ Hist_A^proj iff the base is conserved AND every later stage increment's new coefficient lies in that increment's own cycle kernel (NS3-A8) — the projective family is the compatible product of the cycle kernels introduced within each declared increment. Restriction-closure holds by construction; on the S8-A stages the family is q_M = (s,s,0), nonzero, with the reciprocal-loop tower x, Ξ, A_k UNCHANGED; the (1,0,−1) killer is excluded (its base (1,0) is not conserved). Honest refinement sensitivity stated: a reciprocal pair introduced as one block supports its cycle, introduced edge-by-edge each singleton increment is forced to zero — the family depends on the declared filtration, and V003 promotes nothing to filtration-invariant. **The exact price of naturality: drive lives in increment-local cycle kernels.**
+
+**Branch A route 2 (killed by proof, not selection):** W3 is the lawful physical source restriction and functorial, but the strong history square is REFUTED — W3 sends (1,0,−1) to (1/2,1/2) while the raw history restriction gives (1,0) — and the C5 character square is REFUTED GLOBALLY by a dangling-edge counterexample (a later edge closing an old dangling edge: nontrivial raw restricted character, W3 image zero; the S8-A agreement was special to the balanced stage). W3 cannot replace the history restriction without an additional authored history map (NOT_BUILT/TYPE-U — a sixth door).
+
+**Branch B (repaired at the doubled level):** exports (T₊, T₋) with both covariance laws; forms R_CTP = T₋†T₊; Level III-a is EXACTLY the ratified DoR-009 finite doubled ready-record trace Z_N^CTP = ∏ conj(z₋ⁿ)z₊ⁿ — conjugation-invariant, hence frame-independent family-wide with no frame selected. Tower by charged-projector multiplication: A_k^B = (1−p) + p·∏Z^CTP per system; the complete network object is the ordered PAIR of towers, never multiplied — the joint two-system contraction (III-b) and the completed physical contraction (III-c) remain TYPE-U doors. S8-B pair regression passes (varying T₋ changes the export).
+
+**Status:** to Lane 1 for re-review (relay 423, verdict per branch). If it survives: the DoR-016 ratification ruling. Firing 3 of the gate cycle.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
