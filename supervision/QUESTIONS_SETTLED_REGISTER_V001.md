@@ -11804,6 +11804,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-377 — FULLNESS IS PROVEN: A2-R10 forces image(L_G) + image(B_G) = E_G, hence ker(I_K,G) = 0 FAMILY-WIDE — the carrier metric closes on DERIVED content (the forced semiform on the full carrier, nondegenerate); the earlier countermodel violated R10 and is not admitted; V002 needs only two bounded cleanups (2026-08-03, relay 458, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_FULLNESS_CERTIFICATE_AND_METRIC_V002_REVIEW_LANE1_V001.md`, `f422a034…`, seal verified, mirrors byte-identical. FULLNESS = PROVEN; METRIC_V002 = NOT_READY; READY_FOR_DOR019_RULING = no (pending cleanup).
+
+**The theorem:** the ratified R10 discipline forces the edge space to be spanned by the current image and the boundary image; every integral cycle therefore carries a nonzero current — no record-visible content escapes the A4 form's weigh-in. The unweighable-sector horn is CLOSED; the metric-stratum authored residue shrinks to completion, positivity convention, and units.
+
+**V002's two bounded defects:** (1) it retains the now-refuted null-sector branches (the kernel provably vanishes — the F/Q alternatives are dead weight contradicting the theorem); (2) it re-authors the rank-preserving isometry that DoR-015's W3 ALREADY RATIFIES — derived content mislabeled as authored (the reverse of the usual sin, still a mislabel).
+
+**Status:** metric V003 commissioned (relay 459, Codex 2, bounded): install the fullness theorem as derived, delete the null-sector branches, re-derive the rank-preserving isometry from W3 (authored only beyond W3's reach), delta table. Then the final check → DoR-019.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
