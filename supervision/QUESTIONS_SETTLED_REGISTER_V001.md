@@ -11292,6 +11292,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-334 — Computation four: SHARP STOP that completes the depth program's conclusion — d_state generates ρ_S (fixing only p_A = r_ch/(r₀+r_ch)); NO ratified d_J or d_R exists; the self-fed theory sits at the identity slice (A_k = 1, D_k = 0) forever. THE CLOSED RATIFIED THEORY IS DEPTH-FREE (2026-08-03, relay 416)
+
+**Artifact:** `STAGE8_TASK4A_ORIGIN_FED_REFINEMENT_TOWER_GENOMEGA_PORT_TYPECHECK_DETERMINATION_CODEX_LANE2_V001.md`, `4e00c7ed…`, seal verified, mirror byte-identical.
+
+**The four-computation theorem (all exact, all verified or lane-tagged):** (1) declared sources deepen linearly — the tower works; (2) records alone export only p — intrinsic feedback trivial; (3) at full generality the tower is a lawless transducer — the sources choose everything; (4) the origin generates STATE, not DRIVE — no ratified source-generation law exists, and the theory's canonical self-evolution is the identity. **Depth is real, exactly computable, and entirely exogenous to the ratified structure.**
+
+**What this names (the residue's final form):** THE SOURCE-GENERATION LAW — d_J and d_R, the origin's missing third and fourth maps: what generates the drive. The physical reading available (the principal's frameworks assembling): C5 says EXTERNAL HISTORIES affect writes — in the physical world, the sources of one record system are OTHER RECORD SYSTEMS' histories. The completion of Gen_Ω is the MUTUAL-SOURCING LAW of the record network — what one system's history feeds its neighbors. A single closed tower is depth-free because a lone record system has nothing to hear; depth — and with it the coupling — would be a property of the NETWORK.
+
+**Status:** the commissioning fork is the principal's — the fifth and (by the four-computation theorem) genuinely unavoidable authoring, OR a derivation attempt from C5's own external-history structure. The identity slice makes no claim that the origin forces J = R = 0 — correctly scoped.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
