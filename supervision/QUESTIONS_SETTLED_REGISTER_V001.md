@@ -11360,6 +11360,24 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-339 — THE RE-REVIEW KILLS BOTH V002 BRANCHES (OVERALL = KILLED), each with an exact bounded repair shape: Branch A's admissible domains are not closed under stage restriction (the (1,0,−1) counterexample); Branch B collapses the doubled CTP pair to one endpoint morphism and cannot determine ζ_CTP = conj(z_−)z_+ (2026-08-03, relay 421, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_NETWORK_SOURCING_LAW_V002_RE_REVIEW_LANE1_V001.md`, `e8a4e8ff…`, seal verified, mirrors byte-identical.
+
+**Verdicts:** S1 PASS/PASS (both prior kills stay repaired), S2 PASS (fixed-stage restriction forced by port typing, not a projector), S3 PASS (minimal-stage algebra exact), S4 PASS (tree-zero theorem complete), S5 KILL-B, S6 PASS (five doors correctly TYPE-U), S7 PASS (selection-free), S8 KILL-A and KILL-B.
+
+**S8-A (kills Branch A):** stage M = {a:1→2, b:2→1, d:1→2}; q_M = (1,0,−1) has B_Mᵀq_M = 0 (admitted), but the restriction to stage N = {a,b} gives (1,0) with B_Nᵀ(1,0) ≠ 0 — the parent is admissible, the restriction is not: ρ_MN(Hist_M) ⊄ Hist_N. V005's zero-extension naturality is forward-only and says nothing about restricting new large-stage cycles; V005's W3 precision says physical source restrictions are ADJOINTS of the retained isometric inclusions (naive truncation invalid), and V002 neither instantiates that adjoint nor proves it preserves the C5 character. Branch A at V002 is a collection of fixed-stage maps, not a sequential source law.
+
+**S5-B/S8-B (kills Branch B):** the exact input is doubled, h = (T₊, T₋), and the C5 relative factor R_CTP = T₋†T₊, ζ_CTP = conj(z₋)z₊ needs BOTH components; V002 exports one morphism, which cannot be injective on the relative factor. Independently, a bare coordinate product ∏ζ_t transforms as (g_t g_s⁻¹)^k∏ζ_t — not a frame-free scalar without per-tier endpoint contraction, which V002 correctly refuses to select and therefore cannot use. Three levels were collapsed into ζ: raw covariant access / the relative CTP endomorphism / the final scalar state-effect contraction.
+
+**The named repairs (reviewer's shapes, not executed):** A — the projectively conserved history family (every finite restriction conserved) OR the W3-adjoint source-restriction square with exact C5 compatibility. B — export the doubled pair, construct R_CTP, run the exact family-wide C5 doubled trace with the three levels kept distinct.
+
+**Ten V002 items survive review**, including both R7 regressions, the tree-zero theorem, the minimal-cycle algebra, the TYPE-U standing, all five doors, and the selection accounting.
+
+**Status:** firing 2 of this law's gate cycle (Door D took three). V003 commissioned (relay 422, Codex 2) executing both named repairs; the S8-A triple (1,0,−1) and the S8-B pair test become permanent regressions.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

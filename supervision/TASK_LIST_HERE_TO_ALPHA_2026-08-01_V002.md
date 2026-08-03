@@ -483,6 +483,14 @@ custody per LOCKED_PROCESS.md.
                 corrected of record). Repair V002 commissioned to Codex 2, relay 420:
                 both DoR-015-forced branches (cycle-constrained scalar / endpoint-
                 covariant). DoR-016 remains reserved.                          SURFACED: yes
+
+2026-08-03  C46 V002 KILLED ON BOTH BRANCHES BY RE-REVIEW (Q-339): A fails restriction-
+                naturality across stages; B loses the doubled CTP pair. Each kill names
+                its bounded repair (projective family / W3-adjoint square; doubled-pair
+                export + relative CTP endomorphism + family-wide doubled trace). V003
+                commissioned to Codex 2, relay 422, executing both named repairs; the
+                kill cases become permanent regressions. DoR-016 remains reserved.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
