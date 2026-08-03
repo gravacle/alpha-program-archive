@@ -11210,6 +11210,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-327 — The divergence draft: NO_VERDICT at the bridge — the sealed corpus holds FOUR inequivalent depth/divergence notions and NO map from any of them to a scalar functional on K_cycle; φ_div TYPE-U; the exact bridge package a future proposal must supply is specified (2026-08-03, relay 409)
+
+**Artifact:** `STAGE8_TASK4A_DIVERGENCE_DETERMINED_TRANSVERSE_CYCLE_ACTION_DRAFT_DETERMINATION_V001.md`, `ed49624b…`, seal verified, mirror byte-identical. DoR-016 reserved.
+
+**The finding:** the principle survives; the corpus's own bookkeeping blocks it — four independently-minted depth/divergence notions, no sealed identification among them, and no bridge from any to the cycle carrier. The naive constructions fail compatibility (documented); the bridge package is specified exactly. No Q-408 consequence can lawfully execute.
+
+**Disposition (the principal's ruling in session):** the DEPTH DEDUP runs on Fable (the reviewer's working lane — the cross-corpus identification task suits the full live context), with mandatory Codex verification before anything registers as settled, per standing custody. Then the bridge: derived from the surviving depth's structure if forced, or drafted as the specified package.
+
+**The strategic note of record:** depth is amplitude-side accumulation (the GR side); the cycle carrier is the phase side (EM). The missing bridge is the map from gravity's accumulation to electromagnetism's holonomy — under OBS-17, THE EMERGENCE POINT ITSELF, with alpha as the exchange rate across it. The founding suspicion now has a named object.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
