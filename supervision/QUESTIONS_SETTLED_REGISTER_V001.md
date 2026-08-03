@@ -11114,6 +11114,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-319 — The action race, authored arm: LEGENDRE_ACTION_PHYS V001 drafted on EXACTLY the six-item residue; the weakest field self-flagged (R2's flat-fiber constrained Legendre rule — authored, not dressed as derived); nothing executed; DoR-016 reserved (2026-08-03, relay 401)
+
+**Artifact:** `STAGE8_LEGENDRE_ACTION_PHYS_ADOPTION_PROPOSAL_V001.md`, `2e31b8ff…`, seal verified, mirror byte-identical. PROPOSED_NOT_ADOPTED.
+
+**The draft:** the six fields of Q-318's residue — physical tangent realization, constrained transverse-action rule, measure/delta pairing, interacting contour, boundary/contact form, common graph domain — each authored on the choice table. The lane named its own weakest point: R2, the flat-fiber constrained Legendre rule (the kernel sector's dynamics — the physically deepest authored clause in the program). No locus, blocks, or verdict executed — discipline held.
+
+**Next stations (the signature-race pattern, fourth run):** the merge (derived source-side pairing + Leg_W subtracted in as premises; the six authored fields retained; seams proven), the cross-review with R2 under the heaviest fire, then DoR-016 — the program's final ratification.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
