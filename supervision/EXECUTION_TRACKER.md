@@ -260,6 +260,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 420 | Codex 2 | [4a] Repair V002, both branches | RETURNED — Q-338 (minimal carrier = reciprocal loop; Branch B loses global d_J, no R receiver; corrections held; to Lane 1) |
 | 421 | Codex 1 | [4a] Re-review of V002 | RETURNED — Q-339 (BOTH BRANCHES KILLED: A restriction-naturality, B CTP-pair loss; bounded repairs named) |
 | 422 | Codex 2 | [4a] V003 named repairs | RETURNED — Q-340 (projective family exact + natural; W3 route refuted by proof; B doubled, consumes only DoR-009 trace) |
+| 423 | Codex 1 | [4a] Re-review of V003, T1-T8, verdict per branch + ratification readiness | LOADED — NOT SENT |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
 
