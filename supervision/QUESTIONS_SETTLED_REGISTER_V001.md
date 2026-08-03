@@ -11258,6 +11258,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-331 — The tower CONFIRMED by the cross-verification of record (all five checks independent): A_k, D_k = kQ/2, and the tier-invariant weights all stand; scope notes preserved — D_k is source-conditioned, and the unbounded accumulation lives in the LIFTED EXPONENT while holonomy and amplitude stay bounded (2026-08-03, relay 413, Codex 1)
+
+**Artifact:** `STAGE8_TASK4A_FINITE_RECORD_REFINEMENT_TOWER_CROSS_VERIFICATION_DETERMINATION_V001.md`, `a5f10f92…`, seal verified, both mirrors byte-identical. (Codex 2's duplicate run is a builder self-check; its return will be noted, not registered as verification.)
+
+**The first depth datum is now VERIFIED SEALED STRUCTURE.** The finite depth program is one-for-one.
+
+**The next object, with its derivation candidate:** the intrinsic feedback channel — record-output → source without declared probes. The candidate FROM RATIFIED STRUCTURE: a record's exposed content is exactly its REQUIRED charge/flux access (the law's own access certificate names what a record makes readable); the germ's source ports name what a source consumes. The channel = the access maps composed with the source ports — expose∘feed — potentially DERIVED, not authored. The intrinsic tower (tiers fed by their own records' access content) then computes exactly, and its k-dependence is the intrinsic depth datum the coupling has been waiting for. The tower construction already implements record-as-next-source lawfully at the declared level; the intrinsic version replaces the declared probe with the record's own exposed access.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
