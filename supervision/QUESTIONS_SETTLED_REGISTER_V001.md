@@ -11506,6 +11506,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-350 — THE EXTENSION-THEOREM CROSS-REVIEW SPLITS: rank-0/1 extension KILLED on a typing hole (E2.4's naturality equation is domain-mismatched — the precomposition j_NM^Q: Q_rel,N → Q_rel,M is absent; MINIMAL REPAIR STATED: insert it on the left); the RANK-2 OBSTRUCTION CONFIRMED (terminal-scalar-scoped); the PREFIX-FAMILY ESCAPE OPEN with explicit algebra showing the obstruction does not persist at family level (2026-08-03, relay 430, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_MAP1_EXTENSION_CROSS_REVIEW_LANE2_V001.md`, `4bcc286e…`, seal verified, mirrors byte-identical.
+
+**Verdicts:** Y1 KILL (uniqueness and all non-restriction certificates recompute; only the displayed naturality equation is ill-typed — the reviewer supplies the corrected chain ending Z_M ∘ j_NM^Q), Y2 PASS (the Hom(C_G,Z) classification is complete — affine/nonlinear/orientation-reversed candidates add no member), Y3 PASS (the automorphism obstruction verified without the unbuilt functor), Y4 PASS (kernel/image exact), **Y5 PASS WITH SCOPE CORRECTION (the obstruction is conclusive for ONE TERMINAL SCALAR only; Q-348's prefix family evades both the dimension and fixed-domain automorphism arguments — explicit S8-A algebra in §7.2; the family-natural descent itself remains TYPE-U)**, Y6 PASS (regressions clean except the killed certificate), Y7 PASS WITH DEPENDENCY DISCLOSURE (rank-one uniqueness holds under the exact equation Hol_c T = Z, not from square compatibility alone — a scope precision to carry into the repair).
+
+**Joint state of the bridge foundation after both cross-reviews (Q-349 + Q-350):** the sufficiency theorem CONFIRMED; the rank-2 obstruction CONFIRMED as terminal-only; the rank-0/1 extension needs one bounded typing repair; the escape route is OPEN and the single remaining unbuilt object is THE FAMILY-NATURAL PREFIX-TO-CYCLE DESCENT.
+
+**Status:** parallel commissions — 432 (Codex 1: the bounded j_NM^Q repair with the Y7 scope precision) and 433 (Codex 2: construct the family-natural descent on the confirmed foundation).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
