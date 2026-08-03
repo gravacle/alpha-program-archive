@@ -11176,6 +11176,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-324 — The off-section test: BOUNDED/OPEN — the sealed finite functional is EXACTLY constant along every ker λ_N coset (the strongest finite statement possible), but no sealed map identifies source values with physical-ACTION values, so the flat family survives; R_comp needs the cycle sector — the verdict-chain dependence is now THE question (2026-08-03, relay 406)
+
+**Artifact:** `STAGE8_TASK4A_OFF_SECTION_FLAT_GERM_EXACT_FINITE_DATA_AND_RELEVANCE_DETERMINATION_V001.md`, `64561aca…`, seal verified, mirror byte-identical. C40's void clause did not fire.
+
+**The finite side, maximal:** exact constancy — not jet-constancy — along every coset. The finite theory says the source functional carries NO cycle-sector structure whatsoever.
+
+**The gap, honest:** killing the flat family pointwise needs a full-coverage physical-action restriction map — and ASSUMING one repeats Q-313's refuted source/action identification. The family stays infinite-dimensional at the action level.
+
+**The relevance split:** `R_comp requires the cycle-sector operator value` — the sector is NOT globally irrelevant. But DIRECT alpha-facing dependence is NO_VERDICT — and the deciding question's own chain runs through B_ind (background-agnostic p_loc ∘ Π_R,ind, complement-scoped under C40). **If B_ind's chain consumes no cycle-action content, the verdict computes NOW on the derived stack (P_src/Leg_W are UNIQUE and derived; G⁰⁰⁷ exists; the two-sector structure is built), with the cycle sector deferred as open physics for R_comp and beyond. If it does consume it, the identification problem is on the critical path.** That determination is executable and next.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
