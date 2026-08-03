@@ -11826,6 +11826,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-379 — THE METRIC FINAL CHECK: V1/V2 PASS (fullness installed correctly; the W3 derivation sound) but V3–V5 FAIL on CONTENT LOSS — V003's cleanup dropped V002's derived finite C-side metric, R_C, the quotient-norm formula, and the pendant/tree regression while claiming a bounded delta (2026-08-03, relay 460, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_METRIC_V003_FINAL_CHECK_LANE1_V001.md`, `8c72435e…`, seal verified, mirrors byte-identical. READY_FOR_DOR019_RULING = no.
+
+**The defect class:** content lost in a rewrite claiming boundedness — the same failure family as the plan-loss incident; caught by the delta audit exactly as designed. Nothing is wrong with the mathematics on either side; V004 must carry BOTH: V003's fullness cleanup AND V002's derived C-side package verbatim.
+
+**Status:** metric V004 commissioned (relay 461, Codex 2, bounded restore): reinstate the dropped derived content verbatim, keep the cleanup, true delta table, all regressions. Then re-check → DoR-019.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
