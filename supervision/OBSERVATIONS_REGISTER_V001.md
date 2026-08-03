@@ -697,3 +697,17 @@ of record: four families derived / six structures authored. OBS-17's split stand
 forced to i·Id by two requires jointly (the sealed identity coefficient + the involution
 law) — survivor count one, authored choice none. Bundling failed, choosing failed, the
 requires forced: three for three.
+
+---
+
+## OBS-18 — GR is the allow/require boundary-FORMER: the amplitude/weight layer enforces which content is required (registered) vs allowed (presentation); records cannot write their own registration mechanism (principal, discussed 2026-08-02, registered 2026-08-03 with the depth-data evidence)
+
+**The observation (the principal's):** the allow/require boundary is not prior structure — something enforces it, and the enforcer is the amplitude/weight layer: the dephasing weights are the record-WRITING mechanism (what converts allowed possibility into required fact), and that layer is exactly the GR-side content (Q-290: records are phase-rich, amplitude-poor; the six authored structures are all amplitude-side). EM supplies the alphabet; gravity supplies the act of writing. **GR's role is boundary-former — the surface IS gravity, seen from the record side.**
+
+**The self-reference corollary:** the record surface provably cannot derive its own registration mechanism (the authored-residue theorems) — the thing that makes records records is the one thing records cannot record.
+
+**The depth-data evidence (2026-08-03):** (1) the mixture is COLLECTIVE — registration is shared through one branch, never per-cell (Q-328); (2) the weights (1−p,p) are invariant at every tier and at full source generality — the enforcer is DEPTH-INVARIANT (Q-330/Q-333); (3) a completed record exports exactly p — the registration mechanism's sole public face IS the boundary datum (Q-332).
+
+**Falsifier (pre-registered):** (a) any derivation of the amplitude/registration layer from record phase content alone; or (b) a demonstration that a require-side fact is fixed without amplitude structure; or (c) the weights proven depth-SENSITIVE anywhere in the sealed finite theory — any one kills the observation.
+
+**Status:** OPEN; the origin-fed tower (computation four) and the eventual bridge are its next tests.
