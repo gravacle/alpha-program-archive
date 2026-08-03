@@ -297,6 +297,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 458 | Codex 1 | [4b] Fullness + V002 review | RETURNED — Q-377 (FULLNESS PROVEN family-wide; countermodel inadmissible; two bounded cleanups) |
 | 459 | Codex 2 | [4b] Metric V003 cleanup | RETURNED — Q-378 (semiform positive definite on full carrier; residue = 4 authored items) |
 | 460 | Codex 1 | [4b] Metric final check | RETURNED — Q-379 (NOT_READY: V003 dropped V002's derived C-side content; bounded restore commissioned) |
+| 461 | Codex 2 | [4b] Metric V004: bounded restore (W1-W4) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
