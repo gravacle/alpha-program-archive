@@ -11124,6 +11124,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-320 — The action merge: V002 complete — four derived components installed unchanged, six authored fields retained, ALL SIX SEAMS PASS at proposal level; R2 remains the weakest premise (the theorem identifies the kernel it must preserve but does not derive flatness) (2026-08-03, relay 402)
+
+**Artifact:** `STAGE8_LEGENDRE_ACTION_PHYS_ADOPTION_PROPOSAL_V002.md`, `9909810e…`, seal verified, mirror byte-identical. Nothing authored marked TYPE-P; DoR-016 reserved.
+
+**Provenance of the last object, final form:** DERIVED — P_src, Leg_W, and two further source-side components, installed unchanged with their uniqueness proofs. AUTHORED — the six residue fields on their choice tables, R2 (the flat-fiber constrained Legendre rule, the kernel sector's dynamics) self-flagged weakest: its seam theorem tells it exactly WHICH kernel to preserve but flatness itself is a choice.
+
+**Next stations:** the cross-review (R2 under the heaviest fire; the affine-witness lineage re-run where measure/boundary choices could hide state freedom), then DoR-016 — the final ratification — then the locus, the blocks, and THE VERDICT.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
