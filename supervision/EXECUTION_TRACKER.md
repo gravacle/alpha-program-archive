@@ -286,6 +286,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 447 | Codex 2 | [4a] Square V004 rho_H,N covariance | RETURNED — Q-365 (cube proved on the R5 class; S8-A exchange exercised; external Hessians outside claim) |
 | 448 | Codex 1 | [4a] Final check of square V004 | RETURNED — Q-366 (ALL PASS; READY; DoR-017 ruling to the principal) |
 | 449 | Codex 1 | [4b] The stationary response | RETURNED — Q-368 (exact Schur form; certificates pass; finite blocks zero p/nu-free; boundary = the member's jets) |
+| 450 | Codex 2 | [4b] Cross-verification of the stationary response (X1-X7) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
