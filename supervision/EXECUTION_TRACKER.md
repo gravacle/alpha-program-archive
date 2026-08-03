@@ -252,6 +252,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 411 | Codex 1 | [4a] Redundancy draft | RETURNED — Q-329 (saturates at one cell; THE COMPOSED FACT: the sealed finite layer is depth-poor) |
 | 412 | Codex 2 | [4a] The refinement tower | RETURNED — Q-330 (FIRST DEPTH DATUM: D_k = kQ/2; A_k closed form; the allow/require surface in motion) |
 | 413 | Codex 1 | [4a] Tower verification | RETURNED — Q-331 (CONFIRMED_WITH_NOTES; the first depth datum is verified sealed structure) |
-| 414 | Codex 2 | [4a] THE INTRINSIC FEEDBACK TOWER — the channel from access; computation two | **LOADED — NOT SENT** |
+| 414 | Codex 2 | [4a] THE INTRINSIC FEEDBACK TOWER — the channel from access; computation two | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
