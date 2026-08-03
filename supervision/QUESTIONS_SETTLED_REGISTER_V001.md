@@ -11304,6 +11304,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-335 — The drive race, derivation arm: C5 does NOT derive the mutual-sourcing law — it is RECEIVER-ONLY; but its receiving type LOCALLY MATCHES V007's finite J chart (a derived constraint on any emission law), and it contains NO R datum (the R port has no ratified receiving counterpart) (2026-08-03, relay 417, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_C5_EXTERNAL_HISTORY_TO_MUTUAL_SOURCING_DRIVE_DERIVATION_ARM_LANE1_V001.md`, `e73a3716…`, seal verified, both mirrors byte-identical.
+
+**The findings:** C5 defines external history → charged write, receiving end only; no neighbor-to-source maps, no reciprocity derivable. **The derived half that survives:** the receiving type matches V007's finite J chart — any future emission law's d_J must land in the chart C5 hears (a constraint the authored arm inherits). **The R gap:** C5 carries no R datum — the bilocal probe port has NO ratified receiving counterpart at network level; what R physically IS in the network picture is itself open. The conditional two-system tower exists but idles at identity under C5 alone.
+
+**Status:** the authored arm (418, in flight) carries the load, with the J-chart constraint and the R-gap as its inherited boundary conditions.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
