@@ -11222,6 +11222,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-328 — The reviewer's cocycle bridge is KILLED on all counts (K1–K8 executed): the sealed weight is a GLOBAL Bernoulli mixture with exact multiplicativity defect p(1−p)(1−u₁)(1−u₂); the only sealed arrow cocycle is TRIVIAL; the reviewer conflated three Q_N objects and overgeneralized 6.1; 0 of 8 bridge items completed (2026-08-03, relay 410)
+
+**Artifact:** `STAGE8_TASK4A_BOHM_DEPTH_DEDUP_COCYCLE_BRIDGE_ADVERSARIAL_VERIFICATION_V001.md`, `7618adcc…`, seal verified, mirror byte-identical. Reviewer scorecard: ~15 proposed / 11 refuted. The custody rule (Bohm constructions get Codex verification) earns its keep again.
+
+**The kill, complete:** w(Q) = 1−p+p·e^{−Q/2} is a global mixture, not a per-cell product (defect exact and generically nonzero); every zero-extension arrow has ZERO global log increment — the only sealed cocycle is trivial. No sealed arrow→cycle map; no signed representative-independent traversal descends to K_cycle; three Q_N objects conflated (the overload trap, biting its own warner); the 6.1 generalization overreached — compatible NONCONSTANT object functionals remain possible (the object-level route is NOT dead as a class; my "location theorem" was too strong). Four depths distinct under CURRENT typings; future identification NO_VERDICT.
+
+**What the kill establishes as physics (the principal's reading, attached by agreement):** the defect term IS record emergence in formula — cells correlated through the ONE shared charge branch, testimony collective rather than additive. **Records do not accumulate extensively; they emerge collectively.** The amplitude side (Z_N) composes multiplicatively — additive in the log; the weight side is the p-mixture — collective. Depth-as-redundancy is weight-borne: a gravitational notion (the OBS-17 boundary in the accumulation law itself).
+
+**The registered forward direction (speculative, anchored):** the classical intersection — gravity's own classical formulas are counting/entropy formulas (area laws; the Jacobson equation-of-state derivation), and the corpus holds one sealed anchor: the accumulated-record GEOMETRY ESTIMATOR artifact. The next bridge attempt should be the COLLECTIVE REDUNDANCY FUNCTIONAL of the branch state — tested simultaneously against the coupling's requirements (Q-409's 8 items) and the sealed geometry estimator, with ℓ_P as the declared conversion. Direction registered; nothing built.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
