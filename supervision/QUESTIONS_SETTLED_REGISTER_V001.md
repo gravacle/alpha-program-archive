@@ -11418,6 +11418,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-343 — V004 SURVIVES THE FINAL REVIEW (all F1–F7 PASS); READY_FOR_RATIFICATION_RULING = yes; the closing symmetry: the coarse-vs-refined batching attack that killed Branch A leaves Branch B INVARIANT by exact composition and character multiplicativity (2026-08-03, relay 425, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_NETWORK_SOURCING_LAW_V004_FINAL_REVIEW_LANE1_V001.md`, `4a77dbc8…`, seal verified, mirrors byte-identical.
+
+**Verdicts:** F1 PASS (direct byte comparison of the two 176-line Branch-B blocks: no diff — the reviewed PASS transfers), F2 PASS (no live Branch-A law; kills, lemma scope, both revival conjuncts exact), F3 PASS (ρ_ML = ρ_NL ∘ ρ_MN typed correctly; both refutations intact), F4 PASS (six doors NOT_OPENED/TYPE-U), F5 PASS (all five regressions recompute), F6 PASS (standing and selection audit clean), F7 PASS (fresh attack: Branch B is FILTRATION-NATURAL — coarse-vs-refined CTP batching invariant, exactly where Branch A died).
+
+**Status:** the gate cycle is complete after five artifacts (V001 killed → V002 killed both branches → V003 killed A/passed B → V004 consolidated → final review SURVIVES). The DoR-016 ratification ruling is now with the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
