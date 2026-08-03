@@ -280,7 +280,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 441 | Codex 2 | [4a] Square race author arm | RETURNED — Q-359 (two variants survive the gate, neither selected; to adjudication) |
 | 442 | Codex 1 | [4a] Square race adjudication | RETURNED — Q-360 (NOT_READY: pullback ill-typed, residue incomplete, normalization rule = the named remaining physics) |
 | 443 | Codex 2 | [4a] Square V002 repair | RETURNED — Q-361 (five kills repaired; normalization uniqueness REFUTED; DoR-017 fiber typed: Z/N/F/reject) |
-| 444 | Codex 1 | [4a] Re-adjudication of square V002 (M1-M7, incl. K5 re-check both directions) | LOADED — NOT SENT |
+| 444 | Codex 1 | [4a] Re-adjudication of square V002 (M1-M7, incl. K5 re-check both directions) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
