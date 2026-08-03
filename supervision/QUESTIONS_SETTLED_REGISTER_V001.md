@@ -11496,6 +11496,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-349 — THE SUFFICIENCY THEOREM IS CONFIRMED (all W1–W7 PASS), and the seam question is ANSWERED: at rank two the prefix family CARRIES EVERY CYCLE CHARACTER — only the terminal scalar is obstructed; prefix availability is RATIFIED (DoR-016's tower exposes factors, not only the final product) (2026-08-03, relay 431, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_SUFFICIENCY_THEOREM_CROSS_REVIEW_LANE1_V001.md`, `f9900a13…`, seal verified, mirrors byte-identical. (The lane's custody note about a stale reviewer sidecar was a mid-push snapshot artifact — live register, mirror, and sidecar all match `e26e16c9…`; verified.)
+
+**Verdicts:** W1 PASS (triangular isomorphism; faithfulness n = ±1 load-bearing and ratified), W2 PASS (terminal kernel exactly U(1)^{N−1}; the X7 pair is a member), W3 PASS (domain honesty: raw pairs/untraced operators/the physical action stay TYPE-U), **W4 PASS (the availability question: DoR-016 ratifies each finite Z_N^CTP; all prefixes are its finite restrictions; V004 calls each tier factor an already-traced scalar — NO new door needed)**, **W5 PASS (the seam: prefixes remove the one-scalar obstruction at fixed rank two; the family-natural physical comparison map remains the one unbuilt object)**, W6 PASS (reality/restriction/batching/identity-extension commute with the inverse), W7 PASS (fresh attack: edge-order permutation acts by a derived automorphism — the theorem is covariant, not falsely invariant).
+
+**Status:** PREFIX_FAMILY_AT_RANK2 = CARRIES_CYCLE_CONTENT. One cross-review still out (430, the extension theorem). If it confirms, the bridge's foundation is two confirmed theorems and the comparison-square commission goes out on the prefix-family domain.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

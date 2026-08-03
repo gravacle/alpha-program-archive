@@ -268,7 +268,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 428 | Codex 1 | [4a] Map-1 family extension | RETURNED — Q-347 (EXTENDS-WITH-BOUNDARY: unique at rank 0/1; NO-EXTENSION rank>=2, automorphism obstruction; trace can't carry multi-cycle content) |
 | 429 | Codex 2 | [4a] Trace-kernel sufficiency arm | RETURNED — Q-348 (SUFFICIENT: prefix-trace family = cellwise data, triangular isomorphism; terminal trace kernel U(1)^(N-1)) |
 | 430 | Codex 2 | [4a] Cross-review of the extension theorem (Y1-Y7, incl. the prefix-family escape) | **SENT** |
-| 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem (W1-W7, incl. rank-2 seam) | **SENT** |
+| 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
 
