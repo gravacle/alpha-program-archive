@@ -253,7 +253,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 412 | Codex 2 | [4a] The refinement tower | RETURNED — Q-330 (FIRST DEPTH DATUM: D_k = kQ/2; A_k closed form; the allow/require surface in motion) |
 | 413 | Codex 1 | [4a] Tower verification | RETURNED — Q-331 (CONFIRMED_WITH_NOTES; the first depth datum is verified sealed structure) |
 | 414 | Codex 2 | [4a] Intrinsic tower | RETURNED — Q-332 (channel refuted at typing; RECORDS EXPORT ONLY p; intrinsic tower trivial) |
-| 416 | Codex 2 | [4a] THE ORIGIN-FED TOWER — computation four (the synthesis) | **SENT** |
+| 416 | Codex 2 | [4a] Origin-fed tower | RETURNED — Q-334 (THE CLOSED THEORY IS DEPTH-FREE; the last law = the drive/mutual sourcing) |
+| 417 | Codex 1 | [4a] DRIVE RACE: derive from C5 (the law's own hearing, inverted) | **LOADED — NOT SENT** |
+| 418 | Codex 2 | [4a] DRIVE RACE: draft the network-sourcing law | WRITTEN — QUEUED behind 417 |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
 

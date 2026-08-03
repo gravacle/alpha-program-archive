@@ -469,6 +469,12 @@ custody per LOCKED_PROCESS.md.
                 O7 witness, computed F_N-style and sealed under the falsifier. Relay 412
                 is the first computation. The bridge resumes from data that exists.
                                                                                SURFACED: yes
+2026-08-03  C44 Q-334 ruling: THE DRIVE RACE (the fifth). The depth program's four-theorem
+                conclusion (the closed theory is depth-free) names the last law: the
+                source-generation / MUTUAL-SOURCING law of the record network. Codex 1
+                DERIVES from C5's own external-history dependence; Codex 2 DRAFTS the
+                authored network law through the full gate. DoR-016/017 reserved.
+                Relays 417/418.                                                SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
