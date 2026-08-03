@@ -11594,6 +11594,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-357 — DESCENT V003 CONFIRMED (C1–C4 all pass): THE BRIDGE'S MAP LAYER IS CLOSED AND CROSS-VERIFIED; the one missing certificate is named exactly — ACTION_COMPARISON_CONSUMER_CLASS_IS_QUOTIENT_ONLY — and the foundation is declared ready for the square commission (2026-08-03, relay 439, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_DESCENT_V003_CONFIRMATION_LANE1_V001.md`, `411cb1b3…`, seal verified, mirrors byte-identical. FOUNDATION_READY_FOR_SQUARE_COMMISSION = yes.
+
+**The closed layer of record (Q-347 → Q-357, thirteen artifacts, every claim cross-reviewed):** the sufficiency theorem (prefix family = cellwise data); the rank-2 terminal obstruction; extension V002 (T^char on its sealed rank-0/1 scope with the corrected j_NM^Q square); the descent D at every finite signed edge-resolved rank (kernel exactly vertex rephasing, no record-visible deletion); the upward map exactly on rank-preserving extensions with the cycle-creating impossibility; the split theorem (D = T^char precisely on im(j_NM^Q), permanent pendant witness); the two ratified consumer routes with the F7 witness.
+
+**THE SQUARE RACE COMMISSIONED (the sixth race):** 440 (Codex 1: DERIVE — the consumer typing from the divergence draft's own determination condition, then as much of the action-comparison/2PI square as ratified content forces) and 441 (Codex 2: AUTHOR — the square's adoption proposal through the full gate, carrying both consumer routes unless the derivation forces one). DoR-017 reserved for the square's ratification.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

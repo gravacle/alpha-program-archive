@@ -506,6 +506,14 @@ custody per LOCKED_PROCESS.md.
                 doors TYPE-U; regressions = standing falsifiers; ignition stays
                 NO_VERDICT. The transverse action's determiner is unblocked; relay
                 426 commissions it. ***                                        SURFACED: yes
+
+2026-08-03  C49 THE BRIDGE'S MAP LAYER CLOSED (Q-347–Q-357): descent D at all ranks
+                (kernel = vertex rephasing), T^char on its sealed scope, the split
+                theorem, the two ratified consumer routes — all cross-verified
+                through five kill/repair cycles. THE SQUARE RACE (the sixth)
+                commissioned: 440 derives (consumer typing from the draft's own
+                condition), 441 authors through the gate. DoR-017 reserved.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
