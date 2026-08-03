@@ -11134,6 +11134,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-321 — The action V002 is DEAD at the gate, and the killing counterexample is a DISCOVERY: a quartic cycle action ΔΓ = ε·ℓ_□⁴ — genuine non-flat response-sector dynamics, finite-visible, surviving every two-jet constraint. R2's flatness was an undisclosed choice; its inversion violates the Q-313 precedent (2026-08-03, relay 403)
+
+**Artifact:** `STAGE8_LEGENDRE_ACTION_PHYS_V002_ADVERSARIAL_REVIEW_DETERMINATION_V001.md`, `8516e422…`, seal verified, mirror byte-identical.
+
+**Kill 1 (the exhaustion refutation):** ΔΓ = ε·[ℓ_□(z)]⁴ preserves the source graph, the Q-243/Q-279 TWO-JET, reality, finite authority, and the record-visible cycle — a live non-flat alternative R2's table never disclosed. **The kernel sector admits genuine self-interaction dynamics (a quartic potential on the holonomy direction) that nothing ratified yet fixes** — a one-parameter family at minimum, sitting exactly where the coupling's physics lives.
+
+**Kill 2:** R2 defines inversion only on the active image; the response contract requires a two-sided inverse on the full physical quotient; Q-313's zero-correlator ≠ zero-Hessian precedent applies; R2's own void condition fires.
+
+**Survived:** the state-freedom sweep (S2 killed the last hiding place), the four derived components, the normalization accounting, Door F. S6 incomplete (the Door F/Q-to-R1 tangent square absent).
+
+**The repair path, visible inside the kill:** the counterexample survives TWO-JET matching — but DoR-008's falsifier demands reproduction of EVERY sealed finite result, and the finite theory is exact in closed form to ALL orders (the dephasing weight, κ_η, the probe forms). A quartic transverse action has a FOURTH-ORDER finite shadow. **V003's R2 must be replaced by the ALL-JET restriction requirement: the kernel-sector action is whatever the complete sealed finite pattern forces** — the ε-family is then killed, fixed, or honestly parameterized BY the sealed data, and flatness stops being a choice either way. Plus the two-sided inverse on the full quotient, and the missing tangent square.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

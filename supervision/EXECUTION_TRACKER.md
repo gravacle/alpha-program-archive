@@ -240,6 +240,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 400 | Codex 2 | [4a] ACTION RACE derive | RETURNED — Q-318 (source-side UNIQUE; six-item authored residue; refusal held) |
 | 401 | Codex 1 | [4a] ACTION RACE draft | RETURNED — Q-319 (six fields drafted; R2 self-flagged weakest) |
 | 402 | Codex 2 | [4a] Action merge | RETURNED — Q-320 (V002: 4 derived + 6 authored, seams pass; R2 weakest) |
-| 403 | Codex 1 | [4a] FINAL REVIEW of the action V002 — R2 hardest (DoR-016 gate) | **SENT** |
+| 403 | Codex 1 | [4a] V002 review | RETURNED — Q-321 (DEAD: quartic cycle action counterexample = a discovery; all-jet repair visible) |
+| 404 | Codex 2 | [4a] V003 — the ALL-JET requirement + two-sided inverse + the square | **LOADED — NOT SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
