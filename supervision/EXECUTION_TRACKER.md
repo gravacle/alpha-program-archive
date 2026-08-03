@@ -255,3 +255,5 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 414 | Codex 2 | [4a] THE INTRINSIC FEEDBACK TOWER — the channel from access; computation two | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
+
+| 415 | Codex 1 | [4a] The tower at FULL SOURCE GENERALITY (computation three; lane-tagged filename) | **LOADED — NOT SENT** |

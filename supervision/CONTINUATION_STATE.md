@@ -3818,3 +3818,26 @@ Then Task 5 (root existence/uniqueness), A32, the final evaluation DoR, alpha.
 
 THE STANDING CAUTION: no evaluation anywhere -- alpha_computed = false;
 kappa_record_computed = false; the fences and door flags held through 40+ relays.
+
+===============================================================================
+SESSION UPDATE 2026-08-03 (~09:15) — Q-294 -> Q-331: THE ACTION, THE DEPTH TURN
+===============================================================================
+Register head Q-331 (with two corrections of record: the 413 file collision --
+tower DOUBLY confirmed). DoRs through 015 + two DoR-014 amendments; DoR-016
+reserved. Change log through C43. The arc since Q-294: DoR-015 ratified (the
+field layer; five versions, the race, three passes); Door D fired three times
+and was three times repaired BY DERIVATION (N = i.Id unique; the freeze lifted);
+G^007 = -hbar^2 q(1-q) LxL exists; the verdict chain narrowed through the
+kernel geometry (u_sq in ker L), the C40 spec amendment (complement-scoped
+inversion, void clause standing), the trilemma (flat germs; Readings A/B), and
+three failed depth bridges (divergence: four depths no map; the reviewer's
+cocycle: KILLED -- the weight is a global mixture, records emerge COLLECTIVELY;
+redundancy: saturates at one cell). THE COMPOSED FACT (Q-329): the sealed
+finite layer was depth-poor. THE FINITE DEPTH PROGRAM (C43) opened and its
+first computation SUCCEEDED: the refinement tower exact (D_k = kQ/2 declared-
+probe scope; A_k = (1-p)+p e^{k Xi}; weights invariant -- THE ALLOW/REQUIRE
+SURFACE IN MOTION, the principal's reading). Running: 414 (the intrinsic
+feedback tower -- the channel derived from the access certificate; the
+log-form question) and 415 (full source generality). Next after the data:
+the bridge (Q-409's 8 items), DoR-016, the stationary response, THE p-VERDICT.
+Reviewer scorecard ~15/11. All custody, fences, and door flags held.
