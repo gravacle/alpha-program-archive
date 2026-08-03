@@ -11640,6 +11640,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-361 — SQUARE PROPOSAL V002: all five kills repaired one-to-one; the forced diagram installed VERBATIM as premise-marked derived content; live authorship limited to exactly R1–R5; QE wholly banked; AND the member/normalization uniqueness attempt REFUTED from all three candidate authorities — the DoR-017 fiber is typed exactly, four alternatives, none recommended (2026-08-03, relay 443, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_ACTION_COMPARISON_SQUARE_ADOPTION_PROPOSAL_LANE2_V002.md`, `5b4229fd…`, seal verified, mirrors byte-identical. READY_FOR_DOR017_RULING = conditional_on_review.
+
+**The repairs:** the D_G* pullback installed verbatim with corrected contravariance (F_N ∘ ρ_f) and the square directly proven; complete Q-408 placement; all five DoR-008 obligations; exactly five live residue items (no sixth authored object); A3 and the algebraic-tensor machinery removed; QE (A1/A6/A7/A9) banked with QE_FIELDS_IN_LIVE_PACKAGE = none; the physical bottom-leg falsifier PASSES on the corrected square.
+
+**K5, the derivation attempt (honest and complete):** the draft's own clause asks for a generated member with "uniqueness or an explicit residual family"; DoR-009's conventions determine D_G's input but no action member; the DoR-008 falsifier is blind to the rescaling φ→λφ (all-orders flat on the active section — the exact K5-1 proof). UNIQUE_MEMBER_NORMALIZATION_DERIVED = false, three TYPE-R refutations. **The DoR-017 fiber (K5-2):** choose one certified R1/R4 pair (the member m with its generator, units, normalizer, and symbolic ν, plus independent bottom legs b_N) — alternatives: Z (zero member: the square closes with ZERO transverse correction), N (one certified nonzero member: the square closes with the divergence-determined content), F (family-only: does NOT close — member-sensitive Q-408 contributions non-invariant per J7), reject (nonclosing). TARGET_AWARE_NORMALIZATION = false; member-sensitive claims forbidden before ratification.
+
+**The physical weight of Z vs N:** this is the principal's standing physics steer arriving at its decision point — "the log divergence IS the coupling, not a defect." The Z member would close the square with no transverse correction at all; N carries the divergence-determined content. The choice is gated behind re-adjudication and will be put with the discipline stated: certified by structure, never chosen for a desired coupling.
+
+**Status:** re-adjudication commissioned (relay 444, Codex 1), including an adversarial re-check of the K5 refutations — a FALSE refutation would wrongly move a derivable rule to ratification.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
