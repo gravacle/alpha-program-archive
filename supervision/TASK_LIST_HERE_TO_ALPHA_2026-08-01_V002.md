@@ -462,6 +462,13 @@ custody per LOCKED_PROCESS.md.
                 structure respected; the Q_N objects distinguished; nothing assumed
                 that must be built). DoR-016 RESERVED. Relay 411.
                                                                                SURFACED: yes
+2026-08-03  C43 Q-329 ruling: THE FINITE DEPTH PROGRAM COMMISSIONED. The composed fact
+                (three bridge failures, one cause: the sealed finite layer is depth-poor)
+                forces the move: CREATE depth-bearing sealed data by new exact finite
+                computations -- the multi-cell refinement/tier towers, starting from the
+                O7 witness, computed F_N-style and sealed under the falsifier. Relay 412
+                is the first computation. The bridge resumes from data that exists.
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

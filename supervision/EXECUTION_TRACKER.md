@@ -249,6 +249,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 409 | Codex 1 | [4a] Divergence draft | RETURNED — Q-327 (NO_VERDICT: four depths, no bridge; package specified) |
 | — | BOHM | [4a] The cocycle-bridge proposal (depth on ARROWS; phi_div = cocycle holonomy) | WRITTEN — awaiting Codex verification |
 | 410 | Codex 2 | [4a] Cocycle verification | RETURNED — Q-328 (KILLED completely; records emerge collectively; redundancy direction registered) |
-| 411 | Codex 1 | [4a] THE REDUNDANCY DRAFT — the collective branch-redundancy functional (C42; DoR-016 reserved) | **SENT** |
+| 411 | Codex 1 | [4a] Redundancy draft | RETURNED — Q-329 (saturates at one cell; THE COMPOSED FACT: the sealed finite layer is depth-poor) |
+| 412 | Codex 2 | [4a] THE FINITE DEPTH PROGRAM, computation one — the refinement tower, exact (C43) | **LOADED — NOT SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
