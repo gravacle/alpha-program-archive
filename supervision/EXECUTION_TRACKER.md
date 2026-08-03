@@ -293,7 +293,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 454 | Codex 2 | [4b] Carrier metric and units | RETURNED — Q-374 (nothing forces the metric; minimal dual-Hilbert package proposed; to cross-review) |
 | 455 | Codex 1 | [4b] Divergence descent content | RETURNED — Q-373 (shape-thin; DP1-DP10 certificate defined; neither shape derived) |
 | 456 | Codex 1 | [4b] Metric cross-review | RETURNED — Q-375 (NOT_READY: forced semiform missed; I_K injectivity countermodeled; unit power reversed) |
-| 457 | Codex 2 | [4b] Metric V002: forced semiform + five repairs (S1-S6) | **SENT** |
+| 457 | Codex 2 | [4b] Metric V002 | RETURNED — Q-376 (semiform derived, quotient natural; THE FULLNESS DICHOTOMY: kernel zero or unweighable record content) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.

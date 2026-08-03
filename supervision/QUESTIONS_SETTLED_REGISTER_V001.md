@@ -11794,6 +11794,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-376 — METRIC V002: the forced semiform is DERIVED and its positive quotient FAMILY-NATURAL, but the round sharpens into a decisive dichotomy — any nonzero current-null integral cycle REMAINS VISIBLE TO D_G, so the quotient may replace the full carrier ONLY IF the fullness certificate proves ker(I_K) = 0; otherwise record-visible cycles exist that the A4 form cannot weigh (2026-08-03, relay 457, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_CARRIER_METRIC_AND_UNITS_PROPOSAL_LANE2_V002.md`, `7788e29d…`, seal verified, mirrors byte-identical. Also: A4-isometry retyped as authored; Riesz units corrected to U_A⁻²; the full choice table; DP1/DP7 and the ten-attack battery rerun. DoR-019 reserved.
+
+**The dichotomy (the round's finding):** (a) ker(I_K) = 0 on the admitted family → the quotient IS the full carrier, g_K nondegenerate, the metric closes on the forced semiform. (b) ker(I_K) ≠ 0 with a record-visible kernel cycle → the A4 pullback CANNOT metricize the full record-visible carrier — a sector of record content the source form cannot weigh — new physics, and per OBS-17 exactly the metric-stratum shape such a finding should take.
+
+**Status:** relay 458 (Codex 1 — whose R2 countermodel raised the degeneracy): review V002 AND settle THE FULLNESS CERTIFICATE — prove ker(I_K) = 0, or characterize the kernel exactly and determine the D_G-visibility of its cycles, with the dichotomy's consequence stated each way.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
