@@ -11666,6 +11666,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-363 — SQUARE V003, THE BOUNDED COVARIANCE REPAIR, IS BUILT: R1-COV installed across members, generators, normalizers, bottom legs, Hessians, and restrictions; the rank-two cycle-selective witness permanently excluded; the DoR-017 fiber restricted to covariant members; M1–M5 content preserved (2026-08-03, relay 445, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_ACTION_COMPARISON_SQUARE_ADOPTION_PROPOSAL_LANE2_V003.md`, `21d4085d…`, seal verified, mirrors byte-identical.
+
+**Status:** final re-adjudication (relay 446, Codex 1) — verify R1-COV excludes the witness, the fiber restatement, and the M6/M7 closure. On PASS: the DoR-017 ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
