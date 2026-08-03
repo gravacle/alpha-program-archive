@@ -11188,6 +11188,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-325 — The verdict waits on ONE package: the complement-scoped physical stationary response; the two remaining cycle-dependence routes (2PI mixing; G_K's dependence on the carried cycle action) both consume the cycle action — which is ALL-ORDERS-FLAT on the section, opening the family-wide computation (2026-08-03, relay 407)
+
+**Artifact:** `STAGE8_TASK4A_COMPLEMENT_SCOPED_BIND_CHAIN_CYCLE_NEED_AND_P_VERDICT_DETERMINATION_V001.md`, `c2fd0d93…`, seal verified, mirror byte-identical.
+
+**The finding:** C40 removes cycle inversion but does not CONSTRUCT the complement-side stationary response. The unresolved step: forming Π_R,ind[G_K]. Two cycle-dependence routes remain open without any inverse: (a) cycle-to-complement MIXING in the stationary 2PI blocks; (b) the stationary solution G_K's dependence on the carried cycle action. Named would-build: COMPLEMENT_SCOPED_PHYSICAL_STATIONARY_RESPONSE_PACKAGE. The finite shadows stay exactly p-free; promotion still unlawful — correct discipline through eleven straight determinations.
+
+**The resolution shape (the reviewer's design for the build, to be proven not assumed):** every admissible cycle action is ALL-ORDERS-FLAT on the active section (Q-322/Q-324). If routes (a) and (b) consume the cycle action only through its ON-SECTION derivatives — which flatness kills for EVERY family member — then both routes vanish UNIFORMLY over the open family, and **the verdict computes family-wide with the cycle sector's physics left honestly open**: the no-selection discipline executed as physics. The build carries the cycle action as a symbolic unknown φ and computes both routes' φ-dependence exactly.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
