@@ -11260,7 +11260,7 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ## Q-331 — The tower CONFIRMED by the cross-verification of record (all five checks independent): A_k, D_k = kQ/2, and the tier-invariant weights all stand; scope notes preserved — D_k is source-conditioned, and the unbounded accumulation lives in the LIFTED EXPONENT while holonomy and amplitude stay bounded (2026-08-03, relay 413, Codex 1)
 
-**Artifact:** `STAGE8_TASK4A_FINITE_RECORD_REFINEMENT_TOWER_CROSS_VERIFICATION_DETERMINATION_V001.md`, `a5f10f92…`, seal verified, both mirrors byte-identical. (Codex 2's duplicate run is a builder self-check; its return will be noted, not registered as verification.)
+**Artifact:** `STAGE8_TASK4A_FINITE_RECORD_REFINEMENT_TOWER_CROSS_VERIFICATION_DETERMINATION_V001.md`, `16ddb682…`, seal verified, both mirrors byte-identical. **CORRECTION OF RECORD:** the lane's chat report stated `a5f10f92…`; the sealed artifact, sidecar, and cleanroom copy all agree at `16ddb682…` (the file was re-sealed one minute after the report was composed). The sealed artifact is the authority; the chat hash was stale. (Codex 2's duplicate run is a builder self-check; noted, not registered.)
 
 **The first depth datum is now VERIFIED SEALED STRUCTURE.** The finite depth program is one-for-one.
 
