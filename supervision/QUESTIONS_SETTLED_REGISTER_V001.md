@@ -11408,6 +11408,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-342 — V004, THE SINGLE-LAW CANDIDATE, IS BUILT: Branch B carried with ZERO changed lines in the incorporated block (formula and semantic deltas empty); Branch A reduced to a killed disposition + banked lemma + verbatim revival condition; the W3 identity corrected; six TYPE-U doors consolidated (2026-08-03, relay 424, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_NETWORK_SOURCING_LAW_ADOPTION_PROPOSAL_CODEX_LANE2_V004.md`, `69f4d93b…`, seal verified, mirrors byte-identical.
+
+**Structure:** LIVE_LAW = BRANCH_B_DOUBLED_CTP_ENDPOINT_ACCESS. The carry-forward audit shows BRANCH_B_CHANGED_LINES_IN_INCORPORATED_BLOCK = 0. Branch A contributes no live law content — only the DoR-015 kill record, the fixed-filtration all-prefix theorem as a BANKED LEMMA with exact scope, and the revival condition verbatim (a ratified filtration/member rule plus a family-naturality theorem). W3 record corrected to ρ_ML = ρ_NL ∘ ρ_MN with both refutations standing. Six doors: B-scalar-source, B-network-R, port-to-write-history update, joint two-system contraction, completed physical contraction, W3-compatible history restriction. No-ignition standing NO_VERDICT/TYPE-U preserved; regressions rerun; READY_FOR_FINAL_REVIEW = yes (process status, not self-certification).
+
+**Status:** to Lane 1 for the final review (relay 425). On a PASS: the DoR-016 ratification ruling to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
