@@ -475,6 +475,14 @@ custody per LOCKED_PROCESS.md.
                 DERIVES from C5's own external-history dependence; Codex 2 DRAFTS the
                 authored network law through the full gate. DoR-016/017 reserved.
                 Relays 417/418.                                                SURFACED: yes
+
+2026-08-03  C45 THE PROPOSAL KILLED BY CROSS-REVIEW (Q-337): the emission law smuggled
+                endpoint-covariant open-path content into DoR-015's scalar physical
+                source port (one-edge counterexample: q not in ker(B_N^T); on trees
+                that kernel is ZERO). No-ignition retyped NO_VERDICT/TYPE-U (Q-336
+                corrected of record). Repair V002 commissioned to Codex 2, relay 420:
+                both DoR-015-forced branches (cycle-constrained scalar / endpoint-
+                covariant). DoR-016 remains reserved.                          SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

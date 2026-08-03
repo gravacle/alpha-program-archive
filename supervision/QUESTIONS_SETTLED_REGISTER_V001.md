@@ -11330,6 +11330,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-337 — THE CROSS-REVIEW KILLS THE NETWORK-SOURCING PROPOSAL (OVERALL = KILLED by R7; independently R3, R8) — the emitter put open-path endpoint-covariant content into the scalar physical source port, and DoR-015's own typing executed the kill; CORRECTION OF RECORD on Q-336: autonomous no-ignition is NO_VERDICT/TYPE-U, not TYPE-R (2026-08-03, relay 419, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_NETWORK_SOURCING_LAW_CROSS_REVIEW_LANE1_V001.md`, `e9378698…`, seal verified, mirrors byte-identical.
+
+**Verdict table:** R1 PASS (d_J seam exact — the derived half stands), R2 PASS (Ξ = x − (ℏ/2)x², Q-276 sign, every ℏ owned once), R3 KILL, R4 PASS (bounded ratified sweep: receiver laws, source functionals, holonomy/current maps, intertwiners — NO received-port-to-write-history map exists anywhere; the door is confirmed absent), R5 PASS (E_post respected; footnote: the one-tier delay is authored, not uniquely forced — flagged residue), R6 PASS (the tower echo is inherited from V007, not fitted), R7 KILL (decisive), R8 KILL.
+
+**R7, the decisive fresh attack:** V005/DoR-015 ratify: scalar physical source dual = ker(B_Nᵀ); open-path content = endpoint-covariant transport, closed-cycle content = scalar physical source. The proposal imposed no condition B_Nᵀq = 0. One-edge counterexample: u_e = exp(iε) ⇒ q_e = ε, B_Nᵀq = (−ε, ε) ≠ 0 — and on any connected TREE stage V005 proves ker(B_Nᵀ) = {0}: the ratified scalar source domain of a tree is ZERO. The rank-one bilocal inherits the defect (wrong base carrier). **Physical content of the kill: a two-system one-edge network CANNOT exchange scalar physical source at all; if the drive is scalar it REQUIRES A CYCLE.** The allow/require surface itself was the executioner: an allow (endpoint-covariant access) was fed into a require port (cycle-supported source).
+
+**R3/R8, the correction of record on Q-336:** NS-27 is a base case only; no recurrence exists (the very port-to-write-history gap the proposal itself declared) so NS-28's all-tier induction FAILS and its TYPE-R promotion was a mistype. Correct standing: READY_IDENTITY_FIRST_EMISSION = ZERO (PASS_WITHIN_PROPOSAL); the identity tower is CONDITIONAL on an externally stipulated all-zero history sequence; AUTONOMOUS_READY_NETWORK_NO_IGNITION = NO_VERDICT / TYPE-U. Q-336's registered sentence "no ignition, both arms agree (TYPE-R)" is CORRECTED to: the ignition question is OPEN pending the feedback law; only the conditional identity start is proven. The kill does not manufacture ignition — it refuses to certify a recurrence that is not present.
+
+**The forced repair fork (exact, binary, derived from DoR-015):** either (a) constrain emission to q ∈ ker(B_Nᵀ) — cycle-supported scalar drive, zero on trees — or (b) rebuild emission as an endpoint-covariant construction consumed on the open-path/access side. Repair V002 commissioned (relay 420, Codex 2 — builder repairs its own build, Door-D pattern) building BOTH branches as far as the typing forces. DoR-016 remains reserved.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
