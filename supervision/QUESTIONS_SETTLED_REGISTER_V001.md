@@ -11586,6 +11586,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-356 — DESCENT V003, THE BOUNDED RESTATEMENT, IS BUILT: P-432-3 stated OPEN with the two-route typing; the map layer confirmed unchanged; the information layer incomplete ONLY at the consumer-typing seam (quotient-only vs endpoint-contraction); ready for Lane-1 confirmation (2026-08-03, relay 438, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_FAMILY_NATURAL_PREFIX_TO_CYCLE_DESCENT_LANE2_V003.md`, `a03e8363…`, seal verified, mirrors byte-identical. Both repaired certificates and all regressions unchanged; delta bounded to the killed claims.
+
+**Status:** Lane-1 confirmation (relay 439), then the action-comparison-square commission with the consumer-typing derivation as its first item.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
