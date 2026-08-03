@@ -11836,6 +11836,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-380 — METRIC V004, THE RESTORED CANDIDATE: the C-side derived package reinstated (finite C-metric, R_C, quotient-norm formula, pendant/tree regression) alongside V003's cleanup (fullness, W3 isometry, corrected units, the four-item residue) (2026-08-03, relay 461, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_CARRIER_METRIC_AND_UNITS_PROPOSAL_LANE2_V004.md`, `c819d03a…`, seal verified, mirrors byte-identical.
+
+**Status:** bounded re-check (relay 462, Codex 1) — the double delta audited, then DoR-019.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
