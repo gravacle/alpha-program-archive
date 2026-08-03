@@ -256,4 +256,4 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
 
-| 415 | Codex 1 | [4a] The tower at FULL SOURCE GENERALITY (computation three; lane-tagged filename) | **LOADED — NOT SENT** |
+| 415 | Codex 1 | [4a] The tower at FULL SOURCE GENERALITY (computation three; lane-tagged filename) | **SENT** |
