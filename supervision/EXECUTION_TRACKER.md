@@ -291,7 +291,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 452 | Codex 2 | [4b] Jet race author arm | RETURNED — Q-371 (covariant radial flat germ, explicit jets; to adjudication) |
 | 453 | Codex 1 | [4b] Jet race adjudication | RETURNED — Q-372 (KILLED G2/G3/G7: support-tuning caught; carrier metric unratified; restriction overclaim) |
 | 454 | Codex 2 | [4b] The carrier metric and units through the gate (H1-H6; DoR-019 reserved) | **SENT** |
-| 455 | Codex 1 | [4b] The divergence datum's descent content (I1-I5, provenance only) | **SENT** |
+| 455 | Codex 1 | [4b] Divergence descent content | RETURNED — Q-373 (shape-thin; DP1-DP10 certificate defined; neither shape derived) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.

@@ -11764,6 +11764,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-373 — THE DIVERGENCE DATUM IS SHAPE-THIN: it constrains units, covariance, stage discipline, common origin, and target independence — codified as the failure-capable DIVERGENCE_PROVENANCE certificate DP1–DP10 — but determines NO support pattern, homogeneity, parity, or sector coupling; K-only and complement-coupled profiles are BOTH conditionally compatible, NEITHER derived (2026-08-03, relay 455, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_DIVERGENCE_DATUM_DESCENT_CONTENT_LANE1_V001.md`, `c39de7a0…`, seal verified, mirrors byte-identical. Certificate execution TYPE-U (needs the carrier metric, 454 running).
+
+**Consequence for the germ round:** the provenance standard exists but cannot select the shape — so germ V002 must carry BOTH shapes through the gate (the fiber discipline), each DP-certified on the ratified metric, with the shape choice going to the principal as the DoR-018 ratification item. The killed germ's specific sin (response-facing shape justification) is now excluded by DP construction rather than reviewer vigilance alone.
+
+**Status:** awaiting 454 (the carrier metric). Germ V002 commissions on both returns.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
