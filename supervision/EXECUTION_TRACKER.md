@@ -250,6 +250,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | — | BOHM | [4a] The cocycle-bridge proposal (depth on ARROWS; phi_div = cocycle holonomy) | WRITTEN — awaiting Codex verification |
 | 410 | Codex 2 | [4a] Cocycle verification | RETURNED — Q-328 (KILLED completely; records emerge collectively; redundancy direction registered) |
 | 411 | Codex 1 | [4a] Redundancy draft | RETURNED — Q-329 (saturates at one cell; THE COMPOSED FACT: the sealed finite layer is depth-poor) |
-| 412 | Codex 2 | [4a] THE FINITE DEPTH PROGRAM, computation one — the refinement tower, exact (C43) | **SENT** |
+| 412 | Codex 2 | [4a] The refinement tower | RETURNED — Q-330 (FIRST DEPTH DATUM: D_k = kQ/2; A_k closed form; the allow/require surface in motion) |
+| 413 | Codex 1 | [4a] CROSS-VERIFY the tower — the first depth datum under fire | **LOADED — NOT SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.

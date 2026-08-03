@@ -11246,6 +11246,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-330 — THE FIRST DEPTH-BEARING FINITE DATUM EXISTS: the refinement tower computes exactly — D_k = kQ/2 (linear, source-conditioned); A_k = (1−p)+p·e^{kΞ}; the weights (1−p,p) INVARIANT at every tier — and the principal reads it correctly: THE TOWER IS THE ALLOW/REQUIRE SURFACE IN MOTION (2026-08-03, relay 412)
+
+**Artifact:** `STAGE8_TASK4A_FINITE_RECORD_REFINEMENT_TOWER_EXACT_COMPUTATION_V001.md`, `034a7aab…`, seal verified, mirror byte-identical.
+
+**The exact tower:** state weights (1−p, p) at EVERY tier — the required charge commitment completes at tier 1 and never moves; branch distinguishability maximal at tier 1; the amplitude A_k = (1−p) + p·exp(Σ_t Ξ_t) → (1−p)+p·e^{kΞ} for identical declared probes; the physical log is Log₀[(1−p)+p·e^{kΞ}] — NOT Log k; identity inputs give A_k = 1 for every k (falsifier consistency exact). **D_k = ½Σ_t Q_t = kQ/2: the first scoped depth-bearing sealed datum — LINEAR, and SOURCE-CONDITIONED, not intrinsic.**
+
+**The principal's reading, registered:** the tower IS the allow/require surface in motion — the REQUIRE (branch weights) committed at the first record and invariant forever; the ALLOW (phase content) accumulating without bound; depth is allow-side accumulation against a fixed require, and the physical log interleaves them in one object: a fixed p-weight wrapping an accumulating phase. The coupling-relevant structure = the interference of the committed with the accumulating.
+
+**The named next object:** the full RECORD-OUTPUT → SOURCE/BACKGROUND FEEDBACK CHANNEL (TYPE-U — the corpus lacks it): the self-referential closure where intrinsic (source-free) depth would live, and the natural dynamical completion of the ratified origin's generative structure. O7's (3/8)^k stays confined to its Route-T operator, correctly untransported.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
