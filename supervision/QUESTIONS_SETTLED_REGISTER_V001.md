@@ -11742,6 +11742,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-371 — THE JET RACE, AUTHOR ARM: the instantiation proposal is DRAFTED — a covariant radial flat germ with explicit stationary jets, symbolic ν-homogeneity, and structural Schur substitutions on the reciprocal loop and S8-A; PROPOSED_NOT_ADOPTED; both race arms now in (2026-08-03, relay 452, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_N_MEMBER_JET_INSTANTIATION_PROPOSAL_LANE2_V001.md`, `0a7b45a6…`, seal verified, mirrors byte-identical.
+
+**Race state:** the derive arm proved the jets underivable (Q-370 — Gen interface-only), so this authored candidate carries the whole load. Adjudication commissioned (relay 453, Codex 1 — the lane that proved the negative): nothing in the proposal may claim derived status; the target-tuning attack is load-bearing; every DoR-017 certificate re-proven on the instantiated jets; the Schur substitutions recomputed; the zero-degeneration boundary audited. DoR-018 reserved.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
