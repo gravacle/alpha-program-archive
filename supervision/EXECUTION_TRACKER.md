@@ -242,6 +242,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 402 | Codex 2 | [4a] Action merge | RETURNED — Q-320 (V002: 4 derived + 6 authored, seams pass; R2 weakest) |
 | 403 | Codex 1 | [4a] V002 review | RETURNED — Q-321 (DEAD: quartic cycle action counterexample = a discovery; all-jet repair visible) |
 | 404 | Codex 2 | [4a] V003 all-jet | RETURNED — Q-322 (the trilemma; flat germs; Readings A/B) |
-| 405 | Codex 1 | [4a] THE INVERSE-REQUIREMENT AUDIT — the trilemma's decider (principal's ruling) | **LOADED — NOT SENT** |
+| 405 | Codex 1 | [4a] THE INVERSE-REQUIREMENT AUDIT — the trilemma's decider (principal's ruling) | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
