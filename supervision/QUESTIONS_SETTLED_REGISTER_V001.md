@@ -11484,6 +11484,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-348 — THE SUFFICIENCY THEOREM (PROJECTIVE_PREFIX_TRACE_ISOMORPHISM): the complete every-prefix trace family uniquely reconstructs ALL cellwise R_CTP data (r_m = Z_{m-1}⁻¹Z_m — a triangular group isomorphism, trivial kernel); the TERMINAL trace alone is insufficient (kernel U(1)^{N−1}, N≥2); cellwise data adds NOTHING beyond the prefix family (2026-08-03, relay 429, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_TRACE_KERNEL_SUFFICIENCY_ARM_LANE2_V001.md`, `d9a507fc…`, seal verified, mirrors byte-identical. Register sweep run before deriving (finding: no prior theorem had computed the all-prefix kernel — the derivation was genuinely open).
+
+**The theorem (TYPE-P):** on DoR-016's relative-CTP input with faithful character n ∈ {±1}, the map R = (R₁,…,R_N) → (Z₁,…,Z_N) is a triangular group isomorphism; consecutive trace ratios recover every cell. ALL_PREFIX_TRACE_KERNEL = {identity}. The X7 product-kernel attack was valid against the TERMINAL product only — K_term ≅ U(1)^{N−1} (counterexample at N=2: (uw, vw⁻¹) vs (u,v)).
+
+**Honest scope:** raw doubled-pair/untraced-operator sufficiency = NO_VERDICT/TYPE-U; the physical transverse action NOT built; the cycle extension question deferred to arm 428.
+
+**THE JOINT PICTURE (Q-347 + Q-348, the two arms interlocking):** the descent's lawful information carrier is the EVERY-PREFIX TRACE FAMILY — equivalent to the cellwise relative characters, strictly finer than the terminal scalar. Q-347's rank-≥2 obstruction binds only single-scalar lifts; the prefix family supplies MANY characters — exactly the kind of data a rank-≥2 cycle lattice needs. The action-comparison square should be commissioned on the prefix-family domain. Both theorems now go to cross-review (430: Lane 2 reviews the extension theorem; 431: Lane 1 reviews the sufficiency theorem) before the square is built on them.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
