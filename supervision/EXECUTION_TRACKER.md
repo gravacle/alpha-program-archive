@@ -246,6 +246,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 406 | Codex 2 | [4a] Off-section test | RETURNED — Q-324 (BOUNDED/OPEN; exact coset constancy; R_comp needs the sector; B_ind-chain question decisive) |
 | 407 | Codex 1 | [4a] Verdict determination | RETURNED — Q-325 (needs the stationary response package; two routes; flatness may kill both family-wide) |
 | 408 | Codex 2 | [4a] Stationary package | RETURNED — Q-326 (shortcut refuted, exact forms; the transverse action is the last open physics) |
-| 409 | Codex 1 | [4a] THE DIVERGENCE DRAFT — the principal's thread through the gate (DoR-016 reserved) | **SENT** |
+| 409 | Codex 1 | [4a] Divergence draft | RETURNED — Q-327 (NO_VERDICT: four depths, no bridge; package specified) |
+| — | BOHM | [4a] The cocycle-bridge proposal (depth on ARROWS; phi_div = cocycle holonomy) | WRITTEN — awaiting Codex verification |
+| 410 | Codex 2 | [4a] VERIFY the reviewer's cocycle bridge (K1-K8 + own attacks) | **LOADED — NOT SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
