@@ -11198,6 +11198,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-326 — The family-wide shortcut REFUTED with exact forms: the mixing is ΔM = D_C D_K φ and the stationary shift δG_K = −H_CC⁻¹·D_C(δφ) — both consume φ OFF the section, where flatness does not protect; a smooth counterfamily exhibits it; and Flat(S) itself is unratified provenance (2026-08-03, relay 408)
+
+**Artifact:** `STAGE8_TASK4A_COMPLEMENT_SCOPED_PHYSICAL_STATIONARY_RESPONSE_PACKAGE_FLAT_FAMILY_DETERMINATION_V001.md`, `30532ecb…`, seal verified, mirror byte-identical.
+
+**The refutation:** flatness kills both routes ONLY on the active section, and no theorem places the physical stationary locus there. The counterfamily φ_a = a·x·e^{−1/t²} is flat at t = 0, uses no cycle inverse, and produces nonzero off-section mixing and a shifted stationary solution. Both verdict flags stay NO_VERDICT; the finite shadows stay exactly p-free.
+
+**The provenance honesty:** Flat(S) is the surviving family FROM THE UNRATIFIED V003 — not a ratified exhaustive class. The transverse-action question is fully open in both directions.
+
+**THE PROGRAM'S STATE, plainly:** after eleven straight disciplined determinations, the deciding question is gated on genuine open physics — **what determines the transverse cycle action** — which is simultaneously (per Q-321's discovery) where a coupling's self-interaction lives, (per Q-324) partially record-visible off-section, and (per the whole arc) the one place the corpus is silent. The standing candidate principle is the principal's oldest thread: THE DIVERGENCE IS THE COUPLING — the accumulated record-depth divergence structure as the determiner of the non-perturbative content. That is a commissioning decision, not an audit.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
