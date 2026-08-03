@@ -283,7 +283,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 444 | Codex 1 | [4a] Re-adjudication of square V002 | RETURNED — Q-362 (M1-M5 pass, fiber genuine; NOT_READY: R1 needs automorphism covariance; rank-two witness) |
 | 445 | Codex 2 | [4a] Square V003 covariance repair | RETURNED — Q-363 (R1-COV installed; witness excluded; fiber covariant-only) |
 | 446 | Codex 1 | [4a] Final re-adjudication of square V003 | RETURNED — Q-364 (NOT_READY: rho_H,N covariance unproven; witness excluded; carry verbatim) |
-| 447 | Codex 2 | [4a] Square V004: rho_H,N covariance proof (O1-O3, bounded) | **SENT** |
+| 447 | Codex 2 | [4a] Square V004 rho_H,N covariance | RETURNED — Q-365 (cube proved on the R5 class; S8-A exchange exercised; external Hessians outside claim) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.

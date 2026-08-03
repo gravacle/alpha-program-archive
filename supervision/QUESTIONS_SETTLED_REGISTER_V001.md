@@ -11682,6 +11682,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-365 — SQUARE V004: the ρ_H,N automorphism-naturality CUBE IS PROVED on the R5-generated Hessian class, exercised explicitly on the S8-A rank-two exchange; inverse, Schur, and retarded-extraction covariance propagate; arbitrary external Hessians honestly outside the claim (2026-08-03, relay 447, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_ACTION_COMPARISON_SQUARE_ADOPTION_PROPOSAL_LANE2_V004.md`, `abf6d366…`, seal verified, mirrors byte-identical.
+
+**Status:** the last named gap is closed on its lawful scope. To Lane 1 for the bounded final check (relay 448). On PASS: the DoR-017 member ruling (Z / N / F / reject over covariant members).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
