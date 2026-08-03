@@ -11708,6 +11708,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-368 — THE STATIONARY RESPONSE IS COMPUTED as an exact operator expression on the ratified square: the Schur/retarded-extraction form with the N-member entering additively in every block; ALL member certificates pass downstream (VOID_CANDIDATE = false); the finite retarded blocks are ZERO, p-FREE AND ν-FREE at every stage; the completed evaluation waits on ONE named instantiation — the N-member's stationary jets (2026-08-03, relay 449, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_STATIONARY_RESPONSE_COMPUTATION_LANE1_V001.md`, `be570c18…`, seal verified, mirrors byte-identical. Register sweep run; DoR-017 authority verified.
+
+**The computed structure (exact):** COMPLETED_RESPONSE = RetExtract_m[(H_KK + D_K²φ_m) − (H_KC + D_K D_C φ_m)(H_CC + D_C²φ_m)⁻¹(H_CK + D_C D_K φ_m)] at y*_m, with the stationary equation D_C Γ_base(p_i; y*) + D_C φ_m(y*) = 0. Computed on the reciprocal loop, the S8-A stage, and the general finite stage; every finite shadow reproduced.
+
+**The three findings:** (1) FINITE_ACTIVE_REFERENCE_RETARDED_BLOCK = 0, p-free and ν-free, every finite stage, probes included — the one-sided finite result now holds ON THE RATIFIED SQUARE with the nonzero member installed. (2) COMPLETED_P_APPEARANCE = LOCALIZED_NOT_DECIDED — p enters only through the base restrictions (ω_i, κ_i) into the completed blocks and the stationary point; the N-member itself has NO declared p/rank dependence. (3) COMPLETED_NU_APPEARANCE — homogeneity proves scaling φ_m scales ν and every jet together, but ν alone does not determine the jets.
+
+**The instantiation boundary (not a defect, not a verdict):** DoR-017 ratified the member's existence and certificates, not a closed formula; EXACT_COMPONENT_EVALUATION = TYPE-U pending the member's evaluable stationary jet and stationary-point data — presumably generated from the divergence datum (R1's Gen structure), the next named object after cross-verification.
+
+**Status:** Lane 2 cross-verification commissioned (relay 450). No p-verdict declared, correctly.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
