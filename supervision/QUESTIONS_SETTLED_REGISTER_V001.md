@@ -11528,6 +11528,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-352 — THE DESCENT IS CONSTRUCTED (CONSTRUCTED-WITH-BOUNDARY): D_prefix→cycle exists at EVERY finite cycle rank on signed edge-resolved realizations — prefix traces → cell characters → edge cochain → the Gate-4 cycle quotient — with LAWFUL KERNEL EXACTLY VERTEX REPHASING (the gauge and nothing else); no record-visible cycle deleted, c₃ survives explicitly (2026-08-03, relay 433, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_FAMILY_NATURAL_PREFIX_TO_CYCLE_DESCENT_LANE2_V001.md`, `5c5d2c82…`, seal verified, mirrors byte-identical. Register sweep run; the pending Lane-1 repair accounted at three comparison points and NOT used as a load-bearing premise.
+
+**The construction (TYPE-P; premises DoR-009/015/016 + Q-348/349):** r_j = Z_{j−1}⁻¹Z_j; h_{ε(j)} = r_j^{s_j}; D(Z) = q_G(h); basis-free: Hol(D(Z))(c) = ∏_j r_j^{s_j c_{ε(j)}}. Domain: the complete every-prefix trace family on every finite signed edge-resolved realization member modulo simultaneous signed relabeling. Codomain: Q_G = U(1)^{E_G}/Γ_G ≅ Hom(C_G, U(1)). Certificates proven: well-definedness under the no-selection relation, Gate-4 quotient compatibility, family-automorphism covariance, general signed cellular restriction, batching, reality, identity zero-extension, and AGREEMENT WITH Q-313 at rank 0/1.
+
+**The kernel theorem:** ker(D_G) = Φ_G⁻¹(Γ_G) — exactly Gate-4 vertex rephasing. Φ is an edge-coordinate isomorphism and q_G surjective; D* injective on C_G — NO record-visible cycle deleted at any rank; the S8-A c₃ coordinate survives explicitly (the direct refutation of the terminal obstruction, now constructive). **The allow/require surface as a kernel computation: the descent forgets precisely the allow (vertex rephasing) and keeps every require (cycle content).**
+
+**The boundary (honest):** realization classes with NO declared signed cell-to-edge chain map remain TYPE-U (there the residual family is the chain maps ι, and a member whose restriction to C_G has kernel would delete that cycle). Non-edge-resolved extension NOT_BUILT; the action/2PI comparison square NOT_BUILT (the next object).
+
+**Status:** paired cross-reviews — 434 (Codex 1 reviews the descent) and 435 (Codex 2 reviews extension V002). If both confirm, the bridge's information layer is COMPLETE and the action-comparison square is commissioned on it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
