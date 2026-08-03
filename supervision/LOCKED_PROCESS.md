@@ -119,3 +119,13 @@ After EVERY edit to the plan, register, or tracker: cp to the archive mirror, th
 mirror is byte-identical (shasum both) BEFORE committing. On session resume: verify the plan's
 section-10 head (highest Cnn) matches the tracker's recorded C-head before any new work.
 C5-C25 were written, announced, and then lost because the pushed mirror never carried them.
+
+## LOCAL-SIDECAR RULE (added 2026-08-03, Q-351)
+
+The reviewer-owned seal sidecars that live NEXT TO the supervision files
+(alpha_supervision/*.seal.sha256) must be refreshed in the SAME step as every
+write to those files — the mirror-side sidecars alone are not enough. Lanes
+preflight against the local sidecars; five were stale for two days and produced
+repeated false custody alarms (Q-349, Q-351). The register/tracker/plan write
+step is: edit file -> refresh LOCAL sidecar -> cp to mirror -> write mirror
+sidecar -> shasum-verify both -> commit -> push.

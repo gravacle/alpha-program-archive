@@ -11518,6 +11518,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-351 — EXTENSION V002 IS BUILT: the j_NM^Q precomposition installed with the corrected naturality chain (Z_M ∘ j_NM^Q = Z_N via Q-313's zero-extension identity), the Y7 scope precision carried, full delta table, all regressions passing; AND the recurring custody alarm resolved — five reviewer-owned LOCAL sidecars were stale since 2026-08-01 and are now refreshed, with the LOCAL-SIDECAR RULE added to LOCKED_PROCESS (2026-08-03, relay 432, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_MAP1_FULL_FAMILY_EXTENSION_LANE1_V002.md`, `eb3675d5…`, seal verified, mirrors byte-identical. LEAD_RESULT unchanged: EXTENDS-WITH-BOUNDARY (rank 0/1 unique with the now-correctly-typed restriction square; rank ≥ 2 obstructed terminal-only; residual Hom(C_G,Z) family retained).
+
+**The custody fix:** the lanes' repeated "stale register sidecar" notes (431, 432) were REAL — the sidecars next to the live supervision files (register, tracker, plan, observations, continuation state) had not been refreshed since Aug 1; only the mirror-side sidecars were current. All five refreshed; the write procedure amended in LOCKED_PROCESS (local sidecar refreshed in the same step as every write). No lane touched reviewer-owned material — correct custody behavior on their side, twice.
+
+**Status:** V002 awaits joint review together with the descent construction (433, running in Codex 2).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
