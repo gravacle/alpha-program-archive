@@ -11774,6 +11774,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-374 — THE CARRIER METRIC PROPOSAL IS DRAFTED: the derivation check confirms NO ratified structure forces the metric (the honest H1 first step); the candidate is a minimal dual-Hilbert package from the retained A4 source form and Gate-4 quotient duality — metrics, Riesz maps, formal units, quotient norm, isometric automorphism transport, cycle-creation accounting; ν untouched, no response support used (2026-08-03, relay 454, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_CARRIER_METRIC_AND_UNITS_PROPOSAL_LANE2_V001.md`, `657fa2bc…`, seal verified, mirrors byte-identical. PROPOSED_NOT_ADOPTED; DoR-019 reserved.
+
+**Status:** cross-review commissioned (relay 456, Codex 1) against the G3 gap list, the DP compatibility, and the response-support/hidden-scale attacks. On PASS: the DoR-019 ruling, then germ V002 (both shapes on the ratified metric).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
