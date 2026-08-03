@@ -11344,6 +11344,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-338 — REPAIR V002 IS BUILT: both DoR-015-forced branches, neither selected; Branch A's minimal two-system scalar carrier is the RECIPROCAL TWO-EDGE LOOP (triangle in the simple-graph category); Branch B survives as honest access-side transport but loses the global d_J seam and has NO network R receiver; every V001 correction held (2026-08-03, relay 420, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_NETWORK_SOURCING_LAW_ADOPTION_PROPOSAL_CODEX_LANE2_V002.md`, `9b2e42f8…`, seal verified, mirrors byte-identical. PROPOSED_NOT_ADOPTED; BRANCH_SELECTED = false; REVIEW_CUSTODY = LANE_1.
+
+**Branch A (cycle-constrained scalar):** admissibility by RESTRICTION, not projection (derived: projection would be an unratified new map). Connected-tree zero theorem: scalar emission exactly zero on every tree — the R7 one-edge regression passes as a theorem. Minimal driving stage derived: two vertices need E−V+1 ≥ 1, so the reciprocal directed two-edge loop, ker(B₂ᵀ) = span{(1,1)}; in the simple-graph category the minimal carrier is the three-vertex triangle ("two graph categories, not two physics selections"). Exact tower on the minimal cycle: x = 2in·s, Ξ = 2in·s + 2ℏs², A_k = (1−p) + p·e^{kΞ} on the admitted (conserved, q₁₂ = q₂₁) history subdomain; independent one-sided histories honestly excluded (fresh-attack counterexample q₁₂ ≠ q₂₁). No orientation, basis, rank, or ratio selected; the artifact warns against reading reality/positivity off the chart representative.
+
+**Branch B (endpoint-covariant access):** the full endpoint torsor/intertwiner family feeds C5's charge/flux-access side; nonzero one-edge TRANSPORT allowed, no scalar ever emitted. Costs stated honestly: V007_SCALAR_d_J_SEAM = DOES_NOT_SURVIVE_GLOBALLY (access-chart check only) and NETWORK_R_RECEIVER = NOT_FOUND/TYPE-U. Tower: A = (1−p) + p·∏ζ on the access side. Fresh endpoint-frame scalarization attack survived (no map from chart value to E_J/E_R).
+
+**Corrections held:** no-ignition stays NO_VERDICT/TYPE-U (F_hist absent; no all-tier assertion); the one-tier delay flagged authored-not-forced (the exact-force claim REMOVED); no TYPE-P anywhere; the six V001 attacks + R7 rerun on both branches. **Five doors now named:** B-scalarization, B-network-R, port-to-write-history update, joint state/effect contraction, continuum response.
+
+**The physical sentence:** the minimal scalar drive between two record systems is a reciprocal loop — only the CONSERVED component of what they exchange drives; one-way hearing moves nothing scalar.
+
+**Status:** to Lane 1 for adversarial re-review (relay 421); DoR-016 ruling follows the review.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
