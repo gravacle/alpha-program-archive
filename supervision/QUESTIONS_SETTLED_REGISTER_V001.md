@@ -11428,6 +11428,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-344 — DoR-016 RATIFIED: THE NETWORK-SOURCING LAW IS IN FORCE — doubled CTP endpoint access, consumed only through the DoR-009 finite doubled trace; the drive's carrier is the open-path/access REQUIRE side; six doors stay TYPE-U; the regressions become standing falsifiers (2026-08-03, principal's ruling)
+
+**Decision file:** `DOR_016_NETWORK_SOURCING_LAW_RATIFICATION_2026-08-03.md`, sealed and mirrored. Principal ruled "Ratify" on the recommendation, after V004 survived the full gate (five artifacts, three kills, byte-verified zero-delta carry, all F1–F7 PASS).
+
+**In force:** emission = the ordered endpoint-covariant pair (T₊, T₋); reception = R_CTP = T₋†T₊ through the ratified finite doubled trace; the exact per-system tower A_k = (1−p) + p·∏Z^CTP, p symbolic; network object = the ordered pair of towers, no joint contraction. Branch A killed of record with revival condition; W3 refutations of record. Autonomous ignition remains NO_VERDICT/TYPE-U — ratifying the law does NOT settle it.
+
+**What this unblocks:** the transverse action's determiner — the network law was the named missing physics behind the action's residue. The bridge, the stationary response, and the p-verdict queue behind it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

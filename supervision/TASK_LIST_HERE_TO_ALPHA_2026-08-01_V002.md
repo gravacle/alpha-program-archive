@@ -499,6 +499,13 @@ custody per LOCKED_PROCESS.md.
                 with its fixed-filtration lemma banked + revival condition; W3
                 functoriality typo corrected. DoR-016 remains reserved.
                                                                                SURFACED: yes
+
+2026-08-03  C48 *** DoR-016 RATIFIED (Q-344): THE NETWORK-SOURCING LAW IS IN FORCE —
+                doubled CTP endpoint access on the DoR-009 trace, after V004 survived
+                the full gate (V001-V004, three kills, final review all-PASS). Six
+                doors TYPE-U; regressions = standing falsifiers; ignition stays
+                NO_VERDICT. The transverse action's determiner is unblocked; relay
+                426 commissions it. ***                                        SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
