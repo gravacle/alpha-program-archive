@@ -244,6 +244,6 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 404 | Codex 2 | [4a] V003 all-jet | RETURNED — Q-322 (the trilemma; flat germs; Readings A/B) |
 | 405 | Codex 1 | [4a] Inverse audit | RETURNED — Q-323 (SPLIT: Q-52 machinery; flat germs finite-visible off-section) -> C40 amendment |
 | 406 | Codex 2 | [4a] Off-section test | RETURNED — Q-324 (BOUNDED/OPEN; exact coset constancy; R_comp needs the sector; B_ind-chain question decisive) |
-| 407 | Codex 1 | [4a] THE COMPLEMENT-SCOPED VERDICT — trace B_ind's chain; if cycle-free, COMPUTE | **LOADED — NOT SENT** |
+| 407 | Codex 1 | [4a] THE COMPLEMENT-SCOPED VERDICT — trace B_ind's chain; if cycle-free, COMPUTE | **SENT** |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
