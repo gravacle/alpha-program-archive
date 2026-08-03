@@ -11604,6 +11604,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-358 — THE SQUARE RACE, DERIVE ARM: THE CONSUMER CERTIFICATE IS SETTLED — ACTION_COMPARISON_CONSUMER_CLASS_IS_QUOTIENT_ONLY = TRUE (TYPE-P) for the declared φ_div square, forced by the draft's OWN signature; universally FALSE stands (the endpoint route remains physical elsewhere); the forced square is BUILT and the authored residue is EXACTLY FIVE ITEMS (2026-08-03, relay 440, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_ACTION_COMPARISON_SQUARE_DERIVE_ARM_LANE1_V001.md`, `a9b733c7…`, seal verified, mirrors byte-identical. LEAD_RESULT = PARTIALLY_DERIVED; register sweep run.
+
+**A1, the certificate:** φ_div is a scalar correction on X_phys/K_cycle whose required bridge contains a quotient-compatible CycleMap and whose form battery requires path-visible quotient compatibility; NO endpoint vector, frame, or open-path transport occurs among its arguments — quotient-only is forced BY THE DRAFT ITSELF, not chosen. The universal claim stays refuted (the V005 endpoint route and its one-edge scalar). **DoR-016 is not discarded — it is the UPSTREAM SOURCE:** doubled endpoint access → the DoR-009 every-prefix traces → D_G → the canonical pullback D_G* on quotient action functionals. The two routes reconcile as stages of one chain, not rivals.
+
+**A2, the forced part (BUILT):** the full finite forced diagram — the traced-data leg, the physical cycle leg, the forced comparison operation on scalar action functions, T^char confined to its proven scope, the formal 2PI dependence placed per Q-408, and the DoR-008 restriction obligations stated.
+
+**A3, the authored residue (the author arm's exact load):** (1) the divergence/action datum and generated quotient action member; (2) the completed-to-finite physical action restrictions ρ_Γ,N; (3) an independently instantiated finite physical action bottom leg; (4) the scalar comparison equality and its normalization; (5) the stationary 2PI package (physical A/G tangent, stationary blocks, complement inverse, ρ_H,N).
+
+**Status:** the author arm (441) is running in Codex 2, blind to this result, carrying both routes per its commission — its gate-work now has a derived standard to be judged against at adjudication. PHYSICAL_P_VERDICT remains NO_VERDICT, correctly.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
