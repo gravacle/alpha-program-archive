@@ -11674,6 +11674,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-364 — FINAL RE-ADJUDICATION: NOT_READY on ONE bounded gap — V003 never proves R1-COV naturality for the completed R5 Hessian restriction ρ_H,N (P1/P3/P5); the rank-two witness is correctly excluded (P2) and the carry is verbatim (P4) (2026-08-03, relay 446, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_SQUARE_V003_FINAL_RE_ADJUDICATION_LANE1_V001.md`, `3f02fd64…`, seal verified, mirrors byte-identical.
+
+**Status:** square V004 commissioned (relay 447, Codex 2, bounded): prove automorphism naturality for ρ_H,N — the covariance certificate must compose through the completed Hessian restriction — or prove exactly why it cannot and restate R5's scope. The gap sequence is strictly shrinking (five kills → one certificate → one carrier of one certificate).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
