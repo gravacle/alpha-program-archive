@@ -693,6 +693,12 @@ ALLOWED U(1) holonomy; open-path endpoint-covariant transport = REQUIRED charge/
 access. The principal identified the convergence before ratifying. Final provenance line
 of record: four families derived / six structures authored. OBS-17's split stands.
 
+**OBS-17 second evidence note (2026-08-03, Q-345):** the depth-to-cycle bridge is now a
+FORMAL OBJECT: Door 7, the network-CTP-tower-to-transverse-cycle-action descent, isolated
+by the determiner derivation under DoR-016 and proven necessary by an executed one-edge
+test (open-path access nontrivial, cycle carrier zero, factorization refuted). The
+emergence point OBS-17 named is the single unbuilt interface on the critical path.
+
 **OBS-16 third confirmation (2026-08-02, Q-306):** the source→output normalization N was
 forced to i·Id by two requires jointly (the sealed identity coefficient + the involution
 law) — survivor count one, authored choice none. Bundling failed, choosing failed, the

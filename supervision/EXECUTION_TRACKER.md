@@ -263,7 +263,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 423 | Codex 1 | [4a] Re-review of V003 | RETURNED — Q-341 (BRANCH A KILLED on family-naturality; BRANCH B SURVIVES ALL; not ratification-ready as package) |
 | 424 | Codex 2 | [4a] V004 single-law candidate | RETURNED — Q-342 (Branch B zero-delta carry; A disposition-only; ready for final review) |
 | 425 | Codex 1 | [4a] Final review of V004 | RETURNED — Q-343 (SURVIVES, all F1-F7 PASS; ready for ratification ruling) |
-| 426 | Codex 1 | [4a] The transverse action's determiner under DoR-016 (D1-D6) | **SENT** |
+| 426 | Codex 1 | [4a] Determiner under DoR-016 | RETURNED — Q-345 (finite accumulation DETERMINED; action BLOCKED ON DOOR 7, the cycle descent; necessity proven) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
 

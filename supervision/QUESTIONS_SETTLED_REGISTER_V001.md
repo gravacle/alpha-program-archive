@@ -11438,6 +11438,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-345 — THE DETERMINER DERIVATION LANDS ON A NEW NAMED DOOR: DoR-016 determines the finite network-fed CTP accumulation (TYPE-P) but NOT the transverse action — the blocker is DOOR 7, the network-CTP-tower-to-transverse-cycle-action DESCENT, its necessity CONFIRMED by an executed one-edge falsifier (2026-08-03, relay 426, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_TRANSVERSE_ACTION_DETERMINER_UNDER_DOR016_LANE1_V001.md`, `1d1cea34…`, seal verified, mirrors byte-identical. Preflight verified every input hash including DoR-016 in force.
+
+**What DoR-016 DOES determine (D3, TYPE-P):** the finite network-fed CTP multiplicative accumulation — what a record system accumulates from its neighbors is now fully determined law. **What it does NOT determine (D2/D4, TYPE-R):** none of the ratified network carriers (R_CTP, Z^CTP, the towers) has domain X_phys or K_cycle — the drive lives on open paths, the transverse action lives on cycles, and no ratified map descends one to the other.
+
+**The executed falsifier (D5):** on the one-edge stage the physical cycle carrier is ZERO while Z₁^CTP and A₁ are nontrivial; any factorization NetAcc = Φ∘q through the cycle carrier would force NetAcc(h) = NetAcc(I), refuted by exact values. DIRECT_TRACE_TO_K_CYCLE_FACTORIZATION = REFUTED. DoR-016's own one-edge regression PASSES — the law is untouched; only the direct seam dies.
+
+**DOOR 7 (new, distinct from all six):** domain = the no-selection family of finite doubled network histories, their R_CTP endomorphisms, traces and towers; codomain = a scalar action functional on X_phys/K_cycle; required factorization: endpoint-covariant history → finite CTP trace/tower → the DoR-015 path-visible quotient and conserved cycle carrier → transverse physical action; with an eleven-item certificate list (annihilates tree/gauge content, preserves record-visible cycles, family-natural, reality-covariant, batching/restriction compatible, normalization and branch declared, Door-5 use declared, no joint contraction without Door 4, common origin, uniqueness or an explicit residual family). Door 5 is a prerequisite of its completed form; Doors 1/4 are conditional alternates, not bypasses.
+
+**The convergence:** Door 7 IS OBS-17's depth-to-cycle bridge — "the emergence point" — now formalized as a single typed interface on the critical path to the p-verdict. Confirmation note added to OBS-17.
+
+**Status:** to Codex 2 for cross-review (relay 427). After review: the Door 7 commission — the program's next and sharpest object.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
