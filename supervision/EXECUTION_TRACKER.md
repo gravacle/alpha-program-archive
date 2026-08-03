@@ -289,6 +289,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 450 | Codex 2 | [4b] Cross-verification of the stationary response | RETURNED — Q-369 (CONFIRMED all; jet boundary TYPE-U; the p-verdict blocks on the jets) |
 | 451 | Codex 1 | [4b] Jet race derive arm | RETURNED — Q-370 (JETS_DERIVED = not; Gen interface-only; the authored arm carries the whole load) |
 | 452 | Codex 2 | [4b] Jet race author arm | RETURNED — Q-371 (covariant radial flat germ, explicit jets; to adjudication) |
+| 453 | Codex 1 | [4b] Jet race adjudication (G1-G7, target-tuning load-bearing) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
