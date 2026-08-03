@@ -11314,6 +11314,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-336 — The drive race, authored arm: the four-field network-sourcing proposal is DRAFTED and exactly computable — it TRANSMITS and RECIPROCATES drive but does NOT create it; two ready systems do not ignite (TYPE-R, both arms now agree); the autonomous loop is blocked on ONE unbuilt object: the received-port-to-write-history update (2026-08-03, relay 418, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4A_NETWORK_SOURCING_LAW_ADOPTION_PROPOSAL_CODEX_LANE2_V001.md`, `87f69626…`, seal verified, both mirrors byte-identical. PROPOSED_NOT_ADOPTED throughout; no TYPE-P claims; six self-kill attacks (9.1–9.6) survived.
+
+**The package (four authored fields):** the zero-anchored relative-history local chart (the initial u−1 emitter was KILLED at send-time preflight by Q-335 — the derivation arm's J-chart constraint acted as a live filter), d_J reproducing C5's finite relative character EXACTLY on V007's chart (the derived-forced half), d_R an openly authored rank-one bilocal autocorrelation (C5 has no R-side physics — Q-335's gap, now housed by authorship), and reciprocal one-tier-delayed edge transport.
+
+**The exact computations (within the proposal):** tier exponent Ξ = x − (ℏ/2)x² via V007's rank-one bilocal formula (L^Θ = x, Q^even = ℏx²); repeated stationary histories give exact linear accumulation A_k = (1−p) + p·e^{kΞ} — the SAME tower form as the declared/C43 tower, now with network-fed exponents. Genuine-drive certificate: the nonzero-history drive class is nonempty (existence theorem); not all nonzero histories drive (kernel counterclass, TYPE-R). Seeded one-step transmission PASSES.
+
+**The negative, now two-sided:** TWO_READY_SYSTEM_BOOTSTRAP = NO_IGNITION (TYPE-R; NS-28), exact at every finite tier — matching 417's identity tower under C5 alone. Deliberately NOT repaired: any offset J₀/seed/spontaneous-history rule would be a further adoption chosen because the result is trivial = target tuning.
+
+**The sharp scope boundary — where the drive now lives:** PORT_TO_WRITE_HISTORY_UPDATE_EXISTS = false (TYPE-S). The proposal does not map a received V007 source tuple back into a compact write history; without that map there is no autonomous ping-pong and no complete network dynamics (V001_IS_A_COMPLETE_AUTONOMOUS_NETWORK_DYNAMICS = false). Two doors flagged NOT_OPENED: DOOR_PORT_TO_HISTORY_UPDATE and DOOR_JOINT_SCALAR_NETWORK. **The race's joint verdict: the network is the drive's CARRIER, not its ORIGIN; the missing physics is one named map — the received-port-to-write-history update — a new dynamical class.**
+
+**Status:** race complete, both arms in. Next per the race pattern: cross-lane adversarial review (Codex 1 reviews the Lane-2 proposal), then the ratification ruling (DoR-016 reserved).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
