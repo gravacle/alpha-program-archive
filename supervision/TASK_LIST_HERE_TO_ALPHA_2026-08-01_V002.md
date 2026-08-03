@@ -438,6 +438,14 @@ custody per LOCKED_PROCESS.md.
                 the proven normalizations; Codex 1 DRAFTS the authored proposal through
                 the full gate. DoR-016 RESERVED. Relays 400/401.
                                                                                SURFACED: yes
+2026-08-03  C40 Q-323 ruling: THE Q-52 PRODUCER SPEC AMENDED to complement-scoped inversion
+                (the full-quotient demand was test-spec machinery; no alpha-facing consumer
+                inverts on a cycle direction -- audit 90737619). STANDING FALSIFIER: any
+                future cycle-direction inversion need VOIDS the amendment and everything
+                computed through it. COMPANION TEST commissioned in the same breath: the
+                off-section flat-germ check against sealed finite data (relay 406). The
+                machinery half of the Q-322 trilemma dissolves under self-policing; the
+                physics half proceeds by test.                                 SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
