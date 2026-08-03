@@ -11732,6 +11732,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-370 — THE JET RACE, DERIVE ARM: JETS_DERIVED = NOT — the finite active jet is exactly zero, Gen_m(δ_div,m) = φ_m is INTERFACE-ONLY, and neither the log-divergence datum nor symbolic ν determines the completed stationary germ, Hessian blocks, or stationary point; the residue is a whole EXECUTABLE INSTANTIATION, not finitely many constants (2026-08-03, relay 451, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_N_MEMBER_STATIONARY_JETS_DERIVE_ARM_LANE1_V001.md`, `8cb2ad22…`, seal verified, mirrors byte-identical. VOID_CANDIDATE = false; no verdict computed.
+
+**The finding's weight:** the divergence-is-the-coupling steer does NOT self-instantiate — ratifying the divergence-generated member fixed its interface and certificates, but the completed stationary data is genuinely authored territory. The authored arm (452, running blind) carries the ENTIRE load, which makes its anti-target-tuning battery the load-bearing defense of the eventual p-verdict: the highest fitting-risk point of the program, arriving exactly where the standing risk note predicted.
+
+**Status:** awaiting 452. At adjudication: the authored instantiation judged with the derive arm's negative as the standard (nothing in it may claim derived status; every choice disclosed).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
