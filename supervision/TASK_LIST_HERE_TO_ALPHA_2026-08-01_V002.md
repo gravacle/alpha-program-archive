@@ -613,6 +613,14 @@ custody per LOCKED_PROCESS.md.
                 path/current correspondence + the U(1)-bundle field members into
                 P4/X4. THE CLAUSE LAYER IS COMPLETE: no declarations remain in
                 Task 5. 513 opens witness-hunt pass 2 on fixed law. ***        SURFACED: yes
+
+2026-08-04  C61 *** THE COMPLETED-EXISTENCE AXIOM COMMISSIONED (principal's ruling,
+                Q-452): ~15 witness rounds prove the pattern — finite builds,
+                completed resists, every scope; the constructive/axiomatic boundary
+                reached. 527 authors the axiom through the full gate; 528 derives
+                its constraint system. DoR-020-A2 reserved. If adopted, [EQ6]'s
+                completed content discharges by principle + the built finite
+                layer; the sealed number tests it all. ***                     SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
