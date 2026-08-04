@@ -536,6 +536,13 @@ custody per LOCKED_PROCESS.md.
                 gate (DoR-019 reserved); 455 derives the divergence datum's lawful
                 profile-source content. Germ V002 waits on both; DoR-018 held.
                                                                                SURFACED: yes
+
+2026-08-03  C53 *** DoR-019 RATIFIED (Q-384): THE CARRIER METRIC AND UNITS IN FORCE
+                after five review rounds (fullness proven; no implicit cross-sector
+                unit; four disclosed authored items). The DP1-DP10 provenance
+                certificate stands (Q-373). Relay 465 commissions germ V002: both
+                shapes, DP-certified, jets on ratified geometry; DoR-018 = the
+                shape + jet ruling. ***                                        SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

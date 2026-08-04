@@ -11874,6 +11874,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-384 — DoR-019 RATIFIED: THE CARRIER METRIC AND UNITS ARE IN FORCE — the derived core (forced semiform, fullness, W3 isometry, C-side package, R4-only routing) plus the four disclosed authored items; the geometry the jet round builds on now exists ratified (2026-08-03, principal's ruling)
+
+**Decision file:** `DOR_019_CARRIER_METRIC_AND_UNITS_RATIFICATION_2026-08-03.md`, sealed and mirrored.
+
+**What this unblocks:** germ V002 — both profile shapes (K-only and complement-coupled), DP1–DP10-certified, with jets computed on ratified geometry and the shape choice presented as the DoR-018 fiber. Commissioned as relay 465 (Codex 2).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
