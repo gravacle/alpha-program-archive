@@ -12470,6 +12470,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-449 — THE FLIP SECTION IS CONFIRMED (the program's first inhabited equalizer, verified by hostile check); the SCOPED WITNESS's remaining needs named and bounded: the six-generator J1–J15 equalizer scoped to I_flip + DoR-020 scope-admissibility + the full finite-bottom certificate; C_ret and the branch scope independently required (Q-448 reconciled); SESSION CHECKPOINT EXECUTED at lane-budget exhaustion (2026-08-04, relay 523, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_FLIP_SECTION_CHECK_AND_SCOPED_WITNESS_LANE2_V001.md`, `0e61e6eb…`, seal verified, mirrors byte-identical.
+
+**THE CHECKPOINT STATE (for resume):** the continuum theory adopted with complete clauses (DoR-020 + A1); the first inhabited equalizer VERIFIED (Eq_flip); the scoped-witness needs list exact (above); C_ret typed with its counterexample (Q-448); relay 524 (chain V002: C_ret + the twelve-step map) WRITTEN AND QUEUED; the witness-to-number map known modulo its two new rungs. Lane budgets: both Codex lanes at <10% of GPT-5.6 Sol; the standing guidance — verdict-grade work (witness certifications, escrow openings) Sol-only; builds spark-tolerable with Sol re-check. NOTHING IS IN FLIGHT; the board is clean for pause.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -3885,3 +3885,25 @@ transport, relative no-leakage); the generator's cycle-creating member now has
 full law; witness pass 2 = relay 513. OBS-20 partial-killed and corrected:
 records derive independence; gravity declares what lives where. DoR ledger:
 001-020 + A1. Register: Q-335..Q-438 this session. Relays 417-513.
+
+## CHECKPOINT 2026-08-04 ~14:15 (register head Q-449) — LANE BUDGETS EXHAUSTED, CLEAN PAUSE
+
+THE MARATHON SESSION: relays 417-523. RATIFIED: DoR-016/017/018/019/020+A1.
+Register Q-335 -> Q-449. THE STATE: the continuum theory adopted, clause layer
+complete; Eq_flip = THE FIRST INHABITED EQUALIZER, hostile-verified (Q-446/449);
+the licensed chain built then corrected (C_ret independently required, the
+disconnected-domain counterexample, Q-448); the witness-to-number map = twelve
+steps pending 524's repair.
+
+RESUME PROTOCOL:
+1. Verify register head Q-449 (this file's seal + the archive).
+2. FIRST MOVE: load relay 524 (chain V002: C_ret + the map repair) — WRITTEN,
+   at alpha_supervision/RELAY_PASTE_524_CHAIN_V002_CRET_LANE2_V001.md — to
+   Codex 2. Builds may run spark; ALL VERDICTS (the 524 check, witness
+   certifications, escrow openings) Sol-only.
+3. THEN: the scoped-witness completion per Q-449's needs list (the I_flip
+   six-generator equalizer + scope-admissibility + finite-bottom), and the
+   A4_Q408_LOCAL_EXCISION_NATURALITY primitive for the general section.
+4. The escrow question (bind/compute on the scoped theory) goes to the
+   principal ONLY over Sol-verified certifications.
+Lane models at pause: both GPT-5.6 Sol xhigh, <10% remaining.

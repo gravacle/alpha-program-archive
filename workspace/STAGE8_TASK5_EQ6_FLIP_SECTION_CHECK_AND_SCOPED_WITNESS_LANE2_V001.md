@@ -42,7 +42,9 @@ CURRENT_ESCROW_CHANGE = none |
 
 COUNTERFACTUAL_SCOPED_LICENSE =
   only after both missing certificates (or a principal amendment with the
-  same content) would a bound member and computation be licensable on I_flip;
+  same content) would the witness-side prohibition on a bound member be
+  removable on I_flip.  Q-448 independently requires a certified C_ret and
+  an interval/absolute-continuity branch scope before fixed-point execution;
   no result would thereby extend to asymmetric primitives.  General A4/Q-408
   local-excision naturality would later enlarge the domain and require the
   six-generator/J1-J15 audit again on the enlarged category.
@@ -99,10 +101,31 @@ Load-bearing sources independently verified:
 | continuum package V005 | `09883a0d7a5d1329033a09c59ff8d7c843a0098cba569d2a2b97f64f45b2dd95` | adopted package carrier/rule scope |
 | first physical cycle member | `c0cc95112bf8c213b0e2c4095a06c4e4658fa3950641b9a21fa51950a9f818fa` | nonempty actual two-path member |
 | hostile check of first member | `166002e9178faefe4464f504810553a606ec6465a0e3739a70e50a5d29d8604e` | geometry and all-rank boundary |
+| Q-448 conditional-chain check | `a6207597484c2f00ad37cebba34b3f135f21bc2e7a7b7a03a9e642ca7e37fe86` | send-time downstream license precision |
 
 Register entries swept: Q-408, Q-411, Q-421/Q-422, Q-430/Q-432,
-Q-438 through Q-447.  No settled row turns a proper Q-408 subequalizer into
+Q-438 through Q-447.  At send time Q-448 was added and reconciled below.
+No settled row turns a proper Q-408 subequalizer into
 a joint package witness or authorizes narrowing DoR-020's P4 quantifier.
+
+### 0.3 Send-time Q-448 reconciliation
+
+Q-448 kills the claim that `[EQ6]` alone supplies the independent global
+stationary-return certificate `C_ret`, and it requires an interval/convex
+`C1` or absolute-continuity branch before a derivative supremum can replace
+the true difference-quotient modulus.  This does not alter N1, N2, or the
+definition of a DoR-020 witness.  It changes only the counterfactual answer
+to “what opens”: a certified scoped witness can remove the witness-side bar
+to member binding on an authorized scope, but fixed-point execution still
+needs
+
+```text
+CERTIFIED_C_ret
++ CONNECTED_INTERVAL_OR_ABSOLUTE_CONTINUITY_BRANCH_SCOPE.        (S0-1)
+```
+
+Those are downstream certificates, not additional components of the
+scoped `[EQ6]` witness in `(N3-4)`.
 
 ### 0.2 Symbols that must not be collapsed
 
@@ -466,19 +489,25 @@ DOR020_SCOPE_ADMISSIBILITY_AND_FULL_FINITE_BOTTOM_CERTIFICATE:
 Neither component is present.  Consequently `Eq_flip` does **not** certify
 as a scoped `[EQ6]` witness and changes none of DoR-020's escrow locks.
 
-If `(N3-4)` were later supplied and certified, DoR-020's post-witness path
-could lawfully bind a member and execute the already prepared conditional
-chain **on `I_flip` only**, subject to its remaining authorization gates.
-The sealed-number end test would then test that bound scoped package, not
-the full asymmetric-primitive theory.  A later proof of `(N2-3)` would add
-new arrows and require rechecking the six generators and `J1`–`J15`; it
-could not inherit the scoped result without that extension theorem.
+If `(N3-4)` were later supplied and certified, DoR-020's witness-side bar to
+binding a member could be removed **on `I_flip` only**, subject to the
+separate binding gate.  Q-448 prevents the stronger inference: fixed-point
+execution would remain blocked until an independent `C_ret` inhabitant and
+the connected interval/absolute-continuity branch certificate `(S0-1)` are
+built and verified.  Only then could the repaired conditional chain and its
+later authorization gates be used.  Any eventual scoped end test would test
+that bound scoped package, not the full asymmetric-primitive theory.  A
+later proof of `(N2-3)` would add new arrows and require rechecking the six
+generators and `J1`–`J15`; it could not inherit the scoped result without
+that extension theorem.
 
 ```text
 SCOPED_WITNESS = NEEDS(N3-4)
 MEMBER_BINDING_LICENSED_NOW = false
 FIXED_POINT_EXECUTION_LICENSED_NOW = false
 END_TEST_LICENSED_NOW = false
+POST_WITNESS_C_RET = independently_required / Q-448
+POST_WITNESS_BRANCH_SCOPE = independently_required / Q-448
 ```
 
 ---
@@ -609,6 +638,9 @@ SCOPED_GENERATOR_COUNT = 1/6
 SCOPED_J1_J15_TERM = absent
 DOR020_SCOPE_ADMISSIBILITY = absent
 FULL_FINITE_BOTTOM_CERTIFICATE_ON_SCOPE = absent
+
+POST_WITNESS_C_RET = OPEN / TYPE-U
+POST_WITNESS_INTERVAL_OR_AC_BRANCH = OPEN / TYPE-U
 
 SCOPED_WITNESS = NEEDS(
   SCOPED_SIX_GENERATOR_J1_J15_EQUALIZER_TERM_ON_I_flip
