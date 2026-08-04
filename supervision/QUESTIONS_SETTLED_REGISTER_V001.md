@@ -12152,6 +12152,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-414 — PACKAGE V002: J2/J5/J13 INSTALLED; A WITNESS EXHIBITED — the lawful family F_PLDEC, with all 15 forced families passing within the proposal; per the pre-registered calibration THIS IS THE SURPRISING BRANCH and receives the maximum-hostility cross-check before anything else (2026-08-04, relay 492, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_CONTINUUM_PACKAGE_ADOPTION_PROPOSAL_LANE2_V002.md`, `0db958d2…`, seal verified, mirrors byte-identical. PROPOSED_NOT_ADOPTED.
+
+**The calibration applied (from the principal's correction, this session):** at the seam, obstructions are expected currency and existence claims are expensive and suspect — a witness on the first repaired attempt is exactly the outcome that demands the hostile audit for a smuggled assumption before celebration. Relay 493 (Codex 1) is written at that standard: the F_PLDEC family re-verified against every family independently, the construction order audited for target-awareness and for hidden consumption of the desired conclusion, and the "too easy" question asked as a formal item.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
