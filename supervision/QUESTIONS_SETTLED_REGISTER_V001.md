@@ -11932,6 +11932,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-391 — THE p-VERDICT COMPUTATION REPORTS (not yet the verdict): Response_K(p,ν;k) = Response_base(p;k) + ν·Response_flat(k) EXACTLY — Shape K adds NO p-dependence, no (r₀,r_ch) survives beyond p (the rank-port audit closes the chain), ν enters affinely with a p-free coefficient, the zero theorem stands; THE WHOLE QUESTION REDUCES TO ONE BASE-ONLY OBJECT: (P3-8) — Response is p-free iff RetExtract[∂_p Schur_base] = 0 for every i (2026-08-03, relay 469, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_P_VERDICT_COMPUTATION_LANE1_V001.md`, `27790d53…`, seal verified, mirrors byte-identical. VOID_CANDIDATE = false; every discipline held; the artifact itself states its result becomes the verdict only after cross-verification and the registrar's entry.
+
+**The exact structure:** the completed response splits — the base part carries every possible p-entry (through ω_i(p), κ_i(p) and the stationary point); the member part is ν·RetExtract[T_K(k)], p-free by Shape K's D_C-jets ≡ 0. The p-derivative passes through the Schur complement (P3-5) and the classification is exact: p-FREE iff RetExtract[Ḋ − ĊA⁻¹B + CA⁻¹ȦA⁻¹B − CA⁻¹Ḃ] = 0 ∀i (P3-8); p-DEPENDENT iff nonzero for some i. **CONDITIONALLY_DEPENDENT is the exact computation** — the ratified chain forces neither; the finite zero theorem cannot decide it (the finite active reference is not the completed stationary point). **The rank-port audit (P3-11):** every ratified operation carries the pair only through p — DoR-014's gauge theorem holds through the complete chain.
+
+**What remains:** ONE decision on ONE member-free object, on a completed carrier that NOW EXISTS RATIFIED (DoR-019's R5 identification — the wall that stopped this at Q-313 has been built through). Cross-verification commissioned (relay 470, Codex 2) including the decidability sweep: is (P3-8) now computable on the ratified completed carrier?
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

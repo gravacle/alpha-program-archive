@@ -305,7 +305,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 466 | Codex 1 | [4b] Germ V002 cross-review | RETURNED — Q-386 (Shape K READY; Shape CK hides a free dimensionless lambda — retype as family) |
 | 467 | Codex 2 | [4b] Germ V003 lambda retype | RETURNED — Q-387. MISPASTE: also ran in Codex 1 (Q-388); artifact of record intact; 468 amended with J0 disclosure+comparison |
 | 468 | Codex 1 | [4b] Germ V003 re-check (amended) | RETURNED — Q-389 (ALL PASS; builds AGREE; both shapes READY; DoR-018 to the principal) |
-| 469 | Codex 1 | [4b] THE p-VERDICT COMPUTATION (P1-P6) | **SENT** |
+| 469 | Codex 1 | [4b] THE p-VERDICT COMPUTATION | RETURNED — Q-391 (exact split; Shape K adds no p; all reduces to (P3-8), base-only; to cross-verification) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
