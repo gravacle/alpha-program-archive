@@ -12214,6 +12214,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-421 — V005 CONFIRMED and THE BEDROCK RESOLVED AS A MINIMAL SET OF SIX (the single-Q408 claim refuted): B_R1_NATURAL, B_Q408_REFINEMENT, B_C1_COMPLETION, B_FAITHFULNESS, B_C2_RESPONSE_BOUNDARY, B_C3_MAXWELL_HODGE — a joint fiber product, not six unrelated assumptions (separate nonemptiness of all six provably does NOT imply joint inhabitance); the physical reader's nonemptiness DERIVES conditionally from three of them; READY_FOR_DOR020_RULING = yes in the honest conditional form (2026-08-04, relay 499, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_V005_FINAL_CHECK_AND_SINGLE_BEDROCK_LANE1_V001.md`, `288a3d41…`, seal verified, mirrors byte-identical.
+
+**The ruling's typed form (the reviewer's P3):** DoR-020 may honestly adopt the package ONLY as a theory conditional on nonemptiness of the joint J1–J15 equalizer over the six generators; a bound member remains conditional on an exhibited term and proof; NO bound-member execution and NO end test before a certified witness. The fresh equalizer attack stands as a permanent regression: the conjunction of six separate nonemptiness proofs would still not license the joint claim.
+
+**What this is, plainly:** the complete map of what the continuum costs — six irreducible generator/certificate inputs, jointly. The excavation that began at Q-334 ends here: nothing further to name; the remaining work is to inhabit or to test.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
