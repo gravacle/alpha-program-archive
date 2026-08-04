@@ -12394,6 +12394,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-441 — THE ALL-RANK BUILD: three actual diamonds executed — the rank-preserving diamond PASSES; BOTH cycle-creating diamonds stop at the three joint tests (OLD_FID / RNL / LR); W1/W4 stopped at the nonempty positive-source relative-certificate subfamily; THE GR–EM JOINT EVENT IS NOW SEALED STRUCTURE — two disjoint surface corridors fusing rank-one sources into a rank-two target, the path/current and U(1)-bundle legs commuting exactly, admission gated by metric fidelity, the off-diagonal Riesz pairing, and support-local range (2026-08-04, relay 515, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_ALLRANK_W1W4_MEMBERS_LANE2_V001.md`, `dec99497…`, seal verified, mirrors byte-identical. ALL_RANK and JOINT_EQ6 remain partial.
+
+**The principal's reading, now against sealed structure (an OBS-17/OBS-20 note):** the two declared strata commute by law; the physics is in joint ADMISSION — when geometry creates a new cycle, GR-side and EM-side content must jointly certify the event, and both cycle-creating diamonds stop exactly at that certification. The first concrete GR–EM joint event of the program, stopped at its own threshold.
+
+**Status:** relay 516 (Codex 1): the hostile check of the build + THE DECISIVE TYPING — do the cycle-creating diamonds fail the three tests as a CONSTRUCTION GAP (the members not yet right; a route exists) or STRUCTURALLY (the tests jointly unsatisfiable for this family — a theorem about GR–EM joint admission, and [EQ6] would need re-examination at the clause level)?
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -771,3 +771,11 @@ a RELATIVE no-leakage condition, it is CONSTRUCTIBLE from ratified record conten
 strong form dies of the same globality overreach that killed exhibit V003. Surviving
 form: records derive how separate things stay independent; gravity declares what lives
 where.
+
+**OBS-17/20 joint note (2026-08-04, Q-441):** the first concrete GR-EM joint event is
+sealed structure: two disjoint corridors fusing rank-one sources into a rank-two target,
+the where-leg and the bundle-leg commuting exactly, admission gated by three joint
+certificates (metric fidelity, off-diagonal Riesz pairing, support-local range). The
+static sentence ("gravity says where; EM says how the where holds on") has a dynamic
+form: cycle creation requires joint GR-EM certification, and the current builds stop
+exactly at that threshold. Task 7c's structural germ, on the record.
