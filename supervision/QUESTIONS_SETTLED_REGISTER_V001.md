@@ -12496,6 +12496,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-452 — THE FIVE-GENERATOR DISCHARGE ON I_flip: ALL FIVE STOP AT THE SAME SIGNATURE — the finite/local layer builds (retained-family section, seminorm core, orbitwise faithfulness, finite Ward transport, Ref_path compatibility) and the COMPLETED closure resists on every one (full section, completed C1 carrier, global Hodge–Maxwell closure, full response boundary); JOINT stopped; COFINALITY insufficient — THE CONCRETENESS LEVERAGE FAILED: scoping concretizes the finite layer, not the completed one (2026-08-04, relay 526, lane-tagged, spark 5.3 xhigh; registrar-read in full)
+
+**Artifact:** `STAGE8_TASK5_EQ6_FIVE_GENERATORS_ON_IFLIP_LANE2_V001.md`, `3ae580d0…`, seal verified, mirrors byte-identical.
+
+**The stabilized pattern, across ~15 witness-rounds, general AND scoped:** every generator's finite content builds; every completed closure resists; the resisting objects are all one species — completed-existence content (the A4 naturality, completed carriers, global closures, cofinality). The seam is exhibiting the shape of mathematics' own constructive/axiomatic boundary: one does not CONSTRUCT the reals' completeness from the rationals — one axiomatizes it. The witness problem may be non-constructive in the same way, pointing at a possible final principle (an axiom of completed existence over finite-coherent data) as a DoR-020-A2 candidate — OR at continued grinding, OR at a Sol-powered decisive attempt at the closures. The fork is the principal's.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
