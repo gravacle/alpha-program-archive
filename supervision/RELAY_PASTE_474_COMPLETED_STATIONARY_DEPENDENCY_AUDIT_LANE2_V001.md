@@ -1,0 +1,18 @@
+## PASTE 474 — CODEX LANE 2 (HIGH EFFORT) — [TASK 4b] THE DEPENDENCY AUDIT: WHAT ACTUALLY REQUIRES THE COMPLETED STATIONARY FAMILY?
+
+PREFLIGHT (verify before starting; report any failure and STOP):
+- Register head: Q-394. The principal's standing audit question, applied at the finish line: both decision routes are blocked on COMPLETED-family content (Q-393: types can't see Keldysh support; Q-394: completion selects no representative), while every FINITE result is exact, zero, and p-free. Determine whether the completed stationary family is actually REQUIRED — or an imported continuum assumption the record surface never forced.
+- Authorities (verify hashes): the divergence draft `ed49624b…` (where the stationary/2PI requirement enters), square V004 `abf6d366…` (the ratified comparison structure and RetExtract), the response computation `27790d53…`, metric V005 `2a379098…` (the authored completion convention — one of DoR-019's four authored items), DoR-008 (the finite is the authority), Q-391–394. This runs in parallel with 473 (blind to it).
+- Custody: derivation/audit only. p, ν symbolic. Precedent: the Q-270-style audits (the four-objects audit; the stationarity audit) — requirements are cited to their ratified source or declared imported.
+
+TASK:
+O1. **The requirement inventory.** For each element of the chain that forces the question onto the completed family — (i) the stationary condition on the COMPLETED carrier, (ii) the completed Schur/complement inverse, (iii) RetExtract's completed kernel structure, (iv) the completed carrier itself as the response's home — cite the exact ratified clause that REQUIRES it, or mark it IMPORTED (continuum habit, not record law). The draft's own φ_div signature and the square's obligations are the primary sources; DoR-019's completion convention is authored, not derived — note what actually consumes it.
+O2. **The finite-limit alternative, typed.** Does any ratified requirement FORBID defining the physical response as the limit/colimit of the exact finite responses (all computed, all zero/p-free in the retarded sector)? If the ratified stack permits the finite-limit definition: state exactly what the finite zero theorem then decides about p — and what, if anything, is lost (which ratified obligations the finite-limit object cannot discharge; the completed family may still be needed for OTHER consumers — name them).
+O3. **The verdict-relevance theorem.** The sharpest form: does the (P3-8) question, as ratified, actually gate the p-verdict — or does the verdict's ratified definition (the deciding question as registered) admit discharge at the finite level? Work the registered wording of the deciding question against both definitions.
+O4. **Falsifiers:** each audit conclusion gets its finite check; run the computable ones. No preference for either outcome — an audit that finds the completed family genuinely required is a full success.
+
+OUTPUT: one artifact, lane-tagged filename
+`STAGE8_TASK4B_COMPLETED_STATIONARY_DEPENDENCY_AUDIT_LANE2_V001.md`
+with a lead-result block (`COMPLETED_FAMILY = REQUIRED (+by what) / IMPORTED (+the finite-limit restatement) / MIXED (+the exact split)`), the register-sweep list, and the O1–O4 chain. Seal, mirror byte-identically to `alpha-program-archive/workspace/`, verify, report hashes, STOP. No register, plan, tracker, git, commit, or push action.
+
+GATES: alpha_computed = false; proof_authorized = false; kappa_record_computed = false. No numeric evaluation; no registered verdict; no comparison to measured constants. If a fence blocks a structural result, flag MACHINERY-APPEAL and continue.
