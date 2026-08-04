@@ -12362,6 +12362,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-437 — THE WHERE-CLAUSES SURVIVE THE FINAL CHECK (C1–C4 all pass, the fresh flat-holonomy attack included): law-only, bundle-typed, the amendment text exact; READY_FOR_WHERE_RULING = yes as a DoR-020 AMENDMENT; the witness burden and joint [EQ6] correctly remain open (2026-08-04, relay 512, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_WHERE_CLAUSES_FINAL_CHECK_LANE1_V001.md`, `b4c901f5…`, seal verified, mirrors byte-identical.
+
+**Status:** THE WHERE RULING goes to the principal — the amendment adopting the two clauses (the path/current support correspondence; the U(1)-bundle-typed local field members) into DoR-020's P4/X4 fields.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
