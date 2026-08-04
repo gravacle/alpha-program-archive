@@ -12028,6 +12028,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-401 — TASK 5 OPENS WITH A CONDITIONAL THEOREM: DoR-019's Hilbert carrier does NOT make scalar B_ind a self-map (the fixed point needs its own carrier); existence/uniqueness TYPE-U; a CONDITIONAL BANACH THEOREM is proved under four explicit premises — completeness, closure, boundedness, and contraction modulus q < 1; sensitivity to all three freedoms UNDECIDED pending the premises (2026-08-03, relay 479, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_B_IND_ANALYTIC_STRUCTURE_LANE1_V001.md`, `88854f08…`, seal verified, mirrors byte-identical.
+
+**The reduction:** Task 5's theorem now has exactly four named premises. If they discharge from ratified content, existence/uniqueness follows AND the sensitivity question becomes computable (the map's derivative in the freedom directions against the modulus). The four premises are the next objects; the scalar carrier question (where K lives) leads them.
+
+**Status:** relay 480 (Codex 2): cross-verify the conditional theorem + the premise-discharge sweep — which of the four premises derive from the ratified stack, which need construction, and what the sensitivity computation consumes once they hold.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
