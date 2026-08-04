@@ -372,7 +372,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 531 | Codex 1+2 | [5/EQ6] V002 re-adjudication + absence check (dual-run) | RETURNED ×2 — Q-456 (identical verdicts; overwrite event; no-clobber rule installed) |
 | 532 | Codex 2 | [5/EQ6] Joint finite assembly stage 1 V002 | RETURNED — Q-458 (BUILT clean; J4/J12/J15 closed pending review; J7 surfaced) |
 | 533 | Codex 1 | [5] Chain V002 cross-check of record | RETURNED — Q-457 (DEFECTIVE: K2 entrance gate + K3 D_w completeness; held item discharged) |
-| 534 | Codex 2 | [5] Chain V003: entrance gate + D_w completeness (R1-R3) | LOADED — NOT SENT |
+| 534 | Codex 2 | [5] Chain V003: entrance gate + D_w completeness (R1-R3) | **SENT** |
 | 535 | Codex 1 | [5/EQ6] Stage-1 assembly review of record (V1-V6) | WRITTEN — QUEUED (load after 534 sent) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
