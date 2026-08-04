@@ -12478,6 +12478,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-450 — CHAIN V002 (the spark era's first build, REGISTRAR-READ IN FULL): C_ret CONSTRUCTED as an explicit typed gate — the return-branch clause honestly marked as new (not supplied by DoR-020), D_w nonemptiness carried explicitly, the disconnected-domain counterexample EXCLUDED by clause (D) with the mechanism stated; the WITNESS-TO-NUMBER MAP repaired to twelve steps with the C_ret gates at 3–4 and its scope threaded through 7–11 (2026-08-04, relay 524, lane-tagged, spark 5.3 xhigh)
+
+**Artifact:** `STAGE8_TASK5_LICENSED_CONDITIONAL_CHAIN_LANE2_V002.md`, `1069e4f4…`, seal verified, mirrors byte-identical. Registrar read: structurally sound; terser than Sol-era artifacts but load-bearing content present; the condition set now [EQ6] + C_ret_SCOPE_w (interval/convex or absolute-continuity branch).
+
+**Status:** the cross-check (verdict-grade → Sol-only per the standing discipline, or spark with SPARK-VERDICT tag + Sol re-check) queues for Lane 1 after 525 returns.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

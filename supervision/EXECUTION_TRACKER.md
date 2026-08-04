@@ -362,7 +362,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 521 | Codex 2 | [5] The licensed chain | RETURNED — Q-447 (conditional theorems + exact A_loop + THE TEN-STEP MAP; fully staged) |
 | 522 | Codex 1 | [5] Chain cross-check | RETURNED — Q-448 (CHAIN KILLED: C_ret separate; disconnected-domain counterexample; map needs 2 rungs) |
 | 523 | Codex 2 | [5/EQ6] Flip check + scoped witness | RETURNED — Q-449 (FLIP CONFIRMED; scoped needs named; CHECKPOINT) |
-| 524 | Codex 2 | [5] Chain V002: C_ret + the twelve-step map (O1-O4) | **SENT** (spark 5.3 xhigh era begins) |
+| 524 | Codex 2 | [5] Chain V002: C_ret + 12-step map | RETURNED — Q-450 (registrar-read PASS; C_ret explicit; counterexample excluded; check queued) |
 | 525 | Codex 1 | [5/EQ6] The scoped-witness completion on I_flip (P1-P5) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
