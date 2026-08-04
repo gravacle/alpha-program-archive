@@ -316,7 +316,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 477 | Codex 2 | [4b→5] Maxwell symbol + p_loc[R_K] | RETURNED — Q-400 (all three = typed freedoms/unbuilt; everything funnels to B_ind's analytic structure) |
 | 478 | Codex 1 | [5→4b] Sensitivity audit | RETURNED — Q-399 (freedom completed-level, not artifact; B_ind has NO ratified analytic structure; Tasks 4/5 merge) |
 | 479 | Codex 1 | [5] B_ind analytic structure | RETURNED — Q-401 (not a Hilbert self-map; CONDITIONAL Banach under 4 premises; sensitivity pending) |
-| 480 | Codex 2 | [5] Conditional-theorem verification + premise discharge (V1-V5) | **SENT** |
+| 480 | Codex 2 | [5] Premise discharge sweep | RETURNED — Q-402 (theorem CONFIRMED; 0/4: completeness+boundedness constructible; closure+q undetermined) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.

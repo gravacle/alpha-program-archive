@@ -12038,6 +12038,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-402 — THE CONDITIONAL THEOREM IS CONFIRMED with the premise ledger 0/4 discharged: COMPLETENESS and BOUNDEDNESS are CONSTRUCTIBLE (the scalar carrier can be built); CLOSURE and q < 1 are UNDETERMINED — likely determinable only on the built carrier (2026-08-03, relay 480, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_BANACH_PREMISE_DISCHARGE_LANE2_V001.md`, `feb84216…`, seal verified, mirrors byte-identical.
+
+**Status:** relay 481 (Codex 1): BUILD the scalar carrier — the completeness and boundedness constructions executed — then compute closure and the contraction modulus q ON the built carrier (the modulus symbolically on the minimal stages, with its freedom-dependence read off as the first sensitivity data). Cross-review follows.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
