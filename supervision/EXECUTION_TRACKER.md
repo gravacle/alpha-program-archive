@@ -370,7 +370,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 529 | Codex 1 | [5/EQ6] The axiom adjudication vs the 34 constraints | RETURNED — Q-454 (NOT_READY: FC12 kill + vacuity kill) |
 | 530 | Codex 2 | [5/EQ6] Axiom V002 + THE EXHIBITION | RETURNED — Q-455 (membership FAILED by ABSENCE; the joint finite package was never built) |
 | 531 | Codex 1+2 | [5/EQ6] V002 re-adjudication + absence check (dual-run) | RETURNED ×2 — Q-456 (identical verdicts; overwrite event; no-clobber rule installed) |
-| 532 | Codex 2 | [5/EQ6] Joint finite assembly stage 1 V002: FULL functor (incl. R1 legs) + bottom | LOADED — NOT SENT |
+| 532 | Codex 2 | [5/EQ6] Joint finite assembly stage 1 V002: FULL functor (incl. R1 legs) + bottom | **SENT** |
+| 533 | Codex 1 | [5] Chain V002 cross-check of record (K1-K5; the held Sol-grade item) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
