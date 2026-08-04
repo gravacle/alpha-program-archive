@@ -12160,6 +12160,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-415 — F_PLDEC IS KILLED BY THE HOSTILE CHECK, exactly as the calibration predicted a too-easy witness would die: (1) Q-408's PHYSICAL kernel replaced by an abstract operator, (2) π_Mx defined circularly from the chosen reader, (3) Q-407's CONDITIONAL reader family misstated as proven nonempty; the PL refinement core SURVIVES (2026-08-04, relay 493, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_HOSTILE_WITNESS_CROSS_CHECK_LANE1_V001.md`, `510ebda9…`, seal verified, mirrors byte-identical. PACKAGE = NOT_READY; READY_FOR_DOR020_RULING = no.
+
+**The structural lesson the kill exposes:** the witness burden has a genuine logical shape — exhibiting an inhabitant means constructing the physical continuum objects, which eight rounds proved underivable; an abstract stand-in is smuggling (caught); so the lawful discharge routes are exactly two: (a) a PHYSICAL witness built against the kill anatomy (the real kernel, a genuinely-nonempty reader family — the hard construction, honestly attempted), or (b) the package restated as CONDITIONAL-ON-INHABITANCE with the sealed-number end test as the inhabitance falsifier — the model-declaration structure, where the number itself becomes the consistency proof or refutation. Both branches typed in V003 for the principal.
+
+**Status:** relay 494 (Codex 2): package V003 carrying both discharge branches, the kill anatomy as permanent regressions, the PL core retained.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
