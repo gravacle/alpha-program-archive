@@ -721,3 +721,17 @@ requires forced: three for three.
 **Falsifier (pre-registered):** (a) any derivation of the amplitude/registration layer from record phase content alone; or (b) a demonstration that a require-side fact is fixed without amplitude structure; or (c) the weights proven depth-SENSITIVE anywhere in the sealed finite theory — any one kills the observation.
 
 **Status:** OPEN; the origin-fed tower (computation four) and the eventual bridge are its next tests.
+
+
+## OBS-19 — The completed-family underdetermination IS the start of the continuum (principal, 2026-08-03, pre-registered BEFORE the 473/474 results)
+
+**The observation (the principal's, verbatim steer: "But this is the start of the continuum"):** the two blocking theorems at the p-verdict's finish line — the finite layer exact and p-free everywhere (Q-243/279/309/368/391), and the completion provably selecting no representative (Q-394) — are not an impasse but the program's own principle ("the infinite is emergent from the finite") arriving as structure: the seam where the continuum begins is exactly where finite determination ends. The completion freedom is the continuum's first degree of freedom, and per OBS-17/18 it sits where the metric/boundary-former (GR) stratum was always expected to enter.
+
+**Pre-registered interpretation of the running tests:**
+- 473 INVARIANT (the decision block equal across all admissible completions) ⇒ the p-verdict is FINITE-DETERMINED though the continuum start is free — the strongest confirmation of the emergence principle: the coupling does not depend on how the continuum begins.
+- 473 NOT_INVARIANT ⇒ part of alpha is CONTINUUM-BORN: a completion choice (GR-stratum physics) lives inside the fine-structure constant — a major finding, and the completion fiber becomes a ratification gate.
+- 474 locates the seam: which ratified obligations are finite-side, which genuinely continuum-side, and whether the registered deciding question straddles it.
+
+**Falsifier:** if 474 finds the completed family fully derivable from finite content after all (contradicting Q-394), or if the seam dissolves under audit (no obligation genuinely continuum-side), this observation is killed.
+
+**Status:** OPEN, pre-registered ahead of both results.
