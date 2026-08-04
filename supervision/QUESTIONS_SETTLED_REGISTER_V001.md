@@ -12514,6 +12514,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-454 — THE AXIOM ADJUDICATION: NOT_READY, 32/34 PASS, TWO KILLS — (1) M16/N7: FC12 imports C_ret branch regularity into EQ6 eligibility (by Q-448/Q-450 the two are INDEPENDENT, so the guard must be SILENT on return branches; FC12 also makes the domain underbroad — repair: DELETE FC12, exclusion stays at Steps 3–4 where it lives); (2) TRIVIALITY SUCCEEDS: no F_actual is proven to satisfy the guard jointly, so the universal may be vacuous — repair: construct and NAME F_actual and prove the membership theorem. No hidden selection, no Skolem function; relative conservativity passes (2026-08-04, relay 529, registrar-read of the failure arguments)
+
+**Artifact:** `STAGE8_TASK5_EQ6_AXIOM_ADJUDICATION_LANE1_V001.md`, `9fe38e93…`, seal + mirror verified, fence-clean.
+
+**Registrar corroboration and one correction of my own read:** the vacuity kill is my pre-verdict N1 (sealed at commit 9785c84 BEFORE this verdict arrived) sharpened from ruling-note to blocker — blind convergence a second time. On FC12 I am CORRECTED: my checkpoint review passed it ("conditions only on a supplied branch, constructs nothing"); the adjudicator's layer-placement argument is finer and right — eligibility must say nothing about return branches at all. The two-arm system caught what the registrar alone did not.
+
+**Status:** relay 530 (Codex 2 — builder): AXIOM V002 (FC12 struck, exclusion re-homed, propagation through choice table/void conditions/battery) + THE EXHIBITION (F_actual named and its membership theorem proven on ONE tuple). Then 531: Lane 1 re-adjudication. DoR-020-A2 stays reserved.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
