@@ -11890,6 +11890,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-386 — GERM V002 CROSS-REVIEW: SHAPE K IS READY; SHAPE CK IS NOT_READY because it is secretly a FAMILY — the lawful subfiber φ_CK,λ = ν(1 + λ q_C)f(s_K) carries a dimensionless λ that cannot be absorbed into ν, passes every stated certificate, and changes the mixed/stationary response data (2026-08-03, relay 466, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_GERM_V002_CROSS_REVIEW_LANE1_V001.md`, `29787542…`, seal verified, mirrors byte-identical. READY_FOR_DOR018_RULING = no (pending the retype).
+
+**The finding's weight:** presenting Shape CK as one germ would have hidden a free dimensionless parameter — the derived-or-declared discipline (Q-382, the principal's clarification) catching its second implicit parameter in as many rounds. The honest fiber is now: **Shape K** (no free parameter beyond ν; the mixed response blocks stay base-only) versus **Shape CK,λ** (a declared dimensionless λ-family — adopting it ADDS a free input to the program alongside (r₀, r_ch) and ν, and λ's value would need its own derivation or gate) versus reject.
+
+**Status:** germ V003 commissioned (relay 467, Codex 2, bounded): retype Shape CK as the λ-family with λ symbolic and declared (unabsorbability proven), the DoR-018 fiber restated with the free-input accounting explicit, Shape K carried verbatim. Then re-check → DoR-018.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

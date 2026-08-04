@@ -302,7 +302,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 463 | Codex 2 | [4b] Metric V005 unit-duality | RETURNED — Q-382 (duality classes + R4-only conversions + the certificate; V004 intact) |
 | 464 | Codex 1 | [4b] Metric V005 re-check | RETURNED — Q-383 (READY; all pass; DoR-019 to the principal) |
 | 465 | Codex 2 | [4b] Germ V002 both shapes | RETURNED — Q-385 (K + CK retained, DP audited, none selected; to cross-review) |
-| 466 | Codex 1 | [4b] Cross-review of germ V002 (H1-H7, per shape) | LOADED — NOT SENT |
+| 466 | Codex 1 | [4b] Germ V002 cross-review | RETURNED — Q-386 (Shape K READY; Shape CK hides a free dimensionless lambda — retype as family) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
