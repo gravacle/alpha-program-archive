@@ -356,6 +356,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 516 | Codex 1 | [5/EQ6] Joint-admission typing | RETURNED — Q-442 (GAP not structural: unsatisfiability REFUTED by direct-sum; route = the excision cert) |
 | 517 | Codex 2 | [5/EQ6] Excision cert + rerun | RETURNED — Q-443 (cert BUILT; diamonds pass conditionally; stop = the zero-defect section) |
 | 518 | Codex 1 | [5/EQ6] Cert check + the zero-defect section (I1-I5) | **SENT** (also self-ran in Codex 2 — self-check only, per 467 precedent) |
+| 518-SC | Codex 2 | SELF-CHECK (mispaste run): killed own cert on 2 scope overclaims; section CONSTRUCTIBLE; QUARANTINED to ..._LANE2_SELF_CHECK_QUARANTINE_V001.md (5851e8c2), filename freed for Codex 1's review of record | NOTED — NOT A REVIEW OF RECORD |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
