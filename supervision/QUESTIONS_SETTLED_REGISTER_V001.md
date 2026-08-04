@@ -12306,6 +12306,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-431 — EXHIBIT V003: LOCALITY/SUPPORT PROVEN PER GENERATOR on the rank-preserving scope, the Riesz sector mixer explicitly rejected — and the X4 finding lands: the cycle-creating generators stop at ONE NAMED MISSING PACKAGE — LOCAL_SUPPORT_REFINEMENT_PACKAGE_R, four components: actual path/current support correspondence, support-local test transport, disjoint-sector Riesz orthogonality, local field transport (2026-08-04, relay 507, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_Q408_PRIMITIVE_GENERATOR_EXHIBIT_LANE2_V003.md`, `74d88d6d…`, seal verified, mirrors byte-identical. B_Q408 full root OPEN/TYPE-U.
+
+**The convergence continues:** three kills derived the spec; the spec's execution now isolates the physical generator's entire remaining need to one four-component package. The data-kind question is answered — R's components are all SUPPORT-GEOMETRIC objects (where things live and how they transport locally), the species of data the record layer's global/algebraic declarations never carried.
+
+**Status:** relay 508 (Codex 1): the hostile check of V003 under the standing rule + THE PACKAGE-R TYPING — each of R's four components: derivable / constructible-with-route / declarable-only — the last case naming exactly what a declaration would assert.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

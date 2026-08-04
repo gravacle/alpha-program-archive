@@ -344,7 +344,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 504-A | Codex 1 | ADDENDUM | SUPERSEDED — 504 sealed first; U7 items carried into 505 |
 | 505 | Codex 2 | [5/EQ6] Exhibit V002 | RETURNED — Q-429 (square repaired scoped; anchors stagewise; no rail-artifact roots; 3 rail-only clauses removed) |
 | 506 | Codex 1 | [5/EQ6] V002 hostile check | RETURNED — Q-430 (KILLED deeper: commuting squares insufficient; sector-mixing counterexample; locality/support = the new spec) |
-| 507 | Codex 2 | [5/EQ6] Exhibit V003: locality/support spec (X1-X4) | **SENT** |
+| 507 | Codex 2 | [5/EQ6] Exhibit V003 | RETURNED — Q-431 (locality/support proven on Ref_0; the missing kind named: PACKAGE R, four components) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
