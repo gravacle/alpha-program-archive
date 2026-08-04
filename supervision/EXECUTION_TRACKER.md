@@ -299,7 +299,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 460 | Codex 1 | [4b] Metric final check | RETURNED — Q-379 (NOT_READY: V003 dropped V002's derived C-side content; bounded restore commissioned) |
 | 461 | Codex 2 | [4b] Metric V004 restore | RETURNED — Q-380 (C-side restored + cleanup preserved; to final re-check) |
 | 462 | Codex 1 | [4b] Metric V004 re-check | RETURNED — Q-381 (restore held; THIRD gap: carrier-unit duality absent — implicit cross-sector unit possible) |
-| 463 | Codex 2 | [4b] Metric V005: unit-duality classes (Z1-Z4, bounded) | LOADED — NOT SENT |
+| 463 | Codex 2 | [4b] Metric V005: unit-duality classes (Z1-Z4, bounded) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
