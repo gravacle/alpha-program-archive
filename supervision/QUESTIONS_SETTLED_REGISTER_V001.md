@@ -12334,6 +12334,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-434 — EXHIBIT V004: BOTH CONSTRUCTIONS BUILT — the canonical test transport and the RELATIVE NO-LEAKAGE certificate, with the P=id witness ADMITTED and the Q-430 sector mixer REJECTED (the corrected condition bracketed from both sides); the two WHERE-CLAUSES (path/current correspondence; local field members) COMPLETED AS UNADOPTED CANDIDATES; the full cycle-creating member stays TYPE-U pending their adoption (2026-08-04, relay 509, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_Q408_PRIMITIVE_GENERATOR_EXHIBIT_LANE2_V004.md`, `c5254f66…`, seal verified, mirrors byte-identical. Q-433 reconciled at send time.
+
+**The state:** the generator root's remaining need is purely ratification-grade — the two where-declarations, the exact clauses OBS-20's surviving form named as gravity's contribution. On the hostile check's PASS, they go to the principal (as a DoR-020 package amendment or DoR-021, THE WHERE DECLARATION — the check types which).
+
+**Status:** relay 510 (Codex 1): the hostile check under the standing rule — the constructions attacked at geometry, the clause candidates audited as DoR-grade (alternatives, void conditions, anchors, blindness), the amendment-vs-new-DoR question typed.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
