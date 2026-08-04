@@ -146,3 +146,22 @@ re-examined for RAIL-ARTIFACT status — a requirement imposed by our
 scaffolding rather than by the physics is not new physics and must not cost
 declaration; it is a candidate for removal or derivation at the rail level.
 A review verdict that does not state the geometry/rails split is incomplete.
+
+## FABLE CHECKPOINT-REVIEW RULE (principal + registrar, 2026-08-04; in force for the spark era and after)
+
+At the following checkpoints, the registrar (Fable) performs a DIRECT
+mathematical review of the artifact(s) — full read, recomputation of the
+load-bearing steps, independent verdict — BEFORE the checkpoint proceeds:
+
+1. Before any DoR ruling or amendment reaches the principal.
+2. Before any DoR-020 escrow license opens (member binding, fixed-point
+   execution, the end test).
+3. At every witness certification (scoped or full [EQ6]).
+4. On any spark-vs-spark disagreement, and on any verdict that reverses a
+   prior Sol-era verdict.
+5. At every SPARK-VERDICT registration (standing: full artifact read).
+
+Custody: reviewing lane work is the registrar's original role (Q-91); the
+constraint remains that Fable's own CONSTRUCTIONS receive lane verification.
+A Fable checkpoint review supplements, never replaces, the Sol re-check
+discipline for spark verdicts.
