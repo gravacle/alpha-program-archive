@@ -12550,6 +12550,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-458 — STAGE 1 OF THE JOINT FINITE ASSEMBLY BUILDS CLEAN (pending cross-review): the FULL package functor (Adm_fin/C2/C3 legs + the R1 action/Hessian legs extended to every Ref_path/flip arrow, no representative selected) and the package-wide finite bottom are BUILT; J4/J12/J15 CLOSED as forecast; FC2/FC3 = REPAIRED_BY_STAGE_1; CLASH_FOUND = none — the audit computed every potential collision both ways (action/Hessian restrictions AGREE with the DoR-017 cube; C2 reduces to the pass-1 exact kernel transport with beta = 0; C3 reproduces the sealed Ward annihilation; the new Ref_path/flip legs licensed by the actual isometric carrier map and old-sector pullback). ONE NEW ITEM SURFACED: J7 — the comparison face of physical J2 (`reader = pi_Mx o Loc o Kernbar o Q`) — became visible once the functor made the joint diamonds constructible; stage 2 = physical J2 + J7 on the same shared tuple + the simultaneous overlap diamonds (2026-08-04, relay 532, registrar-read incl. §5.4 and the clash audit)
+
+**Artifact:** `STAGE8_TASK5_EQ6_JOINT_FINITE_ASSEMBLY_STAGE1_LANE2_V001.md`, `e21cee30…`, seal + mirror verified, fence-clean. Builder claims — the review of record (relay 535, Lane 1) gates registration of the closures as confirmed.
+
+**Status:** 534 (chain V003) loads now for the freed Codex 2; 535 (stage-1 review of record) queued for Codex 1.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
