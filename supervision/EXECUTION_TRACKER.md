@@ -354,7 +354,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 514 | Codex 1 | [5/EQ6] Pass-2 check + all-rank typing | RETURNED — Q-440 (MEMBER SURVIVES; all-rank = positive-source W1/W4 + actual diamonds) |
 | 515 | Codex 2 | [5/EQ6] All-rank W1/W4 build | RETURNED — Q-441 (rank-preserving diamond PASSES; cycle-creating stop at the GR-EM joint tests) |
 | 516 | Codex 1 | [5/EQ6] Joint-admission typing | RETURNED — Q-442 (GAP not structural: unsatisfiability REFUTED by direct-sum; route = the excision cert) |
-| 517 | Codex 2 | [5/EQ6] The excision cert + diamond rerun (H1-H5) | LOADED — NOT SENT |
+| 517 | Codex 2 | [5/EQ6] The excision cert + diamond rerun (H1-H5) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
