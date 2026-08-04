@@ -3864,3 +3864,14 @@ NEXT: on 477's return, register; then the Task 5 commission (B_ind's analytic
 structure on the DoR-019 Hilbert space) carrying the sensitivity question.
 Corrections of record this session: Q-336, Q-345, Q-354. Mispastes: 467 (Q-388).
 Custody fix: local sidecars (Q-351, LOCAL-SIDECAR RULE in LOCKED_PROCESS).
+
+## SESSION UPDATE 2026-08-04 ~07:45 (register head Q-422)
+
+DoR-020 RATIFIED CONDITIONALLY: the continuum package = the declared theory,
+conditional on the joint six-generator equalizer [EQ6]: B_R1_NATURAL,
+B_Q408_REFINEMENT, B_C1_COMPLETION, B_FAITHFULNESS, B_C2_RESPONSE_BOUNDARY,
+B_C3_MAXWELL_HODGE (Q-421 bedrock theorem; single-Q408 claim refuted).
+Licensed: condition-tagged derivation. Forbidden pre-witness: member binding,
+computation, end test. DoR ledger now 001-020. The session's arc: relays
+417-500; DoR-016/017/018/019/020; Q-335 to Q-422. NEXT: relay 500 = THE
+WITNESS HUNT (inhabit the joint equalizer). Both lanes free at commissioning.

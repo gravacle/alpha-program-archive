@@ -574,6 +574,13 @@ custody per LOCKED_PROCESS.md.
                 the package; the sealed-number end test falsifies it whole. 489
                 authors the package; 490 derives its internal cross-constraints.
                 DoR-020 reserved. ***                                          SURFACED: yes
+
+2026-08-04  C58 *** DoR-020 RATIFIED CONDITIONALLY (Q-422): the continuum package is
+                the declared continuum theory, conditional on the joint six-generator
+                equalizer [EQ6] (Q-421's bedrock theorem). Licensed: condition-tagged
+                derivation. Forbidden pre-witness: member binding, computation, the
+                end test. The package took seven gate versions and one killed witness.
+                Relay 500 opens THE WITNESS HUNT. ***                          SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

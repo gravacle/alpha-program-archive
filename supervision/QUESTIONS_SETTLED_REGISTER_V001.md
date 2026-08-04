@@ -12224,6 +12224,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-422 — DoR-020 RATIFIED CONDITIONALLY: THE CONTINUUM PACKAGE IS THE PROGRAM'S DECLARED CONTINUUM THEORY, conditional on the joint six-generator equalizer [EQ6]; downstream conditional derivation licensed and condition-tagged; member binding, computation, and the end test forbidden until a certified witness (2026-08-04, principal's ruling)
+
+**Decision file:** `DOR_020_CONTINUUM_PACKAGE_CONDITIONAL_RATIFICATION_2026-08-04.md`, sealed and mirrored. The witness hunt is now Task 5's remaining work — inhabiting an adopted theory. Relay 500 commissions it. C58 logged.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
