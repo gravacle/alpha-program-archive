@@ -11924,6 +11924,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-390 — DoR-018 RATIFIED: SHAPE K — the N member's stationary jets are IN FORCE (cycle-only, on ratified geometry, free inputs unchanged at (r₀,r_ch)+ν); THE RESPONSE IS NOW EVALUABLE and THE p-VERDICT COMPUTATION IS COMMISSIONED (2026-08-03, principal's ruling)
+
+**Decision file:** `DOR_018_N_MEMBER_JETS_SHAPE_K_RATIFICATION_2026-08-03.md`, sealed and mirrored. Ruled on free-input economy over a shape-thin datum; Shape CK,λ recorded behind its own future gate.
+
+**The chain is complete:** DoR-016 (the law) → DoR-017 (the square, N member) → DoR-019 (the geometry) → DoR-018 (the jets). Nothing TYPE-U remains between the ratified stack and the evaluation of the completed stationary response. **Relay 469 commissions THE p-VERDICT COMPUTATION** (Codex 1): substitute Shape K's certified jets into the confirmed Schur expression, evaluate the completed response's exact symbolic dependence on p (and on (r₀,r_ch) beyond p), ν symbolic throughout — the computation reports; the verdict registers only after cross-verification. C54 logged.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

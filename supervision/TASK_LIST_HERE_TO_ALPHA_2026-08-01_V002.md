@@ -543,6 +543,12 @@ custody per LOCKED_PROCESS.md.
                 certificate stands (Q-373). Relay 465 commissions germ V002: both
                 shapes, DP-certified, jets on ratified geometry; DoR-018 = the
                 shape + jet ruling. ***                                        SURFACED: yes
+
+2026-08-03  C54 *** DoR-018 RATIFIED (Q-390): SHAPE K — the jets in force; free
+                inputs unchanged. The ratified chain to evaluation is COMPLETE
+                (DoR-016/017/019/018). Relay 469 commissions THE p-VERDICT
+                COMPUTATION: the deciding question of Task 4, computed symbolically,
+                verdict registered only after cross-verification. ***          SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
