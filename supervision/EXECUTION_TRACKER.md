@@ -368,3 +368,11 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
 
 | 415 | Codex 1 | [4a] Full generality | RETURNED — Q-333 (transducer: no universal law; weights invariant at full generality; all converges on 416) |
+
+LANE-MODEL STATE (2026-08-04 ~14:30, of record): both Codex lanes switch to
+GPT-5.3-codex-spark, extra-high effort (5.6 Sol exhausted to <10%). Standing
+discipline: builds proceed on spark; ALL verdict-grade results (kill/confirm
+calls, witness certifications, escrow openings) carry SPARK-VERDICT tags in
+the register and receive Sol re-checks when budget resets; the registrar
+(Fable) reads the mathematics of every spark-checked artifact at registration
+rather than sampling.
