@@ -12056,6 +12056,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-404 — THE BUILD AND THE FACTORIZATION ARE CONFIRMED; the return certificate is CONSTRUCTIBLE; and the sweep is honest — NO ratified magnitude bound on |p_loc[R_K]| exists: q < 1 cannot be proven while the factor is free (2026-08-04, relay 482, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_MODULUS_VERIFICATION_AND_RETURN_CERTIFICATE_LANE2_V001.md`, `02786457…`, seal verified, mirrors byte-identical.
+
+**The premise ledger after this round:** completeness BUILT; boundedness and closure behind the CONSTRUCTIBLE return certificate (483 builds it); q < 1 BLOCKED on the unbounded factor — the reading-rule freedom now visibly gates the contraction route to existence. The alternatives if the factor stays free: a non-contractive existence route (monotonicity/compactness), or the factor's fiber goes to ratification with the modulus consequence stated.
+
+**Status:** relay 483 (Codex 1): build the global stationary-return/regularity certificate; on it, prove composite boundedness and closure; restate the theorem's premise state exactly.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
