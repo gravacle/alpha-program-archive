@@ -375,7 +375,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 534 | Codex 2 | [5] Chain V003: entrance gate + D_w completeness | RETURNED — Q-460 (READY_FOR_CROSS_CHECK) |
 | 535 | Codex 1 | [5/EQ6] Stage-1 assembly review of record | RETURNED — Q-459 (ALL SIX KILLED; Q-458 closures struck; rails look-alikes for physical faces) |
 | 536 | Codex 2 | [5/EQ6] Assembly stage 1 V002: the three physical faces (W1-W5) | **SENT** |
-| 537 | Codex 1 | [5] Chain V003 cross-check of record (X1-X4) | WRITTEN — QUEUED (load after 536 sent) |
+| 537 | Codex 1 | [5] Chain V003 cross-check of record (X1-X4) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
