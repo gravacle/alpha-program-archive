@@ -12260,6 +12260,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-426 — THE KEYSTONE EXHIBIT LANDS: the actual Q-408 primitive generators EXHIBITED as a covariant per-orbit family, with free-category COMPOSITION PROVEN and common REFINEMENT PROVEN — the first new-physics root of [EQ6] has member data; per the standing calibration it now faces the hostile cross-check before anything builds on it (2026-08-04, relay 503, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_Q408_PRIMITIVE_GENERATOR_EXHIBIT_LANE2_V001.md`, `cd03cc87…`, seal verified, mirrors byte-identical. Q-425 reconciled at send time; joint EQ6 open; no member bound.
+
+**What survives the check would unblock, in order:** the P4 core populates from the exhibited generators → C1's completion resumes past its stopping point → Faithfulness and C3 on the completed carrier → with 1B (the R1 section) and the response boundary, the joint equalizer step.
+
+**Status:** relay 504 (Codex 1): the hostile cross-check — the five regressions absolute, the covariance and per-orbit family audited for hidden member selection, composition/refinement proofs recomputed, the smuggling and "too easy" questions formal; on survival, the C1-resumption handoff typed.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
