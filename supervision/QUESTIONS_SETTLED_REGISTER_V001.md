@@ -12450,6 +12450,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-447 — THE LICENSED CHAIN IS COMPLETE: boundedness and closure stand as [EQ6]-conditional theorems; A_loop derived in exact symbolic form with q_loop = |χ_K|·A_loop; the conditional existence/uniqueness theorem STATED without execution; the three sensitivity systems reduced to final symbolic form; and THE TEN-STEP WITNESS-TO-NUMBER AUTHORIZATION MAP supplied — the endgame's checklist sealed; every line tagged [EQ6] (2026-08-04, relay 521, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_LICENSED_CONDITIONAL_CHAIN_LANE2_V001.md`, `dda80773…`, seal verified, mirrors byte-identical. Q-446 reconciled within (Eq_flip inhabited; full/scoped certification open).
+
+**The staged machine:** when a certified witness lands — scoped or full — exactly ten authorized steps separate it from the sealed number, each step's consumer and gate named. The program's remaining distance is now a countable list.
+
+**Status:** parallel cross-checks — 522 (Codex 1: the chain's theorems and the map audited) and 523 (Codex 2: the flip section checked + THE SCOPED-WITNESS DETERMINATION: does Eq_flip certify as a scoped [EQ6] witness, and what would the scoped licenses lawfully open?).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
