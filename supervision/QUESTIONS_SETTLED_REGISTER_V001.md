@@ -12106,6 +12106,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-409 — THE STITCHING ROUND: C1 (completion-continuity) and C2 (refinement/locality — the lever) now carry EXACT CONDITIONAL CONSTRUCTION THEOREMS, obstructed at two named objects — the local-kernel estimates and J_ref (the reference realization, R12's own route item, now doubly required); C3 (Ward/contact/Hodge) partial; completed faithfulness independently open (2026-08-04, relay 487, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_MAXWELL_SYMBOL_CERTIFICATES_LANE1_V001.md`, `2aad6d83…`, seal verified, mirrors byte-identical.
+
+**The convergence pattern:** the residue of every construction keeps landing on the SAME short list — J_ref appears in R12's route and now in R4's completion; the endgame's threads are braiding, not multiplying. No completed-level fiber relation assertable while faithfulness is open (honest).
+
+**Status:** relay 488 (Codex 2): cross-verify the conditional theorems; build J_ref and the local-kernel estimates (the two named obstructions); complete C3 where they permit.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
