@@ -322,7 +322,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 483 | Codex 1 | [5] Return certificate build | RETURNED — Q-405 (threshold theorem exact: contraction iff |p_loc[R_K]| < A_loop^-1; blocked at inhabitant: two maps) |
 | 484 | Codex 2 | [5] THE RESIDUE LEDGER | RETURNED — Q-406 (14 objects: 6 ratify / 5 construct / 3 derive; order R4-R11; threshold confirmed) |
 | 485 | Codex 1 | [5/R4] Local-symbol map build | RETURNED — Q-407 (seam+topology built; reader family explicit (chi_K,T); blocked on the kernel realization) |
-| 486 | Codex 2 | [5/R4] Kernel realization + symbol calculus (B1-B4) | **SENT** |
+| 486 | Codex 2 | [5/R4] Kernel realization | RETURNED — Q-408 (finite calculus BUILT; completed symbol needs 3 certificates incl. THE STITCHING LEVER; fiber unshrunk) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.

@@ -12096,6 +12096,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-408 — THE KERNEL ROUND: the partial build CONFIRMED; the finite/cylindrical Ward-compatible bilocal kernel calculus BUILT; the completed physical Maxwell symbol OBSTRUCTED by three named certificates — completion-continuity, geometric refinement/locality (THE STITCHING LEVER O-D3 ARRIVING ON THE LIVE ROUTE — R12 is no longer decoupled), and Ward/contact/Hodge; FIBER_CONSTRAINT = NO NEW PHYSICAL RELATION on (χ_K, T) (2026-08-04, relay 486, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_R4_KERNEL_REALIZATION_AND_SYMBOL_CALCULUS_LANE2_V001.md`, `ccb94dfa…`, seal verified, mirrors byte-identical.
+
+**Two consequences:** (1) the R2/R3 reader fiber stays at its explicit dimension — the physics, honestly swept, does not shrink it; the ratification will be over the genuine (χ_K, T) family. (2) The program's oldest structural absence — the derived stitching/continuum rule — has moved from "banked, decoupled" to REQUIRED for the completed Maxwell symbol: the geometric refinement/locality certificate is the O-D3 lever.
+
+**Status:** relay 487 (Codex 1): build or type the three certificates, with the refinement/locality one explicitly identified as the R12 seam and treated at full weight.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
