@@ -346,7 +346,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 506 | Codex 1 | [5/EQ6] V002 hostile check | RETURNED — Q-430 (KILLED deeper: commuting squares insufficient; sector-mixing counterexample; locality/support = the new spec) |
 | 507 | Codex 2 | [5/EQ6] Exhibit V003 | RETURNED — Q-431 (locality/support proven on Ref_0; the missing kind named: PACKAGE R, four components) |
 | 508 | Codex 1 | [5/EQ6] V003 check + R typing | RETURNED — Q-432 (V003 killed for overreach; R = 2 declarations + 2 constructions; OBS-20 partial kill) |
-| 509 | Codex 2 | [5/EQ6] Exhibit V004: corrected spec (Z1-Z4) | LOADED — NOT SENT |
+| 509 | Codex 2 | [5/EQ6] Exhibit V004: corrected spec (Z1-Z4) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
