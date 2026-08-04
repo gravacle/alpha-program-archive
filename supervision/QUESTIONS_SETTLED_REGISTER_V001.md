@@ -12046,6 +12046,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-403 — THE CARRIER BUILD LANDS WITH THE MODULUS FACTORIZATION: the ambient scalar Maxwell line is COMPLETE and reader boundedness constructed memberwise; composite boundedness/closure obstructed by ONE new named object (the global stationary-return/regularity certificate); and on the reciprocal loop q_loop = |p_loc[R_K]| · sup_K|a_loop(K,p,ν,I)| — THE UNDERDETERMINED COEFFICIENT SITS MULTIPLICATIVELY IN THE CONTRACTION MODULUS ITSELF (2026-08-04, relay 481, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_SCALAR_CARRIER_BUILD_AND_MODULUS_LANE1_V001.md`, `aebe708d…`, seal verified, mirrors byte-identical. Neither freedom-independence nor q < 1 proven; the S8-A modulus retains additional covariant operator directions.
+
+**The sensitivity data, first and sharpest:** the reading-rule/metric-weight freedom p_loc[R_K] is not merely a parameter of the fixed point's VALUE — it is a factor of the modulus governing the fixed point's EXISTENCE and contraction. |p_loc[R_K]| small ⇒ strong contraction (q → 0: one-step convergence); large ⇒ contraction can fail. The continuum freedom and the convergence machinery are the same object. (No value is chosen; the observation is structural.)
+
+**Status:** relay 482 (Codex 2): cross-verify the build and the factorization; type the stationary-return/regularity certificate (the composite obstruction); and sweep whether any ratified clause bears on the modulus factor structurally (normalization classes, NOT values — the fiber discipline holds).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
