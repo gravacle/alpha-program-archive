@@ -12188,6 +12188,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-418 — PACKAGE V004: the path-subdivision SQUARE DERIVED (the declaration shrinks again); Route A's boundary moves to its new exact stop (the interior PL edge-cell physical realization and geometry, TYPE-U); ROUTE B BOUND to the named P_CM020; RIGIDITY honestly NOT_DERIVED — a wrong number refutes the bound member, and the family collapses to it at ratification (2026-08-04, relay 496, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_CONTINUUM_PACKAGE_ADOPTION_PROPOSAL_LANE2_V004.md`, `fa731142…`, seal verified, mirrors byte-identical.
+
+**Status:** the final check (relay 497, Codex 1): the square's derivation verified; the new boundary's exactness; P_CM020's binding audited for blindness; the rigidity non-derivation verified as genuinely attempted; the refutation semantics exact. On PASS: **DoR-020 to the principal.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
