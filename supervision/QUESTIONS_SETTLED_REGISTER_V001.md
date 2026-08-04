@@ -11854,6 +11854,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-382 — METRIC V005: the unit-duality classes installed — C/K unit classes, orthogonal-torsor isomorphism classes, the R4-ONLY conversion set, and the failure-capable NO_IMPLICIT_CROSS_SECTOR_UNIT certificate; all V004 content and regressions intact (2026-08-03, relay 463, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_CARRIER_METRIC_AND_UNITS_PROPOSAL_LANE2_V005.md`, `2a379098…`, seal verified, mirrors byte-identical.
+
+**Of record (the principal's clarification, this session):** the certificate does not suppress a cross-sector parameter — it forces any such parameter to be DERIVED-OR-DECLARED, never implicit. If the R4 seam carries a genuine free input it becomes visible, symbolic, and goes to ratification like p, ν, and the member; if forced, it gets derived. Acknowledged either way.
+
+**Status:** re-check (relay 464, Codex 1). On PASS: DoR-019.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
