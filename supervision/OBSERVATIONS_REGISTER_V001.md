@@ -740,3 +740,26 @@ requires forced: three for three.
 pre-registered — an explicit witness pair of admissible completions differing in the decision
 block. The continuum freedom is physical, not gauge. The remaining pre-registered question:
 whether it enters alpha (via p_loc) or stays boundary-former physics outside it (Q-396's fork).
+
+## OBS-20 — Package R is the locality postulates of field theory: the record layer supplies everything algebraic; "where" is boundary-former content (principal's question + reviewer reading, 2026-08-04, pre-registered BEFORE the 508 typing)
+
+**The observation:** the four components of LOCAL_SUPPORT_REFINEMENT_PACKAGE_R (Q-431)
+translate exactly to the locality axioms every continuum field theory assumes before
+its first equation: the de Rham path/current support correspondence; sheaf/isotony of
+test transport; disjoint-region independence (Riesz orthogonality = the locality
+postulate proper); local field propagation. Three hostile kills (Q-428/430/431)
+derived that the record layer provides the algebraic and global structure completely,
+and fails at exactly localization — records do not carry "where." Per OBS-18, the
+"where" is the boundary-former's (gravity's) contribution: Package R is the minimal
+formal content of "space exists."
+
+**Pre-registered prediction for the 508 typing:** the components equivalent to genuine
+locality postulates will type DECLARABLE-ONLY (they are boundary-former input, not
+record-derivable); any component typing DERIVABLE will turn out to be rail-side
+bookkeeping rather than a true locality axiom.
+
+**Falsifier:** if 508 derives a genuine locality component (disjoint-sector
+independence above all) from ratified record content, this observation is killed and
+the record layer carries more geometry than the reading claims.
+
+**Status:** OPEN, pre-registered ahead of the 508 return.
