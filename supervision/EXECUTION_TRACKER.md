@@ -369,15 +369,15 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 528 | Codex 1 | [5/EQ6] The constraint arm | RETURNED — Q-453 (16 MUST + 18 MUST-NOT; blind convergence on the same form) |
 | 529 | Codex 1 | [5/EQ6] The axiom adjudication vs the 34 constraints | RETURNED — Q-454 (NOT_READY: FC12 kill + vacuity kill) |
 | 530 | Codex 2 | [5/EQ6] Axiom V002 + THE EXHIBITION | RETURNED — Q-455 (membership FAILED by ABSENCE; the joint finite package was never built) |
-| 531 | Codex 1 | [5/EQ6] V002 re-adjudication + absence-typing verification (T1-T5) | **SENT** to Codex 1 (of record); ALSO running in Codex 2 via mispaste (self-check — quarantine on return) |
-| 532 | Codex 2 | [5/EQ6] Joint finite assembly stage 1: package functor + full bottom (C1-C5) | WRITTEN — QUEUED (Codex 2 busy with mispasted 531; load after its return + quarantine) |
+| 531 | Codex 1+2 | [5/EQ6] V002 re-adjudication + absence check (dual-run) | RETURNED ×2 — Q-456 (identical verdicts; overwrite event; no-clobber rule installed) |
+| 532 | Codex 2 | [5/EQ6] Joint finite assembly stage 1 V002: FULL functor (incl. R1 legs) + bottom | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
 
 | 415 | Codex 1 | [4a] Full generality | RETURNED — Q-333 (transducer: no universal law; weights invariant at full generality; all converges on 416) |
 
-LANE-MODEL STATE (2026-08-04 ~14:30, of record): both Codex lanes switch to
+LANE-MODEL STATE (2026-08-04): both lanes back on gpt-5.6-sol xhigh (budget reset observed in both windows); spark-verdict tagging suspended while Sol holds.
 GPT-5.3-codex-spark, extra-high effort (5.6 Sol exhausted to <10%). Standing
 discipline: builds proceed on spark; ALL verdict-grade results (kill/confirm
 calls, witness certifications, escrow openings) carry SPARK-VERDICT tags in

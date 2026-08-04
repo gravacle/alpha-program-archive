@@ -165,3 +165,11 @@ Custody: reviewing lane work is the registrar's original role (Q-91); the
 constraint remains that Fable's own CONSTRUCTIONS receive lane verification.
 A Fable checkpoint review supplements, never replaces, the Sol re-check
 discipline for spark verdicts.
+
+## THE NO-CLOBBER RULE (added 2026-08-04, after the 531 dual-run overwrite)
+Every relay's OUTPUT section carries the clause: "If the output filename already exists in the
+workspace, STOP and report — do not overwrite." A lane that finds its target filename present
+stops there. Registrar duty on any dual-run event: snapshot the first return's bytes to the
+supervision mirror IMMEDIATELY on report, before any other action. (In the 531 event the second
+run overwrote the first in the shared worktree before the snapshot landed; the first return's
+bytes survive only as its reported hash 2c8bb753.)

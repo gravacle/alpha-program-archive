@@ -12534,6 +12534,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-456 — 531 RAN TWICE (mispaste dual-run), BOTH RUNS RETURN IDENTICAL VERDICTS: AXIOM_V002 = NOT_READY (only the FC2/FC3/FC10/FC11 absences — Part A and the M16/N7 repairs PASS), ABSENCE_TYPING = CONFIRMED adversarially (existing faces AGREE wherever jointly defined; no clash misfiled as absence), PHANTOM_ABSENCES = none (register-swept: the flip/excision certificates and the bedrock graph are not aliases of the missing package objects). Because one run was certainly Codex 1, the of-record verdict stands regardless of window attribution. DEPENDENCY PRECISION GAINED: the FULL package functor (including the retained R1 action/Hessian legs — the DoR-017 finite-stage cube extended to every Ref_path/flip arrow, no representative selected) closes J4 AND J12; the bottom closes J15; a bare skeleton closes only J15. Remaining after stage 1: physical J2 + the joint diamonds (2026-08-04, relay 531 ×2, registrar-read of the surviving artifact)
+
+**Custody event of record:** the second run OVERWROTE the first's file in the shared worktree before the registrar snapshot landed. Surviving artifact (registered): `STAGE8_TASK5_EQ6_V002_READJUDICATION_AND_ABSENCE_CHECK_LANE1_V001.md`, `e759e3d7…`, seal verified, fence-clean, held at `supervision/PROVENANCE_HOLD_531_SURVIVING_BYTES_e759e3d7.md`. The first return's bytes are lost; its reported hash `2c8bb753…` and verdict lines (identical) are recorded from the relay report only. Remedy installed: THE NO-CLOBBER RULE in LOCKED_PROCESS (output-exists → STOP; registrar snapshots first return immediately). Both windows showed gpt-5.6-sol xhigh — these are Sol verdicts, no spark tag required.
+
+**Status:** relay 532 amended to V002 (stage 1 = the FULL functor incl. R1 legs + the bottom → closes J4/J12/J15) and loads for Codex 2. Codex 1 next gets the held 524-chain V002 cross-check. DoR-020-A2 stays reserved pending the finite cert.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
