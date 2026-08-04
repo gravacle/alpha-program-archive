@@ -12588,6 +12588,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-463 — STAGE 1 KILLED A SECOND TIME — AND THE DIAGNOSIS CHANGES: the J4 defeat is A REAL PHYSICAL FREEDOM, not a construction error. The reviewer's vertical-increment counterexample shows a lawful increment change absorbs source-action differences while the target action stays fixed — the source finite coordinate is NOT a function of the target on the actual surface; (W1-11) is false on that scope; "the R2 vertical increment is actual cycle-creating action data and cannot be dropped." This is the program's known FLAT-FAMILY FREEDOM (the same freedom nu carries in the N member) — J4 as an on-the-nose coordinate map contradicts what the physics leaves free, and coheres with the no-selection typing of the axiom's own output (a covariant family, never a member). J12 and J15 are different in kind: exactly-isolated MISSING CERTIFICATES — (Y2-4) the contact-overlap equality (two outputs for one physical response when the represented region meets the contact region), and the covariant new-cycle bottom lift. Reviewer's synthesis: RAILS_SUBSTITUTED_FOR_MISSING_GEOMETRY = true in W1/W3; W2's represented Eta geometry GENUINE BUT INCOMPLETE (2026-08-04, relay 538, Sol verdict, registrar-read incl. §7.3)
+
+**Artifact:** `STAGE8_TASK5_EQ6_STAGE1_V002_REVIEW_LANE1_V001.md`, `312dbe14…`, seal + mirror verified, fence-clean. Q-462's built claims struck; W2 survives as partial.
+
+**The cycle-breaker:** no third blind rebuild. Relay 541 (Codex 1) is a DETERMINATION MAP, not a build: for each open face, type the resolution — DERIVABLE (name the sealed resource and route; for J4, examine equivariance MODULO the increment family, from the representative-family theorem) / AUTHORABLE (full-gate candidate with alternatives and void condition) / OBSTRUCTED (proof). GOVERNANCE: if J4's true statement differs from the ratified J-row, that is a PROPOSED AMENDMENT to the DoR-020 constraint system — it goes to the principal as a ruling; no lane adopts it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
