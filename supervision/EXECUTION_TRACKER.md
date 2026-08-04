@@ -325,6 +325,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 486 | Codex 2 | [5/R4] Kernel realization | RETURNED — Q-408 (finite calculus BUILT; completed symbol needs 3 certificates incl. THE STITCHING LEVER; fiber unshrunk) |
 | 487 | Codex 1 | [5/R4+R12] Maxwell-symbol certificates | RETURNED — Q-409 (C1/C2 conditional theorems; obstructed at local-kernel estimates + J_ref; C3 partial) |
 | 488 | Codex 2 | [5/R4+R12] J_ref + estimates | RETURNED — Q-410 (finite skeleton only; four absences; the strategic fork to the principal) |
+| 489 | Codex 2 | [5/PKG] THE CONTINUUM PACKAGE author arm (E1-E5; DoR-020 reserved) | LOADED — NOT SENT |
+| 490 | Codex 1 | [5/PKG] The constraint arm: the joint fiber's forced relations (F1-F4) | WRITTEN — QUEUED (load after 489 sent) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
