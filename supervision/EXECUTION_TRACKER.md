@@ -319,7 +319,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 480 | Codex 2 | [5] Premise discharge sweep | RETURNED — Q-402 (theorem CONFIRMED; 0/4: completeness+boundedness constructible; closure+q undetermined) |
 | 481 | Codex 1 | [5] Carrier build + modulus | RETURNED — Q-403 (Maxwell line complete; q_loop = |p_loc[R_K]|*sup; the freedom IS the modulus factor; one new certificate named) |
 | 482 | Codex 2 | [5] Modulus verification + certificate typing | RETURNED — Q-404 (all confirmed; certificate constructible; NO bound on the factor) |
-| 483 | Codex 1 | [5] Return certificate build + boundedness/closure (Y1-Y4) | LOADED — NOT SENT |
+| 483 | Codex 1 | [5] Return certificate build + boundedness/closure (Y1-Y4) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
