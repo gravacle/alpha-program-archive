@@ -12126,6 +12126,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-411 — THE CONSTRAINT ARM: 15 FORCED COMPATIBILITY FAMILIES define the joint fiber as an equalizer/fiber-product — the authored package's lawful region is mapped before the package arrives; no total dimension or inhabitance derivable; the threshold retains only q_loop = |χ_K|·A_loop with NO forced magnitude relation (2026-08-04, relay 490, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_CONTINUUM_PACKAGE_CONSTRAINT_ARM_LANE1_V001.md`, `d7dcbc3a…`, seal verified, mirrors byte-identical.
+
+**What this gives the adjudication:** the authored package (489, running) will be judged against a pre-derived standard — its clauses must satisfy all 15 families jointly (the equalizer), and any clause combination outside the fiber product is dead on arrival. Inhabitance of the joint fiber is itself not yet proven — the package must DEMONSTRATE it (an authored package that satisfies all 15 is the constructive inhabitance proof).
+
+**Status:** awaiting 489. Then: adjudication against the constraint system → cross-review → DoR-020.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
