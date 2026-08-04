@@ -12354,6 +12354,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-436 — THE WHERE-CLAUSES V005: LAW-ONLY AND BUNDLE-TYPED — nonemptiness overreach stripped, the U(1) bundle lift/pullback isomorphism, smooth full-rank, and characteristic-class compatibility installed; THE DoR-020 AMENDMENT TEXT DRAFTED (2026-08-04, relay 511, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_WHERE_CLAUSES_LANE2_V005.md`, `19b20603…`, seal verified, mirrors byte-identical.
+
+**Status:** the final check (relay 512, Codex 1). On PASS: THE WHERE RULING to the principal — the DoR-020 amendment adopting the two bundle-typed clauses into the package's P4/X4 fields.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
