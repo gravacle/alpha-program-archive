@@ -373,7 +373,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 532 | Codex 2 | [5/EQ6] Joint finite assembly stage 1 V002 | RETURNED — Q-458 (BUILT clean; J4/J12/J15 closed pending review; J7 surfaced) |
 | 533 | Codex 1 | [5] Chain V002 cross-check of record | RETURNED — Q-457 (DEFECTIVE: K2 entrance gate + K3 D_w completeness; held item discharged) |
 | 534 | Codex 2 | [5] Chain V003: entrance gate + D_w completeness (R1-R3) | **SENT** |
-| 535 | Codex 1 | [5/EQ6] Stage-1 assembly review of record (V1-V6) | **SENT** |
+| 535 | Codex 1 | [5/EQ6] Stage-1 assembly review of record | RETURNED — Q-459 (ALL SIX KILLED; Q-458 closures struck; rails look-alikes for physical faces) |
+| 536 | Codex 2 | [5/EQ6] Assembly stage 1 V002: the three physical faces (W1-W5) | WRITTEN — QUEUED (Codex 2 busy with 534) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.

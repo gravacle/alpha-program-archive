@@ -12558,6 +12558,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-459 — CORRECTION OF RECORD ON Q-458: STAGE 1'S CLOSURES ARE KILLED, ALL SIX REVIEW ITEMS DEFECTIVE. The build substituted look-alikes at the rails level for the physical faces: (i) an ADJOINT COMPRESSION (V1-5) for J12's FORWARD Eta naturality (V1-4) — not equivalent; (ii) STAGEWISE PULLBACKS for a J4-compatible FAMILY SECTION — "an isometry of carriers does not by itself give action naturality." The decisive V6 witness: an incompatible admissible action-section pair passes the ENTIRE fiberwise construction and every finite shadow while violating J4 — the stagewise functor never inhabited the J4 equalizer. STAGE2_REMAINDER = INCOMPLETE: all-arrow J4 + forward J12 + package J15 all remain open BEFORE the joint diamonds, plus physical J2 and J7. Still absence, not clash — "claimed closure of missing physical faces, not a disagreement." SURVIVES: scalar/Hessian pullback composition, the Q-243/Q-279 shadows (independently recomputed, PASS), the ordinary action/Hessian and Ward clash rows, and the compressions on their proved scopes as lawful weaker objects (2026-08-04, relay 535, Sol verdict, registrar-read of V1–V6)
+
+**Artifact:** `STAGE8_TASK5_EQ6_ASSEMBLY_STAGE1_REVIEW_LANE1_V001.md`, `049f6386…`, seal + mirror verified, fence-clean. Q-458's J4/J12/J15 = CLOSED claims are STRUCK; the surface-geometry-vs-rails review steer earns its keep — this is exactly the trap it names.
+
+**The real stage-1 targets, now exact:** (1) the action-family COMPATIBILITY CERTIFICATE on all arrows (must exclude the V6-1 witness by proof, not scope); (2) the FORWARD Eta naturality square; (3) the one exact package square (Bot(f)/rho^pkg as a natural transformation on the repaired coordinates). **Status:** 536 (stage-1 V002, Codex 2) queued behind 534; the chain V003 cross-check (537) follows 534's return for Codex 1.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
