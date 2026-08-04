@@ -12542,6 +12542,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-457 — THE HELD CROSS-CHECK DISCHARGES AND KILLS CHAIN V002 ON TWO ITEMS: (K2) Step 1 predates Q-455/456 — it opens at a candidate completed witness with NO finite-package-certificate + adopted-A2 entrance gate (typed by the reviewer as a missing entrance, not an illicit protected step); (K3) THE D_w COMPLETENESS GAP — the Banach steps (4–7) need the weighted domain D_w complete, but C_ret certifies only D_w nonempty + interval/AC branch scope + B_w(D_w) ⊂ D_w, and "complete ambient + branch scope does not prove a subset complete." The repair is a NEW C_ret OBLIGATION: a domain-closedness certificate (D_w closed in the complete ambient carrier, or complete in the induced metric). C_ret independence, anti-tuning, escrow typing (Steps 11–12 correctly non-executing), and both fresh attacks (hidden uniformity; gate bypass) PASS (2026-08-04, relay 533, Sol verdict, registrar-read of the K2/K3 computations)
+
+**Artifact:** `STAGE8_TASK5_CHAIN_V002_CROSS_CHECK_LANE1_V001.md`, `9a8008b9…`, seal + mirror verified, fence-clean. HELD_CROSS_CHECK = DISCHARGED — no verdict-grade item remains held.
+
+**Status:** relay 534 (chain V003, Codex 2 — the builder — QUEUED behind 532): R1 install the entrance gate (finite package cert + adopted A2 + inhabited actual antecedent); R2 add the D_w-closedness item to C_ret and propagate through Steps 4–7; bounded delta; regressions + both attacks rerun.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
