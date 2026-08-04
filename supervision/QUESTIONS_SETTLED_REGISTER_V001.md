@@ -12460,6 +12460,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-448 — THE CHAIN IS KILLED with a sharp counterexample: [EQ6] does NOT entail the separate stationary-return certificate C_ret — a DISCONNECTED DOMAIN reports A_loop = 0 while the true modulus is 1 and no fixed point exists; the ten-step map is DEFECTIVE at steps 3–4 (C_ret's construction/certification and the interval/absolute-continuity branch scope omitted); the protected-action audit was clean (2026-08-04, relay 522, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_CHAIN_CROSS_CHECK_LANE1_V001.md`, `a6207597…`, seal verified, mirrors byte-identical.
+
+**The lesson:** the witness-to-number map gains two rungs — C_ret is its own certificate (connectivity/return structure the equalizer condition never carried), and the branch scope must be explicit. The disconnected-domain counterexample becomes a permanent regression: any future A_loop claim must prove domain connectivity/return before reporting a modulus.
+
+**Status:** relay 524 (Codex 2, queued behind 523): chain V002 — construct and certify C_ret, install the branch scope, repair steps 3–4 to a twelve-step map, the counterexample as regression.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
