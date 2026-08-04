@@ -12316,6 +12316,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-432 — V003 KILLED FOR OVERREACH (global Riesz orthogonality is the WRONG condition — a finite rank-preserving counterexample satisfies every physical square with P=id while violating it; the correct condition is RELATIVE NO-LEAKAGE, constructible); THE CORRECTED PACKAGE-R TYPING: path/current correspondence DECLARABLE_ONLY; test transport CONSTRUCTIBLE; Riesz locality CONSTRUCTIBLE via relative no-leakage; local fields DECLARABLE_ONLY member data with transport derived after (2026-08-04, relay 508, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_V003_CHECK_AND_PACKAGE_R_TYPING_LANE1_V001.md`, `99c34408…`, seal verified, mirrors byte-identical.
+
+**OBS-20's honest verdict (partial kill, of record):** the pre-registered prediction held for the where-content (the path/current correspondence and the local field members are declarable — boundary-former input) and FAILED for the independence postulate: correctly stated relatively, Riesz locality is constructible from ratified content. The strong reading ("disjoint independence is gravity's gift") dies to the same overreach that killed V003 — globality where the physics is relative. The surviving OBS-20: WHAT LIVES WHERE is boundary-former input; HOW disjoint things stay independent, relatively stated, is record-derivable. Noted on OBS-20.
+
+**The generator root's final cost:** two declarations (the correspondence; the field members) + two constructions (test transport; relative no-leakage). The declarations are clause candidates for the package.
+
+**Status:** relay 509 (Codex 2): exhibit V004 on the corrected spec — build the two constructibles, type the two declarations as clause candidates, the overreach counterexample as the newest regression.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -763,3 +763,11 @@ independence above all) from ratified record content, this observation is killed
 the record layer carries more geometry than the reading claims.
 
 **Status:** OPEN, pre-registered ahead of the 508 return.
+
+**OBS-20 verdict (2026-08-04, Q-432, partial kill of record):** the prediction held for
+the where-content (path/current correspondence and local field members: DECLARABLE_ONLY,
+boundary-former input) and FAILED for disjoint-sector independence — correctly stated as
+a RELATIVE no-leakage condition, it is CONSTRUCTIBLE from ratified record content. The
+strong form dies of the same globality overreach that killed exhibit V003. Surviving
+form: records derive how separate things stay independent; gravity declares what lives
+where.
