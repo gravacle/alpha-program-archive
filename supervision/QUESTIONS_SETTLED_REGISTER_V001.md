@@ -12116,6 +12116,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-410 — THE J_ref ROUND HITS THE HONEST WALL: only the finite realization skeleton builds; geometric refinement, density normalization, common-refinement response naturality, and boundary certification are ABSENT; the estimates are fixed-stage only; C1/C2 stay conditional; the completed Maxwell symbol is NOT_BUILT (finite/cylindrical only) (2026-08-04, relay 488, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_JREF_AND_LOCAL_KERNEL_ESTIMATES_LANE2_V001.md`, `8dd59b35…`, seal verified, mirrors byte-identical.
+
+**The pattern, now theorem-backed across eight consecutive rounds (Q-403–Q-410):** every continuum-side constructible yields the same shape — the finite part builds exactly; the completed part obstructs at FURTHER continuum objects. The ledger's "constructible" class is cascading into continuum-authoring-grade data. This is OBS-19 operating as a production rule: the finite does not bootstrap its own continuum, anywhere, and each attempt proves it again with a new named absence.
+
+**The strategic fork this opens (to the principal):** (a) CONVENE THE CONTINUUM RATIFICATION — consolidate the fibers (R1, R2/R3 over (χ_K,T), R5) and the J_ref completion absences into ONE declared continuum package through a single gate; alpha then computes conditional on declared continuum physics, with the sealed-number end test as the falsifier — the emergence principle honored as design rather than fought as an obstacle. (b) CONTINUE THE DERIVATION GRIND on the cascade, knowing eight rounds of theorems say the finite will not force it. The fork is the principal's.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
