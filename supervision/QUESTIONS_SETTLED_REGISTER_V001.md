@@ -12596,6 +12596,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-464 — THE DETERMINATION MAP TYPES ALL THREE FACES AND ENDS THE REBUILD CYCLE: **J4 = DERIVABLE_MODULO** — the functional map is REFUTED on cycle creation; the true object is the R2 INCREMENT ACTION GROUPOID / relation span: arrows carry (I_N, I_M, v_f) with I_M = I_N∘rho_f + v_f, the increment cocycle v_(gf) = v_f∘rho_g + v_g, the flat family acting by (I_N, v_f) → (I_N + psi_N, v_f − psi_N∘rho_f), ALL members retained, no selection; the review's witness is ABSORBED, not excluded; rank-preserving arrows recover the old restriction isomorphism; PROVABLE, no authored parameter — but it CHANGES A RATIFIED J-ROW, so adoption is the principal's (proposed J4-R). **J12 = AUTHORABLE** — the sealed contact/Ward stock does NOT force the overlap equality on C_N = R_N^rep ∩ I_contact,N; four-candidate full-gate table (strict pushout gluing = the minimal no-new-parameter row; twisted gluing = a contact-holonomy member; zero-intersection = PART-PROVABLE/open; partial response = lawful rejection leaving [EQ6] open); five void conditions incl. an actual contact twist voiding the strict member; adoption SUPERSEDES DoR-020-A1's clause-layer-completeness statement (proposed J12-G). **J15 = OBSTRUCTED as covariant lift** — the cycle-creating no-lift theorem + D* visibility; "a selected lift would be new symmetry-breaking physics"; BUT the ratified J15 text is ALREADY CONTRAVARIANT and the mate square (D3-4) is PROVABLE — the builds attempted the wrong direction; J15_AMENDMENT_REQUIRED = false (2026-08-04, relay 541, Sol, registrar-read of D1–D4 incl. both amendment texts)
+
+**Artifact:** `STAGE8_TASK5_EQ6_DETERMINATION_MAP_LANE1_V001.md`, `76ee3c69…`, seal + mirror verified, fence-clean.
+
+**Status:** both amendments go to the principal now (proposed numbering: DoR-020-A3 = J4-R, DoR-020-A4 = J12-G; A2 stays reserved for the axiom). J15 needs no ruling — the contravariant row builds directly once D2 closes. 539 (physical J2) still in flight.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
