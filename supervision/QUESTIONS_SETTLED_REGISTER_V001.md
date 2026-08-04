@@ -12276,6 +12276,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-428 — THE EXHIBIT IS KILLED ON ACTUAL SURFACE GEOMETRY — the principal's steer vindicated the same hour it was given: the decisive defect is a FALSE CYCLE-CREATING RESTRICTION SQUARE (profile compression vanishes while the physical kernel remains nonzero on a new-cycle test form); the covariance-orbit and all-stage skeleton claims fail independently; rails-plausible, geometry-false (2026-08-04, relay 504, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_EXHIBIT_HOSTILE_CHECK_LANE1_V001.md`, `505bd329…`, seal verified, mirrors byte-identical. C1_RESUMPTION = N/A. The 504-A addendum arrived after the review sealed — its U7 items (the geometry/rails split and the rail-artifact re-examination of the three new-physics roots) CARRY FORWARD into the V002 round as build requirements and review items, not lost.
+
+**The pattern's newest instance:** the calibration held a second time — the one-pass success died under audit, and it died exactly where your steer pointed: at real geometry, in the cycle-creating case that has been the session's most reliable executioner.
+
+**Status:** relay 505 (Codex 2): exhibit V002 against the anatomy — the cycle-creating square with REAL kernels on new-cycle test forms; the covariance orbit and skeleton repaired; every generator ANCHORED in ratified surface data (U7a as a build requirement); PLUS the rail-artifact re-examination of B_Q408_REFINEMENT / B_R1_NATURAL / B_C2_RESPONSE_BOUNDARY as its own section.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
