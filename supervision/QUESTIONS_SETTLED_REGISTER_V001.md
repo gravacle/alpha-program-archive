@@ -11900,6 +11900,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-387 — GERM V003: Shape K byte-unchanged; Shape CK retyped as the complete symbolic λ ∈ ℝ family with unabsorbability proven, family-level DP1–DP10, explicit free-input accounting, and the λ-subfiber as a permanent regression (2026-08-03, relay 467, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_N_MEMBER_JET_INSTANTIATION_PROPOSAL_LANE2_V003.md`, `231bbd1d…`, seal verified, mirrors byte-identical.
+
+**Status:** bounded re-check (relay 468, Codex 1). On PASS: the DoR-018 shape-and-jet ruling — Shape K ((r₀,r_ch)+ν) vs Shape CK,λ (+λ, its disposition typed) vs reject.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
