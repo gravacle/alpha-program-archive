@@ -349,6 +349,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 509 | Codex 2 | [5/EQ6] Exhibit V004 | RETURNED — Q-434 (both constructions built; the two where-clauses stand as candidates; to hostile check) |
 | 510 | Codex 1 | [5/EQ6] V004 check + clause audit | RETURNED — Q-435 (constructions PASS; clauses killed: nonemptiness overreach + missing U(1) bundle typing; amendment packaging) |
 | 511 | Codex 2 | [5/EQ6] Where-clauses V005 | RETURNED — Q-436 (law-only, bundle-typed; amendment drafted; to final check) |
+| 512 | Codex 1 | [5/EQ6] Final check of the where-clauses (C1-C4) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
