@@ -12196,6 +12196,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-419 — THE FINAL CHECK: Route A's square and boundary PASS; the kill is THE BOUND MEMBER — P_CM020's least-norm rule is not typed across P4/P5/P7/P8, and c_CM020 ASSERTS rather than proves its inhabitance and J1–J15 compatibility; the witness burden re-arrives at member scale, where binding demands proof (2026-08-04, relay 497, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_PACKAGE_V004_FINAL_CHECK_LANE1_V001.md`, `542464ff…`, seal verified, mirrors byte-identical. NOT_READY (N2/N4/N5).
+
+**Status:** V005 commissioned (relay 498, Codex 2): type the least-norm rule across the four premises; PROVE c_CM020's inhabitance and full J1–J15 compatibility at member scale — or push to the member's exact obstruction. The binding stands only on proof.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
