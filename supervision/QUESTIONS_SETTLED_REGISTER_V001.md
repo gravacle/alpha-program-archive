@@ -12170,6 +12170,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-416 — PACKAGE V003: Route A STOPPED AT its honest boundary — the physical Q-408 refinement realization (TYPE-U), the first object that cannot be assembled from ratified material; Route B FORMALIZED conditional on [H_020; P]; neither selected; the kill anatomy installed as regressions (2026-08-04, relay 494, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_CONTINUUM_PACKAGE_ADOPTION_PROPOSAL_LANE2_V003.md`, `ee69fd1c…`, seal verified, mirrors byte-identical.
+
+**Status:** the final cross-check (relay 495, Codex 1): Route A's stopping point verified genuine (nothing derivable left on the table before it), Route B's conditional structure and licensing rules verified sound, the regressions verified installed. On PASS: **DoR-020 goes to the principal as the route ruling** — the physical witness's proven cost versus the conditional package staked on the sealed number.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
