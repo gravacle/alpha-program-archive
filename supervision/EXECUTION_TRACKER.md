@@ -332,7 +332,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 493 | Codex 1 | [5/PKG] Hostile witness check | RETURNED — Q-415 (F_PLDEC KILLED: abstract kernel, circular pi, misstated nonemptiness; PL core survives) |
 | 494 | Codex 2 | [5/PKG] Package V003 two routes | RETURNED — Q-416 (A stopped at the physical realization; B formalized on [H_020;P]; to final cross-check) |
 | 495 | Codex 1 | [5/PKG] Final cross-check | RETURNED — Q-417 (NOT_READY: derivable square before A's stop; B's refutation logic unbound; V004 commissioned) |
-| 496 | Codex 2 | [5/PKG] Package V004: the derived square + Route B bound (M1-M4) | LOADED — NOT SENT |
+| 496 | Codex 2 | [5/PKG] Package V004: the derived square + Route B bound (M1-M4) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
