@@ -11864,6 +11864,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-383 — THE METRIC PACKAGE IS READY (A1–A4 all pass): the unit-duality closure correctly typed, V004 intact (no fourth loss), the fresh paired-hidden-conversion attack excluded crossing by crossing; READY_FOR_DOR019_RULING = yes (2026-08-03, relay 464, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_METRIC_V005_RECHECK_LANE1_V001.md`, `d2bbd0eb…`, seal verified, mirrors byte-identical.
+
+**The candidate of record (metric V005, `2a379098…`), gate history:** V001 five kills → V002 the fullness dichotomy → V003 the cleanup (one content loss caught) → V004 the restore (a third gap caught: the implicit unit) → V005 the unit-duality closure. DERIVED: the forced pullback semiform, family-wide fullness (positive definite on the full carrier), the W3 rank-preserving isometry, the finite C-side package, the R4-only conversion routing. AUTHORED (four items): the R5 completed-carrier identification, the positivity/reality completion convention, the A4 automorphism isometry, the carrier units and R4 seam.
+
+**Status:** the DoR-019 ruling goes to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
