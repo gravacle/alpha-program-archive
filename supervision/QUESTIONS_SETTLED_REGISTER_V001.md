@@ -12076,6 +12076,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-406 — THE CONSOLIDATED RESIDUE LEDGER IS OF RECORD: 14 steering objects — 6 ratification-grade (R1 the completed representative, R2 the reading rule, R3 = χ_K its coordinate, R5 the scalar-K-to-action map, R9 the ν scale, R10 the integer pair), 5 constructible (R4 the local-symbol map, R6 the solution family, R7 the domain/regularity, R12 the stitching package, R14 the A32 evaluation machinery), 3 derivable-open (R8 the modulus decision, R11 the fixed point + sensitivity, R13 the Task-6 authorization bundle); THE THRESHOLD THEOREM CONFIRMED with its honest scope (2026-08-04, relay 484, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_CERTIFICATE_VERIFICATION_AND_RESIDUE_LEDGER_LANE2_V001.md`, `c35ef846…`, seal verified, mirrors byte-identical.
+
+**Dependency precision (the ledger's own):** R3 is a coordinate of R2; R5's constant slices include R1; R9/R10 are already-declared inputs, not additions; R8/R11/R13 are downstream determinations. The λ family stays banked; the rank ratio is determined by R10; the finite-zero identification stays refuted. Map 1 = R5 is FIBER-GRADE (Q-396's admissible directions give a lawful non-singleton family with identical sealed shadows); Map 2 = R6 constructible with a branch boundary.
+
+**The lawful order (the ledger's §5.4):** R4 → R5 → R6 → R7 → R8 → R11; R12/R13/R14 close Task 6's route. The endgame is now a checklist with types, not an excavation. C56 logs it; relay 485 commissions R4 (the covariant completed local-symbol map, LM-1/LM-2 route).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

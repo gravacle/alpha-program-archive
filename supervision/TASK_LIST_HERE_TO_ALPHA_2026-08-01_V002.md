@@ -558,6 +558,13 @@ custody per LOCKED_PROCESS.md.
                 construction (479): the fixed point either FORGETS the freedoms or
                 types them as ratification physics. OBS-19 pre-registered+confirmed. ***
                                                                                SURFACED: yes
+
+2026-08-04  C56 *** THE RESIDUE LEDGER OF RECORD (Q-406): 14 steering objects — 6
+                ratification-grade / 5 constructible / 3 derivable-open — with the
+                lawful order R4→R5→R6→R7→R8→R11 (+R12/R13/R14 for Task 6). The
+                threshold theorem confirmed (contraction iff |chi_K| < A_loop^-1).
+                The endgame is a typed checklist. 485 commissions R4. ***
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
