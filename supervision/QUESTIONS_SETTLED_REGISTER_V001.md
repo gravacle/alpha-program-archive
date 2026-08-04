@@ -12286,6 +12286,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-429 — EXHIBIT V002: the cycle-creating physical-kernel square REPAIRED with honest scoping (the old-surface test image, the nonzero new-cycle kernel preserved); generators anchored STAGEWISE in ratified surface geometry; THE RAIL-ARTIFACT VERDICT: no complete root is a rail artifact — the three new-physics typings stand as genuine physics — but THREE RAIL-ONLY CLAUSES ARE REMOVED (the package slims); the full B_Q408 root stays OPEN/TYPE-U (2026-08-04, relay 505, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_Q408_PRIMITIVE_GENERATOR_EXHIBIT_LANE2_V002.md`, `686b2c4a…`, seal verified, mirrors byte-identical.
+
+**The steer's yield:** the geometry/rails split found no false roots but real fat — three clauses our scaffolding demanded that the surface never did, now off the ledger. [EQ6]'s cost is unchanged in roots, lighter in clauses.
+
+**Status:** relay 506 (Codex 1): the hostile check under the standing rule — the repaired square attacked at geometry (new-cycle test forms first), the stagewise anchors verified against ratified surface data, the removed clauses' removal verified lawful, the "too easy" and smuggling questions formal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

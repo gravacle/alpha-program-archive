@@ -342,7 +342,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 503 | Codex 2 | [5/EQ6] Q408 generator exhibit | RETURNED — Q-426 (EXHIBITED per-orbit family; composition+refinement PROVEN; to hostile check) |
 | 504 | Codex 1 | [5/EQ6] Hostile check | RETURNED — Q-428 (EXHIBIT KILLED on surface geometry: false cycle-creating square; steer vindicated) |
 | 504-A | Codex 1 | ADDENDUM | SUPERSEDED — 504 sealed first; U7 items carried into 505 |
-| 505 | Codex 2 | [5/EQ6] Exhibit V002: geometry-anchored + rail-artifact re-exam (V1-V4) | **SENT** |
+| 505 | Codex 2 | [5/EQ6] Exhibit V002 | RETURNED — Q-429 (square repaired scoped; anchors stagewise; no rail-artifact roots; 3 rail-only clauses removed) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
