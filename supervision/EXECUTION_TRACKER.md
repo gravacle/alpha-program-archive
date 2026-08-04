@@ -309,7 +309,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 470 | Codex 2 | [4b] p-verdict cross-verification | RETURNED — Q-392 (CONFIRMED K1-K6; decision NEEDS the base jet/kernel instance; two routes commissioned) |
 | 471 | Codex 1 | [4b] Certificate route | RETURNED — Q-393 (UNDECIDED_BY_TYPE; kernel characterized exactly; the decision = a block-read on the instance) |
 | 472 | Codex 2 | [4b] Instance route | RETURNED — Q-394 (BLOCKED: completion selects no representative; fallback honestly failed; 473 = representative-independence) |
-| 473 | Codex 1 | [4b] Representative-independence of the decision block (N1-N3) | LOADED — NOT SENT |
+| 473 | Codex 1 | [4b] Representative independence | RETURNED — Q-396 (NOT_INVARIANT with witness; the representative is physical input; the fork = p_loc) |
 | 474 | Codex 2 | [4b] Seam audit | RETURNED — Q-395 (MIXED: continuum required by the B_ind value path only; finite limit canonical zero p-free; p_loc path TYPE-U) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 

@@ -735,3 +735,8 @@ requires forced: three for three.
 **Falsifier:** if 474 finds the completed family fully derivable from finite content after all (contradicting Q-394), or if the seam dissolves under audit (no obligation genuinely continuum-side), this observation is killed.
 
 **Status:** OPEN, pre-registered ahead of both results.
+
+**OBS-19 first confirmation (2026-08-03, Q-396):** the NOT_INVARIANT branch fired exactly as
+pre-registered — an explicit witness pair of admissible completions differing in the decision
+block. The continuum freedom is physical, not gauge. The remaining pre-registered question:
+whether it enters alpha (via p_loc) or stays boundary-former physics outside it (Q-396's fork).

@@ -11980,6 +11980,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-396 — NOT_INVARIANT, WITH WITNESS: two admissible completions preserve every sealed finite shadow yet differ in the ordered (δ,c) block by ω̇_i μ_i[f(s)R_K + 2f₁(s)x♭⊗x♭] ≠ 0 — THE COMPLETED R5 OPERATOR-RESPONSE REPRESENTATIVE IS PHYSICAL INPUT, NOT GAUGE; OBS-19's pre-registered continuum-born branch FIRES; whether it reaches ALPHA now rests entirely on the p_loc consumption path (TYPE-U, per Q-395) (2026-08-03, relay 473, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_REPRESENTATIVE_INDEPENDENCE_LANE1_V001.md`, `f0f8b09b…`, seal verified, mirrors byte-identical.
+
+**The theorem:** the DoR-008-admissible completion family is genuinely multi-point, and the decision block distinguishes its members — the finite record law leaves a physical continuum freedom in the operator response. Per the pre-registered OBS-19 interpretation: continuum-born physics (the GR-stratum entry point) exists in the response. **Per Q-395's audit, this does NOT yet settle the registered fixed-point question:** K = B_ind(K) = p_loc[Π_R,ind[G_K]] consumes through p_loc, whose consumption path is unbuilt.
+
+**THE LAST FORK, exactly:** if p_loc consumes only the finite/invariant content (the canonical zero p-free limit), the p-verdict discharges at the finite level and the continuum freedom stays OUTSIDE alpha — the coupling finite-determined, the completion freedom banked as separate (GR-side) physics. If p_loc consumes the full completed representative, the completion fiber becomes a ratification gate INSIDE alpha. **Relay 475 (Codex 2) derives the p_loc consumption path from the ratified core equation — the program's oldest formula, now its last question.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
