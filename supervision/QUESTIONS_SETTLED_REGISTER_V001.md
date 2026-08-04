@@ -11882,6 +11882,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-385 — GERM V002 IS BUILT: Shape K and Shape CK both retained on ratified geometry, DP1–DP10 audited, no shape selected; the G2/G3/G7 defects repaired; cycle-creating stationary naturality honestly TYPE-U (2026-08-03, relay 465, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_N_MEMBER_JET_INSTANTIATION_PROPOSAL_LANE2_V002.md`, `c673b6f5…`, seal verified, mirrors byte-identical.
+
+**Status:** cross-review (relay 466, Codex 1 — the killer of V001): the DP audit verified, the anti-tuning ledger checked against its own reverse-engineering standard, the jets recomputed on DoR-019's norms, the fiber statement audited. On PASS: the DoR-018 shape-and-jet ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
