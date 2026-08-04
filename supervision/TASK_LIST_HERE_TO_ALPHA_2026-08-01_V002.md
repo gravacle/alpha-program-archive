@@ -565,6 +565,15 @@ custody per LOCKED_PROCESS.md.
                 threshold theorem confirmed (contraction iff |chi_K| < A_loop^-1).
                 The endgame is a typed checklist. 485 commissions R4. ***
                                                                                SURFACED: yes
+
+2026-08-04  C57 *** THE CONTINUUM RATIFICATION CONVENED (principal's ruling, Q-410):
+                after eight theorem-backed rounds proving the finite does not
+                bootstrap its continuum, ALL continuum freedoms consolidate into ONE
+                declared package through ONE gate — R1, R2/R3 over (chi_K,T), R5,
+                the J_ref four absences, faithfulness. Alpha computes conditional on
+                the package; the sealed-number end test falsifies it whole. 489
+                authors the package; 490 derives its internal cross-constraints.
+                DoR-020 reserved. ***                                          SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
