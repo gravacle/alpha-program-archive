@@ -11960,6 +11960,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-394 — THE INSTANCE ROUTE IS BLOCKED AT THE REAL BOTTOM: carrier completion does NOT select a physical action representative (derivation refuted) — the completed Γ_base off the finite active section is genuinely underdetermined; the lane's target-blind quadratic fallback honestly FAILED four tests (normalization, mixed-seam, source/action, support); P38_ON_INSTANCE = CONDITIONAL (2026-08-03, relay 472, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_COMPLETED_BASE_STATIONARY_INSTANCE_LANE2_V001.md`, `f061e5d3…`, seal verified, mirrors byte-identical.
+
+**The juncture, plainly:** both decision routes are now blocked — the certificate undecided by type (Q-393), the instance blocked on a representative nothing ratified selects. The p-verdict provably waits on the COMPLETED BASE ACTION REPRESENTATIVE question — the old Q-220 continuum fork arriving concretely at the finish line. **The program's signature move applies: relay 473 (Codex 1) derives THE REPRESENTATIVE-INDEPENDENCE QUESTION — is the ordered (δ,c) block of RetExtract[∂_p Schur_base] (the exact decision object, by Q-393's kernel theorem) INVARIANT across the entire DoR-008-admissible completion family?** Invariant ⇒ the verdict is decidable on any admissible representative without selecting one. Not invariant ⇒ the completion choice is PHYSICS and goes to ratification as its own gate. Either result is a theorem.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
