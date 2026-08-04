@@ -12504,6 +12504,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-453 — THE AXIOM ROUND, BOTH ARMS IN AND ALIGNED: the author arm (Sol) drafts a GUARDED COMPLETION PRINCIPLE — joint relative existence WITHOUT uniqueness over actual finite-coherent DoR-020 data, one J1–J15 term over all six generators ("six unrelated existentials do not satisfy the axiom" — the equalizer regression answered in the statement itself), conservativity built in and proven relatively, C_ret NOT implied; the constraint arm derives 16 MUST + 18 MUST-NOT with the SAME unique lawful form ("may assert only nonemptiness of the joint completed equalizer over an explicitly scoped actual finite-coherent domain"), independence typed honestly (corpus-relative non-derivability + finite consistency; model-theoretic independence TYPE-U), and adoption discharging EXACTLY STEP 1 of the twelve-step map (2026-08-04, relays 527/528, lane-tagged; 527 registrar-read)
+
+**Artifacts:** the axiom `STAGE8_TASK5_EQ6_COMPLETED_EXISTENCE_AXIOM_LANE2_V001.md`, `66c71bb6…`; the constraints `STAGE8_TASK5_EQ6_AXIOM_CONSTRAINT_ARM_LANE1_V001.md`, `96cd90b5…`. Both seals verified, mirrors byte-identical.
+
+**The blind convergence itself is evidence:** two lanes, mutually blind, arrived at the same unique lawful form — the axiom's shape is forced by the constraint structure, not chosen. The fibers survive by construction (the axiom supplies existence, never selection); no finite physics is added; the number remains the final test.
+
+**Status:** relay 529 (Codex 1 — the constraint system's owner): adjudicate the draft against all 34 constraints. On PASS: **DoR-020-A2 goes to the principal — the continuum's completeness principle, the last declaration of the program.**
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
