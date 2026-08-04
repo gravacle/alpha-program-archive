@@ -12000,6 +12000,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-398 — THE SWEEP CONFIRMS EVERYTHING (R1–R5 all pass) and reduces the verdict to TWO FINAL COEFFICIENT OBJECTS: the Q-396 fiber direction is RETARDED (sector typing does not annihilate it — the easy discharge is closed); on the S8-A exchange orbit the pushforward reduces to the single unbuilt coefficient p_loc[R_K]; full-fiber resolution also needs THE LOCAL MAXWELL SYMBOL of the rank-one profiles (2026-08-03, relay 476, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_CONSUMPTION_VERIFICATION_AND_PUSHFORWARD_SWEEP_LANE1_V001.md`, `041498bb…`, seal verified, mirrors byte-identical. CONSUMPTION_RESULT = CONFIRMED; PUSHFORWARD = NEEDS P_LOC_R5_LOCAL_MAXWELL_SYMBOL_AND_Q396_FIBER_PUSHFORWARD_CERTIFICATE.
+
+**The reduction:** the deciding question's entire remaining content is now (1) p_loc[R_K] — how the ratified localization weighs the ratified metric operator, one coefficient — and (2) the local symbol of the rank-one profiles, which the reviewer's own typing names THE LOCAL MAXWELL SYMBOL. **OBS-17's emergence point materializing at the final coefficient: the Maxwell structure appearing by name at the exact place the coupling gets decided.**
+
+**Status:** relay 477 (Codex 2): derivation-first construction of the local Maxwell symbol and p_loc[R_K] from the ratified defining clauses; underdetermined remainder, if any, typed for ratification.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
