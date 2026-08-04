@@ -358,6 +358,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 518 | Codex 1 | [5/EQ6] Cert check + section | RETURNED — Q-444 (CERT CONFIRMED; stop = geometric inhabitance of the zero-defect equalizer; 518-SC divergence dissolved) |
 | 518-SC | Codex 2 | SELF-CHECK (mispaste run): killed own cert on 2 scope overclaims; section CONSTRUCTIBLE; QUARANTINED to ..._LANE2_SELF_CHECK_QUARANTINE_V001.md (disk hash c6593af6 — NOTE: differs from the lane's reported 5851e8c2, further disqualifying it as record), filename freed | NOTED — NOT A REVIEW OF RECORD |
 | 519 | Codex 2 | [5/EQ6] Section build | RETURNED — Q-445 (stopped at the equalizer, CONSTRUCTIBLE_DEEPER; scope claims reconciled; two-track design activates) |
+| 520 | Codex 1 | [5/EQ6] The section's deeper construction (K1-K3) | LOADED — NOT SENT |
+| 521 | Codex 2 | [5] THE LICENSED CONDITIONAL CHAIN, tagged [EQ6] (L1-L5) | WRITTEN — QUEUED (load after 520 sent) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
