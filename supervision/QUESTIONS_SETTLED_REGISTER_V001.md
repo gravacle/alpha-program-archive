@@ -12270,6 +12270,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-427 — STANDING REVIEW STEER OF RECORD (the principal): reviews must separate ACTUAL SURFACE-GEOMETRY PROOF from RAIL COMPLIANCE — and every prior GENUINELY_NEW_PHYSICS typing must be re-examined for rail-artifact status (a requirement imposed by our scaffolding, not the physics, is not new physics and must not cost declaration) (2026-08-04)
+
+**Installed:** the SURFACE-GEOMETRY-VERSUS-RAILS RULE in LOCKED_PROCESS; a mid-run addendum sent to the running 504 review (the 270 precedent). The rule cuts both ways: an exhibit passing on rails alone is a kill; a "new-physics" root that is actually a rail artifact comes OFF the declaration ledger — [EQ6]'s true cost may be smaller than six.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

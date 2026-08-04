@@ -129,3 +129,20 @@ preflight against the local sidecars; five were stale for two days and produced
 repeated false custody alarms (Q-349, Q-351). The register/tracker/plan write
 step is: edit file -> refresh LOCAL sidecar -> cp to mirror -> write mirror
 sidecar -> shasum-verify both -> commit -> push.
+
+## SURFACE-GEOMETRY-VERSUS-RAILS RULE (principal's steer, 2026-08-04, Q-427)
+
+Every review of an exhibit, witness, or new-physics typing must separate two
+questions and answer both explicitly:
+1. SURFACE GEOMETRY: does the object prove something about the actual record
+   surface's geometry (its real incidence/cycle/refinement structure), with
+   the proof anchored in ratified surface data?
+2. RAILS: or does it merely satisfy conditions our own formalism installed
+   (the categories, functors, refinement machinery, certificate shapes) —
+   conditions that could be met by formal bookkeeping with no geometric
+   content?
+Additionally: any object previously typed GENUINELY_NEW_PHYSICS must be
+re-examined for RAIL-ARTIFACT status — a requirement imposed by our
+scaffolding rather than by the physics is not new physics and must not cost
+declaration; it is a candidate for removal or derivation at the rail level.
+A review verdict that does not state the geometry/rails split is incomplete.

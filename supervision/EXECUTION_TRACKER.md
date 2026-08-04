@@ -341,6 +341,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 502 | Codex 1 | [5/EQ6] C1 build | RETURNED — Q-425 (finite layer built; stopped at the full P4 core — the exhibits are the keystone) |
 | 503 | Codex 2 | [5/EQ6] Q408 generator exhibit | RETURNED — Q-426 (EXHIBITED per-orbit family; composition+refinement PROVEN; to hostile check) |
 | 504 | Codex 1 | [5/EQ6] Hostile check of the exhibit (U1-U6) | **SENT** |
+| 504-A | Codex 1 | [5/EQ6] ADDENDUM: the surface-vs-rails split (U7) + rail-artifact re-exam | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
