@@ -12378,6 +12378,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-439 — WITNESS HUNT PASS 2: THE CYCLE-CREATING GENERATOR MEMBER IS BUILT on the first cycle orbit — the adopted law's first inhabitant; the full B_Q408 root PARTIAL with the stop exact — a nonempty ALL-RANK family passing OLD_FID + RNL + LR and the common-refinement diamonds JOINTLY; JOINT_EQ6 = PARTIAL (2026-08-04, relay 513, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_WITNESS_HUNT_PASS_2_LANE2_V001.md`, `c0cc9511…`, seal verified, mirrors byte-identical.
+
+**Status:** relay 514 (Codex 1): the hostile check of the built member (geometry-first, all nine regressions) + the all-rank gap typed (constructible from the first-orbit member by covariant extension, or a genuine remaining need).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
