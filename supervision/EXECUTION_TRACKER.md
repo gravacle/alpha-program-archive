@@ -311,7 +311,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 472 | Codex 2 | [4b] Instance route | RETURNED — Q-394 (BLOCKED: completion selects no representative; fallback honestly failed; 473 = representative-independence) |
 | 473 | Codex 1 | [4b] Representative independence | RETURNED — Q-396 (NOT_INVARIANT with witness; the representative is physical input; the fork = p_loc) |
 | 474 | Codex 2 | [4b] Seam audit | RETURNED — Q-395 (MIXED: continuum required by the B_ind value path only; finite limit canonical zero p-free; p_loc path TYPE-U) |
-| 475 | Codex 2 | [4b→5] The p_loc consumption path (Q1-Q4) — THE LAST FORK | LOADED — NOT SENT |
+| 475 | Codex 2 | [4b→5] The p_loc consumption path (Q1-Q4) — THE LAST FORK | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
