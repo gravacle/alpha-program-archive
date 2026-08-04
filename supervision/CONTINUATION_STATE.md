@@ -3841,3 +3841,26 @@ feedback tower -- the channel derived from the access certificate; the
 log-form question) and 415 (full source generality). Next after the data:
 the bridge (Q-409's 8 items), DoR-016, the stationary response, THE p-VERDICT.
 Reviewer scorecard ~15/11. All custody, fences, and door flags held.
+
+## SESSION UPDATE 2026-08-03 (register head Q-399)
+
+THE DAY: relays 417-478. RATIFIED: DoR-016 (network-sourcing law, doubled CTP access),
+DoR-017 (action-comparison square, N member), DoR-018 (Shape K jets), DoR-019 (carrier
+metric+units). COMPUTED+CONFIRMED: the stationary response (exact Schur form; finite
+blocks zero/p-free/nu-free); the p-verdict computation (Response = base(p) + nu*flat,
+Shape K adds no p; the criterion (P3-8) exact).
+
+THE SEAM (OBS-19, pre-registered and confirmed): the finite layer is exact and p-free;
+the completion selects no representative (Q-394); the decision block is NOT invariant
+across admissible completions (Q-396, witness) - the continuum freedom is PHYSICAL.
+The registered question consumes via p_loc: reception confirmed, reading rule
+underdetermined (Q-397); the pushforward reduces to p_loc[R_K] + THE LOCAL MAXWELL
+SYMBOL (Q-398). The freedom is completed-level, NOT an initial-record artifact; B_ind
+has NO ratified analytic structure - forgetting undecidable until Task 5 builds it
+(Q-399). TASKS 4/5 HAVE MERGED: the fixed-point machinery decides the freedoms.
+
+IN FLIGHT: 477 (Codex 2: the Maxwell symbol + p_loc[R_K] coefficients). Codex 1 idle.
+NEXT: on 477's return, register; then the Task 5 commission (B_ind's analytic
+structure on the DoR-019 Hilbert space) carrying the sensitivity question.
+Corrections of record this session: Q-336, Q-345, Q-354. Mispastes: 467 (Q-388).
+Custody fix: local sidecars (Q-351, LOCAL-SIDECAR RULE in LOCKED_PROCESS).

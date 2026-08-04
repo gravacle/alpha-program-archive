@@ -12010,6 +12010,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-399 — THE SENSITIVITY AUDIT: the Q-396 freedom is NOT an initial-record artifact — it is COMPLETED-LEVEL and invisible at every finite stage (the principal's question answered on its main axis); AND no ratified contraction, monotonicity, iteration, or asymptotic-washout theorem exists for B_ind — the fixed point is not defined as a tower limit, and whether it FORGETS or PRESERVES the freedoms is undecidable until Task 5's machinery is built (2026-08-03, relay 478, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_FIXED_POINT_SENSITIVITY_AUDIT_LANE1_V001.md`, `a434b1bb…`, seal verified, mirrors byte-identical.
+
+**Per freedom:** the completion fiber — UNDECIDED (completed-level, no finite trace); the reading rule — PRESERVED in B_ind's structure, fixed-point effect undecided; p_loc[R_K] — present in the known map derivative, fixed-point effect undecided.
+
+**What this reorders:** Task 5 is no longer "waiting" — its content (the analytic structure of B_ind: contraction/monotonicity on the DoR-019 Hilbert space, existence/uniqueness) is now the SAME construction that decides whether the initial-level freedoms reach alpha. Task 4's residue and Task 5's theorem have merged into one object. Awaiting 477 (the coefficients, running); with both in, the Task 5 commission carries the sensitivity question as its first consumer.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

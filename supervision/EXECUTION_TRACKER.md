@@ -314,7 +314,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 475 | Codex 2 | [4b→5] The p_loc consumption path | RETURNED — Q-397 (UNDERDETERMINED; identification refuted; the certificate named) |
 | 476 | Codex 1 | [4b→5] Consumption verification + sweep | RETURNED — Q-398 (CONFIRMED; the verdict reduces to p_loc[R_K] + THE LOCAL MAXWELL SYMBOL) |
 | 477 | Codex 2 | [4b→5] The local Maxwell symbol + p_loc[R_K] (S1-S4) | LOADED — NOT SENT |
-| 478 | Codex 1 | [5→4b] Fixed-point sensitivity audit: does the fixed point forget the freedoms? (T1-T4) | LOADED — NOT SENT |
+| 478 | Codex 1 | [5→4b] Sensitivity audit | RETURNED — Q-399 (freedom completed-level, not artifact; B_ind has NO ratified analytic structure; Tasks 4/5 merge) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
