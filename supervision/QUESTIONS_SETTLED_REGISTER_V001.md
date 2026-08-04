@@ -12086,6 +12086,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-407 — R4 IS HALF-BUILT AND THE READER FIBER IS NOW EXPLICIT: the completed current seam and profile Banach topology build cleanly; the algebraic reader family is parameterized by (χ_K, T) with p_(χ,T)[H_x] = f(‖x‖²_K)χ_K + 2f₁(‖x‖²_K)⟨x,Tx⟩_K — ONE coordinate on the reciprocal profile, TWO on the S8-A carrier before stabilizer relations; the physical long-wavelength Maxwell map remains blocked on the CONSERVED-CURRENT-TO-LOCAL-FIELD KERNEL REALIZATION AND SYMBOL CALCULUS (2026-08-04, relay 485, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_R4_LOCAL_SYMBOL_MAP_BUILD_LANE1_V001.md`, `bae34116…`, seal verified, mirrors byte-identical. No member selected.
+
+**What this does to the R2 fiber:** the ratification-grade reading rule is no longer abstract — it is a family with named coordinates and dimension 1 (loop) / ≤2 (S8-A). χ_K, the modulus factor, is its first coordinate by construction. The eventual DoR sits over a small explicit space.
+
+**Status:** relay 486 (Codex 2): cross-verify the partial build; construct (or type) the kernel realization/symbol calculus — the physical Maxwell map's remaining block.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
