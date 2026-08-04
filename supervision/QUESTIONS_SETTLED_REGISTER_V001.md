@@ -12610,6 +12610,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-466 — PHYSICAL J2 FAILS HONESTLY BY ABSENCE (the third named absence at the joint): NO READER-INDEPENDENT pi_Mx,N IS CONSTRUCTIBLE from the present sealed stock — the C3 generator has only its Ward half (as Q-409 already recorded: contact/Hodge/local symbol open), "Hodge from isometry" remains a killed inference, and the builder STOPPED rather than commit the F_PLDEC circularity ("the existing reader-independent operation is [the Ward split]; no closed-range, Hodge, or completed Maxwell conclusion is made"). The exact missing object is NAMED: `FINITE_Q408_TO_LOCAL_MAXWELL_HODGE_PROJECTOR_CERT` — support locality + contact quotient + closed range of finite d/delta + Hodge functional calculus on the actual complex. NOT a mismatch witness: the equality was never posed, so no non-Maxwell reader content is implied (2026-08-04, relay 539, 13m27s Sol build, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_EQ6_PHYSICAL_J2_LANE2_V001.md`, `3fd4b924…`, seal + mirror verified, fence-clean.
+
+**The derivation opening:** the historical "Hodge from isometry" kill predates DoR-019. With the carrier metric now RATIFIED LAW, the finite-rank Hodge decomposition on the record complex is linear algebra w.r.t. a lawful metric — the projector may be DERIVABLE now. Relay 543 attempts exactly that, confronting the old kill's license explicitly. **Status:** 542 (stage-1 V003) awaiting paste into Codex 1; 543 (the projector cert) loads for Codex 2 next; 540 (chain V004) queues behind 543.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
