@@ -11916,6 +11916,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-389 — THE GERM RE-CHECK PASSES EVERYTHING (J0–J4): BUILD_COMPARISON = AGREES (the two independent executions of the mispasted commission converged — added confirmation, the 413 pattern again); SHAPE K READY, SHAPE CK,λ READY; READY_FOR_DOR018_RULING = yes; custody precision honest (the accidental run wrote a mirror copy but cmp proves zero content change) (2026-08-03, relay 468, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_GERM_V003_RECHECK_LANE1_V002.md`, `572dc354…`, seal verified, mirrors byte-identical.
+
+**Status:** the DoR-018 shape-and-jet ruling goes to the principal: Shape K ((r₀,r_ch)+ν; mixed blocks base-only) vs Shape CK,λ (adds the free dimensionless λ, future gate required) vs reject.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
