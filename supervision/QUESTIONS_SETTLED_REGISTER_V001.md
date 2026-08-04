@@ -12414,6 +12414,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-443 — THE EXCISION CERTIFICATE IS BUILT and BOTH CYCLE-CREATING DIAMONDS PASS CONDITIONALLY under its terms — the joint GR–EM admission WORKS as certified structure; the contact requirements corrected (OLD_FID + EXCLUSIVE_REGION_RNL + LR); the remaining stop: a NONEMPTY COVARIANT ZERO-DEFECT SECTION of the physical certificate family (2026-08-04, relay 517, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_LOCAL_ORTHOGONAL_EXCISION_CERT_LANE2_V001.md`, `d61a550a…`, seal verified, mirrors byte-identical. ALL_RANK and JOINT_EQ6 partial.
+
+**Status:** relay 518 (Codex 1): the hostile check + the zero-defect section — exhibit it or type its exact need. The stops keep shrinking: from a root, to a package, to a certificate, to one section.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
