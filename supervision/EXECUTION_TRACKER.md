@@ -328,6 +328,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 489 | Codex 2 | [5/PKG] Author arm | RETURNED — Q-412 (eight clauses, twelve attacks passed; ratification needs the inhabitance witness) |
 | 490 | Codex 1 | [5/PKG] Constraint arm | RETURNED — Q-411 (15 forced families; equalizer fiber; inhabitance = the package's burden) |
 | 491 | Codex 1 | [5/PKG] Adjudication + witness | RETURNED — Q-413 (NOT_READY: J2/J5/J13 missed; witness layer empty; V002 commissioned) |
+| 492 | Codex 2 | [5/PKG] Package V002: J2/J5/J13 + the genuine witness (H1-H4) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
