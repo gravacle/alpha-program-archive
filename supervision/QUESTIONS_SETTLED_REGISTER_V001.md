@@ -12066,6 +12066,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-405 — THE EXISTENCE STATEMENT LANDS IN EXACT CONDITIONAL FORM: on any inhabitant of the return certificate, boundedness and closure FOLLOW, and STRICT CONTRACTION HOLDS IFF |p_loc[R̂_K]| < A_loop⁻¹; the certificate is BLOCKED_AT_INHABITANT — the ratified stack lacks two maps (the scalar-K-to-action/full-residual map; the completed stationary pullback/solution map) (2026-08-04, relay 483, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_RETURN_CERTIFICATE_BUILD_LANE1_V001.md`, `b569a89e…`, seal verified, mirrors byte-identical.
+
+**Task 5's theorem, as it now stands:** K_* exists and is unique CONDITIONAL ON (i) an inhabitant (two completed-level maps), and (ii) the threshold inequality on the free factor. Both conditions are the SAME class of object the entire endgame has converged on: completed-level structure the finite provably does not force. The derivation program has exhausted what the ratified stack determines, in every direction, with theorems — the residue is now a closed list.
+
+**Status:** relay 484 (Codex 2): cross-verify the certificate/threshold theorem; TYPE the two inhabitant maps (constructible from ratified content, or fiber-grade freedoms); and state the consolidated residue ledger — every remaining free/unbuilt object between here and the sealed number, in one table.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
