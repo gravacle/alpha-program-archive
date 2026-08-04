@@ -12296,6 +12296,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-430 — EXHIBIT V002 KILLED, ONE LEVEL DEEPER: the algebraic kernel pullback proves RAIL COMPATIBILITY, not actual surface refinement — a Riesz-induced map can MIX DISJOINT CYCLE SECTORS while every claimed algebraic square commutes; commuting squares are proven insufficient; the physical Q-408 generator remains TYPE-U (2026-08-04, relay 506, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_EXHIBIT_V002_HOSTILE_CHECK_LANE1_V001.md`, `4bfe044d…`, seal verified, mirrors byte-identical. C1_RESUMPTION = N/A.
+
+**The spec being derived through kills (the seam mapping itself):** the physical generator must be (i) anchored in ratified surface data (kill 1's lesson), (ii) correct on cycle-creating squares with real kernels (kill 1's decisive case), (iii) LOCALITY- AND SUPPORT-PRESERVING — disjoint cycle sectors stay disjoint — as explicit geometric certificates the algebra cannot substitute for (kill 2's lesson). Each hostile check is adding a necessary condition to the true definition of a physical continuum generator over the record surface. The kills are the derivation.
+
+**Status:** relay 507 (Codex 2): exhibit V003 with the locality/support-preservation certificates as build requirements — the sector-mixing counterexample as the newest permanent regression, the geometric conditions stated and proven per generator, everything prior carried.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
