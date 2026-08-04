@@ -11952,6 +11952,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-393 — THE CERTIFICATE ROUTE: UNDECIDED_BY_TYPE, with both characterizations PROVEN — ker(RetExtract) is exactly the Schur forms with zero ordered (δ,c) block; the base Schur p-derivative is typed into Hom(K_cycle, K_cycle*) but covariance, reality, units, and the finite restrictions do NOT determine its Keldysh support; the instance route (472, running) is load-bearing alone (2026-08-03, relay 471, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_RETEXTRACT_KERNEL_CERTIFICATE_LANE1_V001.md`, `6b7f8f98…`, seal verified, mirrors byte-identical.
+
+**What the route contributes even in failing to decide:** the exact kernel characterization is now a theorem the instance evaluation will consume directly — (P3-8) on the instance reduces to reading off the ordered (δ,c) block of the computed p-derivative. The decision, when 472 lands, is a block-read, not a new construction.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

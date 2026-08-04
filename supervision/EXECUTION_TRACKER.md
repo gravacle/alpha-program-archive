@@ -307,7 +307,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 468 | Codex 1 | [4b] Germ V003 re-check (amended) | RETURNED — Q-389 (ALL PASS; builds AGREE; both shapes READY; DoR-018 to the principal) |
 | 469 | Codex 1 | [4b] THE p-VERDICT COMPUTATION | RETURNED — Q-391 (exact split; Shape K adds no p; all reduces to (P3-8), base-only; to cross-verification) |
 | 470 | Codex 2 | [4b] p-verdict cross-verification | RETURNED — Q-392 (CONFIRMED K1-K6; decision NEEDS the base jet/kernel instance; two routes commissioned) |
-| 471 | Codex 1 | [4b] Certificate route: ker(RetExtract) vs the p-derivative image (L1-L4) | **SENT** |
+| 471 | Codex 1 | [4b] Certificate route | RETURNED — Q-393 (UNDECIDED_BY_TYPE; kernel characterized exactly; the decision = a block-read on the instance) |
 | 472 | Codex 2 | [4b] Instance route: the completed base stationary family (M1-M4) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
