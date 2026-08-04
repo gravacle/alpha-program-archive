@@ -12344,6 +12344,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-435 — V004 KILLED ON THE CLAUSE LAYER ONLY (both constructions PASS — the transport and the relative no-leakage certificate are solid): the clauses improperly assert nonemptiness that DoR-020 reserves for the certified witness; the field clause lacks the U(1) BUNDLE LIFT / pullback-bundle isomorphism, smooth full-rank, and CHARACTERISTIC-CLASS compatibility; PACKAGING = DoR-020 AMENDMENT after repair (existing P4/X4 fields, no seventh root) (2026-08-04, relay 510, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_V004_HOSTILE_CHECK_LANE1_V001.md`, `f586e67a…`, seal verified, mirrors byte-identical. READY_FOR_WHERE_RULING = no (pending repair).
+
+**The physical note, registered:** the where-declaration is acquiring an exact shape — a U(1) BUNDLE WITH CONNECTION over the record surface, with characteristic-class discipline. The electromagnetic geometric structure itself is surfacing inside the where-clauses: gravity's declared contribution and EM's bundle geometry meet in one object, at the last declaration of the program. OBS-17's emergence point, in its most literal form yet.
+
+**Status:** relay 511 (Codex 2): clause V005 — nonemptiness assertions stripped (clauses declare laws; witnesses prove inhabitance), the U(1) bundle lift/pullback isomorphism typed, smooth full-rank and characteristic-class compatibility installed. Then the check → the WHERE ruling as a DoR-020 amendment.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
