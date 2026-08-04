@@ -360,8 +360,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 519 | Codex 2 | [5/EQ6] Section build | RETURNED — Q-445 (stopped at the equalizer, CONSTRUCTIBLE_DEEPER; scope claims reconciled; two-track design activates) |
 | 520 | Codex 1 | [5/EQ6] Section deeper construction | RETURNED — Q-446 (FLIP SECTION BUILT, EQUALIZER INHABITED — first of the program; general stop = A4 excision naturality) |
 | 521 | Codex 2 | [5] The licensed chain | RETURNED — Q-447 (conditional theorems + exact A_loop + THE TEN-STEP MAP; fully staged) |
-| 522 | Codex 1 | [5] Chain cross-check (M1-M6) | LOADED — NOT SENT |
-| 523 | Codex 2 | [5/EQ6] Flip check + THE SCOPED-WITNESS DETERMINATION (N1-N4) | WRITTEN — QUEUED (load after 522 sent) |
+| 522 | Codex 1 | [5] Chain cross-check (M1-M6) | **SENT** |
+| 523 | Codex 2 | [5/EQ6] Flip check + THE SCOPED-WITNESS DETERMINATION (N1-N4) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
