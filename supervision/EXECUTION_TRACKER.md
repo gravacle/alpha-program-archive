@@ -334,6 +334,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 495 | Codex 1 | [5/PKG] Final cross-check | RETURNED — Q-417 (NOT_READY: derivable square before A's stop; B's refutation logic unbound; V004 commissioned) |
 | 496 | Codex 2 | [5/PKG] Package V004 | RETURNED — Q-418 (square derived; boundary exact-moved; ROUTE B BOUND to P_CM020; rigidity not derived) |
 | 497 | Codex 1 | [5/PKG] Final check of V004 | RETURNED — Q-419 (square PASSES; P_CM020 killed: rule untyped, inhabitance asserted; V005 commissioned) |
+| 498 | Codex 2 | [5/PKG] Package V005: the member proven (O1-O4) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
