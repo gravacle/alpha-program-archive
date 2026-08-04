@@ -621,6 +621,19 @@ custody per LOCKED_PROCESS.md.
                 its constraint system. DoR-020-A2 reserved. If adopted, [EQ6]'s
                 completed content discharges by principle + the built finite
                 layer; the sealed number tests it all. ***                     SURFACED: yes
+
+2026-08-04  C62 *** DoR-020-A3 ADOPTED (Q-464): J4 REWRITTEN AS THE RELATIONAL
+                INCREMENT GROUPOID — the functional row was refuted on cycle
+                creation (the flat/vertical-increment freedom is real physics);
+                the derived relation-span row retains all members, selects
+                nothing, absorbs the killer witness. PROVABLE; no parameter. *** SURFACED: yes
+
+2026-08-04  C63 *** DoR-020-A4 ADOPTED (Q-464): J12 CONTACT GLUE = STRICT
+                PUSHOUT — one physical element, one image; signed pushout
+                carrier; unique induced Eta. AUTHORED (first member since
+                DoR-019); five void conditions incl. an actual contact twist;
+                SUPERSEDES DoR-020-A1's clause-completeness statement;
+                zero-intersection upgrade path stays open. ***                  SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

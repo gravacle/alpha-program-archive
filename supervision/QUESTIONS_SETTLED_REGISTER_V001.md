@@ -12604,6 +12604,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-465 — THE TWO RULINGS LAND: DoR-020-A3 (J4-R RATIFIED — the relational increment groupoid, derived, parameter-free) and DoR-020-A4 (J12-G STRICT PUSHOUT RATIFIED — authored, five void conditions, supersedes A1's clause-completeness statement, zero-intersection upgrade path open). J15 needs no ruling (ratified text already contravariant; the mate square derivable). THE REBUILD IS NOW FULLY TYPED: stage-1 V003 builds J4 on the adopted groupoid row, J12 on the adopted pushout, J15 on the contravariant mate — every face on its correct object for the first time (2026-08-04, principal's rulings via AskUserQuestion; decision files sealed)
+
+**Decision files:** `DOR_020_A3_J4_RELATIONAL_INCREMENT_GROUPOID_2026-08-04.md`, `DOR_020_A4_J12_CONTACT_GLUE_STRICT_PUSHOUT_2026-08-04.md`, both sealed + mirrored. Plan change log C62/C63. **Status:** relay 542 (stage-1 V003 — Codex 1 builds on its own derived objects; Lane 2 will hold the review of record) loads now; 539 (J2) and 540 (chain V004) continue in the Codex 2 queue.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

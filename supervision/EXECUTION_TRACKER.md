@@ -378,6 +378,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 537 | Codex 1 | [5] Chain V003 cross-check of record | RETURNED — Q-461 (repairs PASS; X3 degenerate branch + X4 modulus compatibility) |
 | 538 | Codex 1 | [5/EQ6] Stage-1 V002 review of record | RETURNED — Q-463 (second kill; J4 = real flat freedom, J12/J15 = isolated missing certs) |
 | 541 | Codex 1 | [5/EQ6] THE DETERMINATION MAP | RETURNED — Q-464 (J4 derivable-modulo; J12 authorable; J15 obstructed-covariant/derivable-contravariant; two amendments to principal) |
+| 542 | Codex 1 | [5/EQ6] Stage-1 V003 on the adopted rows (E1-E5; review of record goes to Lane 2) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build (Z1-Z5) | LOADED — NOT SENT |
 | 540 | Codex 2 | [5] Chain V004: degenerate branch + modulus cert (P1-P3) | WRITTEN — QUEUED (behind 539) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
