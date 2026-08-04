@@ -11968,6 +11968,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-395 — THE SEAM AUDIT RETURNS MIXED, locating OBS-19's seam exactly: the completed family is REQUIRED by the ratified R5/B_ind/ΔΦ value path and NOT FORCED by the finite record law; the finite-response limit is CANONICALLY ZERO AND p-FREE but no ratified theorem identifies it with the completed R5 response; AND (P3-8) governs the operator response — NOT by itself the registered fixed-point question, whose p_loc consumption path is itself TYPE-U (2026-08-03, relay 474, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_COMPLETED_STATIONARY_DEPENDENCY_AUDIT_LANE2_V001.md`, `337769f4…`, seal verified, mirrors byte-identical.
+
+**The seam, located (OBS-19 pre-registration meeting its first data):** finite side — a canonical, zero, p-free limit, fully determined by record law; continuum side — the completed family, required exactly by the value path that feeds Task 5's fixed point (R5 → B_ind → ΔΦ); between them — the MISSING IDENTIFICATION THEOREM. The continuum starts precisely where the fixed-point machinery needs it and nowhere earlier.
+
+**The sharpest finding:** the REGISTERED deciding question (does K = B_ind(K)'s fixed point depend on p, consumed through p_loc[Π_R,ind[G_K]]) is NOT directly gated by (P3-8) — the p_loc consumption path is its own unbuilt object. The verdict may be dischargeable through the consumption path even while the operator-response question sits at the seam.
+
+**Status:** awaiting 473 (the invariance, running in Codex 1). With both in hand: the next commission targets the p_loc consumption path and the identification question — the registered verdict's own route.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -310,7 +310,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 471 | Codex 1 | [4b] Certificate route | RETURNED — Q-393 (UNDECIDED_BY_TYPE; kernel characterized exactly; the decision = a block-read on the instance) |
 | 472 | Codex 2 | [4b] Instance route | RETURNED — Q-394 (BLOCKED: completion selects no representative; fallback honestly failed; 473 = representative-independence) |
 | 473 | Codex 1 | [4b] Representative-independence of the decision block (N1-N3) | LOADED — NOT SENT |
-| 474 | Codex 2 | [4b] Dependency audit: what requires the completed stationary family (O1-O4) | **SENT** |
+| 474 | Codex 2 | [4b] Seam audit | RETURNED — Q-395 (MIXED: continuum required by the B_ind value path only; finite limit canonical zero p-free; p_loc path TYPE-U) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
