@@ -12178,6 +12178,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-417 — THE FINAL CROSS-CHECK: NOT_READY on both routes, each for the exactly right reason — Route A's boundary NOT_EXACT (a rank-preserving physical path-subdivision square remains DERIVABLE before the stop), Route B DEFECTIVE in its refutation logic (one member's failure cannot refute the family without a rigidity theorem; existential H_020 binds no particular P, so the end test would test nothing) (2026-08-04, relay 495, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_PACKAGE_V003_FINAL_CROSS_CHECK_LANE1_V001.md`, `7465d6f4…`, seal verified, mirrors byte-identical. All four hostile regressions pass.
+
+**The Route B point, registered in full because it protects the program's central claim:** for the sealed number to test the package, the computation must run on a BOUND particular P (declared, named, sealed), and the refutation semantics must be honest — a wrong number refutes the bound P outright, and refutes the whole family only via a proven uniformity/rigidity theorem or a family collapsed to the bound member at ratification. An existential condition would have made the end test unfalsifiable — caught before it reached the ruling.
+
+**Status:** V004 commissioned (relay 496, Codex 2): derive the subdivision square (shrinking the declaration), rebind Route B to a particular P with honest refutation semantics, then the final check → DoR-020.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
