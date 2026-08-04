@@ -368,7 +368,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 527 | Codex 2 | [5/EQ6] The axiom author arm | RETURNED — Q-453 (guarded joint principle; registrar-read PASS) |
 | 528 | Codex 1 | [5/EQ6] The constraint arm | RETURNED — Q-453 (16 MUST + 18 MUST-NOT; blind convergence on the same form) |
 | 529 | Codex 1 | [5/EQ6] The axiom adjudication vs the 34 constraints | RETURNED — Q-454 (NOT_READY: FC12 kill + vacuity kill) |
-| 530 | Codex 2 | [5/EQ6] Axiom V002 (FC12 struck) + THE EXHIBITION of F_actual (A1-A3, B1-B4) | **SENT** |
+| 530 | Codex 2 | [5/EQ6] Axiom V002 + THE EXHIBITION | RETURNED — Q-455 (membership FAILED by ABSENCE; the joint finite package was never built) |
+| 531 | Codex 1 | [5/EQ6] V002 re-adjudication + absence-typing verification (T1-T5) | LOADED — NOT SENT |
+| 532 | Codex 2 | [5/EQ6] Joint finite assembly stage 1: package functor + full bottom (C1-C5) | WRITTEN — QUEUED (load after 531 sent) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.

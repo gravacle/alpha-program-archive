@@ -12524,6 +12524,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-455 — THE EXHIBITION FAILS BY ABSENCE, NOT CONTRADICTION — AND NAMES THE REAL FRONTIER: F_actual membership fails on FC2/FC3/FC10/FC11, every one an UNBUILT object, zero clashes (component checks PASS where built: diamonds commute, shadows reproduce, physical faces hold). The exact missing finite object: `F_ACTUAL_JOINT_FINITE_PACKAGE_CERT` = one functor on I_F carrying all components + one package-wide finite bottom + one finite J1–J15 term (physical J2 absent; J4 stage-scoped; J12/J15 need only the arrows/bottom) + the joint overlap diamonds. Correctly typed: this is FINITE joint-package content the axiom is licensed NEVER to supply (conservativity + N8). V002's Part A repairs executed (FC12 struck; Q-448 exclusion re-homed to Steps 3–4); adoption would discharge Step 1 only after the finite cert is built and cross-certified (2026-08-04, relay 530, registrar-read of B2 and the missing-object section)
+
+**Artifact:** `STAGE8_TASK5_EQ6_AXIOM_V002_AND_EXHIBITION_LANE2_V001.md`, `a681c784…`, seal + mirror verified, fence-clean.
+
+**The retro-reading of Q-452:** "all five generators build at the finite level" was componentwise-scoped. Nobody had ever attempted the JOINT finite tuple — the honesty clause forced the attempt and found the strata were never joined. The constructive/axiomatic boundary was measured one layer too high; the frontier is buildable finite work, in dependency order: (1) the package functor + finite bottom (which alone repairs J12/J15's gaps), (2) physical J2 + J4 de-scoping, (3) the joint diamonds.
+
+**Status:** relay 531 (Codex 1): re-adjudicate V002 Part A + adversarially verify the absence-typing (hunt for a real clash misfiled as absence; check for scope-shrink). Relay 532 (Codex 2): BUILD stage 1 of the assembly — the package functor and full finite bottom. Parallel lanes. DoR-020-A2 stays reserved; no adoption before the cert exists.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
