@@ -12432,6 +12432,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-445 — THE SECTION BUILD: stopped at the same equalizer, typed CONSTRUCTIBLE_DEEPER (the route continues); both scope claims reconciled with the overbroad implications removed; the diamonds unchanged (rank-preserving passes; cycle-creating conditional); THE TWO-TRACK DESIGN ACTIVATES — the deeper construction continues while DoR-020's LICENSED CONDITIONAL CHAIN opens in parallel (2026-08-04, relay 519, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_ZERO_DEFECT_SECTION_BUILD_LANE2_V001.md`, `573e4e59…`, seal verified, mirrors byte-identical.
+
+**The two tracks (both lawful, both commissioned):** 520 (Codex 1) — the section's deeper construction per its typed route. 521 (Codex 2) — the conditional chain DoR-020 expressly licenses: the Banach premise execution, the modulus/A_loop form, and the conditional fixed-point structure, every result tagged [EQ6], nothing bound, nothing evaluated — so that when the witness lands, the distance from witness to number is as short as the law allows.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
