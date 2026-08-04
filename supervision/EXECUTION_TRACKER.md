@@ -340,7 +340,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 501 | Codex 2 | [5] Frontier map | RETURNED — Q-424 (6 gaps: 3 constructible ordered, 3 new-physics exhibits; no amendment trigger) |
 | 502 | Codex 1 | [5/EQ6] C1 build | RETURNED — Q-425 (finite layer built; stopped at the full P4 core — the exhibits are the keystone) |
 | 503 | Codex 2 | [5/EQ6] Q408 generator exhibit | RETURNED — Q-426 (EXHIBITED per-orbit family; composition+refinement PROVEN; to hostile check) |
-| 504 | Codex 1 | [5/EQ6] Hostile check of the exhibit (U1-U6) | LOADED — NOT SENT |
+| 504 | Codex 1 | [5/EQ6] Hostile check of the exhibit (U1-U6) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
