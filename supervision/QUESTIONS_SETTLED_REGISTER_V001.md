@@ -12574,6 +12574,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-461 — CHAIN V003 CROSS-CHECK: THE TWO REPAIRS PASS (entrance gate; D_w certificate), TWO NEW LOCALIZED KILLS: (X3) Step 10 lacks the pointwise `A_loop = infinity AND chi_K = 0` branch — (X3-2) licenses only `0 < A_loop < infinity` with `|chi_K| < A_loop^(-1)` plus the separately typed `A_loop = 0` case; the double-degenerate edge has NO licensed branch; (X4) the alternate-complete-metric attack: nothing certifies that Step 8's COORDINATE derivative computes Step 9's `d_w` LIPSCHITZ modulus — "an arbitrary complete d_w plus continuous inclusion does not" give the exact modulus; the repair's own new metric created this interface obligation. Gate-bypass still passes (Step 8 explicitly inherits all four Step-4–7 certificates) (2026-08-04, relay 537, Sol verdict, registrar-read of X3-2 and the X4 computation)
+
+**Artifact:** `STAGE8_TASK5_CHAIN_V003_CROSS_CHECK_LANE1_V001.md`, `c40cdb05…`, seal + mirror verified, fence-clean. Chain V004 (two bounded items: the degenerate branch; a derivative/modulus compatibility certificate tying Step 8's calculus to d_w) queued as relay 540.
+
+---
+
+## Q-462 — ASSEMBLY STAGE 1 V002 RETURNS (pending review of record): ALL THREE PHYSICAL FACES CLAIMED BUILT — the action-family certificate with the V6 witness EXCLUDED BY PROOF (its mismatch Psi_n forced to zero by the defining naturality equation, not by scope), the FORWARD Eta_f leg constructed directly with a well-definedness certificate (the compression shown to be a left inverse determining the forward leg ONLY under condition W2-10, and never used to infer it otherwise), and the package square on the repaired coordinates; CLASH_FOUND = none; remaining: physical J2/J7 + the simultaneous joint diamonds (2026-08-04, relay 536, registrar-read of §2.5, §3.1–3.2, the W2-10 relation, and the regression table)
+
+**Artifact:** `STAGE8_TASK5_EQ6_JOINT_FINITE_ASSEMBLY_STAGE1_LANE2_V002.md`, `e5381e66…`, seal + mirror verified, fence-clean. Builder claims — relay 538 (Lane 1) is the review of record and gates the closures registering as CONFIRMED.
+
+**Status/board:** 538 (stage-1 V002 review) loads now for Codex 1; 539 (physical J2 build) queued for Codex 2; 540 (chain V004) queued behind 539.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
