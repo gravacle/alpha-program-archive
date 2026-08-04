@@ -11908,6 +11908,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-388 — MISPASTE EVENT OF RECORD (the 413 class, second occurrence): relay 467 (the germ V003 BUILD commission, destination Codex 2) was accidentally pasted into BOTH lanes; Codex 1 executed the build prompt and returned a duplicate-looking completion; THE ARTIFACT OF RECORD IS INTACT — both copies verified twice at the registered hash `231bbd1d…`, no overwrite occurred (2026-08-03)
+
+**Custody handling (per the 413 precedent):** Codex 1's accidental output is a builder self-run, never the verification of record. Because Codex 1 has now run the build prompt, its re-check (468) is amended with a J0 disclosure item: state what it produced and where; verify no overwrite; then run the re-check WITH an explicit divergence comparison between its own accidental build and the artifact under review — two independent executions of the same commission compared is added evidence, exactly as 413's collision became a double confirmation. Any mathematical divergence between the builds is a finding.
+
+**Standing rule reaffirmed:** the paste number and destination lane live on line one of every relay precisely for this failure class; the ledger records the event.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
