@@ -11990,6 +11990,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-397 — THE CONSUMPTION PATH: UNDERDETERMINED — p_loc unquestionably RECEIVES the completed R5 operator, but no ratified clause determines whether it factors through the finite shadows or detects the Q-396 completion fiber; the full finite-to-completed operator identification is REFUTED; the exact remaining object: P_LOC_R5_COEFFICIENT_FUNCTIONAL_AND_FIBER_PUSHFORWARD_CERTIFICATE (2026-08-03, relay 475, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_P_LOC_CONSUMPTION_PATH_LANE2_V001.md`, `cacd3173…`, seal verified, mirrors byte-identical.
+
+**The state of the deciding question after the three-result day's end:** the verdict now rests on ONE certificate — how p_loc's coefficient functional reads the completed operator, and whether the physical completion fiber PUSHES FORWARD through it to the fixed point. Pushforward zero ⇒ the fixed point is blind to the continuum freedom and the p-verdict discharges finite-side. Pushforward nonzero ⇒ the continuum choice is inside alpha and gates as ratification physics.
+
+**Status:** cross-verification + derivability sweep commissioned (relay 476, Codex 1). The register carries the full seam picture: Q-391 (the split), Q-393 (the kernel), Q-394 (no representative), Q-395 (the seam), Q-396 (the witness), Q-397 (the certificate named).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
