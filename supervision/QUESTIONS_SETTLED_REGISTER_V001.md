@@ -12440,6 +12440,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-446 — THE DIG'S BREAKTHROUGH: the FLIP-GENERATED ZERO-DEFECT SECTION IS BUILT (TYPE-P) and its EQUALIZER IS INHABITED (TYPE-P) — the program's first inhabited equalizer; the GENERAL primitive stops at one named naturality (A4_Q408_LOCAL_EXCISION_NATURALITY), the route honestly ended on current ratified constructive stock, NO impossibility claimed (2026-08-04, relay 520, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_SECTION_DEEPER_CONSTRUCTION_LANE1_V001.md`, `a78c2450…`, seal verified, mirrors byte-identical. ALL_RANK and JOINT_EQ6 formally partial.
+
+**The decisive question this opens:** does the flip-generated inhabited equalizer constitute — or lawfully seed — a CERTIFIED [EQ6] WITNESS on a scoped sub-family? If a scoped witness certifies, DoR-020's escrow licenses could open on the scoped theory (the bound member, the computation) with the general A4 naturality primitive carried as the known extension frontier. The check must type this exactly.
+
+**Status:** awaiting 521 (the licensed chain, running in Codex 2); then relay 522: the hostile check of the flip section + THE SCOPED-WITNESS DETERMINATION.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
