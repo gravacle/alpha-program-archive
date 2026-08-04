@@ -304,6 +304,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 465 | Codex 2 | [4b] Germ V002 both shapes | RETURNED — Q-385 (K + CK retained, DP audited, none selected; to cross-review) |
 | 466 | Codex 1 | [4b] Germ V002 cross-review | RETURNED — Q-386 (Shape K READY; Shape CK hides a free dimensionless lambda — retype as family) |
 | 467 | Codex 2 | [4b] Germ V003 lambda retype | RETURNED — Q-387 (K unchanged; CK = symbolic lambda family; to re-check) |
+| 468 | Codex 1 | [4b] Re-check of germ V003 (J1-J4) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
