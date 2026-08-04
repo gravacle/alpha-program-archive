@@ -11942,6 +11942,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-392 — THE p-VERDICT COMPUTATION IS CONFIRMED (K1–K6 all pass: the split exact, no hidden cross-terms, the criterion exact, the rank-port audit closed, all falsifiers surviving); the DECISION needs one typed object: the EVALUABLE COMPLETED BASE STATIONARY p-JET AND RETEXTRACT KERNEL INSTANCE — no executable Γ_base off the finite active section exists, and no certificate decides whether the base Schur p-derivative's image lies in ker(RetExtract) (2026-08-03, relay 470, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_P_VERDICT_CROSS_VERIFICATION_LANE2_V001.md`, `7aa42db3…`, seal verified, mirrors byte-identical. COMPUTATION = CONFIRMED; P38_DECISION = NEEDS; the reviewer's precision: K7 is not a defect in the computation — "that artifact correctly stopped at a conditional classification."
+
+**The two routes to the decision (both base-only, member-free):** (1) THE CERTIFICATE ROUTE — characterize ker(RetExtract) structurally on the completed carrier and the image of the base Schur p-derivative, and decide containment without solving the full completed family; (2) THE INSTANCE ROUTE — construct the executable completed base stationary family on the minimal stages through the gate, DoR-008-bound (must reproduce every finite zero on restriction), and evaluate (P3-8) directly.
+
+**Commissioned in parallel: 471 (Codex 1 — derive the kernel/image certificate) and 472 (Codex 2 — the completed base stationary instance through the gate).** Either route deciding (P3-8) yields THE p-VERDICT; both agreeing yields it doubly.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
