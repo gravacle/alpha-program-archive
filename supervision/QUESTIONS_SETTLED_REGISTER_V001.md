@@ -12486,6 +12486,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-451 — THE SCOPED-WITNESS AUDIT (an honest all-stop, registrar-read in full; CORRECTION on Q-446/449's implicit reach): the flip inhabitant covers ONE generator of six (SCOPED_GENERATOR_COUNT = 1/6 — Eq_flip is the B_Q408 generator's equalizer only, not the joint J1–J15 term); I_flip is a LAWFUL physical subcategory (no-selection and covariance hold) but NOT a package scope (cofinality/factor-completeness for J15's sealed consumers unproven); the finite-bottom certificate absent at package strength (2026-08-04, relay 525, lane-tagged, spark 5.3 xhigh)
+
+**Artifact:** `STAGE8_TASK5_EQ6_SCOPED_EQUALIZER_COMPLETION_LANE1_V001.md`, `3b721be7…`, seal verified, mirrors byte-identical. Registrar read: the audit is genuine and correctly severe — a good early sign for spark-era honesty.
+
+**The corrected distance:** the scoped route needs (i) the remaining FIVE generators discharged on I_flip, (ii) the cofinality/factor-completeness proof, (iii) the package-strength finite bottom. Note the leverage: on the CONCRETE flip scope, the three generally-constructible generators (C1, Faithfulness, C3) may close directly, and the two new-physics generators (R1_NATURAL, C2) may reduce — the scope's concreteness is the route's advantage.
+
+**Status:** relay 526 (Codex 2): discharge the remaining five generators on I_flip, in the frontier map's dependency order, with the cofinality question carried alongside.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
