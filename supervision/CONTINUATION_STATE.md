@@ -3875,3 +3875,13 @@ Licensed: condition-tagged derivation. Forbidden pre-witness: member binding,
 computation, end test. DoR ledger now 001-020. The session's arc: relays
 417-500; DoR-016/017/018/019/020; Q-335 to Q-422. NEXT: relay 500 = THE
 WITNESS HUNT (inhabit the joint equalizer). Both lanes free at commissioning.
+
+## SESSION UPDATE 2026-08-04 ~11:50 (register head Q-438)
+
+DoR-020-A1 ADOPTED: the where-clauses (path/current correspondence; U(1)-bundle
+field members) are law; THE CLAUSE LAYER IS COMPLETE. Task 7 (CONFIRM THE
+GRAVITY ROLE, 7a-7f) added at C59. The EQ6 state: constructions built (test
+transport, relative no-leakage); the generator's cycle-creating member now has
+full law; witness pass 2 = relay 513. OBS-20 partial-killed and corrected:
+records derive independence; gravity declares what lives where. DoR ledger:
+001-020 + A1. Register: Q-335..Q-438 this session. Relays 417-513.

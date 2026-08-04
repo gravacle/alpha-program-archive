@@ -12370,6 +12370,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-438 — DoR-020-A1 ADOPTED: THE WHERE-CLAUSES ARE DECLARED LAW — the path/current correspondence and the U(1)-bundle-typed field members enter the continuum theory's P4/X4 fields; THE CLAUSE LAYER IS COMPLETE — no declarations remain anywhere in Task 5; everything left is construction and witness (2026-08-04, principal's ruling)
+
+**Amendment file:** `DOR_020_A1_WHERE_CLAUSES_AMENDMENT_2026-08-04.md`, sealed and mirrored. C60 logged.
+
+**What this changes:** the generator root's cycle-creating member now has its full law; the witness hunt's second pass runs against a FIXED target. Relay 513 commissions it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

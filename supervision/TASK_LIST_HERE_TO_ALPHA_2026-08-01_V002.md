@@ -608,6 +608,11 @@ custody per LOCKED_PROCESS.md.
                 7a-7f: the charter, the boundary-former dynamics, the Einstein-limit
                 test, the OBS falsifier battery, the ignition question, the digest.
                 The program's motivation is now its final task. ***            SURFACED: yes
+
+2026-08-04  C60 *** DoR-020-A1 ADOPTED (Q-438): THE WHERE-CLAUSES ARE LAW — the
+                path/current correspondence + the U(1)-bundle field members into
+                P4/X4. THE CLAUSE LAYER IS COMPLETE: no declarations remain in
+                Task 5. 513 opens witness-hunt pass 2 on fixed law. ***        SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
