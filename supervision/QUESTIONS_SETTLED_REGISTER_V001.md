@@ -12230,6 +12230,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-423 — THE WITNESS HUNT, FIRST PASS: JOINT_EQ6 = PARTIAL — all six full fibers remain obstructed, and genuine positive subpackages are BUILT on the finite and rank-preserving Ref_path scopes: orbitwise bounds, faithfulness, zero kernel-discrepancy cocycles, and finite Ward transport; no member bound, no prohibition touched (2026-08-04, relay 500, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_THE_WITNESS_HUNT_LANE1_V001.md`, `452f1bb8…`, seal verified, mirrors byte-identical.
+
+**The state after relay 500:** the adopted theory's condition [EQ6] stands open with its frontier now populated from below — the finite scopes of every fiber inhabit; the completed scopes obstruct, consistently with the seam's entire testimony. The hunt is cumulative: each subpackage is permanent material for the eventual joint witness.
+
+**Status:** cross-check (relay 501, Codex 2): the subpackages verified genuine (against the regressions), the obstructions verified exact, and THE UPDATED FRONTIER MAP — what [EQ6] needs now, fiber by fiber, after the first pass's gains.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
