@@ -368,7 +368,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 527 | Codex 2 | [5/EQ6] The axiom author arm | RETURNED — Q-453 (guarded joint principle; registrar-read PASS) |
 | 528 | Codex 1 | [5/EQ6] The constraint arm | RETURNED — Q-453 (16 MUST + 18 MUST-NOT; blind convergence on the same form) |
 | 529 | Codex 1 | [5/EQ6] The axiom adjudication vs the 34 constraints | RETURNED — Q-454 (NOT_READY: FC12 kill + vacuity kill) |
-| 530 | Codex 2 | [5/EQ6] Axiom V002 (FC12 struck) + THE EXHIBITION of F_actual (A1-A3, B1-B4) | LOADED — NOT SENT |
+| 530 | Codex 2 | [5/EQ6] Axiom V002 (FC12 struck) + THE EXHIBITION of F_actual (A1-A3, B1-B4) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
