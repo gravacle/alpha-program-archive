@@ -364,7 +364,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 523 | Codex 2 | [5/EQ6] Flip check + scoped witness | RETURNED — Q-449 (FLIP CONFIRMED; scoped needs named; CHECKPOINT) |
 | 524 | Codex 2 | [5] Chain V002: C_ret + 12-step map | RETURNED — Q-450 (registrar-read PASS; C_ret explicit; counterexample excluded; check queued) |
 | 525 | Codex 1 | [5/EQ6] Scoped completion audit | RETURNED — Q-451 (honest all-stop: 1/6 generators; I_flip lawful but not package scope; distance corrected) |
-| 526 | Codex 2 | [5/EQ6] The five generators on I_flip (Q1-Q6) | LOADED — NOT SENT |
+| 526 | Codex 2 | [5/EQ6] The five generators on I_flip (Q1-Q6) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
