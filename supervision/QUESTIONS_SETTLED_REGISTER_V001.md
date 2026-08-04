@@ -12422,6 +12422,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-444 — THE REVIEW OF RECORD: CERT = CONFIRMED as a genuine failure-capable proof object, with the geometry/rails split stated exactly — the certificate machinery is RAILS; the remaining stop is GEOMETRIC INHABITANCE: the nonempty common-refinement equalizer of the physical zero-defect loci, NOT DERIVABLE from the current stack (TYPE-R) and not exhibited (TYPE-U); the direct-sum model is admitted (joint consistency proven) but is NOT a physical section (2026-08-04, relay 518, lane-tagged)
+
+**Artifact of record:** `STAGE8_TASK5_EQ6_CERT_CHECK_AND_ZERO_DEFECT_SECTION_LANE1_V001.md`, `1fdd8823…`, seal verified, mirrors byte-identical. The quarantined builder self-check (518-SC, `c6593af6…`) diverged (killed two scope claims the record review resolved as recoverable defects — its four defects "recover OLD_FID, local orthogonal excision, the corrected RNL family, and LR"); the divergence dissolves on the record review's fuller reading but the two claims still get explicit reconciliation in the build.
+
+**The honest wall, precisely:** covariance carries zeros to zeros but cannot make an empty zero locus nonempty; stagewise nonemptiness would not prove a coherent all-rank section. The section is genuinely non-derivable — the same species as every [EQ6] root: geometric inhabitance the rails cannot manufacture.
+
+**Status:** relay 519 (Codex 2): BUILD the zero-defect section on the actual fixed DoR-019/Q-408 positive-source family with common-refinement coherence, per the record review's route — the scope reconciliation as its first item.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

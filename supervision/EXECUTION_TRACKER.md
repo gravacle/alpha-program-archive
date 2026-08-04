@@ -355,7 +355,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 515 | Codex 2 | [5/EQ6] All-rank W1/W4 build | RETURNED — Q-441 (rank-preserving diamond PASSES; cycle-creating stop at the GR-EM joint tests) |
 | 516 | Codex 1 | [5/EQ6] Joint-admission typing | RETURNED — Q-442 (GAP not structural: unsatisfiability REFUTED by direct-sum; route = the excision cert) |
 | 517 | Codex 2 | [5/EQ6] Excision cert + rerun | RETURNED — Q-443 (cert BUILT; diamonds pass conditionally; stop = the zero-defect section) |
-| 518 | Codex 1 | [5/EQ6] Cert check + the zero-defect section (I1-I5) | **SENT** (also self-ran in Codex 2 — self-check only, per 467 precedent) |
+| 518 | Codex 1 | [5/EQ6] Cert check + section | RETURNED — Q-444 (CERT CONFIRMED; stop = geometric inhabitance of the zero-defect equalizer; 518-SC divergence dissolved) |
 | 518-SC | Codex 2 | SELF-CHECK (mispaste run): killed own cert on 2 scope overclaims; section CONSTRUCTIBLE; QUARANTINED to ..._LANE2_SELF_CHECK_QUARANTINE_V001.md (disk hash c6593af6 — NOTE: differs from the lane's reported 5851e8c2, further disqualifying it as record), filename freed | NOTED — NOT A REVIEW OF RECORD |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
