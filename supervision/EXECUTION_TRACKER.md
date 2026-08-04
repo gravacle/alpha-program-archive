@@ -330,6 +330,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 491 | Codex 1 | [5/PKG] Adjudication + witness | RETURNED — Q-413 (NOT_READY: J2/J5/J13 missed; witness layer empty; V002 commissioned) |
 | 492 | Codex 2 | [5/PKG] Package V002 | RETURNED — Q-414 (J2/J5/J13 installed; WITNESS = F_PLDEC family, 15/15; to the hostile cross-check) |
 | 493 | Codex 1 | [5/PKG] Hostile witness check | RETURNED — Q-415 (F_PLDEC KILLED: abstract kernel, circular pi, misstated nonemptiness; PL core survives) |
+| 494 | Codex 2 | [5/PKG] Package V003: the physical witness attempt + Route B formalized (K1-K5) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
