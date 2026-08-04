@@ -12386,6 +12386,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-440 — THE FIRST INHABITANT SURVIVES THE HOSTILE CHECK (E1–E5 all pass — the cycle-creating generator member is VERIFIED); the all-rank gap typed as pure construction: positive-source W1/W4 members passing OLD_FID + RNL + LR, plus ACTUAL common-refinement diamonds; generic batching cannot shortcut it (DoR-019 supplies no generic batching isometry) (2026-08-04, relay 514, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_PASS2_CHECK_AND_ALLRANK_TYPING_LANE1_V001.md`, `166002e9…`, seal verified, mirrors byte-identical. JOINT_EQ6 = PARTIAL.
+
+**Status:** relay 515 (Codex 2): build the positive-source W1/W4 members under the three certificates and execute the actual common-refinement diamonds — the all-rank closure by construction, member by member, no generic shortcut.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

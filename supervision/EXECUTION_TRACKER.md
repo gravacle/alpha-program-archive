@@ -351,7 +351,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 511 | Codex 2 | [5/EQ6] Where-clauses V005 | RETURNED — Q-436 (law-only, bundle-typed; amendment drafted; to final check) |
 | 512 | Codex 1 | [5/EQ6] Where-clauses final check | RETURNED — Q-437 (ALL PASS; the WHERE ruling to the principal) |
 | 513 | Codex 2 | [5/EQ6] Witness hunt pass 2 | RETURNED — Q-439 (the generator member BUILT, first cycle orbit; stop = the joint all-rank family) |
-| 514 | Codex 1 | [5/EQ6] Pass-2 check + all-rank typing (E1-E5) | **SENT** |
+| 514 | Codex 1 | [5/EQ6] Pass-2 check + all-rank typing | RETURNED — Q-440 (MEMBER SURVIVES; all-rank = positive-source W1/W4 + actual diamonds) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
