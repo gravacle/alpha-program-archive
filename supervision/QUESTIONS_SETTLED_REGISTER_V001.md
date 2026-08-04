@@ -12250,6 +12250,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-425 — C1'S BUILD STOPS LAWFULLY AT THE FULL P4 CORE (with cross-orbit bounded geometry and covariant-Hilbertizable W5 behind it); the finite/Ref_path layer builds completely (the seminorm topology, attained bounds, transport certificates); THE CONSTRUCTIBLES CONVERGE ON THE EXHIBITS — the P4 core's data is what the 1A generators supply (2026-08-04, relay 502, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_C1_COMPLETION_BUILD_LANE1_V001.md`, `5203347c…`, seal verified, mirrors byte-identical.
+
+**The sharpened dependency:** the frontier's "constructible" and "new-physics" classes are not parallel tracks — the constructible routes consume the exhibits' data. The 1A primitive-generator exhibit (503, running) is the true keystone: with actual generators in hand, the P4 core populates, C1 completes, then Faithfulness and C3 on its carrier, then the response boundary. [EQ6]'s critical path runs THROUGH the exhibits.
+
+**Status:** awaiting 503. On its return: cross-checks, then C1's completion resumes on the exhibited core.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

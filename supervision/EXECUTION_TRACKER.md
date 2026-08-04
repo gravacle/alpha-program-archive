@@ -338,7 +338,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 499 | Codex 1 | [5/PKG] V005 final check + bedrock | RETURNED — Q-421 (CONFIRMED; MINIMAL SET OF SIX; ruling ready in conditional form) |
 | 500 | Codex 1 | [5] THE WITNESS HUNT | RETURNED — Q-423 (PARTIAL: finite subpackages built; full fibers obstructed; frontier populated from below) |
 | 501 | Codex 2 | [5] Frontier map | RETURNED — Q-424 (6 gaps: 3 constructible ordered, 3 new-physics exhibits; no amendment trigger) |
-| 502 | Codex 1 | [5/EQ6] B_C1_COMPLETION build — the keystone (S1-S5) | **SENT** |
+| 502 | Codex 1 | [5/EQ6] C1 build | RETURNED — Q-425 (finite layer built; stopped at the full P4 core — the exhibits are the keystone) |
 | 503 | Codex 2 | [5/EQ6] The Q-408 primitive-generator exhibit (T1-T4) | **SENT** |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
