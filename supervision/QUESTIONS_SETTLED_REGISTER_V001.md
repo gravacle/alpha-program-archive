@@ -12566,6 +12566,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-460 — CHAIN V003 RETURNS (pending cross-check): the entrance gate installed (Step 1 now opens on the finite package certificate + an ADOPTED A2 + the inhabited actual antecedent, all typed conditional — the chain types the dependency without adopting), and the D_w completeness repair made as a NEW C_ret certificate item propagated through Steps 4–7 (2026-08-04, relay 534, bounded-delta build)
+
+**Artifact:** `STAGE8_TASK5_LICENSED_CONDITIONAL_CHAIN_LANE2_V003.md`, `f2b0b786…`, seal + mirror verified, fence-clean. Builder claims; the cross-check of record (relay 537, Lane 1) gates confirmation.
+
+**Status:** 536 (stage-1 V002 — the three physical faces) loads now for the freed Codex 2; 537 queued for Codex 1.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
