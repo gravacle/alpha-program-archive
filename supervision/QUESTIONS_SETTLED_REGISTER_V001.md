@@ -12020,6 +12020,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-400 — THE SEAM PICTURE IS COMPLETE: all three coefficient-level objects resolve to typed freedoms or unbuilt maps — p_loc[R_K] UNDERDETERMINED, the local Maxwell symbol BLOCKED on the unbuilt covariant local-symbol map, the pushforward CONDITIONAL on the reading-rule fiber; combined with Q-399, EVERYTHING REMAINING FUNNELS INTO ONE CONSTRUCTION — the analytic structure of B_ind (2026-08-03, relay 477, lane-tagged)
+
+**Artifact:** `STAGE8_TASK4B_LOCAL_MAXWELL_SYMBOL_AND_PLOC_RK_LANE2_V001.md`, `70dde1c0…`, seal verified, mirrors byte-identical.
+
+**The convergence, stated once:** the deciding question's residue is now exactly three typed freedoms (the completion fiber, the reading rule, p_loc[R_K]) plus one unbuilt map (the covariant local symbol) — and by Q-399, whether ANY of them reaches alpha is decided by the fixed point's analytic structure, which does not yet exist. Task 4's residue and Task 5's theorem are ONE OBJECT: build B_ind's analytic structure (existence, uniqueness, contraction/monotonicity on the DoR-019 Hilbert space), and its sensitivity result either discharges the freedoms (the fixed point forgets — the verdict finite-side) or types them as ratification physics (the fibers are already prepared). C55 logs the merge; relay 479 commissions the construction.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

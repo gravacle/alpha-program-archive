@@ -549,6 +549,15 @@ custody per LOCKED_PROCESS.md.
                 (DoR-016/017/019/018). Relay 469 commissions THE p-VERDICT
                 COMPUTATION: the deciding question of Task 4, computed symbolically,
                 verdict registered only after cross-verification. ***          SURFACED: yes
+
+2026-08-03  C55 *** TASKS 4b AND 5 MERGE AT THE FIXED POINT (Q-391-Q-400): the response
+                splits exactly (base(p) + nu*flat); the continuum freedom is physical
+                (witness) and completed-level; p_loc's reading rule, p_loc[R_K], and
+                the local Maxwell symbol are typed freedoms/unbuilt maps; B_ind has no
+                ratified analytic structure. ALL residue funnels into Task 5's
+                construction (479): the fixed point either FORGETS the freedoms or
+                types them as ratification physics. OBS-19 pre-registered+confirmed. ***
+                                                                               SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
