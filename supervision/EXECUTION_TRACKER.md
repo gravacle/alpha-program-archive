@@ -324,6 +324,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 485 | Codex 1 | [5/R4] Local-symbol map build | RETURNED — Q-407 (seam+topology built; reader family explicit (chi_K,T); blocked on the kernel realization) |
 | 486 | Codex 2 | [5/R4] Kernel realization | RETURNED — Q-408 (finite calculus BUILT; completed symbol needs 3 certificates incl. THE STITCHING LEVER; fiber unshrunk) |
 | 487 | Codex 1 | [5/R4+R12] Maxwell-symbol certificates | RETURNED — Q-409 (C1/C2 conditional theorems; obstructed at local-kernel estimates + J_ref; C3 partial) |
+| 488 | Codex 2 | [5/R4+R12] J_ref + local-kernel estimates (D1-D5) | LOADED — NOT SENT |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
