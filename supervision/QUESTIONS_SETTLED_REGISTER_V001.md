@@ -12144,6 +12144,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-413 — THE PACKAGE ADJUDICATION: NOT_READY — V001 misses three of the fifteen forced families (J2 the reader equality, J5 the action anchor, J13 the boundary cocycle); the supplied witness layer is TYPE-S EMPTY; abstract ContAdm_020 nonemptiness remains TYPE-U (2026-08-04, relay 491, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_PACKAGE_ADJUDICATION_AND_WITNESS_LANE1_V001.md`, `67c4a588…`, seal verified, mirrors byte-identical.
+
+**Status:** package V002 commissioned (relay 492, Codex 2 — builder repairs): install J2/J5/J13 compliance; construct the witness layer genuinely (the tuple or lawful family) or state the exact inhabitance residue. The witness remains the gate condition for DoR-020.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
