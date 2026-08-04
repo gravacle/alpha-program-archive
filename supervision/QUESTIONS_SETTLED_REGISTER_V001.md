@@ -12204,6 +12204,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-420 — V005 IS HONEST TO THE BONE: the rules typed (partial), every J-family audited individually, NOTHING asserted — and the member is OBSTRUCTED at the same bedrock everything has hit: the NONEMPTY ACTUAL Q-408 PRIMITIVE REFINEMENT GENERATOR FIBER (TYPE-U); the entire continuum edifice now visibly bottoms out at ONE physical object (2026-08-04, relay 498, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_CONTINUUM_PACKAGE_ADOPTION_PROPOSAL_LANE2_V005.md`, `09883a0d…`, seal verified, mirrors byte-identical. READY_FOR_DOR020_RULING = no.
+
+**The convergence, named:** the witness (Q-415), Route A's boundary (Q-416/418), the Maxwell symbol (Q-408/409/410), and now the bound member's proof (Q-420) have ALL stopped at the physical Q-408 realization layer. If this is a theorem — every known obstruction reducing to the one fiber — then DoR-020's honest form is a package conditional on ONE named physical object, and the sealed number becomes that object's trial.
+
+**Status:** relay 499 (Codex 1): the final check of V005 PLUS the consolidation item — prove or refute THE SINGLE-BEDROCK THEOREM: that every open obstruction in the continuum package reduces to the nonemptiness of the Q-408 primitive refinement generator fiber. On PASS with the theorem: DoR-020 goes to the principal in its sharpest possible form.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
