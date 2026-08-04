@@ -12404,6 +12404,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-442 — JOINT ADMISSION IS A GAP, NOT A THEOREM OF IMPOSSIBILITY: joint unsatisfiability is REFUTED by a compatible direct-sum model — the GR–EM marriage is POSSIBLE; the route is one named certificate, the LOCAL_ORTHOGONAL_EXCISION_CERT; one build correction (the contact diamond requires OLD_FID and exclusive-region RNL, not only LR) (2026-08-04, relay 516, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_EQ6_DIAMOND_CHECK_AND_JOINT_ADMISSION_TYPING_LANE1_V001.md`, `6cd40961…`, seal verified, mirrors byte-identical. G1 PASS; G2 KILL (the contact-diamond scoping); ALL_RANK and JOINT_EQ6 partial.
+
+**The unification's first existential verdict:** the three joint tests CAN be satisfied together — exhibited by the direct-sum model — so the two-strata construction is consistent; cycle creation is jointly certifiable in principle, and the remaining work is the excision certificate that makes it certifiable in fact.
+
+**Status:** relay 517 (Codex 2): build the LOCAL_ORTHOGONAL_EXCISION_CERT; correct the contact diamond's requirement set; rerun both cycle-creating diamonds with the certificate in hand.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
