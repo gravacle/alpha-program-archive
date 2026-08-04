@@ -12240,6 +12240,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-424 — THE FRONTIER MAP OF RECORD: six gaps — CONSTRUCTIBLE WITH ROUTE: B_C1_COMPLETION (the local seminorm orbit → bounded-geometry estimates → covariant Hilbertization), B_FAITHFULNESS (ker(Kernbar) after C1 → lower bound or the safe canonical quotient), B_C3_MAXWELL_HODGE (close d on the C1 carrier → spectral gap/closed range → the symbol from P4 coframes); NEW PHYSICS: B_Q408_REFINEMENT (one target-blind actual-Q408 primitive generator per orbit + free-category composition), B_R1_NATURAL (a covariant retained-family section on the enlarged refinement category), B_C2_RESPONSE_BOUNDARY (after 1A/1B/2); the reader = a downstream consequence, not a seventh root; NO amendment trigger — the clauses stand, member DATA is what [EQ6] awaits (2026-08-04, relay 501, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_HUNT_CROSS_CHECK_AND_FRONTIER_LANE2_V001.md`, `b8294e91…`, seal verified, mirrors byte-identical. HUNT_PASS_1 = CONFIRMED.
+
+**The dependency order:** C1 unblocks Faithfulness and C3; 1A/1B are independent exhibits; the response boundary (4) waits on 1A+1B+C1. Amendment becomes live only on an emptiness or type-incompatibility theorem — neither exists.
+
+**Status:** parallel — 502 (Codex 1: the C1 completion build, the route's keystone) and 503 (Codex 2: the 1A primitive-generator exhibit, the first new-physics root, target-blind per orbit).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
