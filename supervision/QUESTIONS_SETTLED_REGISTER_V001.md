@@ -12136,6 +12136,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-412 — THE CONTINUUM PACKAGE IS DRAFTED: eight declared clauses, twelve hostile attacks passed, no member selected; the gate condition stated honestly — RATIFICATION REQUIRES A NONEMPTY PROOF-CARRYING TUPLE OR LAWFUL FAMILY WITNESS (the inhabitance burden of Q-411 accepted as the package's own condition) (2026-08-04, relay 489, lane-tagged)
+
+**Artifact:** `STAGE8_TASK5_CONTINUUM_PACKAGE_ADOPTION_PROPOSAL_LANE2_V001.md`, `65ae8e20…`, seal verified, mirrors byte-identical.
+
+**Status:** relay 491 (Codex 1 — the constraint system's owner): adjudicate the eight clauses against the 15 forced families, and CONSTRUCT THE WITNESS — the proof-carrying tuple (or lawful family witness) inhabiting the joint fiber. A found witness completes the ratification condition; a proven emptiness would be a first-order finding against the package as drafted. Then cross-review → DoR-020.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
