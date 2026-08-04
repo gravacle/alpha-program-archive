@@ -12328,6 +12328,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-433 — TASK 7 ADDED TO THE PLAN (C59, the principal's direction): CONFIRM THE GRAVITY ROLE — the program's founding motivation made its final task; opens after Task 6's sealed number; steps: the gravity-side charter, the boundary-former dynamics, the Einstein-limit test, the OBS-17..20 falsifier battery, the ignition question, the digest (2026-08-04)
+
+**Of record:** Tasks 1–6 untouched (the FINAL-structure discipline holds; 7 extends, nothing renumbers). The Einstein-limit test is typed as the GR-confirmation falsifier — its failure would kill the gravity identification, NOT the alpha result; the two claims stay separable by design. The discoveries digest's standing deferral ("after the full program") now points at 7f.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

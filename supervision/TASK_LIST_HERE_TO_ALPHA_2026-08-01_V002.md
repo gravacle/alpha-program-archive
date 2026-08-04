@@ -224,6 +224,27 @@ TASK 6  AUTHORIZE AND COMPUTE ALPHA                       STATE: BLOCKED ON 5
         a. the six checks (Ward, Gauss, Einstein, causality, positivity, limits)
         b. dC/dK != 0, K_* > 0, seam 8's no-other-root audit    c. rule D2, D3
         d. COMPUTE alpha = 1/(4 pi K_*)
+
+TASK 7  CONFIRM THE GRAVITY ROLE (added C59; opens AFTER Task 6's sealed number)
+        THE MOTIVATION MADE A TASK: the path to alpha was driven by the suspicion that
+        computing it exposes the EM/GR emergence point. Tasks 1-6 UNTOUCHED.
+        a. THE CHARTER: consolidate every gravity-side registered object -- OBS-17/18/19/20
+           and their falsifiers; the where-declarations (Package R's two clauses); the
+           Q-396 completion fiber; the banked doors (port-to-write-history/ignition,
+           joint contraction, completed contraction, B-scalarization, B-network-R,
+           W3-history); the beta-gap metric conversion; the K_square rank detector
+        b. THE BOUNDARY-FORMER DYNAMICS: derive-or-declare what EVOLVES the declared
+           where-structure -- the seat of a gravitational law over the record layer
+        c. THE EINSTEIN-LIMIT TEST: promote Task 6a's Einstein check to a full program
+           item -- does the declared where-structure + record backreaction reproduce
+           Einstein-equation structure in the appropriate limit? (the GR-confirmation
+           falsifier; a failure kills the identification, not the alpha result)
+        d. THE OBS FALSIFIER BATTERY: run every pre-registered OBS-17..20 falsifier
+           against the post-alpha state
+        e. THE IGNITION QUESTION: the port-to-write-history door -- record-formation
+           dynamics; the classical-gravity/entropy intersection (principal's steer)
+        f. THE DISCOVERIES DIGEST AND PUBLIC ASSEMBLY (deferred per standing ruling to
+           full program completion -- which now means after 7e)
 ```
 
 Support, off the plan: machinery repair (pending D4) . Codex verification of reviewer claims .
@@ -581,6 +602,12 @@ custody per LOCKED_PROCESS.md.
                 derivation. Forbidden pre-witness: member binding, computation, the
                 end test. The package took seven gate versions and one killed witness.
                 Relay 500 opens THE WITNESS HUNT. ***                          SURFACED: yes
+
+2026-08-04  C59 *** TASK 7 ADDED (principal's direction): CONFIRM THE GRAVITY ROLE.
+                Tasks 1-6 untouched; 7 opens after Task 6's sealed number. Steps
+                7a-7f: the charter, the boundary-former dynamics, the Einstein-limit
+                test, the OBS falsifier battery, the ignition question, the digest.
+                The program's motivation is now its final task. ***            SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
