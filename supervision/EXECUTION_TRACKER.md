@@ -427,7 +427,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 586 | Codex 3 | [5] Seams V002 | RETURNED — Q-514 (R9 repaired common-member/orbit-covariant; ε=0 typed) |
 | 587 | Dario | [5] Ξ_N V003 | RETURNED — Q-513 (14 clauses; third horn as law; A7 a real obligation; ready for re-review) |
 | 588 | Codex 3 | [5] Ξ_N V003 re-review (R1-R6) | **SENT** |
-| 589 | Dario | [5] Seams V002 confirmation (C1-C3, bounded) | **SENT** |
+| 589 | Dario | [5] Seams V002 confirmation | RETURNED — Q-515 (CONFIRMED; diagonal not zero; the oddness falsifier gained) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

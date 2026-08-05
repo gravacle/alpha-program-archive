@@ -12992,6 +12992,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-515 — SEAMS V002 CONFIRMED BY ITS OWN ATTACKER, WITH A CONSTRUCTIVE BONUS (Step 2: seams half CLOSED): the two-member computation rerun against R9-V002 gives the identical condition at T and T⁻ with solution set THE FULL DIAGONAL {(p,p)} — not {(0,0)}; the old attack's exact mechanism diagnosed ("froze the HOL return while reversing only T_H") and removed by the common-member transport; the orbit carrier re-derived independently (cocycle, equivalences, representative-independence) and shown to remove the trivialization without quotienting sign or magnitude — the second route back to collapse checked and closed. THE NEW-DEGENERACY HUNT: none; the live covariance loophole (both addresses of an orbit forcing p = 0 absent HOL's untyped oddness) does NOT fire — (T7) makes the address the cell's first component, so a and a⁻ are independent cells. **THE CONSTRUCTIVE TURN (unclaimed by the build): with both address-cells formed and the H-side antisymmetry sealed, R9-V002 YIELDS p_Hol(c⁻) = −p_Hol(c) — HOL's log-branch oddness gains a falsifier it did not have, without being discharged.** The ε=0 carriage confirmed route-specific; the 584 law q_{T'} = h_d(g)·q_T reproduced; the stronger covariance genuinely gated. "No self-correction was required this relay, and I say so rather than manufacturing one for symmetry" (2026-08-05 ~19:10, relay 589, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_SEAMS_V002_CONFIRM_DARIO_V001.md` (hash on sidecar), fence-clean.
+
+**Status:** STEP 2 waits only on 588 (the Ξ_N V003 re-review, in flight). On its confirmation: the adoption ruling to the principal, then STEP 3 — the J-II realization family — opens.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
