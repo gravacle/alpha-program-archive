@@ -12906,6 +12906,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-504 — DoR-020-A8 RATIFIED: Γ ON BOTH ROUTES, WITH THE IDENTIFICATION FALSIFIER AS LAW — the H (Loc) assembly builds now in the lanes; the Ξ_N where-clause candidate drafts through the full gate for the principal's separate ruling; wherever both routes are formed their periods must agree, a displayed disagreement voiding the disagreeing construction(s); both A7 branches ride both routes; two-sidedness is a carriage condition (2026-08-05, principal's ruling; decision file sealed; C68)
+
+**Status:** 578 (Codex 3): THE Γ BUILD, H ROUTE — assembly-first, the four joints displayed one at a time, with the two conservative audit repairs folded in. 579 (Dario): THE Ξ_N CANDIDATE draft through the full gate. Parallel.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

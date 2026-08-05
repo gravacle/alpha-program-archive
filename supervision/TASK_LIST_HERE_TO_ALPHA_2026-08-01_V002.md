@@ -661,6 +661,13 @@ custody per LOCKED_PROCESS.md.
                 branch; the number or a falsifier decides. No selection.
                 Architectural note: a what-lives-where declaration — possibly
                 Task 7's business. ***                                          SURFACED: yes
+
+2026-08-05  C68 *** DoR-020-A8 ADOPTED (Q-503/Q-504): Γ CARRIED ON BOTH
+                ROUTES — the H (Loc) assembly builds now; the Ξ_N where-clause
+                candidate drafts for a separate gate; the identification
+                falsifier is law: commonly-formed cells must agree. The
+                program's central object gets two independent constructions
+                and one agreement requirement. ***                              SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
