@@ -12960,6 +12960,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-511 — Ξ_N V002 RE-REVIEW: DEFECTIVE AT ADOPTION STRENGTH, WITH THE THIRD HORN TYPED AS A TRADEOFF (Step 1 of the closing board, first half): **THE THIRD HORN FOUND AND CORRECTLY TYPED** — every nonzero scale-invariant member is DISCONTINUOUS AT ZERO, which the review itself calls "a precise tradeoff, not by itself a contradiction": discontinuity at zero is the signature of a topological charge, a property to type as law, not a kill. THE REAL KILLS: the physical support-stratum factorization UNBUILT (positive-scale invariance a coherent YOURS candidate without it); the signed-scale collapse conditional on the UNINHABITED G5 sign-odd source action; "locally constant away from 0" false; D-side units mistyped by transfer from the cochain carrier; the rank-preserving transport a PLACEHOLDER (not the exact tau_f^Loc square); the cycle-creating transport carrying a WRONG SEAL CLAIM; and sharpest — **the A7 repayment biconditional is a TAUTOLOGY imposing no neutrality whatsoever** (a genuine drafting defect). Relative holonomy correctly consumed; the winding class typed (V001's linear winding proof inapplicable to the zero-homogeneous type — a new proof needed); U^Hol = RESIDUE: a route-neutral orientation carrier available and a bare T-indexed candidate exhibited, NO member inhabited. READY_FOR_RULING = no (2026-08-05 17:21, relay 585, SOL, 872 lines, registrar-read of the horn typing and the clause board)
+
+**Artifact:** `STAGE8_TASK5_XI_N_V002_REREVIEW_LANE3_V001.md`, `ef2e4e8e…`, seal + mirror verified, fence-clean.
+
+**Status:** STEP 1 remains IN FLIGHT pending 584 (Dario's seams review). The consolidated board then decides the V003 shape and what actually reaches the ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
