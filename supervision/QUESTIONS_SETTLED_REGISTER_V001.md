@@ -12788,6 +12788,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-489 — THE COEFFICIENT FACE SPLITS EXACTLY LIKE J2 DID (the A6 pattern one level up): **BUILT on A_RP⁺** — the rank-one chi^Mx/T^Mx face constructed with the lambda-transport displayed (the coefficient genuinely invariant under j_f^C, computed on the nose) on arrows with m_T ≠ 0 at both ends — and **OBSTRUCTED(O1,O2) on the full diamond family**: (O1) no all-stage nonvanishing theorem for m_T exists in sealed stock — at m_T = 0 stages the scalar is 0/0-unformed, and PHYSICALLY acyclic stages have NO Maxwell sector (nothing to compare); (O2) the scalar/bottom codomain gap at target-only new-cycle positions — no sealed arrow Bot^resp → R, and the full scalar leg is post-scope THERE BY ADOPTED LAW (A6). The lane explicitly did NOT repeat the D3 substitution ("the exact missing object, not a reuse of the J2 equation"). ALSO DELIVERED: J2 fully DISPLAYED on A_RP⁺ (repair 2); the definitive pi_Mx/Loc typing with the prior-occurrence table (repair 3); F_PLDEC rerun clean on the dependency order; self verb audit clean (2026-08-05 06:44, relay 561 corrected to LANE3, SOL BUILD, 909 lines, registrar-read of O1/O2 and the transport chain)
+
+**Artifact:** `STAGE8_TASK5_EQ6_J7_FACE_AND_J2_DISPLAY_LANE3_V001.md`, `9c74ed3d…`, seal + mirror verified, fence-clean.
+
+**The decisive question is now FACTUAL:** does any actual diamond of I_F demand the face at a position where it cannot exist (an m_T = 0 stage or a new-cycle-only position), or is the obstruction vacuous on the actual tower? Relay 563 (Codex 3): THE DIAMOND CENSUS — symbolic classification only. Then 564 (Dario): the J7-contract adjudication consuming the census + its own FC6 determination. **Status:** 562 (FC6) still running in Dario.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

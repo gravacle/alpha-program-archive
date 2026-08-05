@@ -398,9 +398,11 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | — | Fable | [5] THE SEVEN FABLE-RECHECKS (Q-473/475/476/479/481/484/485) | DONE — Q-486 (all stand; 2 findings folded into the membership preflight; Sol obligations retired) |
 | 559 | Codex 3 | [5/EQ6] THE MEMBERSHIP THEOREM | RETURNED — Q-487 (PROVEN on one 13-component tuple; pending Dario review) |
 | 560 | Dario | [5/EQ6] Membership review of record | RETURNED — Q-488 (DEFECTIVE: 4 kills incl. the missing coefficient face; architecture validated; registrar corrected) |
-| 561 | Codex 3 | [5/EQ6] The three mathematical repairs (G1-G4) | **SENT** to Codex 3 (principal's lane choice; custody clean — Dario reviews); filename-tag steer CONFIRMED PASTED (LANE3 output) |
+| 561 | Codex 3 | [5/EQ6] The three repairs | RETURNED — Q-489 (face BUILT on A_RP+ / OBSTRUCTED beyond; J2 displayed; typing definitive) |
 | 562 | Dario | [5/EQ6] THE FC6 DETERMINATION: the open physical family term (E1-E5) | **SENT** |
-| 563 | Codex 3 | [5/EQ6] Membership V002 (items 4-7 + reassembly) | PLANNED (after 561 review + 562) |
+| 563 | Codex 3 | [5/EQ6] THE DIAMOND CENSUS (N1-N4; also discharges D1's consumer enumeration) | LOADED — NOT SENT |
+| 564 | Dario | [5/EQ6] J7-contract adjudication (consumes 562+563) | PLANNED |
+| 565 | Codex 3 | [5/EQ6] Membership V002 (items 4-7 + reassembly) | PLANNED (after 564) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
