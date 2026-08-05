@@ -393,7 +393,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 554 | Codex 1 | [5/EQ6] Diamonds review | RETURNED — Q-481 (CONFIRMED; contract corrected to the A6 square; completion GAP folded into 555) |
 | 555 | Codex 2 | [5/EQ6] THE J2 BUILD (V002) | RETURNED — Q-483 (J2 PROVEN; J7 BUILT; completion V2 PROVEN; pending review) |
 | 556 | Codex 1 | [5] C_ret constructed | RETURNED — Q-482 (CONSTRUCTED; interval-convex; closedness + modulus proven; pending review) |
-| 557 | Codex 2 | [5] C_ret review of record (Y1-Y5; SPARK-VERDICT) | **SENT** (spark) |
+| 557 | Codex 2 | [5] C_ret review | RETURNED — Q-484 (CONFIRMED; Steps 3-4 discharged pending Sol re-checks) |
 | 558 | Codex 1 | [5/EQ6] J2/J7/completion review of record (Z1-Z6; SPARK-VERDICT) | **SENT** (spark) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |

@@ -12750,6 +12750,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-484 — [SPARK-VERDICT] C_ret IS CONFIRMED — STEPS 3–4 OF THE TWELVE-STEP MAP STAND DISCHARGED (pending Sol re-checks): the review recomputed the branch identification, every certificate field (the interval/convex arm matching the artifact's own boundary; the closedness witness as a genuine (A2) route to D_COMPLETE_w; the modulus compatibility), the exclusions (Q-448 and the nonclosed-domain attack separately excluded), and the escrow audit (nothing executes); fresh attack passed; one conditional note consistent with the registered AC-alternate caveat. CONSEQUENCE: the chain's Steps 5–7 (boundedness, return closure, branch completeness) are now [EQ6]-conditional ONLY — the C_ret side of their conditionality is satisfied (2026-08-05 00:20, relay 557)
+
+**Artifact:** `STAGE8_TASK5_CRET_REVIEW_LANE2_V001.md`, `4f3e4099…`, seal + mirror verified, fence-clean. **SPARK-VERDICT; Sol re-check obligation logged** (Y2's field recomputations).
+
+**Status:** 558 (the J2 review) is the last verdict in flight. On its confirmation, the membership theorem is attemptable and Task 5's remaining ledger is: membership (Sol) → axiom re-adjudication → DoR-020-A2 (principal) → witness certification (checkpoint) → escrow ruling (principal).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
