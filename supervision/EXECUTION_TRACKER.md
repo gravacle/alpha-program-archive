@@ -383,9 +383,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 544 | Codex 2 | [5/EQ6] Stage-1 V003 review of record | RETURNED — Q-469 (J12+J15 CONFIRMED; J4 face: corrigendum A3-c1 + factorization gap) |
 | 545 | Codex 1 | [5/EQ6] Projector determination | RETURNED — Q-470/Q-471 (sector locality PROVEN; A5 ratified; mate cert named) |
 | 546 | Codex 1 | [5/EQ6] Stage-1 V004: J4 repairs | RETURNED — Q-472 (BUILT, content-checked; pending review) |
-| 547 | Codex 1 | [5/EQ6] Adjoint mate cert + projector cert V003 (N1-N4) | **SENT** (spark) |
+| 547 | Codex 1 | [5/EQ6] Adjoint mate cert + projector V003 | RETURNED — Q-474 (rank-preserving mate PROVEN; cycle-creating blocked; cert built conditional; A5 void-1 clean-on-scope pending classification) |
 | 548 | Codex 2 | [5/EQ6] Stage-1 V004 review | RETURNED — Q-473 (CONFIRMED; ALL THREE FACES STAND; spark-verdict, Sol re-check logged) |
-| 549 | Codex 1 | [5] Chain V004 cross-check (SPARK-VERDICT protocol) | PLANNED (behind 547) |
+| 549 | Codex 1 | [5] Chain V004 cross-check (W1-W4; SPARK-VERDICT) | LOADED — NOT SENT |
+| 550 | Codex 2 | [5/EQ6] Cert V003 review + A5 void-1 classification + J2 route (S1-S5; SPARK-VERDICT) | WRITTEN — QUEUED (load after 549 sent) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
@@ -394,6 +395,7 @@ STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AF
 
 | 415 | Codex 1 | [4a] Full generality | RETURNED — Q-333 (transducer: no universal law; weights invariant at full generality; all converges on 416) |
 
+PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian's MacBook Pro") holds a stale cleanroom copy; lanes must treat the archive workspace as the verification path of record (already relay policy).
 LANE-MODEL STATE (updated 2026-08-04 evening): 544/545 in flight are the LAST SOL RUNS (gpt-5.6-sol ultra). From the NEXT lane turn both lanes switch to GPT-5.3-codex-spark xhigh. SPARK DISCIPLINE RE-ARMED: builds spark-tolerable; every verdict-grade registration carries a SPARK-VERDICT tag with a Sol re-check obligation logged for budget reset; the FABLE CHECKPOINT-REVIEW RULE is mandatory (full registrar reads; direct math review before rulings, escrow openings, witness certifications, and spark-vs-spark disagreements).
 GPT-5.3-codex-spark, extra-high effort (5.6 Sol exhausted to <10%). Standing
 discipline: builds proceed on spark; ALL verdict-grade results (kill/confirm

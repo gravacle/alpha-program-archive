@@ -12672,6 +12672,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-474 — CERT V003 BUILDS WITH ONE CONDITIONAL FIELD; THE MATE SPLITS BY SCOPE; A5 SURVIVES ITS FIRST VOID-1 CHECK (all pending review): the rank-preserving Hodge adjoint mate is PROVEN (full naturality on the W3 scope, covering the reciprocal-loop and refinement generators); the CYCLE-CREATING adjoint-mate class remains BLOCKED — the same TYPE-U gap, now carried in cert V003 as an explicitly conditional field with adjoint-scope separation recorded; no finite J2 witness fixed. **A5_VOID1: clean on the adopted scope** — the reported WITNESS is the pre-A5 countermodel family (the abstract structure that proved non-derivability), not actual contact data; classification requires review confirmation. Spark-thin artifact (206 lines; the dual-form final line is spark sloppiness clarified by the body). PATH HAZARD LOGGED: an iCloud duplicate Documents tree holds a stale cleanroom copy (~1,765 files); canonical file verified present and hash-consistent; of-record custody unaffected (archive-path verification) (2026-08-04 ~23:19, relay 547, SPARK BUILD)
+
+**Artifact:** `STAGE8_TASK5_EQ6_PROJECTOR_CERT_V003_LANE1_V001.md`, `0bef9a00…`, seal + mirror verified, fence-clean.
+
+**The open question that decides J2's route:** does the rank-preserving mate + the J15 projected mate SUFFICE to pose J2 on the actual tower, or does J2 wait on the cycle-creating mate cert? Assigned to the review. **Status:** 549 (chain V004 cross-check → Codex 1) and 550 (cert V003 review → Codex 2), both SPARK-VERDICT protocol.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
