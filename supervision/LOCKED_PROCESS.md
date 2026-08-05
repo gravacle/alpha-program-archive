@@ -173,3 +173,15 @@ stops there. Registrar duty on any dual-run event: snapshot the first return's b
 supervision mirror IMMEDIATELY on report, before any other action. (In the 531 event the second
 run overwrote the first in the shared worktree before the snapshot landed; the first return's
 bytes survive only as its reported hash 2c8bb753.)
+
+## THE RECORD-FIRST COMMISSIONING RULE (added 2026-08-05, after the seed arc)
+Any relay that demands proof of a value-like or coupling-like property (a nonvanishing, a
+magnitude class, an anchor, a threading) must OPEN with the determination question — does the
+sealed stock decide this at all? — framed explicitly against the program's founding record-level
+differences: couplings are OUTPUTS of self-consistency (K = B_ind(K)), not stock contents; laws
+carry addresses/supports; no selection; the record carries conservation laws, not source laws.
+Only if the stock decides it does a proof demand follow; otherwise the property is typed
+(derivable / authorable / end-test-structural / obstructed) and carried accordingly. Origin: the
+seed arc (Q-493–Q-498) reached END_TEST_STRUCTURAL correctly but through continuum-first
+commissions; the determination-first framing (the 541 lesson) applies to VALUES, not only objects.
+The registrar checks every commission against this rule as it checks fence gates.
