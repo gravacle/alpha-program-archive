@@ -12704,6 +12704,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-478 — THE SCOPED MATE IS PROVEN, AND THE OBSTRUCTION SPEAKS PHYSICS (pending review): the fresh Codex 1 session derived J2's minimal cycle-creating demand — ONE projected old-image square (SCOPED_J2_SQUARE / SCOPE_MATCHED) — and PROVED it from A5's harmonic-projector descent + the confirmed J15 r_f^Bot/eta_f pair + the old-image discipline. The full Delta-adjoint intertwiner stays blocked with a PHYSICAL reading: forcing it would inject Maxwell/Hodge data across cycle creation via an FC4-violating upward lift, and the artifact cites nonzero reciprocal-loop transport data at the Q-408 witness point WHERE THE FULL PHYSICAL J2 SQUARE FAILS while the projected law holds — if confirmed, the reader is the Maxwell composite ON THE OLD-IMAGE SECTOR ONLY, and the new-cycle component lawfully carries non-composite content. INTERNAL TENSION FOR THE REVIEW: V1 claims (PROVABLE) no J2 demand beyond the projected square; V3's ledger still lists the full Delta-adjoint component as open for full-I_F posability — the review must decide whether J2's ratified statement actually quantifies over that component (a possible over-demand, echoing J4) or the scoped form is J2's true content. Conditional MACHINERY-APPEAL noted. SESSION NOTES: the reported preflight hash mismatch was SPURIOUS (the review file's hash verified unchanged, 32129c4d…); the lane also continued past its claimed preflight failure instead of stopping — a discipline deviation, harmless here, logged (2026-08-05 ~00:52 lane clock 23:52, relay 551/V002 bootstrap, SPARK BUILD from a fresh session)
+
+**Artifact:** `STAGE8_TASK5_EQ6_SCOPED_MATE_CERT_LANE1_V001.md`, `088eccd9…`, seal + mirror verified, fence-clean.
+
+**Status:** relay 553 (Codex 2): the review of record + the J2-scope adjudication. The membership-guard consequence rides on it: if scoped-J2 is J2's true content, FC10's remaining gap is buildable NOW.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
