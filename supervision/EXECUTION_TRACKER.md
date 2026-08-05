@@ -422,8 +422,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 581 | Codex 3 | [5] Ξ_N review + displays | RETURNED — Q-507 (DEFECTIVE as drafted; the corrected AFFINE-RELATIVE holonomy derived in-review; V002 path exact) |
 | 582 | Codex 3 | [5] THE COMMON SEAMS | RETURNED — Q-510 (orientation family BUILT no-selection; corestriction displayed; F3 partial collapsing into J-II) |
 | 583 | Dario | [5] Ξ_N V002 | RETURNED — Q-509 (the topological-charge typing; 11 clauses; parity rule; re-review queues behind 582) |
-| 584 | Dario | [5] Common seams review (P1-P5) | **SENT** |
+| 584 | Dario | [5] Common seams review | RETURNED — Q-512 (S1 sound; (R9) DEGENERATE — repair derivable; one common blocker = J-II) |
 | 585 | Codex 3 | [5] Ξ_N V002 re-review | RETURNED — Q-511 (DEFECTIVE at adoption strength; third horn = tradeoff; the tautology defect; U^Hol residue) |
+| 586 | Codex 3 | [5] Seams V002: the (R9) repair + ε=0 carriage (T1-T3) | LOADED — NOT SENT |
+| 587 | Dario | [5] Ξ_N V003: the defect list closed (U1-U6) | WRITTEN — QUEUED (load after 586 sent) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
@@ -437,8 +439,8 @@ PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian
 ## TASK 5 CLOSING BOARD (adopted 2026-08-05 ~17:20; the registrar calls out each step on completion)
 | Step | Item | Status |
 |---|---|---|
-| 1 | 584+585 returns → consolidated debt board | IN FLIGHT |
-| 2 | Ξ_N adoption ruling (principal) | — |
+| 1 | 584+585 returns → consolidated debt board | **COMPLETE** (Q-512) |
+| 2 | Derivable repairs + Ξ_N V003 + review → THEN the adoption ruling (principal) | IN FLIGHT (586/587) |
 | 3 | THE J-II REALIZATION FAMILY (the last unsized construction) | — |
 | 4 | Γ inhabits; identification falsifier checked where both routes form | — |
 | 5 | R4–R7 completion (period certs; steps 4/5 reissue; lattice transfer) | — |

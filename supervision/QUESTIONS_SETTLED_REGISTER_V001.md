@@ -12968,6 +12968,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-512 — STEP 1 OF 10 COMPLETE — THE CONSOLIDATED BOARD, WITH THE DECISIVE (R9) FINDING: **(584)** SEAMS = DEFECTIVE(+3, one decisive): the S1 orientation family itself SOUND (re-derived, no-selection genuine, FC4 held, the 580 no-go respected, the r=1 void explicit) — but **THE IDENTIFICATION FALSIFIER AS RENDERED IS DEGENERATE: (R9) quantifies universally over Triv_[a], and two members with equal r and opposite sigma force 2·mu·p = 0 ⟹ p = 0 — a THEOREM that both routes vanish on every commonly-formed cell.** The addressless-zero pathology, defeated at the scalar seam, was reinstated one level up at the identification seam. A8's text requires no such quantification; the repair is DERIVABLE (the build's own third option). BONUS FINDING: q_T is family-dependent, so A7's carriage condition is well-defined on the epsilon = 1 branch and NOT on epsilon = 0 — a typing gap to close before Task 6. PARITY_DISCHARGE = PARTIAL with the rule itself NARROWED (constrains rules, not constructions — the broad reading would have wrongly deleted a real HOL obligation); F3_COLLAPSE = CONFIRMED; two Dario self-corrections of record (the parity narrowing; the corestriction phrasing — "it was harder on my finding than I was, and it was right"). **THE CONSOLIDATED BOARD: both routes gated by ONE COMMON BLOCKER — the J-II realization family; A8 can bite on nothing today, and when it can, only on epsilon = 0** (2026-08-05 ~17:45, relays 584+585 closing Step 1, registrar-read of both)
+
+**Artifact:** `STAGE8_TASK5_SEAMS_REVIEW_DARIO_V001.md` (hash on sidecar), fence-clean.
+
+**Status — the closing board amended:** Step 2 now reads: the derivable repairs ((R9) form; epsilon-0 carriage typing) + Ξ_N V003 + its review, THEN the ruling. Relays: 586 (Codex 3: seams V002 with the (R9) repair + the carriage typing) and 587 (Dario: Ξ_N V003 per the Q-511 defect list). Step 3 (J-II) follows in Codex 3.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
