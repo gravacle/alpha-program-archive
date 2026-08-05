@@ -384,7 +384,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 545 | Codex 1 | [5/EQ6] Projector determination | RETURNED — Q-470/Q-471 (sector locality PROVEN; A5 ratified; mate cert named) |
 | 546 | Codex 1 | [5/EQ6] Stage-1 V004: J4 repairs | RETURNED — Q-472 (BUILT, content-checked; pending review) |
 | 547 | Codex 1 | [5/EQ6] Adjoint mate cert + projector cert V003 (N1-N4) | **SENT** (spark) |
-| 548 | Codex 2 | [5/EQ6] Stage-1 V004 review of record (R1-R5; SPARK-VERDICT protocol) | LOADED — NOT SENT |
+| 548 | Codex 2 | [5/EQ6] Stage-1 V004 review of record (R1-R5; SPARK-VERDICT protocol) | **SENT** (spark) |
 | 549 | Codex 1 | [5] Chain V004 cross-check (SPARK-VERDICT protocol) | PLANNED (behind 547) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
