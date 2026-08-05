@@ -12656,6 +12656,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-472 — THE FIRST TWO SPARK BUILDS LAND (both pending verdict-grade review): **stage-1 V004** — the corrected simultaneous action (H1-7) installed with the full cocycle computation shown; the H6 intermediate-stage regression cancels identically; the FACTORIZATION EQUALITY Rel_g∘Rel_f = Rel_gf PROVEN by explicit intermediate construction; FC3/FC5 claimed supplied; V6 absorbed under the corrected action (registrar content-check: 270 substantive lines, real mathematics, terser than Sol-era artifacts — the review of record must recompute, not trust). **Chain V004** — case lattice claimed complete, modulus cert claimed added (2m51s spark run; registrar hash/fence verified). Both artifacts fence-clean, seals verified (2026-08-04 evening, relays 546/540, SPARK BUILDS — reviews of record follow)
+
+**Artifacts:** `STAGE8_TASK5_EQ6_JOINT_FINITE_ASSEMBLY_STAGE1_LANE1_V004.md` `9bf34e27…`; `STAGE8_TASK5_LICENSED_CONDITIONAL_CHAIN_LANE2_V004.md` `1da746c3…`.
+
+**Status:** 547 (mate cert + projector V003) loads for Codex 1; 548 (stage-1 V004 review — SPARK-VERDICT protocol: full registrar read + tag + Sol re-check obligation) queued for Codex 2; 549 (chain V004 cross-check, same protocol) queued for Codex 1 behind 547.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
