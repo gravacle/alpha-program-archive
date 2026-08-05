@@ -12688,6 +12688,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-476 — [SPARK-VERDICT] CERT V003 CONFIRMED; A5 STANDS; J2'S ROUTE DECIDED: the review recomputed the rank-preserving mate (the reciprocal-loop arrow classes are genuinely inside the covered W3 scope), audited the field ledger (the conditional field correctly separated, nothing promoted), RECONSTRUCTED the L2-5..8 countermodel and classified it — a pre-A5 abstract family demonstrating logical non-implication, NOT actual record-surface contact data — so **DoR-020-A5 STANDS through its first void-1 examination**; and ruled **J2_POSABLE = after_mate_cert**: rank-preserving W3 arrows are covered NOW; cycle-creating arrows wait on the cycle-creating adjoint mate cert; the S5 fresh attack proved the mate gap is EXACT (not inferable by extension). The build target is therefore scoped: the mate on exactly the arrow classes and fields J2 quantifies over — 547 already proved the FULL operator intertwiner is ill-posed on that class (2026-08-04 ~23:29, relay 550)
+
+**Artifact:** `STAGE8_TASK5_EQ6_CERT_V003_REVIEW_LANE2_V001.md`, `32129c4d…`, seal + mirror verified, fence-clean. **SPARK-VERDICT; Sol re-check obligation logged** (S3's countermodel classification above all — it guards a ratified DoR).
+
+**Status:** 551 (the scoped cycle-creating mate cert → Codex 1); 552 (the partial joint diamonds on the confirmed five-component tuple → Codex 2). Task 5's remaining unknowns: these two, then J2, J7, membership, axiom re-adjudication, C_ret.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
