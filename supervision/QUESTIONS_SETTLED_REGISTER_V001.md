@@ -12898,6 +12898,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-503 — AUDIT V002 CONFIRMED-WITH-TWO-CONSERVATIVE-DEFECTS; THE ROUTE ANALYSIS LANDS WITH CARRY_BOTH RECOMMENDED: the demanded repairs verified by the reviewer's own counterexamples (the isometry scores exactly 1 — correctly refusing the fixed-point-free translation; the quarter-contraction exactly 1/4); the F_PLDEC dependency order traced independently; **the identity-branch cell recomputed with the strengthening finding: TWO-SIDEDNESS IS NOW A CONDITION OF BRANCH CARRIAGE — A7's own falsifier voids a branch whose computation exits its lattice, so the (M2) repair is load-bearing for A7 itself.** Two residual defects, both conservative: (M9) dropped V001's substantive collinearity condition (leaving a_sec choosable to make q = q tautological for chi ≠ 0 — restore it ALONGSIDE the metric identity); Q-mode booked as debt though vacuous under the (M2) reissue — DARIO'S OWN self-attributed defect (the 574 disjunction's arms were not independent; V002 applied both and the first emptied the second; filed against the recommendation, not the execution). **THE ROUTE ANALYSIS: H reuses the most confirmed machinery, its blocking object a CONSTRUCTION; Hol evades the E_C confinement but partly repays it as A7_HOL_BRANCH_COMPAT, its blocking object Xi_N a PRINCIPAL'S AMENDMENT lanes cannot schedule; nothing sealed orders them; they are NOT KNOWN TO AGREE — so CARRY_BOTH (tagged YOURS) carries two candidate periods with the identification question held DELIBERATELY AS A FALSIFIER: wherever both are formed they must agree — a built-in cross-check on Γ itself** (2026-08-05 ~15:10, relay 577, OPUS, registrar-read; one transient classifier outage on the lane's first write, retried clean, no partial file)
+
+**Artifact:** `STAGE8_TASK5_AUDIT_V002_REVIEW_DARIO_V001.md` (hash on sidecar), fence-clean.
+
+**Status:** the ROUTE RULING goes to the principal now (carry both / H / Hol); the two conservative repairs fold into the next Codex 3 relay; if carry-both, the Xi_N where-clause candidate drafting is commissioned alongside the Loc assembly-first build.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
