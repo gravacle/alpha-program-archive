@@ -12650,6 +12650,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-471 — DoR-020-A5 RATIFIED: THE CONTACT-REDUCING LAW IS LAPLACIAN REDUCING — [E_C,N, Delta_N^Hdg] = 0 at every admitted stage and degree; contact content is spectrally closed under the record's Hodge dynamics; canonical functional-calculus descent follows; six void conditions of record with the first directly falsifiable (one actual contact vector with a noncontact Laplacian component voids the member); supersedes A1's clause-completeness (2026-08-04, principal's ruling; decision file sealed; C65)
+
+**With A5 adopted the projector certificate's remaining gap is ONE buildable object:** `CYCLE_CREATING_HODGE_ADJOINT_MATE_CERT` (all-arrow naturality, TYPE-U). Relay 547 (Codex 1, queued behind 546): build the mate cert, then assemble projector cert V003 complete (fixed-stage Hodge + sector locality + within-cycle charge + A5 reduction + rank-preserving naturality derived + the mate). **Status:** 540 on clipboard (Codex 2, first spark run); 546 then 547 queued for Codex 1.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

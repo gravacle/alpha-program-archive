@@ -640,6 +640,13 @@ custody per LOCKED_PROCESS.md.
                 equation forces v_f' = v_f + psi_M - psi_N o rho_f for the
                 simultaneous family action (review 1470ae6c, H1-7..9). Substance
                 unchanged; principal may veto. ***                             SURFACED: yes
+
+2026-08-04  C65 *** DoR-020-A5 ADOPTED (Q-470/Q-471): CONTACT LAPLACIAN
+                REDUCING — [E_C, Delta^Hdg] = 0; contact is spectrally closed
+                under the record's Hodge dynamics. AUTHORED (second member
+                since DoR-019); one commutator, no coefficient; six void
+                conditions, the first directly falsifiable on actual data;
+                supersedes A1's clause-completeness. ***                        SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
