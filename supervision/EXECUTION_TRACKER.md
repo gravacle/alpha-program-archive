@@ -414,6 +414,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 573 | Codex 3 | [5] Chain conformance audit | RETURNED — Q-499 (threshold LOCAL_SHADOW; period candidate displayed; 4 steps re-derivable) |
 | 574 | Dario | [5] Audit review + convergence | RETURNED — Q-500 (DEFECTIVE+2 repairable; ONE-SIDEDNESS CURED; debt sharpened to Γ; 7-relay program) |
 | 575 | Codex 3 | [5/EQ6] Family V003 + E_C | RETURNED — Q-500 (E_C AUTHORABLE, branches asymmetric; void-12 exposed and struck) |
+| 576 | Codex 3 | [5] AUDIT V002: d^per modulus repair + period gate + branch-carried lattice + route board (D1-D5) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

@@ -12884,6 +12884,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-501 — DoR-020-A7 RATIFIED: THE E_C FREEDOM CARRIED, BOTH BRANCHES — the record's boundary-condition slot left to the computation: the fixed point runs per branch (bulk-flux vs interface-flux), the sealed number or an earlier falsifier decides, no selection; a stock derivation deciding the branch retires the ruling in favor of the derived branch; the architectural reading (a what-lives-where declaration, possibly Task 7's) of record, non-binding (2026-08-05, principal's ruling; decision file sealed; C67)
+
+**Status:** relay 576 (Codex 3): AUDIT V002 — the one-line d^per modulus repair, the PERIOD MODULUS COMPATIBILITY gate on the direct branch, the Step-6 carrier retype (residues 3/6/9/12), the branch-carried E_C threaded through the period lattice per A7. Then the Γ route choice, then the seven-relay re-derivation program.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

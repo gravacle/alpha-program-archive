@@ -654,6 +654,13 @@ custody per LOCKED_PROCESS.md.
                 new-cycle composite is a constructibility boundary, both
                 lawful extension routes proven closed. J2 now posable on the
                 full covered arrow ledger. ***                                  SURFACED: yes
+
+2026-08-05  C67 *** DoR-020-A7 ADOPTED (Q-500/Q-501): THE E_C FREEDOM CARRIED,
+                BOTH BRANCHES — the record's boundary-condition slot (is the
+                loop's flux bulk or interface?) is not chosen but computed per
+                branch; the number or a falsifier decides. No selection.
+                Architectural note: a what-lives-where declaration — possibly
+                Task 7's business. ***                                          SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
