@@ -12952,6 +12952,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-510 — THE COMMON SEAMS BUILD (pending review): **ORIENTATION_ADDRESSES = BUILT as the honest family** — for every primitive orbit [a], the signed carrier R_or,[a] and the WHOLE family Triv_[a] ≅ R_(>0) × Σ_[a], with mu_T(a^-) = −mu_T(a) covariant, NO sign or scale member selected, and target-only new cycles receiving their own orbits — the seam that was provably zero if addressless now exists as a carried family (the no-selection principle executed at the final seam); **CORESTRICTION = DISPLAYED** (J-I's automatic half formalized); **F3_NONIDENTITY = PARTIAL, honestly** — the represented transports conditional on inhabited S22/S22a, the reciprocal LOC-RL and q=2 LOC-RF base squares unproved, the physical S22–S25 uninstantiated: F3's remainder COLLAPSES INTO THE J-II DEBT (the same realization-family inhabitance), confirming the common-seam picture; the structural result kept PARTIAL "rather than upgraded from repeated declarations." The lane also handled the register drift correctly (Q-509 noted, not consumed). Route debts restated (2026-08-05 16:49, relay 582, SOL, 1,592 lines, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_COMMON_SEAMS_LANE3_V001.md`, `5de94e16…`, seal + mirror verified, fence-clean.
+
+**Status:** the paired cross-reviews: 584 (Dario reviews the seams) and 585 (Codex 3 re-reviews Ξ_N V002). After both: the consolidated route/debt board and the Ξ_N ruling to the principal. The whole remaining Task 5 construction is now: J-II's realization family (one object, both routes' shared remainder) + the route-specific declarations.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
