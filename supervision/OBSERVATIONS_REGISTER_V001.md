@@ -779,3 +779,16 @@ certificates (metric fidelity, off-diagonal Riesz pairing, support-local range).
 static sentence ("gravity says where; EM says how the where holds on") has a dynamic
 form: cycle creation requires joint GR-EM certification, and the current builds stop
 exactly at that threshold. Task 7c's structural germ, on the record.
+
+## OBS-21 (PRE-REGISTERED 2026-08-05, unconfirmed) — CHARGE QUANTIZATION AS A STRUCTURAL THEOREM
+The claim: on the record surface, the source-to-loop threading assignment is a topological charge —
+integer-valued by structure (the winding lattice; periods mod 2π; discontinuity at zero and at every
+support-birth boundary as the DEFINING property, not a defect) — so charge quantization is derived,
+not imposed. Source: the Ξ_N V003 clause (Z3) and its physical reading ("which loop a source
+encircles cannot vary continuously to no loop at all"), `STAGE8_TASK5_XI_N_CANDIDATE_DARIO_V003.md`.
+STATUS: a typed clause in a DRAFT candidate — pending re-review (588), pending the principal's
+adoption, inhabitance gated. CONFIRMATION CONDITIONS: (i) the candidate adopted; (ii) the threading
+map inhabited on actual data; (iii) the discrete classes surviving the sealed-number computation.
+KILL CONDITIONS: the re-review refutes the typing; or inhabitance fails structurally; or the end
+test's discrete sector proves empty. Companion retro-reading if confirmed: the seed's
+end-test-structural typing was forced (a topological charge is unreachable continuously from zero).
