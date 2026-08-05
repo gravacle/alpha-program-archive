@@ -12890,6 +12890,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-502 — AUDIT V002 LANDS CLEAN (pending review): the d^per modulus REPAIRED with Dario's two counterexamples installed as correctly-scored permanent regressions (the isometry now 1; the quarter-contraction now 1/4); the PERIOD_MODULUS_COMPATIBILITY gate stated on the direct branch; Step 6 retyped (carrier commitment; residues exactly 3/6/9/12); the case lattice CARRIED OVER BOTH A7 BRANCHES covariantly (the identity branch's reciprocal vanishing entering as a lattice consequence, q = 0 in-lattice — the two-sided trial preserved per branch); THE ROUTE BOARD of record: the H route (harmonic through Loc^C — the named debt) vs the Hol route (through the unauthored Xi_N + the (HOL1b)–(HOL2) interfaces), each × both branches, each cell's unformed interfaces exact; F_PLDEC sweep: neither the reader, nor p_loc, nor the false anchor, nor any threshold/fixed-point consequence touches the period build anywhere; ROUTE_CHOSEN = none, E_C_BRANCH_CHOSEN = none — all authority preserved (2026-08-05 ~14:20, relay 576, SOL, 1,137 lines, registrar-read incl. §5.2 and the F_PLDEC board)
+
+**Artifact:** `STAGE8_TASK5_CHAIN_CONFORMANCE_AUDIT_LANE3_V002.md`, `44202c06…`, seal + mirror verified, fence-clean.
+
+**Status:** 577 (Dario): the V002 review + the comparative route analysis (the ruling's basis; the choice stays the principal's). Then: the route ruling → the seven-relay re-derivation → membership V002 → the A2 package.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
