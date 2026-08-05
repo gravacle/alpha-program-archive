@@ -12720,6 +12720,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-480 — DoR-020-A6 RATIFIED: J2 IS THE SCOPED PROJECTED LAW on cycle-creating arrows (full J2 a typed post-scope condition); J2 IS NOW POSABLE ON THE FULL COVERED ARROW LEDGER. Relay 555 commissions THE J2 BUILD itself — the equality posed and proven on the actual tower under the adopted row (2026-08-05, principal's ruling; decision file sealed; C66)
+
+**Status:** 555 (J2 build → Codex 2, free now); 554 (diamonds review) still in flight in Codex 1. After both: J7, then the membership theorem (held for Sol).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

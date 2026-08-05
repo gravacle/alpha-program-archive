@@ -647,6 +647,13 @@ custody per LOCKED_PROCESS.md.
                 since DoR-019); one commutator, no coefficient; six void
                 conditions, the first directly falsifiable on actual data;
                 supersedes A1's clause-completeness. ***                        SURFACED: yes
+
+2026-08-05  C66 *** DoR-020-A6 ADOPTED (Q-479/Q-480): CYCLE-CREATING J2
+                RE-SCOPED to the projected old-image law (proven + confirmed);
+                full J2 retained as a typed post-scope condition — the
+                new-cycle composite is a constructibility boundary, both
+                lawful extension routes proven closed. J2 now posable on the
+                full covered arrow ledger. ***                                  SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
