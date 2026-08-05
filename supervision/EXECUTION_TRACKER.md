@@ -388,7 +388,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 549 | Codex 1 | [5] Chain V004 cross-check | RETURNED — Q-475 (CONFIRMED; the chain thread closes at V004; Sol re-check logged) |
 | 550 | Codex 2 | [5/EQ6] Cert V003 review | RETURNED — Q-476 (CONFIRMED; A5 STANDS; J2 after mate cert; Sol re-check logged) |
 | 551 | Codex 1 | [5/EQ6] The scoped cycle-creating mate cert (V1-V4) | **SENT** (spark) |
-| 552 | Codex 2 | [5/EQ6] The partial joint diamonds, typed open slots (D1-D5) | **SENT** (spark) |
+| 552 | Codex 2 | [5/EQ6] The partial joint diamonds | RETURNED — Q-477 (BUILT; completion theorem proven; pending review) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

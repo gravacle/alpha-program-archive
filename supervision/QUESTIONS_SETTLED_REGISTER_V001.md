@@ -12696,6 +12696,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-477 — THE PARTIAL JOINT DIAMONDS BUILD (pending review): FC11's five-component partial fiber-product term assembled on the CONFIRMED stock — the factorization equality and corrected action carried at the J4 position, the contact cocycle through the A4 pushout, response and package-bottom faces cited to their confirmed sources; the J2/J7 positions carried as TYPED OPEN SLOTS with the interface contract stated per diamond component; and the COMPLETION THEOREM proven with a gap audit: IF J2/J7 faces satisfying exactly the D2 contract are supplied, the partial term completes to the full FC11 term — no additional structural coherence is derivable-as-needed from sealed sources beyond the stated contract (2026-08-04 ~23:38, relay 552, SPARK BUILD, registrar content-check: 214 substantive lines)
+
+**Artifact:** `STAGE8_TASK5_EQ6_PARTIAL_JOINT_DIAMONDS_LANE2_V001.md`, `5539b53d…`, seal + mirror verified, fence-clean.
+
+**What this means:** FC11's shape is now fixed — the diamonds are no longer an unknown; they are a socket waiting for two plugs whose exact specification is written down. **Status:** review (553 → Codex 1) queues behind 551; Codex 2 idle pending 551's return.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
