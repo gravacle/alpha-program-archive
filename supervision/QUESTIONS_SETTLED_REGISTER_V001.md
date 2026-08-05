@@ -12836,6 +12836,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-495 — LOC-NATURALITY: SUBSCOPE (identities only) — AND THE THIRD INDEPENDENT CONVERGENCE ON THE PHYSICAL Loc: the lemma is proven on the identity-arrow subcategory with NO nonidentity equality refuted; the (F1) companion holds FULL on linear A_iso with generic reciprocal and Ref_path descent open at named points ((Q12-RL), (Q18)); the exact remaining J2-premise debt: nonidentity F3, F1-descent beyond linear A_iso, and THE SEALED MAP-LEVEL Loc CONSTRUCTION/LINEARITY. With Q-493 (the seed's subject term undefined for lack of Loc) and Q-494 (the seed gap and the J2 premise gap = one object), THREE independent artifacts now terminate at the same unbuilt map. **THE PHYSICAL Loc IS THE LAST CONSTRUCTIVE OBJECT OF THE MEMBERSHIP ROUTE** — its build would simultaneously: define (M5)'s subject term (the seed condition well-posed), supply the nonidentity naturality base cases, complete J2's rank-preserving premises, and give the coefficient face its inhabitance basis (2026-08-05 08:59, relay 568, SOL, 894 lines, registrar-read of the verdict boards)
+
+**Artifact:** `STAGE8_TASK5_EQ6_LOC_NATURALITY_LANE3_V001.md`, `474bf721…`, seal + mirror verified, fence-clean.
+
+**Status:** relay 569 (Codex 3): THE LOC BUILD — with the determination discipline embedded (derive if derivable; full-gate candidate if authorable; obstruction if obstructed); Dario reviews. This is the last big construction of the membership chain.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
