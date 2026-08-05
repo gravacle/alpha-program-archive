@@ -12772,6 +12772,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-487 — THE MEMBERSHIP THEOREM IS PROVEN ON THE SOL LANE (pending the cross-family review): `FiniteCoherent_020^V002(F_actual)` certified JOINTLY on ONE thirteen-component tuple over I_F — the arrow classes enumerated exactly (A_RP full J2; A_CC the A6 old-image square with D_f^old displayed; K_f^new carried as post-scope and NOT smuggled into the antecedent); the fifteen amended J-rows walked one by one on the single tuple (§2.4); FC11 via COMPLETION_THEOREM_V2 with the six-generator fiber-product term including the contact cocycle; COMPLETED_OBJECT_IN_F_ACTUAL = none; both Q-486 findings honored IN the build (every domain displayed; the killed diamonds pointer named and avoided at its line 296); no-clobber preflight verified. STEP1_DISCHARGE_READY = yes_pending_axiom_adoption (2026-08-05 ~01:20, relay 559 V002, SOL BUILD on the fresh Codex 3 lane, 562 lines, registrar-read of the ledger, §2.2, §2.4 heads)
+
+**Artifact:** `STAGE8_TASK5_EQ6_MEMBERSHIP_THEOREM_LANE3_V001.md`, `0d00c9cf…`, seal + mirror verified, fence-clean.
+
+**Status:** relay 560 (Dario, Opus 5 ultra — THE FIRST CROSS-FAMILY REVIEW OF RECORD) loads now with placeholders filled. On its confirmation: the axiom re-adjudication (V002 vs the 34 constraints, vacuity now discharged) → DoR-020-A2 to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

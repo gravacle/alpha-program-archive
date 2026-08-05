@@ -396,8 +396,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 557 | Codex 2 | [5] C_ret review | RETURNED — Q-484 (CONFIRMED; Steps 3-4 discharged pending Sol re-checks) |
 | 558 | Codex 1 | [5/EQ6] J2/J7/completion review | RETURNED — Q-485 (CONFIRMED; the build phase complete; membership attemptable, HELD FOR SOL) |
 | — | Fable | [5] THE SEVEN FABLE-RECHECKS (Q-473/475/476/479/481/484/485) | DONE — Q-486 (all stand; 2 findings folded into the membership preflight; Sol obligations retired) |
-| 559 | Codex 3 | [5/EQ6] THE MEMBERSHIP THEOREM (V002 bootstrap) | **SENT** (Sol, fresh lane) |
-| 560 | Dario | [5/EQ6] Membership review of record (D1-D6; CROSS-FAMILY, Opus 5 ultra; bootstrap) | DRAFTED — two placeholders (register head + 559's hash) fill on 559's return |
+| 559 | Codex 3 | [5/EQ6] THE MEMBERSHIP THEOREM | RETURNED — Q-487 (PROVEN on one 13-component tuple; pending Dario review) |
+| 560 | Dario | [5/EQ6] Membership review of record (D1-D6; CROSS-FAMILY, Opus 5 ultra; bootstrap) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
