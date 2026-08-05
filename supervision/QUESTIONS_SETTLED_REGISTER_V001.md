@@ -12664,6 +12664,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-473 — [SPARK-VERDICT] STAGE-1 V004 CONFIRMED — ALL THREE FACES OF STAGE 1 NOW STAND CONFIRMED: J4 (the corrected simultaneous action; H6 rerun verbatim and cancelling; the factorization equality with an adversarial v_gf probe surviving; consumer table re-derived), joining J12 and J15 (confirmed at Q-469 by Sol). FC ledger of record: FC2/FC3/FC4/FC5/FC13 SUPPLIED; FC10 PARTIAL (awaits J2/J7); FC11 OPEN (the joint diamonds); FC12 STRUCK. The membership theorem's remainder is now exactly: cert V003 → J2 → J7 → the diamonds (2026-08-04 evening, relay 548)
+
+**Artifact:** `STAGE8_TASK5_EQ6_STAGE1_V004_REVIEW_LANE2_V001.md`, `2709ee3c…`, seal + mirror verified, fence-clean. **SPARK-VERDICT: verdict rendered on gpt-5.3-codex-spark; corroborated by the registrar's independent content-check of V004 (Q-472); SOL RE-CHECK OBLIGATION LOGGED — re-verify R1/R2 (the cocycle and factorization recomputations) at the next Sol window.**
+
+**Status:** Codex 2 idle pending 547's return (its next job: the cert V003 review); 549 (chain V004 cross-check) takes the next Codex 1 window.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
