@@ -12928,6 +12928,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-507 — THE Ξ_N DRAFT IS DEFECTIVE — AND THE REVIEW DERIVES THE CORRECTED FORM: XI_N_DRAFT = DEFECTIVE, both mandated displays GAP as drafted, READY_FOR_RULING = no. The structural kills: (X1) the codomain — repaired to the integral lattice geometric holonomy requires, R-LINEARITY IS NOT TYPEABLE (a continuous additive map into a lattice is zero); (X2) exp(i·u_z(A_N)) is ILL-TYPED ON AN AFFINE CONNECTION (no canonical zero) and wrong on the full real carrier; (X5) no inhabited D-side unit class, no real-to-integral passage; (X6) the claimed sealed D-side transport is not sealed. **BUT Section 4 derives THE MAXIMAL LAWFUL IDENTIFICATION: holonomy displays cleanly in RELATIVE form — exp(i·u_z(A_1 − A_0)) on INTEGRAL cycles, with the 2π⟨z,n⟩ winding ambiguity typed (D1-9). The record has re-derived gauge theory's own fine print: holonomy on differences, periods mod 2π, integral cycle arguments.** The one-new-map economy may survive in corrected affine-relative form — Ξ_N as a map to the integral lattice with relative holonomy and typed winding (2026-08-05 15:56, relay 581, SOL, 675 lines, registrar-read of N1 and the D1 display chain)
+
+**Artifact:** `STAGE8_TASK5_XI_N_REVIEW_AND_DISPLAYS_LANE3_V001.md`, `c9b62076…`, seal + mirror verified, fence-clean.
+
+**Status:** BOTH routes now honestly gapped with exact repair paths — H: four named interfaces (Dario's gap audit 580 in flight); HOL: the corrected affine-relative redraft (Ξ_N V002, Dario consuming the Section-4 display). The combined picture and the next commissioning wait on 580's return.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
