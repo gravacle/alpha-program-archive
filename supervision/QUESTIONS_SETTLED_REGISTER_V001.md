@@ -12804,6 +12804,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-491 — THE FC6 DETERMINATION UNIFIES THE ENDGAME'S GAPS: **FC6_CLOSURE = AUTHORABLE, GUARD_ROW = scope_qualified, DOWNSTREAM CONSEQUENCE = NONE.** The open term named exactly — a nonempty covariant zero-defect section of Cert_LOE over actual positive-source primitives, governing cycle-rank-increasing arrows on RNL-relevant exclusive pairs ONLY (rank-preserving subdivision: defects vanish identically; zero-source first-cycle: vacuous). A TIGHTENING the certificate missed: the K1 theorem (Q-446/Q-449) discharges the alpha/delta conjuncts on the same-carrier horn the actual diamonds inhabit — Def_fid = 0 with the verified reason (attachment leaves old paths untouched, the two g_A4 arguments are literally the same functionals; no isometry premise, hence no W3 limit) — the residue is STRICTLY SMALLER than stated. Both authorability limbs sealed verbatim ("not derivable" via the asymmetric countermodel, minors checked; "not structurally impossible" via the flip family, zeta = 0 forced by parity). **THE UNIFICATION: the residue is exactly THE ASYMMETRIC PRIMITIVE = the guard's own B2.6 attack — Dario's D1 and D2 are ONE GAP seen from two directions.** E3: nothing downstream breaks (the sector-mixer exclusion survives via FC6's second unqualified conjunct + Q-434; A4/A5/A6 voids bite on violation, not unproven; the only cost is the all-rank cascade, already PARTIAL and upstream of [EQ6]). TWO DARIO SELF-CORRECTIONS logged: the FC6 half of D2 was a rewording defect, not a membership blocker (the J2 half remains fatal; MEMBERSHIP stays DEFECTIVE); the non-obstruction witness is the flip family, not the direct-sum model (2026-08-05 ~07:30, relay 562, OPUS, registrar-read)
+
+**Artifact:** , hash on file below, seal verified, fence-clean.
+
+**REGISTRAR DECISION OF RECORD (process, surfaced):** the authored closure candidate (§2.5, four alternatives, six void conditions) is BANKED, NOT BROUGHT TO RULING — scope-qualified FC6 costs nothing downstream, so no adoption is needed for Task 5; the principal may order adoption any time the all-rank cascade is wanted. **Status:** 564 (manifests) running in Codex 3 — its B2.6 rerun will exhibit the unified residue object; 565 (Dario's J7 adjudication) loads when 564 returns.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

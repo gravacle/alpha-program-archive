@@ -399,7 +399,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 559 | Codex 3 | [5/EQ6] THE MEMBERSHIP THEOREM | RETURNED — Q-487 (PROVEN on one 13-component tuple; pending Dario review) |
 | 560 | Dario | [5/EQ6] Membership review of record | RETURNED — Q-488 (DEFECTIVE: 4 kills incl. the missing coefficient face; architecture validated; registrar corrected) |
 | 561 | Codex 3 | [5/EQ6] The three repairs | RETURNED — Q-489 (face BUILT on A_RP+ / OBSTRUCTED beyond; J2 displayed; typing definitive) |
-| 562 | Dario | [5/EQ6] THE FC6 DETERMINATION: the open physical family term (E1-E5) | **SENT** |
+| 562 | Dario | [5/EQ6] THE FC6 DETERMINATION | RETURNED — Q-491 (AUTHORABLE, banked; scope-qualified suffices; D1+D2 unified into the asymmetric primitive) |
 | 563 | Codex 3 | [5/EQ6] THE DIAMOND CENSUS | RETURNED — Q-490 (DEMANDED_UNFORMABLE on actual diamonds; manifests missing; amendment required) |
 | 564 | Codex 3 | [5/EQ6] THE MANIFEST BUILD (P1-P4: consumer arrows + diamond family + census completion) | LOADED — NOT SENT |
 | 565 | Dario | [5/EQ6] J7-contract adjudication (consumes 562+563+564) | PLANNED (behind 562) |
