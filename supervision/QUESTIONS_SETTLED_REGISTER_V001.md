@@ -12844,6 +12844,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-496 — THE LOC BUILD RETURNS A THEOREM: **F² CANNOT THREAD THE LOOP — THE COUPLING ENTERS THROUGH HOLONOMY OR NOT AT ALL.** (B5c): for EVERY member of the minimal F²-compatible full-gate candidate family (C1), the loop pairing vanishes IDENTICALLY — q_T,N(L) = ⟨HRoute(L), c⟩ = 0 — a universal operator identity over the whole family (fourteen void conditions; no member selected; L_F2's A_RP⁺ support EMPTY for every candidate). The ONLY route to a nonzero coupling is a NEW map Hol_N: D → im(P_H) — a genuine Wilson-period/holonomy object with its own provenance, units, covariance, restriction, and falsifiers, defining a DIFFERENT enlarged family (B7); without independent construction it is "a hidden holonomy counterterm, not localization." The A1 flat-holonomy attack seals the fence: equal curvature + equal characteristic class do not identify connections with inequivalent flat holonomy — F² data cannot be relabeled as a period. MACHINERY-APPEAL: sealed stock supplies neither inhabitant nor emptiness theorem for the gate family. Naturality stays identity-only; the seed stays undefined; END_TEST untouched. **The physical statement of record: the record surface has derived the Aharonov–Bohm structure as a theorem — the fine-structure coupling cannot come from the Maxwell action alone; it requires the record analog of a Wilson line** (2026-08-05 09:40, relay 569, SOL, 1,325 lines, registrar-read of B5c–B7 and the holonomy-scope board)
+
+**Artifact:** `STAGE8_TASK5_EQ6_THE_LOC_BUILD_LANE3_V001.md`, `b53d9e93…`, seal + mirror verified, fence-clean.
+
+**THE DECISIVE NEXT QUESTION:** DoR-020-A1's adopted U(1) BUNDLE-WITH-CONNECTION member natively carries holonomy — does Hol_N DERIVE from the A1 bundle member's own holonomy along the path/current correspondence, making the Wilson period ADOPTED LAW ALREADY, or is Hol_N a new authored member? Relay 570 (Dario): the cross-family review of the Loc build + the Hol provenance determination. **Status:** the J7 ruling, membership V002, and the A2 text all shape themselves around this answer.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
