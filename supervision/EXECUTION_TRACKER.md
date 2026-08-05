@@ -382,10 +382,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 543 | Codex 2 | [5/EQ6] The Maxwell/Hodge projector cert | RETURNED — Q-468 (LICENSE DERIVED; blocked on spec error + reducing theorem) |
 | 544 | Codex 2 | [5/EQ6] Stage-1 V003 review of record | RETURNED — Q-469 (J12+J15 CONFIRMED; J4 face: corrigendum A3-c1 + factorization gap) |
 | 545 | Codex 1 | [5/EQ6] Projector determination | RETURNED — Q-470/Q-471 (sector locality PROVEN; A5 ratified; mate cert named) |
-| 546 | Codex 1 | [5/EQ6] Stage-1 V004: J4 repairs on the corrected action (M1-M4) | WRITTEN — QUEUED (behind 545) |
+| 546 | Codex 1 | [5/EQ6] Stage-1 V004: J4 repairs on the corrected action (M1-M4) | LOADED — NOT SENT |
 | 547 | Codex 1 | [5/EQ6] Adjoint mate cert + projector cert V003 (N1-N4) | WRITTEN — QUEUED (behind 546) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
-| 540 | Codex 2 | [5] Chain V004: degenerate branch + modulus cert (P1-P3) | LOADED — NOT SENT (FIRST SPARK RUN) |
+| 540 | Codex 2 | [5] Chain V004: degenerate branch + modulus cert (P1-P3) | **SENT** (first spark run) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
 
 STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AFTER full program completion, not before.
