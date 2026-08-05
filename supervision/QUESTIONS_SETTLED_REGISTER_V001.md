@@ -12984,6 +12984,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-514 — THE (R9) REPAIR LANDS (Step 2, first half pending confirmation): the identification falsifier rewritten as the COMMON-MEMBER, ORBIT-COVARIANT comparison — the reviewer's two-member regression rerun against the repaired form and NO LONGER forcing p = 0; A8's text honored (nothing quantified that A8 does not name); the ε=0 carriage TYPED as route-specific full-cell carriage with the stronger orbit covariance correctly GATED rather than claimed; the register drift handled correctly again (Q-513 seen, not consumed) (2026-08-05 ~18:40, relay 586, SOL, 892 lines, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_COMMON_SEAMS_LANE3_V002.md`, `2525096b…`, seal + mirror verified, fence-clean.
+
+**Status:** the two closing re-reviews of Step 2 dispatch as a pair — 588 (Codex 3: the Ξ_N V003 re-review) and 589 (Dario: the seams V002 confirmation, bounded). Step 2 completes on both confirmations + the adoption ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
