@@ -12618,6 +12618,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-467 — STAGE-1 V003 BUILDS ON THE ADOPTED LAW (pending review of record): all three faces BUILT — J4 as the A3 relation-span with a FULL CONSUMER TABLE typing every consumer groupoid-invariant / equivariant-family / member-sensitive (Gate 1–4 and Q-243/279/309 shadows invariant because flat increments have zero finite active jet; action value and off-section germ correctly member-sensitive; no physical reader selected), J12 as the A4 signed pushout in the additive response category (response depends only on the pushout class; finite and completed pushouts agree on the built scope), J15 as the contravariant mate with variance NOT exported to non-carrying entries. CONTACT_TWIST_SEEN = none (A4 void-5 live and empty); CLASH_FOUND = none. Builder: Lane 1 (role swap of record); review of record goes to Lane 2. Stage 2 remainder: physical J2 (awaiting the projector cert), J7, joint diamonds (2026-08-04, relay 542, registrar-read incl. the consumer table and §4.1)
+
+**Artifact:** `STAGE8_TASK5_EQ6_JOINT_FINITE_ASSEMBLY_STAGE1_LANE1_V003.md`, `a46beae2…`, seal + mirror verified, fence-clean.
+
+**Status:** relay 544 (the V003 review of record — Codex 2, queued behind 543, AHEAD of 540). If 544 confirms, FC2/FC3 and the three faces stand CONFIRMED and the membership theorem re-run waits only on J2/J7/diamonds.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
