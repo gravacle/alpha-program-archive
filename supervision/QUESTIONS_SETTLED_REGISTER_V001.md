@@ -12944,6 +12944,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-509 — Ξ_N V002 DRAFTS AS A NEW MATHEMATICAL SHAPE — THE TOPOLOGICAL-CHARGE TYPING: Dario re-derived both kill horns against its own V001 (continuous-additive-into-discrete → connected image → {0}; R-linear kills rays), named the error "a type error of exactly the kind I audit others for," and replaced it structurally: **Ξ_N is a SCALE-INVARIANT, DISJOINT-SUPPORT-ADDITIVE STRATIFIED ASSIGNMENT — not a homomorphism** — doubling a current does not change which loop it threads; disjoint sources thread independently; scale invariance is precisely what lets a nonzero map land in a discrete lattice (the ray collapses to a point). THE SEQUENCE OF RECORD: the surface has now forced, in order, the Aharonov–Bohm requirement, affine-relative holonomy valued in R/2πZ (real-log extraction GATED), and the topological-charge typing of the threading map — gauge theory's skeleton re-derived piece by piece, never imported. Units separated from integrality (the pairing dimensionless by the 580 derivation; integrality not a unit property); the cycle-creating downward equation WRITTEN; **U^Hol faced with THE PARITY RULE: any rule discharging U^H must discharge U^Hol — the draft deliberately making its own route no cheaper.** Eleven clauses; the eight voids re-audited (V3 stated-but-unrunnable, V8 to the stopping board with content kept in the lead); two V001 defects self-disclosed in the verb audit; nothing adopted (2026-08-05 ~17:00, relay 583, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_XI_N_CANDIDATE_DARIO_V002.md` (hash on sidecar), fence-clean.
+
+**Status:** the V002 re-review (584 → Codex 3) queues behind 582 (the common seams, in flight). After both: each route's debt is one named object, and the Ξ_N adoption ruling comes to the principal with the corrected candidate at evidence grade.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
