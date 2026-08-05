@@ -417,7 +417,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 576 | Codex 3 | [5] AUDIT V002 | RETURNED — Q-502 (modulus repaired, regressions scored; branch-carried lattice; route board stated) |
 | 577 | Dario | [5] Audit V002 review + route analysis | RETURNED — Q-503 (repairs confirmed; 2 conservative defects; CARRY_BOTH recommended with the identification falsifier) |
 | 578 | Codex 3 | [5] THE Γ BUILD, H ROUTE: assembly-first, four joints (E1-E5) | **SENT** |
-| 579 | Dario | [5] THE Ξ_N CANDIDATE: full-gate draft (W1-W4) | LOADED — NOT SENT |
+| 579 | Dario | [5] THE Ξ_N CANDIDATE: full-gate draft (W1-W4) | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
