@@ -12812,6 +12812,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-492 — THE TWO RETURNS INTERLOCK AND NAME THE THREE FINAL GATES: **(564 V002)** the native consumer registry COMPLETE (10 rows/17 names; P0 confirms the B2.6/clause-(vi) unification); geometric manifest and diamond family PARTIAL_GENERATED behind the surface realization bridge, the mixed/asymmetric cells, and an extensional exhaustion theorem; UNFORMABLE_SET exact on the certified schemas; D-disj and D-contact contain demanded-unformable positions. **(565, Dario)** F1(c) typing PASS (the double-Loc origin traced to projector-cert line 156; Dario self-correction); F1(b) J2 display KILL — the chain is complete but premise (F3) `Loc_M ∘ eta_f = j_f^C ∘ Loc_N` EXISTS NOWHERE (only d/delta naturality was ever proven; the debt moved one factor deeper); F1(a) face DEFECTIVE with real content — **A_RP⁺ NOT ESTABLISHED NONEMPTY: no stage anywhere has m_T ≠ 0 proven** ("cycle present ⟹ m_T ≠ 0" expressly rejected); O1 upgraded to a FORCING on the acyclic branch (H = {0} ⟹ m_T = 0) with a separate undetermined branch; O2's sole scalar route is the reader's shadow — F_PLDEC-FORBIDDEN, not missing; the J7 amendment candidate stated (two-sorted intensional support, four residues, six voids) with inhabitance awaiting A SEED THEOREM; **the amendment does not rescue FC11 on any actual cycle-creating diamond — D3 stands either way**, so FC11's treatment folds into the DoR-020-A2 axiom text. **(F4 correction of my framing, adopted):** only THREE of the six episodes amended ratified demands (J4, J2, the J7 candidate); J15 and within-cycle locality were overreach against law that held; FC6 was a reading — "the ratified law has mostly held"; one principle in content, needing a three-tier authority rule lest tier two become self-authorization (2026-08-05 ~08:00, relays 564 V002 + 565, registrar-read of both)
+
+**Artifacts:** `STAGE8_TASK5_EQ6_MANIFESTS_LANE3_V001.md` `6cc774e2…`; `STAGE8_TASK5_EQ6_J7_REVIEW_AND_ADJUDICATION_DARIO_V001.md` (hash in its sealed sidecar), both seal-verified, fence-clean.
+
+**THE THREE FINAL GATES OF MEMBERSHIP:** (1) THE SEED THEOREM — m_T ≠ 0 at some actual stage: the finite-level form of the program's central nonzero-coupling question; its failure would be first-order physics; (2) the Loc-naturality lemma; (3) FC11's lawful treatment of demanded-unformable positions — an axiom-text question for A2. **Status:** relay 566 (Codex 3): the two lemmas. The J7 ruling holds until the seed theorem lands (its inhabitance clause is empty without it).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

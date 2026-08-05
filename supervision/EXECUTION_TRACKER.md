@@ -401,8 +401,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 561 | Codex 3 | [5/EQ6] The three repairs | RETURNED — Q-489 (face BUILT on A_RP+ / OBSTRUCTED beyond; J2 displayed; typing definitive) |
 | 562 | Dario | [5/EQ6] THE FC6 DETERMINATION | RETURNED — Q-491 (AUTHORABLE, banked; scope-qualified suffices; D1+D2 unified into the asymmetric primitive) |
 | 563 | Codex 3 | [5/EQ6] THE DIAMOND CENSUS | RETURNED — Q-490 (DEMANDED_UNFORMABLE on actual diamonds; manifests missing; amendment required) |
-| 564 | Codex 3 | [5/EQ6] THE MANIFEST BUILD (P1-P4) | PREFLIGHT-STOPPED (stale head Q-490 vs Q-491 — discipline worked); V002 reissued, LOADED |
-| 565 | Dario | [5/EQ6] Review of the three repairs + J7 adjudication, intensional (F1-F5) | **SENT** |
+| 564 | Codex 3 | [5/EQ6] THE MANIFEST BUILD (V002) | RETURNED — Q-492 (native registry COMPLETE; geometric family partial behind three named objects) |
+| 565 | Dario | [5/EQ6] Repairs review + J7 adjudication | RETURNED — Q-492 (typing PASS; J2 premise gap; SEED THEOREM named; FC11 folds into A2; F4 count correction adopted) |
+| 566 | Codex 3 | [5/EQ6] THE TWO LEMMAS: seed theorem + Loc-naturality (L1-L4) | LOADED — NOT SENT |
 | 566 | Codex 3 | [5/EQ6] Membership V002 (items 4-7 + reassembly) | PLANNED (after 565) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
