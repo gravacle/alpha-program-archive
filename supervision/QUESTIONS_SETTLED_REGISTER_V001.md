@@ -12726,6 +12726,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-481 — [SPARK-VERDICT] THE DIAMONDS CONFIRMED; THEIR CONTRACT CORRECTED TO THE A6 SQUARE — THREE-WAY CONVERGENCE: the five-component partial term verified on two explicit common-refinement diamonds (C1-14, C2-4 recomputed) and the contact cocycle through the pushout; but the D2 contract OVER-DEMANDS — it asked for full cycle-creating J2, and the reviewer's corrected contract is EXACTLY the DoR-020-A6 scoped square (adopted minutes earlier, independently); the completion theorem is GAP until re-proven against the corrected contract. The scoped square now stands as: proven (551), confirmed (553), ruled (A6), and independently re-derived as the diamonds' true demand (554) (2026-08-05 00:00, relay 554 — registrar-read; thin artifact, content verified coherent)
+
+**Artifact:** `STAGE8_TASK5_EQ6_DIAMONDS_REVIEW_LANE1_V001.md`, `fa3ab255…`, seal + mirror verified, fence-clean. **SPARK-VERDICT; Sol re-check obligation logged** (U1's two recomputed diamonds).
+
+**Status:** relay 555 amended to V002 — the J2 build now carries the corrected contract explicitly and re-proves the completion theorem against it (K3b). One relay closes J2 + J7 + the diamonds' gap.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
