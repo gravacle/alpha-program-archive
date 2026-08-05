@@ -390,7 +390,7 @@ STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AF
 
 | 415 | Codex 1 | [4a] Full generality | RETURNED — Q-333 (transducer: no universal law; weights invariant at full generality; all converges on 416) |
 
-LANE-MODEL STATE (2026-08-04): both lanes back on gpt-5.6-sol xhigh (budget reset observed in both windows); spark-verdict tagging suspended while Sol holds.
+LANE-MODEL STATE (updated 2026-08-04 evening): 544/545 in flight are the LAST SOL RUNS (gpt-5.6-sol ultra). From the NEXT lane turn both lanes switch to GPT-5.3-codex-spark xhigh. SPARK DISCIPLINE RE-ARMED: builds spark-tolerable; every verdict-grade registration carries a SPARK-VERDICT tag with a Sol re-check obligation logged for budget reset; the FABLE CHECKPOINT-REVIEW RULE is mandatory (full registrar reads; direct math review before rulings, escrow openings, witness certifications, and spark-vs-spark disagreements).
 GPT-5.3-codex-spark, extra-high effort (5.6 Sol exhausted to <10%). Standing
 discipline: builds proceed on spark; ALL verdict-grade results (kill/confirm
 calls, witness certifications, escrow openings) carry SPARK-VERDICT tags in
