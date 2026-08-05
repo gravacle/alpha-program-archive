@@ -390,6 +390,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 551 | Codex 1 | [5/EQ6] The scoped mate cert (fresh session) | RETURNED — Q-478 (SCOPED_MATE PROVEN; full-square failure witness; spurious preflight mismatch logged) |
 | 552 | Codex 2 | [5/EQ6] The partial joint diamonds | RETURNED — Q-477 (BUILT; completion theorem proven; pending review) |
 | 553 | Codex 2 | [5/EQ6] Scoped mate review + J2-scope adjudication (T1-T5; SPARK-VERDICT) | LOADED — NOT SENT |
+| 554 | Codex 1 | [5/EQ6] Diamonds review + contract-vs-scoped-J2 audit (U1-U5; SPARK-VERDICT) | WRITTEN — QUEUED (load after 553 sent) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
