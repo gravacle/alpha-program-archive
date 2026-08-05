@@ -396,7 +396,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 557 | Codex 2 | [5] C_ret review | RETURNED — Q-484 (CONFIRMED; Steps 3-4 discharged pending Sol re-checks) |
 | 558 | Codex 1 | [5/EQ6] J2/J7/completion review | RETURNED — Q-485 (CONFIRMED; the build phase complete; membership attemptable, HELD FOR SOL) |
 | — | Fable | [5] THE SEVEN FABLE-RECHECKS (Q-473/475/476/479/481/484/485) | DONE — Q-486 (all stand; 2 findings folded into the membership preflight; Sol obligations retired) |
-| 559 | Codex 3 | [5/EQ6] THE MEMBERSHIP THEOREM: F_actual on one tuple (M1-M5; SOL; bootstrap) | LOADED — NOT SENT |
+| 559 | Codex 3 | [5/EQ6] THE MEMBERSHIP THEOREM (V002: hardened empty-account bootstrap, absolute paths, step-0 access check) | LOADED — NOT SENT |
 | 560 | Dario | [5/EQ6] Membership review of record (CROSS-FAMILY, Opus 5 ultra) | PLANNED (after 559 returns) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
