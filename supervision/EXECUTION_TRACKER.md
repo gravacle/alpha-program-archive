@@ -395,6 +395,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 556 | Codex 1 | [5] C_ret constructed | RETURNED — Q-482 (CONSTRUCTED; interval-convex; closedness + modulus proven; pending review) |
 | 557 | Codex 2 | [5] C_ret review | RETURNED — Q-484 (CONFIRMED; Steps 3-4 discharged pending Sol re-checks) |
 | 558 | Codex 1 | [5/EQ6] J2/J7/completion review | RETURNED — Q-485 (CONFIRMED; the build phase complete; membership attemptable, HELD FOR SOL) |
+| — | Fable | [5] THE SEVEN FABLE-RECHECKS (Q-473/475/476/479/481/484/485) | DONE — Q-486 (all stand; 2 findings folded into the membership preflight; Sol obligations retired) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

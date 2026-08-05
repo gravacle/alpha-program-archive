@@ -12766,6 +12766,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-486 — THE SEVEN FABLE-RECHECKS COMPLETE: ALL SEVEN SPARK VERDICTS STAND UNDER INDEPENDENT RECOMPUTATION — zero kills. The registrar recomputed the load-bearing mathematics directly (the corrected cocycle and factorization by hand; the case-lattice licensing logic; the A5 countermodel's algebra AND its synthetic classification — an irrational-entried square-root differential with a fiat contact label is not record-surface data; the constructibility-boundary typing; the diamond faces; the C_ret logic; the A6-conformant J2 split). TWO FINDINGS the spark reviews missed: (1) Q-481 CITATION CORRIGENDUM — the diamonds artifact cites the KILLED `..._LANE2_V001` filename where the confirmed V003/V004 chain is meant (content correct, pointer wrong); (2) Q-484 EXHIBITION NOTE — the interval form of D_w's actual scalar domain is asserted per clause (D) but not displayed; a one-line exhibition rides along in the next lane pass. One cosmetic slip (Q-475 "eight cells" over a six-cell lattice). THE SOL RE-CHECK OBLIGATIONS ARE RETIRED by the principal's direction — replaced by this ledger; Sol re-checks remain optional (2026-08-05 ~00:50, FABLE-RECHECK, principal-approved)
+
+**Artifact:** `FABLE_RECHECK_LEDGER_2026-08-05.md`, sealed + mirrored. **Task 5's sole remaining gate before the axiom re-adjudication: THE MEMBERSHIP THEOREM ATTEMPT (still held for the Sol window — it is a lane BUILD, not a re-check).** The two findings fold into that relay's preflight.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
