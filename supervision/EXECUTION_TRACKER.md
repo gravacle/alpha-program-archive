@@ -410,8 +410,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 569 | Codex 3 | [5/EQ6] THE LOC BUILD | RETURNED — Q-496 (THEOREM: F² cannot thread the loop; holonomy or nothing; Hol provenance is the decisive question) |
 | 570 | Dario | [5/EQ6] Loc review + Hol provenance | RETURNED — Q-497 (CONFIRMED with the range-clause rider; threading REOPENED; A1 amendment needed only if honest family can't thread; registrar headline corrected) |
 | 571 | Codex 3 | [5/EQ6] LOC FAMILY V002 + threading | RETURNED — Q-498 (UNDETERMINED lawfully; seed = the end test's own outcome; A1 route banked) |
-| 572 | Dario | [5/EQ6] Review of the honest family + threading + THE RECORD-LEVEL AUDIT (V002, K1-K6) | **SENT** (processing) |
-| 573 | Codex 3 | [5] THE RECORD-CONFORMANCE AUDIT of the computational chain (A1-A4) | **SENT** |
+| 572 | Dario | [5/EQ6] Family review + record-level audit | RETURNED — Q-499 (DEFECTIVE+3; E_C second route; ONE-SIDED TRIAL rider; registrar reframing KILLED; A2 criterion supplied) |
+| 573 | Codex 3 | [5] Chain conformance audit | RETURNED — Q-499 (threshold LOCAL_SHADOW; period candidate displayed; 4 steps re-derivable) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
