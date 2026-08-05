@@ -12680,6 +12680,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-475 — [SPARK-VERDICT] THE CHAIN THREAD CLOSES: CHAIN V004 CONFIRMED on all four items — the case lattice fully enumerated (all six cells licensed or excluded with reasons; the previously missing `A_loop = ∞, chi_K = 0` cell now an explicit branch line, not finite-bound-inferred), the d_w/coordinate modulus-compatibility certificate confirmed with the alternate-complete-metric attack rerun and permanently foreclosed, bounded delta verified, fresh attack passed. THE TWELVE-STEP WITNESS-TO-NUMBER MAP NOW STANDS AT V004: Step-0 entrance gate + D_w closedness certificate + complete threshold case lattice + modulus compatibility — every defect found across three cross-checks repaired and confirmed (2026-08-04 ~23:25, relay 549)
+
+**Artifact:** `STAGE8_TASK5_CHAIN_V004_CROSS_CHECK_LANE1_V001.md`, `0fabbe5e…`, seal + mirror verified, fence-clean. **SPARK-VERDICT; Sol re-check obligation logged** (W1 lattice + W2 attack rerun) — joins the open Sol re-check ledger (Q-473 R1/R2; this; 550's verdict when it lands).
+
+**Status:** Codex 1 idle pending 550's J2-route verdict; the chain thread requires no further relays before C_ret construction opens (Steps 3–4).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

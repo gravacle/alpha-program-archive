@@ -385,7 +385,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 546 | Codex 1 | [5/EQ6] Stage-1 V004: J4 repairs | RETURNED — Q-472 (BUILT, content-checked; pending review) |
 | 547 | Codex 1 | [5/EQ6] Adjoint mate cert + projector V003 | RETURNED — Q-474 (rank-preserving mate PROVEN; cycle-creating blocked; cert built conditional; A5 void-1 clean-on-scope pending classification) |
 | 548 | Codex 2 | [5/EQ6] Stage-1 V004 review | RETURNED — Q-473 (CONFIRMED; ALL THREE FACES STAND; spark-verdict, Sol re-check logged) |
-| 549 | Codex 1 | [5] Chain V004 cross-check (W1-W4; SPARK-VERDICT) | **SENT** (spark) |
+| 549 | Codex 1 | [5] Chain V004 cross-check | RETURNED — Q-475 (CONFIRMED; the chain thread closes at V004; Sol re-check logged) |
 | 550 | Codex 2 | [5/EQ6] Cert V003 review + A5 void-1 classification + J2 route (S1-S5; SPARK-VERDICT) | **SENT** (spark) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
