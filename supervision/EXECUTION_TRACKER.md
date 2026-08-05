@@ -402,7 +402,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 562 | Dario | [5/EQ6] THE FC6 DETERMINATION | RETURNED — Q-491 (AUTHORABLE, banked; scope-qualified suffices; D1+D2 unified into the asymmetric primitive) |
 | 563 | Codex 3 | [5/EQ6] THE DIAMOND CENSUS | RETURNED — Q-490 (DEMANDED_UNFORMABLE on actual diamonds; manifests missing; amendment required) |
 | 564 | Codex 3 | [5/EQ6] THE MANIFEST BUILD (P1-P4) | PREFLIGHT-STOPPED (stale head Q-490 vs Q-491 — discipline worked); V002 reissued, LOADED |
-| 565 | Dario | [5/EQ6] J7-contract adjudication (consumes 562+563+564) | PLANNED (behind 562) |
+| 565 | Dario | [5/EQ6] Review of the three repairs + J7 adjudication, intensional (F1-F5) | LOADED — NOT SENT |
 | 566 | Codex 3 | [5/EQ6] Membership V002 (items 4-7 + reassembly) | PLANNED (after 565) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
