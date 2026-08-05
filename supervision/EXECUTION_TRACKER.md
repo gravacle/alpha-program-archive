@@ -433,6 +433,21 @@ STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AF
 | 415 | Codex 1 | [4a] Full generality | RETURNED — Q-333 (transducer: no universal law; weights invariant at full generality; all converges on 416) |
 
 PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian's MacBook Pro") holds a stale cleanroom copy; lanes must treat the archive workspace as the verification path of record (already relay policy).
+
+## TASK 5 CLOSING BOARD (adopted 2026-08-05 ~17:20; the registrar calls out each step on completion)
+| Step | Item | Status |
+|---|---|---|
+| 1 | 584+585 returns → consolidated debt board | IN FLIGHT |
+| 2 | Ξ_N adoption ruling (principal) | — |
+| 3 | THE J-II REALIZATION FAMILY (the last unsized construction) | — |
+| 4 | Γ inhabits; identification falsifier checked where both routes form | — |
+| 5 | R4–R7 completion (period certs; steps 4/5 reissue; lattice transfer) | — |
+| 6 | Membership V002 + Dario re-review | — |
+| 7 | The axiom re-adjudication | — |
+| 8 | DoR-020-A2 ruling (principal) | — |
+| 9 | The witness certification (registrar checkpoint) | — |
+| 10 | The escrow ruling (principal) — TASK 5 CLOSES | — |
+
 LANE-MODEL STATE (2026-08-05 ~01:00): FOUR LANES. Codex 1 + Codex 2 = GPT-5.3-codex-spark xhigh (builds, light reviews). Codex 3 = gpt-5.6-sol (NEW account; heavy builds and Sol-grade work). Dario = Claude Opus 5 ultra (NEW account; CROSS-FAMILY verdict-grade reviews — an Opus lane checking Sol builds is the strongest custody pairing available). Verdict-grade work prefers cross-family builder/reviewer pairs. Fresh-session bootstrap headers required for Codex 3 and Dario first relays.
 GPT-5.3-codex-spark, extra-high effort (5.6 Sol exhausted to <10%). Standing
 discipline: builds proceed on spark; ALL verdict-grade results (kill/confirm
