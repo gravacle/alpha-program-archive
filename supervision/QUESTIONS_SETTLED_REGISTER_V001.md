@@ -12796,6 +12796,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-490 — THE CENSUS: DEMANDED-UNFORMABLE ON THE ACTUAL TOWER — THE SIXTH SUPPORT-AMENDMENT IS REQUIRED, NOT OPTIONAL: the three executed actual diamonds (D-sub, D-disj, D-contact — displayed in full) contain an ACYCLIC SOURCE (O1 bites: no Maxwell sector, the scalar unformed) and TARGET-ONLY NEW-CYCLE positions (O2 bites: no scalar route, post-scope by A6); D2's contract demands four stage readers + four transport faces per diamond with NO acyclic-vertex exemption and NO new-factor exemption — the census correctly refused the vacuousness escape ("calling either position vacuous would change D2 rather than satisfy it"). The support-scoped J7 amendment therefore goes through adjudication to the principal — the sixth and last instance of the continuum-demand/record-support pattern. SEPARATELY EXPOSED: NO diamond-family manifest and NO clause-(vi) consumer-arrow manifest exist in the corpus (assembly V003/V004 supply none) — MACHINERY-APPEAL recorded; the census is honest about its own incompleteness (3 prototypes + 1 asymmetric consumer witness exhibited; the full family UNDETERMINED pending the manifest). Also: one mixed subdivision/flip schematic class recorded, not counted (2026-08-05 07:08, relay 563, SOL, 653 lines, registrar-read of CEN-2/CEN-3 and the verdict section)
+
+**Artifact:** `STAGE8_TASK5_EQ6_DIAMOND_CENSUS_LANE3_V001.md`, `676863b5…`, seal + mirror verified, fence-clean.
+
+**Status:** relay 564 (Codex 3, loads now): THE MANIFEST BUILD — the explicit diamond-family and consumer-arrow manifests (Dario's repair item 4, the census's missing object, and membership V002's clause-(vi) requirement, one build). Relay 565 (Dario, queued behind 562): the J7-contract adjudication consuming the census + the FC6 determination — the amendment candidate for the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -400,9 +400,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 560 | Dario | [5/EQ6] Membership review of record | RETURNED — Q-488 (DEFECTIVE: 4 kills incl. the missing coefficient face; architecture validated; registrar corrected) |
 | 561 | Codex 3 | [5/EQ6] The three repairs | RETURNED — Q-489 (face BUILT on A_RP+ / OBSTRUCTED beyond; J2 displayed; typing definitive) |
 | 562 | Dario | [5/EQ6] THE FC6 DETERMINATION: the open physical family term (E1-E5) | **SENT** |
-| 563 | Codex 3 | [5/EQ6] THE DIAMOND CENSUS (N1-N4; also discharges D1's consumer enumeration) | **SENT** |
-| 564 | Dario | [5/EQ6] J7-contract adjudication (consumes 562+563) | PLANNED |
-| 565 | Codex 3 | [5/EQ6] Membership V002 (items 4-7 + reassembly) | PLANNED (after 564) |
+| 563 | Codex 3 | [5/EQ6] THE DIAMOND CENSUS | RETURNED — Q-490 (DEMANDED_UNFORMABLE on actual diamonds; manifests missing; amendment required) |
+| 564 | Codex 3 | [5/EQ6] THE MANIFEST BUILD (P1-P4: consumer arrows + diamond family + census completion) | LOADED — NOT SENT |
+| 565 | Dario | [5/EQ6] J7-contract adjudication (consumes 562+563+564) | PLANNED (behind 562) |
+| 566 | Codex 3 | [5/EQ6] Membership V002 (items 4-7 + reassembly) | PLANNED (after 565) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
