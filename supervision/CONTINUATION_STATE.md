@@ -3886,6 +3886,16 @@ full law; witness pass 2 = relay 513. OBS-20 partial-killed and corrected:
 records derive independence; gravity declares what lives where. DoR ledger:
 001-020 + A1. Register: Q-335..Q-438 this session. Relays 417-513.
 
+## CHECKPOINT 2026-08-05 00:25 — THE BUILD PHASE OF TASK 5 IS COMPLETE
+Register head Q-485. All finite-package objects BUILT AND CONFIRMED: functor+bottom (V004), the three
+faces (J4 groupoid / J12 pushout / J15 mate), J2 (A6 scoped) + J7 + the FC11 completion theorem, and
+C_ret (Steps 3-4 discharged). Six DoR actions this arc: A3 (+c1 corrigendum), A4, A5, A6 ratified.
+WAITING ON THE PRINCIPAL'S SOL WINDOW: (1) the membership theorem attempt (the one big verdict left);
+(2) seven logged Sol re-checks (Q-473/475/476/479/481/484/485 — Q-476 first, it guards A5).
+After membership: axiom re-adjudication -> DoR-020-A2 ruling -> witness certification (my checkpoint
+review) -> escrow ruling -> executions -> sensitivity -> K_* -> Task 6. Both lanes idle by design.
+The resume protocol: read this file, the tracker's last rows, and the register head before any relay.
+
 ## CHECKPOINT 2026-08-04 ~14:15 (register head Q-449) — LANE BUDGETS EXHAUSTED, CLEAN PAUSE
 
 THE MARATHON SESSION: relays 417-523. RATIFIED: DoR-016/017/018/019/020+A1.

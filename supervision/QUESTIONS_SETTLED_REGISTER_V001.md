@@ -12758,6 +12758,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-485 — [SPARK-VERDICT] J2/J7/COMPLETION CONFIRMED — THE BUILD PHASE OF THE FINITE PACKAGE IS COMPLETE: all six review items PASS (the rank-preserving composite recomputed through the V003 projected form on the reciprocal-loop touchstone; the scoped square honored with the A6 boundary intact; every factor traced to its sealed source with F_PLDEC rerun; J7 against the corrected contract; the completion proof verified with no hidden simultaneity; the fresh target-tuning attack on a new-cycle lift rejected). MEMBERSHIP GUARD OF RECORD: FC10_SCOPED = PASS; FC11_COMPLETION = PASS under corrected D2; open items are exactly the ADOPTED-LAW post-scope conditions (full intertwiner; full new-cycle Loc/pi_Mx) — pending, not blocking. **THE MEMBERSHIP THEOREM IS NOW ATTEMPTABLE: every FC condition is supplied or carried on one confirmed stock** (2026-08-05 00:24, relay 558)
+
+**Artifact:** `STAGE8_TASK5_EQ6_J2_REVIEW_LANE1_V001.md`, `afc14d32…`, seal + mirror verified, fence-clean. **SPARK-VERDICT; Sol re-check obligation logged.**
+
+**THE SOL LEDGER (all waiting on the principal's budget window):** (1) THE MEMBERSHIP THEOREM ATTEMPT — the single highest-stakes verdict left in Task 5, held for Sol by standing decision; (2) seven Sol re-checks: Q-473 (V004 cocycle/factorization), Q-475 (chain lattice), Q-476 (A5 countermodel classification — guards a ratified DoR), Q-479 (J2 scope adjudication), Q-481 (diamonds), Q-484 (C_ret fields), Q-485 (this). Both lanes idle by design until the window opens.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
