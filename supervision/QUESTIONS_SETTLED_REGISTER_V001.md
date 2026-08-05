@@ -13000,6 +13000,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-516 — Ξ_N V003 DEFECTIVE ON THREE NARROWER ITEMS — THE PEN SWAPS (Step 2 continues): the re-review kills V003 on (i) the OMITTED Y9/full-G4 anti-counterterm law (the hidden-holonomy-counterterm fence must be a clause, not an inheritance); (ii) UNTYPED fixed-support constancy REINTRODUCING the sign collapse (the third time a support-stratum clause quietly reopens a closed pathology); (iii) an UNCONDITIONAL character-jump claim that is FALSE as stated. READY_FOR_RULING = no. The convergence is real (V001 type error → V002 five defects → V003 three), but the drafter's documented blind spot (changed clauses' consequences unaudited — Dario's own named failure mode, twice) licenses the registrar's process call: **THE PEN SWAPS — Codex 3, holder of the exact defect list, drafts V004; Dario becomes the fresh cross-family reviewer** (2026-08-05 ~19:30, relay 588, SOL, 1,018 lines, registrar-read; register drift handled correctly again)
+
+**Artifact:** `STAGE8_TASK5_XI_N_V003_REREVIEW_LANE3_V001.md`, `b179f2e1…`, seal + mirror verified, fence-clean.
+
+**Status:** 590 (Codex 3: Ξ_N V004 — the three defects closed by their finder) then 591 (Dario: fresh re-review). Step 2 completes on confirmation + the adoption ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
