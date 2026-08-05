@@ -12820,6 +12820,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-493 — THE SEED THEOREM FAILS BY ABSENCE OF THE ANCHOR — THE COUPLING'S NONVANISHING IS UNDERIVABLE FROM THE SEALED CORPUS AS IT STANDS: at the reciprocal-loop stage the sealed stock proves every SURROUNDING nonvanishing (the cycle c_RL nonzero; its current faithful and conserved, W1–W2; metric positivity giving an edge-local input with NONZERO harmonic projection, W3–W4) — but NOTHING supplies the connection between the Maxwell source and the cycle: the exact missing statement is (M5) `⟨Loc Kernbar Q(L_T), c_RL⟩ ≠ 0`, equivalently a sealed Ward/flux-to-L_T ANCHOR identifying the source's transported image with a named nonzero period. The artifact's entailment control is correct and honest: (M4) is false as linear algebra (a nonzero vector orthogonal to the harmonic line projects to zero, and nothing excludes that for THIS vector); Ward conservation is homogeneous and distinguishes no period; faithfulness before Loc does not make P_H∘Loc injective. FAILED-BY-ABSENCE, not proven zero. A_RP⁺ = EMPTY_OF_RECORD; L2 correctly not run under the stop rule. **The physical reading: "does the source thread the loop" — the program's central nonzero-coupling question — has arrived as a single displayed pairing that the record axioms neither prove nor refute** (2026-08-05 ~08:20, relay 566, SOL, 368-line audited artifact, registrar-read of §§1.3–1.4)
+
+**Artifact:** `STAGE8_TASK5_EQ6_TWO_LEMMAS_LANE3_V001.md`, `48616c23…` (AUDITED version), seal + mirror verified, fence-clean. **Custody event:** the lane mirrored a pre-audit version (`a665ad08…`) then audited locally and ASKED before overwriting — the request was refused and resolved by the registrar: the pre-audit mirror QUARANTINED as `..._PREAUDIT_SUPERSEDED.md`, the audited version installed and byte-verified; both of record.
+
+**Status:** relay 567 (Dario): THE SEED ADJUDICATION — verify the entailment control; hunt the corpus for the anchor (register-sweep the flux/period statements); type the seed DERIVABLE / AUTHORABLE / END-TEST-STRUCTURAL; the physical reading for the principal. The J7 ruling and membership V002 hold behind it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
