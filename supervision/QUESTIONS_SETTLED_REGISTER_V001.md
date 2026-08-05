@@ -12780,6 +12780,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-488 — THE FIRST CROSS-FAMILY REVIEW KILLS THE MEMBERSHIP THEOREM ON FOUR ITEMS — AND VALIDATES THE ARCHITECTURE: Dario (Opus 5 ultra) confirmed the build's honesty (all 21 hashes verify; no circularity; no look-alike substitution; FC2 a genuine repair; the J4 cocycle, forced action, pushout injectivity, and contract match all recomputed clean) and then found what the ENTIRE same-family stack missed: **(D1)** the guard's anti-shrink clause (vi) — "every finite-bottom arrow needed by a sealed package consumer" — absent from Mor(I_F); "consumer" 10× in the guard, 0× in the build, at the exact spot the original FC2 failure lived; **(D2)** FC6 asserted on every arrow while its own certificate ends CONDITIONAL_PASS / PHYSICAL_TERM_OPEN / PARTIAL-TYPE-U — and full J2 on A_RP is POSED, not PROVED ("can be reconstructed", no reconstruction displayed); **(D3)** J7 discharged by J2's own equation on the same domain, but J7's contract of record is the RANK-ONE chi^Mx/T^Mx COEFFICIENT FACE — never built; COMPLETION_THEOREM_V2 therefore carries an undischarged hypothesis and FC11 does not follow; **(D6)** the status-verb audit: five chain rows report one-directionally stronger verbs than their sources — a systematic optimism bias in the spark-era boards (FC2 and J4/J12/J15 pass it, so it discriminates). Seven repairs typed: 1–3 mathematical, 4–7 cheap (2026-08-05 ~06:08, relay 560, OPUS CROSS-FAMILY VERDICT, registrar-read incl. §7)
+
+**Artifact:** `STAGE8_TASK5_EQ6_MEMBERSHIP_REVIEW_DARIO_V001.md`, `9caef0f7…`, seal verified, fence-clean.
+
+**REGISTRAR CORRECTION OF RECORD (mine):** my Q-485 re-check PASSED the J2 review accepting "can be reconstructed from the proven intertwiners" as proof — Dario's standard is right and mine was short: reconstructibility is not a displayed reconstruction. My ledger also did not distinguish J7's coefficient-face contract from the J2 echo. The cross-family layer caught both. **Status:** relay 561 (Codex 2 — the three mathematical repairs: the coefficient face, the displayed reconstruction, the definitive pi_Mx/Loc typing); 562 (Codex 3 — membership V002 with items 4–7 and reassembly) after.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
