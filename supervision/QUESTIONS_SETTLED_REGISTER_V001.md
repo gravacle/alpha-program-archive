@@ -12936,6 +12936,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-508 — THE GAP AUDIT COMPLETES AND REWRITES THE COMPARISON: ALL FOUR H JOINTS GENUINE — none dissolves — but two stand for SHARPER corrected reasons: **(J-III)** the unit half DISSOLVES (the unit class derived from the ratified [R_A] = U_A^{-2} rule → the pairing is dimensionless, reproducing the cert's own output unit; Dario's own chi_CK exclusion hypothesis REFUTED by its own derivation) — the remaining gap is ORIENTATION: writing U_a as multiplication by mu(a), covariance forces mu(a^-) = −mu(a), so an ADDRESS-INDEPENDENT U^H gives mu ≡ 0 and the period vanishes identically — U^H = id is a PROVED IMPOSSIBILITY; the orientation structure must carry addresses (the law-with-address principle surfacing at the final seam); **(J-I)** narrows by half — Q_N is a corestriction, the descent automatic, the canonical arrow existing in the OPPOSITE direction (O^resp = O_R5); **(J-II)** the ONLY genuine unbuilt construction of the four (the builder's [PROVABLE] negative false as phrased — three sealed artifacts DO declare the realization; the built member is what's absent); **(J-IV)** a distinct debt (F3 proofs on nonidentity arrows). DARIO SELF-CORRECTION of record: "(F3) exists nowhere in the corpus" — false as phrased, stated in ≥6 files, what is absent is a PROOF on any nonidentity arrow; carried twice before caught. **THE COMPARISON CORRECTED: "four gaps vs one map" over-counts H and under-counts HOL (U^Hol: R → K_amb explicitly unbuilt; unit triviality discharges nothing whose source is literally R). THE SEAMS ARE LARGELY COMMON; WHAT DIFFERS IS CONSTRUCTION VERSUS DECLARATION** (2026-08-05 ~16:20, relay 580, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_GAMMA_H_REVIEW_DARIO_V001.md` (hash on sidecar), fence-clean.
+
+**Status:** the licensed strategy under A8: build the COMMON SEAMS ONCE for both routes (582 → Codex 3: the orientation-address structure; the J-I corestriction formalization; the F3 nonidentity proofs where provable) while the Ξ_N V002 redrafts in the corrected affine-relative form (583 → Dario). The route ruling may dissolve into A8's carry-both with one route-specific object each: the Loc realization (construction) vs the corrected Ξ_N (declaration).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

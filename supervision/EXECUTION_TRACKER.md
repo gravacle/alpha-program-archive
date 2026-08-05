@@ -418,7 +418,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 577 | Dario | [5] Audit V002 review + route analysis | RETURNED — Q-503 (repairs confirmed; 2 conservative defects; CARRY_BOTH recommended with the identification falsifier) |
 | 578 | Codex 3 | [5] THE Γ BUILD, H ROUTE | RETURNED — Q-506 (ALL FOUR JOINTS STOPPED, distinct exact gaps; the comparison flips) |
 | 579 | Dario | [5] THE Ξ_N CANDIDATE | RETURNED — Q-505 (DRAFTED: Hol derived, ONE new map, 9 clauses/8 voids; ruling after cross-review) |
-| 580 | Dario | [5] Γ^H stops review: are the four gaps genuine? (M1-M4) | **SENT** |
+| 580 | Dario | [5] Γ^H gap audit | RETURNED — Q-508 (all four genuine; J-III = orientation addresses; J-II the one true construction; seams largely COMMON) |
 | 581 | Codex 3 | [5] Ξ_N review + displays | RETURNED — Q-507 (DEFECTIVE as drafted; the corrected AFFINE-RELATIVE holonomy derived in-review; V002 path exact) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
