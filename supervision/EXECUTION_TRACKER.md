@@ -396,6 +396,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 557 | Codex 2 | [5] C_ret review | RETURNED — Q-484 (CONFIRMED; Steps 3-4 discharged pending Sol re-checks) |
 | 558 | Codex 1 | [5/EQ6] J2/J7/completion review | RETURNED — Q-485 (CONFIRMED; the build phase complete; membership attemptable, HELD FOR SOL) |
 | — | Fable | [5] THE SEVEN FABLE-RECHECKS (Q-473/475/476/479/481/484/485) | DONE — Q-486 (all stand; 2 findings folded into the membership preflight; Sol obligations retired) |
+| 559 | Codex 3 | [5/EQ6] THE MEMBERSHIP THEOREM: F_actual on one tuple (M1-M5; SOL; bootstrap) | LOADED — NOT SENT |
+| 560 | Dario | [5/EQ6] Membership review of record (CROSS-FAMILY, Opus 5 ultra) | PLANNED (after 559 returns) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
@@ -405,7 +407,7 @@ STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AF
 | 415 | Codex 1 | [4a] Full generality | RETURNED — Q-333 (transducer: no universal law; weights invariant at full generality; all converges on 416) |
 
 PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian's MacBook Pro") holds a stale cleanroom copy; lanes must treat the archive workspace as the verification path of record (already relay policy).
-LANE-MODEL STATE (updated 2026-08-04 evening): 544/545 in flight are the LAST SOL RUNS (gpt-5.6-sol ultra). From the NEXT lane turn both lanes switch to GPT-5.3-codex-spark xhigh. SPARK DISCIPLINE RE-ARMED: builds spark-tolerable; every verdict-grade registration carries a SPARK-VERDICT tag with a Sol re-check obligation logged for budget reset; the FABLE CHECKPOINT-REVIEW RULE is mandatory (full registrar reads; direct math review before rulings, escrow openings, witness certifications, and spark-vs-spark disagreements).
+LANE-MODEL STATE (2026-08-05 ~01:00): FOUR LANES. Codex 1 + Codex 2 = GPT-5.3-codex-spark xhigh (builds, light reviews). Codex 3 = gpt-5.6-sol (NEW account; heavy builds and Sol-grade work). Dario = Claude Opus 5 ultra (NEW account; CROSS-FAMILY verdict-grade reviews — an Opus lane checking Sol builds is the strongest custody pairing available). Verdict-grade work prefers cross-family builder/reviewer pairs. Fresh-session bootstrap headers required for Codex 3 and Dario first relays.
 GPT-5.3-codex-spark, extra-high effort (5.6 Sol exhausted to <10%). Standing
 discipline: builds proceed on spark; ALL verdict-grade results (kill/confirm
 calls, witness certifications, escrow openings) carry SPARK-VERDICT tags in
