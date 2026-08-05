@@ -12912,6 +12912,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-505 — THE Ξ_N CANDIDATE DRAFTS AT MINIMAL COST — THE HOLONOMY ITSELF IS DERIVED: the draft reuses nearly everything ratified — K_N = ker(B^T) the cycle carrier, u_z the period functional, A_N and its transport under A1's own "transport derived from the declared members" — so Hol_(A_N)(z) = exp(i·u_z(A_N)) is DERIVED CONTENT, and the amendment introduces EXACTLY ONE new map: Ξ_N : D^Loc → K_N, "the what-encircles-what clause," the loop-level companion of A1's what-lives-where, filling precisely the kernel-argument gap of the provenance determination. Nine clauses, eight voids; zero new carriers/coefficients/units/members. (X9) repays A7_HOL_BRANCH_COMPAT at the one point of actual freedom (with Θ^Hol = Hol∘Ξ∘Ker and only Ξ free, identity-branch neutrality = "Ξ lands in ker(Hol)" — refutable by a single exhibited element; two-sidedness preserved as A7 requires). HONESTY IN THE LEAD: adoption LICENSES the interface, it does not INHABIT it (V8 — the empty-torsor lesson applied against the draft's own candidate); the inhabitance burden flagged not-relay-sized, the same shape as the H route's Loc. The null candidate ARGUED (closing HOL = losing the cross-check, Loc a single point of failure, the A8 falsifier vacuous); the derive-instead-of-author upgrade path open on the A4 precedent. Two PART-PROVABLE items flagged for LANE DISPLAY, not inheritance: the exp(i·u) identification; single-cycle minimality (2026-08-05 ~16:00, relay 579, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_XI_N_CANDIDATE_DARIO_V001.md` (hash on sidecar), fence-clean.
+
+**Status:** the draft's cross-review pairs with 578's return — Dario reviews Γ^H (580), Codex 3 reviews the Ξ_N draft + displays the two PART-PROVABLE items (581); the Ξ_N ruling follows its review. Both A8 routes remain in motion.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
