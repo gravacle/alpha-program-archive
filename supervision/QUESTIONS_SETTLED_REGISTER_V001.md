@@ -12712,6 +12712,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-479 — [SPARK-VERDICT] THE SCOPED MATE CONFIRMED AND J2'S TRUE SCOPE ADJUDICATED — WITH A REGISTRAR CORRECTION OF Q-478's FRAMING: T4's recomputation shows the "full-square failure" is a CONSTRUCTIBILITY BOUNDARY, not a disproof — on the new-cycle factor the composite is NOT A FORMED MAP (no independent Loc_N into the Maxwell/contact symbol, no pi_Mx,N on that codomain exists there), so the full equality can be neither proven nor disproven at map level; the reader is NOT shown to carry non-Maxwell content (Q-478's speculation corrected). T5 proves the boundary is uncrossable from below: extending the scoped law to new cycles requires an unconstrained lift = selection, or defining pi_Mx from reader data = the F_PLDEC circularity class — both forbidden. T3 selects option (a): THE SCOPED FORM IS J2'S LICENSED CURRENT CONTENT. T2 passes with the honest note (minimality true under the scoped carrier projection). AMENDMENT PROPOSED to the principal: replace cycle-creating J2 with the scoped projected law on the old-image P_H sector; keep full J2 as a POST-SCOPE condition pending a full mate certificate (2026-08-05, relay 553, 1m59s spark run — registrar checkpoint read of T1–T5 executed in full)
+
+**Artifact:** `STAGE8_TASK5_EQ6_SCOPED_MATE_REVIEW_LANE2_V001.md`, `e104c092…`, seal + mirror verified, fence-clean. **SPARK-VERDICT; Sol re-check obligation logged** (T4's witness recomputation and T3's adjudication).
+
+**Status:** the J2-row ruling goes to the principal now. On adoption: J2 becomes posable on the full covered arrow ledger, and the membership theorem becomes attemptable once the diamonds review (554, in flight) lands.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
