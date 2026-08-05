@@ -12876,6 +12876,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-500 — THE FIVE-HUNDREDTH ENTRY: THE TRIAL BECOMES TWO-SIDED, THE DEBT SHARPENS TO Γ, AND E_C SPLITS THE PHYSICS: **(574, Dario)** AUDIT = DEFECTIVE(+2), both repairable: the DECISIVE modulus defect — (S9-2)/(S10-1) put the ambient norm over the d^per metric where Banach needs d^per-contraction, hand-verified by two counterexamples (a q^per = 1/2 isometry with no fixed point; a genuine quarter-contraction scored q^per = ∞) — the alternate-metric attack REOPENED on the direct branch, requiring the PERIOD MODULUS COMPATIBILITY gate (the repair itself is one line: the quotient over d^per); Step 6 retyped (carrier commitment; residues = 3/6/9/12). **CONVERGENCE = PARTIAL, and the half that holds is the important half: chi^per enters MULTIPLICATIVELY, so chi^per = 0 lands at q^per = 0 INSIDE the lattice and returns a verdict — THE K3 ONE-SIDEDNESS IS CURED; the trial is two-sided on the period route.** The K5 debt is NOT paid: Γ (the period transport) is unbuilt on both routes — the displayed route factors through Loc (the debt itself), the other needs the unauthored Ξ_N; E_C conditionally inherited, not evaded. "Sharpened to a bounded named list — progress of a different kind than payment." Γ is THE STANDING OPEN OBJECT (Dario refuses to size it as a relay). G3: SEVEN relays in dependency order, Step 10 awaiting the route choice. Dario's self-correction of record: its own totality-≠-characterization gap found first, locating the audit's defect. **(575, Codex 3)** E_C_ON_LOOP = AUTHORABLE — the sealed contact split does not decide the branch — with ASYMMETRIC PHYSICS: the identity branch (E_C·c = c) FORCES reciprocal vanishing (contact swallows the loop class); the zero branch (E_C·c = 0) leaves the pairing deciding. Display repairs done; OLD VOID-12 exposed as another hidden anti-threading clause, struck, replaced by V12' (rejects seed-driven selection and undeclared Hol only) (2026-08-05 ~13:30, relays 574 + 575, registrar-read of both)
+
+**Artifacts:** `STAGE8_TASK5_AUDIT_REVIEW_AND_CONVERGENCE_DARIO_V001.md` (hash on sidecar), `STAGE8_TASK5_EQ6_LOC_FAMILY_V003_AND_EC_LANE3_V001.md` `258680c4…`, both fence-clean.
+
+**Status:** the E_C treatment goes to the principal (rule a branch / carry both / fold into A2); the modulus repair + period cert (576) commissions regardless; the Γ route choice follows the repaired audit.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
