@@ -405,7 +405,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 565 | Dario | [5/EQ6] Repairs review + J7 adjudication | RETURNED — Q-492 (typing PASS; J2 premise gap; SEED THEOREM named; FC11 folds into A2; F4 count correction adopted) |
 | 566 | Codex 3 | [5/EQ6] THE TWO LEMMAS | RETURNED — Q-493 (SEED FAILS BY ABSENCE of the anchor M5; A_RP+ empty of record; L2 correctly unrun; pre-audit mirror quarantined) |
 | 566 | Codex 3 | [5/EQ6] Membership V002 (items 4-7 + reassembly) | PLANNED (after 565) |
-| 567 | Dario | [5/EQ6] THE SEED ADJUDICATION (S1-S5) | **SENT** |
+| 567 | Dario | [5/EQ6] THE SEED ADJUDICATION | RETURNED — Q-494 (END_TEST_STRUCTURAL; anchor absent — subject term undefined; ALL ROADS LEAD TO THE UNBUILT Loc) |
 | 568 | Codex 3 | [5/EQ6] THE LOC-NATURALITY LEMMA standalone (X1-X4) | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |

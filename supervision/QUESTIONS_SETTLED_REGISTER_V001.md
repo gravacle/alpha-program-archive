@@ -12828,6 +12828,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-494 — THE SEED ADJUDICATION: END_TEST_STRUCTURAL — AND EVERYTHING CONVERGES ON ONE UNBUILT OBJECT, THE PHYSICAL Loc: **(S1)** the entailment control CONFIRMED with Dario killing its own best exclusion route (H^⊥ is nontrivial at the Maxwell degree by the projector cert's own (1-9), so nothing forces the source's image off the orthogonal complement; Ward is period-blind because the record carries a CONSERVATION law, not a source law — homogeneity). The corpus's most seductive FALSE ANCHOR flagged for future readers: physical-J2's (1-3) literally reads pi_Mx(Loc(Kernbar(Q(L_T)))) = 1 — an equation OF RECORD, not a theorem ("equality is a theorem only after both sides are maps on the same carrier"; Loc_N^physical_for_J2 = NOT_BUILT). **(S2)** ANCHOR ABSENT, stronger than unproved: (M5)'s subject term is UNDEFINED at two independent points — Kernbar scoped to the cycle-profile component with L_T a separate summand, and the physical Loc unbuilt; the one nonzero reciprocal-loop witness sits on the R_K direction with the transfer relation (S1-5) carrying "no authority proves any line." **THE HEADWIND, honestly recorded (physics):** L_T's sealed kernel is −ħK(q²η − qq) = a δd form, and ⟨δd v, c⟩ = ⟨dv, dc⟩ = 0 for harmonic c — an F² kernel is BLIND to flat-holonomy directions, which is what the loop is; the record reproduces the continuum fact that pure F² does not source holonomy. It does not close the question (the shift map is the unbuilt Loc), but authoring nonzero would run against the structural grain. **(S3)** AUTHORABLE FORECLOSED three ways (no non-obstruction limb; no defined object to author about; an authored (M5) could carry NEITHER falsifier class — the filing-level signal). **SEED = CONDITION, tested by the escrowed end computation. The seed gap and the (F3) J2-premise gap are ONE OBJECT — Loc — seen twice** (2026-08-05 ~08:45, relay 567, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_EQ6_SEED_ADJUDICATION_DARIO_V001.md` (hash in sealed sidecar), fence-clean.
+
+**Status:** 568 (Loc-naturality, in flight in Codex 3) will hit the Loc definitional question directly — its return decides the shape of THE LOC BUILD, now the last named object of Task 5's membership route. The J7 ruling and the A2 text absorb the seed as an explicit condition.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
