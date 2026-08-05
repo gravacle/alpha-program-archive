@@ -12734,6 +12734,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-482 — C_ret IS CONSTRUCTED (pending review): the stationary-return certificate built field-by-field per chain V004's spec on the actual branch — B_w(D_w) ⊆ D_w proven as a core clause; BRANCH_SCOPE = interval_convex (AC kept as alternate arm only, honestly [YOURS]-tagged); D_w CLOSED in the ambient carrier as an independent certificate BEFORE any modulus step (the Q-457 item); the d_w/coordinate modulus compatibility proven on the branch (the Q-461 item); Q-448's disconnected domain excluded by the scope clause with its reason stated; both counterexamples installed as fixed falsifiers; void conditions falsifiable (2026-08-05 00:06, relay 556, SPARK BUILD, registrar content-check)
+
+**Artifact:** `STAGE8_TASK5_CRET_CERTIFICATE_LANE1_V001.md`, `ad9e6d8b…`, seal + mirror verified, fence-clean.
+
+**Status:** the review (557 → Codex 2) queues behind 555. If both 555 and C_ret confirm, Task 5's remaining ledger: the membership theorem (Sol), the axiom re-adjudication → DoR-020-A2 (principal), the witness certification (checkpoint review), the escrow ruling (principal).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
