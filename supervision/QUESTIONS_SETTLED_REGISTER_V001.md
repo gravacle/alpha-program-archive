@@ -12976,6 +12976,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-513 — Ξ_N V003 DRAFTS AT FOURTEEN CLAUSES WITH THE THIRD HORN AS LAW (Step 2, second half pending re-review): **(Z-A7)** the tautology confessed and replaced — V002 wrote Theta = 1 ⟺ p ∈ 2πZ, "elementary character theory, true for every p, refutable by nothing... a definition where the gate required an assertion"; the new clause asserts one side universally over the retained family, refuted by ONE displayed x with p_x ∉ 2πZ; raw neutrality only, the chart conditions booked separately (the overclaim withdrawn). **(Z3)** the third horn TYPED AS LAW with the physical reading of record: Xi(0) = 0 and constancy within a fixed-support stratum defined; any continuous extension through 0 NOT defined; the theorem that discontinuity recurs at every support-birth boundary — "a cycle assignment is a topological charge, and which loop a source encircles cannot vary continuously to no loop at all." The winding proof REDONE for zero-homogeneity (constant along rays, jumping at the origin — the V001 attack inapplicable and withdrawn; the third horn resurfacing inside the analysis recorded as a consistency check); units re-derived NATIVELY from the U(1) edge relation; both transports given their exact squares; the false rho_f^D seal claim withdrawn WITH its two omitted premises supplied; the narrowed parity rule applied with the unsound form disclaimed by name. FIVE V002 defects self-disclosed, the instructive one named: the type was changed without re-auditing the arguments depending on it (2026-08-05 ~18:15, relay 587, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_XI_N_CANDIDATE_DARIO_V003.md` (hash on sidecar), fence-clean.
+
+**Status:** the re-review (588 → Codex 3) queues behind 586 (the (R9) repair, in flight). Step 2 completes on: 586 confirmed + 588 confirming V003 → the Ξ_N adoption ruling to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
