@@ -12642,6 +12642,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-470 — THE PROJECTOR DETERMINATION COMPLETES (the second closing Sol run): **SECTOR LOCALITY PROVEN** (blockwise on certified Hilbert direct sums — DERIVED; within-cycle point locality "NOT RATIFIED and geometrically false"; the within-cycle global charge derived as the harmonic pairing), **REDUCING = AUTHORABLE** — provably NOT obstructed and provably NOT derivable (countermodel L2-5..8); the four-candidate gate: harmonic-only preservation [E_C,P_H]=0 (weaker — enough for this projector, not the Hodge functional calculus), LAPLACIAN REDUCING [E_C,Delta^Hdg]=0 (minimal canonical — one commutator, no coefficient, functional-calculus descent), full Hilbert subcomplex (stronger d/delta descent), partial/reject; six void conditions, the first directly falsifiable on actual data (a contact vector with noncontact Laplacian component); adoption again supersedes A1's clause-completeness. **NATURALITY = rank-preserving DERIVED; all-arrow OPEN as TYPE-U** — the named buildable gap: `CYCLE_CREATING_HODGE_ADJOINT_MATE_CERT`; the J15 projected mate (L3-10) is the lawful comparison, conditional elsewhere on contact reduction. READER_REFERENCED = no; the reciprocal-loop spreading installed as a LAWFUL-BEHAVIOR regression (2026-08-04, relay 545, Sol, registrar-read of §2.4, L3, and the field ledger)
+
+**Artifact:** `STAGE8_TASK5_EQ6_PROJECTOR_LOCALITY_REDUCING_CERT_V002_LANE1_V001.md`, `c81f61c4…`, seal + mirror verified, fence-clean.
+
+**Status:** the reducing choice goes to the principal NOW (DoR-020-A5 reserved). The adjoint-mate cert is a build (Codex 1, after 546). 540 on clipboard for Codex 2 (first spark run); 546 queued.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
