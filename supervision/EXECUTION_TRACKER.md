@@ -407,7 +407,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 566 | Codex 3 | [5/EQ6] Membership V002 (items 4-7 + reassembly) | PLANNED (after 565) |
 | 567 | Dario | [5/EQ6] THE SEED ADJUDICATION | RETURNED — Q-494 (END_TEST_STRUCTURAL; anchor absent — subject term undefined; ALL ROADS LEAD TO THE UNBUILT Loc) |
 | 568 | Codex 3 | [5/EQ6] THE LOC-NATURALITY LEMMA | RETURNED — Q-495 (SUBSCOPE identities-only; third convergence on the unbuilt physical Loc) |
-| 569 | Codex 3 | [5/EQ6] THE LOC BUILD: the last object (B1-B4) | LOADED — NOT SENT |
+| 569 | Codex 3 | [5/EQ6] THE LOC BUILD: the last object (B1-B4) | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
