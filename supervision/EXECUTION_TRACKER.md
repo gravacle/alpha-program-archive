@@ -408,7 +408,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 567 | Dario | [5/EQ6] THE SEED ADJUDICATION | RETURNED — Q-494 (END_TEST_STRUCTURAL; anchor absent — subject term undefined; ALL ROADS LEAD TO THE UNBUILT Loc) |
 | 568 | Codex 3 | [5/EQ6] THE LOC-NATURALITY LEMMA | RETURNED — Q-495 (SUBSCOPE identities-only; third convergence on the unbuilt physical Loc) |
 | 569 | Codex 3 | [5/EQ6] THE LOC BUILD | RETURNED — Q-496 (THEOREM: F² cannot thread the loop; holonomy or nothing; Hol provenance is the decisive question) |
-| 570 | Dario | [5/EQ6] Loc build review + THE HOL PROVENANCE DETERMINATION (H1-H4) | **SENT** |
+| 570 | Dario | [5/EQ6] Loc review + Hol provenance | RETURNED — Q-497 (CONFIRMED with the range-clause rider; threading REOPENED; A1 amendment needed only if honest family can't thread; registrar headline corrected) |
+| 571 | Codex 3 | [5/EQ6] LOC FAMILY V002: the honest family + THE THREADING QUESTION (Y1-Y4) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

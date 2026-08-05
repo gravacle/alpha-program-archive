@@ -12852,6 +12852,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-497 — THE LOC REVIEW CONFIRMS THE BUILD AND REOPENS THE THREADING QUESTION — WITH A REGISTRAR HEADLINE CORRECTION (mine, the third): **(H1a)** (B5c)'s algebra CONFIRMED, no L_F2 member evades it — BUT the family's final membership clause is ¬(S28) (the negation of the seed condition) PLUS an unexplained surplus deleting exactly the range sector, and it is NOT inherited from the Hodge fiber (none of (S14)/(S19)/(S21)/(S25)/(S25b) mentions d, delta, ran, or P_H) — the family was DEFINED unable to thread. Q-496's headline "F² cannot thread the loop" is CORRECTED OF RECORD to: "the minimal F²-compatible branch AS DECLARED cannot thread"; whether an honestly-defined F²-compatible family can thread is OPEN AGAIN. The build itself was honest (its lead said "the minimal branch"); the over-read was the registrar's. **(H2)** HOL_PROVENANCE = A1_AMENDMENT_NEEDED: the structural half holds (A1's U(1) bundle-with-connection genuinely carries holonomy; "transport derived from the declared members") but three properties are uncarried, one DECISIVE AND PRIOR: holonomy is a function of (loop, connection) with no kernel argument, while (B6) demands a map out of the kernel space — nothing adopted constructs the loop from the source kernel; A1's path/current clause is a covariance law, law-only, with an empty-torsor horn; zero occurrences of "holonomy"/"Wilson" in adopted text. Dario DECLINED a supporting-but-false argument (no-selection is not the bar — closed-loop U(1) holonomy is gauge-invariant), leaving GAP 3 honestly open. SEED_TYPE = END_TEST_STRUCTURAL stands; membership remains DEFECTIVE on independent grounds (2026-08-05 ~10:10, relay 570, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_EQ6_LOC_REVIEW_AND_HOL_PROVENANCE_DARIO_V001.md` (hash in sealed sidecar), fence-clean.
+
+**THE ORDER OF OPERATIONS NOW:** (1) relay 571 (Codex 3): LOC FAMILY V002 — the family redefined with the genuine clauses ONLY (the uninherited range clause struck); determine whether the honest family can thread (a displayed member with nonzero harmonic route) or whether vanishing re-proves on real grounds — THIS DECIDES whether the A1 amendment is even needed; (2) the A1 amendment candidate draft only if the honest family cannot thread. The J7/membership/A2 chain shapes after.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
