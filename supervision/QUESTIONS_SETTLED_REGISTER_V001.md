@@ -12742,6 +12742,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-483 — J2 IS PROVEN, J7 BUILT, THE COMPLETION THEOREM RE-PROVEN (all pending review): the reader equality holds on the actual tower — FULL on rank-preserving arrows, the A6 SCOPED square on cycle-creating arrows — with every factor cited to its sealed construction (Q from Q-408, the confirmed Kernbar closure with the nonzero reciprocal-loop witness retained, Loc/pi_Mx from cert V003's reader-free Hodge stock); the J7 comparison face built to the CORRECTED contract; COMPLETION_THEOREM_V2 proven — the partial diamonds complete to the full FC11 term given the now-built faces. FC10_SUPPLIED: J2 full (rank-preserving) + J2_SCOPED (cycle-creating) + J7 (corrected contract) + FC11 conditionally closed (2026-08-05 00:12, relay 555 V002, SPARK BUILD, 5m37s, registrar content-check)
+
+**Artifact:** `STAGE8_TASK5_EQ6_J2_BUILD_LANE2_V001.md`, `7c52c1a8…`, seal + mirror verified, fence-clean.
+
+**If the review confirms:** every FC condition of the membership guard is supplied or carried — FC10 closes, FC11 closes via the completion theorem — and THE MEMBERSHIP THEOREM BECOMES ATTEMPTABLE. **Status:** 557 (C_ret review → Codex 2) and 558 (J2/J7/completion review → Codex 1), parallel, both SPARK-VERDICT protocol.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
