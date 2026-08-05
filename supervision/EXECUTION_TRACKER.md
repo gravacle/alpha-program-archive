@@ -392,7 +392,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 553 | Codex 2 | [5/EQ6] Scoped mate review + J2-scope adjudication | RETURNED — Q-479 (CONFIRMED; scoped form = J2's licensed content; amendment to principal; Sol re-check logged) |
 | 554 | Codex 1 | [5/EQ6] Diamonds review | RETURNED — Q-481 (CONFIRMED; contract corrected to the A6 square; completion GAP folded into 555) |
 | 555 | Codex 2 | [5/EQ6] THE J2 BUILD (V002: + corrected contract + completion re-proof K3b) | **SENT** (spark) |
-| 556 | Codex 1 | [5] C_ret: the stationary-return certificate constructed (C1-C5) | LOADED — NOT SENT |
+| 556 | Codex 1 | [5] C_ret: the stationary-return certificate constructed (C1-C5) | **SENT** (spark) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
