@@ -416,8 +416,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 575 | Codex 3 | [5/EQ6] Family V003 + E_C | RETURNED — Q-500 (E_C AUTHORABLE, branches asymmetric; void-12 exposed and struck) |
 | 576 | Codex 3 | [5] AUDIT V002 | RETURNED — Q-502 (modulus repaired, regressions scored; branch-carried lattice; route board stated) |
 | 577 | Dario | [5] Audit V002 review + route analysis | RETURNED — Q-503 (repairs confirmed; 2 conservative defects; CARRY_BOTH recommended with the identification falsifier) |
-| 578 | Codex 3 | [5] THE Γ BUILD, H ROUTE: assembly-first, four joints (E1-E5) | **SENT** |
+| 578 | Codex 3 | [5] THE Γ BUILD, H ROUTE | RETURNED — Q-506 (ALL FOUR JOINTS STOPPED, distinct exact gaps; the comparison flips) |
 | 579 | Dario | [5] THE Ξ_N CANDIDATE | RETURNED — Q-505 (DRAFTED: Hol derived, ONE new map, 9 clauses/8 voids; ruling after cross-review) |
+| 580 | Dario | [5] Γ^H stops review: are the four gaps genuine? (M1-M4) | LOADED — NOT SENT |
+| 581 | Codex 3 | [5] Ξ_N draft review + the two mandated displays (N1-N5) | WRITTEN — QUEUED (load after 580 sent) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

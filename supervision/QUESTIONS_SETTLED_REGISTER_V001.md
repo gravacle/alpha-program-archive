@@ -12920,6 +12920,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-506 — ALL FOUR H JOINTS STOP ON DISTINCT EXACT GAPS — THE ROUTE COMPARISON FLIPS TO EVIDENCE: the assembly-first build listed 30 pieces and attempted every joint; each stopped honestly: (J-I) no inhabited source-extension/quotient-descent package, no O_resp→O_prof bridge; (J-II) the physical Loc / symbol-to-cochain realization has NO SEALED MEMBER — sigma_fin is explicitly not the arrow; (J-III) evaluation reaches ChargeUnit but no sealed orientation/unit map ChargeUnit→K_amb exists — the bottom stays separate; (J-IV) the naturality base squares and generic F1 descent remain unproven. **The H route's "Loc" is four missing interfaces wearing one name.** The principal's pieces-deliver-the-map question is now answered experimentally: assembly alone does not close it. THE COMPARISON OF RECORD: H = four distinct gaps; HOL = ONE new map (Ξ_N) with the holonomy derived — the asymmetry Dario's route analysis could not yet see. Both audit repairs done in-flight; R-program consequence: R8 runs as bookkeeping only, stopping before witness certification, until a route inhabits (2026-08-05 ~16:30, relay 578, SOL, 812 lines, registrar-read of the four joint boards)
+
+**Artifact:** `STAGE8_TASK5_GAMMA_H_ROUTE_LANE3_V001.md`, `f2317e41…`, seal + mirror verified, fence-clean.
+
+**Status:** the cross-reviews pair — 580 (Dario: review Γ^H's four stops, hunting missed sealed routes — one found route changes everything) and 581 (Codex 3: review the Ξ_N draft + DISPLAY the two PART-PROVABLE items). Then the Ξ_N ruling with the evidence-grade comparison.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
