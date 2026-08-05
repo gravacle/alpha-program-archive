@@ -12626,6 +12626,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-468 — THE HODGE LICENSE IS DERIVED; THE PROJECTOR BLOCKS ON A SPEC ERROR AND ONE MISSING THEOREM — AND THE "OBSTRUCTION" IS THE PHYSICS SHOWING ITSELF: **LICENSE = DERIVED** — on a fixed finite actual record complex, the ratified DoR-019 metric + the sealed differential determine adjoint, Laplacian, harmonic space, and the orthogonal Hodge decomposition (the historical kill forbade a stand-in carrier, NOT Hodge from ratified structure; spectral projector 1_{0}(Delta) with NO basis selected when the Maxwell summand has dim > 1). **BLOCKED** because (i) the harmonic projector is not support-local WITHIN a cycle — an edge-supported input with nonzero harmonic pairing projects to the full reciprocal loop — but the artifact confirms NEITHER DoR-019, DoR-020-A1, NOR the pushout demands within-cycle locality: the demand came from the Q-466 spec; the global harmonic component of a cycle IS its flux/holonomy — Maxwell content is lawfully global-on-cycles; and (ii) contact-quotient descent needs the contact subspace proved REDUCING — no sealed theorem supplies it. Also typed: the fixed-stage theorem does not itself give refinement naturality (needed for J2 on all arrows). READER_REFERENCED = no throughout (2026-08-04, relay 543, registrar-read incl. the license theorem and the blocked verdict)
+
+**Artifact:** `STAGE8_TASK5_EQ6_MAXWELL_HODGE_PROJECTOR_CERT_LANE2_V001.md`, `f074ca24…`, seal + mirror verified, fence-clean.
+
+**Status:** relay 545 (Codex 1): the corrected locality law (blockwise across disjoint sectors per RNL — expected provable via Hodge-on-direct-sums; within-cycle globality carried as the lawful charge), the contact-reducing theorem (derive or type), refinement naturality (type), then cert V002 if all land. 544/540 remain queued on Codex 2.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
