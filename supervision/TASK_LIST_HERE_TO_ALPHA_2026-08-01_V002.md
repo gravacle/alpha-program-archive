@@ -634,6 +634,12 @@ custody per LOCKED_PROCESS.md.
                 DoR-019); five void conditions incl. an actual contact twist;
                 SUPERSEDES DoR-020-A1's clause-completeness statement;
                 zero-intersection upgrade path stays open. ***                  SURFACED: yes
+
+2026-08-04  C64 *** CORRIGENDUM A3-c1 (registrar, proof-carrying): the A3 flat
+                action's displayed formula was source-stage-only; the relation
+                equation forces v_f' = v_f + psi_M - psi_N o rho_f for the
+                simultaneous family action (review 1470ae6c, H1-7..9). Substance
+                unchanged; principal may veto. ***                             SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

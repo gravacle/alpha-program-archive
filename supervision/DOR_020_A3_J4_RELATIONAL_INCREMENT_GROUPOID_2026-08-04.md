@@ -28,3 +28,14 @@ a cycle-rank-preserving arrow failing to recover the old isomorphism voids the r
 number remains the final test.
 
 Gates: alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
+
+## CORRIGENDUM A3-c1 (2026-08-04 evening; proof-carrying, forced; principal may veto)
+The adopted row displayed the flat action for a source-stage increment only. For the simultaneous
+family action (psi = {psi_N} acting at every stage), the relation equation I_M = I_N o rho_f + v_f
+FORCES the increment transformation
+  v_f' = v_f + psi_M - psi_N o rho_f     (replacing the displayed v_f' = v_f - psi_N o rho_f).
+Proof of forcing and the cocycle computation: the stage-1 V003 review of record
+`STAGE8_TASK5_EQ6_STAGE1_V003_REVIEW_LANE2_V001.md` (`1470ae6c…`), (H1-7)–(H1-9): the displayed
+form violates its own cocycle under a nonzero intermediate-stage change; the corrected form cancels
+the intermediate terms identically. The row's substance (all members retained, no selection,
+old isomorphism recovered on rank-preserving arrows) is unchanged. Registrar: Fable.

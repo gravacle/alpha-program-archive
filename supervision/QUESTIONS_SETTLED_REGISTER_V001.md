@@ -12634,6 +12634,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-469 — THE FIRST CONFIRMED FACES, AND A FORCED CORRIGENDUM: stage-1 V003 review (the LAST Sol verdict) returns DEFECTIVE (H1, H5, H6) — but **A4/J12 AND J15 PASS: the pushout response face and the contravariant mate are the assembly's first CONFIRMED closures.** The J4 face has exactly two implementation defects: (i) the flat-family action omitted the target-stage increment — the relation equation FORCES v_f' = v_f + psi_M − psi_N∘rho_f (H1-7; the displayed A3 form provably breaks its own cocycle on an intermediate-stage change, H6) — applied as CORRIGENDUM A3-c1 to the decision file, proof-carrying, principal may veto (C64); (ii) the relation-span proof gives closure (Rel_g∘Rel_f ⊆ Rel_gf) but NOT the required factorization equality (H1-11). FC ledger of record: FC2/FC4/FC13 supplied; FC1/FC7/FC8/FC9 carried; FC3 and full-family FC5 overclaimed (not confirmed); FC10 partial; FC11 open; FC12 struck (2026-08-04, relay 544, Sol verdict, registrar-read of the H1 computations)
+
+**Artifact:** `STAGE8_TASK5_EQ6_STAGE1_V003_REVIEW_LANE2_V001.md`, `1470ae6c…`, seal + mirror verified, fence-clean.
+
+**Status:** relay 546 (stage-1 V004 — the J4 face's two repairs on the corrected action; Codex 1, queued behind 545). Relay 540 (chain V004) loads NOW for the freed Codex 2 — THE FIRST SPARK RUN; build-grade, spark-tolerable per the re-armed discipline.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
