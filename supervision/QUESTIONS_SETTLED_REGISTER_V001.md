@@ -12860,6 +12860,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-498 — THE THREADING QUESTION SETTLES INTO ITS FINAL FORM: **UNDETERMINED — and lawfully so.** The honest family (C1') stated with the uninherited range clause struck; at the reciprocal loop the exact blocking quantity is displayed ((T4), equivalently (T2) on the unit Maxwell symbol) with the clause-separation pair and an exhaustion argument; neither a threading member nor a genuine vanishing is derivable; **(S28) is typed of record as a LATER STRUCTURAL END-TEST CONDITION — neither construction premise nor family selector.** A1_AMENDMENT remains the only constructive holonomy route and is NOT authored. **THE SEED STRUCTURE OF THE PROGRAM IS NOW SETTLED: the coupling's nonvanishing is the escrowed computation's own outcome (chi_K ≠ 0 at the end test) — nobody proves it in advance, nobody declares it, the number shows it or does not.** Sidecar naming deviation noted (.md.sha256 written; the protocol .seal.sha256 created by the registrar alongside; both of record) (2026-08-05 10:57, relay 571, SOL, 1,246 lines, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_EQ6_LOC_FAMILY_V002_LANE3_V001.md`, `c4826773…`, hash verified, fence-clean.
+
+**THE BANKED LEDGER now holds two constructive routes not needed for Task 5:** the FC6 closure (Q-491) and the A1 holonomy amendment (this) — both available if later tasks want them. **Status:** 572 (Dario: the cross-family review of 571) queues; on its confirmation the endgame chain resumes in order — the J7 ruling (support-scoped, seed-conditional), membership V002, the axiom re-adjudication, DoR-020-A2, the witness certification, the escrow ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
