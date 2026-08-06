@@ -185,3 +185,17 @@ Only if the stock decides it does a proof demand follow; otherwise the property 
 seed arc (Q-493–Q-498) reached END_TEST_STRUCTURAL correctly but through continuum-first
 commissions; the determination-first framing (the 541 lesson) applies to VALUES, not only objects.
 The registrar checks every commission against this rule as it checks fence gates.
+
+## THE SURFACE-ANCHOR RULE (added 2026-08-05, per the principal; strengthens the surface-geometry-versus-rails rule)
+Every build and review relay MANDATES a SURFACE ANCHOR section in its output artifact:
+(i) every PASS names the actual surface objects it was computed on — stages, cycles, arrows, orbit
+members, by name; a PASS computed only on rails notation is not a PASS;
+(ii) every NEW construct carries the geometry/rails split explicitly (which part is physical raw
+material, which part is organizing notation);
+(iii) the clause-level quantification check: no clause may quantify over structure the surface does
+not provide — the (R9) lesson as a standing test (universal quantification over a family the
+surface carries as an orbit is the named hazard).
+Origin: the rails-residue ledger — R-linearity vs the integral lattice; (R9)'s universal rendering;
+the unconditional jump claim; "locally constant away from 0"; addressless U^H — each caught one
+round after writing. Prevention at draft time, not only catch at review. The registrar checks the
+section's presence as it checks fence gates.
