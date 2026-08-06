@@ -458,9 +458,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 617 | Codex 3 | [6/SUBGATE] LP-MATRIX: the thirty-row PASS ledger (R1-R4) | **RETURNED — REGISTERED (Q-553): 24 PASS / 2 FAIL (A25,A27) / 4 BLOCKED (A23,A24,A28,A35); SPEC-SEAL false displayed** |
 | 618 | Dario | [6/SUBGATE] LP-QSPEC: the eighteen-slot assembly (Q1-Q4) | **RETURNED — REGISTERED (Q-554): 0/18 filled, demand side delivered; 3 rulings raised (S06/S12, S05 arity, S03 choke); S16 coupled to LP-JII** |
 | 619 | Codex 3 | [6/SUBGATE] A35/RD-22: the evaluator SPECIFICATION (blocker-to-check map) | **RETURNED — REGISTERED (Q-555): 63 blockers -> 66 checks (56/10 gated), runner R0-R10, runtime-pin ambiguity displayed** |
-| 620 | Dario | [6/SUBGATE] LP-MATRIX ledger review (custody) | **SENT** (delayed — clipboard was overwritten by 621 before first paste; caught via idle-lane check) |
+| 620 | Dario | [6/SUBGATE] LP-MATRIX ledger review (custody) | **RETURNED — REGISTERED (Q-558): CONFIRMED; A25/A27 -> BLOCKED; board 24/0/6/0; SPEC-SEAL false unchanged; one A21 leg OPEN |
 | 621 | Codex 3 | [6/SUBGATE] LP-QSPEC assembly review incl. the three appeal displays (custody) | **RETURNED — REGISTERED (Q-556): REFUTED w/ bounded corrections; appeals 1,2 DISSOLVED, S03 CONFIRMED-FOR-RULING; S18 -> TYPE-U (18/0)** |
-| 622 | Codex 3 | [6/FAIL-REPAIR] A25+A27 scoping: record-first repair inventory (no construction) | LOADED — NOT SENT |
+| 622 | Codex 3 | [6/BLOCKED-REPAIR] A25+A27 scoping: record-first repair inventory (no construction) | **V002 REISSUED** (V001 preflight typing superseded by Q-558) — LOADED |
 | 623 | Dario | [6/SUBGATE] A35 evaluator spec review (cross-family custody) | PLANNED (after 620 returns) |
 | 624 | Dario | [6/SUBGATE] LP-QSPEC assembly V002 (D1-D7 + the S03 ruling carried) | PLANNED (after 623) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |

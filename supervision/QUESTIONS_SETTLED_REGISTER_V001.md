@@ -13357,6 +13357,25 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-558 — TASK 6 SUBGATE: THE MATRIX LEDGER CONFIRMED ON INDEPENDENT RECOMPUTATION; A25/A27 RETYPED FAIL -> BLOCKED; THE BOARD IS NOW 24 PASS / 0 FAIL / 6 BLOCKED (2026-08-06)
+
+**Question.** Does the thirty-row LP-MATRIX ledger (Q-553) survive cross-family custody review?
+
+**Answer.** CONFIRMED with two taxonomy overrides, neither gate-moving (Dario, `STAGE8_TASK6_LP_MATRIX_LEDGER_REVIEW_DARIO_V001.md`, SHA-256 `a83289e67615d6faa2c1c942105ee6b595034f78d31fcf4e16ac5366fd1d7743`, relay 620).
+
+- **Lineage CONFIRMED by recomputation, not acceptance:** the five-row root manifest digest `4c04e4aa…` reproduced bit-for-bit; all five member hashes verified; the packet verifier re-run — 113/113 OK. V000 correctly not an independent member; the audit matrix correctly a protocol authority, not a lineage member.
+- **All 24 PASS rows CONFIRMED** — the seven load-bearing displays re-derived from V011 (not checked for quotation fidelity): A10's Gram argument non-circular (elementary cells are a basis); A13's collapse is of the object with only trivial cofinality; A14's hostile-family exhaustion verified (the two omissions separately killed; `a=b` is a complex equation); A17 everywhere-defined by finiteness; A21 personally verified; A26; A29 type-checked not evaluated. Three proposed overrides (A03, FENCE_ADJACENT, most A21 legs) REFUTED under attack. One non-fatal hygiene defect: A14 imports A10's identity metric without carrying A10's conditionality caveat — robustness displayed (the kill steps are metric-free).
+- **THE TWO OVERRIDES: A25 and A27 are BLOCKED, not FAIL** — by the ledger's OWN §0.2: FAIL requires a structurally false conjunct; the record holds NO negation and NO counterexample for either row, only outstanding-obligation clauses plus `..._proved = false` status strings, which §0.2 itself demotes to "provenance evidence, not a substitute for the displays." A missing proof package is BLOCKED by definition. Consistency gain: matches the ledger's own A26 (PASS despite a false proved-flag) and A28 (BLOCKED on an absent member). For A27 the sealed spec's own vocabulary: "Failure to prove this naturality either BLOCKS the general claim or restricts the result explicitly to that cellulation." Both overrides survived attackers instructed to default to refutation. **CORRECTION OF RECORD to Q-553's framing:** nothing on the lineage is proven false; six objects are proven absent. Revised board: **24 PASS / 0 FAIL / 6 BLOCKED / 0 FENCE-ADJACENT**; `passed_A01_A29_and_A35 = false`; SPEC-SEAL = false unchanged.
+- **FENCE_ADJACENT = 0 UPHELD** — the "true by not looking" suspicion tested and defeated: the fence question is dispositioned row by row; the proposed override died on its own execution (and its count was an M-2 failure).
+- **The invalidation rule is the matrix's own** — "increment the version and rerun every row… No delta-only review can seal BID"; Dario's attack on it failed and is reported as failed. The ledger's extension to supplied BLOCKED objects rests on lineage-change reasoning and is conservative (more rerunning, not less).
+- **OPEN ITEM (booked, unresolved):** one residual A21 objection leg reportedly survived on evidence Dario did not verify personally; Dario declined to book an unverified override into a seal-gating ledger. Carried OPEN for a bounded follow-up.
+
+**Consequence for the in-flight scoping:** relay 622's preflight called A25/A27 "FALSE on the lineage" — superseded; reissued as 622 V002 with the BLOCKED typing. The scoping task itself is unchanged: inventory what would prove the two missing proof packages.
+
+**Custody.** Executed by Codex 3 (Q-553); reviewed by Dario; registered by the reviewer from the artifact. The cross-review triangle's first side is closed.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
