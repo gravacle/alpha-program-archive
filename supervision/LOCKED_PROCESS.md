@@ -206,3 +206,11 @@ file-hash pin — its hash advances by design. Relay preflights and artifact aut
 living documents BY ENTRY (the entry ID and, where needed, the entry's own content hash), never by
 whole-file hash. Sealed artifacts retain whole-file pins. Origin: the 600 review's source-10 note —
 the register's hash "changed" because the entry recording the very prep under review was appended.
+
+## THE CARRIAGE RULE (C-V3, adopted 2026-08-06 from the DoR V003's self-charge)
+No artifact may assert carriage over a class of clauses by summary sentence ("everything else
+carried verbatim") — that is precisely the assertion that has now failed in both directions across
+lanes. Carriage is shown, not claimed: clause blocks reproduced in full; every change enumerated
+individually; a delta board listing what moved and what did not. A shortened guard is a weakened
+guard: deletions of regression rows or not-computed qualifications are substantive defects, not
+formatting. Reviewers test carriage mechanically (the Q-528 standard).

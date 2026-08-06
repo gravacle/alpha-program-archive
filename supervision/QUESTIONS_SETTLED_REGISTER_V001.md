@@ -13210,6 +13210,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-545 — THE DoR V003: THREE FIXES, ONE CONFESSION, ONE NEW LAW (Task 6 step 2, pending re-confirm): **(D1)** row 8 now requires gate 7 PLUS the ALPHA-RESULT-SEAL with its four (G6) parents plus the separate licensed act — the reason internalized: "seal ancestry is custody; gate 7 is the symbolic assembly; a numeric alpha needs both" (the V002 table had permitted what its own (V1-10a) forbade); **(D2)** the period one-branch-exit disposition displayed — OUT_OF_LATTICE recorded, the pair reported as a pair, neither selected, averaged, merged, nor dropped; **(D3)** all five witnesses restored IN FULL with the confession of record: the V002 "carried verbatim" was FALSE — U3 and U5 had deleted an armed regression row and four not-computed qualifications; "a shortened guard is a weakened guard"; the same carriage failure Dario charged at Q-517, "worse in kind," self-charged. **THE CARRIAGE RULE (C-V3) ADOPTED INTO LOCKED_PROCESS: carriage is shown, not claimed — full clause blocks, every change enumerated, no summary carriage sentences, reviewers test mechanically.** Standing correctly not asserted (2026-08-06 ~14:00, relay 609, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_EVALUATION_DOR_DARIO_V003.md`, `da5b03e1…`, seal verified, fence-clean.
+
+**Status:** 610 (Codex 3): the re-confirm under the carriage rule — mechanical carriage testing mandated.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
