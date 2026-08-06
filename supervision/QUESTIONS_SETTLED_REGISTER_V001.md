@@ -13395,6 +13395,24 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-560 — TASK 6 BLOCKED-REPAIR: A25 AND A27 ANATOMIZED — BOTH UNDETERMINED AT THEIR CORES; THE REPAIR MAP STATED; TWO ITEMS ARE FINITE WORK NOW (2026-08-06)
+
+**Question.** Does the sealed stock decide the A25 and A27 demands at all, and what would repair require?
+
+**Answer.** Codex 3's record-first inventory (`STAGE8_TASK6_A25_A27_SCOPING_LANE3_V002.md`, SHA-256 `02bbe362622bf560d83f222812d78726a0e650da8d9ba7fae6f1b65bd4f66094`, relay 622 V002; no construction, no lineage touch; packet verifier re-run 113/113). Both rows remain BLOCKED (Q-558 taxonomy preserved); the inventory converts "pending" into a precise repair map.
+
+**A25 = undetermined**, per conjunct: C25.1 the preparation-domain derivation is TYPE-U — no theorem entails `Prep_prim = P(im J_r,L)`; V011:1155-1160 itself forbids imposing the domain because it makes the ray unique, so choosing root-only-because-singleton would repeat the exact anti-selection failure. C25.2 the invariant-competitor census is FINITE WORK — the carrier and vertex action are frozen; deriving the induced C_1 action and computing the whole joint projective fixed space (mixed rays included) is bounded exact calculation with no selector. C25.3 restricted uniqueness is decidable from stock (one-line injectivity: a singleton ray on the declared domain) but the full conjunct waits on C25.1/C25.2. C25.4 uniform full-neighborhood locality is TYPE-U — the connected response subject and the refinement-uniform analytic theorem are both absent; `p_0, C, delta` are proof WITNESSES that may never be selected first.
+
+**A27 = undetermined**, with its local geometry real and decided (tetrad/Jacobian metric; the no-compensator rule; the local Hodge `J_star^2 = -I_6` is finite work; the hypercubic-only prohibition) and its load-bearing gap exactly the stitching package: **physical `Ref`/`J_ref` (geometric refinement arrows carrying incidence, coframe, connection, volume, density, support) + the same-region/common-refinement realization + the `eta_resp` response-naturality square + a named `tau_ker` and boundary/contact object + the boundary-to-four-volume subextensivity certificate + the coefficient-invariance theorem.** The intrinsic-measure result cannot promote (the direction is circular: naturality was its premise). The sealed build reaches only a W3 finite skeleton — real, but not geometric refinement. Three objects disambiguated and NOT identified: V011's `C_ref` audit class, the broader T7-D3 quantifier (scope conflict carried, non-load-bearing here), and charter O-D3's causal-diamond decompositions; the historical "lever" wording names a required certificate and does not reverse the sealed LEVER_ILLUSORY_WRONG_TYPE determination (Q-408/409/410 trail walked under the APPEAL PREFLIGHT rule).
+
+**The repair map (RA25-1..5, RA27-1..6)** carries a derivation-vs-adoption boundary under the S03 no-selection discipline: equalities and certificates must be DERIVED; premises (an admissibility grammar, a refinement grammar, a bounded-geometry family) may be adopted only target-independently with falsifiers — and DoR-007 bars importing smooth `(M,g)` as the source. Dependency: A27's naturality/boundary package is upstream of A25's refinement-uniform locality clause; A24 remains the independent supplier of the connected response subject; closing A25 does not close A24. Any repair object sealed into the audit subject increments the lineage and reruns all thirty rows; this artifact installs none.
+
+**Immediately dischargeable finite work (commissioned as relay 625):** RA25-2 the invariant-competitor census and RA27-1 the `J_star` certificate — both bounded exact derivations with no physical premise, HELD OUT of the audit subject until a batched lineage increment.
+
+**Custody.** Scoped by Codex 3; Dario review queued. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
