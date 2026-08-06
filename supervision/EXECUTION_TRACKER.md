@@ -439,7 +439,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 598 | Dario | [5/STEP 7] The re-adjudication | RETURNED — Q-529 (34/34 both arms; the fork = applicability; clause set assembled; 577 closed by claimant) |
 | 599 | Codex 3 | [6/STEP 1] A32 prep | RETURNED — Q-533 (15 sources; 20 obligations; 8 custody tensions; the M5a subgate; attainment refused-by-prep) |
 | 600 | Dario | [6/STEP 1] A32 prep review | RETURNED — Q-534 (the missed principal act; census 16; M5a weakening-by-inheritance, direction safe; Q-533 corrected) |
-| 601 | Codex 3 | [6/STEP 1] A32 PREP V002: census 16 + the ruled parents (C1-C4) | LOADED — NOT SENT |
+| 601 | Codex 3 | [6/STEP 1] A32 PREP V002: census 16 + the ruled parents (C1-C4) | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
