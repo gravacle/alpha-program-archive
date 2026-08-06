@@ -13080,6 +13080,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-527 — MEMBERSHIP V002 LANDS IN ITS HONEST FINAL FORM (Step 6, first half; pending the re-review): **MEMBERSHIP = PROVEN_IN_CONDITIONAL_FORM** — the four D-repairs 4/4 EXECUTED (clause (vi) via the native registry with the B2.6 rerun; FC6 = PASS_ON_PROVED_SCOPES with the asymmetric physical term TYPE-U and the Q-434 no-mixing conjunct standing independently; J2 at its true verbs; J7 as the carried corrected contract; every final verb re-derived); **SEVEN CARRY-1 ROWS each at its sealed type; ANTE_full honestly UNASSERTED with the current full extent FALSIFIED (the FC11 extent condition on actual diamonds) — the vacuity stated rather than hidden, and the A2 OBLIGATION written into the artifact itself: an adopting text "must freeze" the support-qualified CARRY-1 guard;** R9 correctly PENDING (not passed, failed, or vacuous); the zero-source vacuity typed by empty source, not by a metric theorem (2026-08-06 ~05:50, relay 596, SOL, 1,012 lines, registrar-read of the carried rows, D2.1, and the final board)
+
+**Artifact:** `STAGE8_TASK5_EQ6_MEMBERSHIP_THEOREM_LANE3_V002.md`, `9b019ae3…`, seal + mirror verified, fence-clean.
+
+**Status:** 597 (Dario: the re-review — the LAST review of Task 5). Then 598 (the axiom re-adjudication against the support-qualified guard question) → DoR-020-A2 → the certification → the escrow ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
