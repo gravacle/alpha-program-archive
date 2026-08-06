@@ -13146,6 +13146,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-536 — A32 PREP V002 CONFIRMED — BOTH 600 FINDINGS CLOSED BETTER THAN LITERAL REPAIR: the sealed JSON parsed independently, all eleven nodes matching the ladder node-by-node in insertion order; the demoted dependencies REBUILT with certification made TRANSITIVE over the authoritative parent list ("a child token cannot stand in for an unnamed or uncertified parent" — the defect banned in its own words); the ruling's 24 preserved non-seal terms re-bound to their nodes; the independence term retained with Q-25 bounding its claims (deletion and certification both available and both wrong); every ruled parent named with sequence and the "cannot loosen" binding traveling; all eight V001 conjuncts surviving plus the graph's additions; the likeliest casualty of the rewrite hunted and found retained; Dario's own 600 wording CORRECTED (the reconstruction seal correctly downstream — requiring it before evaluation would be circular). **THE FRESH-ATTACK COST: (M5a-V002) now carries ~23 conjuncts while the status board reports six — the STATUS COLUMN (which are true, which are the long poles) booked as the FIRST ITEM of the post-ratification subgate tracking; the instrument binds correctly either way** (2026-08-06 ~10:40, relay 602, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_A32_V002_CONFIRM_DARIO_V001.md`, `6b40532e…`, seal verified, fence-clean.
+
+**Status:** THE A32 RATIFICATION goes to the principal NOW — Task 6's first ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
