@@ -199,3 +199,10 @@ Origin: the rails-residue ledger — R-linearity vs the integral lattice; (R9)'s
 the unconditional jump claim; "locally constant away from 0"; addressless U^H — each caught one
 round after writing. Prevention at draft time, not only catch at review. The registrar checks the
 section's presence as it checks fence gates.
+
+## THE LIVING-FILE PIN RULE (added 2026-08-06, from the 600 review)
+A living document (the questions register, the tracker, any append-under-way file) cannot bear a
+file-hash pin — its hash advances by design. Relay preflights and artifact authority tables cite
+living documents BY ENTRY (the entry ID and, where needed, the entry's own content hash), never by
+whole-file hash. Sealed artifacts retain whole-file pins. Origin: the 600 review's source-10 note —
+the register's hash "changed" because the entry recording the very prep under review was appended.

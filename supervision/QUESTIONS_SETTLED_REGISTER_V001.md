@@ -13130,6 +13130,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-534 — THE 600 REVIEW: THE MISSED PRINCIPAL ACT VERIFIED END-TO-END — AND A REGISTRAR SUMMARY CORRECTION (the fifth): **THE MISSED SOURCE:** `PREREGISTRATION_ENCODING_PRECEDENCE_PRINCIPAL_DECISION_2026-07-29.md` (`70c4080e…`, sidecar matched) — a sealed principal act ONE DAY AFTER the A32 ratification, ruling the MACHINE ENCODING stage_dependencies AUTHORITATIVE for graph structure and demoting the V011 prose DAG the prep's ladder was built on; the prep's near-match was a differently-named workspace record; the authoritative encoding read directly: 11 nodes, HOLDOUT-UNIVERSE-SEAL ← [SPEC-SEAL], PREDICTION-MAP-SEAL ← [HOLDOUT-UNIVERSE-SEAL, QSPEC-SPEC-SEAL]; CENSUS = 16, NOT 15; the two refuters split and the reviewer adjudicated from sealed text. **THE LANDING: (M5a) conjoins the two seals WITHOUT naming their ruled parents — a weakening by inheritance against a ruling whose own words are "This act cannot loosen any gate"; DIRECTION SAFE (the missed encoding strictly stricter; the prep under-demands; nothing unlawful licensed) but it sits in the gate licensing Step 2 and all numerical execution.** Everything else strong: 14/14 other hashes exact; the V011 byte-version trap caught by both; the 20-count structurally exact (13 mechanical + 6 principal + A20); 6/6/8 displayed not inferred; P3/M2 recomputed faithful; the instrument sound in form. **THE REGISTRAR CORRECTION OF Q-533 (mine): the tension board is HETEROGENEOUS, not "all implementation-custody" — M9 is PERMANENT by Q-25 (completing M5a does not clear it), and P4's missing "exact domain bridge" IS THE J-II TYPE-CROSSING UNDER A NEW NAME — the same object, now inside A32's own obligations.** THE LIVING-FILE PIN RULE adopted into LOCKED_PROCESS (living documents cited by entry, never by whole-file hash) (2026-08-06 ~09:20, relay 600 across three deliveries, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_A32_PREP_REVIEW_DARIO_V001.md`, `d13bcf1f…`, seal verified, fence-clean.
+
+**Status:** 601 (Codex 3): A32 PREP V002 — census 16, the ladder rebuilt on the authoritative machine encoding, (M5a) with the ruled parents named, the instrument revised with the heterogeneous tension typing (M9's permanence; P4's J-II identity) inside the operative text. The ratification follows V002 + a bounded confirm.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
