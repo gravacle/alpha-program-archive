@@ -457,7 +457,7 @@ PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian
 | 5 | THE HOL COMPLETION | **CONVERTED** (blocked by the same Joint A; carried per CARRY-1) |
 | 6 | Membership V002 + re-review | **COMPLETE** (Q-527/Q-528) |
 | 7 | The axiom re-adjudication | **COMPLETE** (Q-529) |
-| 8 | DoR-020-A2 ruling (principal) | AT THE PRINCIPAL |
+| 8 | DoR-020-A2 ruling | **COMPLETE** — ADOPTED, ARM A (Q-530) |
 | 9 | The witness certification (registrar checkpoint) | — |
 | 10 | The escrow ruling (principal) — TASK 5 CLOSES | — |
 

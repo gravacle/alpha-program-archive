@@ -13104,6 +13104,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-530 — **STEP 8 OF 10 COMPLETE: DoR-020-A2 ADOPTED, ARM A — THE COMPLETED-EXISTENCE AXIOM IS LAW** — the ruling reserved since C61 taken: the axiom over the support-qualified guard (two conjuncts amended, everything else untouched); Step 1 discharges in conditional form; the proved permanent violation converts to reopenable-pending-one-named-object; the nine clauses frozen with every citation sealed and the clause-4 referent bound to the repaired object; A_J2's same-shape extent clause NAMED open of record (2026-08-06, principal's ruling; decision file sealed; C72)
+
+**Status:** STEP 9 — THE WITNESS CERTIFICATION (the registrar's, directly) — then STEP 10, the escrow ruling. Task 5 is two steps from close.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

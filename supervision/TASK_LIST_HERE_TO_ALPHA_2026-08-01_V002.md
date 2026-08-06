@@ -686,6 +686,13 @@ custody per LOCKED_PROCESS.md.
                 cannot inhabit — CARRY-1 becomes the live path. Task 5 closes
                 on what is proven; the number's remaining obstacle is one
                 named object (the ExtSrc member), reopenable after close. ***   SURFACED: yes
+
+2026-08-06  C72 *** DoR-020-A2 ADOPTED, ARM A (Q-529/Q-530): THE COMPLETED-
+                EXISTENCE AXIOM over the support-qualified guard — the ruling
+                reserved since C61. Nine clauses frozen, all sealed-cited; the
+                A_J2 same-shape clause NAMED open; Step 1 discharges in
+                conditional form; the deep question reopenable, not refuted.
+                Step 8 of the closing board COMPLETE. ***                       SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
