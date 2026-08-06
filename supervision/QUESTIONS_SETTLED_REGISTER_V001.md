@@ -13266,6 +13266,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-552 — **TASK 6, STEP 2 COMPLETE: THE EVALUATION DoR STANDS AT V006, RULING-READY-PENDING-SUBGATE** — the bounded sweep confirms both items closed the STRONGER way (the ordered X1–X9 enumeration executed IN ADDITION to the ratified C-V5 instrument, nine anchor-bounded regions against sealed V003, four rows spot-diffed faithful in direction and content; 612's second half discharged verbatim); the clause-8 prohibition back in the operative row coexisting with the falsifier and provenance; the re-diff independently reproduced (19 hunks, no gap or duplicate) and the UNTOUCHED REGIONS PROVEN UNTOUCHED STRUCTURALLY (no hunk on gate-row 8, the six-cell lattice, or the vacuity row); two honest attack-failures logged as method — the search protocol (M-2) now carries THREE guards: fixed strings, whitespace normalization, scope-and-synonym ("I proved that clause is load-bearing by needing it"); two residuals seen and expressly declined. The yes correctly scoped: ready EXCEPT the subgate — SPEC-SEAL false at the root, no gate above 0 open (2026-08-06 ~15:40, relay 616, OPUS, registrar-read). **The DoR chain of record: V001 draft → six versions, two pen-holders, every carriage claim finally a verified finite equality. The evaluation plan for the program's first number is DONE IN LAW; what remains before it can be RULED is the subgate's rail.**
+
+**Artifact:** `STAGE8_TASK6_DOR_V006_SWEEP_DARIO_V001.md`, `3c858c16…`, seal verified, fence-clean.
+
+**Status:** THE LONG POLES TAKE THE BOARD — 617 (Codex 3): LP-MATRIX, the thirty-row execution build; 618 (Dario): LP-QSPEC, the eighteen-slot assembly with its two physics demands. Parallel.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

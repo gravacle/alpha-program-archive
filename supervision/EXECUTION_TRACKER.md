@@ -454,7 +454,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 613 | Codex 3 | [6/STEP 2] The DoR V005 | RETURNED — Q-549 (4/4 closed; re-diff clean; pending the fresh sweep) |
 | 614 | Dario | [6/STEP 2] The fresh sweep | RETURNED — Q-550 (3 closed, 1 in form; C-V5 ratified; two bounded items to V006) |
 | 615 | Codex 3 | [6/STEP 2] The DoR V006 | RETURNED — Q-551 (both items closed; re-diff exhaustive; pending the bounded sweep) |
-| 616 | Dario | [6/STEP 2] The bounded closing sweep: DoR V006 | **SENT** |
+| 616 | Dario | [6/STEP 2] The bounded closing sweep | RETURNED — Q-552 (CONFIRMED; STEP 2 COMPLETE, ruling-ready-pending-subgate) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
@@ -470,7 +470,7 @@ PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian
 | Step | Item | Status |
 |---|---|---|
 | 1 | A32 prep + ratification | **INSTRUMENT RATIFIED** (Q-537); the M5a subgate tracked (603+) |
-| 2 | The evaluation DoR — the scope declaration | DRAFTING (604) |
+| 2 | The evaluation DoR | **COMPLETE IN LAW** (V006, Q-552) — ruling pending the subgate |
 | 3 | Member binding + cross-check (escrowed) | — |
 | 4 | The fixed-point execution + review | — |
 | 5 | The end test + the sensitivity ladder | — |
