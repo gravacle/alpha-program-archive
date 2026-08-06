@@ -436,7 +436,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 595 | Codex 3 | [5/STEP 4] ExtSrc round 2 | RETURNED — Q-525 (all six stop; quotient inverse gained; derivation exhausted; CHECKPOINT to principal) |
 | 596 | Codex 3 | [5/STEP 6] MEMBERSHIP V002 | RETURNED — Q-527 (PROVEN_IN_CONDITIONAL_FORM; 7 carried rows; ANTE_full unasserted; A2 obligation stated) |
 | 597 | Dario | [5/STEP 6] The last review | RETURNED — Q-528 (CONFIRMED; ANTE_full geometrically unsatisfiable — the A2 fork is two-way) |
-| 598 | Dario | [5/STEP 7] THE AXIOM RE-ADJUDICATION (F1-F4) | LOADED — NOT SENT |
+| 598 | Dario | [5/STEP 7] THE AXIOM RE-ADJUDICATION (F1-F4) | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
