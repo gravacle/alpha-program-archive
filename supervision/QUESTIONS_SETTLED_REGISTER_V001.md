@@ -13464,6 +13464,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-564 — TASK 6 SUBGATE: THE EVALUATOR SPEC STANDS AT V002 — EIGHT ROWS RE-RENDERED (FOUR NEWLY FOUND BY THE FULL SWEEP); ALL 66 CRITERIA OPCODE-REDUCIBLE (2026-08-06)
+
+**Question.** Are the four defective criteria repaired, and does the defect pattern recur in the 43 rows Q-561 could not sample?
+
+**Answer.** YES and YES — the full sweep found FOUR MORE (Codex 3, `STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE3_V002.md`, SHA-256 `25e89ed24933d66fcb6991b83bb971775be834070f8570a8b89cd0248f22edb7`, relay 628; supersedes V001 `eb2073eb…`).
+
+- **RE_RENDERS = 8**: the four commissioned (SP1-07, SP2-03, SP2-05, SP2-06) plus four newly found by the 66/66 self-audit — `C-B-V010-03` (selector theorem typed but not replayed), `C-B-V011-MR-04` (uniqueness claim lacked completeness-certificate binding), `C-B-V011-SP1-06` (the current-to-charge-to-projector derivation absent), `C-B-V011-SP2-07` (bare AST rejection and terminal-seal validation outside opcode rendering). Q-561's honest sampling limit was vindicated: the pattern DID recur, and the sweep caught it mechanically.
+- **SELF_AUDIT = 66/66 swept, 58 CLEAN + 8 RE-RENDERED**; every PASS criterion now reduces to opcodes, schema fields, content-addressed inputs, or defined terms. Spot-check confirms substance: SP2-05's restored positive half runs orientation covariance through `KERNEL` proof-replay over every associativity/relabeling/covariance square, with an explicit Boolean conjunction — the blocker's gloss and executable row now match.
+- Class partition unchanged (56/10); runtime pin and aggregate rule untouched, with their expected block hashes pinned; carriage verified by re-diff with a 36-hunk delta table; sealed-packet citation rule observed; AUTHORIZATION = not_claimed.
+
+**Consequence.** The evaluator specification is now complete, fully reviewed (Q-559 + Q-561), and mechanically self-audited. What remains before a build: Dario's bounded look at the 8 re-renders (folds into the next Dario relay), then the build-time principal acts — RD-22 authorization, builder custody assignments (A/B/C separation), and the unique runtime pin.
+
+**Custody.** Re-rendered by Codex 3 per the two Dario reviews; bounded re-render check by Dario queued. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
