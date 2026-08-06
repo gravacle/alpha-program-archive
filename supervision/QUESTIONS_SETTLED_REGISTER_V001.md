@@ -13096,6 +13096,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-529 — **STEP 7 OF 10 COMPLETE: THE RE-ADJUDICATION — 34/34 UNDER BOTH ARMS; THE FORK IS APPLICABILITY, NOT LAW** — all 34 constraints are FORM-constraints (none requires guard inhabitance), so the axiom meets the standard under both arms and the ruling turns on the applicability record alone: **ARM A** = a minimal two-conjunct amendment (FC1–FC10/FC13 untouched) purchasing exactly A_scope, converting a PROVED PERMANENT VIOLATION into an OPEN QUESTION — with the price verified link by link (the FC11 non-vacuity chains to (L0)/the J-II arrow: the vacuity RELOCATES to undetermined-pending-TYPE-U; "undetermined is reopenable and refuted is not"); **ARM B** = route-closure, not refutation (A_extent and its containments closed forever; membership permanently undecided, never refuted). M16/N7 verified closed properly. THE A2 CLAUSE SET ASSEMBLED: 9 clauses, 8 sealed-and-citable, 1 referent-unbound (N2: the period-threshold clause must bind to the REPAIRED object — whose re-affirmation independently holds — a drafting binding the adopting text makes). THE UNCHECKED FLAG for the text: A_J2 carries an extent clause of A_extent's exact shape, unamended by either arm — NAMED, not silently touched. **AND THE 577 MATTER CLOSED BY ITS CLAIMANT:** Dario independently verified the artifact (23,853 bytes both locations, hash-seal exact, load-bearing as this adjudication's own RV2 input), WITHDREW its three sealed false disclosures, and booked the lesson: "a tool error is a report about a call, not an observation about the filesystem" — Q-520's forensics confirmed from both sides (2026-08-06 ~07:00, relay 598, OPUS, registrar checkpoint-read of the clause set and arm boards)
+
+**Artifact:** `STAGE8_TASK5_AXIOM_READJUDICATION_DARIO_V001.md`, `16f2816b…`, seal verified, fence-clean.
+
+**Status:** DoR-020-A2 — THE RULING RESERVED SINCE C61 — goes to the principal NOW.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
