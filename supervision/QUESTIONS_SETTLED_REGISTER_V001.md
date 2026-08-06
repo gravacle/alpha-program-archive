@@ -13218,6 +13218,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-546 — C-V3's FIRST MECHANICAL OUTING CATCHES TWO MORE CARRIAGE ITEMS (Task 6 step 2 continues): the three requested fixes and all five witness targets PASS under line-level comparison — but full-block carriage fails on the OMITTED conditional period-cure clause, and change enumeration fails on remaining unenumerated substantive edits. The rule is doing what summary-trust could not, twice over. V004 = pure carriage completion (2026-08-06 13:12, relay 610, SOL, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_DOR_V003_RECONFIRM_LANE3_V001.md`, `8cc53e9b…`, seal + mirror verified, fence-clean.
+
+**Status:** 611 (Dario): the DoR V004 — the period-cure clause restored, every edit enumerated, nothing else touched.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
