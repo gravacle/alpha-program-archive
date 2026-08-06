@@ -13036,6 +13036,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-521 — **STEP 3 COMPLETE AS ANSWERED: THE J-II REALIZATION IS OBSTRUCTED — SEALED-STOCK TYPE-U, EMPTINESS NOT PROVED** — the last construction question of Task 5 resolved at 1,726 lines with the full determination discipline: the consolidated minimal specification (H1); the assembly-first piece ledger; the joint-by-joint attempt with every stop displayed (the common source: Joint A's source-extension member and Joint E's represented S23 bases; the H tail: Joints B–D, HJ7, S24/S25; the A9-only gates: Joint F, FULL-G4, G2-N); the per-declaration obstruction display (§4); the mandated SURFACE ANCHOR and dependency re-audit both present; the false anchor never consumed; no reader, no selection. NOTHING REVOKED — prior closures stand with unformed upstream inputs. THE SEED'S SUBJECT (C-1) not presently a well-posed constructed pairing; R9 armed and PENDING its first common physical cell. **THE GUARD/AXIOM CARRIAGE EXACTLY TYPED (CARRY-1):** both route families retained as potentially-empty typed families; A6 on its scope; A9's gates open without inhabitance; Γ unformed; no route/branch/address/member selection. **FIVE TYPED ALTERNATIVES for extending stock (analysis-only, each with falsifiers):** (1) the microlocal/refinement placement theorem [derivation-shaped]; (2) an external-field localization family [authored-physics-shaped]; (3) the spectral/cochain construction [derivation-shaped]; (4) the operator-space J2 retyping; (5) retain-A6-post-scope — explicit incompleteness as the price. Each must pass the Surface Anchor and R9 checks; "a formal rail alone cannot count as an inhabitant" (2026-08-06 ~00:40, relay 592 V003, SOL, registrar-read of the lead, H4, §7, and the final board)
+
+**Artifact:** `STAGE8_TASK5_JII_REALIZATION_LANE3_V001.md`, `fdf20bd4…`, seal + mirror verified, fence-clean.
+
+**Status:** 593 (Dario: the review of record + the alternatives audit) precedes THE STRATEGIC RULING — the program's fork: stock-extension toward a computable number vs explicit incompleteness carried into A2 and the escrow. The closing board's steps 4–10 reshape at that ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
