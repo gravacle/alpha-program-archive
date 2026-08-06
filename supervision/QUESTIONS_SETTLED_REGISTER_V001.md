@@ -13242,6 +13242,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-549 — THE DoR V005 BY THE FINDER: 4/4 CLOSED WITH THE PRE-SEAL RE-DIFF CLEAN (Task 6 step 2, pending the fresh sweep): the V001 final board restored; Part D made true from the finder's own computed diff; C-V4 rewritten free of self-contradiction; the anti-tuning guard's certificate-mode wording made precise. Sidecar naming deviation (.md.sha256) corrected by the registrar to protocol alongside, both of record (2026-08-06 14:04, relay 613, SOL, 719 lines, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_EVALUATION_DOR_LANE3_V005.md`, `6b4c96a0…`, hash verified, fence-clean.
+
+**Status:** 614 (Dario): the fresh sweep — on its yes, STEP 2 CLOSES ruling-ready-pending-subgate.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
