@@ -13176,6 +13176,10 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-540 — THE LONG-POLE TYPING QUESTION (the principal's) AND THE IDENTIFICATION HYPOTHESIS, registered for determination: the principal asked whether the three poles are work or discoveries. The registrar's assessment of record: LP-MATRIX = work (an execution build with no discovery signature); LP-QSPEC = work wrapping TWO genuine physics demands (the Thomson-limit slot; the unused structure-sensitive second prediction — whether the theory yields one is a discovery question); **LP-JII = very plausibly a fundamental discovery — the correspondence boundary between the record's interior and measured physics (the comparator finding: even comparison requires the crossing). THE IDENTIFICATION HYPOTHESIS, unchecked and now registered: LP-JII ≡ THE BETA GAP (the internal/external metric conversion of a record cell — the geometric route's single registered blocker of long standing). Same shape; if the same object of record, one thing has blocked both routes since the beginning, and it files as Task 7's subject (the correspondence boundary as gravity-side content).** Determination commissioned when a lane frees; checkable against sealed text (2026-08-06 ~12:10, the principal's question; the registrar's typing)
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
