@@ -13258,6 +13258,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-551 — THE DoR V006: BOTH STANDING ITEMS CLOSED (Task 6 step 2, pending the bounded closing sweep): the X1–X9 addendum executed against V003 under the ratified instrument; the clause-8 prohibition restored VERBATIM alongside its sealed provenance; the re-diff clean (19 hunks, G1/G2 disjoint and exhaustive); the protocol sidecar correct (2026-08-06 ~15:10, relay 615, SOL, 872 lines, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_EVALUATION_DOR_LANE3_V006.md`, `30b17b2a…`, seal + mirror verified, fence-clean.
+
+**Status:** 616 (Dario): the closing sweep BOUNDED to the two regions — on its yes, STEP 2 STANDS ruling-ready-pending-subgate and the long-pole commissions take the board.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
