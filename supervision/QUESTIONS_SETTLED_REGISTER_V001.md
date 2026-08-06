@@ -13202,6 +13202,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-544 — THE DoR V002 NOT CONFIRMED ON THREE BOUNDED ITEMS (Task 6 step 2 continues): (i) row 8 BYPASSES the restored gate-7 inheritance — the K2 repair created an inheritance its neighboring row does not honor; (ii) the period-only one-branch-exit disposition NOT DISPLAYED; (iii) the claimed bounded/verbatim delta OMITS confirmed V001 content — a carriage loss. K1 = PASS; K4 = PASS on all five re-keyed surfaces (2026-08-06 ~13:30, relay 608, SOL, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_DOR_V002_CONFIRM_LANE3_V001.md`, `93b516c5…`, seal + mirror verified, fence-clean.
+
+**Status:** 609 (Dario): the DoR V003 — three bounded fixes with the carriage restored and the dependency re-walk on the inheritance chain.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

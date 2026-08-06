@@ -446,7 +446,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 605 | Codex 3 | [6/STEP 2] DoR review + contact | RETURNED — Q-541 (DEFECTIVE+4 with renderings supplied; CONTACT VACUOUS_PROVEN; six cells of record) |
 | 606 | Dario | [6/Q-540] The identification | RETURNED — Q-542 (OVERLAPPING: one locus, two maps; Task 7 inherits; OBS-22 pre-registered) |
 | 607 | Dario | [6/STEP 2] The DoR V002 | RETURNED — Q-543 (4/4 applied with re-walks; the custody/mathematics separation; pending confirm) |
-| 608 | Codex 3 | [6/STEP 2] Bounded confirm: the DoR V002 (Y1-Y3) | **SENT** |
+| 608 | Codex 3 | [6/STEP 2] Bounded confirm | RETURNED — Q-544 (NOT CONFIRMED: 3 bounded items; K1/K4 pass) |
+| 609 | Dario | [6/STEP 2] The DoR V003: three bounded fixes | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
