@@ -792,6 +792,15 @@ map inhabited on actual data; (iii) the discrete classes surviving the sealed-nu
 KILL CONDITIONS: the re-review refutes the typing; or inhabitance fails structurally; or the end
 test's discrete sector proves empty. Companion retro-reading if confirmed: the seed's
 end-test-structural typing was forced (a topological charge is unreachable continuously from zero).
+ANNOTATION 2026-08-06 (Q-556): the "derived, not imposed" reading is REFUTED at current stock —
+V004 (Z1)/(Z8) type integrality as the AUTHORED codomain condition ("not derived anywhere else"),
+and A9's adoption licenses the interface while inhabiting nothing. A narrower CONDITIONAL
+discontinuity statement (via (Z3)) may be PART-PROVABLE; the headline as recorded above is not.
+Separately, OBS-21 does NOT currently qualify as the Slot-18 unused prediction: the operative V011
+eligibility predicate (V011:2080-2089) additionally demands a public independently measured
+value/uncertainty and a preregistered same-alpha comparator with a distinct prediction, and the
+governing Slot-18 registration records zero families passing screening. The observation stands as
+pre-registered with these conditions sharpened, not deleted.
 
 ## OBS-22 (PRE-REGISTERED 2026-08-06, unconfirmed) — THE EXTERNAL REALIZATION JUNCTION AS ONE LOCUS
 The claim: the correspondence boundary between the record's interior (internal, unit-normalized,
