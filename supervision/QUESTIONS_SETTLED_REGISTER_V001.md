@@ -13008,6 +13008,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-517 — Ξ_N V004 DRAFTS BY THE DEFECTS' FINDER (Step 2, final draft pending fresh review): the three V003 defects closed on the V003 literal baseline with confirmed clauses carried verbatim — the Y9/full-G4 anti-counterterm law as a clause, the fixed-support constancy typed against the addressed-orbit family, the character-jump claim conditioned — with the MANDATED DEPENDENCY RE-AUDIT displayed as its own section (the structural fix for the recurring change-without-reaudit failure mode) (2026-08-05 ~20:00, relay 590, SOL, registrar-read of the final board)
+
+**Artifact:** `STAGE8_TASK5_XI_N_CANDIDATE_LANE3_V004.md`, `ac9335dc…`, seal + mirror verified, fence-clean.
+
+**Status:** 591 (Dario: the fresh cross-family review — the drafter and reviewer roles now fully swapped from V001–V003). Step 2 closes on confirmation + the adoption ruling.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
