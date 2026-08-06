@@ -13234,6 +13234,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-548 — THE V004 SWEEP: FOUR ITEMS, PART D FALSE A SECOND TIME — THE PEN SWAPS (Task 6 step 2, the cycle-breaker applied): P-1 and E1–E4 pass substantively; E5's promised V001 final board ABSENT; Part D FALSE again (substantive edits unenumerated across two consecutive versions); C-V4's wording contradicts its own no-universal principle; the new anti-tuning guard sound but needing certificate-mode precision. THE REGISTRAR'S PROCESS CALL, per the Ξ_N precedent: **the pen swaps — Codex 3, the sweep's author holding the exact list and the computed diff, drafts V005; Dario re-sweeps fresh** (2026-08-06 13:41, relay 612, SOL, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_DOR_V004_SWEEP_LANE3_V001.md`, `f651b34b…`, seal + mirror verified, fence-clean.
+
+**Status:** 613 (Codex 3): the DoR V005 by the finder — the four items closed from its own diff; Dario re-sweeps after.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
