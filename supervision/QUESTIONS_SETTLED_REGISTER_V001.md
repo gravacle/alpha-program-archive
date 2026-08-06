@@ -13180,6 +13180,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-541 — THE DoR REVIEW: FOUR BOUNDED DEFECTS, EACH WITH ITS CORRECTED RENDERING SUPPLIED — AND THE CONTACT QUESTION SETTLED: **CONTACT = VACUOUS_PROVEN on the local route** (the B_w factor walk showing no E_C consumption; the A7_BRANCH field displays vacuity of record, never omitted); **CELLS = six_of_record** (corrigendum C1 consumed; no surviving consumer of "eight"); the four defects — K1 verb provenance, K2 the Step-8 cumulative gates, K3 the vacuity landing replacing the drafted both-dispositions, K4 the corrigendum landing — each with witness AND bounded corrected rendering in the review itself; READY_FOR_RULING_PENDING_SUBGATE = no until the redraft (2026-08-06 12:07, relay 605 V002, SOL, 664 lines, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_DOR_REVIEW_LANE3_V001.md`, `20be8030…`, seal + mirror verified, fence-clean.
+
+**Status:** 607 (Dario, behind 606): the DoR V002 applying the four supplied renderings. The identification (606) still in flight.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
