@@ -431,7 +431,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 590 | Codex 3 | [5] Ξ_N V004 | RETURNED — Q-517 (drafted with the dependency re-audit displayed; fresh review next) |
 | 591 | Dario | [5] Ξ_N V004 fresh review | RETURNED — Q-520 (CONFIRMED under extra-care; N2 micro-item logged; the 577 custody claim REFUTED by forensics — all verdicts stand) |
 | 592 | Codex 3 | [5] STEP 3: THE J-II REALIZATION FAMILY | PREFLIGHT-STOPPED twice (stale head; then the registrar's sigma^fin mis-citation — the lane supplied the correct pointer); V003 reissued, LOADED |
-| 593 | Dario | [5] J-II review of record + the alternatives audit (K1-K6) | LOADED — NOT SENT |
+| 593 | Dario | [5] J-II review of record + the alternatives audit (K1-K6) | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
