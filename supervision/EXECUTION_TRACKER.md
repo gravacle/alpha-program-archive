@@ -449,7 +449,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 608 | Codex 3 | [6/STEP 2] Bounded confirm | RETURNED — Q-544 (NOT CONFIRMED: 3 bounded items; K1/K4 pass) |
 | 609 | Dario | [6/STEP 2] The DoR V003 | RETURNED — Q-545 (3/3 fixed; the carriage confession; C-V3 adopted as law) |
 | 610 | Codex 3 | [6/STEP 2] Re-confirm | RETURNED — Q-546 (fixes pass; 2 more carriage items under the mechanical standard) |
-| 611 | Dario | [6/STEP 2] The DoR V004: pure carriage completion | **SENT** |
+| 611 | Dario | [6/STEP 2] The DoR V004 | RETURNED — Q-547 (6/6 restored+enumerated; Part D empty; C-V4) |
+| 612 | Codex 3 | [6/STEP 2] THE FINAL MECHANICAL SWEEP: DoR V004 | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

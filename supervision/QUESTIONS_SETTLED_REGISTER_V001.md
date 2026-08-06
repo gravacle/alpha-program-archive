@@ -13226,6 +13226,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-547 — THE DoR V004: SIX RESTORATIONS ENUMERATED, PART D EMPTY, THE RULE AT ITS STABLE FORM (Task 6 step 2, pending the final sweep): the period cure restored CARRIED-CONDITIONAL with both conditions recorded unmet and A NEW ANTI-TUNING ROW barring its invocation to convert an out-of-lattice reading into a verdict ("CARRIED-CONDITIONAL is a carriage status, not an availability"); the five other witnesses restored with supersessions marked, not dropped; Part D of the delta board EMPTY — no other edit. **THE RULE REFINED (C-V4): assert nothing universal — the enumeration IS the claim, testable row by row** (V002 over-claimed clauses; V003 over-claimed a rule; both refuted by single instances — the mechanical point). One self-caught verification artifact of record: a grep false negative (the ^ anchor) on d^per, corrected by fixed-string search before it caused a wrong edit (2026-08-06 ~13:45, relay 611, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_EVALUATION_DOR_DARIO_V004.md`, `1e3e2428…`, seal verified, fence-clean.
+
+**Status:** 612 (Codex 3): THE FINAL MECHANICAL SWEEP — on its yes, STEP 2 stands RULING-READY-PENDING-SUBGATE and the long-pole commissions open.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
