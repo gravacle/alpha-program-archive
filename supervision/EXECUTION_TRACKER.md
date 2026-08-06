@@ -465,9 +465,11 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 624 | Dario (FRESH SESSION) | [6/SUBGATE] A35 spec review completion: E2+E3+runtime-pin (bootstrap header) | **RETURNED — REGISTERED (Q-561): SPEC CONFIRMED overall; 4 criteria to re-render (-> 628); runner 11/11+3; pin confirmed |
 | 625 | Codex 3 | [6/BLOCKED-REPAIR] RA25-2 census + RA27-1 J_star certificate (bounded derivations, held out of lineage) | **RETURNED — REGISTERED (Q-563): J_star^2=-I_6 proven; Fix_L = CP^4 (a continuum, not a list); held out |
 | 626 | Dario | [6/SUBGATE] LP-QSPEC assembly V002 (D1-D8 + the S03 ruling carried) | **RETURNED — REGISTERED (Q-562): 18 TYPE-U, appeals resolved in text, freeze blocker now external; carriage qual -> 629** |
-| 627 | Dario | [6/BLOCKED-REPAIR] A25/A27 scoping review (custody) | **SENT** (delayed — clipboard overwritten by 628 before first paste; caught by Brian) |
+| 627 | Dario | [6/BLOCKED-REPAIR] A25/A27 scoping review (custody) | **RETURNED — REGISTERED (Q-565): CONFIRMED, 0 overrides; 1 weakened-direction quotation defect -> V003 (631) |
 | 628 | Codex 3 | [6/SUBGATE] evaluator spec V002: re-render the 4 criteria + opcode-reducibility self-audit of all 66 | **RETURNED — REGISTERED (Q-564): 8 re-rendered (4 newly found), 66/66 swept, all opcode-reducible |
 | 629 | Codex 3 | [6/SUBGATE] assembly V002 bounded delta re-check (incl. untabled battery restructuring) | **SENT** |
+| 630 | Dario | [6/SUBGATE] spec V002 re-render check (the 8 rows, bounded) | LOADED — NOT SENT |
+| 631 | Codex 3 | [6/BLOCKED-REPAIR] scoping V003: the two-clause fix + quotation repairs | PLANNED (after 629) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

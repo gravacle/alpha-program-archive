@@ -13480,6 +13480,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-565 — TASK 6 BLOCKED-REPAIR: THE A25/A27 INVENTORY CONFIRMED — ZERO GRADE OVERRIDES; ONE QUOTATION DEFECT IN THE DANGEROUS DIRECTION MUST BE FIXED BEFORE ANY LANE BUILDS FROM IT (2026-08-06)
+
+**Question.** Does the A25/A27 repair inventory (Q-560) survive cross-family custody review?
+
+**Answer.** CONFIRMED on every judgment; REFUTED on quotation hygiene in three places, one of which matters (Dario, `STAGE8_TASK6_A25_A27_SCOPING_REVIEW_DARIO_V001.md`, SHA-256 `bed94669d592c95805d3e6854f0c8dc6ee6032c043233337662e8dfc6f8510c9`, relay 627).
+
+- **Ten grades re-adjudicated at their pins in both directions — not one moves.** C25.2's finite_work survived the hardest press (the induced C_1 action needs no new premise), and the reviewer declined a conservative-direction override on principle: "over-claiming in the conservative direction is still over-claiming." All three classic traps clean; trap (b) is a recorded MERIT — V011 asserts its own derivation ("by first-opening semantics") and the inventory refuses the source's SELF-assertion, marking the object [DECLARED]. Refusing a sealed source's self-assertion is harder than refusing a lane's.
+- **The circularity argument verified at its pin and found OVER-DETERMINED:** the measure derivation files response-commutation under "Authoritative inherited response clauses" with the conclusion following "Therefore" — naturality is unambiguously a premise (stronger than the inventory claimed); and §2.8.2's type-gap table blocks the promotion independently, so the conclusion does not rest on one leg.
+- **Repair and dependency maps CONFIRMED** — minimality both directions; three proposed overrides refuted (including "the restriction horn is a second lawful disposition": Q-558 already selected the other horn when it ruled BLOCKED); the derivation-vs-adoption boundaries consistent with Q-557's two-ended bar.
+- **THE DEFECT THAT MATTERS (fix before use — scoping V003, queued as 631):** §2.6.3 renders V011:1407's TWO clauses as ONE — the exact response-commutation clause and the separate coefficient-invariance-up-to-boundary-term clause are merged into commutation-modulo-a-boundary/contact-ideal. That imports the coefficient clause's tolerance into the commutation clause — **the weakened direction, which is the dangerous one: an overstated demand makes a lawful repair look insufficient and the repairing lane notices; an understated one lets an insufficient repair look sufficient and nobody does.** Two further paraphrase-as-quotation blocks (§1.4.1 omitting the sealed "Gate A24 must test this domain restriction" custody sentence; §2.2's C_ref rendering) are hygiene, not grade-reaching.
+- **Standing note of record:** the taxonomy error Q-558 corrected still lives as prose inside the sealed matrix ledger ("these are false required conjuncts"); the inventory correctly does not inherit it. Sealed artifacts are not edited; the correction lives in the register layer and any future lineage rerun re-executes the rows fresh.
+
+**Custody.** Scoped by Codex 3; reviewed by Dario; the two-clause repair owed by Codex 3 (V003, relay 631, after 629 returns). Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
