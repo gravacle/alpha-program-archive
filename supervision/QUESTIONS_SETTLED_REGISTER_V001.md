@@ -13122,6 +13122,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-533 — THE A32 PREPARATION REFRAMES THE GATE (Task 6 step 1, first half): A32 is THE EVALUATION-CUSTODY APPARATUS — 15 hash-verified sources, 20 obligations consolidated: public record schemas, canonical IDs over the VALUE-FREE canonical source record, salted custodian commitments, and the IMMUTABLE PREDICTION-MAP interface sealed BEFORE evaluation (preserving the seven CARRY-1 rows, the falsifiers, the units) — plus the PERMANENT Q-25 limitation of the principal's 2026-07-30 masking disposition (process independence and independent attestation never established) that must TRAVEL WITH EVERY A32 HEADLINE, and the scalar-only covariance caveat (vector extension requires collector revision and recommitment before prediction). THE MAPPING: 6 satisfiable as inherited / 6 supplied by later board steps / **8 IN TENSION — all implementation-custody gaps** (schema nonconformance; IDs hashing S_pub not S_req; no sealed map; the attestation limitation) — and the artifact CORRECTLY REFUSES ATTAINMENT-BY-PREPARATION, defining the Step-1 completion subgate (M5a): the schema/ID/map custody must SEAL before Step 2 or any numerical execution. The instrument drafted with the tensions explicit (2026-08-06 08:31, relay 599, SOL, 867 lines, registrar-read of the source table, the tension rows, and the subgate)
+
+**Artifact:** `STAGE8_TASK6_A32_PREP_LANE3_V001.md`, `0f5976a2…`, seal + mirror verified, fence-clean.
+
+**Status:** 600 (Dario: the prep review + the instrument audit) precedes the ratification; the (M5a) subgate work is the real Step-1 remainder.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
