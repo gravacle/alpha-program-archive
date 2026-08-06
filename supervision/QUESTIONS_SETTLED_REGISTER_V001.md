@@ -13016,6 +13016,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-518 — THE FABLE REVIEW OF RECORD CONFIRMS Ξ_N V004 (Step 2's review closed by the registrar per the principal's direction, Dario mid-incident): all three closures verified genuine (the authored anti-counterterm law with its one-element falsifier and unformed-not-empty typing; the oriented-stratum constancy closing the exact sign-collapse door with the G5-conditional sign arm; the conditioned jump with the false phrase withdrawn by name and character-blindness separated from Xi-discontinuity); (Z-A7) a real universal assertion with one-element refutability and honest repayment scope; the dependency re-audit spot-checked genuine; the surface-anchor and R9-lesson quantification audits PASS. **READY_FOR_RULING = yes, with the honest characterization: adoption LICENSES the what-encircles-what interface and inhabits nothing — the uninhabited gates (ExtSrc, G4-D, G5, FULL-G4, G2-N, several shared with the H route) all displayed; four falsifiers armed on adoption** (2026-08-05 ~20:40, FABLE REVIEW; Dario's clean return, if it comes, registers as corroboration under the extra-care forensics)
+
+**Artifacts:** `STAGE8_TASK5_XI_N_CANDIDATE_LANE3_V004.md` `ac9335dc…`; the review `FABLE_REVIEW_XI_N_V004_2026-08-05.md`, both sealed + mirrored.
+
+**Status:** the Ξ_N adoption ruling goes to the principal NOW — Step 2 closes on it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
