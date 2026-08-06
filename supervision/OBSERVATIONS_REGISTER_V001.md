@@ -797,7 +797,7 @@ V004 (Z1)/(Z8) type integrality as the AUTHORED codomain condition ("not derived
 and A9's adoption licenses the interface while inhabiting nothing. A narrower CONDITIONAL
 discontinuity statement (via (Z3)) may be PART-PROVABLE; the headline as recorded above is not.
 Separately, OBS-21 does NOT currently qualify as the Slot-18 unused prediction: the operative V011
-eligibility predicate (V011:2080-2089) additionally demands a public independently measured
+eligibility predicate (sealed packet V011:1983-1993; the same text at root :2080-2089 — cite the sealed copy) additionally demands a public independently measured
 value/uncertainty and a preregistered same-alpha comparator with a distinct prediction, and the
 governing Slot-18 registration records zero families passing screening. The observation stands as
 pre-registered with these conditions sharpened, not deleted.

@@ -13430,6 +13430,23 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-562 — TASK 6 SUBGATE: THE ASSEMBLY STANDS AT V002 — 18 TYPE-U, ALL THREE APPEALS RESOLVED IN TEXT, THE FREEZE BLOCKER MOVED OUTSIDE THE DOCUMENT (2026-08-06)
+
+**Question.** Does the corrected eighteen-slot assembly implement the review's verdicts and the S03 ruling?
+
+**Answer.** YES with one carriage qualification (Dario, `STAGE8_TASK6_LP_QSPEC_ASSEMBLY_DARIO_V002.md`, SHA-256 `11e4e6e4a37572dad1f86ed91fb6ed692195ec282876456418c4fcdac5021037`, relay 626; supersedes V001 `a2fdd7c0…`). The board is honest at eighteen: **0 filled / 18 TYPE-U / 0 PART-PROVABLE.**
+
+- **D1** the ledger's characters RESTORED (`Moller`, the list-leading `and`) — the heading made true rather than weakened, with the reason stated: the verbatim column exists to be diffed against the ledger.
+- **D2/D3** both dissolved appeals carried as dissolutions: S12 re-posed as regulator-family scheme covariance (O-SC1 origin / O-SC2 covariance compatible, neither inhabited); S05's `Z_ext` reported BUILT with the integrated form an unbuilt promotion/measure layer — no fork.
+- **D4/D5** the S18 withdrawal recorded against itself without softening: "(P-S18) was the most attractive result in that assembly and it was wrong on the sealed clauses… an input wearing a consequence's clothes." The slot now carries the five-conjunct eligibility predicate as its real bar — cited from the SEALED packet at V011:1983-1993 (the relay's V011:2080-2089 was the unsealed root numbering; the lane's custody catch, correction of record for Q-556's citation too) — plus the narrower conditional-discontinuity CANDIDATE SHAPE (CS-S18), carried, not chosen, not evaluated. S18's anti-tuning row gains the second bar: **a prediction whose key property is authored is not a prediction.**
+- **D6/D7/D8** S09 under the S9-A/S9-B successor typing; T_R/T_K distinct; S03 carries the Q-557 ruling verbatim in substance with S04-S08 inheriting on the object side — and the F_PLDEC note that selection is now barred from BOTH ends (C7 on the response side, Q-557 on the construction side).
+- **THE FREEZE POSITION MATERIALLY IMPROVED:** V001's internal contradiction blocker is gone; the demand-side document is ASSEMBLED and INTERNALLY CONSISTENT; a lawful freeze is gated only on machinery EXTERNAL to it — the evaluator (specified, not built) and SPEC-SEAL (false with six BLOCKED rows). The obstacle moved from where only adjudication could clear it to where construction can. Nothing internal to the assembly needs a ruling.
+- **Carriage qualification (registrar):** the 16-row delta table accounts for all substantive slot/physics content, and the registrar's own re-diff confirms the changed regions concentrate there — but V001's method note (§0.4) and the battery/verb-audit sections were restructured without table rows. Folded into the bounded delta re-check (relay 629, Codex 3) to classify as harmless-editorial or not.
+
+**Custody.** Corrected by Dario per Codex 3's review (Q-556) and the principal's ruling (Q-557); bounded delta re-check by Codex 3 queued. Registered by the reviewer from the artifact after an independent re-diff.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
