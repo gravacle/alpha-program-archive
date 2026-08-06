@@ -13326,6 +13326,29 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-556 — TASK 6 SUBGATE: THE LP-QSPEC ASSEMBLY REVIEW — REFUTED WITH BOUNDED CORRECTIONS; TWO OF THREE APPEALS DISSOLVED; S18 DOWNGRADED; ONE RULING SURVIVES (2026-08-06)
+
+**Question.** Does Dario's eighteen-slot assembly (Q-554) survive cross-family review, and are its three raised rulings genuine?
+
+**Answer.** REFUTED_WITH_BOUNDED_CORRECTIONS (Codex 3, `STAGE8_TASK6_LP_QSPEC_ASSEMBLY_REVIEW_LANE3_V001.md`, SHA-256 `f8bfff5bb01ce33f2e973a9ae58fb80bd07650dd9f0d83f02202eda9b3bc48ee`, relay 621). What SURVIVES: the eighteen-concept census in order; C7 exact; the target-value-free/historically-target-aware standard; 0/18 filled; S01-S17 TYPE-U sustained row-by-row (no genuine member killed by the six adversarial downgrades); S16's three precisions; the OBS-22 declination. The corrected board: **18 TYPE-U / 0 PART-PROVABLE.**
+
+**The three appeals, adjudicated on sealed pins:**
+1. **S06 vs S12 — DISSOLVED.** The quoted sentence ("if slot 12 is discharged as written, slot 6 CANNOT supply a scale") is a HISTORICAL state at register entry Q-13, expressly superseded by `SLOT12_SCHEME_COVARIANCE_PRINCIPAL_DECISION_2026-07-30.md` (S12 re-posed as regulator-family scheme covariance) as carried in the live registration record: O-SC1 (the finite condition must be parent-derived) and O-SC2 (outputs covariant over the preregistered regulator family) are compatible — origin vs covariance, not exclusion. Neither is inhabited; there is no contradiction and no freeze blocker from this pair.
+2. **S05 arity fork — DISSOLVED as false exclusivity.** The BUILT sealed type is external-history valued (`Z_ext[A_+,A_-] = omega_in(W[A_-]^dagger W[A_+])`, `Z_ext[A,A]=1`); the integrated-A wording exists only as a TRIAGED possible promotion, not a second built type. The A5-bridge type witness shows the two forms compose as successive layers (an integrated object could consume the external functional as integrand, given a lawful gauge-history measure). S05 stays TYPE-U for the exact missing promotion/measure/bridge.
+3. **S03 choke point — CONFIRMED-FOR-RULING**, with a scope qualification: "unbounded" means NOT BOUNDED BY SEALED STOCK, not an infinite-cardinality theorem. Of record: `complete_public_charged_action_unique = false`; Task 19 BLOCKED_AS_CONSTRUCTION; two concrete completion countermodels with different response; no sealed selector; "declaring one minimal is not a derivation." Selecting a completion is adoption. GOES TO THE PRINCIPAL.
+
+**S18 OVERRIDE -> TYPE-U.** (P-S18)'s headline ("charge quantization is DERIVED, not imposed") states the OPPOSITE of the sealed source: (Z1)/(Z8) say integrality is the AUTHORED codomain condition, "not derived anywhere else"; A9 adoption "licenses; it inhabits nothing." The entailment fails by direct comparison. (F-S18) is not a falsifier of the provenance headline. The fresh attack independently sustains the downgrade: the OPERATIVE V011 Slot-18 eligibility predicate (V011:2080-2089) demands complete-lineage absence + computability with no fitted parameter + a PUBLIC independently measured value/uncertainty + not-alpha + an operational same-alpha comparator making a distinct prediction — and the governing Slot-18 registration records zero current families passing screening. Even a proven conditional discontinuity theorem would not yet qualify. **The blind-prediction slot is genuinely unfilled; a narrower conditional discontinuity statement may be PART-PROVABLE but is not the chosen claim.**
+
+**S16/J-II coupling CONFIRMED as NECESSARY-only:** K_* on LOCAL-SHADOW --[LP-JII realization, TYPE-U]--> K_*^phys --[S13-gated comparison]--> kappa_Thomson; without the first arrow the comparison's source and target do not share a carrier; J-II inhabitance alone would not supply S13 or execute the protocol.
+
+**Corrections owed (assembly V002, Dario):** D1 verbatim defects (S11 `Moller`, S18 list-leading `and`); D2 carry the scheme-covariance ruling; D3 external-built vs unbuilt-promotion typing; D4/D5 the S18 downgrade and falsifier repair; D6 S09 under the S9-A/S9-B successor typing; D7 keep T_R and T_K distinct.
+
+**Process lesson (logged to LOCKED_PROCESS):** the dissolved appeals came from consuming a true historical quote after its registered supersession — APPEAL PREFLIGHT rule added: before raising a MACHINERY-APPEAL on a conflict, search the register and supervision decisions for a superseding ruling and quote the LATEST state.
+
+**Custody.** Review by Codex 3 of Dario's assembly; V002 correction owed by Dario; the S03 ruling goes to the principal. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -223,3 +223,12 @@ over a NAMED diff — diff hunks enumerated, row-sets summing exactly, verified 
 form a sweep can verify rather than merely fail to falsify. Remedy substitutions by lanes remain
 subject to ratification (the three-tier rule); the C-V5 substitution was ratified WITH its ordered
 predecessor enumeration still executed as an addendum.
+
+## APPEAL PREFLIGHT RULE (added 2026-08-06, Q-556)
+
+Before raising a MACHINERY-APPEAL on a conflict between two sealed statements,
+the lane MUST search the questions-settled register and the supervision decision
+files for a superseding ruling on either statement, and must quote the LATEST
+registered state. A true historical quote consumed after its supersession is a
+defect, not an appeal. (Origin: relay 618's S06/S12 appeal, dissolved at Q-556
+by a principal ruling registered 2026-07-30 that the assembly did not consult.)
