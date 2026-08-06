@@ -13110,6 +13110,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-531 — **STEP 9 OF 10 COMPLETE: THE WITNESS CERTIFICATION IS SEALED** — the registrar's certification of record: nine certified inventories each to its sealed source at its sealed strength; the NOT-CERTIFIED list at equal weight (A_RP⁺, the seed, ExtSrc, Γ, the unamended extent, R9's identification, every number, every comparison); the escrow's inheritance stated (the local chain executable as LOCAL-SHADOW; CARRY-1; the armed falsifier ledger; the fences until and only as far as the ruling licenses) (2026-08-06, `FABLE_WITNESS_CERTIFICATION_TASK5_2026-08-06.md`, sealed + mirrored)
+
+**Status:** STEP 10 — THE ESCROW RULING — goes to the principal. Task 5 is one ruling from close.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
