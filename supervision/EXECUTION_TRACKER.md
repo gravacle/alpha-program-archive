@@ -456,9 +456,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 615 | Codex 3 | [6/STEP 2] The DoR V006 | RETURNED — Q-551 (both items closed; re-diff exhaustive; pending the bounded sweep) |
 | 616 | Dario | [6/STEP 2] The bounded closing sweep | RETURNED — Q-552 (CONFIRMED; STEP 2 COMPLETE, ruling-ready-pending-subgate) |
 | 617 | Codex 3 | [6/SUBGATE] LP-MATRIX: the thirty-row PASS ledger (R1-R4) | **RETURNED — REGISTERED (Q-553): 24 PASS / 2 FAIL (A25,A27) / 4 BLOCKED (A23,A24,A28,A35); SPEC-SEAL false displayed** |
-| 618 | Dario | [6/SUBGATE] LP-QSPEC: the eighteen-slot assembly (Q1-Q4) | **SENT** |
+| 618 | Dario | [6/SUBGATE] LP-QSPEC: the eighteen-slot assembly (Q1-Q4) | **RETURNED — REGISTERED (Q-554): 0/18 filled, demand side delivered; 3 rulings raised (S06/S12, S05 arity, S03 choke); S16 coupled to LP-JII** |
 | 619 | Codex 3 | [6/SUBGATE] A35/RD-22: the evaluator SPECIFICATION (blocker-to-check map) | **SENT** |
-| 620 | Dario | [6/SUBGATE] LP-MATRIX ledger review (custody) | PLANNED (after 618 returns) |
+| 620 | Dario | [6/SUBGATE] LP-MATRIX ledger review (custody) | LOADED — NOT SENT |
+| 621 | Codex 3 | [6/SUBGATE] LP-QSPEC assembly review incl. the three appeal displays (custody) | PLANNED (after 619 returns) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

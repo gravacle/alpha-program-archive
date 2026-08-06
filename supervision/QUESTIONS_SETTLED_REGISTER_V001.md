@@ -13291,6 +13291,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-554 — TASK 6 SUBGATE: LP-QSPEC ASSEMBLED — ZERO OF EIGHTEEN SLOTS FILLED; THE DEMAND SIDE NOW EXISTS AS ONE OBJECT; THREE RULINGS RAISED (2026-08-06)
+
+**Question.** Can the eighteen-slot target-free complete Q-spec be assembled from sealed content, including the Thomson limit and one unused structure-sensitive prediction?
+
+**Answer.** The OBJECT cannot — zero of eighteen slots is filled, corroborated by the corpus's own `closed_slots = 0` — but the DEMAND SIDE now exists as one parameter-free, target-value-free document, which did not exist before and is what QSPEC-SPEC-SEAL will need. Dario's assembly (`STAGE8_TASK6_LP_QSPEC_ASSEMBLY_DARIO_V001.md`, SHA-256 `a2fdd7c0502083cc9973b766464a30807a3ba3b36b9305011df404671635422c`, relay 618):
+
+- **Grades (verified, not finders'):** 17 TYPE-U (S01-S17) + 1 PART-PROVABLE (S18). Every claimed filling — S01, S03 twice, S05, S07, S09 — was refuted down to TYPE-U by adversarial verification; the one upward move was S18. Every TYPE-U is "no member produced", never "no member exists".
+- **The spine:** nine slots sit in the sealed frozen electromagnetic order S03->S04->S05->S06->S07->S08->S13->S16->S17 under C7 — "no later item may be used to select an earlier one" — carried as the assembly's principal anti-tuning instrument. The claimed standard is TARGET-VALUE-FREEDOM (the ledger's own "target-value-free but historically target-aware"); two target-adjacent sealed references disclosed, neither used as a filling.
+- **Thomson (S16), three precisions:** (1) the source object was RE-POSED to `K_* -> kappa_Thomson`, expressly "not discharged, weakened or deleted"; (2) "threshold-conditioned" means conditioned on the S13 pole-versus-infraparticle OUTCOME, not the onset root; (3) **S16 consumes the LOCAL-SHADOW -> physical-carrier bridge, so it cannot be filled while LP-JII stands — the two long poles are NOT independent.** The transport is UNDETERMINED of record; a sealed inline protocol exists, unexecuted.
+- **The blind prediction (S18):** (P-S18) — the source-to-loop threading assignment is a topological charge, integer-valued by structure, so CHARGE QUANTIZATION IS DERIVED, NOT IMPOSED — sourced to the adopted (Z3)/(Z4) at A9/V004, falsifier (F-S18) armed (non-integer assignment on an addressed sector / structural inhabitance failure / (Z3) typing refuted), confirmation condition (i) already MET at Q-519. NOT evaluated. OBS-22 declined for the slot (it predicts the programme's own obstruction topology, not nature — Dario declining its own 606 determination).
+- **THREE RULINGS RAISED (MACHINERY-APPEAL), pending — routed through cross-review before the principal:** (1) **S06 vs S12** — "if slot 12 is discharged as written, slot 6 CANNOT supply a scale"; mutually exclusive discharge conditions; a freeze containing both would seal a contradiction, so `ready_pending_evaluator` is NOT lawfully freezeable until ruled; (2) **S05's arity fork** — "interacting" has two mutually exclusive sealed readings (external A vs integrated A), differing in arity and in whether a measure is part of the object; (3) **S03's choke point** — BLOCKED_AS_CONSTRUCTION, unbounded mutation class; selecting a completion is adoption, not derivation; S04-S08 inherit.
+
+**Custody.** Assembled by Dario; Codex 3 cross-review pending (queued as 621 behind 619), which must verify the three appeal displays before the rulings go to the principal. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
