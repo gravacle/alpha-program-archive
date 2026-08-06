@@ -668,6 +668,11 @@ custody per LOCKED_PROCESS.md.
                 falsifier is law: commonly-formed cells must agree. The
                 program's central object gets two independent constructions
                 and one agreement requirement. ***                              SURFACED: yes
+
+2026-08-05  C69 *** DoR-020-A9 ADOPTED (Q-518/Q-519): THE WHAT-ENCIRCLES-WHAT
+                CLAUSE — Ξ_N V004, 14 clauses, the topological-charge typing
+                as law; licenses the interface, inhabits nothing; four
+                falsifiers armed. Step 2 of the closing board COMPLETE. ***     SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

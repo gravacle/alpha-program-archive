@@ -13024,6 +13024,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-519 — DoR-020-A9 RATIFIED — **STEP 2 OF 10 COMPLETE**: the what-encircles-what clause adopted at V004 (14 clauses; the topological-charge typing as law; licensed-not-inhabited; four falsifiers armed); the HOL route's legal basis complete under A8; OBS-21's first confirmation condition (adoption) MET — inhabitance and the number remain (2026-08-05, principal's ruling; decision file sealed; C69)
+
+**Status — STEP 3 OPENS: THE J-II REALIZATION FAMILY** — the last unsized construction, the common blocker of both routes (relay 592 → Codex 3). Dario's 591 return still pending under the extra-care protocol; on a clean return it registers as corroboration of Q-518.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
