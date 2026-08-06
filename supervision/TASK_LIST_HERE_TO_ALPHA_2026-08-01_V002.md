@@ -680,6 +680,12 @@ custody per LOCKED_PROCESS.md.
                 day one; the cross-sector-unit declaration booked as standing
                 obligation. The closing board's steps 4-10 reshaped
                 accordingly. ***                                                SURFACED: yes
+
+2026-08-06  C71 *** THE FALLBACK INVOKED (Q-525/Q-526): at the round-2
+                checkpoint — derivation exhausted at the quotient; authoring
+                cannot inhabit — CARRY-1 becomes the live path. Task 5 closes
+                on what is proven; the number's remaining obstacle is one
+                named object (the ExtSrc member), reopenable after close. ***   SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

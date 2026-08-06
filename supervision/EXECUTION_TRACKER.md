@@ -434,6 +434,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 593 | Dario | [5] J-II review + alternatives audit | RETURNED — Q-522 (CONFIRMED; sector-not-scope; ExtSrc the common bottleneck; the cross-sector-unit obligation; ruling to principal) |
 | 594 | Codex 3 | [5/STEP 4] ExtSrc round 1 | RETURNED — Q-524 (honest STOP; gaps exact; round-2 plan recorded; unit declared) |
 | 595 | Codex 3 | [5/STEP 4] ExtSrc round 2 | RETURNED — Q-525 (all six stop; quotient inverse gained; derivation exhausted; CHECKPOINT to principal) |
+| 596 | Codex 3 | [5/STEP 6] MEMBERSHIP V002: the honest final form (M1-M4) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
@@ -450,9 +451,9 @@ PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian
 | 1 | 584+585 returns → consolidated debt board | **COMPLETE** (Q-512) |
 | 2 | Repairs + Ξ_N V004 + review → the adoption ruling | **COMPLETE** (A9, Q-519) |
 | 3 | THE J-II REALIZATION FAMILY | **COMPLETE AS ANSWERED** (OBSTRUCTED TYPE-U, Q-521; steps 4-10 reshape at the strategic ruling) |
-| 4 | THE EXTSRC MEMBER (build + review; TIMEBOX 4 rounds) | IN FLIGHT (594) |
-| 5 | THE HOL COMPLETION (A9 gates, U^Hol, Γ^Hol; TIMEBOX 4 rounds) | — |
-| 6 | Membership V002 + Dario re-review | — |
+| 4 | THE EXTSRC MEMBER | **COMPLETE AS ANSWERED** (TYPE-U at derivation level; timebox closed at 2 by ruling; gains sealed) |
+| 5 | THE HOL COMPLETION | **CONVERTED** (blocked by the same Joint A; carried per CARRY-1) |
+| 6 | Membership V002 in conditional form + Dario re-review | IN FLIGHT (596) |
 | 7 | The axiom re-adjudication | — |
 | 8 | DoR-020-A2 ruling (principal) | — |
 | 9 | The witness certification (registrar checkpoint) | — |

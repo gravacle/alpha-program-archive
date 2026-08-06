@@ -20,3 +20,11 @@ fence-blocked (FENCE_BLOCKED_STRUCTURAL_RESULT = false throughout; MACHINERY-APP
 a construction); the fences forbid evaluation and escrowed execution only.
 
 Gates: alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
+
+## ADDENDUM — THE FALLBACK INVOKED (2026-08-06, principal's checkpoint ruling)
+At 2 of 4 rounds, with the derivable ExtSrc content exhausted at the quotient level and authoring
+unable to inhabit, the principal invoked the standing fallback: CARRY-1 is the live path. The
+timebox closes with its gains sealed (the quotient inverse Abar^(-1) and its displayed covariance).
+Steps 4–5 of the closing board are COMPLETE AS ANSWERED / CONVERTED; the board proceeds to
+membership V002 in conditional form. Nothing is foreclosed: a future authored-ExtSrc gate or stock
+extension may reopen the computation after close.

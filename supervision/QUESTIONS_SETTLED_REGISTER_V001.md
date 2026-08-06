@@ -13074,6 +13074,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-526 — THE FALLBACK INVOKED — **STEPS 4 AND 5 CLOSE; THE BOARD PROCEEDS TO MEMBERSHIP IN CONDITIONAL FORM:** at the round-2 checkpoint the principal ruled CARRY-1 the live path — the ExtSrc timebox closes with its gains sealed (the quotient inverse and displayed covariance now sealed derived structure); Step 4 COMPLETE AS ANSWERED (TYPE-U at derivation level, of record); Step 5 CONVERTED (the HOL completion blocked by the same Joint A, carried); nothing foreclosed — a future authored gate or stock extension reopens the computation after close (2026-08-06, principal's ruling; the decision addendum sealed; C71)
+
+**Status:** relay 596 (Codex 3): MEMBERSHIP V002 IN ITS HONEST FINAL FORM — the original four cheap repairs, the D2/D3 items in their final carried forms, and the entire CARRY-1 conditional structure exactly typed. Then: Dario re-review (597) → the axiom re-adjudication (598) → DoR-020-A2 (principal) → the witness certification (registrar) → the escrow ruling (principal). TASK 5's CLOSE IS NOW A STRAIGHT LINE.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
