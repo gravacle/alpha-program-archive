@@ -13447,6 +13447,23 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-563 — TASK 6 BLOCKED-REPAIR: BOTH FINITE CERTIFICATES DELIVERED — J_star^2 = -I_6 PROVEN; THE INVARIANT-COMPETITOR FAMILY IS A CP^4, NOT A LIST (2026-08-06)
+
+**Question.** Do the two finite-work repair items (RA27-1, RA25-2) discharge as pure derivations?
+
+**Answer.** YES — both exact, both scope-fenced, both HELD OUT of the audit lineage (Codex 3, `STAGE8_TASK6_RA25_2_RA27_1_FINITE_CERTS_LANE3_V001.md`, SHA-256 `7a07d3b8ac66baa130c772d78d84ae163fb54ae082da0c071341580a9771a091`, relay 625; packet verifier re-run 113/113; no admissibility claims; LINEAGE_TOUCHED = false).
+
+- **RA27-1 PROVEN.** Every epsilon sign derived by displayed inversion count (none asserted); the index-raising signs displayed; `J_star = [[0_3, I_3], [-I_3, 0_3]]` in the frozen ordered basis `(01,02,03,23,31,12)`; `J_star^2 = -I_6` by exact block multiplication. Scope fence explicit: the local six-dimensional REAL bivector space only — no claim on the global `F_phys` carrier, no `[M_record, J_star] = 0`, no E/B coefficient equality; C27.3-C27.5 untouched. **Closes C27.2.**
+- **RA25-2 COMPLETE on the strict target of record.** On the flat/trivial-Wilson baseline `[U_0]`: the induced edge action `T_mu^(1)` DERIVED from the frozen source-fiber decomposition (unitary; the periodic-seam sign is +1 for every mu,nu with the wrap transport already in the formula; reversal-covariance checked explicitly; the rooted-category subtlety handled — translations act on the underlying periodic carrier, no sealed arrow invented); the four `T_tilde_mu` a unitary `G_L` action; **`Fix_L isomorphic to L_0^(+5)`, `dim_C = 5`, with a TWO-SIDED completeness certificate** (`ev_0` and `Phi` displayed mutually inverse — no strict fixed ray lies outside the display).
+- **THE LOAD-BEARING STRUCTURAL FINDING: `P(Fix_L) isomorphic to CP^4`** — one connected component, 5 canonical line generators, 3 degree/address strata (vertex-only: a single point, exactly `P(im J_r,L)`; edge-only: a full `CP^3`; vertex-edge mixed), 31 support strata. V011's four named constant edge-direction rays are merely four coordinate points inside the edge `CP^3`. **The competitor family the missing C25.1 admissibility grammar must adjudicate is a CONTINUUM, not a finite list** — a discrete list could be excluded case by case; a `CP^4` needs a principle. This sharpens C25.1's bar and supplies C25.2's census display. Semantic negative control included: the broader PROJECTIVIZED fixed locus is `L^4` character blocks `P(E_k)`; the strict `Fix_L` is exactly the `k = 0` block, and no nonzero-character ray is mislabeled.
+- Scope honesty: the calculation is for the flat baseline, not arbitrary periodic non-flat `U`; the root ray is NOT selected merely for being a singleton (the V011 anti-selection rule restated in the artifact's own no-conclusion section).
+
+**Board consequence:** nothing moves on the thirty rows (held out); when repairs batch, the lineage increments and all thirty rerun. C25.2's display exists; C27.2's certificate exists; C25.1, C25.4, C27.3-C27.6 remain the open physics.
+
+**Custody.** Derived by Codex 3; Dario review queued (folds into the 627-series). Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

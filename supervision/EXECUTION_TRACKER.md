@@ -463,10 +463,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 622 | Codex 3 | [6/BLOCKED-REPAIR] A25+A27 scoping: record-first repair inventory (no construction) | **RETURNED — REGISTERED (Q-560): both undetermined at core; repair map RA25/RA27 stated; two finite-work items -> 625** |
 | 623 | Dario | [6/SUBGATE] A35 evaluator spec review (cross-family custody) | **RETURNED — REGISTERED (Q-559): PARTIAL — census+firewall CONFIRMED; map/runner NO VERDICT, re-commissioned as 624; Dario session EXHAUSTED** |
 | 624 | Dario (FRESH SESSION) | [6/SUBGATE] A35 spec review completion: E2+E3+runtime-pin (bootstrap header) | **RETURNED — REGISTERED (Q-561): SPEC CONFIRMED overall; 4 criteria to re-render (-> 628); runner 11/11+3; pin confirmed |
-| 625 | Codex 3 | [6/BLOCKED-REPAIR] RA25-2 census + RA27-1 J_star certificate (bounded derivations, held out of lineage) | **SENT** |
+| 625 | Codex 3 | [6/BLOCKED-REPAIR] RA25-2 census + RA27-1 J_star certificate (bounded derivations, held out of lineage) | **RETURNED — REGISTERED (Q-563): J_star^2=-I_6 proven; Fix_L = CP^4 (a continuum, not a list); held out |
 | 626 | Dario | [6/SUBGATE] LP-QSPEC assembly V002 (D1-D8 + the S03 ruling carried) | **RETURNED — REGISTERED (Q-562): 18 TYPE-U, appeals resolved in text, freeze blocker now external; carriage qual -> 629** |
 | 627 | Dario | [6/BLOCKED-REPAIR] A25/A27 scoping review (custody) | LOADED — NOT SENT |
-| 628 | Codex 3 | [6/SUBGATE] evaluator spec V002: re-render the 4 criteria + opcode-reducibility self-audit of all 66 | PLANNED (after 625) |
+| 628 | Codex 3 | [6/SUBGATE] evaluator spec V002: re-render the 4 criteria + opcode-reducibility self-audit of all 66 | LOADED — NOT SENT |
 | 629 | Codex 3 | [6/SUBGATE] assembly V002 bounded delta re-check (incl. untabled battery restructuring) | PLANNED |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
