@@ -13138,6 +13138,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-535 — A32 PREP V002 LANDS (pending the bounded confirm): census 16 with the sixteenth source's obligations extracted from the AUTHORITATIVE machine encoding directly; (M5a) with the ruled parents and non-seal conjuncts explicit, the sealing sequence bound, and "This act cannot loosen any gate" quoted in place; the instrument revised with the heterogeneous tension typing in the operative text (M9 permanent by Q-25; P4 named as the J-II type-crossing); the living register pinned BY ENTRY per the new rule (2026-08-06 ~10:00, relay 601, SOL, 956 lines, registrar-read of the M5a and instrument sections)
+
+**Artifact:** `STAGE8_TASK6_A32_PREP_LANE3_V002.md`, `c5d1090b…`, seal + mirror verified, fence-clean.
+
+**Status:** 602 (Dario: the bounded confirm — its own missed-source finding's landing verified). Then THE A32 RATIFICATION to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
