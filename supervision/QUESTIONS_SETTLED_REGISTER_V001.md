@@ -13160,6 +13160,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-538 — THE EVALUATION DoR DRAFTS WITH THE GATE LADDER HONESTLY UNFORMED AT ITS ROOT (Task 6 step 2, first half): the scope declaration typed LOCAL-SHADOW in its own lead with the ANTI-RENAME clause and the type PROPAGATED through assembly ("1/(4π·) is not a promotion operator" — alpha_micro from a shadow input is a shadow expression); the gate map binding each step to its seal with the ordering law that matters (MODULUS_COMPATIBILITY_CERT sealed BEFORE A_loop is evaluated — "a modulus computed first is the alternate-complete-metric attack rather than a check against it"); **the plain statement of record: SPEC-SEAL is false_of_record and is the graph root — NO GATE ABOVE 0 IS PRESENTLY OPEN; the ladder is unformed at its root, not partway up**; the dispositions pre-registered including the conflation guard (chi_K = 0 in-lattice vs the vanishing seed driving chi polar and EXITING — a report rendering both as "chi is zero" destroys the one-sidedness); TWO ITEMS flagged-not-harmonized and handed to review: (V1-6) whether contact enters the local route (TYPE-U; both dispositions drafted; A7_BRANCH = VACUOUS_ON_LOCAL_ROUTE mandated as a displayed field, never omitted); (V1-3) the chain's eight-vs-six cell prose mismatch — now load-bearing. **CHAIN V004 CORRIGENDUM C1 ISSUED by the registrar, proof-carrying (the display + the 549 re-enumeration + the Q-475 re-check), principal may veto: the six-cell display governs; the prose numeral corrected** (2026-08-06 ~11:20, relay 604, OPUS, registrar-read)
+
+**Artifacts:** `STAGE8_TASK6_EVALUATION_DOR_DRAFT_DARIO_V001.md`, `9704f273…`, seal verified, fence-clean; `CHAIN_V004_CORRIGENDUM_C1_2026-08-06.md`, sealed.
+
+**Status:** 605 (Codex 3, after 603 returns): the DoR draft review + the (V1-6) contact determination, consuming the corrigendum. The DoR's ruling waits on the review AND on the subgate where the gate map requires it.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
