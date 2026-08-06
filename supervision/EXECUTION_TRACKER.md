@@ -462,7 +462,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 621 | Codex 3 | [6/SUBGATE] LP-QSPEC assembly review incl. the three appeal displays (custody) | **RETURNED — REGISTERED (Q-556): REFUTED w/ bounded corrections; appeals 1,2 DISSOLVED, S03 CONFIRMED-FOR-RULING; S18 -> TYPE-U (18/0)** |
 | 622 | Codex 3 | [6/BLOCKED-REPAIR] A25+A27 scoping: record-first repair inventory (no construction) | **SENT (V002)** |
 | 623 | Dario | [6/SUBGATE] A35 evaluator spec review (cross-family custody) | **RETURNED — REGISTERED (Q-559): PARTIAL — census+firewall CONFIRMED; map/runner NO VERDICT, re-commissioned as 624; Dario session EXHAUSTED** |
-| 624 | Dario (FRESH SESSION) | [6/SUBGATE] A35 spec review completion: E2+E3+runtime-pin (bootstrap header) | LOADED — NOT SENT |
+| 624 | Dario (FRESH SESSION) | [6/SUBGATE] A35 spec review completion: E2+E3+runtime-pin (bootstrap header) | **SENT** (fresh session confirmed; prior Dario session retired at exhaustion) |
 | 625 | Dario | [6/SUBGATE] LP-QSPEC assembly V002 (D1-D7 + the S03 ruling carried) | PLANNED (after 624) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
