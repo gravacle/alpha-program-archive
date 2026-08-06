@@ -13030,6 +13030,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-520 — THE 577 CUSTODY CLAIM RESOLVED BY FORENSICS — THE RECORD ADJUDICATES OVER LANE MEMORY — AND 591 CORROBORATES V004: **(the custody matter)** Dario's post-incident claim that the 577 artifact "was never written or sealed" is REFUTED by the on-disk record: the file exists in BOTH the cleanroom and the archive, byte-identical at `af955f81…` exactly as registrar-verified at Q-503, seal valid, mtime 14:56 matching the 577 run, and its content IS the detailed 577 verdict (the expected-vs-observed counterexample scores; the collinearity analysis; CARRY_BOTH tagged YOURS). The claim is a FALSE MEMORY from the incident-degraded session — the probable conflation named: the transient classifier outage at 567, which the lane itself contemporaneously reported as "retried and succeeded." ALL 577-DERIVED VERDICTS RETAIN STANDING; the custody architecture performed its designed function — bytes, seals, and contemporaneous registration adjudicating where a session's memory failed. **(the 591 corroboration)** Dario's review CONFIRMS Ξ_N V004 under the extra-care protocol (single artifact `cdd54b94…`, seal valid, fence-clean, internally coherent): D1 PASS ×3 with the sign-collapse rerun by hand and the fixed-point-freeness derived via the Z2-equivariant bijection; D2 PASS tested MECHANICALLY (55 of 278 V003 lines don't survive — all metadata/re-voiced prose; both load-bearing items survive; V004 even tightened one); D3 PASS with two chains hand-verified; **N2, a fresh finding: (Z4b)'s involution is undefined at the zero point — isolated (q⁻¹({0_D}) = {0}), the repair FORCED not chosen — a typing gap logged as a micro-item for the next Ξ_N touch, not a kill**; the lane's own 589 oddness corollary self-limited (constrains the composite period, not Ξ's parity — correctly left open). Q-518's review of record stands DOUBLY confirmed (2026-08-05 ~21:15, relay 591 under extra-care + the forensics, registrar-executed)
+
+**Status:** the A9 adoption stands corroborated; the (Z4b) zero-point micro-repair rides with the next Ξ_N-touching relay; STEP 3 (592, the J-II realization) awaits its paste into Codex 3.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
