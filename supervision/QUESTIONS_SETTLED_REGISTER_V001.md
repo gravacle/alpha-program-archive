@@ -13088,6 +13088,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-528 — **STEP 6 OF 10 COMPLETE: MEMBERSHIP V002 CONFIRMED AT THE KILLER'S OWN STANDARD** — all four kills closed (D1 by the reviewer's own second repair route, with Mor(I_F) now occurring exactly twice — definition and denial — so the shrink cannot recur; D2 with FC6 at its certificate's scope and A_RP⁺ converted to an antecedent predicate; D3 the R-valued coefficient pair with no substitution; D6 the verb audit re-run across all thirteen rows — five formerly over-strong rows lowered, none over-claims); the seven CARRY-1 rows at sealed type IN BOTH DIRECTIONS ((C2) now affirmatively carrying both A7 branches — the Q-521 N3 gap closed); the vacuity handling exact (FORMALLY_PROVEN_BUT_CURRENTLY_VACUOUS in V002's own words, proved relevantly, attributed to the contract's demand). **THE PRESSED CORRECTION, of record and decisive for A2: ANTE_full is GEOMETRICALLY UNSATISFIABLE, not tower-contingent — P_H,X is the leftmost factor of m_T,X(L), an acyclic (O1-Z) vertex zeroes the product for EVERY candidate L, and both certified D_CC prototypes carry such a vertex. "A2 is not waiting on a better tower — it is choosing between adopting the support-qualified guard and accepting permanent incompleteness on the unchanged one."** The finding was the one claim of eleven to survive the reviewer's own adversarial refutation, re-derived from sealed text; one own-attack withdrawn; two under-carriage charges declined. The 577 note repeated without new evidence (Q-520 stands) (2026-08-06 ~06:20, relay 597, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_MEMBERSHIP_V002_REREVIEW_DARIO_V001.md`, `1e9ce3ce…`, seal verified, fence-clean.
+
+**Status:** STEP 7 — the axiom re-adjudication (598 → Dario): the V002 axiom text against its 34 constraints, with the membership final form and the TWO-WAY fork framing (no deferral escape) as its inputs. Then DoR-020-A2 to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

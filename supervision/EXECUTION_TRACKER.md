@@ -435,7 +435,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 594 | Codex 3 | [5/STEP 4] ExtSrc round 1 | RETURNED — Q-524 (honest STOP; gaps exact; round-2 plan recorded; unit declared) |
 | 595 | Codex 3 | [5/STEP 4] ExtSrc round 2 | RETURNED — Q-525 (all six stop; quotient inverse gained; derivation exhausted; CHECKPOINT to principal) |
 | 596 | Codex 3 | [5/STEP 6] MEMBERSHIP V002 | RETURNED — Q-527 (PROVEN_IN_CONDITIONAL_FORM; 7 carried rows; ANTE_full unasserted; A2 obligation stated) |
-| 597 | Dario | [5/STEP 6] THE LAST REVIEW: membership V002 (E1-E5) | **SENT** |
+| 597 | Dario | [5/STEP 6] The last review | RETURNED — Q-528 (CONFIRMED; ANTE_full geometrically unsatisfiable — the A2 fork is two-way) |
+| 598 | Dario | [5/STEP 7] THE AXIOM RE-ADJUDICATION (F1-F4) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
@@ -454,8 +455,8 @@ PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian
 | 3 | THE J-II REALIZATION FAMILY | **COMPLETE AS ANSWERED** (OBSTRUCTED TYPE-U, Q-521; steps 4-10 reshape at the strategic ruling) |
 | 4 | THE EXTSRC MEMBER | **COMPLETE AS ANSWERED** (TYPE-U at derivation level; timebox closed at 2 by ruling; gains sealed) |
 | 5 | THE HOL COMPLETION | **CONVERTED** (blocked by the same Joint A; carried per CARRY-1) |
-| 6 | Membership V002 in conditional form + Dario re-review | IN FLIGHT (596) |
-| 7 | The axiom re-adjudication | — |
+| 6 | Membership V002 + re-review | **COMPLETE** (Q-527/Q-528) |
+| 7 | The axiom re-adjudication | IN FLIGHT (598) |
 | 8 | DoR-020-A2 ruling (principal) | — |
 | 9 | The witness certification (registrar checkpoint) | — |
 | 10 | The escrow ruling (principal) — TASK 5 CLOSES | — |
