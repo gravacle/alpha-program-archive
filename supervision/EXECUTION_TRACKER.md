@@ -437,6 +437,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 596 | Codex 3 | [5/STEP 6] MEMBERSHIP V002 | RETURNED — Q-527 (PROVEN_IN_CONDITIONAL_FORM; 7 carried rows; ANTE_full unasserted; A2 obligation stated) |
 | 597 | Dario | [5/STEP 6] The last review | RETURNED — Q-528 (CONFIRMED; ANTE_full geometrically unsatisfiable — the A2 fork is two-way) |
 | 598 | Dario | [5/STEP 7] The re-adjudication | RETURNED — Q-529 (34/34 both arms; the fork = applicability; clause set assembled; 577 closed by claimant) |
+| 599 | Codex 3 | [6/STEP 1] THE A32 PREPARATION (B1-B4) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
@@ -446,6 +447,20 @@ STANDING (principal, 2026-08-02): DISCOVERIES DIGEST commissioned — written AF
 | 415 | Codex 1 | [4a] Full generality | RETURNED — Q-333 (transducer: no universal law; weights invariant at full generality; all converges on 416) |
 
 PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian's MacBook Pro") holds a stale cleanroom copy; lanes must treat the archive workspace as the verification path of record (already relay policy).
+
+
+## TASK 6 BOARD (opened 2026-08-06; the registrar calls out each step on completion)
+| Step | Item | Status |
+|---|---|---|
+| 1 | A32 prep + ratification (principal) | IN FLIGHT (599) |
+| 2 | The evaluation DoR — the scope declaration (draft + review + ruling) | — |
+| 3 | Member binding + cross-check (escrowed) | — |
+| 4 | The fixed-point execution + review | — |
+| 5 | The end test + the sensitivity ladder | — |
+| 6 | The assembly + the kappa-rationality check | — |
+| 7 | THE SEAL (through A32; sealed, mirrored, committed, pushed) | — |
+| 8 | THE COMPARISON (after the seal only) | — |
+| 9 | The falsifier disposition + the OBS ledger + the reopening decision | — |
 
 ## TASK 5 CLOSING BOARD (adopted 2026-08-05 ~17:20; the registrar calls out each step on completion)
 | Step | Item | Status |
