@@ -13349,6 +13349,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-557 — THE S03 RULING: EXPLICIT INCOMPLETENESS — NO COMPLETION ADOPTED (2026-08-06)
+
+**Question.** How does the program carry S03, the dynamical U(1) action, given the confirmed construction choke (Q-556)?
+
+**Answer.** PRINCIPAL RULING: EXPLICIT INCOMPLETENESS. S03 stays TYPE-U; no completion is adopted; no authored-residue package is commissioned. Basis: the admissible family has no sealed selector and is not bounded by sealed stock; the two completion countermodels differ in response; the response feeds the coupling, so any selected member would be an authored input shaping the derived number with no certificate against steering. C7 bars selection from the response end; this ruling bars it from the construction end. S04-S08 inherit on the object side; the demand side and Task 6's critical path are unaffected. Release condition written into the decision: a sealed bounding derivation, Task 7's junction work supplying a selector, or a principal re-ruling. Decision of record: `DECISION_S03_EXPLICIT_INCOMPLETENESS_2026-08-06.md`, SHA-256 `f0a535214f946b6813f4896c8bc1b7be7a6e34c16278fc6cc18ed688a0194d67`.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
