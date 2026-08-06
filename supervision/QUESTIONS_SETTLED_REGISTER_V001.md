@@ -13496,6 +13496,23 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-566 — TASK 6 SUBGATE: THE ASSEMBLY V002 DELTA CHECK — NEEDS V003; THE CARRIAGE CERTIFICATE WAS FALSE; LOAD-BEARING CONTENT WAS LOST (2026-08-06)
+
+**Question.** Is the assembly V002's carriage claim (V001 + the 16-row delta, nothing else) true, and were D1-D8 fully implemented?
+
+**Answer.** NO on both — NEEDS_V003 (Codex 3, `STAGE8_TASK6_ASSEMBLY_V002_DELTA_CHECK_LANE3_V001.md`, SHA-256 `9456b1a6e279c44289bfd97dc782942a5430dd851a82b345effeb9ada6a7ef59`, relay 629 — Codex 3's final artifact before credit retirement). The registrar's Q-562 qualification is confirmed and was UNDERSTATED.
+
+- **73 hunks accounted, and the account convicts:** V002's `CARRIAGE = verified_by_rediff` was a FALSE certificate — the 16-row table does not cover the diff, and uncovered hunks are content-bearing.
+- **LOST load-bearing content** (all review-confirmed survivors of Q-556, silently dropped): the target-awareness disclosures including the two target-adjacent sealed references; the V011 ten-component `Q_spec` demand; C7's exact ordered display (local references do not reproduce it); the S17 ledger order (demoted to a parenthetical footnote out of table order); the OBS-22 declination; the "parameter-free" object qualifier; the explicit M-2 mechanics; the surface-anchor dependency inventory. The M-2 sweep ran all four false-negative modes; every absence is bounded to the V002 byte subject with positive witnesses elsewhere.
+- **D1-D8 partially implemented:** D1/D2/D3/D6/D7 PASS at their pins; D4/D5 the promised lead-board `UNUSED_PREDICTION` field is absent (delta row 2 promised, not executed); D8 the release-condition display is absent and the S05/S07/S08 row-level inheritance notes are absent (rows 2/6/7 of V002's own table promised and not executed at their pins).
+- The three appeal dispositions and the corrected freeze statement are preserved — the physics conclusions of V002 stand; the carriage instrument, not the verdicts, failed.
+
+**Consequence.** Assembly V003 owed by Dario (relay 632, after 630): restore the review-confirmed survivors, execute V002's own delta rows 2/6/7 at their pins, and replace the false certificate with a COMPLETE finite delta. **Pattern of record:** this is the Dario lane's second false carriage certificate (the DoR V002-V004 arc was the first); C-V5 caught it both times — the instrument works — and the registrar's independent re-diff (Q-562) flagged it before the check confirmed.
+
+**Custody.** Checked by Codex 3 (its closing artifact); V003 owed by Dario; the scoping V003 quotation fix moves to Codex 2 (relay 631, lane succession per the tracker's lane-model state). Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
