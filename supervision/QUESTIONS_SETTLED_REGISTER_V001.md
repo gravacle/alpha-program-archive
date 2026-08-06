@@ -13413,6 +13413,23 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-561 — TASK 6 SUBGATE: THE EVALUATOR SPEC REVIEW COMPLETED — SPEC CONFIRMED OVERALL; FOUR CRITERIA MUST BE RE-RENDERED BEFORE ANY BUILD (2026-08-06)
+
+**Question.** Do the 66-row map, the runner, and the runtime pin survive the review scope Q-559 left open?
+
+**Answer.** CONFIRMED overall, with four named repair items (fresh Dario session, `STAGE8_TASK6_A35_SPEC_REVIEW_COMPLETION_DARIO_V001.md`, SHA-256 `0f57b662ed8d2ec383975a04a9d9b0764fca2b5e36e918fa6d456e89e2412442`, relay 624). Q-559's PARTIALLY VERIFIED is superseded by COVERAGE, not revision. Sample: all 10 gated rows + 13 structural rows = 23 of 66; per-item post-attack.
+
+- **Class discipline clean in BOTH directions, and structurally so:** `SYMBOLIC`/`SPECTRAL` are permitted only in gated rows, so a structural row cannot reach a fenced object through the language at all; the one proposed downgrade (C-B-V011-MR-09 -> STRUCTURAL) was refuted and stands gated. CLASS_OVERRIDES = none.
+- **FOUR SAMPLED ROWS carry a real two-part defect that survived attack — `C-B-V011-SP1-07`, `-SP2-03`, `-SP2-05`, `-SP2-06`:** (1) PARTIAL blocker coverage — each tests the negative/regression half exactly and drops or weakens the positive "must be derived" half (clearest: SP2-05's blocker demands "full source-record orientation covariance"; M-2 under all three guards returns zero for that predicate in the executable row while the spec's own census gloss retains it); (2) non-Boolean criteria — terms no opcode decides ("certified", "derived", "proven", "silently set", and "all structural laws hold" with "structural laws" defined nowhere). Graded CONFIRMED-with-items, not REFUTED: under-specification, not false verdicts, and no fence exposure. **The four rows must be re-rendered against the closed opcode set before implementation** — and the honest sampling limit stands: recurrence in the 43 unsampled rows is NOT established (the V002 re-render is commissioned to self-audit all 66 criteria for opcode-reducibility).
+- **Runner CONFIRMED: eleven of eleven SP14 demands mapped, none weakened, three exceeded** — T0/T1/T2 is the exact minimum satisfying "before and after every child" for two producer children; R7 reclassification is PARENT-side ("re-derive" means the parent, not a child self-report); and the parent hashes its own compiled byte buffer before any child receives control, closing a swapped-parent attack SP14 does not name. Custody non-sharing explicit; "neither builder, child, parent, verifier, nor signature infers authorization"; the terminal signature attests only that a validated fresh chain exited.
+- **Runtime pin CONFIRMED, and the ambiguity is subtler than two candidates:** all four digests reproduce EXACTLY against real artifacts in the parent tree (hashed directly after the workspace zero-hit was correctly treated as bounded); "v012" names both a snapshot (whose gate is v010) and a logical gate (which is the v014 snapshot's gate), so the two readings select DIFFERENT snapshots. The fail-closed remedy — a content triple `{snapshot_sha256, gate_sha256, trust_root}` required as an R0 precondition — is exactly what a name cannot supply, and declines to silently substitute v014.
+- **Method note (M-3):** the reviewer's own "open-event" probe was a HYPHENATION false negative — the fourth known mode after regex-metacharacter, line-wrap, and self-reference; only M-2's guard 3 (reading in context) caught it. Logged to LOCKED_PROCESS.
+- **Still unverified anywhere:** the 43 unsampled rows, the six fixtures, R8/R10 internals.
+
+**Custody.** Specified by Codex 3; reviewed across two Dario sessions (Q-559 + this); the four-row re-render owed by Codex 3 (spec V002, queued as 628). Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -232,3 +232,11 @@ files for a superseding ruling on either statement, and must quote the LATEST
 registered state. A true historical quote consumed after its supersession is a
 defect, not an appeal. (Origin: relay 618's S06/S12 appeal, dissolved at Q-556
 by a principal ruling registered 2026-07-30 that the assembly did not consult.)
+
+## M-2 ADDENDUM: THE FOURTH FALSE-NEGATIVE MODE (added 2026-08-06, Q-561)
+
+Hyphenation variance joins regex-metacharacter, line-wrap, and self-reference as
+a known M-2 false-negative mode: "open-event" vs "open event" vs "open_event".
+Guard 2 (whitespace normalization) does NOT catch hyphen/space/underscore
+variance; normalize `[-_ ]` jointly, and treat guard 3 (reading in context) as
+the only reliable closure. A zero hit under guards 1-2 alone is never an absence.
