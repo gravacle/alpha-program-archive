@@ -3886,6 +3886,13 @@ full law; witness pass 2 = relay 513. OBS-20 partial-killed and corrected:
 records derive independence; gravity declares what lives where. DoR ledger:
 001-020 + A1. Register: Q-335..Q-438 this session. Relays 417-513.
 
+## CHECKPOINT 2026-08-06 — TASK 5 CLOSED (10/10); TASK 6 OPEN
+Register head Q-532. The escrow opened on the sealed witness certification. The law: DoR-020 +
+A1-A9 + A2-Arm-A (the completed-existence axiom over the support-qualified guard; nine frozen
+clauses). Task 6 proceeds: A32 prep -> evaluation DoR (LOCAL-SHADOW typed) -> binding -> fixed
+point -> end test -> sensitivity -> assembly -> seal -> comparison. The period route reopens on
+ExtSrc (TYPE-U of record). The resume protocol: this file, the tracker's boards, the register head.
+
 ## CHECKPOINT 2026-08-05 00:25 — THE BUILD PHASE OF TASK 5 IS COMPLETE
 Register head Q-485. All finite-package objects BUILT AND CONFIRMED: functor+bottom (V004), the three
 faces (J4 groupoid / J12 pushout / J15 mate), J2 (A6 scoped) + J7 + the FC11 completion theorem, and

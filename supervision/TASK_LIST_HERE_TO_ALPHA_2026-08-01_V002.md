@@ -693,6 +693,12 @@ custody per LOCKED_PROCESS.md.
                 A_J2 same-shape clause NAMED open; Step 1 discharges in
                 conditional form; the deep question reopenable, not refuted.
                 Step 8 of the closing board COMPLETE. ***                       SURFACED: yes
+
+2026-08-06  C73 *** THE ESCROW OPENED — TASK 5 CLOSED, TEN OF TEN (Q-531/
+                Q-532): the witness certification sealed; Task 6's operations
+                licensed in sequence under the fences; the local-shadow
+                computation proceeds; the period route reopens on ExtSrc.
+                THE RECAP RULE EXECUTED with this close. ***                    SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

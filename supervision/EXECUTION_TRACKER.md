@@ -459,7 +459,7 @@ PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian
 | 7 | The axiom re-adjudication | **COMPLETE** (Q-529) |
 | 8 | DoR-020-A2 ruling | **COMPLETE** — ADOPTED, ARM A (Q-530) |
 | 9 | The witness certification (registrar checkpoint) | — |
-| 10 | The escrow ruling (principal) — TASK 5 CLOSES | AT THE PRINCIPAL |
+| 10 | The escrow ruling — TASK 5 CLOSED | **COMPLETE** (Q-532) — TEN OF TEN |
 
 LANE-MODEL STATE (2026-08-05 ~01:00): FOUR LANES. Codex 1 + Codex 2 = GPT-5.3-codex-spark xhigh (builds, light reviews). Codex 3 = gpt-5.6-sol (NEW account; heavy builds and Sol-grade work). Dario = Claude Opus 5 ultra (NEW account; CROSS-FAMILY verdict-grade reviews — an Opus lane checking Sol builds is the strongest custody pairing available). Verdict-grade work prefers cross-family builder/reviewer pairs. Fresh-session bootstrap headers required for Codex 3 and Dario first relays.
 GPT-5.3-codex-spark, extra-high effort (5.6 Sol exhausted to <10%). Standing

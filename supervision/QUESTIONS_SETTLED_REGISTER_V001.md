@@ -13116,6 +13116,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-532 — **STEP 10 OF 10 COMPLETE — TASK 5 IS CLOSED; THE ESCROW IS OPENED** — the principal's final gate taken on the sealed certification: Task 6's operations licensed in sequence under the fences (each lifted only by its own gate); the local-shadow computation proceeds toward the program's first sealed number; the period-native route reopens on ExtSrc's future supply; every falsifier armed. The closing board: ten of ten. Task 5 — from the axiom's commissioning at C61 through nine ratified amendments, the honest final form of membership, and the certification — is COMPLETE (2026-08-06, the escrow decision file sealed; C73)
+
+**Status:** TASK 6 — COMPUTE ALPHA — IS OPEN. First relay: A32 preparation + the evaluation DoR draft.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
