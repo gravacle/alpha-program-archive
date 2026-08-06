@@ -13274,6 +13274,23 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-553 — TASK 6 SUBGATE: LP-MATRIX EXECUTED — 24 PASS / 2 FAIL / 4 BLOCKED; SPEC-SEAL FALSE CONFIRMED AT ROOT (2026-08-06)
+
+**Question.** Does the immutable V011 lineage pass the thirty demanded compliance rows A01-A29 + A35?
+
+**Answer.** NO — and the failure is now precise instead of pending. Codex 3's independent execution ledger (`STAGE8_TASK6_LP_MATRIX_LEDGER_LANE3_V001.md`, SHA-256 `bc6c3e496ffd6e8d06cc3237e47a6a02b76faaa88b63b0ffb38684971c2d1362`, relay 617) froze the lineage as a five-row canonical root manifest (SHA-256 `4c04e4aae924f87736809d2a119a0fdeda271f77cd5141d26aa453cfc5c4abc2` = sealed Stage-7 packet manifest 113/113 + ratified A32 V002 + incorporated V000 ranges + Q-25 masking disposition + Q-27/Q-28 admissibility disposition) and executed all thirty rows with per-row displays:
+
+- **24 PASS** — the entire structural core: provenance (10/10 authorities at pin), both firewalls, carrier separation, comparison quotient, category/carriers/Hilbert competitors, the Gram derivation M0=M1=M2=I, the differential/orientation/collapse/closure chain, naturality, equivalences, adjoint, filtration, face curvature, curvature order, the full declared-branch Dirac/CPT/CP-axial audit (A21), primitive/effective scope, the Moore-Penrose flux lift (A26), and loop preregistration (A29).
+- **2 FAIL** — conjuncts structurally false on the lineage: **A25** (preparation uniqueness unproved — P(im J_r,L) imposed-not-derived, invariant competitors untested; uniform full-neighborhood locality with certified remainder absent) and **A27** (local-coefficient cellulation invariance unproved — `cellulation_independence_proved = false`; the intrinsic-measure result may not be promoted to response-coefficient invariance).
+- **4 BLOCKED** — demanded objects absent: **A23** (complete charged physical amplitude Z_Q + Gamma_Q derivation + normalization closure), **A24** (durable endpoint criterion + zero-free normalized amplitude + connected preparation/thermodynamic domain + remaining source-parent closures), **A28** (one sealed target-free complete Qspec with every listed sector through the Thomson prescription), **A35** (content-addressed optimization-safe regression evaluator + independent verifier + explicit executable mapping for every V003 blocker).
+- **0 FENCE-ADJACENT**; no physical quantity evaluated; F_PLDEC clean; anti-tuning ledger clean.
+
+**Consequence.** `passed_A01_A29_and_A35 = false` => SPEC-SEAL = false at the graph root, propagating to every downstream seal — the pre-evaluation state is now DISPLAYED, not just declared. The repair inventory partitions cleanly: the A23/A24/A28 cluster is the complete-Qspec physics (LP-QSPEC, relay 618, is its specification layer); A35 is the evaluator infrastructure (the RD-22 row of the M5a status column); A25/A27 are open proof obligations — A27 is the stitching/cellulation question surfacing inside the matrix as a FAIL. **Invalidation rule:** any repair increments the lineage and forces a fresh full thirty-row execution; no delta-only carry is licensed.
+
+**Custody.** Independent execution by Codex 3; Dario review pending (queued behind 618). Registered by the reviewer from the artifact, not the lane message.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -3924,3 +3924,19 @@ RESUME PROTOCOL:
 4. The escrow question (bind/compute on the scoped theory) goes to the
    principal ONLY over Sol-verified certifications.
 Lane models at pause: both GPT-5.6 Sol xhigh, <10% remaining.
+
+---
+
+## STATE 2026-08-06 (registrar update, relay 617 registered)
+
+Task 6, subgate phase. The evaluation DoR stands at V006 (Q-552). LP-MATRIX
+EXECUTED (Q-553): 24 PASS / 2 FAIL (A25 preparation-uniqueness+locality, A27
+cellulation invariance) / 4 BLOCKED (A23 charged amplitude, A24 durability/
+zero-free/connected domain, A28 complete Qspec, A35 evaluator). SPEC-SEAL =
+false DISPLAYED at root; invalidation rule: any repair increments the lineage
+and reruns all thirty rows. Lineage root manifest 4c04e4aa...; ledger
+bc6c3e49... In flight: 618 (Dario, LP-QSPEC eighteen-slot assembly — the
+specification layer for the A23/A24/A28 cluster); 619 (Codex 3, A35/RD-22
+evaluator SPECIFICATION) loading. 620 planned: Dario reviews the matrix ledger.
+Lanes: Codex 3 = gpt-5.6-sol fresh account; Dario = Opus 5 Ultra. A25/A27 are
+the new open proof obligations; A27 is the stitching question inside the matrix.
