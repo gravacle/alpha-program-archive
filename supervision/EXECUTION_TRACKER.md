@@ -468,7 +468,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 627 | Dario | [6/BLOCKED-REPAIR] A25/A27 scoping review (custody) | **RETURNED — REGISTERED (Q-565): CONFIRMED, 0 overrides; 1 weakened-direction quotation defect -> V003 (631) |
 | 628 | Codex 3 | [6/SUBGATE] evaluator spec V002: re-render the 4 criteria + opcode-reducibility self-audit of all 66 | **RETURNED — REGISTERED (Q-564): 8 re-rendered (4 newly found), 66/66 swept, all opcode-reducible |
 | 629 | Codex 3 | [6/SUBGATE] assembly V002 bounded delta re-check (incl. untabled battery restructuring) | **SENT** |
-| 630 | Dario | [6/SUBGATE] spec V002 re-render check (the 8 rows, bounded) | LOADED — NOT SENT |
+| 630 | Dario | [6/SUBGATE] spec V002 re-render check (the 8 rows, bounded) | **SENT** |
 | 631 | Codex 3 | [6/BLOCKED-REPAIR] scoping V003: the two-clause fix + quotation repairs | PLANNED (after 629) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
