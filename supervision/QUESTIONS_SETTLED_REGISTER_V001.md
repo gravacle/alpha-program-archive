@@ -13188,6 +13188,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-542 — THE IDENTIFICATION: **OVERLAPPING — ONE LOCUS, TWO MISSING MAPS** — the principal's hypothesis half right with the failing half the important one: (A) LP-JII's missing map is Phitilde_N: Σ^(2),Ward → (C^k)* (an order-two Ward symbol class with a cotangent variable into cochain coefficients); (B) the era-1 beta gap's is internal/projective cell geometry → dimensional spacetime length (output the dimensionless β in R = βcΔτ) — DISJOINT DOMAINS, one object cannot have two. **THE SHARED CORE SEALED AND SHARP: the same junction — the EXTERNAL REALIZATION JUNCTION, where internal unit-normalized dimensionless structure must meet dimensional physics — with structurally identical sealed diagnoses on both sides, (B)'s earliest name "an additional cross-sector metric rule," and A2 clause 8 already establishing the genus (every lawful crossing declares its unit). Same genus, same junction, two different maps.** THE PLANNING LAW: shared-core work counts for both routes; residue work counts only for its own side; **TASK 7 INHERITS ONE LOCUS WITH TWO RESIDUES AND BOTH FULL HISTORIES, charged that closing one is not closing the boundary.** THE FRESH-ATTACK CHARTER ITEM: "the beta gap" is itself TWO ERAS (the projective-geometry Target Object; the Σ_R^id trace-class lift) bridged only by prose — the determination made against era 1 (the Q-540-quoted, Target-Object-stated era); the two-era typing files to Task 7. Two Dario self-corrections recorded (the arm-scoped flags; the Q-11 misread that would have biased DISTINCT) (2026-08-06 ~12:30, relay 606, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_JII_BETA_IDENTIFICATION_DARIO_V001.md`, `8e31df94…`, seal verified, fence-clean.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

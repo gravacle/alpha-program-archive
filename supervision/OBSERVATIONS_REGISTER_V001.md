@@ -792,3 +792,15 @@ map inhabited on actual data; (iii) the discrete classes surviving the sealed-nu
 KILL CONDITIONS: the re-review refutes the typing; or inhabitance fails structurally; or the end
 test's discrete sector proves empty. Companion retro-reading if confirmed: the seed's
 end-test-structural typing was forced (a topological charge is unreachable continuously from zero).
+
+## OBS-22 (PRE-REGISTERED 2026-08-06, unconfirmed) — THE EXTERNAL REALIZATION JUNCTION AS ONE LOCUS
+The claim: the correspondence boundary between the record's interior (internal, unit-normalized,
+dimensionless) and measured physics (dimensional, external) is ONE physical locus crossed by (at
+least) TWO independent missing maps — the Ward-symbol realization (LP-JII/Phitilde) and the length
+normalization (the era-1 beta gap) — same genus, same junction, disjoint domains; every lawful
+crossing declares its unit (A2 clause 8). Source: the identification determination (`8e31df94…`),
+Q-542. If confirmed by Task 7's charter work, the junction is gravity-side content (the
+where/how-much of external realization) and "closing one map is not closing the boundary" is its
+law. KILL CONDITIONS: a sealed derivation collapsing the two maps into one; or a third crossing
+map appearing that breaks the one-locus typing; or Task 7's Einstein-limit work relocating the
+junction. Companion: OBS-21; the beta gap's two-era typing files with this.
