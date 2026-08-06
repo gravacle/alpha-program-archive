@@ -13168,6 +13168,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-539 — THE M5a STATUS COLUMN: 23 CONJUNCTS — 7 TRUE, 13 SUPPLIED-BY, THREE ROOT LONG POLES EXACT: **LP-MATRIX** (#6) — the sealed independent PASS ledger for thirty rows (A01–A29 + A35) on one immutable V011 lineage; a mechanical execution build that does not yet exist; ROOT BLOCK for SPEC-SEAL and every descendant. **LP-QSPEC** (#18) — the complete frozen target-free Q-spec, eighteen open slots (charged-response/source/Ward/regulator/threshold/Thomson limits, plus one unused structure-sensitive prediction); contains the J-II debts but broader; root-blocks #19/#20/#22. **LP-JII** (#4) — the known crossing, now shown to gate the COMPARATOR's own eligibility (no published same-alpha comparator proven to consume LOCAL-SHADOW faithfully; the holdout fail-closed outcome lawful if unsupplied; not a parent edge of the seal rail). The column reports dependency structure without inflating the root count; downstream falses with named suppliers stay SUPPLIED-BY (2026-08-06 ~11:50, relay 603, SOL, 425 lines, registrar-read of the three pole rows and the counting rule)
+
+**Artifact:** `STAGE8_TASK6_M5A_STATUS_LANE3_V001.md`, `bcb8cced…`, seal + mirror verified, fence-clean.
+
+**Status:** 605 (Codex 3): the DoR draft review + the (V1-6) contact determination, consuming corrigendum C1. The two workable long poles commission next: the thirty-row matrix execution (a revival candidate for a spark lane, certification following) and the Q-spec assembly draft.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
