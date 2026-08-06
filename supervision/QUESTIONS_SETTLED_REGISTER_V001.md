@@ -13058,6 +13058,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-524 — EXTSRC ROUND 1: AN HONEST STOP WITH THE GAPS EXACT (Step 4, round 1 of 4): EXTSRC = STOPPED on the named Type-U set (the common Dker/Sch/iota members; the mixed-relation; the inherited-topology/source-scope/image; the addressed Res/Ker; the actual transport members) with the ROUND-2 PLAN recorded in-artifact (quotient-domain/current-landing, relation, topology, addressed-factor, and generator-base attacks); AG_BRIDGE = STOPPED with the gap precise — no sealed b_N or e_N, and "onto A_N supplies no canonical covariant section"; the cross-sector unit DECLARED per the standing obligation; verb audit clean (2026-08-06 04:45, relay 594, SOL, 1,477 lines, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_EXTSRC_BUILD_LANE3_V001.md`, `075a2b16…`, seal + mirror verified, fence-clean.
+
+**Registrar note for round 2 (a suggestion, not law):** the section gap may close from sealed stock — the DoR-019 metric supplies the CANONICAL minimal-norm/orthogonal section of any onto map between metric carriers (metric-canonical, isometry-covariant, no selection: the metric selects). Round 2 tests it alongside the lane's own plan. **Status:** 595 (round 2 of 4) loads; Dario reviews at inhabitance or at the timebox checkpoint, not per round.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
