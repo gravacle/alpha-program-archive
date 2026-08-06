@@ -13307,6 +13307,25 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-555 — TASK 6 SUBGATE: THE A35 EVALUATOR SPECIFICATION DELIVERED — 63 BLOCKERS, 66 CHECKS (56 STRUCTURAL / 10 GATED), RUNNER SPECIFIED; NOTHING IMPLEMENTED OR AUTHORIZED (2026-08-06)
+
+**Question.** What exactly must the missing A35 evaluator be, so that its build becomes mechanical and reviewable?
+
+**Answer.** Codex 3's specification (`STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE3_V001.md`, SHA-256 `eb2073ebb4f23cbc0c0bfa20a36c482e24c59dc6b6e1ccbcd1ef1bd1150d0ecb`, relay 619) supplies the complete definition:
+
+- **Census: 63 numbered V003 blockers** (V008: 11, V009: 13, V010: 14, V011-MR: 9, SP1: 9, SP2: 7) with stable IDs and byte-span anchors. Census discrepancies DISPLAYED, not harmonized: A35's title says "V010/V011" but its operative sentence imports all of V003 (so the 24 early rows stay in scope); three A35-only sharpenings (zero-index evaluation, operator-valued quasi-free CAR lift, physical residue) get their own check IDs `C-D-A35-01..03`; two unnumbered V003 pre-seal regressions (rank-21 revival, implicit response-to-action conversion) carried as explicit conjuncts of existing checks — no omission, no double count.
+- **Map: 66 checks = 56 STRUCTURAL + 10 GATED-EXECUTION**, each a deterministic procedure over a closed 14-opcode language with an exact Boolean PASS criterion over content-addressed inputs (`P0` integrity precondition; a manuscript flag can never produce PASS). The 10 gated rows (physical response, survival amplitude, interval containment, anomaly/determinant, two-point/pole, residue) return `NOT_RUN_GATE` under the fences — **so by construction the aggregate A35 row CANNOT pass until the physical gates separately open.** A35's discharge is thereby honestly coupled to the physics, not to infrastructure alone.
+- **Runner: the R0-R10 state machine** per SP14 — fresh direct parent, immutable manifests, trust snapshots T0-T4 with exact-equality drift detection, normal + real `python -O` children, parent-side reclassification (child receipts never authoritative), producer comparison with a three-field mask, an independently built verifier, and a terminal detached-signed local-assurance ledger that expressly does NOT mean any seal or physics authority.
+- **Custody graph mandatory:** Lane 3 specifies; Dario reviews; Builder A (producer) and Builder B (verifier) must be independent implementations; Custodian C (authored neither) invokes; the principal issues RD-22; a separate signature custodian signs. Staffing implication for the lanes at build time.
+- **One displayed ambiguity:** "runtime v012" is a NAME, not a unique content hash (the v012 snapshot and the v014 snapshot both trace to the v012 logical gate). The spec fail-closes: `FAIL(RUNTIME_SUBJECT_AMBIGUOUS)` unless one authorized `{snapshot_sha256, gate_sha256, trust_root}` pin is supplied — a small principal/review act needed at implementation, flagged now.
+- **Six regression fixtures** named with frozen expected verdicts (V010 zero-stiffness, root-survival zero, c-family, tau-family, primitive/Thomson conflation, nonzero-index control), quarantined so no fixture output can populate a live physics field.
+
+`AUTHORIZATION = not_claimed`; nothing implemented, executed, or authorized; F_PLDEC clean; verb audit clean.
+
+**Custody.** Specified by Codex 3; Dario cross-family review pending (queued as 622 behind 620). Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
