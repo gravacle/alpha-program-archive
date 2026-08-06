@@ -13376,6 +13376,25 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-559 — TASK 6 SUBGATE: THE EVALUATOR SPEC PARTIALLY VERIFIED — CENSUS AND FIREWALL CONFIRMED; THE MAP AND RUNNER HONESTLY UNREVIEWED AND RE-COMMISSIONED (2026-08-06)
+
+**Question.** Does the A35 evaluator specification (Q-555) survive cross-family review?
+
+**Answer.** PARTIALLY VERIFIED — deliberately not CONFIRMED (Dario, `STAGE8_TASK6_A35_EVALUATOR_SPEC_REVIEW_DARIO_V001.md`, SHA-256 `a1f5b4c305dfa5f1ba0866e0f741ccdb611070cfa8b70e0aa362152be2ab44b6`, relay 623). Dario's session budget could not carry the 66-row map and the runner at the standard the review held elsewhere, and it returned NO VERDICT on those rather than an unearned one: "a specification that gates an evaluator should not be confirmed by a review that did not read its map."
+
+**Verified in full and CONFIRMED:**
+- **E1 the census.** The attack fired and failed the right way: Dario's own enumeration found V003 carries 68 numbered items in SEVEN restarting ranges vs the spec's 63 — exactly the shape of a silent five-item drop. It reconciles: the spec's census is six disjoint ranges (11+13+14+9+9+7 = 63); the excluded five-item range (V003:182-187) is a list of REPAIR REQUIREMENTS ("proves that…", "reconstructs…", "sets…", "retains…"), not blockers, so the exclusion is substantively correct. One uncharged transparency note: the exclusion is disclosed as "six ranges" rather than by naming the excluded span. Derived counts reconcile everywhere (55+8=63; 63+3=66; 56+10=66; sharpenings split 1 STRUCTURAL + 2 GATED).
+- **E4 the aggregate rule and authority firewall.** The safety-critical item, verified despite the budget: NOT_RUN_GATE is a DISTINCT value in a closed four-value status alphabet, so a gated row structurally cannot be absorbed into an aggregate PASS; the ten gated rows are forced there under the fences; the spec declines to instantiate its own aggregate rule; `authority_firewall` is a schema field the verifier checks; the fixture quarantine names the four live field classes it bars. NO PATH FOUND from a runner PASS to a seal or physics claim.
+- SP14's citation verified byte-identical across both packet copies (the two-copy drift check).
+
+**NOT verified, re-commissioned (relay 624, fresh Dario session):** E2 (the 66 procedures against their blockers of record; whether any STRUCTURAL row secretly forms a fenced quantity; whether any GATED row is runnable now — arithmetic consistency is not class correctness), E3 (the R0-R10 states walked against SP14; custody separation; child-receipt handling), and the runtime-pin fail-closed disposition (both digests displayed, not concealed — but resolution unverified).
+
+**Lane state.** Dario's session is at context exhaustion — the next Dario relay requires a FRESH session with the bootstrap header and STEP 0 access checks.
+
+**Custody.** Specified by Codex 3; partial review by Dario; the completion review re-commissioned before any build step. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
