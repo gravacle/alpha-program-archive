@@ -13154,6 +13154,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-537 — **TASK 6, STEP 1's RULING: THE A32 INSTRUMENT RATIFIED AS BOUND** — nothing attained by ratification; the (M5a-V002) subgate (~23 conjuncts) is the tracked work before Step 2 or any numerical execution, its status column first; the evaluation DoR drafts in parallel against the ratified text (2026-08-06, principal's ruling; decision file sealed; C74)
+
+**Status:** 603 (Codex 3): THE SUBGATE STATUS COLUMN — all ~23 conjuncts mapped true/false/long-pole with each false conjunct's supplier named. 604 (Dario): THE EVALUATION DoR DRAFT against the ratified gate. Parallel.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

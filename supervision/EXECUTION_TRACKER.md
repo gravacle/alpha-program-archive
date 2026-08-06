@@ -441,6 +441,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 600 | Dario | [6/STEP 1] A32 prep review | RETURNED — Q-534 (the missed principal act; census 16; M5a weakening-by-inheritance, direction safe; Q-533 corrected) |
 | 601 | Codex 3 | [6/STEP 1] A32 PREP V002 | RETURNED — Q-535 (census 16; ruled parents bound; instrument revised; pending confirm) |
 | 602 | Dario | [6/STEP 1] Bounded confirm | RETURNED — Q-536 (CONFIRMED, closed better than literal; the status column booked; ratification to principal) |
+| 603 | Codex 3 | [6/STEP 1] The M5a status column (S1-S3) | LOADED — NOT SENT |
+| 604 | Dario | [6/STEP 2] The evaluation DoR draft | PLANNED (load after 603 sent) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
@@ -455,8 +457,8 @@ PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian
 ## TASK 6 BOARD (opened 2026-08-06; the registrar calls out each step on completion)
 | Step | Item | Status |
 |---|---|---|
-| 1 | A32 prep + ratification (principal) | IN FLIGHT (599) |
-| 2 | The evaluation DoR — the scope declaration (draft + review + ruling) | — |
+| 1 | A32 prep + ratification | **INSTRUMENT RATIFIED** (Q-537); the M5a subgate tracked (603+) |
+| 2 | The evaluation DoR — the scope declaration | DRAFTING (604) |
 | 3 | Member binding + cross-check (escrowed) | — |
 | 4 | The fixed-point execution + review | — |
 | 5 | The end test + the sensitivity ladder | — |

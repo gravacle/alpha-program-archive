@@ -699,6 +699,12 @@ custody per LOCKED_PROCESS.md.
                 licensed in sequence under the fences; the local-shadow
                 computation proceeds; the period route reopens on ExtSrc.
                 THE RECAP RULE EXECUTED with this close. ***                    SURFACED: yes
+
+2026-08-06  C74 *** THE A32 INSTRUMENT RATIFIED (Q-536/Q-537): the gate text
+                law as bound — census 16, the seal graph authoritative,
+                certification transitive, the shadow type and riders inside
+                the text; NOTHING attained; the ~23-conjunct M5a subgate is
+                the tracked work; the evaluation DoR drafts in parallel. ***    SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
