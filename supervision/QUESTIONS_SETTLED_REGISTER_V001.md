@@ -13194,6 +13194,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-543 — THE DoR V002 DRAFTS: FOUR RENDERINGS APPLIED WITH THEIR RE-WALKS (Task 6 step 2, pending the bounded confirm): K1 provenance scoped to the four genuinely ratified fields (the V001 over-claim of six confessed); **K2 with the reviewer's countermodel adopted as REASONING: A32 readiness is EVALUATION CUSTODY, chain entrance is MATHEMATICS — two independent obligation systems both required in the may-not-begin-until table, the conflation now an anti-tuning row**; K3 the vacuity carried as proven (the display-never-omit requirement surviving; the per-branch sensitivity withdrawn for this route only, A7 still carried through the period machinery); K4 the six cells re-keyed across all five dependent surfaces. Both V001 handoffs came back RESOLVED against sealed text and V002 carries resolutions, not questions. Standing correctly not asserted (the confirmer's call; the root remains false) (2026-08-06 ~13:00, relay 607, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_EVALUATION_DOR_DARIO_V002.md`, `1f4834e6…`, seal verified, fence-clean.
+
+**Status:** 608 (Codex 3): the bounded confirm → the DoR stands RULING-READY-PENDING-SUBGATE on its yes. Then the two workable long poles commission (the matrix execution; the Q-spec assembly).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
