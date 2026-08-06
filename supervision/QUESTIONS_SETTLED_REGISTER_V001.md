@@ -13066,6 +13066,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-525 — EXTSRC ROUND 2: ALL SIX ATTACKS STOP EXACTLY — AND THE DERIVABLE CONTENT IS EXHAUSTED AT THE QUOTIENT (Step 4, rounds 2 of 4 spent; the lane recommends the checkpoint): the six attack families each carry typed gaps; THE METRIC-SECTION ATTACK'S honest yield — the quotient inverse Abar_N^(-1) FORMS as sealed derived structure with FULLY DISPLAYED covariance (Q9), but it lands in the quotient, supplies no orthogonal representative in T_N, and the chain "begins only after a missing source-to-cycle-dual map." THE CHECKPOINT'S CONTENT: any Round 3 would AUTHOR new carrier or extension data — crossing from derivation into authorship — and the Ξ_N precedent says an authored interface LICENSES but does not INHABIT: it cannot unblock a computation. No reserve alternative targets Joint A. CARRY-1 intact; the cross-sector unit declared; verb audit clean (2026-08-06 ~05:15, relay 595, SOL, 1,421 lines, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_EXTSRC_BUILD_LANE3_V002.md`, `d662889b…`, seal + mirror verified, fence-clean.
+
+**Status:** THE TIMEBOX CHECKPOINT goes to the principal — the Task 5 closure decision.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
