@@ -13250,6 +13250,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-550 — THE V005 SWEEP: THREE CLOSED, ONE IN FORM ONLY — THE CARRIAGE INSTRUMENT RATIFIED, THE SUBSTITUTION REGULARIZED (the five-hundred-fiftieth entry): K1/K3/K4 closed; the re-diff verified INDEPENDENTLY (36 hunks, eight row-sets summing exactly, no gap or duplicate) — **"the first carriage claim in this chain I could verify rather than merely fail to falsify... a finite equality over a named diff is simply the right object"** — and Dario's version-chain post-mortem of record (V002 over-claimed clauses; V003 over-claimed a rule; V004 asserted and disclaimed a universal in one document). TWO STANDING ITEMS: (1) THE AUTHORITY MATTER — V005 substituted its own remedy (the re-scoped frame) for 612's ordered X1–X9 enumeration-or-reversion; the lane's method is better AND the substitution needed ratification (Dario's own three-tier rule, applied against the finding's beneficiary — bias disclosed as running against its own contribution). **THE REGISTRAR RATIFIES: C-V5 is the standing carriage instrument; the ordered X1–X9 enumeration executes as a bounded addendum — regularized, not retro-blessed.** (2) ONE LINE TO RESTORE: the cross-sector-unit row lost "no conversion silently set to one" — the phrase barring the ACT (a factor of one is precisely the conversion that doesn't look like one); A2 clause 8's strength restored verbatim. Two Dario disclosures: the LINE-WRAP false negative (the whitespace-normalization protocol now law); the fresh attack that fired and honestly failed. Neither item touches a gate, type, cell, or disposition; M5a false regardless (2026-08-06 ~14:40, relay 614, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK6_DOR_V005_SWEEP_DARIO_V001.md`, `970e4f4d…`, seal verified, fence-clean.
+
+**Status:** 615 (Codex 3): the V006 — the X1–X9 enumeration addendum under the ratified instrument + the one-line clause-8 restoration; the closing sweep after is bounded to those two.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

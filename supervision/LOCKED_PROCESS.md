@@ -214,3 +214,12 @@ lanes. Carriage is shown, not claimed: clause blocks reproduced in full; every c
 individually; a delta board listing what moved and what did not. A shortened guard is a weakened
 guard: deletions of regression rows or not-computed qualifications are substantive defects, not
 formatting. Reviewers test carriage mechanically (the Q-528 standard).
+
+## SWEEP PROTOCOL ADDENDUM (2026-08-06, from the 614 disclosures)
+Fixed-string searches defeat regex-metacharacter false negatives but not LINE-WRAP ones: token
+presence checks run against whitespace-normalized copies. And the C-V5 CARRIAGE INSTRUMENT is
+RATIFIED as standing (registrar ratification, principal informed): carriage is a finite equality
+over a NAMED diff — diff hunks enumerated, row-sets summing exactly, verified by re-diff — the one
+form a sweep can verify rather than merely fail to falsify. Remedy substitutions by lanes remain
+subject to ratification (the three-tier rule); the C-V5 substitution was ratified WITH its ordered
+predecessor enumeration still executed as an addendum.
