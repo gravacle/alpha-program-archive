@@ -673,6 +673,13 @@ custody per LOCKED_PROCESS.md.
                 CLAUSE — Ξ_N V004, 14 clauses, the topological-charge typing
                 as law; licenses the interface, inhabits nothing; four
                 falsifiers armed. Step 2 of the closing board COMPLETE. ***     SURFACED: yes
+
+2026-08-06  C70 *** THE SEQUENCED PROGRAM RULED (Q-522/Q-523): ExtSrc first
+                (timeboxed 4 rounds), HOL second (4 rounds), alternatives 1-3
+                in reserve, explicit incompleteness the standing fallback from
+                day one; the cross-sector-unit declaration booked as standing
+                obligation. The closing board's steps 4-10 reshaped
+                accordingly. ***                                                SURFACED: yes
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

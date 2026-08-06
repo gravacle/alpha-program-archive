@@ -13052,6 +13052,12 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-523 — THE SEQUENCED PROGRAM RATIFIED (the closing board reshapes): ExtSrc FIRST (the common bottleneck; timeboxed 4 rounds then a mandatory principal checkpoint), the HOL completion SECOND (4 rounds, same rule), alternatives 1–3 in reserve (principal-opened only), EXPLICIT INCOMPLETENESS THE STANDING FALLBACK FROM DAY ONE (CARRY-1 always available; any expiry or obstruction converts at no loss). THE CROSS-SECTOR-UNIT DECLARATION booked as a standing obligation on every cross-sector supplier. The fence clarification of record: the bottleneck is genuine constructive absence — no construction has ever been fence-blocked (2026-08-06, principal's ruling; decision file sealed; C70)
+
+**The reshaped closing board:** 4 = THE EXTSRC MEMBER (build + review, timeboxed); 5 = THE HOL COMPLETION (the A9 gates, U^Hol, Γ^Hol; R9's first cells if/when H forms from reserve); 6 = membership V002 (+ Dario re-review); 7 = the axiom re-adjudication; 8 = DoR-020-A2 (principal); 9 = the witness certification (registrar); 10 = the escrow ruling (principal) — Task 5 closes. **Status:** relay 594 (Codex 3): THE EXTSRC BUILD, round 1 of 4.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
