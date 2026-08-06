@@ -441,7 +441,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 600 | Dario | [6/STEP 1] A32 prep review | RETURNED — Q-534 (the missed principal act; census 16; M5a weakening-by-inheritance, direction safe; Q-533 corrected) |
 | 601 | Codex 3 | [6/STEP 1] A32 PREP V002 | RETURNED — Q-535 (census 16; ruled parents bound; instrument revised; pending confirm) |
 | 602 | Dario | [6/STEP 1] Bounded confirm | RETURNED — Q-536 (CONFIRMED, closed better than literal; the status column booked; ratification to principal) |
-| 603 | Codex 3 | [6/STEP 1] The M5a status column (S1-S3) | LOADED — NOT SENT |
+| 603 | Codex 3 | [6/STEP 1] The M5a status column (S1-S3) | **SENT** |
 | 604 | Dario | [6/STEP 2] The evaluation DoR draft | PLANNED (load after 603 sent) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
