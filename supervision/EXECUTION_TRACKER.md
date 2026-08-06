@@ -444,6 +444,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 603 | Codex 3 | [6/STEP 1] The M5a status column | RETURNED — Q-539 (23 = 7 true / 13 supplied / 3 long poles: LP-MATRIX, LP-QSPEC, LP-JII) |
 | 604 | Dario | [6/STEP 2] The evaluation DoR draft | RETURNED — Q-538 (LOCAL-SHADOW non-promotable; root unformed; conflation guard; corrigendum C1 issued) |
 | 605 | Codex 3 | [6/STEP 2] DoR review + the contact determination (W1-W4) | **SENT** |
+| 606 | Dario | [6/Q-540] THE IDENTIFICATION: LP-JII vs the beta gap (J1-J4) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
