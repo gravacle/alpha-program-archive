@@ -13044,6 +13044,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-522 — THE J-II REVIEW CONFIRMS AND SHARPENS THE FORK: **MEMBER_FOUND = none** (the nearest sealed object — the proved-onto evaluation map A_G with the ⟨J_c,a⟩ pairing — is exactly the (JD-3) shape and DIES ON DOMAIN: test 1-forms, not the order-two Ward symbol carrier; reached independently before the sweep converged); **SPEC_WEAKENING = none lawful, FOR A STRUCTURAL REASON of permanent record: the obstruction is TRANSVERSE to the support-scoping pattern — the six-episode repair fixes SCOPE; (JD-3) fails on SECTOR; restricting demanded cells never changes an input's type.** THE RULING'S CORRECTED BASIS: read from the artifact's final line, not its lead — JOINT A (the ExtSrc member) is the COMMON bottleneck; (L0) is H-tail-only and supplying it unblocks nothing end-to-end; the HOL route needs NO cross-sector arrow. **THE FRESH-ATTACK OBLIGATION (booked into the plan regardless of fork): any (JD-3) supplier is a cross-sector arrow — DoR-019's NO_IMPLICIT_CROSS_SECTOR_UNIT imposes the POSITIVE obligation to DECLARE the cross-sector unit; alternatives 1–3 construct (JD-3) without booking it and the anti-tuning ledger lacks the row — an open anti-tuning surface in a program targeting a dimensionless coupling, now closed by standing obligation.** DARIO'S RECOMMENDATION [YOURS]: ExtSrc FIRST, HOL SECOND, alternatives 1–3 in reserve, explicit incompleteness standing as fallback from day one — everything timeboxable at no risk. Custody: (SPEC-17) correctly typed, not over-cashed; the 577 reassertion NOTED WITHOUT NEW EVIDENCE — the Q-520 forensics stand, the disagreement itself of record. Method note: 19 parallel agents, every load-bearing agent claim adversarially refuted or re-verified against sealed text before use (2026-08-06 ~01:10, relay 593, OPUS, registrar-read)
+
+**Artifact:** `STAGE8_TASK5_JII_REVIEW_DARIO_V001.md`, `ba9430c1…`, seal verified, fence-clean.
+
+**Status:** THE STRATEGIC RULING goes to the principal now; the cross-sector-unit obligation is booked as a standing plan item (C70 pending the ruling's text).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
