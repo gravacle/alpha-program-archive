@@ -452,7 +452,7 @@ def consumed_evidence_files(output_value, evidence_directory, child):
     for digest in sorted(digests):
         path = destination / f"{digest}.json"
         data = read_bytes(path)
-        if sha256_bytes(data) != digest or canonical_bytes(strict_json(data, f"{child} consumed evidence {digest}")) != data:
+        if sha256_bytes(data) != digest:
             fail("CONSUMED_EVIDENCE_REHASH", {"child": child, "path": str(path)})
         files[str(real_path(path))] = {
             "declared_path": str(lexical_absolute(path)),

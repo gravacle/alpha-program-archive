@@ -650,27 +650,47 @@ def validate_program_contract(descriptor, evidence):
     return invocations
 
 
+def consumed_payload_digests(evidence, invocations, payload_sink=None):
+    input_digests = {
+        row["sha256"]
+        for row in evidence["input_files"]
+        if isinstance(row, dict) and isinstance(row.get("sha256"), str)
+    }
+    observed = []
+
+    def add_digest(value):
+        if value not in observed:
+            observed.append(value)
+
+    for invocation in invocations:
+        for argument in invocation["args"].values():
+            if isinstance(argument, dict):
+                payload = canonical_bytes(argument)
+                digest = sha256_bytes(payload)
+                if payload_sink is not None:
+                    payload_sink(digest, payload)
+                add_digest(digest)
+    for invocation in invocations:
+        for argument in invocation["args"].values():
+            if isinstance(argument, str) and argument in input_digests:
+                add_digest(argument)
+    return observed
+
+
 def execute_structural(descriptor, evidence, payload_sink=None):
     try:
         invocations = validate_program_contract(descriptor, evidence)
     except BuildFailure as exc:
         return "FAIL", False, [], f"INPUT_INTEGRITY: {exc}"
+    observed = consumed_payload_digests(evidence, invocations, payload_sink)
     outputs = []
     for invocation in invocations:
         opcode = invocation["opcode"]
         if opcode in {"SYMBOLIC", "SPECTRAL"}:
-            payload = canonical_bytes(outputs)
-            digest = sha256_bytes(payload)
-            if payload_sink is not None:
-                payload_sink(digest, payload)
-            return "ERROR", True, [digest], f"F_PLDEC_OPCODE_IN_STRUCTURAL:{opcode}"
+            return "ERROR", True, observed, f"F_PLDEC_OPCODE_IN_STRUCTURAL:{opcode}"
         function = OPCODES.get(opcode)
         if function is None:
-            payload = canonical_bytes(outputs)
-            digest = sha256_bytes(payload)
-            if payload_sink is not None:
-                payload_sink(digest, payload)
-            return "ERROR", True, [digest], f"UNKNOWN_OPCODE:{opcode}"
+            return "ERROR", True, observed, f"UNKNOWN_OPCODE:{opcode}"
         try:
             value = function(invocation["args"])
         except BuildFailure as exc:
@@ -686,11 +706,7 @@ def execute_structural(descriptor, evidence, payload_sink=None):
     ok = all(item["result"].get("success") is True for item in outputs)
     if "hits=empty" in descriptor["expected_predicate"].replace(" ", ""):
         ok = ok and all(not item["result"].get("hits") for item in outputs if "hits" in item["result"])
-    payload = canonical_bytes(outputs)
-    digest = sha256_bytes(payload)
-    if payload_sink is not None:
-        payload_sink(digest, payload)
-    return ("PASS" if ok else "FAIL"), True, [digest], "" if ok else "PREDICATE_FALSE"
+    return ("PASS" if ok else "FAIL"), True, observed, "" if ok else "PREDICATE_FALSE"
 
 
 class AuditRecorder:
@@ -765,12 +781,6 @@ def materialize_consumed_evidence(evidence_directory, claimed_digest, data):
         fail("CONSUMED_EVIDENCE_DIGEST", claimed_digest)
     if not isinstance(data, bytes) or sha256_bytes(data) != claimed_digest:
         fail("CONSUMED_EVIDENCE_BYTES", claimed_digest)
-    try:
-        value = strict_json_bytes(data, f"consumed evidence {claimed_digest}")
-    except BuildFailure as exc:
-        fail("CONSUMED_EVIDENCE_JSON", str(exc))
-    if canonical_bytes(value) != data:
-        fail("CONSUMED_EVIDENCE_CANONICAL", claimed_digest)
     destination = Path(evidence_directory).resolve()
     if not destination.is_dir() or destination.is_symlink():
         fail("CONSUMED_EVIDENCE_DIRECTORY", str(evidence_directory))

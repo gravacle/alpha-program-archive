@@ -71,9 +71,11 @@ seal change, or detached signature is silently bundled here.
 
 Each produced check row carries `invocation:null` or the exact four-field object
 `{args, instance_id, opcode, result_name}`. For `C-B-V009-06`, `instance_id`
-packs the grounding source digest and half-open byte span. The content-addressed
-observed payload carries the raw span digest as `r_ground.result.normal_form`, so
-removing the three duplicate top-level linkage fields loses no binding content.
+packs the grounding source digest and half-open byte span. Its observed evidence
+is the two payloads the procedure consumes: the tight-canonical `graph` object
+and the exact 932-byte raw grounding span. The opcode-result trace is excluded
+from evidence; the child receipt's `output_sha256` retains custody of the result
+row without misclassifying execution testimony as an evidentiary input.
 Builder B's sealed verdict schema carries the V007 spec const and is pinned at
 `5acf066a01eec3762de6364766424be57ce6a1a19a4a34f0e15edc081b0cc1a2`;
 the external-input manifest verifies those bytes before launch.
