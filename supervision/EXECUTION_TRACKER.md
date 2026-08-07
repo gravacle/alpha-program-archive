@@ -524,7 +524,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 681 | Dario | [6/TRANCHE] the grounding relocation | **RETURNED — REGISTERED (Q-606): 1/10 grounded (V009-06); M2 rows = spec defect (no corpus rule); re-scope to principal |
 | 682 | Codex 2 | [6/TRANCHE] the V009-06 envelope + spec V006 corpus rule | **RETURNED: envelope statically consumable; V006 registers 17 M2 rows, zero descriptor changes |
 | 683 | Dario | [6/TRANCHE] bounded check: the envelope + V006 | **RETURNED — REGISTERED (Q-608): envelope byte-exact; compare-half inert (pre-registered); 4 V006 findings -> V007; RUN 023 CLEARED |
-| 684 | Dario | [6/TRANCHE] rebind evidence_root to the 12-payload state (independent recomputation) | **SENT** |
+| 684 | Dario | [6/TRANCHE] rebind evidence_root | **RETURNED. RUN 024: FIRST LAWFUL PASS (V009-06, both children); verifier withheld pending replay materialization -> 685 |
+| 685 | Codex 2 | [6/TRANCHE] materialize consumed evidence into the run root for verifier replay | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

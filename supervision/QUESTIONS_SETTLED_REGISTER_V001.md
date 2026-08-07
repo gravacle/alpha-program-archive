@@ -14102,6 +14102,18 @@ Q-591 preregistered: 56 x FAIL(INPUT_INTEGRITY), 10 x NOT_RUN_GATE, fixtures fai
 
 ---
 
+## Q-609 — TASK 6 TRANCHE: RUN 024 — THE FIRST LAWFUL PASS, AND THE VERIFIER REFUSING TO TAKE THE PRODUCER'S WORD FOR IT (2026-08-07)
+
+**Question.** Did the one envelope light its row?
+
+**Answer.** YES ON THE PRODUCER SIDE — **`C-B-V009-06` = PASS in both children: 1 PASS / 55 FAIL / 10 NOT_RUN_GATE** — the seal-stage DAG parsed, typed, and acyclicity-verified from the authoritative preregistration bytes, the first row in the program's history to pass a machine check on real sealed evidence. Scoped per Q-608: the PASS certifies the live half (parse/reject/acyclicity); the compare-half is inert of record.
+
+**AND THE VERIFIER WITHHELD CONFIRMATION — CORRECTLY:** its one REPLAY fault is exactly the passing row — it went to replay the evidence from the run root and the producer never materialized it there. The verifier will not confirm a PASS whose evidence it cannot re-derive from bytes it can reach. The system's deepest principle — no result on testimony — enforced itself at the first opportunity to cut a corner. One A-side fix (relay 685): consumed evidence materializes into the run root exactly as the event payloads do; then the verifier replays and rules.
+
+The Q-604 guard verbatim: one lawful row is one row. The board and seals unmoved.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
