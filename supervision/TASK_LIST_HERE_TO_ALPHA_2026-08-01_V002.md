@@ -705,6 +705,20 @@ custody per LOCKED_PROCESS.md.
                 certification transitive, the shadow type and riders inside
                 the text; NOTHING attained; the ~23-conjunct M5a subgate is
                 the tracked work; the evaluation DoR drafts in parallel. ***    SURFACED: yes
+
+2026-08-07  C75 *** TASK 7 SPLIT BY PRINCIPAL RULING (Q-579): the sealed
+                record (Q-542/Q-554/Q-556/Q-557) shows part of Task 7's
+                inheritance sits UPSTREAM of computing alpha. TASK 7A = the
+                upstream slice — the J-II physical-carrier realization, the
+                external-realization junction maps, the stitching/refinement
+                certificates (A27's package, O-D3-adjacent), and S13-relevant
+                work — inserted on the road to alpha after Task 6's
+                instrument work. TASK 7B = gravity proper (the Einstein
+                limit, the beta gap's era-2 work, the discoveries digest),
+                after the number. Charter text unchanged; sequencing only.
+                Task 6's remaining charter: the evaluator build, the first
+                run, lineage V2's thirty-row rerun, and the closing
+                bookkeeping — then 7A carries the five physics-blocked rows. ***  SURFACED: yes (ruled by the principal 2026-08-07)
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

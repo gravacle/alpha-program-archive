@@ -13701,6 +13701,31 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-579 — THE PLAN RULING: TASK 7 SPLIT — 7A (THE UPSTREAM SLICE, ON THE ROAD TO ALPHA) AND 7B (GRAVITY PROPER, AFTER THE NUMBER) (2026-08-07)
+
+**Question.** The plan had Task 7 after alpha; the sealed record shows part of its inheritance upstream of the number. Which governs?
+
+**Answer.** PRINCIPAL RULING: the plan is corrected to match the record — change-log entry C75. TASK 7A (the J-II realization, the junction maps, the stitching certificates, S13-relevant work) precedes the computation; TASK 7B (the Einstein limit, gravity proper) follows it. Basis of record: Q-542 (the junction identified), Q-554/Q-556 (S16 consumes the J-II bridge — the two long poles not independent), Q-557 (the S03 release condition naming the junction work), A27's overlap with charter O-D3. Charter text unchanged; sequencing only. Task 6 completes its instrument charter (build, first run, lineage V2 rerun, closing bookkeeping) and hands the five physics-blocked rows to 7A.
+
+---
+
+## Q-580 — TASK 6 SUBGATE: THE BR-1 ADJUDICATION — TEN DEFECTIVE, SIX LAWFUL; BR-1 RULED ADJUDICATED BY ITS AUTHOR; V004'S TRANSCRIPT INADMISSIBLE ON ITS FACE (2026-08-07)
+
+**Question.** Which of the sixteen BR-1 candidates are genuine findings, and is BR-1 conformance mechanical?
+
+**Answer.** Dario's adjudication (`STAGE8_TASK6_BR1_ADJUDICATION_DARIO_V001.md`, SHA-256 `ec0412d22db709e915abea001dfc110fe3050f5f0b6a74050f0421cf14304e38`, relay 642; pin check passed; registrar mirrored).
+
+- **The withdrawal completed: the true figure is TEN defective, SIX lawful** (the sealed +5 was systematic undercount — per-row forcer credit "would mis-clear any row whose ledger carries one proof-forced field beside unforced ones"). Six the mechanical test condemned were REFUSED (MR-05 displayed as the reason: sixteen candidates are not sixteen findings); four of the ten graded NARROW so the record does not flatten them into V009-02's no-KERNEL-anywhere condition. **All ten repairs are single comparisons or proof goals using patterns already in V004** — nothing needs inventing.
+- **THE RULING AGAINST ITS OWN CLAIM: BR-1 conformance is ADJUDICATED, not swept.** The decisive display: MR-05 vs MR-09 — each with a KERNEL, a conclusion comparison, and exactly one unforced ledger field, SYNTACTICALLY INDISTINGUISHABLE, oppositely adjudicated: MR-05 lawful (the blocker demands resolution; `pairwise_distinct` receives it), MR-09 defective ("one handle is insufficient" is a separate clause and the forced KERNEL serves the other one). "The deciding fact isn't in the spec — it's in the blocker." No slice definition over the spec's bytes can decide it.
+- **BR-1/A drafted for V005 to install:** mechanical candidate generation that MUST over-generate; clause decomposition from the sealed blocker; a per-candidate verdict naming which clause the field carries and which receiver serves it. **A "zero failures" report without candidates, clauses, and named receivers is not a BR-1 result and may not be registered as one — V004's transcript is inadmissible on its face**, no re-derivation needed. BR-2 remains genuinely mechanical (two independent implementations agreed at zero).
+- The closing sentence belongs in the record: "A generator can bound the work and a reviewer must do it, which is slower than a sweep and is the only version of this check that has ever returned a true answer."
+
+**Sequence.** 644 (Codex 2): spec V005 — install BR-1/A as the law's regime, repair the ten from the new closed list. 643 (Dario): the assembly V005 line-level decomposition. Then the two bounded checks, then the build package.
+
+**Custody.** Adjudicated by Dario against its own sealed number and its own law's claim; registrar mirrored. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
