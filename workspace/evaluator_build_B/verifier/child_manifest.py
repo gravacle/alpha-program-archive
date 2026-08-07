@@ -10,7 +10,10 @@ from .canonical_json import VerifierFault, encode_canonical
 from .contracts import (VERIFIER_MANIFEST_SCHEMA, validate_verifier_manifest)
 from .hashing import require_sha256, sha256_bytes
 
-ENTRY_POINT = "verifier.verify"
+# Direct-script launcher at the package root. The `-m verifier.verify` form
+# cannot resolve under the pinned `-I` isolation flags (isolated mode removes the
+# script directory and cwd from sys.path), which is what stopped run 012.
+ENTRY_POINT = "run_verifier.py"
 
 
 def build_manifest(verifier_root_sha256, input_roots, output_path,
@@ -27,7 +30,7 @@ def build_manifest(verifier_root_sha256, input_roots, output_path,
     if optimize:
         argv.append("-O")
     argv += [
-        "-m", ENTRY_POINT,
+        ENTRY_POINT,
         "--spec", "${SPEC_PATH}",
         "--ledger", "${LEDGER_PATH}",
         "--ledger-sha256", "${LEDGER_SHA256}",
