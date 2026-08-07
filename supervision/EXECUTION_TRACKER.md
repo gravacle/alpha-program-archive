@@ -491,7 +491,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 650 | Codex 2 | [6/BUILD] conform A to the sealed addendum + disclose deltas | **RETURNED — REGISTERED (Q-589): 3/3, 17 deltas, static-clean |
 | 651 | Dario | [6/BUILD] conform B's adapter to the sealed contract (incl. the two owed changes) | **RETURNED — REGISTERED (Q-590): 2/2 owed paid, 13 deltas, independence core untouched |
 | 652 | Codex 2 | [6/BUILD] assemble the D1 evidence payloads from the sealed corpus | **RETURNED — REGISTERED (Q-591): 0/56 — the machine-evidence layer has never been built; first run preregistered |
-| 653 | Dario | [6/BUILD] run review: the absence verdicts + the first-run ledger vs the Q-591 preregistration | QUEUED (after the invocation) |
+| 653 | Codex 2 | [6/BUILD] fix the authorization-content check (cite sealed bytes) + authored-expectation audit of parent.py | LOADED — NOT SENT |
+| 654 | — | [6/BUILD] Custodian C re-invocation on a fresh run root | QUEUED (after 653) |
+| 655 | Dario | [6/BUILD] run review vs the Q-591 preregistration | QUEUED (after 654) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

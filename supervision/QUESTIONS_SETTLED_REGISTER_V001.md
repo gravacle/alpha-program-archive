@@ -13887,6 +13887,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-592 — TASK 6 BUILD: THE FIRST INVOCATION — FAIL-CLOSED AT THE AUTHORIZATION GATE; THE DEFECT IS AN AUTHORED EXPECTATION, OWNED BY BUILDER A (2026-08-07)
+
+**Question.** What did the preregistered first invocation (Q-591) return?
+
+**Answer.** A LAWFUL FAIL-CLOSED STOP — within the preregistered expectation class, at a gate the preregistration did not specifically name (Custodian C invocation, run root `rd22_run_001`, all arguments per the contract; the parent stopped at `RD22_PARENT_FAIL AUTHORIZATION_CONTENT` before any child launched).
+
+- **What PASSED before the stop:** the external-inputs hash discipline — the parent verified the authorization FILE against its pinned SHA-256 (Builder A pinned the true sealed decision `ff84c4a8…`), plus the spec/runtime/gate hash pins.
+- **THE DEFECT:** `validate_authorization` additionally requires three PROSE lines, and one — `"Builder A               = Codex Lane 2 (parent + producer)"` — is a column-aligned PARAPHRASE that appears nowhere in the sealed decision (which reads `"Builder A (producer + parent)  = Codex Lane 2   (GPT family)"`). Builder A transcribed its memory of the decision instead of quoting the sealed bytes: **an expectation authored rather than cited — the exact class BR-1 governs, here in the runner's own preflight.** The machine caught it at first contact, fail-closed, zero children launched.
+- Custodian C does not patch code (the custody law); the fix returns to Builder A as relay 653: quote the sealed bytes verbatim or rely on the hash pin alone, and AUDIT the parent for any other authored-expectation line of the same class. Then a fresh invocation on a fresh run root.
+
+**The reading that matters:** the first contact between the machine and the world produced an honest stop on a real defect in the machine's own gate — the apparatus is behaving exactly as designed, including against its own builder.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
