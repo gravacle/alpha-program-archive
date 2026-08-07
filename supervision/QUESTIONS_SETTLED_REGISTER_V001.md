@@ -13545,6 +13545,23 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-569 — TASK 6 SUBGATE: THE EVALUATOR SPEC STANDS AT V003 — THE ESCAPE HATCH REMOVED AND THE BINDING CLASS REPAIRED ACROSS 28 OF 66 ROWS (2026-08-06)
+
+**Question.** Is the binding-class defect (Q-567) repaired across the whole spec, not just the named rows?
+
+**Answer.** YES (Codex 2, `STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V003.md`, SHA-256 `f910815c84fd29d3dc6ca55f43ebe5d4c7015f457ddcde7bd7a69afdf81658dc`, relay 633; sealed in the cleanroom, MIRRORED AND BYTE-VERIFIED BY THE REGISTRAR).
+
+- **The escape hatch is dead:** `M_required_scope`/`M_coverage`/`in_scope` return ZERO hits in V003 (registrar-verified); SP1-07 rebound on the SP2-05 pattern — completeness bound to the proof index, a PASS with zero derived IDs structurally impossible.
+- **SP2-07 restored verbatim and rebound; SP2-06's reality-factor carrier named and consumed** as a content-addressed input.
+- **BINDING_SWEEP = 66/66: 38 BOUND, 28 RE-RENDERED** — the binding defect was far wider than any sample suggested (Q-561 found 4, the V002 self-audit 4 more, Q-567 convicted 2 and warned 3; the class repair surfaced 28). The re-render list includes every convicted row (V010-06, V009-10), every warned row (MR-06, SP1-04, V010-10), the three defective re-renders (SP1-07, SP2-06, SP2-07), and twenty more across all six families plus one A35-only row. The lesson stands as Q-567 named it: vocabulary-level sweeps pass criteria that binding-level sweeps fail.
+- **Protected sections unchanged** — the runtime-pin and aggregate expected block hashes verify in place (registrar-checked at both their statement and verification sites); carriage a complete finite delta (21 hunks, all assigned); AUTHORIZATION = not_claimed.
+
+**Consequence.** The spec is at its strongest state yet, pending one bounded cross-check: Dario verifies the 28 re-renders and a sample of the 38 BOUND (queued as 635, after 632 returns). Then the build package (RD-22, builder custody A/B/C, the unique runtime pin) goes to the principal.
+
+**Custody.** Repaired by Codex 2 per Dario's Q-567 findings; registrar mirrored and verified. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

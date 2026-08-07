@@ -471,7 +471,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 630 | Dario | [6/SUBGATE] spec V002 re-render check (the 8 rows, bounded) | **RETURNED — REGISTERED (Q-567): 5/8; SP1-07 escape hatch; sweep NOT SOUND; spec NEEDS_V003 (class repair) |
 | 631 | Codex 2 (FRESH, bootstrap) | [6/BLOCKED-REPAIR] scoping V003: the two-clause fix + quotation repairs | **RETURNED — REGISTERED (Q-568): two clauses restored, quotations verbatim; registrar mirrored |
 | 632 | Dario | [6/SUBGATE] assembly V003: restore survivors + execute rows 2/6/7 + complete finite delta | **SENT** (delayed — third clipboard overwrite; one-clipboard discipline now in LOCKED_PROCESS) |
-| 633 | Codex 2 | [6/SUBGATE] spec V003: the binding-class repair (escape hatch + KERNEL-less criteria) | **SENT** |
+| 633 | Codex 2 | [6/SUBGATE] spec V003: the binding-class repair (escape hatch + KERNEL-less criteria) | **RETURNED — REGISTERED (Q-569): 66/66 swept, 38 BOUND / 28 RE-RENDERED; escape hatch removed; protected hashes verify |
+| 634 | Codex 2 | [6/OPEN-ITEM] the A21 residual objection leg: verify or close (bounded) | LOADED — NOT SENT |
+| 635 | Dario | [6/SUBGATE] spec V003 class-check: the 28 re-renders + BOUND sample (bounded) | QUEUED (after 632 returns) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
