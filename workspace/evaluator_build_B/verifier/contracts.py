@@ -5,7 +5,10 @@ the RD-22 custody ruling expressly permits Builder B to read. No producer code
 or receipt informs this module.
 """
 
+import re
+
 from .canonical_json import VerifierFault, require_exact_fields
+from .replay import declared_opcodes
 
 LEDGER_FIELDS = (
     "schema",
@@ -43,9 +46,30 @@ CHECK_ROW_FIELDS = (
     "status",
     "observed_evidence_sha256s",
     "reason",
+    # Added at relay 690. Builder B specified this field at 686 §2.3 because
+    # payload roles and byte-span linkage are not derivable without it; Builder
+    # A emitted it at 687; the exact inventory then refused it as undeclared.
+    # Receiving one's own specification is part of specifying it.
+    "invocation",
 )
 
 SOURCE_FIELDS = ("path", "sha256", "byte_span")
+
+# The closed opcode set, read off the sealed spec's §2.2 table. FOURTEEN, not
+# thirteen: `STRICT` is the only row written without a parenthesised operand,
+# so a pattern that requires "(" silently drops it.
+OPCODES = (
+    "STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS",
+    "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME",
+)
+
+# One recorded invocation, per Builder B's 686 write-out.
+INVOCATION_FIELDS = ("opcode", "result_name", "args", "instance_id")
+
+# `<symbol>@<source_sha256>:[start,end)` -- the grounding citation, encoded.
+_INSTANCE_ID = re.compile(
+    r"^([A-Za-z0-9_.\-]+)@([0-9a-f]{64}):\[(\d+),(\d+)\)$")
+_RESULT_NAME = re.compile(r"^r_[A-Za-z0-9_]+$")
 
 CHILD_ROW_FIELDS = (
     "manifest_sha256",
@@ -172,6 +196,76 @@ def validate_ledger_shape(ledger):
     return ledger
 
 
+def parse_instance_id(value, where):
+    """`<symbol>@<source_sha256>:[start,end)` -> dict, or None when null.
+
+    The span is the byte-span linkage Builder B recorded as UNDELIVERED at 686:
+    the raw grounding payload's length must equal `end - start`. Note the limit
+    that remains -- the verifier still cannot RE-SLICE the source, because the
+    source file is not a run input. Linkage is the payload's independently
+    verified digest plus this declared arithmetic, not a re-derivation.
+    """
+    if value is None:
+        return None
+    if not isinstance(value, str):
+        raise VerifierFault("%s: instance_id must be a string or null" % where)
+    match = _INSTANCE_ID.match(value)
+    if not match:
+        raise VerifierFault(
+            "%s: instance_id %r does not parse as "
+            "<symbol>@<source_sha256>:[start,end)" % (where, value))
+    symbol, source_sha256, start, end = match.groups()
+    start, end = int(start), int(end)
+    if end <= start:
+        raise VerifierFault(
+            "%s: instance_id span [%d,%d) is empty or inverted"
+            % (where, start, end))
+    return {"symbol": symbol, "source_sha256": source_sha256,
+            "span": [start, end], "byte_length": end - start}
+
+
+def validate_invocation(invocation, where):
+    """Type one recorded invocation. Shape AND vocabulary, not mere presence."""
+    require_exact_fields(invocation, INVOCATION_FIELDS, where)
+    if invocation["opcode"] not in OPCODES:
+        raise VerifierFault(
+            "%s: opcode %r is outside the closed opcode set"
+            % (where, invocation["opcode"]))
+    name = invocation["result_name"]
+    if not isinstance(name, str) or not _RESULT_NAME.match(name):
+        raise VerifierFault(
+            "%s: result_name %r is not an r_<name> result symbol"
+            % (where, name))
+    if not isinstance(invocation["args"], dict):
+        raise VerifierFault("%s: args must be an object" % where)
+    parse_instance_id(invocation["instance_id"], "%s.instance_id" % where)
+    return invocation
+
+
+def recorded_invocations(row, where):
+    """Normalize and validate `row["invocation"]` -> list (possibly empty).
+
+    Accepts null, one object, or a list of objects. The list form is not
+    laxity: every element is validated identically, and a row whose descriptor
+    declares several opcode assignments cannot record them all in the singular
+    form Builder B wrote out at 686 -- a gap in that write-out, named at §2.2
+    of the relay artifact rather than papered over.
+    """
+    value = row["invocation"]
+    if value is None:
+        return []
+    items = value if isinstance(value, list) else [value]
+    if not isinstance(value, (list, dict)):
+        raise VerifierFault(
+            "%s.invocation: must be null, an object, or a list of objects"
+            % where)
+    out = []
+    for i, item in enumerate(items):
+        out.append(validate_invocation(
+            item, "%s.invocation[%d]" % (where, i)))
+    return out
+
+
 def validate_check_row(row, where):
     require_exact_fields(row, CHECK_ROW_FIELDS, where)
     require_exact_fields(row["source"], SOURCE_FIELDS, "%s.source" % where)
@@ -179,6 +273,25 @@ def validate_check_row(row, where):
         raise VerifierFault(
             "%s: status %r outside the closed alphabet %s"
             % (where, row["status"], list(STATUS_ALPHABET)))
+    invocations = recorded_invocations(row, where)
+    # Cross-check against the SEALED DESCRIPTOR's own program. A recorded
+    # invocation the descriptor does not declare is a fault: that direction is
+    # an accusation, and a producer-declared object may accuse. The converse --
+    # declared but not recorded -- is reported by the caller and NOT faulted
+    # here, because Builder B's own 686 write-out specified a singular field
+    # and it would be unjust to fault Builder A for conforming to it.
+    declared = dict((n, op) for n, op in
+                    declared_opcodes(row["deterministic_procedure"]))
+    for i, inv in enumerate(invocations):
+        name, opcode = inv["result_name"], inv["opcode"]
+        if name not in declared:
+            raise VerifierFault(
+                "%s.invocation[%d]: result %r is not declared by the sealed "
+                "descriptor's procedure" % (where, i, name))
+        if declared[name] != opcode:
+            raise VerifierFault(
+                "%s.invocation[%d]: result %r is declared as %s, recorded as %s"
+                % (where, i, name, declared[name], opcode))
     return row
 
 

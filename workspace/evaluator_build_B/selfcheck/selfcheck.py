@@ -271,6 +271,92 @@ def main():
     else:
         sys.stdout.write("payload roles        : raw never promoted (6/6)\n")
 
+    # the 15-field row contract: the `invocation` field is TYPED, not admitted
+    _PROC = ("`r_ground:=COMPARE(a,b,empty)`; `r_dag:=DAG(g,"
+             "PRINCIPAL_SINGLE_AUTHORITY)`")
+    _IID = "sym@" + ("1" * 64) + ":[10,20)"
+    _DAG = {"opcode": "DAG", "result_name": "r_dag", "args": {"g": {}},
+            "instance_id": _IID}
+
+    def _row(invocation):
+        return {"blocker_id": "B", "source": {"path": "p", "sha256": "0" * 64,
+                                              "byte_span": [0, 1]},
+                "check_id": "C-B-V009-06", "check_spec_sha256": "1" * 64,
+                "execution_class": "STRUCTURAL", "input_root_sha256": "2" * 64,
+                "deterministic_procedure": _PROC, "prerequisites": ["P0"],
+                "required_gate": "G", "expected_predicate": "P0",
+                "procedure_started": False, "status": "FAIL",
+                "observed_evidence_sha256s": [], "reason": "r",
+                "invocation": invocation}
+
+    def _mut(**kw):
+        d = dict(_DAG)
+        d.update(kw)
+        return d
+
+    row_cases = [
+        ("null", None, True),
+        ("singular object", _DAG, True),
+        ("list of two", [{"opcode": "COMPARE", "result_name": "r_ground",
+                          "args": {}, "instance_id": None}, _DAG], True),
+        ("undeclared field", _mut(extra=1), False),
+        ("opcode outside the closed 14", _mut(opcode="GREP"), False),
+        ("result_name not an r_ symbol", _mut(result_name="dag"), False),
+        ("args not an object", _mut(args=[]), False),
+        ("instance_id malformed", _mut(instance_id="sym@beef:[1,2)"), False),
+        ("instance_id span inverted", _mut(instance_id="sym@" + "1" * 64
+                                           + ":[20,10)"), False),
+        ("result not declared by the descriptor",
+         _mut(result_name="r_bogus"), False),
+        ("declared result, wrong opcode", _mut(opcode="COMPARE"), False),
+        ("invocation is a string", "r_dag", False),
+    ]
+    for label, invocation, want_ok in row_cases:
+        try:
+            contracts.validate_check_row(_row(invocation), "selfcheck")
+            got_ok = True
+        except canonical_json.VerifierFault:
+            got_ok = False
+        if got_ok != want_ok:
+            faults += fail("row contract %s: %s, wanted %s"
+                           % (label, "accepted" if got_ok else "refused",
+                              "accept" if want_ok else "refuse"))
+        else:
+            sys.stdout.write("row contract         : %s %s\n"
+                             % ("accepts" if want_ok else "refuses", label))
+    if len(contracts.CHECK_ROW_FIELDS) != 15 or len(contracts.OPCODES) != 14:
+        faults += fail("inventories: %d row fields, %d opcodes (want 15, 14)"
+                       % (len(contracts.CHECK_ROW_FIELDS),
+                          len(contracts.OPCODES)))
+    else:
+        sys.stdout.write("row contract         : 15 fields, 14 opcodes\n")
+
+    # byte-span linkage, and the non-object arguments that cannot be covered
+    span_raw = b'"k": {\n  "A": []\n}'                     # 18 bytes, unparseable
+    span_arg = canonical_json.encode_canonical({"g": {"A": []}})
+    span_inv = [{"opcode": "DAG", "result_name": "r_dag",
+                 "args": {"g": {"A": []}, "authority": "PRINCIPAL"},
+                 "instance_id": "sym@" + "1" * 64 + ":[0,%d)" % len(span_raw)}]
+
+    def _pp(blob):
+        return (hashlib.sha256(blob).hexdigest(), blob)
+
+    linked = replay.classify_payloads([_pp(span_raw), _pp(span_arg)],
+                                      span_inv, "selfcheck")
+    if (linked["faults"] or linked["raw"][0]["linkage"] != "digest+span"
+            or linked["unrequired_args"] != ["authority"]):
+        faults += fail("span linkage: %s" % linked)
+    else:
+        sys.stdout.write("span linkage         : digest+span; non-object arg "
+                         "reported not faulted\n")
+    span_inv[0]["instance_id"] = "sym@" + "1" * 64 + ":[0,999)"
+    mismatch = replay.classify_payloads([_pp(span_raw), _pp(span_arg)],
+                                        span_inv, "selfcheck")
+    if not any("span of that length" in f for f in mismatch["faults"]):
+        faults += fail("span linkage: length mismatch not faulted")
+    else:
+        sys.stdout.write("span linkage         : length mismatch refused\n")
+
     # no load-bearing assert anywhere in the package
     hits = []
     for base, _dirs, files in os.walk(ROOT):

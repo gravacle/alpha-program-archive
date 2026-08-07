@@ -53,15 +53,14 @@ def _load_all_payloads(evidence_dir, digests, where):
 
 
 def _recorded_invocation(row):
-    """The row's recorded invocation, or None.
+    """The row's recorded invocation(s), or None.
 
-    OWED CHANGE, disclosed: the check-row contract is an exact 14-field
-    inventory with no invocation record, so this returns None for every row a
-    conforming producer emits today, and role derivation falls back to parse
-    admissibility (see classify_payloads). Byte-span linkage for raw payloads
-    is NOT checkable without it -- the grounding citation lives in the
-    producer's evidence manifest, which the verifier does not read. The field
-    Builder A must add is named in the artifact.
+    OWED CHANGE DISCHARGED (relay 690). Builder B specified this field at 686
+    because roles and byte-span linkage are not derivable without it; Builder A
+    emitted it at 687; the row contract now declares and TYPES it (15 fields).
+    Rows with nothing to record carry null, and role derivation falls back to
+    parse admissibility exactly as before -- the fallback was not removed, it
+    stopped being the only path.
     """
     return row.get("invocation")
 

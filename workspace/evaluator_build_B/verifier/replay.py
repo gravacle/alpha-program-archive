@@ -37,6 +37,12 @@ GATED_ONLY_OPCODES = ("SYMBOLIC", "SPECTRAL")
 PAYLOAD_CONSUMABLE = "CONSUMABLE"
 PAYLOAD_RAW_GROUNDING = "RAW_GROUNDING"
 
+# `<symbol>@<source_sha256>:[start,end)`. Duplicated deliberately from
+# contracts: replay must not import contracts (contracts imports replay), and
+# one shared regex across a cycle is worse than two lines that agree.
+_INSTANCE_ID = re.compile(
+    r"^([A-Za-z0-9_.\-]+)@([0-9a-f]{64}):\[(\d+),(\d+)\)$")
+
 _ATOM_SUCCESS = re.compile(r"^(r_[A-Za-z0-9_]+)\.success$")
 _ATOM_FIELD = re.compile(r"^(r_[A-Za-z0-9_]+)\.([A-Za-z0-9_]+)\s*=\s*(.+)$")
 _ATOM_FORALL = re.compile(
@@ -89,19 +95,48 @@ def invocation_arguments(invocation, where):
     and fails the coverage guard below. A producer-declared object may accuse;
     it may never exculpate (BR-1).
 
-    Returns a list of (argument_name, canonical_bytes), or None when the row
-    records no invocation.
+    Returns a list of (argument_name, canonical_bytes, is_object), or None
+    when the row records no invocation. `is_object` decides whether coverage
+    can apply: only an object-valued argument can be reproduced by a consumable
+    payload, because only a JSON object is admitted as one.
     """
     if invocation is None:
         return None
-    if not isinstance(invocation, dict):
-        raise VerifierFault("%s: invocation must be an object" % where)
-    args = invocation.get("args")
-    if not isinstance(args, dict):
-        raise VerifierFault("%s: invocation args must be an object" % where)
-    out = [("<args>", encode_canonical(args))]
-    for name in sorted(args):
-        out.append((name, encode_canonical(args[name])))
+    items = invocation if isinstance(invocation, list) else [invocation]
+    if not items:
+        return None
+    out = []
+    for item in items:
+        if not isinstance(item, dict):
+            raise VerifierFault("%s: invocation must be an object" % where)
+        args = item.get("args")
+        if not isinstance(args, dict):
+            raise VerifierFault("%s: invocation args must be an object" % where)
+        out.append(("<args>", encode_canonical(args), True))
+        for name in sorted(args):
+            value = args[name]
+            out.append((name, encode_canonical(value), isinstance(value, dict)))
+    return out
+
+
+def declared_spans(invocation):
+    """Span lengths the recorded invocations declare, from their instance_ids.
+
+    Returns a list of (byte_length, instance_id). Empty when nothing is
+    span-grounded -- a COMPARE over two digests legitimately carries a null
+    instance_id, so an empty result is a fact about the row, not a defect.
+    """
+    if invocation is None:
+        return []
+    items = invocation if isinstance(invocation, list) else [invocation]
+    out = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        match = _INSTANCE_ID.match(item.get("instance_id") or "")
+        if match:
+            start, end = int(match.group(3)), int(match.group(4))
+            out.append((end - start, item["instance_id"]))
     return out
 
 
@@ -143,7 +178,8 @@ def classify_payloads(payloads, invocation, where):
     Returns {"consumable": [...], "raw": [...], "faults": [...]}.
     """
     wanted = invocation_arguments(invocation, where)
-    consumable, raw, faults = [], [], []
+    spans = declared_spans(invocation)
+    consumable, raw, faults, unrequired = [], [], [], []
 
     for digest, blob in payloads:
         ok, parsed = _parses_as_json(blob)
@@ -151,9 +187,26 @@ def classify_payloads(payloads, invocation, where):
             # Cannot be a structured argument to any opcode: nothing can read
             # fields off bytes that do not parse. Admitting it as raw therefore
             # concedes nothing, which is why this test is not an escape hatch.
-            raw.append({"sha256": digest, "byte_length": len(blob),
-                        "role": PAYLOAD_RAW_GROUNDING,
-                        "linkage": "digest"})
+            entry = {"sha256": digest, "byte_length": len(blob),
+                     "role": PAYLOAD_RAW_GROUNDING, "linkage": "digest"}
+            # BYTE-SPAN LINKAGE (686 recorded this as undelivered; the field
+            # arrived at 687). The payload's independently verified digest is
+            # its identity; the declared span must agree on its LENGTH. The
+            # verifier still cannot re-slice the source -- the source file is
+            # not a run input -- so this is arithmetic against a declaration,
+            # not a re-derivation, and it is labelled as such.
+            if spans:
+                match = [sid for length, sid in spans if length == len(blob)]
+                if match:
+                    entry["linkage"] = "digest+span"
+                    entry["instance_id"] = match[0]
+                else:
+                    faults.append(
+                        "%s: raw payload %s is %d bytes but no recorded "
+                        "instance_id declares a span of that length (%s)"
+                        % (where, digest, len(blob),
+                           ", ".join("%d" % l for l, _ in spans)))
+            raw.append(entry)
             continue
         if not isinstance(parsed, dict):
             faults.append("%s: payload %s parses but is not a JSON object"
@@ -168,8 +221,20 @@ def classify_payloads(payloads, invocation, where):
 
     if wanted is not None:
         have = set(blob for _, blob, _ in consumable)
-        for name, want_bytes in wanted:
+        for name, want_bytes, is_object in wanted:
             if name == "<args>":
+                continue
+            if not is_object:
+                # NOT EVIDENCE, so not coverable. A consumable payload is
+                # admitted only if it parses to a JSON OBJECT, so only
+                # object-valued arguments can ever be reproduced by one.
+                # Demanding a payload for a spec-fixed constant, a P0-derived
+                # digest, or an empty mask is the same category error the
+                # registrar identified for raw payloads at 686, moved into the
+                # argument dimension: an unsatisfiable demand, not a guard.
+                # Scalars cannot slide into the raw class either -- they are
+                # not payloads -- so nothing is conceded by exempting them.
+                unrequired.append(name)
                 continue
             if want_bytes not in have and not any(
                     parsed.get(name) is not None
@@ -188,7 +253,8 @@ def classify_payloads(payloads, invocation, where):
             "grounding payload(s) digest-verified and not parsed)"
             % (where, len(consumable), len(raw)))
 
-    return {"consumable": consumable, "raw": raw, "faults": faults}
+    return {"consumable": consumable, "raw": raw, "faults": faults,
+            "unrequired_args": sorted(unrequired)}
 
 
 class EvidenceBundle(object):
