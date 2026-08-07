@@ -69,9 +69,11 @@ witness. The current member and single-authority serialization ground only
 `ABSENT_OF_RECORD`. No Builder B verifier, Custodian invocation, board change,
 seal change, or detached signature is silently bundled here.
 
-Each produced check row carries `invocation:null` or the one consumed-argument
-invocation. For `C-B-V009-06`, its instance ID binds the grounding source digest
-and half-open byte span while the raw payload digest binds the exact span bytes.
+Each produced check row carries `invocation:null` or the exact four-field object
+`{args, instance_id, opcode, result_name}`. For `C-B-V009-06`, `instance_id`
+packs the grounding source digest and half-open byte span. The content-addressed
+observed payload carries the raw span digest as `r_ground.result.normal_form`, so
+removing the three duplicate top-level linkage fields loses no binding content.
 Builder B's sealed verdict schema carries the V007 spec const and is pinned at
 `5acf066a01eec3762de6364766424be57ce6a1a19a4a34f0e15edc081b0cc1a2`;
 the external-input manifest verifies those bytes before launch.

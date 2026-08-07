@@ -909,12 +909,16 @@ def make_check_row(descriptor, evidence_records, requirement_sha, payload_sink=N
                 base["status"] = "FAIL"
                 base["reason"] = "INPUT_INTEGRITY: BYTE_SPAN_LINKAGE_INCOMPLETE"
                 return base
-            base["invocation"] = {
-                **linked[0],
-                "source_sha256": citation["source_sha256"],
-                "span": citation["span"],
-                "span_sha256": citation["span_sha256"],
-            }
+            span = citation["span"]
+            source_sha256 = citation["source_sha256"]
+            instance_id = linked[0]["instance_id"]
+            symbol = instance_id.split("@", 1)[0]
+            expected_instance_id = f"{symbol}@{source_sha256}:[{span[0]},{span[1]})"
+            if instance_id != expected_instance_id:
+                base["status"] = "FAIL"
+                base["reason"] = "INPUT_INTEGRITY: BYTE_SPAN_LINKAGE_MISMATCH"
+                return base
+            base["invocation"] = dict(linked[0])
     return base
 
 
