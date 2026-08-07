@@ -505,7 +505,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 662 | Codex 2 | [6/BUILD] resolve run-scoped declarations against the RUN ROOT, not the package | **RETURNED: fixed. RUN 010: THE CHILDREN RAN (both 86KB ledgers + receipts); stop = path-alias identity -> 663 |
 | 663 | Codex 2 | [6/BUILD] path identity by realpath normalization both sides; content digest authoritative | **RETURNED: fixed (8 sites). RUN 011: reclassification PASSED; R8 flagged only manifest_sha256 (by-construction field) — all 66 rows AGREE across children -> 664 |
 | 664 | Codex 2 | [6/BUILD] relocate manifest_sha256 to the receipt; compared surface mode-invariant | **RETURNED: fixed. RUN 012: R8 PASSED, ledger composed+bound, VERIFIER LAUNCHED — module unresolvable under -I -> 665 |
-| 665 | Dario | [6/BUILD] direct-script launcher for the verifier (the -I resolution fix) | LOADED — NOT SENT |
+| 665 | Dario | [6/BUILD] direct-script launcher for the verifier (the -I resolution fix) | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
