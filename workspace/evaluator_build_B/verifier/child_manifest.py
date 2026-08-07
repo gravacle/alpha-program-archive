@@ -20,17 +20,20 @@ def build_manifest(verifier_root_sha256, input_roots, output_path,
     if optimize is not True and optimize is not False:
         raise VerifierFault("optimize must be declared as a boolean")
 
+    # argv is concrete except for six NAMED substitution tokens the parent
+    # fills. A parent that knows nothing of this package's internals can launch
+    # it by substituting exactly these and nothing else.
     argv = ["python3"]
     if optimize:
         argv.append("-O")
     argv += [
         "-m", ENTRY_POINT,
-        "--spec", "<spec path>",
-        "--ledger", "<ledger path>",
-        "--ledger-sha256", input_roots["ledger_sha256"],
-        "--evidence-dir", "<evidence dir>",
-        "--runtime-snapshot", "<snapshot path>",
-        "--runtime-gate", "<gate path>",
+        "--spec", "${SPEC_PATH}",
+        "--ledger", "${LEDGER_PATH}",
+        "--ledger-sha256", "${LEDGER_SHA256}",
+        "--evidence-dir", "${EVIDENCE_DIR}",
+        "--runtime-snapshot", "${RUNTIME_SNAPSHOT_PATH}",
+        "--runtime-gate", "${RUNTIME_GATE_PATH}",
     ]
 
     manifest = {

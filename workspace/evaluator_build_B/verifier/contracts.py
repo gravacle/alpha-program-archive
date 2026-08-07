@@ -122,6 +122,15 @@ EXIT_CONTRACT_FIELDS = ("verified", "faults_found", "fail_closed")
 
 VERIFIER_MANIFEST_SCHEMA = "rd22.verifier-manifest.v001"
 
+# Addendum §3.2 requires all five input_roots to be 64-hex. Two of them --
+# ledger_sha256 and evidence_root_sha256 -- are RUN-SCOPED: they are digests of
+# the producer's outputs and cannot exist when the launch manifest is authored.
+# The instance therefore carries this sentinel for them, and the verifier
+# REFUSES it at run time. A placeholder that can pass unnoticed is worse than
+# no placeholder; this one fails closed.
+UNBOUND_ROOT_SENTINEL = "0" * 64
+RUN_SCOPED_ROOTS = ("ledger_sha256", "evidence_root_sha256")
+
 # Spec V005 §9.4: the specification-time authority firewall is exact.
 AUTHORITY_FIREWALL_FIELDS = (
     "implemented",
@@ -268,4 +277,21 @@ def validate_verifier_manifest(manifest, where):
     if manifest["receipt_authoritative"] is not False:
         raise VerifierFault(
             "%s.receipt_authoritative must be false" % where)
+    return manifest
+
+
+def require_roots_bound(manifest, where):
+    """Refuse the unbound sentinel at run time (fail-closed placeholder).
+
+    The launch manifest may be authored with RUN_SCOPED_ROOTS unbound. The
+    parent MUST rebind them before invoking. If it does not, the verifier stops
+    here rather than proceeding against a zero digest.
+    """
+    roots = manifest["input_roots"]
+    unbound = [f for f in INPUT_ROOTS_FIELDS
+               if roots.get(f) == UNBOUND_ROOT_SENTINEL]
+    if unbound:
+        raise VerifierFault(
+            "%s: input roots %s are still the UNBOUND sentinel; the parent must "
+            "bind the run-scoped roots before launch" % (where, sorted(unbound)))
     return manifest
