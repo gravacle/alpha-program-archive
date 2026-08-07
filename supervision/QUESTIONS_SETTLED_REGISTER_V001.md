@@ -13637,6 +13637,21 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-575 — TASK 6 SUBGATE: THE ASSEMBLY STANDS AT V004 — FIVE PROSE FIXES DISPLAYED, OPERATIVE CONTENT UNTOUCHED BY SCOPE; ONE FALSE DIGEST IN SEALED V003 CORRECTED OF RECORD (2026-08-07)
+
+**Question.** Are the five certificate-prose defects (Q-572) repaired without touching the operative assembly?
+
+**Answer.** YES (Dario, `STAGE8_TASK6_LP_QSPEC_ASSEMBLY_DARIO_V004.md`, SHA-256 `5e46e8f437ee34d8493dee02195df464e31a20829181542264bc01b23e1f0066`, relay 639; registrar mirrored both ways).
+
+- **5/5 with displays:** Z1 H12->H13; Z2 the false empty multiply-assignment claim replaced by the display of all seven shared hunks with the lawfulness ground stated — **C-V5 requires the hunk partition to be total and surjective, NOT injective** (diff merges adjacent edits; an author cannot choose the boundaries); the actual defect was the unearned word "both". Z3 the two "reflows" reclassified with word deltas quoted (the M-2 block lost 7 words, gained 5 — "no word changed" was plainly false; the anchor block has zero deletions). Z4 seven -> eight (nine with THOMSON), swept fixed-string, S06's unrelated "seven-condition" class untouched. Z5 both audit lines updated.
+- **OPERATIVE_CONTENT untouched BY SCOPE, not assertion:** no hunk reaches lines 246-567 (registrar-verified on the raw diff), so the eighteen grades, appeals, the Q-557 ruling, rows 2/6/7, and the freeze text are unchanged because nothing touched them.
+- **A finding outside the repair list, disclosed rather than silently fixed, RULED HERE:** sealed V003's preflight line 37 asserts the Q-566 conviction's digest as `…942a5428dd851…` where the real file is `…942a5430dd851…` — a two-character transcription error on a "verified before reading" row (the verification happened; the transcription didn't; registrar-confirmed: V003 carries 1x the false and 0x the true digest). **Ruling: sealed artifacts are not edited; this correction of record IS the remedy.** V003 is historical (superseded by V004, which carries the corrected pins and quotes the defect); any future consumer of V003's preflight must read it with this entry.
+- **Three defects in the V004 build itself, all caught by the PRE-SEAL PIN CHECK before sealing and recorded in the artifact** — including an over-broad substitution that twice overwrote the historical certificate, restored with collision-proof labels. The instrument is doing its job on the builder's side of the seal.
+
+**Custody.** Built by Dario per Codex 2's conviction; bounded re-check by Codex 2 queued (640, after 638). Registered by the reviewer from the artifact with independent digest and scope verification.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
