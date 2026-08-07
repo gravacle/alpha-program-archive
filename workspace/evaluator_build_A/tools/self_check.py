@@ -18,6 +18,8 @@ EXPECTED_BRANCH = {
 OPCODES = {"STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME"}
 ADDENDUM_SHA256 = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260"
 VERDICT_SCHEMA_SHA256 = "300a475ead3c17cd5b759ffcc3733418029030404af262632583fff077f2907f"
+ROOT_MEMBERSHIP_SOURCE_SHA256 = "de9139768c68371310e48245568472273fc19da96c48004ef7819ee6b0dbab79"
+SEALED_VERIFIER_ROOT_SHA256 = "dba5377d5ca1e7eebf2932da10e043e96c33f642cf06c8dd81cf26dff3bd3ac0"
 EVIDENCE_MODES = ["fixed_string", "whitespace_normalized", "self_reference_scope", "hyphen_space_underscore"]
 EVIDENCE_SOURCES = {
     "BID_CHARGED_CELLULAR_CPT_INTERTWINER_DERIVATION_V001.md": ("packet", "0322763ac48a4428b432124a6947da81826a41f612efa6803ee9a87317929b98"),
@@ -226,6 +228,29 @@ def main():
     optimized = json_values["optimized.json"]
     package_inventory = json_values["package_inventory.json"]
     parent_module = load_parent(package)
+    root_membership_source = cleanroom / "STAGE8_TASK6_SCHEMA_IN_ROOT_DARIO_V001.md"
+    root_membership_bytes = root_membership_source.read_bytes()
+    if digest(root_membership_bytes) != ROOT_MEMBERSHIP_SOURCE_SHA256:
+        stop("ROOT_MEMBERSHIP_SOURCE_PIN", root_membership_source)
+    root_membership_text = root_membership_bytes.decode("utf-8")
+    expected_root_members = (
+        "contracts/verifier_verdict.schema.json",
+        "run_verifier.py",
+        "verifier/__init__.py",
+        "verifier/canonical_json.py",
+        "verifier/child_manifest.py",
+        "verifier/comparison.py",
+        "verifier/contracts.py",
+        "verifier/hashing.py",
+        "verifier/replay.py",
+        "verifier/runtime_state.py",
+        "verifier/spec_census.py",
+        "verifier/verify.py",
+    )
+    if parent_module.VERIFIER_ROOT_TRANSCRIBED_MEMBERS != expected_root_members or expected_root_members != tuple(sorted(expected_root_members)):
+        stop("ROOT_MEMBER_CENSUS", parent_module.VERIFIER_ROOT_TRANSCRIBED_MEMBERS)
+    if any(member not in root_membership_text for member in expected_root_members) or SEALED_VERIFIER_ROOT_SHA256 not in root_membership_text:
+        stop("ROOT_MEMBERSHIP_SOURCE_CONTENT", root_membership_source)
     verdict_schema_rows = [row for row in normal["external_inputs"] if row["kind"] == "verifier_verdict_schema"]
     if len(verdict_schema_rows) != 1 or verdict_schema_rows[0]["sha256"] != VERDICT_SCHEMA_SHA256:
         stop("VERDICT_SCHEMA_INPUT_ROW", verdict_schema_rows)
@@ -539,6 +564,7 @@ def main():
         "def validate_verdict_document(",
         "selected_schema = validate_verdict_document(value, verdict_schema)",
         'verified_external_inputs["verifier_verdict_schema"]["data"]',
+        'fail("VERDICT_SCHEMA_ROOT_BINDING"',
     }
     missing_verdict_receivers = sorted(item for item in verdict_validation_receivers if item not in parent_text)
     forbidden_verdict_transcriptions = {
@@ -549,6 +575,16 @@ def main():
     expected_schema_keywords = {"$comment", "$schema", "additionalProperties", "const", "enum", "items", "oneOf", "pattern", "properties", "required", "type"}
     if parent_module.VERDICT_SCHEMA_SUPPORTED_KEYWORDS != frozenset(expected_schema_keywords) or missing_verdict_receivers or present_verdict_transcriptions:
         stop("VERDICT_SCHEMA_RECEIVERS", {"keywords": sorted(parent_module.VERDICT_SCHEMA_SUPPORTED_KEYWORDS), "missing": missing_verdict_receivers, "transcriptions": present_verdict_transcriptions})
+    root_membership_receivers = {
+        "VERIFIER_ROOT_TRANSCRIBED_MEMBERS = (",
+        "if len(VERIFIER_ROOT_TRANSCRIBED_MEMBERS) != 12",
+        "for relative in VERIFIER_ROOT_TRANSCRIBED_MEMBERS:",
+        "Contract V002 item: move this transcribed membership list into the manifest",
+    }
+    missing_root_receivers = sorted(item for item in root_membership_receivers if item not in parent_text)
+    forbidden_root_inference = "for source_path in sorted(verifier_source.iterdir()"
+    if missing_root_receivers or forbidden_root_inference in parent_text:
+        stop("ROOT_MEMBERSHIP_RECEIVERS", {"missing": missing_root_receivers, "directory_inference": forbidden_root_inference in parent_text})
     authorization_forbidden = {
         "AUTHORIZATION_CONTENT",
         "Builder A               = Codex Lane 2 (parent + producer)",
@@ -641,7 +677,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verifier_root_members=12 verifier_root={SEALED_VERIFIER_ROOT_SHA256} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

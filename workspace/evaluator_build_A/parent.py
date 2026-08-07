@@ -56,6 +56,22 @@ VERDICT_SCHEMA_SUPPORTED_KEYWORDS = frozenset({
     "required",
     "type",
 })
+# Contract V002 item: move this transcribed membership list into the manifest
+# instance, alongside Builder B's recorded name-binding observation from 667.
+VERIFIER_ROOT_TRANSCRIBED_MEMBERS = (
+    "contracts/verifier_verdict.schema.json",
+    "run_verifier.py",
+    "verifier/__init__.py",
+    "verifier/canonical_json.py",
+    "verifier/child_manifest.py",
+    "verifier/comparison.py",
+    "verifier/contracts.py",
+    "verifier/hashing.py",
+    "verifier/replay.py",
+    "verifier/runtime_state.py",
+    "verifier/spec_census.py",
+    "verifier/verify.py",
+)
 
 
 class ParentFailure(Exception):
@@ -877,10 +893,6 @@ def validate_verifier_manifest(path, expected, run_root, expected_output, expect
         fail("VERIFIER_MANIFEST", value.get("schema"))
     if not isinstance(value["verifier_root_sha256"], str) or re.fullmatch(r"[0-9a-f]{64}", value["verifier_root_sha256"]) is None:
         fail("VERIFIER_ROOT", value["verifier_root_sha256"])
-    verifier_source_declared = manifest_base_declared / "verifier"
-    verifier_source = real_path(verifier_source_declared)
-    if not verifier_source.is_dir():
-        fail("VERIFIER_SOURCE_ROOT", str(verifier_source_declared))
     verifier_files = {}
     entry = value.get("entry_point")
     entry_pattern = r"[A-Za-z_][A-Za-z0-9_]*(?:/[A-Za-z_][A-Za-z0-9_]*)*\.py"
@@ -889,21 +901,15 @@ def validate_verifier_manifest(path, expected, run_root, expected_output, expect
     entry_target = safe_resolve(manifest_base_declared, entry)
     if not entry_target.is_file():
         fail("VERIFIER_ENTRY_FILE", entry)
-    source_members = {
-        entry: (manifest_base_declared / entry, entry_target),
-    }
-    for source_path in sorted(verifier_source.iterdir(), key=lambda item: item.name):
-        if not source_path.is_file() or source_path.suffix != ".py":
-            continue
-        relative = f"verifier/{source_path.name}"
-        source_members[relative] = (verifier_source_declared / source_path.name, source_path)
+    if len(VERIFIER_ROOT_TRANSCRIBED_MEMBERS) != 12 or VERIFIER_ROOT_TRANSCRIBED_MEMBERS != tuple(sorted(VERIFIER_ROOT_TRANSCRIBED_MEMBERS)):
+        fail("VERIFIER_ROOT_MEMBER_CENSUS", VERIFIER_ROOT_TRANSCRIBED_MEMBERS)
     source_digests = []
-    for relative in sorted(source_members):
-        declared_source, source_path = source_members[relative]
+    for relative in VERIFIER_ROOT_TRANSCRIBED_MEMBERS:
+        declared_source = manifest_base_declared / relative
         target = safe_resolve(manifest_base_declared, relative)
-        if target != real_path(source_path):
-            fail("VERIFIER_ROOT_MEMBER_IDENTITY", relative)
-        digest = sha256_bytes(read_bytes(source_path))
+        if not target.is_file():
+            fail("VERIFIER_ROOT_MEMBER_MISSING", relative)
+        digest = sha256_bytes(read_bytes(target))
         source_digests.append(digest)
         add_allowlist_entry(verifier_files, declared_source, digest, f"verifier:{relative}")
     computed_verifier_root = sha256_bytes("".join(source_digests).encode("utf-8"))
@@ -1190,6 +1196,9 @@ def main():
         verifier_out,
         verifier_receipt_path,
     )
+    verdict_schema_member = verifier_files.get(str(real_path(verified_external_inputs["verifier_verdict_schema"]["path"])))
+    if verdict_schema_member is None or verdict_schema_member["sha256"] != verified_external_inputs["verifier_verdict_schema"]["sha256"]:
+        fail("VERDICT_SCHEMA_ROOT_BINDING", verdict_schema_member)
     verifier_root = verifier_manifest["verifier_root_sha256"]
     python = runtime["python_executable"]
     common = [

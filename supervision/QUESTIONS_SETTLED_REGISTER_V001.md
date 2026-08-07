@@ -14006,6 +14006,19 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-602 — TASK 6 BUILD: RUN 021 — THE FIRST COMPLETE END-TO-END EXECUTION; THE VERIFIER'S FAULT LIST IS SUBSTANTIALLY THE Q-591 PREREGISTRATION COME TRUE (2026-08-07)
+
+**Question.** What did the first complete chain execution return?
+
+**Answer.** THE CHAIN RAN END TO END: both producers executed and agreed semantically; the parent composed and bound the ledger; the verifier launched under the pinned isolation, executed its full R9 duties, emitted a schema-valid 24.5KB verdict that the parent validated and wrote to the run root (`verifier.output.json`); and the chain stopped exactly where the contract commands — `R9_VERIFIER_FAULTS_FOUND_EXIT_1`. **The EVIDENCE fault class is the Q-591 preregistration realized: "no observed evidence digests" on precisely the structural rows, with the ten gated rows and gated fixtures correctly absent from the list.** Runs 001-021: twenty-one invocations, every stop specific, owned, and adjudicated; zero fabricated evidence anywhere in the chain.
+
+**The two remaining fault classes, root-caused by the registrar:**
+1. **DESCRIPTOR_DIGEST (all 66 rows, systematic):** A's `check_spec_sha256` hashes each sealed spec row INCLUDING its line terminator (A's spans were newline-inclusive); B recomputes the row WITHOUT it. Registrar-reproduced both digests exactly from the sealed bytes. **Adjudication: the third newline ruling goes the way of the first two (Q-594 file canon; 673 stdout) — the insignificant byte is excluded; the descriptor row's bytes are the line without its terminator; A recomputes.**
+2. **EVENT_LEDGER (one fault):** the producer's child row declares an event-class payload by digest at a path where no file exists — the event-class ledgers were never MATERIALIZED as files. B's digest-fetch behaved correctly against a declared-but-absent object. A materializes the payloads at the declared run-root locations.
+Fixes: relay 678 (Codex 2, both items). Then run 022 — expected: the full preregistered honest verdict with ONLY the evidence-absence faults, which is the certified-honest state the S tranche then builds against.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

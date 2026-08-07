@@ -517,7 +517,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 674 | Dario | [6/BUILD] conform the verdict to B's own sealed schema (or amend deliberately) | **RETURNED: schema amended (oneOf full/fault), 2nd latent defect fixed lawfully, own guard refused own test sample |
 | 675 | Codex 2 | [6/BUILD] validate the verdict against B's sealed schema (pinned input; no transcription) | **RETURNED: schema-driven validation. RUN 020: root member drift (11 vs 12) -> 677 |
 | 676 | Dario | [6/BUILD] bring the verdict schema into verifier_root | **SENT** |
-| 677 | Codex 2 | [6/BUILD] root member set = 12 per the sealed 676 list; membership-in-instance noted for contract V002 | LOADED — NOT SENT |
+| 677 | Codex 2 | [6/BUILD] root member set = 12 per the sealed 676 list | **RETURNED. RUN 021: END-TO-END COMPLETE, exit 1 honest; descriptor-newline + event-ledger materialization -> 678 |
+| 678 | Codex 2 | [6/BUILD] descriptor digests sans terminator (3rd newline ruling) + materialize event-class payloads | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
