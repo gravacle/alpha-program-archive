@@ -7,11 +7,14 @@ itself. Nothing is taken from the producer's manifests, from Builder A's code,
 or from any mutable receipt. If the producer and the spec disagree, the spec
 wins and the run fails closed.
 
-Spec V005, state R9:
+Governing spec: V007. State R9's duty passage is byte-identical to V005's, so
+the expectations below are re-derived, not restated:
     "checks the exact 63 blocker IDs plus 3 discrepancy IDs, all 66 V005
      descriptor hashes, the 56/10 class partition, and the 35 carried BOUND +
      13 carried RE-RENDERED + 8 V004-REPAIRED + 10 V005-REPAIRED specification
      binding board"
+The board's `V004-REPAIRED`/`V005-REPAIRED` labels are HISTORICAL tags naming
+when a row was repaired; they are not a claim about which spec governs.
 """
 
 import re
@@ -19,7 +22,7 @@ import re
 from .canonical_json import VerifierFault
 from .hashing import load_addressed, sha256_bytes
 
-SPEC_SHA256 = "f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b"
+SPEC_SHA256 = "d38d31719b64839744a98da5ee005fb50119f9a26b2b98b0e1a1de445b5d4973"
 
 EXPECTED_TOTAL_IDS = 66
 EXPECTED_BLOCKER_IDS = 63

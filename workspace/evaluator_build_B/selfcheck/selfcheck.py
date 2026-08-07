@@ -288,9 +288,15 @@ def main():
     else:
         sys.stdout.write("assert scan          : 0 hits (B-V011-SP2-07)\n")
 
-    # the census must be derivable from the sealed spec
+    # The census must be derivable from the sealed spec. The filename is a
+    # LOOKUP HINT ONLY -- SpecCensus loads through load_addressed, so the
+    # SPEC_SHA256 const is what admits the bytes. When the pin moved to V007
+    # and this string still said V005 the self-check FAILED CLOSED on a
+    # content-address mismatch rather than reading the wrong file, which is
+    # how this fourth V005 reference was found: it was carried by NAME, so
+    # grepping for the old digest could not see it.
     spec = os.path.join(os.path.dirname(ROOT),
-                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md")
+                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md")
     if os.path.isfile(spec):
         try:
             census = spec_census.SpecCensus(spec)
