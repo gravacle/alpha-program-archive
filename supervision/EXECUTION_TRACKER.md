@@ -532,7 +532,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 689 | Codex 2 | [6/TRANCHE] re-pin B's verdict schema (verified) | **RETURNED. RUN 027: producer PASS stands; stop = B's row contract lacks the field B specified -> 690 |
 | 690 | Dario | [6/TRANCHE] extend CHECK_ROW_FIELDS (invocation typed) | **RETURNED: typed 6-axis validation; 2 own errors caught. RUN 028: shape mismatch (explicit vs packed linkage) -> 691 |
 | 691 | Codex 2 | [6/TRANCHE] invocation 4-field packed | **RETURNED. RUN 029: observed evidence became the TRACE, args unreproduced -> 692 |
-| 692 | Codex 2 | [6/TRANCHE] observed evidence = payload set (args + grounding); trace to receipt | LOADED — NOT SENT |
+| 692 | Codex 2 | [6/TRANCHE] observed evidence = payload set (args + grounding); trace to receipt | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
