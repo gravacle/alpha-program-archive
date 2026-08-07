@@ -557,8 +557,9 @@ def parse_sidecar(path):
     return match.group(1)
 
 
-def validate_verifier_manifest(path, expected, expected_output, expected_receipt):
-    base = Path(path).resolve().parent
+def validate_verifier_manifest(path, expected, run_root, expected_output, expected_receipt):
+    manifest_base = Path(path).resolve().parent
+    run_base = Path(run_root).resolve()
     sidecar = Path(str(path) + ".seal.sha256")
     if not sidecar.is_file():
         fail("VERIFIER_SIDECAR", str(sidecar))
@@ -600,13 +601,13 @@ def validate_verifier_manifest(path, expected, expected_output, expected_receipt
         fail("VERIFIER_RECEIPT_AUTHORITY", value["receipt_authoritative"])
     declared_output = Path(value["output_path"])
     declared_receipt = Path(value["receipt_path"])
-    if not declared_output.is_absolute():
-        declared_output = base / declared_output
-    if not declared_receipt.is_absolute():
-        declared_receipt = base / declared_receipt
-    if declared_output.resolve() != Path(expected_output).resolve() or declared_receipt.resolve() != Path(expected_receipt).resolve():
+    if declared_output.is_absolute() or declared_receipt.is_absolute():
+        fail("VERIFIER_ABSOLUTE_RUN_PATH", {"output": value["output_path"], "receipt": value["receipt_path"]})
+    declared_output = safe_resolve(run_base, value["output_path"])
+    declared_receipt = safe_resolve(run_base, value["receipt_path"])
+    if declared_output != Path(expected_output).resolve() or declared_receipt != Path(expected_receipt).resolve():
         fail("VERIFIER_OUTPUT_CONTRACT", {"output": value["output_path"], "receipt": value["receipt_path"]})
-    return value, stated, base
+    return value, stated, manifest_base
 
 
 def bind_verifier_launch(manifest, substitutions, ledger_path, ledger_sha256):
@@ -635,7 +636,7 @@ def bind_verifier_launch(manifest, substitutions, ledger_path, ledger_sha256):
     return bound
 
 
-def post_production_verifier_validation(manifest, base, ledger_path, ledger_sha256):
+def post_production_verifier_validation(manifest, ledger_path, ledger_sha256):
     if manifest["input_roots"]["ledger_sha256"] != ledger_sha256 or ledger_sha256 == UNBOUND_ROOT_SENTINEL:
         fail("VERIFIER_LEDGER_NOT_BOUND", manifest["input_roots"]["ledger_sha256"])
     argv = manifest["argv"]
@@ -647,7 +648,7 @@ def post_production_verifier_validation(manifest, base, ledger_path, ledger_sha2
         fail("VERIFIER_LEDGER_ARGV_VALUE", argv)
     declared_path = Path(argv[ledger_index + 1])
     if not declared_path.is_absolute():
-        declared_path = Path(base) / declared_path
+        fail("VERIFIER_LEDGER_PATH_NOT_ABSOLUTE", argv[ledger_index + 1])
     declared_path = declared_path.resolve()
     expected_path = Path(ledger_path).resolve()
     if declared_path != expected_path or argv[digest_index + 1] != ledger_sha256:
@@ -838,6 +839,7 @@ def main():
     verifier_manifest, verifier_manifest_sha, verifier_base = validate_verifier_manifest(
         args.verifier_manifest,
         verifier_expected_roots,
+        run_root,
         verifier_out,
         verifier_receipt_path,
     )
@@ -899,7 +901,7 @@ def main():
         "${SPEC_PATH}": str(Path(specification_path).resolve()),
     }
     bound_verifier_manifest = bind_verifier_launch(verifier_manifest, substitutions, producer_ledger_path, produced_ledger_sha)
-    post_production_verifier_validation(bound_verifier_manifest, verifier_base, producer_ledger_path, produced_ledger_sha)
+    post_production_verifier_validation(bound_verifier_manifest, producer_ledger_path, produced_ledger_sha)
     bound_verifier_manifest_data = canonical_bytes(bound_verifier_manifest)
     bound_verifier_manifest_sha = sha256_bytes(bound_verifier_manifest_data)
     exclusive_write(bound_verifier_manifest_path, bound_verifier_manifest_data)

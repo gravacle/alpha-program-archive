@@ -13984,6 +13984,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-600 — TASK 6 BUILD: RUN 010 — THE PRODUCER CHILDREN RAN; THE STOP IS A PATH-ALIAS IDENTITY DEFECT; AND THE REGISTRAR'S "EMPTY DUPLICATE TREE" WAS AN APOSTROPHE-VARIANT FALSE NEGATIVE (2026-08-07)
+
+**Question.** What did run 010 establish?
+
+**Answer.** THE CHILDREN RAN — the first execution of the producer pipeline in the program's history: `normal.output.json` and `optimized.output.json` (86,146 bytes EACH — equal sizes, byte-agreement pending the parent's R8 comparison) plus both receipts, written into the run root under exclusive creation. The chain stopped at parent-side reclassification: `MODULE_UNSEALED` for producer.py reported at `/Users/bgm/Documents/Documents - Brian's MacBook Pro/New project/…`.
+
+- **The root cause is a filesystem alias, verified by the registrar:** `/Users/bgm/Documents/New project` RESOLVES to `/Users/bgm/Documents/Documents - Brian's MacBook Pro/New project` — one set of bytes, two spellings (`cmp` identical). The manifests recorded the alias spelling; the runtime auditor resolved to the real spelling; the allowlist comparison failed on the string, not the content. Fix owed by Builder A (relay 663): path identity by `realpath` normalization on BOTH sides, with content digest as the authoritative identity.
+- **CORRECTION OF RECORD against the registrar (the fourth M-2 mode, committed by its own registrar):** the earlier probe that found the "duplicate tree" EMPTY (Q-593-era tracker warning "it exists and is EMPTY; never grant it") tested a path spelled with a STRAIGHT apostrophe against a directory named with U+2019. The duplicate tree is not a duplicate and not empty — it is the CANONICAL spelling of the only tree. The tracker's hazard note is corrected; the earlier denial of Dario's directory request did no harm (the reroute worked and the EPERM was real), but the recorded reason was false.
+- The gate sequence to date: ten runs, nine distinct laws enforced, and the machine has now executed 132 check evaluations (66 x 2 children) whose comparison is one path-identity fix away.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
