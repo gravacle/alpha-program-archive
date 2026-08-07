@@ -530,7 +530,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 687 | Codex 2 | [6/TRANCHE] spec V007 + coordinated re-pin | **RETURNED: V007 sealed (5 repairs), A re-pinned |
 | 688 | Dario | [6/TRANCHE] B's V007 const re-pin | **RETURNED: 4 pin sites (2 found beyond commission); grep-the-name rule. RUN 026 stop: A's schema pin stale -> 689 |
 | 689 | Codex 2 | [6/TRANCHE] re-pin B's verdict schema (verified) | **RETURNED. RUN 027: producer PASS stands; stop = B's row contract lacks the field B specified -> 690 |
-| 690 | Dario | [6/TRANCHE] extend CHECK_ROW_FIELDS to receive the invocation field (B's own spec) | LOADED — NOT SENT |
+| 690 | Dario | [6/TRANCHE] extend CHECK_ROW_FIELDS to receive the invocation field (B's own spec) | **SENT** (Brian labeled it 689; clipboard held 690) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
