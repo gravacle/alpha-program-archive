@@ -476,10 +476,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 635 | Dario | [6/SUBGATE] spec V003 class-check: the 28 re-renders + BOUND sample (bounded, archive-side) | **RETURNED — REGISTERED (Q-573): sealed verdict CORRECTED post-seal; V009-04 FATAL confirmed; 28/28 WITHDRAWN; 10 findings unverified |
 | 636 | Codex 2 | [6/SUBGATE] assembly V003 bounded delta re-check | **RETURNED — REGISTERED (Q-572): substance FULLY CONFIRMED; 4 certificate-prose defects -> bounded V004 (637) |
 | 637 | Dario | [6/SUBGATE] class-check correction of record + verify the ten findings | **RETURNED — REGISTERED (Q-574): 22/28; 2 FATALs refused, 6 confirmed; BR-1/BR-2 proposed with runnable tests |
-| 638 | Codex 2 | [6/SUBGATE] spec V004: install BR-1/BR-2 as law + repair the closed list | **SENT** |
+| 638 | Codex 2 | [6/SUBGATE] spec V004: install BR-1/BR-2 as law + repair the closed list | **RETURNED — REGISTERED (Q-576): BR laws installed, sweeps 0 failures, 11/11 repaired |
 | 639 | Dario | [6/SUBGATE] assembly V004: the five certificate-prose fixes ONLY (byte-copy method) | **RETURNED — REGISTERED (Q-575): 5/5 displayed; operative content scope-proven untouched; V003 false-digest corrected of record |
 | 640 | Codex 2 | [6/SUBGATE] assembly V004 bounded check (the five fixes + scope claim) | QUEUED (after 638 returns) |
-| 641 | Dario | [6/SUBGATE] spec V004 check: BR conformance transcript + closed list (bounded) | QUEUED (after 638 returns) |
+| 641 | Dario | [6/SUBGATE] spec V004 check: BR conformance transcript + closed list (bounded) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

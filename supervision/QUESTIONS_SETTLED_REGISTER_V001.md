@@ -13652,6 +13652,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-576 — TASK 6 SUBGATE: THE EVALUATOR SPEC STANDS AT V004 — BR-1/BR-2 INSTALLED AS LAW, BOTH SWEEPS ZERO FAILURES, THE CLOSED LIST 11/11 (2026-08-07)
+
+**Question.** Does V004 install the class laws and repair the closed list?
+
+**Answer.** YES (Codex 2, `STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V004.md`, SHA-256 `2c767bfc953c7efeeaf4a33542974b10e0a674a161a5f1a651f3486ac36fad8b`, relay 638; registrar mirrored and byte-verified).
+
+- **BR-1 and BR-2 installed as LAW** in the executable-check language with named runnable conformance tests (`BR1_DIRECTION_CONFORMANCE_V001`, `BR2_REDUCTION_TRUTH_CONFORMANCE_V001`), both swept over the entire final file with transcripts: **zero failures each.**
+- **The closed list 11/11 repaired** — registrar spot-check: V009-04's producer-declared `E_log` is gone (its sole remaining occurrence is the repair table's own "E_log absent" row), replaced by all three `DOMAIN.success` bits plus spec-forced `r_distinct_x`/`r_one_x` — the directional predicate restored with content-forced receivers.
+- Protected sections unchanged (pinned hashes present at statement and verification sites); carriage a complete finite delta (26 hunks / 350 insertions / 86 deletions, conventions declared); 58 descriptors carry without V004 row edits; AUTHORIZATION = not_claimed.
+
+**State of the spec chain:** V001 defined the object; V002 self-audited vocabulary; V003 repaired binding; **V004 makes the defect class mechanically detectable forever** — any future edit can be swept by the two conformance tests. The bounded checks (640 assembly-side by Codex 2, 641 spec-side by Dario) are the last gates before the build package goes to the principal.
+
+**Custody.** Built by Codex 2 per Dario's correction of record; Dario's bounded check queued (641). Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
