@@ -786,6 +786,39 @@ def check_manifest(manifest, optimize):
         fail("AUTHORITY_FIREWALL", "manifest")
 
 
+def evidence_declared_root(evidence, manifest):
+    exact_keys(
+        evidence,
+        {"check_records", "declared_root", "fixture_records", "payload_inventory", "schema", "subject_lineage_root"},
+        "evidence",
+    )
+    if evidence["schema"] != "rd22.structural-evidence-manifest.v001":
+        fail("EVIDENCE_SCHEMA", evidence["schema"])
+    rows = evidence["payload_inventory"]
+    if not isinstance(rows, list) or rows != sorted(rows, key=lambda row: row.get("relative_path", "") if isinstance(row, dict) else ""):
+        fail("EVIDENCE_INVENTORY_ORDER", "not canonical relative_path order")
+    for row in rows:
+        exact_keys(row, {"byte_length", "relative_path", "sha256"}, "evidence payload row")
+        if not isinstance(row["relative_path"], str) or re.fullmatch(r"[^/\\\x00]+", row["relative_path"]) is None:
+            fail("EVIDENCE_INVENTORY_PATH", row["relative_path"])
+    actual_root = content_root(rows)
+    if evidence["declared_root"] != actual_root:
+        fail("EVIDENCE_DECLARED_ROOT", {"declared": evidence["declared_root"], "actual": actual_root})
+    prefix = "inputs/evidence/"
+    package_rows = []
+    for row in manifest["package_files"]:
+        relative = row.get("relative_path") if isinstance(row, dict) else None
+        if not isinstance(relative, str) or not relative.startswith(prefix):
+            continue
+        name = relative[len(prefix):]
+        if not name or "/" in name:
+            fail("EVIDENCE_PACKAGE_PATH", relative)
+        package_rows.append({"byte_length": row.get("byte_length"), "relative_path": name, "sha256": row.get("sha256")})
+    if rows != sorted(package_rows, key=lambda row: row["relative_path"]):
+        fail("EVIDENCE_PACKAGE_BINDING", "payload inventory differs from parent-verified package rows")
+    return evidence["declared_root"]
+
+
 def make_check_row(descriptor, evidence_records, requirement_sha):
     check_id = descriptor["check_id"]
     base = {
@@ -918,7 +951,7 @@ def main():
         fail("MANIFEST_ROOT_BINDING", "child inputs")
     exact_keys(check_map, {"branch_outcome", "check_ids", "checks", "descriptor_convention", "schema", "spec_sha256"}, "check_map")
     exact_keys(fixtures, {"fixture_ids", "fixtures", "schema", "spec_sha256"}, "fixtures")
-    exact_keys(evidence, {"check_records", "fixture_records", "schema", "subject_lineage_root"}, "evidence")
+    evidence_declared_root(evidence, manifest)
     fixture_descriptor_fields = {
         "deterministic_procedure",
         "execution_class",

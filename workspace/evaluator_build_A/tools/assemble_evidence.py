@@ -130,6 +130,11 @@ def content_root(rows):
     return sha(b"A35-CONTENT-ROOT-v1\0" + "".join(sorted(records)).encode("utf-8"))
 
 
+def inventory_content_root(rows):
+    records = [f"{row['relative_path']}\0{row['byte_length']}\0{row['sha256']}\n" for row in rows]
+    return sha(b"A35-CONTENT-ROOT-v1\0" + "".join(sorted(records)).encode("utf-8"))
+
+
 def copy_payload(source, evidence_dir):
     filename = f"{source['sha256']}--{source['path'].name}"
     target = evidence_dir / filename
@@ -269,6 +274,11 @@ def main():
     actual_payload_names = {path.name for path in evidence_dir.iterdir() if path.is_file()}
     if actual_payload_names != expected_payload_names:
         fail("PAYLOAD_CENSUS", {"expected": sorted(expected_payload_names), "actual": sorted(actual_payload_names)})
+    payload_inventory = []
+    for name in sorted(expected_payload_names):
+        data = (evidence_dir / name).read_bytes()
+        payload_inventory.append({"byte_length": len(data), "relative_path": name, "sha256": sha(data)})
+    declared_root = inventory_content_root(payload_inventory)
 
     check_map = read_json(package / "checks/check_map.json")
     fixtures = read_json(package / "fixtures/fixture_manifest.json")
@@ -323,7 +333,9 @@ def main():
     old = read_json(package / "inputs/structural_evidence_manifest.json")
     evidence = {
         "check_records": check_records,
+        "declared_root": declared_root,
         "fixture_records": fixture_records,
+        "payload_inventory": payload_inventory,
         "schema": "rd22.structural-evidence-manifest.v001",
         "subject_lineage_root": old["subject_lineage_root"],
     }
@@ -334,6 +346,7 @@ def main():
         "checks_populated": 0,
         "fixtures_absent": len(fixture_records),
         "fixtures_populated": 0,
+        "declared_root": declared_root,
         "payload_files": len(expected_payload_names),
         "search_scope_members": len(rows),
         "search_scope_sha256": scope_sha256,

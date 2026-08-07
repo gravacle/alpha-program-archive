@@ -272,6 +272,7 @@ def schemas():
     def closed(properties):
         return {"additionalProperties": False, "properties": properties, "required": sorted(properties), "type": "object"}
 
+    payload_row = closed({"byte_length": {"minimum": 0, "type": "integer"}, "relative_path": string, "sha256": digest})
     source = closed({"byte_span": {"items": integer, "type": "array"}, "path": string, "sha256": digest})
     fixture_descriptor = closed(
         {
@@ -365,8 +366,8 @@ def schemas():
         },
         "structural-evidence.schema.json": {
             "$id": "rd22.structural-evidence-manifest.v001", "additionalProperties": False,
-            "properties": {"check_records": object_value, "fixture_records": object_value, "schema": string, "subject_lineage_root": digest},
-            "required": ["check_records", "fixture_records", "schema", "subject_lineage_root"], "type": "object",
+            "properties": {"check_records": object_value, "declared_root": digest, "fixture_records": object_value, "payload_inventory": {"items": payload_row, "type": "array"}, "schema": string, "subject_lineage_root": digest},
+            "required": ["check_records", "declared_root", "fixture_records", "payload_inventory", "schema", "subject_lineage_root"], "type": "object",
         },
         "producer-output.schema.json": {
             "$id": "rd22.producer-output.v001", "additionalProperties": False,
@@ -450,27 +451,32 @@ def main():
     write_json(package / "inputs/subject_lineage_manifest.json", subject)
     structural_ids = [row["check_id"] for row in rows if row["execution_class"] == "STRUCTURAL"]
     structural_fixture_ids = [row["fixture_id"] for row in fixtures if row["execution_class"] == "STRUCTURAL"]
+    evidence_dir = package / "inputs/evidence"
+    payload_inventory = [file_row(path, path.name) for path in sorted(evidence_dir.iterdir()) if path.is_file()]
+    declared_evidence_root = content_root(payload_inventory)
     evidence_path = package / "inputs/structural_evidence_manifest.json"
     if evidence_path.is_file():
         evidence_data = evidence_path.read_bytes()
         evidence = json.loads(evidence_data.decode("utf-8"))
         if canonical(evidence) != evidence_data:
             die("EVIDENCE_CANONICAL", evidence_path)
-        if set(evidence) != {"check_records", "fixture_records", "schema", "subject_lineage_root"}:
+        if set(evidence) != {"check_records", "declared_root", "fixture_records", "payload_inventory", "schema", "subject_lineage_root"}:
             die("EVIDENCE_FIELDS", sorted(evidence))
         if set(evidence["check_records"]) != set(structural_ids) or set(evidence["fixture_records"]) != set(structural_fixture_ids):
             die("EVIDENCE_CENSUS", "check/fixture IDs")
-        if evidence["schema"] != "rd22.structural-evidence-manifest.v001" or evidence["subject_lineage_root"] != subject["declared_root"]:
+        if evidence["schema"] != "rd22.structural-evidence-manifest.v001" or evidence["subject_lineage_root"] != subject["declared_root"] or evidence["payload_inventory"] != payload_inventory or evidence["declared_root"] != declared_evidence_root:
             die("EVIDENCE_BINDING", "schema/subject root")
     else:
         evidence = {
             "check_records": {check_id: {"available": False, "reason": "NO_CONTENT_ADDRESSED_EVIDENCE_RECORD_PRESENT_IN_GOVERNING_INPUT_SET"} for check_id in structural_ids},
+            "declared_root": declared_evidence_root,
             "fixture_records": {fixture_id: {"available": False, "reason": "NO_CONTENT_ADDRESSED_FIXTURE_OBSERVATION_PRESENT_IN_GOVERNING_INPUT_SET"} for fixture_id in structural_fixture_ids},
+            "payload_inventory": payload_inventory,
             "schema": "rd22.structural-evidence-manifest.v001",
             "subject_lineage_root": subject["declared_root"],
         }
     write_json(package / "inputs/structural_evidence_manifest.json", evidence)
-    evidence_payload_relatives = [str(path.relative_to(package)) for path in sorted((package / "inputs/evidence").glob("*")) if path.is_file()]
+    evidence_payload_relatives = [f"inputs/evidence/{row['relative_path']}" for row in payload_inventory]
     runtime_relatives = [
         "parent.py", "producer.py", "checks/check_map.json", "fixtures/fixture_manifest.json",
         "inputs/structural_evidence_manifest.json", "inputs/subject_lineage_manifest.json",

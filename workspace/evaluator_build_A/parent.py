@@ -94,6 +94,30 @@ def exact_keys(value, keys, label):
         fail("SCHEMA_FIELDS", f"{label}: missing={sorted(wanted-actual)}, extra={sorted(actual-wanted)}")
 
 
+def content_root(entries, label):
+    if not isinstance(entries, list):
+        fail("CONTENT_ROOT_ROWS", f"{label}: not list")
+    records = []
+    seen = set()
+    for row in entries:
+        exact_keys(row, {"byte_length", "relative_path", "sha256"}, f"{label} row")
+        relative = row["relative_path"]
+        if not isinstance(relative, str) or not relative or re.fullmatch(r"[^/\\\x00]+", relative) is None:
+            fail("CONTENT_ROOT_PATH", f"{label}: {relative!r}")
+        if relative in seen:
+            fail("CONTENT_ROOT_DUPLICATE", f"{label}: {relative}")
+        seen.add(relative)
+        length = row["byte_length"]
+        digest = row["sha256"]
+        if not isinstance(length, int) or isinstance(length, bool) or length < 0:
+            fail("CONTENT_ROOT_LENGTH", f"{label}: {relative}")
+        if not isinstance(digest, str) or re.fullmatch(r"[0-9a-f]{64}", digest) is None:
+            fail("CONTENT_ROOT_DIGEST", f"{label}: {relative}")
+        records.append(f"{relative}\0{length}\0{digest}\n")
+    payload = b"A35-CONTENT-ROOT-v1\0" + "".join(sorted(records)).encode("utf-8")
+    return sha256_bytes(payload)
+
+
 def safe_resolve(root, relative):
     if not isinstance(relative, str) or not relative or Path(relative).is_absolute():
         fail("RELATIVE_PATH", repr(relative))
@@ -199,6 +223,42 @@ def verify_package_inventory(package_root, manifest):
     if not required.issubset(seen):
         fail("PACKAGE_REQUIRED_FILES", sorted(required-seen))
     return values
+
+
+def validate_evidence_manifest(data, package):
+    value = strict_json(data, "structural evidence manifest")
+    if canonical_bytes(value) != data:
+        fail("EVIDENCE_MANIFEST_NOT_CANONICAL", "structural evidence manifest")
+    exact_keys(
+        value,
+        {"check_records", "declared_root", "fixture_records", "payload_inventory", "schema", "subject_lineage_root"},
+        "structural evidence manifest",
+    )
+    if value["schema"] != "rd22.structural-evidence-manifest.v001":
+        fail("EVIDENCE_MANIFEST_SCHEMA", value["schema"])
+    rows = value["payload_inventory"]
+    if not isinstance(rows, list) or rows != sorted(rows, key=lambda row: row.get("relative_path", "") if isinstance(row, dict) else ""):
+        fail("EVIDENCE_INVENTORY_ORDER", "not canonical relative_path order")
+    actual_root = content_root(rows, "evidence payload inventory")
+    if value["declared_root"] != actual_root:
+        fail("EVIDENCE_DECLARED_ROOT", {"declared": value["declared_root"], "actual": actual_root})
+    prefix = "inputs/evidence/"
+    supplied = {}
+    for relative, (_, payload) in package.items():
+        if not relative.startswith(prefix):
+            continue
+        name = relative[len(prefix):]
+        if not name or "/" in name or name in supplied:
+            fail("EVIDENCE_PACKAGE_PATH", relative)
+        supplied[name] = payload
+    declared_names = {row["relative_path"] for row in rows}
+    if declared_names != set(supplied):
+        fail("EVIDENCE_PAYLOAD_CENSUS", {"declared": sorted(declared_names), "supplied": sorted(supplied)})
+    for row in rows:
+        payload = supplied[row["relative_path"]]
+        if len(payload) != row["byte_length"] or sha256_bytes(payload) != row["sha256"]:
+            fail("EVIDENCE_PAYLOAD_ROW", row["relative_path"])
+    return value["declared_root"]
 
 
 def verify_external_inputs(program_root, authorization_path, manifest):
@@ -644,6 +704,7 @@ def main():
     if len(normal_manifest["check_ids"]) != EXPECTED_IDS or len(normal_manifest["fixture_ids"]) != EXPECTED_FIXTURES:
         fail("R1_COUNTS", "IDs")
     package = verify_package_inventory(package_root, normal_manifest)
+    evidence_declared_root = validate_evidence_manifest(package["inputs/structural_evidence_manifest.json"][1], package)
     parent_data = read_bytes(Path(__file__).resolve())
     if sha256_bytes(parent_data) != normal_manifest_file_hash(normal_manifest, "parent.py"):
         fail("R0_SELF_HASH", str(Path(__file__).resolve()))
@@ -677,7 +738,7 @@ def main():
     terminal_path = run_root / "terminal.ledger.json"
     ensure_absent([normal_output, normal_receipt, optimized_output, optimized_receipt, verifier_out, verifier_receipt_path, terminal_path])
     verifier_expected_roots = {
-        "evidence_root_sha256": normal_manifest["evidence_manifest_sha256"],
+        "evidence_root_sha256": evidence_declared_root,
         "runtime_gate_sha256": RUNTIME_GATE_SHA256,
         "runtime_snapshot_sha256": RUNTIME_SNAPSHOT_SHA256,
         "spec_sha256": SPEC_SHA256,

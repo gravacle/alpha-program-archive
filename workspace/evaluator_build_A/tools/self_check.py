@@ -39,6 +39,11 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def content_root(rows):
+    records = [f"{row['relative_path']}\0{row['byte_length']}\0{row['sha256']}\n" for row in rows]
+    return digest(b"A35-CONTENT-ROOT-v1\0" + "".join(sorted(records)).encode("utf-8"))
+
+
 def pairs(items):
     out = {}
     for key, value in items:
@@ -247,7 +252,7 @@ def main():
     structural_fixtures = {row["fixture_id"]: row for row in fixtures["fixtures"] if row["execution_class"] == "STRUCTURAL"}
     if set(evidence["check_records"]) != set(structural_by_id) or set(evidence["fixture_records"]) != set(structural_fixtures):
         stop("EVIDENCE_CENSUS", "wrong IDs")
-    if evidence["schema"] != "rd22.structural-evidence-manifest.v001" or evidence["subject_lineage_root"] != normal["subject_lineage_root"]:
+    if set(evidence) != {"check_records", "declared_root", "fixture_records", "payload_inventory", "schema", "subject_lineage_root"} or evidence["schema"] != "rd22.structural-evidence-manifest.v001" or evidence["subject_lineage_root"] != normal["subject_lineage_root"]:
         stop("EVIDENCE_BINDING", "schema/root")
     payload_dir = package / "inputs/evidence"
     payload_files = sorted(path for path in payload_dir.iterdir() if path.is_file())
@@ -259,6 +264,12 @@ def main():
         matches = [path for path in payload_files if path.name == f"{expected}--{name}"]
         if digest(source.read_bytes()) != expected or len(matches) != 1 or matches[0].read_bytes() != source.read_bytes():
             stop("EVIDENCE_SOURCE_COPY", name)
+    expected_payload_inventory = [
+        {"byte_length": len(path.read_bytes()), "relative_path": path.name, "sha256": digest(path.read_bytes())}
+        for path in payload_files
+    ]
+    if evidence["payload_inventory"] != expected_payload_inventory or evidence["declared_root"] != content_root(expected_payload_inventory):
+        stop("EVIDENCE_DECLARED_ROOT", evidence.get("declared_root"))
     scope_roots = set()
     referenced_payloads = set()
     check_fields = {"available", "descriptor_sha256", "missing_objects", "partial_payloads", "reason", "search", "status"}
@@ -389,6 +400,8 @@ def main():
         stop("AUTHORIZATION_EXPECTATION", present_authorization_literals)
     if "verify_bytes(args.authorization, AUTHORIZATION_SHA256)" not in parent_text:
         stop("AUTHORIZATION_HASH_PIN", "missing")
+    if '"evidence_root_sha256": evidence_declared_root' not in parent_text:
+        stop("EVIDENCE_ROOT_BINDING", "parent does not bind verifier expectation to declared_root")
     for fact in ("R9_VERIFIER_FAULTS_FOUND_EXIT_1", "R9_VERIFIER_FAIL_CLOSED_EXIT_2"):
         if fact not in parent_text:
             stop("VERIFIER_EXIT_FACT", fact)
