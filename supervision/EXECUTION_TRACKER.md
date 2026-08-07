@@ -509,7 +509,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 666 | Codex 2 | [6/BUILD] accept direct-script argv prefix (validated against verifier_root) | **RETURNED: implemented after 667. RUN 014: THE VERIFIER EXECUTED — fail-closed exit 2 on trust_root format -> 668 |
 | 667 | Dario | [6/BUILD] verifier_root recomputed to cover run_verifier.py; instance updated | **SENT** |
 | 668 | Codex 2 | [6/BUILD] trust root: single definition (digest) at every site | **RETURNED: 10 sites unified. RUN 015: trust root accepted; verifier wants authorization artifact_sha256 -> 669 |
-| 669 | Codex 2 | [6/BUILD] forward the verified authorization digest in the bound context | **SENT** |
+| 669 | Codex 2 | [6/BUILD] forward the verified authorization digest in the bound context | **RETURNED. RUN 016: next field = scope -> 670 (with the T0-T4 structural question flagged) |
+| 670 | Codex 2 | [6/BUILD] authorization scope field + T-label finding | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

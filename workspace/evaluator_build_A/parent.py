@@ -64,12 +64,16 @@ def read_bytes(path):
         fail("READ_FAILED", f"{path}: {exc}")
 
 
-def verify_bytes(path, expected):
+def verify_bytes_with_digest(path, expected):
     data = read_bytes(path)
     actual = sha256_bytes(data)
     if actual != expected:
         fail("HASH_MISMATCH", f"{path}: expected {expected}, got {actual}")
-    return data
+    return data, actual
+
+
+def verify_bytes(path, expected):
+    return verify_bytes_with_digest(path, expected)[0]
 
 
 def reject_constant(value):
@@ -879,7 +883,7 @@ def verifier_process_command(manifest, pinned_python, verifier_base, verifier_fi
     return command
 
 
-def verifier_stdout(data, expected_verdict, verifier_root, runtime):
+def verifier_stdout(data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256):
     if not data:
         fail("VERIFIER_STDOUT_EMPTY", "missing canonical JSON value")
     value = strict_json(data, "verifier stdout")
@@ -894,7 +898,7 @@ def verifier_stdout(data, expected_verdict, verifier_root, runtime):
     exact_keys(value, fields, "verifier output")
     if value["schema"] != "gravacle.a35.verifier-verdict.v1" or value["verdict"] != expected_verdict:
         fail("VERIFIER_VERDICT", value.get("verdict"))
-    if value["authorization_sha256"] != AUTHORIZATION_SHA256 or value["spec_sha256"] != SPEC_SHA256:
+    if value["authorization_sha256"] != authorization_artifact_sha256 or value["spec_sha256"] != SPEC_SHA256:
         fail("VERIFIER_AUTHORITY_PIN", "authorization/spec")
     if value["verifier_sha256"] != verifier_root:
         fail("VERIFIER_SELF_PIN", value["verifier_sha256"])
@@ -944,9 +948,11 @@ def child_record(manifest_sha, target_sha, optimize, out_data, receipt_data, rec
     }
 
 
-def verdict_ledger(normal_value, normal_manifest, comparison, children, trust_snapshots, verifier_root, scope):
+def verdict_ledger(normal_value, normal_manifest, comparison, children, trust_snapshots, verifier_root, scope, authorization_artifact_sha256):
+    if not isinstance(authorization_artifact_sha256, str) or re.fullmatch(r"[0-9a-f]{64}", authorization_artifact_sha256) is None:
+        fail("AUTHORIZATION_DIGEST_FORM", authorization_artifact_sha256)
     value = {
-        "authorization": {"rd22_sha256": AUTHORIZATION_SHA256, "valid": True},
+        "authorization": {"artifact_sha256": authorization_artifact_sha256, "valid": True},
         "authority_firewall": normal_value["authority_firewall"],
         "check_map_sha256": normal_manifest["check_map_sha256"],
         "checks": normal_value["checks"],
@@ -1013,7 +1019,7 @@ def main():
         fail("R0_SELF_HASH", str(real_path(__file__)))
     no_python_check_nodes(parent_data, "parent.py")
     no_python_check_nodes(package["producer.py"][1], "producer.py")
-    verify_bytes(args.authorization, AUTHORIZATION_SHA256)
+    authorization_data, authorization_artifact_sha256 = verify_bytes_with_digest(args.authorization, AUTHORIZATION_SHA256)
     verify_external_inputs(program_root_declared, args.authorization, normal_manifest)
     runtime_snapshot_path = external_path(program_root_declared, normal_manifest, "runtime_snapshot")
     runtime_gate_path = external_path(program_root_declared, normal_manifest, "runtime_gate")
@@ -1112,6 +1118,7 @@ def main():
         {"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t3},
         verifier_root,
         producer_scope,
+        authorization_artifact_sha256,
     )
     producer_ledger_data = canonical_bytes(producer_ledger)
     exclusive_write(producer_ledger_path, producer_ledger_data)
@@ -1141,7 +1148,7 @@ def main():
         fail("R9_VERIFIER_UNDECLARED_EXIT", verifier_process.returncode)
     expected_verdict = "VERIFIED" if verifier_process.returncode == verifier_manifest["exit_contract"]["verified"] else "FAIL"
     verifier_data = verifier_process.stdout
-    verifier_value = verifier_stdout(verifier_data, expected_verdict, verifier_root, runtime)
+    verifier_value = verifier_stdout(verifier_data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256)
     exclusive_write(verifier_out, verifier_data)
     if verifier_process.returncode == verifier_manifest["exit_contract"]["faults_found"]:
         fail("R9_VERIFIER_FAULTS_FOUND_EXIT_1", verifier_value["findings"])
@@ -1179,6 +1186,7 @@ def main():
         {"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t4},
         verifier_root,
         terminal_scope,
+        authorization_artifact_sha256,
     )
     exclusive_write(terminal_path, canonical_bytes(terminal))
     return 0

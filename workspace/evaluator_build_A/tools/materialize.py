@@ -342,6 +342,7 @@ def schemas():
     )
     runtime_subject = closed({"gate_sha256": digest, "snapshot_sha256": digest, "trust_root": digest})
     trust_snapshots = closed({"T0": digest, "T1": digest, "T2": digest, "T3": digest, "T4": digest})
+    authorization_record = closed({"artifact_sha256": digest, "valid": {"const": True, "type": "boolean"}})
     verifier_input_roots = closed({"evidence_root_sha256": digest, "ledger_sha256": digest, "runtime_gate_sha256": digest, "runtime_snapshot_sha256": digest, "spec_sha256": digest})
     stdout_discipline = closed({"format": {"const": "canonical-json", "type": "string"}, "lines": {"const": 1, "type": "integer"}, "other_output_permitted": {"const": False, "type": "boolean"}})
     exit_contract = closed({"fail_closed": {"const": 2, "type": "integer"}, "faults_found": {"const": 1, "type": "integer"}, "verified": {"const": 0, "type": "integer"}})
@@ -407,7 +408,7 @@ def schemas():
         },
         "terminal-ledger.schema.json": {
             "$id": "rd22.terminal-ledger.v001", "additionalProperties": False,
-            "properties": {"authorization": object_value, "authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "children": {"items": child_row, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "producer_comparison": object_value, "runner_sha256": digest, "runtime_subject": runtime_subject, "schema": {"const": "rd22.terminal-ledger.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage": object_value, "summary": object_value, "terminal_content_sha256": digest, "trust_snapshots": trust_snapshots, "verifier_sha256": digest},
+            "properties": {"authorization": authorization_record, "authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "children": {"items": child_row, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "producer_comparison": object_value, "runner_sha256": digest, "runtime_subject": runtime_subject, "schema": {"const": "rd22.terminal-ledger.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage": object_value, "summary": object_value, "terminal_content_sha256": digest, "trust_snapshots": trust_snapshots, "verifier_sha256": digest},
             "required": ["authorization", "authority_firewall", "check_map_sha256", "checks", "children", "fixture_manifest_sha256", "fixtures", "producer_comparison", "runner_sha256", "runtime_subject", "schema", "scope", "spec_sha256", "subject_lineage", "summary", "terminal_content_sha256", "trust_snapshots", "verifier_sha256"], "type": "object",
         },
     }

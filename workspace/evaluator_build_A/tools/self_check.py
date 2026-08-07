@@ -244,11 +244,18 @@ def main():
     child = parent_module.child_record("0" * 64, "1" * 64, 0, b"{}", b"{}", receipt, trust_root, trust_root)
     snapshots = {label: trust_root for label in ("T0", "T1", "T2", "T3", "T4")}
     synthetic_output = {"authority_firewall": {}, "checks": [], "fixtures": [], "summary": {}}
-    producer_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, {})
-    terminal_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, {})
+    authorization_row = [row for row in normal["external_inputs"] if row["kind"] == "authorization"]
+    if len(authorization_row) != 1:
+        stop("AUTHORIZATION_INPUT_ROW", authorization_row)
+    authorization_path = Path("/Users/bgm/MB Work/alpha-program-archive") / authorization_row[0]["relative_path"]
+    authorization_bytes, authorization_digest = parent_module.verify_bytes_with_digest(authorization_path, authorization_row[0]["sha256"])
+    if len(authorization_bytes) != authorization_row[0]["byte_length"]:
+        stop("AUTHORIZATION_INPUT_LENGTH", len(authorization_bytes))
+    producer_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, {}, authorization_digest)
+    terminal_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, {}, authorization_digest)
     verifier_value = {
         "authority_firewall": {field: False for field in ("CORE_RESULT_SEAL", "FINAL_CLAIM_SEAL", "SPEC_SEAL", "alpha_computed", "kappa_record_computed", "proof_authorized")},
-        "authorization_sha256": parent_module.AUTHORIZATION_SHA256,
+        "authorization_sha256": authorization_digest,
         "census": {},
         "checks_replayed": [],
         "findings": [],
@@ -261,7 +268,7 @@ def main():
         "verdict": "VERIFIED",
         "verifier_sha256": "2" * 64,
     }
-    accepted_verifier = parent_module.verifier_stdout(parent_module.canonical_bytes(verifier_value), "VERIFIED", "2" * 64, snapshot)
+    accepted_verifier = parent_module.verifier_stdout(parent_module.canonical_bytes(verifier_value), "VERIFIED", "2" * 64, snapshot, authorization_digest)
     trust_site_values = {
         "definition": trust_root,
         "manifests": normal["runtime_subject"]["trust_root"] if optimized["runtime_subject"]["trust_root"] == trust_root else "DRIFT",
@@ -453,6 +460,12 @@ def main():
             stop("EMPTY_EVENT_DIGEST", field)
     if "mutation_event_ledger" not in receipt_schema["properties"]:
         stop("MUTATION_RECEIPT_CARRIER", "missing")
+    authorization_schema = terminal_schema["properties"]["authorization"]
+    if authorization_schema.get("additionalProperties") is not False or set(authorization_schema.get("required", [])) != {"artifact_sha256", "valid"} or authorization_schema.get("properties", {}).get("artifact_sha256", {}).get("pattern") != "[0-9a-f]{64}" or authorization_schema.get("properties", {}).get("valid", {}).get("const") is not True:
+        stop("AUTHORIZATION_SCHEMA", authorization_schema)
+    for ledger_name, ledger in (("producer", producer_ledger), ("terminal", terminal_ledger)):
+        if ledger["authorization"] != {"artifact_sha256": authorization_digest, "valid": True}:
+            stop("AUTHORIZATION_FORWARD", {ledger_name: ledger["authorization"]})
     manifest_runtime_schema = json_values["child-manifest.schema.json"]["properties"]["runtime_subject"]
     terminal_runtime_schema = terminal_schema["properties"]["runtime_subject"]
     terminal_trust_schema = terminal_schema["properties"]["trust_snapshots"]
@@ -489,8 +502,19 @@ def main():
     present_authorization_literals = sorted(item for item in authorization_forbidden if item in parent_text)
     if present_authorization_literals:
         stop("AUTHORIZATION_EXPECTATION", present_authorization_literals)
-    if "verify_bytes(args.authorization, AUTHORIZATION_SHA256)" not in parent_text:
-        stop("AUTHORIZATION_HASH_PIN", "missing")
+    authorization_receivers = {
+        "authorization_data, authorization_artifact_sha256 = verify_bytes_with_digest(args.authorization, AUTHORIZATION_SHA256)",
+        '"authorization": {"artifact_sha256": authorization_artifact_sha256, "valid": True}',
+        "verifier_stdout(verifier_data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256)",
+    }
+    missing_authorization_receivers = sorted(item for item in authorization_receivers if item not in parent_text)
+    forbidden_authorization_receivers = {
+        '"authorization": {"rd22_sha256": AUTHORIZATION_SHA256, "valid": True}',
+        '"authorization": {"artifact_sha256": AUTHORIZATION_SHA256, "valid": True}',
+    }
+    present_forbidden_authorization = sorted(item for item in forbidden_authorization_receivers if item in parent_text)
+    if missing_authorization_receivers or present_forbidden_authorization:
+        stop("AUTHORIZATION_FORWARD_RECEIVERS", {"missing": missing_authorization_receivers, "forbidden": present_forbidden_authorization})
     if '"evidence_root_sha256": evidence_declared_root' not in parent_text:
         stop("EVIDENCE_ROOT_BINDING", "parent does not bind verifier expectation to declared_root")
     direct_launch_receivers = {
@@ -546,7 +570,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,valid authorization_digest={authorization_digest} authorization_forward=producer,terminal,verifier_receiver trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":
