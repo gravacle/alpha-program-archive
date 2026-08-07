@@ -24,6 +24,15 @@ EXPECTED_IDS = 66
 EXPECTED_STRUCTURAL = 56
 EXPECTED_GATED = 10
 EXPECTED_FIXTURES = 6
+UNBOUND_ROOT_SENTINEL = "0" * 64
+VERIFIER_SUBSTITUTION_TOKENS = {
+    "${EVIDENCE_DIR}",
+    "${LEDGER_PATH}",
+    "${LEDGER_SHA256}",
+    "${RUNTIME_GATE_PATH}",
+    "${RUNTIME_SNAPSHOT_PATH}",
+    "${SPEC_PATH}",
+}
 
 
 class ParentFailure(Exception):
@@ -578,8 +587,9 @@ def validate_verifier_manifest(path, expected, expected_output, expected_receipt
     for field, wanted in expected.items():
         if value["input_roots"].get(field) != wanted:
             fail("VERIFIER_INPUT_ROOT", {"field": field, "expected": wanted, "actual": value["input_roots"].get(field)})
-    if not isinstance(value["input_roots"]["ledger_sha256"], str) or re.fullmatch(r"[0-9a-f]{64}", value["input_roots"]["ledger_sha256"]) is None:
-        fail("VERIFIER_LEDGER_ROOT", value["input_roots"]["ledger_sha256"])
+    authored_ledger_root = value["input_roots"]["ledger_sha256"]
+    if not isinstance(authored_ledger_root, str) or re.fullmatch(r"[0-9a-f]{64}", authored_ledger_root) is None:
+        fail("VERIFIER_LEDGER_ROOT_FORM", authored_ledger_root)
     exact_keys(value["stdout_discipline"], {"format", "lines", "other_output_permitted"}, "verifier stdout_discipline")
     if value["stdout_discipline"] != {"format": "canonical-json", "lines": 1, "other_output_permitted": False}:
         fail("VERIFIER_STDOUT_CONTRACT", value["stdout_discipline"])
@@ -596,16 +606,70 @@ def validate_verifier_manifest(path, expected, expected_output, expected_receipt
         declared_receipt = base / declared_receipt
     if declared_output.resolve() != Path(expected_output).resolve() or declared_receipt.resolve() != Path(expected_receipt).resolve():
         fail("VERIFIER_OUTPUT_CONTRACT", {"output": value["output_path"], "receipt": value["receipt_path"]})
-    ledger_matches = []
-    for token in value["argv"]:
-        candidate = Path(token)
-        if not candidate.is_absolute():
-            candidate = base / candidate
-        if candidate.is_file() and sha256_bytes(read_bytes(candidate)) == value["input_roots"]["ledger_sha256"]:
-            ledger_matches.append(str(candidate.resolve()))
-    if len(set(ledger_matches)) != 1:
-        fail("VERIFIER_LEDGER_INPUT", ledger_matches)
     return value, stated, base
+
+
+def bind_verifier_launch(manifest, substitutions, ledger_path, ledger_sha256):
+    if not isinstance(ledger_sha256, str) or re.fullmatch(r"[0-9a-f]{64}", ledger_sha256) is None or ledger_sha256 == UNBOUND_ROOT_SENTINEL:
+        fail("VERIFIER_LEDGER_BINDING", ledger_sha256)
+    if set(substitutions) != VERIFIER_SUBSTITUTION_TOKENS:
+        fail("VERIFIER_SUBSTITUTION_SET", sorted(substitutions))
+    if substitutions["${LEDGER_PATH}"] != str(Path(ledger_path).resolve()) or substitutions["${LEDGER_SHA256}"] != ledger_sha256:
+        fail("VERIFIER_LEDGER_SUBSTITUTION", substitutions)
+    bound = strict_json(canonical_bytes(manifest), "verifier manifest binding copy")
+    bound["input_roots"]["ledger_sha256"] = ledger_sha256
+    counts = {token: 0 for token in VERIFIER_SUBSTITUTION_TOKENS}
+    argv = []
+    for item in bound["argv"]:
+        if item in substitutions:
+            counts[item] += 1
+            argv.append(substitutions[item])
+        else:
+            argv.append(item)
+    if any(counts[token] != 1 for token in counts):
+        fail("VERIFIER_SUBSTITUTION_COUNT", counts)
+    unresolved = [item for item in argv if isinstance(item, str) and re.search(r"\$\{[^}]+\}", item)]
+    if unresolved:
+        fail("VERIFIER_SUBSTITUTION_UNRESOLVED", unresolved)
+    bound["argv"] = argv
+    return bound
+
+
+def post_production_verifier_validation(manifest, base, ledger_path, ledger_sha256):
+    if manifest["input_roots"]["ledger_sha256"] != ledger_sha256 or ledger_sha256 == UNBOUND_ROOT_SENTINEL:
+        fail("VERIFIER_LEDGER_NOT_BOUND", manifest["input_roots"]["ledger_sha256"])
+    argv = manifest["argv"]
+    if argv.count("--ledger") != 1 or argv.count("--ledger-sha256") != 1:
+        fail("VERIFIER_LEDGER_ARGV_FLAGS", argv)
+    ledger_index = argv.index("--ledger")
+    digest_index = argv.index("--ledger-sha256")
+    if ledger_index + 1 >= len(argv) or digest_index + 1 >= len(argv):
+        fail("VERIFIER_LEDGER_ARGV_VALUE", argv)
+    declared_path = Path(argv[ledger_index + 1])
+    if not declared_path.is_absolute():
+        declared_path = Path(base) / declared_path
+    declared_path = declared_path.resolve()
+    expected_path = Path(ledger_path).resolve()
+    if declared_path != expected_path or argv[digest_index + 1] != ledger_sha256:
+        fail("VERIFIER_LEDGER_ARGV_BINDING", {"path": str(declared_path), "sha256": argv[digest_index + 1]})
+    if not declared_path.is_file() or sha256_bytes(read_bytes(declared_path)) != ledger_sha256:
+        fail("VERIFIER_LEDGER_INPUT", {"path": str(declared_path), "sha256": ledger_sha256})
+
+
+def verifier_process_command(manifest, pinned_python):
+    declared = manifest["argv"]
+    prefix = ["python3"]
+    if manifest["optimize"]:
+        prefix.append("-O")
+    prefix.extend(["-m", manifest["entry_point"]])
+    if declared[:len(prefix)] != prefix:
+        fail("VERIFIER_ARGV_PREFIX", {"expected": prefix, "actual": declared[:len(prefix)]})
+    command = [pinned_python, "-I", "-S", "-B"]
+    if manifest["optimize"]:
+        command.append("-O")
+    command.extend(["-m", manifest["entry_point"]])
+    command.extend(declared[len(prefix):])
+    return command
 
 
 def verifier_stdout(data, expected_verdict, verifier_root, runtime):
@@ -669,6 +733,31 @@ def child_record(manifest_sha, target_sha, optimize, out_data, receipt_data, rec
     }
 
 
+def verdict_ledger(normal_value, normal_manifest, comparison, children, trust_snapshots, verifier_root, scope):
+    value = {
+        "authorization": {"rd22_sha256": AUTHORIZATION_SHA256, "valid": True},
+        "authority_firewall": normal_value["authority_firewall"],
+        "check_map_sha256": normal_manifest["check_map_sha256"],
+        "checks": normal_value["checks"],
+        "children": children,
+        "fixture_manifest_sha256": normal_manifest["fixture_manifest_sha256"],
+        "fixtures": normal_value["fixtures"],
+        "producer_comparison": comparison,
+        "runner_sha256": normal_manifest_file_hash(normal_manifest, "parent.py"),
+        "runtime_subject": normal_manifest["runtime_subject"],
+        "schema": "rd22.terminal-ledger.v001",
+        "scope": scope,
+        "spec_sha256": SPEC_SHA256,
+        "subject_lineage": {"root_sha256": normal_manifest["subject_lineage_root"]},
+        "summary": normal_value["summary"],
+        "terminal_content_sha256": "",
+        "trust_snapshots": trust_snapshots,
+        "verifier_sha256": verifier_root,
+    }
+    value["terminal_content_sha256"] = sha256_bytes(canonical_bytes(value))
+    return value
+
+
 def parse_args():
     parser = argparse.ArgumentParser(allow_abbrev=False)
     parser.add_argument("--package-root", required=True)
@@ -714,6 +803,7 @@ def main():
     verify_external_inputs(program_root, args.authorization, normal_manifest)
     runtime_snapshot_path = external_path(program_root, normal_manifest, "runtime_snapshot")
     runtime_gate_path = external_path(program_root, normal_manifest, "runtime_gate")
+    specification_path = external_path(program_root, normal_manifest, "specification")
     runtime = validate_runtime(read_bytes(runtime_snapshot_path), read_bytes(runtime_gate_path))
     runtime_subject = normal_manifest["runtime_subject"]
     exact_keys(runtime_subject, {"gate_sha256", "snapshot_sha256", "trust_root"}, "runtime subject")
@@ -735,8 +825,10 @@ def main():
     optimized_receipt = run_root / "optimized.receipt.json"
     verifier_out = run_root / "verifier.output.json"
     verifier_receipt_path = run_root / "verifier.receipt.json"
+    producer_ledger_path = run_root / "producer.ledger.json"
+    bound_verifier_manifest_path = run_root / "verifier.manifest.bound.json"
     terminal_path = run_root / "terminal.ledger.json"
-    ensure_absent([normal_output, normal_receipt, optimized_output, optimized_receipt, verifier_out, verifier_receipt_path, terminal_path])
+    ensure_absent([normal_output, normal_receipt, optimized_output, optimized_receipt, verifier_out, verifier_receipt_path, producer_ledger_path, bound_verifier_manifest_path, terminal_path])
     verifier_expected_roots = {
         "evidence_root_sha256": evidence_declared_root,
         "runtime_gate_sha256": RUNTIME_GATE_SHA256,
@@ -775,11 +867,43 @@ def main():
     classify_receipt(optimized_receipt_value, args.optimized_manifest_sha256, producer_sha, 1, sha256_bytes(optimized_data), optimized_output, optimized_receipt, runtime)
     comparison = compare_producers(normal_value, optimized_value)
     t3 = trust_snapshot(runtime)
-    verifier_command = [python, "-I", "-S", "-B"]
-    if verifier_manifest["optimize"]:
-        verifier_command.append("-O")
-    verifier_command.extend(["-m", verifier_manifest["entry_point"]])
-    verifier_command.extend(verifier_manifest["argv"])
+    producer_children = [
+        child_record(args.normal_manifest_sha256, producer_sha, 0, normal_data, normal_receipt_data, normal_receipt_value, t0, t1),
+        child_record(args.optimized_manifest_sha256, producer_sha, 1, optimized_data, optimized_receipt_data, optimized_receipt_value, t1, t2),
+    ]
+    authored_ledger_root = verifier_manifest["input_roots"]["ledger_sha256"]
+    producer_scope = dict(normal_value["scope"])
+    producer_scope["verifier_ledger_binding"] = {
+        "authored_ledger_sha256": authored_ledger_root,
+        "binding_phase": "POST_PRODUCTION_HASH_THEN_BIND",
+        "sentinel_lawful": authored_ledger_root == UNBOUND_ROOT_SENTINEL,
+    }
+    producer_ledger = verdict_ledger(
+        normal_value,
+        normal_manifest,
+        comparison,
+        producer_children,
+        {"T0": trust_hash(t0), "T1": trust_hash(t1), "T2": trust_hash(t2), "T3": trust_hash(t3), "T4": trust_hash(t3)},
+        verifier_root,
+        producer_scope,
+    )
+    producer_ledger_data = canonical_bytes(producer_ledger)
+    exclusive_write(producer_ledger_path, producer_ledger_data)
+    produced_ledger_sha = sha256_bytes(producer_ledger_data)
+    substitutions = {
+        "${EVIDENCE_DIR}": str((package_root / "inputs" / "evidence").resolve()),
+        "${LEDGER_PATH}": str(producer_ledger_path.resolve()),
+        "${LEDGER_SHA256}": produced_ledger_sha,
+        "${RUNTIME_GATE_PATH}": str(Path(runtime_gate_path).resolve()),
+        "${RUNTIME_SNAPSHOT_PATH}": str(Path(runtime_snapshot_path).resolve()),
+        "${SPEC_PATH}": str(Path(specification_path).resolve()),
+    }
+    bound_verifier_manifest = bind_verifier_launch(verifier_manifest, substitutions, producer_ledger_path, produced_ledger_sha)
+    post_production_verifier_validation(bound_verifier_manifest, verifier_base, producer_ledger_path, produced_ledger_sha)
+    bound_verifier_manifest_data = canonical_bytes(bound_verifier_manifest)
+    bound_verifier_manifest_sha = sha256_bytes(bound_verifier_manifest_data)
+    exclusive_write(bound_verifier_manifest_path, bound_verifier_manifest_data)
+    verifier_command = verifier_process_command(bound_verifier_manifest, python)
     verifier_process = run_verifier_process(verifier_command, verifier_base)
     t4 = trust_snapshot(runtime)
     if t4 != t3 or t4 != t2:
@@ -796,33 +920,29 @@ def main():
     if verifier_process.returncode == verifier_manifest["exit_contract"]["faults_found"]:
         fail("R9_VERIFIER_FAULTS_FOUND_EXIT_1", verifier_value["findings"])
     verifier_receipt_value, verifier_receipt_data = receipt(verifier_receipt_path)
-    classify_receipt(verifier_receipt_value, verifier_manifest_sha, verifier_root, verifier_manifest["optimize"], sha256_bytes(verifier_data), verifier_out, verifier_receipt_path, runtime, verifier_base, True)
-    children = [
-        child_record(args.normal_manifest_sha256, producer_sha, 0, normal_data, normal_receipt_data, normal_receipt_value, t0, t1),
-        child_record(args.optimized_manifest_sha256, producer_sha, 1, optimized_data, optimized_receipt_data, optimized_receipt_value, t1, t2),
-        child_record(verifier_manifest_sha, verifier_root, verifier_manifest["optimize"], verifier_data, verifier_receipt_data, verifier_receipt_value, t3, t4),
-    ]
-    terminal = {
-        "authorization": {"rd22_sha256": AUTHORIZATION_SHA256, "valid": True},
-        "authority_firewall": normal_value["authority_firewall"],
-        "check_map_sha256": normal_manifest["check_map_sha256"],
-        "checks": normal_value["checks"],
-        "children": children,
-        "fixture_manifest_sha256": normal_manifest["fixture_manifest_sha256"],
-        "fixtures": normal_value["fixtures"],
-        "producer_comparison": comparison,
-        "runner_sha256": normal_manifest_file_hash(normal_manifest, "parent.py"),
-        "runtime_subject": runtime_subject,
-        "schema": "rd22.terminal-ledger.v001",
-        "scope": normal_value["scope"],
-        "spec_sha256": SPEC_SHA256,
-        "subject_lineage": {"root_sha256": normal_manifest["subject_lineage_root"]},
-        "summary": normal_value["summary"],
-        "terminal_content_sha256": "",
-        "trust_snapshots": {"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t4},
-        "verifier_sha256": verifier_root,
+    classify_receipt(verifier_receipt_value, bound_verifier_manifest_sha, verifier_root, bound_verifier_manifest["optimize"], sha256_bytes(verifier_data), verifier_out, verifier_receipt_path, runtime, verifier_base, True)
+    verifier_child = child_record(bound_verifier_manifest_sha, verifier_root, bound_verifier_manifest["optimize"], verifier_data, verifier_receipt_data, verifier_receipt_value, t3, t4)
+    children = producer_children + [verifier_child]
+    terminal_scope = dict(normal_value["scope"])
+    terminal_scope["verifier_ledger_binding"] = {
+        "authored_ledger_sha256": authored_ledger_root,
+        "authored_manifest_sha256": verifier_manifest_sha,
+        "bound_ledger_sha256": produced_ledger_sha,
+        "bound_manifest_sha256": bound_verifier_manifest_sha,
+        "producer_ledger_relative_path": producer_ledger_path.name,
+        "sentinel_lawful": authored_ledger_root == UNBOUND_ROOT_SENTINEL,
+        "transition": "UNBOUND_SENTINEL_TO_BOUND_POST_PRODUCTION",
+        "verifier_child_manifest_sha256": verifier_child["manifest_sha256"],
     }
-    terminal["terminal_content_sha256"] = sha256_bytes(canonical_bytes(terminal))
+    terminal = verdict_ledger(
+        normal_value,
+        normal_manifest,
+        comparison,
+        children,
+        {"T0": trust_hash(t0), "T1": trust_hash(t1), "T2": trust_hash(t2), "T3": trust_hash(t3), "T4": trust_hash(t4)},
+        verifier_root,
+        terminal_scope,
+    )
     exclusive_write(terminal_path, canonical_bytes(terminal))
     return 0
 
