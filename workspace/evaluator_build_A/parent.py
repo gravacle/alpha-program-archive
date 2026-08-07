@@ -1110,12 +1110,15 @@ def main():
         "binding_phase": "POST_PRODUCTION_HASH_THEN_BIND",
         "sentinel_lawful": authored_ledger_root == UNBOUND_ROOT_SENTINEL,
     }
+    producer_trust_snapshots = {"T0": t0, "T1": t1, "T2": t2, "T3": t3}
+    if "T4" in producer_trust_snapshots:
+        fail("T4_BEFORE_SAMPLE", sorted(producer_trust_snapshots))
     producer_ledger = verdict_ledger(
         normal_value,
         normal_manifest,
         comparison,
         producer_children,
-        {"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t3},
+        producer_trust_snapshots,
         verifier_root,
         producer_scope,
         authorization_artifact_sha256,

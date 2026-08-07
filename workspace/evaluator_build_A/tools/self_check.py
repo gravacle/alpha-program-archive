@@ -242,7 +242,10 @@ def main():
         "process_event_ledger": [],
     }
     child = parent_module.child_record("0" * 64, "1" * 64, 0, b"{}", b"{}", receipt, trust_root, trust_root)
-    snapshots = {label: trust_root for label in ("T0", "T1", "T2", "T3", "T4")}
+    producer_snapshots = {label: trust_root for label in ("T0", "T1", "T2", "T3")}
+    if "T4" in producer_snapshots:
+        stop("T4_BEFORE_SAMPLE", sorted(producer_snapshots))
+    terminal_snapshots = {label: trust_root for label in ("T0", "T1", "T2", "T3", "T4")}
     synthetic_output = {"authority_firewall": {}, "checks": [], "fixtures": [], "summary": {}}
     authorization_row = [row for row in normal["external_inputs"] if row["kind"] == "authorization"]
     if len(authorization_row) != 1:
@@ -253,8 +256,8 @@ def main():
         stop("AUTHORIZATION_INPUT_LENGTH", len(authorization_bytes))
     producer_scope = {"phase": "PRE_VERIFIER_STATIC_SCOPE"}
     terminal_scope = {"phase": "POST_VERIFIER_STATIC_SCOPE"}
-    producer_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, producer_scope, authorization_digest)
-    terminal_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, terminal_scope, authorization_digest)
+    producer_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], producer_snapshots, "2" * 64, producer_scope, authorization_digest)
+    terminal_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], terminal_snapshots, "2" * 64, terminal_scope, authorization_digest)
     verifier_value = {
         "authority_firewall": {field: False for field in ("CORE_RESULT_SEAL", "FINAL_CLAIM_SEAL", "SPEC_SEAL", "alpha_computed", "kappa_record_computed", "proof_authorized")},
         "authorization_sha256": authorization_digest,
@@ -275,10 +278,10 @@ def main():
         "definition": trust_root,
         "manifests": normal["runtime_subject"]["trust_root"] if optimized["runtime_subject"]["trust_root"] == trust_root else "DRIFT",
         "main_receiver": parent_module.trust_root_digest(snapshot["native_system_trust_root"]),
-        "T0_T4": snapshots["T0"] if len(set(snapshots.values())) == 1 else "DRIFT",
+        "T0_T3": producer_snapshots["T0"] if len(set(producer_snapshots.values())) == 1 else "DRIFT",
         "child_rows": child["runtime_before_sha256"] if child["runtime_after_sha256"] == trust_root else "DRIFT",
         "producer_runtime": producer_ledger["runtime_subject"]["trust_root"],
-        "producer_T0_T4_value_only": producer_ledger["trust_snapshots"]["T0"] if len(set(producer_ledger["trust_snapshots"].values())) == 1 else "DRIFT",
+        "producer_T0_T3_value_only": producer_ledger["trust_snapshots"]["T0"] if len(set(producer_ledger["trust_snapshots"].values())) == 1 else "DRIFT",
         "verifier_receiver": accepted_verifier["runtime_subject"]["trust_root"],
         "terminal_runtime": terminal_ledger["runtime_subject"]["trust_root"],
         "terminal_T0_T4": terminal_ledger["trust_snapshots"]["T0"] if len(set(terminal_ledger["trust_snapshots"].values())) == 1 else "DRIFT",
@@ -474,8 +477,12 @@ def main():
     for label, runtime_schema in (("child-manifest", manifest_runtime_schema), ("terminal-ledger", terminal_runtime_schema)):
         if runtime_schema.get("additionalProperties") is not False or set(runtime_schema.get("required", [])) != {"gate_sha256", "snapshot_sha256", "trust_root"} or runtime_schema.get("properties", {}).get("trust_root", {}).get("pattern") != "[0-9a-f]{64}":
             stop("TRUST_ROOT_SCHEMA", label)
-    if terminal_trust_schema.get("additionalProperties") is not False or set(terminal_trust_schema.get("required", [])) != {"T0", "T1", "T2", "T3", "T4"} or any(terminal_trust_schema.get("properties", {}).get(label, {}).get("pattern") != "[0-9a-f]{64}" for label in ("T0", "T1", "T2", "T3", "T4")):
+    if terminal_trust_schema.get("additionalProperties") is not False or set(terminal_trust_schema.get("required", [])) != {"T0", "T1", "T2", "T3"} or set(terminal_trust_schema.get("properties", {})) != {"T0", "T1", "T2", "T3", "T4"} or any(terminal_trust_schema.get("properties", {}).get(label, {}).get("pattern") != "[0-9a-f]{64}" for label in ("T0", "T1", "T2", "T3", "T4")):
         stop("TRUST_SNAPSHOT_SCHEMA", terminal_trust_schema)
+    if set(producer_ledger["trust_snapshots"]) != {"T0", "T1", "T2", "T3"}:
+        stop("T4_BEFORE_SAMPLE", sorted(producer_ledger["trust_snapshots"]))
+    if set(terminal_ledger["trust_snapshots"]) != {"T0", "T1", "T2", "T3", "T4"}:
+        stop("TERMINAL_T4_MISSING", sorted(terminal_ledger["trust_snapshots"]))
     verifier_schema = json_values["verifier-manifest.schema.json"]
     if len(verifier_schema["properties"]) != 11:
         stop("VERIFIER_MANIFEST_FIELDS", len(verifier_schema["properties"]))
@@ -528,8 +535,10 @@ def main():
     trust_sequence_positions = [parent_text.find(token) for token in trust_sequence_tokens]
     if any(position < 0 for position in trust_sequence_positions) or trust_sequence_positions != sorted(trust_sequence_positions):
         stop("TRUST_LABEL_SEQUENCE", dict(zip(trust_sequence_tokens, trust_sequence_positions)))
-    if '{"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t3}' not in parent_text or '{"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t4}' not in parent_text:
+    if 'producer_trust_snapshots = {"T0": t0, "T1": t1, "T2": t2, "T3": t3}' not in parent_text or 'if "T4" in producer_trust_snapshots:' not in parent_text or 'fail("T4_BEFORE_SAMPLE"' not in parent_text or '{"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t4}' not in parent_text:
         stop("TRUST_LABEL_CARRIERS", "producer/terminal label maps missing")
+    if '"T4": t3' in parent_text:
+        stop("T4_BEFORE_SAMPLE", "fabricated T4 carrier remains")
     if '"evidence_root_sha256": evidence_declared_root' not in parent_text:
         stop("EVIDENCE_ROOT_BINDING", "parent does not bind verifier expectation to declared_root")
     direct_launch_receivers = {
@@ -564,7 +573,8 @@ def main():
         'authorized_trust_root = trust_root_digest(runtime["native_system_trust_root"])',
         '"runtime_after_sha256": trust_after',
         '"runtime_before_sha256": trust_before',
-        '{"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t3}',
+        'producer_trust_snapshots = {"T0": t0, "T1": t1, "T2": t2, "T3": t3}',
+        'if "T4" in producer_trust_snapshots:',
         '{"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t4}',
     }
     missing_trust_receivers = sorted(item for item in trust_receivers if item not in parent_text)
@@ -585,7 +595,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3,T4(alias_T3);terminal:T0,T1,T2,T3,T4(actual_T4) t_label_finding=STRUCTURAL_PRELAUNCH_T4_ALIAS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

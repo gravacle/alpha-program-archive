@@ -341,7 +341,12 @@ def schemas():
         }
     )
     runtime_subject = closed({"gate_sha256": digest, "snapshot_sha256": digest, "trust_root": digest})
-    trust_snapshots = closed({"T0": digest, "T1": digest, "T2": digest, "T3": digest, "T4": digest})
+    trust_snapshots = {
+        "additionalProperties": False,
+        "properties": {"T0": digest, "T1": digest, "T2": digest, "T3": digest, "T4": digest},
+        "required": ["T0", "T1", "T2", "T3"],
+        "type": "object",
+    }
     authorization_record = closed({"artifact_sha256": digest, "scope": object_value})
     verifier_input_roots = closed({"evidence_root_sha256": digest, "ledger_sha256": digest, "runtime_gate_sha256": digest, "runtime_snapshot_sha256": digest, "spec_sha256": digest})
     stdout_discipline = closed({"format": {"const": "canonical-json", "type": "string"}, "lines": {"const": 1, "type": "integer"}, "other_output_permitted": {"const": False, "type": "boolean"}})
