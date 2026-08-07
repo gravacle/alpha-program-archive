@@ -13562,6 +13562,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-570 — TASK 6: THE A21 OPEN ITEM CLOSED — NOT_OF_RECORD; THE BOARD IS UNCHANGED AND CARRIES NO OPEN OBJECTIONS (2026-08-06)
+
+**Question.** Does the residual A21 objection leg (Q-558, open) survive verification?
+
+**Answer.** NOT_OF_RECORD (Codex 2, `STAGE8_TASK6_A21_OPEN_LEG_DISPOSITION_LANE2_V001.md`, SHA-256 `414067e25dbae39f7767d57144c953a0f98bb11d4c34178ec70097efabc0ebf7`, relay 634; registrar mirrored and byte-verified). The ledger review's §2.2 records neither the surviving leg's claim nor its evidence — and an objection whose content was never recorded cannot stand as an open threat against a seal-gating row. This is the complement of the discipline that created the item: Dario rightly refused to book an unverified override; the same standard now refuses to carry an unrecorded objection indefinitely. A21 unchanged; the thirty-row board unchanged (24 PASS / 0 FAIL / 6 BLOCKED); **Q-558's open item closes, and the matrix-ledger record now carries no open objections.**
+
+**Custody.** Disposed by Codex 2; registrar mirrored. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
