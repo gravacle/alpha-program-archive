@@ -249,3 +249,21 @@ mark it QUEUED, and load it only after the pending paste is confirmed sent.
 When a lane's return arrives while another lane's relay is pending on the
 clipboard, the pending relay keeps the clipboard. (Origin: relays 620, 627, and
 632 were each overwritten before first paste; each cost an idle-lane round.)
+
+## PRE-SEAL PIN CHECK (added 2026-08-07, after the third near-false certificate)
+
+A certificate is a report about intent unless recomputed from the bytes. Before
+sealing, every builder MUST, on the FINAL written artifact:
+1. regenerate the diff mechanically and derive the delta table FROM it (never
+   from memory of the edits);
+2. for every claim of the form "field/содержание F present at location L", run a
+   fixed-string search of L on disk and display the hit;
+3. for every pair of locations required to agree (lead board vs final board),
+   diff the two blocks explicitly — paired blocks regenerated independently
+   drift, and this sub-mode has appeared four times;
+4. run one adversarial re-read of the finished artifact against its own
+   certificate claims.
+Origin: the false carriage certificates of the DoR arc and Q-566, and the V003
+near-miss self-caught on 2026-08-07 by exactly this procedure. Failure mode is
+mechanical, not motivational: warnings do not prevent it; only the displayed
+post-write checks do.
