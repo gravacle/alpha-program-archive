@@ -13943,6 +13943,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-596 — THE DELIVERY RULING: OPTION II — TASK 6 BUILDS THE S TRANCHE; THE PROOF-HEAVY LAYER IS 7A'S (2026-08-07)
+
+**Question.** How does Task 6 deliver the machine-evidence layer (Q-595)?
+
+**Answer.** PRINCIPAL RULING (change-log C76): **Option II.** Task 6 builds the 17 S-class envelopes — the bounded tranche that proves the pipeline end to end on real evidence (7-10 relays, starting from the map's ten-cheapest ranking) — and hands the 16 M + 26 L items, including all six NM! rows and five NM? rows, to 7A, where their physics already lives per C75. Grounds: the pipeline has never carried a real envelope and this week's interface discoveries (schema-vs-instance, the one-byte canon, the sentinel roots) show what unexercised interfaces hide; Option I would repeat the scope inversion C75 corrected, with no finite upper bound; Option III defers integration discovery onto physics work. **THE GUARD OF RECORD: a partial-row success is never narrated as evaluator closure — the thirty-row board and SPEC-SEAL are untouched by tranche results.** Sequence: the canon fix (656, in flight) and the completed chain run precede the tranche; then the S-tranche build/review relays under the established custody pattern.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

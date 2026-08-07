@@ -719,6 +719,15 @@ custody per LOCKED_PROCESS.md.
                 Task 6's remaining charter: the evaluator build, the first
                 run, lineage V2's thirty-row rerun, and the closing
                 bookkeeping — then 7A carries the five physics-blocked rows. ***  SURFACED: yes (ruled by the principal 2026-08-07)
+2026-08-07  C76 *** THE EVIDENCE-LAYER DELIVERY RULED (Q-596): Option II —
+                Task 6 builds the 17 S-class envelopes (the bounded tranche
+                proving the pipeline on real evidence; 7-10 relays); ALL
+                proof-heavy and new-math formalization (42 items incl. the
+                six NM! rows, which are the known physics gaps in envelope
+                form) is 7A's per C75. GUARD OF RECORD: a partial-row
+                success is never narrated as evaluator closure; the board
+                stays 24 PASS / 6 BLOCKED and SPEC-SEAL false regardless
+                of tranche results. ***                                        SURFACED: yes (ruled by the principal 2026-08-07)
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.
