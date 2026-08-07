@@ -13996,6 +13996,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-601 — TASK 6 BUILD: RUNS 013-017 — THE VERIFIER EXECUTES AND ENFORCES; THE T4 FABRICATION FOUND AND ADJUDICATED (2026-08-07)
+
+**Question.** Where does the integration stand, and what is the T-label ruling?
+
+**Answer.** The chain now runs END TO END through the verifier's own contract checks: the launcher resolves under isolation (665/666/667 — including Codex 2's correct refusal to make an unpinned script load-bearing, and Dario's root recomputation owning "I pinned ten files and shipped an eleventh that dispatches all ten"); the trust root is one definition at ten sites (668); the authorization forwards as the content-addressed record `{artifact_sha256, scope}` (669/670). Every remaining stop has been a one-field-deep verifier fail-closed with an exact diagnostic — the cross-family verification is a running fact.
+
+**THE T4 FINDING AND RULING (registrar adjudication of a cross-builder contract):** Codex 2's audit, commissioned check-and-report, found A's verifier-input ledger sets **T4 = T3** — a post-verifier trust snapshot FABRICATED before the verifier runs, reported for adjudication with no guessed protocol change. Ruling, from the program's own principle that an absent record and a fabricated record must never look alike (the empty-list-digest law of the event ledgers): **the verifier-input trust record carries T0-T3 EXACTLY; T4 exists only in the terminal ledger, sampled after the verifier exits, as parent testimony checkable by rerun; fabricating T4 in any record is barred.** Fixes: Dario's verifier accepts T0-T3 in the verifier-input context (671); Codex 2's parent stops copying T3 into T4 (672). The inherent limit is stated rather than papered: the final trust sample can never be independently attested live — that is what reruns and the public record are for.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

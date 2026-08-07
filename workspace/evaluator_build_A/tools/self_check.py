@@ -251,8 +251,10 @@ def main():
     authorization_bytes, authorization_digest = parent_module.verify_bytes_with_digest(authorization_path, authorization_row[0]["sha256"])
     if len(authorization_bytes) != authorization_row[0]["byte_length"]:
         stop("AUTHORIZATION_INPUT_LENGTH", len(authorization_bytes))
-    producer_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, {}, authorization_digest)
-    terminal_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, {}, authorization_digest)
+    producer_scope = {"phase": "PRE_VERIFIER_STATIC_SCOPE"}
+    terminal_scope = {"phase": "POST_VERIFIER_STATIC_SCOPE"}
+    producer_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, producer_scope, authorization_digest)
+    terminal_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, terminal_scope, authorization_digest)
     verifier_value = {
         "authority_firewall": {field: False for field in ("CORE_RESULT_SEAL", "FINAL_CLAIM_SEAL", "SPEC_SEAL", "alpha_computed", "kappa_record_computed", "proof_authorized")},
         "authorization_sha256": authorization_digest,
@@ -276,7 +278,7 @@ def main():
         "T0_T4": snapshots["T0"] if len(set(snapshots.values())) == 1 else "DRIFT",
         "child_rows": child["runtime_before_sha256"] if child["runtime_after_sha256"] == trust_root else "DRIFT",
         "producer_runtime": producer_ledger["runtime_subject"]["trust_root"],
-        "producer_T0_T4": producer_ledger["trust_snapshots"]["T0"] if len(set(producer_ledger["trust_snapshots"].values())) == 1 else "DRIFT",
+        "producer_T0_T4_value_only": producer_ledger["trust_snapshots"]["T0"] if len(set(producer_ledger["trust_snapshots"].values())) == 1 else "DRIFT",
         "verifier_receiver": accepted_verifier["runtime_subject"]["trust_root"],
         "terminal_runtime": terminal_ledger["runtime_subject"]["trust_root"],
         "terminal_T0_T4": terminal_ledger["trust_snapshots"]["T0"] if len(set(terminal_ledger["trust_snapshots"].values())) == 1 else "DRIFT",
@@ -461,10 +463,10 @@ def main():
     if "mutation_event_ledger" not in receipt_schema["properties"]:
         stop("MUTATION_RECEIPT_CARRIER", "missing")
     authorization_schema = terminal_schema["properties"]["authorization"]
-    if authorization_schema.get("additionalProperties") is not False or set(authorization_schema.get("required", [])) != {"artifact_sha256", "valid"} or authorization_schema.get("properties", {}).get("artifact_sha256", {}).get("pattern") != "[0-9a-f]{64}" or authorization_schema.get("properties", {}).get("valid", {}).get("const") is not True:
+    if authorization_schema.get("additionalProperties") is not False or set(authorization_schema.get("required", [])) != {"artifact_sha256", "scope"} or authorization_schema.get("properties", {}).get("artifact_sha256", {}).get("pattern") != "[0-9a-f]{64}" or authorization_schema.get("properties", {}).get("scope", {}).get("type") != "object":
         stop("AUTHORIZATION_SCHEMA", authorization_schema)
     for ledger_name, ledger in (("producer", producer_ledger), ("terminal", terminal_ledger)):
-        if ledger["authorization"] != {"artifact_sha256": authorization_digest, "valid": True}:
+        if ledger["authorization"] != {"artifact_sha256": authorization_digest, "scope": ledger["scope"]}:
             stop("AUTHORIZATION_FORWARD", {ledger_name: ledger["authorization"]})
     manifest_runtime_schema = json_values["child-manifest.schema.json"]["properties"]["runtime_subject"]
     terminal_runtime_schema = terminal_schema["properties"]["runtime_subject"]
@@ -504,17 +506,30 @@ def main():
         stop("AUTHORIZATION_EXPECTATION", present_authorization_literals)
     authorization_receivers = {
         "authorization_data, authorization_artifact_sha256 = verify_bytes_with_digest(args.authorization, AUTHORIZATION_SHA256)",
-        '"authorization": {"artifact_sha256": authorization_artifact_sha256, "valid": True}',
+        '"authorization": {"artifact_sha256": authorization_artifact_sha256, "scope": scope}',
         "verifier_stdout(verifier_data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256)",
     }
     missing_authorization_receivers = sorted(item for item in authorization_receivers if item not in parent_text)
     forbidden_authorization_receivers = {
         '"authorization": {"rd22_sha256": AUTHORIZATION_SHA256, "valid": True}',
         '"authorization": {"artifact_sha256": AUTHORIZATION_SHA256, "valid": True}',
+        '"authorization": {"artifact_sha256": authorization_artifact_sha256, "valid": True}',
     }
     present_forbidden_authorization = sorted(item for item in forbidden_authorization_receivers if item in parent_text)
     if missing_authorization_receivers or present_forbidden_authorization:
         stop("AUTHORIZATION_FORWARD_RECEIVERS", {"missing": missing_authorization_receivers, "forbidden": present_forbidden_authorization})
+    trust_sequence_tokens = (
+        "t3 = trust_snapshot(runtime)",
+        "producer_ledger = verdict_ledger(",
+        "verifier_process = run_verifier_process(verifier_command, verifier_base)",
+        "t4 = trust_snapshot(runtime)",
+        "terminal = verdict_ledger(",
+    )
+    trust_sequence_positions = [parent_text.find(token) for token in trust_sequence_tokens]
+    if any(position < 0 for position in trust_sequence_positions) or trust_sequence_positions != sorted(trust_sequence_positions):
+        stop("TRUST_LABEL_SEQUENCE", dict(zip(trust_sequence_tokens, trust_sequence_positions)))
+    if '{"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t3}' not in parent_text or '{"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t4}' not in parent_text:
+        stop("TRUST_LABEL_CARRIERS", "producer/terminal label maps missing")
     if '"evidence_root_sha256": evidence_declared_root' not in parent_text:
         stop("EVIDENCE_ROOT_BINDING", "parent does not bind verifier expectation to declared_root")
     direct_launch_receivers = {
@@ -570,7 +585,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,valid authorization_digest={authorization_digest} authorization_forward=producer,terminal,verifier_receiver trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3,T4(alias_T3);terminal:T0,T1,T2,T3,T4(actual_T4) t_label_finding=STRUCTURAL_PRELAUNCH_T4_ALIAS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

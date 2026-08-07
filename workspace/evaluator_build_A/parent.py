@@ -952,7 +952,7 @@ def verdict_ledger(normal_value, normal_manifest, comparison, children, trust_sn
     if not isinstance(authorization_artifact_sha256, str) or re.fullmatch(r"[0-9a-f]{64}", authorization_artifact_sha256) is None:
         fail("AUTHORIZATION_DIGEST_FORM", authorization_artifact_sha256)
     value = {
-        "authorization": {"artifact_sha256": authorization_artifact_sha256, "valid": True},
+        "authorization": {"artifact_sha256": authorization_artifact_sha256, "scope": scope},
         "authority_firewall": normal_value["authority_firewall"],
         "check_map_sha256": normal_manifest["check_map_sha256"],
         "checks": normal_value["checks"],
