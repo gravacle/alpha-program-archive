@@ -702,6 +702,19 @@ def parse_sidecar(path):
     return match.group(1)
 
 
+def verifier_entry_target(manifest, verifier_base, verifier_files):
+    entry = manifest.get("entry_point")
+    pattern = r"[A-Za-z_][A-Za-z0-9_]*(?:/[A-Za-z_][A-Za-z0-9_]*)*\.py"
+    if not isinstance(entry, str) or re.fullmatch(pattern, entry) is None:
+        fail("VERIFIER_ENTRY_POINT", entry)
+    target = safe_resolve(verifier_base, entry)
+    covered = verifier_files.get(str(target))
+    if covered is None:
+        fail("VERIFIER_ENTRY_UNCOVERED", {"entry_point": entry, "realpath": str(target)})
+    verify_bytes(target, covered["sha256"])
+    return target
+
+
 def validate_verifier_manifest(path, expected, run_root, expected_output, expected_receipt):
     manifest_path = lexical_absolute(path)
     manifest_base_declared = manifest_path.parent
@@ -730,18 +743,34 @@ def validate_verifier_manifest(path, expected, run_root, expected_output, expect
     if not verifier_source.is_dir():
         fail("VERIFIER_SOURCE_ROOT", str(verifier_source_declared))
     verifier_files = {}
-    source_digests = []
+    entry = value.get("entry_point")
+    entry_pattern = r"[A-Za-z_][A-Za-z0-9_]*(?:/[A-Za-z_][A-Za-z0-9_]*)*\.py"
+    if not isinstance(entry, str) or re.fullmatch(entry_pattern, entry) is None:
+        fail("VERIFIER_ENTRY_POINT", entry)
+    entry_target = safe_resolve(manifest_base_declared, entry)
+    if not entry_target.is_file():
+        fail("VERIFIER_ENTRY_FILE", entry)
+    source_members = {
+        entry: (manifest_base_declared / entry, entry_target),
+    }
     for source_path in sorted(verifier_source.iterdir(), key=lambda item: item.name):
         if not source_path.is_file() or source_path.suffix != ".py":
             continue
+        relative = f"verifier/{source_path.name}"
+        source_members[relative] = (verifier_source_declared / source_path.name, source_path)
+    source_digests = []
+    for relative in sorted(source_members):
+        declared_source, source_path = source_members[relative]
+        target = safe_resolve(manifest_base_declared, relative)
+        if target != real_path(source_path):
+            fail("VERIFIER_ROOT_MEMBER_IDENTITY", relative)
         digest = sha256_bytes(read_bytes(source_path))
         source_digests.append(digest)
-        add_allowlist_entry(verifier_files, verifier_source_declared / source_path.name, digest, f"verifier:{source_path.name}")
+        add_allowlist_entry(verifier_files, declared_source, digest, f"verifier:{relative}")
     computed_verifier_root = sha256_bytes("".join(source_digests).encode("utf-8"))
     if not source_digests or computed_verifier_root != value["verifier_root_sha256"]:
         fail("VERIFIER_ROOT_DIGEST", {"declared": value["verifier_root_sha256"], "computed": computed_verifier_root})
-    if not isinstance(value["entry_point"], str) or re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)*", value["entry_point"]) is None:
-        fail("VERIFIER_ENTRY_POINT", value["entry_point"])
+    verifier_entry_target(value, manifest_base_declared, verifier_files)
     if not isinstance(value["argv"], list) or any(not isinstance(item, str) for item in value["argv"]):
         fail("VERIFIER_ARGV", value["argv"])
     if not isinstance(value["optimize"], bool):
@@ -819,18 +848,25 @@ def post_production_verifier_validation(manifest, ledger_path, ledger_sha256):
         fail("VERIFIER_LEDGER_INPUT", {"path": str(declared_path), "sha256": ledger_sha256})
 
 
-def verifier_process_command(manifest, pinned_python):
+def verifier_process_command(manifest, pinned_python, verifier_base, verifier_files):
     declared = manifest["argv"]
     prefix = ["python3"]
     if manifest["optimize"]:
         prefix.append("-O")
-    prefix.extend(["-m", manifest["entry_point"]])
+    launch_index = len(prefix)
+    if len(declared) <= launch_index:
+        fail("VERIFIER_ARGV_PREFIX", {"expected_entry": manifest["entry_point"], "actual": declared})
+    launch_token = declared[launch_index]
+    if launch_token in {"-c", "-m"} or launch_token.startswith("-"):
+        fail("VERIFIER_ARGV_FORBIDDEN_LAUNCH_FORM", launch_token)
+    prefix.append(manifest["entry_point"])
     if declared[:len(prefix)] != prefix:
         fail("VERIFIER_ARGV_PREFIX", {"expected": prefix, "actual": declared[:len(prefix)]})
+    entry_target = verifier_entry_target(manifest, verifier_base, verifier_files)
     command = [pinned_python, "-I", "-S", "-B"]
     if manifest["optimize"]:
         command.append("-O")
-    command.extend(["-m", manifest["entry_point"]])
+    command.append(str(entry_target))
     command.extend(declared[len(prefix):])
     return command
 
@@ -1082,7 +1118,7 @@ def main():
     bound_verifier_manifest_data = canonical_bytes(bound_verifier_manifest)
     bound_verifier_manifest_sha = sha256_bytes(bound_verifier_manifest_data)
     exclusive_write(bound_verifier_manifest_path, bound_verifier_manifest_data)
-    verifier_command = verifier_process_command(bound_verifier_manifest, python)
+    verifier_command = verifier_process_command(bound_verifier_manifest, python, verifier_base, verifier_files)
     verifier_process = run_verifier_process(verifier_command, verifier_base)
     t4 = trust_snapshot(runtime)
     if t4 != t3 or t4 != t2:

@@ -6,14 +6,61 @@ same footing as the producer children. Builder A conforms to the same contract;
 neither implementation is ratified by it.
 """
 
+import os
+
 from .canonical_json import VerifierFault, encode_canonical
 from .contracts import (VERIFIER_MANIFEST_SCHEMA, validate_verifier_manifest)
-from .hashing import require_sha256, sha256_bytes
+from .hashing import require_sha256, sha256_bytes, sha256_file_unverified
 
 # Direct-script launcher at the package root. The `-m verifier.verify` form
 # cannot resolve under the pinned `-I` isolation flags (isolated mode removes the
 # script directory and cwd from sys.path), which is what stopped run 012.
 ENTRY_POINT = "run_verifier.py"
+
+# The load-bearing byte set of this package, as one root.
+#
+# Builder A stopped run 013 correctly: an entry script that dispatches the whole
+# verifier is load-bearing, and a root that does not cover it leaves an unpinned
+# file able to change behaviour. The remedy adopted here is ROOT INCLUSION --
+# one root over every load-bearing byte -- rather than a second, separately
+# pinned entry digest, because one root is one thing to check and cannot drift
+# out of step with a companion value.
+#
+# MEMBER LIST (11), by package-relative path, sorted lexicographically:
+#     run_verifier.py
+#     verifier/__init__.py
+#     verifier/canonical_json.py
+#     verifier/child_manifest.py
+#     verifier/comparison.py
+#     verifier/contracts.py
+#     verifier/hashing.py
+#     verifier/replay.py
+#     verifier/runtime_state.py
+#     verifier/spec_census.py
+#     verifier/verify.py
+#
+# COMPUTATION (unchanged in scheme, extended in membership):
+#     verifier_root_sha256 := SHA256( concat( sha256_hex(member_bytes)
+#                                             for member in sorted(members) ) )
+ROOT_MEMBERS = ("run_verifier.py",)          # package-root members
+ROOT_PACKAGE_DIR = "verifier"                # every *.py inside is a member
+
+
+def package_root_members(base_dir):
+    """Exact, sorted, package-relative member list. One definition, one caller."""
+    members = list(ROOT_MEMBERS)
+    pkg = os.path.join(base_dir, ROOT_PACKAGE_DIR)
+    for name in sorted(os.listdir(pkg)):
+        if name.endswith(".py"):
+            members.append("%s/%s" % (ROOT_PACKAGE_DIR, name))
+    return sorted(members)
+
+
+def package_root_digest(base_dir):
+    """verifier_root_sha256 over every load-bearing byte, launcher included."""
+    parts = [sha256_file_unverified(os.path.join(base_dir, rel))
+             for rel in package_root_members(base_dir)]
+    return sha256_bytes("".join(parts).encode("utf-8"))
 
 
 def build_manifest(verifier_root_sha256, input_roots, output_path,

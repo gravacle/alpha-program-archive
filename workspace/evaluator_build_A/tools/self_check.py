@@ -396,8 +396,8 @@ def main():
     if len(verifier_schema["properties"]["input_roots"]["properties"]) != 5 or len(verifier_schema["properties"]["stdout_discipline"]["properties"]) != 3 or len(verifier_schema["properties"]["exit_contract"]["properties"]) != 3:
         stop("VERIFIER_NESTED_FIELDS", "wrong")
     synthetic_verifier = {
-        "argv": ["--ledger", "/sealed/ledger.json"],
-        "entry_point": "verifier.verify",
+        "argv": ["python3", "run_verifier.py", "--ledger", "/sealed/ledger.json"],
+        "entry_point": "run_verifier.py",
         "exit_contract": {"fail_closed": 2, "faults_found": 1, "verified": 0},
         "input_roots": {"evidence_root_sha256": empty_digest, "ledger_sha256": empty_digest, "runtime_gate_sha256": empty_digest, "runtime_snapshot_sha256": empty_digest, "spec_sha256": empty_digest},
         "optimize": False,
@@ -422,6 +422,18 @@ def main():
         stop("AUTHORIZATION_HASH_PIN", "missing")
     if '"evidence_root_sha256": evidence_declared_root' not in parent_text:
         stop("EVIDENCE_ROOT_BINDING", "parent does not bind verifier expectation to declared_root")
+    direct_launch_receivers = {
+        "def verifier_entry_target(",
+        'fail("VERIFIER_ENTRY_UNCOVERED"',
+        'launch_token in {"-c", "-m"}',
+        'command.append(str(entry_target))',
+        'verifier_process_command(bound_verifier_manifest, python, verifier_base, verifier_files)',
+    }
+    missing_launch_receivers = sorted(item for item in direct_launch_receivers if item not in parent_text)
+    authored_module_form = ['prefix.extend(["-m"', 'command.extend(["-m"']
+    present_module_form = [item for item in authored_module_form if item in parent_text]
+    if missing_launch_receivers or present_module_form:
+        stop("VERIFIER_DIRECT_LAUNCH", {"missing": missing_launch_receivers, "authored_module_form": present_module_form})
     path_identity_receivers = {
         "def real_path(path):",
         "def add_allowlist_entry(",

@@ -232,14 +232,15 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
 
 
 def _self_digest():
-    """Digest of this module's own compiled source buffer."""
+    """The package's load-bearing root, launcher included.
+
+    Delegates to child_manifest.package_root_digest so the manifest and the
+    verdict can never disagree about what the root covers.
+    """
     import os
-    here = os.path.dirname(os.path.abspath(__file__))
-    parts = []
-    for name in sorted(os.listdir(here)):
-        if name.endswith(".py"):
-            parts.append(sha256_file_unverified(os.path.join(here, name)))
-    return sha256_bytes("".join(parts).encode("utf-8"))
+    from .child_manifest import package_root_digest
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return package_root_digest(base)
 
 
 def main(argv=None):
