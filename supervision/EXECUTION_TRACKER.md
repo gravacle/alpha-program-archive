@@ -486,7 +486,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 645 | Codex 2 | [6/SUBGATE] assembly V005 bounded check (decomposition sums + scope) | **RETURNED — REGISTERED (Q-584): STANDS. DOCUMENT LAYER CONVERGED; build package to principal |
 | 646 | Dario | [6/SUBGATE] spec V005 check (BR-1/A record + the ten) | **RETURNED — REGISTERED (Q-583): SPEC V005 STANDS, BUILD-READY (spec side); BRANCH_OUTCOME -> build checklist |
 | 647 | Codex 2 (BUILDER A) | [6/BUILD] the parent runner + producer per spec V005 (code, no chain invocation) | **SENT** |
-| 648 | Dario (BUILDER B) | [6/BUILD] the independent verifier per spec V005 (sealed inputs only) | **SENT** |
+| 648 | Dario (BUILDER B) | [6/BUILD] the independent verifier per spec V005 (sealed inputs only) | **RETURNED — REGISTERED (Q-586): verifier complete; 3 spec gaps G1-G3 found via independence |
+| 649 | Dario | [6/BUILD] spec addendum draft: G1 event-ledger fields + G2 fixture inventory (from spec patterns) | QUEUED (after 647 returns) |
+| 650 | Codex 2 | [6/BUILD] conform A to the addendum + disclose deltas | QUEUED (after 649) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

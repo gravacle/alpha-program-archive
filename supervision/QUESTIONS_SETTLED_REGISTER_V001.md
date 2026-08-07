@@ -13804,6 +13804,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-586 — TASK 6 BUILD: THE VERIFIER DELIVERED — INDEPENDENCE DEMONSTRATED BY ITS YIELD: THREE SPEC GAPS NO SEALED DOCUMENT ANSWERS (2026-08-07)
+
+**Question.** Is Builder B's verifier complete, and did the custody split earn its cost?
+
+**Answer.** BOTH (Dario as Builder B, code under `evaluator_build_B/` [contracts, verifier, selfcheck, README], manifest `STAGE8_TASK6_EVALUATOR_BUILD_B_MANIFEST_DARIO_V001.md`, SHA-256 `f79b50ac951522c636193e7fdbc3e4c216b9373be58c3ada8523f8bd7505133b`, relay 648; registrar mirrored the whole package byte-identically).
+
+- **Independence demonstrated, not asserted:** the verifier parses its EVERY expectation from the sealed spec bytes at run time (the 63+3 census, the 56/10 partition, the board, each descriptor digest); if producer and spec disagree, `SpecCensus` raises and the run fails closed — THE SPEC WINS. The assert discipline tested by consequence (zero asserts across 10 files; `python -O` output byte-identical), honoring the sealed "load-bearing modifies audit" parse of record.
+- **THE YIELD — three spec gaps reported rather than resolved by peeking:** G1 — R9 demands reclassifying process/network/mutation events but §9.4's EXACT child-row inventory carries module/native/open only, and inventing fields would itself violate the exact inventory; G2 — checks and children have exact field inventories, fixtures do NOT, so two independent builders will invent two shapes; G3 — `BRANCH_OUTCOME`'s per-ID values (the Q-583/RD-22 obligation) still have no sealed source — a verifier PASS there would test existence, not correctness. Two honest deferrals (source-exact self-digest; T0-T4 labels inferred from prose). The builder's own words carry the point: gaps quietly filled from the other builder's answers "would agree on the first run and neither of us would know why."
+- Coverage stated exactly: verifier only; chain untouched; `checks_replayed` empty until Custodian C invokes; "Builder B does not run what Builder B wrote."
+
+**Disposition of the gaps (registrar sequencing):** G3 resolves structurally when Builder A's manifest seals — the per-ID display becomes a content-addressed SEALED input the verifier may lawfully consume. G1/G2 need a small SPEC ADDENDUM: drafted by Dario from the spec's own patterns (it has not seen A's code), then Codex 2 discloses any conflict with its build openly and CONFORMS — the addendum wins, choices never ratified post hoc. Queued behind 647's return.
+
+**Custody.** Built by Dario under the independence law; registrar mirrored. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
