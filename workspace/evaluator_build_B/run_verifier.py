@@ -76,8 +76,8 @@ def _dry_run():
         "chain_invoked": False,
         "verdict": "NO_VERDICT_DRY_RUN",
     }
+    # Same canon as the real verdict: one tight value, no trailing newline.
     sys.stdout.write(dumps_canonical(payload))
-    sys.stdout.write("\n")
     return EXIT_FAIL_CLOSED
 
 

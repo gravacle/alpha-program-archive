@@ -267,16 +267,17 @@ def main(argv=None):
         # else. Diagnostics go to stderr. Exit 2 (could not start) and exit 1
         # (ran, found faults) are different facts and must not be conflated.
         sys.stderr.write("fail-closed: %s\n" % exc)
+        # Q-594 canon: stdout carries ONE tight canonical JSON value and
+        # nothing else -- no trailing newline. "No insignificant whitespace"
+        # governs the stream exactly as it governs the file.
         sys.stdout.write(dumps_canonical({
             "schema": VERIFIER_SCHEMA,
             "verdict": "FAIL",
             "fault": str(exc),
         }))
-        sys.stdout.write("\n")
         return 2
 
     sys.stdout.write(dumps_canonical(verdict))
-    sys.stdout.write("\n")
     return 0 if ok else 1
 
 
