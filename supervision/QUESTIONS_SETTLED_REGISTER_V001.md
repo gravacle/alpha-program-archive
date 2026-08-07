@@ -14053,6 +14053,18 @@ Q-591 preregistered: 56 x FAIL(INPUT_INTEGRITY), 10 x NOT_RUN_GATE, fixtures fai
 
 ---
 
+## Q-605 — TASK 6 TRANCHE: BATCH 1 RETURNS ZERO OF TEN — THE MAP'S PINS ARE REQUIREMENT LOCI, NOT DISPLAYS; THE GROUNDING RELOCATION PASS OPENS (2026-08-07)
+
+**Question.** Can the ten cheapest envelopes be built from the map's pinned spans?
+
+**Answer.** NO — and the refusal is the law working (Codex 2, `STAGE8_TASK6_S_TRANCHE_BATCH1_LANE2_V001.md`, SHA-256 `5bea1f59f119681d5a6161e324d2b6ebdea4d97510663ce27db639a2edcf1a1e`, relay 680; 0 built / 10 STILL ABSENT_OF_RECORD; evidence manifest and declared root unchanged). The custody test was the right one: "none of those becomes a complete input merely because its nouns can be copied into JSON keys." Per envelope, the pinned spans name the DEMAND and record the DEFECT but do not display the corrected structure the opcode consumes — assigning any edge, carrier, or composition would be authored structure; serialization was withheld every time.
+
+**The registrar's diagnosis, decision-relevant but not decision-changing:** the map (Q-595) pinned REQUIREMENT LOCI (V005 descriptor rows + blocker sentences + fragmentary matrix spans), and its own custody warning anticipated exactly this. For several of the ten, the actual complete displays EXIST ELSEWHERE in the corpus: the seal-stage DAG lives literally in the A32 machine graph ruled authoritative of record (the stage_dependencies parsed and verified at Q-546/Q-551) — grounding V009-06, V010-12, V008-10; V009-01's carrier structure is V011:128-192 IN FULL (the map pinned a 79-byte fragment of it); V008-05's word expansion is displayed in V011's own equations. Others may be TRULY absent — which would move them out of the S class honestly.
+
+**The step (relay 681, Dario):** the GROUNDING RELOCATION — for each of the ten, locate the actual complete sealed display (M-2, four modes, whole-corpus scope), output the corrected span set per envelope, and classify any envelope with NO display anywhere as TRUE-ABSENT, leaving the tranche. C76 stands; this is execution sequencing within it. The tranche's honest arithmetic may shrink — that is the point of having a machine that refuses to be fed names instead of structures.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

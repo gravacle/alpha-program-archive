@@ -520,7 +520,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 677 | Codex 2 | [6/BUILD] root member set = 12 per the sealed 676 list | **RETURNED. RUN 021: END-TO-END COMPLETE, exit 1 honest; descriptor-newline + event-ledger materialization -> 678 |
 | 678 | Codex 2 | [6/BUILD] descriptor digests sans terminator + event payloads | **RETURNED. RUN 022: PREREGISTRATION FULFILLED EXACTLY (Q-603) — 56 FAIL/10 NOT_RUN_GATE, verifier agrees, 0 PASS |
 | 679 | Dario | [6/BUILD] the formal run certification: run 022 vs the Q-591 preregistration | **RETURNED — REGISTERED (Q-604): CERTIFIED exact; 2 defects self-filed to the tranche cycle. BUILD PHASE CLOSED HONEST. |
-| 680 | Codex 2 | [6/TRANCHE] S-tranche batch 1: the ten cheapest envelopes per the map ranking | **SENT** |
+| 680 | Codex 2 | [6/TRANCHE] S-tranche batch 1: the ten cheapest envelopes per the map ranking | **RETURNED — REGISTERED (Q-605): 0/10, refusal lawful; pins were requirement loci; grounding relocation -> 681 |
+| 681 | Dario | [6/TRANCHE] the grounding relocation: actual displays for the ten (or TRUE-ABSENT) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
