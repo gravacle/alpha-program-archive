@@ -14087,6 +14087,21 @@ Q-591 preregistered: 56 x FAIL(INPUT_INTEGRITY), 10 x NOT_RUN_GATE, fixtures fai
 
 ---
 
+## Q-608 — TASK 6 TRANCHE: THE ENVELOPE CONFIRMED BYTE-EXACT; THE COMPARE-HALF OF ITS OWN ROW FOUND INERT; FOUR FINDINGS AGAINST V006; RUN 023 CLEARED ON THE V005 PIN (2026-08-07)
+
+**Question.** Do the envelope and spec V006 stand, and may run 023 proceed?
+
+**Answer.** (Dario, `STAGE8_TASK6_ENVELOPE_V006_CHECK_DARIO_V001.md`, relay 683; all 30 load-bearing facts re-derived True.)
+
+- **The envelope is byte-exact** (932-byte payload identical to the relocated span; the DAG-args serialization faithful; the barred encoding and status field structurally outside the span — nothing excised); the declared_root transition proven at BOTH ends (old root reproduced over 10 as a control, new `1fbb3c07…` over 12).
+- **THE FINDING AGAINST ITS OWN 681 GROUNDING, pre-registered before the run:** C-B-V009-06 is a bare-DAG row whose synthesized invocation feeds ONE object as both `graph` and `required_parents` — `compare(X,X)` cannot fail; **the compare-half of the row is INERT and is recorded inert, not discharged.** The parse/reject/acyclicity half is live (computed True). Any PASS in run 023 certifies the live half only. "I checked what the encoding is and never what the opcode does with two operands."
+- **The registry exactly right** (17 IDs, both directions, zero rows outside). **Four findings against V006, owed to a V007:** (1) the certificate's insertion count refutes itself from its own printed numbers — the blank-line artifact V006 repairs in three of its own certificates and commits in the fourth; (2) **H03's "add only" hunk silently re-scoped a global no-optimizer fence from all 14 opcodes to one** — a substantive silent change; (3) the corpus law is never wired into the closed opcode table (`SEALED_CORPUS_DEFINITION` never schema-defined — the law is prose, not machinery); (4) the report's blockquoted "installed law" drops the only implementation-obligation clause. Carried deeper: **sealed ≠ adequate — 12 of 17 M2 rows would PASS on hits=empty, and corpus membership is an unregistered FIFTH false-negative surface.**
+- **The V005 pin for run 023 is lawful on grounds better than the builder stated:** run 023 invokes no M2 at all; pinning V006 would risk deviation (P0 vs SPEC-INCOMPLETE precedence indeterminate for 16 rows; three fixture spans drift +2921 and would MIS-RESOLVE SILENTLY). Two of the reviewer's own claims withdrawn on its own check; two adversarial claims refused.
+
+**RUN 023 PROCEEDS** under the V005 pin, its expected single PASS scoped in advance to the live half of an honestly-inert-in-part row. The V007 items queue behind the run.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
