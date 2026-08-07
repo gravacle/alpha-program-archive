@@ -371,8 +371,8 @@ def schemas():
         },
         "producer-output.schema.json": {
             "$id": "rd22.producer-output.v001", "additionalProperties": False,
-            "properties": {"authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "manifest_sha256": digest, "monotonic_duration": {"type": "number"}, "process_id": integer, "python_optimize": integer, "schema": {"const": "rd22.producer-output.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage_root": digest, "summary": object_value},
-            "required": ["authority_firewall", "check_map_sha256", "checks", "fixture_manifest_sha256", "fixtures", "manifest_sha256", "monotonic_duration", "process_id", "python_optimize", "schema", "scope", "spec_sha256", "subject_lineage_root", "summary"], "type": "object",
+            "properties": {"authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "monotonic_duration": {"type": "number"}, "process_id": integer, "python_optimize": integer, "schema": {"const": "rd22.producer-output.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage_root": digest, "summary": object_value},
+            "required": ["authority_firewall", "check_map_sha256", "checks", "fixture_manifest_sha256", "fixtures", "monotonic_duration", "process_id", "python_optimize", "schema", "scope", "spec_sha256", "subject_lineage_root", "summary"], "type": "object",
         },
         "child-receipt.schema.json": {
             "$id": "rd22.child-receipt.v001", "additionalProperties": False,

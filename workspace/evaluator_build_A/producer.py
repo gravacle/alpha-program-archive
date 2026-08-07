@@ -990,7 +990,6 @@ def main():
         "checks": checks,
         "fixture_manifest_sha256": args.fixtures_sha256,
         "fixtures": fixture_rows,
-        "manifest_sha256": args.manifest_sha256,
         "monotonic_duration": time.monotonic() - start,
         "process_id": os.getpid(),
         "python_optimize": optimize,

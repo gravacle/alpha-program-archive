@@ -346,6 +346,27 @@ def main():
         if schema.get("additionalProperties") is not False or not schema.get("required") or set(schema["required"]) != set(schema["properties"]):
             stop("SCHEMA_EXACT_TOP", schema_name)
     producer_schema = json_values["producer-output.schema.json"]
+    compared_properties = set(producer_schema["properties"])
+    unmasked_per_child_fields = {"manifest_sha256", "mode", "optimization", "writable_paths"}
+    misplaced = sorted(compared_properties & unmasked_per_child_fields)
+    if misplaced:
+        stop("PRODUCER_COMPARED_SURFACE", misplaced)
+    if len(compared_properties) != 13:
+        stop("PRODUCER_OUTPUT_FIELDS", sorted(compared_properties))
+    receipt_schema = json_values["child-receipt.schema.json"]
+    if len(receipt_schema["properties"]) != 16 or "manifest_sha256" not in receipt_schema["properties"] or "manifest_sha256" not in receipt_schema["required"]:
+        stop("RECEIPT_MANIFEST_CARRIER", sorted(receipt_schema["properties"]))
+    expected_mask_literal = 'MASK_FIELDS = {"process_id", "monotonic_duration", "python_optimize"}'
+    parent_source = (package / "parent.py").read_text(encoding="utf-8")
+    producer_source = (package / "producer.py").read_text(encoding="utf-8")
+    if expected_mask_literal not in parent_source or expected_mask_literal not in producer_source:
+        stop("SEMANTIC_MASK_DRIFT", expected_mask_literal)
+    parent_output_block = parent_source.split("def output(path):", 1)[1].split("def classify_receipt(", 1)[0]
+    producer_output_block = producer_source.split("    output = {", 1)[1].split("    output_bytes =", 1)[0]
+    if '"manifest_sha256"' in parent_output_block or '"manifest_sha256"' in producer_output_block:
+        stop("OUTPUT_MANIFEST_CARRIER", "manifest_sha256 remains")
+    if producer_source.count('"manifest_sha256": args.manifest_sha256,') != 1:
+        stop("MANIFEST_CARRIER_CENSUS", producer_source.count('"manifest_sha256": args.manifest_sha256,'))
     fixture_row_schema = producer_schema["properties"]["fixtures"]["items"]
     if len(fixture_row_schema["properties"]) != 16 or fixture_row_schema.get("additionalProperties") is not False:
         stop("FIXTURE_ROW_CONTRACT", fixture_row_schema)
@@ -367,7 +388,6 @@ def main():
     for field in ("process_event_ledger_sha256", "network_event_ledger_sha256", "mutation_event_ledger_sha256"):
         if synthetic_child[field] != empty_digest:
             stop("EMPTY_EVENT_DIGEST", field)
-    receipt_schema = json_values["child-receipt.schema.json"]
     if "mutation_event_ledger" not in receipt_schema["properties"]:
         stop("MUTATION_RECEIPT_CARRIER", "missing")
     verifier_schema = json_values["verifier-manifest.schema.json"]
@@ -422,7 +442,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

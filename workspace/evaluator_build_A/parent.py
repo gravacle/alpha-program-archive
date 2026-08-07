@@ -524,7 +524,6 @@ def output(path):
         "checks",
         "fixture_manifest_sha256",
         "fixtures",
-        "manifest_sha256",
         "monotonic_duration",
         "process_id",
         "python_optimize",
@@ -879,8 +878,10 @@ def run_verifier_process(command, cwd):
 
 
 def child_record(manifest_sha, target_sha, optimize, out_data, receipt_data, receipt_value, trust_before, trust_after):
+    if receipt_value["manifest_sha256"] != manifest_sha:
+        fail("CHILD_RECORD_MANIFEST", {"launch": manifest_sha, "receipt": receipt_value["manifest_sha256"]})
     return {
-        "manifest_sha256": manifest_sha,
+        "manifest_sha256": receipt_value["manifest_sha256"],
         "module_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["module_ledger"])),
         "native_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["native_ledger"])),
         "open_event_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["open_event_ledger"])),
