@@ -14019,6 +14019,28 @@ Fixes: relay 678 (Codex 2, both items). Then run 022 — expected: the full prer
 
 ---
 
+## Q-603 — TASK 6 BUILD: RUN 022 — THE PREREGISTRATION FULFILLED EXACTLY; THE EVALUATOR IS CERTIFIED HONEST BY ITS OWN COMPLETE EXECUTION (2026-08-07)
+
+**Question.** Did the completed chain match the Q-591 preregistration?
+
+**Answer.** TO THE ROW. Run 022, registrar-verified from the run artifacts:
+
+```text
+checks:    66 rows = 56 FAIL + 10 NOT_RUN_GATE   (0 PASS, 0 ERROR)
+fixtures:   6 rows =  3 FAIL +  3 NOT_RUN_GATE
+producers: semantically IDENTICAL under the declared three-field mask
+verifier:  independently reported the same 59 absences (56 EVIDENCE +
+           3 FIXTURE_EVIDENCE), verdict FAIL, exit 1
+chain:     stopped before R10 — no terminal ledger, because only a verified
+           chain may have one
+```
+
+Q-591 preregistered: 56 x FAIL(INPUT_INTEGRITY), 10 x NOT_RUN_GATE, fixtures failing on absent observations, byte-agreeing producers, the independent verifier reaching the same verdicts — and warned that "any PASS, any silent skip, any A/B disagreement is a finding against the build." **There were none.** Zero PASS rows on a lineage whose evidence layer does not exist; ten gated rows inert exactly as the fences demand; two independent implementations agreeing from sealed bytes alone.
+
+**What stands as of this entry:** the RD-22 evaluator — parent, producer, and independent cross-family verifier — has executed a complete run under the pinned runtime and custody graph, and its honest output is the program's true state: the machine-evidence layer is absent and nothing pretends otherwise. Twenty-two invocations, every gate adjudicated by sealed text, three newline rulings all decided the same way, zero fabricated bytes. **This is the certified-honest baseline the S tranche (C76) now builds against.** Formal certification review queued (679, Dario); the tranche follows.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

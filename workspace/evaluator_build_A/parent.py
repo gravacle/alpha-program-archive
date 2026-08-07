@@ -56,6 +56,14 @@ VERDICT_SCHEMA_SUPPORTED_KEYWORDS = frozenset({
     "required",
     "type",
 })
+EVENT_LEDGER_CARRIERS = (
+    ("module_ledger_sha256", "module_ledger"),
+    ("native_ledger_sha256", "native_ledger"),
+    ("open_event_ledger_sha256", "open_event_ledger"),
+    ("process_event_ledger_sha256", "process_event_ledger"),
+    ("network_event_ledger_sha256", "network_event_ledger"),
+    ("mutation_event_ledger_sha256", "mutation_event_ledger"),
+)
 # Contract V002 item: move this transcribed membership list into the manifest
 # instance, alongside Builder B's recorded name-binding observation from 667.
 VERIFIER_ROOT_TRANSCRIBED_MEMBERS = (
@@ -370,6 +378,58 @@ def exclusive_write(path, data):
             os.fsync(stream.fileno())
     except OSError as exc:
         fail("WRITE", f"{target}: {exc}")
+
+
+def stage_evidence_directory(source_directory, run_directory):
+    source = real_path(source_directory)
+    destination = lexical_absolute(run_directory)
+    if not source.is_dir() or source.is_symlink():
+        fail("EVIDENCE_SOURCE_DIRECTORY", str(source_directory))
+    if destination.exists() or destination.is_symlink():
+        fail("EVIDENCE_RUN_DIRECTORY_PREEXISTS", str(destination))
+    try:
+        destination.mkdir(mode=0o700)
+    except OSError as exc:
+        fail("EVIDENCE_RUN_DIRECTORY_CREATE", f"{destination}: {exc}")
+    if not path_within(destination, destination.parent):
+        fail("EVIDENCE_RUN_DIRECTORY_ESCAPE", str(destination))
+    staged = {}
+    for source_path in sorted(source.iterdir(), key=lambda item: item.name):
+        if not source_path.is_file() or source_path.is_symlink():
+            fail("EVIDENCE_SOURCE_ENTRY", str(source_path))
+        data = read_bytes(source_path)
+        target = destination / source_path.name
+        exclusive_write(target, data)
+        staged[str(real_path(target))] = {
+            "declared_path": str(lexical_absolute(target)),
+            "realpath": str(real_path(target)),
+            "sha256": sha256_bytes(data),
+            "source": f"verifier-input:staged-evidence:{source_path.name}",
+        }
+    return destination, staged
+
+
+def materialize_event_payloads(receipt_value, evidence_directory):
+    destination = real_path(evidence_directory)
+    if not destination.is_dir() or destination.is_symlink():
+        fail("EVENT_PAYLOAD_DIRECTORY", str(evidence_directory))
+    digests = {}
+    for digest_field, receipt_field in EVENT_LEDGER_CARRIERS:
+        value = receipt_value.get(receipt_field)
+        if not isinstance(value, list):
+            fail("EVENT_PAYLOAD_TYPE", receipt_field)
+        data = canonical_bytes(value)
+        digest = sha256_bytes(data)
+        target = destination / f"{digest}.json"
+        if target.exists() or target.is_symlink():
+            if target.is_symlink() or not target.is_file() or read_bytes(target) != data:
+                fail("EVENT_PAYLOAD_COLLISION", str(target))
+        else:
+            exclusive_write(target, data)
+        if sha256_bytes(read_bytes(target)) != digest:
+            fail("EVENT_PAYLOAD_REHASH", str(target))
+        digests[digest_field] = digest
+    return digests
 
 
 def no_python_check_nodes(source_bytes, label):
@@ -1055,19 +1115,15 @@ def run_verifier_process(command, cwd):
         fail("VERIFIER_LAUNCH", str(exc))
 
 
-def child_record(manifest_sha, target_sha, optimize, out_data, receipt_data, receipt_value, trust_before, trust_after):
+def child_record(manifest_sha, target_sha, optimize, out_data, receipt_data, receipt_value, trust_before, trust_after, evidence_directory):
     if receipt_value["manifest_sha256"] != manifest_sha:
         fail("CHILD_RECORD_MANIFEST", {"launch": manifest_sha, "receipt": receipt_value["manifest_sha256"]})
     if any(not isinstance(value, str) or re.fullmatch(r"[0-9a-f]{64}", value) is None for value in (trust_before, trust_after)):
         fail("CHILD_RECORD_TRUST_DIGEST", {"before": trust_before, "after": trust_after})
+    event_payload_digests = materialize_event_payloads(receipt_value, evidence_directory)
     return {
         "manifest_sha256": receipt_value["manifest_sha256"],
-        "module_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["module_ledger"])),
-        "native_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["native_ledger"])),
-        "open_event_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["open_event_ledger"])),
-        "process_event_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["process_event_ledger"])),
-        "network_event_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["network_event_ledger"])),
-        "mutation_event_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["mutation_event_ledger"])),
+        **event_payload_digests,
         "optimize": optimize,
         "output_sha256": sha256_bytes(out_data),
         "receipt_authoritative": False,
@@ -1182,7 +1238,12 @@ def main():
     producer_ledger_path = run_root_declared / "producer.ledger.json"
     bound_verifier_manifest_path = run_root_declared / "verifier.manifest.bound.json"
     terminal_path = run_root_declared / "terminal.ledger.json"
-    ensure_absent([normal_output, normal_receipt, optimized_output, optimized_receipt, verifier_out, verifier_receipt_path, producer_ledger_path, bound_verifier_manifest_path, terminal_path])
+    run_evidence_directory = run_root_declared / "evidence"
+    ensure_absent([normal_output, normal_receipt, optimized_output, optimized_receipt, verifier_out, verifier_receipt_path, producer_ledger_path, bound_verifier_manifest_path, terminal_path, run_evidence_directory])
+    run_evidence_directory, staged_evidence_files = stage_evidence_directory(
+        package_root_declared / "inputs" / "evidence",
+        run_evidence_directory,
+    )
     verifier_expected_roots = {
         "evidence_root_sha256": evidence_declared_root,
         "runtime_gate_sha256": RUNTIME_GATE_SHA256,
@@ -1234,8 +1295,8 @@ def main():
     comparison = compare_producers(normal_value, optimized_value)
     t3 = trust_snapshot(runtime)
     producer_children = [
-        child_record(args.normal_manifest_sha256, producer_sha, 0, normal_data, normal_receipt_data, normal_receipt_value, t0, t1),
-        child_record(args.optimized_manifest_sha256, producer_sha, 1, optimized_data, optimized_receipt_data, optimized_receipt_value, t1, t2),
+        child_record(args.normal_manifest_sha256, producer_sha, 0, normal_data, normal_receipt_data, normal_receipt_value, t0, t1, run_evidence_directory),
+        child_record(args.optimized_manifest_sha256, producer_sha, 1, optimized_data, optimized_receipt_data, optimized_receipt_value, t1, t2, run_evidence_directory),
     ]
     authored_ledger_root = verifier_manifest["input_roots"]["ledger_sha256"]
     producer_scope = dict(normal_value["scope"])
@@ -1262,7 +1323,7 @@ def main():
     exclusive_write(producer_ledger_path, producer_ledger_data)
     produced_ledger_sha = sha256_bytes(producer_ledger_data)
     substitutions = {
-        "${EVIDENCE_DIR}": str(real_path(package_root_declared / "inputs" / "evidence")),
+        "${EVIDENCE_DIR}": str(real_path(run_evidence_directory)),
         "${LEDGER_PATH}": str(real_path(producer_ledger_path)),
         "${LEDGER_SHA256}": produced_ledger_sha,
         "${RUNTIME_GATE_PATH}": str(real_path(runtime_gate_path)),
@@ -1295,6 +1356,15 @@ def main():
     add_allowlist_entry(verifier_files, runtime_snapshot_path, RUNTIME_SNAPSHOT_SHA256, "verifier-input:runtime-snapshot")
     add_allowlist_entry(verifier_files, runtime_gate_path, RUNTIME_GATE_SHA256, "verifier-input:runtime-gate")
     add_allowlist_entry(verifier_files, producer_ledger_path, produced_ledger_sha, "verifier-input:producer-ledger")
+    for staged_entry in staged_evidence_files.values():
+        add_allowlist_entry(verifier_files, staged_entry["declared_path"], staged_entry["sha256"], staged_entry["source"])
+    for event_payload_path in sorted(run_evidence_directory.glob("*.json")):
+        add_allowlist_entry(
+            verifier_files,
+            event_payload_path,
+            sha256_bytes(read_bytes(event_payload_path)),
+            f"verifier-input:event-payload:{event_payload_path.name}",
+        )
     verifier_aliases = classify_receipt(
         verifier_receipt_value, bound_verifier_manifest_sha, verifier_root,
         bound_verifier_manifest["optimize"], sha256_bytes(verifier_data),
@@ -1302,7 +1372,7 @@ def main():
         package_files, bound_verifier_manifest_path, "verifier", verifier_files,
         True,
     )
-    verifier_child = child_record(bound_verifier_manifest_sha, verifier_root, bound_verifier_manifest["optimize"], verifier_data, verifier_receipt_data, verifier_receipt_value, t3, t4)
+    verifier_child = child_record(bound_verifier_manifest_sha, verifier_root, bound_verifier_manifest["optimize"], verifier_data, verifier_receipt_data, verifier_receipt_value, t3, t4, run_evidence_directory)
     children = producer_children + [verifier_child]
     terminal_scope = dict(normal_value["scope"])
     terminal_scope["path_alias_observations"] = normal_aliases + optimized_aliases + verifier_aliases

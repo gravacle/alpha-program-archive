@@ -7,6 +7,7 @@ import importlib.util
 import json
 import re
 import sys
+import tempfile
 from pathlib import Path
 
 
@@ -164,12 +165,21 @@ def verify_inventory(package, manifest):
             stop("INVENTORY_HASH", relative)
 
 
-def descriptor_lines(spec, check_id):
-    prefix = f"| `{check_id}` |"
-    lines = [line for line in spec.splitlines() if line.startswith(prefix)]
-    if not lines:
+def descriptor_lines(spec_data, check_id):
+    prefix = f"| `{check_id}` |".encode("utf-8")
+    rows = []
+    for physical_line in spec_data.splitlines(keepends=True):
+        if physical_line.endswith(b"\r\n"):
+            body, terminator = physical_line[:-2], b"\r\n"
+        elif physical_line.endswith(b"\n") or physical_line.endswith(b"\r"):
+            body, terminator = physical_line[:-1], physical_line[-1:]
+        else:
+            body, terminator = physical_line, b""
+        if body.startswith(prefix):
+            rows.append((body, terminator))
+    if not rows:
         stop("DESCRIPTOR_LINE", f"{check_id}:0")
-    return [(line + "\n").encode("utf-8") for line in lines]
+    return rows
 
 
 def validate_evidence_search(search, label, scope_roots):
@@ -276,7 +286,8 @@ def main():
         "open_event_ledger": [],
         "process_event_ledger": [],
     }
-    child = parent_module.child_record("0" * 64, "1" * 64, 0, b"{}", b"{}", receipt, trust_root, trust_root)
+    with tempfile.TemporaryDirectory(prefix="rd22-static-child-record-") as child_payload_directory:
+        child = parent_module.child_record("0" * 64, "1" * 64, 0, b"{}", b"{}", receipt, trust_root, trust_root, Path(child_payload_directory))
     producer_snapshots = {label: trust_root for label in ("T0", "T1", "T2", "T3")}
     if "T4" in producer_snapshots:
         stop("T4_BEFORE_SAMPLE", sorted(producer_snapshots))
@@ -419,15 +430,26 @@ def main():
             validate_partial_payload(entry, package, cleanroom, fixture_id, referenced_payloads)
     if len(scope_roots) != 1:
         stop("EVIDENCE_SCOPE_DRIFT", sorted(scope_roots))
-    spec = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md").read_text(encoding="utf-8")
+    spec_data = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md").read_bytes()
     addendum_path = cleanroom / "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md"
     if digest(addendum_path.read_bytes()) != ADDENDUM_SHA256:
         stop("ADDENDUM_PIN", addendum_path)
     ledger = (cleanroom / "BID_FULL_STACK_REVIEW_LEDGER_V003.md").read_bytes()
+    descriptor_terminators_excluded = 0
     for row in check_map["checks"]:
-        candidate_hashes = [digest(row_bytes) for row_bytes in descriptor_lines(spec, row["check_id"])]
+        candidates = descriptor_lines(spec_data, row["check_id"])
+        candidate_hashes = [digest(row_bytes) for row_bytes, _ in candidates]
         if candidate_hashes.count(row["descriptor_sha256"]) != 1 or row["descriptor_bytes_sha256"] != row["descriptor_sha256"]:
             stop("DESCRIPTOR_HASH", row["check_id"])
+        matching_rows = [(row_bytes, terminator) for row_bytes, terminator in candidates if digest(row_bytes) == row["descriptor_sha256"]]
+        if len(matching_rows) != 1:
+            stop("DESCRIPTOR_MATCH", row["check_id"])
+        row_bytes, terminator = matching_rows[0]
+        if terminator not in {b"\n", b"\r\n"} or row_bytes.endswith((b"\r", b"\n")):
+            stop("DESCRIPTOR_TERMINATOR_BOUNDARY", row["check_id"])
+        if digest(row_bytes + terminator) == row["descriptor_sha256"]:
+            stop("DESCRIPTOR_TERMINATOR_COVERED", row["check_id"])
+        descriptor_terminators_excluded += 1
         if not row["program_contract"]:
             stop("PROGRAM_EMPTY", row["check_id"])
         for operation in row["program_contract"]:
@@ -437,6 +459,8 @@ def main():
             start, end = row["source"]["byte_span"]
             if not 0 <= start < end <= len(ledger) or re.match(rb"[0-9]+\. ", ledger[start:end]) is None:
                 stop("SOURCE_SPAN", row["check_id"])
+    if descriptor_terminators_excluded != 66 or check_map["descriptor_convention"] != "SHA256 of the exact UTF-8 Markdown descriptor row excluding its line terminator":
+        stop("DESCRIPTOR_TERMINATOR_CENSUS", descriptor_terminators_excluded)
     for row in fixtures["fixtures"]:
         start, end = row["source"]["byte_span"]
         source_bytes = (cleanroom / row["source"]["path"]).read_bytes()[start:end]
@@ -517,6 +541,39 @@ def main():
     for field in ("process_event_ledger_sha256", "network_event_ledger_sha256", "mutation_event_ledger_sha256"):
         if synthetic_child[field] != empty_digest:
             stop("EMPTY_EVENT_DIGEST", field)
+    expected_event_carriers = (
+        ("module_ledger_sha256", "module_ledger"),
+        ("native_ledger_sha256", "native_ledger"),
+        ("open_event_ledger_sha256", "open_event_ledger"),
+        ("process_event_ledger_sha256", "process_event_ledger"),
+        ("network_event_ledger_sha256", "network_event_ledger"),
+        ("mutation_event_ledger_sha256", "mutation_event_ledger"),
+    )
+    if parent_module.EVENT_LEDGER_CARRIERS != expected_event_carriers:
+        stop("EVENT_PAYLOAD_CARRIERS", parent_module.EVENT_LEDGER_CARRIERS)
+    synthetic_event_receipt = {
+        receipt_field: ([] if receipt_field == "native_ledger" else [{"event_class": receipt_field}])
+        for _, receipt_field in expected_event_carriers
+    }
+    with tempfile.TemporaryDirectory(prefix="rd22-static-event-payload-") as temporary:
+        temporary_root = Path(temporary)
+        source_directory = temporary_root / "sealed-evidence"
+        source_directory.mkdir()
+        (source_directory / "sealed-payload.md").write_bytes(b"sealed-static-payload")
+        run_directory, staged_rows = parent_module.stage_evidence_directory(source_directory, temporary_root / "run-evidence")
+        event_digests = parent_module.materialize_event_payloads(synthetic_event_receipt, run_directory)
+        if len(staged_rows) != 1 or len(event_digests) != 6:
+            stop("EVENT_PAYLOAD_STATIC_CENSUS", {"staged": len(staged_rows), "carriers": len(event_digests)})
+        for digest_field, receipt_field in expected_event_carriers:
+            payload = parent_module.canonical_bytes(synthetic_event_receipt[receipt_field])
+            payload_digest = digest(payload)
+            payload_path = run_directory / f"{payload_digest}.json"
+            if event_digests[digest_field] != payload_digest or not payload_path.is_file() or payload_path.read_bytes() != payload:
+                stop("EVENT_PAYLOAD_STATIC_BINDING", digest_field)
+        if (run_directory / f"{empty_digest}.json").read_bytes() != b"[]":
+            stop("EVENT_PAYLOAD_EMPTY_CANON", empty_digest)
+        if len(list(run_directory.glob("*.json"))) != 6:
+            stop("EVENT_PAYLOAD_STATIC_FILES", sorted(path.name for path in run_directory.glob("*.json")))
     if "mutation_event_ledger" not in receipt_schema["properties"]:
         stop("MUTATION_RECEIPT_CARRIER", "missing")
     authorization_schema = terminal_schema["properties"]["authorization"]
@@ -623,6 +680,20 @@ def main():
         stop("T4_BEFORE_SAMPLE", "fabricated T4 carrier remains")
     if '"evidence_root_sha256": evidence_declared_root' not in parent_text:
         stop("EVIDENCE_ROOT_BINDING", "parent does not bind verifier expectation to declared_root")
+    event_payload_receivers = {
+        "EVENT_LEDGER_CARRIERS = (",
+        "def stage_evidence_directory(",
+        "def materialize_event_payloads(",
+        'target = destination / f"{digest}.json"',
+        '"${EVIDENCE_DIR}": str(real_path(run_evidence_directory))',
+        "child_record(args.normal_manifest_sha256",
+        "child_record(args.optimized_manifest_sha256",
+        "verifier-input:event-payload:",
+    }
+    missing_event_payload_receivers = sorted(item for item in event_payload_receivers if item not in parent_text)
+    forbidden_package_evidence_binding = '"${EVIDENCE_DIR}": str(real_path(package_root_declared / "inputs" / "evidence"))'
+    if missing_event_payload_receivers or forbidden_package_evidence_binding in parent_text:
+        stop("EVENT_PAYLOAD_RECEIVERS", {"missing": missing_event_payload_receivers, "package_binding": forbidden_package_evidence_binding in parent_text})
     direct_launch_receivers = {
         "def verifier_entry_target(",
         'fail("VERIFIER_ENTRY_UNCOVERED"',
@@ -677,7 +748,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verifier_root_members=12 verifier_root={SEALED_VERIFIER_ROOT_SHA256} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verifier_root_members=12 verifier_root={SEALED_VERIFIER_ROOT_SHA256} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

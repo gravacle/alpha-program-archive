@@ -199,14 +199,14 @@ def descriptors(spec_data, ledger_data):
         else:
             blocker_id = check_id[2:]
             start = line_offsets[raw]
-            source = {"byte_span": [start, start + len((raw + "\n").encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md", "sha256": SPEC_SHA}
+            source = {"byte_span": [start, start + len(raw.encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md", "sha256": SPEC_SHA}
         procedure = cells[3]
         expected = cells[4]
         gate = "RD22_STRUCTURAL_ONLY"
         if execution_class == "GATED-EXECUTION":
             match = re.search(r"after ([^:]+):", procedure, flags=re.IGNORECASE)
             gate = match.group(1).strip() if match else "PHYSICAL_GATE"
-        row_bytes = (raw + "\n").encode("utf-8")
+        row_bytes = raw.encode("utf-8")
         rows.append(
             {
                 "blocker_id": blocker_id,
@@ -444,7 +444,7 @@ def main():
         "branch_outcome": BRANCH_OUTCOME,
         "check_ids": [row["check_id"] for row in rows],
         "checks": rows,
-        "descriptor_convention": "SHA256 of the exact UTF-8 Markdown descriptor row including one trailing LF",
+        "descriptor_convention": "SHA256 of the exact UTF-8 Markdown descriptor row excluding its line terminator",
         "schema": "rd22.check-map.v001",
         "spec_sha256": SPEC_SHA,
     }
@@ -483,6 +483,9 @@ def main():
             die("EVIDENCE_FIELDS", sorted(evidence))
         if set(evidence["check_records"]) != set(structural_ids) or set(evidence["fixture_records"]) != set(structural_fixture_ids):
             die("EVIDENCE_CENSUS", "check/fixture IDs")
+        row_by_id = {row["check_id"]: row for row in rows}
+        for check_id in structural_ids:
+            evidence["check_records"][check_id]["descriptor_sha256"] = row_by_id[check_id]["descriptor_sha256"]
         if evidence["schema"] != "rd22.structural-evidence-manifest.v001" or evidence["subject_lineage_root"] != subject["declared_root"] or evidence["payload_inventory"] != payload_inventory or evidence["declared_root"] != declared_evidence_root:
             die("EVIDENCE_BINDING", "schema/subject root")
     else:
