@@ -179,22 +179,53 @@ def replay_predicate(criterion, bundle):
     return True
 
 
-def replay_fixture(fixture, bundle):
-    """Replay one fixture's expected result from evidence bytes.
+def replay_fixture(fixture_row, bundle):
+    """Replay one fixture against its NAMED EXPECTED RECORD (OWED CHANGE 2).
 
-    A fixture must declare its own content address and its expected record;
-    the verifier recomputes the observed record's digest and compares.
+    Addendum §2.3 rule 2: `expected_verdict_fields` are SPEC-FIXED in spec §10's
+    table (`competitor_reproduced=true`, `c_equals_one_selected=false`, ...),
+    not producer-supplied. The pre-conformance code compared a single opaque
+    `expected_sha256`; a digest cannot be checked against §10's sealed table,
+    a named record can. The spec won over the adapter's convenience.
+
+    Rule 1 (quarantine) is enforced by contracts.validate_fixture_row before
+    this is reached: no observed field may be undeclared.
     """
-    for field in ("fixture_id", "expected_sha256", "observed_result_name"):
-        if field not in fixture:
-            raise VerifierFault("fixture missing %r" % field)
-    require_sha256(fixture["expected_sha256"], "fixture expected_sha256")
-    observed = bundle.field(fixture["observed_result_name"], "record")
-    from .canonical_json import encode_canonical
-    observed_sha = sha256_bytes(encode_canonical(observed))
+    expected = fixture_row["expected_verdict_fields"]
+    observed = fixture_row["observed_verdict_fields"]
+
+    mismatches = []
+    missing = []
+    for name in sorted(expected):
+        if name not in observed:
+            missing.append(name)
+            continue
+        if observed[name] != expected[name]:
+            mismatches.append({
+                "field": name,
+                "expected": expected[name],
+                "observed": observed[name],
+            })
+
+    # Independent recomputation: the observed record must also be reproducible
+    # from the evidence bundle, not merely asserted in the ledger row.
+    replayed = None
+    result_name = fixture_row.get("deterministic_procedure")
+    if isinstance(result_name, str) and result_name in bundle.results:
+        replayed = bundle.field(result_name, "verdict_fields")
+        if replayed != observed:
+            mismatches.append({
+                "field": "<record>",
+                "expected": observed,
+                "observed": replayed,
+                "note": "ledger row disagrees with the evidence bundle",
+            })
+
     return {
-        "fixture_id": fixture["fixture_id"],
-        "expected_sha256": fixture["expected_sha256"],
-        "observed_sha256": observed_sha,
-        "match": observed_sha == fixture["expected_sha256"],
+        "fixture_id": fixture_row["fixture_id"],
+        "execution_class": fixture_row["execution_class"],
+        "expected_fields": len(expected),
+        "missing_fields": missing,
+        "mismatches": mismatches,
+        "match": (not mismatches and not missing),
     }

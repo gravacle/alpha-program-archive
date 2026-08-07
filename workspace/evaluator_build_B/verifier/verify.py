@@ -14,12 +14,13 @@ import sys
 from .canonical_json import (VerifierFault, dumps_canonical, encode_canonical,
                              loads_strict)
 from .contracts import (validate_authority_firewall, validate_check_row,
-                        validate_child_row, validate_ledger_shape)
+                        validate_child_row, validate_fixture_row,
+                        validate_ledger_shape)
 from .comparison import (check_authorization, check_gate_discipline,
                          compare_semantic_outputs)
 from .hashing import (load_addressed, require_sha256, sha256_bytes,
                       sha256_file_unverified)
-from .replay import EvidenceBundle, replay_predicate
+from .replay import EvidenceBundle, replay_fixture, replay_predicate
 from .runtime_state import (reclassify_events, revalidate_trust_snapshots,
                             validate_runtime_subject)
 from .spec_census import SPEC_SHA256, SpecCensus
@@ -72,31 +73,13 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
         raise VerifierFault("children must be a list")
     for i, child in enumerate(children):
         validate_child_row(child, "children[%d]" % i)
-        # Event ledgers are reclassified from the child's OWN declared digests,
-        # fetched content-addressed from the evidence directory. The producer's
-        # labels are recomputed, never accepted. A ledger the child names but
-        # cannot produce is a fault, not a silent skip.
-        for field in ("module_ledger_sha256", "native_ledger_sha256",
-                      "open_event_ledger_sha256"):
-            digest = child[field]
-            require_sha256(digest, "children[%d].%s" % (i, field))
-            try:
-                blob = load_addressed(
-                    "%s/%s.json" % (evidence_dir.rstrip("/"), digest), digest,
-                    "children[%d].%s" % (i, field))
-            except VerifierFault as exc:
-                _fault(findings, "EVENT_LEDGER", str(exc))
-                continue
-            events = loads_strict(blob.decode("utf-8"))
-            if not isinstance(events, list):
-                _fault(findings, "EVENT_LEDGER",
-                       "children[%d].%s: ledger is not a list" % (i, field))
-                continue
-            recomputed = sha256_bytes(encode_canonical(events))
-            if recomputed != digest:
-                _fault(findings, "EVENT_LEDGER",
-                       "children[%d].%s: canonical digest %s != declared %s"
-                       % (i, field, recomputed, digest))
+        # D7 / addendum §1.3: all SIX event classes are reclassified from the
+        # child's own declared digests. Previously only three were reachable.
+        try:
+            reclassify_events(child, evidence_dir, "children[%d]" % i,
+                              load_addressed)
+        except VerifierFault as exc:
+            _fault(findings, "EVENT_LEDGER", str(exc))
 
     # --- the check census --------------------------------------------------
     rows = ledger["checks"]
@@ -173,6 +156,45 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
                          "status": "PASS" if recomputed else "FAIL",
                          "note": ""})
 
+    # --- fixtures: quarantine + named-record replay (D8) --------------------
+    fixture_rows = ledger["fixtures"]
+    if not isinstance(fixture_rows, list):
+        raise VerifierFault("fixtures must be a list")
+    fixtures_replayed = []
+    for i, fixture in enumerate(fixture_rows):
+        where = "fixtures[%d]" % i
+        try:
+            validate_fixture_row(fixture, where)
+        except VerifierFault as exc:
+            _fault(findings, "FIXTURE_CONTRACT", str(exc))
+            continue
+        if fixture["execution_class"] == "GATED-EXECUTION":
+            if fixture["status"] != "NOT_RUN_GATE":
+                _fault(findings, "GATE",
+                       "%s: gated fixture status %r; RD-22 authorizes the "
+                       "structural run only" % (where, fixture["status"]))
+            fixtures_replayed.append({"fixture_id": fixture["fixture_id"],
+                                      "replayed": False,
+                                      "note": "NOT_RUN_GATE by construction"})
+            continue
+        digests = fixture["observed_evidence_sha256s"]
+        if not isinstance(digests, list) or not digests:
+            _fault(findings, "FIXTURE_EVIDENCE",
+                   "%s: no observed evidence digests" % where)
+            continue
+        try:
+            blob = load_addressed(
+                "%s/%s.json" % (evidence_dir.rstrip("/"), digests[0]),
+                digests[0], "%s evidence" % where)
+            bundle = EvidenceBundle(blob, digests[0], fixture["fixture_id"])
+            outcome = replay_fixture(fixture, bundle)
+        except VerifierFault as exc:
+            _fault(findings, "FIXTURE_REPLAY", "%s: %s" % (where, exc))
+            continue
+        if not outcome["match"]:
+            _fault(findings, "FIXTURE_DISAGREE", outcome)
+        fixtures_replayed.append(outcome)
+
     # --- normal vs optimized, common member only ---------------------------
     comparison = ledger["producer_comparison"]
     if not isinstance(comparison, dict):
@@ -193,6 +215,7 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
         "authorization_sha256": RD22_AUTHORIZATION_SHA256,
         "census": census.summary(),
         "checks_replayed": replayed,
+        "fixtures_replayed": fixtures_replayed,
         "producer_comparison": comparison_result,
         "findings": findings,
         "independence": {
@@ -235,6 +258,10 @@ def main(argv=None):
                              args.evidence_dir, args.runtime_snapshot,
                              args.runtime_gate)
     except VerifierFault as exc:
+        # D9 / addendum §3.3 clause 2: stdout carries the verdict and nothing
+        # else. Diagnostics go to stderr. Exit 2 (could not start) and exit 1
+        # (ran, found faults) are different facts and must not be conflated.
+        sys.stderr.write("fail-closed: %s\n" % exc)
         sys.stdout.write(dumps_canonical({
             "schema": VERIFIER_SCHEMA,
             "verdict": "FAIL",

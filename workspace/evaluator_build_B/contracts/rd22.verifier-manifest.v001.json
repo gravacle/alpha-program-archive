@@ -1,0 +1,54 @@
+{
+  "$comment": "R9 isolated-child launch contract for Builder B's verifier. Integration addendum §3.2, sealed Q-588. Both builders conform; neither implementation is ratified by it.",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "argv": {"items": {"type": "string"}, "type": "array"},
+    "entry_point": {"type": "string"},
+    "exit_contract": {
+      "additionalProperties": false,
+      "properties": {
+        "fail_closed": {"const": 2},
+        "faults_found": {"const": 1},
+        "verified": {"const": 0}
+      },
+      "required": ["fail_closed", "faults_found", "verified"],
+      "type": "object"
+    },
+    "input_roots": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_root_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+        "ledger_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+        "runtime_gate_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+        "runtime_snapshot_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+        "spec_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"}
+      },
+      "required": ["evidence_root_sha256", "ledger_sha256",
+                   "runtime_gate_sha256", "runtime_snapshot_sha256",
+                   "spec_sha256"],
+      "type": "object"
+    },
+    "optimize": {"type": "boolean"},
+    "output_path": {"type": "string"},
+    "receipt_authoritative": {"const": false},
+    "receipt_path": {"type": "string"},
+    "schema": {"const": "rd22.verifier-manifest.v001"},
+    "stdout_discipline": {
+      "additionalProperties": false,
+      "properties": {
+        "format": {"const": "canonical-json"},
+        "lines": {"const": 1},
+        "other_output_permitted": {"const": false}
+      },
+      "required": ["format", "lines", "other_output_permitted"],
+      "type": "object"
+    },
+    "verifier_root_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"}
+  },
+  "required": ["argv", "entry_point", "exit_contract", "input_roots",
+               "optimize", "output_path", "receipt_authoritative",
+               "receipt_path", "schema", "stdout_discipline",
+               "verifier_root_sha256"],
+  "type": "object"
+}

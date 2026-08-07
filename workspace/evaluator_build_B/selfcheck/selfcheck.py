@@ -48,6 +48,60 @@ def main():
         else:
             sys.stdout.write("%-26s: %d fields\n" % (name, len(fields)))
 
+    # conformance inventories (integration addendum, sealed Q-588)
+    if len(contracts.CHILD_ROW_FIELDS) != 14:
+        faults += fail("CHILD_ROW_FIELDS: %d, addendum says 14"
+                       % len(contracts.CHILD_ROW_FIELDS))
+    else:
+        sys.stdout.write("CHILD_ROW_FIELDS          : 14 fields (+3 carriers)\n")
+    if len(contracts.FIXTURE_ROW_FIELDS) != 16:
+        faults += fail("FIXTURE_ROW_FIELDS: %d, addendum says 16"
+                       % len(contracts.FIXTURE_ROW_FIELDS))
+    else:
+        sys.stdout.write("FIXTURE_ROW_FIELDS        : 16 fields\n")
+    if len(contracts.VERIFIER_MANIFEST_FIELDS) != 11:
+        faults += fail("VERIFIER_MANIFEST_FIELDS: %d, addendum says 11"
+                       % len(contracts.VERIFIER_MANIFEST_FIELDS))
+    else:
+        sys.stdout.write("VERIFIER_MANIFEST_FIELDS  : 11 fields\n")
+    if len(contracts.EVENT_LEDGER_FIELDS) != 6:
+        faults += fail("EVENT_LEDGER_FIELDS: %d, addendum says 6"
+                       % len(contracts.EVENT_LEDGER_FIELDS))
+    else:
+        sys.stdout.write("EVENT_LEDGER_FIELDS       : 6 digest carriers\n")
+
+    # the launch manifest validates against its own closed contract
+    from verifier import child_manifest
+    try:
+        m = child_manifest.build_manifest(
+            "0" * 64,
+            {"spec_sha256": "1" * 64, "ledger_sha256": "2" * 64,
+             "evidence_root_sha256": "3" * 64,
+             "runtime_snapshot_sha256": "4" * 64,
+             "runtime_gate_sha256": "5" * 64},
+            "out/verdict.json", "out/receipt.json", False)
+        child_manifest.manifest_sha256(m)
+        sys.stdout.write("launch manifest           : validates, addressable\n")
+    except Exception as exc:                      # noqa: BLE001 - fail closed
+        faults += fail("launch manifest: %s" % exc)
+
+    # fixture quarantine rule bites
+    try:
+        contracts.validate_fixture_row({
+            "fixture_id": "FX", "source": {"path": "", "sha256": "0" * 64,
+                                           "byte_span": [0, 0]},
+            "fixture_spec_sha256": "0" * 64, "primary_check_ids": [],
+            "execution_class": "STRUCTURAL", "input_root_sha256": "0" * 64,
+            "mutation_ids": [], "deterministic_procedure": "",
+            "prerequisites": [], "required_gate": None,
+            "expected_verdict_fields": {"a": True},
+            "procedure_started": False, "status": "PASS",
+            "observed_verdict_fields": {"a": True, "smuggled": 1},
+            "observed_evidence_sha256s": [], "reason": ""}, "fx")
+        faults += fail("fixture quarantine did not bite")
+    except canonical_json.VerifierFault:
+        sys.stdout.write("fixture quarantine        : rejects undeclared field\n")
+
     # canonical JSON round-trip and rejection behaviour
     if canonical_json.dumps_canonical({"b": 1, "a": 2}) != '{"a":2,"b":1}':
         faults += fail("canonical JSON key ordering")

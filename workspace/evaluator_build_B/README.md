@@ -38,6 +38,15 @@ formed. Any non-zero exit is a terminal FAIL for the chain.
 **Output.** Canonical UTF-8 JSON on stdout, one line, conforming to
 `contracts/verifier_verdict.schema.json`.
 
+## Launch manifest — `rd22.verifier-manifest.v001`
+
+`verifier/child_manifest.py` emits the R9 isolated-child launch manifest
+(integration addendum §3.2). `optimize` is **declared, not inferred**, so the
+normal and `-O` runs can be placed at the same `common_member_key`. `stdout`
+carries the verdict and nothing else; diagnostics go to `stderr`. Exit `1`
+(ran, found faults) and exit `2` (fail-closed before a verdict) are different
+facts and are never conflated — both are terminal FAIL for the chain.
+
 ## Self-check (syntax and schema only)
 
 ```

@@ -13863,6 +13863,16 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-590 — TASK 6 BUILD: BUILDER B CONFORMED — THE TWO OWED CHANGES PAID, THE INDEPENDENCE CORE BYTE-UNTOUCHED (2026-08-07)
+
+**Question.** Does the verifier conform to the sealed contract?
+
+**Answer.** YES (Dario, `STAGE8_TASK6_BUILD_B_CONFORMANCE_DARIO_V001.md`, SHA-256 `7949379601c6415700666e9c75973614253cd733fdfb38cf543b265b0fa73971`, relay 651; registrar re-mirrored the package). Both owed changes made AGAINST its own code: six event classes fetched by declared digest with the empty class carrying `sha256(b"[]")` (never null — "no events occurred" stays distinguishable from "events weren't recorded"); the fixture expectation now a named record compared field-by-field with an evidence cross-check the old opaque hash could never perform. Thirteen deltas tabled; six files byte-unchanged INCLUDING `spec_census.py` — the independence core demonstrably untouched ("the addendum changed the shape of expectations, never their source"). The self-check now encodes both prior mistakes as regression lines; `python -O` byte-identical; one cosmetic duplication disclosed rather than tidied. Scope exact: no chain run, no claimed agreement with A — "whether they agree is precisely what the first run is for." And the closing fact for the record: "where my implementation and the specification differed, the specification was right both times."
+
+**Remaining before invocation:** 652 (the evidence payload assembly) and 653 (its spot-check).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

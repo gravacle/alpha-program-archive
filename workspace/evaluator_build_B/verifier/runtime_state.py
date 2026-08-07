@@ -23,14 +23,16 @@ UNAUTHORIZED_SNAPSHOT_SHA256 = (
 
 RUNTIME_SUBJECT_FIELDS = ("snapshot_sha256", "gate_sha256", "trust_root")
 
-EVENT_LEDGERS = (
-    "module_ledger",
-    "native_ledger",
-    "open_event_ledger",
-    "process_event_ledger",
-    "network_event_ledger",
-    "mutation_event_ledger",
-)
+# Integration addendum §1.3 (OWED CHANGE 1): the child row carries DIGESTS,
+# not ledger objects. The pre-conformance code indexed objects named
+# `module_ledger` etc.; the sealed child-row pattern is `<class>_ledger_sha256`.
+# The spec won over the adapter's convenience.
+from .contracts import EVENT_LEDGER_FIELDS
+
+# Canonical digest of the empty event list. Addendum §1.3: a class with no
+# events carries THIS, never null and never an omitted field, so that
+# "no events occurred" and "events were not recorded" stay distinguishable.
+EMPTY_LEDGER_SHA256 = sha256_bytes(b"[]")
 
 
 def load_runtime_subject(snapshot_path, gate_path):
@@ -97,39 +99,40 @@ def revalidate_trust_snapshots(snapshots, authorized_trust_root, where):
     return True
 
 
-def reclassify_events(ledgers, where):
-    """Recompute each event ledger's digest and summarise its classification.
+def reclassify_events(child_row, evidence_dir, where, loader):
+    """Reclassify all six event classes from the child row's OWN digests.
 
-    The verifier reclassifies rather than accepting the producer's labels: a
-    ledger is admitted only when its recomputed digest matches its declared
-    one, and any event class outside the closed set fails closed.
+    Addendum §1.3. Each carrier names a content-addressed ledger; the verifier
+    fetches it by that digest, recomputes the canonical digest of the event
+    list, and compares. The producer's labels are recomputed, never accepted.
+
+    `loader(path, digest, where)` is injected so this stays testable without a
+    live filesystem; it must fail closed on mismatch.
     """
-    if not isinstance(ledgers, dict):
-        raise VerifierFault("%s: event ledgers must be an object" % where)
-    require_exact_fields(ledgers, EVENT_LEDGERS, where)
+    from .canonical_json import encode_canonical, loads_strict
 
-    from .canonical_json import encode_canonical
     out = {}
-    for name in EVENT_LEDGERS:
-        ledger = ledgers[name]
-        if not isinstance(ledger, dict):
-            raise VerifierFault("%s.%s: not an object" % (where, name))
-        for field in ("declared_sha256", "events"):
-            if field not in ledger:
-                raise VerifierFault(
-                    "%s.%s: missing %r" % (where, name, field))
-        events = ledger["events"]
+    for field in EVENT_LEDGER_FIELDS:
+        if field not in child_row:
+            raise VerifierFault("%s: missing event carrier %r" % (where, field))
+        digest = child_row[field]
+        require_sha256(digest, "%s.%s" % (where, field))
+
+        if digest == EMPTY_LEDGER_SHA256:
+            out[field] = {"sha256": digest, "event_count": 0,
+                          "note": "declared-empty"}
+            continue
+
+        blob = loader("%s/%s.json" % (evidence_dir.rstrip("/"), digest),
+                      digest, "%s.%s" % (where, field))
+        events = loads_strict(blob.decode("utf-8"))
         if not isinstance(events, list):
-            raise VerifierFault("%s.%s.events: not a list" % (where, name))
-        recomputed = sha256_bytes(encode_canonical(events))
-        declared = ledger["declared_sha256"]
-        require_sha256(declared, "%s.%s.declared_sha256" % (where, name))
-        if recomputed != declared:
             raise VerifierFault(
-                "%s.%s: ledger digest mismatch (declared %s, recomputed %s)"
-                % (where, name, declared, recomputed))
-        out[name] = {
-            "sha256": recomputed,
-            "event_count": len(events),
-        }
+                "%s.%s: ledger is not a list" % (where, field))
+        recomputed = sha256_bytes(encode_canonical(events))
+        if recomputed != digest:
+            raise VerifierFault(
+                "%s.%s: canonical digest %s != declared %s"
+                % (where, field, recomputed, digest))
+        out[field] = {"sha256": recomputed, "event_count": len(events)}
     return out
