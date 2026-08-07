@@ -82,7 +82,7 @@ def canonical_bytes(value):
         text = json.dumps(value, ensure_ascii=False, allow_nan=False, sort_keys=True, separators=(",", ":"))
     except (TypeError, ValueError) as exc:
         fail("CANONICAL_JSON", str(exc))
-    return (text + "\n").encode("utf-8")
+    return text.encode("utf-8")
 
 
 def exact_keys(value, keys, label):
@@ -549,11 +549,11 @@ def validate_verifier_manifest(path, expected, expected_output, expected_receipt
 
 
 def verifier_stdout(data, expected_verdict, verifier_root, runtime):
-    if data.count(b"\n") != 1 or not data.endswith(b"\n"):
-        fail("VERIFIER_STDOUT_LINES", data.decode("utf-8", errors="replace")[-4000:])
+    if not data:
+        fail("VERIFIER_STDOUT_EMPTY", "missing canonical JSON value")
     value = strict_json(data, "verifier stdout")
     if canonical_bytes(value) != data:
-        fail("VERIFIER_STDOUT_CANONICAL", "one canonical JSON line required")
+        fail("VERIFIER_STDOUT_CANONICAL", "one tight canonical JSON value required")
     fields = {
         "authority_firewall", "authorization_sha256", "census", "checks_replayed",
         "findings", "independence", "producer_comparison", "runtime_subject",

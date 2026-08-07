@@ -13951,6 +13951,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-597 — TASK 6 BUILD: RUN 006 — THE CANON GATE PASSED; THE MACHINE ADJUDICATED THE SENTINEL SPLIT ITSELF: EVIDENCE ROOT IS PRE-BOUNDABLE, ONLY THE LEDGER IS RUN-SCOPED (2026-08-07)
+
+**Question.** What did run 006 establish?
+
+**Answer.** The canon dispute is closed (Codex 2's fix `STAGE8_TASK6_CANON_NEWLINE_FIX_LANE2_V001.md`, SHA-256 `f2dc96d51a61d024785ebdc3e6f9c23767d9508cf98dcc5e29fe56354ff26ce2`, relay 656: tight JSON, 16 artifacts regenerated, no other canon deviation) — and the chain advanced to the next gate: `VERIFIER_INPUT_ROOT`, where the parent DISPLAYED a concrete expected `evidence_root_sha256` (`dfb29bf2…`) against B's all-zero sentinel. **The machine thereby settled the Q-594 deferral on facts: the evidence root is an INPUT root, computable before any child runs — pre-boundable; only `ledger_sha256` (a producer OUTPUT digest) is genuinely run-scoped.** The addendum's proposed 3/2 pinned/run split corrects to 4/1. Fix owed by Builder B (relay 657): bind the evidence root by INDEPENDENT computation from the sealed evidence manifest (never by copying the parent's error display — custody), keep the ledger sentinel with its self-detecting guard, and propose the addendum V002 wording as 4/1. Six gates now enforced across six runs, every stop specific and owned.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

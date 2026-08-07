@@ -105,7 +105,7 @@ def canonical_bytes(value):
         )
     except (TypeError, ValueError) as exc:
         fail("CANONICAL_JSON", str(exc))
-    return (text + "\n").encode("utf-8")
+    return text.encode("utf-8")
 
 
 def exact_keys(value, required, label):

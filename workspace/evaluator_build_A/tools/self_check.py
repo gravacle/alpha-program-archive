@@ -58,7 +58,7 @@ def load_json(path):
         value = json.loads(data.decode("utf-8"), object_pairs_hook=pairs, parse_constant=nonfinite)
     except (UnicodeDecodeError, json.JSONDecodeError) as exc:
         stop("JSON_PARSE", f"{path}:{exc}")
-    encoded = (json.dumps(value, ensure_ascii=False, allow_nan=False, sort_keys=True, separators=(",", ":")) + "\n").encode("utf-8")
+    encoded = json.dumps(value, ensure_ascii=False, allow_nan=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
     if data != encoded:
         stop("JSON_CANONICAL", path)
     return value, data
@@ -348,7 +348,7 @@ def main():
     child_row_schema = terminal_schema["properties"]["children"]["items"]
     if len(child_row_schema["properties"]) != 14 or child_row_schema.get("additionalProperties") is not False:
         stop("CHILD_ROW_CONTRACT", child_row_schema)
-    empty_digest = digest(b"[]\n")
+    empty_digest = digest(b"[]")
     synthetic_child = {field: empty_digest for field in child_row_schema["properties"]}
     synthetic_child["optimize"] = 0
     synthetic_child["receipt_authoritative"] = False
