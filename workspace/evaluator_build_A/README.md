@@ -4,9 +4,10 @@ This directory contains Builder A's fresh parent and producer. It contains no
 verifier implementation. `parent.py` is the direct R0 entry point and
 `producer.py` is the normal/optimized child target.
 
-The child check map retains the authorized V005 runtime pin. Its 66 descriptor
-rows are byte-identical to V006's descriptor rows; this relay does not silently
-vary the cross-builder runtime pin.
+The child check map is pinned to specification V007. Exactly one descriptor
+changes from V006: `C-B-V009-06` now carries the principal-ruled
+single-authority DAG and byte-grounding criterion; the other 65 rows are
+byte-identical to V006.
 Each structural row is bound to its descriptor SHA-256 and an ordered opcode
 contract. A structural record that is absent, has the wrong descriptor hash,
 has the wrong content root, omits an invocation, adds an invocation, or returns
@@ -58,13 +59,22 @@ terminal ledger after R10 succeeds. The parent fails closed before verifier
 launch if the required verifier manifest, its pin, or any of its contracts is
 absent or malformed.
 
-`inputs/evidence/` contains ten byte-identical, content-addressed copies of
-sealed packet/workspace search and display sources plus the exact 932-byte
-relocated `stage_dependencies` member and its tight canonical two-argument DAG
-serialization. Those two new payloads ground only `C-B-V009-06`. The remaining
+`inputs/evidence/` contains eleven byte-identical, content-addressed copies of
+sealed packet/workspace search and display sources, the exact 932-byte
+relocated `stage_dependencies` member, its tight canonical single-authority DAG
+serialization, and the prior paired-argument bytes retained as a supersession
+witness. The current member and single-authority serialization ground only
+`C-B-V009-06`. The remaining
 55 structural records and all three structural-fixture records remain
 `ABSENT_OF_RECORD`. No Builder B verifier, Custodian invocation, board change,
 seal change, or detached signature is silently bundled here.
+
+Each produced check row carries `invocation:null` or the one consumed-argument
+invocation. For `C-B-V009-06`, its instance ID binds the grounding source digest
+and half-open byte span while the raw payload digest binds the exact span bytes.
+Builder B's sealed verdict schema still carries the V005 spec const at the time
+of this build; Q-610 requires its parallel V007 re-pin before Custodian C runs
+the coordinated chain.
 
 For every digest placed in a produced row's `observed_evidence_sha256s`, the
 producer materializes the exact tight canonical JSON it consumed or produced

@@ -491,9 +491,12 @@ def opcode_units(args):
 def opcode_dag(args):
     graph = args.get("graph")
     required = args.get("required_parents")
-    if not isinstance(graph, dict) or not isinstance(required, dict):
+    authority = args.get("authority")
+    single_authority = authority == "PRINCIPAL_SINGLE_AUTHORITY" and required is None and set(args) == {"authority", "graph"}
+    paired_authority = authority is None and isinstance(required, dict) and set(args) == {"graph", "required_parents"}
+    if not isinstance(graph, dict) or not (single_authority or paired_authority):
         return result(False, "DAG_INPUT")
-    if graph != required:
+    if paired_authority and graph != required:
         return result(False, "DAG_PARENT_MISMATCH")
     nodes = set(graph)
     for node, parents in graph.items():
@@ -868,6 +871,7 @@ def make_check_row(descriptor, evidence_records, requirement_sha, payload_sink=N
         "prerequisites": ["P0"],
         "required_gate": descriptor["required_gate"],
         "expected_predicate": descriptor["expected_predicate"],
+        "invocation": None,
         "procedure_started": False,
         "status": "ERROR",
         "observed_evidence_sha256s": [],
@@ -892,6 +896,25 @@ def make_check_row(descriptor, evidence_records, requirement_sha, payload_sink=N
     base["reason"] = reason
     if isinstance(record.get("evidence"), dict):
         base["input_root_sha256"] = record["evidence"].get("input_root_sha256", requirement_sha)
+        linked = [item for item in record["evidence"].get("invocations", []) if item.get("instance_id") is not None]
+        if len(linked) == 1:
+            citations = record.get("grounding_citations", [])
+            if len(citations) != 1:
+                base["status"] = "FAIL"
+                base["reason"] = "INPUT_INTEGRITY: BYTE_SPAN_LINKAGE_ABSENT"
+                return base
+            citation = citations[0]
+            linkage_fields = {"source_sha256", "span", "span_sha256"}
+            if not linkage_fields <= set(citation):
+                base["status"] = "FAIL"
+                base["reason"] = "INPUT_INTEGRITY: BYTE_SPAN_LINKAGE_INCOMPLETE"
+                return base
+            base["invocation"] = {
+                **linked[0],
+                "source_sha256": citation["source_sha256"],
+                "span": citation["span"],
+                "span_sha256": citation["span_sha256"],
+            }
     return base
 
 

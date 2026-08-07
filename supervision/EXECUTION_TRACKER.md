@@ -527,7 +527,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 684 | Dario | [6/TRANCHE] rebind evidence_root | **RETURNED. RUN 024: FIRST LAWFUL PASS (V009-06, both children); verifier withheld pending replay materialization -> 685 |
 | 685 | Codex 2 | [6/TRANCHE] materialize consumed evidence | **RETURNED. RUN 025: evidence replayed; fault moved inside — payload-role conflation in B's replay -> 686 |
 | 686 | Dario | [6/TRANCHE] replay by role | **RETURNED — REGISTERED (Q-610): 2 defects fixed, role law stated; next fault computed = V009-06 criterion prose -> spec V007 (687) |
-| 687 | Codex 2 | [6/TRANCHE] spec V007 + coordinated re-pin | **SENT** |
+| 687 | Codex 2 | [6/TRANCHE] spec V007 + coordinated re-pin | **RETURNED: V007 sealed (5 repairs), A re-pinned |
+| 688 | Dario | [6/TRANCHE] B's V007 const re-pin | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

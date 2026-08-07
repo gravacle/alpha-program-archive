@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 
-SPEC_SHA = "f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b"
+SPEC_SHA = "d38d31719b64839744a98da5ee005fb50119f9a26b2b98b0e1a1de445b5d4973"
 AUTH_SHA = "ff84c4a8ba5c7f8eabfbcc587475d3a5050c21d758a2788c5b9e28b7ee022340"
 LEDGER_SHA = "c09f2c246c48ddfd0df127da26a22f08ba9ffd44f5c2118c178a0a5eba5d00e8"
 PACKET_SHA = "9d35f4ed7831411961d61002f09afe02c9703f80b84aa05158e39b7f49b1a311"
@@ -23,7 +23,7 @@ GROUNDING_RELOCATION_SHA = "69334875b94679c16da9b8d6153242241ca3c202f0facc613059
 GROUNDING_SOURCE_SHA = "13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd"
 GROUNDING_MEMBER_SHA = "47e7c32915bc756fb5f6be25c4fc6dec5c079c8837176dc62499e0f34f4c9d3b"
 GROUNDING_VALUE_SHA = "889515d30cedf7d3af5da1a9e1ff7c7a88a1bf0d9227bdf37d64113302dfcb86"
-GROUNDING_ARGS_SHA = "344fecdc5d86dba727f872b82daecd8347872c0e86ab278262100cfa526f3ac7"
+GROUNDING_ARGS_SHA = "b5f15a9cf70acc8d439d74ce8425c89c5fcc71b077f6ac03a307d1f835823cb9"
 GROUNDING_PRECEDENCE_SHA = "70c4080eae018bd644a3f0694557f1c0e854d621aa61097c775737887fec528f"
 OPEN_CODES = ["STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME"]
 BRANCH_OUTCOME = {
@@ -205,7 +205,7 @@ def descriptors(spec_data, ledger_data):
         else:
             blocker_id = check_id[2:]
             start = line_offsets[raw]
-            source = {"byte_span": [start, start + len(raw.encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md", "sha256": SPEC_SHA}
+            source = {"byte_span": [start, start + len(raw.encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md", "sha256": SPEC_SHA}
         procedure = cells[3]
         expected = cells[4]
         gate = "RD22_STRUCTURAL_ONLY"
@@ -276,7 +276,7 @@ def fixture_rows(spec_data, check_rows):
                 "prerequisites": ["P0"],
                 "primary_check_ids": primary_ids,
                 "required_gate": "RD22_STRUCTURAL_ONLY" if execution_class == "STRUCTURAL" else " AND ".join(gates),
-                "source": {"byte_span": [start, start + len(row_bytes)], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md", "sha256": SPEC_SHA},
+                "source": {"byte_span": [start, start + len(row_bytes)], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md", "sha256": SPEC_SHA},
             }
         )
     return out
@@ -444,9 +444,9 @@ def build_v009_06_record(evidence_dir, source_path, descriptor):
         die("V009_06_PARSE", exc)
     if not isinstance(stage_dependencies, dict) or len(stage_dependencies) != 11:
         die("V009_06_GRAPH", type(stage_dependencies).__name__)
-    dag_args = {"graph": stage_dependencies, "required_parents": stage_dependencies}
+    dag_args = {"authority": "PRINCIPAL_SINGLE_AUTHORITY", "graph": stage_dependencies}
     dag_args_data = canonical(dag_args)
-    if sha(dag_args_data) != GROUNDING_ARGS_SHA or set(dag_args) != {"graph", "required_parents"}:
+    if sha(dag_args_data) != GROUNDING_ARGS_SHA or set(dag_args) != {"authority", "graph"}:
         die("V009_06_ARGS", sha(dag_args_data))
     if b"stage_dag" in member_data or b"status" in member_data or b"stage_dag" in dag_args_data or b"status" in dag_args_data:
         die("V009_06_BARRED_FIELD", "alternate encoding or status")
@@ -466,10 +466,16 @@ def build_v009_06_record(evidence_dir, source_path, descriptor):
         "input_root_sha256": content_root(input_files),
         "invocations": [
             {
+                "args": {"left": GROUNDING_MEMBER_SHA, "mask": [], "right": GROUNDING_MEMBER_SHA},
+                "instance_id": None,
+                "opcode": "COMPARE",
+                "result_name": "r_ground",
+            },
+            {
                 "args": dag_args,
                 "instance_id": "stage_dependencies@13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd:[18898,19830)",
                 "opcode": "DAG",
-                "result_name": "r_auto_01_dag",
+                "result_name": "r_dag",
             }
         ],
     }
@@ -503,7 +509,7 @@ def main():
     package = Path(__file__).resolve().parents[1]
     cleanroom = package.parent
     program = cleanroom.parent
-    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md"
+    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md"
     ledger_path = cleanroom / "BID_FULL_STACK_REVIEW_LEDGER_V003.md"
     packet_path = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001/STAGE7_PACKET_MANIFEST_V001.sha256"
     v011_path = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md"
@@ -553,6 +559,8 @@ def main():
     structural_ids = [row["check_id"] for row in rows if row["execution_class"] == "STRUCTURAL"]
     structural_fixture_ids = [row["fixture_id"] for row in fixtures if row["execution_class"] == "STRUCTURAL"]
     evidence_dir = package / "inputs/evidence"
+    spec_payload_name = f"{SPEC_SHA}--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md"
+    (evidence_dir / spec_payload_name).write_bytes(spec_path.read_bytes())
     row_by_id = {row["check_id"]: row for row in rows}
     v009_06_record = build_v009_06_record(evidence_dir, grounding_source_path, row_by_id["C-B-V009-06"])
     payload_inventory = [file_row(path, path.name) for path in sorted(evidence_dir.iterdir()) if path.is_file()]
@@ -569,6 +577,21 @@ def main():
             die("EVIDENCE_CENSUS", "check/fixture IDs")
         for check_id in structural_ids:
             evidence["check_records"][check_id]["descriptor_sha256"] = row_by_id[check_id]["descriptor_sha256"]
+        fixture_by_id = {row["fixture_id"]: row for row in fixtures}
+        for fixture_id in structural_fixture_ids:
+            fixture_record = evidence["fixture_records"][fixture_id]
+            fixture = fixture_by_id[fixture_id]
+            fixture_record["fixture_spec_sha256"] = fixture["fixture_spec_sha256"]
+            fixture_record["partial_payloads"] = [
+                {
+                    "payload_path": f"inputs/evidence/{spec_payload_name}",
+                    "payload_sha256": SPEC_SHA,
+                    "role": "SPEC_FIXED_SUBJECT_NOT_OBSERVATION",
+                    "source_path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md",
+                    "source_sha256": SPEC_SHA,
+                    "span": fixture["source"]["byte_span"],
+                }
+            ]
         if evidence["schema"] != "rd22.structural-evidence-manifest.v001":
             die("EVIDENCE_BINDING", "schema")
     else:

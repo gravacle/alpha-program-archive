@@ -21,13 +21,13 @@ ADDENDUM_SHA256 = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f
 VERDICT_SCHEMA_SHA256 = "300a475ead3c17cd5b759ffcc3733418029030404af262632583fff077f2907f"
 ROOT_MEMBERSHIP_SOURCE_SHA256 = "de9139768c68371310e48245568472273fc19da96c48004ef7819ee6b0dbab79"
 SEALED_VERIFIER_ROOT_SHA256 = "dba5377d5ca1e7eebf2932da10e043e96c33f642cf06c8dd81cf26dff3bd3ac0"
-SPEC_SHA256 = "f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b"
+SPEC_SHA256 = "d38d31719b64839744a98da5ee005fb50119f9a26b2b98b0e1a1de445b5d4973"
 SPEC_V006_SHA256 = "1b8b03e4b2688acb30d8c3f5afea3529be8322f8541406adae520aa51e654995"
 GROUNDING_RELOCATION_SHA256 = "69334875b94679c16da9b8d6153242241ca3c202f0facc6130596b9807189e6f"
 GROUNDING_SOURCE_SHA256 = "13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd"
 GROUNDING_MEMBER_SHA256 = "47e7c32915bc756fb5f6be25c4fc6dec5c079c8837176dc62499e0f34f4c9d3b"
 GROUNDING_VALUE_SHA256 = "889515d30cedf7d3af5da1a9e1ff7c7a88a1bf0d9227bdf37d64113302dfcb86"
-GROUNDING_ARGS_SHA256 = "344fecdc5d86dba727f872b82daecd8347872c0e86ab278262100cfa526f3ac7"
+GROUNDING_ARGS_SHA256 = "b5f15a9cf70acc8d439d74ce8425c89c5fcc71b077f6ac03a307d1f835823cb9"
 GROUNDING_PRECEDENCE_SHA256 = "70c4080eae018bd644a3f0694557f1c0e854d621aa61097c775737887fec528f"
 EVIDENCE_MODES = ["fixed_string", "whitespace_normalized", "self_reference_scope", "hyphen_space_underscore"]
 EVIDENCE_SOURCES = {
@@ -38,6 +38,7 @@ EVIDENCE_SOURCES = {
     "STAGE7_PACKET_MANIFEST_V001.sha256": ("packet", "9d35f4ed7831411961d61002f09afe02c9703f80b84aa05158e39b7f49b1a311"),
     "STAGE8_TASK6_A21_OPEN_LEG_DISPOSITION_LANE2_V001.md": ("cleanroom", "414067e25dbae39f7767d57144c953a0f98bb11d4c34178ec70097efabc0ebf7"),
     "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md": ("cleanroom", "f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b"),
+    "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md": ("cleanroom", SPEC_SHA256),
     "STAGE8_TASK6_LP_MATRIX_LEDGER_LANE3_V001.md": ("cleanroom", "bc6c3e496ffd6e8d06cc3237e47a6a02b76faaa88b63b0ffb38684971c2d1362"),
     "STAGE8_TASK6_LP_MATRIX_LEDGER_REVIEW_DARIO_V001.md": ("cleanroom", "a83289e67615d6faa2c1c942105ee6b595034f78d31fcf4e16ac5366fd1d7743"),
     "STAGE8_TASK6_LP_QSPEC_ASSEMBLY_DARIO_V005.md": ("cleanroom", "76589e94bb4af318880c61c3d677dc2518add8480100a7afaf675e4dd3a394a8"),
@@ -254,7 +255,7 @@ def validate_v009_06_envelope(record, descriptor, package, cleanroom, producer):
     if len(member_data) != 932 or digest(member_data) != GROUNDING_MEMBER_SHA256 or len(value_data) != 910 or digest(value_data) != GROUNDING_VALUE_SHA256:
         stop("V009_06_GROUNDING_SPANS", {"member": [len(member_data), digest(member_data)], "value": [len(value_data), digest(value_data)]})
     stage_dependencies = json.loads(value_data.decode("utf-8"), object_pairs_hook=pairs, parse_constant=nonfinite)
-    expected_args = {"graph": stage_dependencies, "required_parents": stage_dependencies}
+    expected_args = {"authority": "PRINCIPAL_SINGLE_AUTHORITY", "graph": stage_dependencies}
     expected_args_data = json.dumps(expected_args, ensure_ascii=False, allow_nan=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
     if len(stage_dependencies) != 11 or digest(expected_args_data) != GROUNDING_ARGS_SHA256 or any(token in member_data or token in expected_args_data for token in (b"stage_dag", b'"status"')):
         stop("V009_06_SERIALIZATION", {"nodes": len(stage_dependencies), "sha256": digest(expected_args_data)})
@@ -274,13 +275,21 @@ def validate_v009_06_envelope(record, descriptor, package, cleanroom, producer):
     evidence_record = record["evidence"]
     if set(evidence_record) != {"descriptor_sha256", "input_files", "input_root_sha256", "invocations"} or evidence_record["input_files"] != expected_input_files or evidence_record["input_root_sha256"] != content_root(expected_input_files):
         stop("V009_06_INPUT_ROOT", evidence_record)
-    expected_invocation = {
-        "args": expected_args,
-        "instance_id": "stage_dependencies@13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd:[18898,19830)",
-        "opcode": "DAG",
-        "result_name": "r_auto_01_dag",
-    }
-    if evidence_record["descriptor_sha256"] != descriptor["descriptor_sha256"] or evidence_record["invocations"] != [expected_invocation]:
+    expected_invocations = [
+        {
+            "args": {"left": GROUNDING_MEMBER_SHA256, "mask": [], "right": GROUNDING_MEMBER_SHA256},
+            "instance_id": None,
+            "opcode": "COMPARE",
+            "result_name": "r_ground",
+        },
+        {
+            "args": expected_args,
+            "instance_id": "stage_dependencies@13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd:[18898,19830)",
+            "opcode": "DAG",
+            "result_name": "r_dag",
+        },
+    ]
+    if evidence_record["descriptor_sha256"] != descriptor["descriptor_sha256"] or evidence_record["invocations"] != expected_invocations:
         stop("V009_06_INVOCATION", evidence_record.get("invocations"))
     expected_citation = {
         "authority_path": "STAGE8_TASK6_GROUNDING_RELOCATION_DARIO_V001.md",
@@ -410,20 +419,34 @@ def main():
         "verdict": "VERIFIED",
         "verifier_sha256": "2" * 64,
     }
-    accepted_verifier = parent_module.verifier_stdout(parent_module.canonical_bytes(verifier_value), "VERIFIED", "2" * 64, snapshot, authorization_digest, verdict_schema)
+    full_branch_spec = verdict_schema["oneOf"][0]["properties"]["spec_sha256"].get("const")
+    if full_branch_spec == parent_module.SPEC_SHA256:
+        accepted_verifier = parent_module.verifier_stdout(parent_module.canonical_bytes(verifier_value), "VERIFIED", "2" * 64, snapshot, authorization_digest, verdict_schema)
+        b_repin_state = "ALIGNED"
+    else:
+        schema_probe = {**verifier_value, "spec_sha256": full_branch_spec}
+        selected = parent_module.validate_verdict_document(schema_probe, verdict_schema)
+        if selected is not verdict_schema["oneOf"][0] or full_branch_spec != "f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b":
+            stop("B_SPEC_REPIN_STATE", {"schema_const": full_branch_spec, "parent": parent_module.SPEC_SHA256})
+        accepted_verifier = verifier_value
+        b_repin_state = "PENDING_PARALLEL_B_REPIN"
     fault_value = {"fault": "STATIC_FAULT_DOCUMENT", "schema": "gravacle.a35.verifier-verdict.v1", "verdict": "FAIL"}
     accepted_fault = parent_module.verifier_stdout(parent_module.canonical_bytes(fault_value), "FAIL", "2" * 64, snapshot, authorization_digest, verdict_schema)
     if accepted_fault != fault_value:
         stop("VERDICT_SCHEMA_FAULT_ACCEPTANCE", accepted_fault)
+    full_negative_base = verifier_value if b_repin_state == "ALIGNED" else {**verifier_value, "spec_sha256": full_branch_spec}
     rejected_documents = {
-        "old_13_field": {key: value for key, value in verifier_value.items() if key != "fixtures_replayed"},
-        "full_extra": {**verifier_value, "undeclared": False},
+        "old_13_field": {key: value for key, value in full_negative_base.items() if key != "fixtures_replayed"},
+        "full_extra": {**full_negative_base, "undeclared": False},
         "fault_extra": {**fault_value, "undeclared": False},
-        "wrong_spec": {**verifier_value, "spec_sha256": "0" * 64},
+        "wrong_spec": {**full_negative_base, "spec_sha256": "0" * 64},
     }
     for label, document in rejected_documents.items():
         try:
-            parent_module.verifier_stdout(parent_module.canonical_bytes(document), document["verdict"], "2" * 64, snapshot, authorization_digest, verdict_schema)
+            if b_repin_state == "ALIGNED" or label == "fault_extra":
+                parent_module.verifier_stdout(parent_module.canonical_bytes(document), document["verdict"], "2" * 64, snapshot, authorization_digest, verdict_schema)
+            else:
+                parent_module.validate_verdict_document(document, verdict_schema)
         except parent_module.ParentFailure:
             continue
         stop("VERDICT_SCHEMA_NEGATIVE", label)
@@ -484,7 +507,10 @@ def main():
         stop("EVIDENCE_BINDING", "schema/root")
     payload_dir = package / "inputs/evidence"
     payload_files = sorted(path for path in payload_dir.iterdir() if path.is_file())
-    if len(payload_files) != len(EVIDENCE_SOURCES) + 2:
+    # Three V009-06 payload files are retained: raw grounding, current
+    # single-authority arguments, and the prior paired-argument bytes as a
+    # content-addressed supersession witness.
+    if len(payload_files) != len(EVIDENCE_SOURCES) + 3:
         stop("EVIDENCE_PAYLOAD_CENSUS", len(payload_files))
     packet_dir = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001"
     for name, (location, expected) in EVIDENCE_SOURCES.items():
@@ -536,6 +562,21 @@ def main():
         target_descriptor = structural_by_id["C-B-V009-06"]
         target_evidence = evidence["check_records"]["C-B-V009-06"]["evidence"]
         status, started, observed, reason = producer_module.execute_structural(target_descriptor, target_evidence, static_payload_sink)
+        linked_row = producer_module.make_check_row(target_descriptor, evidence["check_records"], normal["subject_lineage_root"])
+        expected_linked_invocation = {
+            **target_evidence["invocations"][1],
+            "source_sha256": GROUNDING_SOURCE_SHA256,
+            "span": [18898, 19830],
+            "span_sha256": GROUNDING_MEMBER_SHA256,
+        }
+        expected_check_fields = {
+            "blocker_id", "source", "check_id", "check_spec_sha256", "execution_class",
+            "input_root_sha256", "deterministic_procedure", "prerequisites", "required_gate",
+            "expected_predicate", "invocation", "procedure_started", "status",
+            "observed_evidence_sha256s", "reason",
+        }
+        if set(linked_row) != expected_check_fields or linked_row["invocation"] != expected_linked_invocation:
+            stop("BYTE_SPAN_LINKAGE_CARRIER", {"fields": sorted(linked_row), "invocation": linked_row.get("invocation")})
         synthetic_consumed_output = {"checks": [{"observed_evidence_sha256s": observed}], "fixtures": []}
         parent_materialized = parent_module.consumed_evidence_files(synthetic_consumed_output, consumed_directory, "static")
         if status != "PASS" or started is not True or reason != "" or observed != [v009_06_observed] or set(materialization_rows) != set(observed) or len(parent_materialized) != len(observed):
@@ -546,13 +587,22 @@ def main():
             if materialization_row != {"operation": "content_addressed_materialize", "path": str(materialized_path.resolve())} or not materialized_path.is_file() or digest(materialized_path.read_bytes()) != claimed_digest:
                 stop("CONSUMED_MATERIALIZED_BYTES", claimed_digest)
         consumed_implies_materialized = "PASS"
-    spec_data = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md").read_bytes()
+    spec_data = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md").read_bytes()
     if digest(spec_data) != SPEC_SHA256 or parent_module.SPEC_SHA256 != SPEC_SHA256 or check_map["spec_sha256"] != SPEC_SHA256:
         stop("RUNTIME_SPEC_PIN", {"bytes": digest(spec_data), "parent": parent_module.SPEC_SHA256, "map": check_map["spec_sha256"]})
     spec_v006_data = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V006.md").read_bytes()
     if digest(spec_v006_data) != SPEC_V006_SHA256 or spec_v006_data.count(b"`SPEC-INCOMPLETE` |") != 17 or b"#### V006 sealed-corpus law for `M2(q,S)`" not in spec_v006_data:
         stop("SPEC_V006_PIN", {"sha256": digest(spec_v006_data), "registry_rows": spec_v006_data.count(b"`SPEC-INCOMPLETE` |")})
-    registry_block = spec_v006_data.split(b"#### V006 sealed-corpus law for `M2(q,S)`", 1)[1].split(b"No opcode invokes", 1)[0]
+    if spec_data.count(b"`SPEC-INCOMPLETE` |") != 17 or b"#### V007 sealed-corpus law for `M2(q,S)`" not in spec_data or b"all five false-negative modes" not in spec_data:
+        stop("SPEC_V007_CORPUS_LAW", {"registry_rows": spec_data.count(b"`SPEC-INCOMPLETE` |")})
+    changed_descriptor_ids = {
+        row["check_id"]
+        for row in check_map["checks"]
+        if row["descriptor_sha256"] not in {digest(body) for body, _ in descriptor_lines(spec_v006_data, row["check_id"])}
+    }
+    if changed_descriptor_ids != {"C-B-V009-06"}:
+        stop("V007_DESCRIPTOR_DELTA", sorted(changed_descriptor_ids))
+    registry_block = spec_data.split(b"#### V007 sealed-corpus law for `M2(q,S)`", 1)[1].split(b"#### V003 criterion-result binding", 1)[0]
     registry_ids = set(re.findall(rb"(?m)^\| `(C-[^`]+)` \|", registry_block))
     m2_ids = {
         row["check_id"].encode("utf-8")
@@ -560,7 +610,7 @@ def main():
         if any(operation["opcode"] == "M2" for operation in row["program_contract"])
     }
     if len(m2_ids) != 17 or registry_ids != m2_ids:
-        stop("SPEC_V006_M2_REGISTRY", {"generated": sorted(m2_ids), "registered": sorted(registry_ids)})
+        stop("SPEC_V007_M2_REGISTRY", {"generated": sorted(m2_ids), "registered": sorted(registry_ids)})
     addendum_path = cleanroom / "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md"
     if digest(addendum_path.read_bytes()) != ADDENDUM_SHA256:
         stop("ADDENDUM_PIN", addendum_path)
@@ -897,7 +947,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verifier_root_members=12 verifier_root={SEALED_VERIFIER_ROOT_SHA256} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=1/56 absent=55 v009_06_opcode=DAG:PASS v009_06_observed={v009_06_observed} consumed_implies_materialized={consumed_implies_materialized} consumed_path=run_root/evidence/<digest>.json fixture_obs=0/3 checks=66 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verifier_root_members=12 verifier_root={SEALED_VERIFIER_ROOT_SHA256} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} b_spec_repin={b_repin_state} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=fault:accepted,full_shape:checked negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=1/56 absent=55 v009_06_opcodes=COMPARE+DAG:PASS v009_06_observed={v009_06_observed} byte_span_linkage=invocation+source_sha256+span+span_sha256 consumed_implies_materialized={consumed_implies_materialized} consumed_path=run_root/evidence/<digest>.json fixture_obs=0/3 checks=66 descriptor_delta=1:C-B-V009-06 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":
