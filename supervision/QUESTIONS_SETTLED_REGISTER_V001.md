@@ -13796,6 +13796,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-585 — THE RD-22 RULINGS: THE BUILD AUTHORIZED; THE v012 PIN; CUSTODY A=CODEX2 / B=DARIO / C=REGISTRAR (2026-08-07)
+
+**Question.** Does the evaluator get built, on which runtime, by whom?
+
+**Answer.** PRINCIPAL RULINGS, three parts, decision of record `DECISION_RD22_BUILD_AUTHORIZED_2026-08-07.md` (SHA-256 `ff84c4a8ba5c7f8eabfbcc587475d3a5050c21d758a2788c5b9e28b7ee022340`): (1) the build AUTHORIZED under spec V005, scoped to implementation + the first STRUCTURAL run only — no physical gate opens, the fences unchanged; (2) the runtime pin = the v012 SNAPSHOT with its own v010 gate contract, trust root extracted and displayed at R0, fail-closed on mismatch, the v014 substitution expressly not authorized; (3) custody: Builder A = Codex 2 (producer + parent), Builder B = Dario (verifier, sealed-inputs-only independence), Custodian C = the registrar, the terminal assurance record realized through the public git deploy, the BRANCH_OUTCOME display carried as an implementation-manifest obligation. Builders launch in parallel (647/648); the builds are independent by construction.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
