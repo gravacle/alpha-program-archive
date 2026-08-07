@@ -13602,6 +13602,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-573 — TASK 6 SUBGATE: THE SPEC CLASS-CHECK — SEALED, THEN CORRECTED POST-SEAL BY ITS OWN AUTHOR; THE ESCAPE-HATCH CLASS RECURS IN C-B-V009-04; 28/28 WITHDRAWN (2026-08-07)
+
+**Question.** Does the spec V003's binding repair survive the bounded class-check?
+
+**Answer.** TWO-STAGE, and both stages are of record (Dario, relay 635). **The sealed artifact** (`STAGE8_TASK6_SPEC_V003_CLASS_CHECK_DARIO_V001.md`, SHA-256 `01adfa83043bf1e01ffa965a7f955ebcce6b74b27e4e6728b71c375df7976063`) confirms the class repair's architecture — SP1-07's hatch dead under all four M-2 modes (6/6 identifiers zero, eleven spelling variants zero); completeness rebound via EXACT(cardinality>0) + COMPARE + per-ID KERNEL; **the manifest rule at :340-342 closing the producer-suppliable-set FAMILY**; SP2-07's reversal correct for a stated reason (the sealed "load-bearing" modifies AUDIT, not ASSERT — V002's drift was a modifier shift); protected sections recomputed, not trusted; four residual one-line items (a false FINAL_INSERTIONS=248, actual 261 — a `grep '^+[^+]'` blank-line artifact; two under-notated BOUND rows; SP2-07's §3 requirement line still carrying the convicted parse). It stated a precise coverage boundary: 7 of 28 re-renders read in full, 21 verified mechanically only.
+
+**The post-seal correction (the lane's, unprompted, per the Q-529 precedent):** the commissioned breadth check returned after sealing and landed EXACTLY inside the stated boundary — **C-B-V009-04 is FATAL, verified personally at source by the reviewer**: V002's directional predicate ("exactly one licensed dispatch occurs at every admitted input") was DELETED in V003; the only per-input conjunct is a symmetric COMPARE against a producer-declared triple `E_log[x]`; the three `.success` bits are not conjuncts of PASS; `D_formal/D_principal/D_taylor` occur at one line and nowhere else, so NOTHING constrains distinctness. Failure display: a producer sets all three domains equal and declares `{IN_DOMAIN, IN_DOMAIN, IN_DOMAIN}` — every conjunct passes while the three logarithms share one domain, the literal pre-fix defect. **This is the SP1-07 class recurring: a producer-supplied object with no opcode forcing its content, swapped in for a directional predicate.** Also re-graded harder by the reviewer against itself: C-B-V011-SP1-05's ordering atom ("selection occurs only after enumeration") has NO receiver — unbound, not under-notated. **RE_RENDERS = 28/28 CONFIRMED is WITHDRAWN.** Ten further findings survived adversarial refutation but are NOT personally verified and are carried as UNVERIFIED: FATAL on C-B-V010-05 and C-B-V011-SP2-05; MATERIAL on C-B-V010-01, C-B-V010-13, C-B-V011-MR-05, C-B-V011-SP1-02; FATAL+MATERIAL on C-B-V011-MR-07. Six of 28 re-renders implicated in total.
+
+**Process lessons, logged to LOCKED_PROCESS:** (1) THE VERDICT-LINE SCOPE RULE — a final-line verdict may not claim coverage the artifact's own scope statement disclaims ("the headline should have matched the caveat"; the boundary WORKED, the headline didn't). (2) MEASURE WITH THE ARTIFACT'S DECLARED CONVENTIONS — the reviewer nearly charged a catastrophic false carriage by measuring with `-U 0` against a spec that declares `-U 3`; and its mechanical BOUND test flagged 33 rows of which 31 were false positives under the spec's own compact-prose license. Both near-misses self-caught and reported.
+
+**Consequence.** SPEC V003 = NEEDS V004, scoped to: C-B-V009-04 (confirmed), SP1-05's unbound atom (confirmed), the ten unverified findings AFTER verification, plus the four residual one-liners. Sequence: Dario verifies the ten and seals the correction of record (637); Codex 2 builds V004 against the confirmed set only (638). The correction artifact is commissioned rather than the sealed check overwritten.
+
+**Custody.** Checked, sealed, and then corrected by Dario against itself; registrar mirrored both ways. Registered by the reviewer from the artifact AND the lane's post-seal correction.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

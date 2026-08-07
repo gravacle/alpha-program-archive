@@ -267,3 +267,15 @@ Origin: the false carriage certificates of the DoR arc and Q-566, and the V003
 near-miss self-caught on 2026-08-07 by exactly this procedure. Failure mode is
 mechanical, not motivational: warnings do not prevent it; only the displayed
 post-write checks do.
+
+## VERDICT-LINE SCOPE RULE + DECLARED-CONVENTIONS RULE (added 2026-08-07, Q-573)
+
+1. A final-line verdict may not claim coverage that the artifact's own scope
+   statement disclaims. If the scope says "21 of 28 verified mechanically only,"
+   the verdict line carries that qualifier — the headline must match the caveat,
+   because the headline is what gets read alone.
+2. Before measuring an artifact (diff hunks, counts, spans), read and use ITS
+   declared conventions (-U context, counting rules, licensed prose forms). Two
+   near-misses of record: a -U 0 measurement against a declared -U 3 spec almost
+   charged a false carriage; a mechanical atom test flagged 33 rows where the
+   spec's own license made 31 of them lawful.
