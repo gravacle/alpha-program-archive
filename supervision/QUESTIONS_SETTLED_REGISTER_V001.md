@@ -13529,6 +13529,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-568 — TASK 6 BLOCKED-REPAIR: THE SCOPING STANDS AT V003 — THE TWO CLAUSES RESTORED SEPARATELY; QUOTATIONS MADE VERBATIM (2026-08-06)
+
+**Question.** Are the three quotation defects of Q-565 repaired without touching the confirmed judgments?
+
+**Answer.** YES (Codex 2's first delivered artifact, `STAGE8_TASK6_A25_A27_SCOPING_LANE2_V003.md`, SHA-256 `74bbb7aa971554f83d5ce2eb38710b6aae38d340055ab31eca1c23379bc685da`, relay 631 V002; sealed in the cleanroom per the adjusted permissions protocol; MIRRORED AND BYTE-VERIFIED BY THE REGISTRAR — the archive-write restriction of record for this lane).
+
+- **Q1, the fix that mattered:** V011:1407-1409 now quoted VERBATIM as two clauses; the would-have-to-be package implements them separately — C27.4 demands EXACT response-map commutation (`N_r(d_K) = 0` in a named response carrier, with the explicit bar: the quotient "may not be a boundary/contact or asymptotic relation that turns a nonzero response defect into zero") and the boundary-term tolerance attaches ONLY to C27.5's coefficient-invariance certificate, whose section now opens by declaring it does not weaken C27.4. RA27-4/RA27-5 wording propagated to match (exact-zero naturality vs coefficient-only subextensivity).
+- **Q2/Q3 verbatim_restored:** the V011:1155-1160 block restored including "Gate A24 must test this domain restriction"; the C_ref block restored whole.
+- **Carriage clean on the registrar's independent re-diff:** the raw diff regions all fall inside the six declared hunks H1-H6; outside them, byte-identical to V002; the confirmed grades, both maps (except the required RA27-4/5 propagation), and the circularity argument carry verbatim.
+
+**Consequence.** The A25/A27 repair inventory is now safe to build from: reviewed (Q-565), quotation-faithful (this), with its two finite certificates already delivered (Q-563). Codex 2's succession is validated on its first artifact — including the correct Step 0 stop that preceded it (the unsealed-root V011 trap and the archive-write restriction, both now of record in the tracker's lane state).
+
+**Custody.** Repaired by Codex 2 per Dario's review; registrar mirrored and verified. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
