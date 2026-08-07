@@ -299,3 +299,16 @@ multiple rows; both readings are honored one level apart. Prior artifacts using
 hunk-level shared assignment WITH lawfulness grounds displayed (assembly V004's
 Z2) are read under this amendment as requiring the line-level decomposition in
 their next version, not as false certificates.
+
+## SWEEP COVERAGE RULE + TEST-CLASS RULE (added 2026-08-07, Q-578)
+
+1. A conformance/sweep transcript must display its PER-ITEM coverage, not just
+   its conclusion. `failures = []` without the row-by-row account fails the way
+   a carriage certificate fails when it reports a count without its partition.
+2. Every conformance test is classified MECHANICAL (pattern-decidable; two
+   independent implementations agree) or ADJUDICATED (requires per-row reading
+   of which demand the forcer must carry). Misclassifying an adjudicated test
+   as mechanical produces honest-wrong zeros: the next lane reruns the pattern,
+   reports zero, and is wrong again. (Origin: BR-2 proved mechanical — two runs
+   agreed at zero; BR-1 proved adjudicated — two implementations by the SAME
+   reviewer erred in opposite directions, +5 and 16 against a true 'at least 7'.)

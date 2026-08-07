@@ -13683,6 +13683,24 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-578 — TASK 6 SUBGATE: THE SPEC V004 CHECK — THE CLOSED LIST PRAISED AND CONFIRMED 11/11; BR-1'S ZERO-FAILURE CLAIM DECISIVELY FALSE; THE LAW SOUND, ITS TEST UNDERDETERMINED (2026-08-07)
+
+**Question.** Does the spec V004 stand?
+
+**Answer.** NEEDS V005 — with the two-stage record now familiar and both stages of record (Dario, sealed `STAGE8_TASK6_SPEC_V004_CHECK_DARIO_V001.md`, SHA-256 `502e3b3b14bb0d55c42efef7e0c950d15af25171a1036e12a22e98d5ac52ba67`, relay 641, plus its post-seal correction).
+
+- **What holds, verified personally:** the BR laws installed byte-faithfully (742/513 chars identical); the closed list 11/11 — "the best repair work I've checked in this program" — with items 1, 2, 4 exceeding the column in the safe direction (producer objects DELETED, not merely forced); scope exact (58 rows byte-identical; the 8 changed are precisely the closed list); carriage exact under the declared -U 3 (1490-86+350=1754).
+- **The finding: BR-1's zero-failure transcript is FALSE.** Dario's own run found failures on CARRIED rows — cleanest `C-B-V009-02` (ENUM + ID-compare + UNITS against `E_equiv[e]`, no KERNEL anywhere; a producer declaring the dimensionful-scale equivalence ALLOWED passes; the demanded rejection exists only as prose). V004's transcript listed only the six repaired slices and emitted `failures = []` — **"a sweep that reports its conclusion without its coverage fails the way a carriage certificate does when it reports a count without its partition."** Two of the failing rows are the very classes the closed list repaired one instance at a time — "a closed list cannot reach carried rows; a law can, but only if it is actually run over them."
+- **The post-seal correction, verified at source:** the sealed +5 WITHDRAWN as an undercount — the detector's bias was per-row (crediting any KERNEL-conclusion COMPARE as forcing every `E_*` in the row) where BR-1 requires the forcer in the SAME SLICE. `C-B-V009-13` (the KERNEL forces `E_holdout.selection`, not `E_holdout[m]`) and `C-B-V011-MR-02` (forces `M_stats_status`, not `E_stats[s]`) confirmed at source. But the per-field re-run's 16 over-claims the other way (MR-05 is lawfully repaired: the blocker's actual demand — pairwise distinctness — HAS a receiver even though a ledger field is unforced). **The honest statement: at least 7 confirmed; up to 16 candidates requiring per-row adjudication** — because whether a row is defective depends on whether the BLOCKER'S DIRECTIONAL DEMAND has a receiver, not on whether every ledger field is forced.
+- **THE FINDING AGAINST ITS OWN LAW, wanted on the record by its author:** BR-1's conformance test is NOT mechanical — two independent implementations by the same reviewer erred in opposite directions; "the same slice" and "forces that content" require a per-row reading of which demand the forcer must carry. BR-2's test IS mechanical (two runs agreed at zero). **V005 must either supply a precise slice definition or state plainly that BR-1 conformance is an ADJUDICATED check — otherwise the next lane reports zero failures too, honestly, and is wrong again.** Logged to LOCKED_PROCESS as the SWEEP COVERAGE RULE and the TEST-CLASS RULE.
+- Three self-caught over-claims recorded (a regex brace false positive; a 20-candidate list read down to 5; a near-charge stopped by finding the spec-fixed {PBP} forcer).
+
+**Sequence.** 642 (Dario): correction of record + the per-row adjudication of all 16 candidates producing the new closed list and the BR-1 conformance regime. 643 (Dario, after): the assembly V005 line-level decomposition (Q-577). 644 (Codex 2): spec V005 against the adjudicated list. BUILD_READY = no — "a build should not start from a spec whose own installed law is violated by five of its rows while its transcript reports zero failures."
+
+**Custody.** Checked and corrected by Dario against its own sealed number and its own law; registrar mirrored. Registered by the reviewer from the artifact and the post-seal correction.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
