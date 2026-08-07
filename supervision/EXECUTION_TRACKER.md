@@ -478,8 +478,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 637 | Dario | [6/SUBGATE] class-check correction of record + verify the ten findings | **RETURNED — REGISTERED (Q-574): 22/28; 2 FATALs refused, 6 confirmed; BR-1/BR-2 proposed with runnable tests |
 | 638 | Codex 2 | [6/SUBGATE] spec V004: install BR-1/BR-2 as law + repair the closed list | **RETURNED — REGISTERED (Q-576): BR laws installed, sweeps 0 failures, 11/11 repaired |
 | 639 | Dario | [6/SUBGATE] assembly V004: the five certificate-prose fixes ONLY (byte-copy method) | **RETURNED — REGISTERED (Q-575): 5/5 displayed; operative content scope-proven untouched; V003 false-digest corrected of record |
-| 640 | Codex 2 | [6/SUBGATE] assembly V004 bounded check (the five fixes + scope claim) | **SENT** |
+| 640 | Codex 2 | [6/SUBGATE] assembly V004 bounded check (the five fixes + scope claim) | **RETURNED — REGISTERED (Q-577): 3/5; Z2 dispute adjudicated by C-V5a amendment; bounded V005 -> 642 |
 | 641 | Dario | [6/SUBGATE] spec V004 check: BR conformance transcript + closed list (bounded) | **SENT** |
+| 642 | Dario | [6/SUBGATE] assembly V005: line-level decomposition of the 7 shared hunks + 759/977 fixes (bounded) | QUEUED (after 641 returns) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

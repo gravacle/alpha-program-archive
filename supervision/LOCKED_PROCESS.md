@@ -279,3 +279,23 @@ post-write checks do.
    near-misses of record: a -U 0 measurement against a declared -U 3 spec almost
    charged a false carriage; a mechanical atom test flagged 33 rows where the
    spec's own license made 31 of them lawful.
+
+## C-V5a: THE LINE-LEVEL ATTRIBUTION AMENDMENT (registrar amendment 2026-08-07, principal informed; Q-577)
+
+C-V5's "row-sets summing exactly" is hereby fixed at the LINE level, not the hunk
+level. Diff merges adjacent edits from different logical changes into one hunk
+(the more so under context settings like -U 3), so hunk-level disjointness cannot
+be honored honestly. The amended invariant:
+1. hunk-to-row assignment must be TOTAL and SURJECTIVE (every hunk assigned;
+   every delta row exhibited);
+2. a hunk MAY be assigned to multiple rows ONLY IF the artifact decomposes that
+   hunk's changed lines into DISJOINT SPANS, each span assigned to exactly one
+   row — disjointness and exact summation hold at the line level;
+3. line counts in certificates are computed by a stated method robust to blank
+   lines and verified against total line arithmetic.
+Origin: the Q-577 adjudication — Codex 2 correctly read the sealed instrument's
+disjointness demand; Dario correctly displayed that merged hunks lawfully serve
+multiple rows; both readings are honored one level apart. Prior artifacts using
+hunk-level shared assignment WITH lawfulness grounds displayed (assembly V004's
+Z2) are read under this amendment as requiring the line-level decomposition in
+their next version, not as false certificates.

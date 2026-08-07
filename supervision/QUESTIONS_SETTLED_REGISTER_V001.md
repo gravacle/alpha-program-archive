@@ -13668,6 +13668,21 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-577 — TASK 6 SUBGATE: THE ASSEMBLY V004 CHECK — 3/5 CONFIRMED; THE Z2 DISPUTE ADJUDICATED BY REGISTRAR AMENDMENT C-V5a; A BOUNDED V005 CLOSES THE CHAIN (2026-08-07)
+
+**Question.** Do the five prose fixes survive the bounded check?
+
+**Answer.** 3/5 CONFIRMED, with the two failures resolving into one instrument question that is hereby adjudicated (Codex 2, `STAGE8_TASK6_ASSEMBLY_V004_CHECK_LANE2_V001.md`, SHA-256 `f37e04fd400739d4118432d898a00b503ec8f42fd3e4d1d0a679c831685a3e8c`, relay 640; registrar mirrored).
+
+- **Confirmed:** Z1, Z3, Z4; the scope claim (0 operative-region hunks, 17/17 outside — the operative assembly is byte-identical); the digest pins and disclosure.
+- **The Z2 finding and its adjudication:** Codex 2 read the sealed C-V5 source (`6b4c96a0…`) and correctly found its "row-sets summing exactly" demands DISJOINT assignment — contradicting V004's total/surjective/not-injective reading. Dario's display was nonetheless mathematically honest: diff merges adjacent edits, so hunk-level disjointness cannot be honored without artificial splitting. **REGISTRAR AMENDMENT C-V5a (of record in LOCKED_PROCESS, principal informed): the disjointness/exact-summation invariant holds at the LINE level** — a hunk may serve multiple rows only if its changed lines are decomposed into disjoint spans, each assigned to exactly one row. Both lanes were right one level apart; V004's Z2 is read under the amendment as requiring the line-level decomposition in V005, not as a false certificate.
+- **Z5:** inherits Z2's form plus two off-by-one line counts (stated 760/978; actual 759/977) — the exact class the amendment's clause 3 now regulates.
+- **ASSEMBLY V005 (bounded, Dario, relay 642):** the line-level decomposition displayed for the seven shared hunks; the 759/977 corrections; Z5's audit lines updated. Operative content untouched (it has been byte-identical since V003).
+
+**Custody.** Checked by Codex 2 against the sealed instrument source; adjudicated by the registrar as an instrument amendment; V005 owed by Dario. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
