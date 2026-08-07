@@ -474,7 +474,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 633 | Codex 2 | [6/SUBGATE] spec V003: the binding-class repair (escape hatch + KERNEL-less criteria) | **RETURNED — REGISTERED (Q-569): 66/66 swept, 38 BOUND / 28 RE-RENDERED; escape hatch removed; protected hashes verify |
 | 634 | Codex 2 | [6/OPEN-ITEM] the A21 residual objection leg: verify or close (bounded) | **RETURNED — REGISTERED (Q-570): NOT_OF_RECORD; Q-558 open item CLOSED; board unchanged. Codex 2 idle. |
 | 635 | Dario | [6/SUBGATE] spec V003 class-check: the 28 re-renders + BOUND sample (bounded, archive-side) | **SENT** |
-| 636 | Codex 2 | [6/SUBGATE] assembly V003 bounded delta re-check | **SENT** |
+| 636 | Codex 2 | [6/SUBGATE] assembly V003 bounded delta re-check | **RETURNED — REGISTERED (Q-572): substance FULLY CONFIRMED; 4 certificate-prose defects -> bounded V004 (637) |
+| 637 | Dario | [6/SUBGATE] assembly V004: the five certificate-prose fixes ONLY (byte-copy method) | QUEUED (after 635 returns) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

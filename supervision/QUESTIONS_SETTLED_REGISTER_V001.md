@@ -13588,6 +13588,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-572 — TASK 6 SUBGATE: THE ASSEMBLY V003 DELTA CHECK — SUBSTANCE FULLY CONFIRMED; FOUR CERTIFICATE-PROSE DEFECTS FORCE A BOUNDED V004 (2026-08-07)
+
+**Question.** Does the assembly V003 survive the bounded delta re-check?
+
+**Answer.** THE SUBSTANCE, YES — THE SELF-DESCRIPTION, NOT YET (Codex 2, `STAGE8_TASK6_ASSEMBLY_V003_DELTA_CHECK_LANE2_V001.md`, SHA-256 `85a7a9c32e19d0713845dd1bd7ef50d96c0b27190878e433b55de24559444d56`, relay 636; registrar mirrored and byte-verified).
+
+- **Everything operative passes:** DELTA FULLY_ACCOUNTED — the raw totals reproduce (38/445/55), all 38 spans match the assignment table, all 23 delta rows exhibited, ZERO uncovered hunks. Survivors 9/9 PRESENT (7/9 byte-strict to V001; the M-2 and surface-anchor blocks are wording-preserving-in-substance expansions, not reflows as claimed). Rows 2/6/7 confirmed at both boards and the sealed decision. INVARIANTS unchanged — grades counted, appeal and freeze blocks byte-hashed.
+- **Four certificate-prose defects convicted (the recurring class, now confined to prose):** a false H12-for-H13 reference; a false claim that no hunk is multiply-assigned (seven are, lawfully — the claim should display them, not deny them); two "reflow, no word changed" assertions that are actually wording-preserving expansions; a residual seven-vs-eight survivor miscount. **The check itself specifies the complete bounded repair** and states: "The operative assembly, rows 2/6/7, all 18 grades, appeals, rulings, and freeze text require no change."
+- Disposition per the consistent standard (false certificate claims force a version — Q-566): **V004 bounded to certificate prose only** (relay 637, Dario, by byte-copy + the five named replacements), then closure. The trajectory is the story: V002 lost content silently; V003's content is fully right with defects confined to sentences ABOUT the diff; V004 fixes sentences. The instrument is converging.
+
+**Custody.** Checked by Codex 2; V004 owed by Dario (bounded); registrar mirrored. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
