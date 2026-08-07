@@ -493,7 +493,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 652 | Codex 2 | [6/BUILD] assemble the D1 evidence payloads from the sealed corpus | **RETURNED — REGISTERED (Q-591): 0/56 — the machine-evidence layer has never been built; first run preregistered |
 | 653 | Codex 2 | [6/BUILD] fix the authorization-content check (cite sealed bytes) + authored-expectation audit of parent.py | **RETURNED — REGISTERED (Q-593): hash-pin-only; 8 literals, 1 fixed. Runs 002-004: pin enforced, sidecar created, B's manifest = schema-not-instance |
 | 654 | Dario | [6/BUILD] the verifier-manifest INSTANCE (11 fields, canonical, sidecar) | **SENT** |
-| 655 | — | [6/BUILD] Custodian C re-invocation on a fresh run root | QUEUED (after 654) |
+| — | Custodian C | [6/BUILD] re-invocation on a fresh run root (registrar act, no relay) | QUEUED (after 654 returns) |
+| 655 | Codex 2 | [6/SCOPING] the evidence-envelope formalization map: 56 checks classified by envelope type and effort | LOADED — NOT SENT |
 | 656 | Dario | [6/BUILD] run review vs the Q-591 preregistration | QUEUED (after the complete run) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
