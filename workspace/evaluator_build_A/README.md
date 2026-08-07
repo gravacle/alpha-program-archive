@@ -65,3 +65,10 @@ serialization. Those two new payloads ground only `C-B-V009-06`. The remaining
 55 structural records and all three structural-fixture records remain
 `ABSENT_OF_RECORD`. No Builder B verifier, Custodian invocation, board change,
 seal change, or detached signature is silently bundled here.
+
+For every digest placed in a produced row's `observed_evidence_sha256s`, the
+producer materializes the exact tight canonical JSON it consumed or produced
+at the run-scoped `evidence/<digest>.json`. Both modes declare the same logical
+content-addressed materialization; the parent rehashes every carrier, requires
+the observed/materialized digest sets to agree, and exposes only those verified
+run-root bytes to the independent verifier for replay.

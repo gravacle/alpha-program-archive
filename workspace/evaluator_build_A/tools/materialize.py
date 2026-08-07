@@ -604,7 +604,7 @@ def main():
     native_system_trust_root = json.loads(runtime_snapshot_path.read_text(encoding="utf-8"))["native_system_trust_root"]
     trust_root = parent_trust_root_digest(package, native_system_trust_root)
     common = {
-        "allowed_events": {"environment": [], "mutation": ["output", "receipt"], "network": [], "process": [], "writes": ["output", "receipt"]},
+        "allowed_events": {"environment": [], "mutation": ["consumed_evidence", "output", "receipt"], "network": [], "process": [], "writes": ["consumed_evidence", "output", "receipt"]},
         "authority_firewall": {"CORE_RESULT_SEAL": False, "FINAL_CLAIM_SEAL": False, "SPEC_SEAL": False, "alpha_computed": False, "authorization_claimed": False, "executed": False, "implemented": True, "kappa_record_computed": False, "proof_authorized": False},
         "branch_outcome": BRANCH_OUTCOME,
         "check_ids": check_map["check_ids"],
@@ -619,8 +619,8 @@ def main():
         "specification_sha256": SPEC_SHA,
         "subject_lineage_root": subject["declared_root"],
     }
-    normal = {**common, "mode": "normal", "optimization": 0, "writable_paths": ["normal.output.json", "normal.receipt.json"]}
-    optimized = {**common, "mode": "optimized", "optimization": 1, "writable_paths": ["optimized.output.json", "optimized.receipt.json"]}
+    normal = {**common, "mode": "normal", "optimization": 0, "writable_paths": ["evidence/<observed_sha256>.json", "normal.output.json", "normal.receipt.json"]}
+    optimized = {**common, "mode": "optimized", "optimization": 1, "writable_paths": ["evidence/<observed_sha256>.json", "optimized.output.json", "optimized.receipt.json"]}
     write_json(package / "manifests/normal.json", normal)
     write_json(package / "manifests/optimized.json", optimized)
     inventory_files = []

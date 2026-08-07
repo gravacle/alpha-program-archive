@@ -432,6 +432,37 @@ def materialize_event_payloads(receipt_value, evidence_directory):
     return digests
 
 
+def consumed_evidence_files(output_value, evidence_directory, child):
+    destination = real_path(evidence_directory)
+    if not destination.is_dir() or destination.is_symlink():
+        fail("CONSUMED_EVIDENCE_DIRECTORY", str(evidence_directory))
+    digests = set()
+    for collection in (output_value.get("checks"), output_value.get("fixtures")):
+        if not isinstance(collection, list):
+            fail("CONSUMED_EVIDENCE_COLLECTION", child)
+        for row in collection:
+            observed = row.get("observed_evidence_sha256s") if isinstance(row, dict) else None
+            if not isinstance(observed, list):
+                fail("CONSUMED_EVIDENCE_OBSERVED", child)
+            for digest in observed:
+                if not isinstance(digest, str) or re.fullmatch(r"[0-9a-f]{64}", digest) is None:
+                    fail("CONSUMED_EVIDENCE_DIGEST", {"child": child, "digest": digest})
+                digests.add(digest)
+    files = {}
+    for digest in sorted(digests):
+        path = destination / f"{digest}.json"
+        data = read_bytes(path)
+        if sha256_bytes(data) != digest or canonical_bytes(strict_json(data, f"{child} consumed evidence {digest}")) != data:
+            fail("CONSUMED_EVIDENCE_REHASH", {"child": child, "path": str(path)})
+        files[str(real_path(path))] = {
+            "declared_path": str(lexical_absolute(path)),
+            "realpath": str(real_path(path)),
+            "sha256": digest,
+            "source": f"{child}:consumed-evidence:{digest}",
+        }
+    return files
+
+
 def no_python_check_nodes(source_bytes, label):
     try:
         tree = ast.parse(source_bytes.decode("utf-8"), filename=label)
@@ -768,6 +799,7 @@ def classify_receipt(
     child_manifest_path,
     child,
     extra_files=None,
+    consumed_files=None,
     stdout_output=False,
 ):
     if value["manifest_sha256"] != expected_manifest_sha or value["target_sha256"] != expected_target_sha:
@@ -809,16 +841,18 @@ def classify_receipt(
         return actual
 
     expected_writes = []
+    for entry in sorted((consumed_files or {}).values(), key=lambda item: item["sha256"]):
+        expected_writes.append((Path(entry["declared_path"]), entry["sha256"], "consumed_evidence", "content_addressed_materialize"))
     if not stdout_output:
-        expected_writes.append((output_path, output_sha, "output"))
-    expected_writes.append((receipt_path, receipt_sha, "receipt"))
+        expected_writes.append((output_path, output_sha, "output", "exclusive_create"))
+    expected_writes.append((receipt_path, receipt_sha, "receipt", "exclusive_create"))
 
     def verify_write_rows(rows, label):
         if not isinstance(rows, list) or len(rows) != len(expected_writes):
             fail(label, {"expected_count": len(expected_writes), "actual": rows})
-        for row, (declared, digest, name) in zip(rows, expected_writes):
+        for row, (declared, digest, name, operation) in zip(rows, expected_writes):
             exact_keys(row, {"operation", "path"}, f"{label} row")
-            if row["operation"] != "exclusive_create" or not isinstance(row["path"], str):
+            if row["operation"] != operation or not isinstance(row["path"], str):
                 fail(label, row)
             if real_path(row["path"]) != real_path(declared):
                 fail(label, {"expected": str(declared), "actual": row["path"]})
@@ -1266,6 +1300,7 @@ def main():
         "--check-map", str(check_map_path), "--check-map-sha256", normal_manifest["check_map_sha256"],
         "--fixtures", str(fixture_path), "--fixtures-sha256", normal_manifest["fixture_manifest_sha256"],
         "--evidence", str(evidence_path), "--evidence-sha256", normal_manifest["evidence_manifest_sha256"],
+        "--consumed-evidence-dir", str(run_evidence_directory),
     ]
     t0 = trust_snapshot(runtime)
     normal_command = [python, "-I", "-S", "-B", str(producer_path), "--manifest", str(real_path(args.normal_manifest)), "--manifest-sha256", args.normal_manifest_sha256] + common + ["--output", str(normal_output), "--receipt", str(normal_receipt)]
@@ -1282,15 +1317,19 @@ def main():
     optimized_value, optimized_data = output(optimized_output)
     normal_receipt_value, normal_receipt_data = receipt(normal_receipt)
     optimized_receipt_value, optimized_receipt_data = receipt(optimized_receipt)
+    normal_consumed_files = consumed_evidence_files(normal_value, run_evidence_directory, "normal")
+    optimized_consumed_files = consumed_evidence_files(optimized_value, run_evidence_directory, "optimized")
     normal_aliases = classify_receipt(
         normal_receipt_value, args.normal_manifest_sha256, producer_sha, 0,
         sha256_bytes(normal_data), normal_output, normal_receipt, runtime,
         runtime_files, package_files, args.normal_manifest, "normal",
+        extra_files=normal_consumed_files, consumed_files=normal_consumed_files,
     )
     optimized_aliases = classify_receipt(
         optimized_receipt_value, args.optimized_manifest_sha256, producer_sha, 1,
         sha256_bytes(optimized_data), optimized_output, optimized_receipt, runtime,
         runtime_files, package_files, args.optimized_manifest, "optimized",
+        extra_files=optimized_consumed_files, consumed_files=optimized_consumed_files,
     )
     comparison = compare_producers(normal_value, optimized_value)
     t3 = trust_snapshot(runtime)
@@ -1363,7 +1402,7 @@ def main():
             verifier_files,
             event_payload_path,
             sha256_bytes(read_bytes(event_payload_path)),
-            f"verifier-input:event-payload:{event_payload_path.name}",
+            f"verifier-input:run-evidence-json:{event_payload_path.name}",
         )
     verifier_aliases = classify_receipt(
         verifier_receipt_value, bound_verifier_manifest_sha, verifier_root,

@@ -647,7 +647,7 @@ def validate_program_contract(descriptor, evidence):
     return invocations
 
 
-def execute_structural(descriptor, evidence):
+def execute_structural(descriptor, evidence, payload_sink=None):
     try:
         invocations = validate_program_contract(descriptor, evidence)
     except BuildFailure as exc:
@@ -656,10 +656,18 @@ def execute_structural(descriptor, evidence):
     for invocation in invocations:
         opcode = invocation["opcode"]
         if opcode in {"SYMBOLIC", "SPECTRAL"}:
-            return "ERROR", True, [sha256_bytes(canonical_bytes(outputs))], f"F_PLDEC_OPCODE_IN_STRUCTURAL:{opcode}"
+            payload = canonical_bytes(outputs)
+            digest = sha256_bytes(payload)
+            if payload_sink is not None:
+                payload_sink(digest, payload)
+            return "ERROR", True, [digest], f"F_PLDEC_OPCODE_IN_STRUCTURAL:{opcode}"
         function = OPCODES.get(opcode)
         if function is None:
-            return "ERROR", True, [sha256_bytes(canonical_bytes(outputs))], f"UNKNOWN_OPCODE:{opcode}"
+            payload = canonical_bytes(outputs)
+            digest = sha256_bytes(payload)
+            if payload_sink is not None:
+                payload_sink(digest, payload)
+            return "ERROR", True, [digest], f"UNKNOWN_OPCODE:{opcode}"
         try:
             value = function(invocation["args"])
         except BuildFailure as exc:
@@ -675,7 +683,10 @@ def execute_structural(descriptor, evidence):
     ok = all(item["result"].get("success") is True for item in outputs)
     if "hits=empty" in descriptor["expected_predicate"].replace(" ", ""):
         ok = ok and all(not item["result"].get("hits") for item in outputs if "hits" in item["result"])
-    digest = sha256_bytes(canonical_bytes(outputs))
+    payload = canonical_bytes(outputs)
+    digest = sha256_bytes(payload)
+    if payload_sink is not None:
+        payload_sink(digest, payload)
     return ("PASS" if ok else "FAIL"), True, [digest], "" if ok else "PREDICATE_FALSE"
 
 
@@ -744,6 +755,31 @@ def exclusive_write(path, data):
             os.fsync(stream.fileno())
     except OSError as exc:
         fail("OUTPUT_WRITE", f"{target}: {exc}")
+
+
+def materialize_consumed_evidence(evidence_directory, claimed_digest, data):
+    if not isinstance(claimed_digest, str) or re.fullmatch(r"[0-9a-f]{64}", claimed_digest) is None:
+        fail("CONSUMED_EVIDENCE_DIGEST", claimed_digest)
+    if not isinstance(data, bytes) or sha256_bytes(data) != claimed_digest:
+        fail("CONSUMED_EVIDENCE_BYTES", claimed_digest)
+    try:
+        value = strict_json_bytes(data, f"consumed evidence {claimed_digest}")
+    except BuildFailure as exc:
+        fail("CONSUMED_EVIDENCE_JSON", str(exc))
+    if canonical_bytes(value) != data:
+        fail("CONSUMED_EVIDENCE_CANONICAL", claimed_digest)
+    destination = Path(evidence_directory).resolve()
+    if not destination.is_dir() or destination.is_symlink():
+        fail("CONSUMED_EVIDENCE_DIRECTORY", str(evidence_directory))
+    target = destination / f"{claimed_digest}.json"
+    if target.exists() or target.is_symlink():
+        if target.is_symlink() or not target.is_file() or file_bytes(target) != data:
+            fail("CONSUMED_EVIDENCE_COLLISION", str(target))
+    else:
+        exclusive_write(target, data)
+    if sha256_bytes(file_bytes(target)) != claimed_digest:
+        fail("CONSUMED_EVIDENCE_REHASH", str(target))
+    return {"operation": "content_addressed_materialize", "path": str(target.resolve())}
 
 
 def check_manifest(manifest, optimize):
@@ -819,7 +855,7 @@ def evidence_declared_root(evidence, manifest):
     return evidence["declared_root"]
 
 
-def make_check_row(descriptor, evidence_records, requirement_sha):
+def make_check_row(descriptor, evidence_records, requirement_sha, payload_sink=None):
     check_id = descriptor["check_id"]
     base = {
         "blocker_id": descriptor["blocker_id"],
@@ -846,7 +882,7 @@ def make_check_row(descriptor, evidence_records, requirement_sha):
         base["status"] = "FAIL"
         base["reason"] = "INPUT_INTEGRITY: STRUCTURAL_EVIDENCE_NOT_SUPPLIED"
         return base
-    status, started, hashes, reason = execute_structural(descriptor, record.get("evidence"))
+    status, started, hashes, reason = execute_structural(descriptor, record.get("evidence"), payload_sink)
     if status not in STATUS_SET:
         status = "ERROR"
         reason = "INVALID_INTERNAL_STATUS"
@@ -923,6 +959,7 @@ def parse_args():
     parser.add_argument("--fixtures-sha256", required=True)
     parser.add_argument("--evidence", required=True)
     parser.add_argument("--evidence-sha256", required=True)
+    parser.add_argument("--consumed-evidence-dir", required=True)
     parser.add_argument("--output", required=True)
     parser.add_argument("--receipt", required=True)
     return parser.parse_args()
@@ -973,8 +1010,37 @@ def main():
     if evidence["subject_lineage_root"] != manifest["subject_lineage_root"]:
         fail("SUBJECT_LINEAGE", "evidence mismatch")
     requirement_sha = manifest["subject_lineage_root"]
-    checks = [make_check_row(row, evidence["check_records"], requirement_sha) for row in check_map["checks"]]
+    consumed_materializations = {}
+
+    def payload_sink(claimed_digest, payload):
+        row = materialize_consumed_evidence(args.consumed_evidence_dir, claimed_digest, payload)
+        prior = consumed_materializations.get(claimed_digest)
+        if prior is not None and prior != row:
+            fail("CONSUMED_EVIDENCE_DUPLICATE", claimed_digest)
+        consumed_materializations[claimed_digest] = row
+
+    checks = [make_check_row(row, evidence["check_records"], requirement_sha, payload_sink) for row in check_map["checks"]]
     fixture_rows = [make_fixture_row(row, evidence["fixture_records"], requirement_sha) for row in fixtures["fixtures"]]
+    inventory_by_digest = {}
+    for inventory_row in evidence["payload_inventory"]:
+        inventory_by_digest.setdefault(inventory_row["sha256"], []).append(inventory_row)
+    evidence_source_directory = Path(args.evidence).resolve().parent / "evidence"
+    for output_row in checks + fixture_rows:
+        for claimed_digest in output_row["observed_evidence_sha256s"]:
+            if claimed_digest in consumed_materializations:
+                continue
+            matches = inventory_by_digest.get(claimed_digest, [])
+            if len(matches) != 1:
+                fail("CONSUMED_EVIDENCE_SOURCE", {"digest": claimed_digest, "matches": len(matches)})
+            source = evidence_source_directory / matches[0]["relative_path"]
+            payload_sink(claimed_digest, verify_file(source, claimed_digest))
+    observed_digests = {
+        item
+        for output_row in checks + fixture_rows
+        for item in output_row["observed_evidence_sha256s"]
+    }
+    if observed_digests != set(consumed_materializations):
+        fail("CONSUMED_IMPLIES_MATERIALIZED", {"observed": sorted(observed_digests), "materialized": sorted(consumed_materializations)})
     summary = {
         "error": sum(row["status"] == "ERROR" for row in checks),
         "fail": sum(row["status"] == "FAIL" for row in checks),
@@ -1009,7 +1075,8 @@ def main():
     }
     output_bytes = canonical_bytes(output)
     recorder.write_events.extend(
-        [
+        [consumed_materializations[digest] for digest in sorted(consumed_materializations)]
+        + [
             {"operation": "exclusive_create", "path": str(Path(args.output).resolve())},
             {"operation": "exclusive_create", "path": str(Path(args.receipt).resolve())},
         ]

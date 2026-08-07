@@ -526,6 +526,26 @@ def main():
         stop("EVIDENCE_SCOPE_DRIFT", sorted(scope_roots))
     if v009_06_observed is None:
         stop("V009_06_NOT_CHECKED", "missing")
+    with tempfile.TemporaryDirectory(prefix="rd22-static-consumed-evidence-") as temporary:
+        consumed_directory = Path(temporary)
+        materialization_rows = {}
+
+        def static_payload_sink(claimed_digest, payload):
+            materialization_rows[claimed_digest] = producer_module.materialize_consumed_evidence(consumed_directory, claimed_digest, payload)
+
+        target_descriptor = structural_by_id["C-B-V009-06"]
+        target_evidence = evidence["check_records"]["C-B-V009-06"]["evidence"]
+        status, started, observed, reason = producer_module.execute_structural(target_descriptor, target_evidence, static_payload_sink)
+        synthetic_consumed_output = {"checks": [{"observed_evidence_sha256s": observed}], "fixtures": []}
+        parent_materialized = parent_module.consumed_evidence_files(synthetic_consumed_output, consumed_directory, "static")
+        if status != "PASS" or started is not True or reason != "" or observed != [v009_06_observed] or set(materialization_rows) != set(observed) or len(parent_materialized) != len(observed):
+            stop("CONSUMED_IMPLIES_MATERIALIZED", {"status": status, "observed": observed, "producer": sorted(materialization_rows), "parent": sorted(parent_materialized)})
+        for claimed_digest in observed:
+            materialized_path = consumed_directory / f"{claimed_digest}.json"
+            materialization_row = materialization_rows[claimed_digest]
+            if materialization_row != {"operation": "content_addressed_materialize", "path": str(materialized_path.resolve())} or not materialized_path.is_file() or digest(materialized_path.read_bytes()) != claimed_digest:
+                stop("CONSUMED_MATERIALIZED_BYTES", claimed_digest)
+        consumed_implies_materialized = "PASS"
     spec_data = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md").read_bytes()
     if digest(spec_data) != SPEC_SHA256 or parent_module.SPEC_SHA256 != SPEC_SHA256 or check_map["spec_sha256"] != SPEC_SHA256:
         stop("RUNTIME_SPEC_PIN", {"bytes": digest(spec_data), "parent": parent_module.SPEC_SHA256, "map": check_map["spec_sha256"]})
@@ -588,7 +608,7 @@ def main():
     addendum_rows = [row for row in normal["external_inputs"] if row["kind"] == "integration_addendum"]
     if len(addendum_rows) != 1 or addendum_rows[0]["sha256"] != ADDENDUM_SHA256:
         stop("MANIFEST_ADDENDUM_PIN", addendum_rows)
-    if normal["allowed_events"].get("mutation") != ["output", "receipt"]:
+    if normal["allowed_events"].get("mutation") != ["consumed_evidence", "output", "receipt"] or normal["allowed_events"].get("writes") != ["consumed_evidence", "output", "receipt"]:
         stop("MANIFEST_MUTATION_EVENTS", normal["allowed_events"])
     schema_targets = {
         "child-manifest.schema.json": [normal, optimized],
@@ -798,12 +818,31 @@ def main():
         '"${EVIDENCE_DIR}": str(real_path(run_evidence_directory))',
         "child_record(args.normal_manifest_sha256",
         "child_record(args.optimized_manifest_sha256",
-        "verifier-input:event-payload:",
+        "verifier-input:run-evidence-json:",
     }
     missing_event_payload_receivers = sorted(item for item in event_payload_receivers if item not in parent_text)
     forbidden_package_evidence_binding = '"${EVIDENCE_DIR}": str(real_path(package_root_declared / "inputs" / "evidence"))'
     if missing_event_payload_receivers or forbidden_package_evidence_binding in parent_text:
         stop("EVENT_PAYLOAD_RECEIVERS", {"missing": missing_event_payload_receivers, "package_binding": forbidden_package_evidence_binding in parent_text})
+    consumed_evidence_receivers = {
+        "def consumed_evidence_files(",
+        'path = destination / f"{digest}.json"',
+        '"--consumed-evidence-dir", str(run_evidence_directory)',
+        "consumed_files=normal_consumed_files",
+        "consumed_files=optimized_consumed_files",
+        '"content_addressed_materialize"',
+    }
+    producer_consumed_receivers = {
+        "def materialize_consumed_evidence(",
+        'target = destination / f"{claimed_digest}.json"',
+        'parser.add_argument("--consumed-evidence-dir", required=True)',
+        'fail("CONSUMED_IMPLIES_MATERIALIZED"',
+        'payload_sink(claimed_digest, verify_file(source, claimed_digest))',
+    }
+    missing_consumed_receivers = sorted(item for item in consumed_evidence_receivers if item not in parent_text)
+    missing_producer_consumed = sorted(item for item in producer_consumed_receivers if item not in producer_source)
+    if missing_consumed_receivers or missing_producer_consumed:
+        stop("CONSUMED_EVIDENCE_RECEIVERS", {"parent": missing_consumed_receivers, "producer": missing_producer_consumed})
     direct_launch_receivers = {
         "def verifier_entry_target(",
         'fail("VERIFIER_ENTRY_UNCOVERED"',
@@ -858,7 +897,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verifier_root_members=12 verifier_root={SEALED_VERIFIER_ROOT_SHA256} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=1/56 absent=55 v009_06_opcode=DAG:PASS v009_06_observed={v009_06_observed} fixture_obs=0/3 checks=66 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verifier_root_members=12 verifier_root={SEALED_VERIFIER_ROOT_SHA256} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=1/56 absent=55 v009_06_opcode=DAG:PASS v009_06_observed={v009_06_observed} consumed_implies_materialized={consumed_implies_materialized} consumed_path=run_root/evidence/<digest>.json fixture_obs=0/3 checks=66 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":
