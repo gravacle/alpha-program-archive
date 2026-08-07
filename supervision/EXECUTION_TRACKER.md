@@ -514,7 +514,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 671 | Dario | [6/BUILD] verifier accepts T0-T3 in the input context (T4 terminal-only) | **SENT** |
 | 672 | Codex 2 | [6/BUILD] parent: remove the T4=T3 fabrication; hand T0-T3 | **RETURNED: fixed + T4_BEFORE_SAMPLE guard. RUN 018: VERIFIER RAN COMPLETE, 24.5KB verdict, exit 1 — trailing newline on stdout -> 673 |
 | 673 | Dario | [6/BUILD] stdout: tight value, no trailing newline | **RETURNED: 3 emission sites fixed. RUN 019: stdout ACCEPTED; verdict violates B's OWN schema (fixtures_replayed) -> 674 |
-| 674 | Dario | [6/BUILD] conform the verdict to B's own sealed schema (or amend deliberately) | **SENT** |
+| 674 | Dario | [6/BUILD] conform the verdict to B's own sealed schema (or amend deliberately) | **RETURNED: schema amended (oneOf full/fault), 2nd latent defect fixed lawfully, own guard refused own test sample |
+| 675 | Codex 2 | [6/BUILD] validate the verdict against B's sealed schema (pinned input; no transcription) | LOADED — NOT SENT |
+| 676 | Dario | [6/BUILD] bring the verdict schema into verifier_root | QUEUED ON DISK |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

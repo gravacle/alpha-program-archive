@@ -1,65 +1,184 @@
 {
-  "$comment": "Builder B verifier verdict. Canonical UTF-8 JSON: sorted keys, no insignificant whitespace, no duplicate keys, no NaN/Infinity, no undeclared fields.",
+  "$comment": "Builder B verifier verdict. Canonical UTF-8 JSON: sorted keys, no insignificant whitespace, no duplicate keys, no NaN/Infinity, no undeclared fields, and no trailing newline on the stream. TWO document kinds are declared: a FULL verdict when one could be formed, and a FAULT verdict when the run stopped fail-closed. Each is closed; neither fabricates a field it cannot know.",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "additionalProperties": false,
-  "properties": {
-    "authority_firewall": {
+  "oneOf": [
+    {
+      "$comment": "Full verdict: emitted whenever a verdict could be formed (exit 0 or 1).",
       "additionalProperties": false,
       "properties": {
-        "CORE_RESULT_SEAL": {"const": false},
-        "FINAL_CLAIM_SEAL": {"const": false},
-        "SPEC_SEAL": {"const": false},
-        "alpha_computed": {"const": false},
-        "authorization_claimed": {"type": "boolean"},
-        "executed": {"type": "boolean"},
-        "implemented": {"type": "boolean"},
-        "kappa_record_computed": {"const": false},
-        "proof_authorized": {"const": false}
+        "authority_firewall": {
+          "additionalProperties": false,
+          "properties": {
+            "CORE_RESULT_SEAL": {
+              "const": false
+            },
+            "FINAL_CLAIM_SEAL": {
+              "const": false
+            },
+            "SPEC_SEAL": {
+              "const": false
+            },
+            "alpha_computed": {
+              "const": false
+            },
+            "authorization_claimed": {
+              "type": "boolean"
+            },
+            "executed": {
+              "type": "boolean"
+            },
+            "implemented": {
+              "type": "boolean"
+            },
+            "kappa_record_computed": {
+              "const": false
+            },
+            "proof_authorized": {
+              "const": false
+            }
+          },
+          "required": [
+            "CORE_RESULT_SEAL",
+            "FINAL_CLAIM_SEAL",
+            "SPEC_SEAL",
+            "alpha_computed",
+            "authorization_claimed",
+            "executed",
+            "implemented",
+            "kappa_record_computed",
+            "proof_authorized"
+          ],
+          "type": "object"
+        },
+        "authorization_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "census": {
+          "type": "object"
+        },
+        "checks_replayed": {
+          "items": {
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "findings": {
+          "items": {
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "fixtures_replayed": {
+          "items": {
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "independence": {
+          "additionalProperties": false,
+          "properties": {
+            "expectations_source": {
+              "type": "string"
+            },
+            "producer_code_imported": {
+              "const": false
+            }
+          },
+          "required": [
+            "expectations_source",
+            "producer_code_imported"
+          ],
+          "type": "object"
+        },
+        "producer_comparison": {
+          "properties": {
+            "quantification": {
+              "const": "COMMON_MEMBER_ONLY"
+            }
+          },
+          "type": "object"
+        },
+        "runtime_subject": {
+          "additionalProperties": false,
+          "properties": {
+            "gate_sha256": {
+              "const": "2ad7f72a88184c11e1253f2c47598fca11e60d05e8e71a26db4e19b16bf98d42"
+            },
+            "snapshot_sha256": {
+              "const": "50a6fc141a45451678aa7543e4f267ce26beb6e53182170b478acb6fb0e0f5bb"
+            },
+            "trust_root": {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            }
+          },
+          "required": [
+            "gate_sha256",
+            "snapshot_sha256",
+            "trust_root"
+          ],
+          "type": "object"
+        },
+        "schema": {
+          "const": "gravacle.a35.verifier-verdict.v1"
+        },
+        "spec_sha256": {
+          "const": "f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b"
+        },
+        "terminal_content_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "verdict": {
+          "enum": [
+            "VERIFIED",
+            "FAIL"
+          ]
+        },
+        "verifier_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        }
       },
-      "required": ["CORE_RESULT_SEAL", "FINAL_CLAIM_SEAL", "SPEC_SEAL",
-                   "alpha_computed", "authorization_claimed", "executed",
-                   "implemented", "kappa_record_computed", "proof_authorized"],
+      "required": [
+        "authority_firewall",
+        "authorization_sha256",
+        "census",
+        "checks_replayed",
+        "findings",
+        "fixtures_replayed",
+        "independence",
+        "producer_comparison",
+        "runtime_subject",
+        "schema",
+        "spec_sha256",
+        "terminal_content_sha256",
+        "verdict",
+        "verifier_sha256"
+      ],
       "type": "object"
     },
-    "authorization_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
-    "census": {"type": "object"},
-    "checks_replayed": {"items": {"type": "object"}, "type": "array"},
-    "findings": {"items": {"type": "object"}, "type": "array"},
-    "independence": {
+    {
+      "$comment": "Fault verdict: emitted only when no verdict could be formed (exit 2). Its fields are exactly those knowable without a verdict; nothing is fabricated to satisfy the full shape.",
       "additionalProperties": false,
       "properties": {
-        "expectations_source": {"type": "string"},
-        "producer_code_imported": {"const": false}
+        "fault": {
+          "type": "string"
+        },
+        "schema": {
+          "const": "gravacle.a35.verifier-verdict.v1"
+        },
+        "verdict": {
+          "const": "FAIL"
+        }
       },
-      "required": ["expectations_source", "producer_code_imported"],
+      "required": [
+        "fault",
+        "schema",
+        "verdict"
+      ],
       "type": "object"
-    },
-    "producer_comparison": {
-      "properties": {
-        "quantification": {"const": "COMMON_MEMBER_ONLY"}
-      },
-      "type": "object"
-    },
-    "runtime_subject": {
-      "additionalProperties": false,
-      "properties": {
-        "gate_sha256": {"const": "2ad7f72a88184c11e1253f2c47598fca11e60d05e8e71a26db4e19b16bf98d42"},
-        "snapshot_sha256": {"const": "50a6fc141a45451678aa7543e4f267ce26beb6e53182170b478acb6fb0e0f5bb"},
-        "trust_root": {"pattern": "^[0-9a-f]{64}$", "type": "string"}
-      },
-      "required": ["gate_sha256", "snapshot_sha256", "trust_root"],
-      "type": "object"
-    },
-    "schema": {"const": "gravacle.a35.verifier-verdict.v1"},
-    "spec_sha256": {"const": "f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b"},
-    "terminal_content_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
-    "verdict": {"enum": ["VERIFIED", "FAIL"]},
-    "verifier_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"}
-  },
-  "required": ["authority_firewall", "authorization_sha256", "census",
-               "checks_replayed", "findings", "independence",
-               "producer_comparison", "runtime_subject", "schema",
-               "spec_sha256", "terminal_content_sha256", "verdict",
-               "verifier_sha256"],
-  "type": "object"
+    }
+  ]
 }

@@ -102,6 +102,76 @@ def main():
     except canonical_json.VerifierFault:
         sys.stdout.write("fixture quarantine        : rejects undeclared field\n")
 
+    # verdict schema: BOTH emission kinds must validate, and tampering must not
+    import json as _json, re as _re
+    _sch = _json.load(open(os.path.join(ROOT, "contracts",
+                                        "verifier_verdict.schema.json"),
+                           encoding="utf-8"))
+
+    def _val(node, sch, path, errs):
+        if "oneOf" in sch:
+            oks = []
+            for sub in sch["oneOf"]:
+                e = []; _val(node, sub, path, e); oks.append(not e)
+            if sum(oks) != 1:
+                errs.append("%s: matched %d branches" % (path, sum(oks)))
+            return
+        if "const" in sch and node != sch["const"]:
+            errs.append("%s: const" % path); return
+        t = sch.get("type")
+        if t == "object":
+            if not isinstance(node, dict): errs.append("%s: obj" % path); return
+            pr = sch.get("properties", {})
+            for r in sch.get("required", []):
+                if r not in node: errs.append("%s.%s: missing" % (path, r))
+            if sch.get("additionalProperties") is False:
+                for k in node:
+                    if k not in pr: errs.append("%s.%s: undeclared" % (path, k))
+            for k, v in node.items():
+                if k in pr: _val(v, pr[k], "%s.%s" % (path, k), errs)
+        elif t == "array":
+            if not isinstance(node, list): errs.append("%s: arr" % path)
+        elif t == "string":
+            if not isinstance(node, str): errs.append("%s: str" % path); return
+            if "pattern" in sch and not _re.match(sch["pattern"], node):
+                errs.append("%s: pattern" % path)
+        elif t == "boolean":
+            if not isinstance(node, bool): errs.append("%s: bool" % path)
+
+    _H = "0" * 64
+    _SPEC = spec_census.SPEC_SHA256
+    _full = {"schema": "gravacle.a35.verifier-verdict.v1", "spec_sha256": _SPEC,
+             "verifier_sha256": _H,
+             "runtime_subject": {"snapshot_sha256": runtime_state.AUTHORIZED_SNAPSHOT_SHA256,
+                                 "gate_sha256": runtime_state.AUTHORIZED_GATE_SHA256,
+                                 "trust_root": _H},
+             "authorization_sha256": _H, "census": {}, "checks_replayed": [],
+             "fixtures_replayed": [],
+             "producer_comparison": {"quantification": "COMMON_MEMBER_ONLY"},
+             "findings": [],
+             "independence": {"producer_code_imported": False,
+                              "expectations_source": "sealed specification bytes"},
+             "authority_firewall": {"implemented": True, "executed": True,
+                                    "authorization_claimed": False,
+                                    "alpha_computed": False, "proof_authorized": False,
+                                    "kappa_record_computed": False, "SPEC_SEAL": False,
+                                    "CORE_RESULT_SEAL": False, "FINAL_CLAIM_SEAL": False},
+             "verdict": "VERIFIED", "terminal_content_sha256": _H}
+    _fault = {"schema": "gravacle.a35.verifier-verdict.v1", "verdict": "FAIL",
+              "fault": "example"}
+    for _name, _doc, _want_ok in (("full verdict", _full, True),
+                                  ("fault verdict", _fault, True),
+                                  ("full minus fixtures_replayed",
+                                   {k: v for k, v in _full.items()
+                                    if k != "fixtures_replayed"}, False),
+                                  ("full + undeclared", dict(_full, x=1), False)):
+        _e = []; _val(_doc, _sch, "$", _e)
+        if bool(_e) == _want_ok:
+            faults += fail("verdict schema %s: errors=%s" % (_name, _e[:2]))
+        else:
+            sys.stdout.write("verdict schema %-28s: %s\n"
+                             % (_name, "valid" if _want_ok else "refused"))
+
     # Q-601 trust-label contexts
     R = "0" * 64
     ok3 = {"T0": R, "T1": R, "T2": R, "T3": R}
