@@ -13837,6 +13837,24 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-588 — TASK 6 BUILD: THE INTEGRATION ADDENDUM SEALED — THREE CLOSED CONTRACTS, DRAFTED AGAINST THE DRAFTER'S OWN BUILD (2026-08-07)
+
+**Question.** Are the three integration gaps (G1/G2/the verifier contract) closed by spec pattern rather than implementation choice?
+
+**Answer.** YES (Dario, `STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md`, SHA-256 `d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260`, relay 649; pin check passed; registrar mirrored).
+
+- **The custody decision flagged and honored:** Builder A's manifest, though lawful to read after Q-587, was hash-verified and left UNREAD — "a draft written after reading it cannot prove it didn't accommodate it; leaving it closed makes the independence claim provable by ordering." Any collision with A's choices is information for the principal, not something a shaped draft hides.
+- **A1 (events):** three carriers (`process/network/mutation_event_ledger_sha256`) patterned on the trio member whose name and R9's class list agree; the module_/native_ naming inconsistency PRESERVED ("renaming a sealed field is a mutation wearing a housekeeping label"); runtime needs no carrier (the before/after pair holds it); empty classes carry the empty-list digest, never null — "no events occurred" and "events weren't recorded" stay distinguishable.
+- **A2 (fixtures):** 16 fields each mapped to a §10 column or a checks[] counterpart, plus two rules the list can't carry: observed fields only from declared names (the quarantine made checkable), and expected values SPEC-FIXED — **BR-1 applies to fixtures exactly as to descriptors.**
+- **A3 (`rd22.verifier-manifest.v001`):** 11 fields on the producer-child pattern; optimize declared not inferred; stdout carries the verdict and nothing else; exit 1 (found faults) and exit 2 (couldn't start) are different facts, both terminal FAIL. Both builders conform; neither is ratified.
+- **The cost paid, on the record:** the re-derivation contradicted the drafter's OWN shipped verifier twice (ledger objects indexed where the child row wants digests; a fixture expectation hashed where §10 wants a named record) — both recorded as adapter changes OWED rather than the contract bent to fit. "A contract drafted to fit the drafter's build is not a contract, and the whole reason there are two builders is so that the second one has to say so out loud."
+
+**Sequence.** 650 (Codex 2): conform A to the sealed addendum, disclose every delta. 651 (Dario): conform B's adapter, including the two owed changes. 652/653: the evidence assembly and its spot-check. Then the invocation.
+
+**Custody.** Drafted by Dario against its own build's interests; registrar mirrored. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
