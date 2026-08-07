@@ -13971,6 +13971,19 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-599 — TASK 6 BUILD: THE WRITE-SURFACE PROOF, THE INTERFACE DIVISION RESOLVED — AND THE REGISTRAR'S OWN AUTHORED-EXPECTATION ERROR, DISCLOSED (2026-08-07)
+
+**Question.** Where does the verifier-launch interface stand after 659?
+
+**Answer.** Three results (Dario's `STAGE8_TASK6_OUTPUT_PATHS_FIX_DARIO_V001.md`, SHA-256 `86c75d56f6bc94a5b6aa9375fef298f6dc62bea0f8c2ca0e50379befdeaf683e`, relay 659; registrar mirrored).
+
+- **The write-surface confirmation exceeded the requirement:** enumerated, not reasoned — the verifier runtime opens no file for writing at all (one read-only open; stdout/stderr only; no mkdir/remove/rename anywhere). "Never into its package" holds a fortiori, grounded in the right principle: `verifier_root_sha256` digests those very bytes, so a package that writes into itself corrupts its own next-run baseline.
+- **The interface division B surfaced rather than falsely confirming** ("argv carries no output token; the declared paths are destinations for the parent") **is resolved by the registrar's code read: the parent places both files itself** — `exclusive_write(verifier_out, captured_stdout)` and a parent-composed receipt. The two builds' divisions match; no repair needed. B's refusal to confirm what wasn't true is what made the resolution a fact instead of an assumption.
+- **THE REGISTRAR'S OWN DEFECT, disclosed of record:** relay 659 instructed B to declare `verifier.verdict.json` — a name I derived from the producer pattern WITHOUT reading the parent's actual constant, which is `verifier.output.json`. The authored-expectation class, committed by the registrar. One-string fix to B's instance (relay 661); the receipt name matched. The lesson already in LOCKED_PROCESS applies to relay authors too: cite the constant, never transcribe the pattern.
+- Run 008's convergence stands registered in B's words as "the first hard evidence the two-builder split earned its cost."
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
