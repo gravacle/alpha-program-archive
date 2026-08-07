@@ -312,3 +312,28 @@ their next version, not as false certificates.
    reports zero, and is wrong again. (Origin: BR-2 proved mechanical — two runs
    agreed at zero; BR-1 proved adjudicated — two implementations by the SAME
    reviewer erred in opposite directions, +5 and 16 against a true 'at least 7'.)
+
+## THE FIRST-TIME-RIGHT RULES (principal directive, 2026-08-07)
+
+Prevention, not detection. Effective immediately for all build/tranche work:
+
+1. PINS ARE GENERATED, NEVER TRANSCRIBED. One machine-readable pin manifest
+   per package; every digest, filename reference, and const derives from it
+   mechanically; any state change regenerates the full pin closure IN THE SAME
+   DELTA (grep the value AND the name). A hand-written pin is a defect on
+   sight.
+2. INTERFACES ARE SCHEMAS, NEVER PROSE. Any field one builder emits and the
+   other consumes is defined once, in a sealed schema file both sides validate
+   against. A prose write-out of a shape is not a contract.
+3. NO UNEXECUTED PATH SHIPS. Every emission and validation path in a shipped
+   component is demonstrated against a fixture before sealing — success paths,
+   fail-closed paths, and every document kind. "Static-clean" without path
+   execution does not close a relay that adds a path.
+4. STATE CHANGES SHIP WHOLE. A change to spec, root, census, or contract
+   ships with every dependent artifact updated in the same relay — pins,
+   spans, manifests, both builders' consts enumerated in the relay text so
+   neither side discovers the cascade at run time.
+
+Origin: the principal's directive after the run-023..029 cascade; the defect
+classes these address are pin sprawl, prose-shape drift, first-contact path
+failures, and split-relay state changes.
