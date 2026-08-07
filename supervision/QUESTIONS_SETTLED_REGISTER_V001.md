@@ -13778,6 +13778,24 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-584 — TASK 6 SUBGATE: CONVERGENCE — BOTH DOCUMENT CHAINS STAND; THE SUBGATE'S INSTRUMENT LAYER IS COMPLETE; THE BUILD PACKAGE GOES TO THE PRINCIPAL (2026-08-07)
+
+**Question.** Is the document layer converged?
+
+**Answer.** YES. The assembly V005 closing check returns STANDS (Codex 2, `STAGE8_TASK6_ASSEMBLY_V005_CHECK_LANE2_V001.md`, SHA-256 `c228ff62a3b8c4ab2ca2ce5a0d48ce43deea42949a17a3b7954214c30abef2dc`, relay 645; registrar mirrored), joining the spec V005's STANDS (Q-583). The full inventory now standing, every artifact cross-family reviewed with clean certificates:
+
+- **The evaluator spec V005** (`f8d1a7dc…`): 66 checks, BR-1/A adjudicated regime with displayed work, BR-2 mechanical, the aggregate firewall structural. BUILD-READY on the spec side.
+- **The assembly V005** (`76589e94…`): the Q-spec demand side — 18 slots, 0 filled, all appeals resolved, freeze gated externally; operative content byte-identical across three versions.
+- **The matrix ledger** (Q-553/Q-558): 24 PASS / 0 FAIL / 6 BLOCKED; SPEC-SEAL false displayed.
+- **The A25/A27 repair inventory V003** (`74bbb7aa…`) with two finite certificates delivered and held out (`7a07d3b8…`).
+- The process law grown en route: PRE-SEAL PIN CHECK, VERDICT-LINE SCOPE, DECLARED-CONVENTIONS, SWEEP COVERAGE, TEST-CLASS, C-V5a, ONE-CLIPBOARD, APPEAL PREFLIGHT.
+
+**THE BUILD PACKAGE (to the principal):** (1) RD-22 authorization; (2) the runtime pin — one content triple; (3) builder custody — proposed: Builder A (producer) = Codex 2, Builder B (verifier) = Dario (cross-family independence), Custodian C (invokes, authored neither) = the registrar, the terminal local-assurance record realized through the public git deploy per the program's standing integrity mechanism (git, never PGP), with the principal's authorization its own sealed artifact; (4) the BRANCH_OUTCOME per-ID display carried as an implementation-manifest obligation (Q-583).
+
+**Custody.** Registered by the reviewer; the rulings that follow are the principal's.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
