@@ -17,6 +17,7 @@ EXPECTED_BRANCH = {
 }
 OPCODES = {"STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME"}
 ADDENDUM_SHA256 = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260"
+VERDICT_SCHEMA_SHA256 = "300a475ead3c17cd5b759ffcc3733418029030404af262632583fff077f2907f"
 EVIDENCE_MODES = ["fixed_string", "whitespace_normalized", "self_reference_scope", "hyphen_space_underscore"]
 EVIDENCE_SOURCES = {
     "BID_CHARGED_CELLULAR_CPT_INTERTWINER_DERIVATION_V001.md": ("packet", "0322763ac48a4428b432124a6947da81826a41f612efa6803ee9a87317929b98"),
@@ -225,6 +226,15 @@ def main():
     optimized = json_values["optimized.json"]
     package_inventory = json_values["package_inventory.json"]
     parent_module = load_parent(package)
+    verdict_schema_rows = [row for row in normal["external_inputs"] if row["kind"] == "verifier_verdict_schema"]
+    if len(verdict_schema_rows) != 1 or verdict_schema_rows[0]["sha256"] != VERDICT_SCHEMA_SHA256:
+        stop("VERDICT_SCHEMA_INPUT_ROW", verdict_schema_rows)
+    verdict_schema_path = cleanroom.parent / verdict_schema_rows[0]["relative_path"]
+    verdict_schema_data = verdict_schema_path.read_bytes()
+    if len(verdict_schema_data) != verdict_schema_rows[0]["byte_length"] or digest(verdict_schema_data) != verdict_schema_rows[0]["sha256"]:
+        stop("VERDICT_SCHEMA_INPUT_PIN", verdict_schema_path)
+    verdict_schema = json.loads(verdict_schema_data.decode("utf-8"), object_pairs_hook=pairs, parse_constant=nonfinite)
+    parent_module.validate_schema_definition(verdict_schema)
     snapshot_path = cleanroom.parent / "provenance/primitive_step6_runtime_snapshot_v012.json"
     snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
     trust_root = parent_module.trust_root_digest(snapshot["native_system_trust_root"])
@@ -259,11 +269,12 @@ def main():
     producer_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], producer_snapshots, "2" * 64, producer_scope, authorization_digest)
     terminal_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], terminal_snapshots, "2" * 64, terminal_scope, authorization_digest)
     verifier_value = {
-        "authority_firewall": {field: False for field in ("CORE_RESULT_SEAL", "FINAL_CLAIM_SEAL", "SPEC_SEAL", "alpha_computed", "kappa_record_computed", "proof_authorized")},
+        "authority_firewall": dict(normal["authority_firewall"]),
         "authorization_sha256": authorization_digest,
         "census": {},
         "checks_replayed": [],
         "findings": [],
+        "fixtures_replayed": [],
         "independence": {"expectations_source": "STATIC_SITE_AGREEMENT", "producer_code_imported": False},
         "producer_comparison": {},
         "runtime_subject": normal["runtime_subject"],
@@ -273,7 +284,23 @@ def main():
         "verdict": "VERIFIED",
         "verifier_sha256": "2" * 64,
     }
-    accepted_verifier = parent_module.verifier_stdout(parent_module.canonical_bytes(verifier_value), "VERIFIED", "2" * 64, snapshot, authorization_digest)
+    accepted_verifier = parent_module.verifier_stdout(parent_module.canonical_bytes(verifier_value), "VERIFIED", "2" * 64, snapshot, authorization_digest, verdict_schema)
+    fault_value = {"fault": "STATIC_FAULT_DOCUMENT", "schema": "gravacle.a35.verifier-verdict.v1", "verdict": "FAIL"}
+    accepted_fault = parent_module.verifier_stdout(parent_module.canonical_bytes(fault_value), "FAIL", "2" * 64, snapshot, authorization_digest, verdict_schema)
+    if accepted_fault != fault_value:
+        stop("VERDICT_SCHEMA_FAULT_ACCEPTANCE", accepted_fault)
+    rejected_documents = {
+        "old_13_field": {key: value for key, value in verifier_value.items() if key != "fixtures_replayed"},
+        "full_extra": {**verifier_value, "undeclared": False},
+        "fault_extra": {**fault_value, "undeclared": False},
+        "wrong_spec": {**verifier_value, "spec_sha256": "0" * 64},
+    }
+    for label, document in rejected_documents.items():
+        try:
+            parent_module.verifier_stdout(parent_module.canonical_bytes(document), document["verdict"], "2" * 64, snapshot, authorization_digest, verdict_schema)
+        except parent_module.ParentFailure:
+            continue
+        stop("VERDICT_SCHEMA_NEGATIVE", label)
     trust_site_values = {
         "definition": trust_root,
         "manifests": normal["runtime_subject"]["trust_root"] if optimized["runtime_subject"]["trust_root"] == trust_root else "DRIFT",
@@ -416,10 +443,12 @@ def main():
             stop("SCHEMA_TOP_NOT_CLOSED", schema_name)
         for index, target in enumerate(targets):
             validate(schema, target, f"{schema_name}[{index}]")
-    for schema_name in ["producer-output.schema.json", "child-receipt.schema.json", "verifier-manifest.schema.json", "verifier-output.schema.json", "terminal-ledger.schema.json"]:
+    for schema_name in ["producer-output.schema.json", "child-receipt.schema.json", "verifier-manifest.schema.json", "terminal-ledger.schema.json"]:
         schema = json_values[schema_name]
         if schema.get("additionalProperties") is not False or not schema.get("required") or set(schema["required"]) != set(schema["properties"]):
             stop("SCHEMA_EXACT_TOP", schema_name)
+    if (package / "schemas/verifier-output.schema.json").exists():
+        stop("VERDICT_CONTRACT_TRANSCRIPTION", "local verifier-output schema remains")
     producer_schema = json_values["producer-output.schema.json"]
     compared_properties = set(producer_schema["properties"])
     unmasked_per_child_fields = {"manifest_sha256", "mode", "optimization", "writable_paths"}
@@ -503,6 +532,23 @@ def main():
     }
     validate(verifier_schema, synthetic_verifier, "verifier_manifest")
     parent_text = (package / "parent.py").read_text(encoding="utf-8")
+    verifier_stdout_block = parent_text.split("def verifier_stdout(", 1)[1].split("def run_verifier_process(", 1)[0]
+    verdict_validation_receivers = {
+        "VERDICT_SCHEMA_SUPPORTED_KEYWORDS = frozenset(",
+        "def validate_schema_definition(",
+        "def validate_verdict_document(",
+        "selected_schema = validate_verdict_document(value, verdict_schema)",
+        'verified_external_inputs["verifier_verdict_schema"]["data"]',
+    }
+    missing_verdict_receivers = sorted(item for item in verdict_validation_receivers if item not in parent_text)
+    forbidden_verdict_transcriptions = {
+        'fields = {\n        "authority_firewall", "authorization_sha256", "census", "checks_replayed"',
+        'exact_keys(value, fields, "verifier output")',
+    }
+    present_verdict_transcriptions = sorted(item for item in forbidden_verdict_transcriptions if item in verifier_stdout_block)
+    expected_schema_keywords = {"$comment", "$schema", "additionalProperties", "const", "enum", "items", "oneOf", "pattern", "properties", "required", "type"}
+    if parent_module.VERDICT_SCHEMA_SUPPORTED_KEYWORDS != frozenset(expected_schema_keywords) or missing_verdict_receivers or present_verdict_transcriptions:
+        stop("VERDICT_SCHEMA_RECEIVERS", {"keywords": sorted(parent_module.VERDICT_SCHEMA_SUPPORTED_KEYWORDS), "missing": missing_verdict_receivers, "transcriptions": present_verdict_transcriptions})
     authorization_forbidden = {
         "AUTHORIZATION_CONTENT",
         "Builder A               = Codex Lane 2 (parent + producer)",
@@ -514,7 +560,7 @@ def main():
     authorization_receivers = {
         "authorization_data, authorization_artifact_sha256 = verify_bytes_with_digest(args.authorization, AUTHORIZATION_SHA256)",
         '"authorization": {"artifact_sha256": authorization_artifact_sha256, "scope": scope}',
-        "verifier_stdout(verifier_data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256)",
+        "verifier_stdout(verifier_data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256, verdict_schema)",
     }
     missing_authorization_receivers = sorted(item for item in authorization_receivers if item not in parent_text)
     forbidden_authorization_receivers = {
@@ -595,7 +641,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

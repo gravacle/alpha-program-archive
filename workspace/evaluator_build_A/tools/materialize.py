@@ -18,6 +18,7 @@ GATE_SHA = "2ad7f72a88184c11e1253f2c47598fca11e60d05e8e71a26db4e19b16bf98d42"
 ADDENDUM_SHA = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260"
 V011_SHA = "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a"
 SOURCE_GATE_SHA = "5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf"
+VERDICT_SCHEMA_SHA = "300a475ead3c17cd5b759ffcc3733418029030404af262632583fff077f2907f"
 OPEN_CODES = ["STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME"]
 BRANCH_OUTCOME = {
     "BRANCH-CANDIDATE-TYPED-COMPLETE": "ADMITTED",
@@ -406,11 +407,6 @@ def schemas():
             "properties": {"argv": string_array, "entry_point": string, "exit_contract": exit_contract, "input_roots": verifier_input_roots, "optimize": {"type": "boolean"}, "output_path": string, "receipt_authoritative": {"const": False, "type": "boolean"}, "receipt_path": string, "schema": {"const": "rd22.verifier-manifest.v001", "type": "string"}, "stdout_discipline": stdout_discipline, "verifier_root_sha256": digest},
             "required": ["argv", "entry_point", "exit_contract", "input_roots", "optimize", "output_path", "receipt_authoritative", "receipt_path", "schema", "stdout_discipline", "verifier_root_sha256"], "type": "object",
         },
-        "verifier-output.schema.json": {
-            "$id": "gravacle.a35.verifier-verdict.v1", "additionalProperties": False,
-            "properties": {"authority_firewall": object_value, "authorization_sha256": digest, "census": object_value, "checks_replayed": object_array, "findings": object_array, "independence": closed({"expectations_source": string, "producer_code_imported": {"const": False, "type": "boolean"}}), "producer_comparison": object_value, "runtime_subject": runtime_subject, "schema": {"const": "gravacle.a35.verifier-verdict.v1", "type": "string"}, "spec_sha256": digest, "terminal_content_sha256": digest, "verdict": {"enum": ["VERIFIED", "FAIL"], "type": "string"}, "verifier_sha256": digest},
-            "required": ["authority_firewall", "authorization_sha256", "census", "checks_replayed", "findings", "independence", "producer_comparison", "runtime_subject", "schema", "spec_sha256", "terminal_content_sha256", "verdict", "verifier_sha256"], "type": "object",
-        },
         "terminal-ledger.schema.json": {
             "$id": "rd22.terminal-ledger.v001", "additionalProperties": False,
             "properties": {"authorization": authorization_record, "authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "children": {"items": child_row, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "producer_comparison": object_value, "runner_sha256": digest, "runtime_subject": runtime_subject, "schema": {"const": "rd22.terminal-ledger.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage": object_value, "summary": object_value, "terminal_content_sha256": digest, "trust_snapshots": trust_snapshots, "verifier_sha256": digest},
@@ -437,7 +433,8 @@ def main():
     runtime_gate_path = program / "primitive_step6_content_addressed_runtime_gate_v010.md"
     addendum_path = cleanroom / "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md"
     authorization_path = Path("/Users/bgm/MB Work/alpha-program-archive/supervision/DECISION_RD22_BUILD_AUTHORIZED_2026-08-07.md")
-    pins = [(spec_path, SPEC_SHA), (addendum_path, ADDENDUM_SHA), (ledger_path, LEDGER_SHA), (packet_path, PACKET_SHA), (v011_path, V011_SHA), (source_gate_path, SOURCE_GATE_SHA), (runtime_snapshot_path, SNAPSHOT_SHA), (runtime_gate_path, GATE_SHA), (authorization_path, AUTH_SHA)]
+    verdict_schema_path = cleanroom / "evaluator_build_B/contracts/verifier_verdict.schema.json"
+    pins = [(spec_path, SPEC_SHA), (addendum_path, ADDENDUM_SHA), (ledger_path, LEDGER_SHA), (packet_path, PACKET_SHA), (v011_path, V011_SHA), (source_gate_path, SOURCE_GATE_SHA), (runtime_snapshot_path, SNAPSHOT_SHA), (runtime_gate_path, GATE_SHA), (authorization_path, AUTH_SHA), (verdict_schema_path, VERDICT_SCHEMA_SHA)]
     for path, expected in pins:
         actual = sha(path.read_bytes())
         if actual != expected:
@@ -512,6 +509,7 @@ def main():
         {**file_row(runtime_gate_path, str(runtime_gate_path.relative_to(program))), "kind": "runtime_gate"},
         {**file_row(runtime_snapshot_path, str(runtime_snapshot_path.relative_to(program))), "kind": "runtime_snapshot"},
         {**file_row(spec_path, str(spec_path.relative_to(program))), "kind": "specification"},
+        {**file_row(verdict_schema_path, str(verdict_schema_path.relative_to(program))), "kind": "verifier_verdict_schema"},
     ]
     native_system_trust_root = json.loads(runtime_snapshot_path.read_text(encoding="utf-8"))["native_system_trust_root"]
     trust_root = parent_trust_root_digest(package, native_system_trust_root)

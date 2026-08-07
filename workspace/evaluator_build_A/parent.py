@@ -43,6 +43,19 @@ PATH_IDENTITY_SITES = (
     "MODULE_NATIVE_LOADS",
     "OPEN_EVENTS",
 )
+VERDICT_SCHEMA_SUPPORTED_KEYWORDS = frozenset({
+    "$comment",
+    "$schema",
+    "additionalProperties",
+    "const",
+    "enum",
+    "items",
+    "oneOf",
+    "pattern",
+    "properties",
+    "required",
+    "type",
+})
 
 
 class ParentFailure(Exception):
@@ -115,6 +128,118 @@ def exact_keys(value, keys, label):
     wanted = set(keys)
     if actual != wanted:
         fail("SCHEMA_FIELDS", f"{label}: missing={sorted(wanted-actual)}, extra={sorted(actual-wanted)}")
+
+
+def validate_schema_definition(schema, path="$"):
+    if not isinstance(schema, dict):
+        fail("VERDICT_SCHEMA_DEFINITION", f"{path}: schema is not an object")
+    unsupported = set(schema) - VERDICT_SCHEMA_SUPPORTED_KEYWORDS
+    if unsupported:
+        fail("VERDICT_SCHEMA_KEYWORD", f"{path}: {sorted(unsupported)}")
+    if "$comment" in schema and not isinstance(schema["$comment"], str):
+        fail("VERDICT_SCHEMA_DEFINITION", f"{path}: $comment")
+    if "$schema" in schema and not isinstance(schema["$schema"], str):
+        fail("VERDICT_SCHEMA_DEFINITION", f"{path}: $schema")
+    if "oneOf" in schema:
+        branches = schema["oneOf"]
+        if not isinstance(branches, list) or len(branches) < 2:
+            fail("VERDICT_SCHEMA_DEFINITION", f"{path}: oneOf")
+        for index, branch in enumerate(branches):
+            validate_schema_definition(branch, f"{path}/oneOf/{index}")
+    kind = schema.get("type")
+    if kind is not None and kind not in {"array", "boolean", "integer", "null", "number", "object", "string"}:
+        fail("VERDICT_SCHEMA_DEFINITION", f"{path}: type={kind!r}")
+    properties = schema.get("properties")
+    if properties is not None:
+        if not isinstance(properties, dict) or any(not isinstance(key, str) for key in properties):
+            fail("VERDICT_SCHEMA_DEFINITION", f"{path}: properties")
+        for key, child in properties.items():
+            validate_schema_definition(child, f"{path}/properties/{key}")
+    required = schema.get("required")
+    if required is not None and (not isinstance(required, list) or any(not isinstance(item, str) for item in required) or len(required) != len(set(required))):
+        fail("VERDICT_SCHEMA_DEFINITION", f"{path}: required")
+    additional = schema.get("additionalProperties")
+    if additional is not None and not isinstance(additional, bool):
+        fail("VERDICT_SCHEMA_DEFINITION", f"{path}: additionalProperties")
+    enum = schema.get("enum")
+    if enum is not None and (not isinstance(enum, list) or not enum):
+        fail("VERDICT_SCHEMA_DEFINITION", f"{path}: enum")
+    pattern = schema.get("pattern")
+    if pattern is not None:
+        if not isinstance(pattern, str):
+            fail("VERDICT_SCHEMA_DEFINITION", f"{path}: pattern")
+        try:
+            re.compile(pattern)
+        except re.error as exc:
+            fail("VERDICT_SCHEMA_DEFINITION", f"{path}: pattern: {exc}")
+    if "items" in schema:
+        validate_schema_definition(schema["items"], f"{path}/items")
+
+
+def schema_type_matches(value, kind):
+    if kind == "object":
+        return isinstance(value, dict)
+    if kind == "array":
+        return isinstance(value, list)
+    if kind == "string":
+        return isinstance(value, str)
+    if kind == "boolean":
+        return isinstance(value, bool)
+    if kind == "integer":
+        return isinstance(value, int) and not isinstance(value, bool)
+    if kind == "number":
+        return isinstance(value, (int, float)) and not isinstance(value, bool)
+    if kind == "null":
+        return value is None
+    return False
+
+
+def schema_instance_errors(value, schema, path="$"):
+    errors = []
+    if "oneOf" in schema:
+        branch_errors = [schema_instance_errors(value, branch, path) for branch in schema["oneOf"]]
+        matches = sum(not item for item in branch_errors)
+        if matches != 1:
+            errors.append(f"{path}: oneOf matched {matches} branches")
+            return errors
+    if "const" in schema and value != schema["const"]:
+        errors.append(f"{path}: const")
+    if "enum" in schema and value not in schema["enum"]:
+        errors.append(f"{path}: enum")
+    kind = schema.get("type")
+    if kind is not None and not schema_type_matches(value, kind):
+        errors.append(f"{path}: type {kind}")
+        return errors
+    if kind == "object":
+        properties = schema.get("properties", {})
+        missing = set(schema.get("required", [])) - set(value)
+        if missing:
+            errors.append(f"{path}: missing {sorted(missing)}")
+        if schema.get("additionalProperties") is False:
+            extra = set(value) - set(properties)
+            if extra:
+                errors.append(f"{path}: extra {sorted(extra)}")
+        for key, child in value.items():
+            if key in properties:
+                errors.extend(schema_instance_errors(child, properties[key], f"{path}/{key}"))
+    elif kind == "array" and "items" in schema:
+        for index, child in enumerate(value):
+            errors.extend(schema_instance_errors(child, schema["items"], f"{path}/{index}"))
+    if "pattern" in schema and isinstance(value, str) and re.search(schema["pattern"], value) is None:
+        errors.append(f"{path}: pattern")
+    return errors
+
+
+def validate_verdict_document(value, schema):
+    errors = schema_instance_errors(value, schema)
+    if errors:
+        fail("VERIFIER_SCHEMA_VALIDATION", errors[:8])
+    if "oneOf" not in schema:
+        return schema
+    matches = [branch for branch in schema["oneOf"] if not schema_instance_errors(value, branch)]
+    if len(matches) != 1:
+        fail("VERIFIER_SCHEMA_BRANCH", len(matches))
+    return matches[0]
 
 
 def content_root(entries, label):
@@ -304,7 +429,6 @@ def verify_package_inventory(package_root, manifest):
         "schemas/producer-output.schema.json",
         "schemas/terminal-ledger.schema.json",
         "schemas/verifier-manifest.schema.json",
-        "schemas/verifier-output.schema.json",
     }
     if not required.issubset(seen):
         fail("PACKAGE_REQUIRED_FILES", sorted(required-seen))
@@ -352,6 +476,7 @@ def verify_external_inputs(program_root, authorization_path, manifest):
     if not isinstance(external, list):
         fail("EXTERNAL_INPUTS", "not list")
     seen = set()
+    verified = {}
     for row in external:
         exact_keys(row, {"byte_length", "kind", "relative_path", "sha256"}, "external row")
         kind = row["kind"]
@@ -365,9 +490,11 @@ def verify_external_inputs(program_root, authorization_path, manifest):
         data = verify_bytes(target, row["sha256"])
         if len(data) != row["byte_length"]:
             fail("EXTERNAL_BYTE_LENGTH", kind)
-    required = {"authorization", "blocker_ledger", "integration_addendum", "packet_manifest", "runtime_gate", "runtime_snapshot", "specification"}
+        verified[kind] = {"data": data, "path": target, "sha256": row["sha256"]}
+    required = {"authorization", "blocker_ledger", "integration_addendum", "packet_manifest", "runtime_gate", "runtime_snapshot", "specification", "verifier_verdict_schema"}
     if seen != required:
         fail("EXTERNAL_KIND_SET", f"missing={sorted(required-seen)}, extra={sorted(seen-required)}")
+    return verified
 
 
 def validate_runtime(snapshot_data, gate_data):
@@ -883,37 +1010,34 @@ def verifier_process_command(manifest, pinned_python, verifier_base, verifier_fi
     return command
 
 
-def verifier_stdout(data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256):
+def verifier_stdout(data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256, verdict_schema):
     if not data:
         fail("VERIFIER_STDOUT_EMPTY", "missing canonical JSON value")
     value = strict_json(data, "verifier stdout")
     if canonical_bytes(value) != data:
         fail("VERIFIER_STDOUT_CANONICAL", "one tight canonical JSON value required")
-    fields = {
-        "authority_firewall", "authorization_sha256", "census", "checks_replayed",
-        "findings", "independence", "producer_comparison", "runtime_subject",
-        "schema", "spec_sha256", "terminal_content_sha256", "verdict",
-        "verifier_sha256",
-    }
-    exact_keys(value, fields, "verifier output")
-    if value["schema"] != "gravacle.a35.verifier-verdict.v1" or value["verdict"] != expected_verdict:
+    selected_schema = validate_verdict_document(value, verdict_schema)
+    declared = set(selected_schema.get("properties", {}))
+    if value.get("schema") != "gravacle.a35.verifier-verdict.v1" or value.get("verdict") != expected_verdict:
         fail("VERIFIER_VERDICT", value.get("verdict"))
-    if value["authorization_sha256"] != authorization_artifact_sha256 or value["spec_sha256"] != SPEC_SHA256:
+    authority_pins = {"authorization_sha256", "spec_sha256"}
+    if declared & authority_pins and not authority_pins <= declared:
+        fail("VERIFIER_SCHEMA_AUTHORITY_PAIR", sorted(declared & authority_pins))
+    if authority_pins <= declared and (value["authorization_sha256"] != authorization_artifact_sha256 or value["spec_sha256"] != SPEC_SHA256):
         fail("VERIFIER_AUTHORITY_PIN", "authorization/spec")
-    if value["verifier_sha256"] != verifier_root:
+    if "verifier_sha256" in declared and value["verifier_sha256"] != verifier_root:
         fail("VERIFIER_SELF_PIN", value["verifier_sha256"])
-    exact_keys(value["independence"], {"expectations_source", "producer_code_imported"}, "verifier independence")
-    if value["independence"]["producer_code_imported"] is not False:
+    if "independence" in declared and value["independence"]["producer_code_imported"] is not False:
         fail("VERIFIER_INDEPENDENCE", value["independence"])
-    exact_keys(value["runtime_subject"], {"gate_sha256", "snapshot_sha256", "trust_root"}, "verifier runtime_subject")
     expected_runtime = {"gate_sha256": RUNTIME_GATE_SHA256, "snapshot_sha256": RUNTIME_SNAPSHOT_SHA256, "trust_root": trust_root_digest(runtime["native_system_trust_root"])}
-    if value["runtime_subject"] != expected_runtime:
+    if "runtime_subject" in declared and value["runtime_subject"] != expected_runtime:
         fail("VERIFIER_RUNTIME_PIN", value["runtime_subject"])
-    firewall = value["authority_firewall"]
-    for field in ("CORE_RESULT_SEAL", "FINAL_CLAIM_SEAL", "SPEC_SEAL", "alpha_computed", "kappa_record_computed", "proof_authorized"):
-        if firewall.get(field) is not False:
-            fail("VERIFIER_FIREWALL", field)
-    if expected_verdict == "VERIFIED" and value["findings"]:
+    if "authority_firewall" in declared:
+        firewall = value["authority_firewall"]
+        for field in ("CORE_RESULT_SEAL", "FINAL_CLAIM_SEAL", "SPEC_SEAL", "alpha_computed", "kappa_record_computed", "proof_authorized"):
+            if firewall.get(field) is not False:
+                fail("VERIFIER_FIREWALL", field)
+    if expected_verdict == "VERIFIED" and "findings" in declared and value["findings"]:
         fail("VERIFIER_FINDINGS_ON_SUCCESS", value["findings"])
     return value
 
@@ -1020,7 +1144,9 @@ def main():
     no_python_check_nodes(parent_data, "parent.py")
     no_python_check_nodes(package["producer.py"][1], "producer.py")
     authorization_data, authorization_artifact_sha256 = verify_bytes_with_digest(args.authorization, AUTHORIZATION_SHA256)
-    verify_external_inputs(program_root_declared, args.authorization, normal_manifest)
+    verified_external_inputs = verify_external_inputs(program_root_declared, args.authorization, normal_manifest)
+    verdict_schema = strict_json(verified_external_inputs["verifier_verdict_schema"]["data"], "sealed verifier verdict schema")
+    validate_schema_definition(verdict_schema)
     runtime_snapshot_path = external_path(program_root_declared, normal_manifest, "runtime_snapshot")
     runtime_gate_path = external_path(program_root_declared, normal_manifest, "runtime_gate")
     specification_path = external_path(program_root_declared, normal_manifest, "specification")
@@ -1144,15 +1270,15 @@ def main():
     t4 = trust_snapshot(runtime)
     if t4 != t3 or t4 != t2:
         fail("R9_TRUST", "T4")
-    if verifier_process.returncode == verifier_manifest["exit_contract"]["fail_closed"]:
-        detail = verifier_process.stderr.decode("utf-8", errors="replace")[-4000:]
-        fail("R9_VERIFIER_FAIL_CLOSED_EXIT_2", detail)
-    if verifier_process.returncode not in {verifier_manifest["exit_contract"]["verified"], verifier_manifest["exit_contract"]["faults_found"]}:
+    declared_exits = set(verifier_manifest["exit_contract"].values())
+    if verifier_process.returncode not in declared_exits:
         fail("R9_VERIFIER_UNDECLARED_EXIT", verifier_process.returncode)
     expected_verdict = "VERIFIED" if verifier_process.returncode == verifier_manifest["exit_contract"]["verified"] else "FAIL"
     verifier_data = verifier_process.stdout
-    verifier_value = verifier_stdout(verifier_data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256)
+    verifier_value = verifier_stdout(verifier_data, expected_verdict, verifier_root, runtime, authorization_artifact_sha256, verdict_schema)
     exclusive_write(verifier_out, verifier_data)
+    if verifier_process.returncode == verifier_manifest["exit_contract"]["fail_closed"]:
+        fail("R9_VERIFIER_FAIL_CLOSED_EXIT_2", verifier_value.get("fault", "schema-valid fault document"))
     if verifier_process.returncode == verifier_manifest["exit_contract"]["faults_found"]:
         fail("R9_VERIFIER_FAULTS_FOUND_EXIT_1", verifier_value["findings"])
     verifier_receipt_value, verifier_receipt_data = receipt(verifier_receipt_path)

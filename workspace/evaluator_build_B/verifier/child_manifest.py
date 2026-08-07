@@ -26,7 +26,8 @@ ENTRY_POINT = "run_verifier.py"
 # pinned entry digest, because one root is one thing to check and cannot drift
 # out of step with a companion value.
 #
-# MEMBER LIST (11), by package-relative path, sorted lexicographically:
+# MEMBER LIST (12), by package-relative path, sorted lexicographically:
+#     contracts/verifier_verdict.schema.json
 #     run_verifier.py
 #     verifier/__init__.py
 #     verifier/canonical_json.py
@@ -42,7 +43,15 @@ ENTRY_POINT = "run_verifier.py"
 # COMPUTATION (unchanged in scheme, extended in membership):
 #     verifier_root_sha256 := SHA256( concat( sha256_hex(member_bytes)
 #                                             for member in sorted(members) ) )
-ROOT_MEMBERS = ("run_verifier.py",)          # package-root members
+# The verdict schema is load-bearing for the handshake: it is the contract
+# Builder A validates this verifier's verdict against. Pinned by its own sidecar
+# since 674, it sat OUTSIDE this root -- the same shape as the launcher question
+# A raised at 667, and resolved the same way, by root inclusion. One root over
+# every load-bearing byte; a file outside it is not load-bearing.
+ROOT_MEMBERS = (
+    "contracts/verifier_verdict.schema.json",
+    "run_verifier.py",
+)
 ROOT_PACKAGE_DIR = "verifier"                # every *.py inside is a member
 
 
