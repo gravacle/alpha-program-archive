@@ -2,6 +2,7 @@
 """Materialize Builder A's closed maps, fixtures, schemas, and manifests."""
 
 import hashlib
+import importlib.util
 import json
 import re
 import sys
@@ -39,6 +40,19 @@ def canonical(value):
 
 def write_json(path, value):
     path.write_bytes(canonical(value))
+
+
+def parent_trust_root_digest(package, native_system_trust_root):
+    parent_path = package / "parent.py"
+    module_spec = importlib.util.spec_from_file_location("rd22_builder_a_parent_static", parent_path)
+    if module_spec is None or module_spec.loader is None:
+        die("PARENT_IMPORT", parent_path)
+    module = importlib.util.module_from_spec(module_spec)
+    module_spec.loader.exec_module(module)
+    digest = module.trust_root_digest(native_system_trust_root)
+    if re.fullmatch(r"[0-9a-f]{64}", digest) is None:
+        die("TRUST_ROOT_DIGEST", digest)
+    return digest
 
 
 def file_row(path, relative):
@@ -326,6 +340,8 @@ def schemas():
             "target_sha256": digest,
         }
     )
+    runtime_subject = closed({"gate_sha256": digest, "snapshot_sha256": digest, "trust_root": digest})
+    trust_snapshots = closed({"T0": digest, "T1": digest, "T2": digest, "T3": digest, "T4": digest})
     verifier_input_roots = closed({"evidence_root_sha256": digest, "ledger_sha256": digest, "runtime_gate_sha256": digest, "runtime_snapshot_sha256": digest, "spec_sha256": digest})
     stdout_discipline = closed({"format": {"const": "canonical-json", "type": "string"}, "lines": {"const": 1, "type": "integer"}, "other_output_permitted": {"const": False, "type": "boolean"}})
     exit_contract = closed({"fail_closed": {"const": 2, "type": "integer"}, "faults_found": {"const": 1, "type": "integer"}, "verified": {"const": 0, "type": "integer"}})
@@ -342,7 +358,7 @@ def schemas():
         "mode": {"enum": ["normal", "optimized"], "type": "string"},
         "optimization": integer,
         "package_files": object_array,
-        "runtime_subject": object_value,
+        "runtime_subject": runtime_subject,
         "schema": {"const": "rd22.child-manifest.v001", "type": "string"},
         "specification_sha256": digest,
         "subject_lineage_root": digest,
@@ -386,12 +402,12 @@ def schemas():
         },
         "verifier-output.schema.json": {
             "$id": "gravacle.a35.verifier-verdict.v1", "additionalProperties": False,
-            "properties": {"authority_firewall": object_value, "authorization_sha256": digest, "census": object_value, "checks_replayed": object_array, "findings": object_array, "independence": closed({"expectations_source": string, "producer_code_imported": {"const": False, "type": "boolean"}}), "producer_comparison": object_value, "runtime_subject": closed({"gate_sha256": digest, "snapshot_sha256": digest, "trust_root": digest}), "schema": {"const": "gravacle.a35.verifier-verdict.v1", "type": "string"}, "spec_sha256": digest, "terminal_content_sha256": digest, "verdict": {"enum": ["VERIFIED", "FAIL"], "type": "string"}, "verifier_sha256": digest},
+            "properties": {"authority_firewall": object_value, "authorization_sha256": digest, "census": object_value, "checks_replayed": object_array, "findings": object_array, "independence": closed({"expectations_source": string, "producer_code_imported": {"const": False, "type": "boolean"}}), "producer_comparison": object_value, "runtime_subject": runtime_subject, "schema": {"const": "gravacle.a35.verifier-verdict.v1", "type": "string"}, "spec_sha256": digest, "terminal_content_sha256": digest, "verdict": {"enum": ["VERIFIED", "FAIL"], "type": "string"}, "verifier_sha256": digest},
             "required": ["authority_firewall", "authorization_sha256", "census", "checks_replayed", "findings", "independence", "producer_comparison", "runtime_subject", "schema", "spec_sha256", "terminal_content_sha256", "verdict", "verifier_sha256"], "type": "object",
         },
         "terminal-ledger.schema.json": {
             "$id": "rd22.terminal-ledger.v001", "additionalProperties": False,
-            "properties": {"authorization": object_value, "authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "children": {"items": child_row, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "producer_comparison": object_value, "runner_sha256": digest, "runtime_subject": object_value, "schema": {"const": "rd22.terminal-ledger.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage": object_value, "summary": object_value, "terminal_content_sha256": digest, "trust_snapshots": object_value, "verifier_sha256": digest},
+            "properties": {"authorization": object_value, "authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "children": {"items": child_row, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "producer_comparison": object_value, "runner_sha256": digest, "runtime_subject": runtime_subject, "schema": {"const": "rd22.terminal-ledger.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage": object_value, "summary": object_value, "terminal_content_sha256": digest, "trust_snapshots": trust_snapshots, "verifier_sha256": digest},
             "required": ["authorization", "authority_firewall", "check_map_sha256", "checks", "children", "fixture_manifest_sha256", "fixtures", "producer_comparison", "runner_sha256", "runtime_subject", "schema", "scope", "spec_sha256", "subject_lineage", "summary", "terminal_content_sha256", "trust_snapshots", "verifier_sha256"], "type": "object",
         },
     }
@@ -491,7 +507,8 @@ def main():
         {**file_row(runtime_snapshot_path, str(runtime_snapshot_path.relative_to(program))), "kind": "runtime_snapshot"},
         {**file_row(spec_path, str(spec_path.relative_to(program))), "kind": "specification"},
     ]
-    trust_root = json.loads(runtime_snapshot_path.read_text(encoding="utf-8"))["native_system_trust_root"]
+    native_system_trust_root = json.loads(runtime_snapshot_path.read_text(encoding="utf-8"))["native_system_trust_root"]
+    trust_root = parent_trust_root_digest(package, native_system_trust_root)
     common = {
         "allowed_events": {"environment": [], "mutation": ["output", "receipt"], "network": [], "process": [], "writes": ["output", "receipt"]},
         "authority_firewall": {"CORE_RESULT_SEAL": False, "FINAL_CLAIM_SEAL": False, "SPEC_SEAL": False, "alpha_computed": False, "authorization_claimed": False, "executed": False, "implemented": True, "kappa_record_computed": False, "proof_authorized": False},

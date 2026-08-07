@@ -3,6 +3,7 @@
 
 import ast
 import hashlib
+import importlib.util
 import json
 import re
 import sys
@@ -131,6 +132,16 @@ def syntax_check(path):
         stop("PYTHON_CHECK_NODE", f"{path}:{hits}")
 
 
+def load_parent(package):
+    parent_path = package / "parent.py"
+    module_spec = importlib.util.spec_from_file_location("rd22_builder_a_parent_self_check", parent_path)
+    if module_spec is None or module_spec.loader is None:
+        stop("PARENT_IMPORT", parent_path)
+    module = importlib.util.module_from_spec(module_spec)
+    module_spec.loader.exec_module(module)
+    return module
+
+
 def verify_inventory(package, manifest):
     seen = set()
     for row in manifest["package_files"]:
@@ -213,6 +224,58 @@ def main():
     normal = json_values["normal.json"]
     optimized = json_values["optimized.json"]
     package_inventory = json_values["package_inventory.json"]
+    parent_module = load_parent(package)
+    snapshot_path = cleanroom.parent / "provenance/primitive_step6_runtime_snapshot_v012.json"
+    snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+    trust_root = parent_module.trust_root_digest(snapshot["native_system_trust_root"])
+    if re.fullmatch(r"[0-9a-f]{64}", trust_root) is None:
+        stop("TRUST_ROOT_FORM", trust_root)
+    if normal["runtime_subject"]["trust_root"] != trust_root or optimized["runtime_subject"]["trust_root"] != trust_root:
+        stop("TRUST_ROOT_MANIFEST_AGREEMENT", {"computed": trust_root, "normal": normal["runtime_subject"]["trust_root"], "optimized": optimized["runtime_subject"]["trust_root"]})
+    receipt = {
+        "manifest_sha256": "0" * 64,
+        "module_ledger": [],
+        "mutation_event_ledger": [],
+        "native_ledger": [],
+        "network_event_ledger": [],
+        "open_event_ledger": [],
+        "process_event_ledger": [],
+    }
+    child = parent_module.child_record("0" * 64, "1" * 64, 0, b"{}", b"{}", receipt, trust_root, trust_root)
+    snapshots = {label: trust_root for label in ("T0", "T1", "T2", "T3", "T4")}
+    synthetic_output = {"authority_firewall": {}, "checks": [], "fixtures": [], "summary": {}}
+    producer_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, {})
+    terminal_ledger = parent_module.verdict_ledger(synthetic_output, normal, {}, [child], snapshots, "2" * 64, {})
+    verifier_value = {
+        "authority_firewall": {field: False for field in ("CORE_RESULT_SEAL", "FINAL_CLAIM_SEAL", "SPEC_SEAL", "alpha_computed", "kappa_record_computed", "proof_authorized")},
+        "authorization_sha256": parent_module.AUTHORIZATION_SHA256,
+        "census": {},
+        "checks_replayed": [],
+        "findings": [],
+        "independence": {"expectations_source": "STATIC_SITE_AGREEMENT", "producer_code_imported": False},
+        "producer_comparison": {},
+        "runtime_subject": normal["runtime_subject"],
+        "schema": "gravacle.a35.verifier-verdict.v1",
+        "spec_sha256": parent_module.SPEC_SHA256,
+        "terminal_content_sha256": "3" * 64,
+        "verdict": "VERIFIED",
+        "verifier_sha256": "2" * 64,
+    }
+    accepted_verifier = parent_module.verifier_stdout(parent_module.canonical_bytes(verifier_value), "VERIFIED", "2" * 64, snapshot)
+    trust_site_values = {
+        "definition": trust_root,
+        "manifests": normal["runtime_subject"]["trust_root"] if optimized["runtime_subject"]["trust_root"] == trust_root else "DRIFT",
+        "main_receiver": parent_module.trust_root_digest(snapshot["native_system_trust_root"]),
+        "T0_T4": snapshots["T0"] if len(set(snapshots.values())) == 1 else "DRIFT",
+        "child_rows": child["runtime_before_sha256"] if child["runtime_after_sha256"] == trust_root else "DRIFT",
+        "producer_runtime": producer_ledger["runtime_subject"]["trust_root"],
+        "producer_T0_T4": producer_ledger["trust_snapshots"]["T0"] if len(set(producer_ledger["trust_snapshots"].values())) == 1 else "DRIFT",
+        "verifier_receiver": accepted_verifier["runtime_subject"]["trust_root"],
+        "terminal_runtime": terminal_ledger["runtime_subject"]["trust_root"],
+        "terminal_T0_T4": terminal_ledger["trust_snapshots"]["T0"] if len(set(terminal_ledger["trust_snapshots"].values())) == 1 else "DRIFT",
+    }
+    if set(trust_site_values.values()) != {trust_root}:
+        stop("TRUST_ROOT_SITE_AGREEMENT", trust_site_values)
     if set(package_inventory) != {"files", "schema"} or package_inventory["schema"] != "rd22.builder-a-package-inventory.v001":
         stop("PACKAGE_INVENTORY_SCHEMA", package_inventory)
     inventory_rows = package_inventory["files"]
@@ -390,6 +453,14 @@ def main():
             stop("EMPTY_EVENT_DIGEST", field)
     if "mutation_event_ledger" not in receipt_schema["properties"]:
         stop("MUTATION_RECEIPT_CARRIER", "missing")
+    manifest_runtime_schema = json_values["child-manifest.schema.json"]["properties"]["runtime_subject"]
+    terminal_runtime_schema = terminal_schema["properties"]["runtime_subject"]
+    terminal_trust_schema = terminal_schema["properties"]["trust_snapshots"]
+    for label, runtime_schema in (("child-manifest", manifest_runtime_schema), ("terminal-ledger", terminal_runtime_schema)):
+        if runtime_schema.get("additionalProperties") is not False or set(runtime_schema.get("required", [])) != {"gate_sha256", "snapshot_sha256", "trust_root"} or runtime_schema.get("properties", {}).get("trust_root", {}).get("pattern") != "[0-9a-f]{64}":
+            stop("TRUST_ROOT_SCHEMA", label)
+    if terminal_trust_schema.get("additionalProperties") is not False or set(terminal_trust_schema.get("required", [])) != {"T0", "T1", "T2", "T3", "T4"} or any(terminal_trust_schema.get("properties", {}).get(label, {}).get("pattern") != "[0-9a-f]{64}" for label in ("T0", "T1", "T2", "T3", "T4")):
+        stop("TRUST_SNAPSHOT_SCHEMA", terminal_trust_schema)
     verifier_schema = json_values["verifier-manifest.schema.json"]
     if len(verifier_schema["properties"]) != 11:
         stop("VERIFIER_MANIFEST_FIELDS", len(verifier_schema["properties"]))
@@ -446,6 +517,27 @@ def main():
     missing_path_receivers = sorted(item for item in path_identity_receivers if item not in parent_text)
     if missing_path_receivers or ".resolve()" in parent_text:
         stop("PATH_IDENTITY_RECEIVERS", {"missing": missing_path_receivers, "legacy_resolve_calls": parent_text.count(".resolve()")})
+    trust_receivers = {
+        "def trust_root_digest(native_system_trust_root):",
+        'expected_digest = trust_root_digest(runtime["native_system_trust_root"])',
+        'observed_digest = trust_root_digest(observed)',
+        '"trust_root": trust_root_digest(runtime["native_system_trust_root"])',
+        'authorized_trust_root = trust_root_digest(runtime["native_system_trust_root"])',
+        '"runtime_after_sha256": trust_after',
+        '"runtime_before_sha256": trust_before',
+        '{"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t3}',
+        '{"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t4}',
+    }
+    missing_trust_receivers = sorted(item for item in trust_receivers if item not in parent_text)
+    forbidden_trust_receivers = {
+        'runtime_subject["trust_root"] != runtime["native_system_trust_root"]',
+        '"runtime_after_sha256": trust_hash(trust_after)',
+        '"runtime_before_sha256": trust_hash(trust_before)',
+        '"T0": trust_hash(t0)',
+    }
+    present_forbidden_trust = sorted(item for item in forbidden_trust_receivers if item in parent_text)
+    if missing_trust_receivers or present_forbidden_trust:
+        stop("TRUST_ROOT_RECEIVERS", {"missing": missing_trust_receivers, "forbidden": present_forbidden_trust})
     for fact in ("R9_VERIFIER_FAULTS_FOUND_EXIT_1", "R9_VERIFIER_FAIL_CLOSED_EXIT_2"):
         if fact not in parent_text:
             stop("VERIFIER_EXIT_FACT", fact)
@@ -454,7 +546,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

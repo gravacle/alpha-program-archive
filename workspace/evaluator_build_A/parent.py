@@ -434,6 +434,17 @@ def runtime_allowlist(runtime):
     return allowlist
 
 
+def trust_hash(value):
+    return sha256_bytes(canonical_bytes(value))
+
+
+def trust_root_digest(native_system_trust_root):
+    digest = trust_hash(native_system_trust_root)
+    if re.fullmatch(r"[0-9a-f]{64}", digest) is None:
+        fail("TRUST_ROOT_DIGEST", digest)
+    return digest
+
+
 def trust_snapshot(runtime):
     try:
         sw = subprocess.run(["/usr/bin/sw_vers"], check=True, capture_output=True, env={}).stdout.decode("utf-8")
@@ -448,14 +459,11 @@ def trust_snapshot(runtime):
         "policy": runtime["native_system_trust_root"]["policy"],
         "sw_vers": sw,
     }
-    expected = runtime["native_system_trust_root"]
-    if observed != expected:
-        fail("TRUST_DRIFT", {"expected": expected, "observed": observed})
-    return observed
-
-
-def trust_hash(value):
-    return sha256_bytes(canonical_bytes(value))
+    expected_digest = trust_root_digest(runtime["native_system_trust_root"])
+    observed_digest = trust_root_digest(observed)
+    if observed_digest != expected_digest:
+        fail("TRUST_DRIFT", {"expected_sha256": expected_digest, "observed_sha256": observed_digest})
+    return observed_digest
 
 
 def ensure_empty_directory(path):
@@ -894,7 +902,7 @@ def verifier_stdout(data, expected_verdict, verifier_root, runtime):
     if value["independence"]["producer_code_imported"] is not False:
         fail("VERIFIER_INDEPENDENCE", value["independence"])
     exact_keys(value["runtime_subject"], {"gate_sha256", "snapshot_sha256", "trust_root"}, "verifier runtime_subject")
-    expected_runtime = {"gate_sha256": RUNTIME_GATE_SHA256, "snapshot_sha256": RUNTIME_SNAPSHOT_SHA256, "trust_root": trust_hash(runtime["native_system_trust_root"])}
+    expected_runtime = {"gate_sha256": RUNTIME_GATE_SHA256, "snapshot_sha256": RUNTIME_SNAPSHOT_SHA256, "trust_root": trust_root_digest(runtime["native_system_trust_root"])}
     if value["runtime_subject"] != expected_runtime:
         fail("VERIFIER_RUNTIME_PIN", value["runtime_subject"])
     firewall = value["authority_firewall"]
@@ -916,6 +924,8 @@ def run_verifier_process(command, cwd):
 def child_record(manifest_sha, target_sha, optimize, out_data, receipt_data, receipt_value, trust_before, trust_after):
     if receipt_value["manifest_sha256"] != manifest_sha:
         fail("CHILD_RECORD_MANIFEST", {"launch": manifest_sha, "receipt": receipt_value["manifest_sha256"]})
+    if any(not isinstance(value, str) or re.fullmatch(r"[0-9a-f]{64}", value) is None for value in (trust_before, trust_after)):
+        fail("CHILD_RECORD_TRUST_DIGEST", {"before": trust_before, "after": trust_after})
     return {
         "manifest_sha256": receipt_value["manifest_sha256"],
         "module_ledger_sha256": sha256_bytes(canonical_bytes(receipt_value["module_ledger"])),
@@ -928,8 +938,8 @@ def child_record(manifest_sha, target_sha, optimize, out_data, receipt_data, rec
         "output_sha256": sha256_bytes(out_data),
         "receipt_authoritative": False,
         "receipt_sha256": sha256_bytes(receipt_data),
-        "runtime_after_sha256": trust_hash(trust_after),
-        "runtime_before_sha256": trust_hash(trust_before),
+        "runtime_after_sha256": trust_after,
+        "runtime_before_sha256": trust_before,
         "target_sha256": target_sha,
     }
 
@@ -1012,7 +1022,8 @@ def main():
     runtime_files = runtime_allowlist(runtime)
     runtime_subject = normal_manifest["runtime_subject"]
     exact_keys(runtime_subject, {"gate_sha256", "snapshot_sha256", "trust_root"}, "runtime subject")
-    if runtime_subject["snapshot_sha256"] != RUNTIME_SNAPSHOT_SHA256 or runtime_subject["gate_sha256"] != RUNTIME_GATE_SHA256 or runtime_subject["trust_root"] != runtime["native_system_trust_root"]:
+    authorized_trust_root = trust_root_digest(runtime["native_system_trust_root"])
+    if runtime_subject["snapshot_sha256"] != RUNTIME_SNAPSHOT_SHA256 or runtime_subject["gate_sha256"] != RUNTIME_GATE_SHA256 or runtime_subject["trust_root"] != authorized_trust_root:
         fail("RUNTIME_SUBJECT_AMBIGUOUS", runtime_subject)
     check_map_path = package["checks/check_map.json"][0]
     fixture_path = package["fixtures/fixture_manifest.json"][0]
@@ -1098,7 +1109,7 @@ def main():
         normal_manifest,
         comparison,
         producer_children,
-        {"T0": trust_hash(t0), "T1": trust_hash(t1), "T2": trust_hash(t2), "T3": trust_hash(t3), "T4": trust_hash(t3)},
+        {"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t3},
         verifier_root,
         producer_scope,
     )
@@ -1165,7 +1176,7 @@ def main():
         normal_manifest,
         comparison,
         children,
-        {"T0": trust_hash(t0), "T1": trust_hash(t1), "T2": trust_hash(t2), "T3": trust_hash(t3), "T4": trust_hash(t4)},
+        {"T0": t0, "T1": t1, "T2": t2, "T3": t3, "T4": t4},
         verifier_root,
         terminal_scope,
     )
