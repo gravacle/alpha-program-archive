@@ -496,8 +496,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | — | Custodian C | [6/BUILD] re-invocation on a fresh run root (registrar act, no relay) | QUEUED (after 654 returns) |
 | 655 | Codex 2 | [6/SCOPING] the evidence-envelope formalization map: 56 checks classified by envelope type and effort | **RETURNED — REGISTERED (Q-595): 59 classified, proof-heavy, 6 NM! + 5 NM?; options sized; ruling to principal |
 | 656 | Codex 2 | [6/BUILD] drop the +newline from canonical_bytes, regenerate manifests (spec adjudication Q-594) | **RETURNED — REGISTERED (Q-597): canon closed; run 006 reached VERIFIER_INPUT_ROOT — sentinel split adjudicated 4/1 by the machine |
-| 657 | Dario | [6/BUILD] bind evidence_root independently; ledger stays sentinel; addendum V002 proposal 4/1 | **SENT** |
+| 657 | Dario | [6/BUILD] bind evidence_root independently; ledger stays sentinel; addendum V002 proposal 4/1 | **RETURNED — REGISTERED (Q-597/Q-598): three-way root disagreement root-caused; declared_root missing = A defect |
 | 657 | Dario | [6/BUILD] run review vs the Q-591 preregistration | QUEUED (after the complete run) |
+| 658 | Codex 2 | [6/BUILD] evidence manifest: payload inventory + declared_root; parent binds to declared_root | LOADED — NOT SENT |
+| 659 | Dario | [6/BUILD] rebind evidence_root from the manifest rows | QUEUED (after 658) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

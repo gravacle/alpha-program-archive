@@ -13959,6 +13959,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-598 — TASK 6 BUILD: RUN 007'S THREE-WAY ROOT DISAGREEMENT ROOT-CAUSED BY THE REGISTRAR; THE SPEC ADJUDICATES: A CONTENT ROOT WITH A DECLARED_ROOT THE MANIFEST MUST CARRY (2026-08-07)
+
+**Question.** Why do the two builders disagree on `evidence_root_sha256`?
+
+**Answer.** Because there were THREE readings, and the registrar computed all three from the sealed bytes: **A's expected `dfb29bf2…` is the SHA-256 of the manifest FILE itself; B's bound `e7820ca5…` is the spec's content root over the ten payload files under filename-relative paths; B's displayed alternative `4f24c23a…` is the same root under directory-prefixed paths.** (Dario's independence discipline paid exactly as intended: "a disagreement would be worth more than a match" — and its Q-597 artifact, `STAGE8_TASK6_EVIDENCE_ROOT_BINDING_DARIO_V001.md` SHA-256 `88c58d03…`, had already computed both candidate readings and flagged the missing field.)
+
+**The adjudication, from the sealed spec's own text:** P0 demands `content_root(evidence_files) = evidence_manifest.declared_root`. Therefore (1) the field is a CONTENT ROOT over the payload inventory — A's manifest-file-digest reading is not the contract's meaning; (2) **the manifest lacking `declared_root` is the operative defect** — a P0-required field absent from Builder A's own manifest; (3) the relative-path base question dissolves BY DECLARATION: the manifest carries its rows' `relative_path` values explicitly, and both sides compute the root from the manifest's own recorded strings — no re-derivation, no path trust (each row carries its own sha256).
+
+**The fix (relay 658, Codex 2):** the evidence manifest gains the payload inventory rows ({relative_path, byte_length, sha256} for the ten files) and `declared_root` computed per the spec's content_root; the parent's expectation binds to `declared_root`. Then (relay 659, Dario): rebind from the manifest's rows. Seven runs, seven gates, every disagreement adjudicated by sealed text rather than by convenience — including this one, against the machine's own author.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
