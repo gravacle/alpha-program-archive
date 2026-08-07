@@ -473,7 +473,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 632 | Dario | [6/SUBGATE] assembly V003: restore survivors + execute rows 2/6/7 + complete finite delta | **RETURNED — REGISTERED (Q-571): survivors 9/9, certificate derived from diff, 2 defects self-caught pre-seal |
 | 633 | Codex 2 | [6/SUBGATE] spec V003: the binding-class repair (escape hatch + KERNEL-less criteria) | **RETURNED — REGISTERED (Q-569): 66/66 swept, 38 BOUND / 28 RE-RENDERED; escape hatch removed; protected hashes verify |
 | 634 | Codex 2 | [6/OPEN-ITEM] the A21 residual objection leg: verify or close (bounded) | **RETURNED — REGISTERED (Q-570): NOT_OF_RECORD; Q-558 open item CLOSED; board unchanged. Codex 2 idle. |
-| 635 | Dario | [6/SUBGATE] spec V003 class-check: the 28 re-renders + BOUND sample (bounded, archive-side) | LOADED — NOT SENT |
+| 635 | Dario | [6/SUBGATE] spec V003 class-check: the 28 re-renders + BOUND sample (bounded, archive-side) | **SENT** |
 | 636 | Codex 2 | [6/SUBGATE] assembly V003 bounded delta re-check | QUEUED (load after 635 confirmed sent) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
