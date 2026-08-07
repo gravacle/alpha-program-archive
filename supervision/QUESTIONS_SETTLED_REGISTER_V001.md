@@ -13572,6 +13572,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-571 — TASK 6 SUBGATE: THE ASSEMBLY STANDS AT V003 — SURVIVORS RESTORED, THE CERTIFICATE DERIVED FROM THE DIFF, TWO DEFECTS SELF-CAUGHT PRE-SEAL (2026-08-07)
+
+**Question.** Does the assembly V003 implement the Q-566 repair list with a true carriage certificate?
+
+**Answer.** YES (Dario, `STAGE8_TASK6_LP_QSPEC_ASSEMBLY_DARIO_V003.md`, SHA-256 `c205602d4db6f30df3999deb4f2a1af425e14e38120cc8904af2480e04911aa4`, relay 632). Delivered through an interrupted session (a stalled pre-seal workflow, a lost Documents-tree permission, and the iCloud duplicate-path trap — resolved by rerouting the work archive-side with the registrar carrying the cleanroom mirror; both incidents now in the tracker's lane state).
+
+- **The pre-seal pass did its job twice, on the builder's own side of the seal for the first time:** (1) the certificate claimed row 2 executed "at the operative lead board AND the final board" while the final board carried no UNUSED_PREDICTION field — exactly the Q-566 class, and sealing it would have been the third false certificate, i.e. the custody event; both UNUSED_PREDICTION and THOMSON now present at both boards (registrar-verified: 8 and 9 occurrences). (2) §0.4 called ten hunks "reversed" where four were mixed (deletions reversed, insertions retained) — now stated explicitly.
+- **Verified independently, not asserted — and re-verified by the registrar:** actual diff = stated diff at 38 hunks / 445 insertions / 55 deletions (registrar re-diff: 445/55 exact); all 38 spans match the assignment table, 0 mismatches; all 23 delta rows exhibited; **9/9 restored survivor blocks present in both V003 and V001**; FREEZE byte-identical to V002's corrected statement; the only slot-table change is S17 becoming a proper row. No grade, appeal disposition, or ruling moved.
+- **THE METHOD IS THE REPAIR** (the register should carry the lane's own words): V003 was built by COPYING V002's bytes and applying replacements each asserted to match exactly once, so "everything else carries verbatim" holds BY CONSTRUCTION, and the certificate is DERIVED FROM the diff rather than claimed over it. "The carriage claim is something the construction makes true rather than something the certificate says." This instantiates the PRE-SEAL PIN CHECK now in LOCKED_PROCESS. And the lane's accounting of what the earlier method cost: "a sealed demand definition, an ordering law's actual order, a slot demoted to a footnote, and a disclosure whose deletion flattered the artifact."
+
+**The assembly's state:** the demand side stands at V003 — 18 slots, 0 filled, 18 TYPE-U, all appeals resolved, freeze gated on external machinery only — with a carriage record that is finally clean. Bounded Codex delta re-check queued (636) to close the loop as V002's did.
+
+**Custody.** Built and self-checked by Dario; registrar verified the seal, re-diffed, and restored the cleanroom pair (Dario's session holds EPERM on the Documents tree — of record). Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
