@@ -13743,6 +13743,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-582 — TASK 6 SUBGATE: THE EVALUATOR SPEC STANDS AT V005 — BR-1/A INSTALLED AS AN ADJUDICATED REGIME, THE TEN REPAIRED, THE ADJUDICATION RECORD DISPLAYED (2026-08-07)
+
+**Question.** Does V005 install the adjudicated regime and repair the ten?
+
+**Answer.** YES pending the closing check (Codex 2, `STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md`, SHA-256 `f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b`, relay 644; registrar mirrored and byte-verified; fence scan clean; protected hashes present at both sites).
+
+- **BR-1/A installed as the law's own text:** the ADJUDICATED regime — over-generating candidate generation, clause decomposition from the sealed blocker, per-candidate verdicts naming clause and receiver; a "zero failures" report without candidates, clauses, and named receivers is not a BR-1 result. BR-1 reclassified ADJUDICATED; BR-2 MECHANICAL.
+- **TEN = 10/10 repaired** per the adjudication's closed list; **the BR1A record displayed rather than swept: 12 candidate rows / 29 atoms adjudicated / 54 zero-candidate rows accounted** — per-row coverage, the exact opposite of V004's `failures = []`. BR-2 swept mechanically with per-row coverage.
+- Carriage 26 hunks complete finite delta; AUTHORIZATION = not_claimed.
+
+**State.** The spec chain: V001 defined, V002 audited vocabulary, V003 bound, V004 legislated, **V005 adjudicates and shows its work.** One bounded cross-check remains (646, Dario). The assembly chain likewise awaits its one check (645, Codex 2). Both clean = the build package to the principal.
+
+**Custody.** Built by Codex 2 per Dario's adjudication; Dario's check queued. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
