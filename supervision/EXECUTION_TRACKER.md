@@ -483,7 +483,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 642 | Dario | [6/SUBGATE] spec check correction of record + per-row adjudication of the 16 BR-1 candidates | **RETURNED — REGISTERED (Q-580): 10 defective / 6 lawful; BR-1 ruled ADJUDICATED; BR-1/A drafted |
 | 643 | Dario | [6/SUBGATE] assembly V005: line-level decomposition + count fixes (bounded) | **RETURNED — REGISTERED (Q-581): 7/7 decomposed, H20 proven unshared (6 true), counts owned; operative byte-identical x3 |
 | 644 | Codex 2 | [6/SUBGATE] spec V005: install BR-1/A + repair the ten | **RETURNED — REGISTERED (Q-582): BR-1/A installed, 10/10, adjudication record displayed (12/29/54) |
-| 645 | Codex 2 | [6/SUBGATE] assembly V005 bounded check (decomposition sums + scope) | LOADED — NOT SENT |
+| 645 | Codex 2 | [6/SUBGATE] assembly V005 bounded check (decomposition sums + scope) | **SENT** |
 | 646 | Dario | [6/SUBGATE] spec V005 check (BR-1/A record + the ten) | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
