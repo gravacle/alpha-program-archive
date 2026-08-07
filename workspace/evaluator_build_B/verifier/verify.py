@@ -20,7 +20,8 @@ from .comparison import (check_authorization, check_gate_discipline,
                          compare_semantic_outputs)
 from .hashing import (load_addressed, require_sha256, sha256_bytes,
                       sha256_file_unverified)
-from .replay import EvidenceBundle, replay_fixture, replay_predicate
+from .replay import (EvidenceBundle, classify_payloads, replay_fixture,
+                     replay_predicate)
 from .runtime_state import (CONTEXT_VERIFIER_INPUT, reclassify_events,
                             revalidate_trust_snapshots,
                             validate_runtime_subject)
@@ -36,6 +37,33 @@ RD22_FIREWALL_TRUE_FIELDS = ("implemented", "executed")
 
 def _fault(findings, code, detail):
     findings.append({"code": code, "detail": detail})
+
+
+def _load_all_payloads(evidence_dir, digests, where):
+    """Digest-verify EVERY payload the row observes, whatever its role.
+
+    The pre-change code admitted `digests[0]` and never looked at the rest:
+    it was simultaneously too strict (it demanded the one it happened to pick
+    parse as an object) and too lax (it left the others unverified). Roles
+    change what is parsed; they never change what is digest-verified.
+    """
+    return [(d, load_addressed("%s/%s.json" % (evidence_dir.rstrip("/"), d),
+                               d, "%s payload %s" % (where, d)))
+            for d in digests]
+
+
+def _recorded_invocation(row):
+    """The row's recorded invocation, or None.
+
+    OWED CHANGE, disclosed: the check-row contract is an exact 14-field
+    inventory with no invocation record, so this returns None for every row a
+    conforming producer emits today, and role derivation falls back to parse
+    admissibility (see classify_payloads). Byte-span linkage for raw payloads
+    is NOT checkable without it -- the grounding citation lives in the
+    producer's evidence manifest, which the verifier does not read. The field
+    Builder A must add is named in the artifact.
+    """
+    return row.get("invocation")
 
 
 def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
@@ -141,10 +169,15 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
                    "%s: no observed evidence digests" % cid)
             continue
         try:
-            blob = load_addressed(
-                "%s/%s.json" % (evidence_dir.rstrip("/"), digests[0]),
-                digests[0], "%s evidence" % cid)
-            bundle = EvidenceBundle(blob, digests[0], cid)
+            payloads = _load_all_payloads(evidence_dir, digests,
+                                          "%s evidence" % cid)
+            roles = classify_payloads(payloads, _recorded_invocation(row), cid)
+            for detail in roles["faults"]:
+                _fault(findings, "PAYLOAD_ROLE", detail)
+            if roles["faults"]:
+                raise VerifierFault(roles["faults"][0])
+            digest, blob, _ = roles["consumable"][0]
+            bundle = EvidenceBundle(blob, digest, cid)
             recomputed = replay_predicate(row["expected_predicate"], bundle)
         except VerifierFault as exc:
             _fault(findings, "REPLAY", "%s: %s" % (cid, exc))
@@ -187,10 +220,16 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
                    "%s: no observed evidence digests" % where)
             continue
         try:
-            blob = load_addressed(
-                "%s/%s.json" % (evidence_dir.rstrip("/"), digests[0]),
-                digests[0], "%s evidence" % where)
-            bundle = EvidenceBundle(blob, digests[0], fixture["fixture_id"])
+            payloads = _load_all_payloads(evidence_dir, digests,
+                                          "%s evidence" % where)
+            roles = classify_payloads(payloads, _recorded_invocation(fixture),
+                                      where)
+            for detail in roles["faults"]:
+                _fault(findings, "PAYLOAD_ROLE", detail)
+            if roles["faults"]:
+                raise VerifierFault(roles["faults"][0])
+            digest, blob, _ = roles["consumable"][0]
+            bundle = EvidenceBundle(blob, digest, fixture["fixture_id"])
             outcome = replay_fixture(fixture, bundle)
         except VerifierFault as exc:
             _fault(findings, "FIXTURE_REPLAY", "%s: %s" % (where, exc))

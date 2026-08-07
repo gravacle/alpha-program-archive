@@ -14,12 +14,28 @@ those forms. That closure is what makes independent replay possible at all.
 
 import re
 
-from .canonical_json import VerifierFault, loads_strict
+from .canonical_json import VerifierFault, encode_canonical, loads_strict
 from .hashing import require_sha256, sha256_bytes
 
 # Opcodes whose use is permitted only inside a GATED-EXECUTION row after its
 # gate opens (spec V005 opcode table).
 GATED_ONLY_OPCODES = ("SYMBOLIC", "SPECTRAL")
+
+# --- payload roles ---------------------------------------------------------
+# A row's evidence may carry payloads of two kinds, and they are true in two
+# different ways:
+#
+#   CONSUMABLE     a structured argument the recorded invocation consumes. Its
+#                  truth is STRUCTURAL: it must parse, be a JSON object, and be
+#                  canonical, because an opcode reads its fields.
+#   RAW_GROUNDING  an exact byte span of a sealed source, carried to ground the
+#                  row in the record. Its truth is BYTE-IDENTITY: a slice of a
+#                  larger JSON or markdown file is lawfully not standalone
+#                  parseable, and demanding that it parse is a category error.
+#
+# Both are digest-verified. Only the first is parsed.
+PAYLOAD_CONSUMABLE = "CONSUMABLE"
+PAYLOAD_RAW_GROUNDING = "RAW_GROUNDING"
 
 _ATOM_SUCCESS = re.compile(r"^(r_[A-Za-z0-9_]+)\.success$")
 _ATOM_FIELD = re.compile(r"^(r_[A-Za-z0-9_]+)\.([A-Za-z0-9_]+)\s*=\s*(.+)$")
@@ -61,6 +77,118 @@ def split_conjuncts(criterion):
         raise VerifierFault("unbalanced parenthesis in criterion")
     atoms.append("".join(current).strip())
     return [a.strip("` ") for a in atoms if a.strip("` ")]
+
+
+def invocation_arguments(invocation, where):
+    """Canonical bytes of every structured argument the invocation consumes.
+
+    Roles are derived from the INVOCATION, never from a producer-declared
+    `role` label. The distinction is not stylistic: a label could exculpate a
+    broken payload by renaming it raw, whereas an argument cannot -- a producer
+    that drops a payload out of the invocation drops it out of the computation
+    and fails the coverage guard below. A producer-declared object may accuse;
+    it may never exculpate (BR-1).
+
+    Returns a list of (argument_name, canonical_bytes), or None when the row
+    records no invocation.
+    """
+    if invocation is None:
+        return None
+    if not isinstance(invocation, dict):
+        raise VerifierFault("%s: invocation must be an object" % where)
+    args = invocation.get("args")
+    if not isinstance(args, dict):
+        raise VerifierFault("%s: invocation args must be an object" % where)
+    out = [("<args>", encode_canonical(args))]
+    for name in sorted(args):
+        out.append((name, encode_canonical(args[name])))
+    return out
+
+
+def _parses_as_json(blob):
+    """(ok, parsed). A raw source span is admitted ONLY by failing this.
+
+    `loads_strict` raises VerifierFault for the canon violations it screens
+    (duplicate keys, nonfinite literals) and lets the decoder's own ValueError
+    through for malformed text. A raw span is malformed by construction, so
+    both must be caught here or the verifier CRASHES on the very payload this
+    function exists to classify -- which is how the demonstration found it.
+    """
+    try:
+        return True, loads_strict(blob.decode("utf-8"))
+    except (UnicodeDecodeError, ValueError, VerifierFault):
+        return False, None
+
+
+def classify_payloads(payloads, invocation, where):
+    """Partition already-digest-verified payloads by DERIVED role.
+
+    `payloads` is an ordered list of (digest, blob); every one of them has
+    already been admitted through `load_addressed`, so digest verification
+    covers ALL payloads regardless of role. This function decides only which
+    of them are parsed.
+
+    Two guards, in both directions:
+
+      GUARD A -- strictness is preserved where it applies. Anything that parses
+        is treated as consumable and must be a canonical JSON object. A payload
+        cannot dodge the structural check by being merely malformed-but-parseable.
+
+      GUARD B -- no silent promotion or demotion. When the row records its
+        invocation, EVERY argument must be reproduced by some payload; a
+        corrupted consumable therefore fails coverage rather than sliding into
+        the raw class, and a raw payload is never handed to the bundle to stand
+        in for a missing argument.
+
+    Returns {"consumable": [...], "raw": [...], "faults": [...]}.
+    """
+    wanted = invocation_arguments(invocation, where)
+    consumable, raw, faults = [], [], []
+
+    for digest, blob in payloads:
+        ok, parsed = _parses_as_json(blob)
+        if not ok:
+            # Cannot be a structured argument to any opcode: nothing can read
+            # fields off bytes that do not parse. Admitting it as raw therefore
+            # concedes nothing, which is why this test is not an escape hatch.
+            raw.append({"sha256": digest, "byte_length": len(blob),
+                        "role": PAYLOAD_RAW_GROUNDING,
+                        "linkage": "digest"})
+            continue
+        if not isinstance(parsed, dict):
+            faults.append("%s: payload %s parses but is not a JSON object"
+                          % (where, digest))
+            continue
+        if encode_canonical(parsed) != blob:
+            # Q-594 canon. A non-canonical consumable is a canon fault, not a
+            # licence to reclassify it as raw.
+            faults.append("%s: consumable payload %s is not canonical" % (where, digest))
+            continue
+        consumable.append((digest, blob, parsed))
+
+    if wanted is not None:
+        have = set(blob for _, blob, _ in consumable)
+        for name, want_bytes in wanted:
+            if name == "<args>":
+                continue
+            if want_bytes not in have and not any(
+                    parsed.get(name) is not None
+                    and encode_canonical(parsed[name]) == want_bytes
+                    for _, _, parsed in consumable):
+                faults.append(
+                    "%s: invocation argument %r is not reproduced by any "
+                    "digest-verified payload" % (where, name))
+    if not faults and len(consumable) != 1:
+        # The predicate replays against exactly one structured object. Zero and
+        # many are both fail-closed: a raw payload must never be promoted to
+        # stand in for a missing one, and picking among several by list
+        # position is the ordering dependency this function exists to remove.
+        faults.append(
+            "%s: expected exactly one consumable payload, found %d (%d raw "
+            "grounding payload(s) digest-verified and not parsed)"
+            % (where, len(consumable), len(raw)))
+
+    return {"consumable": consumable, "raw": raw, "faults": faults}
 
 
 class EvidenceBundle(object):

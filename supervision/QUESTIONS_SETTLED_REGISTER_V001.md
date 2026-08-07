@@ -14114,6 +14114,21 @@ The Q-604 guard verbatim: one lawful row is one row. The board and seals unmoved
 
 ---
 
+## Q-610 — TASK 6 TRANCHE: THE ROLE-TYPED REPLAY — TWO DEFECTS WHERE ONE WAS SENT; "MAY ACCUSE, NEVER EXCULPATE"; THE NEXT FAULT COMPUTED IN ADVANCE (2026-08-07)
+
+**Question.** Is the replay's payload handling fixed, and what stands between the PASS and its confirmation?
+
+**Answer.** (Dario, `STAGE8_TASK6_REPLAY_ROLES_DARIO_V001.md`, relay 686; pin check 20/20 with one of its own assertions failed, found wrong, and disclosed.)
+
+- **The diagnosis was right and incomplete in the reviewer's favor:** the code was too strict by one class AND too lax — it admitted `digests[0]` and never digest-verified the rest. "Silently skipping evidence is the worse defect — the same shape I convicted my own code of at 674." Both fixed; the result no longer depends on list position.
+- **The role law, stated for the record:** roles are DERIVED, never labelled — the manifest's role field is deliberately unread, because "a producer-declared object may accuse; it may never exculpate." A payload is raw only by failing to parse at all, which concedes nothing. Case 7 is the load-bearing demonstration: a tampered consumable (injected cycle) still parses, stays consumable, and fails coverage — a digest-keyed classifier would have let it drift into the raw class and escape.
+- **Three disclosures**, including its own fix's defect caught by its own demonstration (an uncaught JSONDecodeError that would have crashed on exactly the payload the function classifies — "worse than what I was sent to fix"), and the byte-span-linkage gap: the field Builder A must emit is specified.
+- **THE NEXT FAULT, COMPUTED NOT PREDICTED:** V009-06's PASS criterion contains a prose atom no opcode receives — "every required parent is literal, the graph is acyclic" — the bare-DAG finding of 683 §1.5 arriving at the replay layer. "A specification matter, and not mine to repair inside a commissioned change."
+
+**The confirmation plan (registrar sequencing within C77 — n=1 includes its confirmation):** spec V007 in one coordinated move (relay 687): the four Q-608 V006 findings repaired; V009-06's criterion re-rendered to the EXPLICIT single-authority form (DAG.success + byte-grounding digest; the parents-comparison clause satisfied by the principal-ruled single encoding AND SAID SO, never synthesized as compare(X,X)); the fixture spans corrected; the P0/SPEC-INCOMPLETE precedence clause; then the coordinated re-pin (parent const, the one changed row digest, B's const) and run 026.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

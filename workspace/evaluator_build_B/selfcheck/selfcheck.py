@@ -224,6 +224,53 @@ def main():
     else:
         sys.stdout.write("criterion split      : 3 atoms\n")
 
+    # payload roles: digest-verify all, parse only the consumed.
+    # Fixtures are SYNTHETIC on purpose -- the self-check must not read the
+    # producer's inputs. The real V009-06 pair is demonstrated in the relay
+    # artifact; what is asserted permanently here is the machinery.
+    import hashlib
+
+    def _p(blob):
+        return (hashlib.sha256(blob).hexdigest(), blob)
+
+    span = b'"stage_dependencies": {\n      "A": [],\n      "B": ["A"]\n    }'
+    args = canonical_json.encode_canonical({"graph": {"A": [], "B": ["A"]},
+                                            "required_parents": {"A": [],
+                                                                 "B": ["A"]}})
+    invocation = {"opcode": "DAG", "result_name": "r_dag",
+                  "args": canonical_json.loads_strict(args.decode("utf-8"))}
+    role_cases = [
+        ("clean pair (raw first)", [_p(span), _p(args)], invocation, 1, 1, 0),
+        ("clean pair, no invocation", [_p(span), _p(args)], None, 1, 1, 0),
+        ("GUARD A non-canonical consumable", [_p(span), _p(b'{"graph" : {}}')],
+         invocation, 0, 1, 3),
+        ("GUARD A consumable not an object", [_p(span), _p(b"[1,2]")],
+         invocation, 0, 1, 3),
+        ("GUARD B raw alone, invocation", [_p(span)], invocation, 0, 1, 2),
+        ("GUARD B raw alone, no invocation", [_p(span)], None, 0, 1, 1),
+    ]
+    for label, payloads, inv, want_c, want_r, want_f in role_cases:
+        try:
+            got = replay.classify_payloads(payloads, inv, "selfcheck")
+        except Exception as exc:                  # noqa: BLE001 - fail closed
+            faults += fail("payload roles %s: %s" % (label, exc))
+            continue
+        actual = (len(got["consumable"]), len(got["raw"]), len(got["faults"]))
+        if actual != (want_c, want_r, want_f):
+            faults += fail("payload roles %s: got %s want %s"
+                           % (label, actual, (want_c, want_r, want_f)))
+        else:
+            sys.stdout.write("payload roles        : %s\n" % label)
+    # the raw span is never promoted into a bundle, in any case above
+    promoted = [label for label, payloads, inv, _c, _r, _f in role_cases
+                if any(blob == span for _d, blob, _parsed
+                       in replay.classify_payloads(payloads, inv,
+                                                   "selfcheck")["consumable"])]
+    if promoted:
+        faults += fail("raw span promoted to consumable in %s" % promoted)
+    else:
+        sys.stdout.write("payload roles        : raw never promoted (6/6)\n")
+
     # no load-bearing assert anywhere in the package
     hits = []
     for base, _dirs, files in os.walk(ROOT):
