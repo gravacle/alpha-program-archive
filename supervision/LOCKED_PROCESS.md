@@ -240,3 +240,12 @@ a known M-2 false-negative mode: "open-event" vs "open event" vs "open_event".
 Guard 2 (whitespace normalization) does NOT catch hyphen/space/underscore
 variance; normalize `[-_ ]` jointly, and treat guard 3 (reading in context) as
 the only reliable closure. A zero hit under guards 1-2 alone is never an absence.
+
+## ONE-CLIPBOARD DISCIPLINE (added 2026-08-06, after the third missed paste)
+
+The clipboard holds exactly one relay. The registrar MUST NOT pbcopy a new relay
+while any tracker row reads LOADED — NOT SENT: write the new relay to disk,
+mark it QUEUED, and load it only after the pending paste is confirmed sent.
+When a lane's return arrives while another lane's relay is pending on the
+clipboard, the pending relay keeps the clipboard. (Origin: relays 620, 627, and
+632 were each overwritten before first paste; each cost an idle-lane round.)
