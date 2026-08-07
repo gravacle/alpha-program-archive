@@ -21,6 +21,14 @@ ADDENDUM_SHA256 = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f
 VERDICT_SCHEMA_SHA256 = "300a475ead3c17cd5b759ffcc3733418029030404af262632583fff077f2907f"
 ROOT_MEMBERSHIP_SOURCE_SHA256 = "de9139768c68371310e48245568472273fc19da96c48004ef7819ee6b0dbab79"
 SEALED_VERIFIER_ROOT_SHA256 = "dba5377d5ca1e7eebf2932da10e043e96c33f642cf06c8dd81cf26dff3bd3ac0"
+SPEC_SHA256 = "f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b"
+SPEC_V006_SHA256 = "1b8b03e4b2688acb30d8c3f5afea3529be8322f8541406adae520aa51e654995"
+GROUNDING_RELOCATION_SHA256 = "69334875b94679c16da9b8d6153242241ca3c202f0facc6130596b9807189e6f"
+GROUNDING_SOURCE_SHA256 = "13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd"
+GROUNDING_MEMBER_SHA256 = "47e7c32915bc756fb5f6be25c4fc6dec5c079c8837176dc62499e0f34f4c9d3b"
+GROUNDING_VALUE_SHA256 = "889515d30cedf7d3af5da1a9e1ff7c7a88a1bf0d9227bdf37d64113302dfcb86"
+GROUNDING_ARGS_SHA256 = "344fecdc5d86dba727f872b82daecd8347872c0e86ab278262100cfa526f3ac7"
+GROUNDING_PRECEDENCE_SHA256 = "70c4080eae018bd644a3f0694557f1c0e854d621aa61097c775737887fec528f"
 EVIDENCE_MODES = ["fixed_string", "whitespace_normalized", "self_reference_scope", "hyphen_space_underscore"]
 EVIDENCE_SOURCES = {
     "BID_CHARGED_CELLULAR_CPT_INTERTWINER_DERIVATION_V001.md": ("packet", "0322763ac48a4428b432124a6947da81826a41f612efa6803ee9a87317929b98"),
@@ -146,6 +154,16 @@ def load_parent(package):
     return module
 
 
+def load_producer(package):
+    producer_path = package / "producer.py"
+    module_spec = importlib.util.spec_from_file_location("rd22_builder_a_producer_self_check", producer_path)
+    if module_spec is None or module_spec.loader is None:
+        stop("PRODUCER_IMPORT", producer_path)
+    module = importlib.util.module_from_spec(module_spec)
+    module_spec.loader.exec_module(module)
+    return module
+
+
 def verify_inventory(package, manifest):
     seen = set()
     for row in manifest["package_files"]:
@@ -221,6 +239,77 @@ def validate_partial_payload(entry, package, cleanroom, label, referenced_payloa
     referenced_payloads.add(str(payload.relative_to(package)))
 
 
+def validate_v009_06_envelope(record, descriptor, package, cleanroom, producer):
+    fields = {"available", "descriptor_sha256", "evidence", "grounding_citations", "payloads", "status"}
+    if set(record) != fields or record["available"] is not True or record["status"] != "AVAILABLE" or record["descriptor_sha256"] != descriptor["descriptor_sha256"]:
+        stop("V009_06_RECORD", sorted(record))
+    source_path = cleanroom / "provenance/boundary_incidence_dynamics_preregistration_v011.json"
+    relocation_path = cleanroom / "STAGE8_TASK6_GROUNDING_RELOCATION_DARIO_V001.md"
+    precedence_path = Path("/Users/bgm/MB Work/alpha-program-archive/supervision/PREREGISTRATION_ENCODING_PRECEDENCE_PRINCIPAL_DECISION_2026-07-29.md")
+    source_data = source_path.read_bytes()
+    if digest(source_data) != GROUNDING_SOURCE_SHA256 or digest(relocation_path.read_bytes()) != GROUNDING_RELOCATION_SHA256 or digest(precedence_path.read_bytes()) != GROUNDING_PRECEDENCE_SHA256:
+        stop("V009_06_GROUNDING_PINS", "source/relocation/precedence")
+    member_data = source_data[18898:19830]
+    value_data = source_data[18920:19830]
+    if len(member_data) != 932 or digest(member_data) != GROUNDING_MEMBER_SHA256 or len(value_data) != 910 or digest(value_data) != GROUNDING_VALUE_SHA256:
+        stop("V009_06_GROUNDING_SPANS", {"member": [len(member_data), digest(member_data)], "value": [len(value_data), digest(value_data)]})
+    stage_dependencies = json.loads(value_data.decode("utf-8"), object_pairs_hook=pairs, parse_constant=nonfinite)
+    expected_args = {"graph": stage_dependencies, "required_parents": stage_dependencies}
+    expected_args_data = json.dumps(expected_args, ensure_ascii=False, allow_nan=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    if len(stage_dependencies) != 11 or digest(expected_args_data) != GROUNDING_ARGS_SHA256 or any(token in member_data or token in expected_args_data for token in (b"stage_dag", b'"status"')):
+        stop("V009_06_SERIALIZATION", {"nodes": len(stage_dependencies), "sha256": digest(expected_args_data)})
+    member_name = f"{GROUNDING_MEMBER_SHA256}--C-B-V009-06-stage_dependencies.member"
+    args_name = f"{GROUNDING_ARGS_SHA256}--C-B-V009-06-dag-args.json"
+    member_path = package / "inputs/evidence" / member_name
+    args_path = package / "inputs/evidence" / args_name
+    if member_path.read_bytes() != member_data or args_path.read_bytes() != expected_args_data:
+        stop("V009_06_PAYLOAD_BYTES", "copy/serialization")
+    expected_input_files = sorted(
+        [
+            {"byte_length": len(member_data), "relative_path": member_name, "sha256": GROUNDING_MEMBER_SHA256},
+            {"byte_length": len(expected_args_data), "relative_path": args_name, "sha256": GROUNDING_ARGS_SHA256},
+        ],
+        key=lambda row: row["relative_path"],
+    )
+    evidence_record = record["evidence"]
+    if set(evidence_record) != {"descriptor_sha256", "input_files", "input_root_sha256", "invocations"} or evidence_record["input_files"] != expected_input_files or evidence_record["input_root_sha256"] != content_root(expected_input_files):
+        stop("V009_06_INPUT_ROOT", evidence_record)
+    expected_invocation = {
+        "args": expected_args,
+        "instance_id": "stage_dependencies@13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd:[18898,19830)",
+        "opcode": "DAG",
+        "result_name": "r_auto_01_dag",
+    }
+    if evidence_record["descriptor_sha256"] != descriptor["descriptor_sha256"] or evidence_record["invocations"] != [expected_invocation]:
+        stop("V009_06_INVOCATION", evidence_record.get("invocations"))
+    expected_citation = {
+        "authority_path": "STAGE8_TASK6_GROUNDING_RELOCATION_DARIO_V001.md",
+        "authority_sha256": GROUNDING_RELOCATION_SHA256,
+        "precedence_path": "supervision/PREREGISTRATION_ENCODING_PRECEDENCE_PRINCIPAL_DECISION_2026-07-29.md",
+        "precedence_sha256": GROUNDING_PRECEDENCE_SHA256,
+        "source_path": "provenance/boundary_incidence_dynamics_preregistration_v011.json",
+        "source_sha256": GROUNDING_SOURCE_SHA256,
+        "span": [18898, 19830],
+        "span_sha256": GROUNDING_MEMBER_SHA256,
+        "value_span": [18920, 19830],
+        "value_sha256": GROUNDING_VALUE_SHA256,
+    }
+    expected_payloads = [
+        {"byte_length": len(member_data), "payload_path": f"inputs/evidence/{member_name}", "payload_sha256": GROUNDING_MEMBER_SHA256, "role": "EXACT_RELOCATED_MEMBER_BYTES"},
+        {"byte_length": len(expected_args_data), "derived_from_sha256": GROUNDING_VALUE_SHA256, "payload_path": f"inputs/evidence/{args_name}", "payload_sha256": GROUNDING_ARGS_SHA256, "role": "CANONICAL_DAG_ARGUMENTS"},
+    ]
+    if record["grounding_citations"] != [expected_citation] or record["payloads"] != expected_payloads:
+        stop("V009_06_CITATION", "citation/payload display")
+    try:
+        producer.validate_program_contract(descriptor, evidence_record)
+    except producer.BuildFailure as exc:
+        stop("V009_06_CONTRACT", exc)
+    status, started, observed, reason = producer.execute_structural(descriptor, evidence_record)
+    if status != "PASS" or started is not True or len(observed) != 1 or reason != "":
+        stop("V009_06_OPCODE", {"status": status, "started": started, "observed": observed, "reason": reason})
+    return observed[0]
+
+
 def main():
     package = Path(__file__).resolve().parents[1]
     cleanroom = package.parent
@@ -238,6 +327,7 @@ def main():
     optimized = json_values["optimized.json"]
     package_inventory = json_values["package_inventory.json"]
     parent_module = load_parent(package)
+    producer_module = load_producer(package)
     root_membership_source = cleanroom / "STAGE8_TASK6_SCHEMA_IN_ROOT_DARIO_V001.md"
     root_membership_bytes = root_membership_source.read_bytes()
     if digest(root_membership_bytes) != ROOT_MEMBERSHIP_SOURCE_SHA256:
@@ -394,7 +484,7 @@ def main():
         stop("EVIDENCE_BINDING", "schema/root")
     payload_dir = package / "inputs/evidence"
     payload_files = sorted(path for path in payload_dir.iterdir() if path.is_file())
-    if len(payload_files) != len(EVIDENCE_SOURCES):
+    if len(payload_files) != len(EVIDENCE_SOURCES) + 2:
         stop("EVIDENCE_PAYLOAD_CENSUS", len(payload_files))
     packet_dir = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001"
     for name, (location, expected) in EVIDENCE_SOURCES.items():
@@ -411,7 +501,11 @@ def main():
     scope_roots = set()
     referenced_payloads = set()
     check_fields = {"available", "descriptor_sha256", "missing_objects", "partial_payloads", "reason", "search", "status"}
+    v009_06_observed = None
     for check_id, record in evidence["check_records"].items():
+        if check_id == "C-B-V009-06":
+            v009_06_observed = validate_v009_06_envelope(record, structural_by_id[check_id], package, cleanroom, producer_module)
+            continue
         if set(record) != check_fields or record["available"] is not False or record["status"] != "ABSENT_OF_RECORD" or not record["reason"].startswith("ABSENT_OF_RECORD:"):
             stop("EVIDENCE_CHECK_RECORD", check_id)
         if record["descriptor_sha256"] != structural_by_id[check_id]["descriptor_sha256"] or len(record["missing_objects"]) != 2:
@@ -430,7 +524,23 @@ def main():
             validate_partial_payload(entry, package, cleanroom, fixture_id, referenced_payloads)
     if len(scope_roots) != 1:
         stop("EVIDENCE_SCOPE_DRIFT", sorted(scope_roots))
+    if v009_06_observed is None:
+        stop("V009_06_NOT_CHECKED", "missing")
     spec_data = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md").read_bytes()
+    if digest(spec_data) != SPEC_SHA256 or parent_module.SPEC_SHA256 != SPEC_SHA256 or check_map["spec_sha256"] != SPEC_SHA256:
+        stop("RUNTIME_SPEC_PIN", {"bytes": digest(spec_data), "parent": parent_module.SPEC_SHA256, "map": check_map["spec_sha256"]})
+    spec_v006_data = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V006.md").read_bytes()
+    if digest(spec_v006_data) != SPEC_V006_SHA256 or spec_v006_data.count(b"`SPEC-INCOMPLETE` |") != 17 or b"#### V006 sealed-corpus law for `M2(q,S)`" not in spec_v006_data:
+        stop("SPEC_V006_PIN", {"sha256": digest(spec_v006_data), "registry_rows": spec_v006_data.count(b"`SPEC-INCOMPLETE` |")})
+    registry_block = spec_v006_data.split(b"#### V006 sealed-corpus law for `M2(q,S)`", 1)[1].split(b"No opcode invokes", 1)[0]
+    registry_ids = set(re.findall(rb"(?m)^\| `(C-[^`]+)` \|", registry_block))
+    m2_ids = {
+        row["check_id"].encode("utf-8")
+        for row in check_map["checks"]
+        if any(operation["opcode"] == "M2" for operation in row["program_contract"])
+    }
+    if len(m2_ids) != 17 or registry_ids != m2_ids:
+        stop("SPEC_V006_M2_REGISTRY", {"generated": sorted(m2_ids), "registered": sorted(registry_ids)})
     addendum_path = cleanroom / "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md"
     if digest(addendum_path.read_bytes()) != ADDENDUM_SHA256:
         stop("ADDENDUM_PIN", addendum_path)
@@ -748,7 +858,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verifier_root_members=12 verifier_root={SEALED_VERIFIER_ROOT_SHA256} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all local_schemas=8 verifier_root_members=12 verifier_root={SEALED_VERIFIER_ROOT_SHA256} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=full:accepted,fault:accepted negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=1/56 absent=55 v009_06_opcode=DAG:PASS v009_06_observed={v009_06_observed} fixture_obs=0/3 checks=66 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

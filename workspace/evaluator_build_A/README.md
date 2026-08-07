@@ -4,7 +4,9 @@ This directory contains Builder A's fresh parent and producer. It contains no
 verifier implementation. `parent.py` is the direct R0 entry point and
 `producer.py` is the normal/optimized child target.
 
-The child check map is derived byte-for-byte from the 66 V005 descriptor rows.
+The child check map retains the authorized V005 runtime pin. Its 66 descriptor
+rows are byte-identical to V006's descriptor rows; this relay does not silently
+vary the cross-builder runtime pin.
 Each structural row is bound to its descriptor SHA-256 and an ordered opcode
 contract. A structural record that is absent, has the wrong descriptor hash,
 has the wrong content root, omits an invocation, adds an invocation, or returns
@@ -19,10 +21,10 @@ a false opcode success bit fails closed. The ten gated rows return
 - `inputs/subject_lineage_manifest.json`: the closed sealed-document subject
   root used by these manifests.
 - `inputs/structural_evidence_manifest.json`: records the present evidence
-  state. The governing input set contains no separately sealed per-check proof
-  payloads or structural fixture observations, so those entries are explicitly
-  unavailable; a run returns input-integrity failures rather than inventing
-  evidence or expected verdicts.
+  state. `C-B-V009-06` alone has the C77-authorized, content-addressed
+  `stage_dependencies` envelope; the other 55 structural checks and all three
+  structural fixture observations remain explicitly unavailable and fail
+  input integrity rather than inventing evidence or expected verdicts.
 - `manifests/normal.json` and `manifests/optimized.json`: closed child
   inventories differing only in mode, optimization, and writable paths.
 
@@ -57,10 +59,9 @@ launch if the required verifier manifest, its pin, or any of its contracts is
 absent or malformed.
 
 `inputs/evidence/` contains ten byte-identical, content-addressed copies of
-sealed packet/workspace search and display sources. They are citations, not
-new proofs or observations. The D1 four-mode sweep found no complete
-descriptor-bound invocation envelope for any structural check and no sealed
-structural-fixture observation, so every such manifest record remains
-`ABSENT_OF_RECORD` and will fail input integrity rather than manufacture a
-pass. No Builder B verifier, Custodian invocation, or detached signature is
-silently bundled here.
+sealed packet/workspace search and display sources plus the exact 932-byte
+relocated `stage_dependencies` member and its tight canonical two-argument DAG
+serialization. Those two new payloads ground only `C-B-V009-06`. The remaining
+55 structural records and all three structural-fixture records remain
+`ABSENT_OF_RECORD`. No Builder B verifier, Custodian invocation, board change,
+seal change, or detached signature is silently bundled here.

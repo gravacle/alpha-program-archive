@@ -19,6 +19,12 @@ ADDENDUM_SHA = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260
 V011_SHA = "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a"
 SOURCE_GATE_SHA = "5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf"
 VERDICT_SCHEMA_SHA = "300a475ead3c17cd5b759ffcc3733418029030404af262632583fff077f2907f"
+GROUNDING_RELOCATION_SHA = "69334875b94679c16da9b8d6153242241ca3c202f0facc6130596b9807189e6f"
+GROUNDING_SOURCE_SHA = "13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd"
+GROUNDING_MEMBER_SHA = "47e7c32915bc756fb5f6be25c4fc6dec5c079c8837176dc62499e0f34f4c9d3b"
+GROUNDING_VALUE_SHA = "889515d30cedf7d3af5da1a9e1ff7c7a88a1bf0d9227bdf37d64113302dfcb86"
+GROUNDING_ARGS_SHA = "344fecdc5d86dba727f872b82daecd8347872c0e86ab278262100cfa526f3ac7"
+GROUNDING_PRECEDENCE_SHA = "70c4080eae018bd644a3f0694557f1c0e854d621aa61097c775737887fec528f"
 OPEN_CODES = ["STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME"]
 BRANCH_OUTCOME = {
     "BRANCH-CANDIDATE-TYPED-COMPLETE": "ADMITTED",
@@ -420,6 +426,79 @@ def content_root(entries):
     return sha(b"A35-CONTENT-ROOT-v1\0" + "".join(sorted(records)).encode("utf-8"))
 
 
+def build_v009_06_record(evidence_dir, source_path, descriptor):
+    source_data = source_path.read_bytes()
+    if sha(source_data) != GROUNDING_SOURCE_SHA:
+        die("V009_06_SOURCE_PIN", sha(source_data))
+    member_span = [18898, 19830]
+    value_span = [18920, 19830]
+    member_data = source_data[member_span[0]:member_span[1]]
+    value_data = source_data[value_span[0]:value_span[1]]
+    if len(member_data) != 932 or sha(member_data) != GROUNDING_MEMBER_SHA:
+        die("V009_06_MEMBER", {"length": len(member_data), "sha256": sha(member_data)})
+    if len(value_data) != 910 or sha(value_data) != GROUNDING_VALUE_SHA:
+        die("V009_06_VALUE", {"length": len(value_data), "sha256": sha(value_data)})
+    try:
+        stage_dependencies = json.loads(value_data.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        die("V009_06_PARSE", exc)
+    if not isinstance(stage_dependencies, dict) or len(stage_dependencies) != 11:
+        die("V009_06_GRAPH", type(stage_dependencies).__name__)
+    dag_args = {"graph": stage_dependencies, "required_parents": stage_dependencies}
+    dag_args_data = canonical(dag_args)
+    if sha(dag_args_data) != GROUNDING_ARGS_SHA or set(dag_args) != {"graph", "required_parents"}:
+        die("V009_06_ARGS", sha(dag_args_data))
+    if b"stage_dag" in member_data or b"status" in member_data or b"stage_dag" in dag_args_data or b"status" in dag_args_data:
+        die("V009_06_BARRED_FIELD", "alternate encoding or status")
+    member_name = f"{GROUNDING_MEMBER_SHA}--C-B-V009-06-stage_dependencies.member"
+    args_name = f"{GROUNDING_ARGS_SHA}--C-B-V009-06-dag-args.json"
+    member_path = evidence_dir / member_name
+    args_path = evidence_dir / args_name
+    member_path.write_bytes(member_data)
+    args_path.write_bytes(dag_args_data)
+    input_files = sorted(
+        [file_row(member_path, member_name), file_row(args_path, args_name)],
+        key=lambda row: row["relative_path"],
+    )
+    evidence = {
+        "descriptor_sha256": descriptor["descriptor_sha256"],
+        "input_files": input_files,
+        "input_root_sha256": content_root(input_files),
+        "invocations": [
+            {
+                "args": dag_args,
+                "instance_id": "stage_dependencies@13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd:[18898,19830)",
+                "opcode": "DAG",
+                "result_name": "r_auto_01_dag",
+            }
+        ],
+    }
+    return {
+        "available": True,
+        "descriptor_sha256": descriptor["descriptor_sha256"],
+        "evidence": evidence,
+        "grounding_citations": [
+            {
+                "authority_path": "STAGE8_TASK6_GROUNDING_RELOCATION_DARIO_V001.md",
+                "authority_sha256": GROUNDING_RELOCATION_SHA,
+                "precedence_path": "supervision/PREREGISTRATION_ENCODING_PRECEDENCE_PRINCIPAL_DECISION_2026-07-29.md",
+                "precedence_sha256": GROUNDING_PRECEDENCE_SHA,
+                "source_path": "provenance/boundary_incidence_dynamics_preregistration_v011.json",
+                "source_sha256": GROUNDING_SOURCE_SHA,
+                "span": member_span,
+                "span_sha256": GROUNDING_MEMBER_SHA,
+                "value_span": value_span,
+                "value_sha256": GROUNDING_VALUE_SHA,
+            }
+        ],
+        "payloads": [
+            {"byte_length": len(member_data), "payload_path": f"inputs/evidence/{member_name}", "payload_sha256": GROUNDING_MEMBER_SHA, "role": "EXACT_RELOCATED_MEMBER_BYTES"},
+            {"byte_length": len(dag_args_data), "derived_from_sha256": GROUNDING_VALUE_SHA, "payload_path": f"inputs/evidence/{args_name}", "payload_sha256": GROUNDING_ARGS_SHA, "role": "CANONICAL_DAG_ARGUMENTS"},
+        ],
+        "status": "AVAILABLE",
+    }
+
+
 def main():
     package = Path(__file__).resolve().parents[1]
     cleanroom = package.parent
@@ -432,9 +511,12 @@ def main():
     runtime_snapshot_path = program / "provenance/primitive_step6_runtime_snapshot_v012.json"
     runtime_gate_path = program / "primitive_step6_content_addressed_runtime_gate_v010.md"
     addendum_path = cleanroom / "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md"
+    relocation_path = cleanroom / "STAGE8_TASK6_GROUNDING_RELOCATION_DARIO_V001.md"
+    grounding_source_path = cleanroom / "provenance/boundary_incidence_dynamics_preregistration_v011.json"
+    precedence_path = Path("/Users/bgm/MB Work/alpha-program-archive/supervision/PREREGISTRATION_ENCODING_PRECEDENCE_PRINCIPAL_DECISION_2026-07-29.md")
     authorization_path = Path("/Users/bgm/MB Work/alpha-program-archive/supervision/DECISION_RD22_BUILD_AUTHORIZED_2026-08-07.md")
     verdict_schema_path = cleanroom / "evaluator_build_B/contracts/verifier_verdict.schema.json"
-    pins = [(spec_path, SPEC_SHA), (addendum_path, ADDENDUM_SHA), (ledger_path, LEDGER_SHA), (packet_path, PACKET_SHA), (v011_path, V011_SHA), (source_gate_path, SOURCE_GATE_SHA), (runtime_snapshot_path, SNAPSHOT_SHA), (runtime_gate_path, GATE_SHA), (authorization_path, AUTH_SHA), (verdict_schema_path, VERDICT_SCHEMA_SHA)]
+    pins = [(spec_path, SPEC_SHA), (addendum_path, ADDENDUM_SHA), (relocation_path, GROUNDING_RELOCATION_SHA), (grounding_source_path, GROUNDING_SOURCE_SHA), (precedence_path, GROUNDING_PRECEDENCE_SHA), (ledger_path, LEDGER_SHA), (packet_path, PACKET_SHA), (v011_path, V011_SHA), (source_gate_path, SOURCE_GATE_SHA), (runtime_snapshot_path, SNAPSHOT_SHA), (runtime_gate_path, GATE_SHA), (authorization_path, AUTH_SHA), (verdict_schema_path, VERDICT_SCHEMA_SHA)]
     for path, expected in pins:
         actual = sha(path.read_bytes())
         if actual != expected:
@@ -471,6 +553,8 @@ def main():
     structural_ids = [row["check_id"] for row in rows if row["execution_class"] == "STRUCTURAL"]
     structural_fixture_ids = [row["fixture_id"] for row in fixtures if row["execution_class"] == "STRUCTURAL"]
     evidence_dir = package / "inputs/evidence"
+    row_by_id = {row["check_id"]: row for row in rows}
+    v009_06_record = build_v009_06_record(evidence_dir, grounding_source_path, row_by_id["C-B-V009-06"])
     payload_inventory = [file_row(path, path.name) for path in sorted(evidence_dir.iterdir()) if path.is_file()]
     declared_evidence_root = content_root(payload_inventory)
     evidence_path = package / "inputs/structural_evidence_manifest.json"
@@ -483,11 +567,10 @@ def main():
             die("EVIDENCE_FIELDS", sorted(evidence))
         if set(evidence["check_records"]) != set(structural_ids) or set(evidence["fixture_records"]) != set(structural_fixture_ids):
             die("EVIDENCE_CENSUS", "check/fixture IDs")
-        row_by_id = {row["check_id"]: row for row in rows}
         for check_id in structural_ids:
             evidence["check_records"][check_id]["descriptor_sha256"] = row_by_id[check_id]["descriptor_sha256"]
-        if evidence["schema"] != "rd22.structural-evidence-manifest.v001" or evidence["subject_lineage_root"] != subject["declared_root"] or evidence["payload_inventory"] != payload_inventory or evidence["declared_root"] != declared_evidence_root:
-            die("EVIDENCE_BINDING", "schema/subject root")
+        if evidence["schema"] != "rd22.structural-evidence-manifest.v001":
+            die("EVIDENCE_BINDING", "schema")
     else:
         evidence = {
             "check_records": {check_id: {"available": False, "reason": "NO_CONTENT_ADDRESSED_EVIDENCE_RECORD_PRESENT_IN_GOVERNING_INPUT_SET"} for check_id in structural_ids},
@@ -497,6 +580,10 @@ def main():
             "schema": "rd22.structural-evidence-manifest.v001",
             "subject_lineage_root": subject["declared_root"],
         }
+    evidence["check_records"]["C-B-V009-06"] = v009_06_record
+    evidence["declared_root"] = declared_evidence_root
+    evidence["payload_inventory"] = payload_inventory
+    evidence["subject_lineage_root"] = subject["declared_root"]
     write_json(package / "inputs/structural_evidence_manifest.json", evidence)
     evidence_payload_relatives = [f"inputs/evidence/{row['relative_path']}" for row in payload_inventory]
     runtime_relatives = [
