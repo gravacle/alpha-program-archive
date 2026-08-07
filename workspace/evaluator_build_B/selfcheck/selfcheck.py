@@ -102,6 +102,36 @@ def main():
     except canonical_json.VerifierFault:
         sys.stdout.write("fixture quarantine        : rejects undeclared field\n")
 
+    # Q-601 trust-label contexts
+    R = "0" * 64
+    ok3 = {"T0": R, "T1": R, "T2": R, "T3": R}
+    with_t4 = dict(ok3); with_t4["T4"] = R
+    try:
+        runtime_state.revalidate_trust_snapshots(ok3, R, "in")
+        sys.stdout.write("trust T0-T3 (input)  : accepted\n")
+    except Exception as exc:                      # noqa: BLE001 - fail closed
+        faults += fail("T0-T3 input rejected: %s" % exc)
+    try:
+        runtime_state.revalidate_trust_snapshots(with_t4, R, "in")
+        faults += fail("FABRICATED T4 ACCEPTED in the verifier-input context")
+    except canonical_json.VerifierFault as exc:
+        if "FABRICATED_SNAPSHOT" in str(exc):
+            sys.stdout.write("trust T4 in input    : refused as FABRICATED_SNAPSHOT\n")
+        else:
+            faults += fail("T4 refused for the wrong reason: %s" % exc)
+    try:
+        runtime_state.revalidate_trust_snapshots(
+            with_t4, R, "term", context=runtime_state.CONTEXT_TERMINAL)
+        sys.stdout.write("trust T0-T4 (terminal): accepted\n")
+    except Exception as exc:                      # noqa: BLE001 - fail closed
+        faults += fail("T0-T4 terminal rejected: %s" % exc)
+    try:
+        runtime_state.revalidate_trust_snapshots(
+            ok3, R, "term", context=runtime_state.CONTEXT_TERMINAL)
+        faults += fail("terminal accepted a record missing T4")
+    except canonical_json.VerifierFault:
+        sys.stdout.write("trust terminal w/o T4: refused\n")
+
     # canonical JSON round-trip and rejection behaviour
     if canonical_json.dumps_canonical({"b": 1, "a": 2}) != '{"a":2,"b":1}':
         faults += fail("canonical JSON key ordering")

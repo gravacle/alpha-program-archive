@@ -21,7 +21,8 @@ from .comparison import (check_authorization, check_gate_discipline,
 from .hashing import (load_addressed, require_sha256, sha256_bytes,
                       sha256_file_unverified)
 from .replay import EvidenceBundle, replay_fixture, replay_predicate
-from .runtime_state import (reclassify_events, revalidate_trust_snapshots,
+from .runtime_state import (CONTEXT_VERIFIER_INPUT, reclassify_events,
+                            revalidate_trust_snapshots,
                             validate_runtime_subject)
 from .spec_census import SPEC_SHA256, SpecCensus
 
@@ -58,8 +59,11 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
     # --- runtime pin and trust --------------------------------------------
     subject = validate_runtime_subject(ledger["runtime_subject"],
                                        "runtime_subject")
+    # Q-601: the verifier's own input ledger carries T0-T3 exactly. A T4 here
+    # is a post-verifier snapshot attested before the verifier ran.
     revalidate_trust_snapshots(ledger["trust_snapshots"],
-                               subject["trust_root"], "trust_snapshots")
+                               subject["trust_root"], "trust_snapshots",
+                               context=CONTEXT_VERIFIER_INPUT)
 
     # --- authorization and firewall ---------------------------------------
     check_authorization(ledger["authorization"], RD22_AUTHORIZATION_SHA256,

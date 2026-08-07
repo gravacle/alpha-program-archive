@@ -80,14 +80,61 @@ def validate_runtime_subject(subject, where):
     return subject
 
 
-def revalidate_trust_snapshots(snapshots, authorized_trust_root, where):
-    """Require T4 = T3 = T2 = T1 = T0 = authorized_trust_root (spec R9/R10)."""
+# Q-601 (registrar adjudication). The verifier-input trust record carries
+# T0-T3 EXACTLY. T4 is the POST-verifier snapshot: it cannot exist when the
+# verifier's own inputs are composed, so its ABSENCE is the lawful state here and
+# its PRESENCE is a fabrication. T4 lives only in the terminal ledger, as parent
+# testimony taken after the verifier has run.
+#
+# A fabricated snapshot must never validate. The prior implementation of this
+# function REQUIRED T0-T4 in the input context -- it would not merely have missed
+# the fabrication Codex 2's audit caught, it would have DEMANDED it.
+TRUST_LABELS_VERIFIER_INPUT = ("T0", "T1", "T2", "T3")
+TRUST_LABELS_TERMINAL = ("T0", "T1", "T2", "T3", "T4")
+
+CONTEXT_VERIFIER_INPUT = "verifier_input"
+CONTEXT_TERMINAL = "terminal_ledger"
+
+_TRUST_LABELS_BY_CONTEXT = {
+    CONTEXT_VERIFIER_INPUT: TRUST_LABELS_VERIFIER_INPUT,
+    CONTEXT_TERMINAL: TRUST_LABELS_TERMINAL,
+}
+
+
+def revalidate_trust_snapshots(snapshots, authorized_trust_root, where,
+                               context=CONTEXT_VERIFIER_INPUT):
+    """Revalidate the trust record for its context.
+
+    `context` defaults to the verifier-input context -- the safe case is the
+    default, so a caller that forgets to say gets the stricter rule.
+
+    verifier_input : exactly T0-T3. T4 present => FABRICATED_SNAPSHOT fault.
+    terminal_ledger: exactly T0-T4, the parent's own testimony after the run.
+
+    In both contexts every present label must equal the authorized trust root;
+    any drift stops the run fail-closed.
+    """
     if not isinstance(snapshots, dict):
         raise VerifierFault("%s: trust_snapshots must be an object" % where)
-    expected_labels = ("T0", "T1", "T2", "T3", "T4")
-    require_exact_fields(snapshots, expected_labels, where)
+
+    labels = _TRUST_LABELS_BY_CONTEXT.get(context)
+    if labels is None:
+        raise VerifierFault(
+            "%s: unknown trust context %r; refusing to guess" % (where, context))
+
+    # Name the fabrication explicitly before the generic inventory error, so the
+    # reason in the verdict is the real one rather than "undeclared field".
+    if context == CONTEXT_VERIFIER_INPUT and "T4" in snapshots:
+        raise VerifierFault(
+            "%s: FABRICATED_SNAPSHOT -- T4 is present in the verifier-input "
+            "trust record. T4 is the post-verifier snapshot and cannot exist "
+            "before the verifier runs; its absence here is the lawful state "
+            "(Q-601). A fabricated snapshot must never validate." % where)
+
+    require_exact_fields(snapshots, labels, where)
+
     drifted = []
-    for label in expected_labels:
+    for label in labels:
         value = snapshots[label]
         require_sha256(value, "%s.%s" % (where, label))
         if value != authorized_trust_root:
