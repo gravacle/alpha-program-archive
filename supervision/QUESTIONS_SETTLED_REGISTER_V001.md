@@ -13820,6 +13820,23 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-587 — TASK 6 BUILD: BUILDER A DELIVERED — 20 FILES, STATIC-CLEAN; BOTH BUILDERS INDEPENDENTLY RULE "DO NOT INVOKE YET"; THE PRE-RUN LIST IS TWO ITEMS (2026-08-07)
+
+**Question.** Is Builder A's package complete, and can Custodian C invoke?
+
+**Answer.** COMPLETE AND NOT YET (Codex 2 as Builder A, `evaluator_build_A/` [20 files, all hashed: parent.py 30651B, producer.py 37734B, check_map.json with all 66 descriptors, manifests, schemas, fixtures], manifest `STAGE8_TASK6_EVALUATOR_BUILD_A_MANIFEST_LANE2_V001.md`, SHA-256 `767586aff845886c2fb98959dcd05aa278c20008253404731e01c0a9c52f3981`, relay 647; registrar mirrored the whole package). Static self-check: 66 checks / 56 structural / 10 gated emitting NOT_RUN_GATE without starting / six fixtures; BRANCH_OUTCOME displayed per-ID (closing Q-586's G3 — the display is now a sealed content-addressed input); no chain invocation.
+
+**The four deferred items, explicit and fail-closed — "the current package does not predict a successful first run… absence is visible and fail-closed":**
+- **D1 THE EVIDENCE PAYLOADS:** the per-check structural proof/evidence payloads (56 checks + 3 structural fixture observations) do not exist as separately sealed inputs; the evidence manifest names every absence; a run today returns `FAIL(INPUT_INTEGRITY)` rather than fabricate PASS evidence. **This is the real remaining build work: packaging each descriptor's demanded evidence from the sealed corpus.**
+- **D2 THE INTEGRATION CONTRACT:** Builder B's public launch/stdout shape differs from R9's isolated-child contract (the same underdetermination B independently reported as G1/G2 — the two builds surfaced ONE spec gap from opposite sides); the parent demands a sealed `rd22.verifier-manifest.v001` and stops without it.
+- D3 the invocation (Custodian C's, by design) and D4 the terminal assurance (after a successful chain only).
+
+**The pre-run sequence:** 649 Dario drafts the INTEGRATION ADDENDUM from spec patterns (fixture field inventory + event-ledger fields + the verifier-child contract) — still without seeing A's code; 650 Codex 2 conforms A and discloses deltas; 651 Dario conforms B's adapter to the SEALED contract; 652 Codex 2 assembles the D1 evidence payloads from the sealed corpus; 653 Dario spot-verifies payload-descriptor correspondence; then Custodian C invokes under the v012 pin.
+
+**Custody.** Built by Codex 2; registrar mirrored. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

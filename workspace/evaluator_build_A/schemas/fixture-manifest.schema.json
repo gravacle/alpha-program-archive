@@ -1,0 +1,1 @@
+{"$id":"rd22.fixture-manifest.v001","additionalProperties":false,"properties":{"fixture_ids":{"items":{"type":"string"},"type":"array"},"fixtures":{"items":{"type":"object"},"type":"array"},"schema":{"type":"string"},"spec_sha256":{"pattern":"[0-9a-f]{64}","type":"string"}},"required":["fixture_ids","fixtures","schema","spec_sha256"],"type":"object"}
