@@ -499,8 +499,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 657 | Dario | [6/BUILD] bind evidence_root independently; ledger stays sentinel; addendum V002 proposal 4/1 | **RETURNED — REGISTERED (Q-597/Q-598): three-way root disagreement root-caused; declared_root missing = A defect |
 | 657 | Dario | [6/BUILD] run review vs the Q-591 preregistration | QUEUED (after the complete run) |
 | 658 | Codex 2 | [6/BUILD] evidence manifest: payload inventory + declared_root; parent binds to declared_root | **RETURNED: declared_root = e7820ca5 — MATCHES B's independent value; run 008 passed the root gate, stopped at output paths |
-| 659 | Dario | [6/BUILD] output/receipt paths -> flat run-root names per the producer-child pattern | LOADED — NOT SENT |
-| 660 | Codex 2 | [6/BUILD] parent: ledger is run-scoped — sentinel-tolerate pre-run, bind post-production (Q-597 semantics) | QUEUED ON DISK |
+| 659 | Dario | [6/BUILD] output/receipt paths -> flat run-root names per the producer-child pattern | **SENT** |
+| 660 | Codex 2 | [6/BUILD] parent: ledger is run-scoped — sentinel-tolerate pre-run, bind post-production (Q-597 semantics) | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
