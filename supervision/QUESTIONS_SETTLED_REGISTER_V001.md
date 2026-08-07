@@ -13928,6 +13928,21 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-595 — TASK 6 SCOPING: THE FORMALIZATION MAP — 59 ITEMS CLASSIFIED; THE SHAPE IS PROOF-HEAVY; SIX CONFIRMED NEW-MATH ROWS; THREE OPTIONS SIZED (2026-08-07)
+
+**Question.** How big is the machine-evidence layer, and what are the delivery options?
+
+**Answer.** Codex 2's map (`STAGE8_TASK6_ENVELOPE_FORMALIZATION_MAP_LANE2_V001.md`, SHA-256 `e85a6113e5b45624d19f987ae2603f63ac418df10f33669cc6a44742e5918ed5`, relay 655; registrar mirrored; AUTHORED_ENVELOPES = zero).
+
+- **Classification (59 = 56 checks + 3 observations):** SI 28 / EC 7 / KP 1 / MIXED 23; effort S 17 / M 16 / L 26. The shape is PROOF-HEAVY: 24/59 rows carry a kernel-proof component, 26/59 an enum-certificate component. Every row pinned to its sealed prose sources by byte span, with the custody warning that matters: "a delivery relay must first locate an actual sealed derivation or accept the new-math flag; it may not serialize the requirement sentence as its own proof."
+- **Six confirmed NM! rows (a new positive object required, not formalization):** V009-10 (the deterministic local reconstruction map), V010-05 (anisotropic cancellation), V010-06 (preparation uniqueness/restriction), V010-09 (the uniform analytic theorem), MR-03 (shared-boundary gluing), SP2-04 (the control-superoperator family) — **these are the program's known physics gaps reappearing in envelope form**, consistent with the C75 split that already routes them through 7A. Five NM? rows carry source-locus risk (a bounded search may downgrade them to formalization). The family/nonselection rows are expressly NOT new math — V005's carried-family branches make their envelopes large but lawful.
+- **The three options, honestly costed:** I. full formalization inside Task 6 — 51-88 relays "with no valid finite upper bound if a demanded theorem fails"; Task 6 becomes a research program. II. THE S TRANCHE — 7-10 Task 6 relays building the 17 S-class items (the ten-cheapest ranked), proving the real pipeline end to end; 38-60 + 6-18 research relays remain at 7A; "must prevent a partial-row success from being narrated as evaluator closure." III. park everything at 7A — 1-2 handoff relays, no pipeline proof.
+- The map's own sizing judgment: Option II, with I only by explicit principal conversion of Task 6's charter and III coherent if 7A owns both mathematics and integration.
+
+**Custody.** Scoped by Codex 2; the delivery ruling is the principal's. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
