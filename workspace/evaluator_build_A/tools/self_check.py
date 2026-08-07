@@ -15,6 +15,7 @@ EXPECTED_BRANCH = {
     "BRANCH-TIE-UNRESOLVED": "REJECTED",
 }
 OPCODES = {"STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME"}
+ADDENDUM_SHA256 = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260"
 
 
 def stop(code, detail):
@@ -154,6 +155,26 @@ def main():
     evidence = json_values["structural_evidence_manifest.json"]
     normal = json_values["normal.json"]
     optimized = json_values["optimized.json"]
+    package_inventory = json_values["package_inventory.json"]
+    if set(package_inventory) != {"files", "schema"} or package_inventory["schema"] != "rd22.builder-a-package-inventory.v001":
+        stop("PACKAGE_INVENTORY_SCHEMA", package_inventory)
+    inventory_rows = package_inventory["files"]
+    inventory_paths = [row.get("relative_path") for row in inventory_rows]
+    expected_paths = sorted(
+        str(path.relative_to(package))
+        for path in package.rglob("*")
+        if path.is_file()
+        and str(path.relative_to(package)) != "manifests/package_inventory.json"
+        and not any(part in {"outputs", "pycache"} for part in path.relative_to(package).parts)
+    )
+    if inventory_paths != expected_paths or len(inventory_paths) != len(set(inventory_paths)):
+        stop("PACKAGE_INVENTORY_CENSUS", {"declared": inventory_paths, "actual": expected_paths})
+    for row in inventory_rows:
+        if set(row) != {"byte_length", "relative_path", "sha256"}:
+            stop("PACKAGE_INVENTORY_FIELDS", row)
+        data = (package / row["relative_path"]).read_bytes()
+        if row["byte_length"] != len(data) or row["sha256"] != digest(data):
+            stop("PACKAGE_INVENTORY_HASH", row["relative_path"])
     if check_map["branch_outcome"] != EXPECTED_BRANCH or normal["branch_outcome"] != EXPECTED_BRANCH or optimized["branch_outcome"] != EXPECTED_BRANCH:
         stop("BRANCH_OUTCOME", "drift")
     if len(check_map["checks"]) != 66 or len(check_map["check_ids"]) != 66 or len(set(check_map["check_ids"])) != 66:
@@ -164,9 +185,18 @@ def main():
         stop("CLASS_COUNT", (len(structural), len(gated)))
     if len(fixtures["fixtures"]) != 6 or len(fixtures["fixture_ids"]) != 6:
         stop("FIXTURE_COUNT", len(fixtures["fixtures"]))
+    fixture_descriptor_fields = {"deterministic_procedure", "execution_class", "expected_verdict_fields", "fixture_id", "fixture_spec_sha256", "mutation_ids", "prerequisites", "primary_check_ids", "required_gate", "source"}
+    for row in fixtures["fixtures"]:
+        if set(row) != fixture_descriptor_fields:
+            stop("FIXTURE_DESCRIPTOR_FIELDS", row["fixture_id"])
+    if sum(row["execution_class"] == "STRUCTURAL" for row in fixtures["fixtures"]) != 3 or sum(row["execution_class"] == "GATED-EXECUTION" for row in fixtures["fixtures"]) != 3:
+        stop("FIXTURE_CLASS_COUNT", "not 3/3")
     if len(evidence["check_records"]) != 56 or len(evidence["fixture_records"]) != 3:
         stop("EVIDENCE_CENSUS", "wrong")
     spec = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md").read_text(encoding="utf-8")
+    addendum_path = cleanroom / "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md"
+    if digest(addendum_path.read_bytes()) != ADDENDUM_SHA256:
+        stop("ADDENDUM_PIN", addendum_path)
     ledger = (cleanroom / "BID_FULL_STACK_REVIEW_LEDGER_V003.md").read_bytes()
     for row in check_map["checks"]:
         candidate_hashes = [digest(row_bytes) for row_bytes in descriptor_lines(spec, row["check_id"])]
@@ -181,11 +211,21 @@ def main():
             start, end = row["source"]["byte_span"]
             if not 0 <= start < end <= len(ledger) or re.match(rb"[0-9]+\. ", ledger[start:end]) is None:
                 stop("SOURCE_SPAN", row["check_id"])
+    for row in fixtures["fixtures"]:
+        start, end = row["source"]["byte_span"]
+        source_bytes = (cleanroom / row["source"]["path"]).read_bytes()[start:end]
+        if digest(source_bytes) != row["fixture_spec_sha256"]:
+            stop("FIXTURE_SPEC_HASH", row["fixture_id"])
     verify_inventory(package, normal)
     verify_inventory(package, optimized)
     differing = {key for key in normal if normal[key] != optimized[key]}
     if differing != {"mode", "optimization", "writable_paths"}:
         stop("MANIFEST_DRIFT", sorted(differing))
+    addendum_rows = [row for row in normal["external_inputs"] if row["kind"] == "integration_addendum"]
+    if len(addendum_rows) != 1 or addendum_rows[0]["sha256"] != ADDENDUM_SHA256:
+        stop("MANIFEST_ADDENDUM_PIN", addendum_rows)
+    if normal["allowed_events"].get("mutation") != ["output", "receipt"]:
+        stop("MANIFEST_MUTATION_EVENTS", normal["allowed_events"])
     schema_targets = {
         "child-manifest.schema.json": [normal, optimized],
         "check-map.schema.json": [check_map],
@@ -198,16 +238,64 @@ def main():
             stop("SCHEMA_TOP_NOT_CLOSED", schema_name)
         for index, target in enumerate(targets):
             validate(schema, target, f"{schema_name}[{index}]")
-    for schema_name in ["producer-output.schema.json", "child-receipt.schema.json", "verifier-output.schema.json", "terminal-ledger.schema.json"]:
+    for schema_name in ["producer-output.schema.json", "child-receipt.schema.json", "verifier-manifest.schema.json", "verifier-output.schema.json", "terminal-ledger.schema.json"]:
         schema = json_values[schema_name]
         if schema.get("additionalProperties") is not False or not schema.get("required") or set(schema["required"]) != set(schema["properties"]):
             stop("SCHEMA_EXACT_TOP", schema_name)
+    producer_schema = json_values["producer-output.schema.json"]
+    fixture_row_schema = producer_schema["properties"]["fixtures"]["items"]
+    if len(fixture_row_schema["properties"]) != 16 or fixture_row_schema.get("additionalProperties") is not False:
+        stop("FIXTURE_ROW_CONTRACT", fixture_row_schema)
+    for descriptor in fixtures["fixtures"]:
+        synthetic = dict(descriptor)
+        synthetic.update({"input_root_sha256": normal["subject_lineage_root"], "observed_evidence_sha256s": [], "observed_verdict_fields": {}, "procedure_started": False, "reason": "STATIC_CONTRACT_FIXTURE", "status": "NOT_RUN_GATE" if descriptor["execution_class"] == "GATED-EXECUTION" else "FAIL"})
+        validate(fixture_row_schema, synthetic, f"fixture_row/{descriptor['fixture_id']}")
+        if set(synthetic["observed_verdict_fields"]) - set(synthetic["expected_verdict_fields"]):
+            stop("FIXTURE_QUARANTINE", descriptor["fixture_id"])
+    terminal_schema = json_values["terminal-ledger.schema.json"]
+    child_row_schema = terminal_schema["properties"]["children"]["items"]
+    if len(child_row_schema["properties"]) != 14 or child_row_schema.get("additionalProperties") is not False:
+        stop("CHILD_ROW_CONTRACT", child_row_schema)
+    empty_digest = digest(b"[]\n")
+    synthetic_child = {field: empty_digest for field in child_row_schema["properties"]}
+    synthetic_child["optimize"] = 0
+    synthetic_child["receipt_authoritative"] = False
+    validate(child_row_schema, synthetic_child, "child_row")
+    for field in ("process_event_ledger_sha256", "network_event_ledger_sha256", "mutation_event_ledger_sha256"):
+        if synthetic_child[field] != empty_digest:
+            stop("EMPTY_EVENT_DIGEST", field)
+    receipt_schema = json_values["child-receipt.schema.json"]
+    if "mutation_event_ledger" not in receipt_schema["properties"]:
+        stop("MUTATION_RECEIPT_CARRIER", "missing")
+    verifier_schema = json_values["verifier-manifest.schema.json"]
+    if len(verifier_schema["properties"]) != 11:
+        stop("VERIFIER_MANIFEST_FIELDS", len(verifier_schema["properties"]))
+    if len(verifier_schema["properties"]["input_roots"]["properties"]) != 5 or len(verifier_schema["properties"]["stdout_discipline"]["properties"]) != 3 or len(verifier_schema["properties"]["exit_contract"]["properties"]) != 3:
+        stop("VERIFIER_NESTED_FIELDS", "wrong")
+    synthetic_verifier = {
+        "argv": ["--ledger", "/sealed/ledger.json"],
+        "entry_point": "verifier.verify",
+        "exit_contract": {"fail_closed": 2, "faults_found": 1, "verified": 0},
+        "input_roots": {"evidence_root_sha256": empty_digest, "ledger_sha256": empty_digest, "runtime_gate_sha256": empty_digest, "runtime_snapshot_sha256": empty_digest, "spec_sha256": empty_digest},
+        "optimize": False,
+        "output_path": "/run/verifier.output.json",
+        "receipt_authoritative": False,
+        "receipt_path": "/run/verifier.receipt.json",
+        "schema": "rd22.verifier-manifest.v001",
+        "stdout_discipline": {"format": "canonical-json", "lines": 1, "other_output_permitted": False},
+        "verifier_root_sha256": empty_digest,
+    }
+    validate(verifier_schema, synthetic_verifier, "verifier_manifest")
+    parent_text = (package / "parent.py").read_text(encoding="utf-8")
+    for fact in ("R9_VERIFIER_FAULTS_FOUND_EXIT_1", "R9_VERIFIER_FAIL_CLOSED_EXIT_2"):
+        if fact not in parent_text:
+            stop("VERIFIER_EXIT_FACT", fact)
     for directory in [package / "pycache/normal", package / "pycache/optimized", package / "pycache/verifier"]:
         if not directory.is_dir() or any(directory.iterdir()):
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print("SELF_CHECK_OK syntax=4 canonical_json=all schemas=8 checks=66 structural=56 gated=10 fixtures=6 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=4 canonical_json=all schemas=9 inventory={len(inventory_rows)} checks=66 structural=56 gated=10 fixtures=6 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

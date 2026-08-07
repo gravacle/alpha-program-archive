@@ -13855,6 +13855,14 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-589 — TASK 6 BUILD: BUILDER A CONFORMED — 3/3 CONTRACTS, 17 DELTAS DISCLOSED, STATIC-CLEAN (2026-08-07)
+
+**Question.** Does Builder A's package conform to the sealed integration addendum?
+
+**Answer.** YES (Codex 2, `STAGE8_TASK6_BUILD_A_CONFORMANCE_LANE2_V001.md`, SHA-256 `7cd4f9102bbc1e18d01d6a4981c3bca5e53fe0011754ddf9d85c89f1fb114ea6`, relay 650; registrar mirrored the updated package). 3/3 contracts conformed; 17 file deltas across 72 hunks disclosed as old-vs-new; the verifier-manifest gate implemented with exit 1 and exit 2 as distinct terminal facts; static self-check passed; chain uninvoked. Remaining before invocation: 651 (B's adapter incl. its two owed changes), 652/653 (the evidence payloads and their spot-check).
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

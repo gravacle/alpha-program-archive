@@ -14,6 +14,7 @@ LEDGER_SHA = "c09f2c246c48ddfd0df127da26a22f08ba9ffd44f5c2118c178a0a5eba5d00e8"
 PACKET_SHA = "9d35f4ed7831411961d61002f09afe02c9703f80b84aa05158e39b7f49b1a311"
 SNAPSHOT_SHA = "50a6fc141a45451678aa7543e4f267ce26beb6e53182170b478acb6fb0e0f5bb"
 GATE_SHA = "2ad7f72a88184c11e1253f2c47598fca11e60d05e8e71a26db4e19b16bf98d42"
+ADDENDUM_SHA = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260"
 V011_SHA = "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a"
 SOURCE_GATE_SHA = "5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf"
 OPEN_CODES = ["STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME"]
@@ -215,61 +216,118 @@ def descriptors(spec_data, ledger_data):
     return rows
 
 
-def fixture_rows():
-    return [
-        {
-            "execution_class": "GATED-EXECUTION",
-            "expected_verdict_fields": {"after_the_fact_factor_accepted": False, "competitor_reproduced": True, "physical_response_accepted": False},
-            "fixture_id": "FX-A35-01-V010-ZERO-STIFFNESS",
-            "frozen_input": "Immutable V010 direct-sum global-ray route; canonical mode; post-hoc L^2, L^4, and volume mutations",
-            "primary_checks": ["C-B-V010-01"],
-        },
-        {
-            "execution_class": "GATED-EXECUTION",
-            "expected_verdict_fields": {"alternate_amplitude_auto_selected": False, "response_subject_accepted": False, "zero_reproduced": True},
-            "fixture_id": "FX-A35-02-ROOT-SURVIVAL-ZERO",
-            "frozen_input": "Recorded root-survival subject at the handle interval plus an auto-substitution mutation",
-            "primary_checks": ["C-B-V011-MR-08"],
-        },
-        {
-            "execution_class": "STRUCTURAL",
-            "expected_verdict_fields": {"c_equals_one_selected": False, "family_admitted": True},
-            "fixture_id": "FX-A35-03-C-FAMILY",
-            "frozen_input": "Symbolic family Gamma_c=-c log|A|, c>0, including two unequal controls",
-            "primary_checks": ["C-B-V010-02"],
-        },
-        {
-            "execution_class": "STRUCTURAL",
-            "expected_verdict_fields": {"family_admitted": True, "tau_equals_one_derived": False},
-            "fixture_id": "FX-A35-04-TAU-FAMILY",
-            "frozen_input": "Symbolic family exp(-i tau B), tau>0, including two unequal controls",
-            "primary_checks": ["C-B-V010-03"],
-        },
-        {
-            "execution_class": "STRUCTURAL",
-            "expected_verdict_fields": {"competitor_accepted": False, "primitive_and_Thomson_fields_remain_distinct": True, "type_violation_detected": True},
-            "fixture_id": "FX-A35-05-PRIMITIVE-THOMSON-CONFLATION",
-            "frozen_input": "Mutation routing primitive kappa_record into a Thomson/alpha field",
-            "primary_checks": ["C-B-V010-04"],
-        },
-        {
-            "execution_class": "GATED-EXECUTION",
-            "expected_verdict_fields": {"axial_sign_equivalence": False, "control_rejected": True, "hand_inserted_pairing_mutation_fails": True, "rephasing_mutation_fails": True},
-            "fixture_id": "FX-A35-06-NONZERO-INDEX-CONTROL",
-            "frozen_input": "Index-one/unpaired-zero-mode control; rephasing and hand-inserted-pairing mutations",
-            "primary_checks": ["C-B-V011-SP1-04", "C-B-V011-SP2-03", "C-D-A35-01-ZERO-INDEX"],
-        },
+def fixture_rows(spec_data, check_rows):
+    definitions = [
+        ("FX-A35-01-V010-ZERO-STIFFNESS", ["C-B-V010-01"], "GATED-EXECUTION", ["POST_HOC_L2", "POST_HOC_L4", "POST_HOC_VOLUME"], {"after_the_fact_factor_accepted": False, "competitor_reproduced": True, "physical_response_accepted": False}),
+        ("FX-A35-02-ROOT-SURVIVAL-ZERO", ["C-B-V011-MR-08"], "GATED-EXECUTION", ["AUTO_SUBSTITUTION"], {"alternate_amplitude_auto_selected": False, "response_subject_accepted": False, "zero_reproduced": True}),
+        ("FX-A35-03-C-FAMILY", ["C-B-V010-02"], "STRUCTURAL", ["C_EQUALS_ONE_SELECTION"], {"c_equals_one_selected": False, "family_admitted": True}),
+        ("FX-A35-04-TAU-FAMILY", ["C-B-V010-03"], "STRUCTURAL", ["TAU_EQUALS_ONE_SELECTION"], {"family_admitted": True, "tau_equals_one_derived": False}),
+        ("FX-A35-05-PRIMITIVE-THOMSON-CONFLATION", ["C-B-V010-04"], "STRUCTURAL", ["PRIMITIVE_TO_THOMSON_FIELD"], {"competitor_accepted": False, "primitive_and_Thomson_fields_remain_distinct": True, "type_violation_detected": True}),
+        ("FX-A35-06-NONZERO-INDEX-CONTROL", ["C-B-V011-SP1-04", "C-B-V011-SP2-03", "C-D-A35-01-ZERO-INDEX"], "GATED-EXECUTION", ["REPHASING", "HAND_INSERTED_PAIRING"], {"axial_sign_equivalence": False, "control_rejected": True, "hand_inserted_pairing_mutation_fails": True, "rephasing_mutation_fails": True}),
     ]
+    by_check = {row["check_id"]: row for row in check_rows}
+    spec_text = spec_data.decode("utf-8")
+    offsets = {}
+    cursor = 0
+    for raw in spec_text.splitlines(keepends=True):
+        line = raw.rstrip("\r\n")
+        offsets.setdefault(line, cursor)
+        cursor += len(raw.encode("utf-8"))
+    out = []
+    for fixture_id, primary_ids, execution_class, mutation_ids, expected in definitions:
+        prefix = f"| `{fixture_id}` |"
+        matches = [line for line in spec_text.splitlines() if line.startswith(prefix)]
+        if len(matches) != 1:
+            die("FIXTURE_SOURCE_ROW", f"{fixture_id}:{len(matches)}")
+        row_text = matches[0]
+        row_bytes = (row_text + "\n").encode("utf-8")
+        start = offsets[row_text]
+        primary = [by_check[item] for item in primary_ids]
+        gates = sorted({item["required_gate"] for item in primary})
+        out.append(
+            {
+                "deterministic_procedure": " ; ".join(f"{item['check_id']}:{item['deterministic_procedure']}" for item in primary),
+                "execution_class": execution_class,
+                "expected_verdict_fields": expected,
+                "fixture_id": fixture_id,
+                "fixture_spec_sha256": sha(row_bytes),
+                "mutation_ids": mutation_ids,
+                "prerequisites": ["P0"],
+                "primary_check_ids": primary_ids,
+                "required_gate": "RD22_STRUCTURAL_ONLY" if execution_class == "STRUCTURAL" else " AND ".join(gates),
+                "source": {"byte_span": [start, start + len(row_bytes)], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md", "sha256": SPEC_SHA},
+            }
+        )
+    return out
 
 
 def schemas():
     string = {"type": "string"}
-    boolean = {"type": "boolean"}
     integer = {"type": "integer"}
     digest = {"pattern": "[0-9a-f]{64}", "type": "string"}
     object_value = {"type": "object"}
     string_array = {"items": string, "type": "array"}
-    package_rows = {"items": object_value, "type": "array"}
+    object_array = {"items": object_value, "type": "array"}
+
+    def closed(properties):
+        return {"additionalProperties": False, "properties": properties, "required": sorted(properties), "type": "object"}
+
+    source = closed({"byte_span": {"items": integer, "type": "array"}, "path": string, "sha256": digest})
+    fixture_descriptor = closed(
+        {
+            "deterministic_procedure": string,
+            "execution_class": {"enum": ["STRUCTURAL", "GATED-EXECUTION"], "type": "string"},
+            "expected_verdict_fields": object_value,
+            "fixture_id": string,
+            "fixture_spec_sha256": digest,
+            "mutation_ids": string_array,
+            "prerequisites": string_array,
+            "primary_check_ids": string_array,
+            "required_gate": string,
+            "source": source,
+        }
+    )
+    fixture_row = closed(
+        {
+            "deterministic_procedure": string,
+            "execution_class": {"enum": ["STRUCTURAL", "GATED-EXECUTION"], "type": "string"},
+            "expected_verdict_fields": object_value,
+            "fixture_id": string,
+            "fixture_spec_sha256": digest,
+            "input_root_sha256": digest,
+            "mutation_ids": string_array,
+            "observed_evidence_sha256s": {"items": digest, "type": "array"},
+            "observed_verdict_fields": object_value,
+            "prerequisites": string_array,
+            "primary_check_ids": string_array,
+            "procedure_started": {"type": "boolean"},
+            "reason": string,
+            "required_gate": string,
+            "source": source,
+            "status": {"enum": ["PASS", "FAIL", "NOT_RUN_GATE", "ERROR"], "type": "string"},
+        }
+    )
+    child_row = closed(
+        {
+            "manifest_sha256": digest,
+            "module_ledger_sha256": digest,
+            "mutation_event_ledger_sha256": digest,
+            "native_ledger_sha256": digest,
+            "network_event_ledger_sha256": digest,
+            "open_event_ledger_sha256": digest,
+            "optimize": {},
+            "output_sha256": digest,
+            "process_event_ledger_sha256": digest,
+            "receipt_authoritative": {"const": False, "type": "boolean"},
+            "receipt_sha256": digest,
+            "runtime_after_sha256": digest,
+            "runtime_before_sha256": digest,
+            "target_sha256": digest,
+        }
+    )
+    verifier_input_roots = closed({"evidence_root_sha256": digest, "ledger_sha256": digest, "runtime_gate_sha256": digest, "runtime_snapshot_sha256": digest, "spec_sha256": digest})
+    stdout_discipline = closed({"format": {"const": "canonical-json", "type": "string"}, "lines": {"const": 1, "type": "integer"}, "other_output_permitted": {"const": False, "type": "boolean"}})
+    exit_contract = closed({"fail_closed": {"const": 2, "type": "integer"}, "faults_found": {"const": 1, "type": "integer"}, "verified": {"const": 0, "type": "integer"}})
     manifest_fields = {
         "allowed_events": object_value,
         "authority_firewall": object_value,
@@ -277,12 +335,12 @@ def schemas():
         "check_ids": string_array,
         "check_map_sha256": digest,
         "evidence_manifest_sha256": digest,
-        "external_inputs": package_rows,
+        "external_inputs": object_array,
         "fixture_ids": string_array,
         "fixture_manifest_sha256": digest,
         "mode": {"enum": ["normal", "optimized"], "type": "string"},
         "optimization": integer,
-        "package_files": package_rows,
+        "package_files": object_array,
         "runtime_subject": object_value,
         "schema": {"const": "rd22.child-manifest.v001", "type": "string"},
         "specification_sha256": digest,
@@ -302,7 +360,7 @@ def schemas():
         },
         "fixture-manifest.schema.json": {
             "$id": "rd22.fixture-manifest.v001", "additionalProperties": False,
-            "properties": {"fixture_ids": {"items": string, "type": "array"}, "fixtures": {"items": object_value, "type": "array"}, "schema": string, "spec_sha256": digest},
+            "properties": {"fixture_ids": string_array, "fixtures": {"items": fixture_descriptor, "type": "array"}, "schema": {"const": "rd22.fixture-manifest.v001", "type": "string"}, "spec_sha256": digest},
             "required": ["fixture_ids", "fixtures", "schema", "spec_sha256"], "type": "object",
         },
         "structural-evidence.schema.json": {
@@ -312,22 +370,27 @@ def schemas():
         },
         "producer-output.schema.json": {
             "$id": "rd22.producer-output.v001", "additionalProperties": False,
-            "properties": {"authority_firewall": object_value, "check_map_sha256": digest, "checks": {"items": object_value, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": object_value, "type": "array"}, "manifest_sha256": digest, "monotonic_duration": {"type": "number"}, "process_id": integer, "python_optimize": integer, "schema": {"const": "rd22.producer-output.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage_root": digest, "summary": object_value},
+            "properties": {"authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "manifest_sha256": digest, "monotonic_duration": {"type": "number"}, "process_id": integer, "python_optimize": integer, "schema": {"const": "rd22.producer-output.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage_root": digest, "summary": object_value},
             "required": ["authority_firewall", "check_map_sha256", "checks", "fixture_manifest_sha256", "fixtures", "manifest_sha256", "monotonic_duration", "process_id", "python_optimize", "schema", "scope", "spec_sha256", "subject_lineage_root", "summary"], "type": "object",
         },
         "child-receipt.schema.json": {
             "$id": "rd22.child-receipt.v001", "additionalProperties": False,
-            "properties": {"authority": {"const": False, "type": "boolean"}, "environment_event_ledger": {"items": object_value, "type": "array"}, "manifest_sha256": digest, "module_ledger": {"items": object_value, "type": "array"}, "monotonic_duration": {"type": "number"}, "native_ledger": {"items": object_value, "type": "array"}, "network_event_ledger": {"items": object_value, "type": "array"}, "open_event_ledger": {"items": object_value, "type": "array"}, "optimize": {}, "output_sha256": digest, "process_event_ledger": {"items": object_value, "type": "array"}, "process_id": integer, "schema": {"const": "rd22.child-receipt.v001", "type": "string"}, "target_sha256": digest, "write_event_ledger": {"items": object_value, "type": "array"}},
-            "required": ["authority", "environment_event_ledger", "manifest_sha256", "module_ledger", "monotonic_duration", "native_ledger", "network_event_ledger", "open_event_ledger", "optimize", "output_sha256", "process_event_ledger", "process_id", "schema", "target_sha256", "write_event_ledger"], "type": "object",
+            "properties": {"authority": {"const": False, "type": "boolean"}, "environment_event_ledger": object_array, "manifest_sha256": digest, "module_ledger": object_array, "monotonic_duration": {"type": "number"}, "mutation_event_ledger": object_array, "native_ledger": object_array, "network_event_ledger": object_array, "open_event_ledger": object_array, "optimize": {}, "output_sha256": digest, "process_event_ledger": object_array, "process_id": integer, "schema": {"const": "rd22.child-receipt.v001", "type": "string"}, "target_sha256": digest, "write_event_ledger": object_array},
+            "required": ["authority", "environment_event_ledger", "manifest_sha256", "module_ledger", "monotonic_duration", "mutation_event_ledger", "native_ledger", "network_event_ledger", "open_event_ledger", "optimize", "output_sha256", "process_event_ledger", "process_id", "schema", "target_sha256", "write_event_ledger"], "type": "object",
+        },
+        "verifier-manifest.schema.json": {
+            "$id": "rd22.verifier-manifest.v001", "additionalProperties": False,
+            "properties": {"argv": string_array, "entry_point": string, "exit_contract": exit_contract, "input_roots": verifier_input_roots, "optimize": {"type": "boolean"}, "output_path": string, "receipt_authoritative": {"const": False, "type": "boolean"}, "receipt_path": string, "schema": {"const": "rd22.verifier-manifest.v001", "type": "string"}, "stdout_discipline": stdout_discipline, "verifier_root_sha256": digest},
+            "required": ["argv", "entry_point", "exit_contract", "input_roots", "optimize", "output_path", "receipt_authoritative", "receipt_path", "schema", "stdout_discipline", "verifier_root_sha256"], "type": "object",
         },
         "verifier-output.schema.json": {
-            "$id": "rd22.verifier-output.v001", "additionalProperties": False,
-            "properties": {"authority": {"const": False, "type": "boolean"}, "authorization_sha256": digest, "check_map_sha256": digest, "fixture_manifest_sha256": digest, "normal_output_sha256": digest, "optimized_output_sha256": digest, "schema": {"const": "rd22.verifier-output.v001", "type": "string"}, "status": {"enum": ["PASS", "FAIL"], "type": "string"}, "verdict_sha256": digest},
-            "required": ["authority", "authorization_sha256", "check_map_sha256", "fixture_manifest_sha256", "normal_output_sha256", "optimized_output_sha256", "schema", "status", "verdict_sha256"], "type": "object",
+            "$id": "gravacle.a35.verifier-verdict.v1", "additionalProperties": False,
+            "properties": {"authority_firewall": object_value, "authorization_sha256": digest, "census": object_value, "checks_replayed": object_array, "findings": object_array, "independence": closed({"expectations_source": string, "producer_code_imported": {"const": False, "type": "boolean"}}), "producer_comparison": object_value, "runtime_subject": closed({"gate_sha256": digest, "snapshot_sha256": digest, "trust_root": digest}), "schema": {"const": "gravacle.a35.verifier-verdict.v1", "type": "string"}, "spec_sha256": digest, "terminal_content_sha256": digest, "verdict": {"enum": ["VERIFIED", "FAIL"], "type": "string"}, "verifier_sha256": digest},
+            "required": ["authority_firewall", "authorization_sha256", "census", "checks_replayed", "findings", "independence", "producer_comparison", "runtime_subject", "schema", "spec_sha256", "terminal_content_sha256", "verdict", "verifier_sha256"], "type": "object",
         },
         "terminal-ledger.schema.json": {
             "$id": "rd22.terminal-ledger.v001", "additionalProperties": False,
-            "properties": {"authorization": object_value, "authority_firewall": object_value, "check_map_sha256": digest, "checks": {"items": object_value, "type": "array"}, "children": {"items": object_value, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": object_value, "type": "array"}, "producer_comparison": object_value, "runner_sha256": digest, "runtime_subject": object_value, "schema": {"const": "rd22.terminal-ledger.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage": object_value, "summary": object_value, "terminal_content_sha256": digest, "trust_snapshots": object_value, "verifier_sha256": digest},
+            "properties": {"authorization": object_value, "authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "children": {"items": child_row, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "producer_comparison": object_value, "runner_sha256": digest, "runtime_subject": object_value, "schema": {"const": "rd22.terminal-ledger.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage": object_value, "summary": object_value, "terminal_content_sha256": digest, "trust_snapshots": object_value, "verifier_sha256": digest},
             "required": ["authorization", "authority_firewall", "check_map_sha256", "checks", "children", "fixture_manifest_sha256", "fixtures", "producer_comparison", "runner_sha256", "runtime_subject", "schema", "scope", "spec_sha256", "subject_lineage", "summary", "terminal_content_sha256", "trust_snapshots", "verifier_sha256"], "type": "object",
         },
     }
@@ -349,8 +412,9 @@ def main():
     source_gate_path = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001/BID_SOURCE_PARENT_CLOSURE_GATE_V003.md"
     runtime_snapshot_path = program / "provenance/primitive_step6_runtime_snapshot_v012.json"
     runtime_gate_path = program / "primitive_step6_content_addressed_runtime_gate_v010.md"
+    addendum_path = cleanroom / "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md"
     authorization_path = Path("/Users/bgm/MB Work/alpha-program-archive/supervision/DECISION_RD22_BUILD_AUTHORIZED_2026-08-07.md")
-    pins = [(spec_path, SPEC_SHA), (ledger_path, LEDGER_SHA), (packet_path, PACKET_SHA), (v011_path, V011_SHA), (source_gate_path, SOURCE_GATE_SHA), (runtime_snapshot_path, SNAPSHOT_SHA), (runtime_gate_path, GATE_SHA), (authorization_path, AUTH_SHA)]
+    pins = [(spec_path, SPEC_SHA), (addendum_path, ADDENDUM_SHA), (ledger_path, LEDGER_SHA), (packet_path, PACKET_SHA), (v011_path, V011_SHA), (source_gate_path, SOURCE_GATE_SHA), (runtime_snapshot_path, SNAPSHOT_SHA), (runtime_gate_path, GATE_SHA), (authorization_path, AUTH_SHA)]
     for path, expected in pins:
         actual = sha(path.read_bytes())
         if actual != expected:
@@ -365,7 +429,7 @@ def main():
         "spec_sha256": SPEC_SHA,
     }
     write_json(package / "checks/check_map.json", check_map)
-    fixtures = fixture_rows()
+    fixtures = fixture_rows(spec_path.read_bytes(), rows)
     fixture_manifest = {"fixture_ids": [row["fixture_id"] for row in fixtures], "fixtures": fixtures, "schema": "rd22.fixture-manifest.v001", "spec_sha256": SPEC_SHA}
     write_json(package / "fixtures/fixture_manifest.json", fixture_manifest)
     for name, value in schemas().items():
@@ -377,6 +441,7 @@ def main():
         packet_path,
         v011_path,
         source_gate_path,
+        addendum_path,
     ]
     for path in subject_paths:
         relative = str(path.relative_to(program))
@@ -400,6 +465,7 @@ def main():
     external = [
         {**file_row(authorization_path, "supervision/DECISION_RD22_BUILD_AUTHORIZED_2026-08-07.md"), "kind": "authorization"},
         {**file_row(ledger_path, str(ledger_path.relative_to(program))), "kind": "blocker_ledger"},
+        {**file_row(addendum_path, str(addendum_path.relative_to(program))), "kind": "integration_addendum"},
         {**file_row(packet_path, str(packet_path.relative_to(program))), "kind": "packet_manifest"},
         {**file_row(runtime_gate_path, str(runtime_gate_path.relative_to(program))), "kind": "runtime_gate"},
         {**file_row(runtime_snapshot_path, str(runtime_snapshot_path.relative_to(program))), "kind": "runtime_snapshot"},
@@ -407,7 +473,7 @@ def main():
     ]
     trust_root = json.loads(runtime_snapshot_path.read_text(encoding="utf-8"))["native_system_trust_root"]
     common = {
-        "allowed_events": {"environment": [], "network": [], "process": [], "writes": ["output", "receipt"]},
+        "allowed_events": {"environment": [], "mutation": ["output", "receipt"], "network": [], "process": [], "writes": ["output", "receipt"]},
         "authority_firewall": {"CORE_RESULT_SEAL": False, "FINAL_CLAIM_SEAL": False, "SPEC_SEAL": False, "alpha_computed": False, "authorization_claimed": False, "executed": False, "implemented": True, "kappa_record_computed": False, "proof_authorized": False},
         "branch_outcome": BRANCH_OUTCOME,
         "check_ids": check_map["check_ids"],

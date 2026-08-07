@@ -684,6 +684,7 @@ class AuditRecorder:
         self.open_events = []
         self.process_events = []
         self.network_events = []
+        self.mutation_events = []
         self.environment_events = []
         self.write_events = []
 
@@ -825,37 +826,58 @@ def make_check_row(descriptor, evidence_records, requirement_sha):
     return base
 
 
-def make_fixture_row(fixture, fixture_records):
+def fixture_base(fixture, requirement_sha):
+    return {
+        "fixture_id": fixture["fixture_id"],
+        "source": fixture["source"],
+        "fixture_spec_sha256": fixture["fixture_spec_sha256"],
+        "primary_check_ids": fixture["primary_check_ids"],
+        "execution_class": fixture["execution_class"],
+        "input_root_sha256": requirement_sha,
+        "mutation_ids": fixture["mutation_ids"],
+        "deterministic_procedure": fixture["deterministic_procedure"],
+        "prerequisites": fixture["prerequisites"],
+        "required_gate": fixture["required_gate"],
+        "expected_verdict_fields": fixture["expected_verdict_fields"],
+        "procedure_started": False,
+        "status": "ERROR",
+        "observed_verdict_fields": {},
+        "observed_evidence_sha256s": [],
+        "reason": "",
+    }
+
+
+def make_fixture_row(fixture, fixture_records, requirement_sha):
     fixture_id = fixture["fixture_id"]
+    base = fixture_base(fixture, requirement_sha)
     if fixture["execution_class"] == GATED_CLASS:
-        return {
-            "execution_class": GATED_CLASS,
-            "fixture_id": fixture_id,
-            "observed": None,
-            "procedure_started": False,
-            "reason": "RD22_STRUCTURAL_ONLY_GATE_CLOSED",
-            "status": "NOT_RUN_GATE",
-        }
+        base["status"] = "NOT_RUN_GATE"
+        base["reason"] = "RD22_STRUCTURAL_ONLY_GATE_CLOSED"
+        return base
     record = fixture_records.get(fixture_id)
     if not isinstance(record, dict) or record.get("available") is not True:
-        return {
-            "execution_class": STRUCTURAL_CLASS,
-            "fixture_id": fixture_id,
-            "observed": None,
-            "procedure_started": False,
-            "reason": "STRUCTURAL_FIXTURE_EVIDENCE_NOT_SUPPLIED",
-            "status": "FAIL",
-        }
-    observed = record.get("observed")
+        base["status"] = "FAIL"
+        base["reason"] = "STRUCTURAL_FIXTURE_EVIDENCE_NOT_SUPPLIED"
+        return base
+    observed = record.get("observed_verdict_fields")
+    evidence_hashes = record.get("observed_evidence_sha256s")
+    if not isinstance(observed, dict) or not isinstance(evidence_hashes, list):
+        base["reason"] = "FIXTURE_OBSERVATION_SCHEMA"
+        return base
+    if any(not isinstance(item, str) or re.fullmatch(r"[0-9a-f]{64}", item) is None for item in evidence_hashes):
+        base["reason"] = "FIXTURE_EVIDENCE_HASH"
+        return base
+    unexpected = sorted(set(observed) - set(fixture["expected_verdict_fields"]))
+    base["procedure_started"] = True
+    base["observed_verdict_fields"] = observed
+    base["observed_evidence_sha256s"] = evidence_hashes
+    if unexpected:
+        base["reason"] = f"FIXTURE_QUARANTINE_UNDECLARED_FIELDS:{unexpected}"
+        return base
     ok = observed == fixture["expected_verdict_fields"]
-    return {
-        "execution_class": STRUCTURAL_CLASS,
-        "fixture_id": fixture_id,
-        "observed": observed,
-        "procedure_started": True,
-        "reason": "" if ok else "FIXTURE_EXPECTATION_MISMATCH",
-        "status": "PASS" if ok else "FAIL",
-    }
+    base["reason"] = "" if ok else "FIXTURE_EXPECTATION_MISMATCH"
+    base["status"] = "PASS" if ok else "FAIL"
+    return base
 
 
 def parse_args():
@@ -897,6 +919,20 @@ def main():
     exact_keys(check_map, {"branch_outcome", "check_ids", "checks", "descriptor_convention", "schema", "spec_sha256"}, "check_map")
     exact_keys(fixtures, {"fixture_ids", "fixtures", "schema", "spec_sha256"}, "fixtures")
     exact_keys(evidence, {"check_records", "fixture_records", "schema", "subject_lineage_root"}, "evidence")
+    fixture_descriptor_fields = {
+        "deterministic_procedure",
+        "execution_class",
+        "expected_verdict_fields",
+        "fixture_id",
+        "fixture_spec_sha256",
+        "mutation_ids",
+        "prerequisites",
+        "primary_check_ids",
+        "required_gate",
+        "source",
+    }
+    for fixture in fixtures["fixtures"]:
+        exact_keys(fixture, fixture_descriptor_fields, f"fixture descriptor {fixture.get('fixture_id')}")
     if check_map["check_ids"] != manifest["check_ids"] or fixtures["fixture_ids"] != manifest["fixture_ids"]:
         fail("ID_SET", "manifest mismatch")
     if check_map["branch_outcome"] != manifest["branch_outcome"]:
@@ -905,7 +941,7 @@ def main():
         fail("SUBJECT_LINEAGE", "evidence mismatch")
     requirement_sha = manifest["subject_lineage_root"]
     checks = [make_check_row(row, evidence["check_records"], requirement_sha) for row in check_map["checks"]]
-    fixture_rows = [make_fixture_row(row, evidence["fixture_records"]) for row in fixtures["fixtures"]]
+    fixture_rows = [make_fixture_row(row, evidence["fixture_records"], requirement_sha) for row in fixtures["fixtures"]]
     summary = {
         "error": sum(row["status"] == "ERROR" for row in checks),
         "fail": sum(row["status"] == "FAIL" for row in checks),
@@ -946,6 +982,7 @@ def main():
             {"operation": "exclusive_create", "path": str(Path(args.receipt).resolve())},
         ]
     )
+    recorder.mutation_events.extend(recorder.write_events)
     exclusive_write(args.output, output_bytes)
     modules, native = module_ledger()
     receipt = {
@@ -954,6 +991,7 @@ def main():
         "manifest_sha256": args.manifest_sha256,
         "module_ledger": modules,
         "monotonic_duration": time.monotonic() - start,
+        "mutation_event_ledger": recorder.mutation_events,
         "native_ledger": native,
         "network_event_ledger": recorder.network_events,
         "open_event_ledger": recorder.open_events,

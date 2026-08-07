@@ -41,22 +41,21 @@ branch is admitted; unresolved ties and failures cannot become later choices.
 
 ## Integration boundary
 
-Builder B supplies one sealed `rd22.verifier-manifest.v001` and exactly one
-`verifier_source` inventory row. The verifier uses the CLI contract emitted by
-the parent. Custodian C supplies a freshly created empty run directory and is
-the only actor who invokes the full chain. A signature custodian may sign only
-the terminal ledger after R10 succeeds.
+The sealed integration addendum supplies the boundary contract. Builder B must
+supply a canonical, sidecar-pinned `rd22.verifier-manifest.v001` with exactly
+the addendum's eleven fields. The parent validates its five input roots,
+canonical-JSON stdout discipline, three-way exit contract, output and receipt
+paths, and `receipt_authoritative=false` before launch. It launches the declared
+module with the pinned interpreter isolation flags. Exit 1 (`faults_found`) and
+exit 2 (`fail_closed`) remain distinct terminal facts and both stop the chain;
+only exit 0 (`verified`) can enter R10.
 
-After this package was independently built, Builder B's sealed public contract
-became visible in the archive mirror. It emits
-`gravacle.a35.verifier-verdict.v1` on stdout, declares a `python3 -m` launch,
-and emits no §9.4 child receipt. Those public choices do not satisfy this
-parent's isolated direct-child, verifier-manifest, and receipt contract. No A
-code was changed to pretend otherwise: Custodian C must not invoke the chain
-until a separately sealed integration adapter/contract resolves the launch,
-output-schema, and receipt differences. The parent fails closed before R9 if
-the required `rd22.verifier-manifest.v001` is absent.
+Custodian C supplies a freshly created empty run directory and is the only
+actor who invokes the full chain. A signature custodian may sign only the
+terminal ledger after R10 succeeds. The parent fails closed before verifier
+launch if the required verifier manifest, its pin, or any of its contracts is
+absent or malformed.
 
-No structural proof/evidence payload, Builder B verifier/integration adapter,
+No structural proof/evidence payload, Builder B verifier,
 Custodian invocation, or detached signature is silently bundled here. These
 are external custody or run inputs, not producer defaults.
