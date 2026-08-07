@@ -14065,6 +14065,20 @@ Q-591 preregistered: 56 x FAIL(INPUT_INTEGRITY), 10 x NOT_RUN_GATE, fixtures fai
 
 ---
 
+## Q-606 — TASK 6 TRANCHE: THE RELOCATION — ONE OF TEN GROUNDED; ONE LEAD SELF-REFUTED AT THE RIGHT BAR; THE M2 ROWS BLOCKED BY A SPECIFICATION DEFECT (2026-08-07)
+
+**Question.** Where do the ten cheapest envelopes actually ground?
+
+**Answer.** (Dario, `STAGE8_TASK6_GROUNDING_RELOCATION_DARIO_V001.md`, relay 681; every load-bearing fact re-derived.)
+
+- **RELOCATED = 1: `C-B-V009-06`** — grounded by the AUTHORITATIVE `stage_dependencies` at its provenance file bytes [18898,19830): one object populating BOTH DAG arguments; acyclicity COMPUTED (topological order, 11 nodes, single root/sink, no dangling parent). It survives for a stated reason the others don't: the file carries a second encoding, and choosing between encodings is exactly the barred carrier choice — **but a principal act already chose** (the preregistration-encoding precedence decision: "authoritative for graph structure… the encoding the evaluator consumes"). The status-field trap barred in the same stroke (V010-12 demands report bytes, not statuses).
+- **The V009-01 lead SELF-REFUTED:** V011:140-163 is a definition SCHEMA ("For a first-opening object K_open…" — universally quantified), not a graph INSTANCE; `TYPE(g)` needs a concrete `g`. "I read 'complete' where the bar requires 'instantiated' — the exact error Batch 1's refusal exists to prevent. The mathematics is determined; the graph is not." A near-miss disclosed: the literal opposite plaquette word exists only in the superseded V008 artifact AS THE RECORDED DEFECT — importing it would re-bind a colliding symbol across versions.
+- **THE M2 CORPUS FINDING — A SPECIFICATION DEFECT, NOT AN EVIDENCE ABSENCE:** no sealed corpus definition exists for ANY M2 row ("the M2 rows demand a scan and the spec never says what to scan"); the one right-shaped candidate (the 113-member packet manifest) carries two disqualifying flags (nothing binds it to these rows; it would return hits=empty for the wrong reason, the superseded V009 not being a member). **This recurs for every future M2 row until a corpus-definition rule is installed in the spec — a V006 item.**
+
+**The honest tranche arithmetic:** of the map's ten cheapest, 1 buildable as S; the TYPE/graph rows need INSTANTIATED structures no sealed display supplies (M-class instantiation work, not serialization); the M2 rows wait on the spec rule. The C76 tranche as scoped (17 S items) is not achievable; its PURPOSE — proving the pipeline on real evidence — is achievable at n=1. The re-scope goes to the principal.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
