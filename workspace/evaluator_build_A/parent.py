@@ -33,6 +33,16 @@ VERIFIER_SUBSTITUTION_TOKENS = {
     "${RUNTIME_SNAPSHOT_PATH}",
     "${SPEC_PATH}",
 }
+PATH_IDENTITY_SITES = (
+    "R0_ROOTS",
+    "SUBJECT_EVIDENCE_SAFE_RESOLVE",
+    "RUNTIME_INTERPRETER",
+    "VERIFIER_RUN_OUTPUTS",
+    "POST_PRODUCTION_LEDGER",
+    "RECEIPT_WRITE_MUTATION",
+    "MODULE_NATIVE_LOADS",
+    "OPEN_EVENTS",
+)
 
 
 class ParentFailure(Exception):
@@ -127,11 +137,72 @@ def content_root(entries, label):
     return sha256_bytes(payload)
 
 
+def lexical_absolute(path):
+    """Return an absolute normalized spelling without resolving aliases."""
+    return Path(os.path.abspath(os.fspath(path)))
+
+
+def real_path(path):
+    """Return the filesystem identity used for every path comparison."""
+    return Path(os.path.realpath(os.fspath(lexical_absolute(path))))
+
+
+def path_within(path, root):
+    target = real_path(path)
+    base = real_path(root)
+    try:
+        target.relative_to(base)
+        return True
+    except ValueError:
+        return False
+
+
+def add_allowlist_entry(allowlist, declared_path, expected_sha256, source):
+    if not isinstance(expected_sha256, str) or re.fullmatch(r"[0-9a-f]{64}", expected_sha256) is None:
+        fail("ALLOWLIST_DIGEST", f"{source}: {expected_sha256!r}")
+    declared = lexical_absolute(declared_path)
+    canonical = real_path(declared)
+    key = str(canonical)
+    row = {
+        "declared_path": str(declared),
+        "realpath": key,
+        "sha256": expected_sha256,
+        "source": source,
+    }
+    prior = allowlist.get(key)
+    if prior is not None and prior["sha256"] != expected_sha256:
+        fail("ALLOWLIST_COLLISION", {"prior": prior, "new": row})
+    if prior is None:
+        allowlist[key] = row
+    return canonical
+
+
+def alias_observation(child, surface, declared_path, observed_path, digest):
+    declared = lexical_absolute(declared_path)
+    observed = lexical_absolute(observed_path)
+    declared_real = real_path(declared)
+    observed_real = real_path(observed)
+    if declared_real != observed_real:
+        fail("PATH_IDENTITY", {"declared": str(declared), "observed": str(observed)})
+    if str(declared) == str(observed):
+        return None
+    return {
+        "child": child,
+        "declared_path": str(declared),
+        "observed_path": str(observed),
+        "realpath": str(declared_real),
+        "sha256": digest,
+        "surface": surface,
+    }
+
+
 def safe_resolve(root, relative):
     if not isinstance(relative, str) or not relative or Path(relative).is_absolute():
         fail("RELATIVE_PATH", repr(relative))
-    base = Path(root).resolve()
-    target = (base / relative).resolve()
+    declared_base = lexical_absolute(root)
+    declared_target = lexical_absolute(declared_base / relative)
+    base = real_path(declared_base)
+    target = real_path(declared_target)
     try:
         target.relative_to(base)
     except ValueError:
@@ -206,6 +277,7 @@ def verify_package_inventory(package_root, manifest):
         fail("PACKAGE_INVENTORY", "not list")
     seen = set()
     values = {}
+    allowlist = {}
     for row in rows:
         exact_keys(row, {"byte_length", "relative_path", "sha256"}, "package row")
         relative = row["relative_path"]
@@ -217,6 +289,7 @@ def verify_package_inventory(package_root, manifest):
         if len(data) != row["byte_length"]:
             fail("BYTE_LENGTH", relative)
         values[relative] = (target, data)
+        add_allowlist_entry(allowlist, lexical_absolute(package_root) / relative, row["sha256"], f"package:{relative}")
     required = {
         "parent.py",
         "producer.py",
@@ -231,7 +304,7 @@ def verify_package_inventory(package_root, manifest):
     }
     if not required.issubset(seen):
         fail("PACKAGE_REQUIRED_FILES", sorted(required-seen))
-    return values
+    return values, allowlist
 
 
 def validate_evidence_manifest(data, package):
@@ -282,7 +355,7 @@ def verify_external_inputs(program_root, authorization_path, manifest):
             fail("EXTERNAL_KIND_DUPLICATE", kind)
         seen.add(kind)
         if kind == "authorization":
-            target = Path(authorization_path).resolve()
+            target = real_path(authorization_path)
         else:
             target = safe_resolve(program_root, row["relative_path"])
         data = verify_bytes(target, row["sha256"])
@@ -336,13 +409,29 @@ def validate_runtime(snapshot_data, gate_data):
         fail("RUNTIME_OPTIMIZATION", snapshot["allowed_optimization_levels"])
     if snapshot["launcher_invocation_mode"] != "direct-script-no-c-no-m":
         fail("RUNTIME_LAUNCH_MODE", snapshot["launcher_invocation_mode"])
-    python_path = Path(snapshot["python_executable"]).resolve()
+    python_path = real_path(snapshot["python_executable"])
     verify_bytes(python_path, snapshot["python_executable_sha256"])
-    if Path(sys.executable).resolve() != python_path:
+    if real_path(sys.executable) != python_path:
         fail("RUNTIME_INTERPRETER", f"{sys.executable} != {python_path}")
     if "fresh" not in gate_data.decode("utf-8").casefold():
         fail("RUNTIME_GATE_CONTENT", "fresh missing")
     return snapshot
+
+
+def runtime_allowlist(runtime):
+    rows = runtime["python_runtime_files"]
+    if not isinstance(rows, dict):
+        fail("RUNTIME_FILE_INVENTORY", "not object")
+    allowlist = {}
+    declared_root = lexical_absolute(runtime["python_runtime_root"])
+    for relative, digest in rows.items():
+        if not isinstance(relative, str) or not relative or Path(relative).is_absolute():
+            fail("RUNTIME_FILE_PATH", repr(relative))
+        target = safe_resolve(declared_root, relative)
+        add_allowlist_entry(allowlist, declared_root / relative, digest, f"runtime:{relative}")
+        if str(target) not in allowlist:
+            fail("RUNTIME_ALLOWLIST_IDENTITY", relative)
+    return allowlist
 
 
 def trust_snapshot(runtime):
@@ -451,53 +540,110 @@ def output(path):
     return value, data
 
 
-def classify_receipt(value, expected_manifest_sha, expected_target_sha, optimize, output_sha, output_path, receipt_path, runtime, extra_module_root=None, stdout_output=False):
+def classify_receipt(
+    value,
+    expected_manifest_sha,
+    expected_target_sha,
+    optimize,
+    output_sha,
+    output_path,
+    receipt_path,
+    runtime,
+    runtime_files,
+    package_files,
+    child_manifest_path,
+    child,
+    extra_files=None,
+    stdout_output=False,
+):
     if value["manifest_sha256"] != expected_manifest_sha or value["target_sha256"] != expected_target_sha:
         fail("RECEIPT_PIN", optimize)
     if value["optimize"] != optimize or value["output_sha256"] != output_sha:
         fail("RECEIPT_OUTPUT", optimize)
     if value["process_event_ledger"] or value["network_event_ledger"] or value["environment_event_ledger"]:
         fail("RECEIPT_FORBIDDEN_EVENT", optimize)
-    writes = value["write_event_ledger"]
+    allowed = {}
+    for source in (runtime_files, package_files, extra_files or {}):
+        for entry in source.values():
+            add_allowlist_entry(allowed, entry["declared_path"], entry["sha256"], entry["source"])
+    add_allowlist_entry(allowed, child_manifest_path, expected_manifest_sha, "child-manifest")
+    add_allowlist_entry(allowed, output_path, output_sha, "child-output")
+    receipt_sha = sha256_bytes(read_bytes(real_path(receipt_path)))
+    add_allowlist_entry(allowed, receipt_path, receipt_sha, "child-receipt")
+    alias_rows = []
+
+    def record_alias(surface, entry, observed, digest):
+        row = alias_observation(child, surface, entry["declared_path"], observed, digest)
+        if row is not None:
+            alias_rows.append(row)
+
+    def verify_observed_file(observed, claimed_digest, surface):
+        target = real_path(observed)
+        key = str(target)
+        entry = allowed.get(key)
+        actual = sha256_bytes(read_bytes(target))
+        if claimed_digest is not None and claimed_digest != actual:
+            fail(f"{surface}_REHASH", {"path": str(observed), "claimed": claimed_digest, "actual": actual})
+        if entry is None:
+            system_roots = (Path("/System/Library"), Path("/usr/lib"))
+            if not any(path_within(target, root) for root in system_roots):
+                fail(f"{surface}_UNSEALED", str(observed))
+            return actual
+        if entry["sha256"] != actual:
+            fail(f"{surface}_ALLOWLIST_DIGEST", {"entry": entry, "actual": actual})
+        record_alias(surface.lower(), entry, observed, actual)
+        return actual
+
     expected_writes = []
     if not stdout_output:
-        expected_writes.append({"operation": "exclusive_create", "path": str(Path(output_path).resolve())})
-    expected_writes.append({"operation": "exclusive_create", "path": str(Path(receipt_path).resolve())})
-    if writes != expected_writes:
-        fail("RECEIPT_WRITE_SET", {"expected": expected_writes, "actual": writes})
-    if value["mutation_event_ledger"] != expected_writes:
-        fail("RECEIPT_MUTATION_SET", {"expected": expected_writes, "actual": value["mutation_event_ledger"]})
-    runtime_root = Path(runtime["python_runtime_root"]).resolve()
-    system_prefixes = [Path("/System/Library"), Path("/usr/lib")]
+        expected_writes.append((output_path, output_sha, "output"))
+    expected_writes.append((receipt_path, receipt_sha, "receipt"))
+
+    def verify_write_rows(rows, label):
+        if not isinstance(rows, list) or len(rows) != len(expected_writes):
+            fail(label, {"expected_count": len(expected_writes), "actual": rows})
+        for row, (declared, digest, name) in zip(rows, expected_writes):
+            exact_keys(row, {"operation", "path"}, f"{label} row")
+            if row["operation"] != "exclusive_create" or not isinstance(row["path"], str):
+                fail(label, row)
+            if real_path(row["path"]) != real_path(declared):
+                fail(label, {"expected": str(declared), "actual": row["path"]})
+            entry = allowed[str(real_path(declared))]
+            if sha256_bytes(read_bytes(real_path(row["path"]))) != digest:
+                fail(f"{label}_DIGEST", name)
+            record_alias(label.lower(), entry, row["path"], digest)
+
+    verify_write_rows(value["write_event_ledger"], "RECEIPT_WRITE_SET")
+    verify_write_rows(value["mutation_event_ledger"], "RECEIPT_MUTATION_SET")
     for row in value["module_ledger"]:
         exact_keys(row, {"kind", "module", "path", "sha256"}, "module row")
         path = row["path"]
         if path is None:
-            if row["kind"] != "builtin_or_frozen":
+            if row["kind"] != "builtin_or_frozen" or row["sha256"] is not None:
                 fail("MODULE_ORIGIN", row)
             continue
-        target = Path(path).resolve()
+        if not isinstance(path, str) or not isinstance(row["sha256"], str):
+            fail("MODULE_ROW", row)
+        target = real_path(path)
         if target.suffix == ".pyc":
             fail("BYTECODE_MODULE", path)
-        if row["sha256"] is None or sha256_bytes(read_bytes(target)) != row["sha256"]:
-            fail("MODULE_REHASH", path)
-        permitted = False
-        try:
-            target.relative_to(runtime_root)
-            permitted = True
-        except ValueError:
-            permitted = any(str(target).startswith(str(prefix)) for prefix in system_prefixes)
-        if not permitted and extra_module_root is not None:
-            try:
-                target.relative_to(Path(extra_module_root).resolve())
-                permitted = True
-            except ValueError:
-                permitted = False
-        if not permitted:
-            fail("MODULE_UNSEALED", path)
+        verify_observed_file(path, row["sha256"], "MODULE")
     for row in value["native_ledger"]:
-        if row["sha256"] is None:
+        exact_keys(row, {"kind", "module", "path", "sha256"}, "native row")
+        if row["kind"] != "native" or not isinstance(row["path"], str) or not isinstance(row["sha256"], str):
             fail("NATIVE_UNHASHED", row)
+        verify_observed_file(row["path"], row["sha256"], "NATIVE")
+    for row in value["open_event_ledger"]:
+        exact_keys(row, {"args", "event"}, "open row")
+        if row["event"] != "open" or not isinstance(row["args"], list) or not row["args"]:
+            fail("OPEN_EVENT_ROW", row)
+        opened = row["args"][0]
+        if isinstance(opened, str):
+            verify_observed_file(opened, None, "OPEN")
+        elif not isinstance(opened, int) or isinstance(opened, bool):
+            fail("OPEN_EVENT_PATH", row)
+    unique = {canonical_bytes(row): row for row in alias_rows}
+    return [unique[key] for key in sorted(unique)]
 
 
 def mask_process_fields(value):
@@ -558,9 +704,11 @@ def parse_sidecar(path):
 
 
 def validate_verifier_manifest(path, expected, run_root, expected_output, expected_receipt):
-    manifest_base = Path(path).resolve().parent
-    run_base = Path(run_root).resolve()
-    sidecar = Path(str(path) + ".seal.sha256")
+    manifest_path = lexical_absolute(path)
+    manifest_base_declared = manifest_path.parent
+    manifest_base = real_path(manifest_base_declared)
+    run_base = real_path(run_root)
+    sidecar = Path(str(manifest_path) + ".seal.sha256")
     if not sidecar.is_file():
         fail("VERIFIER_SIDECAR", str(sidecar))
     stated = parse_sidecar(sidecar)
@@ -578,6 +726,21 @@ def validate_verifier_manifest(path, expected, run_root, expected_output, expect
         fail("VERIFIER_MANIFEST", value.get("schema"))
     if not isinstance(value["verifier_root_sha256"], str) or re.fullmatch(r"[0-9a-f]{64}", value["verifier_root_sha256"]) is None:
         fail("VERIFIER_ROOT", value["verifier_root_sha256"])
+    verifier_source_declared = manifest_base_declared / "verifier"
+    verifier_source = real_path(verifier_source_declared)
+    if not verifier_source.is_dir():
+        fail("VERIFIER_SOURCE_ROOT", str(verifier_source_declared))
+    verifier_files = {}
+    source_digests = []
+    for source_path in sorted(verifier_source.iterdir(), key=lambda item: item.name):
+        if not source_path.is_file() or source_path.suffix != ".py":
+            continue
+        digest = sha256_bytes(read_bytes(source_path))
+        source_digests.append(digest)
+        add_allowlist_entry(verifier_files, verifier_source_declared / source_path.name, digest, f"verifier:{source_path.name}")
+    computed_verifier_root = sha256_bytes("".join(source_digests).encode("utf-8"))
+    if not source_digests or computed_verifier_root != value["verifier_root_sha256"]:
+        fail("VERIFIER_ROOT_DIGEST", {"declared": value["verifier_root_sha256"], "computed": computed_verifier_root})
     if not isinstance(value["entry_point"], str) or re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)*", value["entry_point"]) is None:
         fail("VERIFIER_ENTRY_POINT", value["entry_point"])
     if not isinstance(value["argv"], list) or any(not isinstance(item, str) for item in value["argv"]):
@@ -605,9 +768,9 @@ def validate_verifier_manifest(path, expected, run_root, expected_output, expect
         fail("VERIFIER_ABSOLUTE_RUN_PATH", {"output": value["output_path"], "receipt": value["receipt_path"]})
     declared_output = safe_resolve(run_base, value["output_path"])
     declared_receipt = safe_resolve(run_base, value["receipt_path"])
-    if declared_output != Path(expected_output).resolve() or declared_receipt != Path(expected_receipt).resolve():
+    if declared_output != real_path(expected_output) or declared_receipt != real_path(expected_receipt):
         fail("VERIFIER_OUTPUT_CONTRACT", {"output": value["output_path"], "receipt": value["receipt_path"]})
-    return value, stated, manifest_base
+    return value, stated, manifest_base, verifier_files
 
 
 def bind_verifier_launch(manifest, substitutions, ledger_path, ledger_sha256):
@@ -615,7 +778,7 @@ def bind_verifier_launch(manifest, substitutions, ledger_path, ledger_sha256):
         fail("VERIFIER_LEDGER_BINDING", ledger_sha256)
     if set(substitutions) != VERIFIER_SUBSTITUTION_TOKENS:
         fail("VERIFIER_SUBSTITUTION_SET", sorted(substitutions))
-    if substitutions["${LEDGER_PATH}"] != str(Path(ledger_path).resolve()) or substitutions["${LEDGER_SHA256}"] != ledger_sha256:
+    if real_path(substitutions["${LEDGER_PATH}"]) != real_path(ledger_path) or substitutions["${LEDGER_SHA256}"] != ledger_sha256:
         fail("VERIFIER_LEDGER_SUBSTITUTION", substitutions)
     bound = strict_json(canonical_bytes(manifest), "verifier manifest binding copy")
     bound["input_roots"]["ledger_sha256"] = ledger_sha256
@@ -649,8 +812,8 @@ def post_production_verifier_validation(manifest, ledger_path, ledger_sha256):
     declared_path = Path(argv[ledger_index + 1])
     if not declared_path.is_absolute():
         fail("VERIFIER_LEDGER_PATH_NOT_ABSOLUTE", argv[ledger_index + 1])
-    declared_path = declared_path.resolve()
-    expected_path = Path(ledger_path).resolve()
+    declared_path = real_path(declared_path)
+    expected_path = real_path(ledger_path)
     if declared_path != expected_path or argv[digest_index + 1] != ledger_sha256:
         fail("VERIFIER_LEDGER_ARGV_BINDING", {"path": str(declared_path), "sha256": argv[digest_index + 1]})
     if not declared_path.is_file() or sha256_bytes(read_bytes(declared_path)) != ledger_sha256:
@@ -777,10 +940,13 @@ def main():
     if sys.flags.isolated != 1 or sys.flags.no_site != 1 or sys.flags.dont_write_bytecode != 1 or sys.flags.optimize != 0:
         fail("R0_FLAGS", repr(sys.flags))
     args = parse_args()
-    package_root = Path(args.package_root).resolve()
-    program_root = Path(args.program_root).resolve()
-    run_root = Path(args.run_root).resolve()
-    if not package_root.is_dir() or not program_root.is_dir() or not run_root.is_dir() or run_root.is_symlink():
+    package_root_declared = lexical_absolute(args.package_root)
+    program_root_declared = lexical_absolute(args.program_root)
+    run_root_declared = lexical_absolute(args.run_root)
+    package_root = real_path(package_root_declared)
+    program_root = real_path(program_root_declared)
+    run_root = real_path(run_root_declared)
+    if not package_root.is_dir() or not program_root.is_dir() or not run_root.is_dir() or run_root_declared.is_symlink():
         fail("R0_ROOT", "missing or symlink root")
     normal_manifest, normal_manifest_data = parse_manifest(args.normal_manifest, args.normal_manifest_sha256, "normal")
     optimized_manifest, optimized_manifest_data = parse_manifest(args.optimized_manifest, args.optimized_manifest_sha256, "optimized")
@@ -793,19 +959,20 @@ def main():
         fail("R1_SPEC", normal_manifest["specification_sha256"])
     if len(normal_manifest["check_ids"]) != EXPECTED_IDS or len(normal_manifest["fixture_ids"]) != EXPECTED_FIXTURES:
         fail("R1_COUNTS", "IDs")
-    package = verify_package_inventory(package_root, normal_manifest)
+    package, package_files = verify_package_inventory(package_root_declared, normal_manifest)
     evidence_declared_root = validate_evidence_manifest(package["inputs/structural_evidence_manifest.json"][1], package)
-    parent_data = read_bytes(Path(__file__).resolve())
+    parent_data = read_bytes(real_path(__file__))
     if sha256_bytes(parent_data) != normal_manifest_file_hash(normal_manifest, "parent.py"):
-        fail("R0_SELF_HASH", str(Path(__file__).resolve()))
+        fail("R0_SELF_HASH", str(real_path(__file__)))
     no_python_check_nodes(parent_data, "parent.py")
     no_python_check_nodes(package["producer.py"][1], "producer.py")
     verify_bytes(args.authorization, AUTHORIZATION_SHA256)
-    verify_external_inputs(program_root, args.authorization, normal_manifest)
-    runtime_snapshot_path = external_path(program_root, normal_manifest, "runtime_snapshot")
-    runtime_gate_path = external_path(program_root, normal_manifest, "runtime_gate")
-    specification_path = external_path(program_root, normal_manifest, "specification")
+    verify_external_inputs(program_root_declared, args.authorization, normal_manifest)
+    runtime_snapshot_path = external_path(program_root_declared, normal_manifest, "runtime_snapshot")
+    runtime_gate_path = external_path(program_root_declared, normal_manifest, "runtime_gate")
+    specification_path = external_path(program_root_declared, normal_manifest, "specification")
     runtime = validate_runtime(read_bytes(runtime_snapshot_path), read_bytes(runtime_gate_path))
+    runtime_files = runtime_allowlist(runtime)
     runtime_subject = normal_manifest["runtime_subject"]
     exact_keys(runtime_subject, {"gate_sha256", "snapshot_sha256", "trust_root"}, "runtime subject")
     if runtime_subject["snapshot_sha256"] != RUNTIME_SNAPSHOT_SHA256 or runtime_subject["gate_sha256"] != RUNTIME_GATE_SHA256 or runtime_subject["trust_root"] != runtime["native_system_trust_root"]:
@@ -820,15 +987,15 @@ def main():
     pycache_verifier = package_root / "pycache" / "verifier"
     for directory in (pycache_normal, pycache_optimized, pycache_verifier):
         ensure_empty_directory(directory)
-    normal_output = run_root / "normal.output.json"
-    normal_receipt = run_root / "normal.receipt.json"
-    optimized_output = run_root / "optimized.output.json"
-    optimized_receipt = run_root / "optimized.receipt.json"
-    verifier_out = run_root / "verifier.output.json"
-    verifier_receipt_path = run_root / "verifier.receipt.json"
-    producer_ledger_path = run_root / "producer.ledger.json"
-    bound_verifier_manifest_path = run_root / "verifier.manifest.bound.json"
-    terminal_path = run_root / "terminal.ledger.json"
+    normal_output = run_root_declared / "normal.output.json"
+    normal_receipt = run_root_declared / "normal.receipt.json"
+    optimized_output = run_root_declared / "optimized.output.json"
+    optimized_receipt = run_root_declared / "optimized.receipt.json"
+    verifier_out = run_root_declared / "verifier.output.json"
+    verifier_receipt_path = run_root_declared / "verifier.receipt.json"
+    producer_ledger_path = run_root_declared / "producer.ledger.json"
+    bound_verifier_manifest_path = run_root_declared / "verifier.manifest.bound.json"
+    terminal_path = run_root_declared / "terminal.ledger.json"
     ensure_absent([normal_output, normal_receipt, optimized_output, optimized_receipt, verifier_out, verifier_receipt_path, producer_ledger_path, bound_verifier_manifest_path, terminal_path])
     verifier_expected_roots = {
         "evidence_root_sha256": evidence_declared_root,
@@ -836,10 +1003,10 @@ def main():
         "runtime_snapshot_sha256": RUNTIME_SNAPSHOT_SHA256,
         "spec_sha256": SPEC_SHA256,
     }
-    verifier_manifest, verifier_manifest_sha, verifier_base = validate_verifier_manifest(
+    verifier_manifest, verifier_manifest_sha, verifier_base, verifier_files = validate_verifier_manifest(
         args.verifier_manifest,
         verifier_expected_roots,
-        run_root,
+        run_root_declared,
         verifier_out,
         verifier_receipt_path,
     )
@@ -851,12 +1018,12 @@ def main():
         "--evidence", str(evidence_path), "--evidence-sha256", normal_manifest["evidence_manifest_sha256"],
     ]
     t0 = trust_snapshot(runtime)
-    normal_command = [python, "-I", "-S", "-B", str(producer_path), "--manifest", str(Path(args.normal_manifest).resolve()), "--manifest-sha256", args.normal_manifest_sha256] + common + ["--output", str(normal_output), "--receipt", str(normal_receipt)]
+    normal_command = [python, "-I", "-S", "-B", str(producer_path), "--manifest", str(real_path(args.normal_manifest)), "--manifest-sha256", args.normal_manifest_sha256] + common + ["--output", str(normal_output), "--receipt", str(normal_receipt)]
     run_child(normal_command, "normal")
     t1 = trust_snapshot(runtime)
     if t1 != t0:
         fail("R4_TRUST", "T1")
-    optimized_command = [python, "-I", "-S", "-B", "-O", str(producer_path), "--manifest", str(Path(args.optimized_manifest).resolve()), "--manifest-sha256", args.optimized_manifest_sha256] + common + ["--output", str(optimized_output), "--receipt", str(optimized_receipt)]
+    optimized_command = [python, "-I", "-S", "-B", "-O", str(producer_path), "--manifest", str(real_path(args.optimized_manifest)), "--manifest-sha256", args.optimized_manifest_sha256] + common + ["--output", str(optimized_output), "--receipt", str(optimized_receipt)]
     run_child(optimized_command, "optimized")
     t2 = trust_snapshot(runtime)
     if t2 != t1:
@@ -865,8 +1032,16 @@ def main():
     optimized_value, optimized_data = output(optimized_output)
     normal_receipt_value, normal_receipt_data = receipt(normal_receipt)
     optimized_receipt_value, optimized_receipt_data = receipt(optimized_receipt)
-    classify_receipt(normal_receipt_value, args.normal_manifest_sha256, producer_sha, 0, sha256_bytes(normal_data), normal_output, normal_receipt, runtime)
-    classify_receipt(optimized_receipt_value, args.optimized_manifest_sha256, producer_sha, 1, sha256_bytes(optimized_data), optimized_output, optimized_receipt, runtime)
+    normal_aliases = classify_receipt(
+        normal_receipt_value, args.normal_manifest_sha256, producer_sha, 0,
+        sha256_bytes(normal_data), normal_output, normal_receipt, runtime,
+        runtime_files, package_files, args.normal_manifest, "normal",
+    )
+    optimized_aliases = classify_receipt(
+        optimized_receipt_value, args.optimized_manifest_sha256, producer_sha, 1,
+        sha256_bytes(optimized_data), optimized_output, optimized_receipt, runtime,
+        runtime_files, package_files, args.optimized_manifest, "optimized",
+    )
     comparison = compare_producers(normal_value, optimized_value)
     t3 = trust_snapshot(runtime)
     producer_children = [
@@ -875,6 +1050,7 @@ def main():
     ]
     authored_ledger_root = verifier_manifest["input_roots"]["ledger_sha256"]
     producer_scope = dict(normal_value["scope"])
+    producer_scope["path_alias_observations"] = normal_aliases + optimized_aliases
     producer_scope["verifier_ledger_binding"] = {
         "authored_ledger_sha256": authored_ledger_root,
         "binding_phase": "POST_PRODUCTION_HASH_THEN_BIND",
@@ -893,12 +1069,12 @@ def main():
     exclusive_write(producer_ledger_path, producer_ledger_data)
     produced_ledger_sha = sha256_bytes(producer_ledger_data)
     substitutions = {
-        "${EVIDENCE_DIR}": str((package_root / "inputs" / "evidence").resolve()),
-        "${LEDGER_PATH}": str(producer_ledger_path.resolve()),
+        "${EVIDENCE_DIR}": str(real_path(package_root_declared / "inputs" / "evidence")),
+        "${LEDGER_PATH}": str(real_path(producer_ledger_path)),
         "${LEDGER_SHA256}": produced_ledger_sha,
-        "${RUNTIME_GATE_PATH}": str(Path(runtime_gate_path).resolve()),
-        "${RUNTIME_SNAPSHOT_PATH}": str(Path(runtime_snapshot_path).resolve()),
-        "${SPEC_PATH}": str(Path(specification_path).resolve()),
+        "${RUNTIME_GATE_PATH}": str(real_path(runtime_gate_path)),
+        "${RUNTIME_SNAPSHOT_PATH}": str(real_path(runtime_snapshot_path)),
+        "${SPEC_PATH}": str(real_path(specification_path)),
     }
     bound_verifier_manifest = bind_verifier_launch(verifier_manifest, substitutions, producer_ledger_path, produced_ledger_sha)
     post_production_verifier_validation(bound_verifier_manifest, producer_ledger_path, produced_ledger_sha)
@@ -922,10 +1098,21 @@ def main():
     if verifier_process.returncode == verifier_manifest["exit_contract"]["faults_found"]:
         fail("R9_VERIFIER_FAULTS_FOUND_EXIT_1", verifier_value["findings"])
     verifier_receipt_value, verifier_receipt_data = receipt(verifier_receipt_path)
-    classify_receipt(verifier_receipt_value, bound_verifier_manifest_sha, verifier_root, bound_verifier_manifest["optimize"], sha256_bytes(verifier_data), verifier_out, verifier_receipt_path, runtime, verifier_base, True)
+    add_allowlist_entry(verifier_files, specification_path, SPEC_SHA256, "verifier-input:specification")
+    add_allowlist_entry(verifier_files, runtime_snapshot_path, RUNTIME_SNAPSHOT_SHA256, "verifier-input:runtime-snapshot")
+    add_allowlist_entry(verifier_files, runtime_gate_path, RUNTIME_GATE_SHA256, "verifier-input:runtime-gate")
+    add_allowlist_entry(verifier_files, producer_ledger_path, produced_ledger_sha, "verifier-input:producer-ledger")
+    verifier_aliases = classify_receipt(
+        verifier_receipt_value, bound_verifier_manifest_sha, verifier_root,
+        bound_verifier_manifest["optimize"], sha256_bytes(verifier_data),
+        verifier_out, verifier_receipt_path, runtime, runtime_files,
+        package_files, bound_verifier_manifest_path, "verifier", verifier_files,
+        True,
+    )
     verifier_child = child_record(bound_verifier_manifest_sha, verifier_root, bound_verifier_manifest["optimize"], verifier_data, verifier_receipt_data, verifier_receipt_value, t3, t4)
     children = producer_children + [verifier_child]
     terminal_scope = dict(normal_value["scope"])
+    terminal_scope["path_alias_observations"] = normal_aliases + optimized_aliases + verifier_aliases
     terminal_scope["verifier_ledger_binding"] = {
         "authored_ledger_sha256": authored_ledger_root,
         "authored_manifest_sha256": verifier_manifest_sha,

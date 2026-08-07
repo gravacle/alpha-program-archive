@@ -402,6 +402,18 @@ def main():
         stop("AUTHORIZATION_HASH_PIN", "missing")
     if '"evidence_root_sha256": evidence_declared_root' not in parent_text:
         stop("EVIDENCE_ROOT_BINDING", "parent does not bind verifier expectation to declared_root")
+    path_identity_receivers = {
+        "def real_path(path):",
+        "def add_allowlist_entry(",
+        "def alias_observation(",
+        '"MODULE_NATIVE_LOADS"',
+        '"OPEN_EVENTS"',
+        'producer_scope["path_alias_observations"]',
+        'terminal_scope["path_alias_observations"]',
+    }
+    missing_path_receivers = sorted(item for item in path_identity_receivers if item not in parent_text)
+    if missing_path_receivers or ".resolve()" in parent_text:
+        stop("PATH_IDENTITY_RECEIVERS", {"missing": missing_path_receivers, "legacy_resolve_calls": parent_text.count(".resolve()")})
     for fact in ("R9_VERIFIER_FAULTS_FOUND_EXIT_1", "R9_VERIFIER_FAIL_CLOSED_EXIT_2"):
         if fact not in parent_text:
             stop("VERIFIER_EXIT_FACT", fact)
