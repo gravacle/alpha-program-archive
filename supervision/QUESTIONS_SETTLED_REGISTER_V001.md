@@ -14041,6 +14041,18 @@ Q-591 preregistered: 56 x FAIL(INPUT_INTEGRITY), 10 x NOT_RUN_GATE, fixtures fai
 
 ---
 
+## Q-604 — TASK 6 BUILD: RUN 022 FORMALLY CERTIFIED — EXACT FULFILLMENT RE-DERIVED; TWO DEFECTS SELF-FILED FOR THE TRANCHE CYCLE; THE BUILD PHASE CLOSES HONEST (2026-08-07)
+
+**Question.** Is run 022 certified against the preregistration?
+
+**Answer.** CERTIFIED, every load-bearing number re-derived rather than read (Dario, `STAGE8_TASK6_RUN022_CERTIFICATION_DARIO_V001.md`, relay 679; registrar mirrored). 56/56 structural FAILs carry the predicted INPUT_INTEGRITY reason head with no other reason present; 10 gated NOT_RUN_GATE; fixtures 3/3; zero PASS, zero ERROR; the A/B agreement RE-DERIVED (66 rows, 0 disagreements — and the children rightly not byte-identical: the mask fields differ exactly as the modes require); the verifier's 59 findings one-to-one onto the 59 failing rows; `procedure_started` false on all 72 rows, making the firewall's `executed: false` ACCURATE rather than conservative; no terminal ledger — "a terminal ledger here would have been exactly the fabrication Q-601 barred."
+
+**Two defects filed by the certifier against its own build, neither touching this certification:** (1) fixture findings identify rows POSITIONALLY — a row-order change would silently repoint them; identity must be by ID; (2) the replay ledgers carry only the rows that didn't run — the 674 absent-vs-empty principle applied "one level too shallow: to whether the field exists, not to whether every row reaches it." Both queued into the tranche cycle. The custody line held: the builder compared records and filed what its output revealed, grading nothing of its own.
+
+**The build phase closes on the certifier's sentence: "an apparatus whose FAIL was not avoidable by construction is one whose PASS would mean something later."** THE S TRANCHE OPENS (C76): seventeen S-class envelopes against a machine proven unable to lie about what it is given.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
