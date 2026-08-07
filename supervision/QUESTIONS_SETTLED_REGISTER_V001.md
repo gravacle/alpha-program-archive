@@ -13726,6 +13726,23 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-581 — TASK 6 SUBGATE: THE ASSEMBLY STANDS AT V005 — THE LINE-LEVEL DECOMPOSITION EXACT, AND THE AMENDMENT CAUGHT AN ERROR THE OLD RULE HID (2026-08-07)
+
+**Question.** Does the assembly's certificate satisfy C-V5a?
+
+**Answer.** YES (Dario, `STAGE8_TASK6_LP_QSPEC_ASSEMBLY_DARIO_V005.md`, SHA-256 `76589e94bb4af318880c61c3d677dc2518add8480100a7afaf675e4dd3a394a8`, relay 643; pin check passed; registrar mirrored, operative scope re-verified independently — zero hunks reach lines 277-598).
+
+- **The decomposition, sums exact**, including H13's five-way split (34+30+27+19+30 = 140 across five section boundaries); `MULTIPLY_ASSIGNED_SPANS = 0` now a DISPLAYED count.
+- **C-V5a vindicated by its first use:** the decomposition proved **H20 was never shared** — both its inserted lines are the §1.2 renumber; the true figure was SIX genuinely shared hunks, not seven. V004 over-reported in the direction of admitting MORE sharing than existed. The lane's sentence for the record: "A rule that forces you to point at the bytes catches what a rule that lets you name rows does not."
+- **The off-by-one mechanism owned:** `split("\n")` counts a phantom empty element past a trailing newline; V004's equation balanced because the error cancelled on both sides — "which is exactly why it 'verified'. **A reconciliation checkable only against itself is not a check.**" Corrected: 759 - 26 + 244 = 977, with V004's length measured independently.
+- The new certificate is C-V5a compliant BY CONSTRUCTION (20 hunks, each carrying one row); the historical V003->V004 certificate left as historical and said so; **the operative assembly is byte-identical across V003, V004, and V005** — 18/18 TYPE-U cells and the FREEZE block confirmed identical, by scope, three times running.
+
+**State.** The assembly chain is done pending one bounded check (645, Codex 2, after 644). The certificate discipline this chain forced into existence — construction-makes-it-true, line-level attribution, self-independent reconciliation — is now the standard the evaluator build will inherit.
+
+**Custody.** Built by Dario under C-V5a; bounded check by Codex 2 queued. Registered by the reviewer from the artifact with independent scope verification.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
