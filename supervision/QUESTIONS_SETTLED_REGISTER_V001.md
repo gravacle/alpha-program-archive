@@ -13513,6 +13513,22 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-567 — TASK 6 SUBGATE: THE RE-RENDER CHECK — 5 OF 8 CONFIRMED, ONE ESCAPE HATCH FOUND, THE SWEEP NOT SOUND; SPEC NEEDS V003 SCOPED TO THE CLASS (2026-08-06)
+
+**Question.** Are the eight re-rendered criteria sound, and was the 66/66 opcode-reducibility sweep trustworthy?
+
+**Answer.** 5/8 and NO (Dario, `STAGE8_TASK6_SPEC_V002_RERENDER_CHECK_DARIO_V001.md`, SHA-256 `da6575b0f366ec5af6aef008dd48c21ce028290fd7019a55b615afbbab67d772`, relay 630). SPEC_V002 = NEEDS_V003; BUILD_READY = no.
+
+- **The escape hatch (SP1-07, defective):** the re-render introduced a `{DERIVED_IN_SCOPE, CARRIED_OUT_OF_SCOPE}` coverage manifest THE SEALED BLOCKER NEVER GRANTS — the blocker says "derive connected gluing, overlap, and ordering" with no carve-out. The scope identifiers occur at that row and nowhere else, bound to no authority, and SCHEMA validates fields not values — so **a manifest marking every ID out-of-scope passes the row with the derivation replayed for ZERO IDs.** The intra-set asymmetry is the tell: SP2-05 in the same pass binds completeness to the proof index and leaves no excusable subset. Also SP2-07: a confirmed load-bearing weakened-direction drift; SP2-06: a gap at reduced severity (reality-factor carrier unnamed; two of three alleged grounds refuted). The other five (SP2-03, SP2-05, V010-03, MR-04, SP1-06) are model repairs — SP2-05 verified by the reviewer personally — and all four newly-found V001 rows were genuinely defective.
+- **The sweep is falsified:** two byte-identical-to-V001 rows marked CLEAN are confirmed defective on attack — `C-B-V010-06` (criterion turns on "displayed premises", a term occurring once in V002 and defined nowhere; says "compare uniqueness proof" with NO KERNEL and the proof not even a pinned input — while V002's own rule says a proof contributes a Boolean ONLY through KERNEL.success; the drift is internal: the requirement line says DERIVE, the criterion asks only IS) and `C-B-V009-10`. The class is wider — MR-06, SP1-04, V010-10 flagged as the attacker's warning (sample: 19 of 58). **V002's blanket claim "every PASS atom in all 66 rows is opcode-reducible" is FALSE; the eight re-renders were a sample, not the set. V003 must repair the CLASS** (every criterion referencing proofs/premises/derivations without KERNEL/ENUM binding), not the named rows.
+- Carriage FULLY_ACCOUNTED (36 hunks independently re-diffed; the runtime pin, authority firewall, and aggregate rule structurally untouched — the nearest hunk is a pure insertion). One proposed kill (C-B-V009-12) refuted; that row stands CLEAN.
+
+**The pattern worth naming:** V002's sweep validated the FORM of criteria (terms map to opcodes) but not the BINDING (does the opcode actually receive the object the blocker demands). The escape hatch and the KERNEL-less proofs are both binding failures. V003's class repair must check binding, not vocabulary.
+
+**Custody.** Checked by Dario (SP2-05 and carriage personally); spec V003 owed by the Codex lane (queued as 633, after 631 returns); assembly V003 owed by Dario (632, loading). Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
