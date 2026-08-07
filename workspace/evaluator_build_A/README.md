@@ -72,9 +72,9 @@ seal change, or detached signature is silently bundled here.
 Each produced check row carries `invocation:null` or the one consumed-argument
 invocation. For `C-B-V009-06`, its instance ID binds the grounding source digest
 and half-open byte span while the raw payload digest binds the exact span bytes.
-Builder B's sealed verdict schema still carries the V005 spec const at the time
-of this build; Q-610 requires its parallel V007 re-pin before Custodian C runs
-the coordinated chain.
+Builder B's sealed verdict schema carries the V007 spec const and is pinned at
+`5acf066a01eec3762de6364766424be57ce6a1a19a4a34f0e15edc081b0cc1a2`;
+the external-input manifest verifies those bytes before launch.
 
 For every digest placed in a produced row's `observed_evidence_sha256s`, the
 producer materializes the exact tight canonical JSON it consumed or produced
