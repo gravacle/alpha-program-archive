@@ -475,8 +475,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 634 | Codex 2 | [6/OPEN-ITEM] the A21 residual objection leg: verify or close (bounded) | **RETURNED — REGISTERED (Q-570): NOT_OF_RECORD; Q-558 open item CLOSED; board unchanged. Codex 2 idle. |
 | 635 | Dario | [6/SUBGATE] spec V003 class-check: the 28 re-renders + BOUND sample (bounded, archive-side) | **RETURNED — REGISTERED (Q-573): sealed verdict CORRECTED post-seal; V009-04 FATAL confirmed; 28/28 WITHDRAWN; 10 findings unverified |
 | 636 | Codex 2 | [6/SUBGATE] assembly V003 bounded delta re-check | **RETURNED — REGISTERED (Q-572): substance FULLY CONFIRMED; 4 certificate-prose defects -> bounded V004 (637) |
-| 637 | Dario | [6/SUBGATE] class-check correction of record + verify the ten findings | **SENT** |
-| 638 | Codex 2 | [6/SUBGATE] spec V004 against the confirmed finding set | QUEUED (after 637) |
+| 637 | Dario | [6/SUBGATE] class-check correction of record + verify the ten findings | **RETURNED — REGISTERED (Q-574): 22/28; 2 FATALs refused, 6 confirmed; BR-1/BR-2 proposed with runnable tests |
+| 638 | Codex 2 | [6/SUBGATE] spec V004: install BR-1/BR-2 as law + repair the closed list | LOADED — NOT SENT |
 | 639 | Dario | [6/SUBGATE] assembly V004: the five certificate-prose fixes ONLY (byte-copy method) | QUEUED (after 637/638) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |

@@ -13618,6 +13618,25 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-574 — TASK 6 SUBGATE: THE CORRECTION OF RECORD SEALED — 22/28; TWO FATALS REFUSED, SIX FINDINGS CONFIRMED; TWO CLASS LAWS PROPOSED WITH RUNNABLE CONFORMANCE TESTS (2026-08-07)
+
+**Question.** What exactly must the spec V004 repair, and how does the escape-hatch class stop moving rooms?
+
+**Answer.** Dario's correction of record (`STAGE8_TASK6_SPEC_V003_CLASS_CHECK_CORRECTION_DARIO_V001.md`, SHA-256 `1f588534257ef274db43f3015ee3c587c76c114467a77acc38c62f354d248a5a`, relay 637; pre-seal pin check run, not claimed; registrar mirrored both ways).
+
+- **The withdrawal named plainly:** the sealed check's §2.4 stated the coverage boundary correctly IN ADVANCE and the defects landed exactly inside it; "a caveat in the body doesn't license an over-claim in the line the register carries." Corrected: **RE_RENDERS = 22/28.**
+- **Two carried FATALs REFUSED on personal verification** — including one against a row the reviewer had previously praised, so the verifications defer in neither direction: C-B-V010-05 (EXACT compares canonical normal forms; an inserted compensator perturbs them — the receiver exists) and C-B-V011-SP2-05 (eleven conjoined success bits, both ENUM certificates COMPAREd to the proof indexes; byte-identical to the Q-567 model repair).
+- **Six findings CONFIRMED at source.** Sharpest: C-B-V011-MR-07 — the blocker's verb is "contains", carried by an UNPAIRED SYMBOLIC whose `.success` means the reduction succeeded, not that containment holds (the spec-wide sweep found exactly two bare-SYMBOLIC conjuncts; the other is lawfully paired). Plus the upward self-correction: SP1-05's ordering atom has NO receiver — UNBOUND.
+- **THE TWO CLASS LAWS (the deliverable), with the diagnosis:** eight of the eleven repairs are ONE defect wearing eight faces — the adjective ban held, and what replaced adjectives was a SHAPE: "compute a thing, compare it to what the producer said the thing would be, call the agreement a check. It reads as rigor and is a mirror."
+  - **BR-1:** no producer-declared object may carry a criterion's direction — if an atom's truth depends on the CONTENT of a producer-supplied object, the row must force that content by a value-fixing closed schema, a KERNEL conclusion comparison, or a spec-fixed constant. A COMPARE against a producer-declared expectation is SELF-CONSISTENCY and carries no direction. Rationale of record: **hash-pinning prevents substitution, not fabrication.**
+  - **BR-2:** a reduction opcode's `.success` is not a truth value — an atom asserting a relation must pair with COMPARE against a spec-fixed value, or use EXACT or KERNEL.
+  - Both carry MECHANICAL conformance tests, and both were RUN against V003 to produce this artifact: BR-1 fails six rows, BR-2 one. Installed as law because the class already survived one repair cycle by moving rooms — "a rule you can run over the file is the only thing that will notice when it moves again."
+- The V004 scope is a CLOSED LIST with per-item repairs and verification criteria; the V004 check will be a list check, not another open sweep.
+
+**Custody.** Corrected and verified by Dario against its own sealed verdict; V004 owed by Codex 2 (638) installing BR-1/BR-2 as law and repairing the closed list. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
