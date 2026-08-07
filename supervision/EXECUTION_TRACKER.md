@@ -469,7 +469,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 628 | Codex 3 | [6/SUBGATE] evaluator spec V002: re-render the 4 criteria + opcode-reducibility self-audit of all 66 | **RETURNED — REGISTERED (Q-564): 8 re-rendered (4 newly found), 66/66 swept, all opcode-reducible |
 | 629 | Codex 3 | [6/SUBGATE] assembly V002 bounded delta re-check (incl. untabled battery restructuring) | **RETURNED — REGISTERED (Q-566): NEEDS_V003; false carriage certificate; lost survivors listed. CODEX 3 RETIRED. |
 | 630 | Dario | [6/SUBGATE] spec V002 re-render check (the 8 rows, bounded) | **SENT** |
-| 631 | Codex 2 (FRESH, bootstrap) | [6/BLOCKED-REPAIR] scoping V003: the two-clause fix + quotation repairs | **SENT** (Codex 2's first relay of the succession) |
+| 631 | Codex 2 (FRESH, bootstrap) | [6/BLOCKED-REPAIR] scoping V003: the two-clause fix + quotation repairs | **V002 REISSUED — LOADED** (V001 stopped correctly at Step 0: my missing packet path + archive not writable from that session) |
 | 632 | Dario | [6/SUBGATE] assembly V003: restore survivors + execute rows 2/6/7 + complete finite delta | PLANNED (after 630) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
@@ -509,7 +509,7 @@ PATH HAZARD (2026-08-04): an iCloud duplicate Documents tree ("Documents - Brian
 | 9 | The witness certification (registrar checkpoint) | — |
 | 10 | The escrow ruling — TASK 5 CLOSED | **COMPLETE** (Q-532) — TEN OF TEN |
 
-LANE-MODEL STATE (updated 2026-08-06 ~18:30): Codex 3 (gpt-5.6-sol) EXHAUSTED usage credits after relay 629 — retired. CODEX 2 (GPT-5.3-codex-spark, extra-heavy) takes over the Codex lane from relay 631; fresh-session bootstrap header required on its first relay. Dario (Opus 5 Ultra, fresh session of 2026-08-06) remains the cross-family reviewer. Cross-family custody pairing preserved: spark builds / Opus reviews. Note: spark 5.3 < sol 5.6 on heavy derivations — prefer bounded, well-specified tasks for Codex 2; route verdict-grade adjudication to Dario.
+LANE-MODEL STATE (updated 2026-08-06 ~18:30): Codex 3 (gpt-5.6-sol) EXHAUSTED usage credits after relay 629 — retired. CODEX 2 = GPT-5.6-SOL, EXTRA-HIGH (new Codex account — Sol-grade, heavy tasks viable). Its app session CANNOT WRITE the archive workspace: lanes write+seal in the cleanroom only; the REGISTRAR mirrors and verifies. Fresh-session bootstrap header required on its first relay. Dario (Opus 5 Ultra, fresh session of 2026-08-06) remains the cross-family reviewer. Cross-family custody pairing preserved: spark builds / Opus reviews. 
 PRIOR STATE (2026-08-05 ~01:00): FOUR LANES. Codex 1 + Codex 2 = GPT-5.3-codex-spark xhigh (builds, light reviews). Codex 3 = gpt-5.6-sol (NEW account; heavy builds and Sol-grade work). Dario = Claude Opus 5 ultra (NEW account; CROSS-FAMILY verdict-grade reviews — an Opus lane checking Sol builds is the strongest custody pairing available). Verdict-grade work prefers cross-family builder/reviewer pairs. Fresh-session bootstrap headers required for Codex 3 and Dario first relays.
 GPT-5.3-codex-spark, extra-high effort (5.6 Sol exhausted to <10%). Standing
 discipline: builds proceed on spark; ALL verdict-grade results (kill/confirm
