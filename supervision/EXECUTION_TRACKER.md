@@ -480,7 +480,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 639 | Dario | [6/SUBGATE] assembly V004: the five certificate-prose fixes ONLY (byte-copy method) | **RETURNED — REGISTERED (Q-575): 5/5 displayed; operative content scope-proven untouched; V003 false-digest corrected of record |
 | 640 | Codex 2 | [6/SUBGATE] assembly V004 bounded check (the five fixes + scope claim) | **RETURNED — REGISTERED (Q-577): 3/5; Z2 dispute adjudicated by C-V5a amendment; bounded V005 -> 642 |
 | 641 | Dario | [6/SUBGATE] spec V004 check: BR conformance transcript + closed list (bounded) | **RETURNED — REGISTERED (Q-578): closed list 11/11; BR-1 zero-claim FALSE (>=7 confirmed, <=16 candidates); BR-1 test = adjudicated |
-| 642 | Dario | [6/SUBGATE] spec check correction of record + per-row adjudication of the 16 BR-1 candidates | LOADED — NOT SENT |
+| 642 | Dario | [6/SUBGATE] spec check correction of record + per-row adjudication of the 16 BR-1 candidates | **SENT** |
 | 643 | Dario | [6/SUBGATE] assembly V005: line-level decomposition of the 7 shared hunks + 759/977 fixes (bounded) | QUEUED (after 642) |
 | 644 | Codex 2 | [6/SUBGATE] spec V005: the adjudicated list + the BR-1 conformance regime | QUEUED (after 642) |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
