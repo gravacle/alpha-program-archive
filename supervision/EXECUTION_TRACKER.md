@@ -490,7 +490,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 649 | Dario | [6/BUILD] the integration addendum draft: G1 events + G2 fixtures + the verifier-child contract | **RETURNED — REGISTERED (Q-588): 3 closed contracts; A's manifest left unread; 2 adapter changes owed by B |
 | 650 | Codex 2 | [6/BUILD] conform A to the sealed addendum + disclose deltas | **RETURNED — REGISTERED (Q-589): 3/3, 17 deltas, static-clean |
 | 651 | Dario | [6/BUILD] conform B's adapter to the sealed contract (incl. the two owed changes) | **RETURNED — REGISTERED (Q-590): 2/2 owed paid, 13 deltas, independence core untouched |
-| 652 | Codex 2 | [6/BUILD] assemble the D1 evidence payloads from the sealed corpus | LOADED — NOT SENT |
+| 652 | Codex 2 | [6/BUILD] assemble the D1 evidence payloads from the sealed corpus | **SENT** |
 | 653 | Dario | [6/BUILD] evidence payload spot-verification | QUEUED |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
