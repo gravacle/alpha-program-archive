@@ -256,7 +256,7 @@ A certificate is a report about intent unless recomputed from the bytes. Before
 sealing, every builder MUST, on the FINAL written artifact:
 1. regenerate the diff mechanically and derive the delta table FROM it (never
    from memory of the edits);
-2. for every claim of the form "field/содержание F present at location L", run a
+2. for every claim of the form "field/content F present at location L", run a
    fixed-string search of L on disk and display the hit;
 3. for every pair of locations required to agree (lead board vs final board),
    diff the two blocks explicitly — paired blocks regenerated independently
