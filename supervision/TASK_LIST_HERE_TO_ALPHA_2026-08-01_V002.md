@@ -728,6 +728,14 @@ custody per LOCKED_PROCESS.md.
                 success is never narrated as evaluator closure; the board
                 stays 24 PASS / 6 BLOCKED and SPEC-SEAL false regardless
                 of tranche results. ***                                        SURFACED: yes (ruled by the principal 2026-08-07)
+2026-08-07  C77 *** THE TRANCHE RE-SCOPED (Q-606/Q-607): the S class was
+                requirement-loci optimism — of the ten cheapest, ONE grounds
+                lawfully. Ruling: n=1 — build V009-06 against the
+                authoritative stage_dependencies, run the chain, one row
+                lights lawfully (C76's purpose achieved); install the M2
+                corpus-definition rule as spec V006; then Task 6 proceeds to
+                lineage V2 and closing. The remaining 58 envelopes hand to
+                7A carrying the relocation's sharper classification. ***       SURFACED: yes (ruled by the principal 2026-08-07)
 ```
 
 alpha_computed = false; proof_authorized = false; kappa_record_computed = false.

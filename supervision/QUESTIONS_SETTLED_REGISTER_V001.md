@@ -14079,6 +14079,14 @@ Q-591 preregistered: 56 x FAIL(INPUT_INTEGRITY), 10 x NOT_RUN_GATE, fixtures fai
 
 ---
 
+## Q-607 — THE TRANCHE RULING: n=1 PLUS THE SPEC RULE, THEN CLOSE (2026-08-07)
+
+**Question.** How does the C76 tranche re-scope given Q-606?
+
+**Answer.** PRINCIPAL RULING (change-log C77): build the ONE lawfully grounded envelope (V009-06), run the chain — one row lighting up lawfully proves the full pipeline on real evidence, which was C76's stated purpose; install the M2 CORPUS-DEFINITION RULE as spec V006 so the defect cannot recur; then Task 6 proceeds to lineage V2 and the close. The remaining 58 envelopes hand to 7A with the relocation's sharper classification (instantiation-class, spec-gated, and true-absent now distinguished). The Q-604 guard governs all reporting: one lawful PASS row is one row, not closure.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
