@@ -13901,6 +13901,21 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-593 — TASK 6 BUILD: THE GATE-BY-GATE FIRST CONTACT — FOUR HONEST STOPS, EACH NAMING ITS OWN REPAIR (2026-08-07)
+
+**Question.** What has the invocation series established so far?
+
+**Answer.** The chain is enforcing its own law gate by gate, and every stop has been honest, specific, and owned:
+
+1. **Run 001** — `AUTHORIZATION_CONTENT`: Builder A's authored-expectation paraphrase (Q-592). FIXED at relay 653 (`STAGE8_TASK6_AUTH_CHECK_FIX_LANE2_V001.md`, SHA-256 `733228c59e8773039457937a4bd1d49681c9b4628dcf39d83810dd365f9239c3`): hash-pin-only authorization ("the full-file digest binds every decision byte"); the audit of all 8 expected-content literals found and removed exactly 1 non-verbatim item.
+2. **Run 002** — `RUNTIME_INTERPRETER`: the parent rejected the system python because the v012 snapshot pins its own content-addressed interpreter. THE PIN WORKS. Custodian C re-invoked with the pinned python3.12.
+3. **Run 003** — `VERIFIER_SIDECAR`: the verifier manifest lacked its seal sidecar; the registrar created the protocol sidecar (established precedent — a hash over existing bytes, no content act).
+4. **Run 004** — `VERIFIER_MANIFEST_NOT_CANONICAL`, and inspection shows the deeper fact: **the file at the manifest path is the contract SCHEMA (draft-07, $schema/properties/required), not the INSTANCE** — Builder B shipped the contract definition; nobody shipped B's actual filled-in launch manifest. The genuine integration gap first contact exists to find. Fix owed by Builder B (relay 654): the 11-field canonical instance, sidecar-pinned, with the schema retained as a separate contract file.
+
+**The reading:** four stops, four different laws enforced (content custody, runtime identity, seal discipline, instance-vs-schema typing), zero children launched, zero evidence fabricated. The machine is strict in exactly the ways the program spent a week making it strict.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

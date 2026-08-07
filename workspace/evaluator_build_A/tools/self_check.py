@@ -379,6 +379,16 @@ def main():
     }
     validate(verifier_schema, synthetic_verifier, "verifier_manifest")
     parent_text = (package / "parent.py").read_text(encoding="utf-8")
+    authorization_forbidden = {
+        "AUTHORIZATION_CONTENT",
+        "Builder A               = Codex Lane 2 (parent + producer)",
+        "def validate_authorization",
+    }
+    present_authorization_literals = sorted(item for item in authorization_forbidden if item in parent_text)
+    if present_authorization_literals:
+        stop("AUTHORIZATION_EXPECTATION", present_authorization_literals)
+    if "verify_bytes(args.authorization, AUTHORIZATION_SHA256)" not in parent_text:
+        stop("AUTHORIZATION_HASH_PIN", "missing")
     for fact in ("R9_VERIFIER_FAULTS_FOUND_EXIT_1", "R9_VERIFIER_FAIL_CLOSED_EXIT_2"):
         if fact not in parent_text:
             stop("VERIFIER_EXIT_FACT", fact)

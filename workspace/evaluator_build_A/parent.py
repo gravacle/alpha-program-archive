@@ -224,21 +224,6 @@ def verify_external_inputs(program_root, authorization_path, manifest):
         fail("EXTERNAL_KIND_SET", f"missing={sorted(required-seen)}, extra={sorted(seen-required)}")
 
 
-def validate_authorization(data):
-    text = data.decode("utf-8")
-    required = [
-        SPEC_SHA256,
-        RUNTIME_SNAPSHOT_SHA256,
-        RUNTIME_GATE_SHA256,
-        "Builder A               = Codex Lane 2 (parent + producer)",
-        "10 GATED-EXECUTION checks",
-        "return NOT_RUN_GATE by construction",
-    ]
-    missing = [item for item in required if item not in text]
-    if missing:
-        fail("AUTHORIZATION_CONTENT", missing)
-
-
 def validate_runtime(snapshot_data, gate_data):
     snapshot = strict_json(snapshot_data, "runtime snapshot")
     required = {
@@ -664,8 +649,7 @@ def main():
         fail("R0_SELF_HASH", str(Path(__file__).resolve()))
     no_python_check_nodes(parent_data, "parent.py")
     no_python_check_nodes(package["producer.py"][1], "producer.py")
-    authorization_data = verify_bytes(args.authorization, AUTHORIZATION_SHA256)
-    validate_authorization(authorization_data)
+    verify_bytes(args.authorization, AUTHORIZATION_SHA256)
     verify_external_inputs(program_root, args.authorization, normal_manifest)
     runtime_snapshot_path = external_path(program_root, normal_manifest, "runtime_snapshot")
     runtime_gate_path = external_path(program_root, normal_manifest, "runtime_gate")
