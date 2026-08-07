@@ -450,17 +450,31 @@ def main():
     write_json(package / "inputs/subject_lineage_manifest.json", subject)
     structural_ids = [row["check_id"] for row in rows if row["execution_class"] == "STRUCTURAL"]
     structural_fixture_ids = [row["fixture_id"] for row in fixtures if row["execution_class"] == "STRUCTURAL"]
-    evidence = {
-        "check_records": {check_id: {"available": False, "reason": "NO_CONTENT_ADDRESSED_EVIDENCE_RECORD_PRESENT_IN_GOVERNING_INPUT_SET"} for check_id in structural_ids},
-        "fixture_records": {fixture_id: {"available": False, "reason": "NO_CONTENT_ADDRESSED_FIXTURE_OBSERVATION_PRESENT_IN_GOVERNING_INPUT_SET"} for fixture_id in structural_fixture_ids},
-        "schema": "rd22.structural-evidence-manifest.v001",
-        "subject_lineage_root": subject["declared_root"],
-    }
+    evidence_path = package / "inputs/structural_evidence_manifest.json"
+    if evidence_path.is_file():
+        evidence_data = evidence_path.read_bytes()
+        evidence = json.loads(evidence_data.decode("utf-8"))
+        if canonical(evidence) != evidence_data:
+            die("EVIDENCE_CANONICAL", evidence_path)
+        if set(evidence) != {"check_records", "fixture_records", "schema", "subject_lineage_root"}:
+            die("EVIDENCE_FIELDS", sorted(evidence))
+        if set(evidence["check_records"]) != set(structural_ids) or set(evidence["fixture_records"]) != set(structural_fixture_ids):
+            die("EVIDENCE_CENSUS", "check/fixture IDs")
+        if evidence["schema"] != "rd22.structural-evidence-manifest.v001" or evidence["subject_lineage_root"] != subject["declared_root"]:
+            die("EVIDENCE_BINDING", "schema/subject root")
+    else:
+        evidence = {
+            "check_records": {check_id: {"available": False, "reason": "NO_CONTENT_ADDRESSED_EVIDENCE_RECORD_PRESENT_IN_GOVERNING_INPUT_SET"} for check_id in structural_ids},
+            "fixture_records": {fixture_id: {"available": False, "reason": "NO_CONTENT_ADDRESSED_FIXTURE_OBSERVATION_PRESENT_IN_GOVERNING_INPUT_SET"} for fixture_id in structural_fixture_ids},
+            "schema": "rd22.structural-evidence-manifest.v001",
+            "subject_lineage_root": subject["declared_root"],
+        }
     write_json(package / "inputs/structural_evidence_manifest.json", evidence)
+    evidence_payload_relatives = [str(path.relative_to(package)) for path in sorted((package / "inputs/evidence").glob("*")) if path.is_file()]
     runtime_relatives = [
         "parent.py", "producer.py", "checks/check_map.json", "fixtures/fixture_manifest.json",
         "inputs/structural_evidence_manifest.json", "inputs/subject_lineage_manifest.json",
-    ] + [f"schemas/{name}" for name in sorted(schemas())]
+    ] + evidence_payload_relatives + [f"schemas/{name}" for name in sorted(schemas())]
     package_rows = [file_row(package / relative, relative) for relative in runtime_relatives]
     external = [
         {**file_row(authorization_path, "supervision/DECISION_RD22_BUILD_AUTHORIZED_2026-08-07.md"), "kind": "authorization"},

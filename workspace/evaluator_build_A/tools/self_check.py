@@ -16,6 +16,19 @@ EXPECTED_BRANCH = {
 }
 OPCODES = {"STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME"}
 ADDENDUM_SHA256 = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260"
+EVIDENCE_MODES = ["fixed_string", "whitespace_normalized", "self_reference_scope", "hyphen_space_underscore"]
+EVIDENCE_SOURCES = {
+    "BID_CHARGED_CELLULAR_CPT_INTERTWINER_DERIVATION_V001.md": ("packet", "0322763ac48a4428b432124a6947da81826a41f612efa6803ee9a87317929b98"),
+    "BID_FULL_STACK_REVIEW_LEDGER_V003.md": ("cleanroom", "c09f2c246c48ddfd0df127da26a22f08ba9ffd44f5c2118c178a0a5eba5d00e8"),
+    "BID_SOURCE_PARENT_CLOSURE_GATE_V003.md": ("packet", "5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf"),
+    "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md": ("packet", "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a"),
+    "STAGE7_PACKET_MANIFEST_V001.sha256": ("packet", "9d35f4ed7831411961d61002f09afe02c9703f80b84aa05158e39b7f49b1a311"),
+    "STAGE8_TASK6_A21_OPEN_LEG_DISPOSITION_LANE2_V001.md": ("cleanroom", "414067e25dbae39f7767d57144c953a0f98bb11d4c34178ec70097efabc0ebf7"),
+    "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md": ("cleanroom", "f8d1a7dc02798229f0ea22b0e855d1d09bb4a5b7eea9069c419357a56b6a067b"),
+    "STAGE8_TASK6_LP_MATRIX_LEDGER_LANE3_V001.md": ("cleanroom", "bc6c3e496ffd6e8d06cc3237e47a6a02b76faaa88b63b0ffb38684971c2d1362"),
+    "STAGE8_TASK6_LP_MATRIX_LEDGER_REVIEW_DARIO_V001.md": ("cleanroom", "a83289e67615d6faa2c1c942105ee6b595034f78d31fcf4e16ac5366fd1d7743"),
+    "STAGE8_TASK6_LP_QSPEC_ASSEMBLY_DARIO_V005.md": ("cleanroom", "76589e94bb4af318880c61c3d677dc2518add8480100a7afaf675e4dd3a394a8"),
+}
 
 
 def stop(code, detail):
@@ -140,6 +153,45 @@ def descriptor_lines(spec, check_id):
     return [(line + "\n").encode("utf-8") for line in lines]
 
 
+def validate_evidence_search(search, label, scope_roots):
+    required = {"complete_envelope_hits", "modes", "queries", "result", "scope_members", "scope_sha256"}
+    if set(search) != required or search["complete_envelope_hits"] != [] or search["modes"] != EVIDENCE_MODES or search["result"] != "ABSENT_OF_RECORD" or search["scope_members"] != 120:
+        stop("EVIDENCE_SEARCH", label)
+    if not isinstance(search["scope_sha256"], str) or re.fullmatch(r"[0-9a-f]{64}", search["scope_sha256"]) is None:
+        stop("EVIDENCE_SCOPE_ROOT", label)
+    scope_roots.add(search["scope_sha256"])
+    if not isinstance(search["queries"], list) or not search["queries"]:
+        stop("EVIDENCE_QUERIES", label)
+    query_fields = {"fixed_hits", "hyphen_space_underscore_hits", "query", "scope_hits", "whitespace_hits"}
+    for query in search["queries"]:
+        if set(query) != query_fields or not isinstance(query["query"], str):
+            stop("EVIDENCE_QUERY_FIELDS", label)
+        if any(not isinstance(query[field], int) or query[field] < 0 for field in ("fixed_hits", "hyphen_space_underscore_hits", "whitespace_hits")):
+            stop("EVIDENCE_QUERY_COUNT", label)
+        if set(query["scope_hits"]) != {"requirements", "review_display", "sealed_packet"} or any(not isinstance(value, int) or value < 0 for value in query["scope_hits"].values()):
+            stop("EVIDENCE_SCOPE_COUNTS", label)
+
+
+def validate_partial_payload(entry, package, cleanroom, label, referenced_payloads):
+    fields = {"payload_path", "payload_sha256", "role", "source_path", "source_sha256", "span"}
+    if set(entry) != fields or entry["role"] not in {"PARTIAL_DISPLAY_NOT_EXECUTABLE_RECORD", "SPEC_FIXED_SUBJECT_NOT_OBSERVATION"}:
+        stop("EVIDENCE_PARTIAL_FIELDS", label)
+    payload = package / entry["payload_path"]
+    source = cleanroom / entry["source_path"]
+    if not payload.is_file() or not source.is_file():
+        stop("EVIDENCE_PARTIAL_PATH", label)
+    payload_data = payload.read_bytes()
+    source_data = source.read_bytes()
+    if payload_data != source_data or digest(payload_data) != entry["payload_sha256"] or digest(source_data) != entry["source_sha256"] or entry["payload_sha256"] != entry["source_sha256"]:
+        stop("EVIDENCE_PARTIAL_HASH", label)
+    start, end = entry["span"]
+    if not isinstance(start, int) or not isinstance(end, int) or not 0 <= start < end <= len(source_data):
+        stop("EVIDENCE_PARTIAL_SPAN", label)
+    if not payload.name.startswith(entry["payload_sha256"] + "--"):
+        stop("EVIDENCE_CONTENT_NAME", label)
+    referenced_payloads.add(str(payload.relative_to(package)))
+
+
 def main():
     package = Path(__file__).resolve().parents[1]
     cleanroom = package.parent
@@ -191,8 +243,44 @@ def main():
             stop("FIXTURE_DESCRIPTOR_FIELDS", row["fixture_id"])
     if sum(row["execution_class"] == "STRUCTURAL" for row in fixtures["fixtures"]) != 3 or sum(row["execution_class"] == "GATED-EXECUTION" for row in fixtures["fixtures"]) != 3:
         stop("FIXTURE_CLASS_COUNT", "not 3/3")
-    if len(evidence["check_records"]) != 56 or len(evidence["fixture_records"]) != 3:
-        stop("EVIDENCE_CENSUS", "wrong")
+    structural_by_id = {row["check_id"]: row for row in structural}
+    structural_fixtures = {row["fixture_id"]: row for row in fixtures["fixtures"] if row["execution_class"] == "STRUCTURAL"}
+    if set(evidence["check_records"]) != set(structural_by_id) or set(evidence["fixture_records"]) != set(structural_fixtures):
+        stop("EVIDENCE_CENSUS", "wrong IDs")
+    if evidence["schema"] != "rd22.structural-evidence-manifest.v001" or evidence["subject_lineage_root"] != normal["subject_lineage_root"]:
+        stop("EVIDENCE_BINDING", "schema/root")
+    payload_dir = package / "inputs/evidence"
+    payload_files = sorted(path for path in payload_dir.iterdir() if path.is_file())
+    if len(payload_files) != len(EVIDENCE_SOURCES):
+        stop("EVIDENCE_PAYLOAD_CENSUS", len(payload_files))
+    packet_dir = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001"
+    for name, (location, expected) in EVIDENCE_SOURCES.items():
+        source = (packet_dir if location == "packet" else cleanroom) / name
+        matches = [path for path in payload_files if path.name == f"{expected}--{name}"]
+        if digest(source.read_bytes()) != expected or len(matches) != 1 or matches[0].read_bytes() != source.read_bytes():
+            stop("EVIDENCE_SOURCE_COPY", name)
+    scope_roots = set()
+    referenced_payloads = set()
+    check_fields = {"available", "descriptor_sha256", "missing_objects", "partial_payloads", "reason", "search", "status"}
+    for check_id, record in evidence["check_records"].items():
+        if set(record) != check_fields or record["available"] is not False or record["status"] != "ABSENT_OF_RECORD" or not record["reason"].startswith("ABSENT_OF_RECORD:"):
+            stop("EVIDENCE_CHECK_RECORD", check_id)
+        if record["descriptor_sha256"] != structural_by_id[check_id]["descriptor_sha256"] or len(record["missing_objects"]) != 2:
+            stop("EVIDENCE_CHECK_BINDING", check_id)
+        validate_evidence_search(record["search"], check_id, scope_roots)
+        for entry in record["partial_payloads"]:
+            validate_partial_payload(entry, package, cleanroom, check_id, referenced_payloads)
+    fixture_fields = {"available", "fixture_spec_sha256", "missing_objects", "partial_payloads", "reason", "search", "status"}
+    for fixture_id, record in evidence["fixture_records"].items():
+        if set(record) != fixture_fields or record["available"] is not False or record["status"] != "ABSENT_OF_RECORD" or not record["reason"].startswith("ABSENT_OF_RECORD:"):
+            stop("EVIDENCE_FIXTURE_RECORD", fixture_id)
+        if record["fixture_spec_sha256"] != structural_fixtures[fixture_id]["fixture_spec_sha256"] or len(record["missing_objects"]) != 3 or len(record["partial_payloads"]) != 1:
+            stop("EVIDENCE_FIXTURE_BINDING", fixture_id)
+        validate_evidence_search(record["search"], fixture_id, scope_roots)
+        for entry in record["partial_payloads"]:
+            validate_partial_payload(entry, package, cleanroom, fixture_id, referenced_payloads)
+    if len(scope_roots) != 1:
+        stop("EVIDENCE_SCOPE_DRIFT", sorted(scope_roots))
     spec = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md").read_text(encoding="utf-8")
     addendum_path = cleanroom / "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md"
     if digest(addendum_path.read_bytes()) != ADDENDUM_SHA256:
@@ -218,6 +306,10 @@ def main():
             stop("FIXTURE_SPEC_HASH", row["fixture_id"])
     verify_inventory(package, normal)
     verify_inventory(package, optimized)
+    declared_payloads = {row["relative_path"] for row in normal["package_files"] if row["relative_path"].startswith("inputs/evidence/")}
+    actual_payloads = {str(path.relative_to(package)) for path in payload_files}
+    if declared_payloads != actual_payloads:
+        stop("EVIDENCE_RUNTIME_INVENTORY", {"declared": sorted(declared_payloads), "actual": sorted(actual_payloads)})
     differing = {key for key in normal if normal[key] != optimized[key]}
     if differing != {"mode", "optimization", "writable_paths"}:
         stop("MANIFEST_DRIFT", sorted(differing))
@@ -295,7 +387,7 @@ def main():
             stop("PYCACHE", directory)
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
-    print(f"SELF_CHECK_OK syntax=4 canonical_json=all schemas=9 inventory={len(inventory_rows)} checks=66 structural=56 gated=10 fixtures=6 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax=5 canonical_json=all schemas=9 inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=0/56 absent=56 fixture_obs=0/3 checks=66 structural=56 gated=10 fixtures=6 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

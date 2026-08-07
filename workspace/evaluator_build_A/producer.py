@@ -857,7 +857,7 @@ def make_fixture_row(fixture, fixture_records, requirement_sha):
     record = fixture_records.get(fixture_id)
     if not isinstance(record, dict) or record.get("available") is not True:
         base["status"] = "FAIL"
-        base["reason"] = "STRUCTURAL_FIXTURE_EVIDENCE_NOT_SUPPLIED"
+        base["reason"] = "INPUT_INTEGRITY: STRUCTURAL_FIXTURE_EVIDENCE_NOT_SUPPLIED"
         return base
     observed = record.get("observed_verdict_fields")
     evidence_hashes = record.get("observed_evidence_sha256s")

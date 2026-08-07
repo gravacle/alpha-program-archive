@@ -56,6 +56,11 @@ terminal ledger after R10 succeeds. The parent fails closed before verifier
 launch if the required verifier manifest, its pin, or any of its contracts is
 absent or malformed.
 
-No structural proof/evidence payload, Builder B verifier,
-Custodian invocation, or detached signature is silently bundled here. These
-are external custody or run inputs, not producer defaults.
+`inputs/evidence/` contains ten byte-identical, content-addressed copies of
+sealed packet/workspace search and display sources. They are citations, not
+new proofs or observations. The D1 four-mode sweep found no complete
+descriptor-bound invocation envelope for any structural check and no sealed
+structural-fixture observation, so every such manifest record remains
+`ABSENT_OF_RECORD` and will fail input integrity rather than manufacture a
+pass. No Builder B verifier, Custodian invocation, or detached signature is
+silently bundled here.

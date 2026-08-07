@@ -13873,6 +13873,20 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-591 — TASK 6 BUILD: THE EVIDENCE ASSEMBLY — 0/56 POPULATED, 56 ABSENT_OF_RECORD: THE MACHINE-EVIDENCE LAYER HAS NEVER BEEN BUILT; THE FIRST RUN IS PREREGISTERED (2026-08-07)
+
+**Question.** Can the 56 structural checks' evidence be assembled from the sealed corpus?
+
+**Answer.** NO — and the reason is a discovery, not a failure (Codex 2, `STAGE8_TASK6_EVIDENCE_ASSEMBLY_LANE2_V001.md`, SHA-256 `4fa13ab7328ac72a56fe1efb29e2a59c5b4ba119298f4a6ad9087ffe1e583fc6`, relay 652; registrar mirrored; AUTHORED_BYTES = zero).
+
+- **The decisive distinction, the artifact's own words:** "a displayed proposition can be cited as sealed bytes, but the producer accepts a structural check only through the complete machine envelope." The corpus's derivations are PROSE — reviewed, cross-checked, sealed prose. The evaluator demands MACHINE FORM: typed graphs, replayable proof objects, canonical schema instances. **That formalization layer exists for zero of the 56 checks and zero of the 3 fixture observations.** Ten payloads were lawfully assembled as byte-identical sealed-source copies; none completes an envelope. Search: 120 members, all four M-2 modes, per-check hit counts displayed; ABSENT_OF_RECORD is bounded absence, not refutation. The 24 matrix PASSes were NOT promoted — a reviewer's reading of prose is not a machine's replay of evidence, and the artifact keeps the two apart.
+- **What this means for the program:** the honest gap between "the record convinces reviewers" and "the record feeds a machine" is now NAMED AND SIZED — 56 envelopes plus 3 observations, a formalization phase that no earlier plan step listed because nobody had built the machine that demands it. This is the record-first architecture doing exactly its job.
+- **THE FIRST RUN IS HEREBY PREREGISTERED (Custodian C, next act):** the chain will be invoked under the v012 pin with the evidence layer absent. EXPECTED OUTCOME, stated before execution: either a lawful fail-closed stop at R0/R2 (pin or trust-root mismatch — informative, re-ruled with facts displayed), or a complete run returning 56 x FAIL(INPUT_INTEGRITY), 10 x NOT_RUN_GATE, fixtures failing on absent observations, with the producer children byte-agreeing and Builder B's independent verifier reaching THE SAME verdicts from the same sealed inputs. Any deviation from this expectation — any PASS, any silent skip, any A/B disagreement — is a FINDING against the build. The run validates the apparatus with zero physics exposure precisely because its correct output is total honest failure.
+
+**Custody.** Assembled by Codex 2 under the cited-never-authored law; the invocation is Custodian C's; Dario's absence spot-check folds into the run review. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
