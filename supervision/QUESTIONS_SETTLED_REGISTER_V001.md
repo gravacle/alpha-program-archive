@@ -13759,6 +13759,25 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-583 — TASK 6 SUBGATE: THE SPEC V005 STANDS — "THE SPECIFICATION IS READY TO BUILD FROM," SAID PLAINLY BY THE REVIEWER THAT CONVICTED FOUR OF ITS PREDECESSORS (2026-08-07)
+
+**Question.** Does the spec V005 survive the closing check?
+
+**Answer.** STANDS — BUILD-READY on the spec side (Dario, `STAGE8_TASK6_SPEC_V005_CHECK_DARIO_V001.md`, SHA-256 `db4554bc295e3e4e907a1174452e328237d7fd790a9a2d28a0b6c5c45915a238`, relay 646; pin check passed; registrar mirrored).
+
+- **BR-1/A byte-identical** (1645 chars; the inadmissibility sentence verbatim; both classification lines) — including the subtle half: a zero-candidate row gets a note and expressly NO clean verdict. The generator genuinely over-generates: 12 candidates + 4 repaired-to-zero reconcile exactly to the reviewer's own 16.
+- **All ten repairs receive the clause the adjudication named**, checked against the MR-09 trap — MR-09 itself repaired at the right clause (one-handle compared to spec-fixed INSUFFICIENT while the access KERNEL keeps serving access). Exactly ten rows changed, no strays; the six lawful rows byte-unchanged. **The record closes two ways (12+54 and 50+4+12 = 66); the 66-row coverage table is the display whose absence made V004's transcript inadmissible.** Nine atoms re-adjudicated at the sealed blocker clauses: zero disagreements.
+- **BR-2 re-implemented, not replayed** (66/8/7/0 matching on all four); protected digests recomputed; carriage 26/409/173 exact with independent length reconciliation.
+- **One item carried, expressly not charged:** `BRANCH_OUTCOME` is a specification constant whose per-ID values are displayed nowhere — a BUILD-TIME OBLIGATION on the implementation manifest, not a BR-1 violation. "Inflating it would have been the easy call after a long chain of convictions, and the wrong one." CARRIED TO THE BUILD PACKAGE CHECKLIST.
+- One near-miss self-caught in the lawful direction (nearly charged the generator with under-generating before verifying the four missing rows are the four repaired out of candidacy).
+- The closing account, for the record: "Five relays ago I wrote a law and claimed it came with a runnable test. The claim was wrong and the law was right, and what arrived here is the version that follows from admitting both."
+
+**State.** The spec chain is CONVERGED. Remaining before the build package: 645 (the assembly V005 closing check, in flight). The package will carry: RD-22 authorization; the runtime pin content triple; builder custody A/B/C; and the BRANCH_OUTCOME per-ID display as an implementation-manifest obligation.
+
+**Custody.** Checked by Dario; registrar mirrored. Registered by the reviewer from the artifact.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

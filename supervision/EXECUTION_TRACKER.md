@@ -484,7 +484,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 643 | Dario | [6/SUBGATE] assembly V005: line-level decomposition + count fixes (bounded) | **RETURNED — REGISTERED (Q-581): 7/7 decomposed, H20 proven unshared (6 true), counts owned; operative byte-identical x3 |
 | 644 | Codex 2 | [6/SUBGATE] spec V005: install BR-1/A + repair the ten | **RETURNED — REGISTERED (Q-582): BR-1/A installed, 10/10, adjudication record displayed (12/29/54) |
 | 645 | Codex 2 | [6/SUBGATE] assembly V005 bounded check (decomposition sums + scope) | **SENT** |
-| 646 | Dario | [6/SUBGATE] spec V005 check (BR-1/A record + the ten) | **SENT** |
+| 646 | Dario | [6/SUBGATE] spec V005 check (BR-1/A record + the ten) | **RETURNED — REGISTERED (Q-583): SPEC V005 STANDS, BUILD-READY (spec side); BRANCH_OUTCOME -> build checklist |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
