@@ -13916,6 +13916,18 @@ Either route closes the gap without authorship; route (b) additionally makes the
 
 ---
 
+## Q-594 — TASK 6 BUILD: THE INSTANCE DELIVERED WITH AN HONEST SENTINEL; RUN 005 STOPPED ON A ONE-BYTE CANON DISPUTE; THE SPEC ADJUDICATES FOR BUILDER B (2026-08-07)
+
+**Question.** Where does the chain stand after the verifier-manifest instance?
+
+**Answer.** Two findings, both of the highest custody quality (Dario's instance artifact `STAGE8_TASK6_VERIFIER_MANIFEST_INSTANCE_DARIO_V001.md`, SHA-256 `f103882d94d50731c499f4f993096dfaf484f0313b903fe1dab2e2fcd9e995af`, relay 654; registrar mirrored; run 005 invoked).
+
+- **The instance is real and honestly incomplete:** 11/11 fields, canonical bytes = sidecar digest; the six argv substitution tokens machine-fillable; the entry point verified against the real CLI. But `ledger_sha256` and `evidence_root_sha256` carry an all-zero SENTINEL — they are RUN-SCOPED digests of producer outputs that do not exist pre-run, **a defect in the addendum the drafter charged to itself** (§3.2 conflates run-invariant pins with run-scoped digests). The sentinel is SELF-DETECTING: `require_roots_bound()` makes B's verifier refuse B's own manifest until the parent binds the roots — "a schema-valid placeholder that passes silently would be the worst outcome." A pinned/run root split (V002 of the addendum) is PROPOSED, not performed — "I don't amend a sealed document because I'm the lane that noticed." Also recorded: why the schema-instance confusion escaped B — "a package that only validates manifest shapes will never notice it has not produced one."
+- **Run 005 — `VERIFIER_MANIFEST_NOT_CANONICAL`, root-caused by the registrar to ONE BYTE:** B's file is tight canonical JSON (1145 bytes); A's `canonical_bytes` demands tight JSON PLUS A TRAILING NEWLINE (1146). The sealed spec (§9.4): "canonical UTF-8 JSON with sorted keys, NO INSIGNIFICANT WHITESPACE" — **a trailing newline is insignificant whitespace; the spec adjudicates for B; A's `+\n` is an ungrounded implementation choice.** Fix owed by Builder A (queued as relay 656, after 655 returns): drop the newline from the canon, regenerate A's own manifests under the corrected form, self-check. The two-builder thesis proven again at the smallest possible scale: one byte of disagreement, surfaced at first contact, adjudicated by the sealed text rather than by whoever got there first.
+- The sentinel-binding policy (whether the parent binds run-scoped roots or the addendum splits them at V002) is deferred to OBSERVATION at the next gate — the machine will state its behavior and the addendum V002 will be ruled on facts.
+
+---
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
