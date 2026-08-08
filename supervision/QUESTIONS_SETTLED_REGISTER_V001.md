@@ -14576,6 +14576,10 @@ The fifth available argument (C_ref's smooth-coframe clause) was REFUSED — bar
 
 **Status.** SETTLED as derivation, BOOKING PENDING cross-family verification (Codex 2, 737) and the principal's ratification.
 
+## Q-643 — Six of seven SP1-07 witnesses computed exactly; D08 underdetermined (2026-08-08)
+
+Six witnesses built as exact universal finite records (pushout quotients both-associated, order-permutation reindexing, graded-commutator zero for distinct even factors, permutation-conjugation squares, symbolic Stone evolution with formal time symbols — no physical number evaluated), content-addressed D02/D03/D04/D06/D07/D09. D08 (orientation-reversal covariance) remains underdetermined — the source fixes d_c -> -d_c and projector invariance but only names the covariance target. SP1-07 advances to near-whole; the row's remaining gaps: D08's missing fixation + the 735 partials it inherits. Basis: STAGE8_7A_SP1_07_WITNESSES_CODEX2_V001.md, registrar seal-verified, mirrored. SETTLED as construction increment.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
