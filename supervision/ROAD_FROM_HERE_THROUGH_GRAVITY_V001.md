@@ -4,8 +4,8 @@ One screen. States: [DONE] [ACTIVE] [NEXT] [GATED] — updated at each recap.
 The fences hold everywhere until step 18: no alpha, no kappa, no comparison.
 
 ## PHASE I — TASK 6 CLOSES (~7-9 relays)
- 1. [ACTIVE] Run 031: the verifier CONFIRMS the first lawful PASS (V009-06)
- 2. [NEXT]   The confirmation certified; tranche closed at n=1 per C77
+ 1. [DONE]   Run 033 CONFIRMED the first lawful PASS (V009-06) — 2026-08-08
+ 2. [ACTIVE] The confirmation certified; tranche closed at n=1 per C77
  3. [NEXT]   Lineage V2: batch all sealed repairs; the THIRTY-ROW RERUN
              — expected: A35 flips; board ~25 PASS / 5 BLOCKED; SPEC-SEAL false
  4. [NEXT]   Closing bookkeeping: falsifier disposition, OBS ledger,

@@ -14216,6 +14216,22 @@ B's disclosures of record: its first probe of G1 used autojunk=False — disabli
 
 **Status.** SETTLED as adjudication. Routed as V012 (relay 703, A): amend the C-B-V009-06 row to bind source_sha256 to the grounding span — ROWS_CHANGED = 1, the first ever, displayed before/after with the criterion column and expected predicate byte-identical (linkage completion, not criterion change) — and supply the source file as a content-addressed payload. Then B confirms (704); run 032 follows.
 
+## Q-617 — RUN 033: THE FIRST LAWFUL PASS IS CONFIRMED (2026-08-08)
+
+**Question.** Does the producer's PASS on C-B-V009-06 survive fully independent adversarial replay?
+
+**Answer. YES — CONFIRMED.** Run 033 (fresh run root after the run-032 false start): producer 1 PASS / 55 FAIL(INPUT_INTEGRITY) / 10 NOT_RUN_GATE; normal and optimized children agree; the independent verifier executed end-to-end and returned 58 findings — 55 EVIDENCE + 3 FIXTURE_EVIDENCE, ALL of them the preregistered n=1 evidence absences (the exact Q-591 shape) — and ZERO findings against C-B-V009-06. The replay re-derived the row from bytes: P0 computed by R9 over both supplied manifests (six conjuncts); r_ground resolved through the row's own citation (rehashed from the verified source at the sealed span, equal to the spec constant fixed since V007); r_dag recomputed from the canonical graph payload (11 nodes, root SPEC-SEAL, sink FINAL-CLAIM-SEAL); the criterion reduced to a value and the value agrees with the producer. The aggregate verdict is FAIL and lawfully must be: 55 structural rows and 3 fixture observations still have no machine evidence (the formalization remainder, road step 11). The C77 deliverable was the ROW, and the row is confirmed.
+
+**What the confirmation rests on (the chain of record).** Two builders from different model families; the verifier never reads a producer verdict (BR-1 enforced structurally — ground-atom name set computed from the sealed row before any invocation is consumed); every operand re-derived (digests rehashed, never read); the anti-tuning argument structural (the PASS constant 47e7c329… and span byte-identical V007→V012 — the linkage amendment named where the bytes already were; the constant never moved); negative controls on every layer (perturbed member, perturbed span, smuggled producer objects, duplicate payloads — all refuse or flip); and the run preregistered in expectation (Q-591/C77) before the machinery could produce it.
+
+**The road here, compressed.** Runs 022→033: evidence layer discovered absent (0/56) -> honest n=1 scope (C77) -> replay custody law (Q-610) -> BR-1 violation found in the verifier itself (Q-611) -> P0 spec gap, manifests entered the launch contract (V008) -> carrier completeness (V009) -> ground atoms ruled verifier-computed (V010) -> the citation key ruled by exclusion (V011) -> the row given its own grounding citation, the first and only descriptor amendment, linkage-only (V012) -> two stale boundary pins caught by the new registrar preflight -> CONFIRMED. Zero closed physics verdicts reopened at any point.
+
+**Run 032 of record.** The immediately prior invocation failed closed pre-launch at the boundary firewall (HASH_MISMATCH: A's pins of B's verdict schema and manifest instance were one B-re-pin stale). The cross-boundary preflight is now standing registrar law; run 032's directory holds the false start and run 033 is the confirmation.
+
+**Basis.** rd22_run_033 (mirrored): normal.output.json summary {pass 1, fail 55, not_run_gate 10, error 0}; verifier.output.json findings {EVIDENCE 55, FIXTURE_EVIDENCE 3}, none naming V009-06; producer_comparison agree=true. Boundary re-pin: STAGE8_TASK6_BOUNDARY_REPIN_CODEX2_V001.md = d3fc9442…; preflight sweep 248 pins, 0 stale.
+
+**Status.** SETTLED — THE CONFIRMATION. Road step 1 DONE. Next: step 2, the confirmation certified and the tranche closed at n=1 per C77.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
