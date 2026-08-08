@@ -14646,6 +14646,10 @@ Six witnesses built as exact universal finite records (pushout quotients both-as
 
 Seven proof objects built (pushout-once, both parenthesizations, order independence, relabeling covariance, source-projector orientation invariance, quartic primitive rejection) with grammars, completeness certificates, and the adopted premise custody-preserved by span hash. ONE named gap: G_ORIENTATION_UNITARY_CARRIER — the source names the cellular orientation unitary but contains no typed U_c: R_c -> R_c, no U_c c U_c* = c_rev equation, no complete-h_K commuting square; all four M-2 modes searched; nothing fabricated. Row: PARTIAL_FORMALIZATION_7_OF_8. THE RHYME: SP1-07's D08 stopped at the SAME absence — orientation-reversal covariance, named not typed. One sealed carrier closes both rows. Routed as 743. Basis: STAGE8_7A_SP2_05_FORMAL_CODEX2_V001.md, registrar seal-verified, mirrored. SETTLED as increment.
 
+## Q-649 — The orientation unitary was already sealed: Gamma_cell is the carrier; two rows go FORMALIZATION-COMPLETE (2026-08-08)
+
+The derive-or-gap resolved DETERMINED with the cleanest possible answer: the sealed cellular grading Gamma_cell = diag(+1,+1,-1) IS the orientation unitary — self-adjoint involution, U c U* = c_rev = -c exact, tensor extension leaving source projectors invariant and closing the complete h_K square termwise; no exchange map or free operator added; the central-phase freedom noted and the sealed grading the canonical representative. Both consumers bound: SP1-07 = 9/9 KERNEL-ready (FORMALIZATION_COMPLETE), SP2-05 = 8/8 (FORMALIZATION_COMPLETE) — the first two complete rows of the remainder. Exact Gaussian-integer checks, five negative controls, occupied-output refusal; formalization statuses, not runtime verdicts; admission barred. Basis: STAGE8_7A_ORIENTATION_UNITARY_CODEX2_V001.md = 831c0dd8…, carrier 7c19430b…, registrar seal-verified, mirrored. SETTLED.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
