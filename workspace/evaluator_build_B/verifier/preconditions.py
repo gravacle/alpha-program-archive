@@ -27,7 +27,7 @@ third case into the second.
 from .canonical_json import VerifierFault, loads_strict, require_exact_fields
 from .contracts import (PRECONDITION_REFUSAL_FIELDS, PRECONDITION_REFUSAL_SCHEMA,
                         PRECONDITION_NOT_REPLAYABLE, SUBJECT_MANIFEST_FIELDS,
-                        MANIFEST_FILE_FIELDS)
+                        MANIFEST_FILE_FIELDS, validate_subject_resolution)
 from .hashing import content_root, read_bytes, sha256_bytes
 
 # The six §2.1 conjuncts, in the spec's own order. Named so a refusal can say
@@ -139,20 +139,42 @@ def compute_p0(subject_manifest, evidence_manifest, evidence_index, where):
     # 2 -- every declared sha256 matches the SUPPLIED bytes. A declared file
     # whose bytes R9 was not supplied is UNEVALUABLE, and V008-R9-3 is the
     # value for exactly that.
+    #
+    # V009-J3: every subject row resolves through the EXISTING evidence carrier
+    # to EXACTLY ONE content-addressed payload; zero or multiple matching
+    # payloads is a refusal naming the subject carrier. "Exactly one" is the
+    # point -- two payloads with one digest is not a redundancy, it is an
+    # ambiguity about which bytes the subject is.
     table = {}
     matched = True
+    resolutions = []
     for label, triples in (("subject_files", subject_files),
                            ("evidence_files", evidence_files)):
         for path, length, digest in triples:
-            blob = evidence_index.get(digest)
-            if blob is None:
+            candidates = evidence_index.get(digest) or []
+            if label == "subject_files" and len(candidates) != 1:
+                raise PreconditionNotReplayable(precondition_refusal(
+                    "subject_files[%s] (sha256 %s) resolves to %d evidence "
+                    "payloads; V009-J3 requires exactly one"
+                    % (path, digest, len(candidates)),
+                    "every_declared_sha256_matches_the_supplied_bytes"))
+            if not candidates:
                 raise PreconditionNotReplayable(precondition_refusal(
                     "%s[%s] bytes (sha256 %s) are declared but not supplied "
                     "to R9" % (label, path, digest),
                     "every_declared_sha256_matches_the_supplied_bytes"))
+            payload_path, blob = candidates[0]
             if sha256_bytes(blob) != digest or len(blob) != length:
                 matched = False
-            if label == "evidence_files":
+            if label == "subject_files":
+                resolutions.append(validate_subject_resolution({
+                    "evidence_payload_path": payload_path,
+                    "evidence_payload_sha256": sha256_bytes(blob),
+                    "subject_byte_length": length,
+                    "subject_relative_path": path,
+                    "subject_sha256": digest,
+                }, "subject_resolution[%s]" % path))
+            else:
                 table[path] = {"sha256": digest, "byte_length": length}
     conjuncts["every_declared_sha256_matches_the_supplied_bytes"] = matched
 
@@ -167,4 +189,5 @@ def compute_p0(subject_manifest, evidence_manifest, evidence_index, where):
 
     return {"success": all(conjuncts[c] for c in P0_CONJUNCTS),
             "conjuncts": dict(conjuncts),
-            "evidence_files": table}
+            "evidence_files": table,
+            "subject_resolutions": resolutions}

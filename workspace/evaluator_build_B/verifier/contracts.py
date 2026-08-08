@@ -65,7 +65,7 @@ OPCODES = (
 
 # One recorded invocation. SEVEN fields, transcribed from the SEALED SPEC's
 # §9.4 row schema -- not from Builder B's 686 write-out, which named four and
-# is superseded. V008 §9.4: "This is the byte-span linkage required for
+# is superseded. V009 §9.4: "This is the byte-span linkage required for
 # independent replay; the blocker-ledger source.byte_span and a digest without
 # the source slice are not substitutes for it." Both builders were short of the
 # spec here; the spec wins.
@@ -140,7 +140,18 @@ VERIFIER_MANIFEST_FIELDS = (
     "stdout_discipline",
     "exit_contract",
     "receipt_authoritative",
+    # V009-J4: verifier-root membership is INSTANCE DATA, not a Builder A
+    # constant. The parent consumes this sealed array and keeps no private
+    # membership census, so a membership change is a reissued instance rather
+    # than a parent-code edit.
+    "verifier_root_members",
 )
+
+# V009-J4 row, and V009-J3's subject-resolution record. Both closed.
+ROOT_MEMBER_ROW_FIELDS = ("byte_length", "relative_path", "sha256")
+SUBJECT_RESOLUTION_FIELDS = ("evidence_payload_path", "evidence_payload_sha256",
+                             "subject_byte_length", "subject_relative_path",
+                             "subject_sha256")
 # V008-R9-2: seven, transcribed from the sealed input_roots schema and then
 # VERIFIED against those bytes by the self-check (derivation, not typing).
 INPUT_ROOTS_FIELDS = (
@@ -210,6 +221,62 @@ COMMON_MEMBER_KEY_FIELDS = (
     "input_root_sha256",
     "fixture_id_or_null",
 )
+
+
+def validate_root_members(members, where):
+    """V009-J4: sorted, unique, package-relative, typed rows."""
+    if not isinstance(members, list) or not members:
+        raise VerifierFault("%s: verifier_root_members must be a non-empty array"
+                            % where)
+    paths = []
+    for i, row in enumerate(members):
+        at = "%s[%d]" % (where, i)
+        require_exact_fields(row, ROOT_MEMBER_ROW_FIELDS, at)
+        path = row["relative_path"]
+        if not isinstance(path, str) or not path or path.startswith("/") \
+                or ".." in path.split("/"):
+            raise VerifierFault("%s: relative_path %r is not package-relative"
+                                % (at, path))
+        if not isinstance(row["byte_length"], int) or row["byte_length"] < 0:
+            raise VerifierFault("%s: byte_length must be a non-negative integer"
+                                % at)
+        if not isinstance(row["sha256"], str) or not _SHA256.match(row["sha256"]):
+            raise VerifierFault("%s: sha256 is not a lowercase sha256" % at)
+        paths.append(path)
+    if paths != sorted(paths):
+        raise VerifierFault("%s: rows are not sorted by relative_path" % where)
+    if len(set(paths)) != len(paths):
+        raise VerifierFault("%s: duplicate relative_path" % where)
+    return members
+
+
+def root_from_members(members):
+    """V009-J4: SHA256(concat(row.sha256)) in relative_path order."""
+    import hashlib
+    ordered = sorted(members, key=lambda r: r["relative_path"])
+    return hashlib.sha256(
+        "".join(r["sha256"] for r in ordered).encode("ascii")).hexdigest()
+
+
+def validate_subject_resolution(record, where):
+    """V009-J3: one closed record per subject_manifest.files row."""
+    require_exact_fields(record, SUBJECT_RESOLUTION_FIELDS, where)
+    if record["evidence_payload_sha256"] != record["subject_sha256"]:
+        raise VerifierFault(
+            "%s: evidence_payload_sha256 must equal subject_sha256" % where)
+    for field in ("evidence_payload_sha256", "subject_sha256"):
+        if not _SHA256.match(record[field] or ""):
+            raise VerifierFault("%s: %s is not a lowercase sha256"
+                                % (where, field))
+    if not isinstance(record["subject_byte_length"], int) \
+            or record["subject_byte_length"] < 0:
+        raise VerifierFault("%s: subject_byte_length must be a non-negative "
+                            "integer" % where)
+    for field in ("evidence_payload_path", "subject_relative_path"):
+        if not isinstance(record[field], str) or not record[field]:
+            raise VerifierFault("%s: %s must be a nonempty string"
+                                % (where, field))
+    return record
 
 
 def validate_ledger_shape(ledger):
@@ -434,6 +501,14 @@ def validate_verifier_manifest(manifest, where):
     if manifest["receipt_authoritative"] is not False:
         raise VerifierFault(
             "%s.receipt_authoritative must be false" % where)
+    members = validate_root_members(manifest["verifier_root_members"],
+                                    "%s.verifier_root_members" % where)
+    derived = root_from_members(members)
+    if derived != manifest["verifier_root_sha256"]:
+        raise VerifierFault(
+            "%s: verifier_root_sha256 %s is not SHA256(concat(row.sha256)) over "
+            "the declared members (%s)"
+            % (where, manifest["verifier_root_sha256"], derived))
     return manifest
 
 

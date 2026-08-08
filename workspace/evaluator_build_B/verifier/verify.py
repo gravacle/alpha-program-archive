@@ -68,7 +68,10 @@ def _index_evidence(evidence_dir):
         if not os.path.isfile(path):
             continue
         blob = read_bytes(path)
-        index[sha256_bytes(blob)] = blob
+        # A LIST, not a single value: V009-J3 requires EXACTLY ONE payload per
+        # subject row, and a dict keyed by digest would silently collapse two
+        # copies into one and hide the ambiguity it exists to catch.
+        index.setdefault(sha256_bytes(blob), []).append((name, blob))
     return index
 
 
@@ -214,7 +217,7 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
             if roles["faults"]:
                 raise VerifierFault(roles["faults"][0])
             digest, blob, _ = roles["consumable"][0]
-            # R9 replays FROM EVIDENCE BYTES (spec V008 R9). The bundle is
+            # R9 replays FROM EVIDENCE BYTES (spec V009 R9). The bundle is
             # built from RECOMPUTED opcode results, not from producer-emitted
             # ones: reading .success off a producer object would let a
             # producer-declared object carry the criterion's direction.

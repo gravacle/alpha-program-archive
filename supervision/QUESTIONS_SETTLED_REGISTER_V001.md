@@ -14160,6 +14160,22 @@ The Q-604 guard verbatim: one lawful row is one row. The board and seals unmoved
 
 **Status.** SETTLED as adjudication. Fix custody: F1+F2+F4 are A's; F3 is a spec-completeness item A resolves by the smallest lawful carrier (finite V009 delta only if the closed inventories need a slot). Routed as relay 696, one whole delta. Run 031 follows B's confirmation of the boundary terms if a V009 issues, else directly.
 
+## Q-613 — V009 confirmed; P0 replayable end-to-end; one stale-copy finding blocks run 031 (2026-08-08)
+
+**Question.** Does A's V009 delta survive B's envelope check, and is the chain now runnable?
+
+**Answer.** The envelope holds: four dispositions and nothing more, 66/66 rows byte-identical, carriage 9/120/23 computed and matching. J1 is row-exact — each regenerated slice begins with its fixture ID, ends |\n, holds exactly one newline, and hashes to the digest run 030 declared. J3 closes over all six subject rows, each resolving to exactly one payload. J4's root formula was independently B's own scheme — applied to the 13 rows it reproduces package_root_digest() exactly, so membership becoming instance data was the whole change. THE HEADLINE: P0 = TRUE on real inputs, all six conjuncts, with six closed resolution records — relay 695's counterfactual path is now the real path, and both negative controls bite (duplicate payload refused naming the exactly-one rule; removing the addendum resurrects the 695 refusal). Registrar re-verified after mirror: all 13 per-row digest+byte-length bindings and the new root 10622f17… recompute exactly.
+
+Two findings:
+- G1 (correction of record, no code impact): A's stated MECHANISM for the old +5/+5 was wrong. The cause is a fact — difflib with default autojunk=True reproduces 160/26 across six variants — but replace blocks go DOWN 14->10; what rises by five is lines per side: five context lines reclassified inside four fewer blocks, not five extra pairs. The register carries the true mechanism; the recomputed certificate itself is correct.
+- G2 (BLOCKS run 031): A ships inputs/verifier_root_members.generated.json declaring B's superseded 695 root 43cff85d… with 7 of 13 digests stale — exactly the files relay 697 changed — under key `members` where the V009 schema says `verifier_root_members`. Registrar confirmed both defects in the bytes. This is the J4 failure mode relocated: a transcribed-in-time snapshot posing as generated data. If the parent consumes A's copy, run 031 mismatches B's root for reasons unrelated to B's bytes.
+
+B's disclosures of record: its first probe of G1 used autojunk=False — disabling the very heuristic under test — and briefly refuted a true correction; a single-probe stop would have charged a fabrication falsely (second consecutive relay in which B's own check was the faulty component). A drafted file count (23) was caught by B's own pin check (22) and corrected before sealing. B does NOT claim run 031 passes: r_ground's invocation remains unrecorded in the produced row (relay 693 §1, untouched — whether the singular `invocation` carrier lawfully omits an atom whose arguments are P0-derived digests plus a spec constant is for the machine and, if disputed, the spec), and G2 must be cleared first.
+
+**Basis.** STAGE8_TASK6_V009_CONFIRMATION_DARIO_V001.md = 79649121efe34247c4dd09eb5a1ee2e1ec48503ca635952f27f5eca8836d78ad; B package re-pinned, root 10622f17… (registrar-recomputed); A-side V009 900a240d…, disposition 493d0b40… (Q-612 chain).
+
+**Status.** SETTLED as confirmation + adjudication. G2 routed to A as relay 698 (regenerate from B's current sealed bytes under the schema key, or remove the redundant copy in favor of the instance — smallest lawful means). Run 031 follows immediately on 698's mirror.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

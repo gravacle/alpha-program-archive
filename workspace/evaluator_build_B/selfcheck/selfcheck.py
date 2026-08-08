@@ -59,11 +59,12 @@ def main():
                        % len(contracts.FIXTURE_ROW_FIELDS))
     else:
         sys.stdout.write("FIXTURE_ROW_FIELDS        : 16 fields\n")
-    if len(contracts.VERIFIER_MANIFEST_FIELDS) != 11:
-        faults += fail("VERIFIER_MANIFEST_FIELDS: %d, addendum says 11"
+    if len(contracts.VERIFIER_MANIFEST_FIELDS) != 12:
+        faults += fail("VERIFIER_MANIFEST_FIELDS: %d, V009 §9 says 12"
                        % len(contracts.VERIFIER_MANIFEST_FIELDS))
     else:
-        sys.stdout.write("VERIFIER_MANIFEST_FIELDS  : 11 fields\n")
+        sys.stdout.write("VERIFIER_MANIFEST_FIELDS  : 12 fields "
+                         "(+verifier_root_members)\n")
     if len(contracts.EVENT_LEDGER_FIELDS) != 6:
         faults += fail("EVENT_LEDGER_FIELDS: %d, addendum says 6"
                        % len(contracts.EVENT_LEDGER_FIELDS))
@@ -73,10 +74,11 @@ def main():
     # the launch manifest validates against its own closed contract
     from verifier import child_manifest, hashing
     try:
+        _rows = child_manifest.root_member_rows(ROOT)
         m = child_manifest.build_manifest(
-            "0" * 64,
+            contracts.root_from_members(_rows),
             dict((f, "1" * 64) for f in contracts.INPUT_ROOTS_FIELDS),
-            "out/verdict.json", "out/receipt.json", False)
+            "out/verdict.json", "out/receipt.json", False, _rows)
         child_manifest.manifest_sha256(m)
         sys.stdout.write("launch manifest           : validates, addressable\n")
     except Exception as exc:                      # noqa: BLE001 - fail closed
@@ -444,8 +446,9 @@ def main():
              "sha256": hashlib.sha256(b"b").hexdigest()}]}
     _em["declared_root"] = hashing.content_root(
         [("b", 1, _em["payload_inventory"][0]["sha256"])])
-    _idx = {hashlib.sha256(b"a").hexdigest(): b"a",
-            hashlib.sha256(b"b").hexdigest(): b"b"}
+    # V009-J3: digest -> LIST of (payload_path, bytes); "exactly one" is a rule
+    _idx = {hashlib.sha256(b"a").hexdigest(): [("pa", b"a")],
+            hashlib.sha256(b"b").hexdigest(): [("pb", b"b")]}
     try:
         _v = _pc.compute_p0(_sm, _em, _idx, "sc")
         if _v["success"] is not True or len(_v["conjuncts"]) != 6:
@@ -479,9 +482,56 @@ def main():
             sys.stdout.write("P0 compute           : unevaluable -> closed "
                              "PRECONDITION_NOT_REPLAYABLE naming the carrier\n")
 
-    # V008-R9-2 inventories, verified against the SEALED SPEC bytes
+    # V009-J3: exactly one payload per subject row, and the closed record
+    _dup = dict(_idx)
+    _dup[hashlib.sha256(b"a").hexdigest()] = [("pa", b"a"), ("pa2", b"a")]
+    try:
+        _pc.compute_p0(_sm, _em, _dup, "sc")
+        faults += fail("J3: two payloads for one subject row accepted")
+    except _pc.PreconditionNotReplayable as exc:
+        if "exactly one" not in exc.value["missing_carrier"]:
+            faults += fail("J3 refusal does not name the rule: %s" % exc.value)
+        else:
+            sys.stdout.write("V009 J3              : two payloads for one "
+                             "subject row -> refusal naming the rule\n")
+    _res = _pc.compute_p0(_sm, _em, _idx, "sc")["subject_resolutions"]
+    if len(_res) != 1 or sorted(_res[0]) != sorted(
+            contracts.SUBJECT_RESOLUTION_FIELDS):
+        faults += fail("J3 resolution record malformed: %s" % _res)
+    else:
+        sys.stdout.write("V009 J3              : one closed 5-field resolution "
+                         "record per subject row\n")
+
+    # V009-J4: membership is instance data; the root derives from it
+    _r = child_manifest.root_member_rows(ROOT)
+    if contracts.root_from_members(_r) != child_manifest.package_root_digest(ROOT):
+        faults += fail("J4: root_from_members disagrees with package_root_digest")
+    else:
+        sys.stdout.write("V009 J4              : root = SHA256(concat(row.sha256)) "
+                         "over %d sealed rows\n" % len(_r))
+    for _label, _bad in (("unsorted", list(reversed(_r))),
+                         ("empty", []),
+                         ("duplicate path", _r + [_r[0]]),
+                         ("absolute path",
+                          [dict(_r[0], relative_path="/x")])):
+        try:
+            contracts.validate_root_members(_bad, "sc")
+            faults += fail("J4: %s members accepted" % _label)
+        except canonical_json.VerifierFault:
+            sys.stdout.write("V009 J4              : refuses %s members\n"
+                             % _label)
+    try:
+        child_manifest.build_manifest(
+            "0" * 64, dict((f, "1" * 64) for f in contracts.INPUT_ROOTS_FIELDS),
+            "o", "r", False, _r)
+        faults += fail("J4: root not matching its members accepted")
+    except canonical_json.VerifierFault:
+        sys.stdout.write("V009 J4              : refuses a root that does not "
+                         "derive from its members\n")
+
+    # Launch inventories, verified against the SEALED GOVERNING SPEC bytes
     _spec = os.path.join(os.path.dirname(ROOT),
-                         "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md")
+                         "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V009.md")
     if os.path.isfile(_spec):
         _t = open(_spec, encoding="utf-8").read()
         _decl = _re.search(r'"required":\[("evidence_manifest_sha256"[^\]]*)\]',
@@ -492,16 +542,18 @@ def main():
             faults += fail("input_roots differ from the sealed schema: %s vs %s"
                            % (_want, sorted(contracts.INPUT_ROOTS_FIELDS)))
         else:
-            sys.stdout.write("V008 inventories     : input_roots match the "
+            sys.stdout.write("V009 inventories     : input_roots match the "
                              "sealed schema (7)\n")
+        _mr = child_manifest.root_member_rows(ROOT)
         _m = child_manifest.build_manifest(
-            "0" * 64, dict((f, "1" * 64) for f in contracts.INPUT_ROOTS_FIELDS),
-            "o", "r", False)
+            contracts.root_from_members(_mr),
+            dict((f, "1" * 64) for f in contracts.INPUT_ROOTS_FIELDS),
+            "o", "r", False, _mr)
         if len(_m["argv"]) != 22:
             faults += fail("argv is %d items, sealed schema says 22"
                            % len(_m["argv"]))
         else:
-            sys.stdout.write("V008 inventories     : argv is the sealed "
+            sys.stdout.write("V009 inventories     : argv is the sealed "
                              "22-item schema\n")
 
     # no load-bearing assert anywhere in the package
@@ -529,7 +581,7 @@ def main():
     # how this fourth V005 reference was found: it was carried by NAME, so
     # grepping for the old digest could not see it.
     spec = os.path.join(os.path.dirname(ROOT),
-                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md")
+                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V009.md")
     if os.path.isfile(spec):
         try:
             census = spec_census.SpecCensus(spec)

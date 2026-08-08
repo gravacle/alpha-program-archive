@@ -10,7 +10,8 @@ import os
 
 from .canonical_json import VerifierFault, encode_canonical
 from .contracts import (VERIFIER_MANIFEST_SCHEMA, validate_verifier_manifest)
-from .hashing import require_sha256, sha256_bytes, sha256_file_unverified
+from .hashing import (read_bytes, require_sha256, sha256_bytes,
+                      sha256_file_unverified)
 
 # Direct-script launcher at the package root. The `-m verifier.verify` form
 # cannot resolve under the pinned `-I` isolation flags (isolated mode removes the
@@ -72,8 +73,23 @@ def package_root_digest(base_dir):
     return sha256_bytes("".join(parts).encode("utf-8"))
 
 
+def root_member_rows(base_dir):
+    """V009-J4: the sealed membership array, generated from THIS package's bytes.
+
+    Instance data, not a constant: the parent consumes this and keeps no private
+    census, so a membership change is a reissued instance.
+    """
+    rows = []
+    for member in package_root_members(base_dir):
+        blob = read_bytes(os.path.join(base_dir, member))
+        rows.append({"byte_length": len(blob),
+                     "relative_path": member,
+                     "sha256": sha256_bytes(blob)})
+    return rows
+
+
 def build_manifest(verifier_root_sha256, input_roots, output_path,
-                   receipt_path, optimize):
+                   receipt_path, optimize, verifier_root_members=None):
     """Construct the launch manifest. `optimize` is DECLARED, never inferred."""
     require_sha256(verifier_root_sha256, "verifier_root_sha256")
     if optimize is not True and optimize is not False:
@@ -122,6 +138,7 @@ def build_manifest(verifier_root_sha256, input_roots, output_path,
             "fail_closed": 2,
         },
         "receipt_authoritative": False,
+        "verifier_root_members": list(verifier_root_members or ()),
     }
     return validate_verifier_manifest(manifest, "verifier manifest")
 

@@ -319,7 +319,7 @@ class EvidenceBundle(object):
 
 
 # --- opcode recomputation ---------------------------------------------------
-# Spec V008 R9: the verifier "replays each pass predicate FROM EVIDENCE BYTES".
+# Spec V009 R9: the verifier "replays each pass predicate FROM EVIDENCE BYTES".
 # Reading `.success` off a producer-emitted result object would let a
 # producer-declared object carry the criterion's direction -- the BR-1
 # violation this lane has enforced against Builder A for twenty relays, and it
@@ -355,7 +355,7 @@ def opcode_dag(args, where):
     cycles, self-parenting and missing parents; compare with required parents.
 
     The single-authority form is the ONLY one implemented here, because it is
-    the only one V008 authorises for a one-object encoding: `P` must be the
+    the only one V009 authorises for a one-object encoding: `P` must be the
     spec-fixed sentinel, and the comparison clause is then discharged by the
     principal ruling's identity -- NOT by synthesizing COMPARE(X,X), which the
     row expressly forbids and which this function therefore never performs.

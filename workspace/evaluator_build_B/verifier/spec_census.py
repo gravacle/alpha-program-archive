@@ -7,7 +7,7 @@ itself. Nothing is taken from the producer's manifests, from Builder A's code,
 or from any mutable receipt. If the producer and the spec disagree, the spec
 wins and the run fails closed.
 
-Governing spec: V008. State R9's duty passage is byte-identical to V005's, so
+Governing spec: V009. State R9's duty passage is byte-identical to V005's, so
 the expectations below are re-derived, not restated:
     "checks the exact 63 blocker IDs plus 3 discrepancy IDs, all 66 V005
      descriptor hashes, the 56/10 class partition, and the 35 carried BOUND +
@@ -22,7 +22,7 @@ import re
 from .canonical_json import VerifierFault
 from .hashing import load_addressed, sha256_bytes
 
-SPEC_SHA256 = "3b24fc39f47d4502b01c1f06faf9f02b7828f5ba0cf4b6a882a3b331ae9c0986"
+SPEC_SHA256 = "900a240df2bfdee5867eb589ae88c7f282810a8c7718999ad5cdf2bfb3f80698"
 
 EXPECTED_TOTAL_IDS = 66
 EXPECTED_BLOCKER_IDS = 63
