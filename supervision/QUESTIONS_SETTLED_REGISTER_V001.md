@@ -14309,6 +14309,18 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as scoping. Routed: RA27-2 derivation (Dario, 716); step-11 envelope authoring opens in parallel (Codex 2, 717).
 
+## Q-623 — Envelope batch 1: all five lowest-risk rows UNSTATEABLE — step 11 is carrier production, not transcription (2026-08-08)
+
+**Question.** Can the formalization remainder's easiest rows be authored as machine envelopes from the corpus as it stands?
+
+**Answer. NO — and the refusal is the finding.** The five lowest-risk SI/S rows after C-B-V009-06 (C-B-V010-12, V008-10, V010-14, V010-11, V009-08) each LACK a complete criterion-visible carrier in the searched corpus. Codex 2 authored five closed rd22.step11-unstateable-envelope.v001 records — every requirement, blocker, descriptor, registry row, partial source, and search disposition content-addressed (source hash + half-open span + span hash), candidate_record null, every missing carrier NAMED, the admission bar in every file — and refused to serialize any requirement sentence as its own witness (the fabrication trap Q-606 named: requirement loci are not displays). Static validation 5/5.
+
+**The implication, stated plainly.** If the five EASIEST rows lack carriers, the 58-row remainder is not transcription of existing evidence into machine form — it is PRODUCTION of the criterion-visible carriers from the sealed prose derivations, row by row. The Q-595 effort map (S17/M16/L26) sized formalization effort; the carrier gap sits beneath it. Step 11's true unit of work: derive/assemble the carrier a row's criterion can see, then envelope it. Calibration of the per-row cost routed as relay 718 (one full carrier production on the best-sourced of the five).
+
+**Basis.** STAGE8_7A_ENVELOPE_BATCH1_CODEX2_V001.md = 7fda8fa0… + five sealed envelope records (18a37cd0…, d7781a08…, 60c7927c…, 06a1fb27…, d89a1faa…), registrar seal-verified, mirrored.
+
+**Status.** SETTLED as authoring calibration. The unstateable form is now the lawful negative-result shape for step 11.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
