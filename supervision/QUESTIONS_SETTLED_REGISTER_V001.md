@@ -14471,6 +14471,20 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED. Routed: THE REFINEMENT BRIDGE DERIVATION (Dario, 729) — F's subdivision behavior from its sealed definition, the functoriality proven or its failure derived, the boundary term's subextensivity under the shape-regular class; and the program-future reclassification sweep (Codex 2, 730).
 
+## Q-635 — The refinement bridge: UNDERDETERMINED, with the free datum located exactly — and it is the connection, not the flux (2026-08-08)
+
+**Question.** Does F's sealed definition determine F on sub-faces?
+
+**Answer. YES ONE LEVEL UP, UNDERDETERMINED ONE LEVEL DOWN — and the location is the finding.** F is a DERIVED FUNCTIONAL (V011: (d_1 a)_f = sum of incident edge values; d_1 d_0 = 0; F_phys = im(d_1); no face is ever assigned a lift — A26 corroborates). The d_1 formula applies verbatim to sub-faces; the silence is one level down: WHAT IS a' ON THE REFINED EDGES. Dario's own first answer (boundary-edge split) was the tidy wrong one, corrected in the artifact: that split is PURE GAUGE and moves nothing. The real locus is the INTERIOR EDGES a subdivision creates — parentless, unconstrained, not absorbed by gauge. The structure is exact: the SUM of sub-face fluxes is fixed by the parent (interior edges cancel by opposite incidence — flux transports), while the INDIVIDUAL fluxes carry k-1 free parameters. And that is precisely why T11's gap is real and why it looked closed to everyone including 725: FLUX ADDS (the thing everyone checks) — THE MEASURE SQUARES (a quadratic form is not a function of the sum). The same k-1 parameters that leave the total alone move V_cell·sum F^2.
+
+**Free datum, named:** the connection-refinement rule on interior edges — the distribution of the parent's flux among k sub-faces at fixed total. Once a' is fixed, xi' is FORCED by d_1 and functoriality becomes decidable. Not adopted; the obvious candidates (equidistribution, proportional-to-area) are exactly what the void condition governs. Not obstructed: many extensions, none selected. Nothing supplies it (writer-excluded zero counts; three near-carriers opened, none assigns a').
+
+**Discipline items.** The divergence lens was applied and HONESTLY DECLINED — an underdetermination is not a signal, and Dario recorded that the K-axes sentence would have read stronger and been false. One line flagged PART-PROVABLE for sealing: interior-edge cancellation needs the subdivision's standard incidence data, which is what a subdivision is but is not found sealed. One zero-weight ledger adjacency: an iterated CHOSEN scheme could make sum F^2 scheme-dependent in the limit — BATT's refinement-dependence — conditional on objects nobody built, not promoted.
+
+**Basis.** STAGE8_7A_REFINEMENT_BRIDGE_DARIO_V001.md = 972eae9ac7bbc66203fb43c547eebc68b85fe7ebcfc2f22780ed82340668cf4f (12/12; VOID clean).
+
+**Status.** SETTLED as derivation. Routed (hunt-before-adopt, again): THE CHARACTERIZATION (Dario, 731) — conditional and adoption-free: over all interior-edge rules, which (if any) make the measure functorial with subextensive boundary under the shape-regular class? UNIQUE -> the adoption question collapses to require-shaped; NONE -> a theorem (irreducible scheme-dependence — reshapes everything); FAMILY -> genuine freedom for the principal. Plus: derive the incidence line from the frozen moves' own definitions or name it for sealing.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

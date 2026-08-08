@@ -568,8 +568,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 726 | Codex 2 | [7A/STEP11] instance batch 1 | **RETURNED via outbox (ACK). 5 honest partials, gaps named; compiler refused all 5 at schema (fail-closed proven). Q-633.** |
 | 727 | Dario | [7A/STEP8] RA27-2 build | **RETURNED. INDEX BUILT+STANDS; build STOPPED at LL2 — the refinement bridge (T11's gap) is the one missing derivation; patch refused. Q-634.** |
 | 728 | Codex 2 | [7A/STEP11] V008-10 stage artifacts located + bound; parent-map root | QUEUED — NOT ANNOUNCED |
-| 729 | Dario | [7A/STEP8] THE REFINEMENT BRIDGE: F under subdivision from its sealed definition | **SENT (ACK observed)** |
+| 729 | Dario | [7A/STEP8] refinement bridge | **RETURNED. UNDERDETERMINED — free datum = the connection-refinement rule on INTERIOR edges (k-1 params; flux adds, measure squares). Q-635.** |
 | 730 | Codex 2 | [7A/STEP11] program-future reclassification sweep + corrected bands | **SENT (ACK observed)** |
+| 731 | Dario | [7A/STEP8] the functoriality characterization: UNIQUE / NONE / FAMILY (adoption-free) | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
