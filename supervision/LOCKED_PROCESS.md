@@ -433,3 +433,12 @@ negative control showing a truncated span fails. Companions: the SEARCHED-SPACE
 CLAUSE (absence names its space) and byte-not-character offsets on non-ASCII
 sources. Scope, not reasoning, is the recurring failure mode; these three laws
 are its closure.
+
+## THE OBJECT-NAMES PROBE (2026-08-08, from Q-624 — the fourth scope-class law)
+
+A search for prior work probes THE OBJECT'S OWN NAMES, never only the demand's
+vocabulary — the demand says Ref_a where the prior work says T_ref/C_ref, and
+a demand-vocabulary search reports an untouched ground that is in fact sealed.
+Companion: span end offsets are GENERATED from the quote's last token, never
+estimated. With the searched-space clause, the span-coverage rule, and
+byte-offsets, this closes the four named scope-failure kinds.

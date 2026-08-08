@@ -14321,6 +14321,22 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as authoring calibration. The unstateable form is now the lawful negative-result shape for step 11.
 
+## Q-624 — RA27-2: stock does NOT force the same-region relation; the fork is the TOPOLOGY, and it is the principal's (2026-08-08)
+
+**Question.** Does sealed stock force the same-region relation A27's root demands?
+
+**Answer. NOT FORCED — at refuted strength, with the obstruction LOCATED.** Seven generators, all block-covered: the two record-native licensed moves (cubical bisection; oriented subdivision, both frozen in V011's C_ref), four invertible-only built moves whose closure is the relabeling groupoid (by TYPE it cannot relate two genuinely different cellulations of one region), and the seventh — the common-refinement family — BARRED AS CIRCULAR: its admissibility clause consults "the same SMOOTH coframe and connection" while DoR-007 grounds smoothness as existing only as a refinement limit whose cellulation-independence is the theorem's content. The generator consults, as input, the object the theorem must produce. Reflexivity/composition/symmetry-on-the-invertible-part are forced; transitivity-as-equivalence requires the span closure through a common refinement — exactly the barred generator; three sealed TYPE-R verdicts close the obvious repairs BY NAME; and uniqueness is REFUTED BY CONSTRUCTION (the (D2-4) countermodel: lambda-scaling leaves every sealed equation unchanged; no sealed law chooses lambda). Certificate: negative — the reachable relation is a preorder with a groupoid core; the obstruction lives at the span closure alone.
+
+**The fork (surfaced, not decided; §3.6 of the artifact):** (1) THE TOPOLOGY — {tau_norm, tau_cyl, tau_density}: "No authority proves these equivalent or selects one," and T_ref quantifies over "one frozen topology" never frozen. The smallest adoption: no generator, no member, no smooth import — it fixes the SENSE of the limit. Corpus-stated costs: tau_norm "lacks geometric realization"; tau_cyl "admits a bidual tail"; tau_density "named operationally by V011 but not defined as a complete topological carrier" — the physics-preferred and least built. (2) THE SHAPE CONDITION — already a HELD CONFLICT before the principal, PRODUCTION PROHIBITED on the D3 refinement spec; no later ruling found (searched by content, lower bound stated). (3) A DECLINED IDENTIFICATION, elevated as a question: (D2-4)'s lambda and U1's beta are both undetermined positive scales on the record cell; identifying them would let ONE adoption close TWO gaps — but the corpus does not say they are one object (Q-08's standing habit: TWO OBJECTS, NO BRIDGE), so it is asked, not asserted.
+
+**U1 effect, corrected from 715:** J2 lacks TWO things — the domain (Ref, stated but not instantiated) and a frozen topology (the limit's sense). Freezing the topology converts J2 from not-yet-meaningful to meaningful-and-unquantified; the carrier stays PENDING; Q-126 untouched.
+
+**Process law from the disclosure.** Dario's central finding was already of record (a sealed Codex Lane 1 TYPE-R result, 2026-08-02, naming the three topologies and proving the germ-independent half of T_ref) and its 715 search missed it: the search probed the DEMAND'S vocabulary (Ref_a) where the prior work uses the OBJECT'S (T_ref, C_ref) — a fourth scope-failure kind. THE OBJECT-NAMES PROBE is now law: search by the object's names, not only the demand's. Also: the block-coverage check fired on first real use (caught three short spans pre-seal); the mechanical companion adopted — generate end offsets from the quote's last token, never a length guess.
+
+**Basis.** STAGE8_7A_RA27_2_SAME_REGION_DARIO_V001.md = 5234141f065d57684de6e54f453bb835408749f81752c186750cfd11cc29fc06; nothing adopted; the fork stands for the principal.
+
+**Status.** SETTLED as derivation-with-fork. Principal ruling requested: the topology adoption; the shape-condition timing; the lambda/beta question.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
