@@ -502,9 +502,13 @@ as a non-discriminating require, which is what its text supports.
    here. That is the second consecutive relay where my own newly-installed law caught
    what my previous search had not — which is evidence the law was needed, and also
    evidence about how much of my earlier scoping rested on vocabulary luck.
-4. **Two of my probes failed on line wraps again** while generating R4 and R6's spans;
-   the whitespace rule caught them before they entered the artifact. The spans here
-   were all generated end-from-last-token per my own 716 rule, and block-covered.
+4. **Line wraps tripped me three times in this one relay** — twice while generating
+   R4 and R6's spans, and once inside my own pin check, which tested a raw string for
+   an adoption bar that is present but wrapped. The artifact was correct each time and
+   the check was wrong the third time. The lesson is narrow and worth stating:
+   **the whitespace rule binds the verification code as tightly as the prose.** The
+   spans here were all generated end-from-last-token per my own 716 rule, and
+   block-covered.
 5. No verb here proves, authorizes, computes, binds a member, forms a common cell,
    evaluates a junction map, adopts anything, or grants a seal.
 

@@ -14365,6 +14365,22 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as classification. The one principal carrier-selection item (U class) surfaces with 721's return.
 
+## Q-627 — The require-hunt: tau_cyl ELIMINATED, the free set halves, and the decisive test is cheap (2026-08-08)
+
+**Question.** Does any sealed require force the topology (the principal's allow/require reframe of Q-624's fork)?
+
+**Answer. UNDERDETERMINED({tau_norm, tau_density}) — tau_cyl ELIMINATED.** Eight requires enumerated by verbatim modality (R1–R8; one allow; zero wants), the 3x8 matrix displayed. tau_cyl falls to a TWO-LINK certificate: R3 (4d's would-build field 3 demands the frozen topology "not acquire a bidual moving tail"; 4d's own text says tau_cyl alone admits one) and R6 (the composition requires P7 separation, which Q-247 records as FAILING in the bidual weak-star class). One of 716's three "costs" WAS a disqualification in disguise — and the other two were NOT (a missing-object condition and a definitional gap; scoring them as violations would have been the same modality error in the other direction). tau_norm satisfies every testable require, and the only conditional composition theorem of record is already written over its class. tau_density is UNDETERMINED — not defined as a topological carrier, so untestable.
+
+**The refusal that matters.** Exactly one candidate survives everything testable — the shape of FORCED, and the relay's wording licensed it. Dario DECLINED: booking FORCED would treat "not yet a defined carrier" as "eliminated," converting inability-to-see into a negative verdict — the move the jurisdiction check forbids. The asymmetry is displayed at full strength; the call routed to the principal — WITH the decisive cheap test named: DEFINE tau_density as a complete topological carrier (from V011's operational content) and re-run the matrix. Violates R3/R6 -> FORCED(tau_norm) by honest elimination; survives -> a genuine two-way principal choice. Either outcome is a result.
+
+**Two discoveries via the object-names probe (first use, both load-bearing):** Lane 2's cellulation-independence theorem naming the five public consumers of the limit; and an R4-kernel VOID CONDITION barring a topology "chosen from desired coefficient" — an anti-tuning bar on the selection act itself, standing before the selection was ever posed.
+
+**Independence and honesty items.** The topology and lambda/beta decisions are INDEPENDENT (no enumerated require carries a scale law; R2's four-volume bearing is undeterminable — (D2-4) supplies no boundary-term scaling, and deriving one would author uncommissioned physics; named UNDETERMINED). The tau_cyl elimination's R3 link is TYPE-P — a forward requirement on the stated package, not an impossibility proof; replacing R3 would return tau_cyl, and that replacement is the principal's alone. Dario's disclosures: presenting a disqualification as a "cost" flattened modality (the very thing allow/require law turns on); line wraps tripped its verification code three times — the whitespace rule binds checks as tightly as prose.
+
+**Basis.** STAGE8_7A_TOPOLOGY_REQUIRE_HUNT_DARIO_V001.md = 961a76c4634d33e06da7f520685ef52e5fdeb98abe80906c979fe016a66881c9 (11/11 pin check, all spans block-covered, offsets generated). Nothing adopted.
+
+**Status.** SETTLED as hunt. Routed: the tau_density carrier definition + matrix re-run (Dario, 722) — the decisive test before any adoption question returns to the principal.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
