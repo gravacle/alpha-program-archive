@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:rd22:step11:tooling-family1-contract:v001",
+  "$defs": {
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_id", "box_id", "row_id", "consumer_family", "source_class", "state", "schema_id"],
+      "properties": {
+        "target_id": {"type":"string","minLength":1},
+        "box_id": {"type":"string","minLength":1},
+        "row_id": {"type":"string","minLength":1},
+        "consumer_family": {"type":"string","minLength":1},
+        "source_class": {"enum":["SCHEMA","U"]},
+        "state": {"enum":["CONTRACT_READY","OUT_OF_SCOPE_U"]},
+        "schema_id": {"type":"string"}
+      }
+    },
+    "target_manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "schema_delta_sha256", "targets"],
+      "properties": {
+        "schema": {"const":"rd22.step11.tooling-family1-targets.v001"},
+        "schema_delta_sha256": {"type":"string","pattern":"^[0-9a-f]{64}$"},
+        "targets": {"type":"array","minItems":19,"maxItems":19,"uniqueItems":true,"items":{"$ref":"#/$defs/target"}}
+      }
+    },
+    "source_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_id", "available", "instance_relative_path", "instance_sha256", "missing_owner"],
+      "properties": {
+        "target_id": {"type":"string","minLength":1},
+        "available": {"type":"boolean"},
+        "instance_relative_path": {"type":"string"},
+        "instance_sha256": {"type":"string"},
+        "missing_owner": {"type":"string"}
+      }
+    },
+    "source_manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "target_manifest_sha256", "entries"],
+      "properties": {
+        "schema": {"const":"rd22.step11.tooling-family1-sources.v001"},
+        "target_manifest_sha256": {"type":"string","pattern":"^[0-9a-f]{64}$"},
+        "entries": {"type":"array","minItems":19,"maxItems":19,"uniqueItems":true,"items":{"$ref":"#/$defs/source_entry"}}
+      }
+    },
+    "target_outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_id", "box_id", "row_id", "status", "component_relative_path", "component_sha256", "missing_owner", "admission"],
+      "properties": {
+        "target_id": {"type":"string","minLength":1},
+        "box_id": {"type":"string","minLength":1},
+        "row_id": {"type":"string","minLength":1},
+        "status": {"enum":["PRODUCED","MISSING_INPUT","OUT_OF_SCOPE_U"]},
+        "component_relative_path": {"type":"string"},
+        "component_sha256": {"type":"string"},
+        "missing_owner": {"type":"string"},
+        "admission": {"const":"BARRED_STEP11_SUBGATE"}
+      }
+    },
+    "row_outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["row_id", "state", "component_sha256", "missing_owners", "admission"],
+      "properties": {
+        "row_id": {"type":"string","minLength":1},
+        "state": {"enum":["STATEABLE_COMPONENTS_PRESENT_ADMISSION_BARRED","PARTIAL_SCHEMA_READY_INPUT_ABSENT","UNCHANGED_OUT_OF_SCOPE_U"]},
+        "component_sha256": {"type":"array","uniqueItems":true,"items":{"type":"string","pattern":"^[0-9a-f]{64}$"}},
+        "missing_owners": {"type":"array","uniqueItems":true,"items":{"type":"string","minLength":1}},
+        "admission": {"const":"BARRED_STEP11_SUBGATE"}
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["targets", "produced", "missing_input", "out_of_scope_u"],
+      "properties": {
+        "targets": {"type":"integer","minimum":0},
+        "produced": {"type":"integer","minimum":0},
+        "missing_input": {"type":"integer","minimum":0},
+        "out_of_scope_u": {"type":"integer","minimum":0}
+      }
+    },
+    "result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "schema_delta_sha256", "target_manifest_sha256", "source_manifest_sha256", "grounding_pins_verified", "summary", "targets", "rows", "admission", "chain_invoked"],
+      "properties": {
+        "schema": {"const":"rd22.step11.tooling-family1-result.v001"},
+        "schema_delta_sha256": {"type":"string","pattern":"^[0-9a-f]{64}$"},
+        "target_manifest_sha256": {"type":"string","pattern":"^[0-9a-f]{64}$"},
+        "source_manifest_sha256": {"type":"string","pattern":"^[0-9a-f]{64}$"},
+        "grounding_pins_verified": {"type":"integer","minimum":0},
+        "summary": {"$ref":"#/$defs/summary"},
+        "targets": {"type":"array","minItems":19,"maxItems":19,"items":{"$ref":"#/$defs/target_outcome"}},
+        "rows": {"type":"array","minItems":1,"items":{"$ref":"#/$defs/row_outcome"}},
+        "admission": {"const":"BARRED_STEP11_SUBGATE"},
+        "chain_invoked": {"const":false}
+      }
+    }
+  }
+}

@@ -14421,6 +14421,16 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED. Every thread of the stitching arc now points at ONE remaining object: RA27-2's same-region relation. The adoption package (the free choices that close it, well-typed under this ruling) assembles as relay 725.
 
+## Q-631 — The carrier compiler: built, proven, and honestly starved — the pipeline's true order is schema -> INSTANCE -> compile (2026-08-08)
+
+**Question.** Does generator family 1 produce the contract-ready components?
+
+**Answer.** The COMPILER is real and proven: content-addressed validation end-to-end, tight canonical output, path-escape and collision refusal, no load-bearing assert; all three negative controls fire (perturbed digest, nonconforming instance, truncated span) and the positive control accepts. PRODUCED = 0, correctly: the four sealed boxes have NO SEALED SCHEMA-INSTANCE SOURCES OF RECORD — the compiler validates and binds instances, it cannot originate them, and requirement prose was not serialized as a carrier. Census discrepancy surfaced honestly: of the 19 direct C elements, only 5 are contract-ready targets; 14 belong to the U-boxes (13 corpus instances + BX08). Four rows advance to PARTIAL_SCHEMA_READY_INPUT_ABSENT with owners named. The pipeline's true order: box schema (4 sealed) -> INSTANCE authored from sealed prose (the S11-FORMAL work) -> compiler binds. Routed: instance authoring for the five contract-ready targets (Codex 2, 726). The 13 corpus instances remain on the registrar's rule-run (sealed rule c97b22fd…).
+
+**Basis.** 723 outbox report; tool e5ac5f57…, contract 055e05ca…, target manifest 477d0389…; mirrored.
+
+**Status.** SETTLED as tooling milestone.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
