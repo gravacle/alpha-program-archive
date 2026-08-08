@@ -546,7 +546,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 703 | Codex 2 | [6/TRANCHE] V012 row citation | **RETURNED. Row hash b63a1335->da486b9a; only linkage fields changed (registrar-verified); census 19->21; code unchanged.** |
 | 704 | Dario | [6/TRANCHE] V012 confirmation | **RETURNED. Amendment linkage-only (constant never moved V007-V012); r_ground resolves; criterion reduces to a value. Run-032 attempt: fail-closed HASH_MISMATCH — 2 stale cross-boundary pins (schema, instance) of 248 checked.** |
 | 705 | Codex 2 | [6/TRANCHE] boundary re-pin | **RETURNED. Preflight 248/0. RUN 033: CONFIRMED — 1 PASS, 58 expected absences, ZERO findings on V009-06, children agree. Q-617. ROAD STEP 1 DONE.** |
-| 706 | Codex 2 | [6/L-V2] Lineage V2 baseline + the thirty-row matrix rerun | LOADED — NOT SENT |
+| 706 | Codex 2 | [6/L-V2] Lineage V2 baseline + the thirty-row matrix rerun | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
