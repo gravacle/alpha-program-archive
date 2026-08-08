@@ -97,54 +97,6 @@ def file_row(path, relative):
     return {"byte_length": len(data), "relative_path": relative, "sha256": sha(data)}
 
 
-def generated_verifier_members(cleanroom):
-    """Generate the V009 root-member carrier from the two sealed disclosures."""
-    root_source = cleanroom / "STAGE8_TASK6_SCHEMA_IN_ROOT_DARIO_V001.md"
-    integration_report = cleanroom / "STAGE8_TASK6_V008_INTEGRATION_DARIO_V001.md"
-    verifier_instance = cleanroom / "evaluator_build_B/rd22.verifier-manifest.v001.json"
-    verifier_package = cleanroom / "evaluator_build_B"
-    for kind, path in (
-        ("root_membership_source", root_source),
-        ("verifier_v008_integration_report", integration_report),
-        ("verifier_manifest_v008", verifier_instance),
-    ):
-        row = PIN_ROWS[kind]
-        data = path.read_bytes()
-        if len(data) != row["byte_length"] or sha(data) != row["sha256"]:
-            die("VERIFIER_MEMBER_SOURCE_PIN", kind)
-    root_text = root_source.read_text(encoding="utf-8")
-    try:
-        member_block = root_text.split("### 1.2 The member list — 12, package-relative, sorted", 1)[1].split("```text", 1)[1].split("```", 1)[0]
-    except IndexError:
-        die("VERIFIER_BASE_MEMBER_BLOCK", root_source)
-    base_members = []
-    for line in member_block.splitlines():
-        match = re.match(r"^(contracts/[^ ]+|run_verifier\.py|verifier/[^ ]+\.py)", line.strip())
-        if match is not None:
-            base_members.append(match.group(1))
-    if len(base_members) != 12 or base_members != sorted(base_members):
-        die("VERIFIER_BASE_MEMBER_CENSUS", base_members)
-    report_text = integration_report.read_text(encoding="utf-8")
-    disclosed = sorted(set(re.findall(r"verifier/preconditions\.py", report_text)))
-    if disclosed != ["verifier/preconditions.py"] or "root MEMBERSHIP 12 -> 13" not in report_text:
-        die("VERIFIER_MEMBER_ADDITION_DISCLOSURE", disclosed)
-    members = sorted(base_members + disclosed)
-    if len(members) != 13 or len(set(members)) != 13:
-        die("VERIFIER_MEMBER_CENSUS", members)
-    rows = []
-    for relative in members:
-        path = verifier_package / relative
-        if not path.is_file():
-            die("VERIFIER_MEMBER_MISSING", relative)
-        rows.append(file_row(path, relative))
-    root = sha("".join(row["sha256"] for row in rows).encode("utf-8"))
-    instance_data = verifier_instance.read_bytes()
-    instance = json.loads(instance_data.decode("utf-8"))
-    if canonical(instance) != instance_data or instance.get("verifier_root_sha256") != root:
-        die("VERIFIER_GENERATED_ROOT", {"generated": root, "declared": instance.get("verifier_root_sha256")})
-    return {"members": rows, "schema": "rd22.verifier-root-members.v001", "verifier_root_sha256": root}
-
-
 def split_row(line):
     if not line.startswith("|") or not line.rstrip().endswith("|"):
         return []
@@ -547,11 +499,6 @@ def schemas():
         "subject-resolution.schema.json": {
             "$id": "rd22.subject-evidence-resolution.v001", **subject_resolution,
         },
-        "verifier-root-members.schema.json": {
-            "$id": "rd22.verifier-root-members.v001", "additionalProperties": False,
-            "properties": {"members": {"items": verifier_member_row, "minItems": 1, "type": "array"}, "schema": {"const": "rd22.verifier-root-members.v001", "type": "string"}, "verifier_root_sha256": digest},
-            "required": ["members", "schema", "verifier_root_sha256"], "type": "object",
-        },
         "producer-output.schema.json": {
             "$id": "rd22.producer-output.v001", "additionalProperties": False,
             "properties": {"authority_firewall": object_value, "check_map_sha256": digest, "checks": {"items": check_row, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "monotonic_duration": {"type": "number"}, "process_id": integer, "python_optimize": integer, "schema": {"const": "rd22.producer-output.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage_root": digest, "summary": object_value},
@@ -728,8 +675,6 @@ def main():
         subject_entries.append(file_row(path, relative))
     subject = {"declared_root": content_root(subject_entries), "files": sorted(subject_entries, key=lambda item: item["relative_path"]), "schema": "rd22.subject-lineage-manifest.v001"}
     write_json(package / "inputs/subject_lineage_manifest.json", subject)
-    verifier_members = generated_verifier_members(cleanroom)
-    write_json(package / "inputs/verifier_root_members.generated.json", verifier_members)
     structural_ids = [row["check_id"] for row in rows if row["execution_class"] == "STRUCTURAL"]
     structural_fixture_ids = [row["fixture_id"] for row in fixtures if row["execution_class"] == "STRUCTURAL"]
     evidence_dir = package / "inputs/evidence"
@@ -787,7 +732,7 @@ def main():
     evidence_payload_relatives = [f"inputs/evidence/{row['relative_path']}" for row in payload_inventory]
     runtime_relatives = [
         "parent.py", "producer.py", "checks/check_map.json", "fixtures/fixture_manifest.json",
-        "inputs/structural_evidence_manifest.json", "inputs/subject_lineage_manifest.json", "inputs/verifier_root_members.generated.json", "manifests/pins.json",
+        "inputs/structural_evidence_manifest.json", "inputs/subject_lineage_manifest.json", "manifests/pins.json",
     ] + evidence_payload_relatives + [f"schemas/{name}" for name in sorted(schemas())]
     package_rows = [file_row(package / relative, relative) for relative in runtime_relatives]
     external = [

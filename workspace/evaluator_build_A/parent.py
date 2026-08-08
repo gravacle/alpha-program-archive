@@ -552,14 +552,12 @@ def verify_package_inventory(package_root, manifest):
         "checks/check_map.json",
         "fixtures/fixture_manifest.json",
         "inputs/structural_evidence_manifest.json",
-        "inputs/verifier_root_members.generated.json",
         "manifests/pins.json",
         "schemas/child-receipt.schema.json",
         "schemas/producer-output.schema.json",
         "schemas/terminal-ledger.schema.json",
         "schemas/subject-resolution.schema.json",
         "schemas/verifier-manifest.schema.json",
-        "schemas/verifier-root-members.schema.json",
     }
     if not required.issubset(seen):
         fail("PACKAGE_REQUIRED_FILES", sorted(required-seen))

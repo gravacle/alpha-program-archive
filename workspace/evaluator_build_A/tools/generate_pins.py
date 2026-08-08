@@ -34,7 +34,6 @@ def main():
         "integration_addendum": (cleanroom / "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md", "alpha_fundamental_record_action_cleanroom_v003/STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md"),
         "packet_manifest": (packet / "STAGE7_PACKET_MANIFEST_V001.sha256", "alpha_fundamental_record_action_cleanroom_v003/review_packets/STAGE7_QSPEC_CANDIDATE_V001/STAGE7_PACKET_MANIFEST_V001.sha256"),
         "packet_v011": (packet / "BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md", "alpha_fundamental_record_action_cleanroom_v003/review_packets/STAGE7_QSPEC_CANDIDATE_V001/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md"),
-        "root_membership_source": (cleanroom / "STAGE8_TASK6_SCHEMA_IN_ROOT_DARIO_V001.md", "alpha_fundamental_record_action_cleanroom_v003/STAGE8_TASK6_SCHEMA_IN_ROOT_DARIO_V001.md"),
         "runtime_gate": (program / "primitive_step6_content_addressed_runtime_gate_v010.md", "primitive_step6_content_addressed_runtime_gate_v010.md"),
         "runtime_snapshot": (program / "provenance/primitive_step6_runtime_snapshot_v012.json", "provenance/primitive_step6_runtime_snapshot_v012.json"),
         "source_parent_gate": (packet / "BID_SOURCE_PARENT_CLOSURE_GATE_V003.md", "alpha_fundamental_record_action_cleanroom_v003/review_packets/STAGE7_QSPEC_CANDIDATE_V001/BID_SOURCE_PARENT_CLOSURE_GATE_V003.md"),
@@ -43,8 +42,8 @@ def main():
         "specification_base_v007": (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md", "alpha_fundamental_record_action_cleanroom_v003/STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md"),
         "specification_v005": (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md", "alpha_fundamental_record_action_cleanroom_v003/STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md"),
         "specification_v006": (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V006.md", "alpha_fundamental_record_action_cleanroom_v003/STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V006.md"),
-        "verifier_manifest_v008": (cleanroom / "evaluator_build_B/rd22.verifier-manifest.v001.json", "alpha_fundamental_record_action_cleanroom_v003/evaluator_build_B/rd22.verifier-manifest.v001.json"),
-        "verifier_v008_integration_report": (cleanroom / "STAGE8_TASK6_V008_INTEGRATION_DARIO_V001.md", "alpha_fundamental_record_action_cleanroom_v003/STAGE8_TASK6_V008_INTEGRATION_DARIO_V001.md"),
+        "verifier_manifest_v009": (cleanroom / "evaluator_build_B/rd22.verifier-manifest.v001.json", "alpha_fundamental_record_action_cleanroom_v003/evaluator_build_B/rd22.verifier-manifest.v001.json"),
+        "verifier_v009_confirmation_report": (cleanroom / "STAGE8_TASK6_V009_CONFIRMATION_DARIO_V001.md", "alpha_fundamental_record_action_cleanroom_v003/STAGE8_TASK6_V009_CONFIRMATION_DARIO_V001.md"),
         "verifier_verdict_schema": (cleanroom / "evaluator_build_B/contracts/verifier_verdict.schema.json", "alpha_fundamental_record_action_cleanroom_v003/evaluator_build_B/contracts/verifier_verdict.schema.json"),
     }
     rows = []

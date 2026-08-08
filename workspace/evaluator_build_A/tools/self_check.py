@@ -6,7 +6,6 @@ import hashlib
 import importlib.util
 import json
 import re
-import shutil
 import subprocess
 import sys
 import tempfile
@@ -52,7 +51,6 @@ def pin(kind):
 
 ADDENDUM_SHA256 = pin("integration_addendum")
 VERDICT_SCHEMA_SHA256 = pin("verifier_verdict_schema")
-ROOT_MEMBERSHIP_SOURCE_SHA256 = pin("root_membership_source")
 SPEC_SHA256 = pin("specification")
 SPEC_BASE_V008_SHA256 = pin("specification_base_v008")
 SPEC_BASE_V007_SHA256 = pin("specification_base_v007")
@@ -405,19 +403,17 @@ def main():
     package_inventory = json_values["package_inventory.json"]
     parent_module = load_parent(package)
     producer_module = load_producer(package)
-    root_membership_source = cleanroom / "STAGE8_TASK6_SCHEMA_IN_ROOT_DARIO_V001.md"
-    if digest(root_membership_source.read_bytes()) != ROOT_MEMBERSHIP_SOURCE_SHA256:
-        stop("ROOT_MEMBERSHIP_SOURCE_PIN", root_membership_source)
-    b_report = PROGRAM_ROOT / PIN_ROWS["verifier_v008_integration_report"]["relative_path"]
-    b_instance = PROGRAM_ROOT / PIN_ROWS["verifier_manifest_v008"]["relative_path"]
-    for kind, path in (("verifier_v008_integration_report", b_report), ("verifier_manifest_v008", b_instance)):
+    b_report = PROGRAM_ROOT / PIN_ROWS["verifier_v009_confirmation_report"]["relative_path"]
+    b_instance = PROGRAM_ROOT / PIN_ROWS["verifier_manifest_v009"]["relative_path"]
+    for kind, path in (("verifier_v009_confirmation_report", b_report), ("verifier_manifest_v009", b_instance)):
         data = path.read_bytes()
         if len(data) != PIN_ROWS[kind]["byte_length"] or digest(data) != pin(kind):
             stop("VERIFIER_MEMBERSHIP_SOURCE_PIN", kind)
-    root_carrier = json_values["verifier_root_members.generated.json"]
-    if set(root_carrier) != {"members", "schema", "verifier_root_sha256"} or root_carrier["schema"] != "rd22.verifier-root-members.v001":
-        stop("ROOT_MEMBER_CARRIER", root_carrier)
-    member_rows = root_carrier["members"]
+    b_instance_data = b_instance.read_bytes()
+    b_instance_value = json.loads(b_instance_data.decode("utf-8"), object_pairs_hook=pairs, parse_constant=nonfinite)
+    if parent_module.canonical_bytes(b_instance_value) != b_instance_data or "verifier_root_members" not in b_instance_value:
+        stop("ROOT_MEMBER_INSTANCE", b_instance)
+    member_rows = b_instance_value["verifier_root_members"]
     expected_root_members = tuple(row.get("relative_path") for row in member_rows)
     if len(member_rows) != 13 or expected_root_members != tuple(sorted(expected_root_members)) or len(set(expected_root_members)) != 13:
         stop("ROOT_MEMBER_CENSUS", expected_root_members)
@@ -429,13 +425,11 @@ def main():
         if len(data) != row["byte_length"] or digest(data) != row["sha256"]:
             stop("ROOT_MEMBER_BYTES", row["relative_path"])
     computed_verifier_root = digest("".join(row["sha256"] for row in member_rows).encode("utf-8"))
-    b_instance_value = json.loads(b_instance.read_text(encoding="utf-8"))
     if (
-        computed_verifier_root != root_carrier["verifier_root_sha256"]
-        or computed_verifier_root != b_instance_value["verifier_root_sha256"]
+        computed_verifier_root != b_instance_value["verifier_root_sha256"]
         or "verifier/preconditions.py" not in expected_root_members
     ):
-        stop("ROOT_MEMBER_BINDING", {"computed": computed_verifier_root, "carrier": root_carrier["verifier_root_sha256"], "instance": b_instance_value["verifier_root_sha256"]})
+        stop("ROOT_MEMBER_BINDING", {"computed": computed_verifier_root, "instance": b_instance_value["verifier_root_sha256"]})
     if hasattr(parent_module, "VERIFIER_ROOT_TRANSCRIBED_MEMBERS"):
         stop("ROOT_MEMBER_TRANSCRIPTION_REMAINS", "parent constant")
     verdict_schema_rows = [row for row in normal["external_inputs"] if row["kind"] == "verifier_verdict_schema"]
@@ -808,12 +802,21 @@ def main():
     if not pin_closure_hits["name"] or not pin_closure_hits["value"]:
         stop("PIN_CLOSURE_CENSUS", pin_closure_hits)
     pin_closure_total = len(pin_closure_hits["name"]) + len(pin_closure_hits["value"])
-    report_text = b_report.read_text(encoding="utf-8")
-    superseded_section = report_text.split("superseded roots, by value", 1)[1].split("V007 by VALUE", 1)[0]
-    superseded_root_prefixes = sorted(set(re.findall(r"\b[0-9a-f]{8}\b", superseded_section)))
-    if len(superseded_root_prefixes) != 5:
-        stop("SUPERSEDED_ROOT_SOURCE", superseded_root_prefixes)
-    superseded_root_hits = []
+    stale_member_values = [
+        "43cf" + "f85d402a93753427f63607075d5c5ebff7d73e7b0ebe1090b2655c7f64db",
+        "8ff8" + "b2cf9fe04d409965997d0a0c7ebe870a574ceeb84ab9547d554a5b672631",
+        "755c" + "7529cc6a10d4e9fa06dccf5e0648d0cc80100983da21a319c12d8dd19e6e",
+        "29d9" + "04a1b722d0955524ce029319af07610d41436d88987b6055043f17b217f9",
+        "e715" + "27e98c3b2332bf7e13843688d173acac79a8be4190c5cc9ea6b88b2260d9",
+        "b96c" + "dca78830658cd523d23ea51ec50b2448aae8f722f916d78be2c71f8de2da",
+        "2fae" + "7b80f5b595502915289ac2cf1f75e31d40e78631d8def7eb522db42fde40",
+        "553a" + "e0f0c6e934b5703d48180c374e184082a28f66064bc83ed38b3ffb7687a5",
+    ]
+    stale_member_names = [
+        "verifier_root_" + "members.generated.json",
+        "verifier-root-" + "members.schema.json",
+    ]
+    g2_pin_closure_hits = {"name": [], "value": []}
     for path in sorted(package.rglob("*")):
         if not path.is_file() or any(part in {"outputs", "pycache"} for part in path.relative_to(package).parts):
             continue
@@ -822,12 +825,13 @@ def main():
         except UnicodeDecodeError:
             continue
         relative = str(path.relative_to(package))
-        for prefix in superseded_root_prefixes:
-            for line_number, line in enumerate(text.splitlines(), 1):
-                if prefix in line:
-                    superseded_root_hits.append((relative, line_number, prefix))
-                    if not relative.startswith("inputs/evidence/") and relative not in {"manifests/package_inventory.json", "manifests/pins.json"}:
-                        stop("SUPERSEDED_ROOT_LIVE_HIT", (relative, line_number, prefix))
+        for label, terms in (("name", stale_member_names), ("value", stale_member_values)):
+            for term in terms:
+                for line_number, line in enumerate(text.splitlines(), 1):
+                    if term in line:
+                        g2_pin_closure_hits[label].append((relative, line_number, term))
+    if g2_pin_closure_hits != {"name": [], "value": []}:
+        stop("G2_STALE_MEMBER_CLOSURE", g2_pin_closure_hits)
     registry_block = spec_data.split(b"#### V007 sealed-corpus law for `M2(q,S)`", 1)[1].split(b"#### V003 criterion-result binding", 1)[0]
     registry_ids = set(re.findall(rb"(?m)^\| `(C-[^`]+)` \|", registry_block))
     m2_ids = {
@@ -893,7 +897,6 @@ def main():
         "pin-manifest.schema.json": [pin_manifest],
         "structural-evidence.schema.json": [evidence],
         "subject-resolution.schema.json": subject_resolutions,
-        "verifier-root-members.schema.json": [root_carrier],
     }
     for schema_name, targets in schema_targets.items():
         schema = json_values[schema_name]
@@ -1023,43 +1026,13 @@ def main():
         or [row.get("const") for row in argv_schema.get("prefixItems", [])] != expected_argv_template
     ):
         stop("VERIFIER_NESTED_FIELDS", "wrong")
-    synthetic_verifier = {
-        "argv": expected_argv_template,
-        "entry_point": "run_verifier.py",
-        "exit_contract": {"fail_closed": 2, "faults_found": 1, "verified": 0},
-        "input_roots": {field: empty_digest for field in input_root_fields},
-        "optimize": False,
-        "output_path": "verifier.output.json",
-        "receipt_authoritative": False,
-        "receipt_path": "verifier.receipt.json",
-        "schema": "rd22.verifier-manifest.v001",
-        "stdout_discipline": {"format": "canonical-json", "lines": 1, "other_output_permitted": False},
-        "verifier_root_members": member_rows,
-        "verifier_root_sha256": empty_digest,
-    }
-    validate(verifier_schema, synthetic_verifier, "verifier_manifest")
-    # Q612 non-authoritative test fixture: copy the sealed verifier members into
-    # a temporary package, synthesize the V009-shaped instance, execute the
-    # parent pre-launch validator, bind the run-scoped ledger, and execute the
-    # post-production carrier validator.  No verifier process is launched.
-    with tempfile.TemporaryDirectory(prefix="rd22-NON_AUTHORITATIVE-V009-manifest-") as temporary:
-        fixture_root = Path(temporary)
-        verifier_fixture = fixture_root / "verifier-package"
-        run_fixture = fixture_root / "run-root"
-        verifier_fixture.mkdir()
+    validate(verifier_schema, b_instance_value, "verifier_manifest")
+    # G2 rule-3 dry run: validate Builder B's real sealed V009 instance and its
+    # real 13 package members, then exercise binding/post-production checks and
+    # command construction. No verifier or producer process is launched.
+    with tempfile.TemporaryDirectory(prefix="rd22-G2-real-B-instance-") as temporary:
+        run_fixture = Path(temporary) / "run-root"
         run_fixture.mkdir()
-        verifier_source = cleanroom / "evaluator_build_B"
-        fixture_member_rows = []
-        for declared_row in member_rows:
-            relative = declared_row["relative_path"]
-            source = verifier_source / relative
-            target = verifier_fixture / relative
-            if not source.is_file():
-                stop("DRY_RUN_VERIFIER_MEMBER", source)
-            target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(source, target)
-            fixture_member_rows.append({"byte_length": len(target.read_bytes()), "relative_path": relative, "sha256": digest(target.read_bytes())})
-        computed_verifier_root = digest("".join(row["sha256"] for row in fixture_member_rows).encode("utf-8"))
         subject_manifest_path = package / "inputs/subject_lineage_manifest.json"
         evidence_manifest_path = package / "inputs/structural_evidence_manifest.json"
         subject_manifest_sha256 = digest(subject_manifest_path.read_bytes())
@@ -1072,39 +1045,17 @@ def main():
             "spec_sha256": SPEC_SHA256,
             "subject_manifest_sha256": subject_manifest_sha256,
         }
-        non_authoritative_fixture = {
-            "argv": expected_argv_template,
-            "entry_point": "run_verifier.py",
-            "exit_contract": {"fail_closed": 2, "faults_found": 1, "verified": 0},
-            "input_roots": {**dry_expected_roots, "ledger_sha256": "0" * 64},
-            "optimize": False,
-            "output_path": "verifier.output.json",
-            "receipt_authoritative": False,
-            "receipt_path": "verifier.receipt.json",
-            "schema": "rd22.verifier-manifest.v001",
-            "stdout_discipline": {"format": "canonical-json", "lines": 1, "other_output_permitted": False},
-            "verifier_root_members": fixture_member_rows,
-            "verifier_root_sha256": computed_verifier_root,
-        }
-        dry_manifest_path = verifier_fixture / "NON_AUTHORITATIVE_V009_verifier_manifest.json"
-        dry_manifest_bytes = parent_module.canonical_bytes(non_authoritative_fixture)
-        dry_manifest_path.write_bytes(dry_manifest_bytes)
-        dry_manifest_sha256 = digest(dry_manifest_bytes)
-        Path(str(dry_manifest_path) + ".seal.sha256").write_text(
-            f"{dry_manifest_sha256}  {dry_manifest_path.name}\n",
-            encoding="utf-8",
-        )
         validated, stated, verifier_base, verifier_files = parent_module.validate_verifier_manifest(
-            dry_manifest_path,
+            b_instance,
             dry_expected_roots,
             run_fixture,
             run_fixture / "verifier.output.json",
             run_fixture / "verifier.receipt.json",
         )
-        if stated != dry_manifest_sha256 or verifier_base != verifier_fixture.resolve():
+        if stated != pin("verifier_manifest_v009") or verifier_base != verifier_package.resolve():
             stop("DRY_RUN_PRELAUNCH", {"stated": stated, "base": str(verifier_base)})
         ledger_path = run_fixture / "producer.ledger.json"
-        ledger_bytes = parent_module.canonical_bytes({"fixture": "NON_AUTHORITATIVE_V009_PARENT_VALIDATION"})
+        ledger_bytes = parent_module.canonical_bytes({"fixture": "G2_REAL_B_INSTANCE_PARENT_VALIDATION"})
         ledger_path.write_bytes(ledger_bytes)
         ledger_sha256 = digest(ledger_bytes)
         evidence_directory = run_fixture / "evidence"
@@ -1132,9 +1083,9 @@ def main():
             evidence_manifest_sha256,
         )
         dry_command = parent_module.verifier_process_command(bound, "/pinned/python3", verifier_base, verifier_files)
-        if dry_command[:5] != ["/pinned/python3", "-I", "-S", "-B", str((verifier_fixture / "run_verifier.py").resolve())]:
+        if dry_command[:5] != ["/pinned/python3", "-I", "-S", "-B", str((verifier_package / "run_verifier.py").resolve())]:
             stop("DRY_RUN_COMMAND", dry_command)
-        parent_manifest_dry_run = "PASS"
+        parent_manifest_dry_run = "PASS_REAL_SEALED_B_INSTANCE"
     parent_text = (package / "parent.py").read_text(encoding="utf-8")
     verifier_stdout_block = parent_text.split("def verifier_stdout(", 1)[1].split("def run_verifier_process(", 1)[0]
     verdict_validation_receivers = {
@@ -1290,7 +1241,7 @@ def main():
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
     schema_count = len(list((package / "schemas").glob("*.json")))
-    print(f"SELF_CHECK_OK syntax={len(python_paths)} canonical_json=all local_schemas={schema_count} pin_manifest={len(PIN_ROWS)}:{digest(PIN_MANIFEST_PATH.read_bytes())} pin_source=generated pin_closure=value:{len(pin_closure_hits['value'])},name:{len(pin_closure_hits['name'])},total:{pin_closure_total}:PASS superseded_roots={len(superseded_root_prefixes)}:retained_historical_hits:{len(superseded_root_hits)} verifier_root_members={len(member_rows)} verifier_root={computed_verifier_root} root_membership=instance-carried-generated verdict_schema={VERDICT_SCHEMA_SHA256} b_spec_repin={b_repin_state} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=fault:accepted,full_shape:checked negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} subject_resolution={len(subject_resolutions)}/6 integration_addendum_supplied={addendum_supplied} evidence=1/56 absent=55 v009_06_opcodes=COMPARE+DAG:PASS v009_06_observed={','.join(v009_06_observed)} observed_payloads=graph+raw_span consumable_args_reproduced={consumable_args_reproduced} trace=evidence_excluded;receipt_output_digest_custody invocation_fields=opcode,result_name,args,instance_id,source_sha256,span,span_sha256 byte_span_linkage=packed+explicit+raw_span_digest consumed_implies_materialized={consumed_implies_materialized} consumed_path=run_root/evidence/<digest>.json fixture_obs=0/3 checks=66 descriptor_delta=0:V008_to_V009 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 j1_fixture_spans=generated:3/3 j2_bsd_diff={v008_counts[0]}/{v008_counts[1]}/{v008_counts[2]} structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=12 verifier_input_roots=7 verifier_argv=22:closed parent_manifest_dry_run={parent_manifest_dry_run} authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax={len(python_paths)} canonical_json=all local_schemas={schema_count} pin_manifest={len(PIN_ROWS)}:{digest(PIN_MANIFEST_PATH.read_bytes())} pin_source=generated pin_closure=value:{len(pin_closure_hits['value'])},name:{len(pin_closure_hits['name'])},total:{pin_closure_total}:PASS g2_pin_closure=value:{len(g2_pin_closure_hits['value'])},name:{len(g2_pin_closure_hits['name'])},total:{len(g2_pin_closure_hits['value']) + len(g2_pin_closure_hits['name'])}:PASS verifier_manifest={pin('verifier_manifest_v009')} verifier_root_members={len(member_rows)} verifier_root={computed_verifier_root} root_membership=sealed-B-instance-only verdict_schema={VERDICT_SCHEMA_SHA256} b_spec_repin={b_repin_state} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=fault:accepted,full_shape:checked negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} subject_resolution={len(subject_resolutions)}/6 integration_addendum_supplied={addendum_supplied} evidence=1/56 absent=55 v009_06_opcodes=COMPARE+DAG:PASS v009_06_observed={','.join(v009_06_observed)} observed_payloads=graph+raw_span consumable_args_reproduced={consumable_args_reproduced} trace=evidence_excluded;receipt_output_digest_custody invocation_fields=opcode,result_name,args,instance_id,source_sha256,span,span_sha256 byte_span_linkage=packed+explicit+raw_span_digest consumed_implies_materialized={consumed_implies_materialized} consumed_path=run_root/evidence/<digest>.json fixture_obs=0/3 checks=66 descriptor_delta=0:V008_to_V009 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 j1_fixture_spans=generated:3/3 j2_bsd_diff={v008_counts[0]}/{v008_counts[1]}/{v008_counts[2]} structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=12 verifier_input_roots=7 verifier_argv=22:closed parent_manifest_dry_run={parent_manifest_dry_run} authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

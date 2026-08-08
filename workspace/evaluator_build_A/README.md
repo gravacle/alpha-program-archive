@@ -26,11 +26,9 @@ a false opcode success bit fails closed. The ten gated rows return
   `stage_dependencies` envelope; the other 55 structural checks and all three
   structural fixture observations remain explicitly unavailable and fail
   input integrity rather than inventing evidence or expected verdicts.
-- `inputs/verifier_root_members.generated.json`: the sorted 13-member verifier
-  root carrier generated from the sealed 12-member base list, the sealed V008
-  integration disclosure adding `verifier/preconditions.py`, and the current
-  Builder B package bytes. The parent consumes the same rows from the verifier
-  manifest instance; it has no private membership constant.
+- The sealed Builder B verifier manifest is the sole root-membership carrier.
+  The parent verifies its sorted `verifier_root_members` rows directly against
+  Builder B's package bytes and has no private or generated membership copy.
 - `manifests/normal.json` and `manifests/optimized.json`: closed child
   inventories differing only in mode, optimization, and writable paths.
 - `manifests/pins.json`: the one generated, closed content-pin manifest from

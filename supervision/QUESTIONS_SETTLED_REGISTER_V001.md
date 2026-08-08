@@ -14176,6 +14176,18 @@ B's disclosures of record: its first probe of G1 used autojunk=False — disabli
 
 **Status.** SETTLED as confirmation + adjudication. G2 routed to A as relay 698 (regenerate from B's current sealed bytes under the schema key, or remove the redundant copy in favor of the instance — smallest lawful means). Run 031 follows immediately on 698's mirror.
 
+## Q-614 — Run 031: the chain executes end-to-end; one substantive fault left, and the machine adjudicated the r_ground question (2026-08-08)
+
+**Question.** With G2 cleared (A removed the redundant members copy; parent consumes only B's sealed instance), does run 031 confirm the PASS?
+
+**Answer.** Not yet — but the run is a milestone: THE FULL CHAIN EXECUTED END-TO-END FOR THE FIRST TIME. Census, root, argv, manifests, and P0 (all six conjuncts) cleared; producer 1 PASS / 55 FAIL(INPUT_INTEGRITY) / 10 NOT_RUN_GATE with the seven-field carrier emitted; verifier FAIL with 59 findings = 55 EVIDENCE + 3 FIXTURE_EVIDENCE (the EXPECTED n=1 absences, exactly the Q-591 shape) + ONE substantive: `REPLAY: C-B-V009-06: evidence has no result 'r_ground'`. This is precisely the open question both builders flagged in advance (Q-613), now adjudicated by the machine rather than by either builder.
+
+**The ruling the fault forces (PROVABLE from standing law).** The row's singular `invocation` carrier records r_dag's structured-evidence consumption; r_ground's operands are (i) the member-payload digest — which the verifier already computes ITSELF during P0/evidence verification — and (ii) the sealed spec constant. A producer-recorded args object for r_ground would hand the producer both operands of a passing comparison (BR-1: a producer-declared object may not carry a criterion's direction; hash-pinning prevents substitution, not fabrication). Therefore the lawful resolution is NOT a second producer carrier but a spec statement: GROUND ATOMS WHOSE OPERANDS ARE FULLY DERIVABLE FROM THE VERIFIER'S OWN P0-VERIFIED EVIDENCE TABLE PLUS SEALED SPEC CONSTANTS ARE REPLAYED FROM THOSE SOURCES, WITH NO PRODUCER CARRIER — the producer's omission of an r_ground invocation is conformant, and the verifier resolves such atoms independently. One finite V010 statement (A) + ground-atom resolution in the replay (B).
+
+**Basis.** rd22_run_031 (mirrored): parent exit 2 on R9_VERIFIER_FAULTS_FOUND_EXIT_1; normal.output.json summary {pass 1, fail 55, not_run_gate 10}; verifier.output.json verdict FAIL, findings by code {EVIDENCE 55, REPLAY 1, FIXTURE_EVIDENCE 3}. G2 fix of record: STAGE8_TASK6_G2_MEMBERS_FIX_CODEX2_V001.md = 4186bb80…, option (b) copy removed, dry-run against B's real sealed instance, 41-file inventory fa394d58….
+
+**Status.** SETTLED as adjudication. Routed: relay 699 (A: V010 one-statement delta), then 700 (B: envelope + ground-atom resolution), then run 032 — the confirmation run.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
