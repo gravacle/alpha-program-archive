@@ -1,3 +1,15 @@
+
+## 2026-08-08 — THE FIRST LAWFUL PASS CONFIRMED (run 033)
+Road step 1 DONE. C-B-V009-06's producer PASS survived fully independent
+adversarial replay: 58 findings all expected n=1 absences, zero on the row,
+children agree. Register head Q-617; relay ledger 705; spec at V012 (one
+linkage-only descriptor amendment, criterion byte-identical V007-V012).
+Standing law added this stretch: cross-boundary preflight before every
+invocation (248 pins swept, run-032 false start of record); ground atoms
+verifier-computed (V010); citation key = sealed source+span (V011/V012).
+NEXT: road step 2 — certification of record + tranche close per C77; then
+lineage V2 (the thirty-row rerun); then closing bookkeeping incl. the 7A
+handoff package with the recognition-spec requirement (note de49a2e5/6e144dcc).
 # Alpha Program — Continuation State (pickup document)
 
 Maintained by the Fable supervision lane through 2026-07-25 midday; then by
