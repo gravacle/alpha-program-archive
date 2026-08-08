@@ -14351,6 +14351,20 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as calibration. Routed: the constructible/derivational classification of all 57 rows' missing carriers + tooling proposal (Codex 2, 720, analysis only). The strategy ruling goes to the principal on 720's return.
 
+## Q-626 — The split: 80% constructible; the derivational floor is 42 with no ownerless remainder; PE-2 confirmed (2026-08-08)
+
+**Question.** How much of the 57-row carrier gap is constructible, and what is irreducibly derivational?
+
+**Answer.** 247 independently sealable elements, classified row-by-row and mechanically rechecked: C=198 / D=42 / U=7 (calibration debt C5/D2/U1 displayed separately). The five-family tooling surface (carrier compilation; finite-family/expected-ledger generation; mutation/observation generation; corpus/pin/envelope generation; runtime-record capture) covers ALL 198 C elements, with required sealed inputs and fail-closed safeguards named; nothing built. Band: 112–232 -> 69–176 with tooling. The 42 D elements have owners without remainder: S11-SPEC=18 (schema classes/spec statements — THE MISSING BOXES), S11-FORMAL=16 (prose formalization), physics-road side effects=8 (A23:2, A25:3, A27:2, A28:1, A24:0). U=7: five source-locus questions, one PRINCIPAL carrier selection, one cross-contract receiver question.
+
+**PE-2 RESOLVED — CONFIRMED, both halves** (recorded in the expectations ledger): (1) most is constructible — 80%; (2) the boxes don't fit — 18 of 42 derivational items are precisely schema classes that do not yet exist, and the batch-1 unstateable verdicts were partially artifacts of the single sealed envelope form. A dated principal prediction, sealed before the classification ran, confirmed by it.
+
+**Strategy of record (registrar, under standing delegation — dominant, no downside):** boxes first (the 18 S11-SPEC statements consolidated into the smallest lawful number of finite spec deltas, B envelope-checks), then the tooling built against sealed boxes, then C-elements batch-generated; S11-FORMAL scheduled as true authoring; the 8 physics side effects ride their rows. Routed as relay 721.
+
+**Basis.** STAGE8_7A_CONSTRUCTIBLE_SPLIT_CODEX2_V001.md = 1417390cab756a05c8f1940c78afbe198863c7e7c8b87ed35f7d36924be6a0cf, registrar seal-verified, mirrored.
+
+**Status.** SETTLED as classification. The one principal carrier-selection item (U class) surfaces with 721's return.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

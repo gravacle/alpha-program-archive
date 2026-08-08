@@ -38,5 +38,4 @@ re-examined for "constructible pending a schema class"; the lawful compression
 is new sealed envelope/carrier classes via surfaced revision, not per-row
 derivation.
 
-Resolution: OPEN — resolves against 720's sealed classification and any
-subsequent schema-class additions. Zero verdict weight throughout.
+Resolution: CONFIRMED 2026-08-08 by Q-626 — C=198/247 (80%) constructible; 18 of 42 derivational items are exactly missing schema classes (boxes). Sealed classification 1417390c…. Zero verdict weight was maintained throughout the classification.
