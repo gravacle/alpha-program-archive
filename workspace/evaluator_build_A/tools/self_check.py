@@ -53,6 +53,7 @@ def pin(kind):
 ADDENDUM_SHA256 = pin("integration_addendum")
 VERDICT_SCHEMA_SHA256 = pin("verifier_verdict_schema")
 SPEC_SHA256 = pin("specification")
+SPEC_BASE_V010_SHA256 = pin("specification_base_v010")
 SPEC_BASE_V009_SHA256 = pin("specification_base_v009")
 SPEC_BASE_V008_SHA256 = pin("specification_base_v008")
 SPEC_BASE_V007_SHA256 = pin("specification_base_v007")
@@ -84,7 +85,8 @@ EVIDENCE_SOURCES = {
     "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md": ("cleanroom", pin("specification_base_v007")),
     "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md": ("cleanroom", pin("specification_base_v008")),
     "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V009.md": ("cleanroom", pin("specification_base_v009")),
-    "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md": ("cleanroom", pin("specification")),
+    "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md": ("cleanroom", pin("specification_base_v010")),
+    "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md": ("cleanroom", pin("specification")),
     "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md": ("cleanroom", pin("integration_addendum")),
     "STAGE8_TASK6_LP_MATRIX_LEDGER_LANE3_V001.md": ("cleanroom", pin("evidence_matrix")),
     "STAGE8_TASK6_LP_MATRIX_LEDGER_REVIEW_DARIO_V001.md": ("cleanroom", pin("evidence_matrix_review")),
@@ -406,9 +408,9 @@ def main():
     package_inventory = json_values["package_inventory.json"]
     parent_module = load_parent(package)
     producer_module = load_producer(package)
-    b_report = PROGRAM_ROOT / PIN_ROWS["verifier_v009_confirmation_report"]["relative_path"]
-    b_instance = PROGRAM_ROOT / PIN_ROWS["verifier_manifest_v009"]["relative_path"]
-    for kind, path in (("verifier_v009_confirmation_report", b_report), ("verifier_manifest_v009", b_instance)):
+    b_report = PROGRAM_ROOT / PIN_ROWS["verifier_v010_resolver_report"]["relative_path"]
+    b_instance = PROGRAM_ROOT / PIN_ROWS["verifier_manifest_v010"]["relative_path"]
+    for kind, path in (("verifier_v010_resolver_report", b_report), ("verifier_manifest_v010", b_instance)):
         data = path.read_bytes()
         if len(data) != PIN_ROWS[kind]["byte_length"] or digest(data) != pin(kind):
             stop("VERIFIER_MEMBERSHIP_SOURCE_PIN", kind)
@@ -418,7 +420,7 @@ def main():
         stop("ROOT_MEMBER_INSTANCE", b_instance)
     member_rows = b_instance_value["verifier_root_members"]
     expected_root_members = tuple(row.get("relative_path") for row in member_rows)
-    if len(member_rows) != 13 or expected_root_members != tuple(sorted(expected_root_members)) or len(set(expected_root_members)) != 13:
+    if len(member_rows) != 14 or expected_root_members != tuple(sorted(expected_root_members)) or len(set(expected_root_members)) != 14:
         stop("ROOT_MEMBER_CENSUS", expected_root_members)
     verifier_package = cleanroom / "evaluator_build_B"
     for row in member_rows:
@@ -431,6 +433,7 @@ def main():
     if (
         computed_verifier_root != b_instance_value["verifier_root_sha256"]
         or "verifier/preconditions.py" not in expected_root_members
+        or "verifier/ground_atoms.py" not in expected_root_members
     ):
         stop("ROOT_MEMBER_BINDING", {"computed": computed_verifier_root, "instance": b_instance_value["verifier_root_sha256"]})
     if hasattr(parent_module, "VERIFIER_ROOT_TRANSCRIBED_MEMBERS"):
@@ -501,10 +504,10 @@ def main():
     else:
         schema_probe = {**verifier_value, "spec_sha256": full_branch_spec}
         selected = parent_module.validate_verdict_document(schema_probe, verdict_schema)
-        if selected is not verdict_schema["oneOf"][0] or full_branch_spec != SPEC_BASE_V009_SHA256:
+        if selected is not verdict_schema["oneOf"][0] or full_branch_spec != SPEC_BASE_V010_SHA256:
             stop("B_SPEC_REPIN_STATE", {"schema_const": full_branch_spec, "parent": parent_module.SPEC_SHA256})
         accepted_verifier = verifier_value
-        b_repin_state = "PENDING_PARALLEL_B_V010_REPIN"
+        b_repin_state = "PENDING_PARALLEL_B_V011_REPIN"
     fault_value = {"fault": "STATIC_FAULT_DOCUMENT", "schema": "gravacle.a35.verifier-verdict.v1", "verdict": "FAIL"}
     accepted_fault = parent_module.verifier_stdout(parent_module.canonical_bytes(fault_value), "FAIL", "2" * 64, snapshot, authorization_digest, verdict_schema)
     if accepted_fault != fault_value:
@@ -584,8 +587,8 @@ def main():
     payload_files = sorted(path for path in payload_dir.iterdir() if path.is_file())
     # Three V009-06 payload files are retained: raw grounding, current
     # single-authority arguments, and the prior paired-argument bytes as a
-    # content-addressed supersession witness. V007, V008, and V009 are retained
-    # as sealed bases, and exactly one V010 sealed-spec payload is current.
+    # content-addressed supersession witness. V007 through V010 are retained as
+    # sealed bases, and exactly one V011 sealed-spec payload is current.
     if len(payload_files) != len(EVIDENCE_SOURCES) + 3:
         stop("EVIDENCE_PAYLOAD_CENSUS", len(payload_files))
     packet_dir = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001"
@@ -722,10 +725,14 @@ def main():
             stop("CONSUMABLE_ARGUMENT_NOT_REPRODUCED", {"observed": observed, "arguments": consumable_argument_digests})
         consumed_implies_materialized = "PASS"
         consumable_args_reproduced = "PASS"
-    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md"
+    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md"
     spec_data = spec_path.read_bytes()
     if digest(spec_data) != SPEC_SHA256 or parent_module.SPEC_SHA256 != SPEC_SHA256 or check_map["spec_sha256"] != SPEC_SHA256:
         stop("RUNTIME_SPEC_PIN", {"bytes": digest(spec_data), "parent": parent_module.SPEC_SHA256, "map": check_map["spec_sha256"]})
+    spec_base_v010_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md"
+    spec_base_v010_data = spec_base_v010_path.read_bytes()
+    if digest(spec_base_v010_data) != SPEC_BASE_V010_SHA256:
+        stop("SPEC_V010_BASE_PIN", digest(spec_base_v010_data))
     spec_base_v009_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V009.md"
     spec_base_v009_data = spec_base_v009_path.read_bytes()
     if digest(spec_base_v009_data) != SPEC_BASE_V009_SHA256:
@@ -741,7 +748,7 @@ def main():
     if digest(spec_v006_data) != SPEC_V006_SHA256 or spec_v006_data.count(b"`SPEC-INCOMPLETE` |") != 17 or b"#### V006 sealed-corpus law for `M2(q,S)`" not in spec_v006_data:
         stop("SPEC_V006_PIN", {"sha256": digest(spec_v006_data), "registry_rows": spec_v006_data.count(b"`SPEC-INCOMPLETE` |")})
     if spec_data.count(b"`SPEC-INCOMPLETE` |") != 17 or b"#### V007 sealed-corpus law for `M2(q,S)`" not in spec_data or b"all five false-negative modes" not in spec_data:
-        stop("SPEC_V010_CORPUS_LAW_CARRIAGE", {"registry_rows": spec_data.count(b"`SPEC-INCOMPLETE` |")})
+        stop("SPEC_V011_CORPUS_LAW_CARRIAGE", {"registry_rows": spec_data.count(b"`SPEC-INCOMPLETE` |")})
     prior_changed_descriptor_ids = {
         row["check_id"]
         for row in check_map["checks"]
@@ -753,20 +760,20 @@ def main():
         row["check_id"]
         for row in check_map["checks"]
         if {digest(body) for body, _ in descriptor_lines(spec_data, row["check_id"])}
-        != {digest(body) for body, _ in descriptor_lines(spec_base_v009_data, row["check_id"])}
+        != {digest(body) for body, _ in descriptor_lines(spec_base_v010_data, row["check_id"])}
     }
     if current_changed_descriptor_ids:
-        stop("V010_DESCRIPTOR_DELTA", sorted(current_changed_descriptor_ids))
+        stop("V011_DESCRIPTOR_DELTA", sorted(current_changed_descriptor_ids))
     fixture_by_id = {row["fixture_id"]: row for row in fixtures["fixtures"]}
     for fixture_id in ("FX-A35-03-C-FAMILY", "FX-A35-04-TAU-FAMILY", "FX-A35-05-PRIMITIVE-THOMSON-CONFLATION"):
         row_start = spec_data.index(f"| `{fixture_id}` |".encode("utf-8"))
         row_end = spec_data.index(b"\n", row_start) + 1
         fixture_row = fixture_by_id[fixture_id]
         if fixture_row["source"]["byte_span"] != [row_start, row_end] or fixture_row["fixture_spec_sha256"] != digest(spec_data[row_start:row_end]):
-            stop("V010_GENERATED_FIXTURE_SPAN", {"fixture": fixture_id, "computed": [row_start, row_end], "manifest": fixture_row["source"]["byte_span"]})
+            stop("V011_GENERATED_FIXTURE_SPAN", {"fixture": fixture_id, "computed": [row_start, row_end], "manifest": fixture_row["source"]["byte_span"]})
         table_row = f"| source row for `{fixture_id}` | `[{row_start},{row_end})` |".encode("utf-8")
         if spec_data.count(table_row) != 1:
-            stop("V010_SPEC_SPAN_TABLE", table_row.decode("utf-8"))
+            stop("V011_SPEC_SPAN_TABLE", table_row.decode("utf-8"))
     bsd_diff = subprocess.run(
         ["/usr/bin/diff", "-U", "3", str(cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md"), str(spec_base_v008_path)],
         check=False,
@@ -799,11 +806,11 @@ def main():
     ):
         stop("V010_GROUND_SCHEMA", ground_schema)
     closed_exclusions = {"STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "RUNTIME"}
-    m1_text = spec_data.split(b"**V010-M1", 1)[1].split(b"**V008-R9-3", 1)[0].decode("utf-8")
+    m1_text = spec_data.split(b"**V010-M1", 1)[1].split(b"**V011-O1", 1)[0].decode("utf-8")
     m1_words = re.sub(r"\s+", " ", m1_text)
     if not closed_exclusions.issubset(set(re.findall(r"`([A-Z0-9]+)`", m1_text))) or "No producer carrier exists for a ground atom" not in m1_words or "singular" not in m1_words:
         stop("V010_GROUND_CLASS_CLOSURE", sorted(closed_exclusions - set(re.findall(r"`([A-Z0-9]+)`", m1_text))))
-    v010_diff = subprocess.run(["/usr/bin/diff", "-U", "3", str(spec_base_v009_path), str(spec_path)], check=False, capture_output=True, text=True)
+    v010_diff = subprocess.run(["/usr/bin/diff", "-U", "3", str(spec_base_v009_path), str(spec_base_v010_path)], check=False, capture_output=True, text=True)
     v010_lines = v010_diff.stdout.splitlines()
     v010_counts = (
         sum(line.startswith("@@") for line in v010_lines),
@@ -812,7 +819,49 @@ def main():
     )
     if v010_diff.returncode != 1 or v010_counts != (6, 118, 21) or b"FINAL_HUNKS = 6" not in spec_data or b"FINAL_INSERTIONS = 118" not in spec_data or b"FINAL_DELETIONS = 21" not in spec_data:
         stop("V010_CARRIAGE", v010_counts)
-    old_spec_name = "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V009.md"
+    o1_heading = b"**V011-O1 \xe2\x80\x94 condition-2 citation-key amendment to `rd22.r9-ground-atom.v001`.**"
+    if spec_data.count(o1_heading) != 1:
+        stop("V011_O1_STATEMENT_CENSUS", spec_data.count(b"**V011-O1"))
+    o1_section = spec_data.split(o1_heading, 1)[1].split(b"**V008-R9-3", 1)[0]
+    if re.fullmatch(rb"\n\n```json\n.+\n```\n\n", o1_section, flags=re.DOTALL) is None:
+        stop("V011_O1_SCHEMA_ONLY", o1_section[:160])
+    citation_schema_bytes = o1_section.split(b"```json\n", 1)[1].split(b"\n```", 1)[0]
+    citation_schema = json.loads(citation_schema_bytes.decode("utf-8"), object_pairs_hook=pairs, parse_constant=nonfinite)
+    citation_properties = citation_schema.get("properties", {})
+    descriptor_citation = citation_properties.get("descriptor_citation", {})
+    p0_index = citation_properties.get("p0_index", {})
+    if (
+        citation_schema.get("$id") != "rd22.r9-ground-atom-citation-key-amendment.v001"
+        or citation_schema.get("additionalProperties") is not False
+        or set(citation_schema.get("required", [])) != set(citation_properties)
+        or citation_properties.get("amends", {}).get("const") != "rd22.r9-ground-atom.v001"
+        or citation_properties.get("condition", {}).get("const") != 2
+        or descriptor_citation.get("additionalProperties") is not False
+        or set(descriptor_citation.get("required", [])) != {"carrier", "source_sha256", "span"}
+        or descriptor_citation.get("properties", {}).get("carrier", {}).get("const") != "SEALED_DESCRIPTOR_ROW.atom[result_name].source_and_span"
+        or descriptor_citation.get("properties", {}).get("span", {}).get("items") is not False
+        or descriptor_citation.get("properties", {}).get("span", {}).get("minItems") != 2
+        or descriptor_citation.get("properties", {}).get("span", {}).get("maxItems") != 2
+        or p0_index.get("additionalProperties") is not False
+        or set(p0_index.get("required", [])) != {"table", "key_fields", "interval", "match", "cardinality", "member_binding"}
+        or p0_index.get("properties", {}).get("key_fields", {}).get("const") != ["source_sha256", "span"]
+        or p0_index.get("properties", {}).get("interval", {}).get("const") != "ZERO_BASED_HALF_OPEN"
+        or p0_index.get("properties", {}).get("match", {}).get("const") != "EXACT_TUPLE_EQUALITY"
+        or p0_index.get("properties", {}).get("cardinality", {}).get("const") != "EXACTLY_ONE"
+        or p0_index.get("properties", {}).get("member_binding", {}).get("const") != "MEMBER_KEY_BINDS_EXACT_ROW_MATCHING_DESCRIPTOR_ATOM_CITATION"
+        or citation_properties.get("forbidden_mappings", {}).get("const") != ["PAYLOAD_FILENAME", "CONSTANT_DIGEST_SELF_REFERENCE", "PRODUCER_SUPPLIED"]
+    ):
+        stop("V011_CITATION_SCHEMA", citation_schema)
+    v011_diff = subprocess.run(["/usr/bin/diff", "-U", "3", str(spec_base_v010_path), str(spec_path)], check=False, capture_output=True, text=True)
+    v011_lines = v011_diff.stdout.splitlines()
+    v011_counts = (
+        sum(line.startswith("@@") for line in v011_lines),
+        sum(line.startswith("+") and not line.startswith("+++") for line in v011_lines),
+        sum(line.startswith("-") and not line.startswith("---") for line in v011_lines),
+    )
+    if v011_diff.returncode != 1 or v011_counts != (7, 111, 24) or b"FINAL_HUNKS = 7" not in spec_data or b"FINAL_INSERTIONS = 111" not in spec_data or b"FINAL_DELETIONS = 24" not in spec_data:
+        stop("V011_CARRIAGE", v011_counts)
+    old_spec_name = "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md"
     pin_closure_hits = {"name": [], "value": []}
     allowed_base_reference_paths = {
         "inputs/structural_evidence_manifest.json",
@@ -831,10 +880,10 @@ def main():
         except UnicodeDecodeError:
             continue
         relative = str(path.relative_to(package))
-        for label, term in (("name", old_spec_name), ("value", SPEC_BASE_V009_SHA256)):
+        for label, term in (("name", old_spec_name), ("value", SPEC_BASE_V010_SHA256)):
             for line_number, line in enumerate(text.splitlines(), 1):
                 pin_closure_hits[label].extend((relative, line_number) for _ in range(line.count(term)))
-        if (old_spec_name in text or SPEC_BASE_V009_SHA256 in text) and not (
+        if (old_spec_name in text or SPEC_BASE_V010_SHA256 in text) and not (
             relative.startswith("inputs/evidence/") or relative in allowed_base_reference_paths
         ):
             stop("PIN_CLOSURE_UNJUSTIFIED_BASE", relative)
@@ -1066,11 +1115,11 @@ def main():
     ):
         stop("VERIFIER_NESTED_FIELDS", "wrong")
     validate(verifier_schema, b_instance_value, "verifier_manifest")
-    # V010 re-pin dry run: derive a non-authoritative V010-shaped fixture from
-    # Builder B's sealed V009 instance, preserving its sealed 13-member root
+    # V011 re-pin dry run: derive a non-authoritative V011-shaped fixture from
+    # Builder B's sealed V010 instance, preserving its sealed 14-member root
     # while replacing only the input roots that Builder B must re-pin next.
     # No verifier or producer process is launched.
-    with tempfile.TemporaryDirectory(prefix="rd22-V010-repin-fixture-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="rd22-V011-repin-fixture-") as temporary:
         verifier_fixture = Path(temporary) / "verifier-package"
         verifier_fixture.mkdir()
         for row in member_rows:
@@ -1097,7 +1146,7 @@ def main():
             **dry_expected_roots,
             "ledger_sha256": "0" * 64,
         }
-        synthetic_manifest_path = verifier_fixture / "verifier_manifest_v010_repin_fixture.json"
+        synthetic_manifest_path = verifier_fixture / "verifier_manifest_v011_repin_fixture.json"
         synthetic_manifest_bytes = parent_module.canonical_bytes(synthetic_manifest)
         synthetic_manifest_path.write_bytes(synthetic_manifest_bytes)
         synthetic_manifest_sha256 = digest(synthetic_manifest_bytes)
@@ -1115,7 +1164,7 @@ def main():
         if stated != synthetic_manifest_sha256 or verifier_base != verifier_fixture.resolve():
             stop("DRY_RUN_PRELAUNCH", {"stated": stated, "base": str(verifier_base)})
         ledger_path = run_fixture / "producer.ledger.json"
-        ledger_bytes = parent_module.canonical_bytes({"fixture": "V010_NON_AUTHORITATIVE_REPIN_VALIDATION"})
+        ledger_bytes = parent_module.canonical_bytes({"fixture": "V011_NON_AUTHORITATIVE_REPIN_VALIDATION"})
         ledger_path.write_bytes(ledger_bytes)
         ledger_sha256 = digest(ledger_bytes)
         evidence_directory = run_fixture / "evidence"
@@ -1145,7 +1194,7 @@ def main():
         dry_command = parent_module.verifier_process_command(bound, "/pinned/python3", verifier_base, verifier_files)
         if dry_command[:5] != ["/pinned/python3", "-I", "-S", "-B", str((verifier_fixture / "run_verifier.py").resolve())]:
             stop("DRY_RUN_COMMAND", dry_command)
-        parent_manifest_dry_run = "PASS_NON_AUTHORITATIVE_V010_REPIN_FIXTURE"
+        parent_manifest_dry_run = "PASS_NON_AUTHORITATIVE_V011_REPIN_FIXTURE"
     parent_text = (package / "parent.py").read_text(encoding="utf-8")
     verifier_stdout_block = parent_text.split("def verifier_stdout(", 1)[1].split("def run_verifier_process(", 1)[0]
     verdict_validation_receivers = {
@@ -1301,7 +1350,7 @@ def main():
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
     schema_count = len(list((package / "schemas").glob("*.json")))
-    print(f"SELF_CHECK_OK syntax={len(python_paths)} canonical_json=all local_schemas={schema_count} pin_manifest={len(PIN_ROWS)}:{digest(PIN_MANIFEST_PATH.read_bytes())} pin_source=generated pin_closure=value:{len(pin_closure_hits['value'])},name:{len(pin_closure_hits['name'])},total:{pin_closure_total}:PASS g2_pin_closure=value:{len(g2_pin_closure_hits['value'])},name:{len(g2_pin_closure_hits['name'])},total:{len(g2_pin_closure_hits['value']) + len(g2_pin_closure_hits['name'])}:PASS verifier_manifest={pin('verifier_manifest_v009')} verifier_root_members={len(member_rows)} verifier_root={computed_verifier_root} root_membership=sealed-B-instance-only verdict_schema={VERDICT_SCHEMA_SHA256} b_spec_repin={b_repin_state} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=fault:accepted,full_shape:checked negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} subject_resolution={len(subject_resolutions)}/6 integration_addendum_supplied={addendum_supplied} evidence=1/56 absent=55 v009_06_opcodes=COMPARE+DAG:PASS v009_06_observed={','.join(v009_06_observed)} observed_payloads=graph+raw_span consumable_args_reproduced={consumable_args_reproduced} ground_atom_schema=PASS ground_atom_omission={ground_atom_omission} trace=evidence_excluded;receipt_output_digest_custody invocation_fields=opcode,result_name,args,instance_id,source_sha256,span,span_sha256 byte_span_linkage=packed+explicit+raw_span_digest consumed_implies_materialized={consumed_implies_materialized} consumed_path=run_root/evidence/<digest>.json fixture_obs=0/3 checks=66 descriptor_delta=0:V009_to_V010 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 v010_bsd_diff={v010_counts[0]}/{v010_counts[1]}/{v010_counts[2]} j1_fixture_spans=generated:3/3 j2_bsd_diff={v008_counts[0]}/{v008_counts[1]}/{v008_counts[2]} structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=12 verifier_input_roots=7 verifier_argv=22:closed parent_manifest_dry_run={parent_manifest_dry_run} authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax={len(python_paths)} canonical_json=all local_schemas={schema_count} pin_manifest={len(PIN_ROWS)}:{digest(PIN_MANIFEST_PATH.read_bytes())} pin_source=generated pin_closure=value:{len(pin_closure_hits['value'])},name:{len(pin_closure_hits['name'])},total:{pin_closure_total}:PASS g2_pin_closure=value:{len(g2_pin_closure_hits['value'])},name:{len(g2_pin_closure_hits['name'])},total:{len(g2_pin_closure_hits['value']) + len(g2_pin_closure_hits['name'])}:PASS verifier_manifest={pin('verifier_manifest_v010')} verifier_root_members={len(member_rows)} verifier_root={computed_verifier_root} root_membership=sealed-B-instance-only verdict_schema={VERDICT_SCHEMA_SHA256} b_spec_repin={b_repin_state} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=fault:accepted,full_shape:checked negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} subject_resolution={len(subject_resolutions)}/6 integration_addendum_supplied={addendum_supplied} evidence=1/56 absent=55 v009_06_opcodes=COMPARE+DAG:PASS v009_06_observed={','.join(v009_06_observed)} observed_payloads=graph+raw_span consumable_args_reproduced={consumable_args_reproduced} ground_atom_schema=PASS citation_key_schema=PASS ground_atom_omission={ground_atom_omission} trace=evidence_excluded;receipt_output_digest_custody invocation_fields=opcode,result_name,args,instance_id,source_sha256,span,span_sha256 byte_span_linkage=packed+explicit+raw_span_digest consumed_implies_materialized={consumed_implies_materialized} consumed_path=run_root/evidence/<digest>.json fixture_obs=0/3 checks=66 descriptor_delta=0:V010_to_V011 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 v011_bsd_diff={v011_counts[0]}/{v011_counts[1]}/{v011_counts[2]} v010_bsd_diff={v010_counts[0]}/{v010_counts[1]}/{v010_counts[2]} j1_fixture_spans=generated:3/3 j2_bsd_diff={v008_counts[0]}/{v008_counts[1]}/{v008_counts[2]} structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=12 verifier_input_roots=7 verifier_argv=22:closed parent_manifest_dry_run={parent_manifest_dry_run} authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

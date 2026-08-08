@@ -235,7 +235,7 @@ def descriptors(spec_data, ledger_data):
         else:
             blocker_id = check_id[2:]
             start = line_offsets[raw]
-            source = {"byte_span": [start, start + len(raw.encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md", "sha256": SPEC_SHA}
+            source = {"byte_span": [start, start + len(raw.encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md", "sha256": SPEC_SHA}
         procedure = cells[3]
         expected = cells[4]
         gate = "RD22_STRUCTURAL_ONLY"
@@ -306,7 +306,7 @@ def fixture_rows(spec_data, check_rows):
                 "prerequisites": ["P0"],
                 "primary_check_ids": primary_ids,
                 "required_gate": "RD22_STRUCTURAL_ONLY" if execution_class == "STRUCTURAL" else " AND ".join(gates),
-                "source": {"byte_span": [start, start + len(row_bytes)], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md", "sha256": SPEC_SHA},
+                "source": {"byte_span": [start, start + len(row_bytes)], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md", "sha256": SPEC_SHA},
             }
         )
     return out
@@ -613,7 +613,7 @@ def main():
     package = Path(__file__).resolve().parents[1]
     cleanroom = package.parent
     program = cleanroom.parent
-    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md"
+    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md"
     ledger_path = cleanroom / "BID_FULL_STACK_REVIEW_LEDGER_V003.md"
     packet_path = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001/STAGE7_PACKET_MANIFEST_V001.sha256"
     v011_path = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md"
@@ -678,8 +678,8 @@ def main():
     structural_ids = [row["check_id"] for row in rows if row["execution_class"] == "STRUCTURAL"]
     structural_fixture_ids = [row["fixture_id"] for row in fixtures if row["execution_class"] == "STRUCTURAL"]
     evidence_dir = package / "inputs/evidence"
-    spec_payload_name = f"{SPEC_SHA}--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md"
-    for stale_spec_payload in evidence_dir.glob("*--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md"):
+    spec_payload_name = f"{SPEC_SHA}--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md"
+    for stale_spec_payload in evidence_dir.glob("*--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md"):
         if stale_spec_payload.name != spec_payload_name:
             stale_spec_payload.unlink()
     (evidence_dir / spec_payload_name).write_bytes(spec_path.read_bytes())
@@ -711,7 +711,7 @@ def main():
                     "payload_path": f"inputs/evidence/{spec_payload_name}",
                     "payload_sha256": SPEC_SHA,
                     "role": "SPEC_FIXED_SUBJECT_NOT_OBSERVATION",
-                    "source_path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md",
+                    "source_path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md",
                     "source_sha256": SPEC_SHA,
                     "span": fixture["source"]["byte_span"],
                 }
