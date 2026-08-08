@@ -26,7 +26,7 @@ are blocked on the same object.
 THE COUNTERWEIGHT, STATED UP FRONT:  that object is the one the corpus itself
 types as possibly requiring ADOPTION rather than derivation.  The first target
 may terminate in an adoption request to the principal, not a certificate.  And
-closing A27 would not, by itself, move U1 -- §2.7.
+closing A27 would not, by itself, move U1 -- §2.6.
 ```
 
 ---

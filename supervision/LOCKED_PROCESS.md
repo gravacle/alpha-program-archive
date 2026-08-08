@@ -422,3 +422,14 @@ hits in workspace/" is a different fact from "zero hits in the archive", and
 concluding the second from the first is the M-2 defect class in search
 clothing. Applies to lanes and registrar alike; an absence without its space
 is not a finding.
+
+## THE SPAN-COVERAGE RULE (2026-08-08, from Q-622 — the third scope-class law)
+
+A citation pin check tests that the span COVERS THE WHOLE DISPLAYED BLOCK,
+never merely that a short probe occurs inside the span. Probe-in-span passed
+10/10 while four citations were truncated mid-word. Every pin check of a
+span-plus-display pair recomputes the display from the span's bytes, with a
+negative control showing a truncated span fails. Companions: the SEARCHED-SPACE
+CLAUSE (absence names its space) and byte-not-character offsets on non-ASCII
+sources. Scope, not reasoning, is the recurring failure mode; these three laws
+are its closure.

@@ -14283,6 +14283,32 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as derivation. The junction arc's opening move has defined the OBS-22 test precisely and named its two entry conditions. PRINCIPAL PAUSE of record: the arc proceeds on Brian's read of this result.
 
+## Q-621 — R9-JII sealed: the joint-landing test is now corpus law, repaired cross-family (2026-08-08)
+
+**Question.** Does Dario's proposed R9-JII line carry the derived J1–J4 obligation faithfully, and what seals?
+
+**Answer.** The line REQUIRED REPAIR, and the cross-family adjudication caught seven grounding findings in the very derivation it was checking — four truncated span endpoints, plus three substantive: J1 incorrectly equated separately-declared units with the paired-hidden-conversion attack (the attack is the HIDDEN reciprocal pair cancelling in aggregate — the repair names it precisely); J3 carried unconditional F1 despite the principal's governing split (the sealed line now embeds the split: a surviving beta-family from weak-rule underdetermination FIRES, genuine scale dependence ROUTES TO MEASUREMENT under K-1/K-3 and never fires by family-hood alone); J4's one-associated-object test is adopted for this pair explicitly rather than back-dated into its H/HOL source. The sealed carrier STAGE8_7A_R9JII_JOINT_LANDING_TEST_V001.md = 5f4979d50c905c009c1fa18cec65cde6d9812b7f6c8e7c6870e4e6bea6cf78d5 is one physical line, falsifier-typed, quantified only over a COMMON FORMED cell, silent on formation, with a PENDING outcome when no such cell exists (the three-outcome discipline), and both entry conditions carried byte-verbatim. Non-firing builds neither map and discharges neither residue.
+
+**Basis.** Adjudication STAGE8_7A_R9JII_ADJUDICATION_CODEX2_V001.md = b5b4892c… (old/new displayed; 11 sources + sidecars verified); derivation ec962351… (Q-620). First relay under the pickup-ACK clause: ACK observed at pickup, DONE at completion.
+
+**Status.** SETTLED. The OBS-22 joint test is sealed law — statable, not yet runnable. Author-side confirmation of the three substantive repairs routes to Dario (contest-or-adopt, from bytes) at the head of the stitching relay; per the principal's ruling, stitching (road step 8, the A27 remainder RA27-2..6) opens next.
+
+## Q-622 — Repairs adopted 3/3; the A27 remainder is ONE object; the span-coverage rule (2026-08-08)
+
+**Question.** Do the R9-JII repairs stand, and what does the stitching arc actually require?
+
+**Answer, part 1 — the gate opened clean.** Dario adopted all three repairs from bytes, contesting none, with the sharpest finding against itself: J1's original would have FALSE-KILLED a lawful configuration (aiming a falsifier at the very act — declaration — its source prescribes as the cure; "inverting a control is worse than omitting one"); J3 cited unconditional F1 six days after Dario itself authored F1' into the frozen preregistration ("a lane that installs a law and then ignores it damages the record more than one that never had the law"); J4's span was truncated mid-word and never contained the phrase it depended on. Root cause of the four span defects, stated as a method law: the 713 pin check tested probe-in-span, never span-covers-displayed-block — it passed 10/10 while four citations were defective. THE SPAN-COVERAGE RULE is now process law (with a negative control: the old method passes the truncated span the new one fails).
+
+**Answer, part 2 — the stitching arc's structure.** A27's remainder is NOT five gaps: it is ONE MISSING OBJECT and four consequences. Three independent sealed sources — two from non-Dario lanes in different tasks — name the same absence: A RELATION SAYING WHEN TWO COMPLEXES REPRESENT THE SAME PHYSICAL REGION (the same-region relation, Ref_a's ground). The dependency chain is the corpus's own and strictly linear: RA27-2 -> RA27-3 -> RA27-4 -> RA27-5 -> RA27-6, with RA27-4 the per-cell-declaration gluing site (the stitching rule proper). FIRST TARGET = RA27-2: the unique root, and THE ONLY ONE WHOSE DELIVERY CHANGES U1's STATUS — R9-JII's J2 quantifies over re-presentations, that family is Ref_a, and without the same-region relation J2 is not false but UNQUANTIFIABLE. A27's root and U1's J2 are blocked on one object.
+
+**Two counterweights, recorded before the work.** (1) RA27-2 may require ADOPTION: D012 says the grammar "may require adoption if stock does not force it," and JREF independently reports a formal category can be authored but does not derive the missing geometric data. The honest deliverable is a completeness/reachability certificate over a generator set, plus a surfaced adoption request iff stock does not force — a PRINCIPAL FORK, flagged now. (2) Closing A27 may not move U1: a cellulation-INDEPENDENT coefficient is invariant under exactly the freedom a normalization acts through, so RA27-6 could land derived-but-beta-INVARIANT. That check is TO BE PREREGISTERED BEFORE RA27-6 IS ATTEMPTED — recorded here as a standing obligation.
+
+**Also of record.** Dario named its own three-relay failure pattern — scope, not reasoning (archive boundary at 711; workspace-only search and char-vs-byte offsets at 713; span coverage at 715) — and its census now states pre-seal and post-seal token counts because the artifact changed its own counts by existing ("a census a reader cannot reproduce is not a census").
+
+**Basis.** STAGE8_7A_STITCHING_SCOPING_DARIO_V001.md = b1a834e7ac972f2176418193774db8a0b31af078f48349a4e985000e5d5803ba (10/10 block-coverage pin check); PE-1 (79a35c3a…) predates this scoping.
+
+**Status.** SETTLED as scoping. Routed: RA27-2 derivation (Dario, 716); step-11 envelope authoring opens in parallel (Codex 2, 717).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

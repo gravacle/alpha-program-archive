@@ -19,8 +19,8 @@ The fences hold everywhere until step 18: no alpha, no kappa, no comparison.
              is real, estimates collapse toward the low end
              >> maps land inert -> OBS-22 killed; gravity not at this address
  7. [GATED]  The Thomson chain through the bridge (S16, S13 conditioning)
- 8. [GATED]  The stitching certificates (A27: Ref/J_ref, naturality,
-             boundary-to-volume) — junction-machinery adjacent
+ 8. [ACTIVE] The stitching certificates (A27) — ROOT = RA27-2, the
+             same-region relation; strictly linear chain; unblocks U1's J2
  9. [GATED]  The preparation principle (A25: cut the CP^4 to a ray, lawfully)
 10. [GATED]  The charged Q-spec completed (A23/A24/A28: interacting amplitude,
              durability, connected thermodynamics)
