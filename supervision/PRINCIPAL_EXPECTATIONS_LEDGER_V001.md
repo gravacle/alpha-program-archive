@@ -21,3 +21,22 @@ structure it must derive is the record face of gravity itself.
 
 Resolution: OPEN — resolves against the sealed stitching results when they
 exist. Zero verdict weight throughout.
+
+## PE-2 (2026-08-08, before relay 720's classification returns)
+
+Brian, verbatim: "I suspect that most of it is constructable. The construct
+might just not fit existing boxes."
+
+Context of record: recorded after Q-625 (the calibration: best row PARTIAL,
+8 ungrounded elements, band 112-232 authoring relays) and BEFORE the
+constructible/derivational split exists. The expectation, two-part: (1) most
+of the missing carrier material is CONSTRUCTIBLE, not derivational; (2) the
+unstateable verdicts partly reflect the closed schema classes built around
+C-B-V009-06's shape — constructible objects with no sealed box to live in.
+Registrar reading lens derived from it: 720's D and U classes are to be
+re-examined for "constructible pending a schema class"; the lawful compression
+is new sealed envelope/carrier classes via surfaced revision, not per-row
+derivation.
+
+Resolution: OPEN — resolves against 720's sealed classification and any
+subsequent schema-class additions. Zero verdict weight throughout.
