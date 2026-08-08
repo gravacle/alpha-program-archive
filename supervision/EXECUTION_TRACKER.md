@@ -573,7 +573,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 731 | Dario | [7A/STEP8] characterization | **RETURNED. Measure = four-volume additivity EXACT (zero boundary); true binary = xi vs F held fixed; selector UNSEALED = the lambda datum. Q-637.** |
 | 732 | Codex 2 | [7A/STEP11] U7 dispositions | **RETURNED. 3 resolved / 2 U-SOURCE; carrier RULED P-B; receiver routed. Q-638.** |
 | 733 | Dario | [7A/STEP8] the xi/F require-hunt (the branch selector; the lambda convergence) | QUEUED — NOT ANNOUNCED |
-| 734 | Codex 2 | [7A/STEP11] the P-B instance built + the receiver repair chosen-smallest | QUEUED — NOT ANNOUNCED |
+| 734 | Codex 2 | [7A/STEP11] the P-B instance built + the receiver repair chosen-smallest | **SENT (ACK observed)** |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
