@@ -585,7 +585,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 743 | Codex 2 | [7A/STEP11] orientation unitary | **RETURNED. DETERMINED — Gamma_cell IS the carrier; SP1-07 9/9 + SP2-05 8/8 COMPLETE. Q-649.** |
 | 744 | Codex 2 | [7A/STEP11] D-A35-02 | **RETURNED. COMPLETE (gaps=[], TYPE 6/6, EXACT 8/8) — third complete row. Q-650.** |
 | 745 | Codex 2 | [7A/STEP11] V010-11 category | **RETURNED. DETERMINED — 28/28, laws proven; sealed all along. Q-652.** |
-| 746 | Dario | [7A/STEP8] THE EMPTY CHAMBER: emptiness-of-record derivation; RA27-2 books on it (principal reframe) | QUEUED — NOT ANNOUNCED |
+| 746 | Dario | [7A/STEP8] the empty chamber | **RETURNED. INHABITED — four sealed members, ALL FLAT-BACKGROUND (the frozen eta); emptiness foreclosed; the flat-chamber route opens. Q-654.** |
 | 747 | Codex 2 | [7A/STEP11] V009-08 graph | **RETURNED. 18/18 + scope firewall as typed edge; corpus built; integration binding -> registrar. Q-653.** |
 | 748 | Codex 2 | [7A/STEP11] V008-05 competitor normal forms + fixture assignments: derive-or-gap | **SENT (ACK observed)** |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |

@@ -14678,6 +14678,20 @@ DETERMINED via the meaning probe against the sealed V011 principle packet (aa7c6
 
 DETERMINED: 4 authority nodes, 4 claim nodes, 8 exact typed edges — including the required firewall: bridge-to-general = DOES_NOT_ENTAIL, zero unlawful promotion edges (the conditional two-path bridge cleanly distinguished from the independently stated general finite-Hilbert premise; no authority promoted beyond its sealed scope). The 603-byte bounded premise copied exact from sealed V011 bytes [37614,38217); its ONE-MEMBER sealed corpus built (definition 2584d894…, content root 7c6c3455…). Graph consumer PRODUCED; remaining owner is an INTEGRATION BINDING (bind the sealed corpus definition to CD:C-B-V009-08:general-FS-corpus) — registrar custody under the corpus authority decision, dual verification at the subgate; named, not claimed. Row: FORMALIZATION_COMPLETE_GRAPH_AND_CORPUS_READY_INTEGRATION_PENDING. Fifth consecutive "absent" carrier found sealed by the meaning probe. Basis: STAGE8_7A_V009_08_GRAPH_CODEX2_V001.md, instance c41f5d05…, registrar seal-verified, mirrored. SETTLED.
 
+## Q-654 — The chamber is INHABITED: four sealed members, all flat-background; the emptiness route forecloses and a sharper one opens (2026-08-08)
+
+**Question.** Is C_ref's third constituent uninhabited of record?
+
+**Answer. NO — INHABITED, members displayed.** The emptiness case was built to full strength first (five legs, all verifying: zero smooth-construction hits across 1,970 files; V011's two coframe occurrences exhibit nothing; the localization bridge sealed false; NO CONSTRUCTION stamped downstream; DoR-007's off-the-table adoption) — and all five answer DERIVED, not PRESERVED. Sealed stock exhibits FOUR members: M1 V011's own ordinary-branch freeze ("Freeze: eta = diag(+1,-1,-1,-1), epsilon_0123 = +1" — a flat Lorentzian metric and orientation, sealed 4.5kB before C_ref's freeze, same verb); M2 the forward-sealed C-infinity smooth-connection direction; M3 the real-analytic endpoint-trivial family; M4 an EXECUTED certificate consuming M1 (J_star^2 = -I_6). The decisive check was internal: 738's own sealed finding that the clause "kills x_alt cleanly" — A CLAUSE WITH NO MEMBERS EXCLUDES NOTHING; both lanes had used the chamber's occupancy unnoticed. THE MIRROR ERROR NAMED: 742 collapsed barred-as-source into not-in-class; the emptiness argument collapsed it into not-in-existence — both delete "as a source." Dario supplied the guard in the hunt's own prompt and still needed to be shown the members; the convenient conclusion (which would have unblocked its own lane) was refused under void pressure.
+
+**EXPOSURE, stated plainly:** the artifact sealed against an incomplete hostile check (three of four hunters still running); the four members stand on the author's own byte-reading and M4 independently; if the late verification kills all four, the question reopens.
+
+**What the refutation bought:** occupancy ESTABLISHED (no artifact had exhibited a member before); the bar bounded from BOTH sides (empties neither the class nor the world); R9's quantifier discipline located (an unformed domain is UNEXECUTABLE/PENDING — "neither passed, failed, nor vacuously true"); and the successor question well-posed: ALL EXHIBITED MEMBERS ARE FLAT-BACKGROUND — the coframe to preserve is V011's own SEALED INPUT FREEZE, not a 7B-derived object. The fourth route: derive directedness over the flat-preserving family constructively (the sealed 384-cell common refinement is the candidate witness).
+
+**Basis.** STAGE8_7A_EMPTY_CHAMBER_DARIO_V001.md = 484e7039daaa46c666454d2fa2dc40f8e60f959dea4d10c892a838149077c017 (15/15).
+
+**Status.** SETTLED as refutation-with-yield. Emptiness FORECLOSED; the Q-651 routes return to the principal PLUS the flat-chamber route.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
