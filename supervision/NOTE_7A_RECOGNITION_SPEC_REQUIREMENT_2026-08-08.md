@@ -41,3 +41,20 @@ coupling — an old friend the classical-shaped test ("is it zero") mistyped as
 failure even though the friend was present. The ledger feeds the discoveries
 digest (road step 24), where correspondences are formally examined AFTER the
 record-native results are sealed.
+
+## ADDENDUM 2 (same day, principal observation, verbatim)
+
+"A RULE THAT HALTS ON THAT DIVERGENCE FORBIDS THE MEASUREMENT THE THEORY
+REQUIRES."
+
+REQUIREMENT 5 — DIVERGENCE TYPING, FIXED BEFORE COMPUTATION: the corpus types a
+nonzero divergence as failure; the junction arc MUST NOT inherit that typing.
+A divergence encountered at the junction is MEASURED AND RECORDED — its
+coefficient, dependence, and locus are data — never halted on. AND, because
+"the divergence is the signal" is also the fitter's move, the typing rule
+carries its KILL CONDITION preregistered: the measured structure that would
+count AGAINST the coupling reading (wrong coefficient class, wrong dependence,
+wrong locus) is stated before any map is computed. Measure-don't-halt plus a
+pre-stated way to lose. This is the program's highest fitting risk
+([[project_divergence_is_the_coupling]]) and the freeze review checks this
+requirement explicitly against the draft preregistration.
