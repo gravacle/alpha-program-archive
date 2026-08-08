@@ -14510,6 +14510,20 @@ THE SELECTOR IS UNSEALED — V011 carries both readings. And it is THE SAME MISS
 
 **Status.** SETTLED as characterization. Routed: the xi/F require-hunt (Dario, 733) — both branches tested against every sealed require, the lambda-datum convergence examined, verdict FORCED/UNDERDETERMINED — then the branch ruling goes to the principal on the hunt's verdict.
 
+## Q-638 — The U7 dispositions: 3 resolved, 2 exact absences, the carrier ruled P-B, the receiver routed (2026-08-08)
+
+**Question.** What do the seven U atoms resolve to?
+
+**Answer (Codex 2, 732; registrar seal-verified).** Three source-locus items RESOLVE from sealed bytes: SP1-07 and SP2-05 to D/S11-FORMAL (the packet-sealed global boundary-descent source covers their derivations; replayable proof objects remain formalization), and D-A35-02 to C (the packet source displays the quasifree CAR lift's required content — compile-ready). Two remain U-SOURCE with exact missing loci named: SP1-02 (the packet CPT derivation is a cellular-quadrature NEAR-MISS; no member carries the selected boundary-map derivation or Lorentz-square bundle) and SP1-06 (the source gate carries a PASS summary, not the p_cons/p_charge/p_proj proof bytes its type demands). Census: C200 / D37 / U4 / PF19.
+
+**The principal ruling (decision sealed):** the C-B-V009-01 carrier is P-B — Gate-3-REALIZED content-addressed line subobjects with induced forms; NO basis or trivialization licensed; the alias-corpus discipline governs any future trivialization. Realized beats formal; every future payload cites bytes.
+
+**The receiver question** (V010-14: the spec requires receivers for bare DAG and EXACT; the generated contract carries only M2) is ROUTED with both whole-repair readings displayed — descriptor-owned explicit receivers vs a sealed generated-expansion contract — delegated per the 698 precedent to the smaller-lawful-surface choice with justification (734 part B).
+
+**Basis.** STAGE8_7A_U7_DISPOSITION_CODEX2_V001.md = 0145c5dbbed1681067a211021892100cf6d18c6ef25ba9c7e905aeedc8a7f20d; DECISION_V009_01_CARRIER_PB sealed.
+
+**Status.** SETTLED. Routed: 734 (Codex 2) — the P-B instance built and the receiver repair chosen-smallest.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
