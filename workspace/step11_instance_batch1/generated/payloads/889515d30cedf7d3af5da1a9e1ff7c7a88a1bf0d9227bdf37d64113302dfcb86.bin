@@ -1,0 +1,40 @@
+{
+      "SPEC-SEAL": [],
+      "CORE-RESULT-SEAL": [
+        "SPEC-SEAL"
+      ],
+      "PARENT-COMPARISON": [
+        "CORE-RESULT-SEAL"
+      ],
+      "HOLDOUT-UNIVERSE-SEAL": [
+        "SPEC-SEAL"
+      ],
+      "QSPEC-SPEC-SEAL": [
+        "SPEC-SEAL"
+      ],
+      "PREDICTION-MAP-SEAL": [
+        "HOLDOUT-UNIVERSE-SEAL",
+        "QSPEC-SPEC-SEAL"
+      ],
+      "THOMSON-RESULT-SEAL": [
+        "CORE-RESULT-SEAL",
+        "QSPEC-SPEC-SEAL"
+      ],
+      "ALPHA-RESULT-SEAL": [
+        "THOMSON-RESULT-SEAL",
+        "PARENT-COMPARISON",
+        "HOLDOUT-UNIVERSE-SEAL",
+        "PREDICTION-MAP-SEAL"
+      ],
+      "HOLDOUT-RESULT-SEAL": [
+        "ALPHA-RESULT-SEAL"
+      ],
+      "END-TO-END-RECONSTRUCTION-SEAL": [
+        "ALPHA-RESULT-SEAL",
+        "HOLDOUT-RESULT-SEAL"
+      ],
+      "FINAL-CLAIM-SEAL": [
+        "END-TO-END-RECONSTRUCTION-SEAL",
+        "HOLDOUT-RESULT-SEAL"
+      ]
+    }

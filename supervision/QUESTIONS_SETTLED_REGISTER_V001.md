@@ -14445,6 +14445,18 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED — THE GATE IS RULED. The RA27-2 object builds next (727): the index sealed per the rulings, measure transport verified, consequences stated. The stitching chain and PE-1's test follow.
 
+## Q-633 — Instance batch 1: five honest partials; the compiler's refusals prove the pipeline; the gaps are the derivational floor (2026-08-08)
+
+**Question.** Can the five contract-ready instances be completed from sealed sources?
+
+**Answer.** PARTIALLY — and the partials are exactly Q-626's derivational floor made concrete. Five closed rd22.step11.partial-box-instance.v001 records authored from sealed sources only: positive spans rehashed and BYTE-COPIED to four deduplicated content-addressed payloads; every absence bound to the sealed corpus-wide search findings; nothing manufactured. Named gaps: competitor normal forms and fixture assignments (V008-05 x2); content-addressed stage artifacts, digest parents, parent-map root (V008-10); authority/claim nodes and typed edges (V009-08); the closed category structure (V010-11). The proven compiler ran on all five and refused each at SCHEMA_CONFORMANCE — the expected fail-closed outcome for named missing required fields; zero components bound; admission barred. Four rows advance to PARTIAL_INSTANCE_PRESENT_SCHEMA_INCOMPLETE.
+
+**Routing.** The V008-10 gaps are LOCATABLE (the archive's sealed provenance chain carries the stage artifacts to bind) — Codex 2, 728. The remaining gaps are S11-FORMAL derivation work, scheduled per class. The registrar's corpus rule-run (13 instances) remains the largest single unblocker and runs next.
+
+**Basis.** STAGE8_7A_INSTANCE_BATCH1_CODEX2_V001.md = f623cee341bae00b5bcd1cfcb48cf8d0dfe6f7c54c842aa35eb5794b24effbb7; five generated records mirrored.
+
+**Status.** SETTLED as authoring.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
