@@ -193,40 +193,57 @@ def descriptor_citation(descriptor_row, result_name, where):
     field the row does not carry -- never a guess, and never a fallback to a
     forbidden carrier.
     """
-    # V011-O1's carrier const is `...source_and_span` -- ONE unit. So the
-    # source identity must be SYNTACTICALLY BOUND to the span in the row, not
-    # merely present somewhere in it. This matters: the V009-06 row carries a
-    # second, unrelated 64-hex digest (the precedence decision), and a rule that
-    # took "the one digest that is not the atom's constant" would have silently
-    # adopted it as the source identity. Found by running this, not reading it.
-    bound = re.findall(r"([0-9a-f]{64})\s*:\s*\[(\d+),(\d+)\)", descriptor_row)
-    bound += re.findall(r"@\s*([0-9a-f]{64})\s*:\s*\[(\d+),(\d+)\)", descriptor_row)
-    spans = re.findall(r"\[(\d+),(\d+)\)", descriptor_row)
-    if len(spans) != 1:
+    # V011-O1's carrier const is `...source_and_span` -- ONE unit -- so the
+    # digest must be BOUND to the span, never merely present in the row. Two
+    # bound forms are accepted, and both bind by an EXPLICIT NAME or separator
+    # rather than by adjacency:
+    #
+    #   <64hex>:[start,end)                       the instance_id form
+    #   ... source_sha256=<64hex> ... [start,end) the V012 row form, and the
+    #                                             pair must lie in the SAME
+    #                                             citation clause
+    #
+    # Clause scoping is what makes the second form safe. At relay 702 a rule
+    # that took "the one digest that is not the atom's constant" adopted the
+    # PRECEDENCE DECISION as the source identity; that digest lives in a later
+    # `;`-separated clause, so scoping excludes it structurally rather than by
+    # my judgement about which digest looks like a source.
+    spans_all = re.findall(r"\[(\d+),(\d+)\)", descriptor_row)
+    if len(spans_all) != 1:
         raise GroundAtomRefusal(
             result_name,
             "the sealed descriptor row carries %d half-open spans; V011-O1 "
-            "requires exactly one source_and_span citation" % len(spans))
-    span = [int(spans[0][0]), int(spans[0][1])]
-    if len(bound) == 1:
-        return bound[0][0], span
+            "requires exactly one source_and_span citation" % len(spans_all))
+    span = [int(spans_all[0][0]), int(spans_all[0][1])]
+
+    colon = re.findall(r"([0-9a-f]{64})\s*:\s*\[%d,%d\)" % (span[0], span[1]),
+                       descriptor_row)
+    if len(colon) == 1:
+        return colon[0], span
+
+    # V012 form: the clause containing the span must also name source_sha256.
+    clause = None
+    for part in descriptor_row.split(";"):
+        if "[%d,%d)" % (span[0], span[1]) in part:
+            clause = part
+            break
+    named = re.findall(r"source_sha256\s*=\s*([0-9a-f]{64})", clause or "")
+    if len(named) == 1:
+        return named[0], span
+
     paths = re.findall(r"`([A-Za-z0-9_./-]+\.(?:json|md))`", descriptor_row)
-    others = [d for d in re.findall(r"\b([0-9a-f]{64})\b", descriptor_row)]
+    others = re.findall(r"\b([0-9a-f]{64})\b", descriptor_row)
     raise GroundAtomRefusal(
         result_name,
         "V011-O1 descriptor_citation.source_sha256 has no lawful carrier: the "
         "carrier const is SEALED_DESCRIPTOR_ROW...source_and_span, ONE unit, "
-        "but the row binds its span [%d,%d) to a PATH (%s) and to no SHA-256. "
-        "The row's %d other 64-hex digests are the atom's own constant and the "
-        "precedence decision, neither of which is the cited source, and "
-        "adopting an unbound digest would be a guess. The producer invocation "
-        "does carry source_sha256 and is barred (forbidden_mappings includes "
-        "PRODUCER_SUPPLIED); the atom's constant is barred "
-        "(CONSTANT_DIGEST_SELF_REFERENCE); the filename is barred "
-        "(PAYLOAD_FILENAME). SPEC GAP, two parts: (1) the descriptor row must "
-        "carry the source SHA-256 bound to the span it already carries; and "
-        "(2) the cited source must be a supplied payload, or R9 can derive no "
-        "row's citation to match against"
+        "and the clause carrying span [%d,%d) names no source_sha256 and binds "
+        "no digest to it (path cited: %s). The row's %d 64-hex digests are not "
+        "bound to the span, and adopting an unbound one would be a guess. The "
+        "producer invocation does carry it and is barred (PRODUCER_SUPPLIED); "
+        "the atom's constant is barred (CONSTANT_DIGEST_SELF_REFERENCE); the "
+        "payload filename is barred (PAYLOAD_FILENAME). SPEC GAP: the "
+        "descriptor row must carry the source SHA-256 bound to the span"
         % (span[0], span[1], (paths or ["<none>"])[0], len(others)))
 
 

@@ -124,7 +124,7 @@
           "const": "gravacle.a35.verifier-verdict.v1"
         },
         "spec_sha256": {
-          "const": "d48e0fa7cbb41cb1b347d9c47475d3b2d749112d7c07f9a658df2bce001c1b63"
+          "const": "382052c4caf7d8d4187c3fdbe98796845060e66519e11ed3b8eb3c454b68d504"
         },
         "terminal_content_sha256": {
           "pattern": "^[0-9a-f]{64}$",

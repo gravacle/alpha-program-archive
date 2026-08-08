@@ -544,7 +544,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 701 | Codex 2 | [6/TRANCHE] V011 citation key | **RETURNED. V011 = d48e0fa7, one schema statement, rows 0, code byte-unchanged (registrar-confirmed), 26 pins.** |
 | 702 | Dario | [6/TRANCHE] V011 envelope + citation resolver | **RETURNED. Envelope clean; resolver proven with controls; Q1 = row binds span to path, source unsupplied — two-part cure, first descriptor amendment. Q-616.** |
 | 703 | Codex 2 | [6/TRANCHE] V012 row citation | **RETURNED. Row hash b63a1335->da486b9a; only linkage fields changed (registrar-verified); census 19->21; code unchanged.** |
-| 704 | Dario | [6/TRANCHE] V012 independent confirmation + r_ground on real inputs — last gate before run 032 | LOADED — NOT SENT |
+| 704 | Dario | [6/TRANCHE] V012 independent confirmation + r_ground on real inputs — last gate before run 032 | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

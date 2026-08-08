@@ -60,7 +60,7 @@ def main():
     else:
         sys.stdout.write("FIXTURE_ROW_FIELDS        : 16 fields\n")
     if len(contracts.VERIFIER_MANIFEST_FIELDS) != 12:
-        faults += fail("VERIFIER_MANIFEST_FIELDS: %d, V011 §9 says 12"
+        faults += fail("VERIFIER_MANIFEST_FIELDS: %d, V012 §9 says 12"
                        % len(contracts.VERIFIER_MANIFEST_FIELDS))
     else:
         sys.stdout.write("VERIFIER_MANIFEST_FIELDS  : 12 fields "
@@ -604,6 +604,47 @@ def main():
             sys.stdout.write("V010 M1              : unresolvable member_key -> "
                              "named refusal citing the SPEC GAP\n")
 
+    # V012: the row-carried citation form -- source_sha256 NAMED and in the
+    # SAME clause as the span. Accepting a loose digest is the 702 defect.
+    _V12 = ("| `C-B-V009-06` | STRUCTURAL | src at `p/x.json` with "
+            "`source_sha256=" + hashlib.sha256(b"abcdefgh").hexdigest()
+            + "` bytes `[2,6)`; precedence decision `" + "b" * 64 + "`; "
+            "`STAGE_DEPENDENCIES_MEMBER_SHA256="
+            + hashlib.sha256(b"cdef").hexdigest() + "` | "
+            "`r_ground:=COMPARE(P0.evidence_files[k_member].sha256,"
+            "STAGE_DEPENDENCIES_MEMBER_SHA256,empty)` | `P0 and "
+            "r_ground.success` |\n")
+    _v12rec = _ga.normalize_ground_atom("r_ground", _V12)
+    try:
+        _s, _sp = _ga.descriptor_citation(_V12, "r_ground", "sc")
+        if _s != hashlib.sha256(b"abcdefgh").hexdigest() or _sp != [2, 6]:
+            faults += fail("V012 citation bound wrongly: %s %s" % (_s, _sp))
+        else:
+            sys.stdout.write("V012 citation        : named source_sha256 in the "
+                             "span's own clause binds\n")
+    except Exception as exc:                      # noqa: BLE001 - fail closed
+        faults += fail("V012 citation: %s" % exc)
+    # the precedence digest lives in a LATER clause and must never be adopted
+    _V12b = _V12.replace("with `source_sha256="
+                         + hashlib.sha256(b"abcdefgh").hexdigest() + "` ", "")
+    try:
+        _ga.descriptor_citation(_V12b, "r_ground", "sc")
+        faults += fail("V012: unbound row accepted")
+    except _ga.GroundAtomRefusal as exc:
+        if "b" * 64 in exc.reason:
+            faults += fail("V012: a later-clause digest was adopted")
+        else:
+            sys.stdout.write("V012 citation        : a later-clause digest is "
+                             "NOT adopted; unbound row refused\n")
+    _v12out = _ga.resolve_ground_atom(
+        _v12rec, {}, {hashlib.sha256(b"abcdefgh").hexdigest(): [("s", b"abcdefgh")]},
+        "sc", descriptor_row=_V12)
+    if _v12out["success"] is not True or _v12out["producer_carrier"] is not False:
+        faults += fail("V012: r_ground did not resolve: %s" % _v12out)
+    else:
+        sys.stdout.write("V012 citation        : r_ground resolves; "
+                         "producer_carrier false\n")
+
     # V011-O1: the citation key
     _CROW = ("| `C-B-V009-06` | STRUCTURAL | src at `p/x.json` bytes "
              "`" + "c" * 64 + ":[2,6)`; `STAGE_DEPENDENCIES_MEMBER_SHA256="
@@ -664,7 +705,7 @@ def main():
 
     # Launch inventories, verified against the SEALED GOVERNING SPEC bytes
     _spec = os.path.join(os.path.dirname(ROOT),
-                         "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md")
+                         "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V012.md")
     if os.path.isfile(_spec):
         _t = open(_spec, encoding="utf-8").read()
         _decl = _re.search(r'"required":\[("evidence_manifest_sha256"[^\]]*)\]',
@@ -675,7 +716,7 @@ def main():
             faults += fail("input_roots differ from the sealed schema: %s vs %s"
                            % (_want, sorted(contracts.INPUT_ROOTS_FIELDS)))
         else:
-            sys.stdout.write("V011 inventories     : input_roots match the "
+            sys.stdout.write("V012 inventories     : input_roots match the "
                              "sealed schema (7)\n")
         _mr = child_manifest.root_member_rows(ROOT)
         _m = child_manifest.build_manifest(
@@ -686,7 +727,7 @@ def main():
             faults += fail("argv is %d items, sealed schema says 22"
                            % len(_m["argv"]))
         else:
-            sys.stdout.write("V011 inventories     : argv is the sealed "
+            sys.stdout.write("V012 inventories     : argv is the sealed "
                              "22-item schema\n")
 
     # no load-bearing assert anywhere in the package
@@ -714,7 +755,7 @@ def main():
     # how this fourth V005 reference was found: it was carried by NAME, so
     # grepping for the old digest could not see it.
     spec = os.path.join(os.path.dirname(ROOT),
-                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md")
+                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V012.md")
     if os.path.isfile(spec):
         try:
             census = spec_census.SpecCensus(spec)

@@ -65,7 +65,7 @@ OPCODES = (
 
 # One recorded invocation. SEVEN fields, transcribed from the SEALED SPEC's
 # §9.4 row schema -- not from Builder B's 686 write-out, which named four and
-# is superseded. V011 §9.4: "This is the byte-span linkage required for
+# is superseded. V012 §9.4: "This is the byte-span linkage required for
 # independent replay; the blocker-ledger source.byte_span and a digest without
 # the source slice are not substitutes for it." Both builders were short of the
 # spec here; the spec wins.
