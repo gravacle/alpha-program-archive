@@ -536,7 +536,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 693 | Dario | [6/TRANCHE] diagnose the replay disagreement | **RETURNED. Registrar candidate refuted; BR-1 in B's own replay (fixed); P0 = spec gap; seven-field carrier — both builders below spec. Q-611.** |
 | 694 | Codex 2 | [6/TRANCHE] spec V008 + seven-field + parent argv | **RETURNED. V008 = 3b24fc39; rows changed 0; 26/26 pins; dry-run passed. Registrar verified seals, pin grep, schemas, fence.** |
 | 695 | Dario | [6/TRANCHE] V008 envelope check + integration | **RETURNED. Envelope clean; F1 spans off-by-one x3, F2 certificate 160/26 vs 155/21, F3 addendum unsupplied, F4 census 12 vs 13. Q-612.** |
-| 696 | Codex 2 | [6/TRANCHE] fix F1-F4: spec spans, certificate, addendum carrier, 13-member census — one whole delta | LOADED — NOT SENT |
+| 696 | Codex 2 | [6/TRANCHE] fix F1-F4: spec spans, certificate, addendum carrier, 13-member census — one whole delta | **SENT** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
