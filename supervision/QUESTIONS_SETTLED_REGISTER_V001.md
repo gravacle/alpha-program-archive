@@ -14485,6 +14485,16 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as derivation. Routed (hunt-before-adopt, again): THE CHARACTERIZATION (Dario, 731) — conditional and adoption-free: over all interior-edge rules, which (if any) make the measure functorial with subextensive boundary under the shape-regular class? UNIQUE -> the adoption question collapses to require-shaped; NONE -> a theorem (irreducible scheme-dependence — reshapes everything); FAMILY -> genuine freedom for the principal. Plus: derive the incidence line from the frozen moves' own definitions or name it for sealing.
 
+## Q-636 — The program-future sweep: 19 atoms belong to the road itself; the true pre-alpha step-11 band is 62–155 (2026-08-08)
+
+**Question.** How much of the step-11 remainder is realized by later road steps rather than pre-alpha authoring?
+
+**Answer.** NINETEEN atoms reclassified PROGRAM-FUTURE with block-covered grounding: the 11 stage-realization artifacts (SPEC-SEAL through FINAL-CLAIM-SEAL — every realization field false in the provenance status object; they ARE the road's milestones) and the 8 physics proof/result atoms already owned by A23/A25/A27/A28 (owners PENDING in the hostile matrix, BLOCKED on the lineage-V2 board). Corrected census: C199 + D35 + U7 + PF19 = 260 atoms; TRUE PRE-ALPHA STEP-11 REMAINDER = 241 atoms in a 62–155 relay band (C tooling 20–36; D authoring 35–105; U disposition 7–14). The old Q-625 row band is retained as historical and WITHDRAWN as a planning object — whole-row subtraction would delete current work, atom-level subtraction would invent an uncalibrated conversion; the honest move was neither. V008-10's decomposition preserves its current gaps (the 17-edge binding family, the root formula, the schema mapping) rather than letting the future stages absorb them; the five source-locus U items were not silently promoted.
+
+**Basis.** STAGE8_7A_PROGRAM_FUTURE_SWEEP_CODEX2_V001.md = registrar seal-verified, mirrored.
+
+**Status.** SETTLED as planning correction. Routed: the U7 disposition (Codex 2, 732) — the five source-locus questions from bytes, the principal carrier-selection item surfaced for ruling, the cross-contract receiver question adjudicated or routed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
