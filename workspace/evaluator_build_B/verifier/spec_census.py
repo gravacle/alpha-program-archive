@@ -7,7 +7,7 @@ itself. Nothing is taken from the producer's manifests, from Builder A's code,
 or from any mutable receipt. If the producer and the spec disagree, the spec
 wins and the run fails closed.
 
-Governing spec: V009. State R9's duty passage is byte-identical to V005's, so
+Governing spec: V010. State R9's duty passage is byte-identical to V005's, so
 the expectations below are re-derived, not restated:
     "checks the exact 63 blocker IDs plus 3 discrepancy IDs, all 66 V005
      descriptor hashes, the 56/10 class partition, and the 35 carried BOUND +
@@ -22,7 +22,7 @@ import re
 from .canonical_json import VerifierFault
 from .hashing import load_addressed, sha256_bytes
 
-SPEC_SHA256 = "900a240df2bfdee5867eb589ae88c7f282810a8c7718999ad5cdf2bfb3f80698"
+SPEC_SHA256 = "31ccee9c45c885e4e379fa1750f38695e293151e74bd8f8c15a5f0ccf23bfc19"
 
 EXPECTED_TOTAL_IDS = 66
 EXPECTED_BLOCKER_IDS = 63
@@ -78,6 +78,10 @@ def parse_descriptors(spec_text):
             "execution_class": klass,
             # the descriptor's own content address: the exact row bytes
             "check_spec_sha256": sha256_bytes(line.encode("utf-8")),
+            # V010-M1 needs the SEALED ROW TEXT itself: a ground atom's constant
+            # must occur literally in the same row, and the atom shape is read
+            # from these bytes and from nowhere else.
+            "row": line,
         }
     return out
 
@@ -164,6 +168,13 @@ class SpecCensus(object):
         if row is None:
             raise VerifierFault("unknown check_id %r" % check_id)
         return row["check_spec_sha256"]
+
+    def descriptor_row(self, check_id):
+        """The sealed descriptor row's own text. V010-M1's only atom source."""
+        row = self.descriptors.get(check_id)
+        if row is None:
+            raise VerifierFault("unknown check_id %r" % check_id)
+        return row["row"]
 
     def gated_ids(self):
         return sorted(i for i in self.descriptors

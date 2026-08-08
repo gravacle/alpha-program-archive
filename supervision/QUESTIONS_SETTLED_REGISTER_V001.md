@@ -14188,6 +14188,20 @@ B's disclosures of record: its first probe of G1 used autojunk=False — disabli
 
 **Status.** SETTLED as adjudication. Routed: relay 699 (A: V010 one-statement delta), then 700 (B: envelope + ground-atom resolution), then run 032 — the confirmation run.
 
+## Q-615 — The ground-atom resolver built; condition 2's mapping gap ruled by exclusion (2026-08-08)
+
+**Question.** Does V010 survive B's envelope check, and does the resolver close the last substantive fault?
+
+**Answer.** The envelope holds (one statement, 66/66 rows byte-identical, the qualifying rule genuinely closed — thirteen opcodes and every other COMPARE atom excluded by name, no class admitted by analogy). B verified A's zero-code-change claim against RUN 031'S OWN BYTES, not the inventory: runner_sha256 = parent.py on disk, module ledger = producer.py on disk, verifier_sha256 = B's sealed root — which also proves 697's G2 hazard never fired (A deleted the stale census; a finding that gets fixed is recorded as fixed). The resolver is implemented with fifteen executed paths: schema normalization from the sealed row, six schema negatives plus the condition-4 negative refusing, control A non-vacuous (true 932-byte member -> True; one byte appended or changed -> False; condition 3 honoured by REHASHING, never by reading a declared digest), control B refusing a smuggled producer r_ground structurally under BR-1 (the ground-atom name set computed from the sealed row before any invocation is consumed), control C confirming the lawful r_dag carrier still recomputes alongside.
+
+**FINDING P1 (the last gap) and its ruling.** V010's condition 2 states "member_key resolves exactly one row in R9's own P0-verified evidence table" — a requirement with no mapping; member_key is a bare identifier while the table is keyed by content-addressed paths. Both reachable mappings are barred by V010's own text: the payload filename is a producer choice (condition 5), and the constant's own digest makes COMPARE(X,X) (barred by the row). B refused to invent and named the cheapest sufficient form. RULED BY THE REGISTRAR, PROVABLE BY EXCLUSION: the resolution mapping is the SOURCE-AND-SPAN CITATION the sealed descriptor already carries (source_sha256 + half-open byte span — the same linkage instance_id packs). It is the only candidate that is principal-ruled data, producer-independent, and non-degenerate. Routed as V011, one statement (relay 701).
+
+**B's own-staleness disclosure, G2's exact shape.** B's pin sweep found the superseded V009 root live in B's own generated members sidecar — the identical defect B filed against A one relay earlier, found by the same sweep in its own package. Fixed: sidecar and instance now regenerate together from final bytes, sidecar root = instance root = package_root_digest(). The lesson as stated: a derived artifact must be regenerated in the same act that changes what it derives from, or not exist.
+
+**Basis.** STAGE8_TASK6_GROUND_ATOM_RESOLVER_DARIO_V001.md = 08a6bb7bfbc52c57af86f68d55febbd2c2c74859032009c267ff719b6eae2099; new verifier root ddc09a3d… over 14 members (registrar-recomputed, per-row bindings exact; membership is instance data, so the resolver module's addition is self-describing). V010 condition-2 text verified at the schema block (member_key pattern [A-Za-z_][A-Za-z0-9_]*, no mapping stated).
+
+**Status.** SETTLED as adjudication. Run 032 was not invoked on a known named refusal; V011 (A, relay 701) -> B confirm (702) -> run 032, the confirmation run.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

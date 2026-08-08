@@ -15,6 +15,8 @@ those forms. That closure is what makes independent replay possible at all.
 import re
 
 from .canonical_json import VerifierFault, encode_canonical, loads_strict
+from .ground_atoms import (GroundAtomRefusal, normalize_ground_atom,
+                           resolve_ground_atom)
 from .hashing import require_sha256, sha256_bytes
 
 # Opcodes whose use is permitted only inside a GATED-EXECUTION row after its
@@ -319,7 +321,7 @@ class EvidenceBundle(object):
 
 
 # --- opcode recomputation ---------------------------------------------------
-# Spec V009 R9: the verifier "replays each pass predicate FROM EVIDENCE BYTES".
+# Spec V010 R9: the verifier "replays each pass predicate FROM EVIDENCE BYTES".
 # Reading `.success` off a producer-emitted result object would let a
 # producer-declared object carry the criterion's direction -- the BR-1
 # violation this lane has enforced against Builder A for twenty relays, and it
@@ -355,7 +357,7 @@ def opcode_dag(args, where):
     cycles, self-parenting and missing parents; compare with required parents.
 
     The single-authority form is the ONLY one implemented here, because it is
-    the only one V009 authorises for a one-object encoding: `P` must be the
+    the only one V010 authorises for a one-object encoding: `P` must be the
     spec-fixed sentinel, and the comparison clause is then discharged by the
     principal ruling's identity -- NOT by synthesizing COMPARE(X,X), which the
     row expressly forbids and which this function therefore never performs.
@@ -407,23 +409,55 @@ def opcode_dag(args, where):
             "sinks": sorted(n for n in graph if not children[n])}
 
 
-def recompute_results(invocations, where):
-    """Recompute every recorded invocation's result object from its arguments.
+def recompute_results(invocations, where, descriptor_row=None,
+                      criterion=None, evidence_table=None,
+                      evidence_index=None):
+    """Recompute every result object the criterion needs, from R9's own sources.
+
+    Two disjoint provenances, and the disjointness is the point (V010-M1):
+
+      producer-carried   the row's structured `invocation` supplies the args;
+                         R9 recomputes the opcode over them.
+      GROUND ATOM        no producer carrier exists. R9 reconstructs the atom
+                         from the sealed descriptor row plus its own P0-verified
+                         evidence table. A producer invocation or result object
+                         purporting to supply one is a BR-1 contract fault.
 
     An opcode this package has not implemented is an explicit fault, never a
     silent pass: a criterion the verifier cannot replay is not a criterion the
     verifier has confirmed.
     """
     results = {}
+    ground_names = set()
+    if descriptor_row and criterion:
+        for atom in split_conjuncts(criterion):
+            match = _ATOM_SUCCESS.match(atom.strip().strip("`").strip())
+            if match:
+                record = normalize_ground_atom(match.group(1), descriptor_row)
+                if record is not None:
+                    ground_names.add(match.group(1))
+
     for i, inv in enumerate(invocations or []):
         at = "%s.invocation[%d]" % (where, i)
         opcode, name = inv["opcode"], inv["result_name"]
+        if name in ground_names:
+            raise VerifierFault(
+                "%s: %s is a V010-M1 ground atom; no producer carrier exists "
+                "for it and a producer-emitted invocation or result object "
+                "purporting to supply one is a contract fault under BR-1"
+                % (at, name))
         if opcode not in IMPLEMENTED_OPCODES:
             raise VerifierFault(
                 "%s: opcode %s is not implemented by this verifier; the "
                 "criterion cannot be replayed from evidence bytes" % (at, opcode))
         handler = opcode_compare if opcode == "COMPARE" else opcode_dag
         results[name] = handler(inv["args"], at)
+
+    for name in sorted(ground_names):
+        record = normalize_ground_atom(name, descriptor_row)
+        results[name] = resolve_ground_atom(
+            record, evidence_table or {}, evidence_index or {},
+            "%s.%s" % (where, name))
     return results
 
 

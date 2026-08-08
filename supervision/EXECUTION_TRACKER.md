@@ -540,7 +540,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 697 | Dario | [6/TRANCHE] V009 envelope + confirmation | **RETURNED. Envelope holds; P0 TRUE all six on real inputs; G1 mechanism corrected of record; G2 stale members copy blocks 031. Q-613.** |
 | 698 | Codex 2 | [6/TRANCHE] G2 fix | **RETURNED (b: copy removed). RUN 031: chain end-to-end first time; 1 PASS/55/10; ONE fault: no result r_ground. Q-614.** |
 | 699 | Codex 2 | [6/TRANCHE] V010 ground atoms | **RETURNED. V010 = 31ccee9c, one statement, rows 0, parent/producer byte-unchanged (registrar-confirmed), 26/26 pins.** |
-| 700 | Dario | [6/TRANCHE] V010 envelope + R9 ground-atom resolver (+negative controls) | **SENT** |
+| 700 | Dario | [6/TRANCHE] V010 envelope + resolver | **RETURNED. Envelope holds; resolver 15 paths + 3 controls; P1 = condition-2 mapping gap, ruled by exclusion (citation key); B self-caught G2-shape staleness. Q-615.** |
+| 701 | Codex 2 | [6/TRANCHE] V011: condition-2 mapping = the sealed source-and-span citation — one statement | LOADED — NOT SENT |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |

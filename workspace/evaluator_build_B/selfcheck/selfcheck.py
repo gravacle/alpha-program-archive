@@ -60,7 +60,7 @@ def main():
     else:
         sys.stdout.write("FIXTURE_ROW_FIELDS        : 16 fields\n")
     if len(contracts.VERIFIER_MANIFEST_FIELDS) != 12:
-        faults += fail("VERIFIER_MANIFEST_FIELDS: %d, V009 §9 says 12"
+        faults += fail("VERIFIER_MANIFEST_FIELDS: %d, V010 §9 says 12"
                        % len(contracts.VERIFIER_MANIFEST_FIELDS))
     else:
         sys.stdout.write("VERIFIER_MANIFEST_FIELDS  : 12 fields "
@@ -529,9 +529,84 @@ def main():
         sys.stdout.write("V009 J4              : refuses a root that does not "
                          "derive from its members\n")
 
+    # V010-M1: ground atoms are R9's alone
+    from verifier import ground_atoms as _ga
+    _ROW = ("| `C-B-V009-06` | STRUCTURAL | x; "
+            "`STAGE_DEPENDENCIES_MEMBER_SHA256=" + "a" * 64 + "` | "
+            "`r_ground:=COMPARE(P0.evidence_files[k_member].sha256,"
+            "STAGE_DEPENDENCIES_MEMBER_SHA256,empty)`; "
+            "`r_dag:=DAG(g,PRINCIPAL_SINGLE_AUTHORITY)` | `P0 and "
+            "r_ground.success and r_dag.success` |\n")
+    _rec = _ga.normalize_ground_atom("r_ground", _ROW)
+    if _rec is None or sorted(_rec) != sorted(_ga.GROUND_ATOM_FIELDS):
+        faults += fail("M1: r_ground did not normalize: %s" % _rec)
+    else:
+        sys.stdout.write("V010 M1              : r_ground normalizes to the "
+                         "closed 8-field record\n")
+    if _ga.normalize_ground_atom("r_dag", _ROW) is not None:
+        faults += fail("M1: r_dag admitted as a ground atom (analogy)")
+    else:
+        sys.stdout.write("V010 M1              : r_dag is NOT a ground atom "
+                         "(no admission by analogy)\n")
+    for _lbl, _mut in (("opcode DAG", {"opcode": "DAG"}),
+                       ("atom_class altered", {"atom_class": "OTHER"}),
+                       ("mask non-empty", {"mask": ["x"]}),
+                       ("operand_order outside enum", {"operand_order": "z"}),
+                       ("schema wrong", {"schema": "other"}),
+                       ("undeclared field", {"extra": 1})):
+        _bad = dict(_rec); _bad.update(_mut)
+        try:
+            _ga.validate_ground_atom(_bad, "sc")
+            faults += fail("M1: %s accepted" % _lbl)
+        except canonical_json.VerifierFault:
+            sys.stdout.write("V010 M1              : refuses %s\n" % _lbl)
+    # NON-VACUITY: a perturbed operand must flip the atom
+    _blob = b"member-bytes"
+    _rec2 = dict(_rec)
+    _rec2["constant_operand"] = dict(_rec["constant_operand"],
+                                     value=hashlib.sha256(_blob).hexdigest())
+    _k = _rec["evidence_operand"]["member_key"]
+    def _drive(bl):
+        return _ga.resolve_ground_atom(
+            _rec2, {_k: {"sha256": hashlib.sha256(bl).hexdigest(),
+                         "byte_length": len(bl)}},
+            {hashlib.sha256(bl).hexdigest(): [("d", bl)]}, "sc")["success"]
+    if not (_drive(_blob) is True and _drive(_blob + b"!") is False):
+        faults += fail("M1: the atom does not flip on a perturbed operand")
+    else:
+        sys.stdout.write("V010 M1              : a perturbed operand FLIPS the "
+                         "atom (not COMPARE(X,X))\n")
+    # a smuggled producer carrier for a ground atom is a fault
+    try:
+        replay.recompute_results(
+            [{"opcode": "COMPARE", "result_name": "r_ground",
+              "args": {"left": "a" * 64, "right": "a" * 64, "mask": []},
+              "instance_id": None, "source_sha256": None, "span": None,
+              "span_sha256": None}],
+            "sc", descriptor_row=_ROW,
+            criterion="P0 and r_ground.success and r_dag.success",
+            evidence_table={}, evidence_index={})
+        faults += fail("M1: smuggled producer r_ground accepted")
+    except canonical_json.VerifierFault as exc:
+        if "BR-1" not in str(exc):
+            faults += fail("M1: smuggle refusal does not cite BR-1: %s" % exc)
+        else:
+            sys.stdout.write("V010 M1              : refuses a smuggled "
+                             "producer r_ground under BR-1\n")
+    # unresolvable member_key -> NAMED refusal, never a FAIL
+    try:
+        _ga.resolve_ground_atom(_rec, {}, {}, "sc")
+        faults += fail("M1: unresolvable member_key accepted")
+    except _ga.GroundAtomRefusal as exc:
+        if "SPEC GAP" not in exc.reason:
+            faults += fail("M1: refusal does not name the gap: %s" % exc.reason)
+        else:
+            sys.stdout.write("V010 M1              : unresolvable member_key -> "
+                             "named refusal citing the SPEC GAP\n")
+
     # Launch inventories, verified against the SEALED GOVERNING SPEC bytes
     _spec = os.path.join(os.path.dirname(ROOT),
-                         "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V009.md")
+                         "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md")
     if os.path.isfile(_spec):
         _t = open(_spec, encoding="utf-8").read()
         _decl = _re.search(r'"required":\[("evidence_manifest_sha256"[^\]]*)\]',
@@ -542,7 +617,7 @@ def main():
             faults += fail("input_roots differ from the sealed schema: %s vs %s"
                            % (_want, sorted(contracts.INPUT_ROOTS_FIELDS)))
         else:
-            sys.stdout.write("V009 inventories     : input_roots match the "
+            sys.stdout.write("V010 inventories     : input_roots match the "
                              "sealed schema (7)\n")
         _mr = child_manifest.root_member_rows(ROOT)
         _m = child_manifest.build_manifest(
@@ -553,7 +628,7 @@ def main():
             faults += fail("argv is %d items, sealed schema says 22"
                            % len(_m["argv"]))
         else:
-            sys.stdout.write("V009 inventories     : argv is the sealed "
+            sys.stdout.write("V010 inventories     : argv is the sealed "
                              "22-item schema\n")
 
     # no load-bearing assert anywhere in the package
@@ -581,7 +656,7 @@ def main():
     # how this fourth V005 reference was found: it was carried by NAME, so
     # grepping for the old digest could not see it.
     spec = os.path.join(os.path.dirname(ROOT),
-                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V009.md")
+                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md")
     if os.path.isfile(spec):
         try:
             census = spec_census.SpecCensus(spec)
