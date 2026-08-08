@@ -14393,6 +14393,22 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as consolidation. Tooling for the contract-ready subset proceeds (Codex 2, 723); the selection-authority ruling pends with the principal.
 
+## Q-629 — The decisive test reframes the question: tau_density may live on a different CARRIER; three routes now block on RA27-2 (2026-08-08)
+
+**Question.** Defined as a carrier, does tau_density survive the require matrix — forcing the topology or freeing it?
+
+**Answer. DEFINITION-INCOMPLETE — and the incompleteness is the discovery.** The corpus DOES supply a complete density-convergence topology (corrected against 719's impression): the Duhamel schema's (H2) intensive logs gamma_K = -Log Ghat_K / N_4(K) with Montel normality and Vitali-Porter limit-closure — locally uniform convergence on the polydisc, sealed and limit-preserving. Two named gaps stop it from BEING tau_density:
+- GAP 1 (the index): the sealed instance is indexed by the causally-sequential exhaustion (growing volume); 4d defines tau_density over C_ref (a refinement family); the schema mentions C_ref zero times (full-file count). Supplying the refinement index IS RA27-2's same-region relation — THREE INDEPENDENT ROUTES NOW BLOCK ON ONE OBJECT: A27's remainder, R9-JII's J2 quantifier, and the topology.
+- GAP 2 (the carrier class — the reframe): the sealed instance carries intensive DENSITIES (holomorphic functions on a polydisc); tau_norm/tau_cyl are topologies on the ratified operator COMPLETION. If tau_density lives on a different carrier, R3/R5/R6 may not APPLY to it rather than fail for it — testing a function-space topology for an operator bidual tail has no truth value. "Choose one of three" MAY BE UNDER-POSED. 4d never claimed a common carrier.
+
+**Matrix under the partial definition (3x9; new require R9 = the S5.3 discharge fence, tested against both):** tau_cyl eliminated (unchanged); tau_norm satisfies everything testable, R9 with no purchase; tau_density U/N-A? on the completion-class requires, STRONGER than tau_norm on R2 (V011's own four-volume-ratio requirement — the density carrier is an over-N_4 quotient; neither satisfies R2 today, one speaks its language), and S-with-a-burden on R9 (using (H2) as specification is permitted; an instantiated tau_density carries a standing obligation to PROVE its defining convergence — a cost, not a disqualification; (H1)/(H2) explicitly not discharged, not asserted). FORCED(tau_norm) is LESS available than at 719; FORCED(tau_density) unavailable (no index); UNDERDETERMINED unassertable (one candidate untestable).
+
+**Corrections of record, Dario against its own 719:** the "cheap decisive test" was not self-contained — it runs out at RA27-2, exactly where everything else does; and "the smallest adoption, no member import" stands for tau_norm but is NOT GENERAL. The anti-tuning void condition was declared before the definition work and honoured; the verdict reached is the least convenient of the four available. Also corroborated in passing: the shape conflict remains held (two transport charters, zero occurrences of "topology", both deferring C_ref/D3 to the principal).
+
+**Basis.** STAGE8_7A_TAU_DENSITY_CARRIER_DARIO_V001.md = 0743eb526132d4cc29102121b4a6e79b9b35dd72e1562ffd395e5c63c26ff26f (14/14 pin check).
+
+**Status.** SETTLED as definition-attempt. Routed (hunt-before-ask, the standing pattern): the tau_density REFERENCE determination (724, Dario) — does V011's operational "density convergence over C_ref" refer to the sealed polydisc density topology, or to a completion topology in density clothing? Sealed text decides; only if it underdetermines does GAP 2's typing go to the principal.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
