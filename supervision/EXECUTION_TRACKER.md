@@ -559,8 +559,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 718 | Codex 2 | [7A/STEP11] calibration carrier | **RETURNED via outbox (ACK). PARTIAL best-case: 2/10 components grounded, 8 named; projection 112-232 authoring relays. Q-625.** |
 | 719 | Dario | [7A/STEP8] require-hunt | **RETURNED via outbox (ACK). tau_cyl ELIMINATED (2-link); tau_norm survives all; tau_density untestable-undefined; FORCED refused on jurisdiction; decisive test named. Q-627.** |
 | 720 | Codex 2 | [7A/STEP11] the split | **RETURNED via outbox (ACK). C198/D42/U7; band 69-176 with tooling; PE-2 CONFIRMED both halves. Q-626.** |
-| 721 | Codex 2 | [7A/STEP11] the box batch: 18 S11-SPEC statements consolidated into minimal spec deltas | QUEUED — NOT ANNOUNCED |
+| 721 | Codex 2 | [7A/STEP11] box batch | **RETURNED via outbox (ACK). 4 schemas sealed, 1 delta, rows 0; 13 U-boxes = corpus instances awaiting SELECTION AUTHORITY (principal). Q-628.** |
 | 722 | Dario | [7A/STEP8] tau_density defined + matrix re-run — the decisive topology test | QUEUED — NOT ANNOUNCED |
+| 723 | Codex 2 | [7A/STEP11] tooling family 1: carrier compiler for the contract-ready subset (19 elements) | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |

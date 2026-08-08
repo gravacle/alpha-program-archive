@@ -14381,6 +14381,18 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as hunt. Routed: the tau_density carrier definition + matrix re-run (Dario, 722) — the decisive test before any adoption question returns to the principal.
 
+## Q-628 — Box batch: 4 schemas sealed in one delta; 13 boxes share one missing fact — the corpus-member SELECTION AUTHORITY (2026-08-08)
+
+**Question.** How many of the 18 missing schema classes does sealed text determine?
+
+**Answer.** FOUR, sealed as closed Draft-2020-12 schemas in ONE finite delta (BX01 noncommuting-plaquette carrier; BX03 three-stage parent map; BX09 citation/claim/authority graph; BX13 decorated-category carrier) — zero descriptor rows changed, 48/48 span pins verified, schemas linted closed. FOURTEEN moved honestly to U: thirteen are CORPUS INSTANCES whose common schema V007 already supplies — what no sealed source determines is the exact members[] and A PRE-QUERY MEMBER-SELECTION AUTHORITY; one (BX08) lacks object/fiber selection and mapping authority. The four sealed boxes are contract-ready and directly unblock 19 C elements (15 more transitively); the fourteen U boxes unblock nothing until their named facts seal.
+
+**The surfaced design question (principal's).** Corpus-member selection is a custody question in disguise: a producer-selected corpus could exclude adverse documents (BR-1's shape — a producer-declared object carrying a criterion's direction by deciding what counts as searchable). The authority must be neutral and its selections verifiable. Routed to the principal with the registrar's recommendation.
+
+**Basis.** STAGE8_7A_BOX_SCHEMA_DELTA_CODEX2_V001.json = b52e66b7…; STAGE8_7A_BOX_BATCH_CODEX2_V001.md = 1e0aadf2…; registrar seal-verified, mirrored.
+
+**Status.** SETTLED as consolidation. Tooling for the contract-ready subset proceeds (Codex 2, 723); the selection-authority ruling pends with the principal.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
