@@ -566,8 +566,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 724 | Dario | [7A/STEP8] reference determination | **RETURNED via outbox (ACK). SILENT — no tau ever typed; real split = the limit's SUBJECT. PRINCIPAL RULED: the intensive coefficient. Q-630.** |
 | 725 | Dario | [7A/STEP8] adoption package | **RETURNED via outbox (ACK). Measure already done; index = P1/P2/P3 on built Ref_0; shape gates. PRINCIPAL RULED: licensed-generator index + shape-regular w/ preregistered relaxation. Q-632.** |
 | 726 | Codex 2 | [7A/STEP11] instance batch 1 | **RETURNED via outbox (ACK). 5 honest partials, gaps named; compiler refused all 5 at schema (fail-closed proven). Q-633.** |
-| 727 | Dario | [7A/STEP8] THE RA27-2 OBJECT BUILT under the rulings (index + measure transport + consequences) | QUEUED — NOT ANNOUNCED |
+| 727 | Dario | [7A/STEP8] RA27-2 build | **RETURNED. INDEX BUILT+STANDS; build STOPPED at LL2 — the refinement bridge (T11's gap) is the one missing derivation; patch refused. Q-634.** |
 | 728 | Codex 2 | [7A/STEP11] V008-10 stage artifacts located + bound; parent-map root | QUEUED — NOT ANNOUNCED |
+| 729 | Dario | [7A/STEP8] THE REFINEMENT BRIDGE: F under subdivision from its sealed definition | QUEUED — NOT ANNOUNCED |
+| 730 | Codex 2 | [7A/STEP11] program-future reclassification sweep + corrected bands | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |

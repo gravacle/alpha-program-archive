@@ -1,0 +1,1 @@
+RD22_TOOLING_FAMILY1_REFUSE SCHEMA_CONFORMANCE $: extra ['admission', 'box_schema_id', 'chain_invoked', 'completeness', 'root_status', 'target_id']

@@ -14457,6 +14457,20 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as authoring.
 
+## Q-634 — The build stops at the true bottom: the REFINEMENT BRIDGE is the program's named missing object; and a new carrier class — program-future (2026-08-08)
+
+**Question.** Does the RA27-2 object build under the rulings, and do the V008-10 stage artifacts bind?
+
+**Answer, 727 (Dario).** THE INDEX IS BUILT AND STANDS — Ref_a closed-stated: shape-regular objects, arrows from the two frozen moves, P2 an equivalence, P1 by construction, directedness marked ADOPTED AS AXIOM inside the object with THIS IS NOT DERIVED and the decision cited; adoption ledger exactly 3 entries. THE BUILD THEN STOPPED AT LL2, correctly: FC-1's transport clause rested on a premise the sealed text does not support. T11's law is CHANGE-OF-COFRAME (one cell, two frames); the arrows are SUBDIVISIONS (one frame, many cells); transporting V_cell·sum F^2 across them needs a rule assigning F on sub-faces — and the corpus itself names this "T11's GAP — FUNCTORIALITY OF A MEASURE... does the response-map pullback commute with refinement, and is the boundary term subextensive?" (BATT), with 4d recording "the refinement bridge" as underived. Both generators fail identically; recorded NOT-PROVEN, never false; the one-line patch (assign F on sub-faces) was REFUSED — that assignment would author the physics. Dario's disclosure: the premise was its own 725 sentence; it had read AND CITED BATT in the same package and missed the refutation; DEC's "stitching is done" is extensivity over a FIXED cellulation — exactly what BATT says can degrade under refinement. Decision correction sealed (the adoptions stand; the transport premise is corrected). Consequences booked at strength: RA27-2 blocked (named); J2 has a domain and no truth condition; T_ref's gap not closed; RA27-3 generators supplied but inheriting the finding.
+
+**THE CONVERGENCE, now total.** The refinement functoriality of the measure IS the stitching/continuum rule the program has always recorded as absent — and every thread of 7A (A27's chain, the gravity test's J2, T_ref's instance, the coefficient's limit) now stands on this ONE derivation. PE-1's test is now exact: derive how F behaves under subdivision from its own sealed definition.
+
+**Answer, 728 (Codex 2).** All 11 stage realizations ABSENT-OF-RECORD — correctly: the status block itself records every realization false, because the stages ARE the program's own future milestones (ALPHA-RESULT-SEAL, FINAL-CLAIM-SEAL...). The near-match was rejected on its own ceiling text; no root formula borrowed from a differently scoped root. NEW CARRIER CLASS OF RECORD: PROGRAM-FUTURE — envelope elements completable only as the road itself completes. The V008-10 instance is honestly partial-forever-until-then.
+
+**Basis.** STAGE8_7A_RA27_2_INDEX_BUILT_DARIO_V001.md = 66f078baf5ff980f2ae2b57894154353721727ec0bf49b025b15746f4b5fbdc3 (14/14); STAGE8_7A_V008_10_STAGE_BINDING_CODEX2_V001.md = f92902bc…; DECISION_CORRECTION_FC1_TRANSPORT sealed.
+
+**Status.** SETTLED. Routed: THE REFINEMENT BRIDGE DERIVATION (Dario, 729) — F's subdivision behavior from its sealed definition, the functoriality proven or its failure derived, the boundary term's subextensivity under the shape-regular class; and the program-future reclassification sweep (Codex 2, 730).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
