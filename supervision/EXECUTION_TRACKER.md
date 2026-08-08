@@ -547,8 +547,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 704 | Dario | [6/TRANCHE] V012 confirmation | **RETURNED. Amendment linkage-only (constant never moved V007-V012); r_ground resolves; criterion reduces to a value. Run-032 attempt: fail-closed HASH_MISMATCH — 2 stale cross-boundary pins (schema, instance) of 248 checked.** |
 | 705 | Codex 2 | [6/TRANCHE] boundary re-pin | **RETURNED. Preflight 248/0. RUN 033: CONFIRMED — 1 PASS, 58 expected absences, ZERO findings on V009-06, children agree. Q-617. ROAD STEP 1 DONE.** |
 | 706 | Codex 2 | [6/L-V2] lineage V2 rerun | **RETURNED. Board 24/0/6 UNCHANGED — no flip earned; blocked set {A23,A24,A25,A27,A28,A35} = the five physics gaps + evidence layer. Cross-confirm queued (Dario after 707).** |
-| 708 | Codex 2 | [6/CLOSE] closing ledgers: falsifier disposition + OBS reconciliation | **SENT** |
-| 707 | Dario | [6/7A-HANDOFF] OBS-22 recognition preregistration draft (parallel lane) | **SENT** |
+| 708 | Codex 2 | [6/CLOSE] closing ledgers | **RETURNED. 42 falsifiers (6U/1R/34S/1X); 22 obs (3C/7K/12O); YOURS=0. Verified, mirrored.** |
+| 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
 | 540 | Codex 2 | [5] Chain V004 | RETURNED — Q-472 (BUILT; pending cross-check) |
 | 431 | Codex 1 | [4a] Cross-review of the sufficiency theorem | RETURNED — Q-349 (CONFIRMED all-PASS; prefix family carries every cycle character at rank 2; availability ratified) |
