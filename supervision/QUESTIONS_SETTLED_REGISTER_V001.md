@@ -14580,6 +14580,24 @@ The fifth available argument (C_ref's smooth-coframe clause) was REFUSED — bar
 
 Six witnesses built as exact universal finite records (pushout quotients both-associated, order-permutation reindexing, graded-commutator zero for distinct even factors, permutation-conjugation squares, symbolic Stone evolution with formal time symbols — no physical number evaluated), content-addressed D02/D03/D04/D06/D07/D09. D08 (orientation-reversal covariance) remains underdetermined — the source fixes d_c -> -d_c and projector invariance but only names the covariance target. SP1-07 advances to near-whole; the row's remaining gaps: D08's missing fixation + the 735 partials it inherits. Basis: STAGE8_7A_SP1_07_WITNESSES_CODEX2_V001.md, registrar seal-verified, mirrored. SETTLED as construction increment.
 
+## Q-644 — THE FORCING IS REFUTED: an explicit Freudenthal counterexample; the booking is withdrawn before it was made (2026-08-08)
+
+**Question.** Do the three locks survive adversarial cross-family verification?
+
+**Answer. L1 CONFIRMED, L2 AND L3 REFUTED — the forcing falls.**
+- L1 stands: contribution/V_cell = Sigma[xi/(ell ell)]^2 = Sigma F^2 term-by-term, three anisotropic exact-rational controls, the higher-order remainder neither erased nor promoted.
+- L2 falls on the move Dario did not check: cubical bisection confirms (only s=1/2 survives), but the FREUDENTHAL subdivision admits an explicit NON-F rule with ZERO residual — the exact 24-simplex unit-4-cube complex has 33 free new edges; its rank-33 quadratic has minimum 191/252 with Branch-F energy 1; reflecting Branch F through the minimizer yields a DISTINCT cochain with energy EXACTLY 1, differing on 22/33 new edges, reproducing all 24 coarse fluxes, in im(d_1') BY CONSTRUCTION, locally non-F. The invariance require pins the ENERGY, not the ASSIGNMENT.
+- L3 falls on mapping: the V011 scalar bar forbids an inserted residual scalar and the counterexample inserts none; the executed e60aec3c verdict adjudicates the measure family d_mu_a ~ [1+a u_cell]d4x — a weighting profile — not the refined-edge cochain a'. Both spans verify; the application does not.
+- The barred clause confirmed not load-bearing. The side condition typed exactly: D_(ell')F in im(d_1') iff exists a' with d_1'a' = D_(ell')F, plus a declared d_1-commuting square and coframe-compatible J_2 — pieces exist, no sealed carrier binds them; OPEN.
+
+**What survives the wreck, and it is substantial:** the measure V·Sigma F^2 IS functorial under the whole ENERGY-PRESERVING class of refinement rules (the counterexample is itself energy-preserving); the coefficient's invariance is a require on the energy; cubical bisection forces its assignment; the simplicial move leaves an equal-energy level set. The branch question returns not to zero but to a sharper shape: REFINEMENT FORCES THE ENERGY AND (ON THE CUBICAL MOVE) THE ASSIGNMENT; THE SIMPLICIAL ASSIGNMENT FREEDOM IS THE OPEN REMAINDER.
+
+**Third consecutive headline reversed by commissioned verification** — 731's trichotomy, 733's UNDERDETERMINED draft, now 733's FORCED. Each reversal was produced by the discipline the reversed lane itself invoked. The booking to the principal was WITHDRAWN BEFORE IT WAS MADE — the cross-check was ordered exactly so this could not reach a ratification wrongly.
+
+**Basis.** STAGE8_7A_BRANCH_F_CROSSCHECK_CODEX2_V001.md = 97587de8c7a468590cb150b54dae25e5d4aa132f82aa4ba6788062dc9220e049, registrar seal-verified, mirrored.
+
+**Status.** SETTLED as refutation. Routed: confirm-or-contest to the derivation's author (Dario, 738) — recompute the counterexample independently; test it against every enumerated require; if it stands, state the corrected verdict and what downstream actually needs the assignment (vs the energy). The branch ruling reaches the principal only on a cross-family-stable verdict.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
