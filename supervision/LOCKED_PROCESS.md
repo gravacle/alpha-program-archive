@@ -442,3 +442,9 @@ a demand-vocabulary search reports an untouched ground that is in fact sealed.
 Companion: span end offsets are GENERATED from the quote's last token, never
 estimated. With the searched-space clause, the span-coverage rule, and
 byte-offsets, this closes the four named scope-failure kinds.
+
+## THE WRITER-EXCLUSION RULE (2026-08-08, from Q-632 — third occurrence, now law)
+
+A census, count, or co-occurrence claim computed over a corpus that includes
+the artifact being written EXCLUDES THE WRITER, and says so. Post-seal counts
+that differ from pre-seal counts are displayed together (the 715 precedent).

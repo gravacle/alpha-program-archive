@@ -14431,6 +14431,20 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as tooling milestone.
 
+## Q-632 — RA27-2's free choices RULED: the licensed-generator index and shape-regularity; the measure was never missing (2026-08-08)
+
+**Question.** What must be adopted to close RA27-2, and what did the principal rule?
+
+**Answer, the package (Dario, 725; 8/8 pin check; void attestation clean).** Three findings reshaped the fork: (1) THE MEASURE HALF IS ALREADY DONE — T11 derives the per-cell measure with "the measure is forced, not chosen," and the stitching decomposition states its pullback naturality outright ("the measure's own stitching is done"); the 716 fork was too pessimistic by the component readers would expect to be hardest. (2) The index's missing content is THREE NAMED PROPERTIES on the already-BUILT Ref_0: P1 cells shrink / P2 same region / P3 refines — "the same-region relation" of three relays' usage is P2 alone. (3) The shape conflict PROMOTES to gate RA27-2 (the ruled subject is intensive; the conflict's own risk statement is four-volume-typed) — promotion, not resolution, with the sliver conditional left honestly uncomputed under the void condition. Barred by sealed TYPE-R, surviving the subject ruling: the smooth common-refinement family as source; the free/formal category ("merely moves the missing data into unproved generators"). lambda/beta unchanged — the tempting quadratic identification is never made by any sealed text (four files, zero co-occurrences, writer excluded), and the datum to settle it is absent.
+
+**The rulings (decision sealed this date):** FC-1 — THE LICENSED-GENERATOR INDEX ADOPTED: P3 = compositions of the two frozen record-native moves, P2 = zigzag-connectedness, P1 = by construction, DIRECTEDNESS ADOPTED AS AXIOM (the one provably underivable element — honest and minimal); measure transport via the derived pullback law; S5.3 burden carries. FC-2 — SHAPE-REGULAR admission with a PREREGISTERED RELAXATION (slivers re-enter only via a sealed ratio-preservation derivation, as surfaced revision); the D3 production prohibition lifts for the shape-regular spec only.
+
+**Process law from the disclosure (third occurrence, now installed):** THE WRITER-EXCLUSION RULE — a census run inside the corpus it is being written into must exclude the writer.
+
+**Basis.** STAGE8_7A_RA27_2_ADOPTION_PACKAGE_DARIO_V001.md = 2acac49a63db764b3bb4b7a8ce9a969b88a6fd61f996c4d9d811ac4fc9cae691; DECISION_RA27_2_ADOPTIONS_2026-08-08.md sealed.
+
+**Status.** SETTLED — THE GATE IS RULED. The RA27-2 object builds next (727): the index sealed per the rulings, measure transport verified, consequences stated. The stitching chain and PE-1's test follow.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
