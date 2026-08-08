@@ -14614,6 +14614,18 @@ Six witnesses built as exact universal finite records (pushout quotients both-as
 
 **Status.** SETTLED — cross-family stable. Routed: RA27-2's discharge BOOKED against D012 demand-by-demand + RA27-3 restated + the response-materiality question TYPED structurally without evaluation (Dario, 739). Lineage V3 re-earns the A27 flip by recomputation when it runs, per standing law.
 
+## Q-646 — The cubical move: SPHERE too — the microstate freedom is generic (2026-08-08)
+
+**Question.** Is the cubical assignment truly forced beyond the one-parameter family?
+
+**Answer. NO — SPHERE, dimension 118 physical.** The licensed 16-subcube member: 184 free edges (152 interior + 32 split coordinates), gauge kernel 65, physical rank 119; exact quadratic (M tensor M, M = [[1/3,1/6],[1/6,1/3]]) with min 5/24 against Branch-F energy 1; minimum certificate checked at full strength (24/24 coarse fluxes, 96/96 d_2 vanishing, membership by contractibility, 184/184 vanishing derivatives). Explicit equal-energy witness: one edge value shifted by -3/8, exact line polynomial E = 1 + t/4 + (2/3)t^2, all coarse fluxes preserved, non-gauge PROVEN by four moved fine-plaquette fluxes, membership by construction. Three anisotropic exact-rational cases concur; rank stable. THE ONE-PARAMETER EQUAL-SHARE SLICE SELECTS BRANCH F; THE FULL SPACE DOES NOT.
+
+**Consequence.** Q-645's split stands and becomes UNIFORM: both licensed moves force the energy and free the assignment — the microstate degeneracy under refinement is GENERIC, not a simplicial artifact. Gauge for the road to alpha; visible only to the face response; materiality still the open question. The scope flag both lanes owed is closed in the direction neither had proven.
+
+**Basis.** STAGE8_7A_CUBICAL_FREE_SPACE_CODEX2_V001.md = 24bb7057918d4b044b2610842bc29ae4b9fe0de29370474f8e71de55eef473fa, registrar seal-verified, mirrored.
+
+**Status.** SETTLED — both moves covered. Step-11 grind resumes (SP2-05 formalization, 741).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

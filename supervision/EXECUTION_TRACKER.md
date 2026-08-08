@@ -579,7 +579,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 737 | Codex 2 | [7A/STEP8] Branch-F cross-check | **RETURNED. L1 CONFIRMED; L2/L3 REFUTED — explicit Freudenthal equal-energy non-F counterexample. FORCING FALLS. Q-644.** |
 | 738 | Dario | [7A/STEP8] counterexample contest | **RETURNED. CONFIRMED exact (not a coboundary — physical); verdict: ENERGY forced, assignment free (32-sphere); gauge for the road, assignment matters only to the face response. RA27-2 UNBLOCKS. Q-645.** |
 | 739 | Dario | [7A/STEP8] RA27-2 DISCHARGED against D012; RA27-3 opens; materiality typed | **SENT** |
-| 740 | Codex 2 | [7A/STEP8] the cubical free space: POINT or SPHERE — close the scope flag | **SENT (ACK observed)** |
+| 740 | Codex 2 | [7A/STEP8] cubical free space | **RETURNED. SPHERE (dim 118) — freedom generic on both moves; Q-645 split stands uniform. Q-646.** |
+| 741 | Codex 2 | [7A/STEP11] SP2-05 proof objects formalized | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
