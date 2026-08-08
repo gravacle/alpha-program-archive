@@ -123,3 +123,53 @@ fix came from the commission.** 739's move-name census could not have found this
 licensing-enumeration shape the task specified could, and did.
 
 Nothing written archive-side but the ACK, the artifact, and its seal.
+
+---
+
+## POST-SEAL ADDENDUM — the commissioned sweep completed after the artifact was sealed
+
+Recorded here rather than archive-side: the artifact is sealed
+(`863bc606…`) and the one-artifact rule holds. §4 of the artifact stated that four
+hunters were still running at seal time. They have now returned.
+
+**Outcome: 25 agents, 20 adversarial verifications, ZERO survivors.** Every candidate
+that reached verification was refuted, on one consistent ground — *a theorem's
+quantifier range over cellulations (objects) is not a licensing act for a refinement
+arrow.*
+
+**The verdict in the sealed artifact does not change, and here is the honest reason.**
+All 20 verifications landed on the **D3 cluster** — the majorant spec's quantifier
+sentence, the D3 typing freeze, its principal ratification, the C_ref/D3 determination.
+That is the leg I had **already demoted to CONTESTED and marked not load-bearing**
+before sealing, on the first verifier's return. The sweep converged 20/20 on
+confirming a demotion I had already made.
+
+**But the coverage was worse than my §4 disclosure implied, and that is my instrument's
+fault, not the sweep's.** Measured against the journal:
+
+```text
+verifications touching V011's freeze act  aa7c6d49...[46772,47023)   :  0
+verifications touching the existential/universal quantifier gap      :  0
+verifications adjudicating A27's sealed criterion bc6c3e49...        :  0
+                                    (mentioned in passing in 4; tested in none)
+distinct clauses adversarially tested                                :  the D3 cluster only
+```
+
+**So the two legs the refutation actually rests on were never adversarially tested.**
+Cause: I capped verification at four candidates per hunter, and all five hunters
+independently ranked the D3-cluster clauses highest — so the fan-out bought twenty
+tests of one suspect and none of the two that matter. Diversity in the *hunters* did
+not produce diversity in the *verified set*, because the ranking collapsed it.
+
+And my §4 wording — *"any clause they surface can only add to an enumeration that is
+already refuted"* — was a comfortable framing. It is not false, but it described the
+only outcome favourable to me and did not contemplate the one that occurred: the
+hunters surfacing nothing new and their verifiers converging against the leg I had
+staked first. I would write that sentence differently now.
+
+**What this leaves standing, at its exact strength:** §1.4 (V011's freeze lists three
+items under one verb; the bar on the third is source-only, `C_REF_USABLE_AS_TARGET_
+INTERFACE = true`) and §1.6 (A27's sealed criterion says *moves*, not cellulations) and
+§1.7 (existential supplied, universal demanded) are **unrefuted and untested**. They are
+my own byte-reading, they carry the verdict, and they are the place a hostile lane
+should be pointed first.

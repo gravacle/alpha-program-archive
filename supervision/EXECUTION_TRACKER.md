@@ -584,8 +584,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 742 | Dario | [7A/STEP8] closure proof | **RETURNED. REFUTED — the class has THREE constituents (barred-as-source ≠ not-in-class); directedness existential vs universal; SLIV gift (measure natural on full D3, sealed 07-26); R-L2b surfaces. Q-651. THREE ROUTES TO THE PRINCIPAL.** |
 | 743 | Codex 2 | [7A/STEP11] orientation unitary | **RETURNED. DETERMINED — Gamma_cell IS the carrier; SP1-07 9/9 + SP2-05 8/8 COMPLETE. Q-649.** |
 | 744 | Codex 2 | [7A/STEP11] D-A35-02 | **RETURNED. COMPLETE (gaps=[], TYPE 6/6, EXACT 8/8) — third complete row. Q-650.** |
-| 745 | Codex 2 | [7A/STEP11] V010-11 decorated category: derive-or-gap | **SENT (ACK observed)** |
+| 745 | Codex 2 | [7A/STEP11] V010-11 category | **RETURNED. DETERMINED — 28/28, laws proven; sealed all along. Q-652.** |
 | 746 | Dario | [7A/STEP8] THE EMPTY CHAMBER: emptiness-of-record derivation; RA27-2 books on it (principal reframe) | QUEUED — NOT ANNOUNCED |
+| 747 | Codex 2 | [7A/STEP11] V009-08 citation/claim/authority graph: derive-or-gap | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
