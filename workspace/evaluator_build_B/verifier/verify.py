@@ -20,8 +20,8 @@ from .comparison import (check_authorization, check_gate_discipline,
                          compare_semantic_outputs)
 from .hashing import (load_addressed, require_sha256, sha256_bytes,
                       sha256_file_unverified)
-from .replay import (EvidenceBundle, classify_payloads, replay_fixture,
-                     replay_predicate)
+from .replay import (EvidenceBundle, classify_payloads,
+                     recompute_results, replay_fixture, replay_predicate)
 from .runtime_state import (CONTEXT_VERIFIER_INPUT, reclassify_events,
                             revalidate_trust_snapshots,
                             validate_runtime_subject)
@@ -176,7 +176,17 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
             if roles["faults"]:
                 raise VerifierFault(roles["faults"][0])
             digest, blob, _ = roles["consumable"][0]
-            bundle = EvidenceBundle(blob, digest, cid)
+            # R9 replays FROM EVIDENCE BYTES (spec V007 R9). The bundle is
+            # built from RECOMPUTED opcode results, not from producer-emitted
+            # ones: reading .success off a producer object would let a
+            # producer-declared object carry the criterion's direction.
+            recorded = _recorded_invocation(row)
+            invocations = recorded if isinstance(recorded, list) else (
+                [recorded] if recorded else [])
+            results = recompute_results(invocations, cid)
+            bundle = EvidenceBundle(
+                encode_canonical(results), sha256_bytes(encode_canonical(results)),
+                cid)
             recomputed = replay_predicate(row["expected_predicate"], bundle)
         except VerifierFault as exc:
             _fault(findings, "REPLAY", "%s: %s" % (cid, exc))

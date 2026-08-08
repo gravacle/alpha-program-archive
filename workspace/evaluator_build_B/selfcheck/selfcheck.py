@@ -276,7 +276,8 @@ def main():
              "PRINCIPAL_SINGLE_AUTHORITY)`")
     _IID = "sym@" + ("1" * 64) + ":[10,20)"
     _DAG = {"opcode": "DAG", "result_name": "r_dag", "args": {"g": {}},
-            "instance_id": _IID}
+            "instance_id": _IID, "source_sha256": "1" * 64,
+            "span": [10, 20], "span_sha256": "2" * 64}
 
     def _row(invocation):
         return {"blocker_id": "B", "source": {"path": "p", "sha256": "0" * 64,
@@ -298,7 +299,15 @@ def main():
         ("null", None, True),
         ("singular object", _DAG, True),
         ("list of two", [{"opcode": "COMPARE", "result_name": "r_ground",
-                          "args": {}, "instance_id": None}, _DAG], True),
+                          "args": {}, "instance_id": None,
+                          "source_sha256": None, "span": None,
+                          "span_sha256": None}, _DAG], True),
+        ("4-field invocation (spec §9.4 requires 7)",
+         {"opcode": "DAG", "result_name": "r_dag", "args": {},
+          "instance_id": _IID}, False),
+        ("span disagrees with instance_id", _mut(span=[0, 1]), False),
+        ("source_sha256 disagrees with instance_id",
+         _mut(source_sha256="9" * 64), False),
         ("undeclared field", _mut(extra=1), False),
         ("opcode outside the closed 14", _mut(opcode="GREP"), False),
         ("result_name not an r_ symbol", _mut(result_name="dag"), False),
@@ -356,6 +365,66 @@ def main():
         faults += fail("span linkage: length mismatch not faulted")
     else:
         sys.stdout.write("span linkage         : length mismatch refused\n")
+
+    # opcode recomputation: the verifier replays FROM EVIDENCE BYTES
+    _S = "PRINCIPAL_SINGLE_AUTHORITY"
+    op_cases = [
+        ("COMPARE equal", replay.opcode_compare,
+         {"left": "a", "right": "a", "mask": []}, True),
+        ("COMPARE unequal", replay.opcode_compare,
+         {"left": "a", "right": "b", "mask": []}, False),
+        ("COMPARE masked field ignored", replay.opcode_compare,
+         {"left": {"k": 1, "t": 1}, "right": {"k": 1, "t": 2},
+          "mask": ["t"]}, True),
+        ("DAG acyclic", replay.opcode_dag,
+         {"graph": {"A": [], "B": ["A"]}, "authority": _S}, True),
+        ("DAG cycle", replay.opcode_dag,
+         {"graph": {"A": ["B"], "B": ["A"]}, "authority": _S}, False),
+        ("DAG self-parenting", replay.opcode_dag,
+         {"graph": {"A": ["A"]}, "authority": _S}, False),
+        ("DAG missing parent", replay.opcode_dag,
+         {"graph": {"A": ["Z"]}, "authority": _S}, False),
+    ]
+    for label, fn, args, want in op_cases:
+        try:
+            got = fn(args, "selfcheck")["success"]
+        except Exception as exc:                  # noqa: BLE001 - fail closed
+            faults += fail("opcode %s: %s" % (label, exc))
+            continue
+        if got is not want:
+            faults += fail("opcode %s: got %s want %s" % (label, got, want))
+        else:
+            sys.stdout.write("opcode replay        : %s\n" % label)
+    for label, args in (("non-sentinel authority",
+                         {"graph": {}, "authority": "OTHER"}),
+                        ("mask on non-object operands",
+                         {"left": "a", "right": "a", "mask": ["x"]})):
+        fn = replay.opcode_dag if "authority" in args else replay.opcode_compare
+        try:
+            fn(args, "selfcheck")
+            faults += fail("opcode %s: accepted" % label)
+        except canonical_json.VerifierFault:
+            sys.stdout.write("opcode replay        : refuses %s\n" % label)
+    try:
+        replay.recompute_results(
+            [{"opcode": "KERNEL", "result_name": "r_k", "args": {}}],
+            "selfcheck")
+        faults += fail("unimplemented opcode silently accepted")
+    except canonical_json.VerifierFault:
+        sys.stdout.write("opcode replay        : refuses unimplemented opcode\n")
+
+    # P0 is not replayable as R9 is launched -- it must FAULT, never default
+    _p0 = canonical_json.encode_canonical({"r_dag": {"success": True}})
+    _b = replay.EvidenceBundle(_p0, hashlib.sha256(_p0).hexdigest(), "sc")
+    try:
+        replay.replay_atom("P0", _b)
+        faults += fail("P0 atom did not fault")
+    except canonical_json.VerifierFault as exc:
+        if "SPEC GAP" not in str(exc):
+            faults += fail("P0 fault does not name the gap: %s" % exc)
+        else:
+            sys.stdout.write("P0 atom              : faults as a SPEC GAP, "
+                             "never defaults\n")
 
     # no load-bearing assert anywhere in the package
     hits = []

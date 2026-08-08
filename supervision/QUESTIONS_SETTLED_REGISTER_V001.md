@@ -14129,6 +14129,21 @@ The Q-604 guard verbatim: one lawful row is one row. The board and seals unmoved
 
 ---
 
+## Q-611 — Run 030's REPLAY_DISAGREE: both builders below the sealed text; P0 is a spec gap (2026-08-08)
+
+**Question.** Run 030 produced `REPLAY_DISAGREE: C-B-V009-06 producer says PASS, independent replay says FAIL`. Which side erred?
+
+**Answer.** Neither side's computation matched the sealed spec — and the graph was never in dispute.
+- The registrar's candidate root cause (a raw-span-to-value recipe divergence) is REFUTED twice: B's replay short-circuits at P0 and never reaches r_ground, and the sealed r_ground compares two digests — no byte-to-value conversion exists to diverge on.
+- TRUE CAUSE 1 (B, named as its own): B's replay read `.success` off a producer-emitted result object — a BR-1 violation inside the verifier itself, against V007's own R9 obligation "replays each pass predicate from evidence bytes" (registrar-verified at spec line 1357). Fixed: COMPARE and DAG recomputed from evidence bytes; single-authority form only (never synthesizing the forbidden COMPARE(X,X)); any other opcode an explicit fault; a producer-emitted P0 object is now itself a fault.
+- TRUE CAUSE 2 (spec gap, guessed by nobody): §2.1 fixes P0's content as six conjuncts; two quantify over the subject and evidence manifests, and R9's launch argv (registrar-verified against the live manifest instance: `--spec --ledger --ledger-sha256 --evidence-dir --runtime-snapshot --runtime-gate`) supplies neither. B's old code returned False for an atom it never evaluated — a verdict of FAIL that was never evaluated is not a verdict. The atom now fails closed naming the gap. Three statements the spec must make: (1) R9 computes P0 (BR-1 bars reading it); (2) `--subject-manifest`/`--evidence-manifest` + digests enter R9's launch contract on the `--ledger` pattern; (3) a named refusal value for "precondition not replayable" distinct from criterion-FAIL.
+- AGREEMENT ON THE REPLAYABLE ATOM: B's independent recomputation of r_dag gives success — 11 nodes, single root SPEC-SEAL, single sink FINAL-CLAIM-SEAL — matching A, with five negative controls (cycle, self-parent, missing parent, non-sentinel authority, masked scalars) proving the check is not permissive; r_ground would agree (member hashes to the spec-fixed 47e7c329…).
+- ADDITIONAL FINDING: V007's invocation carrier is SEVEN fields `{opcode, result_name, args, instance_id, source_sha256, span, span_sha256}` with instance_id-packing explicitly not a substitute (registrar-verified at the §9.4 carrier text). BOTH builders were below it — A emitted four; B's contract declared four, carried from B's own superseded 686 write-out. B now enforces seven with linkage cross-checked against instance_id; A's conformance routed as relay 694. Also disclosed by B: a precedence defect in its first opcode_compare fix, caught by executing it (FIRST-TIME-RIGHT rule 3 doing its job).
+
+**Basis.** STAGE8_TASK6_REPLAY_DISAGREE_DARIO_V001.md = 0408705decceac0d0d69669a4d0dc773fed33de67fc09afbcdec9ecd1329994e; registrar independently verified all three spec claims against sealed V007 (d38d3171…): the six P0 conjuncts, the R9 replay clause, the seven-field carrier. New verifier_root fd59672a588e1a62c18dea7ff70dc06945b4e3bbf98ef037ce9dd803730aff6f (12 members, registrar-recomputed after mirror); manifest instance b987ee48…, seal verified.
+
+**Status.** SETTLED as diagnosis. The confirmed PASS now requires: spec V008 (the three statements) + A's seven-field emission + parent argv (relay 694) -> B's V008 envelope-check + P0 consumption (relay 695) -> run 031. Run 031 before 695 would correctly meet B's seven-field refusal first.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -318,6 +318,115 @@ class EvidenceBundle(object):
         return value
 
 
+# --- opcode recomputation ---------------------------------------------------
+# Spec V007 R9: the verifier "replays each pass predicate FROM EVIDENCE BYTES".
+# Reading `.success` off a producer-emitted result object would let a
+# producer-declared object carry the criterion's direction -- the BR-1
+# violation this lane has enforced against Builder A for twenty relays, and it
+# was in Builder B's own replay. These recompute the atoms instead.
+IMPLEMENTED_OPCODES = ("COMPARE", "DAG")
+
+
+def opcode_compare(args, where):
+    """`COMPARE(x,y,mask)` -- spec §2.2: canonicalize only the predeclared
+    process-local fields in `mask`, then require byte equality of all else."""
+    for field in ("left", "right", "mask"):
+        if field not in args:
+            raise VerifierFault("%s: COMPARE needs %r" % (where, field))
+    mask = args["mask"]
+    if not isinstance(mask, list):
+        raise VerifierFault("%s: COMPARE mask must be a list" % where)
+    left, right = args["left"], args["right"]
+    if isinstance(left, dict) and isinstance(right, dict):
+        left, right = dict(left), dict(right)
+        for field in mask:
+            left.pop(field, None)
+            right.pop(field, None)
+    elif mask:
+        raise VerifierFault(
+            "%s: COMPARE mask is non-empty but the operands are not objects; "
+            "only predeclared process-local FIELDS may be masked" % where)
+    equal = encode_canonical(left) == encode_canonical(right)
+    return {"success": equal, "equal": equal}
+
+
+def opcode_dag(args, where):
+    """`DAG(G,P)` -- spec §2.2: parse nodes and exact parent lists; reject
+    cycles, self-parenting and missing parents; compare with required parents.
+
+    The single-authority form is the ONLY one implemented here, because it is
+    the only one V007 authorises for a one-object encoding: `P` must be the
+    spec-fixed sentinel, and the comparison clause is then discharged by the
+    principal ruling's identity -- NOT by synthesizing COMPARE(X,X), which the
+    row expressly forbids and which this function therefore never performs.
+    """
+    graph = args.get("graph")
+    authority = args.get("authority")
+    if authority != "PRINCIPAL_SINGLE_AUTHORITY":
+        raise VerifierFault(
+            "%s: DAG second operand %r is not the spec-fixed single-authority "
+            "sentinel; the two-object form is not implemented" % (where, authority))
+    if not isinstance(graph, dict):
+        raise VerifierFault("%s: DAG graph must be an object" % where)
+    nodes = set(graph)
+    for node, parents in graph.items():
+        if not isinstance(parents, list) or not all(
+                isinstance(p, str) for p in parents):
+            raise VerifierFault(
+                "%s: DAG parent list for %r is not a list of node names"
+                % (where, node))
+        if node in parents:
+            return {"success": False, "reason": "self-parenting at %r" % node}
+        missing = [p for p in parents if p not in nodes]
+        if missing:
+            return {"success": False,
+                    "reason": "missing parents %s at %r" % (sorted(missing), node)}
+        if len(set(parents)) != len(parents):
+            return {"success": False, "reason": "duplicate parent at %r" % node}
+    # Kahn: a total topological order over every node, or a cycle exists.
+    remaining = dict((n, len(graph[n])) for n in graph)
+    children = dict((n, []) for n in graph)
+    for node, parents in graph.items():
+        for parent in parents:
+            children[parent].append(node)
+    queue = sorted(n for n in graph if remaining[n] == 0)
+    order = []
+    while queue:
+        node = queue.pop(0)
+        order.append(node)
+        for child in children[node]:
+            remaining[child] -= 1
+            if remaining[child] == 0:
+                queue.append(child)
+        queue.sort()
+    if len(order) != len(graph):
+        return {"success": False,
+                "reason": "cycle: %d of %d nodes ordered" % (len(order), len(graph))}
+    return {"success": True, "nodes": len(graph), "order": order,
+            "roots": sorted(n for n in graph if not graph[n]),
+            "sinks": sorted(n for n in graph if not children[n])}
+
+
+def recompute_results(invocations, where):
+    """Recompute every recorded invocation's result object from its arguments.
+
+    An opcode this package has not implemented is an explicit fault, never a
+    silent pass: a criterion the verifier cannot replay is not a criterion the
+    verifier has confirmed.
+    """
+    results = {}
+    for i, inv in enumerate(invocations or []):
+        at = "%s.invocation[%d]" % (where, i)
+        opcode, name = inv["opcode"], inv["result_name"]
+        if opcode not in IMPLEMENTED_OPCODES:
+            raise VerifierFault(
+                "%s: opcode %s is not implemented by this verifier; the "
+                "criterion cannot be replayed from evidence bytes" % (at, opcode))
+        handler = opcode_compare if opcode == "COMPARE" else opcode_dag
+        results[name] = handler(inv["args"], at)
+    return results
+
+
 def _literal(token):
     token = token.strip().strip("`").strip()
     if token == "empty":
@@ -334,8 +443,30 @@ def replay_atom(atom, bundle):
     atom = atom.strip().strip("`").strip()
 
     if atom == "P0":
-        # P0 is the parent's content-addressed admission of every input.
-        return bundle.success("P0") if "P0" in bundle.results else False
+        # SPEC GAP, relay 693. Spec §2.1 defines P0 as SIX conjuncts and §3
+        # says "every criterion is implicitly conjoined with P0" -- so its
+        # CONTENT is determined. What is NOT determined is how R9 replays it:
+        # two conjuncts quantify over the subject and evidence MANIFESTS, and
+        # R9's launch argv (--spec --ledger --ledger-sha256 --evidence-dir
+        # --runtime-snapshot --runtime-gate) hands it neither.
+        #
+        # The pre-693 code returned False when the producer emitted no "P0"
+        # object. That was wrong in both directions at once: it demanded a
+        # PRODUCER-DECLARED object for a precondition the spec says is
+        # computed, and it reported the absence as a criterion FAILURE rather
+        # than as an unreplayable atom. A verdict of FAIL that was never
+        # evaluated is not a verdict. Fail closed, and say why.
+        if "P0" in bundle.results:
+            raise VerifierFault(
+                "P0 is present as a producer-declared result object; a "
+                "producer-declared object may not carry a criterion's "
+                "direction (BR-1)")
+        raise VerifierFault(
+            "P0 is not replayable by this verifier: spec §2.1 defines it over "
+            "content_root(subject_files)=subject_manifest.declared_root and "
+            "content_root(evidence_files)=evidence_manifest.declared_root, and "
+            "R9 is launched with neither manifest. SPEC GAP -- the row or §9.4 "
+            "must state P0's replay carrier for R9")
 
     match = _ATOM_SUCCESS.match(atom)
     if match:

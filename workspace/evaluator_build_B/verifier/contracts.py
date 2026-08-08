@@ -63,13 +63,20 @@ OPCODES = (
     "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME",
 )
 
-# One recorded invocation, per Builder B's 686 write-out.
-INVOCATION_FIELDS = ("opcode", "result_name", "args", "instance_id")
+# One recorded invocation. SEVEN fields, transcribed from the SEALED SPEC's
+# §9.4 row schema -- not from Builder B's 686 write-out, which named four and
+# is superseded. V007 §9.4: "This is the byte-span linkage required for
+# independent replay; the blocker-ledger source.byte_span and a digest without
+# the source slice are not substitutes for it." Both builders were short of the
+# spec here; the spec wins.
+INVOCATION_FIELDS = ("opcode", "result_name", "args", "instance_id",
+                     "source_sha256", "span", "span_sha256")
 
 # `<symbol>@<source_sha256>:[start,end)` -- the grounding citation, encoded.
 _INSTANCE_ID = re.compile(
     r"^([A-Za-z0-9_.\-]+)@([0-9a-f]{64}):\[(\d+),(\d+)\)$")
 _RESULT_NAME = re.compile(r"^r_[A-Za-z0-9_]+$")
+_SHA256 = re.compile(r"^[0-9a-f]{64}$")
 
 CHILD_ROW_FIELDS = (
     "manifest_sha256",
@@ -238,7 +245,30 @@ def validate_invocation(invocation, where):
             % (where, name))
     if not isinstance(invocation["args"], dict):
         raise VerifierFault("%s: args must be an object" % where)
-    parse_instance_id(invocation["instance_id"], "%s.instance_id" % where)
+    parsed = parse_instance_id(invocation["instance_id"],
+                               "%s.instance_id" % where)
+    span = invocation["span"]
+    if parsed is None:
+        if span is not None or invocation["source_sha256"] is not None \
+                or invocation["span_sha256"] is not None:
+            raise VerifierFault(
+                "%s: instance_id is null but the linkage fields are not"
+                % where)
+        return invocation
+    if (not isinstance(span, list) or len(span) != 2
+            or span != parsed["span"]):
+        raise VerifierFault(
+            "%s: span %r does not agree with the instance_id span %r"
+            % (where, span, parsed["span"]))
+    if invocation["source_sha256"] != parsed["source_sha256"]:
+        raise VerifierFault(
+            "%s: source_sha256 does not agree with the instance_id source"
+            % where)
+    for field in ("source_sha256", "span_sha256"):
+        value = invocation[field]
+        if not isinstance(value, str) or not _SHA256.match(value):
+            raise VerifierFault("%s: %s is not a lowercase sha256"
+                                % (where, field))
     return invocation
 
 
