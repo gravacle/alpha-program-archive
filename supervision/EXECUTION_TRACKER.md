@@ -588,7 +588,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 746 | Dario | [7A/STEP8] the empty chamber | **RETURNED. INHABITED — four sealed members, ALL FLAT-BACKGROUND (the frozen eta); emptiness foreclosed; the flat-chamber route opens. Q-654.** |
 | 747 | Codex 2 | [7A/STEP11] V009-08 graph | **RETURNED. 18/18 + scope firewall as typed edge; corpus built; integration binding -> registrar. Q-653.** |
 | 748 | Codex 2 | [7A/STEP11] V008-05 competitor normal forms + fixture assignments: derive-or-gap | **SENT (ACK observed)** |
-| 749 | Dario | [7A/STEP8] THE FLAT CHAMBER: eta-preservation + universal directedness; RA27-2 books (route d) | QUEUED — NOT ANNOUNCED |
+| 749 | Dario | [7A/STEP8] THE FLAT CHAMBER: eta-preservation + universal directedness; RA27-2 books (route d) | **SENT (ACK observed)** |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |

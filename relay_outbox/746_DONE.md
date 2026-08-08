@@ -114,3 +114,71 @@ than "vacuously true" and would have constrained YY3 had YY1 landed. It is in ha
 whoever needs it.
 
 Nothing written archive-side but the ACK, the artifact, and its seal.
+
+---
+
+## POST-SEAL ADDENDUM — THE HOSTILE CHECK RETURNED AND MY HEADLINE DOES NOT SURVIVE
+
+The exposure preregistered at §4 and §5.3 disclosure 4 has fired. Recorded here rather
+than archive-side: the artifact is sealed (`484e7039…`) and the one-artifact rule holds.
+
+**Outcome: 16 agents, four modality-distinct hunts, 12 adversarial verifications,
+`survivors: []` on every hunt.** All four of my displayed members are refuted, and on one
+consolidated ground I verified myself:
+
+**The clause is CONJUNCTIVE — "the same smooth coframe AND connection" — and only the
+connection half is witnessed.**
+
+- **M2 and M3 survive as connections and fail as members.** Both are genuinely sealed and
+  genuinely smooth; the verifiers concede that explicitly. But `coframe`, `tetrad` and
+  `frame` occur **zero** times in either file. A connection without a coframe cannot
+  satisfy a conjunctive condition.
+- **M1 is not a coframe.** It is an **index-signature convention** — `eta` and `epsilon`
+  fixing the Hodge star on the local bivector space. My artifact bridged from it to a
+  coframe with the words *"the associated coframe is `dx^mu`"*. That was **my inference,
+  not sealed text**, and it is the joint that breaks. M4 consumes the same object and so
+  inherits the same failure.
+- **My §1.4 internal check is weaker than I stated it.** I argued that because my 738
+  recorded the clause "kills `x_alt` cleanly", it cannot have an empty domain — *a clause
+  with no members excludes nothing*. That conflates a predicate's **discriminating
+  content** with its **extension of record**. The clause excludes `x_alt` by what it
+  *requires* (a single global 2-form's sampling), which it can do with no verified
+  instances. The argument does not carry the weight I put on it.
+
+**So `CHAMBER = INHABITED (members displayed)` is not supported, and I withdraw it.**
+
+**But emptiness is not thereby established either, and I will not swap one unearned
+verdict for another.** The truthful state after this relay is a third outcome, which the
+relay's binary did not offer:
+
+```text
+CONNECTION HALF : WITNESSED — sealed, explicit, C-infinity (M2) and
+                  real-analytic (M3).  These stand.
+COFRAME HALF    : UNWITNESSED after four modality-distinct hostile searches over
+                  1,969 files each (coframe 87 files / tetrad 83 / vierbein 2 /
+                  soldering 0 / frame field 0 / moving frame 0), 12 verifications,
+                  zero survivors.  Unwitnessed is not proven-absent.
+```
+
+One point I hold against the verifiers rather than conceding wholesale: M2's diamond is
+built on `s_-(t,x) = t^2-|x|^2`, the flat interval, so Minkowski geometry is **in use**
+there. Whether ambient-flatness-in-use satisfies *"preserving the same smooth coframe"*
+when no coframe field is authored as an object is a judgment about the clause's own
+standard. It is arguable, it is not mine to settle, and it is the precise question the
+principal now holds.
+
+**What is unaffected:** 742's refutation, which never depended on this chamber's
+occupancy — it turns on the clause being *licensed* and source-barred, not on its being
+*populated*. And `RA27_2 = stopped` either way, since neither YY2 nor YY3 executes under
+any of the three outcomes.
+
+**Verb audit, amended.** My own three-outcome law fired on me: *return no verdict rather
+than an unearned one.* I returned INHABITED on four members and had not earned it — the
+coframe/connection conjunction is visible in the clause I quoted in my own lead
+determination, and I did not check that my members satisfied both halves. Fifth occurrence
+of a distinction inside text I had already displayed deciding the relay against me.
+
+The only credit available here is that I preregistered this exact failure before sealing
+and named what would trigger it. That is worth less than getting it right, and it is not
+offered as mitigation — the sealed artifact is wrong at its headline and a reader must be
+told so without hunting for the caveat.
