@@ -572,7 +572,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 730 | Codex 2 | [7A/STEP11] program-future sweep | **RETURNED. 19 atoms PF (11 stage + 8 physics); true pre-alpha band 62-155. Q-636.** |
 | 731 | Dario | [7A/STEP8] characterization | **RETURNED. Measure = four-volume additivity EXACT (zero boundary); true binary = xi vs F held fixed; selector UNSEALED = the lambda datum. Q-637.** |
 | 732 | Codex 2 | [7A/STEP11] U7 dispositions | **RETURNED. 3 resolved / 2 U-SOURCE; carrier RULED P-B; receiver routed. Q-638.** |
-| 733 | Dario | [7A/STEP8] the xi/F require-hunt (the branch selector; the lambda convergence) | QUEUED — NOT ANNOUNCED |
+| 733 | Dario | [7A/STEP8] the xi/F require-hunt (the branch selector; the lambda convergence) | **SENT** |
 | 734 | Codex 2 | [7A/STEP11] P-B + receiver | **RETURNED. FIRST COMPONENT BOUND (PASS_COMPONENT_BUILT); row waits on BX07 (registrar); receiver repair ready, custody-stopped for the B subgate. Q-639.** |
 | 735 | Codex 2 | [7A/STEP11] SP1-07 proof objects formalized | **SENT** |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
