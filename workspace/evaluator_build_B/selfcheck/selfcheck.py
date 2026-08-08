@@ -60,7 +60,7 @@ def main():
     else:
         sys.stdout.write("FIXTURE_ROW_FIELDS        : 16 fields\n")
     if len(contracts.VERIFIER_MANIFEST_FIELDS) != 12:
-        faults += fail("VERIFIER_MANIFEST_FIELDS: %d, V010 §9 says 12"
+        faults += fail("VERIFIER_MANIFEST_FIELDS: %d, V011 §9 says 12"
                        % len(contracts.VERIFIER_MANIFEST_FIELDS))
     else:
         sys.stdout.write("VERIFIER_MANIFEST_FIELDS  : 12 fields "
@@ -604,9 +604,67 @@ def main():
             sys.stdout.write("V010 M1              : unresolvable member_key -> "
                              "named refusal citing the SPEC GAP\n")
 
+    # V011-O1: the citation key
+    _CROW = ("| `C-B-V009-06` | STRUCTURAL | src at `p/x.json` bytes "
+             "`" + "c" * 64 + ":[2,6)`; `STAGE_DEPENDENCIES_MEMBER_SHA256="
+             + hashlib.sha256(b"cdef").hexdigest() + "` | "
+             "`r_ground:=COMPARE(P0.evidence_files[k_member].sha256,"
+             "STAGE_DEPENDENCIES_MEMBER_SHA256,empty)` | `P0 and "
+             "r_ground.success` |\n")
+    _crec = _ga.normalize_ground_atom("r_ground", _CROW)
+    _src = b"abcdefgh"
+    _cidx = {hashlib.sha256(_src).hexdigest(): [("s", _src)]}
+    # the driven row's bound digest must be the real source digest
+    _CROW2 = _CROW.replace("c" * 64, hashlib.sha256(_src).hexdigest())
+    try:
+        _amend = _ga.citation_amendment_record(_crec, _CROW2, "sc")
+        _ok = (sorted(_amend) == sorted(_ga.CITATION_AMENDMENT_FIELDS)
+               and _amend["p0_index"]["match"] == "EXACT_TUPLE_EQUALITY"
+               and _amend["p0_index"]["cardinality"] == "EXACTLY_ONE"
+               and _amend["forbidden_mappings"] == list(_ga.FORBIDDEN_MAPPINGS))
+        if not _ok:
+            faults += fail("O1: amendment record malformed: %s" % _amend)
+        else:
+            sys.stdout.write("V011 O1              : closed 9-field amendment "
+                             "record; EXACT_TUPLE_EQUALITY / EXACTLY_ONE\n")
+    except Exception as exc:                      # noqa: BLE001 - fail closed
+        faults += fail("O1 amendment: %s" % exc)
+    _out = _ga.resolve_ground_atom(_crec, {}, _cidx, "sc", descriptor_row=_CROW2)
+    if _out["success"] is not True:
+        faults += fail("O1: citation-keyed resolution did not succeed: %s" % _out)
+    else:
+        sys.stdout.write("V011 O1              : r_ground resolves through the "
+                         "citation (rehashed == sealed constant)\n")
+    # perturbations must flip
+    _bad = _src[:2] + bytes([_src[2] ^ 1]) + _src[3:]
+    _o2 = _ga.resolve_ground_atom(
+        _crec, {}, {hashlib.sha256(_bad).hexdigest(): [("s", _bad)]}, "sc",
+        descriptor_row=_CROW.replace("c" * 64,
+                                     hashlib.sha256(_bad).hexdigest()))
+    _o3 = _ga.resolve_ground_atom(
+        _crec, {}, _cidx, "sc",
+        descriptor_row=_CROW2.replace(":[2,6)", ":[1,5)"))
+    if _o2["success"] is not False or _o3["success"] is not False:
+        faults += fail("O1: a perturbation did not flip the atom")
+    else:
+        sys.stdout.write("V011 O1              : a perturbed source byte AND a "
+                         "shifted span both FLIP the atom\n")
+    # a row whose span is bound to a PATH and no digest -> named refusal
+    try:
+        _ga.citation_amendment_record(
+            _crec, _CROW.replace("`" + "c" * 64 + ":[2,6)`", "`[2,6)`"), "sc")
+        faults += fail("O1: unbound citation accepted")
+    except _ga.GroundAtomRefusal as exc:
+        if "SPEC GAP" not in exc.reason or "PRODUCER_SUPPLIED" not in exc.reason:
+            faults += fail("O1: refusal does not name the gap: %s" % exc.reason)
+        else:
+            sys.stdout.write("V011 O1              : a span bound to a PATH and "
+                             "no digest -> named refusal, all three forbidden "
+                             "mappings cited\n")
+
     # Launch inventories, verified against the SEALED GOVERNING SPEC bytes
     _spec = os.path.join(os.path.dirname(ROOT),
-                         "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md")
+                         "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md")
     if os.path.isfile(_spec):
         _t = open(_spec, encoding="utf-8").read()
         _decl = _re.search(r'"required":\[("evidence_manifest_sha256"[^\]]*)\]',
@@ -617,7 +675,7 @@ def main():
             faults += fail("input_roots differ from the sealed schema: %s vs %s"
                            % (_want, sorted(contracts.INPUT_ROOTS_FIELDS)))
         else:
-            sys.stdout.write("V010 inventories     : input_roots match the "
+            sys.stdout.write("V011 inventories     : input_roots match the "
                              "sealed schema (7)\n")
         _mr = child_manifest.root_member_rows(ROOT)
         _m = child_manifest.build_manifest(
@@ -628,7 +686,7 @@ def main():
             faults += fail("argv is %d items, sealed schema says 22"
                            % len(_m["argv"]))
         else:
-            sys.stdout.write("V010 inventories     : argv is the sealed "
+            sys.stdout.write("V011 inventories     : argv is the sealed "
                              "22-item schema\n")
 
     # no load-bearing assert anywhere in the package
@@ -656,7 +714,7 @@ def main():
     # how this fourth V005 reference was found: it was carried by NAME, so
     # grepping for the old digest could not see it.
     spec = os.path.join(os.path.dirname(ROOT),
-                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V010.md")
+                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md")
     if os.path.isfile(spec):
         try:
             census = spec_census.SpecCensus(spec)

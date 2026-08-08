@@ -218,7 +218,7 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
             if roles["faults"]:
                 raise VerifierFault(roles["faults"][0])
             digest, blob, _ = roles["consumable"][0]
-            # R9 replays FROM EVIDENCE BYTES (spec V010 R9). The bundle is
+            # R9 replays FROM EVIDENCE BYTES (spec V011 R9). The bundle is
             # built from RECOMPUTED opcode results, not from producer-emitted
             # ones: reading .success off a producer object would let a
             # producer-declared object carry the criterion's direction.

@@ -1,0 +1,15 @@
+## PASTE 703 — CODEX 2 LANE = BUILDER A (5.6 SOL EXTRA HIGH) — [TASK 6 / TRANCHE] V012: THE ROW'S OWN CITATION — THE FIRST DESCRIPTOR AMENDMENT, DISPLAYED WHOLE
+
+(Same Codex 2 session rules. CLEANROOM-ONLY writes; the registrar mirrors. THE FIRST-TIME-RIGHT RULES apply. B's citation resolver is mirrored: root 2cf5f313… over 14 members; B report 883bd089….)
+
+CONTEXT (Q-616, registrar-verified in bytes): V011's carrier const makes the sealed row the ONLY lawful source of the citation key — and the C-B-V009-06 row binds its grounding span to a PATH. The source digest 13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd occurs zero times in V011; the source is not among the 19 supplied payloads; the producer's carrier is forbidden by name. The resolver is already proven on a citation-bound row with the source supplied (both perturbations flip). The cure needs both parts, and one of them touches a sealed descriptor row — the first time. That demands maximal display, not minimal mention:
+
+TASK:
+Q1. AUTHOR SPEC V012 (finite delta from V011 d48e0fa7…): amend the C-B-V009-06 descriptor row so the grounding span [18898,19830) is bound to source_sha256 = 13cf1e17… IN THE ROW ITSELF (the same binding shape the row's blocker citation already uses: path + sha256 + span). ROWS_CHANGED = 1 — display the full row BEFORE and AFTER with a byte-level delta, and state of record: the criterion column, deterministic procedure, and expected predicate are BYTE-IDENTICAL; this is linkage completion, not criterion change. 65 rows byte-identical.
+Q2. SUPPLY THE SOURCE: add the provenance source file as a content-addressed payload in the evidence carrier so R9 verifies the digest and rehashes the span bytes itself; extend the structural evidence manifest accordingly (schema'd). State the new payload census (19 -> N).
+Q3. Regenerate check_map (the amended row's hash changes — display old/new row hash), pins, manifests, inventory; producer/parent code changes only if forced — display any as findings. Full pin closure grep value AND name (V011 d48e0fa7… live references, old row hash). Dry-run: producer row emission for V009-06 under the amended row; parent evidence supply path.
+OUTPUT: `STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V012.md` + one sealed artifact `STAGE8_TASK6_V012_ROW_CITATION_CODEX2_V001.md`
+with final lines: `SPEC_DELTA = row citation + source supply only / (+items)`, `ROWS_CHANGED = 1 (V009-06, linkage only, before/after displayed, criterion byte-identical)`, `PAYLOAD_CENSUS = 19 -> N`, `ROW_HASH = <old> -> <new>`, `CODE_CHANGED = none / (displayed)`, `PIN_CLOSURE = N hits, all resolved`, `DRY_RUN = executed`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If a name exists, STOP. Seal, report hashes, STOP (the registrar mirrors; B confirms the amended row independently; RUN 032 follows). No register, plan, tracker, git action.
+
+GATES: alpha_computed = false; proof_authorized = false; kappa_record_computed = false. No member binding; no fixed-point execution; no end test; no numeric evaluation; no comparison to measured constants.

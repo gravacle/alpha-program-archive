@@ -14202,6 +14202,20 @@ B's disclosures of record: its first probe of G1 used autojunk=False — disabli
 
 **Status.** SETTLED as adjudication. Run 032 was not invoked on a known named refusal; V011 (A, relay 701) -> B confirm (702) -> run 032, the confirmation run.
 
+## Q-616 — The citation key has no lawful carrier in the sealed row itself: the first descriptor amendment (2026-08-08)
+
+**Question.** With the resolver keyed by citation (V011), does r_ground resolve on real inputs?
+
+**Answer.** Not yet — FINDING Q1, registrar-verified in the bytes, and it is the first fix that must touch a descriptor row. The V011 carrier const makes the sealed row the ONLY lawful source of both key fields (source_sha256, span) — but the C-B-V009-06 row binds its grounding span to a PATH, not a digest: the provenance source's digest 13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd occurs ZERO times in all of V011, and the source file is not among the 19 supplied payloads, so R9 could not verify a digest even if it had one — it does not hold the source to hash. The producer's invocation carries the digest, and PRODUCER_SUPPLIED is one of the three mappings V011's forbidden_mappings const bars by name. Three readings, three consts, three bars: the refusal is airtight, which is the design working — and the cure needs BOTH parts: (1) the descriptor row must carry the source SHA-256 bound to the grounding span; (2) the cited source must be a supplied payload so R9 verifies the digest and rehashes the span bytes itself.
+
+**Resolver proven ahead of the fix.** Driven with a citation-bound row and the source supplied: resolves True, rehashed digest equal to the sealed constant, producer_carrier false; BOTH perturbations flip (a source byte inside the span; the span shifted by one) — it compares rehashed source bytes and can fail. On today's real inputs: a named two-part refusal, PRECONDITION_NOT_REPLAYABLE.
+
+**B's own defects, disclosed and fixed.** Its first citation rule inferred the source identity as "the one 64-hex that isn't the atom's constant" — right conclusion, wrong reason; had that digest ever matched a payload, the atom would have resolved against the WRONG BYTES. Fixed by requiring the digest to be syntactically bound to the span. Also: a stale docstring turned false claim, and a census assertion tripping on line wrapping (third occurrence of that class). The V010-M1 row-count transcription is gone from the spec — the derived-artifact staleness class now closed at its third site.
+
+**Basis.** STAGE8_TASK6_CITATION_KEY_RESOLVER_DARIO_V001.md = 883bd089433596ce749f579806019e58d3c6ae441d0397be30eb1d09d214abf3; B root now 2cf5f313… over 14 members (registrar-recomputed after mirror). Registrar verified: source digest 0 hits in V011; 19 payloads without the source; the row's only digest-bound citation is the blocker ledger's, not the grounding span's.
+
+**Status.** SETTLED as adjudication. Routed as V012 (relay 703, A): amend the C-B-V009-06 row to bind source_sha256 to the grounding span — ROWS_CHANGED = 1, the first ever, displayed before/after with the criterion column and expected predicate byte-identical (linkage completion, not criterion change) — and supply the source file as a content-addressed payload. Then B confirms (704); run 032 follows.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

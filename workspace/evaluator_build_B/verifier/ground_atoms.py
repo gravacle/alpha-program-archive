@@ -5,7 +5,7 @@ P0-verified evidence table plus constants read out of the sealed descriptor row,
 and a producer-emitted invocation or result object purporting to supply one is a
 BR-1 contract fault.
 
-The rule is an IFF against a closed schema, and V010 closes it explicitly: of
+The rule is an IFF against a closed schema, and V010-M1 closes it explicitly: of
 the fourteen descriptor opcodes only a COMPARE atom satisfying every field and
 every source-binding condition qualifies, "and no class is admitted by analogy."
 This module therefore qualifies by CONSTRUCTION AND REFUSAL, never by example:
@@ -21,8 +21,11 @@ The five source-binding conditions, quoted in the spec's order:
   5. neither operand nor the comparison truth depends on a producer output,
      receipt, result, or choice
 
-Conditions 1, 3, 4 and 5 are decidable from sealed bytes. Condition 2 is NOT:
-see `resolve_member_key`.
+Conditions 1, 3, 4 and 5 are decidable from sealed bytes. Condition 2 was NOT
+until V011-O1, which resolves it through the sealed source-and-span citation:
+see `resolve_member_key_by_citation`. `resolve_member_key` is retained only as
+the pre-V011 exact-key path and is no longer reached when a descriptor row is
+supplied.
 """
 
 import re
@@ -43,12 +46,33 @@ OPERAND_ORDERS = ("evidence_left_constant_right", "constant_left_evidence_right"
 EVIDENCE_SOURCE = "P0.evidence_files"
 CONSTANT_SOURCE = "SEALED_DESCRIPTOR_CONSTANT"
 
+# V011-O1: the condition-2 citation-key amendment. Closed schema, and the three
+# forbidden mappings are consts -- they are refusals here, not preferences.
+CITATION_AMENDMENT_SCHEMA = "rd22.r9-ground-atom-citation-key-amendment.v001"
+CITATION_CARRIER = "SEALED_DESCRIPTOR_ROW.atom[result_name].source_and_span"
+P0_CITATION_TABLE = "R9.P0.evidence_files_by_citation"
+CITATION_KEY_FIELDS = ("source_sha256", "span")
+CITATION_INTERVAL = "ZERO_BASED_HALF_OPEN"
+CITATION_MATCH = "EXACT_TUPLE_EQUALITY"
+CITATION_CARDINALITY = "EXACTLY_ONE"
+CITATION_MEMBER_BINDING = (
+    "MEMBER_KEY_BINDS_EXACT_ROW_MATCHING_DESCRIPTOR_ATOM_CITATION")
+FORBIDDEN_MAPPINGS = ("PAYLOAD_FILENAME", "CONSTANT_DIGEST_SELF_REFERENCE",
+                      "PRODUCER_SUPPLIED")
+CITATION_AMENDMENT_FIELDS = ("schema", "amends", "condition", "atom_class",
+                             "result_name", "member_key",
+                             "descriptor_citation", "p0_index",
+                             "forbidden_mappings")
+DESCRIPTOR_CITATION_FIELDS = ("carrier", "source_sha256", "span")
+P0_INDEX_FIELDS = ("table", "key_fields", "interval", "match", "cardinality",
+                   "member_binding")
+
 _MEMBER_KEY = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
 _CONSTANT_NAME = re.compile(r"^[A-Z][A-Z0-9_]*_SHA256$")
 _RESULT_NAME = re.compile(r"^r_[A-Za-z0-9_]+$")
 _SHA256 = re.compile(r"^[0-9a-f]{64}$")
 
-# The one atom shape V010 admits, read off a descriptor row:
+# The one atom shape V010-M1 admits, read off a descriptor row:
 #   r_X:=COMPARE(P0.evidence_files[key].sha256,CONST_SHA256,empty)
 # and its mirror. Nothing else is matched, so nothing else can qualify.
 _ATOM_EVIDENCE_LEFT = re.compile(
@@ -157,14 +181,103 @@ def validate_ground_atom(record, where):
     return record
 
 
-def resolve_member_key(member_key, evidence_table, where):
-    """Condition 2 -- and this is where V010 stops determining.
+def descriptor_citation(descriptor_row, result_name, where):
+    """The (source_sha256, span) the SEALED DESCRIPTOR ROW carries for this atom.
 
-    SPEC GAP. V010 says only that `member_key` "resolves exactly one row in R9's
-    own P0-verified evidence table". It never says BY WHAT MAPPING, and the
-    member_key pattern is an identifier while the table is keyed by
-    content-addressed relative paths. Two mappings are in reach and V010 bars
-    both:
+    V011-O1 fixes the carrier as
+    `SEALED_DESCRIPTOR_ROW.atom[result_name].source_and_span`, so the row is the
+    only lawful source: `forbidden_mappings` names PRODUCER_SUPPLIED, which rules
+    out the producer's invocation linkage even though it carries both fields.
+
+    Returns (source_sha256, span). Raises a named refusal identifying WHICH key
+    field the row does not carry -- never a guess, and never a fallback to a
+    forbidden carrier.
+    """
+    # V011-O1's carrier const is `...source_and_span` -- ONE unit. So the
+    # source identity must be SYNTACTICALLY BOUND to the span in the row, not
+    # merely present somewhere in it. This matters: the V009-06 row carries a
+    # second, unrelated 64-hex digest (the precedence decision), and a rule that
+    # took "the one digest that is not the atom's constant" would have silently
+    # adopted it as the source identity. Found by running this, not reading it.
+    bound = re.findall(r"([0-9a-f]{64})\s*:\s*\[(\d+),(\d+)\)", descriptor_row)
+    bound += re.findall(r"@\s*([0-9a-f]{64})\s*:\s*\[(\d+),(\d+)\)", descriptor_row)
+    spans = re.findall(r"\[(\d+),(\d+)\)", descriptor_row)
+    if len(spans) != 1:
+        raise GroundAtomRefusal(
+            result_name,
+            "the sealed descriptor row carries %d half-open spans; V011-O1 "
+            "requires exactly one source_and_span citation" % len(spans))
+    span = [int(spans[0][0]), int(spans[0][1])]
+    if len(bound) == 1:
+        return bound[0][0], span
+    paths = re.findall(r"`([A-Za-z0-9_./-]+\.(?:json|md))`", descriptor_row)
+    others = [d for d in re.findall(r"\b([0-9a-f]{64})\b", descriptor_row)]
+    raise GroundAtomRefusal(
+        result_name,
+        "V011-O1 descriptor_citation.source_sha256 has no lawful carrier: the "
+        "carrier const is SEALED_DESCRIPTOR_ROW...source_and_span, ONE unit, "
+        "but the row binds its span [%d,%d) to a PATH (%s) and to no SHA-256. "
+        "The row's %d other 64-hex digests are the atom's own constant and the "
+        "precedence decision, neither of which is the cited source, and "
+        "adopting an unbound digest would be a guess. The producer invocation "
+        "does carry source_sha256 and is barred (forbidden_mappings includes "
+        "PRODUCER_SUPPLIED); the atom's constant is barred "
+        "(CONSTANT_DIGEST_SELF_REFERENCE); the filename is barred "
+        "(PAYLOAD_FILENAME). SPEC GAP, two parts: (1) the descriptor row must "
+        "carry the source SHA-256 bound to the span it already carries; and "
+        "(2) the cited source must be a supplied payload, or R9 can derive no "
+        "row's citation to match against"
+        % (span[0], span[1], (paths or ["<none>"])[0], len(others)))
+
+
+def evidence_files_by_citation(evidence_table, evidence_index, span, where):
+    """Build `R9.P0.evidence_files_by_citation` -- R9's OWN index.
+
+    A row's citation is DERIVED, never read from a producer record: for each
+    supplied payload treated as a candidate source, slice the descriptor's span
+    and key the resulting bytes by (sha256(source_bytes), span). Nothing about
+    this uses a filename, a producer citation, or the atom's own constant.
+    """
+    start, end = span
+    table = {}
+    for source_digest, payloads in sorted(evidence_index.items()):
+        for _name, blob in payloads:
+            if end > len(blob) or start >= end:
+                continue
+            table.setdefault((source_digest, (start, end)), []).append(
+                blob[start:end])
+    return table
+
+
+def resolve_member_key_by_citation(record, descriptor_row, evidence_table,
+                                   evidence_index, where):
+    """Condition 2 under V011-O1: EXACT_TUPLE_EQUALITY, EXACTLY_ONE."""
+    source_sha256, span = descriptor_citation(
+        descriptor_row, record["result_name"], where)
+    table = evidence_files_by_citation(evidence_table, evidence_index, span,
+                                       where)
+    rows = table.get((source_sha256, (span[0], span[1]))) or []
+    if len(rows) != 1:
+        raise GroundAtomRefusal(
+            record["result_name"],
+            "citation (source_sha256=%s, span=[%d,%d)) resolves %d rows of %s; "
+            "V011-O1 requires EXACTLY_ONE under EXACT_TUPLE_EQUALITY. The "
+            "cited source is not among the supplied payloads, so R9 cannot "
+            "derive any row's citation for it"
+            % (source_sha256, span[0], span[1], len(rows), P0_CITATION_TABLE))
+    return rows[0]
+
+
+def resolve_member_key(member_key, evidence_table, where):
+    """Pre-V011 exact-key path, retained and no longer the resolution of record.
+
+    SUPERSEDED by V011-O1: condition 2 now resolves through the sealed
+    source-and-span citation, so `resolve_member_key_by_citation` is the path a
+    descriptor-bearing caller takes. This function is reached only when no
+    descriptor row is supplied, and it still refuses rather than guess. The
+    historical reasoning is kept because it is why V011-O1 exists: V010 stated
+    the requirement without a mapping, and the two mappings in reach were both
+    barred:
 
       (a) match the identifier against the payload FILENAME. Payload filenames
           are producer-authored, so the comparison's truth would depend on a
@@ -191,7 +304,39 @@ def resolve_member_key(member_key, evidence_table, where):
         "barred by the row)" % (member_key, len(exact)))
 
 
-def resolve_ground_atom(record, evidence_table, evidence_index, where):
+def citation_amendment_record(record, descriptor_row, where):
+    """The closed V011-O1 amendment record for this atom, or a named refusal."""
+    source_sha256, span = descriptor_citation(
+        descriptor_row, record["result_name"], where)
+    value = {
+        "schema": CITATION_AMENDMENT_SCHEMA,
+        "amends": GROUND_ATOM_SCHEMA,
+        "condition": 2,
+        "atom_class": GROUND_ATOM_CLASS,
+        "result_name": record["result_name"],
+        "member_key": record["evidence_operand"]["member_key"],
+        "descriptor_citation": {"carrier": CITATION_CARRIER,
+                                "source_sha256": source_sha256,
+                                "span": span},
+        "p0_index": {"table": P0_CITATION_TABLE,
+                     "key_fields": list(CITATION_KEY_FIELDS),
+                     "interval": CITATION_INTERVAL,
+                     "match": CITATION_MATCH,
+                     "cardinality": CITATION_CARDINALITY,
+                     "member_binding": CITATION_MEMBER_BINDING},
+        "forbidden_mappings": list(FORBIDDEN_MAPPINGS),
+    }
+    require_exact_fields(value, CITATION_AMENDMENT_FIELDS, where)
+    require_exact_fields(value["descriptor_citation"],
+                         DESCRIPTOR_CITATION_FIELDS,
+                         "%s.descriptor_citation" % where)
+    require_exact_fields(value["p0_index"], P0_INDEX_FIELDS,
+                         "%s.p0_index" % where)
+    return value
+
+
+def resolve_ground_atom(record, evidence_table, evidence_index, where,
+                        descriptor_row=None):
     """Evaluate a validated ground atom from R9's OWN sources.
 
     `evidence_table` is P0's evidence_files table; `evidence_index` maps digest
@@ -200,16 +345,25 @@ def resolve_ground_atom(record, evidence_table, evidence_index, where):
     a declared digest.
     """
     validate_ground_atom(record, where)
-    key = resolve_member_key(record["evidence_operand"]["member_key"],
-                             evidence_table, where)
-    declared = evidence_table[key]["sha256"]
-    payloads = evidence_index.get(declared) or []
-    if len(payloads) != 1:
-        raise GroundAtomRefusal(
-            record["result_name"],
-            "evidence row %r resolves %d supplied payloads; exactly one is "
-            "required to rehash" % (key, len(payloads)))
-    observed = sha256_bytes(payloads[0][1])          # condition 3: REHASH
+    if descriptor_row is not None:
+        # V011-O1: condition 2 resolves through the sealed source-and-span
+        # citation ONLY. The amendment record is constructed and closed first,
+        # so a missing key field refuses before any byte is compared.
+        citation_amendment_record(record, descriptor_row, where)
+        member_bytes = resolve_member_key_by_citation(
+            record, descriptor_row, evidence_table, evidence_index, where)
+    else:
+        key = resolve_member_key(record["evidence_operand"]["member_key"],
+                                 evidence_table, where)
+        declared = evidence_table[key]["sha256"]
+        payloads = evidence_index.get(declared) or []
+        if len(payloads) != 1:
+            raise GroundAtomRefusal(
+                record["result_name"],
+                "evidence row %r resolves %d supplied payloads; exactly one is "
+                "required to rehash" % (key, len(payloads)))
+        member_bytes = payloads[0][1]
+    observed = sha256_bytes(member_bytes)            # condition 3: REHASH
     constant = record["constant_operand"]["value"]
     equal = observed == constant
     return {"success": equal, "equal": equal,
