@@ -14495,6 +14495,21 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as planning correction. Routed: the U7 disposition (Codex 2, 732) — the five source-locus questions from bytes, the principal carrier-selection item surfaced for ruling, the cross-contract receiver question adjudicated or routed.
 
+## Q-637 — The characterization: THE MEASURE WAS NEVER THE PROBLEM — one unsealed line governs the whole arc (2026-08-08)
+
+**Question.** Which interior-edge rules make the measure functorial?
+
+**Answer — the question dissolves into a sharper one.** Dario's own draft characterization was WRONG, and the adversarial attack it commissioned found it: five independent verifiers instructed to refute, two returned REFUTED, and its re-derivation confirmed them with exact rational tables — the in-plane sum was short by exactly the transverse multiplicity m, and the one case computed by hand had m=1, the single configuration where wrong and right agree. THE CORRECT RESULT IS SIMPLER AND STRONGER: the sealed quantity sums over CELLS, and with F held fixed on sub-cells, functoriality is FOUR-VOLUME ADDITIVITY — exact, both moves, arbitrary anisotropy, ZERO boundary term, stated outright by the sealed construction. So the true binary is: WHICH OF xi AND F DOES REFINEMENT HOLD FIXED?
+- BRANCH F (F primitive; xi' = ell'ell'F): the rule is UNIQUE AND FORCED (the equal in-plane split); transport exact; J2 gains a truth condition; the 727 obstruction dissolves; RA27-2 discharges.
+- BRANCH xi (xi primitive in F_phys = im(d_1)): 729 stands — the k-1 family, and the measure moves with it.
+THE SELECTOR IS UNSEALED — V011 carries both readings. And it is THE SAME MISSING DATUM as the lambda question (725 §2.4: which of xi/F is invariant under rescaling). One unsealed line governs two open threads; the convergence is recorded, not asserted. The one clause that would settle it (C_ref's smooth-coframe clause) is BARRED as a source and was declined. Branch F is the tidier answer AND WAS NOT PREFERRED — choosing would be the void condition's named move.
+
+**Also closed:** the incidence line is PROVABLE — both licensed moves are constructed in sealed text with exact cell counts (16x1/16 = 24x1/24 = 384x1/384 = 1); found only after fixing a NON-RECURSIVE GLOB that had missed the construction twice (fifth scope-defect kind). New law installed: STATE THE GLOB — a searched-space declaration names its recursion, and a declaration over code that is top-level-only is false.
+
+**Basis.** STAGE8_7A_FUNCTORIALITY_CHARACTERIZATION_DARIO_V001.md = 5003d9171aa198dad52be433b5a3fc88b08b9d72685441310287cdc18c72e1ef (16/16; VOID clean; six disclosures incl. the withdrawal of 729's repair phrasing — the fix is a ruling on what refinement holds fixed, not a rule on interior edges).
+
+**Status.** SETTLED as characterization. Routed: the xi/F require-hunt (Dario, 733) — both branches tested against every sealed require, the lambda-datum convergence examined, verdict FORCED/UNDERDETERMINED — then the branch ruling goes to the principal on the hunt's verdict.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

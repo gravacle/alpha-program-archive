@@ -448,3 +448,11 @@ byte-offsets, this closes the four named scope-failure kinds.
 A census, count, or co-occurrence claim computed over a corpus that includes
 the artifact being written EXCLUDES THE WRITER, and says so. Post-seal counts
 that differ from pre-seal counts are displayed together (the 715 precedent).
+
+## STATE THE GLOB (2026-08-08, from Q-637 — the fifth scope-class law)
+
+A searched-space declaration states its RECURSION and pattern, not just its
+directories — "workspace + supervision, recursive" over a top-level-only glob
+is a FALSE declaration. With the searched-space clause, span coverage, byte
+offsets, and the object-names probe, this closes the five named scope-failure
+kinds. The check code obeys the same law as the prose.
