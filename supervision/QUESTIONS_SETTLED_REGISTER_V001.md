@@ -14337,6 +14337,20 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as derivation-with-fork. Principal ruling requested: the topology adoption; the shape-condition timing; the lambda/beta question.
 
+## Q-625 — The carrier calibration: PARTIAL at best-case; step 11's authoring band is 112–232 relays (2026-08-08)
+
+**Question.** What does one complete carrier-production attempt cost, and what does it project for the remainder?
+
+**Answer.** C-B-V010-12 (ranked best-sourced of the five: sealed bytes fix the 11-node stage graph and the 11 report-field names) yields a PARTIAL carrier: two components source-determined and content-addressed (the report-schema required fields at [16621,16875); the stage_dependencies at [18920,19830), canonically reproducing the known graph digest a6820471…), EIGHT ungrounded elements named and not manufactured (the closed report schema, content-addressed stage-parent keys and report instances, mutation instances with expected rejections, the receiver binding). A 475-JSON corpus sweep found ZERO conforming report instances and ZERO mutation-key candidates. The V002 envelope binds the whole partial carrier honestly: stateable=false, candidate_record=null, admission barred.
+
+**The projection, evidence-based where possible:** SI 26 rows / 26–60 relays (one-row calibrated); EC 7 / 14–28; KP 1 / 3–6; MX 23 / 69–138 (map-based, lower confidence) — AUTHORING-ONLY BAND 112–232 RELAYS for the remaining 57, excluding the six NM! physics rows entirely. The road's 7A estimate (180–350 all-in) did not anticipate step 11 at this size; the planning question is surfaced to the principal with the constructible/derivational split (relay 720) as its decision input.
+
+**The distinction that decides strategy:** several ungrounded elements look CONSTRUCTIBLE (schema fixations, mutation fixtures, receiver bindings — buildable by tooling once a schema is sealed) rather than DERIVATIONAL (needing physics or sealed prose that does not exist). If most of the 8-per-row gaps are constructible, tooling compresses the band sharply; if derivational, the band stands and the road estimate moves.
+
+**Basis.** STAGE8_7A_CARRIER_CALIBRATION_CODEX2_V001.md = 27ad6b2b…; carrier 725a6665…; envelope V002 92b5d374…; all registrar seal-verified, mirrored.
+
+**Status.** SETTLED as calibration. Routed: the constructible/derivational classification of all 57 rows' missing carriers + tooling proposal (Codex 2, 720, analysis only). The strategy ruling goes to the principal on 720's return.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
