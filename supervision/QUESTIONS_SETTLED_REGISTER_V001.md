@@ -14232,6 +14232,35 @@ B's disclosures of record: its first probe of G1 used autojunk=False — disabli
 
 **Status.** SETTLED — THE CONFIRMATION. Road step 1 DONE. Next: step 2, the confirmation certified and the tranche closed at n=1 per C77.
 
+## Q-618 — The OBS-22 recognition preregistration is FROZEN; the closing ledgers stand (2026-08-08)
+
+**Question.** Under what recognition law does the junction arc run, and what do Task 6's closing ledgers show?
+
+**Answer.** STAGE8_7A_OBS22_RECOGNITION_PREREG_V002_FROZEN.md = 9f0d12b4556427eb965bcd9c869f645b984009fdbcc0d1d19a2c7216d31c51f1 is FROZEN of record. Contents: 15 record-native criteria (9 Ward-symbol on the JD-3 cell rule; 5 length normalization on the sealed admissibility clauses), all grounded as necessary with byte spans; 2 UNGROUNDED items carried honestly (U1 joint landing — no sealed compatibility statement; U2 sufficiency — no sealed closure over criteria); 5 anti-scar guards; 3 closed verdicts + the zero-weight correspondence ledger; the kill set {K-1 coefficient class, K-3 locus} with K-2 a NAMED-OPEN SLOT frozen empty with its name on it (the datum recorded, the judging rule absent until a sealed grounding enters as surfaced revision). Principal rulings folded (decision e76746ae…): falsifier F1 SPLIT into F1' — the weak-rule reading still kills; the scale-dependence reading routes to MEASUREMENT under K-1/K-3 and can lose there, never by mere family-hood; original F1 unreworded in its own sealed file, superseded of record. Carriage: byte-copy + 14 individually enumerated surgical replacements, eleven sections byte-compared identical; Dario disclosed and self-caught a delta-certificate miscount (the exact class it charged A with at 683/695) and corrected its own V001 third-verdict routing to the ruling's stronger measurement routing. From this seal any criterion change is a revision of record surfaced before effect.
+
+Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 upheld / 1 retired / 34 standing / 1 unresolved; 22 observations — 3 confirmed / 7 killed / 12 open; zero rows requiring registrar ruling; OBS-22 ownership traces to the sealed J-II beta identification artifact.
+
+**Process of record.** The relay queue protocol went live this cycle: 709 was Dario's last full-text paste; its completion arrived via the outbox watcher with no principal return-paste — the first live pass of the return half.
+
+**Status.** SETTLED. The junction arc, when it opens, runs under the frozen preregistration. Remaining to Task 6 close: the lineage-V2 cross-confirm (Dario, 711), the contract V002 deferred items (Codex 2, 710), the handoff package assembly, the closing certification.
+
+## Q-619 — The lineage-V2 board cross-confirmed; three warrant findings; A21 ruled PASS-CARRIED (2026-08-08)
+
+**Question.** Does Codex 2's lineage-V2 board survive independent verification?
+
+**Answer. YES — 24/0/6 confirmed, nothing moved.** Dario recomputed the board two ways: invariance (23 rows received no new document; verdicts carry by construction) and BLIND re-derivation of all 30 rows by readers blind to both boards (28/30 agreement; ALL SIX BLOCKED ROWS reproduced independently; 14 adversarial lens-checks returned, none refuting a BLOCKED verdict). Baseline 48/48 verified. The two blind disagreements were adjudicated from bytes: A10's blind BLOCKED overruled (a completion standard misapplied to a specification row), and A21 ruled by a new application of standing law.
+
+**Three findings, one class — a sound verdict carrying a warrant that does not support it. None moves a row:**
+- F1: the missing_A35_V2 blocker is under-inclusive — published as a delivery list, it invites the expectation that A35 flips when the 58 envelopes deliver; the spec's own rule (66 PASS + 6 fixtures) makes A35 downstream of the PHYSICS rows, and no quantity of structural evidence opens a gate.
+- F2 (registrar-corroborated from bytes): the row binding is an AUTHORITY CHAIN, not an evidence inventory. A21's build chain declares 24 source-parents; 4 are in the 48-document baseline; the heaviest carrier (BID_AXIAL_PHASE_CP_REDUCTION_DERIVATION_V001.md = 8a68b5f2…, existing, registrar-verified) is outside it — so the baseline's tamper-evidence does not reach A21's actual carriers, and D007's invalidation rule would not fire on an edit to them. BR-1 in new clothes: a producer-declared binding deciding what counts as evidence. Dario's one commissioned corroborator did not return; the registrar's byte check supplies the corroboration (file exists; zero references in the baseline artifact).
+- F3: A10's evidence cell cites "the displayed Gram derivation"; exactly one "Gram" exists in the bound document and it belongs to a different row's subject. The verdict is right for a different reason than the cell gives.
+
+**The A21 ruling (new law, from standing law).** Dario declined to book A21 BLOCKED (the carrier exists — booking absence would assert what was just disproved) and declined to book it re-derived (the declared baseline cannot reach its carriers). Ruling: PASS CARRIED, NOT RE-DERIVED — the exact symmetric of the R9 law that a FAIL never evaluated is not a verdict. Disposition: extending the baseline to A21's full carrier set is a LINEAGE-V3 ENTRY CONDITION (road step 13), joining the four contract items at Step 11.
+
+**Basis.** STAGE8_TASK6_LINEAGE_V2_CROSSCONFIRM_DARIO_V001.md = c617dcbf2ebb092599ecc45ad357bcef2eb8d421e9016172bfc0529f867449d2 (30/30 self pin check); subject board fe4c083d…; registrar F2 corroboration this date.
+
+**Status.** SETTLED. The board of record: 24 PASS / 0 FAIL / 6 BLOCKED {A23,A24,A25,A27,A28,A35}. Task 6's definition of done is met; the closing certification follows this entry.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

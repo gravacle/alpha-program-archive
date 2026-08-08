@@ -6,14 +6,14 @@ The fences hold everywhere until step 18: no alpha, no kappa, no comparison.
 ## PHASE I — TASK 6 CLOSES (~7-9 relays)
  1. [DONE]   Run 033 CONFIRMED the first lawful PASS (V009-06) — 2026-08-08
  2. [DONE]   The confirmation certified; tranche CLOSED at n=1 per C77 — 2026-08-08
- 3. [ACTIVE] Lineage V2: batch all sealed repairs; the THIRTY-ROW RERUN
-             — expected: A35 flips; board ~25 PASS / 5 BLOCKED; SPEC-SEAL false
- 4. [NEXT]   Closing bookkeeping: falsifier disposition, OBS ledger,
-             contract V002 items, THE 7A HANDOFF PACKAGE sealed
- 5. [NEXT]   TASK 6 CLOSED HONEST: a certified evaluator + five named gaps
+ 3. [DONE]   Lineage V2: board 24/0/6 CROSS-CONFIRMED, no flip earned
+             — the expectation A35 would flip did not survive the bytes
+ 4. [DONE]   Closing bookkeeping: ledgers, contract items, THE HANDOFF
+             PACKAGE (a0a7e1d1) + the FROZEN recognition prereg (9f0d12b4)
+ 5. [DONE]   TASK 6 CLOSED HONEST — 2026-08-08 (certification sealed)
 
 ## PHASE II — 7A: THE ROAD-TO-ALPHA PHYSICS (~180-350 relays; the fork phase)
- 6. [GATED]  THE JUNCTION ARC OPENS 7A — the external-realization junction:
+ 6. [ACTIVE] THE JUNCTION ARC OPENS 7A — the external-realization junction:
              the Ward-symbol map (J-II) + the length normalization built
              >> THE FORK: maps land geometric -> OBS-22 confirms, the cascade
              is real, estimates collapse toward the low end
