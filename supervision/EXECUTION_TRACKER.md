@@ -549,7 +549,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 706 | Codex 2 | [6/L-V2] lineage V2 rerun | **RETURNED. Board 24/0/6 UNCHANGED — no flip earned; blocked set {A23,A24,A25,A27,A28,A35} = the five physics gaps + evidence layer. Cross-confirm queued (Dario after 707).** |
 | 708 | Codex 2 | [6/CLOSE] closing ledgers | **RETURNED. 42 falsifiers (6U/1R/34S/1X); 22 obs (3C/7K/12O); YOURS=0. Verified, mirrored.** |
 | 709 | Dario | [7A-HANDOFF] THE FREEZE | **RETURNED via outbox (first live pass). V002 FROZEN = 9f0d12b4; 14 enumerated replacements; K-2 frozen empty named; F1' per ruling. Q-618.** |
-| 710 | Codex 2 | [6/CLOSE] contract V002 deferred items dispositioned (+queue rule installs) | **SENT (final full paste)** |
+| 710 | Codex 2 | [6/CLOSE] contract V002 items | **RETURNED via outbox. 6 items: 2 resolved-by (cited), 4 deferred to 7A Step 11 as entry conditions. Verified, mirrored.** |
+| 712 | Codex 2 | [6/CLOSE] the 7A handoff package assembled (number-only) | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm the lineage V2 board (number-only) | **SENT (first number-only)** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
