@@ -337,3 +337,15 @@ Prevention, not detection. Effective immediately for all build/tranche work:
 Origin: the principal's directive after the run-023..029 cascade; the defect
 classes these address are pin sprawl, prose-shape drift, first-contact path
 failures, and split-relay state changes.
+
+## THE CROSS-BOUNDARY PREFLIGHT (registrar law, 2026-08-08, after the run-032 false start)
+
+Before EVERY chain invocation, the registrar sweeps every A-side pin of B bytes
+(and any B-side pin of A bytes) against the current sealed bytes of the pinned
+files — all of them, with correct path bases, counting pins checked. A stale pin
+is a ROUTED FIX BEFORE the invocation, not a run stop after it. Rationale: the
+boundary firewall pins the other builder's exact bytes by design, so every B
+re-pin obligates an A re-pin; the registrar is the only actor who sees both
+current packages at once, so this staleness is the registrar's to catch. The
+run-032 false start (HASH_MISMATCH on the verdict schema; a second stale pin on
+the manifest instance found by the same sweep) is the incident of record.
