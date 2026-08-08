@@ -7,6 +7,7 @@ import importlib.util
 import json
 import re
 import shutil
+import subprocess
 import sys
 import tempfile
 from pathlib import Path
@@ -53,6 +54,7 @@ ADDENDUM_SHA256 = pin("integration_addendum")
 VERDICT_SCHEMA_SHA256 = pin("verifier_verdict_schema")
 ROOT_MEMBERSHIP_SOURCE_SHA256 = pin("root_membership_source")
 SPEC_SHA256 = pin("specification")
+SPEC_BASE_V008_SHA256 = pin("specification_base_v008")
 SPEC_BASE_V007_SHA256 = pin("specification_base_v007")
 SPEC_V006_SHA256 = pin("specification_v006")
 GROUNDING_RELOCATION_SHA256 = pin("grounding_relocation")
@@ -80,7 +82,9 @@ EVIDENCE_SOURCES = {
     "STAGE8_TASK6_A21_OPEN_LEG_DISPOSITION_LANE2_V001.md": ("cleanroom", pin("evidence_a21")),
     "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V005.md": ("cleanroom", pin("specification_v005")),
     "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md": ("cleanroom", pin("specification_base_v007")),
-    "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md": ("cleanroom", pin("specification")),
+    "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md": ("cleanroom", pin("specification_base_v008")),
+    "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V009.md": ("cleanroom", pin("specification")),
+    "STAGE8_TASK6_SPEC_V005_INTEGRATION_ADDENDUM_DARIO_V001.md": ("cleanroom", pin("integration_addendum")),
     "STAGE8_TASK6_LP_MATRIX_LEDGER_LANE3_V001.md": ("cleanroom", pin("evidence_matrix")),
     "STAGE8_TASK6_LP_MATRIX_LEDGER_REVIEW_DARIO_V001.md": ("cleanroom", pin("evidence_matrix_review")),
     "STAGE8_TASK6_LP_QSPEC_ASSEMBLY_DARIO_V005.md": ("cleanroom", pin("evidence_assembly")),
@@ -402,28 +406,38 @@ def main():
     parent_module = load_parent(package)
     producer_module = load_producer(package)
     root_membership_source = cleanroom / "STAGE8_TASK6_SCHEMA_IN_ROOT_DARIO_V001.md"
-    root_membership_bytes = root_membership_source.read_bytes()
-    if digest(root_membership_bytes) != ROOT_MEMBERSHIP_SOURCE_SHA256:
+    if digest(root_membership_source.read_bytes()) != ROOT_MEMBERSHIP_SOURCE_SHA256:
         stop("ROOT_MEMBERSHIP_SOURCE_PIN", root_membership_source)
-    root_membership_text = root_membership_bytes.decode("utf-8")
-    expected_root_members = (
-        "contracts/verifier_verdict.schema.json",
-        "run_verifier.py",
-        "verifier/__init__.py",
-        "verifier/canonical_json.py",
-        "verifier/child_manifest.py",
-        "verifier/comparison.py",
-        "verifier/contracts.py",
-        "verifier/hashing.py",
-        "verifier/replay.py",
-        "verifier/runtime_state.py",
-        "verifier/spec_census.py",
-        "verifier/verify.py",
-    )
-    if parent_module.VERIFIER_ROOT_TRANSCRIBED_MEMBERS != expected_root_members or expected_root_members != tuple(sorted(expected_root_members)):
-        stop("ROOT_MEMBER_CENSUS", parent_module.VERIFIER_ROOT_TRANSCRIBED_MEMBERS)
-    if any(member not in root_membership_text for member in expected_root_members):
-        stop("ROOT_MEMBERSHIP_SOURCE_CONTENT", root_membership_source)
+    b_report = PROGRAM_ROOT / PIN_ROWS["verifier_v008_integration_report"]["relative_path"]
+    b_instance = PROGRAM_ROOT / PIN_ROWS["verifier_manifest_v008"]["relative_path"]
+    for kind, path in (("verifier_v008_integration_report", b_report), ("verifier_manifest_v008", b_instance)):
+        data = path.read_bytes()
+        if len(data) != PIN_ROWS[kind]["byte_length"] or digest(data) != pin(kind):
+            stop("VERIFIER_MEMBERSHIP_SOURCE_PIN", kind)
+    root_carrier = json_values["verifier_root_members.generated.json"]
+    if set(root_carrier) != {"members", "schema", "verifier_root_sha256"} or root_carrier["schema"] != "rd22.verifier-root-members.v001":
+        stop("ROOT_MEMBER_CARRIER", root_carrier)
+    member_rows = root_carrier["members"]
+    expected_root_members = tuple(row.get("relative_path") for row in member_rows)
+    if len(member_rows) != 13 or expected_root_members != tuple(sorted(expected_root_members)) or len(set(expected_root_members)) != 13:
+        stop("ROOT_MEMBER_CENSUS", expected_root_members)
+    verifier_package = cleanroom / "evaluator_build_B"
+    for row in member_rows:
+        if set(row) != {"byte_length", "relative_path", "sha256"}:
+            stop("ROOT_MEMBER_ROW", row)
+        data = (verifier_package / row["relative_path"]).read_bytes()
+        if len(data) != row["byte_length"] or digest(data) != row["sha256"]:
+            stop("ROOT_MEMBER_BYTES", row["relative_path"])
+    computed_verifier_root = digest("".join(row["sha256"] for row in member_rows).encode("utf-8"))
+    b_instance_value = json.loads(b_instance.read_text(encoding="utf-8"))
+    if (
+        computed_verifier_root != root_carrier["verifier_root_sha256"]
+        or computed_verifier_root != b_instance_value["verifier_root_sha256"]
+        or "verifier/preconditions.py" not in expected_root_members
+    ):
+        stop("ROOT_MEMBER_BINDING", {"computed": computed_verifier_root, "carrier": root_carrier["verifier_root_sha256"], "instance": b_instance_value["verifier_root_sha256"]})
+    if hasattr(parent_module, "VERIFIER_ROOT_TRANSCRIBED_MEMBERS"):
+        stop("ROOT_MEMBER_TRANSCRIPTION_REMAINS", "parent constant")
     verdict_schema_rows = [row for row in normal["external_inputs"] if row["kind"] == "verifier_verdict_schema"]
     if len(verdict_schema_rows) != 1 or verdict_schema_rows[0]["sha256"] != VERDICT_SCHEMA_SHA256:
         stop("VERDICT_SCHEMA_INPUT_ROW", verdict_schema_rows)
@@ -490,10 +504,10 @@ def main():
     else:
         schema_probe = {**verifier_value, "spec_sha256": full_branch_spec}
         selected = parent_module.validate_verdict_document(schema_probe, verdict_schema)
-        if selected is not verdict_schema["oneOf"][0] or full_branch_spec != SPEC_BASE_V007_SHA256:
+        if selected is not verdict_schema["oneOf"][0] or full_branch_spec != SPEC_BASE_V008_SHA256:
             stop("B_SPEC_REPIN_STATE", {"schema_const": full_branch_spec, "parent": parent_module.SPEC_SHA256})
         accepted_verifier = verifier_value
-        b_repin_state = "PENDING_PARALLEL_B_REPIN"
+        b_repin_state = "PENDING_PARALLEL_B_V009_REPIN"
     fault_value = {"fault": "STATIC_FAULT_DOCUMENT", "schema": "gravacle.a35.verifier-verdict.v1", "verdict": "FAIL"}
     accepted_fault = parent_module.verifier_stdout(parent_module.canonical_bytes(fault_value), "FAIL", "2" * 64, snapshot, authorization_digest, verdict_schema)
     if accepted_fault != fault_value:
@@ -589,6 +603,26 @@ def main():
     ]
     if evidence["payload_inventory"] != expected_payload_inventory or evidence["declared_root"] != content_root(expected_payload_inventory):
         stop("EVIDENCE_DECLARED_ROOT", evidence.get("declared_root"))
+    subject_manifest = json_values["subject_lineage_manifest.json"]
+    payloads_by_sha256 = {}
+    for row in evidence["payload_inventory"]:
+        payloads_by_sha256.setdefault(row["sha256"], []).append(row)
+    subject_resolutions = []
+    for subject_row in subject_manifest["files"]:
+        matches = [row for row in payloads_by_sha256.get(subject_row["sha256"], []) if row["byte_length"] == subject_row["byte_length"]]
+        if len(matches) != 1:
+            stop("SUBJECT_EVIDENCE_RESOLUTION", {"subject": subject_row["relative_path"], "matches": matches})
+        match = matches[0]
+        subject_resolutions.append({
+            "evidence_payload_path": match["relative_path"],
+            "evidence_payload_sha256": match["sha256"],
+            "subject_byte_length": subject_row["byte_length"],
+            "subject_relative_path": subject_row["relative_path"],
+            "subject_sha256": subject_row["sha256"],
+        })
+    if len(subject_resolutions) != 6 or not any(row["subject_sha256"] == ADDENDUM_SHA256 for row in subject_resolutions):
+        stop("INTEGRATION_ADDENDUM_NOT_SUPPLIED", subject_resolutions)
+    addendum_supplied = "PASS"
     scope_roots = set()
     referenced_payloads = set()
     check_fields = {"available", "descriptor_sha256", "missing_objects", "partial_payloads", "reason", "search", "status"}
@@ -688,9 +722,14 @@ def main():
             stop("CONSUMABLE_ARGUMENT_NOT_REPRODUCED", {"observed": observed, "arguments": consumable_argument_digests})
         consumed_implies_materialized = "PASS"
         consumable_args_reproduced = "PASS"
-    spec_data = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md").read_bytes()
+    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V009.md"
+    spec_data = spec_path.read_bytes()
     if digest(spec_data) != SPEC_SHA256 or parent_module.SPEC_SHA256 != SPEC_SHA256 or check_map["spec_sha256"] != SPEC_SHA256:
         stop("RUNTIME_SPEC_PIN", {"bytes": digest(spec_data), "parent": parent_module.SPEC_SHA256, "map": check_map["spec_sha256"]})
+    spec_base_v008_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md"
+    spec_base_v008_data = spec_base_v008_path.read_bytes()
+    if digest(spec_base_v008_data) != SPEC_BASE_V008_SHA256:
+        stop("SPEC_V008_BASE_PIN", digest(spec_base_v008_data))
     spec_base_v007_data = (cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md").read_bytes()
     if digest(spec_base_v007_data) != SPEC_BASE_V007_SHA256:
         stop("SPEC_V007_BASE_PIN", digest(spec_base_v007_data))
@@ -698,7 +737,7 @@ def main():
     if digest(spec_v006_data) != SPEC_V006_SHA256 or spec_v006_data.count(b"`SPEC-INCOMPLETE` |") != 17 or b"#### V006 sealed-corpus law for `M2(q,S)`" not in spec_v006_data:
         stop("SPEC_V006_PIN", {"sha256": digest(spec_v006_data), "registry_rows": spec_v006_data.count(b"`SPEC-INCOMPLETE` |")})
     if spec_data.count(b"`SPEC-INCOMPLETE` |") != 17 or b"#### V007 sealed-corpus law for `M2(q,S)`" not in spec_data or b"all five false-negative modes" not in spec_data:
-        stop("SPEC_V008_CORPUS_LAW_CARRIAGE", {"registry_rows": spec_data.count(b"`SPEC-INCOMPLETE` |")})
+        stop("SPEC_V009_CORPUS_LAW_CARRIAGE", {"registry_rows": spec_data.count(b"`SPEC-INCOMPLETE` |")})
     prior_changed_descriptor_ids = {
         row["check_id"]
         for row in check_map["checks"]
@@ -710,11 +749,37 @@ def main():
         row["check_id"]
         for row in check_map["checks"]
         if {digest(body) for body, _ in descriptor_lines(spec_data, row["check_id"])}
-        != {digest(body) for body, _ in descriptor_lines(spec_base_v007_data, row["check_id"])}
+        != {digest(body) for body, _ in descriptor_lines(spec_base_v008_data, row["check_id"])}
     }
     if current_changed_descriptor_ids:
-        stop("V008_DESCRIPTOR_DELTA", sorted(current_changed_descriptor_ids))
-    old_spec_name = "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md"
+        stop("V009_DESCRIPTOR_DELTA", sorted(current_changed_descriptor_ids))
+    fixture_by_id = {row["fixture_id"]: row for row in fixtures["fixtures"]}
+    for fixture_id in ("FX-A35-03-C-FAMILY", "FX-A35-04-TAU-FAMILY", "FX-A35-05-PRIMITIVE-THOMSON-CONFLATION"):
+        row_start = spec_data.index(f"| `{fixture_id}` |".encode("utf-8"))
+        row_end = spec_data.index(b"\n", row_start) + 1
+        fixture_row = fixture_by_id[fixture_id]
+        if fixture_row["source"]["byte_span"] != [row_start, row_end] or fixture_row["fixture_spec_sha256"] != digest(spec_data[row_start:row_end]):
+            stop("J1_GENERATED_FIXTURE_SPAN", {"fixture": fixture_id, "computed": [row_start, row_end], "manifest": fixture_row["source"]["byte_span"]})
+        table_row = f"| source row for `{fixture_id}` | `[{row_start},{row_end})` |".encode("utf-8")
+        if spec_data.count(table_row) != 1:
+            stop("J1_SPEC_SPAN_TABLE", table_row.decode("utf-8"))
+    bsd_diff = subprocess.run(
+        ["/usr/bin/diff", "-U", "3", str(cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md"), str(spec_base_v008_path)],
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    if bsd_diff.returncode != 1:
+        stop("J2_BSD_DIFF", bsd_diff.returncode)
+    diff_lines = bsd_diff.stdout.splitlines()
+    v008_counts = (
+        sum(line.startswith("@@") for line in diff_lines),
+        sum(line.startswith("+") and not line.startswith("+++") for line in diff_lines),
+        sum(line.startswith("-") and not line.startswith("---") for line in diff_lines),
+    )
+    if v008_counts != (6, 155, 21) or b"FINAL_INSERTIONS = 155" not in spec_data or b"FINAL_DELETIONS = 21" not in spec_data or b"difflib.SequenceMatcher" not in spec_data:
+        stop("J2_CARRIAGE_RECOMPUTE", v008_counts)
+    old_spec_name = "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md"
     pin_closure_hits = {"name": [], "value": []}
     allowed_base_reference_paths = {
         "inputs/structural_evidence_manifest.json",
@@ -733,16 +798,36 @@ def main():
         except UnicodeDecodeError:
             continue
         relative = str(path.relative_to(package))
-        for label, term in (("name", old_spec_name), ("value", SPEC_BASE_V007_SHA256)):
+        for label, term in (("name", old_spec_name), ("value", SPEC_BASE_V008_SHA256)):
             for line_number, line in enumerate(text.splitlines(), 1):
                 pin_closure_hits[label].extend((relative, line_number) for _ in range(line.count(term)))
-        if (old_spec_name in text or SPEC_BASE_V007_SHA256 in text) and not (
+        if (old_spec_name in text or SPEC_BASE_V008_SHA256 in text) and not (
             relative.startswith("inputs/evidence/") or relative in allowed_base_reference_paths
         ):
             stop("PIN_CLOSURE_UNJUSTIFIED_BASE", relative)
     if not pin_closure_hits["name"] or not pin_closure_hits["value"]:
         stop("PIN_CLOSURE_CENSUS", pin_closure_hits)
     pin_closure_total = len(pin_closure_hits["name"]) + len(pin_closure_hits["value"])
+    report_text = b_report.read_text(encoding="utf-8")
+    superseded_section = report_text.split("superseded roots, by value", 1)[1].split("V007 by VALUE", 1)[0]
+    superseded_root_prefixes = sorted(set(re.findall(r"\b[0-9a-f]{8}\b", superseded_section)))
+    if len(superseded_root_prefixes) != 5:
+        stop("SUPERSEDED_ROOT_SOURCE", superseded_root_prefixes)
+    superseded_root_hits = []
+    for path in sorted(package.rglob("*")):
+        if not path.is_file() or any(part in {"outputs", "pycache"} for part in path.relative_to(package).parts):
+            continue
+        try:
+            text = path.read_text(encoding="utf-8")
+        except UnicodeDecodeError:
+            continue
+        relative = str(path.relative_to(package))
+        for prefix in superseded_root_prefixes:
+            for line_number, line in enumerate(text.splitlines(), 1):
+                if prefix in line:
+                    superseded_root_hits.append((relative, line_number, prefix))
+                    if not relative.startswith("inputs/evidence/") and relative not in {"manifests/package_inventory.json", "manifests/pins.json"}:
+                        stop("SUPERSEDED_ROOT_LIVE_HIT", (relative, line_number, prefix))
     registry_block = spec_data.split(b"#### V007 sealed-corpus law for `M2(q,S)`", 1)[1].split(b"#### V003 criterion-result binding", 1)[0]
     registry_ids = set(re.findall(rb"(?m)^\| `(C-[^`]+)` \|", registry_block))
     m2_ids = {
@@ -807,6 +892,8 @@ def main():
         "fixture-manifest.schema.json": [fixtures],
         "pin-manifest.schema.json": [pin_manifest],
         "structural-evidence.schema.json": [evidence],
+        "subject-resolution.schema.json": subject_resolutions,
+        "verifier-root-members.schema.json": [root_carrier],
     }
     for schema_name, targets in schema_targets.items():
         schema = json_values[schema_name]
@@ -917,7 +1004,7 @@ def main():
     if set(terminal_ledger["trust_snapshots"]) != {"T0", "T1", "T2", "T3", "T4"}:
         stop("TERMINAL_T4_MISSING", sorted(terminal_ledger["trust_snapshots"]))
     verifier_schema = json_values["verifier-manifest.schema.json"]
-    if len(verifier_schema["properties"]) != 11:
+    if len(verifier_schema["properties"]) != 12:
         stop("VERIFIER_MANIFEST_FIELDS", len(verifier_schema["properties"]))
     input_root_fields = {
         "evidence_manifest_sha256", "evidence_root_sha256", "ledger_sha256",
@@ -947,30 +1034,32 @@ def main():
         "receipt_path": "verifier.receipt.json",
         "schema": "rd22.verifier-manifest.v001",
         "stdout_discipline": {"format": "canonical-json", "lines": 1, "other_output_permitted": False},
+        "verifier_root_members": member_rows,
         "verifier_root_sha256": empty_digest,
     }
     validate(verifier_schema, synthetic_verifier, "verifier_manifest")
-    # H4 non-authoritative test fixture: copy the sealed verifier members into
-    # a temporary package, synthesize the V008-shaped instance, execute the
+    # Q612 non-authoritative test fixture: copy the sealed verifier members into
+    # a temporary package, synthesize the V009-shaped instance, execute the
     # parent pre-launch validator, bind the run-scoped ledger, and execute the
     # post-production carrier validator.  No verifier process is launched.
-    with tempfile.TemporaryDirectory(prefix="rd22-NON_AUTHORITATIVE-V008-manifest-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="rd22-NON_AUTHORITATIVE-V009-manifest-") as temporary:
         fixture_root = Path(temporary)
         verifier_fixture = fixture_root / "verifier-package"
         run_fixture = fixture_root / "run-root"
         verifier_fixture.mkdir()
         run_fixture.mkdir()
         verifier_source = cleanroom / "evaluator_build_B"
-        verifier_member_digests = []
-        for relative in expected_root_members:
+        fixture_member_rows = []
+        for declared_row in member_rows:
+            relative = declared_row["relative_path"]
             source = verifier_source / relative
             target = verifier_fixture / relative
             if not source.is_file():
                 stop("DRY_RUN_VERIFIER_MEMBER", source)
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(source, target)
-            verifier_member_digests.append(digest(target.read_bytes()))
-        computed_verifier_root = digest("".join(verifier_member_digests).encode("utf-8"))
+            fixture_member_rows.append({"byte_length": len(target.read_bytes()), "relative_path": relative, "sha256": digest(target.read_bytes())})
+        computed_verifier_root = digest("".join(row["sha256"] for row in fixture_member_rows).encode("utf-8"))
         subject_manifest_path = package / "inputs/subject_lineage_manifest.json"
         evidence_manifest_path = package / "inputs/structural_evidence_manifest.json"
         subject_manifest_sha256 = digest(subject_manifest_path.read_bytes())
@@ -994,9 +1083,10 @@ def main():
             "receipt_path": "verifier.receipt.json",
             "schema": "rd22.verifier-manifest.v001",
             "stdout_discipline": {"format": "canonical-json", "lines": 1, "other_output_permitted": False},
+            "verifier_root_members": fixture_member_rows,
             "verifier_root_sha256": computed_verifier_root,
         }
-        dry_manifest_path = verifier_fixture / "NON_AUTHORITATIVE_V008_verifier_manifest.json"
+        dry_manifest_path = verifier_fixture / "NON_AUTHORITATIVE_V009_verifier_manifest.json"
         dry_manifest_bytes = parent_module.canonical_bytes(non_authoritative_fixture)
         dry_manifest_path.write_bytes(dry_manifest_bytes)
         dry_manifest_sha256 = digest(dry_manifest_bytes)
@@ -1014,7 +1104,7 @@ def main():
         if stated != dry_manifest_sha256 or verifier_base != verifier_fixture.resolve():
             stop("DRY_RUN_PRELAUNCH", {"stated": stated, "base": str(verifier_base)})
         ledger_path = run_fixture / "producer.ledger.json"
-        ledger_bytes = parent_module.canonical_bytes({"fixture": "NON_AUTHORITATIVE_V008_PARENT_VALIDATION"})
+        ledger_bytes = parent_module.canonical_bytes({"fixture": "NON_AUTHORITATIVE_V009_PARENT_VALIDATION"})
         ledger_path.write_bytes(ledger_bytes)
         ledger_sha256 = digest(ledger_bytes)
         evidence_directory = run_fixture / "evidence"
@@ -1065,14 +1155,14 @@ def main():
     if parent_module.VERDICT_SCHEMA_SUPPORTED_KEYWORDS != frozenset(expected_schema_keywords) or missing_verdict_receivers or present_verdict_transcriptions:
         stop("VERDICT_SCHEMA_RECEIVERS", {"keywords": sorted(parent_module.VERDICT_SCHEMA_SUPPORTED_KEYWORDS), "missing": missing_verdict_receivers, "transcriptions": present_verdict_transcriptions})
     root_membership_receivers = {
-        "VERIFIER_ROOT_TRANSCRIBED_MEMBERS = (",
-        "if len(VERIFIER_ROOT_TRANSCRIBED_MEMBERS) != 12",
-        "for relative in VERIFIER_ROOT_TRANSCRIBED_MEMBERS:",
-        "Contract V002 item: move this transcribed membership list into the manifest",
+        'members = value["verifier_root_members"]',
+        'exact_keys(row, {"byte_length", "relative_path", "sha256"}, "verifier root member")',
+        'fail("VERIFIER_ROOT_MEMBER_BINDING"',
+        'fail("VERIFIER_ROOT_DIGEST"',
     }
     missing_root_receivers = sorted(item for item in root_membership_receivers if item not in parent_text)
     forbidden_root_inference = "for source_path in sorted(verifier_source.iterdir()"
-    if missing_root_receivers or forbidden_root_inference in parent_text:
+    if missing_root_receivers or forbidden_root_inference in parent_text or "VERIFIER_ROOT_TRANSCRIBED_MEMBERS" in parent_text:
         stop("ROOT_MEMBERSHIP_RECEIVERS", {"missing": missing_root_receivers, "directory_inference": forbidden_root_inference in parent_text})
     authorization_forbidden = {
         "AUTHORIZATION_CONTENT",
@@ -1200,7 +1290,7 @@ def main():
     if any((package / "outputs").iterdir()):
         stop("CHAIN_OUTPUT_PRESENT", package / "outputs")
     schema_count = len(list((package / "schemas").glob("*.json")))
-    print(f"SELF_CHECK_OK syntax={len(python_paths)} canonical_json=all local_schemas={schema_count} pin_manifest={len(PIN_ROWS)}:{digest(PIN_MANIFEST_PATH.read_bytes())} pin_source=generated pin_closure=value:{len(pin_closure_hits['value'])},name:{len(pin_closure_hits['name'])},total:{pin_closure_total}:PASS verifier_root_members=12 verifier_root={computed_verifier_root} root_membership_source={ROOT_MEMBERSHIP_SOURCE_SHA256} membership_in_instance_note=RECORDED_FOR_CONTRACT_V002 verdict_schema={VERDICT_SCHEMA_SHA256} b_spec_repin={b_repin_state} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=fault:accepted,full_shape:checked negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} evidence=1/56 absent=55 v009_06_opcodes=COMPARE+DAG:PASS v009_06_observed={','.join(v009_06_observed)} observed_payloads=graph+raw_span consumable_args_reproduced={consumable_args_reproduced} trace=evidence_excluded;receipt_output_digest_custody invocation_fields=opcode,result_name,args,instance_id,source_sha256,span,span_sha256 byte_span_linkage=packed+explicit+raw_span_digest consumed_implies_materialized={consumed_implies_materialized} consumed_path=run_root/evidence/<digest>.json fixture_obs=0/3 checks=66 descriptor_delta=0:V007_to_V008 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=11 verifier_input_roots=7 verifier_argv=22:closed parent_manifest_dry_run={parent_manifest_dry_run} authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
+    print(f"SELF_CHECK_OK syntax={len(python_paths)} canonical_json=all local_schemas={schema_count} pin_manifest={len(PIN_ROWS)}:{digest(PIN_MANIFEST_PATH.read_bytes())} pin_source=generated pin_closure=value:{len(pin_closure_hits['value'])},name:{len(pin_closure_hits['name'])},total:{pin_closure_total}:PASS superseded_roots={len(superseded_root_prefixes)}:retained_historical_hits:{len(superseded_root_hits)} verifier_root_members={len(member_rows)} verifier_root={computed_verifier_root} root_membership=instance-carried-generated verdict_schema={VERDICT_SCHEMA_SHA256} b_spec_repin={b_repin_state} verdict_schema_keywords=$comment,$schema,additionalProperties,const,enum,items,oneOf,pattern,properties,required,type verdict_documents=fault:accepted,full_shape:checked negatives=old13,full_extra,fault_extra,wrong_spec:rejected inventory={len(inventory_rows)} evidence_payloads={len(payload_files)} subject_resolution={len(subject_resolutions)}/6 integration_addendum_supplied={addendum_supplied} evidence=1/56 absent=55 v009_06_opcodes=COMPARE+DAG:PASS v009_06_observed={','.join(v009_06_observed)} observed_payloads=graph+raw_span consumable_args_reproduced={consumable_args_reproduced} trace=evidence_excluded;receipt_output_digest_custody invocation_fields=opcode,result_name,args,instance_id,source_sha256,span,span_sha256 byte_span_linkage=packed+explicit+raw_span_digest consumed_implies_materialized={consumed_implies_materialized} consumed_path=run_root/evidence/<digest>.json fixture_obs=0/3 checks=66 descriptor_delta=0:V008_to_V009 descriptor_terminators_excluded={descriptor_terminators_excluded}/66 j1_fixture_spans=generated:3/3 j2_bsd_diff={v008_counts[0]}/{v008_counts[1]}/{v008_counts[2]} structural=56 gated=10 fixtures=6 event_payload_classes=6 event_payload_files=6(static_synthetic) empty_event_bytes=[] run_evidence_base=run_root producer_fields=13 receipt_fields=16 fixture_fields=16 child_fields=14 verifier_manifest_fields=12 verifier_input_roots=7 verifier_argv=22:closed parent_manifest_dry_run={parent_manifest_dry_run} authorization_fields=artifact_sha256,scope authorization_digest={authorization_digest} authorization_scope=equals_ledger_scope authorization_forward=producer,terminal,verifier_receiver t_labels=producer:T0,T1,T2,T3(no_T4);terminal:T0,T1,T2,T3,T4(actual_T4) t4_before_sample_guard=PASS trust_root={trust_root} trust_sites={len(trust_site_values)} trust_agreement={','.join(trust_site_values)} exits=0/1/2 chain_invoked=false")
 
 
 if __name__ == "__main__":

@@ -102,24 +102,6 @@ EVENT_LEDGER_CARRIERS = (
     ("network_event_ledger_sha256", "network_event_ledger"),
     ("mutation_event_ledger_sha256", "mutation_event_ledger"),
 )
-# Contract V002 item: move this transcribed membership list into the manifest
-# instance, alongside Builder B's recorded name-binding observation from 667.
-VERIFIER_ROOT_TRANSCRIBED_MEMBERS = (
-    "contracts/verifier_verdict.schema.json",
-    "run_verifier.py",
-    "verifier/__init__.py",
-    "verifier/canonical_json.py",
-    "verifier/child_manifest.py",
-    "verifier/comparison.py",
-    "verifier/contracts.py",
-    "verifier/hashing.py",
-    "verifier/replay.py",
-    "verifier/runtime_state.py",
-    "verifier/spec_census.py",
-    "verifier/verify.py",
-)
-
-
 class ParentFailure(Exception):
     pass
 
@@ -570,11 +552,14 @@ def verify_package_inventory(package_root, manifest):
         "checks/check_map.json",
         "fixtures/fixture_manifest.json",
         "inputs/structural_evidence_manifest.json",
+        "inputs/verifier_root_members.generated.json",
         "manifests/pins.json",
         "schemas/child-receipt.schema.json",
         "schemas/producer-output.schema.json",
         "schemas/terminal-ledger.schema.json",
+        "schemas/subject-resolution.schema.json",
         "schemas/verifier-manifest.schema.json",
+        "schemas/verifier-root-members.schema.json",
     }
     if not required.issubset(seen):
         fail("PACKAGE_REQUIRED_FILES", sorted(required-seen))
@@ -1060,7 +1045,7 @@ def validate_verifier_manifest(path, expected, run_root, expected_output, expect
     top_fields = {
         "argv", "entry_point", "exit_contract", "input_roots", "optimize",
         "output_path", "receipt_authoritative", "receipt_path", "schema",
-        "stdout_discipline", "verifier_root_sha256",
+        "stdout_discipline", "verifier_root_members", "verifier_root_sha256",
     }
     exact_keys(value, top_fields, "verifier manifest")
     if value["schema"] != "rd22.verifier-manifest.v001":
@@ -1075,17 +1060,36 @@ def validate_verifier_manifest(path, expected, run_root, expected_output, expect
     entry_target = safe_resolve(manifest_base_declared, entry)
     if not entry_target.is_file():
         fail("VERIFIER_ENTRY_FILE", entry)
-    if len(VERIFIER_ROOT_TRANSCRIBED_MEMBERS) != 12 or VERIFIER_ROOT_TRANSCRIBED_MEMBERS != tuple(sorted(VERIFIER_ROOT_TRANSCRIBED_MEMBERS)):
-        fail("VERIFIER_ROOT_MEMBER_CENSUS", VERIFIER_ROOT_TRANSCRIBED_MEMBERS)
+    members = value["verifier_root_members"]
+    if not isinstance(members, list) or not members:
+        fail("VERIFIER_ROOT_MEMBER_CENSUS", members)
+    member_paths = [row.get("relative_path") if isinstance(row, dict) else None for row in members]
+    if any(not isinstance(relative, str) for relative in member_paths):
+        fail("VERIFIER_ROOT_MEMBER_PATH", member_paths)
+    if member_paths != sorted(member_paths) or len(member_paths) != len(set(member_paths)):
+        fail("VERIFIER_ROOT_MEMBER_ORDER", member_paths)
     source_digests = []
-    for relative in VERIFIER_ROOT_TRANSCRIBED_MEMBERS:
+    for row in members:
+        exact_keys(row, {"byte_length", "relative_path", "sha256"}, "verifier root member")
+        relative = row["relative_path"]
+        if (
+            not isinstance(row["byte_length"], int)
+            or isinstance(row["byte_length"], bool)
+            or row["byte_length"] < 0
+            or not isinstance(row["sha256"], str)
+            or re.fullmatch(r"[0-9a-f]{64}", row["sha256"]) is None
+        ):
+            fail("VERIFIER_ROOT_MEMBER_ROW", row)
         declared_source = manifest_base_declared / relative
         target = safe_resolve(manifest_base_declared, relative)
         if not target.is_file():
             fail("VERIFIER_ROOT_MEMBER_MISSING", relative)
-        digest = sha256_bytes(read_bytes(target))
-        source_digests.append(digest)
-        add_allowlist_entry(verifier_files, declared_source, digest, f"verifier:{relative}")
+        member_data = read_bytes(target)
+        digest = sha256_bytes(member_data)
+        if digest != row["sha256"] or len(member_data) != row["byte_length"]:
+            fail("VERIFIER_ROOT_MEMBER_BINDING", {"relative_path": relative, "declared": row, "actual_sha256": digest, "actual_byte_length": len(member_data)})
+        source_digests.append(row["sha256"])
+        add_allowlist_entry(verifier_files, declared_source, row["sha256"], f"verifier:{relative}")
     computed_verifier_root = sha256_bytes("".join(source_digests).encode("utf-8"))
     if not source_digests or computed_verifier_root != value["verifier_root_sha256"]:
         fail("VERIFIER_ROOT_DIGEST", {"declared": value["verifier_root_sha256"], "computed": computed_verifier_root})
