@@ -14409,6 +14409,18 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED as definition-attempt. Routed (hunt-before-ask, the standing pattern): the tau_density REFERENCE determination (724, Dario) — does V011's operational "density convergence over C_ref" refer to the sealed polydisc density topology, or to a completion topology in density clothing? Sealed text decides; only if it underdetermines does GAP 2's typing go to the principal.
 
+## Q-630 — SILENT verdict on tau typing; the principal rules the limit's subject: THE INTENSIVE COEFFICIENT (2026-08-08)
+
+**Question.** What does tau_density name — and when the corpus is silent, of what is the refinement limit taken?
+
+**Answer, part 1 (Dario, 724).** VERDICT = SILENT: nine occurrences assembled block-covered; ZERO typing uses of ANY tau_* token on ANY carrier (all occurrences inside three spans; no fourth site). 4d's own words describe the family as "left open by sealed text" and tau_density as "named operationally" — a report of absence two relays had read as a menu (Dario's own disclosure). The real split is THREE-WAY and about the SUBJECT of the limit: the compatible response (4d 3.2), the ratified completion (4d 9 — J_ref's target, unrealized), the intensive coefficient (V011). tau_cyl's elimination survives (property-based, carrier-independent); tau_density's completion-class cells were unaskable as posed. Dario also disclosed excluding the two supervision files carrying the token — both echoes of its own returns; counting them would have been the lane citing itself through a register.
+
+**Answer, part 2 (principal ruling, decision sealed).** THE SUBJECT IS THE INTENSIVE COEFFICIENT, computed from the response (source, not identity); not the completion (the unbuilt-object trap). Consequences: the sealed Duhamel/Montel density instance is the limit's sense for the ruled subject, PENDING ONLY ITS INDEX; "choose one of three" is dissolved; the index gap = RA27-2 stands as the single remaining blocker; the S5.3 proof burden carries; lambda/beta unchanged.
+
+**Basis.** STAGE8_7A_TAU_DENSITY_REFERENCE_DARIO_V001.md = 6441b787eaa28c817edd501369f3ba5550a6831312a5b54f3b5c3f2cb9e508dd (14/14); DECISION_REFINEMENT_LIMIT_SUBJECT_2026-08-08.md sealed this date.
+
+**Status.** SETTLED. Every thread of the stitching arc now points at ONE remaining object: RA27-2's same-region relation. The adoption package (the free choices that close it, well-typed under this ruling) assembles as relay 725.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

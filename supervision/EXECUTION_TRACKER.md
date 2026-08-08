@@ -563,7 +563,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 722 | Dario | [7A/STEP8] tau_density carrier | **RETURNED via outbox (ACK). DEFINITION-INCOMPLETE: GAP1 = RA27-2 (3 routes, 1 object); GAP2 = carrier class — question may be UNDER-POSED. Q-629.** |
 | 723 | Codex 2 | [7A/STEP11] tooling family 1: carrier compiler for the contract-ready subset (19 elements) | QUEUED — announcement missed, re-issued |
 | — | Registrar | [7A/STEP11] corpus selection rule sealed (V001); rule run + 13 draft instances = registrar next | IN PROGRESS |
-| 724 | Dario | [7A/STEP8] the tau_density reference determination (hunt-before-ask on GAP 2) | **SENT** |
+| 724 | Dario | [7A/STEP8] reference determination | **RETURNED via outbox (ACK). SILENT — no tau ever typed; real split = the limit's SUBJECT. PRINCIPAL RULED: the intensive coefficient. Q-630.** |
+| 725 | Dario | [7A/STEP8] the RA27-2 adoption package, well-typed under the subject ruling | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
