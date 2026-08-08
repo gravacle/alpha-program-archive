@@ -368,3 +368,23 @@ Nothing is weakened: a rule in its jurisdiction keeps full force; kill
 conditions stay preregistered. The check stops rules from answering questions
 they were never written to ask. The registrar applies it to every 7A relay
 header; lanes apply it to every criterion they author; failures are findings.
+
+## THE RELAY QUEUE PROTOCOL (2026-08-08, principal-initiated efficiency change)
+
+Transport changes; custody does not. The relay content moves by FILE; the
+principal's paste shrinks to the relay NUMBER; the STOP gate and one-task-one-
+relay boundedness are unchanged. Autonomous lane polling is REJECTED of record
+(the seven-hour dead-workflow stall; STOP-after-seal is load-bearing).
+
+- Registrar writes each sealed relay to the lane's inbox BEFORE announcing it:
+  Codex 2: <cleanroom>/relay_inbox/   Dario: <archive>/relay_inbox/
+- The principal sends the lane a bare number N. The lane's standing rule (
+  installed once via a relay header): read relay_inbox/RELAY_PASTE_N_*.md,
+  verify its seal, execute under all standing session rules, seal outputs as
+  usual, write the completion report to relay_outbox/N_DONE.md, STOP.
+- The registrar runs a background watcher on both outbox directories; a
+  completion file is the return signal — the principal relays nothing back.
+  The registrar still verifies at the artifact level (the DONE file is a
+  pointer, not the evidence).
+- The clipboard is retired for relay transport; the LOADED — NOT SENT state
+  becomes QUEUED — NOT ANNOUNCED. One relay per lane in flight, as ever.
