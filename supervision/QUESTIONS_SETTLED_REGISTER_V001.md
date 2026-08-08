@@ -14626,6 +14626,22 @@ Six witnesses built as exact universal finite records (pushout quotients both-as
 
 **Status.** SETTLED — both moves covered. Step-11 grind resumes (SP2-05 formalization, 741).
 
+## Q-647 — RA27-2: one ruling from discharge; RA27-3 opened; materiality typed as DYNAMICAL with both paths spec-gapped (2026-08-08)
+
+**Question.** Does RA27-2 book against D012?
+
+**Answer. STOPPED AT ONE DEMAND, honestly.** The blocker of record (measure functoriality) is GONE — derived from three sources, branch-ruling-free. Demands 1/2/4 supplied; demand 3 supplied AS ADOPTED per FC-1 with D012's own modality anticipating it; demand 5 SPLITS: reachability has a SEALED WITNESS newly seen (MAJ [19632,19996): Z = Freudenthal composed with bisection named "Common refinement" — directedness realized by a generator composite; Dario had cited the span twice without seeing it), while COMPLETENESS stands at D012's verb PROVE against a census CERTIFICATE (1,958 files recursive, writer-excluded, seventeen move-names plus fifteen word-boundary variants: no move outside {A0,A1,A2} named anywhere). The certificate-vs-proof fork was typed at Q-624 as A PRINCIPAL FORK, FLAGGED NOW — flagged, never decided. Dario refused to lower the verb ("a refusal does not expire because a neighbour was removed") and disclosed that the relay header's own "DISCHARGED" framing was a direction it may not carry.
+
+**RA27-3 OPENED:** domain supplied; VOLUME now has its natural transport (new since 727, discharging the inherited prerequisite); incidence partial (generators yes, composites unproven — and 731's error was composite-facing); coframe/connection/degree/support/current-density NOT supplied, with the only transporting clause BARRED and RA27-3's modality derivation-only, no adoption clause. Both scope flags carried (the cubical one now closed by Q-646).
+
+**MATERIALITY, typed — the typing is the result:** K_L factors through the energy iff Q_flux is a CONFORMAL ISOMETRY into the record Hessian (the naive function-of-energies reading is dead on type; polarization makes proportionality operative). The question is DYNAMICAL — R_record,L is the intensive Hessian evaluated after the thermodynamic/linked-cluster limit — not settleable from the cochain complex. Both settlement paths blocked on SPEC GAPS, not unperformed work: R_record,L's FORM is defined but never given; the evaluated-pair set D is not sealed. A conditional finite-linear-algebra reduction is recorded as a lead and correctly not run. Status: UNDETERMINED with the S5.3-style burden carrying.
+
+**Also of record:** a NAME COLLISION nearly poisoned the derivation — two files named BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md, the first lookup returning an unsealed top-level copy; the digest caught what the filename could not (every span in the artifact is against aa7c6d49…).
+
+**Basis.** STAGE8_7A_RA27_2_DISCHARGED_DARIO_V001.md = 660e0c1464aee4f3a0bccd60e79050d5f1573378f5b11cfe84ec1ba3a975df1f (17/17).
+
+**Status.** SETTLED as stop-with-display. The completeness fork goes to the principal: certificate suffices (books now) vs proof required (bounded, combinatorial, one relay).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
