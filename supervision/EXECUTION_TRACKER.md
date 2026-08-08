@@ -582,7 +582,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 740 | Codex 2 | [7A/STEP8] cubical free space | **RETURNED. SPHERE (dim 118) — freedom generic on both moves; Q-645 split stands uniform. Q-646.** |
 | 741 | Codex 2 | [7A/STEP11] SP2-05 formalization | **RETURNED. 7/8 ready; gap = the orientation-unitary carrier (same as D08 — one object, two rows). Q-648.** |
 | 742 | Dario | [7A/STEP8] the closure proof at PROVE standard; RA27-2 BOOKS on it | **SENT (ACK observed)** |
-| 743 | Codex 2 | [7A/STEP11] the orientation-unitary carrier: derive-or-gap; closes D08 + SP2-05 | QUEUED — NOT ANNOUNCED |
+| 743 | Codex 2 | [7A/STEP11] the orientation-unitary carrier: derive-or-gap; closes D08 + SP2-05 | **SENT (ACK observed)** |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
