@@ -581,7 +581,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 739 | Dario | [7A/STEP8] RA27-2 booking | **RETURNED. STOPPED at completeness (certificate vs PROVE — the flagged fork); reachability has a sealed witness; RA27-3 opened; materiality DYNAMICAL, both paths spec-gapped. Q-647. PRINCIPAL FORK.** |
 | 740 | Codex 2 | [7A/STEP8] cubical free space | **RETURNED. SPHERE (dim 118) — freedom generic on both moves; Q-645 split stands uniform. Q-646.** |
 | 741 | Codex 2 | [7A/STEP11] SP2-05 formalization | **RETURNED. 7/8 ready; gap = the orientation-unitary carrier (same as D08 — one object, two rows). Q-648.** |
-| 742 | Dario | [7A/STEP8] the closure proof at PROVE standard; RA27-2 BOOKS on it | **SENT (ACK observed)** |
+| 742 | Dario | [7A/STEP8] closure proof | **RETURNED. REFUTED — the class has THREE constituents (barred-as-source ≠ not-in-class); directedness existential vs universal; SLIV gift (measure natural on full D3, sealed 07-26); R-L2b surfaces. Q-651. THREE ROUTES TO THE PRINCIPAL.** |
 | 743 | Codex 2 | [7A/STEP11] orientation unitary | **RETURNED. DETERMINED — Gamma_cell IS the carrier; SP1-07 9/9 + SP2-05 8/8 COMPLETE. Q-649.** |
 | 744 | Codex 2 | [7A/STEP11] D-A35-02 | **RETURNED. COMPLETE (gaps=[], TYPE 6/6, EXACT 8/8) — third complete row. Q-650.** |
 | 745 | Codex 2 | [7A/STEP11] V010-11 decorated category: derive-or-gap | **SENT (ACK observed)** |

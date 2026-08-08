@@ -14654,6 +14654,22 @@ The derive-or-gap resolved DETERMINED with the cleanest possible answer: the sea
 
 The quasifree CAR lift instanced whole from the packet-sealed source: six content-addressed elements (carrier + CAR relations; the operator-valued one-particle action; the number-preserving quasi-free lift; the covariance atoms; vacuum normalization and one-source restriction; the quartic control with the nonzero two-source difference), gaps=[], TYPE receiver 6/6, EXACT receiver 8/8, instance 47485f83…. Rows formalization-complete: SP1-07, SP2-05, D-A35-02. Basis: STAGE8_7A_A35_02_INSTANCE_CODEX2_V001.md, registrar seal-verified, mirrored. SETTLED.
 
+## Q-651 — The closure claim REFUTED: the class has three constituents; the barred-as-source collapse; SLIV's sealed gift; three principal routes (2026-08-08)
+
+**Question.** Does generator completeness prove at D012's standard?
+
+**Answer. NO — REFUTED, and the refutation is the root licensing act itself.** V011's single admissibility freeze lists THREE items under one verb: cubical bisection; oriented subdivision; AND "common refinements preserving the same smooth coframe and connection." The target {A0,A1,A2} substituted JREF's import for C_ref's own third constituent. THE DISTINCTION OF RECORD: the smooth-coframe clause is barred AS A SOURCE (TYPE-R forbids deriving FROM it; 4d says in one block DERIVES=false AND USABLE_AS_TARGET_INTERFACE=true) — it was never excluded FROM THE CLASS. Dario collapsed "barred as source" into "not in the class" across FOUR relays (725/727/731/739), the distinguishing line 60 bytes from a span already cited; Q-624's own seven-generator census and A27's sealed instance ("moves", not cellulations) both counted it. SECOND STOP ON ITS OWN: FC-1's adopted directedness is EXISTENTIAL ("there exists M"); A27 demands a UNIVERSAL over all common-refinement moves — the adoption made is not the adoption needed.
+
+**The commissioned sweep's finds (five blind hunters + adversarial verifiers, denied the author's artifacts):** two never-opened sealed files (the D3 typing freeze + its principal ratification) — then the verifiers REFUTED the D3 leg they had strengthened (MAJSPEC's own line: "Nothing in this file is sealed authority"; a theorem's quantifier range is not an admissibility grant) — D3 reported CONTESTED, not load-bearing. Grounding corrected twice (an unsealed matrix citation; V011's seal via packet manifest). AND THE GIFT: SLIV (218be86d…, sealed 2026-07-26) — volume_weight_natural_on_full_D3 = TRUE, "slivers, needles, star-refined atoms of unbounded facet count — no regularity hypothesis whatever," against response_pullback = UNDETERMINED. The 739/740 sliver caution was honest and UNNECESSARY for the measure; FC-2's relaxation is HALF-MET of sealed record, remainder named: R_L2b_HS_scaling_exponent_derived_in_the_sliver_direction — the program's one require-shaped target surfacing inside the stitching arc.
+
+**WW3 taken:** the incidence-composites question DISSOLVES (one-line induction on composite length; counts four-volume, not sub-faces — exactly where 731 failed; hypothesis sealed on full D3). The cochain-incidence half left named.
+
+**Also of record:** the register's own digest changed mid-relay (the registrar appends); Dario re-located its spans rather than assume append-only stability — correct. The eight-relay instrument-defect run ends with the fix coming FROM THE COMMISSION's task shape, disclosed as such.
+
+**Basis.** STAGE8_7A_COMPLETENESS_PROOF_DARIO_V001.md = 863bc6063a8b123ecc7c278baf0cb79a8da88342d123d8b4c04e5e9cbb5d0439 (19/19).
+
+**Status.** SETTLED as refutation. THREE PRINCIPAL ROUTES to RA27-2: (a) RESTRICT-AND-SAY-SO — V011's own pre-registered branch, class narrowed to the two derivable moves with the cost stated aloud per DET; (b) FINISH FC-2's HALF-MET TRIGGER — derive the R-L2b HS scaling exponent in the sliver direction (the require-shaped target); (c) RESOLVE the C_ref/D3 conflict held since 2026-07-26. The ruling is the principal's.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
