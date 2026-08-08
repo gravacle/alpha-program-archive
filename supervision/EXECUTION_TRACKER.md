@@ -577,7 +577,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 735 | Codex 2 | [7A/STEP11] SP1-07 formalization | **RETURNED. 2/9 KERNEL-ready; 7 witnesses named (mostly finite). Q-641.** |
 | 736 | Codex 2 | [7A/STEP11] SP1-07 witnesses | **RETURNED. 6/7 computed exactly; D08 underdetermined. Q-643.** |
 | 737 | Codex 2 | [7A/STEP8] Branch-F cross-check | **RETURNED. L1 CONFIRMED; L2/L3 REFUTED — explicit Freudenthal equal-energy non-F counterexample. FORCING FALLS. Q-644.** |
-| 738 | Dario | [7A/STEP8] the counterexample: confirm or contest; the corrected verdict; what needs the assignment | QUEUED — NOT ANNOUNCED |
+| 738 | Dario | [7A/STEP8] the counterexample: confirm or contest; the corrected verdict; what needs the assignment | **SENT (ACK observed)** |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
