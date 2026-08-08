@@ -14650,6 +14650,10 @@ Seven proof objects built (pushout-once, both parenthesizations, order independe
 
 The derive-or-gap resolved DETERMINED with the cleanest possible answer: the sealed cellular grading Gamma_cell = diag(+1,+1,-1) IS the orientation unitary — self-adjoint involution, U c U* = c_rev = -c exact, tensor extension leaving source projectors invariant and closing the complete h_K square termwise; no exchange map or free operator added; the central-phase freedom noted and the sealed grading the canonical representative. Both consumers bound: SP1-07 = 9/9 KERNEL-ready (FORMALIZATION_COMPLETE), SP2-05 = 8/8 (FORMALIZATION_COMPLETE) — the first two complete rows of the remainder. Exact Gaussian-integer checks, five negative controls, occupied-output refusal; formalization statuses, not runtime verdicts; admission barred. Basis: STAGE8_7A_ORIENTATION_UNITARY_CODEX2_V001.md = 831c0dd8…, carrier 7c19430b…, registrar seal-verified, mirrored. SETTLED.
 
+## Q-650 — D-A35-02 complete: the third formalization-complete row (2026-08-08)
+
+The quasifree CAR lift instanced whole from the packet-sealed source: six content-addressed elements (carrier + CAR relations; the operator-valued one-particle action; the number-preserving quasi-free lift; the covariance atoms; vacuum normalization and one-source restriction; the quartic control with the nonzero two-source difference), gaps=[], TYPE receiver 6/6, EXACT receiver 8/8, instance 47485f83…. Rows formalization-complete: SP1-07, SP2-05, D-A35-02. Basis: STAGE8_7A_A35_02_INSTANCE_CODEX2_V001.md, registrar seal-verified, mirrored. SETTLED.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
