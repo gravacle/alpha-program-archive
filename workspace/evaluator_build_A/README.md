@@ -4,8 +4,8 @@ This directory contains Builder A's fresh parent and producer. It contains no
 verifier implementation. `parent.py` is the direct R0 entry point and
 `producer.py` is the normal/optimized child target.
 
-The child check map is pinned to specification V009. All 66 descriptor rows are
-byte-identical to V008. In the preceding V006-to-V007 delta, exactly one
+The child check map is pinned to specification V010. All 66 descriptor rows are
+byte-identical to V009. In the preceding V006-to-V007 delta, exactly one
 descriptor changed: `C-B-V009-06` received the principal-ruled
 single-authority DAG and byte-grounding criterion.
 Each structural row is bound to its descriptor SHA-256 and an ordered opcode
@@ -51,7 +51,7 @@ branch is admitted; unresolved ties and failures cannot become later choices.
 
 The sealed integration addendum supplies the boundary contract. Builder B must
 supply a canonical, sidecar-pinned
-`rd22.verifier-manifest.v001` with exactly twelve fields. Under V009, its
+`rd22.verifier-manifest.v001` with exactly twelve fields. Under V010, its
 `argv` is an exact 22-item schema
 and its `input_roots` is an exact seven-field schema, including subject- and
 evidence-manifest digests. The parent validates those schemas, canonical-JSON
@@ -67,9 +67,9 @@ terminal ledger after R10 succeeds. The parent fails closed before verifier
 launch if the required verifier manifest, its pin, or any of its contracts is
 absent or malformed.
 
-`inputs/evidence/` contains fourteen byte-identical, content-addressed copies
-of sealed packet/workspace search and display sources (including the V009 spec
-and integration addendum), the exact 932-byte
+`inputs/evidence/` contains fifteen byte-identical, content-addressed copies
+of sealed packet/workspace search and display sources (including the V010 spec,
+its V009 base, and the integration addendum), the exact 932-byte
 relocated `stage_dependencies` member, its tight canonical single-authority DAG
 serialization, and the prior paired-argument bytes retained as a supersession
 witness. The current member and single-authority serialization ground only
@@ -86,9 +86,9 @@ is the two payloads the procedure consumes: the tight-canonical `graph` object
 and the exact 932-byte raw grounding span. The opcode-result trace is excluded
 from evidence; the child receipt's `output_sha256` retains custody of the result
 row without misclassifying execution testimony as an evidentiary input.
-Builder B's currently sealed verdict schema carries the V008 spec const; its
+Builder B's currently sealed verdict schema carries the V009 spec const; its
 digest is generated into the pin manifest and verified before launch. Builder
-B's separately owned V009 boundary confirmation and re-pin are therefore
+B's separately owned V010 ground-atom implementation and re-pin are therefore
 required before a chain invocation, and this package does not claim that
 parallel custody act.
 
