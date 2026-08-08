@@ -71,14 +71,11 @@ def main():
         sys.stdout.write("EVENT_LEDGER_FIELDS       : 6 digest carriers\n")
 
     # the launch manifest validates against its own closed contract
-    from verifier import child_manifest
+    from verifier import child_manifest, hashing
     try:
         m = child_manifest.build_manifest(
             "0" * 64,
-            {"spec_sha256": "1" * 64, "ledger_sha256": "2" * 64,
-             "evidence_root_sha256": "3" * 64,
-             "runtime_snapshot_sha256": "4" * 64,
-             "runtime_gate_sha256": "5" * 64},
+            dict((f, "1" * 64) for f in contracts.INPUT_ROOTS_FIELDS),
             "out/verdict.json", "out/receipt.json", False)
         child_manifest.manifest_sha256(m)
         sys.stdout.write("launch manifest           : validates, addressable\n")
@@ -413,18 +410,99 @@ def main():
     except canonical_json.VerifierFault:
         sys.stdout.write("opcode replay        : refuses unimplemented opcode\n")
 
-    # P0 is not replayable as R9 is launched -- it must FAULT, never default
-    _p0 = canonical_json.encode_canonical({"r_dag": {"success": True}})
-    _b = replay.EvidenceBundle(_p0, hashlib.sha256(_p0).hexdigest(), "sc")
+    # V008-R9-1: the P0 atom consumes the COMPUTED object; an uncomputed P0
+    # is a build fault, never a criterion FAIL.
+    _nop0 = canonical_json.encode_canonical({"r_dag": {"success": True}})
+    _b = replay.EvidenceBundle(_nop0, hashlib.sha256(_nop0).hexdigest(), "sc")
     try:
         replay.replay_atom("P0", _b)
-        faults += fail("P0 atom did not fault")
-    except canonical_json.VerifierFault as exc:
-        if "SPEC GAP" not in str(exc):
-            faults += fail("P0 fault does not name the gap: %s" % exc)
+        faults += fail("uncomputed P0 did not fault")
+    except canonical_json.VerifierFault:
+        sys.stdout.write("P0 atom              : uncomputed P0 faults, never "
+                         "returns False\n")
+    _yes = canonical_json.encode_canonical({"P0": {"success": True}})
+    _no = canonical_json.encode_canonical({"P0": {"success": False}})
+    got = (replay.replay_atom("P0", replay.EvidenceBundle(
+               _yes, hashlib.sha256(_yes).hexdigest(), "sc")),
+           replay.replay_atom("P0", replay.EvidenceBundle(
+               _no, hashlib.sha256(_no).hexdigest(), "sc")))
+    if got != (True, False):
+        faults += fail("P0 atom does not track the computed value: %s" % (got,))
+    else:
+        sys.stdout.write("P0 atom              : tracks the computed value\n")
+
+    # V008-R9-1/3: P0's THREE outcomes, and they are three
+    from verifier import preconditions as _pc
+    _sm = {"schema": "rd22.subject-lineage-manifest.v001",
+           "declared_root": None,
+           "files": [{"relative_path": "a", "byte_length": 1,
+                      "sha256": hashlib.sha256(b"a").hexdigest()}]}
+    _sm["declared_root"] = hashing.content_root(
+        [("a", 1, _sm["files"][0]["sha256"])])
+    _em = {"declared_root": None, "payload_inventory":
+           [{"relative_path": "b", "byte_length": 1,
+             "sha256": hashlib.sha256(b"b").hexdigest()}]}
+    _em["declared_root"] = hashing.content_root(
+        [("b", 1, _em["payload_inventory"][0]["sha256"])])
+    _idx = {hashlib.sha256(b"a").hexdigest(): b"a",
+            hashlib.sha256(b"b").hexdigest(): b"b"}
+    try:
+        _v = _pc.compute_p0(_sm, _em, _idx, "sc")
+        if _v["success"] is not True or len(_v["conjuncts"]) != 6:
+            faults += fail("P0 true case: %s" % _v)
         else:
-            sys.stdout.write("P0 atom              : faults as a SPEC GAP, "
-                             "never defaults\n")
+            sys.stdout.write("P0 compute           : all six conjuncts true\n")
+    except Exception as exc:                      # noqa: BLE001 - fail closed
+        faults += fail("P0 true case: %s" % exc)
+    _bad = {"schema": _sm["schema"], "declared_root": "0" * 64,
+            "files": list(_sm["files"])}
+    try:
+        _v = _pc.compute_p0(_bad, _em, _idx, "sc")
+        if _v["success"] is not False:
+            faults += fail("P0 false case did not go false")
+        else:
+            sys.stdout.write("P0 compute           : a false conjunct gives "
+                             "P0=false, not a refusal\n")
+    except Exception as exc:                      # noqa: BLE001 - fail closed
+        faults += fail("P0 false case: %s" % exc)
+    try:
+        _pc.compute_p0(_sm, _em, {}, "sc")
+        faults += fail("unsupplied bytes did not refuse")
+    except _pc.PreconditionNotReplayable as exc:
+        v = exc.value
+        ok = (sorted(v) == sorted(contracts.PRECONDITION_REFUSAL_FIELDS)
+              and v["status"] == contracts.PRECONDITION_NOT_REPLAYABLE
+              and v["criterion_evaluated"] is False and v["missing_carrier"])
+        if not ok:
+            faults += fail("refusal value malformed: %s" % v)
+        else:
+            sys.stdout.write("P0 compute           : unevaluable -> closed "
+                             "PRECONDITION_NOT_REPLAYABLE naming the carrier\n")
+
+    # V008-R9-2 inventories, verified against the SEALED SPEC bytes
+    _spec = os.path.join(os.path.dirname(ROOT),
+                         "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md")
+    if os.path.isfile(_spec):
+        _t = open(_spec, encoding="utf-8").read()
+        _decl = _re.search(r'"required":\[("evidence_manifest_sha256"[^\]]*)\]',
+                           _t)
+        _want = sorted(_re.findall(r'"([a-z_]+_sha256)"', _decl.group(1))) \
+            if _decl else []
+        if _want != sorted(contracts.INPUT_ROOTS_FIELDS):
+            faults += fail("input_roots differ from the sealed schema: %s vs %s"
+                           % (_want, sorted(contracts.INPUT_ROOTS_FIELDS)))
+        else:
+            sys.stdout.write("V008 inventories     : input_roots match the "
+                             "sealed schema (7)\n")
+        _m = child_manifest.build_manifest(
+            "0" * 64, dict((f, "1" * 64) for f in contracts.INPUT_ROOTS_FIELDS),
+            "o", "r", False)
+        if len(_m["argv"]) != 22:
+            faults += fail("argv is %d items, sealed schema says 22"
+                           % len(_m["argv"]))
+        else:
+            sys.stdout.write("V008 inventories     : argv is the sealed "
+                             "22-item schema\n")
 
     # no load-bearing assert anywhere in the package
     hits = []
@@ -451,7 +529,7 @@ def main():
     # how this fourth V005 reference was found: it was carried by NAME, so
     # grepping for the old digest could not see it.
     spec = os.path.join(os.path.dirname(ROOT),
-                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md")
+                        "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md")
     if os.path.isfile(spec):
         try:
             census = spec_census.SpecCensus(spec)

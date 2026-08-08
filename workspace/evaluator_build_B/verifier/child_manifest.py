@@ -93,6 +93,13 @@ def build_manifest(verifier_root_sha256, input_roots, output_path,
         "--evidence-dir", "${EVIDENCE_DIR}",
         "--runtime-snapshot", "${RUNTIME_SNAPSHOT_PATH}",
         "--runtime-gate", "${RUNTIME_GATE_PATH}",
+        # V008-R9-2: the two manifests P0 quantifies over, on the existing
+        # ledger path/digest pattern. Without them two of the six §2.1
+        # conjuncts are unevaluable -- which is what relay 693 reported.
+        "--subject-manifest", "${SUBJECT_MANIFEST_PATH}",
+        "--subject-manifest-sha256", "${SUBJECT_MANIFEST_SHA256}",
+        "--evidence-manifest", "${EVIDENCE_MANIFEST_PATH}",
+        "--evidence-manifest-sha256", "${EVIDENCE_MANIFEST_SHA256}",
     ]
 
     manifest = {

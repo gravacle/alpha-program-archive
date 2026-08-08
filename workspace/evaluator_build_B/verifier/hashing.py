@@ -66,3 +66,28 @@ def sha256_file_unverified(path):
     assume). It never admits content on trust: callers compare the result.
     """
     return sha256_bytes(read_bytes(path))
+
+# Spec §2.1.5, "defined without path trust":
+#   content_root(M) := SHA256("A35-CONTENT-ROOT-v1\0" ||
+#                             concat(sort(relative_path || NUL ||
+#                                         decimal_byte_length || NUL ||
+#                                         lowercase_sha256 || LF)))
+CONTENT_ROOT_PREFIX = b"A35-CONTENT-ROOT-v1\x00"
+
+
+def content_root(triples):
+    """content_root over (relative_path, byte_length, sha256) declarations.
+
+    Note what this is and is not: it is computed from DECLARED triples, so it
+    establishes a manifest's internal consistency. Tying a declaration to bytes
+    is §2.1's SECOND conjunct, not this one.
+    """
+    lines = []
+    for path, length, digest in triples:
+        if not isinstance(path, str) or not isinstance(length, int) \
+                or not isinstance(digest, str):
+            raise VerifierFault("content_root: malformed triple %r"
+                                % ((path, length, digest),))
+        lines.append(("%s\x00%d\x00%s\n" % (path, length, digest.lower()))
+                     .encode("utf-8"))
+    return sha256_bytes(CONTENT_ROOT_PREFIX + b"".join(sorted(lines)))

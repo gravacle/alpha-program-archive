@@ -9,6 +9,7 @@ from the sealed output contracts (contracts), and from the RD-22 runtime pin.
 """
 
 import argparse
+import os
 import sys
 
 from .canonical_json import (VerifierFault, dumps_canonical, encode_canonical,
@@ -18,8 +19,10 @@ from .contracts import (validate_authority_firewall, validate_check_row,
                         validate_ledger_shape)
 from .comparison import (check_authorization, check_gate_discipline,
                          compare_semantic_outputs)
-from .hashing import (load_addressed, require_sha256, sha256_bytes,
-                      sha256_file_unverified)
+from .hashing import (load_addressed, read_bytes, require_sha256,
+                      sha256_bytes, sha256_file_unverified)
+from .preconditions import (PreconditionNotReplayable, compute_p0,
+                            load_manifest)
 from .replay import (EvidenceBundle, classify_payloads,
                      recompute_results, replay_fixture, replay_predicate)
 from .runtime_state import (CONTEXT_VERIFIER_INPUT, reclassify_events,
@@ -52,6 +55,23 @@ def _load_all_payloads(evidence_dir, digests, where):
             for d in digests]
 
 
+def _index_evidence(evidence_dir):
+    """sha256 -> bytes for every file R9 was actually supplied.
+
+    Content-addressed by construction: the key is the OBSERVED digest of the
+    bytes, never a declared one, so a mislabelled file indexes under its true
+    digest and simply fails to satisfy any declaration.
+    """
+    index = {}
+    for name in sorted(os.listdir(evidence_dir)):
+        path = os.path.join(evidence_dir, name)
+        if not os.path.isfile(path):
+            continue
+        blob = read_bytes(path)
+        index[sha256_bytes(blob)] = blob
+    return index
+
+
 def _recorded_invocation(row):
     """The row's recorded invocation(s), or None.
 
@@ -66,7 +86,9 @@ def _recorded_invocation(row):
 
 
 def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
-           snapshot_path, gate_path):
+           snapshot_path, gate_path, subject_manifest_path,
+           subject_manifest_sha256, evidence_manifest_path,
+           evidence_manifest_sha256):
     """Run the R9 duties. Returns (verdict_dict, ok_boolean)."""
     findings = []
 
@@ -77,6 +99,22 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
     ledger_bytes = load_addressed(ledger_path, ledger_sha256, "producer ledger")
     ledger = loads_strict(ledger_bytes.decode("utf-8"))
     validate_ledger_shape(ledger)
+
+    # --- V008-R9-1: R9 computes P0 itself, before any criterion -----------
+    subject_manifest = load_manifest(subject_manifest_path,
+                                     subject_manifest_sha256,
+                                     "subject manifest")
+    evidence_manifest = load_manifest(evidence_manifest_path,
+                                      evidence_manifest_sha256,
+                                      "evidence manifest")
+    evidence_index = _index_evidence(evidence_dir)
+    p0_value, p0_refusal = None, None
+    try:
+        p0_value = compute_p0(subject_manifest, evidence_manifest,
+                              evidence_index, "P0")
+    except PreconditionNotReplayable as exc:
+        p0_refusal = exc.value
+        _fault(findings, "PRECONDITION", exc.value)
 
     if ledger.get("spec_sha256") != SPEC_SHA256:
         _fault(findings, "SPEC_BINDING",
@@ -176,7 +214,7 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
             if roles["faults"]:
                 raise VerifierFault(roles["faults"][0])
             digest, blob, _ = roles["consumable"][0]
-            # R9 replays FROM EVIDENCE BYTES (spec V007 R9). The bundle is
+            # R9 replays FROM EVIDENCE BYTES (spec V008 R9). The bundle is
             # built from RECOMPUTED opcode results, not from producer-emitted
             # ones: reading .success off a producer object would let a
             # producer-declared object carry the criterion's direction.
@@ -184,6 +222,17 @@ def verify(spec_path, ledger_path, ledger_sha256, evidence_dir,
             invocations = recorded if isinstance(recorded, list) else (
                 [recorded] if recorded else [])
             results = recompute_results(invocations, cid)
+            for _d, _b, _parsed in roles["consumable"]:
+                if "P0" in _parsed:
+                    raise VerifierFault(
+                        "%s: a producer-emitted P0 result object is a contract "
+                        "fault and is never an input (V008-R9-1)" % cid)
+            if p0_refusal is not None:
+                replayed.append({"check_id": cid, "replayed": False,
+                                 "status": p0_refusal["status"],
+                                 "note": p0_refusal["missing_carrier"]})
+                continue
+            results["P0"] = p0_value
             bundle = EvidenceBundle(
                 encode_canonical(results), sha256_bytes(encode_canonical(results)),
                 cid)
@@ -302,6 +351,10 @@ def main(argv=None):
     parser.add_argument("--ledger", required=True)
     parser.add_argument("--ledger-sha256", required=True)
     parser.add_argument("--evidence-dir", required=True)
+    parser.add_argument("--subject-manifest", required=True)
+    parser.add_argument("--subject-manifest-sha256", required=True)
+    parser.add_argument("--evidence-manifest", required=True)
+    parser.add_argument("--evidence-manifest-sha256", required=True)
     parser.add_argument("--runtime-snapshot", required=True)
     parser.add_argument("--runtime-gate", required=True)
     args = parser.parse_args(argv)
@@ -309,7 +362,10 @@ def main(argv=None):
     try:
         verdict, ok = verify(args.spec, args.ledger, args.ledger_sha256,
                              args.evidence_dir, args.runtime_snapshot,
-                             args.runtime_gate)
+                             args.runtime_gate, args.subject_manifest,
+                             args.subject_manifest_sha256,
+                             args.evidence_manifest,
+                             args.evidence_manifest_sha256)
     except VerifierFault as exc:
         # D9 / addendum §3.3 clause 2: stdout carries the verdict and nothing
         # else. Diagnostics go to stderr. Exit 2 (could not start) and exit 1

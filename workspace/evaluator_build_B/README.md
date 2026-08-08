@@ -1,8 +1,8 @@
 # A35 evaluator — Builder B: the independent verifier
 
 Governed by sealed specification **V005**
-(`STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md`,
-`d38d31719b64839744a98da5ee005fb50119f9a26b2b98b0e1a1de445b5d4973`),
+(`STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md`,
+`3b24fc39f47d4502b01c1f06faf9f02b7828f5ba0cf4b6a882a3b331ae9c0986`),
 state **R9**, under RD-22
 (`DECISION_RD22_BUILD_AUTHORIZED_2026-08-07.md`,
 `ff84c4a8ba5c7f8eabfbcc587475d3a5050c21d758a2788c5b9e28b7ee022340`).
@@ -21,7 +21,7 @@ producer and the spec disagree, the spec wins and the run fails closed.
 
 ```
 python3 -m verifier.verify \
-  --spec              <path to STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md> \
+  --spec              <path to STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md> \
   --ledger            <path to the producer's canonical verdict ledger JSON> \
   --ledger-sha256     <expected sha256 of that ledger> \
   --evidence-dir      <directory of content-addressed evidence, named <sha256>.json> \

@@ -319,7 +319,7 @@ class EvidenceBundle(object):
 
 
 # --- opcode recomputation ---------------------------------------------------
-# Spec V007 R9: the verifier "replays each pass predicate FROM EVIDENCE BYTES".
+# Spec V008 R9: the verifier "replays each pass predicate FROM EVIDENCE BYTES".
 # Reading `.success` off a producer-emitted result object would let a
 # producer-declared object carry the criterion's direction -- the BR-1
 # violation this lane has enforced against Builder A for twenty relays, and it
@@ -355,7 +355,7 @@ def opcode_dag(args, where):
     cycles, self-parenting and missing parents; compare with required parents.
 
     The single-authority form is the ONLY one implemented here, because it is
-    the only one V007 authorises for a one-object encoding: `P` must be the
+    the only one V008 authorises for a one-object encoding: `P` must be the
     spec-fixed sentinel, and the comparison clause is then discharged by the
     principal ruling's identity -- NOT by synthesizing COMPARE(X,X), which the
     row expressly forbids and which this function therefore never performs.
@@ -443,30 +443,15 @@ def replay_atom(atom, bundle):
     atom = atom.strip().strip("`").strip()
 
     if atom == "P0":
-        # SPEC GAP, relay 693. Spec §2.1 defines P0 as SIX conjuncts and §3
-        # says "every criterion is implicitly conjoined with P0" -- so its
-        # CONTENT is determined. What is NOT determined is how R9 replays it:
-        # two conjuncts quantify over the subject and evidence MANIFESTS, and
-        # R9's launch argv (--spec --ledger --ledger-sha256 --evidence-dir
-        # --runtime-snapshot --runtime-gate) hands it neither.
-        #
-        # The pre-693 code returned False when the producer emitted no "P0"
-        # object. That was wrong in both directions at once: it demanded a
-        # PRODUCER-DECLARED object for a precondition the spec says is
-        # computed, and it reported the absence as a criterion FAILURE rather
-        # than as an unreplayable atom. A verdict of FAIL that was never
-        # evaluated is not a verdict. Fail closed, and say why.
-        if "P0" in bundle.results:
+        # V008-R9-1: R9 computes P0 itself; the caller injects the computed
+        # object under this key. Absence here is a build error, never a
+        # criterion FAIL -- relay 693's defect was returning False for an atom
+        # that had not been evaluated.
+        if "P0" not in bundle.results:
             raise VerifierFault(
-                "P0 is present as a producer-declared result object; a "
-                "producer-declared object may not carry a criterion's "
-                "direction (BR-1)")
-        raise VerifierFault(
-            "P0 is not replayable by this verifier: spec §2.1 defines it over "
-            "content_root(subject_files)=subject_manifest.declared_root and "
-            "content_root(evidence_files)=evidence_manifest.declared_root, and "
-            "R9 is launched with neither manifest. SPEC GAP -- the row or §9.4 "
-            "must state P0's replay carrier for R9")
+                "P0 was not computed before replay; R9 must compute all six "
+                "\u00a72.1 conjuncts itself (V008-R9-1)")
+        return bundle.success("P0")
 
     match = _ATOM_SUCCESS.match(atom)
     if match:

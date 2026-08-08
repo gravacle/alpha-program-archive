@@ -65,7 +65,7 @@ OPCODES = (
 
 # One recorded invocation. SEVEN fields, transcribed from the SEALED SPEC's
 # §9.4 row schema -- not from Builder B's 686 write-out, which named four and
-# is superseded. V007 §9.4: "This is the byte-span linkage required for
+# is superseded. V008 §9.4: "This is the byte-span linkage required for
 # independent replay; the blocker-ledger source.byte_span and a digest without
 # the source slice are not substitutes for it." Both builders were short of the
 # spec here; the spec wins.
@@ -141,13 +141,27 @@ VERIFIER_MANIFEST_FIELDS = (
     "exit_contract",
     "receipt_authoritative",
 )
+# V008-R9-2: seven, transcribed from the sealed input_roots schema and then
+# VERIFIED against those bytes by the self-check (derivation, not typing).
 INPUT_ROOTS_FIELDS = (
     "spec_sha256",
     "ledger_sha256",
     "evidence_root_sha256",
     "runtime_snapshot_sha256",
     "runtime_gate_sha256",
+    "subject_manifest_sha256",
+    "evidence_manifest_sha256",
 )
+
+# V008-R9-3: the closed precondition-refusal value. It is NOT a row status --
+# §2.3's alphabet is still the closed four -- it is R9's refusal to evaluate.
+PRECONDITION_REFUSAL_SCHEMA = "rd22.r9-precondition-refusal.v001"
+PRECONDITION_NOT_REPLAYABLE = "PRECONDITION_NOT_REPLAYABLE"
+PRECONDITION_REFUSAL_FIELDS = ("schema", "status", "criterion_evaluated",
+                               "missing_carrier")
+
+SUBJECT_MANIFEST_FIELDS = ("schema", "declared_root", "files")
+MANIFEST_FILE_FIELDS = ("relative_path", "byte_length", "sha256")
 STDOUT_DISCIPLINE_FIELDS = ("format", "lines", "other_output_permitted")
 EXIT_CONTRACT_FIELDS = ("verified", "faults_found", "fail_closed")
 

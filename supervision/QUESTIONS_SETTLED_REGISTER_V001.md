@@ -14144,6 +14144,22 @@ The Q-604 guard verbatim: one lawful row is one row. The board and seals unmoved
 
 **Status.** SETTLED as diagnosis. The confirmed PASS now requires: spec V008 (the three statements) + A's seven-field emission + parent argv (relay 694) -> B's V008 envelope-check + P0 consumption (relay 695) -> run 031. Run 031 before 695 would correctly meet B's seven-field refusal first.
 
+## Q-612 — V008 envelope verdict: clean where it matters; three findings and a census gap between the builders (2026-08-08)
+
+**Question.** Does A's V008 delta (relay 694) carry exactly the three Q-611 statements, and does B's independent integration (relay 695) reach a runnable chain?
+
+**Answer.** The envelope is clean where it matters — three statements, schemas not prose, 66/66 descriptor rows byte-identical, zero criterion or procedure drift, census reproduced. Four defects/gaps block run 031, all registrar-verified:
+- F1 (A, spec text): the fixture-span table is off by one, three times — FX-03/04/05 end offsets read 133684/133872/134125 where the generated manifest and the source bytes say 133685/133873/134126. Registrar reproduced all six fixture_spec_sha256 values from the bytes: the generated manifest is span-exact; only the transcribed spec rows are low. Decided by evidence, not convention preference: the declared digests reproduce only with the final byte included. FIRST-TIME-RIGHT rule 1's exact failure mode (transcribed, not generated), in the layer the rule had not yet reached.
+- F2 (A, certificate): the V008 carriage certificate declares 160/26 against four independent recomputations giving 155/21; the +5/+5 errors cancel, so the certificate cannot self-detect — corroborated externally by the edit ledger itself (+155/-21). A certificate must be recomputed from bytes (standing PRE-SEAL PIN CHECK law).
+- F3 (spec completeness): V008-R9-2 claims every P0 conjunct replayable, but one of the six subject files — the integration addendum d17c5e79… — reaches R9 through no carrier. On real inputs the chain records PRECONDITION_NOT_REPLAYABLE naming the addendum: V008's own third statement firing correctly on its first contact with reality, on a file nobody had noticed was never handed to the verifier. B declined to weaken conjunct 2 to make the finding disappear — "no mismatch found" and "never compared" are different facts.
+- F4 (builder-boundary census): B's P0 implementation added verifier/preconditions.py; root membership went 12 -> 13, disclosed not incidental (new verifier_root 43cff85d…, registrar-recomputed over the 13 members, exact). A's parent hard-codes a 12-member census that fails closed on anything else. So run 031 today stops at the census, before even F3's refusal. Both next-faults were known in writing from both builders; the registrar did not invoke a chain whose first validation was known to fail, and routed one whole fix instead.
+
+**Integration facts of record.** B implemented P0 with three outcomes because there are three — true, false, and not-replayable; relay 693's defect was collapsing the third into the second. Real manifest instance authored: argv 22 tokens, input_roots 7 keys, all pins generated; nine paths executed including both false cases and the argv end-to-end. B disclosed one malformed pin-closure command of its own (hung shell; re-run reproduced the zeros) — a closure claim resting on a command that did not complete is not a closure claim.
+
+**Basis.** STAGE8_TASK6_V008_INTEGRATION_DARIO_V001.md = 4b93a9acda84691ee4d32fd9f4ecc34dca49bdef882c898ebbe0f2f5f21c6a80; A-side V008 = 3b24fc39…, A report c597153e… (Q-611 chain). Registrar independently verified: both artifact seals; the 13-member root recomputation; all six fixture digests against source bytes; the three low spec rows at V008 lines 1623-1625.
+
+**Status.** SETTLED as adjudication. Fix custody: F1+F2+F4 are A's; F3 is a spec-completeness item A resolves by the smallest lawful carrier (finite V009 delta only if the closed inventories need a slot). Routed as relay 696, one whole delta. Run 031 follows B's confirmation of the boundary terms if a V009 issues, else directly.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
