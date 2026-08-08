@@ -14261,6 +14261,28 @@ Closing ledgers (Codex 2, 8a48ad04…, registrar-verified): 42 falsifiers — 6 
 
 **Status.** SETTLED. The board of record: 24 PASS / 0 FAIL / 6 BLOCKED {A23,A24,A25,A27,A28,A35}. Task 6's definition of done is met; the closing certification follows this entry.
 
+## Q-620 — U1 DERIVED: the joint-landing obligation is the cross-sector-unit declaration; the test's two entry conditions named (2026-08-08)
+
+**Question.** What must the Ward-symbol map and the length normalization jointly discharge for "the maps land geometric" to have a joint test — the U1 gap the frozen preregistration declared?
+
+**Answer. THE OBLIGATION DERIVES; THE TEST DOES NOT YET CLOSE — and both halves are load-bearing.**
+
+**The obligation (§2.5, J1–J4, falsifier-typed):** joint landing at a record cell e holds iff there is a SINGLE declared cross-sector unit u(e), routed through the one R4 seam, such that: J1 both objects share ONE declaration (two separate units on one cell IS the paired-hidden-conversion attack, permanently armed by DoR-019 before the corpus had this pair to aim it at); J2 u(e) is presentation-invariant and carries no cellulation geometric datum; J3 u(e) is never implicitly 1 and never survives as a positive continuous family; J4 the two maps are compared as ONE associated object on e, never as two independently formed returns (the failure that retired the old R9). Satisfaction builds neither map; failure kills. Notably the binding rule is NOT one of JD-3's four obligations — three are PROVEN blind to a normalization — but a fifth obligation from outside: the NO_IMPLICIT_CROSS_SECTOR_UNIT law, frozen adjacent to the J-II carriage in the same principal ruling and never joined until now.
+
+**Why the test does not close (two independent gaps, both pre-armed by the corpus):**
+1. THE COMMON-CELL QUANTIFIER: no sealed text identifies (JD-3)'s named oriented k-cell with the admissibility spec's record cell — the register poses exactly that identification as an UNCHECKED HYPOTHESIS and the commissioned determination returned OVERLAPPING, NOT IDENTICAL. Half the carrier exists (the record cell carries beta's internal and external structures of record); the unsealed half is the identification itself, and an armed falsifier guards the temptation to assume it.
+2. THE Q-126 CENSUS (confirmed by four adversarial verifiers, re-derived independently here as the (JD-3) special case): NO junction on the record cell is simultaneously DERIVED and BETA-SENSITIVE — so no presently derived junction can run the joint test non-vacuously. The test becomes runnable only when 7A's physics rows (steps 7–10) produce a junction that is both.
+
+**Convergence of record.** The joint obligation is the internal/external conversion of a record cell — THE SAME OBJECT the beta-gap ruling isolated as the geometric route's single blocker. The program has now reached that object from a third independent direction. The smallest sealed addition is one R9-shaped line (R9-JII, §3.4) stating the test without making it runnable.
+
+**Ledger.** 4 correspondence entries at zero verdict weight (including the seductive one: J4's one-associated-object vs a global section over two local trivializations); none used in the derivation. The frozen preregistration is untouched (9f0d12b4…).
+
+**Disclosures adopted as law.** Dario's searched-space defect (absence concluded from a search that did not cover the space — it strengthened the result by luck, not method) produces THE SEARCHED-SPACE CLAUSE: state the searched space in the same sentence as any absence claim. Byte-vs-character span offsets on non-ASCII sources caught by its own pin check. Registrar's own defect of record: relay 713 cited a handoff section "§X5" that does not exist (the handoff has five unlabeled sections; the relay author transcribed a label from its own draft) — the lane recovered by content match; the FIRST-TIME-RIGHT rules apply to relay authorship too.
+
+**Basis.** STAGE8_7A_JUNCTION_U1_SHARED_CORE_DARIO_V001.md = ec96235121896d146e7f49031a4e0f4f36876cd0580b7cf0351c7f478d2bc1fa (10/10 self pin check; 30/31 grounded steps, the one ungrounded named); registrar seal + fence verified.
+
+**Status.** SETTLED as derivation. The junction arc's opening move has defined the OBS-22 test precisely and named its two entry conditions. PRINCIPAL PAUSE of record: the arc proceeds on Brian's read of this result.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

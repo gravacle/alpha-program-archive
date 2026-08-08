@@ -414,3 +414,11 @@ after a minute means the lane never received it — caught immediately. The
 registrar's watcher covers ACK files as well as DONE files. Installs via each
 lane's next relay header (Dario from 714; Codex 2 from its next relay); relay
 713 predates the clause and runs without it.
+
+## THE SEARCHED-SPACE CLAUSE (2026-08-08, from Q-620)
+
+Any claim of absence states THE SEARCHED SPACE IN THE SAME SENTENCE — "zero
+hits in workspace/" is a different fact from "zero hits in the archive", and
+concluding the second from the first is the M-2 defect class in search
+clothing. Applies to lanes and registrar alike; an absence without its space
+is not a finding.
