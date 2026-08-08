@@ -456,3 +456,13 @@ directories — "workspace + supervision, recursive" over a top-level-only glob
 is a FALSE declaration. With the searched-space clause, span coverage, byte
 offsets, and the object-names probe, this closes the five named scope-failure
 kinds. The check code obeys the same law as the prose.
+
+## THE MEANING-PROBE RULE (2026-08-08, from Q-642 — the sixth scope-class law)
+
+A NEGATIVE EXISTENTIAL is probed by MEANING, not phrase: enumerate the ways
+the corpus could state the condition (name-forms, condition-forms, verb-forms)
+and probe each — or do not claim absence. Zero counts on two phrasings of the
+claimant's own coinage are not evidence of absence. Sixth instrument law; the
+pattern of record: reasoning holds, instruments fail — every verification pass
+that reversed a headline was commissioned by the lane it reversed, which is
+the discipline working.

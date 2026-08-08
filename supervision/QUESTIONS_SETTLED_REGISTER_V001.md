@@ -14556,6 +14556,26 @@ THE SELECTOR IS UNSEALED — V011 carries both readings. And it is THE SAME MISS
 
 **Status.** SETTLED as formalization increment.
 
+## Q-642 — FORCED: Branch F — three independent locks; the deepest object settles by derivation, pending cross-family verification (2026-08-08)
+
+**Question.** Does any sealed require force which of xi and F refinement holds fixed?
+
+**Answer. YES — BRANCH F, at triple-lock strength, each lock sufficient alone:**
+- L1: THE RULED SUBJECT IS Sigma F^2 IDENTICALLY — contribution/V_cell = Sigma[xi/(ell ell)]^2 = Sigma F^2 (checked exactly on generic placeholders). The principal's coefficient ruling made V011's invariance require, term for term, a require that F is what refinement holds fixed.
+- L2: BRANCH xi'S RESIDUAL IS BULK, NOT BOUNDARY — for cubical bisection with shares s/(1-s), residual/four-volume = F^2(2s-1)^2: constant, iteration-stable, never tending to zero; V011's tolerance admits only a vanishing-ratio boundary term. Only s = 1/2 survives — which IS Branch F's rule.
+- L3: "any residual shape-dependent scalar fails A27" (Branch xi's share factor is one), PLUS the sealed EXECUTED STAGE7 verdict bound to row A27 itself (lineage D038, e60aec3c…): INHERITED_REFINEMENT_NATURALITY_FORCES_UNIFORM_MEASURE — a promoted subregion is evaluated by its own intrinsic measure, never a parent's weighting profile. Branch xi IS that retention; Branch F IS the child's own extents.
+The fifth available argument (C_ref's smooth-coframe clause) was REFUSED — barred as a source; the forcing stands without it. A forced branch is a DERIVATION; the booking ruling is the principal's, after cross-family verification (737).
+
+**The draft was wrong, and the instrument was again the defect.** Dario's draft verdict was UNDERDETERMINED off two zero-count phrase probes — counts correct, phrases absent, because the corpus states the CONDITION ("invariant under each elementary refinement", "refinement naturality", "no shape-dependent scalar") where the probe sought a NAME. Sixth consecutive instrument defect, sixth kind. THE MEANING-PROBE RULE is now law: a negative existential is probed by meaning — enumerate the ways the corpus could say it — or absence is not claimed.
+
+**lambda: DISTINCT-RHYMING, demonstrably.** Locus A (V011's two readings) CLOSES with this forcing; locus B ((D2-4)'s global rescaling) stays OPEN — no enumerated require is a rescaling require (R6 refines, R9 promotes, R7 bars shape-dependence while lambda rescales all cells alike). A drafted textual-disjointness argument was withdrawn; the 725-descended singular phrasing was leaned on neither way.
+
+**Discharged/remaining:** 731's Branch-F column becomes operative; 727's transport finding resolves on the forced branch. NOT discharged: RA27-2's booking against D012; THE BRANCH-F SIDE CONDITION — that ell'ell'F stays in im(d_1') under refinement — is NOT SEALED and is now the sharpest open item; the R9-JII carrier remains PENDING (not runnable); S5.3 and T_ref fields untouched; lambda/beta open.
+
+**Basis.** STAGE8_7A_XI_F_REQUIRE_HUNT_DARIO_V001.md = c434f392f286598264142777649b51ad463727aee62e70f5275535f8ea3f3c7b (15/15; VOID clean).
+
+**Status.** SETTLED as derivation, BOOKING PENDING cross-family verification (Codex 2, 737) and the principal's ratification.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
