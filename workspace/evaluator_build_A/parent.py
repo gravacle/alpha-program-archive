@@ -14,11 +14,45 @@ import time
 from pathlib import Path
 
 
-SPEC_SHA256 = "d38d31719b64839744a98da5ee005fb50119f9a26b2b98b0e1a1de445b5d4973"
-AUTHORIZATION_SHA256 = "ff84c4a8ba5c7f8eabfbcc587475d3a5050c21d758a2788c5b9e28b7ee022340"
-RUNTIME_SNAPSHOT_SHA256 = "50a6fc141a45451678aa7543e4f267ce26beb6e53182170b478acb6fb0e0f5bb"
-RUNTIME_GATE_SHA256 = "2ad7f72a88184c11e1253f2c47598fca11e60d05e8e71a26db4e19b16bf98d42"
-INTEGRATION_ADDENDUM_SHA256 = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260"
+PIN_MANIFEST_PATH = Path(os.path.realpath(__file__)).parent / "manifests/pins.json"
+
+
+def load_pin_rows():
+    data = PIN_MANIFEST_PATH.read_bytes()
+    try:
+        value = json.loads(data.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"PIN_MANIFEST_PARSE:{exc}")
+    encoded = json.dumps(value, ensure_ascii=False, allow_nan=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    if encoded != data or set(value) != {"pins", "schema"} or value["schema"] != "rd22.builder-a-pin-manifest.v001":
+        raise RuntimeError("PIN_MANIFEST_CONTRACT")
+    rows = value["pins"]
+    if not isinstance(rows, list) or rows != sorted(rows, key=lambda row: row.get("kind", "")):
+        raise RuntimeError("PIN_MANIFEST_ORDER")
+    by_kind = {}
+    for row in rows:
+        if not isinstance(row, dict) or set(row) != {"byte_length", "kind", "relative_path", "sha256"} or row["kind"] in by_kind:
+            raise RuntimeError(f"PIN_MANIFEST_ROW:{row}")
+        if not isinstance(row["sha256"], str) or re.fullmatch(r"[0-9a-f]{64}", row["sha256"]) is None:
+            raise RuntimeError(f"PIN_MANIFEST_DIGEST:{row.get('kind')}")
+        by_kind[row["kind"]] = row
+    return by_kind
+
+
+PIN_ROWS = load_pin_rows()
+
+
+def pin_digest(kind):
+    row = PIN_ROWS.get(kind)
+    if row is None:
+        raise RuntimeError(f"PIN_KIND:{kind}")
+    return row["sha256"]
+
+
+SPEC_SHA256 = pin_digest("specification")
+AUTHORIZATION_SHA256 = pin_digest("authorization")
+RUNTIME_SNAPSHOT_SHA256 = pin_digest("runtime_snapshot")
+RUNTIME_GATE_SHA256 = pin_digest("runtime_gate")
 MASK_FIELDS = {"process_id", "monotonic_duration", "python_optimize"}
 EXPECTED_IDS = 66
 EXPECTED_STRUCTURAL = 56
@@ -27,11 +61,15 @@ EXPECTED_FIXTURES = 6
 UNBOUND_ROOT_SENTINEL = "0" * 64
 VERIFIER_SUBSTITUTION_TOKENS = {
     "${EVIDENCE_DIR}",
+    "${EVIDENCE_MANIFEST_PATH}",
+    "${EVIDENCE_MANIFEST_SHA256}",
     "${LEDGER_PATH}",
     "${LEDGER_SHA256}",
     "${RUNTIME_GATE_PATH}",
     "${RUNTIME_SNAPSHOT_PATH}",
     "${SPEC_PATH}",
+    "${SUBJECT_MANIFEST_PATH}",
+    "${SUBJECT_MANIFEST_SHA256}",
 }
 PATH_IDENTITY_SITES = (
     "R0_ROOTS",
@@ -532,6 +570,7 @@ def verify_package_inventory(package_root, manifest):
         "checks/check_map.json",
         "fixtures/fixture_manifest.json",
         "inputs/structural_evidence_manifest.json",
+        "manifests/pins.json",
         "schemas/child-receipt.schema.json",
         "schemas/producer-output.schema.json",
         "schemas/terminal-ledger.schema.json",
@@ -576,6 +615,28 @@ def validate_evidence_manifest(data, package):
         if len(payload) != row["byte_length"] or sha256_bytes(payload) != row["sha256"]:
             fail("EVIDENCE_PAYLOAD_ROW", row["relative_path"])
     return value["declared_root"]
+
+
+def validate_pin_manifest(data):
+    value = strict_json(data, "pin manifest")
+    if canonical_bytes(value) != data:
+        fail("PIN_MANIFEST_NOT_CANONICAL", "manifests/pins.json")
+    exact_keys(value, {"pins", "schema"}, "pin manifest")
+    if value["schema"] != "rd22.builder-a-pin-manifest.v001" or not isinstance(value["pins"], list):
+        fail("PIN_MANIFEST_SCHEMA", value.get("schema"))
+    rows = value["pins"]
+    if rows != sorted(rows, key=lambda row: row.get("kind", "") if isinstance(row, dict) else ""):
+        fail("PIN_MANIFEST_ORDER", "kind")
+    observed = {}
+    for row in rows:
+        exact_keys(row, {"byte_length", "kind", "relative_path", "sha256"}, "pin row")
+        kind = row["kind"]
+        if kind in observed or not isinstance(row["sha256"], str) or re.fullmatch(r"[0-9a-f]{64}", row["sha256"]) is None:
+            fail("PIN_MANIFEST_ROW", kind)
+        observed[kind] = row
+    if observed != PIN_ROWS:
+        fail("PIN_MANIFEST_LOAD_DRIFT", sorted(observed))
+    return observed
 
 
 def verify_external_inputs(program_root, authorization_path, manifest):
@@ -964,6 +1025,25 @@ def verifier_entry_target(manifest, verifier_base, verifier_files):
     return target
 
 
+def verifier_argv_schema_instance(entry_point, optimize=False):
+    prefix = ["python3"]
+    if optimize:
+        prefix.append("-O")
+    return prefix + [
+        entry_point,
+        "--spec", "${SPEC_PATH}",
+        "--ledger", "${LEDGER_PATH}",
+        "--ledger-sha256", "${LEDGER_SHA256}",
+        "--evidence-dir", "${EVIDENCE_DIR}",
+        "--runtime-snapshot", "${RUNTIME_SNAPSHOT_PATH}",
+        "--runtime-gate", "${RUNTIME_GATE_PATH}",
+        "--subject-manifest", "${SUBJECT_MANIFEST_PATH}",
+        "--subject-manifest-sha256", "${SUBJECT_MANIFEST_SHA256}",
+        "--evidence-manifest", "${EVIDENCE_MANIFEST_PATH}",
+        "--evidence-manifest-sha256", "${EVIDENCE_MANIFEST_SHA256}",
+    ]
+
+
 def validate_verifier_manifest(path, expected, run_root, expected_output, expected_receipt):
     manifest_path = lexical_absolute(path)
     manifest_base_declared = manifest_path.parent
@@ -1012,9 +1092,12 @@ def validate_verifier_manifest(path, expected, run_root, expected_output, expect
     verifier_entry_target(value, manifest_base_declared, verifier_files)
     if not isinstance(value["argv"], list) or any(not isinstance(item, str) for item in value["argv"]):
         fail("VERIFIER_ARGV", value["argv"])
-    if not isinstance(value["optimize"], bool):
+    if value["optimize"] is not False:
         fail("VERIFIER_OPTIMIZE", value["optimize"])
-    exact_keys(value["input_roots"], {"evidence_root_sha256", "ledger_sha256", "runtime_gate_sha256", "runtime_snapshot_sha256", "spec_sha256"}, "verifier input_roots")
+    expected_argv = verifier_argv_schema_instance(value["entry_point"], value["optimize"])
+    if value["argv"] != expected_argv:
+        fail("VERIFIER_ARGV_SCHEMA", {"expected": expected_argv, "actual": value["argv"]})
+    exact_keys(value["input_roots"], {"evidence_manifest_sha256", "evidence_root_sha256", "ledger_sha256", "runtime_gate_sha256", "runtime_snapshot_sha256", "spec_sha256", "subject_manifest_sha256"}, "verifier input_roots")
     for field, wanted in expected.items():
         if value["input_roots"].get(field) != wanted:
             fail("VERIFIER_INPUT_ROOT", {"field": field, "expected": wanted, "actual": value["input_roots"].get(field)})
@@ -1066,25 +1149,31 @@ def bind_verifier_launch(manifest, substitutions, ledger_path, ledger_sha256):
     return bound
 
 
-def post_production_verifier_validation(manifest, ledger_path, ledger_sha256):
+def post_production_verifier_validation(manifest, ledger_path, ledger_sha256, subject_manifest_path, subject_manifest_sha256, evidence_manifest_path, evidence_manifest_sha256):
     if manifest["input_roots"]["ledger_sha256"] != ledger_sha256 or ledger_sha256 == UNBOUND_ROOT_SENTINEL:
         fail("VERIFIER_LEDGER_NOT_BOUND", manifest["input_roots"]["ledger_sha256"])
     argv = manifest["argv"]
-    if argv.count("--ledger") != 1 or argv.count("--ledger-sha256") != 1:
-        fail("VERIFIER_LEDGER_ARGV_FLAGS", argv)
-    ledger_index = argv.index("--ledger")
-    digest_index = argv.index("--ledger-sha256")
-    if ledger_index + 1 >= len(argv) or digest_index + 1 >= len(argv):
-        fail("VERIFIER_LEDGER_ARGV_VALUE", argv)
-    declared_path = Path(argv[ledger_index + 1])
-    if not declared_path.is_absolute():
-        fail("VERIFIER_LEDGER_PATH_NOT_ABSOLUTE", argv[ledger_index + 1])
-    declared_path = real_path(declared_path)
-    expected_path = real_path(ledger_path)
-    if declared_path != expected_path or argv[digest_index + 1] != ledger_sha256:
-        fail("VERIFIER_LEDGER_ARGV_BINDING", {"path": str(declared_path), "sha256": argv[digest_index + 1]})
-    if not declared_path.is_file() or sha256_bytes(read_bytes(declared_path)) != ledger_sha256:
-        fail("VERIFIER_LEDGER_INPUT", {"path": str(declared_path), "sha256": ledger_sha256})
+    carriers = [
+        ("ledger", "--ledger", "--ledger-sha256", ledger_path, ledger_sha256, "ledger_sha256"),
+        ("subject_manifest", "--subject-manifest", "--subject-manifest-sha256", subject_manifest_path, subject_manifest_sha256, "subject_manifest_sha256"),
+        ("evidence_manifest", "--evidence-manifest", "--evidence-manifest-sha256", evidence_manifest_path, evidence_manifest_sha256, "evidence_manifest_sha256"),
+    ]
+    for label, path_flag, digest_flag, expected_path_value, expected_digest, root_field in carriers:
+        if argv.count(path_flag) != 1 or argv.count(digest_flag) != 1:
+            fail("VERIFIER_CARRIER_ARGV_FLAGS", {"carrier": label, "argv": argv})
+        path_index = argv.index(path_flag)
+        digest_index = argv.index(digest_flag)
+        if path_index + 1 >= len(argv) or digest_index + 1 >= len(argv):
+            fail("VERIFIER_CARRIER_ARGV_VALUE", label)
+        declared_path = Path(argv[path_index + 1])
+        if not declared_path.is_absolute():
+            fail("VERIFIER_CARRIER_PATH_NOT_ABSOLUTE", {"carrier": label, "path": argv[path_index + 1]})
+        declared_path = real_path(declared_path)
+        expected_path = real_path(expected_path_value)
+        if declared_path != expected_path or argv[digest_index + 1] != expected_digest or manifest["input_roots"][root_field] != expected_digest:
+            fail("VERIFIER_CARRIER_BINDING", {"carrier": label, "path": str(declared_path), "sha256": argv[digest_index + 1]})
+        if not declared_path.is_file() or sha256_bytes(read_bytes(declared_path)) != expected_digest:
+            fail("VERIFIER_CARRIER_INPUT", {"carrier": label, "path": str(declared_path), "sha256": expected_digest})
 
 
 def verifier_process_command(manifest, pinned_python, verifier_base, verifier_files):
@@ -1233,6 +1322,7 @@ def main():
     if len(normal_manifest["check_ids"]) != EXPECTED_IDS or len(normal_manifest["fixture_ids"]) != EXPECTED_FIXTURES:
         fail("R1_COUNTS", "IDs")
     package, package_files = verify_package_inventory(package_root_declared, normal_manifest)
+    validate_pin_manifest(package["manifests/pins.json"][1])
     evidence_declared_root = validate_evidence_manifest(package["inputs/structural_evidence_manifest.json"][1], package)
     parent_data = read_bytes(real_path(__file__))
     if sha256_bytes(parent_data) != normal_manifest_file_hash(normal_manifest, "parent.py"):
@@ -1256,6 +1346,8 @@ def main():
     check_map_path = package["checks/check_map.json"][0]
     fixture_path = package["fixtures/fixture_manifest.json"][0]
     evidence_path = package["inputs/structural_evidence_manifest.json"][0]
+    subject_manifest_path = package["inputs/subject_lineage_manifest.json"][0]
+    subject_manifest_sha = normal_manifest_file_hash(normal_manifest, "inputs/subject_lineage_manifest.json")
     producer_path = package["producer.py"][0]
     producer_sha = normal_manifest_file_hash(normal_manifest, "producer.py")
     pycache_normal = package_root / "pycache" / "normal"
@@ -1279,10 +1371,12 @@ def main():
         run_evidence_directory,
     )
     verifier_expected_roots = {
+        "evidence_manifest_sha256": normal_manifest["evidence_manifest_sha256"],
         "evidence_root_sha256": evidence_declared_root,
         "runtime_gate_sha256": RUNTIME_GATE_SHA256,
         "runtime_snapshot_sha256": RUNTIME_SNAPSHOT_SHA256,
         "spec_sha256": SPEC_SHA256,
+        "subject_manifest_sha256": subject_manifest_sha,
     }
     verifier_manifest, verifier_manifest_sha, verifier_base, verifier_files = validate_verifier_manifest(
         args.verifier_manifest,
@@ -1363,14 +1457,26 @@ def main():
     produced_ledger_sha = sha256_bytes(producer_ledger_data)
     substitutions = {
         "${EVIDENCE_DIR}": str(real_path(run_evidence_directory)),
+        "${EVIDENCE_MANIFEST_PATH}": str(real_path(evidence_path)),
+        "${EVIDENCE_MANIFEST_SHA256}": normal_manifest["evidence_manifest_sha256"],
         "${LEDGER_PATH}": str(real_path(producer_ledger_path)),
         "${LEDGER_SHA256}": produced_ledger_sha,
         "${RUNTIME_GATE_PATH}": str(real_path(runtime_gate_path)),
         "${RUNTIME_SNAPSHOT_PATH}": str(real_path(runtime_snapshot_path)),
         "${SPEC_PATH}": str(real_path(specification_path)),
+        "${SUBJECT_MANIFEST_PATH}": str(real_path(subject_manifest_path)),
+        "${SUBJECT_MANIFEST_SHA256}": subject_manifest_sha,
     }
     bound_verifier_manifest = bind_verifier_launch(verifier_manifest, substitutions, producer_ledger_path, produced_ledger_sha)
-    post_production_verifier_validation(bound_verifier_manifest, producer_ledger_path, produced_ledger_sha)
+    post_production_verifier_validation(
+        bound_verifier_manifest,
+        producer_ledger_path,
+        produced_ledger_sha,
+        subject_manifest_path,
+        subject_manifest_sha,
+        evidence_path,
+        normal_manifest["evidence_manifest_sha256"],
+    )
     bound_verifier_manifest_data = canonical_bytes(bound_verifier_manifest)
     bound_verifier_manifest_sha = sha256_bytes(bound_verifier_manifest_data)
     exclusive_write(bound_verifier_manifest_path, bound_verifier_manifest_data)
@@ -1392,6 +1498,8 @@ def main():
         fail("R9_VERIFIER_FAULTS_FOUND_EXIT_1", verifier_value["findings"])
     verifier_receipt_value, verifier_receipt_data = receipt(verifier_receipt_path)
     add_allowlist_entry(verifier_files, specification_path, SPEC_SHA256, "verifier-input:specification")
+    add_allowlist_entry(verifier_files, subject_manifest_path, subject_manifest_sha, "verifier-input:subject-manifest")
+    add_allowlist_entry(verifier_files, evidence_path, normal_manifest["evidence_manifest_sha256"], "verifier-input:evidence-manifest")
     add_allowlist_entry(verifier_files, runtime_snapshot_path, RUNTIME_SNAPSHOT_SHA256, "verifier-input:runtime-snapshot")
     add_allowlist_entry(verifier_files, runtime_gate_path, RUNTIME_GATE_SHA256, "verifier-input:runtime-gate")
     add_allowlist_entry(verifier_files, producer_ledger_path, produced_ledger_sha, "verifier-input:producer-ledger")

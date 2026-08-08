@@ -928,7 +928,12 @@ def make_check_row(descriptor, evidence_records, requirement_sha, payload_sink=N
                 base["status"] = "FAIL"
                 base["reason"] = "INPUT_INTEGRITY: BYTE_SPAN_LINKAGE_MISMATCH"
                 return base
-            base["invocation"] = dict(linked[0])
+            base["invocation"] = {
+                **linked[0],
+                "source_sha256": source_sha256,
+                "span": span,
+                "span_sha256": citation["span_sha256"],
+            }
     return base
 
 

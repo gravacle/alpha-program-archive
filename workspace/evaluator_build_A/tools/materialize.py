@@ -9,22 +9,52 @@ import sys
 from pathlib import Path
 
 
-SPEC_SHA = "d38d31719b64839744a98da5ee005fb50119f9a26b2b98b0e1a1de445b5d4973"
-AUTH_SHA = "ff84c4a8ba5c7f8eabfbcc587475d3a5050c21d758a2788c5b9e28b7ee022340"
-LEDGER_SHA = "c09f2c246c48ddfd0df127da26a22f08ba9ffd44f5c2118c178a0a5eba5d00e8"
-PACKET_SHA = "9d35f4ed7831411961d61002f09afe02c9703f80b84aa05158e39b7f49b1a311"
-SNAPSHOT_SHA = "50a6fc141a45451678aa7543e4f267ce26beb6e53182170b478acb6fb0e0f5bb"
-GATE_SHA = "2ad7f72a88184c11e1253f2c47598fca11e60d05e8e71a26db4e19b16bf98d42"
-ADDENDUM_SHA = "d17c5e79986bea431dec0b572019096f9c059bcc43876fda9134abc96ce0f260"
-V011_SHA = "aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a"
-SOURCE_GATE_SHA = "5c679e3741abe782688b8a75ffa1928c308775248e41af192d03976f01cb4dbf"
-VERDICT_SCHEMA_SHA = "5acf066a01eec3762de6364766424be57ce6a1a19a4a34f0e15edc081b0cc1a2"
-GROUNDING_RELOCATION_SHA = "69334875b94679c16da9b8d6153242241ca3c202f0facc6130596b9807189e6f"
-GROUNDING_SOURCE_SHA = "13cf1e178a9fdced88590998984ec04e84ed83c0681b68dccd11b4e37d6afacd"
-GROUNDING_MEMBER_SHA = "47e7c32915bc756fb5f6be25c4fc6dec5c079c8837176dc62499e0f34f4c9d3b"
-GROUNDING_VALUE_SHA = "889515d30cedf7d3af5da1a9e1ff7c7a88a1bf0d9227bdf37d64113302dfcb86"
-GROUNDING_ARGS_SHA = "b5f15a9cf70acc8d439d74ce8425c89c5fcc71b077f6ac03a307d1f835823cb9"
-GROUNDING_PRECEDENCE_SHA = "70c4080eae018bd644a3f0694557f1c0e854d621aa61097c775737887fec528f"
+PACKAGE_ROOT = Path(__file__).resolve().parents[1]
+PIN_MANIFEST_PATH = PACKAGE_ROOT / "manifests/pins.json"
+
+
+def load_pins():
+    data = PIN_MANIFEST_PATH.read_bytes()
+    value = json.loads(data.decode("utf-8"))
+    encoded = json.dumps(value, ensure_ascii=False, allow_nan=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    if encoded != data or set(value) != {"pins", "schema"} or value["schema"] != "rd22.builder-a-pin-manifest.v001":
+        raise SystemExit(f"MATERIALIZE_FAIL PIN_MANIFEST: {PIN_MANIFEST_PATH}")
+    rows = value["pins"]
+    if not isinstance(rows, list) or rows != sorted(rows, key=lambda row: row.get("kind", "")):
+        raise SystemExit("MATERIALIZE_FAIL PIN_ORDER")
+    by_kind = {}
+    for row in rows:
+        if set(row) != {"byte_length", "kind", "relative_path", "sha256"} or row["kind"] in by_kind:
+            raise SystemExit(f"MATERIALIZE_FAIL PIN_ROW: {row}")
+        if re.fullmatch(r"[0-9a-f]{64}", row["sha256"]) is None:
+            raise SystemExit(f"MATERIALIZE_FAIL PIN_DIGEST: {row['kind']}")
+        by_kind[row["kind"]] = row
+    return by_kind
+
+
+PIN_ROWS = load_pins()
+
+
+def pin(kind):
+    row = PIN_ROWS.get(kind)
+    if row is None:
+        raise SystemExit(f"MATERIALIZE_FAIL PIN_KIND: {kind}")
+    return row["sha256"]
+
+
+SPEC_SHA = pin("specification")
+AUTH_SHA = pin("authorization")
+LEDGER_SHA = pin("blocker_ledger")
+PACKET_SHA = pin("packet_manifest")
+SNAPSHOT_SHA = pin("runtime_snapshot")
+GATE_SHA = pin("runtime_gate")
+ADDENDUM_SHA = pin("integration_addendum")
+V011_SHA = pin("packet_v011")
+SOURCE_GATE_SHA = pin("source_parent_gate")
+VERDICT_SCHEMA_SHA = pin("verifier_verdict_schema")
+GROUNDING_RELOCATION_SHA = pin("grounding_relocation")
+GROUNDING_SOURCE_SHA = pin("grounding_source")
+GROUNDING_PRECEDENCE_SHA = pin("grounding_precedence")
 OPEN_CODES = ["STRICT", "SCHEMA", "TYPE", "EXACT", "KERNEL", "ENUM", "DOMAIN", "UNITS", "DAG", "M2", "SYMBOLIC", "SPECTRAL", "COMPARE", "RUNTIME"]
 BRANCH_OUTCOME = {
     "BRANCH-CANDIDATE-TYPED-COMPLETE": "ADMITTED",
@@ -205,7 +235,7 @@ def descriptors(spec_data, ledger_data):
         else:
             blocker_id = check_id[2:]
             start = line_offsets[raw]
-            source = {"byte_span": [start, start + len(raw.encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md", "sha256": SPEC_SHA}
+            source = {"byte_span": [start, start + len(raw.encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md", "sha256": SPEC_SHA}
         procedure = cells[3]
         expected = cells[4]
         gate = "RD22_STRUCTURAL_ONLY"
@@ -276,7 +306,7 @@ def fixture_rows(spec_data, check_rows):
                 "prerequisites": ["P0"],
                 "primary_check_ids": primary_ids,
                 "required_gate": "RD22_STRUCTURAL_ONLY" if execution_class == "STRUCTURAL" else " AND ".join(gates),
-                "source": {"byte_span": [start, start + len(row_bytes)], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md", "sha256": SPEC_SHA},
+                "source": {"byte_span": [start, start + len(row_bytes)], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md", "sha256": SPEC_SHA},
             }
         )
     return out
@@ -294,7 +324,43 @@ def schemas():
         return {"additionalProperties": False, "properties": properties, "required": sorted(properties), "type": "object"}
 
     payload_row = closed({"byte_length": {"minimum": 0, "type": "integer"}, "relative_path": string, "sha256": digest})
+    pin_row = closed({"byte_length": {"minimum": 0, "type": "integer"}, "kind": string, "relative_path": string, "sha256": digest})
     source = closed({"byte_span": {"items": integer, "type": "array"}, "path": string, "sha256": digest})
+    invocation = {
+        "oneOf": [
+            {"type": "null"},
+            closed(
+                {
+                    "args": object_value,
+                    "instance_id": string,
+                    "opcode": string,
+                    "result_name": string,
+                    "source_sha256": digest,
+                    "span": {"items": integer, "maxItems": 2, "minItems": 2, "type": "array"},
+                    "span_sha256": digest,
+                }
+            ),
+        ]
+    }
+    check_row = closed(
+        {
+            "blocker_id": string,
+            "check_id": string,
+            "check_spec_sha256": digest,
+            "deterministic_procedure": string,
+            "execution_class": {"enum": ["STRUCTURAL", "GATED-EXECUTION"], "type": "string"},
+            "expected_predicate": string,
+            "input_root_sha256": digest,
+            "invocation": invocation,
+            "observed_evidence_sha256s": {"items": digest, "type": "array"},
+            "prerequisites": string_array,
+            "procedure_started": {"type": "boolean"},
+            "reason": string,
+            "required_gate": string,
+            "source": source,
+            "status": {"enum": ["PASS", "FAIL", "NOT_RUN_GATE", "ERROR"], "type": "string"},
+        }
+    )
     fixture_descriptor = closed(
         {
             "deterministic_procedure": string,
@@ -355,7 +421,26 @@ def schemas():
         "type": "object",
     }
     authorization_record = closed({"artifact_sha256": digest, "scope": object_value})
-    verifier_input_roots = closed({"evidence_root_sha256": digest, "ledger_sha256": digest, "runtime_gate_sha256": digest, "runtime_snapshot_sha256": digest, "spec_sha256": digest})
+    verifier_input_roots = closed({"evidence_manifest_sha256": digest, "evidence_root_sha256": digest, "ledger_sha256": digest, "runtime_gate_sha256": digest, "runtime_snapshot_sha256": digest, "spec_sha256": digest, "subject_manifest_sha256": digest})
+    verifier_argv = {
+        "items": False,
+        "maxItems": 22,
+        "minItems": 22,
+        "prefixItems": [
+            {"const": "python3"}, {"const": "run_verifier.py"},
+            {"const": "--spec"}, {"const": "${SPEC_PATH}"},
+            {"const": "--ledger"}, {"const": "${LEDGER_PATH}"},
+            {"const": "--ledger-sha256"}, {"const": "${LEDGER_SHA256}"},
+            {"const": "--evidence-dir"}, {"const": "${EVIDENCE_DIR}"},
+            {"const": "--runtime-snapshot"}, {"const": "${RUNTIME_SNAPSHOT_PATH}"},
+            {"const": "--runtime-gate"}, {"const": "${RUNTIME_GATE_PATH}"},
+            {"const": "--subject-manifest"}, {"const": "${SUBJECT_MANIFEST_PATH}"},
+            {"const": "--subject-manifest-sha256"}, {"const": "${SUBJECT_MANIFEST_SHA256}"},
+            {"const": "--evidence-manifest"}, {"const": "${EVIDENCE_MANIFEST_PATH}"},
+            {"const": "--evidence-manifest-sha256"}, {"const": "${EVIDENCE_MANIFEST_SHA256}"},
+        ],
+        "type": "array",
+    }
     stdout_discipline = closed({"format": {"const": "canonical-json", "type": "string"}, "lines": {"const": 1, "type": "integer"}, "other_output_permitted": {"const": False, "type": "boolean"}})
     exit_contract = closed({"fail_closed": {"const": 2, "type": "integer"}, "faults_found": {"const": 1, "type": "integer"}, "verified": {"const": 0, "type": "integer"}})
     manifest_fields = {
@@ -398,9 +483,14 @@ def schemas():
             "properties": {"check_records": object_value, "declared_root": digest, "fixture_records": object_value, "payload_inventory": {"items": payload_row, "type": "array"}, "schema": string, "subject_lineage_root": digest},
             "required": ["check_records", "declared_root", "fixture_records", "payload_inventory", "schema", "subject_lineage_root"], "type": "object",
         },
+        "pin-manifest.schema.json": {
+            "$id": "rd22.builder-a-pin-manifest.v001", "additionalProperties": False,
+            "properties": {"pins": {"items": pin_row, "type": "array"}, "schema": {"const": "rd22.builder-a-pin-manifest.v001", "type": "string"}},
+            "required": ["pins", "schema"], "type": "object",
+        },
         "producer-output.schema.json": {
             "$id": "rd22.producer-output.v001", "additionalProperties": False,
-            "properties": {"authority_firewall": object_value, "check_map_sha256": digest, "checks": object_array, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "monotonic_duration": {"type": "number"}, "process_id": integer, "python_optimize": integer, "schema": {"const": "rd22.producer-output.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage_root": digest, "summary": object_value},
+            "properties": {"authority_firewall": object_value, "check_map_sha256": digest, "checks": {"items": check_row, "type": "array"}, "fixture_manifest_sha256": digest, "fixtures": {"items": fixture_row, "type": "array"}, "monotonic_duration": {"type": "number"}, "process_id": integer, "python_optimize": integer, "schema": {"const": "rd22.producer-output.v001", "type": "string"}, "scope": object_value, "spec_sha256": digest, "subject_lineage_root": digest, "summary": object_value},
             "required": ["authority_firewall", "check_map_sha256", "checks", "fixture_manifest_sha256", "fixtures", "monotonic_duration", "process_id", "python_optimize", "schema", "scope", "spec_sha256", "subject_lineage_root", "summary"], "type": "object",
         },
         "child-receipt.schema.json": {
@@ -410,7 +500,7 @@ def schemas():
         },
         "verifier-manifest.schema.json": {
             "$id": "rd22.verifier-manifest.v001", "additionalProperties": False,
-            "properties": {"argv": string_array, "entry_point": string, "exit_contract": exit_contract, "input_roots": verifier_input_roots, "optimize": {"type": "boolean"}, "output_path": string, "receipt_authoritative": {"const": False, "type": "boolean"}, "receipt_path": string, "schema": {"const": "rd22.verifier-manifest.v001", "type": "string"}, "stdout_discipline": stdout_discipline, "verifier_root_sha256": digest},
+            "properties": {"argv": verifier_argv, "entry_point": string, "exit_contract": exit_contract, "input_roots": verifier_input_roots, "optimize": {"type": "boolean"}, "output_path": string, "receipt_authoritative": {"const": False, "type": "boolean"}, "receipt_path": string, "schema": {"const": "rd22.verifier-manifest.v001", "type": "string"}, "stdout_discipline": stdout_discipline, "verifier_root_sha256": digest},
             "required": ["argv", "entry_point", "exit_contract", "input_roots", "optimize", "output_path", "receipt_authoritative", "receipt_path", "schema", "stdout_discipline", "verifier_root_sha256"], "type": "object",
         },
         "terminal-ledger.schema.json": {
@@ -434,9 +524,11 @@ def build_v009_06_record(evidence_dir, source_path, descriptor):
     value_span = [18920, 19830]
     member_data = source_data[member_span[0]:member_span[1]]
     value_data = source_data[value_span[0]:value_span[1]]
-    if len(member_data) != 932 or sha(member_data) != GROUNDING_MEMBER_SHA:
+    member_sha = sha(member_data)
+    value_sha = sha(value_data)
+    if len(member_data) != 932:
         die("V009_06_MEMBER", {"length": len(member_data), "sha256": sha(member_data)})
-    if len(value_data) != 910 or sha(value_data) != GROUNDING_VALUE_SHA:
+    if len(value_data) != 910:
         die("V009_06_VALUE", {"length": len(value_data), "sha256": sha(value_data)})
     try:
         stage_dependencies = json.loads(value_data.decode("utf-8"))
@@ -446,12 +538,13 @@ def build_v009_06_record(evidence_dir, source_path, descriptor):
         die("V009_06_GRAPH", type(stage_dependencies).__name__)
     dag_args = {"authority": "PRINCIPAL_SINGLE_AUTHORITY", "graph": stage_dependencies}
     dag_args_data = canonical(dag_args)
-    if sha(dag_args_data) != GROUNDING_ARGS_SHA or set(dag_args) != {"authority", "graph"}:
+    args_sha = sha(dag_args_data)
+    if set(dag_args) != {"authority", "graph"}:
         die("V009_06_ARGS", sha(dag_args_data))
     if b"stage_dag" in member_data or b"status" in member_data or b"stage_dag" in dag_args_data or b"status" in dag_args_data:
         die("V009_06_BARRED_FIELD", "alternate encoding or status")
-    member_name = f"{GROUNDING_MEMBER_SHA}--C-B-V009-06-stage_dependencies.member"
-    args_name = f"{GROUNDING_ARGS_SHA}--C-B-V009-06-dag-args.json"
+    member_name = f"{member_sha}--C-B-V009-06-stage_dependencies.member"
+    args_name = f"{args_sha}--C-B-V009-06-dag-args.json"
     member_path = evidence_dir / member_name
     args_path = evidence_dir / args_name
     member_path.write_bytes(member_data)
@@ -466,7 +559,7 @@ def build_v009_06_record(evidence_dir, source_path, descriptor):
         "input_root_sha256": content_root(input_files),
         "invocations": [
             {
-                "args": {"left": GROUNDING_MEMBER_SHA, "mask": [], "right": GROUNDING_MEMBER_SHA},
+                "args": {"left": member_sha, "mask": [], "right": member_sha},
                 "instance_id": None,
                 "opcode": "COMPARE",
                 "result_name": "r_ground",
@@ -492,14 +585,14 @@ def build_v009_06_record(evidence_dir, source_path, descriptor):
                 "source_path": "provenance/boundary_incidence_dynamics_preregistration_v011.json",
                 "source_sha256": GROUNDING_SOURCE_SHA,
                 "span": member_span,
-                "span_sha256": GROUNDING_MEMBER_SHA,
+                "span_sha256": member_sha,
                 "value_span": value_span,
-                "value_sha256": GROUNDING_VALUE_SHA,
+                "value_sha256": value_sha,
             }
         ],
         "payloads": [
-            {"byte_length": len(member_data), "payload_path": f"inputs/evidence/{member_name}", "payload_sha256": GROUNDING_MEMBER_SHA, "role": "EXACT_RELOCATED_MEMBER_BYTES"},
-            {"byte_length": len(dag_args_data), "derived_from_sha256": GROUNDING_VALUE_SHA, "payload_path": f"inputs/evidence/{args_name}", "payload_sha256": GROUNDING_ARGS_SHA, "role": "CANONICAL_DAG_ARGUMENTS"},
+            {"byte_length": len(member_data), "payload_path": f"inputs/evidence/{member_name}", "payload_sha256": member_sha, "role": "EXACT_RELOCATED_MEMBER_BYTES"},
+            {"byte_length": len(dag_args_data), "derived_from_sha256": value_sha, "payload_path": f"inputs/evidence/{args_name}", "payload_sha256": args_sha, "role": "CANONICAL_DAG_ARGUMENTS"},
         ],
         "status": "AVAILABLE",
     }
@@ -509,7 +602,7 @@ def main():
     package = Path(__file__).resolve().parents[1]
     cleanroom = package.parent
     program = cleanroom.parent
-    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md"
+    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md"
     ledger_path = cleanroom / "BID_FULL_STACK_REVIEW_LEDGER_V003.md"
     packet_path = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001/STAGE7_PACKET_MANIFEST_V001.sha256"
     v011_path = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md"
@@ -522,11 +615,26 @@ def main():
     precedence_path = Path("/Users/bgm/MB Work/alpha-program-archive/supervision/PREREGISTRATION_ENCODING_PRECEDENCE_PRINCIPAL_DECISION_2026-07-29.md")
     authorization_path = Path("/Users/bgm/MB Work/alpha-program-archive/supervision/DECISION_RD22_BUILD_AUTHORIZED_2026-08-07.md")
     verdict_schema_path = cleanroom / "evaluator_build_B/contracts/verifier_verdict.schema.json"
-    pins = [(spec_path, SPEC_SHA), (addendum_path, ADDENDUM_SHA), (relocation_path, GROUNDING_RELOCATION_SHA), (grounding_source_path, GROUNDING_SOURCE_SHA), (precedence_path, GROUNDING_PRECEDENCE_SHA), (ledger_path, LEDGER_SHA), (packet_path, PACKET_SHA), (v011_path, V011_SHA), (source_gate_path, SOURCE_GATE_SHA), (runtime_snapshot_path, SNAPSHOT_SHA), (runtime_gate_path, GATE_SHA), (authorization_path, AUTH_SHA), (verdict_schema_path, VERDICT_SCHEMA_SHA)]
-    for path, expected in pins:
-        actual = sha(path.read_bytes())
-        if actual != expected:
-            die("PIN", f"{path}:{actual}")
+    pin_sources = {
+        "specification": spec_path,
+        "integration_addendum": addendum_path,
+        "grounding_relocation": relocation_path,
+        "grounding_source": grounding_source_path,
+        "grounding_precedence": precedence_path,
+        "blocker_ledger": ledger_path,
+        "packet_manifest": packet_path,
+        "packet_v011": v011_path,
+        "source_parent_gate": source_gate_path,
+        "runtime_snapshot": runtime_snapshot_path,
+        "runtime_gate": runtime_gate_path,
+        "authorization": authorization_path,
+        "verifier_verdict_schema": verdict_schema_path,
+    }
+    for kind, path in pin_sources.items():
+        row = PIN_ROWS[kind]
+        data = path.read_bytes()
+        if len(data) != row["byte_length"] or sha(data) != row["sha256"]:
+            die("PIN", f"{kind}:{path}:{sha(data)}")
     rows = descriptors(spec_path.read_bytes(), ledger_path.read_bytes())
     check_map = {
         "branch_outcome": BRANCH_OUTCOME,
@@ -559,7 +667,7 @@ def main():
     structural_ids = [row["check_id"] for row in rows if row["execution_class"] == "STRUCTURAL"]
     structural_fixture_ids = [row["fixture_id"] for row in fixtures if row["execution_class"] == "STRUCTURAL"]
     evidence_dir = package / "inputs/evidence"
-    spec_payload_name = f"{SPEC_SHA}--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md"
+    spec_payload_name = f"{SPEC_SHA}--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md"
     (evidence_dir / spec_payload_name).write_bytes(spec_path.read_bytes())
     row_by_id = {row["check_id"]: row for row in rows}
     v009_06_record = build_v009_06_record(evidence_dir, grounding_source_path, row_by_id["C-B-V009-06"])
@@ -587,7 +695,7 @@ def main():
                     "payload_path": f"inputs/evidence/{spec_payload_name}",
                     "payload_sha256": SPEC_SHA,
                     "role": "SPEC_FIXED_SUBJECT_NOT_OBSERVATION",
-                    "source_path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V007.md",
+                    "source_path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V008.md",
                     "source_sha256": SPEC_SHA,
                     "span": fixture["source"]["byte_span"],
                 }
@@ -611,7 +719,7 @@ def main():
     evidence_payload_relatives = [f"inputs/evidence/{row['relative_path']}" for row in payload_inventory]
     runtime_relatives = [
         "parent.py", "producer.py", "checks/check_map.json", "fixtures/fixture_manifest.json",
-        "inputs/structural_evidence_manifest.json", "inputs/subject_lineage_manifest.json",
+        "inputs/structural_evidence_manifest.json", "inputs/subject_lineage_manifest.json", "manifests/pins.json",
     ] + evidence_payload_relatives + [f"schemas/{name}" for name in sorted(schemas())]
     package_rows = [file_row(package / relative, relative) for relative in runtime_relatives]
     external = [
