@@ -388,3 +388,17 @@ relay boundedness are unchanged. Autonomous lane polling is REJECTED of record
   pointer, not the evidence).
 - The clipboard is retired for relay transport; the LOADED — NOT SENT state
   becomes QUEUED — NOT ANNOUNCED. One relay per lane in flight, as ever.
+
+## THE LANE-GUARD CLAUSE (queue protocol amendment, 2026-08-08)
+
+Cross-lane pickup is prevented by three layers: (1) physically separate inboxes
+under each lane's OS permissions — Codex 2 cannot reach the archive tree,
+Dario cannot reach the Documents tree; (2) one global relay number sequence —
+a number never matches two inboxes legitimately; (3) lane-named filenames and
+headers. The residual risk is registrar misdelivery, closed two ways:
+- REGISTRAR LAW: a relay file is written to exactly ONE inbox — its lane's;
+  the supervision/ record copy is not an inbox and lanes never read it as one.
+- LANE GUARD (installs via each lane's next relay header): before executing a
+  queued relay, verify the header names YOUR lane; if it names another lane,
+  write a misdelivery report to the outbox and STOP. Executing another lane's
+  relay is a custody breach even when the work succeeds.
