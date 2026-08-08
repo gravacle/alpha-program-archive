@@ -14524,6 +14524,18 @@ THE SELECTOR IS UNSEALED — V011 carries both readings. And it is THE SAME MISS
 
 **Status.** SETTLED. Routed: 734 (Codex 2) — the P-B instance built and the receiver repair chosen-smallest.
 
+## Q-639 — The first component binds: the P-B instance compiled; the receiver repair custody-stopped correctly (2026-08-08)
+
+**Question.** Does the P-B instance build, and which receiver repair is smaller?
+
+**Answer, part A.** THE COMPILER BOUND ITS FIRST COMPONENT: the P-B instance — four separately content-addressed line subobjects (L_r, L_pM, L_pQ, L_pG) with their inclusions into the Gate-3 carrier, induced Hermitian forms, three abstract unitary transports, ALL THREE license flags false (no basis, no trivialization, no unit representative) — compiled PASS_COMPONENT_BUILT (dcb90e6e…), deliberately NOT a row PASS: the row is PARTIAL_CARRIER_READY_ALIAS_CORPUS_ABSENT, waiting on exactly the alias-corpus instance (BX07) and its selection authority — the registrar's rule-run. Four negative controls (basis-license flip, duplicate ID, coordinate scalar, removed unitarity) each refused; the non-overwrite guard proven by attempt.
+
+**Answer, part B.** Descriptor-owned explicit receivers are the smaller lawful surface (the alternative adds a second expansion language plus the same B-side machinery anyway); the complete after-row candidate is displayed with nine assignments confirmed by a read-only dry-run of the existing materializer; criterion unchanged. THE REPAIR WAS NOT ISSUED — a correct custody stop: it cannot ship whole within Codex 2 custody (CV2-05b assigns the total-coverage carrier and verifier machinery to Builder B's Step-11 subgate). The repair is RECORDED READY and scheduled for the subgate's cross-builder delta.
+
+**Basis.** STAGE8_7A_PB_INSTANCE_RECEIVER_CODEX2_V001.md = registrar seal-verified, mirrored; package inventory f6552ff6… (15 files).
+
+**Status.** SETTLED. Routed: SP1-07 formalization (Codex 2, 735); the registrar's corpus rule-run executes now, BX07 first (it blocks the P-B row).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
