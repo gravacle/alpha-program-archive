@@ -14546,6 +14546,16 @@ THE SELECTOR IS UNSEALED — V011 carries both readings. And it is THE SAME MISS
 
 **Status.** SETTLED. The remaining 12 corpus instances get typed individually as their rows need them (claim-swept with a stated universe, provenance-closed, or registry) — no batch guessing.
 
+## Q-641 — SP1-07 formalization: 2 of 9 KERNEL-ready; seven witnesses named, most finite (2026-08-08)
+
+**Question.** Do SP1-07's proof objects formalize from the packet-sealed derivations?
+
+**Answer.** Two KERNEL-ready proof objects built and content-addressed (D01 shared-boundary descent c6c01fc6…; D05 primitive shared-support overlap 38b1cd2f…), inside a full package: four closed schemas, the one-global-CAR typed graph, a nine-ID derivation grammar with completeness certificate, the nine-entry expected ledger, nine proof records each step span-covered. Seven records stop at EXPLICIT ABSENT WITNESSES — pushout cocones and equality maps, cell-order enumerations with termwise equality, a graded-commutation calculation, the relabeling permutation square, the orientation-unitary conjugation square, the H_K self-adjointness certificate and Stone replay — typed PRECONDITION_NOT_REPLAYABLE, never criterion failures, nothing promoted. Row: PARTIAL_FORMALIZATION_2_OF_9_KERNEL_READY. Most of the seven are FINITE computations plausibly determined by sealed data — routed as witness construction (736).
+
+**Basis.** STAGE8_7A_SP1_07_FORMAL_CODEX2_V001.md registrar seal-verified, mirrored; package under step11_sp1_07_formal/.
+
+**Status.** SETTLED as formalization increment.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
