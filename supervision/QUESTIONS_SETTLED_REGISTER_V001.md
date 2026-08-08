@@ -14598,6 +14598,22 @@ Six witnesses built as exact universal finite records (pushout quotients both-as
 
 **Status.** SETTLED as refutation. Routed: confirm-or-contest to the derivation's author (Dario, 738) — recompute the counterexample independently; test it against every enumerated require; if it stands, state the corrected verdict and what downstream actually needs the assignment (vs the energy). The branch ruling reaches the principal only on a cross-family-stable verdict.
 
+## Q-645 — The corrected verdict, cross-family stable: ENERGY FORCED, ASSIGNMENT FREE; gauge for the road, physical for one consumer; RA27-2 UNBLOCKS (2026-08-08)
+
+**Question.** Does the counterexample stand, and what does the freedom mean?
+
+**Answer.** CONFIRMED EXACT by independent reconstruction (own Kuhn complex, own 5x5 inversions, own Whitney forms; every value reproduces incl. E_min = 191/252 and the simplex-0 component vector). The gauge-escape check was run BEFORE writing and failed: x_alt - x_F is NOT a coboundary (exact elimination: inconsistent) — the difference is physical configuration. REQUIRE_KILL: none — x_alt satisfies all nine 733 requires including the three locks (R6 satisfied with residual exactly zero); the two bars had been generalized past the object types they name (the error Dario has charged in other lanes, disclosed as its own); the single killing clause is C_ref's smooth-coframe preservation, BARRED by the program's own hand — a structural feature, not an escape.
+
+**THE CORRECTED VERDICT (both lanes now agree on the mathematics):** FORCED — the energy: Sigma F^2 transports exactly across the Freudenthal move on the WHOLE equal-energy set; the measure's functoriality was never at risk from this freedom. FREE — the simplicial assignment: {E=1} through x_F is a 32-SPHERE (rank-33 positive-definite quadratic, E_min < 1 strictly, so an equal-energy non-F point exists automatically). SCOPE FLAG owed by both lanes: the cubical forcing was proven only on a one-parameter share family; the cubical free space is untested.
+
+**THE CONSUMER SPLIT (the reframing the commission had to ask for, per Dario's own disclosure):** RA27-2's discharge, T_ref's transport, and J2's u(e) all consume THE ENERGY — for the road to alpha the freedom is GAUGE IN THE PROGRAM'S OWN SENSE, no ruling needed, and RA27-2 NO LONGER WAITS ON A BRANCH RULING. Exactly one consumer takes THE ASSIGNMENT: V011's generated face response K_L(xi,zeta) = R_record,L(Q_flux xi, Q_flux zeta) — a bilinear form at particular fluxes, upstream of the coefficient. MATERIALITY (whether the response differs on evaluated pairs) is honestly open and was not computed (gates + void).
+
+**Recap against the four readings of record:** Reading 1 dead; Reading 2 wins for the road; Reading 3 lives at one named consumer pending materiality; Reading 4 survives as the cubical scope flag.
+
+**Basis.** STAGE8_7A_COUNTEREXAMPLE_CONTEST_DARIO_V001.md = c854c8b25dcc4e9e5bc2845925f9c197853aa9958f18cffb42c13b436cedc1e6 (15/15; VOID clean).
+
+**Status.** SETTLED — cross-family stable. Routed: RA27-2's discharge BOOKED against D012 demand-by-demand + RA27-3 restated + the response-materiality question TYPED structurally without evaluation (Dario, 739). Lineage V3 re-earns the A27 flip by recomputation when it runs, per standing law.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
