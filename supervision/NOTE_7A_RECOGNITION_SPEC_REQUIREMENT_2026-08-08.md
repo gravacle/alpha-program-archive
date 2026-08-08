@@ -24,3 +24,20 @@ package): the package MUST contain a preregistered OBS-22 RECOGNITION SPEC with:
 
 Custody: content lands in the 7A handoff package at Task 6 close; this note is
 the requirement of record until then.
+
+## ADDENDUM (same day, principal elaboration)
+
+Brian's expectation of record: deep inspection of the observed results will
+likely surface plenty of OLD FRIENDS — familiar classical structures — but the
+program hurts itself if it pretends the tests are the classical tests.
+
+REQUIREMENT 4 — THE CORRESPONDENCE LEDGER: the recognition spec carries a
+fourth channel, separate from the three verdict types: any observed likeness
+between a junction/record object and a familiar classical structure is logged
+as a CORRESPONDENCE OBSERVATION — freely, immediately, and with ZERO verdict
+weight. Correspondences are never criteria, never evidence, never grounds for
+loosening or tightening a verdict. Precedent: the log divergence IS the running
+coupling — an old friend the classical-shaped test ("is it zero") mistyped as
+failure even though the friend was present. The ledger feeds the discoveries
+digest (road step 24), where correspondences are formally examined AFTER the
+record-native results are sealed.
