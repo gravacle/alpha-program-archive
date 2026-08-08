@@ -14642,6 +14642,10 @@ Six witnesses built as exact universal finite records (pushout quotients both-as
 
 **Status.** SETTLED as stop-with-display. The completeness fork goes to the principal: certificate suffices (books now) vs proof required (bounded, combinatorial, one relay).
 
+## Q-648 — SP2-05: 7 of 8 ready; the ORIENTATION-UNITARY CARRIER is one object blocking two rows (2026-08-08)
+
+Seven proof objects built (pushout-once, both parenthesizations, order independence, relabeling covariance, source-projector orientation invariance, quartic primitive rejection) with grammars, completeness certificates, and the adopted premise custody-preserved by span hash. ONE named gap: G_ORIENTATION_UNITARY_CARRIER — the source names the cellular orientation unitary but contains no typed U_c: R_c -> R_c, no U_c c U_c* = c_rev equation, no complete-h_K commuting square; all four M-2 modes searched; nothing fabricated. Row: PARTIAL_FORMALIZATION_7_OF_8. THE RHYME: SP1-07's D08 stopped at the SAME absence — orientation-reversal covariance, named not typed. One sealed carrier closes both rows. Routed as 743. Basis: STAGE8_7A_SP2_05_FORMAL_CODEX2_V001.md, registrar seal-verified, mirrored. SETTLED as increment.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
