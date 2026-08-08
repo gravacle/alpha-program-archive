@@ -4,10 +4,10 @@ This directory contains Builder A's fresh parent and producer. It contains no
 verifier implementation. `parent.py` is the direct R0 entry point and
 `producer.py` is the normal/optimized child target.
 
-The child check map is pinned to specification V011. All 66 descriptor rows are
-byte-identical to V010. In the preceding V006-to-V007 delta, exactly one
-descriptor changed: `C-B-V009-06` received the principal-ruled
-single-authority DAG and byte-grounding criterion.
+The child check map is pinned to specification V012. Exactly one V011
+descriptor row changes: `C-B-V009-06` gains the source SHA-256 in its existing
+path/span grounding citation; its ID, class, deterministic procedure, and
+expected predicate are byte-identical. The other 65 rows are byte-identical.
 Each structural row is bound to its descriptor SHA-256 and an ordered opcode
 contract. A structural record that is absent, has the wrong descriptor hash,
 has the wrong content root, omits an invocation, adds an invocation, or returns
@@ -51,7 +51,7 @@ branch is admitted; unresolved ties and failures cannot become later choices.
 
 The sealed integration addendum supplies the boundary contract. Builder B must
 supply a canonical, sidecar-pinned
-`rd22.verifier-manifest.v001` with exactly twelve fields. Under V011, its
+`rd22.verifier-manifest.v001` with exactly twelve fields. Under V012, its
 `argv` is an exact 22-item schema
 and its `input_roots` is an exact seven-field schema, including subject- and
 evidence-manifest digests. The parent validates those schemas, canonical-JSON
@@ -67,9 +67,10 @@ terminal ledger after R10 succeeds. The parent fails closed before verifier
 launch if the required verifier manifest, its pin, or any of its contracts is
 absent or malformed.
 
-`inputs/evidence/` contains sixteen byte-identical, content-addressed copies
-of sealed packet/workspace search and display sources (including the V011 spec,
-its V010 and V009 bases, and the integration addendum), the exact 932-byte
+`inputs/evidence/` contains eighteen byte-identical, content-addressed copies
+of sealed packet/workspace search and display sources (including the V012 spec,
+its V011/V010/V009 bases, the full cited provenance source, and the integration
+addendum), the exact 932-byte
 relocated `stage_dependencies` member, its tight canonical single-authority DAG
 serialization, and the prior paired-argument bytes retained as a supersession
 witness. The current member and single-authority serialization ground only
@@ -86,10 +87,10 @@ is the two payloads the procedure consumes: the tight-canonical `graph` object
 and the exact 932-byte raw grounding span. The opcode-result trace is excluded
 from evidence; the child receipt's `output_sha256` retains custody of the result
 row without misclassifying execution testimony as an evidentiary input.
-Builder B's currently sealed verdict schema carries the V010 spec const; its
+Builder B's currently sealed verdict schema carries the V011 spec const; its
 digest is generated into the pin manifest and verified before launch. Builder
-B's 14-member V010 ground-atom resolver package is the sealed instance base;
-its separately owned V011 citation-key implementation and re-pin are required
+B's 14-member V011 citation-key resolver package is the sealed instance base;
+its separately owned V012 row-citation confirmation and re-pin are required
 before a chain invocation, and this package does not claim that parallel
 custody act.
 

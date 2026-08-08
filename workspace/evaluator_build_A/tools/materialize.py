@@ -235,7 +235,7 @@ def descriptors(spec_data, ledger_data):
         else:
             blocker_id = check_id[2:]
             start = line_offsets[raw]
-            source = {"byte_span": [start, start + len(raw.encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md", "sha256": SPEC_SHA}
+            source = {"byte_span": [start, start + len(raw.encode("utf-8"))], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V012.md", "sha256": SPEC_SHA}
         procedure = cells[3]
         expected = cells[4]
         gate = "RD22_STRUCTURAL_ONLY"
@@ -306,7 +306,7 @@ def fixture_rows(spec_data, check_rows):
                 "prerequisites": ["P0"],
                 "primary_check_ids": primary_ids,
                 "required_gate": "RD22_STRUCTURAL_ONLY" if execution_class == "STRUCTURAL" else " AND ".join(gates),
-                "source": {"byte_span": [start, start + len(row_bytes)], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md", "sha256": SPEC_SHA},
+                "source": {"byte_span": [start, start + len(row_bytes)], "path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V012.md", "sha256": SPEC_SHA},
             }
         )
     return out
@@ -556,12 +556,15 @@ def build_v009_06_record(evidence_dir, source_path, descriptor):
         die("V009_06_BARRED_FIELD", "alternate encoding or status")
     member_name = f"{member_sha}--C-B-V009-06-stage_dependencies.member"
     args_name = f"{args_sha}--C-B-V009-06-dag-args.json"
+    source_name = f"{GROUNDING_SOURCE_SHA}--boundary_incidence_dynamics_preregistration_v011.json"
     member_path = evidence_dir / member_name
     args_path = evidence_dir / args_name
+    source_payload_path = evidence_dir / source_name
     member_path.write_bytes(member_data)
     args_path.write_bytes(dag_args_data)
+    source_payload_path.write_bytes(source_data)
     input_files = sorted(
-        [file_row(member_path, member_name), file_row(args_path, args_name)],
+        [file_row(member_path, member_name), file_row(args_path, args_name), file_row(source_payload_path, source_name)],
         key=lambda row: row["relative_path"],
     )
     evidence = {
@@ -604,6 +607,7 @@ def build_v009_06_record(evidence_dir, source_path, descriptor):
         "payloads": [
             {"byte_length": len(member_data), "payload_path": f"inputs/evidence/{member_name}", "payload_sha256": member_sha, "role": "EXACT_RELOCATED_MEMBER_BYTES"},
             {"byte_length": len(dag_args_data), "derived_from_sha256": value_sha, "payload_path": f"inputs/evidence/{args_name}", "payload_sha256": args_sha, "role": "CANONICAL_DAG_ARGUMENTS"},
+            {"byte_length": len(source_data), "payload_path": f"inputs/evidence/{source_name}", "payload_sha256": GROUNDING_SOURCE_SHA, "role": "SEALED_CITATION_SOURCE_BYTES"},
         ],
         "status": "AVAILABLE",
     }
@@ -613,7 +617,7 @@ def main():
     package = Path(__file__).resolve().parents[1]
     cleanroom = package.parent
     program = cleanroom.parent
-    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md"
+    spec_path = cleanroom / "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V012.md"
     ledger_path = cleanroom / "BID_FULL_STACK_REVIEW_LEDGER_V003.md"
     packet_path = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001/STAGE7_PACKET_MANIFEST_V001.sha256"
     v011_path = cleanroom / "review_packets/STAGE7_QSPEC_CANDIDATE_V001/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md"
@@ -678,8 +682,8 @@ def main():
     structural_ids = [row["check_id"] for row in rows if row["execution_class"] == "STRUCTURAL"]
     structural_fixture_ids = [row["fixture_id"] for row in fixtures if row["execution_class"] == "STRUCTURAL"]
     evidence_dir = package / "inputs/evidence"
-    spec_payload_name = f"{SPEC_SHA}--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md"
-    for stale_spec_payload in evidence_dir.glob("*--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md"):
+    spec_payload_name = f"{SPEC_SHA}--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V012.md"
+    for stale_spec_payload in evidence_dir.glob("*--STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V012.md"):
         if stale_spec_payload.name != spec_payload_name:
             stale_spec_payload.unlink()
     (evidence_dir / spec_payload_name).write_bytes(spec_path.read_bytes())
@@ -711,7 +715,7 @@ def main():
                     "payload_path": f"inputs/evidence/{spec_payload_name}",
                     "payload_sha256": SPEC_SHA,
                     "role": "SPEC_FIXED_SUBJECT_NOT_OBSERVATION",
-                    "source_path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V011.md",
+                    "source_path": "STAGE8_TASK6_A35_EVALUATOR_SPEC_LANE2_V012.md",
                     "source_sha256": SPEC_SHA,
                     "span": fixture["source"]["byte_span"],
                 }
