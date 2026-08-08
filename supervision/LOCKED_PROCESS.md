@@ -402,3 +402,15 @@ headers. The residual risk is registrar misdelivery, closed two ways:
   queued relay, verify the header names YOUR lane; if it names another lane,
   write a misdelivery report to the outbox and STOP. Executing another lane's
   relay is a custody breach even when the work succeeds.
+
+## THE PICKUP-ACK CLAUSE (queue protocol amendment, 2026-08-08, principal-initiated)
+
+The standing queue rule gains one step: ON PICKING UP A NUMBER N, the lane
+writes `relay_outbox/N_ACK.md` (one line: relay number, lane name, inbox file
+digest) BEFORE beginning work; the DONE file still follows at completion.
+Three observable states per relay: SENT (the principal reports it), PICKED UP
+(the ACK, ~a minute after send), DONE (the completion). A number with no ACK
+after a minute means the lane never received it — caught immediately. The
+registrar's watcher covers ACK files as well as DONE files. Installs via each
+lane's next relay header (Dario from 714; Codex 2 from its next relay); relay
+713 predates the clause and runs without it.
