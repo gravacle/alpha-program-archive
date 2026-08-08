@@ -349,3 +349,22 @@ re-pin obligates an A re-pin; the registrar is the only actor who sees both
 current packages at once, so this staleness is the registrar's to catch. The
 run-032 false start (HASH_MISMATCH on the verdict schema; a second stale pin on
 the manifest instance found by the same sweep) is the incident of record.
+
+## THE JURISDICTION CHECK (7A process law, 2026-08-08, principal directive: "we need a way to stop getting in our own way")
+
+The program's self-obstructions share one shape: a rule protective in its home
+context, applied where it censors (divergence-as-failure at the junction;
+classical tests at the record level; binary verdicts collapsing "cannot see
+this" into "false"; the B0 origin hunt). The cure is not looser rules — it is
+rules that carry their jurisdiction. Before any criterion, typing, or halt
+condition enters a 7A relay, it passes three questions OF RECORD:
+
+1. WHAT WAS THIS RULE WRITTEN TO PROTECT — and is that risk present here?
+2. DOES ITS OUTCOME SPACE distinguish "false" from "cannot see this"?
+3. IF THE THEORY IS RIGHT, WOULD THIS RULE PERMIT THE EVIDENCE TO APPEAR?
+   A rule that would halt on the true signal has failed before it runs.
+
+Nothing is weakened: a rule in its jurisdiction keeps full force; kill
+conditions stay preregistered. The check stops rules from answering questions
+they were never written to ask. The registrar applies it to every 7A relay
+header; lanes apply it to every criterion they author; failures are findings.
