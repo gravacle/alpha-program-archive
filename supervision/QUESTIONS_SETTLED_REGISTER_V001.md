@@ -14536,6 +14536,16 @@ THE SELECTOR IS UNSEALED — V011 carries both readings. And it is THE SAME MISS
 
 **Status.** SETTLED. Routed: SP1-07 formalization (Codex 2, 735); the registrar's corpus rule-run executes now, BX07 first (it blocks the P-B row).
 
+## Q-640 — The rule-run's first contact: BX07 is a REGISTRY, lawfully empty; the rule gains its third type (2026-08-08)
+
+**Question.** What are the members of the abstract-line-alias corpus?
+
+**Answer. NONE — and that is the corpus.** The claim-sweep under rule V001+V002 (conjunction clause) returned 267 candidates across 8,994 scanned files, dominated by documents that MENTION the corpus's name (spec versions, tooling reports, session outputs) — the mention/use trap at scale, retained as the negative control. The typing error was the finding: BX07's defining sealed use is accrual-verbed ("must be separately licensed and ENTERED in the alias corpus") — it is a REGISTRY whose members accrue by decision, not a claim corpus whose members exist to be found. Rule V003 adds the REGISTRY type (registrar-authored under the authority decision, surfaced); the BX07 instance is SEALED EMPTY of record — the P-B decision licensed no basis, trivialization, or unit representative, so the empty member list is the true current state — with the accrual authority declared (principal licenses; registrar seals; no producer may enter a member). Dual verification of the typing rides with each lane's next relay. THE P-B ROW'S BLOCKER (alias corpus absent) is thereby resolvable: the corpus exists, sealed, with its authority.
+
+**Basis.** CORPUS_SELECTION_RULE_V001.md (V001+V002+V003, resealed); CORPUS_INSTANCE_BX07_ALIAS_REGISTRY_V001.json sealed this date; the sweep record retained.
+
+**Status.** SETTLED. The remaining 12 corpus instances get typed individually as their rows need them (claim-swept with a stated universe, provenance-closed, or registry) — no batch guessing.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -1,0 +1,12 @@
+{
+ "accrual_authority": "the principal licenses an alias/trivialization/unit-representative entry by decision of record; the registrar seals each accrual as a surfaced addition; no producer may enter a member",
+ "box": "BX07",
+ "corpus_id": "CD:V009-01:abstract-line-alias-corpus",
+ "members": [],
+ "negative_control": "the wrong-typed claim-sweep (267 mention-candidates) retained at scratchpad BX07_draft.json shape, cited as the V003 incident",
+ "rule": "CORPUS_SELECTION_RULE_V001.md + V002 + V003",
+ "schema": "rd22.sealed-corpus-definition.v001",
+ "state_basis": "DECISION_V009_01_CARRIER_PB_2026-08-08.md: no basis, scalar trivialization, or unit representative licensed; therefore the registry is EMPTY of record",
+ "status": "SEALED-PENDING-DUAL-VERIFICATION (each lane verifies the REGISTRY typing from the sealed defining use)",
+ "type": "REGISTRY (rule V003)"
+}

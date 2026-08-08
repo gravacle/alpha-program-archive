@@ -43,3 +43,31 @@ artifacts seal; only then may the instance be pinned by any envelope.
 
 A corpus whose descriptor underdetermines its typing or terms is returned
 UNDETERMINED with the missing datum named — never guessed.
+
+## V002 AMENDMENT (2026-08-08, registrar-authored, surfaced): THE CONJUNCTION CLAUSE
+
+For CLAIM-SCOPED corpora, a candidate member must match EVERY corpus-name token
+(each token in any of its four-mode variants) — a conjunction, not a
+disjunction. Rationale of record: generic single tokens (alpha, occurrence,
+claim) produce candidate sets no verification can meaningfully prune; the
+conjunction of the name's own tokens is deterministic, derived from the same
+descriptor bytes, and usable. The M2 clause's backticked object names remain
+recorded with each instance for the verifying lanes. This amendment is
+registrar-authored under the principal's authority decision (0dfc6e7b…) and
+surfaced in the register; both lanes' verification checks the amendment as
+part of the rule.
+
+## V003 AMENDMENT (2026-08-08, registrar-authored, surfaced): THE REGISTRY TYPE
+
+A third corpus type joins claim-scoped and provenance-scoped: REGISTRY — a
+corpus whose members ACCRUE BY DECISION rather than existing to be found
+(licenses, selections, entered aliases). Its lawful instantiation is the
+CURRENT REGISTRY STATE — empty if nothing has been licensed — with the
+accrual authority declared (who may license an entry; the registrar seals
+each accrual as a surfaced addition). A claim-sweep over a registry corpus is
+WRONG-TYPED: it collects mentions of the registry's name, not members of it.
+Incident of record: the BX07 sweep returned 267 mention-candidates before the
+typing was seen; the sweep output is retained as the negative control.
+Typing is determined from the corpus's defining use in sealed bytes (BX07:
+"must be separately licensed and entered in the alias corpus" — an accrual
+registry by its own verb). Both lanes' verification checks the typing.
