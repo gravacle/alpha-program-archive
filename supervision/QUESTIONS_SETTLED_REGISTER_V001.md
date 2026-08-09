@@ -15044,6 +15044,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_RATIO_ROUTE_STATE_MAP_DARIO_V001.md (fdc09c07…, seal OK, 46,124 B; searched space 3,003 files; controls displayed). Dario chained into 784. Registered, committed, pushed.
 
+## Q-692 — The connection was already there at the object level; what remains is the refinement lift, and its forcing question is posed (2026-08-09)
+
+**Question.** Is the derived discrete incidence connection the RA27-3 transport field (relay 785, the principal's "I thought we'd identified it")?
+
+**Answer.** PARTIAL — AND THE PRINCIPAL WAS RIGHT AT THE OBJECT LEVEL. The Gate-4 discrete incidence connection IS the correct per-object RA27 connection carrier: unitary edge transports between one-dimensional vertex fibres, modulo vertex gauge, with path closure and loop holonomy. Demand interface: 9 items; comparison 4 SATISFIED / 0 FAILED / 5 UNDECIDABLE. What it is NOT: the refinement-transport field — Gate-4 composes within one complex; RA27 demands a natural lift across Ref_a arrows. The gap decomposes cleanly: ONE free datum (the connection on refined interior edges — sealed stock exhibits multiple non-gauge-equivalent assignments, no rule selects) and FOUR FORCED obligations (Ref_a naturality, incidence intertwining, child-coframe compatibility, intrinsic-Vol_4 quadratic-measure compatibility). B1a RE-SCOPED: not "derive a connection" but "derive the connection-refinement lift on A0/A1/A2, prove the four compatibilities, extend functorially." M01 narrowed, not vacated: object DERIVED; refinement rule UNDERDETERMINED. S08's decline respected throughout (scope quoted; no EM identification; no downstream obligation moved).
+
+**PE-7 (scored provisionally by its frozen criterion, ledger updated).** PARTIAL with mixed forced/free gaps = NEUTRAL today; the criterion's commissioned follow-up pass is relay 786 (queued): does the CONJUNCTION of the four forced obligations pin the free interior-edge datum? FORCED_UNIQUE -> lift derived lawfully, all gaps forced, PE-7 CONFIRMS, B1a closes without a ruling. FREE (two witnesses through all four constraints) -> genuine allow-stratum freedom at the refinement step. 786 also runs the structural comparison against the sealed microstate freedom (same silhouette: free assignment, structure-visible constraints) — displayed-type comparison only.
+
+**Custody.** Artifact STAGE8_B1A_CONNECTION_IDENTIFICATION_CODEX2_V001.md (1b45d5a6…, seal OK) mirrored. Brief V005 pinned and verified; PE-1..6 not consulted; verb audit CLEAN. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
