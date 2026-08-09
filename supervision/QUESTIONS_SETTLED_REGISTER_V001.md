@@ -15416,6 +15416,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_AXN_LIGHTCONE_LEMMA_CODEX2_V001.md (f3c01495…, seal OK; parent read exclusively from the packet member) mirrored. Relay 823 (O4, the source-inclusive GNS) queued. Registered, committed, pushed.
 
+## Q-729 — The down-set programme is dead; order-independence was the algebra's all along; the assembly compresses onto ONE fenced question: the parent's form (2026-08-09)
+
+**Question.** Derive the write rule's parent-induction, promoting E4b to unconditional (relay 821, the audit's assembly item A1).
+
+**Answer.** OBSTRUCTED AT THE FENCE — AND RE-AIMED BY A DECISIVE FINDING. (A) The down-set route is DEAD from the parent side: 803's refutation conceded in full; the CIS repair FAILS with an exhibit (the nested cofinal exhaustion V_1={c}, V_2={c,p} with p preceding c is not down-closed and fires ZERO of CIS's seven falsifiers — every operative clause is future-directed; "a principle built to stop the future disturbing the past cannot force the past to be complete"); the CDL causally-sequential reading is the admitted class's definition — circular, declined. (B) THE DECISIVE FINDING: E4b NEVER NEEDED DOWN-CLOSED STAGES. The sealed moving-front stock already derives causal_linear_extension_independence FROM COMMUTATIVITY ([B_j,B_k] = 0 — "the exact algebraic reason any causal linear extension gives the same endpoint map"), with pulse-profile independence, nondemolition, and the central pointer sector all sealed true. MACHINE-VERIFIED: endpoint disagreement 8.6e-16 over all 24 orders; a non-down-closed, non-linear-extension exhaustion agrees to 6.9e-16. ORDER-INDEPENDENCE IS A FACT OF THE ALGEBRA, NOT OF THE ORDER — relays 800 and 803 both worked a problem the record had already routed around: the day's existence-pattern in its purest instance.
+
+**The compression.** E4b now waits on ONE named flag: moving_front_bound_by_live_complete_parent = false — MF's sealed conditional: "if the complete parent realizes its already proposed primitive writes as one-use finite causal-cell events, durable public outgoing sectors follow WITHOUT ANY SPECTRAL-DENSITY CHOICE. It does not yet prove that the complete source/gauge/gravity/environment action has that form." That is T5's content, map OBJECT 1's axis, FENCED — not lane-derivable; reaching for it would breach T5. Downstream of that one form-question, EVERYTHING IS ALREADY DERIVED. The parent's form, once derived, forces the remainder with no choice — PE-8's joint-discharge shape in the record's own words (noted, zero weight).
+
+**Custody.** Artifact STAGE8_AXN_E4B_PROMOTION_DARIO_V001.md (seal OK) mirrored. Dario chains into 824 (the finite-sufficiency audit). A1 re-scored: not an assembly item but a corollary of the fenced form-question. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
