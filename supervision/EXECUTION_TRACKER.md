@@ -642,6 +642,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 801 | Dario | [PLAN:A1-CORRECTIVE-4] row-7 split | RETURNED (Q-709; PHASE A BANKED) |
 | 802 | Codex 2 | [PLAN:B1a-7] full-space solve | RETURNED (Q-710; UNSATISFIABLE, exact certificate; ruling parked on 804) |
 | 803 | Codex 2 | [PLAN:C1-PRE-3] E4a/E4b cross-check | RETURNED (Q-711; E4a PROVED; E4b narrowed) |
+| 804 | Dario | [PLAN:B1a-8] no-go certificate verification (cold start — needs keystroke) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
