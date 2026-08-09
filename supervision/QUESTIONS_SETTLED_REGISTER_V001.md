@@ -15008,6 +15008,18 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_7A_DBR_LAYER_REBUILD_DARIO_V001.md (d55b6445…, seal OK; 8 sources verified; spans RE-DERIVED not accepted from the cross-check, reproducing 778's digests exactly). All headline items CLAIMED. Gates held. Dario chained into 782. Registered, committed, pushed.
 
+## Q-689 — The audit lands: 2 DONE / 12 PARTIAL / 9 NOT-STARTED / 1 UNKNOWN; the forced spine is two links; kappa_record is NOT alpha's stiffness (2026-08-09)
+
+**Question.** What does the evidence say about where we've been (all 24 plan lines B–G) and what forces on the path to the number (relay 780)?
+
+**Answer.** AUDIT: 2 DONE (D4 adoption-gating policy; F1 A32 ratification — a custody instrument attaining no physics value), 12 PARTIAL (broad prior coverage, exact remainders named per line), 9 NOT-STARTED (with zero-hit completion probes displayed), 1 UNKNOWN — E2, where the register is INTERNALLY AMBIGUOUS on R-L2b: "SUPERSEDED / RE-POSED, NOT SOLVED" vs "REFUTED AS WRITTEN," unreconciled, with four obligations and an unattacked response-pullback half named. FORCING MAP (11 deliverables): FORCED = 2 — M04 the gluing obstruction (unique residual of the sealed gluing test once B1's fields exist) and M11 kappa_record (the intensive Hessian once the completed chain and five density hypotheses exist). FREE = 6 — all three B1 transport fields, the metric conversion (a whole beta family passes the current locus), the common cell (no unique complex fixed), and the charged Q-spec content. SCAFFOLD = 3 — recognition verdicts, lineage, A32.
+
+**The decisive typing (sealed Q-34, preserved).** kappa_record is the record-side intensive Hessian; ALPHA'S ONSET STIFFNESS IS K_*; the linked-cluster/R-L2b campaign is OFF alpha's value path. The kappa-only forced chain (two transformations) is shorter than the plan but blocked at B1 and is NOT a shortcut to alpha. REGISTRAR CORRECTION (mine): plan V001's F3 and relay 782's framing ("what stands between the ratio route and a lawful kappa_record") conflated kappa_record with the alpha-path object; V002 splits them; 782 is in flight and its endpoint framing will be reconciled against Q-34 at return (law 7: this entry names 782 as a pending consumer of the correction). Session memory (exact-rational observation) carries the same conflation and is corrected.
+
+**Plan V002 sealed from this evidence** (statuses re-derived, forcing map embedded, F3 split, E2 flagged; change-logged). The audit's own honesty: specs/preregistrations never upgraded an execution; negative probes displayed.
+
+**Custody.** Artifact STAGE8_PLAN_AUDIT_AND_FORCING_MAP_CODEX2_V001.md (653bf867…, seal OK) mirrored byte-identical. PE-1..6 recorded, not consulted. Codex chained into 783. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
