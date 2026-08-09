@@ -647,7 +647,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 806 | Dario | [PLAN:B1c-3] receiver inhabitance | RETURNED (Q-714; 4/10 supplied — the coframe layer; gate narrowed) |
 | 807 | Codex 2 | [PLAN:B1a-10] corrected joint solve | RETURNED (Q-715; FREE dim 1887; a2 reversed) |
 | 808 | Codex 2 | [PLAN:B2] gluing scope | RETURNED (Q-716; DENSITY-REQUIRED; B2 gates on 6 components + eta_resp) |
-| 809 | Dario | [PLAN:AXN-0] the action: object or role? (cold start — needs keystroke) | QUEUED |
+| 809 | Dario | [PLAN:AXN-0] the action: object or role? | SENT (ACK observed) |
+| 810 | Codex 2 | [PLAN:B1c-4] density layer campaign (cold start — needs keystroke) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
