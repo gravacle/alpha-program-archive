@@ -650,7 +650,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 809 | Dario | [PLAN:AXN-0] object or role | RETURNED (Q-719; FAMILY + missing SELECTOR; two campaigns) |
 | 812 | Codex 2 | [PLAN:AXN-BOUND-1] family bounding | RETURNED (Q-720; PARTIAL; transport certified; grammar absent) |
 | 814 | Codex 2 | [PLAN:AXN-BOUND-2] the member grammar | RETURNED (Q-722; assembled; census OPEN OF RECORD; theorem obligation, no fork) |
-| 815 | Dario | [PLAN:Gc2] materiality opening | SENT (ACK pending watch) |
+| 815 | Dario | [PLAN:Gc2] materiality opening | RETURNED (Q-725; Hessian waits on H1/H2/I3; D closed scoped) |
 | 816 | Codex 2 | [PLAN:C1-1] common cell posed | RETURNED (Q-723; 20-elem interface; core = FIVE objects incl. U_Omega) |
 | 817 | Codex 2 | [PLAN:C1-2] U_Omega typed | RETURNED (Q-724; UNDECIDABLE; lemma named; parent convergence = 5) |
 | 813 | Dario | [PLAN:B1c-6] density-chain cross-check | RETURNED (Q-721; chain PROVED; retirement registrar-only) |

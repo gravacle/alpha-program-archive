@@ -15384,6 +15384,14 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_C1_U_OMEGA_TYPED_CODEX2_V001.md (fd21ed03…, seal OK; the parent result consumed from the sealed packet at manifest-matching 345d447e…) mirrored. Codex stopped clean. Registered, committed, pushed.
 
+## Q-725 — Materiality opened: the Hessian waits on extensivity's two inputs; the pair set closes on one scoped ruling; the five-object typing is COMPLETE (2026-08-09)
+
+**Question.** Gc2's two sealed gaps under the standard treatment (relay 815).
+
+**Answer.** BOTH TYPED, ONE CLOSED SCOPED. Demands extracted verbatim from the lane's own 739 with the sentence-taxonomy applied (demand / restatement / hunt-result have different lifespans) — and 739's two corpus negatives RETIRED by their author (the sealed sub-ledgers existed: real, bilinear, positive, symmetric for the Hessian; the containment pieces for D — the arc's recurring self-under-reading, again converted to pins). GAP 1 (HESSIAN FORM): UNDECIDABLE — missing a sealed statement relating R_record,L on pairs of connection tangents to a metric structure; blocked behind (H1) volume_uniform_zero_free_neighborhood and (H2) connected_linked_cluster_density — BOTH NAMED UNDERIVED INPUTS FROM EXTENSIVITY/R-L2b TERRITORY, linking Gc2 to the E-phase reconciliation — plus the I3 identification (equality unproved even on PASS; F2.2's bar noted). The four sealed properties do not force conformality; the attractive wrong move (Fubini-Study) flagged and closed by V011's own sentence. GAP 2 (PAIR SET D): UNDECIDABLE BY ONE QUANTIFIER of record — and CLOSED IN SCOPED FORM by registrar determination DECISION_CONTAINMENT_DISCHARGE_SCOPED_2026-08-09 (containment discharges restriction-typed consumers; value-summing consumers re-open Path B; PART-PROVABLE with the soundness implication proved). eta_resp: both gaps CONSTRAIN, neither supplies, its carrier — the realization still routes through the response/parent node. f_g: S26 BARS THE SOURCE UPSTREAM OF MATERIALITY — no record-side supply through this door; the bridge is the parent node's, confirming F0#3's routing.
+
+**THE FIVE-OBJECT TYPING IS COMPLETE.** THE REMAINDER MAP assembles now (sealed artifact + full presentation to the principal). Custody: artifact STAGE8_GC2_MATERIALITY_OPENING_DARIO_V001.md (seal OK) mirrored; Dario stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
