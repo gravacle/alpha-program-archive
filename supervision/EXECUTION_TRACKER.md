@@ -631,7 +631,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 790 | Codex 2 | [PLAN:F0] pin K_*'s defining chain | RETURNED (Q-696; PARTIAL; 4 absent links; continuous-data typing) |
 | 791 | Codex 2 | [PLAN:B1c] current-density hunt | RETURNED (Q-697; PARTIAL; refinement stratum is the uniform gap) |
 | 792 | Dario | [PLAN:B1b] support question opened — is the block real? (chains after 789) | QUEUED |
-| 793 | Codex 2 | [PLAN:B1c-2] density receiver + bridge build (cold start — needs keystroke) | QUEUED |
+| 793 | Codex 2 | [PLAN:B1c-2] density receiver + bridge build | RETURNED (Q-698; receiver sealed; stopped on JOINT_A1_A2_FIELD_EXT_MEMBER) |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |

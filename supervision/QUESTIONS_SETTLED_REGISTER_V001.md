@@ -15104,6 +15104,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1C_CURRENT_DENSITY_HUNT_CODEX2_V001.md (f7b218cd…, seal OK) mirrored. S08/S26 preserved with byte-span pins; freedoms displayed, none consumed. Codex chained scan empty — stopped clean; relay 793 (B1c construction) queued. Registered, committed, pushed.
 
+## Q-698 — The receiver is built; the spine's frontier narrows to ONE named object: the joint A1/A2 field-extension member (2026-08-09)
+
+**Question.** Can the B1c density receiver, bridge, and inhabitant be constructed from sealed stock (relay 793)?
+
+**Answer.** RECEIVER YES, INHABITANT NOT YET — STOPPED ON A NAMED OBJECT. The single Ref_a density receiver is TYPED AND SEALED as a dependent equalizer over the exact sealed Ref_a object/arrow interface (conserved-current sort + derived coframe + forced Vol_4 + opaque positive R4 density slot + the nine interface predicates); nonemptiness and uniqueness deliberately not asserted; nothing bound. The Ref_a/path-current bridge is typed and the A0 current core built from the finite/Ref_path stock. THE STOP: on A1/A2 no sealed joint field-extension member exists that assigns the refined interior-edge cochain together with compatible positive density/measure transport — named exactly as JOINT_A1_A2_FIELD_EXT_MEMBER. Package: 2/9 proved as types, 2 build failures displayed, 5 undecidable pending members. Forcing STILL GATED (on a sealed complete member family and receiver nonemptiness). Zero substitutions; S08/S26 preserved.
+
+**THE CONVERGENCE (registered).** B1a's free datum (Q-694: the refined interior-edge 1-cochain modulo vertex gauge) and B1c's missing member are THE SAME OBJECT FAMILY on the same two generators. Both fields — and through them the gluing obstruction and everything downstream — now wait on one construction: the A1/A2 refined-edge machinery that Dario's 788 carrier build is producing. The spine's frontier is ONE named object. When 788 lands, its carrier either supplies the member family (both fields advance together), or names what still separates them — either way the next relay writes itself from that landing.
+
+**Custody.** Artifact STAGE8_B1C_DENSITY_RECEIVER_BUILD_CODEX2_V001.md (0c535497…, seal OK) mirrored. Codex chained scan empty — stopped clean; next Codex work is defined by 788's landing (its cross-check, or the joint-member forcing), so the brief idle is correct, not a lapse. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
