@@ -15310,6 +15310,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1C_DENSITY_LAYER_CODEX2_V001.md (00e2654a…, seal OK) mirrored. Registered, committed, pushed.
 
+## Q-718 — DS2 dissolved: the density rows were never opaque; the whole remainder is THREE objects (2026-08-09)
+
+**Question.** The lawful re-typing of the receiver's density rows (relay 811).
+
+**Answer.** DISSOLVED WHOLLY. R4Dens re-typed as the positive intrinsic four-volume density on the finite four-cell carrier, in the existing Vol_4 unit class — pointwise codomain, positivity, coframe duality, normalization, current domain, arrow variance all displayed with sealed spans. Under the true type: delta_K' was ALREADY SUPPLIED (806's mu_K' under an identity conversion — sitting in the member all along); d_g DERIVABLE-FORCED and DERIVED on A0/A1/A2 and finite composites (intrinsic child volumes + finite additivity). NO residual density-row opacity. THE MEMBER STANDS AT 6/10 SUPPLIED OR DERIVED, with s_g/S_g forced on f_g's arrival. THE PATH TO A FORMABLE d_K IS EXACTLY THREE NAMED OBJECTS: the physical f_g bridge, F_g, and eta_resp with its completed response carrier.
+
+**The reduction is total.** B2's obstruction, B1c's member, F0's computand chain (the carrier bridge is f_g's missing object), and E4c's gap now all wait on the SAME THREE OBJECTS — the node. Relay 809 (in flight) types whether that node is an action-object or the record's converter machinery under a classical name. The scopes ledger updates: DS2 DISSOLVED (the wall was ours and is gone); DS1 remains the one load-bearing declared scope.
+
+**Custody.** Artifact STAGE8_B1C_RECEIVER_RETYPE_CODEX2_V001.md (8d57b8d7…, seal OK) mirrored. Codex stopped clean; its next campaign is defined by 809's verdict — the brief idle is correct. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
