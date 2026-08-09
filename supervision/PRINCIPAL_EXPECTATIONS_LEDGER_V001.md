@@ -80,3 +80,5 @@ throughout; no 7A criterion may consult this expectation.
 **Zero verdict weight; no 7A criterion may consult this expectation. Status: OPEN.**
 
 **PE-5 test (i) SCORED 2026-08-09 (Q-681):** relay 776 returned FORCED_UNIQUE = 0, FREE_MULTIPLE = 19. By the frozen criterion (NEUTRAL if fewer than 3 objects on either side), test (i) = NEUTRAL. Test (ii) — relay 775 — remains OPEN and is now the live test.
+
+**PE-5 test (ii) SCORED 2026-08-09 (Q-682):** the uniform core contains the trace form (U2–U4) and the proved positivity bound (U5); ALL class-dependence (C1–C5) is |q|-keyed. Test (ii) = CONFIRMED as frozen, with disclosed ambiguity (bottom-isolation half of positivity is class-dependent; criterion scored on the bound). PE-5 overall: (i) NEUTRAL, (ii) CONFIRMED.
