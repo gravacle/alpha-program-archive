@@ -604,7 +604,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 762 | Dario | [7A/Q126] primaries + public layer | **RETURNED. Locked spectrum refutes 3 tower terms; E_parent = Spin(10) chiral 16 FIXED; route's own falsifier displayed. Q-667.** |
 | 763 | Codex 2 | [7A/STEP11] corpus regen | **RETURNED. 4/4 resolved at tool level; candidate 0a134859 unsealed awaiting half B. Q-669.** |
 | 764 | Dario | [7A/Q126] tower rebuild | **RETURNED. Twisted floor exact (index theorem reproduced); BETA NON-UNIFORM (not normalizable away); 5 free data, 1 constraint. Q-668.** |
-| 765 | Dario | [7A/Q126] the bundle-class selector hunt (first of five) | QUEUED — NOT ANNOUNCED |
+| 765 | Dario | [7A/Q126] the bundle-class selector hunt (first of five) | **SENT (ACK observed)** |
 | 766 | Dario | [7A/STEP11] corpus verification half B (after 765) | QUEUED — NOT ANNOUNCED |
 | 767 | Codex 2 | [7A/Q126] cross-check the rebuilt tower: refute if you can | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
