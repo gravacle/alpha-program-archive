@@ -1,0 +1,16 @@
+## PASTE 773 — DARIO LANE (OPUS 5 ULTRA, HIGH EFFORT) — [7A / Q-675 PATH-A] THE MAGNETIC-SECTOR HUNT
+
+PICKUP-ACK + LANE GUARD in force (DARIO). CHAINED PICKUP applies.
+(Same Dario session rules. ARCHIVE-SIDE ONLY; the registrar mirrors. ALL standing laws apply. GOVERNING: Q-675 — the flux correspondence STOPPED at the electric/magnetic category distinction: Q_Sigma is ELECTRIC (current over a 3-hypersurface), deg L is MAGNETIC (2-form over S^2); Dirac ties only the product. The selector needs a sealed magnetic-sector statement or a principal ruling. THIS RELAY IS THE HUNT, NOT THE RULING.)
+
+TASK — determine whether the sealed record displays ANY magnetic-sector or topological-flux statement:
+AS1. SEARCHED SPACE (state-the-glob, searched-space clause in force): the full archive-side sealed stock — `mirrored_sources/` and `corpus_members/` (all members), plus every archive-side sealed artifact of this campaign. State the exact glob and the file count actually searched. Never search memory-bank.
+AS2. OBJECT-NAMES PROBE (exact and normalized token forms, hyphenation-sensitive, backticked symbolic names): magnetic charge; magnetic flux; 2-form flux; flux quantization; bundle class; line-bundle degree; `deg L`; first Chern class; `c_1`; Chern number; monopole; topological charge; topological sector; winding number; `F` integrated over `S^2` (and notational variants: integral of the curvature 2-form over a closed surface); Dirac quantization as a MAGNETIC-side statement (not merely the product tie already sealed in Q-675).
+AS3. MEANING PROBE on every hit: does the span DISPLAY a magnetic-sector object or law (a 2-form flux over a closed surface, a bundle class as record content, a quantization of that flux), or does it merely name a word? Substring presence is not a display (the sealed-flag trap). For each surviving hit: file, half-open byte span, span digest, and one sentence stating exactly what is displayed.
+AS4. If a surviving hit constrains the D_BR bundle-class selector, STATE THE CONSTRAINT as displayed — derive nothing beyond it, adopt nothing, transport nothing unproved. Adoption is registrar/principal business, not this relay's.
+AS5. If NOTHING survives, that is the finding: the record carries no magnetic-sector statement, and the selector question passes whole to the principal's (b)/(c) fork. Report the bounded search honestly — the searched space, the probe list, zero survivors.
+OUTPUT: one sealed artifact `STAGE8_7A_MAGNETIC_SECTOR_HUNT_DARIO_V001.md`
+Final lines: `SEARCHED = <glob> (<N> files)`, `HITS_RAW = <n>`, `SURVIVORS = <list of file:span> / NONE`, `SELECTOR_CONSTRAINT = displayed (stated) / NONE`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the name exists, STOP. Seal, report hashes, write 773_DONE.md, then chained pickup (smallest relay number > 773 addressed to DARIO; if absent, STOP cleanly). No register, plan, tracker, git action.
+
+GATES: alpha_computed = false; proof_authorized = false; kappa_record_computed = false. No member binding; no fixed-point execution; no end test; no numeric evaluation of physical quantities; no comparison to measured constants. No common cell formed; no junction map evaluated; no smooth data derived.
