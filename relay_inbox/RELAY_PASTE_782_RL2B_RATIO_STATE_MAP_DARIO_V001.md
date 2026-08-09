@@ -1,7 +1,7 @@
 ## PASTE 782 — DARIO LANE (OPUS 5 ULTRA, HIGH EFFORT) — [PLAN:F1-ADVANCE / RATIO ROUTE] THE R-L2b STATE MAP: FOUR STRATA, ONE MISSING POWER
 
 PICKUP-ACK + LANE GUARD in force (DARIO). CHAINED PICKUP applies. STATE-BRIEF PINNING: verify and read PROGRAM_STATE_BRIEF_V002.md (dcef30fd5f94…) before task work.
-(Same Dario session rules. ARCHIVE-SIDE ONLY; the registrar mirrors. ALL standing laws apply including the four alignment laws. GOVERNING: the principal's direct-path challenge — the ratio route to alpha is half-built in FOUR DISCONNECTED STRATA, unnegated, A32-gated; R-L2b is the only require-shaped target (one estimate discharging four obligations; ten crossings, not one bridge); its known gap: the cluster-summability arm (A-L0 arm 2) is SHORT ONE POWER. MAP ONLY — do not attempt the estimate; strict sequence: map before attempt.)
+(Same Dario session rules. ARCHIVE-SIDE ONLY; the registrar mirrors. ALL standing laws apply including the five alignment laws. GOVERNING: the principal's direct-path challenge — the ratio route to alpha is half-built in FOUR DISCONNECTED STRATA, unnegated, A32-gated; R-L2b is the only require-shaped target (one estimate discharging four obligations; ten crossings, not one bridge); its known gap: the cluster-summability arm (A-L0 arm 2) is SHORT ONE POWER. MAP ONLY — do not attempt the estimate; strict sequence: map before attempt.)
 
 TASK — the evidence-grade state map of the ratio route:
 AS1. THE FOUR STRATA: locate each stratum in the sealed/mirrored stock (state-the-glob; searched-space clause). For each: what is BUILT (artifact + span + digest), what it CLAIMS vs what is PROVED (claim-status law lens), and what its interface to the next stratum requires.
