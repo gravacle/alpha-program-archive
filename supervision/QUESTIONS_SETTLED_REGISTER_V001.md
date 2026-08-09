@@ -14784,6 +14784,20 @@ The forcing envelope-checked cross-family (spans verified), the addendum sealed 
 
 **Status.** SETTLED. Routed: the D_BR spectrum build (Dario, 760); Codex 2's verification half of the two corpus candidates (761).
 
+## Q-665 — D_BR: the raw tower's form derived; the beta-mechanism displayed; the real object is the PUBLIC layer (2026-08-08)
+
+**As foreseen** (the sealed spec predates the relay: specified = true, derived = false | TYPE-U, theorem_proof_reachable_now = false | TYPE-U): the spectrum is not built, and the relay's own title ("BUILT") is disclosed as directive-not-outcome. **What derived:** the raw tower's FORM is forced from the sealed geometry quotation — Sigma_BR = S1_T x S2_flux x S1_Q, D_BR = D_{Sigma,A} + Gamma_Sigma Phi; spec(D^2) = {(n_T+a_T)^2/R_T^2 + (k+1)^2/r_F^2 + (n_Q+a_Q)^2/R_Q^2}, discrete, accumulation only at infinity, uniform shift D_BR^2 = D^2 + Phi†Phi — all symbolic. The lane stopped ONE STEP SHORT of a refuted claim and said so (the Phi†Phi shift is real on the RAW operator; the public-gap claim is TYPE-R refuted). The multiplicity table was DECLINED — the index set (bundle class; rank(E_parent)) is unselected of record, the exact 731 failure mode.
+
+**The demanded object is deeper than the name:** the spectrum of D^2 on a DERIVED PUBLIC QUOTIENT under a derived linear Tr_BR — quotient, trace, null/private-mode rule, branch selection, bottom positivity/simplicity all TYPE-U, with FOUR shortcuts already TYPE-R refuted. The public layer is the real derivation.
+
+**THE BETA MECHANISM, displayed and cross-checked:** every eigenvalue is an inverse proper length (D_BR^2 ~ beta^-2), and the normalization is named of record as the transfer to the L_BR PROPER-TIME consumer — the external side of R = beta c dtau. "Complete NORMALIZED spectrum" is not incidentally beta-sensitive: THE NORMALIZING STEP IS THE BETA-CARRYING STEP — with independent confirmation from the sibling candidate K_KK (beta^2 via a fiber proper radius; same mechanism, reciprocal power). Q-126: UNCHANGED, honestly — now with a displayed mechanism a later derivation must make good on.
+
+**Custody:** two primaries absent archive-side, named by digest, NOT routed around — and the registrar had mirrored all three candidate sources mid-relay (workspace/mirrored_sources/): ae1d0492 = the superconnection principle, the BR closure-operator spectral determination, the two-cutoff continuum theorem. In reach for the next stage. Four rhymes ledgered at zero weight (the KK-tower rhyme flagged hazardous — the sibling is literally K_KK).
+
+**Basis.** STAGE8_7A_DBR_SPECTRUM_DARIO_V001.md = a27453107bc97fce05e377b696055c8c24d71d4888e9097fae146a5518cf9e20 (13/13).
+
+**Status.** SETTLED as structure-with-mechanism. Routed: the primaries read + the public layer scoped (Dario, 762).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
