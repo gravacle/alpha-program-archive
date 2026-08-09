@@ -554,3 +554,11 @@ Codex 2 runs under the app's "Approve for me" tier (auto-approves routine action
    and packet-manifest membership is a third sealing mode. Every seal-existence probe
    tests all three before reporting UNSEALED. A false NO-SIDECAR finding nearly graded
    a sealed demand as ungraded.
+
+## Chain-stall addendum (2026-08-09, second stall signature)
+
+Observed: a lane can write N_DONE and then END ITS TURN without executing the chained
+pickup (796 sat queued after 794's DONE; no ACK appeared; approval tier was correct).
+DIAGNOSTIC: DONE present + next queued relay unACKed = chain died at turn end, not an
+approval stall. FIX: re-type the number. The registrar's watcher flags this by pairing
+every DONE with the expected next ACK.
