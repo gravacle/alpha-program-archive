@@ -15492,6 +15492,16 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Artifact STAGE8_AXN_BUILD_DESCENDANT_CALCULUS_DARIO_V001.md (seal OK) mirrored. Dario chained into 831 (the slot census — the chain HELD this time). Codex mid-829. Registered, committed, pushed.
 
+## Q-737 — The skeleton: one forced stratum, three scoped exclusions, five exact holes; the binding predicate is in place and not yet applied as pressure (2026-08-09)
+
+**Question.** The action skeleton (relay 829, the build's leg A, step 1).
+
+**Answer.** HONESTLY SPARSE, EXACTLY DISPLAYED. TERMS: 1 FORCED — the S_0/S_1 source stratum (stratum-scoped; no global-universality claim); 3 FORCED-ABSENT with scoped excluders; 5 FREE — holes displayed with shapes exact at the level sealed stock permits. VARIATION CHECK: partial — the forced Dirac source term reproduces the displayed first-order source structure; the undefined record functional (S_record[R,a,g], the known 818 erratum object) and the update slot stop the packet-parent/write reproduction. MF BEARING: the forced carrier constraints and THE EXACT PACKET-PARENT BINDING PREDICATE are in place as instruments, but the forced part alone does not derive the one-use finite-cell event form. Verb audit CLEAN with four scope disclosures (the 1887 is carrier dimension, not action-family dimension; the packet operator is receiver, not action — the type discipline holding).
+
+**The build's next mechanism, defined:** the five holes have not yet felt the BINDING PREDICATE as forcing pressure — derive-and-vary means requiring the variation to reproduce the sealed parent, and that constraint applied to the holes is the hole-closure round. First: the charter's claim-status cadence — 832 (Codex cross-checks the calculus) and the skeleton's cross-check (Dario, after the census) gate the closure round's consumption.
+
+**Custody.** Artifact STAGE8_AXN_BUILD_SKELETON_CODEX2_V001.md (seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
