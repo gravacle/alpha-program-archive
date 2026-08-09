@@ -548,3 +548,9 @@ Codex 2 runs under the app's "Approve for me" tier (auto-approves routine action
     itself a freedom and gets its own row in the freedoms-consumed block. Writing a
     sector table that fixes a weight implicitly is the same invisible substitution
     the block exists to expose.
+
+8. SEAL-PROBE BOTH SPELLINGS (2026-08-09, third occurrence of the trap — 753, 770, 792):
+   sidecars attach as <name>.md.seal.sha256 AND as <name>.seal.sha256 (dropping the .md),
+   and packet-manifest membership is a third sealing mode. Every seal-existence probe
+   tests all three before reporting UNSEALED. A false NO-SIDECAR finding nearly graded
+   a sealed demand as ungraded.

@@ -15126,6 +15126,28 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_REFINEMENT_CARRIER_DARIO_V001.md (97f073c1…, seal OK; spans re-derived, all match) mirrored to cleanroom. Dario chained into 789 (ACK observed). Registered, committed, pushed.
 
+## Q-701 — B1b's block was NEVER SEALED: the real obstacle is an index mismatch, and C1 inherits a sealed directed architecture (2026-08-09)
+
+**Question.** Is the "no unique complex" block on the support field real (relay 792, the principal's challenge)?
+
+**Answer.** NOT BLOCKED-CONFIRMED — THE STATED GROUND DOES NOT STAND. The demand extracted verbatim (5 items): support containment [CIS]; the unique CAUSAL CELL clause — whose object is Omega_c, typed by the sealed Q-69 census as a Lorentz-covariant continuum diamond, NOT A CW OBJECT, its uniqueness open of record; cofinality-invariance [CDL falsifier]; inductive compatibility [CDL]; one-use invariance [CIS]. NO SEALED SENTENCE demands fixing a CW complex — the audit's M02 line read a continuum-object uniqueness question as a cellulation demand: the name-match trap, caught by the census built to prevent it. THE REAL OBSTACLE: the support law is indexed by the CAUSAL EXHAUSTION ("Growing volume, not subdivision" — 755 verbatim) while Ref_a is indexed by SUBDIVISION — two index categories, no sealed object carrying one to the other (of record since IDX 3.3). UNBLOCK: (a) a sealed index-carrying object, or (b) proof the support correspondence is simultaneously cofinal-invariant and Ref_a-natural. SELECTING A COMPLEX DISCHARGES NEITHER. Interface: 2 satisfied / 2 undischarged falsifiers / 2 undecidable; no forcing, no freedom — the question was mis-posed.
+
+**NEW OF RECORD:** an entire sealed CAUSAL_DIRECT_LIMIT_* family (packet-manifest verified) displaying a future-directed Lorentz-covariant causal-exhaustion architecture — reported with its own undischarged scope flags attached. **C1 REFRAMED:** the common cell inherits an OPEN Omega_c and an UNBRIDGED INDEX, not a missing cellulation; the uniqueness C1 needs is COFINALITY-INVARIANCE, not object-selection; and it inherits a sealed architecture to build against that the one-line block had made invisible. Plan updated: B1b's status is now THE INDEX-BRIDGE QUESTION.
+
+**Instrument law 8 adopted** from the relay's self-caught false custody finding (the .seal.sha256 spelling trap, third occurrence): probe all three sealing modes before reporting UNSEALED. Verb audit +3, all against the lane's own instruments, including that the decisive CDL find came from seal-verification, not the meaning-probe list.
+
+**Custody.** Artifact STAGE8_B1B_SUPPORT_QUESTION_DARIO_V001.md (585d309d…, seal OK; CIS doubly sealed) mirrored. No complex selected; S26/S08 discharged. Registered, committed, pushed.
+
+## Q-700 — Beta sectors converge symbolic: the non-uniformity is now UNCONDITIONAL; the w_Phi=0 attribution corrected to 768 (2026-08-09)
+
+**Question.** The beta-sector table with w_Phi symbolic (relay 789, adopting Q-695's refutation).
+
+**Answer.** CONVERGED, NOTHING SELECTED. Sectors: geometric beta^-2 (three towers); cross term beta^(w_Phi - 1); C2_parent beta^0; Phi^dagger Phi beta^(2 w_Phi). Exact coincidence structure displayed: 2 distinct sectors at w_Phi = -1, 3 at w_Phi in {0, 1}, 4 generically — NONE selected; w_Phi = -1 flagged as the maximally tidy member the VOID condition forbids adopting. THE UNCONDITIONAL CORE: 6 of 10 downstream statements hold for EVERY w_Phi — above all, BETA IS NON-UNIFORM FOR EVERY w_Phi, witnessed by the Phi-free pair (geometric -2 vs C2_parent 0), so the route's central beta claim is now independent of the entire Phi sector; likewise the no-absorption statement and the two beta-invariant ratios (w_Phi-independence DERIVED: Phi appears in no radius ratio, d/dw_Phi = 0 identically). Four statements demoted to conditional (768's "third weight"; 781's beta^0 placement; 784's "four sectors" — false at the special values). Freedoms block audited line-by-line against the sector table — the exact place the previous two blocks were false; SUBSTITUTED: NONE.
+
+**ATTRIBUTION CORRECTION (law 7, harsher against the lane's own work, accepted):** Q-695 attributed the implicit w_Phi = 0 to relay 784. IT ORIGINATES AT 768, which wrote "beta^-1" and "Phi's own scaling unselected" IN THE SAME PARAGRAPH; 781 and 784 inherited it. Chain of consumers: 768 -> 781 -> 784, all now corrected or superseded. Q-695's attribution stands corrected by this entry.
+
+**Status.** Phase A's banking now awaits only 789's small cross-check (relay 796, queued in the Codex chain). Artifact STAGE8_7A_DBR_BETA_SECTORS_V3_DARIO_V001.md (dcb66174…, seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
