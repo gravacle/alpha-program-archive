@@ -14838,6 +14838,16 @@ All four membership findings traced to the family-4 selection logic and fixed TH
 
 **Status.** SETTLED as cross-check. Routed: author-side confirm-or-contest + the corrected tower statement (Dario, 768, after 766) — the tower restated as what it provably is (exact on the sectors where the cross term provably vanishes; bounds elsewhere; the diagonalization named as the missing object).
 
+## Q-671 — The bundle class: UNDERDETERMINED with the forcing statement IN HAND but UNSEALED; the falsifier's antecedent structurally satisfied (2026-08-08)
+
+**Twelve requires enumerated; the matrix displayed; no sealed text eliminates any candidate.** The corpus CONTAINS the statement that would force |q|: SOURCE_FLUX_CONDITIONED_RECORD_WRITE_GATE_V001 carries spec(Q_Sigma) = {0,1} on "the declared zero-or-one primitive source sector" — one unit through the flux surface gives deg L = 1, |q| = 1/2. THREE SEALED FACTS STOP IT: the gate carries NO SIDECAR (the forcing statement is unsealed); a sealed adjudication FORBIDS the identification it needs (the parent-arm monopole identification); and the surviving set stands uneliminated — |q| = 1/2 and |q| = 1 both satisfy every sealed rule while differing in the zero-mode count 2|q| (the kernel dimension entering any weighted charged determinant).
+
+**THE STATUS MATTERS MORE THAN THE VERDICT:** the route's hard-failure rule fires when two inequivalent choices satisfy all adopted rules with different determinants. The ANTECEDENT IS STRUCTURALLY SATISFIED TODAY; the consequent is unevaluable only because the public layer is unbuilt. The rule has not fired and is not discharged — the route is already standing in the condition it was written to catch. THE SELECTOR MUST LAND BEFORE THE DETERMINANT.
+
+**Basis.** STAGE8_7A_BUNDLE_CLASS_HUNT_DARIO_V001.md, registrar seal-verified, mirrored.
+
+**Status.** SETTLED as hunt. Routed: the gate's provenance and the bar's exact scope (Codex 2, 769) — why is the forcing statement unsealed, what would lawful sealing require, and does the sealed bar forbid the IDENTITY or also a CORRESPONDENCE (the 757 pattern)?
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
