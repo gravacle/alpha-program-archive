@@ -15,4 +15,6 @@ Companion to DECLINE_REGISTER_V002 (the record's own refusals).
 
 Rule: a lane citing a DS-entry as a stop must say "declared, not sealed" and the
 registrar checks whether the declaration still earns its keep. Additions on every new
-declared scope; removals only when the record is shown to force the same boundary.
+declared scope. RETIREMENT IS REGISTRAR-ONLY (2026-08-09, from 813's flagged
+observation): lanes REPORT dissolution evidence; only the registrar retires an entry,
+and only when the record is shown to force or license past the boundary.

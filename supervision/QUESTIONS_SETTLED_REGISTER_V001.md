@@ -15344,6 +15344,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_AXN_FAMILY_BOUNDING_CODEX2_V001.md (a449cfb3…, seal OK) mirrored. Registered, committed, pushed.
 
+## Q-721 — The density chain PROVED: the cross-check's refutation attempts failed on sealed sentences; scope retirement becomes registrar-only (2026-08-09)
+
+**Question.** Cross-check the 810/811 density chain (relay 813).
+
+**Answer.** CONFIRMED THROUGH, WITH TWO PRECISIONS. RETYPE CONFIRMED — the unit-class refutation attempt FAILED on the decisive WHERE sentence ("Cof_R and Dens_R are the induced operators in the already declared R4 unit classes... no scale or frame is selected"), with MEAS-ADD's "ZERO PHYSICS CHOICE" settling VolNorm; no sealed sentence exceeded; 811 authored nothing — it identified a slot with an already-classified measure and removed a name. IDENTIFICATION CONFIRMED IDENTITY — all three trap classes individually checked (normalization clean; basis clean; VARIANCE real, named, and legitimately reconciled by restriction to the canonical slice — consuming singleton-ness, hence inheriting the re-type's scope). D_G CONFIRMED FORCED, precision: forced BY SINGLETON-NESS inherited from the re-type, not by an argument — pinned because nothing remained to choose among; the substantive check (exact aggregation, both composite orders, all five levels to the parent exactly) could have failed and did not. s_g/S_g's pinning SOUND (determination by basis values + constraint + restriction). CLAIM-STATUS UPGRADES: the re-type, the identification, and d_g move CLAIMED -> PROVED (builder + adversarial confirmation). The member's density side is consumable stock; the four-object core unchanged and unenlarged.
+
+**Custody law from the lane's flagged observation (adopted):** 811 retired DS2 — a scope another lane declared — in its own final lines; substance licensed, but SCOPE RETIREMENT IS REGISTRAR-SHAPED: lanes REPORT dissolution evidence; ONLY THE REGISTRAR RETIRES a declared scope (ledger rule amended). A wall a lane can retire is a weaker instrument than one only the registrar can.
+
+**Custody.** Artifact STAGE8_B1C_DENSITY_CHAIN_CROSSCHECK_DARIO_V001.md (seal OK) mirrored. Dario stopped clean; Codex mid-814 (the member grammar). Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
