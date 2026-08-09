@@ -15020,6 +15020,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_PLAN_AUDIT_AND_FORCING_MAP_CODEX2_V001.md (653bf867…, seal OK) mirrored byte-identical. PE-1..6 recorded, not consulted. Codex chained into 783. Registered, committed, pushed.
 
+## Q-690 — The cross-check confirms the theorem and catches the radii: lambda >= C2_parent is PROVED; the spectrum had silently set three radii to 1 (2026-08-09)
+
+**Question.** Does the 781 rebuild survive independent adversarial re-derivation (relay 783)?
+
+**Answer.** THE STRUCTURE SURVIVES; THE CONDITIONING TIGHTENS AGAIN. CONFIRMED: the unconditional operator-functional trace; the universal bound lambda >= C2_parent, CONFIRMED AND TIGHT — with builder derivation (781) plus independent adversarial confirmation (783), it is UPGRADED CLAIMED -> PROVED under the claim-status law: the first PROVED theorem of the D_BR public layer. Hygiene clean: the declined mu^2 = 1 consumed nowhere; dead U2/U5/U7 consumed nowhere. REFUTED: (i) the (F)-alone 16-Tr tier — flatness does not make the unselected internal map Phi SCALAR on E_parent; (ii) the printed (F)+(S) sum and the literal member bounds at their claimed scope — THE FORMULAS SILENTLY SET ALL THREE RADII TO 1, a latent specialization present since the locked spectrum was first written; the radii are free data (D9/S28), so a named unit-radius condition (U) is required, and the member-A "+1" is really 1/R_flux^2; (iii) the freedoms-consumed block INCOMPLETE (omitted f, the radius specialization, and the (F) attachment) — found BECAUSE the block exists, which is the law working.
+
+**Consequences.** (1) Relay 784 queued (Dario chain): radii explicit everywhere, tiers restated true, bounds conditioned per-use, block completed — and with radii explicit the beta mechanism (Q-674) appears IN the formulas, connecting U8 structurally. (2) PE-5 test (ii) remains OPEN: the radius carriage introduces free GEOMETRY-shaped data into the layer's freedom set, which the frozen criterion did not anticipate; noted without scoring (the route is itself allow-stratum construction; over-scoring on route internals is the name-match trap in PE form). (3) Law-7 consumers of this correction: 781 (superseded by 784 on the refuted items), 775/777 (already superseded), the locked-spectrum prose in 760/768 (unit-radius latent — flagged, not yet corrected of record).
+
+**Custody.** Artifact STAGE8_7A_REBUILD_CROSSCHECK_CODEX2_V001.md (8cef86b9…, seal OK) mirrored. PE-1..6 not consulted; verb audit CLEAN. Codex chained scan: next is 784's cross-check when it exists; none higher present — lane stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
