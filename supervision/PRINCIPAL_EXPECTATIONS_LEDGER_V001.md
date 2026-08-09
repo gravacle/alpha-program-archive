@@ -92,3 +92,11 @@ throughout; no 7A criterion may consult this expectation.
 **Zero verdict weight; no 7A criterion may consult this expectation. Status: OPEN.**
 
 **PE-5 test (ii) score VACATED 2026-08-09 (Q-685):** the CONFIRMED verdict rested on 775's core, whose trace form and positivity bound were refuted by independent cross-check (unproved +1/Phi^dagger Phi substitution). Test (ii) reverts to OPEN and re-scores only against the corrected core after the rebuild. PE-5 overall: (i) NEUTRAL, (ii) OPEN.
+
+## PE-7 — The B1 connection is FORCED (SEALED 2026-08-09, BEFORE relay 785 runs)
+
+**Principal's expectation (stated in session, pre-result):** the stitching spine's connection transport field will turn out FORCED — either because the record already supplies it (the derived discrete incidence connection discharges the RA27-3 demand: the answer was already there) or because the demand's sealed constraints pin it uniquely once the existing inputs (Ref_a, closed coframe, volume, incidence) are consumed. This is the B1a instance of PE-5 (cited by pointer; zero weight).
+
+**Frozen scoring (keyed to relay 785's final lines and any commissioned follow-up forcing pass):** CONFIRMING — VERDICT = IDENTIFIED, or PARTIAL with every named gap classified FORCED. REFUTING — VERDICT = DISTINCT and the follow-up forcing classification returns FREE with two inequivalent admissible realizations. NEUTRAL — undecidable-dominated comparison, or PARTIAL with mixed forced/free gaps.
+
+**Zero verdict weight; no criterion may consult this expectation; cited by pointer only. Status: OPEN.**
