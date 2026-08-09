@@ -15520,6 +15520,14 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Artifact seal OK, mirrored. 834 (calculus repair) chained and ACKed — the chain held. 836 (the stratum test) queued to Codex's chain. Both build legs remain CLAIMED pending full cadence. Registered, committed, pushed.
 
+## Q-740 — O1 OBSTRUCTED at both routes; the complete action is the named forcer; the convergence count reaches SIX (2026-08-09)
+
+**Question.** Close O1 by either named route (relay 835, Q_spec slot 10).
+
+**Answer.** OBSTRUCTED, BOTH ROUTES, TYPED EXACTLY. Route B (the cofinal presentation-independent local state limit): fails at THE DIFFERENCE OF THE TWO SOURCE-TAIL COMPATIBILITY DEFECTS. Route A (the derived exact theorem): fails because RECORD-FACTOR LOCALITY DOES NOT ENTAIL SOURCE-ALGEBRA TAIL COMMUTATION. THE NAMED FORCER: THE COMPLETE ACTION — the parent-node convergence count rises 5 -> 6 (the metric conversion; the absolute normalization; E4c's unitary; the f_g bridge; U_Omega; now O1). O3 inherits the proof template and comparison obligation only, no state object. Every hard object in the program now waits at the one gate the build is constructing. PE-8's joint-discharge tally gains its sixth entry (pointer, zero weight).
+
+**Custody.** Artifact STAGE8_QSPEC_O1_CLOSURE_CODEX2_V001.md (seal OK) mirrored. Codex chained into 836 (the stratum test — the chain held). Dario mid-834. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
