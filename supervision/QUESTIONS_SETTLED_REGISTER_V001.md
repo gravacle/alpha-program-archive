@@ -14814,6 +14814,18 @@ Codex 2's verification half over the two family-4 candidates: C-B-V009-01 CLEAN 
 
 **Status.** SETTLED as correction-with-fixings. Routed: the tower REBUILT against the locked spectrum (Dario, 764) — twisted sphere operator, additive C2 on the fixed 16, the cross term carried unselected.
 
+## Q-668 — The tower rebuilt exact; beta acts NON-UNIFORMLY (not removable by normalization); five free data, one constraint (2026-08-08)
+
+**The rebuild:** the monopole-twisted S2 floor derived exactly — lambda_S2^2 = l(l+1) - q^2 + 1/4 = ell(ell+2|q|), an exact reparametrization checked in rationals; at ell=0 EXACTLY ZERO (the zero-mode level, multiplicity 2|q|, one chirality, REPRODUCING THE INDEX THEOREM — whence the locked +1); C2 on the fixed Spin(10) 16 with a x4 multiplicity correction disclosed; the cross term carried unselected; both draft headlines withdrawn with the misreadings named ("minimum closed orientable" modifies a SURFACE — the phrase constrains |q| not at all; the sealed statement is an inequality holding for every q).
+
+**BETA, SHARPENED INTO STRUCTURE:** the three geometric towers scale as 1/R^2; C2_parent is an internal Spin(10) invariant carrying NO geometric radius (Sigma_BR has no Spin(10) directions). BETA ACTS NON-UNIFORMLY — it moves the geometric towers against the internal Casimir and is NOT REMOVABLE BY OVERALL NORMALIZATION; fixing that ratio IS the normalized transfer to the L_BR proper-time consumer. The weight itself declined — TWO's normalization is not sealed.
+
+**The free-data ledger as kill condition:** FIVE free data — radii, spin structure, bundle class, odd profile, chiral index. The locked bound contributes exactly ONE constraint (|q| >= 1/2, non-vanishing flux); TWO fixes three within its own scope (a scope declaration, not falsifier progress); four of five change the SPECTRUM, not labels; NOTHING in this relay reduces the free set — stated plainly.
+
+**Basis.** STAGE8_7A_TOWER_REBUILD_DARIO_V001.md, registrar seal-verified, mirrored.
+
+**Status.** SETTLED as exact structure. Routed: the bundle-class selector hunt (Dario, 765) — the first of five, per the falsifier's demand that inequivalent completions not survive.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
