@@ -15528,6 +15528,16 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Artifact STAGE8_QSPEC_O1_CLOSURE_CODEX2_V001.md (seal OK) mirrored. Codex chained into 836 (the stratum test — the chain held). Dario mid-834. Registered, committed, pushed.
 
+## Q-741 — The calculus at true scope: U1 build-supplied; U2/U3 the new honest opens — the rigidity and no-outside forms at the descendant level (2026-08-09)
+
+**Question.** Repair the calculus per 832 (relay 834).
+
+**Answer.** ADOPTED IN FULL, RESTATED EXACTLY. G1-INSTANCE stands (the quantifier read exactly: names the square-generated descendants, asserts no converse). UNIVERSAL TOTALITY = U1 ∧ U2 ∧ U3: U1 (action-to-operator map with domain) BUILD-SUPPLIED — discharged when a completed variation meets the binding clauses 1 and 5; U2 (canonical decomposition law) and U3 (same-parent exhaustiveness) HAVE NO SUPPLIER OF RECORD — CIS expressly permits effective record/source/gauge/gravitational/environmental same-parent descendants and seals no reducing theorem. CENSUS B: CLOSED IFF U1∧U2∧U3 — open today on two counts. The invalid inference named with precision (totality of an operation does not confer decomposition uniqueness; three gaps in one step). 832's alternative repair (census B = the undivided {D^2}) RECORDED, NOT TAKEN — a build decision, both options displayed. CARRIERS: 3/7 partly from stock (the incidence TYPE; MF's commutativity gated on the MF flag; the GNS-derived outgoing carriers), 1 awaiting the build with supplier (U1), 3 with NONE (U2 — "the sharpest gap" — U3, and 7 collapsing into U3). REPLAY INTERFACE: 832's taxonomy adopted (F1-F7 falsifiers / F8-F10 promotions / F11-F12 conditionals / F13 mandatory not-established / F14 meta-gate).
+
+**The shapes noted (zero weight):** U2 is a decomposition-uniqueness and U3 an exhaustiveness — the RIGIDITY and NO-OUTSIDE forms recurring at the descendant level; their only plausible supplier is the build's own completion, and the record now says so by its silence. Skeleton V2 (relay 837) consolidates all corrections and packages the closure round.
+
+**Custody.** Artifact STAGE8_AXN_BUILD_CALCULUS_V2_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
