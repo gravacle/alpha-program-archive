@@ -15364,6 +15364,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_AXN_MEMBER_GRAMMAR_CODEX2_V001.md (a036bcca…, seal OK) mirrored. Codex stopped clean. Registered, committed, pushed.
 
+## Q-723 — The common cell posed: 20-element interface, 13-item runnable checklist, and one honest amendment — the core is FIVE objects (2026-08-09)
+
+**Question.** Pose the common cell's interface, input map, and distance from runnable (relay 816).
+
+**Answer.** POSED WHOLE, EVERY FENCE HELD. 21 sealed spans -> a 20-element typed interface; R9-JII statable-not-runnable with 13 exact prerequisites listed. INPUT CENSUS: 10 elements EXIST as sealed law/proof/precursor; 9 await the consolidated objects; ONE FIFTH PROOF-OBJECT: U_Omega — the still-open sealed demand that the complete microscopic parent assigns EXACTLY ONE Lorentz-covariant continuum diamond Omega_c per primitive incidence. Honest typing of the amendment: not a new discovery (Omega_c's uniqueness has been open of record since the census) but a PROMOTION — the junction consumes it, so the core list is now FIVE: the grammar/no-outside, the f_g bridge, F_g, eta_resp, U_Omega. Its type CONFIRMS the PE-10 typology rather than breaking it: "exactly one" is a UNIQUENESS PROOF — selection-by-forcing — and it points at the parent again. Custody exemplary: Omega_c stayed a continuum diamond; the F-rule stayed a parameter over the 1887 family; E4b consumed only in the narrowed Q-711 form; ERR/GNS/RNG stayed precursors; no collision across S01-S37.
+
+**Commissioned:** relay 817 — U_Omega under the standard treatment (existence-vs-uniqueness split; what the operator-native parent supplies; derivable-forced / obstructed / undecidable, with the parent-node convergence count stated if it lands there). Relay 815 (materiality) runs lane-opposite.
+
+**Custody.** Artifact STAGE8_C1_COMMON_CELL_POSED_CODEX2_V001.md (fa4909a4…, seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
