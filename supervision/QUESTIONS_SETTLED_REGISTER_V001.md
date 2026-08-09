@@ -15302,6 +15302,14 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_CORRECTED_JOINT_SOLVE_CODEX2_V001.md (9cf9b329…, seal OK) mirrored. Registered, committed, pushed.
 
+## Q-717 — The density layer costed: two forced, three on named missing objects, two behind our own wall (2026-08-09)
+
+**Question.** The seven density-layer components, typed and classified (relay 810).
+
+**Answer.** 0 SUPPLIED / 2 DERIVABLE-FORCED / 0 FREE / 3 UNDECIDABLE / 2 OPACITY-BOUND. s_g and S_g are FORCED once the missing physical f_g bridge exists. f_g, F_g, eta_resp are undecidable on NAMED missing sealed objects — and f_g's missing object IS the F0 physical-carrier bridge (absence #3): the density layer's hard core and alpha's computand chain SHARE AN OBJECT, one more thread into the converter/action node that relay 809 is typing now. delta_K' and d_g are blocked ONLY by 793's declared R4Dens opacity (DS2) — honestly confessed as ours, not the record's; the scopes-ledger discipline held. eta_resp typed: DIFFERENT FROM but dependent-adjacent to materiality's two sealed gaps. A seven-item path to a formable d_K displayed. Relay 811 (queued): the lawful re-typing that dissolves or narrows DS2 to the record's true boundary; if it lands, the density layer reduces to exactly the three named missing objects — the same node as everything else.
+
+**Custody.** Artifact STAGE8_B1C_DENSITY_LAYER_CODEX2_V001.md (00e2654a…, seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
