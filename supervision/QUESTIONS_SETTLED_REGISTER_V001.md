@@ -15320,6 +15320,20 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1C_RECEIVER_RETYPE_CODEX2_V001.md (8d57b8d7…, seal OK) mirrored. Codex stopped clean; its next campaign is defined by 809's verdict — the brief idle is correct. Registered, committed, pushed.
 
+## Q-719 — The action node typed: a FAMILY missing a SELECTOR, plus two fenced construction obligations; the bounding campaign is the principal's own release condition (2026-08-09)
+
+**Question.** Object or role — the B0 probe on the six action-threads (relay 809).
+
+**Answer.** MIXED, WITH THE STRUCTURE THAT MATTERS. Threads: OBJECT 2 (ARCH section 5; the derive-and-vary no-go) — both at the construction end, both fenced with deliberate ANTI-SUBSTITUTION clauses; ROLE 2 (S28; S34) — the selection end, neither naming an action-functional (S34's "action" was OUR reading of "parent"; S28's singular verb "boundary closure plus the induced action SELECTS them" = one selector); MIXED 1 (M05); STRUCK 1 (T6/S16 — zero occurrences; a mis-bound thread, ours). NATIVE FORCERS TYPED BY OUTPUT: elimination, constraint-on-subspace, independence — NONE has ever output a unique positive value; TYPE_MATCHES 0 clean, TYPE_GAPS 2 — the role is real and relocated, not dissolved. This is where AXN differs from B0.
+
+**THE LOAD-BEARING FIND (a sealed principal ruling, verified):** DECISION_S03_EXPLICIT_INCOMPLETENESS_2026-08-06 already types the node — "the sealed stock admits an ADMISSIBLE ACTION FAMILY WITH NO SEALED SELECTOR; the family is not bounded or finitely enumerated"; the sealed COMPLETE_PARENT_ACTION_UNDERDETERMINATION_GATE; construction-end selection barred "until the record itself forces one." THE ACTION LAYER IS A FAMILY MISSING A SELECTOR. Release condition (a) — "BOUND OR CLASSIFY THE ADMISSIBLE ACTION FAMILY FROM RECORD STRUCTURE ALONE" — is elimination-typed: EXACTLY the native forcers' output type and exactly the 807 instrument's demonstrated capability. Also of record: R3's sealed parent result is OPERATOR-NATIVE (zero "action" occurrences) — the word enters where the program needs a name for the selection-performer.
+
+**THE NODE DECOMPOSES INTO TWO CAMPAIGNS:** (1) AXN-BOUND — bound/classify the admissible family from record structure alone (ruling-free, native-typed, S03's own release condition; relay 812 opens it); (2) AXN-CONSTRUCT — the two fenced obligations (T1/T5), no substitute admitted, standing. S25 FLAGGED as the live hazard of any role reading: an equal-action principle is the refused cheap discharge; the fence stands. Plan V004's conditional AXN line resolves accordingly.
+
+**PE-9 test (i) SCORED (frozen letter):** MIXED without clean native matches = NEUTRAL. Substance recorded without weight: the converter reading survives at the selection end (bounding is native-typed) and is fenced at the construction end by the record's own anti-substitution clauses. PE-8 remains OPEN (its criterion keys on a derived action existing; the family discovery does not score it). Verb audit +3, including a near false-negative against the most load-bearing citation (the third probe-width lesson this session).
+
+**Custody.** Artifact STAGE8_AXN0_ACTION_AS_ROLE_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

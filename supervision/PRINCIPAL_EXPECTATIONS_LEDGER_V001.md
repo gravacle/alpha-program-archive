@@ -120,3 +120,5 @@ throughout; no 7A criterion may consult this expectation.
 **Zero verdict weight; pointer-only; no criterion may consult this expectation — 809's isolation is absolute (its relay predates this seal and does not name it). Status: OPEN.**
 
 **PE-7 SCORED TERMINALLY 2026-08-09 (Q-715):** letter NEUTRAL (the 785 verdict was PARTIAL, not DISTINCT; the frozen arms keyed on verdict names — fourth drafting instance); SUBSTANCE REFUTED AS POSED: the lift is FREE, dimension 1887, within the declared linear class (DS1). The connection's per-object half remains derived (Q-692); the refinement lift is the record's allowed freedom.
+
+**PE-9 test (i) SCORED 2026-08-09 (Q-719):** relay 809 returned MIXED (OBJECT 2 / ROLE 2 / MIXED 1; TYPE_MATCHES 0 clean) — NEUTRAL by the frozen letter. Substance: the converter reading survives at the selection end (the bounding demand is native-typed); the construction end is fenced by deliberate anti-substitution clauses. Test (ii) (the G4 assembly's form) remains the live test.
