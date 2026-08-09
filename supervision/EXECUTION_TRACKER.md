@@ -643,7 +643,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 802 | Codex 2 | [PLAN:B1a-7] full-space solve | RETURNED (Q-710; UNSATISFIABLE, exact certificate; ruling parked on 804) |
 | 803 | Codex 2 | [PLAN:C1-PRE-3] E4a/E4b cross-check | RETURNED (Q-711; E4a PROVED; E4b narrowed) |
 | 804 | Dario | [PLAN:B1a-8] certificate verification | RETURNED (Q-712; CERTIFICATE REFUTED; class NON-EMPTY; ruling dissolved) |
-| 805 | Codex 2 | [PLAN:B1a-9] divergence locate (cold start — needs keystroke) | QUEUED |
+| 805 | Codex 2 | [PLAN:B1a-9] divergence locate | SENT (ACK observed) |
+| 806 | Dario | [PLAN:B1c-3] receiver inhabitance test (cold start — needs keystroke) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
