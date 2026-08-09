@@ -78,3 +78,5 @@ throughout; no 7A criterion may consult this expectation.
 (ii) Relay 775 (public-layer campaign): CONFIRMING if the UNIFORM_CORE (statements holding for every bundle class) contains the trace/positivity (geometry-shaped) items while class-dependence concentrates in the flux/charge (gauge-shaped) items; REFUTING if geometry-shaped items turn out class-dependent.
 
 **Zero verdict weight; no 7A criterion may consult this expectation. Status: OPEN.**
+
+**PE-5 test (i) SCORED 2026-08-09 (Q-681):** relay 776 returned FORCED_UNIQUE = 0, FREE_MULTIPLE = 19. By the frozen criterion (NEUTRAL if fewer than 3 objects on either side), test (i) = NEUTRAL. Test (ii) — relay 775 — remains OPEN and is now the live test.
