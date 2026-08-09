@@ -14744,6 +14744,20 @@ FRAME_DATA DERIVED: the 24 order-simplices' frame matrices computed exact from t
 
 **Status.** SETTLED. Routed: the forced one-liner authored + coframe closure (Codex 2, 756); the identification-family survey (Dario, 757).
 
+## Q-661 — The identification family: DISTINCT, the root is uniqueness-of-complex (program-future), and the junction test's path runs through the physics rows (2026-08-08)
+
+**The commission's "one question in three costumes" is REFUTED by a sealed census** (the Q-69 name census: SEVEN DISTINCT OBJECTS SHARING "complex" OR "cell", KEPT SEPARATE — Omega_c a Lorentz-covariant continuum diamond, not a CW object; R_c a three-dimensional Hilbert span, not a cell of any complex; "merging any two on the word cell would be the name-match trap the charter warned about"). Structure: (3) is (1)'s STATUS (OVERLAPPING is a positive finding — half the carrier exists); (1) pairs a CW k-cell with a Hilbert span; (2) is a TYPE MISMATCH of record, not an unsealed identification; neither implies the other. THE ROOT IS NOT AN IDENTIFICATION: no sealed text fixes a unique complex (four independent places; uniqueness "left as a theorem obligation"; the cellulation-family decision retired UNSELECTED) — with no unique complex, both correspondences are ill-posed before they are unsealed. The root survives 750 untouched (the working class restricts arrows, not objects).
+
+**The correction of record:** sealing (1) discharges ONE of Q-620's TWO conjunctive entry conditions — R9-JII stays unrunnable until Q-126's derived-AND-beta-sensitive junction exists, owned by 7A's physics rows. THE GRAVITY TEST'S PATH RUNS THROUGH THE PHYSICS ROWS.
+
+**Paths:** root — program-future (adopting a unique complex collides with D012's "one member may not be selected"); (1) — adoption brief displayed (a correspondence ON THE OVERLAP, never identity; the non-overlap displayed; licensed re-presentations named; made in the open against J1-J4 with the R9 falsifier armed); (2) — program-future (a derived map could be BUILT with existence and uniqueness proved — named, not sketched).
+
+**Disclosure:** the deciding source was never-opened — the EIGHTH such on this thread — surfaced in passing by 755 and unopened then; the comfortable "one root" reading was declined.
+
+**Basis.** STAGE8_7A_IDENTIFICATION_FAMILY_DARIO_V001.md, registrar seal-verified, mirrored.
+
+**Status.** SETTLED. The stitching arc's derivable stock is near-exhausted; per the road, STEP 7 (the Thomson chain) opens — the beta-sensitivity feeder Q-126 demands.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
