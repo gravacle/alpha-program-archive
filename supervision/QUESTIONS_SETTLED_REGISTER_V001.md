@@ -15274,6 +15274,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_DIVERGENCE_LOCATE_CODEX2_V001.md (4f1db6c0…, seal OK) mirrored. Codex stopped clean; Dario mid-806 (receiver inhabitance, lane-opposite). Registered, committed, pushed.
 
+## Q-714 — The exhibit is 4/10 of a member: the whole coframe layer; B1c's gate narrows to the density side; B2's door may be open (2026-08-09)
+
+**Question.** Does the 804 exhibit inhabit the B1c receiver (relay 806)?
+
+**Answer.** NOT-THIS-CANDIDATE — WITH THE GAP RE-TYPED, WHICH WAS THE POINT. The candidate was stated PARTIAL before the predicates ran (the verb-audit's own demand: a foreseeable rejection must not be dressed as a discovery). PREDICATES 3/9 pass, 1 partial, 2 fail, 3 unposeable — and the split is perfectly clean: every pass is coframe/curvature/measure (functoriality; incidence intertwining via the PROVED half; EXACT ENERGY — children/parent = 1 on everything, discharging 793's coframe-side I8 build failure); every fail/unposeable quantifies over the absent density/current/support rows. THE EXHIBIT SUPPLIES 4 OF 10 MEMBER COMPONENTS (e', mu', a', F' — verified entrywise on both generators, 65 and 216 edges), plus quadratic transport, incidence preservation, identity/composition. STILL ABSENT: the six density/current/support components, which R4Dens's deliberate opacity makes a typing question. B1c INHABITANCE IS NO LONGER OPEN AT THE COFRAME LAYER.
+
+**B2's blocker changed character.** 793: not runnable, no transport exists. NOW: a coframe transport EXISTS (identity law, total on A0/A1/A2 and composites); the only bar is the assumption that the gluing test needs a full receiver member — and whether it actually consumes the density rows is a SCOPE question Dario correctly declined to decide. Relay 808 (Codex chain, after 807) rules the scope from the sealed input signature — AND IF COFRAME-ONLY, RUNS THE FORCED DIAGNOSTIC: the compatibility residual, exact, displayed whole, uninterpreted. The campaign's biggest prize (the obstruction, any curvature precursor's home) may be one signature-reading away. I8's pass is scoped to the disclosed quadratic reading (V011 D10 local orthonormal, the 804 reading) — re-scope trigger noted if the general-coframe question resolves otherwise.
+
+**Custody.** Artifact STAGE8_B1C_RECEIVER_INHABIT_DARIO_V001.md (seal OK) mirrored. Dario stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
