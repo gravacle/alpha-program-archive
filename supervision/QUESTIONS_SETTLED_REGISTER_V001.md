@@ -15148,6 +15148,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Status.** Phase A's banking now awaits only 789's small cross-check (relay 796, queued in the Codex chain). Artifact STAGE8_7A_DBR_BETA_SECTORS_V3_DARIO_V001.md (dcb66174…, seal OK) mirrored. Registered, committed, pushed.
 
+## Q-702 — The incidence half is PROVED; the min-norm lead is NOT NATURAL and dies as a canonical rule (2026-08-09)
+
+**Question.** Does 788's incidence half survive independent re-derivation, and is the min-norm combination natural across generators (relay 794)?
+
+**Answer.** CONFIRMED AND KILLED, RESPECTIVELY. THE INCIDENCE HALF IS PROVED (claim-status upgrade: builder derivation 788 + independent adversarial confirmation 794): the parent 4-cube and all three refined complexes rebuilt independently from coordinate/face posets; sd*_1/sd*_2 re-derived from the sealed aggregation constraints; the DIRECTION THEOREM confirmed (aggregations are refined-to-coarse surjections; J_1 is a section; V011's injective-cellular map is a different type); the cochain-map identity verified as an EXACT INTEGER MATRIX IDENTITY on all three cases plus 771 random-cochain trials with zero mismatches; the carrier-level residuals reproduced exactly (561 / 2023 with physical quotient 119 / 7599). Q_flux's three defining properties validated (worst residual 5.7e-15). THE NATURALITY TEST: A1 and barycentric A2 agree at numerical precision; FREUDENTHAL A2 FAILS at 1.20e-1 and the mixed composite at 1.36e-1 — the min-norm lead is NOT NATURAL and dies as a canonical rule. No generator-specific adjustment, metric change, or weighting was used or permitted.
+
+**Consequences.** (1) B1a's forced-vs-free question REMAINS OPEN at functor level — the strongest forcing candidate is dead, which LEANS free but proves nothing; the properly posed solution-set test awaits the completed carrier (795's coframe half in flight). (2) PE-7 remains OPEN; the frozen criterion's follow-up pass ran and eliminated a candidate without deciding the question. (3) The metric ruling that would have gone to the principal DISSOLVES UNASKED — the record answered it first (RULING-LAST working exactly as designed). (4) Law-7 consumers named by the lane itself: 788 §3.3 and Q-698's conditional branch — both corrected by this entry; the confirmed incidence half unaffected.
+
+**Custody.** Artifact STAGE8_B1A_CARRIER_CROSSCHECK_NATURALITY_CODEX2_V001.md (614e20c8…, seal OK; sealed V011 packet copy used exclusively) mirrored. Codex chained into 796 (the Phase-A banking check). Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

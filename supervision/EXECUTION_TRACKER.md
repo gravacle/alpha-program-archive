@@ -632,8 +632,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 791 | Codex 2 | [PLAN:B1c] current-density hunt | RETURNED (Q-697; PARTIAL; refinement stratum is the uniform gap) |
 | 792 | Dario | [PLAN:B1b] support question | RETURNED (Q-701; block NOT sealed; index-bridge is the real question) |
 | 793 | Codex 2 | [PLAN:B1c-2] density receiver + bridge build | RETURNED (Q-698; receiver sealed; stopped on JOINT_A1_A2_FIELD_EXT_MEMBER) |
-| 794 | Codex 2 | [PLAN:B1a-4] carrier cross-check + naturality test | SENT (ACK observed) |
-| 795 | Dario | [PLAN:B1a-5] coframe half + O1 (cold start — needs keystroke) | QUEUED |
+| 794 | Codex 2 | [PLAN:B1a-4] carrier cross-check + naturality | RETURNED (Q-702; incidence PROVED; lead NOT NATURAL) |
+| 795 | Dario | [PLAN:B1a-5] coframe half + O1 | SENT (ACK observed) |
 | 796 | Codex 2 | [PLAN:A2-CORRECTIVE-3] beta v3 cross-check — banking check (chains after 794) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
