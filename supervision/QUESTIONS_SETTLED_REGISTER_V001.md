@@ -14692,6 +14692,18 @@ DETERMINED: 4 authority nodes, 4 claim nodes, 8 exact typed edges — including 
 
 **Status.** SETTLED as refutation-with-yield. Emptiness FORECLOSED; the Q-651 routes return to the principal PLUS the flat-chamber route.
 
+## Q-655 — Route (d) fails doubly; Q-654's INHABITED headline is CORRECTED to occupancy-UNKNOWN; V008-05 completes (2026-08-08)
+
+**Correction of record first.** Q-654 registered the chamber INHABITED on four members; 749 shows all four FAIL the clause's CONJUNCTIVE condition — "the same smooth coframe AND connection": M1 is an index-signature convention (eta/epsilon fixing the Hodge star), coframe-shaped only via 746's own unsealed inference; M4 inherits M1; M2/M3 are genuine smooth CONNECTIONS with zero coframe/tetrad/frame occurrences in their files. A connection alone cannot satisfy a conjunction. OCCUPANCY: UNKNOWN — neither emptiness (746's five legs answered the wrong question) nor inhabitation (no verified member) is established. Dario's disclosure of record: its own 746 quoted the conjunction and never checked both halves — the fifth occurrence of a distinction inside already-displayed text deciding a relay against its displayer; a principal decision (the flat-chamber route) was taken on the wrong headline.
+
+**Route (d)'s honest yield.** ETA-PRESERVATION IS DERIVED — every arrow and composite preserves the frozen (eta, epsilon), displayed as a derivation — but it is invariance BY ABSENCE OF ACTION, and the x_alt test proves it is NOT the clause's content (x_alt preserves eta exactly as x_F does, yet the sealed 738 record has the clause excluding x_alt; a clause whose content were eta-preservation would admit it — 746's withdrawn argument reused correctly, as a content test, with the reuse flagged). The corollary worth keeping: the object V011 exhibits that IS coframe-shaped — the per-cell tetrad e = diag(ell) — is exactly the object refinement CHANGES; the flat route preserves what the moves cannot touch and changes what the clause names. ZZ3 collapses to Q-624's NOT-FORCED; the Z-composite remains one witness for one pair; FC-1's axiom remains adopted, existential, superseded nowhere. 742's refutation unchanged. ROUTES (a)-(c) RETURN; (d) doubly closed.
+
+**Also (Codex 2, 748):** V008-05 completes — 5/5 elements: the competitor normal form and noncommuting fixture BUILT (CS compiles PASS_UNIVERSAL_WORD_REPRESENTS_TARGET_HOLONOMY; MG compiles PASS_INVERSE_OPPOSITE_COMPETITOR_REJECTED); the unique-physical-connection/preferred-fixture reading honestly not claimed. Both instances stateable, admission barred.
+
+**Basis.** STAGE8_7A_FLAT_CHAMBER_DARIO_V001.md (15/15 pins); STAGE8_7A_V008_05_COMPETITOR_CODEX2_V001.md; both registrar seal-verified, mirrored.
+
+**Status.** SETTLED as double-closure + correction. The principal rules among (a) restrict-and-say-so / (b) the R-L2b sliver exponent / (c) C_ref-D3 — with both force routes now honestly spent.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
