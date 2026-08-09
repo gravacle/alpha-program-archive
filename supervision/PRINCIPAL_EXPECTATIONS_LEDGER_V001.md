@@ -39,3 +39,24 @@ is new sealed envelope/carrier classes via surfaced revision, not per-row
 derivation.
 
 Resolution: CONFIRMED 2026-08-08 by Q-626 — C=198/247 (80%) constructible; 18 of 42 derivational items are exactly missing schema classes (boxes). Sealed classification 1417390c…. Zero verdict weight was maintained throughout the classification.
+
+## PE-3 (2026-08-08, after Q-657; before any 7B work exists)
+
+Brian, verbatim: "my sense is that we can 'make' classical gravity from these
+record level ingredients."
+
+Context of record: recorded after the stitching campaign's derived ingredients
+stand sealed — exact refinement bookkeeping (the conservation law), generic
+microstate degeneracy (non-gauge, coarse-invisible), the dynamical per-cell
+tetrad with derived transformation law, gluing freedom located at subdivision,
+and the preregistered re-opening trigger (the chamber that populates when a
+smooth coframe-and-connection member is constructed). The expectation: 7B can
+CONSTRUCT classical gravity from these ingredients — the smooth member built
+via the refinement limit, the chamber populated, the Einstein limit derived
+(the Jacobson-template and Regge-template correspondences noted at zero
+verdict weight). Named residuals at recording time: the S5.3 convergence
+burden (R-L2b exponent), the materiality question, and OBS-22's confirmation
+of the address.
+
+Resolution: OPEN — resolves against 7B's sealed results. Zero verdict weight
+throughout; no 7A criterion may consult this expectation.
