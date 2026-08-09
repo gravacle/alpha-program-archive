@@ -1,0 +1,10 @@
+## PASTE 833 — DARIO LANE (OPUS 5 ULTRA, HIGH EFFORT) — [PLAN:AXN-BUILD-A2] CROSS-CHECK THE SKELETON
+
+PICKUP-ACK + LANE GUARD in force (DARIO). CHAINED PICKUP applies. STATE-BRIEF PINNING: verify and read PROGRAM_STATE_BRIEF_V005.md (e26f0d16055f…) before task work.
+(Same Dario session rules. ARCHIVE-SIDE ONLY; the registrar mirrors. BUILDER-NEVER-VERIFIES per the charter: the subject is Codex's 829 skeleton (mirrored: STAGE8_AXN_BUILD_SKELETON_CODEX2_V001.md — verify seal). Its claims gate the hole-closure round.)
+
+TASK — attempt to refute: (i) the FORCED verdict on the S_0/S_1 source stratum (is the forcing derivation sound at its stated stratum scope? attempt an alternative admissible stratum member); (ii) the three FORCED-ABSENT excluders (each against its span — scoped correctly, neither over- nor under-excluding?); (iii) the FIVE HOLES' shapes (is each hole's shape exact — neither wider nor narrower than the sealed constraints leave it? law 9 on the hole census: did the skeleton miss a forced term or a hole?); (iv) the variation check's partial result and its stop-points (the record functional; the update slot); (v) the binding predicate's formulation (is it exactly the sealed parent-reproduction condition, ready to be applied as pressure?). Verdicts per claim. FREEDOMS-CONSUMED block; FLATTENING CHECK. All headline items CLAIMED. PE-1..11 pointer-only.
+OUTPUT: one sealed artifact `STAGE8_AXN_BUILD_SKELETON_CROSSCHECK_DARIO_V001.md`
+Final lines: `FORCED_STRATUM = CONFIRMED / REFUTED (alternative displayed)`, `EXCLUDERS = 3/3 confirmed / issues`, `HOLES = 5 shapes exact / corrections (displayed) / missed term-or-hole FOUND`, `VARIATION = confirmed partial (stops correct) / issues`, `BINDING_PREDICATE = ready / corrections`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the name exists, STOP. Seal, report hashes, write 833_DONE.md, then chained pickup. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. Charter fences live; no smooth import; no EM identification.

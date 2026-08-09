@@ -15502,6 +15502,14 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Artifact STAGE8_AXN_BUILD_SKELETON_CODEX2_V001.md (seal OK) mirrored. Registered, committed, pushed.
 
+## Q-738 — D2 COLLAPSES INTO THE BUILD (14 of 15); the calculus corrected to instance scope; the program's remainder is now one build, one protocol choice, and the verdict layer (2026-08-09)
+
+**831 (the slot census).** The unaudited assumption does not survive — the principal's fourth vindicated challenge. All 18 slots extracted with EXACT completeness (two independent sealed sources agree; closed_slots = 0 sealed). CENSUS: 0 FILLED / 6 NODE-FACE (T_R via S34's conditional — principal-selector risk flagged; the gravitational action+measure — the measure half a separate absence; the dynamical U(1) action = S03 = OBJECT 1's axis; the F^2 exclusion = object 1's exclusion face; the enlarged-branch exhaustion = the light-cone lemma's territory; the CISP descendant test = THE BUILD'S REPLAY STEP) / 8 DERIVABLE-FROM-ACTION (the record's own discharge conditions: "tied to the complete charged action"; "parent-derived"; ordering-blocked in sequence) / 1 FREE-CONTENT — slot 18, "one unused structure-sensitive prediction": A PROTOCOL SLOT within sealed eligibility rules, correctly left unsketched (the void condition). STRUCTURAL DRIVER: eight slots ARE EM steps 1-9 as a frozen ordered sequence — not independent volume. **D2_PRICING = COLLAPSES INTO THE BUILD (14 of 15 non-O slots).** The plan's second long pole falls; typing method disclosed (the record's own "what would move it" column).
+
+**832 (the calculus cross-check).** REAL REFUTATIONS AT THE OVER-SCOPE: G1 confirmed ONLY for the sealed finite-parent instance, refuted as a universal decomposition-free rule; CENSUS_B's CLOSED verdict REFUTED (the same D^2 admits distinct undeclared component censuses; the action-to-operator and complete same-parent-descendant premises absent — supplied by the build itself, making the closure CONDITIONAL-ON-THE-BUILD); falsifiers verified 14/14 verbatim with P3's conjuncts distinct, but only F1-F7 source-declared and several replay inputs incomplete; the protocol has SEVEN missing choice/carrier classes. **Q-736's "closed downstream" headline is CORRECTED by this entry (law 7): closed-downstream-conditional — on the declared decomposition and the build's premises.** Repair commissioned as 834; the skeleton's cross-check as 833 (gating the hole-closure round).
+
+**THE PROGRAM'S REMAINDER, RESTATED WHOLE: one build (the action, five holes under the binding predicate), one protocol choice (slot 18, yours, within sealed eligibility), and the verdict layer.** Custody: both artifacts seal-verified, cross-mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
