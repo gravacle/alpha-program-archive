@@ -662,6 +662,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 826 | Codex 2 | [PLAN:C1-4] zeros re-audit | RETURNED (Q-733; CONFIRMED; O2's one consumer placed at verdict scope) |
 | 827 | Dario | [PLAN:F0-2] Thomson identity | RETURNED (Q-732; DISTINCT; source question loses last holder; 2 residuals) |
 | 828 | Dario | [PLAN:F0-3] Q_spec source requirement | RETURNED (Q-734; 827 REFUTED; O1/O2/O3 are Q_spec slots 10-12; law 9) |
+| 829 | Codex 2 | [PLAN:AXN-BUILD-A1] the action skeleton (cold start — needs keystroke) | QUEUED |
+| 830 | Dario | [PLAN:AXN-BUILD-B1] the descendant calculus (cold start — needs keystroke) | QUEUED |
 | 816 | Codex 2 | [PLAN:C1-1] common cell posed | RETURNED (Q-723; 20-elem interface; core = FIVE objects incl. U_Omega) |
 | 817 | Codex 2 | [PLAN:C1-2] U_Omega typed | RETURNED (Q-724; UNDECIDABLE; lemma named; parent convergence = 5) |
 | 813 | Dario | [PLAN:B1c-6] density-chain cross-check | RETURNED (Q-721; chain PROVED; retirement registrar-only) |

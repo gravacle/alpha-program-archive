@@ -15478,6 +15478,10 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_F0_QSPEC_SOURCE_REQUIREMENT_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
 
+## Q-735 — THE BUILD IS OPEN (2026-08-09, by the principal's order)
+
+The derive-and-vary campaign for the complete compact source/gauge/gravity/environment action — the program's one remaining construction (Q-733), the node every road converges on — is OPEN under AXN_BUILD_CHARTER_V001 (sealed c0ad6decf156…). The charter's law: derive-never-select with the stop-on-freedom rule; every coefficient derived or carried; claim-status cadence with alternating builder/verifier; the fences as walls (T1/T5, S19/S24/S25/S26, law 9); the discharge ledger naming where each completion lands (the five objects' faces; O2's verdict consumer; Q_spec slots 10-12; the MF flag; PE-8/PE-9 terminal scoring by frozen criteria). LEGS OPENED IN PARALLEL: 829 (Codex — the action skeleton: term-by-term forcing, freedoms displayed as exact holes, the variation's first check against the sealed parent) and 830 (Dario — the descendant calculus: generation rules, falsifier interface, the replay protocol drafted closed). Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
