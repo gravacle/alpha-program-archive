@@ -90,3 +90,5 @@ throughout; no 7A criterion may consult this expectation.
 **Frozen scoring (law-keyed):** CONFIRMING — the frozen discrimination rule's output is identical for both kinds. REFUTING — the outputs differ (the route's falsifier fires simultaneously; PE-5 is scored against in the same entry). NEUTRAL — no discrimination point ever becomes lawfully evaluable. The discrimination rule itself is drafted by relay 777, frozen by registrar seal BEFORE any evaluation; no evaluation result may feed back into the rule.
 
 **Zero verdict weight; no 7A criterion may consult this expectation. Status: OPEN.**
+
+**PE-5 test (ii) score VACATED 2026-08-09 (Q-685):** the CONFIRMED verdict rested on 775's core, whose trace form and positivity bound were refuted by independent cross-check (unproved +1/Phi^dagger Phi substitution). Test (ii) reverts to OPEN and re-scores only against the corrected core after the rebuild. PE-5 overall: (i) NEUTRAL, (ii) OPEN.

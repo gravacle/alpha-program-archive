@@ -6,9 +6,10 @@ The STATUS BLOCK is the answer to "where are we in the plan" — kept current by
 
 ## STATUS BLOCK (registrar-maintained)
 
-CURRENT STEP: A1/A2 — 777 (family build) and 778 (core cross-check) queued.
+CURRENT STEP: A1 — 777 (family build) in flight; A2 DONE with REFUTATIONS (Q-685:
+  trace + positivity refuted, fork confirmed) — a corrective rebuild relay follows 777.
 CRITICAL PATH: A → B → C → D → E → F. G follows F.
-LAST COMPLETED: Q-683 (carry-both ruling; FAMILY-BEFORE-DETERMINANT; PE-6 sealed).
+LAST COMPLETED: A2/778 cross-check (Q-685); Q-682 corrected; PE-5(ii) vacated to OPEN.
 BLOCKED ON PRINCIPAL: nothing (step-11 adoption optional, off critical path).
 
 ## PHASE A — BANK THE D_BR FAMILY (~2–4 relays)
