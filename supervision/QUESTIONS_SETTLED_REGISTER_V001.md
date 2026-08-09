@@ -15456,6 +15456,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_F0_THOMSON_IDENTITY_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
 
+## Q-733 — The measuring phase closes: the form question is a genuine CONSTRUCTION; the finite-sufficiency theorem confirmed by opposite eyes with O2's one true consumer placed (2026-08-09)
+
+**825 (the form question).** GAP_TYPE = CONSTRUCTION — the third application of the assumed-difficulty challenge lands the other way, honestly. The record supplies the consequent machinery (CIS's one-use law; the packet parent's finite carrier, envelope, first-order write, descendants; the GNS/CDL exact completed-record limit; Fork-8's admitted class; the E4a/MF commutativity machinery) and a concrete finite candidate — but NOT the predicate's argument: the DERIVED-AND-VARIED complete compact source/gauge/gravity/environment action with an exhaustive descendant inventory. Substituting the completed-record object would change the question's type and breach T5. MINIMAL CLOSURE: derive and vary the complete action; bind its primitive restriction to the sealed cell write; replay all generated descendants against the outgoing-sector falsifiers; THEN the MF verification is 1-2 relays. The construction itself: not separately estimable from current stock — the record's one true build. T5 correctly read: it bars substitution now, not the later property verification. (Process disclosure: a term search emitted PE-8 lines, not consulted; verb audit +1.)
+
+**826 (the zeros, opposite eyes).** 824's CENTRAL NEGATIVE CONFIRMED: recognition ZERO / D_BR ZERO / B2 ZERO independently, with Codex's own probe list. THE ONE PRECISION: the E4-carriage class holds a real consumer — O2, AT THE E4c-CLOSURE/PHYSICAL-VERDICT SCOPE, NOT RUNNABILITY (exactly 824's edge (b), now span-placed); the E4c-as-carried ambiguity RESOLVED by scope citations. O1/O2/O4 remain off the junction-runnability path; O2 is consumed once, at the verdict layer, which routes through the node.
+
+**THE PROGRAM'S MEASURED FINAL SHAPE:** junction runnability = the five objects + mechanical replays (theorem, twice confirmed); the physical-verdict layer additionally consumes O2; and the node's content is ONE GENUINE CONSTRUCTION — the complete action, derive-and-vary, fenced against every substitute — whose faces (per sealed PE-8, unscored) are the five objects and O2. The measuring phase is complete; what remains is the build and its corollaries. Residuals: 828's two sentences (in flight).
+
+**Custody.** Both artifacts seal-verified, mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
