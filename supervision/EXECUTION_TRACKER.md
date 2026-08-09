@@ -666,6 +666,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 832 | Codex 2 | [PLAN:AXN-BUILD-B2] calculus cross-check | RETURNED (Q-738; G1 instance-scoped; census B conditional; 7 carriers) |
 | 833 | Dario | [PLAN:AXN-BUILD-A2] skeleton cross-check (cold start — needs keystroke) | QUEUED |
 | 834 | Dario | [PLAN:AXN-BUILD-B3] calculus repair (chains after 833) | QUEUED |
+| 835 | Codex 2 | [PLAN:F/QSPEC-SLOT-10] O1 closure, both routes (cold start — needs keystroke) | QUEUED |
 | 830 | Dario | [PLAN:AXN-BUILD-B1] descendant calculus | RETURNED (Q-736; closed downstream, open upstream; 14 falsifiers typed) |
 | 831 | Dario | [PLAN:D2-0] slot census | RETURNED (Q-738; D2 COLLAPSES: 6 node-face / 8 derivable / 1 protocol) |
 | 816 | Codex 2 | [PLAN:C1-1] common cell posed | RETURNED (Q-723; 20-elem interface; core = FIVE objects incl. U_Omega) |
