@@ -617,8 +617,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 776 | Codex 2 | [7A/STEP11] gap-forcing classification (classify-only) | RETURNED (Q-681; 19/19 FREE; step 11 adoption-gated whole) |
 | 777 | Dario | [7A/Q-126] family build + rule draft | RETURNED (Q-686; countable family; core=8; rule=schema, 6 holes; DG-4 correction) |
 | 778 | Codex 2 | [7A/Q-126] adversarial cross-check of 775 public-layer core | RETURNED (Q-685; trace+positivity REFUTED, fork CONFIRMED; Q-682 corrected) |
-| 779 | Codex 2 | [PLAN:PROCESS] decline sweep (flattening-check evidence base) | SENT (ACK observed) |
-| 780 | Codex 2 | [PLAN:AUDIT] evidence audit + forcing map (chains after 779) | QUEUED |
+| 779 | Codex 2 | [PLAN:PROCESS] decline sweep | RETURNED (Q-687; 37 declines; gate-map found; master plan surfaced) |
+| 780 | Codex 2 | [PLAN:AUDIT] evidence audit + forcing map | SENT (ACK observed, chained) |
 | 781 | Dario | [PLAN:A1-CORRECTIVE] layer rebuild on sealed H_0 | SENT (ACK observed, chained) |
 | 782 | Dario | [PLAN:F1-ADVANCE] R-L2b / ratio-route state map (chains after 781) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |

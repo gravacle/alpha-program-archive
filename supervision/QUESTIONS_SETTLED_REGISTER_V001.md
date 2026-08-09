@@ -14986,6 +14986,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_7A_DBR_FAMILY_BUILD_DARIO_V001.md (da8720a4…, seal OK; governing decision + 775 verified; PE ledger hashed not opened). All headline items CLAIMED (cross-check to follow under claim-status law). Gates held; nothing evaluated, adopted, or eliminated. Dario chained into 781. Registered, committed, pushed.
 
+## Q-687 — The decline sweep: 37 express declines catalogued; the conditional grants ARE the gate-map; a prior MASTER PLAN TO ALPHA surfaces (2026-08-09)
+
+**Question.** What has the record expressly declined to grant (relay 779, corpus-wide)?
+
+**Answer.** 37 SURVIVORS from 5,059 raw hits over 2,363 files: 13 declined identifications, 9 declined authorships, 4 absolute bars, 9 conditional grants, 2 ruled absences — each span-cited and typed (artifact 4973f82e…, mirrored). Seeds: 7/10 confirmed; D7/D8/D10 correctly re-typed (task-scoped stop / freedom classification / process fence). DECLINE_REGISTER_V002 sealed with the full table as the flattening-check authority.
+
+**Three consequential finds.** (1) S35 cites STAGE8_MASTER_PLAN_TO_ALPHA_V001.md (12f204c6…) — a PRIOR sealed master plan to alpha that THE_PLAN V001 never reconciled with; reconciliation is added to the 780 audit processing (the principal's "are we keeping track" concern, evidenced). (2) S13: the record DECLINES the Arm-2/R-L2b identification in either direction — only a one-way consumption relation is sealed; relay 782 (queued, not yet picked up) was amended pre-pickup to carry this caution, correcting a loose identification in my own framing (and in session memory). (3) THE CONDITIONAL GRANTS S27–S35 are the sealed gate-map of the direct path: the exact conditions for the x16 grant, lawful free-data selection, C_R=1, the 4-D coefficient, absolute scale, and the one-source branch unconditionalization — the record has already written the requirements between here and the number; what remained unwritten is only the fence release condition (D10 re-typed, plan F2).
+
+**Custody.** Codex chained into 780 (audit; ACK observed). Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
