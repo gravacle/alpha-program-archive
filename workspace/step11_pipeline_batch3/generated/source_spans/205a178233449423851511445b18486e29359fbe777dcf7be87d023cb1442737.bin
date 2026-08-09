@@ -1,0 +1,33 @@
+The record interval `tau_R` is derived above; it is not discarded merely
+because a four-dimensional gauge coefficient is dimensionless. Spatial and
+temporal cell scales may cancel only after the exact geometric map is shown.
+
+For an orthogonal physical cell with edge lengths `ell_mu`, volume
+
+```text
+V_cell=product_mu ell_mu,
+```
+
+and face flux
+
+```text
+xi_(mu nu)=ell_mu ell_nu F_(mu nu)+higher-order terms,
+```
+
+the tetrad/Hodge-induced positive face metric in the coordinate-flux basis is
+
+```text
+<xi,xi>_(2,ell)
+  =sum_(mu<nu) [V_cell/(ell_mu^2 ell_nu^2)] xi_(mu nu)^2.
+```
+
+Therefore each cell contributes
+
+```text
+V_cell sum_(mu<nu) F_(mu nu)^2
+```
+
+in the local orthonormal frame. For a general coframe `theta^a=e^a_mu dx^mu`,
+the same map is defined by pulling the bivector through
+`wedge^2(e^(-1))` and multiplying by `|det e|`. The diagonal formula above
+is a mandatory exact check.

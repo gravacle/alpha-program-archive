@@ -1,0 +1,1 @@
+{"check_id":"C-B-V009-09","mutations":[{"expected_rejection":"FUTURE_INTERVAL_PARENT","id":"insert_tau_R_parent"},{"expected_rejection":"SCALE_CANCELLATION_FAILURE","id":"retain_face_area_factor"}],"schema":"rd22.step11.family3-mutations.v001","status":"GENERATED"}

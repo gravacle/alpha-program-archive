@@ -1,0 +1,82 @@
+#### Downstream complete charged specification and Thomson map
+
+The primitive gate ends with `kappa_record`. It does not output
+`kappa_Thomson`, `e`, or alpha.
+
+A distinct sealed object `Q_spec` must define the complete physical charged
+transition amplitude. It must contain, with no measured alpha:
+
+```text
+the charged boundary carrier and unit action-character current;
+all charged source sectors and their statistics;
+the gauge, constraint, ghost if required, and public edge sectors;
+the preparation and durable-record projectors;
+the microscopic measure and regulator;
+the regulator-removal and locality theorem;
+the Ward identity and transverse physical quotient;
+the derived charged spectrum and every threshold entering the response;
+decoupling and matching rules;
+and the zero-momentum Thomson prescription.
+```
+
+Measured masses or threshold locations may be used for a phenomenological
+consistency calculation, but not for a first-principles alpha claim. For the
+end-to-end claim sought here, every load-bearing threshold must be derived
+from the same sealed theory or proved irrelevant to the final coefficient.
+
+The normalized physical amplitude is
+
+```text
+Z_Q[A]/Z_Q[0],
+Gamma_Q[A]=-i Log(Z_Q[A]/Z_Q[0]),
+```
+
+with the logarithm branch fixed continuously at `A=0`. The complete
+transverse quadratic response is defined by
+
+```text
+Gamma_Q^(2)[A]
+ = (1/2) integral d^4q/(2 pi)^4
+   A_mu(-q) (q^2 eta^(mu nu)-q^mu q^nu)
+   kappa_Q(q^2) A_nu(q).
+```
+
+Pass requires the Ward identity, gauge-parameter independence on the
+physical quotient, regulator independence, threshold matching, and a finite
+path-independent limit
+
+```text
+kappa_Thomson=lim_(q^2->0) kappa_Q(q^2).
+```
+
+The old family `Gamma_c=-c log|A|` is resolved only here: `Gamma_Q` is
+computed from the physical amplitude itself. Replacing `Z_Q/Z_Q[0]` by its
+`c`th power changes that amplitude and describes `c` copies or a different
+theory. If a multiplicity remains, it must be derived from `Q_spec`; it may
+not be selected by the desired coupling.
+
+The primitive `kappa_record` may constrain or appear inside this
+construction, but equality
+
+```text
+kappa_record=kappa_Thomson
+```
+
+is not assumed. It must follow from the complete amplitude or fail.
+Determinants, heat kernels, Wick rotations, regulators, and counterterms are
+forbidden as primitive selectors but may appear here only when derived by
+`Q_spec`. Regulator removal must leave no independently adjustable finite
+`F^2` counterterm; otherwise the absolute coupling is not predicted.
+
+Only after `kappa_Thomson` is derived may the unit-character convention be
+applied:
+
+```text
+S_EM=-(kappa_Thomson/4) integral d^4x F_(mu nu)F^(mu nu),
+kappa_Thomson=1/e^2,
+alpha(0)=e^2/(4 pi)=1/(4 pi kappa_Thomson).
+```
+
+The canonical phase-space/Legendre construction is then an independent
+consistency check on the resulting Lorentzian action. It cannot supply a
+missing normalization.

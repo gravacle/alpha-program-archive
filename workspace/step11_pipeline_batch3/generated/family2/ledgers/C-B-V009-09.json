@@ -1,0 +1,1 @@
+{"check_id":"C-B-V009-09","expected":[{"id":"cell_scale_cancellation","outcome":"EXACT_CANCELLATION"},{"id":"charged_response_dependency_dag","outcome":"ACYCLIC_TYPED"},{"id":"future_interval_nonparent","outcome":"PARENT_ABSENT"}],"schema":"rd22.step11.family2-ledger.v001","status":"GENERATED"}
