@@ -15334,6 +15334,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_AXN0_ACTION_AS_ROLE_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
 
+## Q-720 — The family bounding lands PARTIAL: transport directions certified bounded; the action-form directions wait on the member grammar — F0's enumeration absence again (2026-08-09)
+
+**Question.** Bound the admissible action family from record structure alone (relay 812, S03 release condition (a)).
+
+**Answer.** PARTIAL, SPLIT ON THE DAY'S LINE. Family assembled of record (17 admitting/constraining spans; ambient class a predicate-cut quotient: a genuine positive public-stiffness ray, two response-inequivalent parent admission witnesses, named-but-unenumerated action/update mutation sectors). Seven constraint families applied with mechanical certificates (2784 variables, 918 equations, 21 dependencies, exact rank 897, dim 1887; (b2) excluded 56 > 50; incidence/conservation and cofinality scopes displayed; the dressed-map obstruction retained). THE TRANSPORT PROJECTION IS BOUNDED AND CLASSIFIED. The action-form/update directions remain UNBOUNDED OF SEALED RECORD for want of ONE ABSENT OBJECT: the complete member grammar/census/equivalence/no-outside decision — WHICH IS F0's ABSENCE #2 (the mutation-family enumeration) UNDER ITS OWN NAME. S03 remains TYPE-U; release (a) PARTIAL; T2/T4 not discharged; no selector proposed; S25 explicitly discharged across all 37 decline rows.
+
+**The program's remaining hard core, consolidated: FOUR OBJECTS** — the member grammar (blocks AXN-BOUND and F0#2), the physical f_g bridge (blocks the density layer and F0#3), F_g, and eta_resp with its response carrier (blocks B2 and abuts materiality). No new absences have appeared in nine relays; every campaign terminates on this list. Relay 814 (queued): the member-grammar campaign — classification, not selection, all fences absolute.
+
+**Custody.** Artifact STAGE8_AXN_FAMILY_BOUNDING_CODEX2_V001.md (a449cfb3…, seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
