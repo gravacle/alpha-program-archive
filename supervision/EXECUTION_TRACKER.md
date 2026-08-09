@@ -597,7 +597,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 755 | Dario | [7A/STEP8] support + forcing | **RETURNED. FORCED — one measure, two evaluations, never a conflict; support = an IDENTIFICATION question (third of the family). Q-660.** |
 | 756 | Codex 2 | [7A/STEP8] measure one-liner | **RETURNED. Addendum sealed; COFRAME CLOSED both generators. Q-662.** |
 | 757 | Dario | [7A/STEP8+6] identification family | **RETURNED. DISTINCT (census: kept separate); root = uniqueness-of-complex, program-future; junction path runs through the physics rows. Q-661.** |
-| 758 | Dario | [7A/STEP7] THE THOMSON CHAIN OPENS: the scoping (beta-sensitivity front and center) | **SENT (ACK observed)** |
+| 758 | Dario | [7A/STEP7] Thomson scoping | **RETURNED. Chain 0/18, head-entry only at S03 (Q-557 gated); census: 3 one-object beta candidates OFF-chain. Q-663. ROUTE TO THE PRINCIPAL.** |
 | 759 | Codex 2 | [7A/STEP11] tooling family 4: corpus/pin/envelope generation (custody boundary in contract) | **SENT (ACK observed)** |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |

@@ -14762,6 +14762,18 @@ FRAME_DATA DERIVED: the 24 order-simplices' frame matrices computed exact from t
 
 The forcing envelope-checked cross-family (spans verified), the addendum sealed byte-faithful to the displayed §2.5 content (9ae682eb…): the volume factor denotes the uniquely classified intrinsic flat-cell measure Vol_4 — |det e| its parallelepiped evaluation, 1/4! its simplex combinatorics. The coframe disposition displays all 24 order-simplex frames with |det E_p| = 1 and Vol_4 = 1/24 forced; A1 derived (prior), A2 now derived, composites inherit by ordered composition. RA27-3's coframe row: PARTIAL -> CLOSED/DERIVED; all other verdicts preserved (the row remains partial on the physics-owned and program-future items). 9 pins resolved; no executable path existed to dry-run, said so. Basis: STAGE8_7A_MEASURE_ONELINER_CODEX2_V001.md = 84db6f53…, registrar seal-verified, mirrored. SETTLED.
 
+## Q-663 — The Thomson chain scoped: head-entry only at S03; the census's three one-object candidates are the short road to beta-sensitivity (2026-08-08)
+
+**The chain (C7, frozen and carried verbatim):** S03 -> S04 -> S05 -> S06 -> S07 -> S08 -> S13 -> S16 -> S17, "no later item may be used to select an earlier one." S16 = threshold-conditioned Thomson matching; S13 = interacting charged pole OR infraparticle threshold (the disjunction load-bearing — S16 conditions on whichever S13 RETURNS). Status: 0/18 slots filled; A28 BLOCKED. THE ONLY LAWFUL ENTRY IS S03 — the chain's head, which is the principal's ruled EXPLICIT-INCOMPLETENESS item (Q-557) with its release condition (a junction-supplied selector) unmet.
+
+**Beta-sensitivity (the sealed closure hunt, 04c10c0d, four adversarial verifiers CONFIRMED):** exactly THREE beta-sensitive junctions, NONE on the chain — the fiber proper radius R in K_KK (ADOPTED ansatz; K_KK ~ beta^2), the complete normalized D_BR spectrum (UNBUILT), and the skeleton-to-cell embedding where the 4pi-class factors enter (GAP, "has never been attempted"). "Thomson" occurs zero times in that census — a scope fact, not a finding: its subject is the thirteen sealed interface quantities and every Thomson link is TYPE-U. Whether a derived S16 would be beta-sensitive is UNDETERMINED of record (a reason to expect it displayed — Thomson matching lands on a spacetime cross-section and beta IS the internal-to-length conversion — and nothing booked on it).
+
+**The scoping consequence, offered not assumed:** for Q-126's conjunction the chain is the long way (nine unbuilt links, head-entry only, terminal sensitivity undetermined); the census's candidates are each ONE object. And step 7 feeds AT MOST one of R9-JII's two conjuncts (757's common-cell side is independently blocked below by the unfixed complex).
+
+**Basis.** STAGE8_7A_THOMSON_SCOPING_DARIO_V001.md, registrar seal-verified, mirrored.
+
+**Status.** SETTLED as scoping. The route to the gravity test's second conjunct goes to the principal.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
