@@ -14826,6 +14826,10 @@ Codex 2's verification half over the two family-4 candidates: C-B-V009-01 CLEAN 
 
 **Status.** SETTLED as exact structure. Routed: the bundle-class selector hunt (Dario, 765) — the first of five, per the falsifier's demand that inequivalent completions not survive.
 
+## Q-669 — The V009-08 candidate regenerated: 4/4 findings resolved at the tool level (2026-08-08)
+
+All four membership findings traced to the family-4 selection logic and fixed THERE — the tool corrected with negative controls displayed, no hand-edit anywhere; the candidate regenerated (0a134859…, unsealed) awaiting Dario's verification half and the registrar's seal. Basis: STAGE8_7A_CORPUS_REGEN_CODEX2_V001.md, registrar seal-verified, mirrored. SETTLED.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
