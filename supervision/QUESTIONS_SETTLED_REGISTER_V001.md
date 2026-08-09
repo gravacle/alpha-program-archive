@@ -14802,6 +14802,18 @@ The forcing envelope-checked cross-family (spans verified), the addendum sealed 
 
 Codex 2's verification half over the two family-4 candidates: C-B-V009-01 CLEAN (typing checked); C-B-V009-08 FINDINGS — two wrong inclusions (INC-08-1/2) and two wrong exclusions (EXC-08-1/2), each with spans, caught BEFORE any M2 use. No candidate sealed, repaired, or consumed; the second lane's half outstanding. The route: regenerate the V009-08 candidate via the family-4 tooling with the findings resolved (rule-conformant, never hand-edited), then Dario's verification half over both. Basis: STAGE8_7A_CORPUS_VERIFY_A_CODEX2_V001.md = a9fee84e…, registrar seal-verified, mirrored. SETTLED as half-verification.
 
+## Q-667 — The mirror refutes three tower terms; E_parent is the Spin(10) chiral 16; the route's own falsifier surfaces (2026-08-08)
+
+**TOWER_CHECK = DIVERGES, term-by-term, against the locked spectrum** (the mirrored two-cutoff theorem): lambda = p_t^2 + p_q^2 + lambda_S2(flux,ell)^2 + 1 + C2_parent, floor 1 + p^2 + ell(ell+1). Three refutations of 760's form, adopted by its author: (1) THE SPHERE IS FLUX-TWISTED — untwisted gives (ell+1)^2, the locked floor ell(ell+1) is strictly smaller, the signature of a twist with possible zero modes, whence the +1; (2) C2_parent is an ADDITIVE eigenvalue term, not multiplicity data; (3) the cross-grade term Gamma[D,Phi] does not cancel — the principle displays it and leaves Phi UNSELECTED. Both circle towers agree; the shape (discrete sum-of-squares) survives; three of five slots did not. One caution reversed in the STRONG direction: E_PARENT IS FIXED — the completed Spin(10) chiral 16; only the bundle class is free. (Correspondence ledger, zero weight: the 16 of Spin(10) is one generation of matter — the oldest friend there is.)
+
+**The principle's fixings:** the proper-time factor is SHARED not duplicated (Sigma_BR = T^2_TQ x S^2_flux); data from ONE spectrum and ONE induced trace; the branch is ordinary-charged-durable-source only. AND THE ROUTE'S OWN FALSIFIER, already sealed: the route FAILS TO COMPUTE ALPHA if two inequivalent choices (radii, spin structure, bundle class, odd profile) satisfy all adopted rules while producing different weighted charged determinants — "the desired coupling may not select the missing data retroactively" (the void condition in falsifier form, native to the route).
+
+**Public layer: scoped, NONE determined** (per-element demands and the four refuted shortcuts displayed); normalization demand displayed with the burden located.
+
+**Basis.** STAGE8_7A_DBR_PUBLIC_LAYER_DARIO_V001.md, registrar seal-verified, mirrored. The mirroring of the primaries (registrar, mid-relay) is what made the refutation possible.
+
+**Status.** SETTLED as correction-with-fixings. Routed: the tower REBUILT against the locked spectrum (Dario, 764) — twisted sphere operator, additive C2 on the fixed 16, the cross term carried unselected.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
