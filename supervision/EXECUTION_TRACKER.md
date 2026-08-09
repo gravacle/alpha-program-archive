@@ -655,7 +655,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 819 | Codex 2 | [PLAN:Gc2/E-BRIDGE] H1/H2 campaign | RETURNED (Q-726; partial stock; certificates named; H1/H2 still gated) |
 | 820 | Dario | [PLAN:AXN-CONSTRUCT-0] completion audit | RETURNED (Q-727; completion STANDS as sealed principle; remainder 9-20 priced) |
 | 821 | Dario | [PLAN:AXN-CONSTRUCT-A1] E4b promotion (cold start — needs keystroke) | QUEUED |
-| 822 | Codex 2 | [PLAN:AXN-CONSTRUCT-O5] light-cone lemma (cold start — needs keystroke) | QUEUED |
+| 822 | Codex 2 | [PLAN:AXN-CONSTRUCT-O5] light-cone lemma | RETURNED (Q-728; PARTIAL; carrier = PARENT INCIDENCE MICROCAUSALITY, interlocks 821) |
+| 823 | Codex 2 | [PLAN:AXN-CONSTRUCT-O4] source-inclusive GNS (cold start — needs keystroke) | QUEUED |
 | 816 | Codex 2 | [PLAN:C1-1] common cell posed | RETURNED (Q-723; 20-elem interface; core = FIVE objects incl. U_Omega) |
 | 817 | Codex 2 | [PLAN:C1-2] U_Omega typed | RETURNED (Q-724; UNDECIDABLE; lemma named; parent convergence = 5) |
 | 813 | Dario | [PLAN:B1c-6] density-chain cross-check | RETURNED (Q-721; chain PROVED; retirement registrar-only) |

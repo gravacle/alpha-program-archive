@@ -15408,6 +15408,14 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Both artifacts seal-verified, mirrored. Registered, committed, pushed. AXN-CONSTRUCT opens: relay 821 (A1, the E4b write-rule promotion) and relay 822 (O5, the light-cone lemma, with the U_Omega adjacency carried unidentified).
 
+## Q-728 — The light-cone lemma lands PARTIAL: concurrency derived order-natively; the remainder is one carrier that interlocks with the running E4b promotion (2026-08-09)
+
+**Question.** O5, the spacelike causal-factorization lemma (relay 822).
+
+**Answer.** PARTIAL, WITH THE STRUCTURE GAINED AND THE REMAINDER TYPED. DERIVED: the order-native concurrency relation FROM THE INCIDENCE POSET (incomparability is the light cone — no smooth cone, manifold, or C_ref imported); an exact proof that controlled writes on DISTINCT record factors commute (RED's adopted gate formula); circuit invariance at the adopted controlled-write scope. OPEN: the interacting-parent theorem — the missing carrier typed exactly as PARENT INCIDENCE MICROCAUSALITY: (i) incidence-to-support disjointness; (ii) parent-operation commutation; (iii) identification of the RED write as parent-induced — COMPONENT (iii) IS RELAY 821's DELIVERABLE, running lane-opposite: the construction items interlock on shared subcomponents, the signature of a genuine assembly. The underdetermination schema displays why factor-distinctness cannot force whole-operation commutation through one shared source (schema, not counterexample). U_Omega: ADJACENCY ONLY, identity declined — neither implies the other; no tip-pair theorem produced. Verdict PARTIAL, not no-go: the complete parent equations may force both implications. S19/S26 held.
+
+**Custody.** Artifact STAGE8_AXN_LIGHTCONE_LEMMA_CODEX2_V001.md (f3c01495…, seal OK; parent read exclusively from the packet member) mirrored. Relay 823 (O4, the source-inclusive GNS) queued. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
