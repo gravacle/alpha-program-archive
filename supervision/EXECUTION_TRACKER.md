@@ -605,7 +605,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 763 | Codex 2 | [7A/STEP11] corpus regen | **RETURNED. 4/4 resolved at tool level; candidate 0a134859 unsealed awaiting half B. Q-669.** |
 | 764 | Dario | [7A/Q126] tower rebuild | **RETURNED. Twisted floor exact (index theorem reproduced); BETA NON-UNIFORM (not normalizable away); 5 free data, 1 constraint. Q-668.** |
 | 765 | Dario | [7A/Q126] bundle-class hunt | **RETURNED. UNDERDETERMINED — the forcing statement EXISTS but UNSEALED; the identification barred; falsifier antecedent structurally satisfied. Q-671.** |
-| 766 | Dario | [7A/STEP11] corpus verification half B (after 765) | QUEUED — NOT ANNOUNCED |
+| 766 | Dario | [7A/STEP11] corpus verification half B (after 765) | **SENT (ACK observed)** |
 | 767 | Codex 2 | [7A/Q126] tower cross-check | **RETURNED. Spectrum + Casimir CONFIRMED (piecewise mult.); CROSS TERM REFUTED on grading; |q| constraint UNSEALED — free set 5+0. Q-670.** |
 | 768 | Dario | [7A/Q126] cross-check contest + the tower restated (after 766) | QUEUED — NOT ANNOUNCED |
 | 769 | Codex 2 | [7A/Q126] the gate's provenance + the bar's exact scope | QUEUED — NOT ANNOUNCED |
