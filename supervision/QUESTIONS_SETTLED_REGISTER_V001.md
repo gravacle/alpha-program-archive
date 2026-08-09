@@ -15538,6 +15538,14 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Artifact STAGE8_AXN_BUILD_CALCULUS_V2_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
 
+## Q-742 — T01 narrowed to the pair; FORCED = 0 at family level; the binding predicate becomes the build's sole forcing instrument; V2 packaged (2026-08-09)
+
+**836 (the stratum test).** The blocked attack, run: the exhibit holds FOUR members (S_0, S_1, S_rot, S_BF; law-9 lower bound; no-outside absent). T01 = NARROWED — the source term is COMMON ON THE EXHIBITED PAIR {S_0, S_1}, NOT FAMILY-FORCED. 837's pre-displayed SCOPE-B applies: the census drops to FORCED = 0 at family level; the corrected instruction of record: "derive the packet-binding stratum first." THE RECORD HAS CLOSED THE LAST SHORTCUT: forcing by candidate-intersection is dead; THE BINDING PREDICATE — the parent-reproduction condition — is the build's sole forcing instrument, exactly as derive-and-vary always demanded.
+
+**837 (skeleton V2 + the closure package).** T10 ADDED with the disqualification span carried in full (the KK audit: "an IMPORTED KK ANSATZ, NOT AN EMERGENT-GRAVITY DERIVATION" — carried so the closure round cannot re-import it); the environment sector correctly left at argued-note level (no hole manufactured); census after T10 (pre-836): 1/3/6 — now 0/3/7-equivalent under scope-B with T01 re-typed as a pair feature. Excluders re-typed (premise-absent x2, adoption-absent x1) with slot 9's THEOREM obligation attached to object 1's exclusion face ("Every route has died here" carried). The closure package assembled: six holes with verified shapes, the predicate + corrected falsifier taxonomy, the U-ledger, the deferred decisions. Relay 838 (pre-queued, stalled at turn end — keystroke) cross-checks V2; relay 839 (queued with the claim-status guard) is THE CLOSURE ROUND: the predicate applied to the four completions (the stratum derived, not intersected) and to all six holes — including what the pressure says the gravitational functional must be.
+
+**Custody.** Both artifacts seal-verified, cross-mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
