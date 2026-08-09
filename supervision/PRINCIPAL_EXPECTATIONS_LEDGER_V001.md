@@ -68,3 +68,13 @@ throughout; no 7A criterion may consult this expectation.
 **Test:** relay 773 (the magnetic-sector hunt, queued and sealed d523775c31cc… before this entry). SURVIVORS = NONE is CONFIRMING evidence; a surviving displayed magnetic-sector object REFUTES the strong form. Status: SCORED 2026-08-09.
 
 **Score (by the frozen criterion, unamended):** SURVIVORS = 1 (a displayed U(1) bundle with nonzero c_1, adversarially constructed as an admitted A1 member — Q-678). STRONG FORM: REFUTED. OPERATIONAL FORM (no magnetic law / no flux quantization / no selector force; the record carries the electric face and the Dirac pairing): SUPPORTED — the record states the flux absence in its own voice four times and the lone display is admission-typed on a different base with transport barred. Drafting lesson registered at Q-678: the criterion keyed on display-existence; the expectation's content was law-existence.
+
+## PE-5 — Allow/require is the record-level face of the gravity/gauge split (SEALED 2026-08-09 morning, BEFORE relays 775/776 return; both relays were queued before this expectation was stated)
+
+**Principal's expectation (stated in session, pre-result):** what the record UNIQUELY REQUIRES is gravity-shaped (shared, forced, refinement-stable); what it merely ALLOWS (multiplicity of admissible realizations) is gauge/matter-shaped. Sealed anchors consistent with it: the conservation law (refinement forces energy exactly); the microstate discovery (free assignment on non-gauge spheres, forced face response K_L); the singlet no-go read backwards (the gravity/gauge ratio proven absent exactly where the carrier allows without requiring — dim 1, index 0).
+
+**Tests (frozen now, law-keyed not display-keyed):**
+(i) Relay 776 (gap-forcing classification): classify each missing object's CONTRACT TYPE (geometric/stitching-typed vs gauge/matter-typed) independently of its forcing verdict. CONFIRMING if FORCED_UNIQUE objects are predominantly geometric/stitching-typed AND FREE_MULTIPLE objects predominantly gauge/matter-typed; REFUTING if the correlation inverts; NEUTRAL if types are mixed or counts too small (fewer than 3 objects on either side).
+(ii) Relay 775 (public-layer campaign): CONFIRMING if the UNIFORM_CORE (statements holding for every bundle class) contains the trace/positivity (geometry-shaped) items while class-dependence concentrates in the flux/charge (gauge-shaped) items; REFUTING if geometry-shaped items turn out class-dependent.
+
+**Zero verdict weight; no 7A criterion may consult this expectation. Status: OPEN.**
