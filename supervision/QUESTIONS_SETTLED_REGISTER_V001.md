@@ -14714,6 +14714,16 @@ DETERMINED: 4 authority nodes, 4 claim nodes, 8 exact typed edges — including 
 
 **Status.** SETTLED — BOOKED. RA27-3 opens as the frontier (751); lineage V3 re-earns the A27 flip when it runs.
 
+## Q-657 — RA27-3 opens as a BUILD LIST: nothing obstructed of record; the restriction's first dividend (2026-08-08)
+
+**The board (seven items):** volume SUPPLIED; incidence's four-volume half SUPPLIED; coframe PARTIAL — derived on A1 (16 children at diag(ell/2), grounded by R33's child-intrinsic-measure rule) and NOT SUPPLIED on A2 (V011's tetrad display quantifies over orthogonal cells; A2's children are order-simplices — ten edges, no four ell_mu; SPEC GAP: a sealed coframe on simplicial cells); connection UNDERDETERMINED (the known 32-dim non-gauge free set; A1's free space untested and not reported forced); degree UNDERDETERMINED — THE RESTRICTION'S FIRST DIVIDEND: the one sealed obstruction (Q6's raw-degree FALSE via an explicit star/fan counterexample) is OUT OF SCOPE — star refinement is not in the working class (stellar = 0 corpus-wide); support structurally immediate, unsealed; current density UNSUPPLIED (three mentions, two the demand restating itself). INCIDENCE: the composite question DISSOLVES a third consecutive time (chain-map composition is free); the generator-level object exists BY NAME (J_ref^cell) in a proposal for a different index; the transverse-multiplicity hazard flagged at exactly 731's failure point.
+
+**The shape:** NOTHING on the board is obstructed of record. Three unsealed constructions remain — a simplicial coframe, a refined-edge assignment rule, a subdivision chain map — each standard mathematics. "A build list, not an obstruction list. That is a different kind of open than this thread has carried since 727."
+
+**Basis.** STAGE8_7A_RA27_3_FRONTIER_DARIO_V001.md, registrar seal-verified, mirrored.
+
+**Status.** SETTLED as frontier survey. Routed: the simplicial coframe derivation (Dario, 753) — the sealed 24-simplex construction's own coordinates as the derivation source.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

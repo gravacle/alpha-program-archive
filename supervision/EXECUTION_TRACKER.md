@@ -590,8 +590,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 748 | Codex 2 | [7A/STEP11] V008-05 | **RETURNED. 5/5 — both targets compiled; last batch-1 content gap closed. Q-655.** |
 | 749 | Dario | [7A/STEP8] flat chamber | **RETURNED. Route (d) FAILS DOUBLY — members fail the conjunction (Q-654 corrected: occupancy UNKNOWN); eta-preservation trivial and not the clause's content. Routes (a)-(c) return. Q-655.** |
 | 750 | Dario | [7A/STEP8] restricted booking | **RETURNED. RA27-2 BOOKED demand-by-demand; restriction declared; trigger preregistered. Q-656. THE ROOT IS DOWN.** |
-| 751 | Dario | [7A/STEP8] RA27-3 OPENS: the five transport fields + the incidence half | **SENT (ACK observed)** |
+| 751 | Dario | [7A/STEP8] RA27-3 frontier | **RETURNED. A BUILD LIST: 2 supplied, coframe partial (A2 spec gap), nothing obstructed — the restriction's first dividend. Q-657.** |
 | 752 | Codex 2 | [7A/STEP11] tooling family 2 + the generated corpus binding | QUEUED — NOT ANNOUNCED |
+| 753 | Dario | [7A/STEP8] the simplicial coframe derived from the sealed coordinates | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
