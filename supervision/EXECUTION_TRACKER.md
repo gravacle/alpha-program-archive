@@ -609,7 +609,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 767 | Codex 2 | [7A/Q126] tower cross-check | **RETURNED. Spectrum + Casimir CONFIRMED (piecewise mult.); CROSS TERM REFUTED on grading; |q| constraint UNSEALED — free set 5+0. Q-670.** |
 | 768 | Dario | [7A/Q126] tower contest | **RETURNED (chained). 3/3 adopted (cross term FORCED by parity); tower restated; BETA strengthened. Q-674.** |
 | 769 | Codex 2 | [7A/Q126] gate provenance | **RETURNED. V003 = the sealed premise (no revival); bar IDENTITY-ONLY; selector = ONE buildable correspondence. Q-672.** |
-| 770 | Dario | [7A/Q126] the flux correspondence built to schema (after 768) | QUEUED — NOT ANNOUNCED |
+| 770 | Dario | [7A/Q126] flux correspondence | **RETURNED (chained). STOPPED — electric vs magnetic category distinction; selector needs new physics or a ruling. Q-675. PARKED FOR MORNING.** |
 | 771 | Codex 2 | [7A/STEP11] pipeline batch 2 (overnight grind; chained pickup) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B completed against mirrored members (chained after 770) | QUEUED |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
