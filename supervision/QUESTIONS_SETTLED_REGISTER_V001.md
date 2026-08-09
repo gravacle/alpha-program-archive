@@ -15426,6 +15426,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_AXN_E4B_PROMOTION_DARIO_V001.md (seal OK) mirrored. Dario chains into 824 (the finite-sufficiency audit). A1 re-scored: not an assembly item but a corollary of the fenced form-question. Registered, committed, pushed.
 
+## Q-730 — O4 CONSTRUCTED-TO-O1: the limiting GNS stands conditionally with every ingredient explicit; the wall is now an equation (2026-08-09)
+
+**Question.** The source-inclusive GNS (relay 823, audit item O4).
+
+**Answer.** CONSTRUCTED-TO-O1. Every finite parent stage supplies a positive normalized source-inclusive state and finite GNS triple — construction and finite dynamics displayed; the record-side compatibility proof replayed at its proper receiver. THE WALL, MADE EXACT: the compatibility defect Delta_(M,N)(X) displayed at the precise point where record-side commutator cancellation fails on the shared source — NOT inflated into divergence; two lawful closure routes named (a derived exact theorem, or a cofinal presentation-independent local state limit). The complete limiting state and GNS displayed CONDITIONALLY on O1: positivity, normalization, norm extension, null ideal, Hilbert completion, representation, cyclic vector — all explicit. DEPENDENCY ORDER SETTLED: O1 is the constructive prerequisite; a genuinely closed O4 ENTAILS O1 (no bootstrap); O1 alone does not supply source-inclusive dynamics — that layer waits on O2 or an independently derived compatible automorphism-limit + implementation theorem. Precursor scope held: ERR/RNG's monomorphism is not a Moller implementer; ARCH's limit is not a source-state limit; the tensor symbol kept at finite co-location scope (S05/S12/S19/S26 live).
+
+**The construction's state after the first AXN-CONSTRUCT round:** A1 and O5 compressed onto the fenced parent-form question; O4 built to O1; O1 is now a displayed equation; O3 conditional on O1; O2 waits on the node; O6 a roll-up. Relay 824 (running) audits whether ANY downstream consumer requires the infinite forms — the possible strike of O1/O2 from the critical path.
+
+**Custody.** Artifact STAGE8_AXN_SOURCE_GNS_CODEX2_V001.md (seal OK) mirrored. Codex stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
