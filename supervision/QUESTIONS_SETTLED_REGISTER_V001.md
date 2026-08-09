@@ -14996,6 +14996,18 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Codex chained into 780 (audit; ACK observed). Registered, committed, pushed.
 
+## Q-688 — The layer rebuilt lawfully: the trace is a functional, the tight bound is lambda >= C2_parent, and 775 had the right number in the wrong term (2026-08-09)
+
+**Question.** Can the public layer and family be rebuilt on the operator as sealed (relay 781, adopting Q-685/Q-686)?
+
+**Answer.** REBUILT, FULLY CONDITIONAL, NOTHING SUBSTITUTED. The trace is now a FUNCTIONAL of the unselected Phi-sector (it does not reduce: nothing sealed makes Phi^dagger Phi commute with D^2); under condition (F) alone (the x16 flat grant, quoted verbatim from 768) it reduces to 16·Tr on the base; under (F)+(S) (Phi^dagger Phi = mu^2 Id, STATED AS CONDITION) it reduces to the full sum with N_lattice carried explicitly. The declined mu^2 = 1 (decline D1) appears only as a declined member consumed by no step. POSITIVITY_UNCONDITIONAL (CLAIMED): lambda >= C2_parent — needs only the irreducible 16, and it is TIGHT (778's witness attains it). Member-wise, unconditional in Phi: lambda_A >= p2min + 1 + C2_parent vs lambda_B >= p2min + C2_parent — the "+1" is the SPHERE-SECTOR GAP of the uncharged member, not Phi^dagger Phi: 775 HAD THE RIGHT NUMBER IN THE WRONG TERM. The kind-fork survives in the bounds, unconditional.
+
+**Core state after rebuild.** Survive unconditional: U1, U6, U9. Conditional: U3 (32=2x16 only under (F); N_lattice not suppressible), U4 (confirmed for the S^2 law; unverifiable for full H_0), U8 (the beta^0 sector contains Phi^dagger Phi, scaling unselected). Dead: U2, U5, U7. C4 DEMOTED to bounds — min spec(X+Y) != min spec X + min spec Y for non-commuting positives (verified on an explicit pair); bottoms need (S), bounds do not. Core invariance on the corrected core VERIFIED; condition (F) is common-mode. Rule draft: R3 amended (zeta_m(0) is a functional of Phi), R4 conditional, DG-1 worsens (no finite reduction of the gate quantity either); six FCs and four DGs stand. N_lattice: settled NOWHERE (register grep zero hits) — carried OPEN.
+
+**Process facts.** First artifact fully compliant with the freedoms-consumed law: SUBSTITUTED = NONE, seven freedoms carried/conditioned. Flattening check walked D1–D10 individually. VERB AUDIT NOT CLEAN (+4), the profound one being: "I VIOLATED A DECLINE I MYSELF REGISTERED — an adopted refutation does not propagate itself." That disclosure is now LAW 7 (CORRECTION PROPAGATION): corrections name their downstream consumers; unknown consumer sets get a queued sweep. Known consumers of Q-685/Q-688 corrections: 775 (superseded by this rebuild), 777 (salvaged item-by-item herein), PE-5 test (ii) (remains OPEN; re-scores only after this rebuild's cross-check — claim-status law). Relay 783 queued: adversarial cross-check of the rebuild (Codex chain).
+
+**Custody.** Artifact STAGE8_7A_DBR_LAYER_REBUILD_DARIO_V001.md (d55b6445…, seal OK; 8 sources verified; spans RE-DERIVED not accepted from the cross-check, reproducing 778's digests exactly). All headline items CLAIMED. Gates held. Dario chained into 782. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

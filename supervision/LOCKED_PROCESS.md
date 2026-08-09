@@ -527,3 +527,9 @@ Codex 2 runs under the app's "Approve for me" tier (auto-approves routine action
    decisions, and relays cite preregistered expectations by NAME AND DIGEST ONLY —
    never restating their content. A mandatory-read document that restates a PE defeats
    hash-only isolation for every lane that must read it.
+
+7. CORRECTION PROPAGATION (2026-08-09, from 781's disclosure "an adopted refutation
+   does not propagate itself"): every registered correction or refutation names its
+   known downstream consumers — the artifacts whose formulas consumed the corrected
+   object — and marks them corrected/pending. When the consumer set is unknown, a
+   consumer sweep is queued before any of those artifacts is consumed further.
