@@ -14724,6 +14724,10 @@ DETERMINED: 4 authority nodes, 4 claim nodes, 8 exact typed edges — including 
 
 **Status.** SETTLED as frontier survey. Routed: the simplicial coframe derivation (Dario, 753) — the sealed 24-simplex construction's own coordinates as the derivation source.
 
+## Q-658 — Tooling family 2 live: expectation ledgers from sealed values; the corpus binding generated (2026-08-08)
+
+Family 2 built and executed over the four real instances (744/745/747/748): 4 finite families + 4 exact expectation ledgers (emitted from sealed member values, never prior PASS results) + the V009-08 corpus binding as generated content-addressed data (ce229f5a… — Q-653's integration item closed lawfully); 56 members enumerated bytewise; all input digests generated from current bytes, no embedded pins; duplicate-ID and digest-disagreement rejection displayed. Four rows advanced at the tooling layer; admission barred. Basis: STAGE8_7A_TOOLING_FAMILY2_CODEX2_V001.md, registrar seal-verified, mirrored. SETTLED.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
