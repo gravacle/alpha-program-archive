@@ -15200,6 +15200,18 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_7A_BETA_V3_CROSSCHECK_CODEX2_V001.md (f78c115a…, seal OK) mirrored. Registered, committed, pushed.
 
+## Q-707 — E4b PROVED twice over; the Moller boundary NARROWED with its precursors found; E4 reduces to one typed gap (2026-08-09)
+
+**Question.** Close E4b if it closes; certify or dissolve the E4c boundary (relay 800, the principal's false-boundaries audit).
+
+**Answer.** BOTH TASKS LANDED. E4B PROVED (CLAIMED): (1) RED's "causally dependent writes retain their causal order" FORCES write orders to be linear extensions — derived, not assumed; (2) prefixes of linear extensions are down-sets (200 random extensions, zero violations) — supplying exactly the ingredient 799 named missing, from RED's own clause; (3) on a finite poset any two linear extensions connect by adjacent transpositions of INCOMPARABLE (= spacelike-disjoint) elements — precisely RED's licensed moves (120 random posets, all connected); (4) cofinality + ARCH's strong convergence carries stagewise agreement to the limit. SECOND INDEPENDENT SUPPORT sharing no step: GNS's exact finite compatibility omega_M(iota(A)) = omega_N(A). E4 REDUCES TO E4c ALONE.
+
+**E4C NARROWED — neither certified real nor dissolved.** The Q-678-standard hunt (2,987 files, 18 probe forms; 41 flag / 39 demand / 127 read-individually) returned FOUR SURVIVORS: the packet-sealed ERR stable dressed outgoing-record MONOMORPHISM (derived, flag true), GNS's dressed net and compatibility theorem, RNG's range audit, and one superseded phrasing carried at grade. ARCH's bar does not block USING derived results — it bars SELECTING a channel decomposition. THE GAP, NOW TYPED: (i) MONOMORPHISM vs UNITARY — E4c needs an intertwiner between exhaustion-induced dressings; an injective star-homomorphism whose range is not inside the bare record algebra supplies no inverse off the range; (ii) FINITE-COMPLETED vs INFINITE-FUTURE SOURCE-INCLUSIVE — the record's compatibility is exact for every finite M > N and declines the infinite limit unprompted. Sole lawful route unchanged: the complete parent action (the program's converging deep node). C1 may assume E4a AND E4b, may consume the three derived precursors, and carries ONE narrowed falsifier.
+
+**The false-boundaries audit, closed:** of 799's three boundaries — E4a dissolved by proof, E4b dissolved by proof, E4c narrowed to a typed two-part gap with precursors in hand. The session's rule held: summaries make false boundaries; the record's own voice makes real ones, and even those narrow under the dedicated hunt.
+
+**Custody.** Artifact STAGE8_C1_E4B_PROOF_AND_MOLLER_HUNT_DARIO_V001.md (seal OK) mirrored. Dario chains into 801 (row-7 split; Phase A banks on its return). Codex mid-797. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
