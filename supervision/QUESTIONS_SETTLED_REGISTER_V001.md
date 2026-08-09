@@ -15168,6 +15168,18 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_COFRAME_HALF_DARIO_V001.md (590b3979…, seal OK; law 8 applied; parent frame e = I disclosed as the sealed instance, elimination not overclaimed beyond it) mirrored. Verb audit +3, all self-attributed. Registered, committed, pushed.
 
+## Q-704 — The index bridge was a NAMED PROPOSITION all along; B1b re-scoped to selection-plus-verification; C1 unblocked to build (2026-08-09)
+
+**Question.** The index bridge between the causal-exhaustion and refinement index categories (relay 798, Q-701's unblock paths).
+
+**Answer.** THE BRIDGE EXISTS AS A PROPOSITION AND IS FREE. The hunt (6 hits, 5 survivors, 1 near-miss disclosed) found no functor between the index categories — it found something better: IDX 3.3 NAMES the bridge ("that transport IS the measure functoriality section 2 finds unproven"), IDX 2.3 states its content ("a rule assigning F on each new sub-face"), and a NON-DARIO lane independently named the same gap ("FUNCTORIALITY OF A MEASURE"). The bridge's content is the F-assignment rule — i.e., 795's coframe square. EQUATIONS SCORED: E1 Ref_a-naturality PROVED (Q-702); E2 measure transport PROVED WITH B_g = 0 EXACTLY for BOTH surviving candidates (stronger than D11 conjunct 2 requires); E3 the F-rule FREE ((a2), (b2) surviving; 843-dim residual); E4 cofinal-invariance UNPOSEABLE — CDL states it as a FALSIFIER, never a verified property; the missing object is A VERIFIED COFINAL-INVARIANCE STATEMENT for the CDL colimit — a missing VERIFICATION, no longer a missing carrier; E5 awaits E4. Scope stated: the refinement side is served; the exhaustion index is not claimed reached.
+
+**Consequences.** B1B RE-SCOPED, NOT BLOCKED: construction is done; what remains is SELECTION of the F-rule (principal business under the void condition — PARKED until 797's full solution-set test rules, since O4's never-evaluated coherence could kill a candidate and dissolve the selection unasked; RULING-LAST pass three incomplete) plus E4's verification. C1 UNBLOCKED TO BUILD against E1–E3 now, carrying the F-rule as a parameter, never fixing it, and treating E4 as a testable failure condition, never an assumption. Relay 799 (Dario) opens the E4 verification campaign.
+
+**Also of record.** The R33 near-miss: its verdict token (INHERITED_REFINEMENT_NATURALITY_FORCES_UNIFORM_MEASURE) forces the measure's per-cell VALUE, not the F-ASSIGNMENT RULE — banking it would have been the name-match trap run on a verdict token; caught by reading the body. R33's binding item 4 IS D11 conjunct 1 — the record already uses the untoleranced conjunct productively. Verb audit +3: twice this arc the lane under-read its own sealed artifacts (792 from 755's restatement instead of IDX's paragraphs; 795's ABSENT from a search failure over its own 753) — the pattern is now visible: A LANE'S OWN CORPUS NEEDS THE SAME HUNT DISCIPLINE AS FOREIGN STOCK.
+
+**Custody.** Artifact STAGE8_B1B_INDEX_BRIDGE_DARIO_V001.md (6e663972…, seal OK; law 8 applied — R33/R33G sealed by manifest mode only) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
