@@ -14848,6 +14848,18 @@ All four membership findings traced to the family-4 selection logic and fixed TH
 
 **Status.** SETTLED as hunt. Routed: the gate's provenance and the bar's exact scope (Codex 2, 769) — why is the forcing statement unsealed, what would lawful sealing require, and does the sealed bar forbid the IDENTITY or also a CORRESPONDENCE (the 757 pattern)?
 
+## Q-672 — The gate needs no revival (V003 is the sealed premise); the bar is IDENTITY-ONLY; the selector reduces to ONE buildable correspondence (2026-08-08)
+
+**Provenance:** the unsealed V001 gate is REJECTED of record (the authority ledger binds V003 current; V001 = REJECTED_GLOBAL_PHASE_AS_PHYSICAL_RELATIVE_PHASE; V002 superseded; V001's drafting lane NOT_OF_RECORD). No clerical resealing; no revival package needed — THE LAWFUL PREMISE ROUTE IS THE ALREADY-SEALED V003.
+
+**The bar's exact scope (verbatim, span-covered):** separate typing of parent-arm monopole / Wilson-loop / graph-cycle / plaquette / composition-loop / source-flux record-write objects; hits may not transport by NAME. Scope = identity/name-merge + unproved-transport discipline. NO CATEGORICAL NO-GO on a separately derived typed correspondence — and the sealed 757 pattern independently licenses a cross-type correspondence on a demonstrated overlap while identity stays barred.
+
+**The lawful path, routed:** build ONE object — the S2_flux/Q_Sigma typed correspondence to the stated schema (type/direction, domain/codomain, overlap AND complement, licensed quantifiers, orientation and normalization, falsifiers, uniqueness, the exact flux-transport consequence). Until it exists sealed, V003 forces nothing; if it derives, the zero-or-one sector forces deg L and the bundle class through it. THE FIRST FREE DATUM'S SELECTOR IS NOW A NAMED DERIVATION TARGET, not an adoption.
+
+**Basis.** STAGE8_7A_GATE_PROVENANCE_CODEX2_V001.md = 4a64d109…, registrar seal-verified, mirrored.
+
+**Status.** SETTLED. Routed: the correspondence package build (Dario, 770, after 768).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
