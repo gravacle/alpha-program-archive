@@ -15392,6 +15392,22 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **THE FIVE-OBJECT TYPING IS COMPLETE.** THE REMAINDER MAP assembles now (sealed artifact + full presentation to the principal). Custody: artifact STAGE8_GC2_MATERIALITY_OPENING_DARIO_V001.md (seal OK) mirrored; Dario stopped clean. Registered, committed, pushed.
 
+## Q-727 — THE COMPLETION AUDIT: the continuum completion already stands as a sealed principle; the remainder is 9-20 priced relays; the classical reading is unlawful (2026-08-09)
+
+**Question.** The true size of the parent's continuum completion (relay 820, the principal's challenge to the registrar's sizing).
+
+**Answer.** THE PRINCIPAL WAS RIGHT, BY MORE THAN "MOSTLY." Sixteen demands enumerated and double-axis typed: 14/16 RECORD-NATIVE, ZERO CLASSICAL-SMOOTH, 2 fenced out by Fork-8's own mandatory non-promotions — "continuum" in CONTINUUM_COMPLETION_OPEN IS COSTUME for the infinite-exhaustion limit, and the classical detour is NOT A LAWFUL READING of any sealed sentence found. THE HEADLINE: the exact continuum completion on the algebra of completed records ALREADY STANDS (the GNS result; inductive limit of finite matrix algebras with exact compatibility) AND FORK-8'S SEVEN-TEST BAR WAS MET — the hypothesis is a SEALED PRINCIPLE (v002). Score: 7 PROVED / 1 ASSEMBLY (derive that the adopted write rule is the parent-induced one, promoting E4b to unconditional) / 6 OPEN (O1 source-inclusive state limit — failing commutator displayed; O2 the Moller unitary — the object that waits on the node, one of its five consumers; O3 regulator independence one algebra up; O4 source-inclusive GNS; O5 a derived spacelike causal-factorization/light-cone lemma — MISSING LEMMA NAMED OF RECORD; O6 roll-up) / 2 FENCED. TRUE SIZE: ~9-20 estimable relays; the registrar's 20-40 was defensible only by double-counting O2 against map objects 2-5. NO NEW CAMPAIGN: the remainder IS AXN-CONSTRUCT, now priced. Scope discipline kept: E4a does not discharge O3 (different algebras — an extension, not a repetition). COUNTERWEIGHT: a finished completion discharges at most ONE of five map objects (O2 = object 4's unitary half) and is ADJACENT to a second (O5 vs U_Omega's functionality lemma — possibly co-derivable; identity declined without a sealed sentence). Three of five untouched.
+
+**Custody.** Artifact STAGE8_AXN_COMPLETION_AUDIT_DARIO_V001.md (seal OK; verb audit +3 incl. two self-lane PROVED scores disclosed). Registered, committed, pushed. The registrar's sizing stands corrected of record.
+
+## Q-726 — The grammar gate and the extensivity scoring (relays 818/819, 2026-08-09)
+
+**818 (grammar cross-check).** SPAN BASE CONFIRMED 34/34 byte-exact, PLUS SIX MISSED ADMITTING SPANS found by the widened probe (the grammar's base grows). TWO ISSUES: (i) custody flattening — 3 of 34 spans rest on content-pin custody, disclosed at 812 but tabled at parity by 814; both pins independently re-verified and HOLD; (ii) A11 MISCITED — the attributed sentence lives in A12; the FOURTH CONJUNCTION FAILURE of record (742, 788, 801, 814): matching digests prove bytes unchanged, NOT that they say what the table says. The separation, equivalence layers, and open-of-record verdict otherwise confirmed per the artifact.
+
+**819 (the five extensivity conditions).** Partial stock, NO complete uniform theorem — the missing certificate or carrier NAMED per condition: no exhaustion/refinement-uniform local support+norm certificate; no selected connected preparation (RED's overlap statements are not preparation clustering); the r^-3 falloff NOT retyped as uniform clustering (S06 live); S19/S24 fences held. H1 and H2 remain gated; the materiality Hessian remains gated on H1, H2, I3, AND the conformal-form property (the four sealed properties do not force conformality). The map's "nearest derivables" are real but not one-relay cheap; each has its named missing certificate as the work item.
+
+**Custody.** Both artifacts seal-verified, mirrored. Registered, committed, pushed. AXN-CONSTRUCT opens: relay 821 (A1, the E4b write-rule promotion) and relay 822 (O5, the light-cone lemma, with the U_Omega adjacency carried unidentified).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

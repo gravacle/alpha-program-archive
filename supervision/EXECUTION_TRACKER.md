@@ -651,9 +651,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 812 | Codex 2 | [PLAN:AXN-BOUND-1] family bounding | RETURNED (Q-720; PARTIAL; transport certified; grammar absent) |
 | 814 | Codex 2 | [PLAN:AXN-BOUND-2] the member grammar | RETURNED (Q-722; assembled; census OPEN OF RECORD; theorem obligation, no fork) |
 | 815 | Dario | [PLAN:Gc2] materiality opening | RETURNED (Q-725; Hessian waits on H1/H2/I3; D closed scoped) |
-| 818 | Dario | [PLAN:AXN-BOUND-3] grammar cross-check (cold start — needs keystroke) | QUEUED |
-| 819 | Codex 2 | [PLAN:Gc2/E-BRIDGE] the H1/H2 campaign (cold start — needs keystroke) | QUEUED |
-| 820 | Dario | [PLAN:AXN-CONSTRUCT-0] completion audit — the true size (chains after 818) | QUEUED |
+| 818 | Dario | [PLAN:AXN-BOUND-3] grammar cross-check | RETURNED (Q-726; 34/34 + 6 missed; A11 miscite caught) |
+| 819 | Codex 2 | [PLAN:Gc2/E-BRIDGE] H1/H2 campaign | RETURNED (Q-726; partial stock; certificates named; H1/H2 still gated) |
+| 820 | Dario | [PLAN:AXN-CONSTRUCT-0] completion audit | RETURNED (Q-727; completion STANDS as sealed principle; remainder 9-20 priced) |
 | 816 | Codex 2 | [PLAN:C1-1] common cell posed | RETURNED (Q-723; 20-elem interface; core = FIVE objects incl. U_Omega) |
 | 817 | Codex 2 | [PLAN:C1-2] U_Omega typed | RETURNED (Q-724; UNDECIDABLE; lemma named; parent convergence = 5) |
 | 813 | Dario | [PLAN:B1c-6] density-chain cross-check | RETURNED (Q-721; chain PROVED; retirement registrar-only) |
