@@ -15354,6 +15354,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1C_DENSITY_CHAIN_CROSSCHECK_DARIO_V001.md (seal OK) mirrored. Dario stopped clean; Codex mid-814 (the member grammar). Registered, committed, pushed.
 
+## Q-722 — The grammar is assembled; the census is OPEN OF RECORD; the core refines to a theorem obligation with no principal fork (2026-08-09)
+
+**Question.** The member grammar of the admissible action family (relay 814).
+
+**Answer.** ASSEMBLED AND HONESTLY OPEN. Grammar from 34 exact spans (17 governing + 17 widened-probe); concrete displayed forms (the public positive-stiffness ray; the two parent controls S_0, S_1) kept distinct from schematic directions (higher-derivative, finite-update, record-curvature, dissipative, P5 — none promoted); the derived=false candidate formulae EXCLUDED from the record grammar; the CTP prestate-effect-branch mutation schema included at schema status only. EQUIVALENCE typed in three layers (base physical; conditional pre-root response ~_R; finite transport common-refinement modulo vertex gauge) — transport equivalence NOT promoted to action equivalence. CENSUS: OPEN OF RECORD — the complete action universe, exhaustive generator, coefficient descent, full equivalence/exclusion decision, and NO-OUTSIDE PROOF are absent. Bounding remains PARTIAL; S03_RELEASE_A PARTIAL; F0 ABSENCE #2 REFINED: the response-complete action/update/P5 presentation with its no-outside proof. S25 absolute throughout.
+
+**The board consequence.** THE THREE PASSES PRODUCED NO PRINCIPAL QUESTION: the remaining core is a CONSTRUCTION/THEOREM OBLIGATION, not a discretionary fork — consistent with PE-10's cornering mode (no scoring event; the object is unresolved but its resolution mode is now visibly theorem-shaped). The four-object core stands refined, unenlarged. eta_resp's road runs through Gc2 (materiality's two sealed gaps) — the unopened plan line now commissioned as relay 815; the completion/no-outside campaign follows as the grammar's consumer once 814's assembly is cross-checked.
+
+**Custody.** Artifact STAGE8_AXN_MEMBER_GRAMMAR_CODEX2_V001.md (a036bcca…, seal OK) mirrored. Codex stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
