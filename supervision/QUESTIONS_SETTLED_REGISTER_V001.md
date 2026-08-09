@@ -15030,6 +15030,20 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_7A_REBUILD_CROSSCHECK_CODEX2_V001.md (8cef86b9…, seal OK) mirrored. PE-1..6 not consulted; verb audit CLEAN. Codex chained scan: next is 784's cross-check when it exists; none higher present — lane stopped clean. Registered, committed, pushed.
 
+## Q-691 — The ratio route mapped whole: FIVE strata, zero forced connections, and the "missing power" is an undefined object; the direct-path question is ANSWERED (2026-08-09)
+
+**Question.** The evidence-grade state map of the ratio route to alpha (relay 782).
+
+**Answer, headline for the principal.** THE RATIO ROUTE IS NOT THE SHORTCUT. Corrected premise: FIVE strata, not four (S5 the joint-handle character Hessian absent from every four-list; plus one orphan expressly not adopted; sole sealed enumeration bad97950…, routes_merged=false). Boundaries: 0 FORCED / 2 FREE / 3 UNDECIDABLE — zero closed by stock; the sealed binding's NON-COLLAPSE LAW forbids shortcuts; the record's cross-citation map finds zero cross-citations. No stratum is PROVED anywhere in the glob (strongest: CLOSED_BUT_INSUFFICIENT). PATH_REMAINDER = 14 enumerated items, including: the comparison-ban release condition ABSENT (four files, each asserting its own nonexistence — F2 confirmed); kappa_record = kappa_Thomson must be DERIVED or the route fails; A32's SPEC-SEAL false at the graph root; five physics rows blocked on the unformed common cell. Final line as sealed: the famous missing power is the SMALLEST of these.
+
+**THE MISSING POWER, located exactly.** Not a shortfall in a bound: THE INTEGRATION BY PARTS HAS NEVER BEEN PERFORMED, ITS INTEGRAND NEVER WRITTEN, and the referent "the smooth cell profiles" is ABSENT (two occurrences, no definition, three candidates all disqualified; all three alternative suppliers dead). Classification: UNDECIDABLE_FROM_STOCK — no object exists for the lemma to act on. The missing sealed answer is A DEFINITION OF "THE SMOOTH CELL PROFILES." REGISTRAR NOTE: cell profiles are stitching-arc objects — the spine's cell machinery (coframe, Ref_a, the coming B1 fields) is the natural supplier; the ratio route's smallest gap may fall out of Phase B. S13 discharged byte-exact: arm 2 consumes R-L2b, never the reverse; closing R-L2b does not close arm 2.
+
+**Further corrections of record.** R-L2b is TWO exponents (alpha AND beta; beta routinely omitted). The "ten crossings" are counted in two files and ENUMERATED IN NEITHER — a measure of distance, not progress. "A32-gated" as a strata gate is UNSUPPORTED (probe: literal phrase absent; A32 gates proof_authorized via A34; twice ratified, both acts attaining nothing). E2's ambiguity RECONCILED: "REFUTED AS WRITTEN / TYPE-R" and "SUPERSEDED / RE-POSED, NOT SOLVED" are consistent statements — the commutator route is refuted on two independent grounds, the principal's supersession ground is disclosed as principal's-own, THE FOUR CONSUMERS SURVIVE, and route (b) is LIVE and unconsumed (two decisions of record 2026-08-08).
+
+**Custody findings (four, two mine, all dispositioned).** (i) EXECUTION_TRACKER seal genuinely failed (written after sealing) — fixed; law 4b: the tracker reseals in the same operation as every write. (ii) 781's flattening check ran against V001 (correct at its preflight) — dispositioned: 784's V002-checked rebuild supersedes it. (iii) Live-file version races — law 4a: the pinned version governs for the relay's duration. (iv) S1/S2's product (alpha_br_common_induced_coefficients_v001.md, f7caa5a2…) lived outside the archive, unsealed, hash pinned nowhere — IMPORTED AND SEALED into the workspace this entry; its claims remain CLAIMED/producer-proved-only pending any future use.
+
+**Custody.** Artifact STAGE8_RATIO_ROUTE_STATE_MAP_DARIO_V001.md (fdc09c07…, seal OK, 46,124 B; searched space 3,003 files; controls displayed). Dario chained into 784. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

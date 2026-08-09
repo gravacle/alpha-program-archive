@@ -533,3 +533,12 @@ Codex 2 runs under the app's "Approve for me" tier (auto-approves routine action
    known downstream consumers — the artifacts whose formulas consumed the corrected
    object — and marks them corrected/pending. When the consumer set is unknown, a
    consumer sweep is queued before any of those artifacts is consumed further.
+
+4a. PIN GOVERNS FOR THE RELAY'S DURATION (2026-08-09, from 782's custody finding iii):
+    the state-brief version a relay PINS is its contract for the whole relay, even if
+    the registrar re-versions mid-flight; newer versions may be read and disclosed but
+    never silently substituted. 782's handling (comply with pin, disclose successors)
+    is the model.
+4b. LIVE REGISTRAR FILES (2026-08-09, from 782's custody finding i): EXECUTION_TRACKER
+    is a live file; its seal is recomputed IN THE SAME OPERATION as every write. A
+    stale tracker sidecar is a registrar defect.
