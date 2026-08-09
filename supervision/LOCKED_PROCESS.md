@@ -510,3 +510,8 @@ Codex 2 runs under the app's "Approve for me" tier (auto-approves routine action
 3. CLAIM-STATUS DISCIPLINE (binds the REGISTRAR): headline claims enter the register
    as CLAIMED and upgrade to PROVED only after the other lane's adversarial
    re-derivation returns clean. Builder-never-verifies applies to registration too.
+
+4. STATE-BRIEF PINNING: every relay names the current PROGRAM_STATE_BRIEF version and
+   digest as a required preflight read; the lane verifies its seal and loads it before
+   task work. The registrar re-versions the brief on every material change of law,
+   plan, or campaign state. (Answers: the whole picture available to each lane.)
