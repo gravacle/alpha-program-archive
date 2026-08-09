@@ -15284,6 +15284,24 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1C_RECEIVER_INHABIT_DARIO_V001.md (seal OK) mirrored. Dario stopped clean. Registered, committed, pushed.
 
+## Q-716 — The gluing diagnostic is DENSITY-REQUIRED of record; B2 gates on six named components plus the response realization (2026-08-09)
+
+**Question.** Does the sealed gluing test consume the density rows (relay 808, the DS3 test)?
+
+**Answer.** DENSITY-REQUIRED — THE DECLARED SCOPE WAS THE RECORD'S WALL. The sealed RA27-4 signature (D012 + the independent JREF interface, span-cited) requires incidence, degree, connection, coframe, volume, CURRENT-DENSITY NORMALIZATION, and SUPPORT; the carrier types displayed (ResponseData, r_F^*, eta_resp, Eval, exact N_r(d_K)). The diagnostic was CORRECTLY NOT RUN — neither d_K nor eta_resp(r)d_K exists, so no residual can be formed; OBSTRUCTION = n-a, absence treated as neither zero nor nonzero. 807's "B2 runnable" self-corrected to B1a-interface-only. B2 NOW GATES ON: f_g, F_g, s_g, S_g, delta_K', d_g (B1c's six absent components) PLUS the eta_resp response realization (materiality's neighborhood — Gc2). THE SPINE'S WHOLE FRONTIER IS NOW THE DENSITY/CURRENT/SUPPORT LAYER. DS3 resolves RECORD-VOICED (scopes ledger updated); DS2 (R4Dens opacity) is now the live declared scope under pressure.
+
+**Custody.** Artifact STAGE8_B2_GLUING_SCOPE_AND_RUN_CODEX2_V001.md (3280674c…, seal OK) mirrored. Registered, committed, pushed.
+
+## Q-715 — B1a is FREE: dimension 1887, identity non-isolated, curvature-nonzero members present; PE-7 scored (2026-08-09)
+
+**Question.** The corrected joint solve (relay 807, discharging the law-7 taint on 797's candidate verdicts).
+
+**Answer.** FREE, WITH THE VARIETY EXACT. All 797 candidate verdicts treated as tainted; re-run corrected: (a2) REVERSED — exact ranks 50/50 before and after the parent-section rows; it is the joint identity member. (b2) genuinely fails (augmented rank 56 > 50). The full joint system — A0/A1/A2, composites, and O4's coherence bound through one shared Z cochain so both common-refinement paths bind the same carrier — over the 384-cell common refinement (81 vertices, 544 edges, 384 cells, curvature quotient 464, 2784 quotient lift variables; 36 section + 882 Gram equations): JACOBIAN RANK 897 PROVED EXACTLY (three modular lower bounds = 897; the 21-row rational Gram dependency supplies the matching upper bound). SOLUTION STRATUM DIMENSION 1887. Identity non-isolated; curvature-nonzero members PRESENT. B1a = FREE — scoped to the declared linear class (DS1).
+
+**PE-7 SCORED TERMINALLY (by the frozen letter, with substance stated).** Letter: the 785 verdict was PARTIAL (not DISTINCT), so the frozen REFUTING arm does not fire; mixed/free outcome -> NEUTRAL BY LETTER. SUBSTANCE: the expectation's content — the connection is forced — is REFUTED as posed within the declared class: the lift is free with dimension 1887. Fourth criterion-drafting instance (the letter's arms keyed on verdict names again); scored as frozen, substance on the record, per the PE-4 precedent. PE-5 note without scoring: a large FREE stratum at the geometry-shaped transport layer is in tension with naive readings of PE-5 — held for Gv2's terminal scoring with the full picture (PE-9's converter reading may absorb it: freedoms are the converter's INPUTS).
+
+**Custody.** Artifact STAGE8_B1A_CORRECTED_JOINT_SOLVE_CODEX2_V001.md (9cf9b329…, seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

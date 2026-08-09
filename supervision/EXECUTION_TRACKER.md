@@ -645,8 +645,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 804 | Dario | [PLAN:B1a-8] certificate verification | RETURNED (Q-712; CERTIFICATE REFUTED; class NON-EMPTY; ruling dissolved) |
 | 805 | Codex 2 | [PLAN:B1a-9] divergence locate | RETURNED (Q-713; bug located; A2 family dim 243) |
 | 806 | Dario | [PLAN:B1c-3] receiver inhabitance | RETURNED (Q-714; 4/10 supplied — the coframe layer; gate narrowed) |
-| 807 | Codex 2 | [PLAN:B1a-10] corrected joint solve | SENT (ACK observed) |
-| 808 | Codex 2 | [PLAN:B2] gluing scope — and if coframe-only, RUN IT (chains after 807) | QUEUED |
+| 807 | Codex 2 | [PLAN:B1a-10] corrected joint solve | RETURNED (Q-715; FREE dim 1887; a2 reversed) |
+| 808 | Codex 2 | [PLAN:B2] gluing scope | RETURNED (Q-716; DENSITY-REQUIRED; B2 gates on 6 components + eta_resp) |
 | 809 | Dario | [PLAN:AXN-0] the action: object or role? (cold start — needs keystroke) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |

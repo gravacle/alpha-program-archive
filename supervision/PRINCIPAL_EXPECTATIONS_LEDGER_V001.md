@@ -118,3 +118,5 @@ throughout; no 7A criterion may consult this expectation.
 (ii) The G4 assembly (future): CONFIRMING if the record field equation, when lawfully assembled, has the conversion form — [gluing/compatibility residual] equated to [the ledger of surviving allowed freedoms] — with no additional gravitational input beyond the forcing mechanisms; REFUTING if a gravitational dynamical object must be ADDED beyond them; NEUTRAL if G4 is never lawfully reached.
 
 **Zero verdict weight; pointer-only; no criterion may consult this expectation — 809's isolation is absolute (its relay predates this seal and does not name it). Status: OPEN.**
+
+**PE-7 SCORED TERMINALLY 2026-08-09 (Q-715):** letter NEUTRAL (the 785 verdict was PARTIAL, not DISTINCT; the frozen arms keyed on verdict names — fourth drafting instance); SUBSTANCE REFUTED AS POSED: the lift is FREE, dimension 1887, within the declared linear class (DS1). The connection's per-object half remains derived (Q-692); the refinement lift is the record's allowed freedom.
