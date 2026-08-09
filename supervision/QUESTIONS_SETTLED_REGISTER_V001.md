@@ -14798,6 +14798,10 @@ The forcing envelope-checked cross-family (spans verified), the addendum sealed 
 
 **Status.** SETTLED as structure-with-mechanism. Routed: the primaries read + the public layer scoped (Dario, 762).
 
+## Q-666 — Corpus verification half A: one candidate clean, one with four membership findings — the dual design earning its keep (2026-08-08)
+
+Codex 2's verification half over the two family-4 candidates: C-B-V009-01 CLEAN (typing checked); C-B-V009-08 FINDINGS — two wrong inclusions (INC-08-1/2) and two wrong exclusions (EXC-08-1/2), each with spans, caught BEFORE any M2 use. No candidate sealed, repaired, or consumed; the second lane's half outstanding. The route: regenerate the V009-08 candidate via the family-4 tooling with the findings resolved (rule-conformant, never hand-edited), then Dario's verification half over both. Basis: STAGE8_7A_CORPUS_VERIFY_A_CODEX2_V001.md = a9fee84e…, registrar seal-verified, mirrored. SETTLED as half-verification.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

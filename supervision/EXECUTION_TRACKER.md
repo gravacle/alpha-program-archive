@@ -600,8 +600,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 758 | Dario | [7A/STEP7] Thomson scoping | **RETURNED. Chain 0/18, head-entry only at S03 (Q-557 gated); census: 3 one-object beta candidates OFF-chain. Q-663. ROUTE TO THE PRINCIPAL.** |
 | 759 | Codex 2 | [7A/STEP11] family 4 | **RETURNED. SIX ROWS ENVELOPE-READY; pipeline end-to-end live. Q-664.** |
 | 760 | Dario | [7A/Q126] D_BR | **RETURNED. Raw tower FORM derived; beta-mechanism displayed (normalization IS the beta step); public layer = the real object; primaries mirrored. Q-665.** |
-| 761 | Codex 2 | [7A/STEP11] corpus candidates: Codex verification half | **SENT (ACK observed)** |
+| 761 | Codex 2 | [7A/STEP11] corpus verify half A | **RETURNED. V009-01 CLEAN; V009-08 four findings (2 inc / 2 exc). Q-666.** |
 | 762 | Dario | [7A/Q126] the primaries read; the public layer scoped | **SENT (ACK observed)** |
+| 763 | Codex 2 | [7A/STEP11] the V009-08 candidate regenerated, findings resolved at rule level | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
