@@ -15510,6 +15510,16 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **THE PROGRAM'S REMAINDER, RESTATED WHOLE: one build (the action, five holes under the binding predicate), one protocol choice (slot 18, yours, within sealed eligibility), and the verdict layer.** Custody: both artifacts seal-verified, cross-mirrored. Registered, committed, pushed.
 
+## Q-739 — The skeleton cross-checked: BOX_gravity is the missed hole — the gravity derivation formally enters the build; the excluders re-typed; the legs compose 7-of-8 (2026-08-09)
+
+**Question.** Cross-check the action skeleton (relay 833, gating the hole-closure round).
+
+**Answer.** CONFIRMED WHERE IT CLAIMED, CORRECTED WHERE IT MATTERED. FORCED_STRATUM: confirmed at its stated scope, with the strongest attack BLOCKED at the custody boundary (S_rot/S_BF live cleanroom-side; relay 836 runs it) and the sharpening registered: T01's forcing is set-intersection over a TWO-member exhibit while the erratum's completions number AT LEAST FOUR — the stratum is a strict subset. EXCLUDERS: 3/3 scoped correctly but ALL MISLABELED — premise-absent (T04: literally the seventh shared premise; T09) and adoption-absent (T08), NOT derivations — and the hazard is sealed: Q_spec slot 9 demands "a THEOREM excluding independent finite F^2 deformation... NOT A POSTULATE RELABELING," with relabeling a sealed FAILURE CONDITION. The F^2 exclusion must be PROVED inside the build. VARIATION: both Euler derivatives independently re-derived, sign and factor; the identity-carrier corroborated from the checker's own 804; the stops correct. BINDING PREDICATE: ready — exactly the parent-reproduction condition — with the INTERLOCK FINDING: 829's predicate plus 830's falsifiers COMPOSE to cover SEVEN OF R3'S EIGHT derived properties, no gap, no double-coverage, the eighth (the source-dressed monomorphism) uncovered BY DESIGN as the live E4c disjunct.
+
+**THE MISSED HOLE — LAW 9's FIND, AND IT IS THE PROGRAM'S OWN SUBJECT: BOX_gravity.** The charter's target names gravity; the skeleton has NO gravity term row — not even a placeholder ("absence of a placeholder is a stronger absence"). Corroborations: Q_spec slot 2 ("full gravitational action and gravitational quantum measure," node-face) consumes exactly this; and the corpus HAS a candidate and HAS DISQUALIFIED IT — "Einstein-Hilbert parent action is therefore an IMPORTED KK ANSATZ, NOT AN EMERGENT-GRAVITY DERIVATION." Recommended row adopted: T10 | gravitational action functional | FREE | BOX_gravity. **The gravity derivation is now formally a hole in the action's term table — "gravity derived, not added" as a build row — with PE-9's frozen shape-test waiting at its closure (zero weight, noted).** The environment sector pressed only at note-level, disclosed. With BOX_gravity, the variation stops in TWO places on the four-sector target — "partial" strengthened.
+
+**Custody.** Artifact seal OK, mirrored. 834 (calculus repair) chained and ACKed — the chain held. 836 (the stratum test) queued to Codex's chain. Both build legs remain CLAIMED pending full cadence. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -664,9 +664,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 828 | Dario | [PLAN:F0-3] Q_spec source requirement | RETURNED (Q-734; 827 REFUTED; O1/O2/O3 are Q_spec slots 10-12; law 9) |
 | 829 | Codex 2 | [PLAN:AXN-BUILD-A1] action skeleton | RETURNED (Q-737; 1 forced / 3 absent / 5 holes; binding predicate in place) |
 | 832 | Codex 2 | [PLAN:AXN-BUILD-B2] calculus cross-check | RETURNED (Q-738; G1 instance-scoped; census B conditional; 7 carriers) |
-| 833 | Dario | [PLAN:AXN-BUILD-A2] skeleton cross-check (cold start — needs keystroke) | QUEUED |
-| 834 | Dario | [PLAN:AXN-BUILD-B3] calculus repair (chains after 833) | QUEUED |
-| 835 | Codex 2 | [PLAN:F/QSPEC-SLOT-10] O1 closure, both routes (cold start — needs keystroke) | QUEUED |
+| 833 | Dario | [PLAN:AXN-BUILD-A2] skeleton cross-check | RETURNED (Q-739; BOX_gravity found; excluders re-typed; 7-of-8 composition) |
+| 834 | Dario | [PLAN:AXN-BUILD-B3] calculus repair | SENT (ACK observed, chained) |
+| 835 | Codex 2 | [PLAN:F/QSPEC-SLOT-10] O1 closure | SENT (ACK observed) |
+| 836 | Codex 2 | [PLAN:AXN-BUILD-A3] stratum test S_rot/S_BF (chains after 835) | QUEUED |
 | 830 | Dario | [PLAN:AXN-BUILD-B1] descendant calculus | RETURNED (Q-736; closed downstream, open upstream; 14 falsifiers typed) |
 | 831 | Dario | [PLAN:D2-0] slot census | RETURNED (Q-738; D2 COLLAPSES: 6 node-face / 8 derivable / 1 protocol) |
 | 816 | Codex 2 | [PLAN:C1-1] common cell posed | RETURNED (Q-723; 20-elem interface; core = FIVE objects incl. U_Omega) |
