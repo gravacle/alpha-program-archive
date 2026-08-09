@@ -15250,6 +15250,20 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_FULL_SPACE_SOLVE_CODEX2_V001.md (520a3fa2…, seal OK; root V011 not opened) mirrored. Codex chained into 803 then stopped clean. Registered, committed, pushed.
 
+## Q-712 — THE NO-GO IS REFUTED BY EXHIBIT: the linear class is NON-EMPTY, the parked ruling dissolves, and the claim-status law pays in full (2026-08-09)
+
+**Question.** Verify the Q-710 infeasibility certificate (relay 804, the ruling's evidence gate).
+
+**Answer.** CERTIFICATE REFUTED. System audit: all NINE structural counts faithful (dims, ranks, 264-dim section space, 864+300 = 1,164 variables, 921 equations); the intrinsic quadratic transcribed exactly as 795 derived it. THE DEFECT IS IN L: 802 specified it only in prose, without normalization — the certificate is not reproducible from the artifact's own text, and UNDER EVERY LAWFUL READING THE IDENTITY LAW IS A SOLUTION. Dario's independent rebuild: minimum refined quadratic 11/56, EXCESS NEGATIVE (-101/56) — SATISFIABLE. A commissioned sweep of ~100 exact convention combinations reproduced 802's number under NONE. Honest limits stated: the subject's internal arithmetic is consistent to the last digit and ITS ERROR WAS NOT LOCATED — the refutation is by exhibit; relay 805 (Codex, adopt-and-locate) publishes L, tests the identity law in its own system, and finds the divergence.
+
+**Withdrawn with the empty verdict:** "B1a closed as UNSATISFIABLE"; "JOINT_A1_A2_FIELD_EXT_MEMBER impossible"; "B2 not runnable". SCOPE finding preserved: the linear class is the right class, covers all 864 parameters, and is NON-EMPTY. NONLINEAR_BEARING: nothing sealed restricts nonlinear laws — moot now. The obstruction reading (Q-710's zero-weight note) is WITHDRAWN AS POSED: the positive excess was an artifact of the L actually used; Dario declined to compute its "stability" and said why — granting an artifact the status of a structure is the trap.
+
+**THE PARKED RULING DISSOLVES** — no accept-or-revise fork exists over an inhabited class. THE CLAIM-STATUS LAW'S FULL PAYMENT: an internally-consistent, exact-arithmetic, plausible route-level no-go would have reached the principal as a ruling; the mandatory verification gate killed it first, with an exhibit that was ALREADY SEALED in the record (795 — the arc's third self-under-reading, the standing Q-704 lesson again). ALSO: the verifier's own first rebuild carried an instrument bug (transpose-pivot basis extraction) caught by a BUILT-IN SANITY CONTROL — without it, the verification itself would have blocked the ruling falsely. Controls at every level are now load-bearing.
+
+**B1a's true state:** the solution set on the linear class is NON-EMPTY (the identity law a member); its dimension and structure are OPEN — 805 computes what is lawfully computable after locating the divergence.
+
+**Custody.** Artifact STAGE8_B1A_CERTIFICATE_VERIFY_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
