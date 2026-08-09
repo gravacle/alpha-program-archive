@@ -15436,6 +15436,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_AXN_SOURCE_GNS_CODEX2_V001.md (seal OK) mirrored. Codex stopped clean. Registered, committed, pushed.
 
+## Q-731 — THE FINITE-SUFFICIENCY THEOREM: zero infinite-required consumers; the junction declares finite-only; O1/O2/O4 leave the critical path (2026-08-09)
+
+**Question.** Does anything downstream consume the infinite-future source objects (relay 824, the principal's source/record observation)?
+
+**Answer.** NO CONSUMER FOUND — AND THE JUNCTION SAYS SO ITSELF. 18 consumers audited across six classes (the 13 junction prerequisites; recognition; the D_BR evaluation; E4c-as-carried; B2; F3a); a 16-term lexical decider run BEFORE reading (instrument disclosed); five of six classes return ZERO source-infinite terms; the junction checklist's 8 hits each read in place. TYPES: 0 INFINITE-REQUIRED / 17 FINITE-SUFFICIENT or NO-SOURCE-MENTION / 1 AMBIGUOUS (E4c-as-carried: both readings displayed, neither picked). THE DECISIVE POSITIVE: the junction's own consumption rule — "E4b may be consumed only in D16's narrowed form … equality after common finite causal support and its buffer. The stronger adjacent-swap/prefix statement is not used" — IT DECLARES IT CONSUMES ONLY THE FINITE FORM. R3 draws the line in its own words (finite Moller propagator expressions; the full source-inclusive algebra beyond them). An adversarial sweep of 86 requirement-language sentences found only scope boundaries and failed-attempt post-mortems. VERDICT: O1/O2/O4 LEAVE THE CRITICAL PATH TO RUNNABILITY — which is the FIVE MAP OBJECTS exactly, plus cell-local replays and already-existing pinning evidence. 820's O-pricing comes off the runnability road; NOTHING is discharged and the five objects' statuses are untouched.
+
+**Kept honest, three edges:** (a) durability's one source asymptotic is consumed AND already derived (Riemann-Lebesgue on the free-tail spectral density — independent of the O's); (b) runnability is not a physical verdict (the checklist lists E4c among what the 13 do not achieve, without requiring its closure for a verdict); (c) THE LIVE LOOSE END: the retarded-response -> Thomson-limit chain lists "source-inclusive continuum/projective completion" among its needs, and NO SEALED SENTENCE settles whether that chain IS the R-L2b campaign (typed off alpha's value path) or a DISTINCT consumer — if distinct, the Thomson chain is the true holder of the source question ON ALPHA'S PATH. Relay 827 settles the identity question. **Structural weakness disclosed by the lane itself:** four of six consumer classes are its own artifacts; a lane blind spot would produce consistent zeros; "cannot be repaired from inside my lane" — relay 826 (Codex) re-audits those four classes with the opposite lane's eyes. Verb audit +4 including the lexical-decider-first admission and the six-agent delegation returning zero before seal.
+
+**Custody.** Artifact STAGE8_C1_FINITE_SUFFICIENCY_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
