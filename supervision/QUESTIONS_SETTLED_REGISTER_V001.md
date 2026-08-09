@@ -14830,6 +14830,14 @@ Codex 2's verification half over the two family-4 candidates: C-B-V009-01 CLEAN 
 
 All four membership findings traced to the family-4 selection logic and fixed THERE — the tool corrected with negative controls displayed, no hand-edit anywhere; the candidate regenerated (0a134859…, unsealed) awaiting Dario's verification half and the registrar's seal. Basis: STAGE8_7A_CORPUS_REGEN_CODEX2_V001.md, registrar seal-verified, mirrored. SETTLED.
 
+## Q-670 — The tower cross-check: spectrum and Casimir CONFIRMED; the cross term REFUTED on grading; the free set has ZERO sealed constraints (2026-08-08)
+
+**Fourth headline reversal by commissioned adversarial verification.** CONFIRMED: the monopole-twisted spectrum (the exact reparametrization independently re-derived) and the chiral-16 Casimir (raw D5 weight 45/4; 45/8 in the stated convention) — with the honest sharpening that the multiplicity correction is PIECEWISE (x4 at nonzero sphere levels, x2 at the unpaired zero level; the unqualified "exactly x4" wording false while the final piecewise formula is sound). REFUTED, decisively: the cross-grade treatment — Gamma[D,Phi] has bidegree (1,1), is EVEN in the total superconnection grading (as every term in the square of an odd operator must be), does not couple total-even to total-odd, and with Phi unselected is a MODE-MIXING operator that cannot appear as a scalar summand in an exact eigenvalue formula absent a cancellation/commutation/diagonalization proof — none sealed. The +1 is a sufficient background gap offset NOT identified with Phi†Phi by any sealed source. ALSO REFUTED: the |q| >= 1/2 constraint is NOT sealed — the locked inequality is satisfied by the untwisted spectrum too, and the target never identifies its label with the monopole degree. FREE-DATA STATE: five classes, ZERO sealed constraints.
+
+**Basis.** STAGE8_7A_TOWER_CROSSCHECK_CODEX2_V001.md = 5348bcc4…, registrar seal-verified, mirrored.
+
+**Status.** SETTLED as cross-check. Routed: author-side confirm-or-contest + the corrected tower statement (Dario, 768, after 766) — the tower restated as what it provably is (exact on the sectors where the cross term provably vanishes; bounds elsewhere; the diagonalization named as the missing object).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

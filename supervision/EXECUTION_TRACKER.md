@@ -606,7 +606,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 764 | Dario | [7A/Q126] tower rebuild | **RETURNED. Twisted floor exact (index theorem reproduced); BETA NON-UNIFORM (not normalizable away); 5 free data, 1 constraint. Q-668.** |
 | 765 | Dario | [7A/Q126] the bundle-class selector hunt (first of five) | **SENT (ACK observed)** |
 | 766 | Dario | [7A/STEP11] corpus verification half B (after 765) | QUEUED — NOT ANNOUNCED |
-| 767 | Codex 2 | [7A/Q126] cross-check the rebuilt tower: refute if you can | **SENT (ACK observed)** |
+| 767 | Codex 2 | [7A/Q126] tower cross-check | **RETURNED. Spectrum + Casimir CONFIRMED (piecewise mult.); CROSS TERM REFUTED on grading; |q| constraint UNSEALED — free set 5+0. Q-670.** |
+| 768 | Dario | [7A/Q126] cross-check contest + the tower restated (after 766) | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
