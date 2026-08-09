@@ -542,3 +542,9 @@ Codex 2 runs under the app's "Approve for me" tier (auto-approves routine action
 4b. LIVE REGISTRAR FILES (2026-08-09, from 782's custody finding i): EXECUTION_TRACKER
     is a live file; its seal is recomputed IN THE SAME OPERATION as every write. A
     stale tracker sidecar is a registrar defect.
+
+2a. WEIGHTS ARE FREEDOMS (2026-08-09, from 787's beta-sector refutation): the SCALING
+    WEIGHT of every carried operator freedom (e.g. w_Phi under beta rescaling) is
+    itself a freedom and gets its own row in the freedoms-consumed block. Writing a
+    sector table that fixes a weight implicitly is the same invisible substitution
+    the block exists to expose.

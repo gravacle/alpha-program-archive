@@ -15074,6 +15074,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_LIFT_FORCING_CODEX2_V001.md (3966fdb1…, seal OK; 16/16 decisive spans; V011 membership verified through the sealed manifest) mirrored. Codex chained into 787 (rebuild-v2 convergence test). Registered, committed, pushed.
 
+## Q-695 — Convergence test: five of seven confirmed; the last residual is one implicit weight; law 2a (2026-08-09)
+
+**Question.** Does rebuild v2 survive independent adversarial re-derivation (relay 787)?
+
+**Answer.** ALMOST — ONE LOCALIZED DEFECT REMAINS. CONFIRMED (5/7 + 2 side-confirmations): the radius derivation whole (product-tower square, three denominators, zeroth-order Phi^dagger Phi, radius-free C2_parent, non-commutation flag); no implicit unit radius outside the five named (U) sites; the tier-2 drop (independent 1,911-file probe found no sealed scalar-Phi carrier; the tensor surface correctly non-factoring); the tier-3 conditions; the member bounds ((F) attached, unconditional in Phi, separation 1/r_flux^2); plus the two beta-invariant ratios and the S27 multiplicity-only reading, each independently confirmed. REFUTED: the beta-sector table — the cross term was written beta^-1, silently substituting w_Phi = 0 where sealed 768 leaves Phi's scaling UNSELECTED; symbolically the cross term is beta^(w_Phi - 1) and Phi^dagger Phi is beta^(2 w_Phi). The freedoms block is therefore FALSE at the Phi row (carried-in-name, weight-substituted-in-table). CONVERGED = no, residual = one item.
+
+**Law 2a adopted:** scaling weights of carried operator freedoms are freedoms — each gets its own block row. The invisible-substitution class has now been caught at values (781: radii to 1) and at weights (784: w_Phi to 0); the block's item-by-item audit catches both, one cycle after each is committed. Relay 789 (Dario chain, after 788) restates the sectors symbolic in w_Phi, re-checks every beta-graded downstream statement for w_Phi sensitivity (including verifying the ratios' independence rather than inheriting it), and corrects the block — then the layer banks on 789's small cross-check. lambda >= C2_parent untouched throughout (PROVED, Q-690).
+
+**Custody.** Artifact STAGE8_7A_REBUILD_V2_CROSSCHECK_CODEX2_V001.md (513132c1…, seal OK) mirrored. PE-1..7 pointer-only. Codex chained scan: nothing above 787 — lane stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
