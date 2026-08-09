@@ -15180,6 +15180,18 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1B_INDEX_BRIDGE_DARIO_V001.md (6e663972…, seal OK; law 8 applied — R33/R33G sealed by manifest mode only) mirrored. Registered, committed, pushed.
 
+## Q-705 — E4 splits three ways: the colimit dynamics is exhaustion-independent (new, CLAIMED); the dressed-maps half is obstructed on the Moller absence (2026-08-09)
+
+**Question.** Verify cofinal-invariance for the CDL colimit or make its obstruction exact (relay 799).
+
+**Answer.** POSED PRECISELY, THEN SPLIT. CDLP's falsifier is a disjunction, so E4 is three conjuncts. E4a (colimit dynamics) PROVED-as-CLAIMED, and elegantly: the unit-weight incidence generator B is defined on l2(V) — it quantifies over V, not over any exhaustion — so it is the SAME operator for every exhaustion; P_n -> I strongly gives the same strong limit for each; COFINALITY IS NOT EVEN USED (carried hypothesis: the cycle-7/DC3 bounded-incidence condition). E4b SUPPLIED-MODULO one named identification: RED's spacelike-disjoint write commutation and linear-extension independence serve, but "two cofinal exhaustions differ only by spacelike-disjoint interchange" is stated nowhere and was not supplied — the sub-gap named. E4c OBSTRUCTED with the failing step typed: comparing exhaustion-induced dressings requires the GLOBAL INFINITE-FUTURE SOURCE MOLLER UNITARY — flagged FALSE in two sealed files, the shortcut BARRED by the architecture's own words ("selecting that channel decomposition now would assume the object the gate must derive"), the only lawful route named: the target-independent source-record-gravity-gauge action R3 requires. REGISTRAR NOTE: the metric conversion (M05), the absolute normalization, and now E4c all converge on THE COMPLETE PARENT ACTION — one deep node collecting the program's remaining hard requirements.
+
+**C1's license and burdens, now exact.** MAY ASSUME: exhaustion-independence of the dynamics (E4a) — no exhaustion need be fixed or selected; the record-state half only in conditioned form. MUST CARRY: the dressed-maps disjunct as a LIVE FALSIFIER (never assumed), the Moller absence, and E4b's sub-gap as an open identification. No flags flipped; the flag ledger displayed (consumed-as-hypothesis vs blocking vs untouched).
+
+**Queued.** Relay 800 (Dario): the E4b sub-gap — a finite combinatorial statement possibly provable from stock. E4a's cross-check joins the Codex chain after 796/797. STALL FLAG: 796's ACK has not appeared after 794's DONE with 796 in the inbox — the known Codex stall signature; the principal is checking the window.
+
+**Custody.** Artifact STAGE8_C1_E4_VERIFICATION_DARIO_V001.md (b760e1b9…, seal OK; CDL family sealed by manifest mode, law 8) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

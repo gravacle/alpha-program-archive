@@ -637,7 +637,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 796 | Codex 2 | [PLAN:A2-CORRECTIVE-3] beta v3 cross-check — banking check | SENT (chained after 794) |
 | 797 | Codex 2 | [PLAN:B1a-6] full solution-set test (chains after 796) | QUEUED |
 | 798 | Dario | [PLAN:B1b-2] index bridge | RETURNED (Q-704; bridge = named proposition, FREE; B1b re-scoped) |
-| 799 | Dario | [PLAN:C1-PRE] E4 cofinal-invariance verification (cold start — needs keystroke) | QUEUED |
+| 799 | Dario | [PLAN:C1-PRE] E4 verification | RETURNED (Q-705; E4a proved-CLAIMED; E4c obstructed on Moller) |
+| 800 | Dario | [PLAN:C1-PRE-2] E4b proof + Moller hunt (cold start — needs keystroke) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
