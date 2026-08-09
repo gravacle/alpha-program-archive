@@ -515,3 +515,10 @@ Codex 2 runs under the app's "Approve for me" tier (auto-approves routine action
    digest as a required preflight read; the lane verifies its seal and loads it before
    task work. The registrar re-versions the brief on every material change of law,
    plan, or campaign state. (Answers: the whole picture available to each lane.)
+
+5. RULING-LAST (2026-08-09, principal-endorsed): no question routes to the principal
+   as a ruling until three passes have returned empty, in order: (a) the register grep
+   (was it answered under another name), (b) the hunt (does the sealed record display
+   the answer), (c) the forcing classification (do sealed constraints force it). The
+   routing message must cite all three results. Corollary: the rulings that remain
+   are the genuine allow-stratum freedoms — the ruling rate is itself a measurement.
