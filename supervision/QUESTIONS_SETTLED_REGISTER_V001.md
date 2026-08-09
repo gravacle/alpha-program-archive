@@ -15114,6 +15114,18 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1C_DENSITY_RECEIVER_BUILD_CODEX2_V001.md (0c535497…, seal OK) mirrored. Codex chained scan empty — stopped clean; next Codex work is defined by 788's landing (its cross-check, or the joint-member forcing), so the brief idle is correct, not a lapse. Registered, committed, pushed.
 
+## Q-699 — The carrier's incidence half is built and machine-verified; the record may already own the forcing, conditional on one metric (2026-08-09)
+
+**Question.** Can the typed refinement carrier be derived from sealed stock (relay 788, executing 786's remainder)?
+
+**Answer.** HALF DELIVERED, HALF NAMED, ONE MAJOR LEAD. DELIVERED (the incidence half): sd*_1 and sd*_2 read off the sealed Ext_g/Flux_g constraints; the DIRECTION THEOREM — the canonical map runs K'->K, so J_1 is a SECTION of sd*_1 (injective iff g in A0), which is why V011's injective-cellular typing was the WRONG TYPE and the carrier was missing rather than unwritten; the cochain-map property sd*_2 d_1' = d_1 sd*_1 derived and MACHINE-VERIFIED on all 24 parent squares of both A1 and A2 (200 random cochains each, zero mismatches, the transverse-multiplicity hazard probed explicitly); the intertwining criterion; flux conservation as a consequence of any section; the forcing lemma corrected to carrier level (residuals 561/2023/7599 by generator; the 119 reproduces 786's census). NOT DELIVERED, NAMED: the coframe half (V011's only coframe spans are S26-barred smooth-side; the vacuous-by-construction F' was DECLINED) and O1's identity/existence clauses.
+
+**THE LEAD (handed up unadopted).** V011's sealed Q_flux — the unique horizontal minimum-norm lift — is NOT sd*-equivariant in general (deviation 1.82), BUT at the minimum-norm fibre point the identity sd*_1 o Q'_flux o (min-norm section) = Q_flux holds on im(d_1) EXACTLY (300 trials, worst 8.9e-15) — canonical RELATIVE TO THE COUNTING INNER PRODUCT (a Gate-3 metric input, consumed and flagged). IF the combination is natural across generators, B1a closes FORCED-RELATIVE-TO-THE-METRIC and the metric's status becomes the principal's decision — a genuine ruling that would survive RULING-LAST. Relay 794 (Codex) cross-checks the incidence half AND runs the naturality test.
+
+**Also of record.** The composition coherence is a SEALED RELATION (V011's tolerance-free "must commute with pullback to a common refinement"), evaluable once a carrier exists — the earlier "no finite bite" reading WITHDRAWN. Verb audit NOT CLEAN (+5), including a second appearance of the conjunctive-clause collapse (the 742 shape) and a generator-scope overreach corrected to carrier level. V011 hazard handled (sealed packet copy used; the unsealed root copy's offsets not interchangeable).
+
+**Custody.** Artifact STAGE8_B1A_REFINEMENT_CARRIER_DARIO_V001.md (97f073c1…, seal OK; spans re-derived, all match) mirrored to cleanroom. Dario chained into 789 (ACK observed). Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
