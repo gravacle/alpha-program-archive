@@ -595,9 +595,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 753 | Dario | [7A/STEP8] simplicial coframe | **RETURNED. FRAME DERIVED exact; barred by 4! — a CONFLICT of clauses (R33+MAJ vs the box clause), likely forced by the quantifier. Q-659.** |
 | 754 | Codex 2 | [7A/STEP11] family 3 | **RETURNED. 20 mutations + 20 rejections; 5 rows advanced. Q-660.** |
 | 755 | Dario | [7A/STEP8] support + forcing | **RETURNED. FORCED — one measure, two evaluations, never a conflict; support = an IDENTIFICATION question (third of the family). Q-660.** |
-| 756 | Codex 2 | [7A/STEP8] the forced measure one-liner authored; coframe closes | QUEUED — NOT ANNOUNCED |
+| 756 | Codex 2 | [7A/STEP8] measure one-liner | **RETURNED. Addendum sealed; COFRAME CLOSED both generators. Q-662.** |
 | 757 | Dario | [7A/STEP8+6] identification family | **RETURNED. DISTINCT (census: kept separate); root = uniqueness-of-complex, program-future; junction path runs through the physics rows. Q-661.** |
 | 758 | Dario | [7A/STEP7] THE THOMSON CHAIN OPENS: the scoping (beta-sensitivity front and center) | **SENT (ACK observed)** |
+| 759 | Codex 2 | [7A/STEP11] tooling family 4: corpus/pin/envelope generation (custody boundary in contract) | QUEUED — NOT ANNOUNCED |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |

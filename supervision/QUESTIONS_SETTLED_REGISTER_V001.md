@@ -14758,6 +14758,10 @@ FRAME_DATA DERIVED: the 24 order-simplices' frame matrices computed exact from t
 
 **Status.** SETTLED. The stitching arc's derivable stock is near-exhausted; per the road, STEP 7 (the Thomson chain) opens — the beta-sensitivity feeder Q-126 demands.
 
+## Q-662 — The coframe field CLOSES: the measure-denotation addendum sealed; both generators derived (2026-08-08)
+
+The forcing envelope-checked cross-family (spans verified), the addendum sealed byte-faithful to the displayed §2.5 content (9ae682eb…): the volume factor denotes the uniquely classified intrinsic flat-cell measure Vol_4 — |det e| its parallelepiped evaluation, 1/4! its simplex combinatorics. The coframe disposition displays all 24 order-simplex frames with |det E_p| = 1 and Vol_4 = 1/24 forced; A1 derived (prior), A2 now derived, composites inherit by ordered composition. RA27-3's coframe row: PARTIAL -> CLOSED/DERIVED; all other verdicts preserved (the row remains partial on the physics-owned and program-future items). 9 pins resolved; no executable path existed to dry-run, said so. Basis: STAGE8_7A_MEASURE_ONELINER_CODEX2_V001.md = 84db6f53…, registrar seal-verified, mirrored. SETTLED.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
