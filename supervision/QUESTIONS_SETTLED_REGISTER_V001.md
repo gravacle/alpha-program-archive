@@ -15230,6 +15230,26 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_FULL_SOLUTION_SET_CODEX2_V001.md (78882cbe…, seal OK) mirrored. Codex stopped clean. Registered, committed, pushed.
 
+## Q-711 — E4a PROVED; E4b NARROWED to the promoted-branch statement (2026-08-09)
+
+**Question.** Cross-check the exhaustion theorems (relay 803).
+
+**Answer.** E4A CONFIRMED -> PROVED (re-derived from the fixed global bounded-incidence generator; no in-class counterexample exhaustion survives). E4B NARROWED: the finite-poset connectivity theorem was itself independently PROVED for all finite posets, but Dario's four-step route has two binding defects (RED does not derive that every physical exhaustion is a down-set chain; ARCH receives incidence dynamics, not completed-record states). SURVIVING LAWFUL STATEMENT: within the promoted Fork-8 branch, stabilized completed-record restrictions agree after both cofinal exhaustions contain the same finite causal support and buffer. GNS support independently verified at its true scope (canonical inductive chain, not an arbitrary-exhaustion bridge). E4c unchanged. C1's license adjusts: E4a proved; E4b in the narrowed after-common-support form; the narrowed falsifier stands.
+
+**Custody.** Artifact STAGE8_C1_E4_CROSSCHECK_CODEX2_V001.md (3a17200d…, seal OK) mirrored. Registered, committed, pushed.
+
+## Q-710 — THE NO-GO: no linear coframe law transports the measure through refinement — exact certificate; the first surviving principal question (2026-08-09)
+
+**Question.** The joint five-requirement system over the full parameter space (relay 802).
+
+**Answer (CLAIMED, certificate verification queued).** UNSATISFIABLE, EXACTLY. System: 1,164 decisive variables (the full 864-parameter law space + 300 gauge-quotient lift parameters); 900 linear + 21 quadratic equations on the rebuilt A2 receiver. The linear incidence/integrability block leaves a 264-DIMENSIONAL affine space of GENUINELY NONZERO-CURVATURE sections — so 797's zero-curvature degeneracy was candidate-specific, not universal — and the EXACT GRAM COMPLETION ELIMINATES ALL OF IT: infeasibility certificate F_* = (1,-1,0,0,0,0); minimum refined quadratic 352886/122871 vs required parent value 2; exact excess 107144/122871 > 0. THE FULL SEVEN-CONSTRAINT SYSTEM IS UNSATISFIABLE before the remaining conjuncts are even reached. B1a closes as a SCOPED FINITE NO-GO ON THE DECLARED FULL LINEAR LAW CLASS; no transport is supplied; JOINT_A1_A2_FIELD_EXT_MEMBER impossible under this system; B2 not runnable through this door.
+
+**ZERO-WEIGHT REGISTRAR NOTE (PE-1's territory, not consulted as criterion):** the failure's shape — refinement NECESSARILY failing to preserve the quadratic measure, by a quantified positive excess — is obstruction-shaped. The forced B2 gluing obstruction may be showing its face early as the REASON naive transport cannot exist. Recorded for the principal's reading, asserted as nothing.
+
+**THE FIRST SURVIVING PRINCIPAL QUESTION.** Route-level, and it passed all three RULING-LAST passes: register grep (new), hunt (the whole campaign), forcing (a proved-modulo-verification UNSATISFIABLE). The fork: (i) ACCEPT the no-go — the record has proved linear refinement-transport impossible on these generators, and the route's continuation must draw the consequence (possibly: the obstruction IS the content); or (ii) AUTHORIZE a specified law-class revision (the no-go is scoped to LINEAR laws) and rerun the solve. PARKED until relay 804 verifies the certificate (claim-status law: no ruling on an unverified claim). PE-7: the declared class's answer is neither forced nor free but EMPTY — the frozen arms do not cover it (third criterion-drafting instance); terminal scoring at the ruling.
+
+**Custody.** Artifact STAGE8_B1A_FULL_SPACE_SOLVE_CODEX2_V001.md (520a3fa2…, seal OK; root V011 not opened) mirrored. Codex chained into 803 then stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
