@@ -14878,6 +14878,10 @@ All three cross-check refutations ADOPTED by the author with its own algebra: (i
 
 **Status.** SETTLED as honest stop. Dario chains to 772 (grind). The ruling waits for morning.
 
+## Q-676 — Both corpora DUAL-VERIFIED CLEAN and SEALED; the pipeline's first two corpus instances are law (2026-08-08, overnight)
+
+Half B completed against the mirrored members: 133/133 byte-verified, both half-A predictions CONFIRMED, verdicts CLEAN for both candidates. THE REGISTRAR SEALED both instances under the authority decision: CD_C-B-V009-08 = the regenerated candidate 0a134859… ; CD_C-B-V009-01 = the alias-registry candidate 722a7ea6… (digest-verified against its own content-addressed filename). REGISTRAR ERROR DISCLOSED OF RECORD: the first sealing attempt grabbed the package inventory instead of the V009-01 candidate via a loose heuristic — caught immediately by inspection of the found-file paths, the wrong seals deleted before any push, the correct candidate sealed by exact digest assertion. Two rule-level items from 772 (an ambiguity resolved in practice but open in the rule; a second rule-level finding) are carried to a rule V004 note for the morning. Basis: STAGE8_7A_CORPUS_VERIFY_B2_DARIO_V001.md; the sealed instances in cleanroom + archive. SETTLED — the first two corpus instances of the evidence layer are sealed law.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

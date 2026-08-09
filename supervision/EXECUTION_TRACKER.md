@@ -611,7 +611,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 769 | Codex 2 | [7A/Q126] gate provenance | **RETURNED. V003 = the sealed premise (no revival); bar IDENTITY-ONLY; selector = ONE buildable correspondence. Q-672.** |
 | 770 | Dario | [7A/Q126] flux correspondence | **RETURNED (chained). STOPPED — electric vs magnetic category distinction; selector needs new physics or a ruling. Q-675. PARKED FOR MORNING.** |
 | 771 | Codex 2 | [7A/STEP11] pipeline batch 2 (overnight grind; chained pickup) | QUEUED |
-| 772 | Dario | [7A/STEP11] half B completed against mirrored members (chained after 770) | QUEUED |
+| 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
