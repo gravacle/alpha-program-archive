@@ -596,7 +596,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 754 | Codex 2 | [7A/STEP11] family 3 | **RETURNED. 20 mutations + 20 rejections; 5 rows advanced. Q-660.** |
 | 755 | Dario | [7A/STEP8] support + forcing | **RETURNED. FORCED — one measure, two evaluations, never a conflict; support = an IDENTIFICATION question (third of the family). Q-660.** |
 | 756 | Codex 2 | [7A/STEP8] the forced measure one-liner authored; coframe closes | QUEUED — NOT ANNOUNCED |
-| 757 | Dario | [7A/STEP8+6] the identification family: one question in three costumes? | QUEUED — NOT ANNOUNCED |
+| 757 | Dario | [7A/STEP8+6] the identification family: one question in three costumes? | **SENT (ACK observed)** |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
