@@ -15094,6 +15094,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_F0_KSTAR_DEFINING_CHAIN_CODEX2_V001.md (95c003ca…, seal OK) mirrored. Flattening check passed (S21/S23/S28/S30 live rows). Codex chained scan empty — lane stopped clean. Registered, committed, pushed.
 
+## Q-697 — Current-density: half already in the record; the gap is the refinement stratum — uniformly, across all three fields (2026-08-09)
+
+**Question.** Does the sealed record display or constrain a current-density transport field (relay 791, B1c)?
+
+**Answer.** PARTIAL, THE B1a SHAPE AGAIN. Nine-item interface extracted exactly (receiver, Ref_a totality, coframe-dual/Vol_4 density type, functoriality, conserved-current transport, incidence intertwining, coframe duality, exact-energy compatibility, coherence). Hunt: 99 raw files, meaning-probed across every candidate home (tau_density, U1, face-response, electric-charge counting, source/CAR, finite-current). ONE partial survivor: the K_G^fin / J_c / S_R lineage plus the law-only positive Dens_R slot — it supplies the CONSERVED-CURRENT AND INCIDENCE HALF. Itemwise: 2 satisfied / 2 failed / 5 undecidable. Missing, named exactly: a single inhabited Ref_a density receiver; the Ref_a/Ref_path refinement bridge; an inhabited coframe/Vol_4/support-compatible density transport. B1C_REMAINING: type and seal the receiver and bridge; construct generator transports; prove the nine-interface package; EXHIBIT AN INHABITANT before any forcing test.
+
+**The structural observation (registered, zero verdict weight).** Across all three B1 fields the record now shows the SAME split: object-level physics EXISTS (Gate-4 connection; conserved-current lineage; the coframe and measure), and the absent stratum is UNIFORMLY the refinement-transport layer — the functor across Ref_a (B1a: the typed lift carrier; B1c: the receiver and bridge; B1b: pending 792's test of naturality-over-Ref_a as the demand). The spine's work has converged to ONE kind of object. Under the PE-1/PE-5 lens this is where the gravity-shaped content was always expected to live — noted as expectation-consistent, not scored.
+
+**Custody.** Artifact STAGE8_B1C_CURRENT_DENSITY_HUNT_CODEX2_V001.md (f7b218cd…, seal OK) mirrored. S08/S26 preserved with byte-span pins; freedoms displayed, none consumed. Codex chained scan empty — stopped clean; relay 793 (B1c construction) queued. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
