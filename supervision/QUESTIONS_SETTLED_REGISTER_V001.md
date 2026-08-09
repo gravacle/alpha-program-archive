@@ -15212,6 +15212,24 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_C1_E4B_PROOF_AND_MOLLER_HUNT_DARIO_V001.md (seal OK) mirrored. Dario chains into 801 (row-7 split; Phase A banks on its return). Codex mid-797. Registered, committed, pushed.
 
+## Q-709 — Row 7 split exactly; PHASE A BANKS (2026-08-09)
+
+**Question.** The bounded row-7 correction (relay 801).
+
+**Answer.** SPLIT AND CLEAN. 768's clause bound a COUNT to an ATTRIBUTION: P7a (count = three) holds iff w_Phi in {0,1}; P7b (the cross term supplies the third weight) holds iff w_Phi not in {-1,1}; the compound holds ONLY at w_Phi = 0 — 796's attribution independently re-derived and confirmed (at w_Phi = 1 the third weight is Phi^dagger Phi's). All other conditional rows walked clean; no further conflation. With this, the D_BR layer's rebuild cycle is COMPLETE: every refutation adopted, every claim cross-checked, the freedoms block true, the unconditional core PROVED. **PHASE A IS BANKED**: the family (A + countable {B_n}) carried under FAMILY-BEFORE-DETERMINANT; the rule schema with its six named holes parked with the route; the layer's proved stock (lambda >= C2_parent tight; beta non-uniform for every w_Phi; the conditional tier structure) stands for Phase C's family evaluation. Plan status updated.
+
+**Custody.** Artifact STAGE8_7A_BETA_ROW7_SPLIT_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
+
+## Q-708 — The solution set is EMPTY on both candidates: the selection dissolves, and B1a sharpens to a five-way simultaneous law (2026-08-09)
+
+**Question.** The full solution-set test over the joint freedom space (relay 797).
+
+**Answer.** THE DECLARED TRICHOTOMY WAS NOT EXHAUSTIVE — THE ANSWER IS EMPTY. Seven atomic constraints assembled and span-cited; O4 conjunct 1 posed as exact equality on an exhibited A1/A2 common-refinement square; the Freudenthal receiver rebuilt exactly (16 vertices, 65 edges, 24 simplices, 144 bivector equations, curvature rank 50 exact-rational). (a2) is locally integrable BUT every solution induces the ZERO parent-curvature map, and the section constraints push the augmented rank to 56 — killed by incidence/section. (b2) is not a global refined coboundary (rank 56 > 50) — killed by integrability. The coframe formulas are path-coherent themselves (384-cell common refinement, zero mismatches); NEITHER SUPPLIES A LIFT. Cross-case: same EMPTY cardinality, different failure layers.
+
+**Consequences.** (1) THE F-RULE SELECTION DISSOLVES UNASKED — RULING-LAST's record again: nothing to select. (2) B1a RE-OPENS SHARPENED: the object is now a coframe law satisfying incidence + global integrability + intrinsic quadratic + composition + common-refinement coherence SIMULTANEOUSLY. (3) THE REAL QUESTION IS NOW COMPUTABLE: 797 tested two POINTS of an 864-parameter space; the joint system over the WHOLE space is exact rational linear algebra — relay 802 solves it, and ITS trichotomy is exhaustive: UNSATISFIABLE (a route-level finding), UNIQUE (forced — PE-7's strongest possible confirmation), or FREE (the true freedom displayed). (4) JOINT_A1_A2_FIELD_EXT_MEMBER remains uninhabited; B2 not yet runnable. (5) PE-7 remains OPEN — EMPTY-on-candidates fits neither frozen arm; the criterion-drafting lesson recurs (third instance: enumerate outcomes, not verdict names). (6) CUSTODY DISCLOSURE, accepted: a discovery scan touched the unsealed root V011; no bytes consumed; all load-bearing spans rehashed from the packet copy; the read disclosed as a breach — logged, no consumer.
+
+**Custody.** Artifact STAGE8_B1A_FULL_SOLUTION_SET_CODEX2_V001.md (78882cbe…, seal OK) mirrored. Codex stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

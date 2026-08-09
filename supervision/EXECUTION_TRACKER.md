@@ -635,11 +635,11 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 794 | Codex 2 | [PLAN:B1a-4] carrier cross-check + naturality | RETURNED (Q-702; incidence PROVED; lead NOT NATURAL) |
 | 795 | Dario | [PLAN:B1a-5] coframe half + O1 | RETURNED (Q-703; square FREE two candidates; O1 PROVED) |
 | 796 | Codex 2 | [PLAN:A2-CORRECTIVE-3] beta v3 cross-check | RETURNED (Q-706; confirmed whole; row-7 split pending) |
-| 797 | Codex 2 | [PLAN:B1a-6] full solution-set test | SENT (ACK observed, chained) |
+| 797 | Codex 2 | [PLAN:B1a-6] full solution-set test | RETURNED (Q-708; EMPTY on both candidates; 802 solves full space) |
 | 798 | Dario | [PLAN:B1b-2] index bridge | RETURNED (Q-704; bridge = named proposition, FREE; B1b re-scoped) |
 | 799 | Dario | [PLAN:C1-PRE] E4 verification | RETURNED (Q-705; E4a proved-CLAIMED; E4c obstructed on Moller) |
 | 800 | Dario | [PLAN:C1-PRE-2] E4b proof + Moller hunt | RETURNED (Q-707; E4b PROVED x2; E4c narrowed, precursors found) |
-| 801 | Dario | [PLAN:A1-CORRECTIVE-4] row-7 split — banking fix (chains after 800) | QUEUED |
+| 801 | Dario | [PLAN:A1-CORRECTIVE-4] row-7 split | RETURNED (Q-709; PHASE A BANKED) |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |

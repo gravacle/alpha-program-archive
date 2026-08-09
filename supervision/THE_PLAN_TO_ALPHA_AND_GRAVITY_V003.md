@@ -7,8 +7,9 @@ expanded to full task resolution at the principal's direction.
 
 ## STATUS BLOCK (registrar-maintained)
 
-CURRENT STEP: A one fix from banking (789 chained); B1a carrier build running (788);
-  F0 returned PARTIAL — four absent links named (Q-696).
+CURRENT STEP: PHASE A BANKED (Q-709). B1a sharpened to the five-way simultaneous
+  coframe law; 802 solves the full 864-parameter joint system (Q-708). E4 reduced to
+  one typed gap (Q-707). C1 licensed to build (E4a+E4b proved).
 AUDIT SCORE (24 lines, B–G): 2 DONE / 12 PARTIAL / 9 NOT-STARTED / 1 UNKNOWN (E2).
 FORCED SPINE (from the forcing map): measure → [3 FREE B1 fields] → M04 gluing
   obstruction (FORCED) → [chain/density inputs] → M11 kappa_record (FORCED).
