@@ -14774,6 +14774,16 @@ The forcing envelope-checked cross-family (spans verified), the addendum sealed 
 
 **Status.** SETTLED as scoping. The route to the gravity test's second conjunct goes to the principal.
 
+## Q-664 — Six rows ENVELOPE-READY; the D_BR route ruled (2026-08-08)
+
+**Family 4 (Codex 2, 759):** built with the corpus custody boundary IN THE TOOL'S CONTRACT (candidates and packaging only — never a corpus seal or membership ruling; the mid-relay regeneration exercised the non-overwrite guard, allowed once by the principal). Produced: 2 custody-limited corpus candidates, 6 generated pin manifests, 6 non-executable envelope shells. SIX ROWS ENVELOPE-READY: V008-05, V009-08, V010-11, D-A35-02, SP1-07, SP2-05 — remaining owners: dual corpus verification and the Step-11 subgate/registrar admission. The four-family pipeline is end-to-end live.
+
+**The principal's route ruling (decision sealed):** the D_BR SPECTRUM BUILD — the census's cleanest beta-sensitive candidate, UNBUILT (a construction); the Thomson chain not entered (S03/Q-557 stands per the road's own step 12); the embedding remains the deep candidate.
+
+**Basis.** STAGE8_7A_TOOLING_FAMILY4_CODEX2_V001.md, registrar seal-verified, mirrored; DECISION_DBR_ROUTE sealed.
+
+**Status.** SETTLED. Routed: the D_BR spectrum build (Dario, 760); Codex 2's verification half of the two corpus candidates (761).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
