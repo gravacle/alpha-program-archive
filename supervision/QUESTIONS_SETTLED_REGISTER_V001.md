@@ -15084,6 +15084,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_7A_REBUILD_V2_CROSSCHECK_CODEX2_V001.md (513132c1…, seal OK) mirrored. PE-1..7 pointer-only. Codex chained scan: nothing above 787 — lane stopped clean. Registered, committed, pushed.
 
+## Q-696 — F0 lands PARTIAL: K_*'s chain is 16 links with FOUR absent; its form is continuous-data, not ratio-by-construction (2026-08-09)
+
+**Question.** What defines alpha's computand K_* (relay 790, plan F0)?
+
+**Answer.** PARTIAL — AND NOW EXACT. Sixteen definition/type/route/constraint spans pinned from 1,787 files; the defining chain reconstructed as 16 links: 5 EXIST, 7 PLAN-DELIVERABLE, 4 ABSENT: (1) an executable C_record formula; (2) the mutation-family enumeration; (3) the physical-carrier bridge; (4) the derived K_*/kappa_Thomson relation — the historical kappa_record=kappa_Thomson derive-or-fail clause and Q-34's re-posing to K_* -> kappa_Thomson are both located, and NO sealed K_* = kappa_Thomson statement or proof exists. RATIONALITY TYPING (structure only, nothing evaluated): K_*'s defining form is CONTINUOUS-DATA, not a ratio by construction — the exact-rationality observation is UNDECIDABLE before the absent links instantiate; the "4pi carries all irrationality" hope is not a structural given of the current definition. All determinations CLAIMED pending cross-check.
+
+**Consequences.** Plan F0 status: PARTIAL with the four absences as its task list (three are build/hunt objects; the fourth is a derivation obligation typed as such). The C7/D2 intersection is cross-referenced in the artifact. REGISTRAR CUSTODY NOTE (mine): the cleanroom's register mirror had staled at Q-685 — refreshed this entry; the register mirror refreshes with every push henceforth.
+
+**Custody.** Artifact STAGE8_F0_KSTAR_DEFINING_CHAIN_CODEX2_V001.md (95c003ca…, seal OK) mirrored. Flattening check passed (S21/S23/S28/S30 live rows). Codex chained scan empty — lane stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
