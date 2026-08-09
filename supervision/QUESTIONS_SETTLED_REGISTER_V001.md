@@ -15064,6 +15064,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Status.** All re-conditioned headline items CLAIMED; relay 787 (queued, Codex chain after 786) is the convergence test — if v2 survives whole, Phase A's rebuild cycle converges and the layer BANKS. Artifact dcc84e6a… seal OK, mirrored to cleanroom for 787. Registered, committed, pushed.
 
+## Q-694 — The lift-forcing question is UNDECIDABLE until its object exists; the typed refinement carrier is named and commissioned (2026-08-09)
+
+**Question.** Do the four forced compatibilities pin the free interior-edge datum (relay 786)?
+
+**Answer.** UNDECIDABLE_FROM_STOCK — WITH THE OBSTACLE NAMED EXACTLY. The free datum is typed precisely (the refined interior-edge 1-cochain modulo vertex gauge = the child-flux distribution at fixed parent total). The four obligations are stated as runnable equations where carriers exist. OBJECTWISE uniqueness is DEFEATED (sealed A1/A2 objects carry multiple non-gauge-equivalent, incidence-compatible, child-coframe-evaluated, equal-quadratic assignments) — but the lane REFUSED the FREE verdict: those are two points in finite fibres, not two complete natural lift FUNCTORS, and the forced-vs-free question cannot be POSED until the typed connection–coframe refinement carrier exists: L_g/J_1^g, J_2^g, d_1'J_1^g = J_2^g d_1, the declared F'/F coframe square, identity/composition witnesses. S26 respected (the smooth clause barred as a source, not used). MICROSTATE_COMPARISON deferred (n-a; the 32/118 fibres cited, not identified with an undefined solution space). PE-7 remains OPEN on the undecidable arm — the record demanded its question be typed before it answers it.
+
+**Commissioned.** Relay 788 (Dario) executes 786's four-step remainder: derive the typed carrier; instantiate the squares on A0/A1/A2; re-run the solution-set test properly posed (derive the unique class OR display two complete families); prove composition. No ruling anywhere in the path; both terminal outcomes are honest.
+
+**Custody.** Artifact STAGE8_B1A_LIFT_FORCING_CODEX2_V001.md (3966fdb1…, seal OK; 16/16 decisive spans; V011 membership verified through the sealed manifest) mirrored. Codex chained into 787 (rebuild-v2 convergence test). Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
