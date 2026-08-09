@@ -15466,6 +15466,18 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Both artifacts seal-verified, mirrored. Registered, committed, pushed.
 
+## Q-734 — 828 REFUTES 827: the Q_spec's slot list holds O1/O2/O3 by name; the source question lives on ALPHA'S path; law 9 (2026-08-09)
+
+**Question.** The two residual sentences (relay 828).
+
+**Answer.** BOTH RESOLVED — AND THE VERDICT FLIPS, ON RECEIPTS. The complete Q_spec has TWO sealed enumerations: CONTENT (V011 [52900,53700): ten items, the source item sector-content only; zero source-infinite terms in 78,794 bytes — true, and exactly the fact 827 mistook for the whole answer) and SLOTS (STAGE8_QSPEC_SLOT_STATUS_MAP mapping the EIGHTEEN open slots of the STAGE6 ledger): slots 10/11/12 read VERBATIM "source-inclusive state projective limit" (O1), "infinite-future source Moller limit" (O2), "continuum-regulator independence of the source-inclusive limit" (O3 — the regulator relation MERGED by that clause, with the Q_spec's three regulator obligations now distinguished). THE CHAIN, three sealed steps, none the auditing lane's own: kappa_Thomson requires the complete Q_spec -> the Q_spec's slots 10-12 ARE O1/O2/O3 -> kappa_Thomson is F0 link 4 and alpha's stiffness is K_*. **O1, O2, O3 ARE ON ALPHA'S VALUE PATH; the Thomson chain is the true holder of the source question; 824's edge (c) resolves the other way; Q-732's SOURCE_QUESTION_HOLDER verdict is CORRECTED by this entry (law 7 consumers: Q-732, the F-phase pricing note of Q-731).**
+
+**What survives the flip, guarded against over-correction:** 824's CORE THEOREM STANDS — the junction's 13 prerequisites consume none of the infinite forms; 7A's runnability shape (the five objects + replays) is UNCHANGED, twice confirmed. What changed is the F-PHASE: alpha's specification itself carries the three source objects as open slots — coherent with D2's eighteen-slot bulk, three of which now bear their O-names. The one-build picture TIGHTENS: the complete action (the node's construction) is O2's named route, and the Q_spec slots are where its discharges land on alpha's ledger.
+
+**LAW 9 ADOPTED** from the lane's own stated lesson: a positive absence is only as strong as the completeness of the enumeration it is absent from — content lists and slot lists are distinct governing sources; both get checked. The process note worth the register: 827 disclosed its self-favor risk with three structural checks, and the SAME LANE, one relay later, found the completeness gap and refuted itself — the discipline functioning at its best.
+
+**Custody.** Artifact STAGE8_F0_QSPEC_SOURCE_REQUIREMENT_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -562,3 +562,10 @@ pickup (796 sat queued after 794's DONE; no ACK appeared; approval tier was corr
 DIAGNOSTIC: DONE present + next queued relay unACKed = chain died at turn end, not an
 approval stall. FIX: re-type the number. The registrar's watcher flags this by pairing
 every DONE with the expected next ACK.
+
+9. ENUMERATION-COMPLETENESS (2026-08-09, from 828's refutation of 827): a positive
+   absence is only as strong as the completeness of the enumeration it is absent
+   from. Before any "not in the list, therefore not on the path" argument is
+   registered, the lane must display why the checked enumeration is the COMPLETE
+   requirement set (or find the sibling enumerations — content lists and slot lists
+   are distinct governing sources and both must be checked).
