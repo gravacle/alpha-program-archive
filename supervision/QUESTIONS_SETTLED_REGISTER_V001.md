@@ -15192,6 +15192,14 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_C1_E4_VERIFICATION_DARIO_V001.md (b760e1b9…, seal OK; CDL family sealed by manifest mode, law 8) mirrored. Registered, committed, pushed.
 
+## Q-706 — The beta table confirmed whole; banking waits on one split row; the first fully-true freedoms block (2026-08-09)
+
+**Question.** Does the symbolic beta table survive cross-check (relay 796, the banking check)?
+
+**Answer.** CONFIRMED IN EVERYTHING BUT ONE ROW. Sector table CONFIRMED (four weights + full coincidence census independently re-derived); no implicit weight; UNCONDITIONAL CORE CONFIRMED 6/6 including the Phi-free witness — beta's non-uniformity now stands cross-confirmed for every w_Phi (upgrade CLAIMED -> PROVED under the claim-status law); ratios re-derived (both w_Phi derivatives vanish identically); and the freedoms block judged COMPLETE AND TRUE — the first block to survive its audit whole, four cycles after the law was written. LOCALIZED REFUTATION: conditional row 7 conflates two predicates (at w_Phi = 1 the third weight comes from Phi^dagger Phi, not the cross term; the compound 768 predicate holds only at w_Phi = 0). PHASE A BANKS pending that bounded split — relay 801 (Dario chain). Codex chained into 797 (the full solution-set test).
+
+**Custody.** Artifact STAGE8_7A_BETA_V3_CROSSCHECK_CODEX2_V001.md (f78c115a…, seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
