@@ -607,7 +607,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 765 | Dario | [7A/Q126] bundle-class hunt | **RETURNED. UNDERDETERMINED — the forcing statement EXISTS but UNSEALED; the identification barred; falsifier antecedent structurally satisfied. Q-671.** |
 | 766 | Dario | [7A/STEP11] corpus half B | **RETURNED. NOT VERIFIABLE (custody: members cleanroom-side); 3/4 half-A resolutions confirmed; members now mirrored -> 772. Q-673.** |
 | 767 | Codex 2 | [7A/Q126] tower cross-check | **RETURNED. Spectrum + Casimir CONFIRMED (piecewise mult.); CROSS TERM REFUTED on grading; |q| constraint UNSEALED — free set 5+0. Q-670.** |
-| 768 | Dario | [7A/Q126] cross-check contest + the tower restated (after 766) | QUEUED — NOT ANNOUNCED |
+| 768 | Dario | [7A/Q126] tower contest | **RETURNED (chained). 3/3 adopted (cross term FORCED by parity); tower restated; BETA strengthened. Q-674.** |
 | 769 | Codex 2 | [7A/Q126] gate provenance | **RETURNED. V003 = the sealed premise (no revival); bar IDENTITY-ONLY; selector = ONE buildable correspondence. Q-672.** |
 | 770 | Dario | [7A/Q126] the flux correspondence built to schema (after 768) | QUEUED — NOT ANNOUNCED |
 | 771 | Codex 2 | [7A/STEP11] pipeline batch 2 (overnight grind; chained pickup) | QUEUED |
