@@ -489,3 +489,24 @@ OVERNIGHT PROTOCOL (registrar law while the principal is away):
   (the chained pickup will find it); a stopped lane stays stopped until
   morning. The morning brief lists: completions, registrations, parked
   rulings, lane states.
+
+## Codex approval-tier note (2026-08-09)
+
+Codex 2 runs under the app's "Approve for me" tier (auto-approves routine actions; still prompts on potentially-unsafe ones). This tier can silently reset to "Ask for approval" (observed after a new project/chat was created), which makes every external action prompt — from outside this looks like a multi-hour ACK-only stall. DIAGNOSTIC: if a Codex relay sits ACK-only for hours with no DONE, check the approval tier in the composer before diagnosing a turn-stall. "Full access" is never used.
+
+## Alignment laws (2026-08-09, after Q-685 — making discoveries enforceable)
+
+1. FLATTENING CHECK: before sealing, every derivation artifact checks its load-bearing
+   identifications against DECLINE_REGISTER_V001.md. Any identification matching a
+   registered decline must be displayed as CONDITIONAL (with the decline cited) or the
+   artifact STOPS with the element named. (Class of Q-685: sealed 768 declined the
+   +1/Phi^dagger Phi identification; 775 substituted it anyway.)
+
+2. FREEDOMS-CONSUMED BLOCK: every derivation artifact ends with a block listing every
+   free datum it touched, each tagged CARRIED-AS-PARAMETER / CONDITIONED-ON /
+   SUBSTITUTED (substitution lawful ONLY with a decision-of-record cited). An empty
+   block is itself a claim and is auditable.
+
+3. CLAIM-STATUS DISCIPLINE (binds the REGISTRAR): headline claims enter the register
+   as CLAIMED and upgrade to PROVED only after the other lane's adversarial
+   re-derivation returns clean. Builder-never-verifies applies to registration too.
