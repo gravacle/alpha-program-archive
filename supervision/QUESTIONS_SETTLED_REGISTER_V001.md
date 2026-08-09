@@ -15446,6 +15446,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_C1_FINITE_SUFFICIENCY_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
 
+## Q-732 — The Thomson identity REFUTED three ways; the source question loses its last candidate holder; one residual named (2026-08-09)
+
+**Question.** Is the retarded-response -> Thomson-limit chain the R-L2b campaign of record (relay 827, settling 824's edge (c))?
+
+**Answer.** DISTINCT — REFUTED BY PHASE, LEXICON, AND OBJECT. (a) R-L2b is Phase E item E2; the Thomson relation is F0 link 4 of K_*'s defining chain — ON alpha's value path by construction, with the identity's assumption tripping a sealed falsifier (it must be DERIVED). (b) Zero lexical overlap across R-L2b's 15,986 chars on every distinguishing term (thomson 0, q^2 0, retarded 0, 1PI/2PI 0, source-inclusive 0, linked-cluster 0 — the campaign the plan calls "linked-cluster" does not contain the phrase). (c) Different objects: kappa_record's refinement-universal density vs the transverse quadratic response at q^2 -> 0, with V011 affirmatively setting KAPPA_THOMSON_REQUIRES_STATIONARY_2PI_BACKGROUND = false — disowning the dead route's assumption. THE OFF-PATH TYPING DOES NOT TRANSFER; 824 was right to refuse it. BUT: kappa_Thomson's SEALED requirement list (the other lane's artifact — complete Q_spec; Z_Q ratio; branch at A=0; transverse coefficient and the q^2 -> 0 limit; Ward identity; gauge/regulator independence; threshold matching) DOES NOT CONTAIN the source-inclusive completion — the only document placing that need in a Thomson-bound chain is a failed attempt's post-mortem. THE SOURCE QUESTION HAS NO CONSUMER ON ANY AUDITED PATH; 824's theorem survives, better grounded; F-phase pricing carries the complete Q_spec and the derive-or-fail obligation, NOT the O's.
+
+**Residuals, named, either could reopen it:** (1) what the COMPLETE Q_SPEC requires of the source sector — the missing sealed sentence (its flag false in R3's block alongside the source-inclusive ones); (2) whether Thomson's "regulator independence" is the completion's O3 — neither merged nor separated of record. Relay 828 hunts both. Verb audit +4 with the self-favor risk disclosed and structurally checked (the settlement rests on the opposite lane's sealed list, a positive absence, and a named overturner).
+
+**Custody.** Artifact STAGE8_F0_THOMSON_IDENTITY_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

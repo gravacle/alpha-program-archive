@@ -110,6 +110,35 @@ FLATTENING_CHECK = clean (37/37 rows walked).  S12 LIVE: the audit leans on stat
   IS RESCUED BY AN AXIOM AND NO OPEN IS CLOSED: the verdict concerns CONSUMPTION, not existence —
   O1/O2/O4 remain exactly as open as before.
 
+=====================================================================================
+POST-SEAL — THE DELEGATED AUDIT RETURNED (6/6, 0 errors), AFTER I SEALED.  NOT IN THE ARTIFACT.
+=====================================================================================
+It CORROBORATES the sealed verdict and adds ONE REFINEMENT AGAINST MY TYPING.  Both re-verified by
+me against bytes just now.
+
+  C1 — CORROBORATION, and it is checkable.  Independent count, re-run by me:
+       "source" occurrences in the whole 26,938-byte posing artifact          = 6
+       "source" occurrences INSIDE the 13-prerequisite block [19653,21917)    = 0
+     Twelve of the thirteen prerequisites never reach the source sector in any form.  This is a
+     stronger and more mechanical statement of the sealed §1.1 result than the artifact carries.
+
+  C2 — REFINEMENT AGAINST MY OWN TYPING: item 13 has a SECOND textual locus of the ambiguity that
+     the sealed artifact does not note.  I typed item 13 FINITE-SUFFICIENT on its prose ("pin …
+     the still-live dressed-map disjunct; report U2 sufficiency as ungranted") and located the
+     audit's single ambiguity at the separate E4c-as-C1-carries-it consumer.  But item 13's
+     PARENTHETICAL cites element range (E06/E08–E11/E16–E19), and E17 within that range IS
+     "agreement of dressed maps in the infinite-future source-inclusive comparison".  Verified by
+     me: item 13 does cite E16–E19.  So a second reading is textually available on which item 13's
+     parenthetical reaches the source-inclusive element even though its prose asks only to PIN the
+     disjunct.
+     EFFECT ON THE SEALED TYPES LINE: it would move item 13 from FINITE-SUFFICIENT to AMBIGUOUS,
+     i.e. "8 FINITE-SUFFICIENT / 1 AMBIGUOUS" becomes "7 FINITE-SUFFICIENT / 2 AMBIGUOUS".
+     EFFECT ON THE VERDICT: NONE.  The count of INFINITE-REQUIRED stays 0; the sentence immediately
+     following the checklist still states that passing all thirteen "would not by itself … close
+     E4c"; and the sealed artifact already displays this exact ambiguity, only attributed to the
+     E4c consumer rather than to item 13's parenthetical.  The ambiguity was reported; its second
+     locus was not.  Recorded because misplacing an ambiguity is still misreporting it.
+
 GATES HELD: audit only; nothing reformulated; no requirement weakened by fiat; no smooth import
   (S26); no EM identification (S08); no member bound; no fixed-point execution; no end test; no
   numeric evaluation of physical quantities; no comparison to measured constants.  PE-1..PE-11

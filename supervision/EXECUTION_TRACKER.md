@@ -660,7 +660,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 824 | Dario | [PLAN:C1-3] finite-sufficiency audit | RETURNED (Q-731; ZERO infinite-required; O1/O2/O4 off critical path) |
 | 825 | Codex 2 | [PLAN:AXN-CONSTRUCT-F] the form question audited (cold start — needs keystroke) | QUEUED |
 | 826 | Codex 2 | [PLAN:C1-4] re-audit the zeros (chains after 825) | QUEUED |
-| 827 | Dario | [PLAN:F0-2] Thomson identity question (cold start — needs keystroke) | QUEUED |
+| 827 | Dario | [PLAN:F0-2] Thomson identity | RETURNED (Q-732; DISTINCT; source question loses last holder; 2 residuals) |
+| 828 | Dario | [PLAN:F0-3] Q_spec source requirement (cold start — needs keystroke) | QUEUED |
 | 816 | Codex 2 | [PLAN:C1-1] common cell posed | RETURNED (Q-723; 20-elem interface; core = FIVE objects incl. U_Omega) |
 | 817 | Codex 2 | [PLAN:C1-2] U_Omega typed | RETURNED (Q-724; UNDECIDABLE; lemma named; parent convergence = 5) |
 | 813 | Dario | [PLAN:B1c-6] density-chain cross-check | RETURNED (Q-721; chain PROVED; retirement registrar-only) |
