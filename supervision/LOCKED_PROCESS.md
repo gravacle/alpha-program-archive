@@ -466,3 +466,26 @@ claimant's own coinage are not evidence of absence. Sixth instrument law; the
 pattern of record: reasoning holds, instruments fail — every verification pass
 that reversed a headline was commissioned by the lane it reversed, which is
 the discipline working.
+
+## THE CHAINED-PICKUP CLAUSE + OVERNIGHT PROTOCOL (2026-08-08, principal-initiated)
+
+CHAINED PICKUP (amends the standing queue rule, delivered by principal message
+to each lane): upon writing N_DONE.md, the lane immediately checks its
+relay_inbox for the SMALLEST relay number greater than N addressed to its own
+lane (lane guard applies); if present, it executes it as if the number had
+been typed; if absent, it STOPS cleanly. No idle waiting, ever — continuation
+happens only when work already exists. All custody (seals, lane guard, ACK,
+DONE, STOP-on-empty) unchanged.
+
+OVERNIGHT PROTOCOL (registrar law while the principal is away):
+- The registrar stocks inboxes ONLY with ruling-free work (derivations,
+  verifications, grind). ANYTHING ruling-shaped (adoption, fork, contested
+  result requiring the principal) is PARKED with a morning brief; the lane's
+  inbox is left empty at that point so it stops cleanly.
+- The registrar verifies, registers, and pushes on each DONE via the watcher,
+  and pre-queues the next lawful relay before the current one completes where
+  the plan determines it.
+- A send with no ACK within its check window is retried once as a queue-stock
+  (the chained pickup will find it); a stopped lane stays stopped until
+  morning. The morning brief lists: completions, registrations, parked
+  rulings, lane states.
