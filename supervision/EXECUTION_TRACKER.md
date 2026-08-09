@@ -622,9 +622,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 783 | Codex 2 | [PLAN:A2-CORRECTIVE] cross-check of 781 rebuild | RETURNED (Q-690; bound PROVED; radii caught; tiers conditioned) |
 | 781 | Dario | [PLAN:A1-CORRECTIVE] layer rebuild | RETURNED (Q-688; functional trace; tight bound; right number wrong term) |
 | 782 | Dario | [PLAN:F1-ADVANCE] ratio-route state map | RETURNED (Q-691; 5 strata 0-forced; missing power = undefined object; 14-item remainder) |
-| 784 | Dario | [PLAN:A1-CORRECTIVE-2] rebuild v2 | SENT (ACK observed, chained) |
+| 784 | Dario | [PLAN:A1-CORRECTIVE-2] rebuild v2 | RETURNED (Q-693; converged; radii derived; 4 beta sectors) |
 | 785 | Codex 2 | [PLAN:B1a] connection identification | RETURNED (Q-692; PARTIAL: object derived, lift open; 4/0/5) |
-| 786 | Codex 2 | [PLAN:B1a-2] lift-forcing question (cold start — needs keystroke) | QUEUED |
+| 786 | Codex 2 | [PLAN:B1a-2] lift-forcing question | SENT (ACK observed) |
+| 787 | Codex 2 | [PLAN:A2-CORRECTIVE-2] cross-check of rebuild v2 (chains after 786) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |

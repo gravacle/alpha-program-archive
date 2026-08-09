@@ -15054,6 +15054,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_CONNECTION_IDENTIFICATION_CODEX2_V001.md (1b45d5a6…, seal OK) mirrored. Brief V005 pinned and verified; PE-1..6 not consulted; verb audit CLEAN. Registered, committed, pushed.
 
+## Q-693 — Rebuild v2 converges: radii derived, four beta sectors, tier 2 dropped on a closed negative; and the freedoms block's invisible failure named (2026-08-09)
+
+**Question.** Does rebuild v2 (relay 784) adopt 783's three refutations in full?
+
+**Answer.** IN FULL, NOTHING DEFENDED. (1) RADII DERIVED, NOT PATTERN-MATCHED: the product spin structure gives commuting summands, spec(D^2) = p_t^2/R_T^2 + p_q^2/R_Q^2 + ell(ell+2|q|)/r_flux^2; Phi^dagger Phi is zeroth-order (no denominator); C2_parent radius-free; the non-commutation flag KEPT (768's brackets removable only under (S)); condition (U) named at five sites. (2) BETA SHARPENED TO FOUR SECTORS: beta^-2 (three geometric), beta^-1 (cross term), beta^0 (C2_parent), beta^UNSELECTED (Phi^dagger Phi) — U8 corrected; and now READ OFF THE FORMULA: beta is one scalar against three free radii, so the two beta-invariant ratios (777's FC-e) survive any quantification over beta. (3) TIER 2 DROPPED on a CLOSED NEGATIVE EXISTENTIAL (2,972 files, 13 probe forms, every hit read; two explicit sealed negatives incl. Codex's own 764 sentence), replaced by the true tensor surface. (4) MEMBER BOUNDS conditioned true: consume (F) only, unconditional in Phi; THE A-B SEPARATION IS 1/r_flux^2, NOT 1 — a free datum, not a pure number (the "+1" grade-decayed across three relays: bottoms -> bounds -> radii, the number surviving while every qualifier fell). lambda >= C2_parent consumes NOTHING (PROVED, Q-690, cited). Salvage: 16 items dispositioned — 11 stand, 3 re-conditioned, 2 dead-as-written.
+
+**The process finding that matters (verb audit +4, adopted).** 781's freedoms block was not incomplete but FALSE AS WRITTEN: three free data were set to 1 while the block said SUBSTITUTED: NONE — the one direction an auditor cannot see from the block alone. Enforcement is therefore the cross-check's item-by-item audit of the block against the formulas (783's standard, now written into every cross-check relay). Diagnosis of the failure pattern's drift: 781 was PROPAGATION (a correction that did not travel); 784's target was CONDITIONING (conditions held implicitly while asserted unused). Also: S27's grant is of flat x16 MULTIPLICITY — its own wording refuses the trace-factoring use 781 made of it (conditional grants are read by their wording, not their consequence).
+
+**Status.** All re-conditioned headline items CLAIMED; relay 787 (queued, Codex chain after 786) is the convergence test — if v2 survives whole, Phase A's rebuild cycle converges and the layer BANKS. Artifact dcc84e6a… seal OK, mirrored to cleanroom for 787. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
