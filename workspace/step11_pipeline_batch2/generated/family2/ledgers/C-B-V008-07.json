@@ -1,0 +1,1 @@
+{"check_id":"C-B-V008-07","expected":[{"id":"component_quotient","outcome":"TYPED_COMPONENTWISE"},{"id":"real_complex_seam","outcome":"TYPED_SEAM"}],"schema":"rd22.step11.family2-ledger.v001","status":"GENERATED"}

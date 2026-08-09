@@ -1,0 +1,53 @@
+The connecting maps are explicit. For a first-opening object `K_open` with
+root vertex `r`, endpoint vertices `p_h`, and object-fiber Hermitian lines
+`L_r,L_pM,L_pQ,L_pG`, let
+
+```text
+E_open(K_open;L)
+  = L_r direct-sum
+    direct-sum_(h in {M,Q,G}) L_p_h
+```
+
+be the endpoint-alternative carrier. The direct-sum decomposition defines the
+canonical summand injection
+
+```text
+iota_open:E_open(K_open;L)->C_0(K_open;L).
+```
+
+It is the identity on each displayed object fiber and zero on all other
+vertex summands. No basis vector or metric normalization is chosen here. The
+unresolved preparation is the projective root ray `P(L_r)`. Only after Gate 3
+derives the counting Hermitian forms may `iota_open` be called an isometry and
+may a unit representative of that ray be used. Applying the
+handle-forgetful functor removes the endpoint labels after the injection; it
+does not identify the four alternatives.
+
+The complete cell-counting Hilbert carrier is
+
+```text
+H_cell(K)=C_0(K;L) direct-sum C_1(K;L) direct-sum C_2(K),
+```
+
+while the primitive odd incidence operator acts on the invariant subcarrier
+
+```text
+H_BID(K)=C_0(K;L) direct-sum C_1(K;L).
+```
+
+`C_2` supplies the counting metric and generated face-response carrier; it is
+not silently included in the primitive `B_D` orbit. Accordingly, the
+projective state orbit used below lies in `P(H_BID)`.
+
+Finally, the real face-flux cochains and complex face carrier are connected by
+the canonical real-form map
+
+```text
+c_2:A_R^2(K)->C_2(K),
+c_2(sum_f a_f f)=sum_f a_f |f>,
+
+A_R^2(K) tensor_R C ~= C_2(K).
+```
+
+No identification is made between connection tangents `A_R^1`, chain states
+`C_1`, or endpoint alternatives; every later use must display its map.

@@ -1,0 +1,147 @@
+## Record-complex categories and connection-preserving morphisms
+
+Three categories are required; first-opening status and handle labels are not
+informal annotations.
+
+An object of `BareRec_2` is
+
+```text
+(K,r,L,U),
+```
+
+where `K` is a finite oriented regular CW complex of dimension at most two,
+each connected component carries zero or one distinguished root `r`, `L`
+assigns a one-dimensional Hermitian fiber to every vertex, and `U` is the
+discrete unitary connection below. The first-opening object has exactly one
+root. Rootless objects are retained so every elementary cell has a test
+inclusion.
+
+Each vertex `v` carries a one-dimensional Hermitian fiber `L_v`. Each
+oriented edge `e:s->t` carries a unitary transport
+
+```text
+U_e:L_s->L_t,       U_(bar e)=U_e^(-1).
+```
+
+No flatness around a filled two-cell is imposed. In dimension one this is the
+usual rank-one local-system data; in dimension two it is deliberately called
+a discrete unitary connection, because nontrivial face holonomy must remain
+admissible.
+
+Choose one orientation representative for each unoriented edge and face.
+The coefficient carriers are fixed by:
+
+```text
+C_0(K;L) = direct-sum_(v in K_0) L_v,
+
+C_1(K;L) = direct-sum_(e in K_1^+) L_(s(e)),
+
+C_2(K)   = direct-sum_(f in K_2^+) C |f>.
+```
+
+An edge coefficient is therefore stored in its source fiber. Orientation
+reversal is not a second degree of freedom:
+
+```text
+x_(bar e) = -U_e x_e,
+|bar f> = -|f>.
+```
+
+The face carrier is a gauge-neutral counting carrier. It records an oriented
+public two-cell; it is not a flat continuation of the vertex line bundle.
+
+For vertex gauge maps `h_v in U(1)`,
+
+```text
+psi_v -> h_v psi_v,
+x_e -> h_(s(e)) x_e,
+U_e -> h_(t(e)) U_e h_(s(e))^(-1),
+z_f |f> -> z_f |f>.
+```
+
+A `BareRec_2` morphism is a pair
+
+```text
+(i, eta): (K,L_K) -> (K',L_K')
+```
+
+where:
+
+```text
+i is an injective cellular map preserving degree, incidence, orientation,
+face attaching maps, and every root marked in the domain;
+eta={eta_v} is a family of unitary fiber maps satisfying
+eta_t U_e = U_(i(e)) eta_s on every domain edge.
+```
+
+The identity is `(id_K,{id_(L_v)})`. For composable morphisms
+
+```text
+(i,eta):(K,L)->(K',L'),
+(j,zeta):(K',L')->(K'',L''),
+```
+
+composition is
+
+```text
+(j,zeta) compose (i,eta)
+  = (j compose i,
+     {zeta_(i(v)) compose eta_v}_v).
+```
+
+The transport intertwining and every domain-root image are preserved under
+this composition; associativity and both identity laws follow from ordinary
+map composition. These data complete the definition of `BareRec_2`.
+
+Its induced chain maps are:
+
+```text
+J_0 psi_v = eta_v psi_v,
+J_1 x_e = eta_(s(e)) x_e,
+J_2(z_f |f>) = z_f |i(f)>.
+```
+
+An object of `OpenRec_2` is
+
+```text
+(K,r,L,U,FO),
+```
+
+where `(K,r,L,U)` is a `BareRec_2` object and `FO` is a designated subset of
+the chosen oriented edge representatives `K_1^+`. Every `e in FO` begins at
+the root of its connected component. An `OpenRec_2` morphism is a
+`BareRec_2` morphism satisfying
+
+```text
+i^(-1)(FO_target)=FO_source.
+```
+
+Thus it both preserves and reflects first-opening status on its domain.
+Identity and composition preserve this equation.
+
+An object of `DecRec_2` is
+
+```text
+(K,r,L,U,FO,lambda),
+lambda:FO->{M,Q,G}.
+```
+
+A `DecRec_2` morphism is an `OpenRec_2` morphism satisfying
+
+```text
+lambda_target(i(e))=lambda_source(e),  e in FO_source.
+```
+
+Identities and composition are inherited and remain label preserving. There
+are two distinct forgetful functors:
+
+```text
+U_label:DecRec_2 -> OpenRec_2,
+U_open:OpenRec_2 -> BareRec_2.
+```
+
+`U_label` removes only `lambda` and retains the first-opening subset.
+`U_open` then removes first-opening status. BID's primitive magnitude
+functor is required to factor through `U_label`, not through `U_open`; it may
+distinguish a first-opening edge from a later composite edge but not the
+`M/Q/G` name on that edge.

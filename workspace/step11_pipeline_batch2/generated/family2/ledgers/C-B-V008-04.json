@@ -1,0 +1,1 @@
+{"check_id":"C-B-V008-04","expected":[{"id":"periodic_global_shift","outcome":"ADMITTED_REPRESENTATION"},{"id":"nonperiodic_partial_shift","outcome":"REJECTED_REPRESENTATION_CLAIM"}],"schema":"rd22.step11.family2-ledger.v001","status":"GENERATED"}

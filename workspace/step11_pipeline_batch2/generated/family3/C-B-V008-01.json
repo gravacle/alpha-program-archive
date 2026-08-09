@@ -1,0 +1,1 @@
+{"check_id":"C-B-V008-01","mutations":[{"expected_rejection":"MANDATORY_MAP_MISSING","id":"drop_c2"},{"expected_rejection":"MAP_CODOMAIN_MISMATCH","id":"c2_to_C1"}],"schema":"rd22.step11.family3-mutations.v001","status":"GENERATED"}

@@ -1,0 +1,1 @@
+{"check_id":"C-B-V008-02","expected":[{"id":"BareRec_2","outcome":"IDENTITY_ASSOCIATIVE_LABEL_PRESERVING"},{"id":"OpenRec_2","outcome":"IDENTITY_ASSOCIATIVE_LABEL_PRESERVING"},{"id":"DecRec_2","outcome":"IDENTITY_ASSOCIATIVE_LABEL_PRESERVING"}],"schema":"rd22.step11.family2-ledger.v001","status":"GENERATED"}

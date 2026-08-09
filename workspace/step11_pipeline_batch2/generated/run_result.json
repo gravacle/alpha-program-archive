@@ -1,0 +1,1 @@
+{"admission":"BARRED_STEP11_SUBGATE","chain_invoked":false,"outputs_before_inventory":36,"result":"PASS","schema":"rd22.step11.pipeline-batch2-run.v001","selected_rows":["C-B-V008-01","C-B-V008-02","C-B-V008-04","C-B-V008-07","C-B-V008-09"],"status_counts":{"envelope_ready":4,"gap":1}}

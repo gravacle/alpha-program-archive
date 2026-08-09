@@ -1,0 +1,1 @@
+{"check_id":"C-B-V008-04","mutations":[{"expected_rejection":"NONPERIODIC_GLOBAL_INVERSE","id":"claim_partial_global_inverse"},{"expected_rejection":"SHIFT_DOMAIN_UNSEALED","id":"erase_periodicity"}],"schema":"rd22.step11.family3-mutations.v001","status":"GENERATED"}

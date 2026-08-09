@@ -1,0 +1,8 @@
+Finally, the real face-flux cochains and complex face carrier are connected by
+the canonical real-form map
+
+```text
+c_2:A_R^2(K)->C_2(K),
+c_2(sum_f a_f f)=sum_f a_f |f>,
+
+A_R^2(K) tensor_R C ~= C_2(K).

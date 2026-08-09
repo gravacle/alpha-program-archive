@@ -1,0 +1,1 @@
+{"check_id":"C-B-V008-02","mutations":[{"expected_rejection":"DECORATION_LOST","id":"erase_lambda_rule"},{"expected_rejection":"IDENTITY_LAW_MISMATCH","id":"alter_identity"}],"schema":"rd22.step11.family3-mutations.v001","status":"GENERATED"}

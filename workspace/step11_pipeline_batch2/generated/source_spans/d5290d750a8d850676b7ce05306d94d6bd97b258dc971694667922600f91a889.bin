@@ -1,0 +1,30 @@
+#### Tangent complex and unique flux lift
+
+Connection tangents, chain states, and face records are distinct. Define
+
+```text
+A_R^0(K_L)=R^(K_0),
+A_R^1(K_L)=R^(K_1^+),
+A_R^2(K_L)=R^(K_2^+),
+
+(d_0 lambda)_e=lambda_t-lambda_s,
+(d_1 a)_f=sum_(e in boundary f) incidence(f,e)a_e,
+d_1 d_0=0.
+```
+
+The unit action character and Gate-3 metric give the counting products. For
+components `K^(j)`,
+
+```text
+ker(d_0)=span{constant function on K^(j)}_j,
+P_h=I-d_0(d_0^dagger d_0)^+d_0^dagger,
+F_phys=im(d_1),
+Q_flux=P_h d_1^dagger(d_1 P_h d_1^dagger)^+|_(F_phys).
+```
+
+For every `xi in F_phys`, `Q_flux xi` is the unique horizontal,
+minimum-norm lift orthogonal to
+`ker(d_1) intersect im(d_0)^perp`. It obeys
+`d_1 Q_flux xi=xi`. Individual unit faces outside `F_phys` are never assigned
+a lift. Complexification is allowed only for Fourier analysis and must return
+the same real bilinear form from the paired sine/cosine modes.

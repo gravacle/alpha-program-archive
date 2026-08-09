@@ -1,0 +1,1 @@
+{"check_id":"C-B-V008-07","mutations":[{"expected_rejection":"TYPE_SEAM_COLLAPSE","id":"merge_A_R1_C1"},{"expected_rejection":"COMPONENT_KERNEL_MISSING","id":"single_global_stabilizer"}],"schema":"rd22.step11.family3-mutations.v001","status":"GENERATED"}

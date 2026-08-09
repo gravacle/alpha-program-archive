@@ -1,0 +1,37 @@
+For the filtration audit, use the finite translation-complete test object
+
+```text
+K_L = the oriented 2-skeleton of (Z/LZ)^4,    L>=3,
+```
+
+with one Hermitian line at each vertex and arbitrary periodic unitary link
+transports. `K_L` is a finite two-dimensional CW complex with four edge
+directions and every elementary plaquette; the higher-dimensional cells of
+the four-torus are not included. Let
+
+```text
+U_mu(x):L_x->L_(x+mu)
+```
+
+be its sealed periodic edge transport. On
+`H_0(K_L)=direct-sum_x L_x`, define the global unitary shifts
+
+```text
+(T_mu psi)_x = U_mu(x)^dagger psi_(x+mu),
+nabla_mu = T_mu - I
+```
+
+with periodic indices. They are everywhere-defined unitary endomorphisms with
+globally defined inverses. On a nonperiodic finite complex the same formula
+may be compressed to interior cells, but no free-group representation is
+claimed for that compression. Because `C_1` stores an edge coefficient in
+its source fiber, the identity-metric adjoint supplies the directional
+vertex-to-edge difference without another identification. For the candidate
+`a=b=1`,
+
+```text
+(D^sharp psi)_(e_mu(x)) = (nabla_mu psi)_x.
+```
+
+This equality is an exact consequence of the source-fiber convention, not a
+separately normalized derivative.
