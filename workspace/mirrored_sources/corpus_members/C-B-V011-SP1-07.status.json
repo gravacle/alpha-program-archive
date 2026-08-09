@@ -1,0 +1,1 @@
+{"adapter":"SP1_MANDATORY_ID_OMISSION","admission":"BARRED_STEP11_SUBGATE","chain_invoked":false,"expected_rejection_count":9,"mutation_count":9,"row_id":"C-B-V011-SP1-07","schema":"rd22.step11.tooling-family3.row-status.v001","state":"MUTATION_CONTROLS_GENERATED_ADMISSION_BARRED","underdetermined":[]}

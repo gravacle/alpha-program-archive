@@ -1,0 +1,1 @@
+{"adapter":"NO_EXPLICIT_MUTATION","admission":"BARRED_STEP11_SUBGATE","chain_invoked":false,"expected_rejection_count":0,"mutation_count":0,"row_id":"C-B-V010-11","schema":"rd22.step11.tooling-family3.row-status.v001","state":"NO_DESCRIPTOR_DETERMINATE_MUTATION_CLASS","underdetermined":["MUTATION_CLASS_AND_EXPECTED_REJECTION_RECEIVER"]}

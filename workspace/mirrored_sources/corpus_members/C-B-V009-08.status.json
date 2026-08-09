@@ -1,0 +1,1 @@
+{"adapter":"SCOPE_PROMOTION","admission":"BARRED_STEP11_SUBGATE","chain_invoked":false,"expected_rejection_count":1,"mutation_count":1,"row_id":"C-B-V009-08","schema":"rd22.step11.tooling-family3.row-status.v001","state":"MUTATION_CONTROLS_GENERATED_ADMISSION_BARRED","underdetermined":[]}

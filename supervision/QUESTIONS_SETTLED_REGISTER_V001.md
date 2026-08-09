@@ -14860,6 +14860,10 @@ All four membership findings traced to the family-4 selection logic and fixed TH
 
 **Status.** SETTLED. Routed: the correspondence package build (Dario, 770, after 768).
 
+## Q-673 — Corpus half B: NOT VERIFIABLE by custody, honestly; the members mirrored; the chain is live (2026-08-08)
+
+Dario's half B returned NOT VERIFIABLE for both candidates — the member files live cleanroom-side beyond its custody; no defect found in what was checkable; 3 of 4 half-A resolutions confirmed; two checkable predictions and one rule ambiguity recorded as findings for the completed pass. The registrar mirrored the member sets (113 members + generated fixtures) to workspace/mirrored_sources/corpus_members/ and queued the completed half B (772, chained after 770). ALSO OF RECORD: THE CHAINED-PICKUP CLAUSE WENT LIVE — Dario completed 766 and self-picked 768 from the inbox with no typed number; the overnight loop is operating. Basis: STAGE8_7A_CORPUS_VERIFY_B_DARIO_V001.md, registrar seal-verified, mirrored. SETTLED as custody increment.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
