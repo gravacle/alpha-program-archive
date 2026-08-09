@@ -652,7 +652,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 814 | Codex 2 | [PLAN:AXN-BOUND-2] the member grammar | RETURNED (Q-722; assembled; census OPEN OF RECORD; theorem obligation, no fork) |
 | 815 | Dario | [PLAN:Gc2] materiality opening | SENT (ACK pending watch) |
 | 816 | Codex 2 | [PLAN:C1-1] common cell posed | RETURNED (Q-723; 20-elem interface; core = FIVE objects incl. U_Omega) |
-| 817 | Codex 2 | [PLAN:C1-2] U_Omega typed (cold start — needs keystroke) | QUEUED |
+| 817 | Codex 2 | [PLAN:C1-2] U_Omega typed | RETURNED (Q-724; UNDECIDABLE; lemma named; parent convergence = 5) |
 | 813 | Dario | [PLAN:B1c-6] density-chain cross-check | RETURNED (Q-721; chain PROVED; retirement registrar-only) |
 | 810 | Codex 2 | [PLAN:B1c-4] density layer | RETURNED (Q-717; 2 forced / 3 undecidable / 2 ours) |
 | 811 | Codex 2 | [PLAN:B1c-5] receiver re-type | RETURNED (Q-718; DS2 DISSOLVED; remainder = 3 objects) |

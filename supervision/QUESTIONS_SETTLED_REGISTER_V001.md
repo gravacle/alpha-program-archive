@@ -15374,6 +15374,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_C1_COMMON_CELL_POSED_CODEX2_V001.md (fa4909a4…, seal OK) mirrored. Registered, committed, pushed.
 
+## Q-724 — U_Omega typed UNDECIDABLE with its lemma named: PARENT-CAUSAL-CELL FUNCTIONALITY; the parent-node convergence reaches five registered consumers (2026-08-09)
+
+**Question.** U_Omega under the standard treatment (relay 817).
+
+**Answer.** UNDECIDABLE, EXACTLY TYPED. Demand (9 spans): the record DECLARES the one-covariant-diamond-per-incidence assignment and conditionally displays a fixed envelope for an already-supplied cell; it displays NO total incidence-to-diamond map and NO replayable uniqueness proof. Supply (15 spans, disaggregated honestly): the flat diamond class, the unique intrinsic measure ON a fixed diamond, the fixed envelope, per-cell locality/one-use, a unique propagator for FIXED cell data, write ordering, scoped cofinal equivalence — DIFFERENT RECEIVERS ALL; none implies uniqueness of Omega_c per incidence. THE MISSING LEMMA NAMED: PARENT-CAUSAL-CELL FUNCTIONALITY — the complete parent derives one Lorentz-equivariant causal tip pair (with invariant anchor/interval data) per primitive incidence and FORCES any second parent-admissible output to agree. A symbolic two-tip-pair schema displays the failure surface; no cell formed, no counterexample asserted; UNDECIDABLE (not OBSTRUCTED) because the absent full parent may force equality.
+
+**Board effect.** THE PARENT-NODE CONVERGENCE COUNT IS FIVE REGISTERED CONSUMERS with distinct receivers: M05 metric conversion, absolute normalization, E4c's unitary, the f_g/F0 bridge, U_Omega — the master-form (PE-11) picture as the sealed record now displays it, unscored. Checklist item 5 sharpened into six replayable subchecks, open. Awaiting 815 (materiality) to complete the five-object typing; THE REMAINDER MAP assembles on its landing.
+
+**Custody.** Artifact STAGE8_C1_U_OMEGA_TYPED_CODEX2_V001.md (fd21ed03…, seal OK; the parent result consumed from the sealed packet at manifest-matching 345d447e…) mirrored. Codex stopped clean. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
