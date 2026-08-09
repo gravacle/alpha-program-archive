@@ -82,3 +82,11 @@ throughout; no 7A criterion may consult this expectation.
 **PE-5 test (i) SCORED 2026-08-09 (Q-681):** relay 776 returned FORCED_UNIQUE = 0, FREE_MULTIPLE = 19. By the frozen criterion (NEUTRAL if fewer than 3 objects on either side), test (i) = NEUTRAL. Test (ii) — relay 775 — remains OPEN and is now the live test.
 
 **PE-5 test (ii) SCORED 2026-08-09 (Q-682):** the uniform core contains the trace form (U2–U4) and the proved positivity bound (U5); ALL class-dependence (C1–C5) is |q|-keyed. Test (ii) = CONFIRMED as frozen, with disclosed ambiguity (bottom-isolation half of positivity is class-dependent; criterion scored on the bound). PE-5 overall: (i) NEUTRAL, (ii) CONFIRMED.
+
+## PE-6 — The kinds agree at the discrimination point; the selector dissolves (SEALED 2026-08-09, BEFORE relay 777 issues and BEFORE any family evaluation is possible)
+
+**Prediction (PE-5 + PE-1 jointly):** the junction-relevant comparison quantity — the one named by the D_BR route's own falsifier clause, evaluated FAMILY-WISE under FAMILY-BEFORE-DETERMINANT (DECISION_CARRY_BOTH_KINDS_2026-08-09) — lives in the REQUIRE-stratum. Therefore member A (q = 0) and member B (|q| >= 1/2) will force the SAME statement at the first lawful discrimination point, and the selector will DISSOLVE.
+
+**Frozen scoring (law-keyed):** CONFIRMING — the frozen discrimination rule's output is identical for both kinds. REFUTING — the outputs differ (the route's falsifier fires simultaneously; PE-5 is scored against in the same entry). NEUTRAL — no discrimination point ever becomes lawfully evaluable. The discrimination rule itself is drafted by relay 777, frozen by registrar seal BEFORE any evaluation; no evaluation result may feed back into the rule.
+
+**Zero verdict weight; no 7A criterion may consult this expectation. Status: OPEN.**
