@@ -653,6 +653,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 815 | Dario | [PLAN:Gc2] materiality opening | RETURNED (Q-725; Hessian waits on H1/H2/I3; D closed scoped) |
 | 818 | Dario | [PLAN:AXN-BOUND-3] grammar cross-check (cold start — needs keystroke) | QUEUED |
 | 819 | Codex 2 | [PLAN:Gc2/E-BRIDGE] the H1/H2 campaign (cold start — needs keystroke) | QUEUED |
+| 820 | Dario | [PLAN:AXN-CONSTRUCT-0] completion audit — the true size (chains after 818) | QUEUED |
 | 816 | Codex 2 | [PLAN:C1-1] common cell posed | RETURNED (Q-723; 20-elem interface; core = FIVE objects incl. U_Omega) |
 | 817 | Codex 2 | [PLAN:C1-2] U_Omega typed | RETURNED (Q-724; UNDECIDABLE; lemma named; parent convergence = 5) |
 | 813 | Dario | [PLAN:B1c-6] density-chain cross-check | RETURNED (Q-721; chain PROVED; retirement registrar-only) |
