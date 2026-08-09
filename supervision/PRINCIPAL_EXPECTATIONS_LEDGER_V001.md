@@ -102,3 +102,9 @@ throughout; no 7A criterion may consult this expectation.
 **Zero verdict weight; no criterion may consult this expectation; cited by pointer only. Status: OPEN.**
 
 **PE-7 provisional score 2026-08-09 (Q-692):** relay 785 returned PARTIAL with mixed forced/free gaps — NEUTRAL by the frozen letter, with the criterion's follow-up forcing pass now commissioned as relay 786 (does the four-obligation conjunction pin the free edge datum?). PE-7 remains OPEN; 786 decides.
+
+## PE-8 — The surviving real limits are faces of ONE object; the parent action discharges them jointly (SEALED 2026-08-09, before any action-derivation campaign exists)
+
+**Principal's expectation (stated in session):** the record-voiced limits that survived their hunts — the Moller gap (E4c), the five free D_BR data, the unwritten release condition's content, the four F0 absences, the metric conversion / absolute scale — are not independent debts but faces of a single absent object: the complete target-independent source-record-gravity-gauge action. Six sealed threads terminate at it (ARCH section 5; S28; M05's force-inputs; S34; the S1/S2 stratum's derive-and-vary no-go; the F0 chain). In the allow/require language: an action is the converter of allow into require — the remaining requires fall JOINTLY when the one master require is derived, not piecemeal.
+
+**Frozen scoring (keyed to the future action-derivation campaign, whenever the plan opens it):** when a sealed complete parent action exists, count which of the five limit-faces discharge from it WITHOUT further principal input: CONFIRMING — at least four of five discharge jointly. REFUTING — two or more remain open with the action in hand (the convergence was apparent, not real). NEUTRAL — the action is never lawfully derived, or discharges are mixed at exactly three. Zero verdict weight; pointer-only; no criterion may consult this expectation.
