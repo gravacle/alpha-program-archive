@@ -633,8 +633,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 792 | Dario | [PLAN:B1b] support question | RETURNED (Q-701; block NOT sealed; index-bridge is the real question) |
 | 793 | Codex 2 | [PLAN:B1c-2] density receiver + bridge build | RETURNED (Q-698; receiver sealed; stopped on JOINT_A1_A2_FIELD_EXT_MEMBER) |
 | 794 | Codex 2 | [PLAN:B1a-4] carrier cross-check + naturality | RETURNED (Q-702; incidence PROVED; lead NOT NATURAL) |
-| 795 | Dario | [PLAN:B1a-5] coframe half + O1 | SENT (ACK observed) |
-| 796 | Codex 2 | [PLAN:A2-CORRECTIVE-3] beta v3 cross-check — banking check (chains after 794) | QUEUED |
+| 795 | Dario | [PLAN:B1a-5] coframe half + O1 | RETURNED (Q-703; square FREE two candidates; O1 PROVED) |
+| 796 | Codex 2 | [PLAN:A2-CORRECTIVE-3] beta v3 cross-check — banking check | SENT (chained after 794) |
+| 797 | Codex 2 | [PLAN:B1a-6] full solution-set test (chains after 796) | QUEUED |
+| 798 | Dario | [PLAN:B1b-2] index bridge (cold start — needs keystroke) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |

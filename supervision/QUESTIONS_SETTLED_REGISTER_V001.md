@@ -15158,6 +15158,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_CARRIER_CROSSCHECK_NATURALITY_CODEX2_V001.md (614e20c8…, seal OK; sealed V011 packet copy used exclusively) mirrored. Codex chained into 796 (the Phase-A banking check). Registered, committed, pushed.
 
+## Q-703 — The carrier is complete: coframe square FREE (two candidates), O1 PROVED; the last untested constraint is O4's sealed coherence (2026-08-09)
+
+**Question.** The coframe half and O1 clauses (relay 795, finishing 788's named remainder).
+
+**Answer.** COMPLETE, WITH THE FREEDOM PROVED AND STACKED. COFRAME_SQUARE = FREE at its own constraint level: 788's ABSENT worry REFUTED — a SEARCH FAILURE, self-attributed; the record-side stock (753's derived child frames, V011 D10's integration map, the classified intrinsic Vol_4) poses the square without the S26-barred smooth constituent. Form-inheritance (a1) ELIMINATED by the sealed intrinsic-Vol_4 quadratic (O(1) F-dependent ratios displayed — a derivation, not a preference). SURVIVING, NEITHER ADOPTED: component inheritance (a2) and orientation-weighted inheritance (b2), inequivalent on 12 of 24 children; the constraint is 21 conditions on 864 parameters, residual 843 — the quadratic eliminates, it does not single out. Scope stated honestly: FREE at the square's own constraint set; flux-conservation/naturality interaction untested (lane-opposite). O1 = PROVED: A0 constructed concretely (sigma = (1,0,3,2), P with |det P| = 1, unique section J_1 = P^{-1}); L_id = id DERIVED from the section structure; per-generator existence WITH J_2 on every A0/A1/A2 generator; composition on A0 by permutation action.
+
+**The decisive configuration.** The carrier now stands structurally complete with TWO STACKED FREEDOMS (the section; the F'/F law — each F'/F candidate inducing a DIFFERENT J_2, so the coframe half ADDS freedom rather than removing it) and ONE never-evaluated sealed constraint: O4's tolerance-free coherence relation ("must commute with pullback to a common refinement"), evaluable for the first time now that a carrier exists. Relay 797 (Codex chain) runs the full-constraint solution-set test — all four obligations + the coframe square + O4 conjunct 1 — over the joint freedom space, on the independently rebuilt complexes from 794. Outcomes, all honest: FORCED (the coherence kills the freedom), FREE (two complete natural families through everything), or a stop. PE-7 decides there. Relay 798 (Dario) opens the index-bridge campaign (Q-701's unblock paths) for B1b/C1.
+
+**Custody.** Artifact STAGE8_B1A_COFRAME_HALF_DARIO_V001.md (590b3979…, seal OK; law 8 applied; parent frame e = I disclosed as the sealed instance, elimination not overclaimed beyond it) mirrored. Verb audit +3, all self-attributed. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
