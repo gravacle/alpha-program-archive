@@ -610,7 +610,17 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 768 | Dario | [7A/Q126] tower contest | **RETURNED (chained). 3/3 adopted (cross term FORCED by parity); tower restated; BETA strengthened. Q-674.** |
 | 769 | Codex 2 | [7A/Q126] gate provenance | **RETURNED. V003 = the sealed premise (no revival); bar IDENTITY-ONLY; selector = ONE buildable correspondence. Q-672.** |
 | 770 | Dario | [7A/Q126] flux correspondence | **RETURNED (chained). STOPPED — electric vs magnetic category distinction; selector needs new physics or a ruling. Q-675. PARKED FOR MORNING.** |
-| 771 | Codex 2 | [7A/STEP11] pipeline batch 2 (overnight grind; chained pickup) | QUEUED |
+| 771 | Codex 2 | [7A/STEP11] pipeline batch 2 (overnight grind; chained pickup) | RETURNED (DONE verified; Q-677; 4 envelope-ready + V008-09 gap) |
+| 773 | Dario | [7A/Q-675 PATH-A] magnetic-sector hunt (selector de-risk) | RETURNED (Q-678; 1 survivor, 0 constraint; PE-4 scored) |
+| 774 | Codex 2 | [7A/STEP11] pipeline batch 3 (next C-only rows) | RETURNED (Q-679; 1 ready / 4 gaps / 2 skipped) |
+| 775 | Dario | [7A/Q-126] D_BR public-layer campaign under ruling (c) | RETURNED (Q-682; core built U1-U9; AS4 trigger; PE-5(ii) CONFIRMED) |
+| 776 | Codex 2 | [7A/STEP11] gap-forcing classification (classify-only) | RETURNED (Q-681; 19/19 FREE; step 11 adoption-gated whole) |
+| 777 | Dario | [7A/Q-126] family build + rule draft | RETURNED (Q-686; countable family; core=8; rule=schema, 6 holes; DG-4 correction) |
+| 778 | Codex 2 | [7A/Q-126] adversarial cross-check of 775 public-layer core | RETURNED (Q-685; trace+positivity REFUTED, fork CONFIRMED; Q-682 corrected) |
+| 779 | Codex 2 | [PLAN:PROCESS] decline sweep (flattening-check evidence base) | SENT (ACK observed) |
+| 780 | Codex 2 | [PLAN:AUDIT] evidence audit + forcing map (chains after 779) | QUEUED |
+| 781 | Dario | [PLAN:A1-CORRECTIVE] layer rebuild on sealed H_0 | SENT (ACK observed, chained) |
+| 782 | Dario | [PLAN:F1-ADVANCE] R-L2b / ratio-route state map (chains after 781) | QUEUED |
 | 772 | Dario | [7A/STEP11] half B v2 | **RETURNED (chained). 133/133; both candidates CLEAN; corpora SEALED by registrar. Q-676. Dario inbox empty -> clean stop.** |
 | — | overnight | chained pickup LIVE: Dario self-picked 768; queue 768->770->772 | RUNNING |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |

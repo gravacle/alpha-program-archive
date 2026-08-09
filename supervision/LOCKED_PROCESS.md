@@ -522,3 +522,8 @@ Codex 2 runs under the app's "Approve for me" tier (auto-approves routine action
    the answer), (c) the forcing classification (do sealed constraints force it). The
    routing message must cite all three results. Corollary: the rulings that remain
    are the genuine allow-stratum freedoms — the ruling rate is itself a measurement.
+
+6. PE-POINTER-ONLY (2026-08-09, from 777's custody finding): governing documents,
+   decisions, and relays cite preregistered expectations by NAME AND DIGEST ONLY —
+   never restating their content. A mandatory-read document that restates a PE defeats
+   hash-only isolation for every lane that must read it.
