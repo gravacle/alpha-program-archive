@@ -603,7 +603,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 761 | Codex 2 | [7A/STEP11] corpus verify half A | **RETURNED. V009-01 CLEAN; V009-08 four findings (2 inc / 2 exc). Q-666.** |
 | 762 | Dario | [7A/Q126] primaries + public layer | **RETURNED. Locked spectrum refutes 3 tower terms; E_parent = Spin(10) chiral 16 FIXED; route's own falsifier displayed. Q-667.** |
 | 763 | Codex 2 | [7A/STEP11] the V009-08 candidate regenerated, findings resolved at rule level | **SENT (ACK observed)** |
-| 764 | Dario | [7A/Q126] the tower rebuilt against the locked spectrum; the free-data ledger | QUEUED — NOT ANNOUNCED |
+| 764 | Dario | [7A/Q126] the tower rebuilt against the locked spectrum; the free-data ledger | **SENT (ACK observed)** |
 | 711 | Dario | [6/L-V2] cross-confirm | **RETURNED via outbox. BOARD CONFIRMED 24/0/6 (blind re-derivation); F1/F2/F3 warrant findings; A21 PASS-CARRIED. Q-619. TASK 6 CLOSED.** |
 | 707 | Dario | [6/7A-HANDOFF] recognition prereg draft | **RETURNED. 15 criteria (13 grounded/2 ungrounded declared); F1 false-kill found; K-1/K-3 grounded, K-2 part-provable. PRINCIPAL RULED: F1 split, K-2 named-open, summary review then freeze.** |
 | 539 | Codex 2 | [5/EQ6] STAGE 2: physical J2 build | RETURNED — Q-466 (FAILED by absence: no reader-independent pi_Mx; projector cert named) |
