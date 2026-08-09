@@ -15264,6 +15264,16 @@ Half B completed against the mirrored members: 133/133 byte-verified, both half-
 
 **Custody.** Artifact STAGE8_B1A_CERTIFICATE_VERIFY_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
 
+## Q-713 — The divergence located: one duplicated frame conversion; the identity sits in a 243-dimensional A2 family (2026-08-09)
+
+**Question.** Locate the 802/804 divergence (relay 805, adopt-and-locate).
+
+**Answer.** LOCATED EXACTLY, ADOPTED IN FULL. 802's L was assembled as W_p^-T B_p — but 797's B_p already returns coordinate components: a DUPLICATED FRAME CONVERSION with the transpose on the wrong variance. The exact identity control rejects the identity in 24/24 child blocks under the buggy L; with the factor removed, identity, C S = I_6, and the Gram equation all pass exactly. 802's UNSATISFIABLE certificate and its downstream short-circuit are WITHDRAWN by their author. CORRECTED A2 ANSWER: dim ker C = 44, residual Gram positive definite of rank 6, solution variety dimension 44*6 - 21 = 243 — THE IDENTITY IS NOT ISOLATED. Boundary honestly stated: 243 is the A2 block; the cross-generator carrier equations are not yet jointly instantiated.
+
+**Law-7 consumers named:** 797's per-candidate verdicts (the a2/b2 killers) ran through the same pipeline and are TAINTED-PENDING-RECHECK; relay 807 (queued) re-runs them under the corrected L and computes the TRUE joint solution variety — the forcing trichotomy lands there, on solid ground this time. The convention-trap ledger grows: L's normalization (802), the transpose-pivot basis (804's near-miss), the duplicated conversion (805's find) — all in one arc; the mandatory identity control is now the established instrument against the whole class.
+
+**Custody.** Artifact STAGE8_B1A_DIVERGENCE_LOCATE_CODEX2_V001.md (4f1db6c0…, seal OK) mirrored. Codex stopped clean; Dario mid-806 (receiver inhabitance, lane-opposite). Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
