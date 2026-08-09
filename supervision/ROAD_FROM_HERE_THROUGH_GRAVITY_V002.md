@@ -22,7 +22,8 @@ The fences hold everywhere until step 18: no alpha, no kappa, no comparison.
                the alpha road; seen ONLY by the face response (materiality
                open: dynamical, two spec gaps — the Hessian's form, the pair
                set D)
-             · RA27-2: one closure proof from BOOKING (742 in flight)
+             · RA27-2: BOOKED 2026-08-08 (restricted class, cost stated,
+               trigger preregistered) — THE ROOT IS DOWN
              · then RA27-3 (FIVE unsupplied transport fields — the frontier)
                -> RA27-4 (the gluing site: stitching proper; any curvature
                precursor lives in its obstruction) -> RA27-5 -> RA27-6 (the

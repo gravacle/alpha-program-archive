@@ -14704,6 +14704,16 @@ DETERMINED: 4 authority nodes, 4 claim nodes, 8 exact typed edges — including 
 
 **Status.** SETTLED as double-closure + correction. The principal rules among (a) restrict-and-say-so / (b) the R-L2b sliver exponent / (c) C_ref-D3 — with both force routes now honestly spent.
 
+## Q-656 — RA27-2 IS BOOKED (2026-08-08)
+
+**The stitching root is discharged.** Under the principal's restrict-and-say-so ruling (decision sealed), STAGE8_7A_RESTRICTED_BOOKING_DARIO_V001.md books RA27-2 against D012 demand-by-demand over the WORKING CLASS (the two derivable moves + composites): generators at their frozen spans; the same-region relation (P2); directedness (the FC-1 axiom cited AS ADOPTED, the sealed Z-composite as exhibited witness); composition; and completeness at the PROVE standard FOR THE WORKING CLASS — within the restricted scope the licensing enumeration is the proof. The restriction is declared with its cost sentence per DET; the re-opening trigger is preregistered (a future sealed member satisfying the full coframe-AND-connection conjunction re-opens A27's universal as surfaced revision; 7B named as expected populator). RA27-3's demand updated (inheritance + the remainder: the five transport fields and the cochain-incidence half); consequences for J2, T_ref, and the sealed density instance stated. The two spent force routes (Q-654/Q-655) stand as the sealed record that the restriction excludes nothing anyone can exhibit.
+
+**The campaign's arithmetic:** from Q-620 (U1 derived) through Q-656, the stitching arc consumed 38 relays and produced: the joint-landing law (R9-JII sealed), the refinement index built, the conservation law (energy forced exactly), the microstate discovery (assignment free, gauge for alpha), the coefficient-subject ruling, and now the root booking — with zero physics verdicts reopened and every reversal produced by commissioned verification.
+
+**Basis.** STAGE8_7A_RESTRICTED_BOOKING_DARIO_V001.md, registrar seal-verified, fence clean, mirrored.
+
+**Status.** SETTLED — BOOKED. RA27-3 opens as the frontier (751); lineage V3 re-earns the A27 flip when it runs.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
