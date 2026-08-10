@@ -711,7 +711,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 883 | Dario | [PLAN:AXN-BUILD-B11] C3 cross-check | DONE (Q-790; hazard confirmed by the lane it indicts; STAGE 1 CLOSED both ways) |
 | 884 | Dario | [PLAN:AXN-BUILD-B12] affiliation attack | DONE (Q-791; index-set mismatch; item 14 = bridge + state; 875 over-merger withdrawn) |
 | 885 | Codex 2 | [PLAN:AXN-BUILD-B13] base-family inverse attack | DONE (Q-792; 7 constraints + exact quotient; Haar corollary; S1 = 4 blanks) |
-| 887 | Dario | [PLAN:AXN-BUILD-B15] base-family cross-check | GATE-STOPPED CLEAN (retype after mirror — now mirrored) |
+| 887 | Dario | [PLAN:AXN-BUILD-B15] base-family cross-check | DONE V2 (Q-794; SETTLED — one structural fact yields independence + Haar corollary) |
 | 886 | Codex 2 | [PLAN:AXN-BUILD-B14] affiliation cross-check | DONE (Q-793; gaps confirmed refined; item 14 = 3 named components) |
 | 888 | Dario | [PLAN:AXN-BUILD-B16] S2 epsilon-family inverse attack | PRE-QUEUED (chains at 887 DONE) |
 | 889 | Codex 2 | [PLAN:AXN-BUILD-B17] S4 write-defect inverse attack | QUEUED (needs keystroke) |
