@@ -678,8 +678,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 844R | Dario | [PLAN:AXN-BUILD-A11] EXIT-B scheme on confirmed ground | DONE (Q-748; second circularity, SC4/SC5 stops, P1 derived) |
 | 845 | Codex 2 | [PLAN:AXN-BUILD-A12] EXIT-B scheme cross-check + SC5 citation at source | DONE (Q-749; circle broken, P1 refuted, B0C0 licensed) |
 | 846 | Dario | [PLAN:AXN-BUILD-A13] build boundary data from B0/C0 | DONE (Q-750; BLOCKED on three absences; SC5 re-typed) |
-| 848 | Codex 2 | [PLAN:AXN-BUILD-A15] boundary-route cross-check | PRE-QUEUED (chains at 847 DONE) |
-| 847 | Codex 2 | [PLAN:AXN-BUILD-A14] type SC4 at record level (demand or smooth import?) | QUEUED (needs keystroke) |
+| 848 | Codex 2 | [PLAN:AXN-BUILD-A15] boundary-route cross-check | RUNNING (chained, ACK observed) |
+| 847 | Codex 2 | [PLAN:AXN-BUILD-A14] type SC4 at record level | DONE (Q-751; RECORD-NATIVE-OPEN; classical format not forced) |
 | 838 | Codex 2 | [PLAN:AXN-BUILD-A5] skeleton V2 cross-check (PRE-QUEUED; chains after 836) | QUEUED |
 | 835 | Codex 2 | [PLAN:F/QSPEC-SLOT-10] O1 closure | RETURNED (Q-740; OBSTRUCTED both routes; forcer = the action; convergence 6) |
 | 836 | Codex 2 | [PLAN:AXN-BUILD-A3] stratum test | RETURNED (Q-742; T01 NARROWED to pair; FORCED=0 family-level) |

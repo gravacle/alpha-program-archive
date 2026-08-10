@@ -142,3 +142,7 @@ THE EXPECTATION: the build's one remaining pure allow — SC4, the admissible-in
 TESTS (score at display, not before): (i) 847's typing verdict — RECORD-NATIVE-OPEN with a record-imposed residue scores SUPPORTED iff the residue is gravitational in form; RECORD-NATIVE-DISCHARGED with no residue scores REFUTED-AT-SC4 (nothing left to convert); GENUINELY-ANALYTIC scores by the displayed generator. (ii) When BOX_gravity's instrument reaches its row, the object it yields should be the object SC4 consumes — score at the coincidence or its failure.
 
 WEIGHT: zero. POINTER-ONLY: no lane may consume PE-12 as a premise; 847 was commissioned neutrally before this seal and stays neutral.
+
+### PE-12 SCORING — test (i), at 847's display (2026-08-09, registrar)
+
+The refuting branch did NOT fire: SC4 was not discharged-empty — a residue exists, so there is something for the converter to convert. Verdict was RECORD-NATIVE-OPEN with residue = "admissible L_c carrier + admissible-direction relation." Score: **SUPPORTED-IN-FORM, decisive test deferred to (ii).** Grounds: an admissible-DIRECTION relation is connection-shaped — direction admissibility is what a connection supplies, and the connection is the gravity/gauge face of record (PE-5, PE-7). Caveat carried in full: no sealed text names the residue gravitational; the identification is form-level only, and PE-12 stands or falls at test (ii) — the BOX_gravity coincidence. Hygiene note: the 847 lane emitted PE-12's pointer and refused to open it; the verdict is untainted.
