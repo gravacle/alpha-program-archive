@@ -1,0 +1,12 @@
+## PASTE 920 — DARIO LANE — [PLAN:AXN-BUILD-C18] THE THREE SMALL BOOKINGS: TWO SUPPLEMENTS + THE DENOMINATORS
+
+PICKUP-ACK + LANE GUARD in force (DARIO). CHAINED PICKUP applies. STATE-BRIEF PINNING: verify and read PROGRAM_STATE_BRIEF_V005.md (e26f0d16055f…) before task work.
+(Archive-side writes only; the registrar mirrors. BINDING: closure declared FIRST, exact pinned members, zero-hit scan, byte-position audit. THREE bounded items, all verdict-independent of the pending instrument work:
+ITEM 1 — SUPPLEMENT-916-2, THE DISPLAY ACT: the 3+1 slicing identity carrying i gamma^mu nabla_mu to h_0[g,a] is NAMED of record ("obtained from the same spin-plus-U(1) connection") and never displayed. LOCATE its sealed source and DISPLAY the identity at bytes — a display, not a derivation; if the identity is genuinely not displayed anywhere sealed, derive it from the named connection data or stop named.
+ITEM 2 — SUPPLEMENT-916-1, THE NAMING SCHEMA: the record names no Galerkin chain. Draft the chain-naming SCHEMA (uniform over admissible chains, target-selection barred — exactly as 916 typed it: content-free) as a producing-lane supplement for the parent spec, FOR THE REGISTRAR'S ROUTING — drafted, not adopted. Include the forward-disclosure hook: the chain-independence obligation (lattice vs Galerkin) stated as the schema's own must-prove, so no limit statement can lean on a particular chain unproven.
+ITEM 3 — THE DENOMINATORS (918's routed scope limit): verify at register spans WHICH five core lines and WHICH four dependent lines the instrument's ledger counts — cite the exact entries (the master-list mapping: lines 2/5 direct; 3/4/6-field dependent; or as the record actually types it) so V002's ledger cites verified denominators.
+FREEDOMS-CONSUMED block (law 2a); FLATTENING CHECK. All headline items CLAIMED. PE-1..13 pointer-only.
+OUTPUT: one sealed report `workspace/STAGE8_AXN_SUPPLEMENTS_DARIO_V001.md`
+Final lines: `CLOSURE = declared-first (byte position, scan)`, `IDENTITY = DISPLAYED (bytes) / DERIVED / STOPPED`, `SCHEMA = DRAFTED (content-free confirmed) / STOPPED`, `DENOMINATORS = VERIFIED (entries cited) / CORRECTED`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 920_DONE.md, then chained pickup. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
