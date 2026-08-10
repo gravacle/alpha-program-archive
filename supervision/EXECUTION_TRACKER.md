@@ -723,8 +723,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 894 | Dario | [PLAN:AXN-BUILD-B22] quasi-local state inverse | DONE (Q-801; 7 constraints, 3/7 met; item-14 fold claimed; closure debt PAID at byte 713) |
 | 895 | Codex 2 | [PLAN:AXN-BUILD-B23] B0 acceptance inverse | DONE (Q-802; SYSTEM-COMPLETE 17-clause law, premise-independent) |
 | 896 | Codex 2 | [PLAN:AXN-BUILD-B24] state-inverse cross-check | DONE (Q-804; FOLD REFUTED — one subreceiver only; Q7 realized; CYCLE 3 CLOSED) |
-| 898 | Dario | [PLAN:AXN-BUILD-B26] Boundary-Resolved generator inverse (SC5-B) | QUEUED (needs keystroke) |
-| 899 | Codex 2 | [PLAN:AXN-BUILD-B27] global-to-cell descent inverse (SC5-E) | QUEUED (needs keystroke) |
+
+| 899 | Codex 2 | descent inverse | SUPERSEDED by 900 (registrar act; principal strategy question) |
+| 900 | Codex 2 | [PLAN:AXN-BUILD-B28] FORCING-ORDER AUDIT — the minimal input basis | QUEUED (needs keystroke) |
+| 898 | — | generator inverse | QUEUED, HELD pending 900 verdict |
 | 897 | Dario | [PLAN:AXN-BUILD-B25] B0 acceptance cross-check | DONE (Q-803; SETTLED — law whole, circularity defeated via the stop spec) |
 
 | 891 | Codex 2 | [PLAN:AXN-BUILD-B19] S2 derivation cross-check | DONE (Q-798; system stands; E2 sign-derivation removed; Dario closure-order debt flagged) |
