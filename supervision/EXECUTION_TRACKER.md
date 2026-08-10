@@ -738,7 +738,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 917 | Codex 2 | [PLAN:AXN-BUILD-C15] the adoption instrument | DONE (Q-824; envelope complete: 13 certs, 11 obligations, G0-G8; zero entries filled) |
 | 918 | Dario | [PLAN:AXN-BUILD-C16] instrument check | DONE (Q-825; RETURNED — 4 items incl. the rank-ratio hazard caught; over-constraint none) |
 | 919 | Codex 2 | [PLAN:AXN-BUILD-C17] instrument V002 | QUEUED (needs keystroke) |
-| 920 | Dario | [PLAN:AXN-BUILD-C18] two supplements + the denominators | QUEUED (needs keystroke) |
+| 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
+| NOTE | registrar | V002 ledger cites the VERIFIED NUMERATORS (Q817-NUM span), not 2/5-3/4 | ROUTED to the V002 confirmation pass |
 | 916 | Dario | [PLAN:AXN-BUILD-C14] the spec acts | DONE (Q-823; LINE 6 = 2/3 BOOKED; the trace-class criterion born; 2 typed supplements) |
 | 914 | Codex 2 | [PLAN:AXN-BUILD-C12] 909+911 check | DONE (Q-820; both survive corrected; E4 adopted; spec acts named; record third BOOKED) |
 | 903 | Dario | [PLAN:AXN-BUILD-C1] S1 realization attempt | DONE (Q-809; skeleton derived; BLOCKED at the extension class; two routes sealed closed) |
