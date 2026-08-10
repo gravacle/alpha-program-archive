@@ -15564,6 +15564,14 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Both artifacts seal-verified, mirrored. 841/842 queued (cross-check + chokepoint, guards in force). Registered, committed, pushed.
 
+## Q-745 — The first hole falls by derivation (chi_P = 0); H1's constraints corrected before the chokepoint could over-solve; a sixteenth receiver (2026-08-09)
+
+**Question.** Cross-check round 1 and read the charged vertex (relay 841).
+
+**Answer.** THE GATE'S VALUE PROVED AGAIN, AND A HOLE CLOSED. (1) CHI_P = 0 DERIVED: the sealed packet's first-order charged vertex is minimal; comparison with the displayed binary vertex FORCES chi_P = 0 on the packet-parent branch (scoped: distinct from a global primitive Pauli-exclusion theorem and from square-generated kinematic structure). H3 CLOSES BY DERIVATION — the build's first hole falls to reading, not choice. (2) H1 CORRECTED: the six lawful kernels bind to primitive-incidence/variation-output receivers, and FOUR of 840's stronger readings are WITHDRAWN (the global-sum/nonlocal ban; the action-domain fixation; the exhaustive-descendant claim; the normalization reading) — 842's gate held exactly where an over-constrained system would have produced a false EMPTY; its "apply corrections first" clause now governs the retype. (3) THE ORDERING SOFTENED: partial clause evaluation is lawful before BOX_record has content — the absolute inversion corrected; round 2 gains a parallel track. (4) LAW 9 COMPOUNDS: a SIXTEENTH receiver found (I6 = the slot-9 F^2 exclusion THEOREM as its own row); "sixteen remains a lower bound, not a no-outside certificate." (5) The gravity declination STANDS (no clause reaches a gravitational receiver); K_R unmoved in-lane with the sealed release condition reserving principal re-ruling — noted.
+
+**Custody.** Artifact 886cd9a3… seal OK, mirrored. 842 retypes on the corrected constraint set per its own gate wording. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
