@@ -767,7 +767,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
 | 948 | Dario | [PLAN:AXN-BUILD-D47] spot-check build V002 | QUEUED (behind 946) |
-| 946 | Dario | [PLAN:AXN-BUILD-D45] cross-check slicing instrument | RUNNING (typed) |
+| 946 | Dario | [PLAN:AXN-BUILD-D45] cross-check slicing instrument | DONE (Q-855; READY; 4 interaction notes) |
 | NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
 | 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
