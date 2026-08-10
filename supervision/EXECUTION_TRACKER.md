@@ -692,7 +692,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 862 | Dario | [PLAN:AXN-BUILD-A29] grading verification | DONE (Q-767; SETTLED — two-block canonical at instance; law 9b born) |
 | 863 | Codex 2 | [PLAN:AXN-BUILD-A30] U2_sq consumer impact | DONE (Q-770; 3 sites eat the instance law now; generic U1 is the priority) |
 | 864 | Dario | [PLAN:AXN-BUILD-A31] four-field material census | DONE (Q-769; 4 gates named; law 9b dividend: Layer-P spec surfaced) |
-| 865 | Codex 2 | [PLAN:AXN-BUILD-A32] four-field cross-check + Layer-P typing | QUEUED (chain missed; needs keystroke) |
+| 865 | Codex 2 | [PLAN:AXN-BUILD-A32] four-field cross-check | DONE (Q-772; S4 softened to PARTIAL; Layer-P supplier-spec; fit attack startable) |
+| 868 | Codex 2 | [PLAN:AXN-BUILD-A35] execute the S4 bounded fit attack | QUEUED (needs keystroke) |
 | 866 | Dario | [PLAN:AXN-BUILD-A33] generic-U1 census | DONE (Q-771; all roads converge on SC4-1, the carrier class) |
 | 867 | Dario | [PLAN:AXN-BUILD-A34] carrier-class forcing attempt (SC4-1 closer) | QUEUED (needs keystroke) |
 | P | principal | release condition FROZEN; slot 18 nomination rule SEALED | DONE (Q-768) |
