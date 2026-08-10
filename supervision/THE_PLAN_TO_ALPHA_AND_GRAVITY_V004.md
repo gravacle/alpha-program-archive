@@ -158,3 +158,14 @@ and let the assembly itself become the next forcing instrument. The two named su
 infinite-incidence construction; the physical sector) are carried, not evaded. Approved by the
 principal in session, verbatim: "It's time for the assembly turn." Gates unchanged; fences
 unchanged; the release condition of record governs the endgame as frozen.
+
+## CHANGE LOG ENTRY — 2026-08-10: THE SLOT-2 CUTOVER (SCHEDULING CLARIFICATION, NO GATE CHANGE)
+
+Endgame scheduling, principal-confirmed: slot 2 (full gravitational action + gravitational quantum
+measure; discharge condition re-anchored per Q-762) is the LAST synchronization point between the
+alpha chain and the gravity work — not the first permission. Before it: alpha preparation (F0's
+absences, the kappa_record chain, 7A/EM closure, the non-gravitational Q_spec slots) and gravity
+content (the action's gravitational sector producing slot 2's discharge artifact) interleave freely
+across lanes. At it: the Q_spec completes and Fence 1's path opens. After it: full parallel — the
+frozen release condition executes on one side; Delta_Gamma, the PE-12 coincidence, and G-VERDICT on
+the other; neither gates the other again. All fences and the frozen release condition unchanged.
