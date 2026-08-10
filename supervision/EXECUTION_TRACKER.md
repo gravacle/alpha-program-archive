@@ -754,12 +754,12 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 934 | Codex 2 | [PLAN:AXN-BUILD-C33] entry instrument V002 | DONE (Q-842; enum disposition + E_joint field supplied; 9 fields) |
 | 935 | Dario | [PLAN:AXN-BUILD-D34] cross-check 933 | DONE (Q-843; system BOOKS; 4 packaging defects; chain did not fire) |
 | 937 | Codex 2 | [PLAN:AXN-BUILD-C36] stage-rule V002 | DONE (Q-844; 4 fixes; scope-out law-9b; digests supersede) |
-| 938 | Dario | [PLAN:AXN-BUILD-D37] confirm stage-rule V002 | RUNNING (chained; ACK seen) |
+| 938 | Dario | [PLAN:AXN-BUILD-D37] confirm stage-rule V002 | DONE (Q-848; STAGE-RULE-BOOKS; regeneration byte-identical) |
 | 936 | Dario | [PLAN:AXN-BUILD-D35] confirm instrument V002 | DONE (Q-845; READY-FOR-THE-PRINCIPAL; 1 non-blocking erratum) |
 | ROUND2 | principal | ALL TEN ENTERED: P-HS / H-HAAR / EJ-TRIVIAL+declaration / E-ID / F-DOR013 / S-TENSOR / IA-STATUS / PCH-TUPLE / mechanical pair | SEALED (Q-846) |
 | 939 | Codex 2 | [PLAN:AXN-BUILD-C38] build the entered objects | DONE (Q-847; 6/6 built+certified; enum supersession recorded) |
 | 940 | Dario | [PLAN:AXN-BUILD-D39] cross-check 939 | QUEUED (chains after 938; type if chain stalls) |
-| 941 | Codex 2 | [PLAN:AXN-BUILD-C40] Galerkin construction attempt (line 6; law-10 first) | QUEUED (needs keystroke) |
+| 941 | Codex 2 | [PLAN:AXN-BUILD-C40] Galerkin construction attempt | RUNNING (ACK seen) |
 | NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
 | 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
