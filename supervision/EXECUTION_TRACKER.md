@@ -752,7 +752,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 932 | Dario | [PLAN:AXN-BUILD-D31] cross-check 929 instrument | DONE (Q-840; NOT-READY on 2 fixable items; rest sound) |
 | 933 | Codex 2 | [PLAN:AXN-BUILD-C32] stage-rule construction | DONE (Q-841; DERIVED; 7 JAC-14 receipts; honest boundary) |
 | 934 | Codex 2 | [PLAN:AXN-BUILD-C33] entry instrument V002 | DONE (Q-842; enum disposition + E_joint field supplied; 9 fields) |
-| 935 | Dario | [PLAN:AXN-BUILD-D34] cross-check 933 stage rule + replay receipts | RUNNING (typed) |
+| 935 | Dario | [PLAN:AXN-BUILD-D34] cross-check 933 | DONE (Q-843; system BOOKS; 4 packaging defects; chain did not fire) |
+| 937 | Codex 2 | [PLAN:AXN-BUILD-C36] stage-rule V002 (four fixes + scope gap) | QUEUED (needs keystroke) |
 | 936 | Dario | [PLAN:AXN-BUILD-D35] confirm instrument V002 (READY ruling) | QUEUED (CHAINS after 935, no keystroke) |
 | NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
 | 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
