@@ -686,7 +686,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 856 | Codex 2 | [PLAN:AXN-BUILD-A23] partial-U3 cross-check | DONE (Q-761; placement stands, corrected; N1 closed both ways) |
 | 857 | Dario | [PLAN:AXN-BUILD-A24] BOX_gravity row typing | DONE (Q-760; NEITHER-FORCED; deciding object = U2; mis-posed as content hole) |
 | 858 | Dario | [PLAN:AXN-BUILD-A25] resolve the thirteen PARTIAL B0 rows | QUEUED (needs keystroke) |
-| OPEN | registrar | slot 2 discharge condition has NO LIVE SEALED SENTENCE (R-30 lapsed; R-49 preserves substance) — principal visibility | FLAGGED (Q-760) |
+| OPEN | registrar | slot 2 discharge condition staleness | RESOLVED (Q-762; principal sealed the re-anchoring) |
 | 852 | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 consolidated frontier map | PRE-QUEUED (overnight chain) |
 | 854 | Dario | [PLAN:AXN-BUILD-A21] B0 census cross-check | DONE (Q-756; census survives; root D STARTABLE) |
 | 855 | Dario | [PLAN:AXN-BUILD-A22] partial-U3 placement | DONE (Q-759; built; trace already discharged; four fields remain) |
