@@ -683,7 +683,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 851 | Codex 2 | [PLAN:AXN-BUILD-A18] triple cross-check + A_c supplier hunt | DONE (Q-755; corrected on four axes; A_c supplier PARTIAL) |
 | 852R | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 frontier map | DONE (Q-757; 11 obligations; N1 sole startable) |
 | 853R | Codex 2 | [PLAN:AXN-BUILD-A20] closure round 2 | DONE (Q-758; delta 0/1/14; census saturated, supply-bound) |
-| 856 | Codex 2 | [PLAN:AXN-BUILD-A23] partial-U3 cross-check | RUNNING (typed, ACK expected) |
+| 856 | Codex 2 | [PLAN:AXN-BUILD-A23] partial-U3 cross-check | DONE (Q-761; placement stands, corrected; N1 closed both ways) |
 | 857 | Dario | [PLAN:AXN-BUILD-A24] BOX_gravity row typing | DONE (Q-760; NEITHER-FORCED; deciding object = U2; mis-posed as content hole) |
 | 858 | Dario | [PLAN:AXN-BUILD-A25] resolve the thirteen PARTIAL B0 rows | QUEUED (needs keystroke) |
 | OPEN | registrar | slot 2 discharge condition has NO LIVE SEALED SENTENCE (R-30 lapsed; R-49 preserves substance) — principal visibility | FLAGGED (Q-760) |
