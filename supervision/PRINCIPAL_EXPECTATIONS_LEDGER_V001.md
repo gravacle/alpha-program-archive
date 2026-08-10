@@ -188,3 +188,7 @@ The endgame scheduling (the slot-2 cutover, plan change-logged) gives gravity's 
 ### PE-9 / PE-12 SCORING UPDATE — THE HANDSHAKE'S TYPING SETTLED (2026-08-10, registrar, at Q-785)
 
 The slot-2 handshake's structural admissibility is now SETTLED BY BOTH LANES (Q-783 Codex; Q-785 Dario, with the one-lane-counted-twice guard held and F1 — the strongest term-side candidate — resolving structural). The converter may lawfully hand the coupling its ground as STRUCTURE; no term-selection act exists on the path (root 8 of the discharge path, both-lane confirmed). PE-9/PE-12 remain unscored at substance — the scoring moment is the discharge artifact under the amended exhibit contract — but every typing-level door on the way there now stands open of record. Weight zero; pointer-only.
+
+### PE-12 SCORING RULE ADDENDUM — THE THREE-G SPLIT (2026-08-10, registrar, at Q-788)
+
+The coincidence test's integrity now carries an explicit precondition: g_metric, G_2PI, and G_conversion are three unlinked receiver roles of record (Q-788; under 883's check). Any future coincidence scoring must FIRST resolve which role each side of the coincidence engages — a match asserted across an unresolved glyph collision is void. This strengthens, not weakens, the eventual test: a coincidence that survives the three-way split is a coincidence of receivers, not of notation. Weight zero; pointer-only.
