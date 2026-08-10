@@ -674,12 +674,13 @@ where a premise is underivable over the pinned table. No extension was instantia
 theorem proved, no physical law selected, no domain or spectrum computed, and no authorization
 claimed. `VERB_AUDIT_SELF = CLEAN`.
 
-**BYTE-POSITION SELF-AUDIT.** The closure block of §1 opens at byte 431 and its exact member list
-ends at byte 2489. A token scan of bytes `[0,431)` for absence-shaped forms — `no `, `not `, `none`,
-`never`, `absent`, `missing`, `without`, `lack`, `fail`, `gap`, `open`, `unresolved`, `underived`,
-`false` — returns **zero hits**. The title, the lane/relay line, and §0's preflight contain only
-positive verification statements. The first absence-shaped token in the artifact occurs after the
-closure's member list.
+**BYTE-POSITION SELF-AUDIT.** Measured on the sealed bytes of this file: §1's heading begins at byte
+**521**, its closure fence opens at byte **898**, and the exact member list ends at byte **3185**.
+A token scan of bytes `[0,898)` for absence-shaped forms — `no `, `not `, `none`, `never`, `absent`,
+`missing`, `without`, `lack`, `fail`, `gap`, ` open`, `unresolved`, `underived`, `false`, `cannot`,
+`fewer`, `zero`, `stop`, `block` — returns **zero hits**. The title, the lane/relay line, and §0's
+preflight contain only positive verification statements. The first absence-shaped token in the
+artifact occurs after the closure's member list.
 
 ---
 
