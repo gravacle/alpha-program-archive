@@ -760,7 +760,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 939 | Codex 2 | [PLAN:AXN-BUILD-C38] build the entered objects | DONE (Q-847; 6/6 built+certified; enum supersession recorded) |
 | 940 | Dario | [PLAN:AXN-BUILD-D39] cross-check 939 | DONE (Q-850; 17/18 BOOK; manifest missing the disclosure key) |
 | 941 | Codex 2 | [PLAN:AXN-BUILD-C40] Galerkin attempt | DONE (Q-849; STOPPED x3: selector routed; Duhamel; S2 divergence TYPE-R) |
-| 942 | Dario | [PLAN:AXN-BUILD-D41] cross-check 941 | RUNNING (chained; ACK seen) |
+| 942 | Dario | [PLAN:AXN-BUILD-D41] cross-check 941 | DONE (Q-851; all three confirmed; selector freeze = principal's) |
+| 945 | Dario | [PLAN:AXN-BUILD-D44] common-domain/affiliation proof attempt | QUEUED (needs keystroke) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest key fix + graded clause | QUEUED (behind 943) |
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | QUEUED (needs keystroke) |
 | NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
