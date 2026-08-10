@@ -1,0 +1,10 @@
+## PASTE 887 — DARIO LANE — [PLAN:AXN-BUILD-B15] CROSS-CHECK THE BASE-FAMILY INVERSE ATTACK
+
+PICKUP-ACK + LANE GUARD in force (DARIO). CHAINED PICKUP applies. STATE-BRIEF PINNING: verify and read PROGRAM_STATE_BRIEF_V005.md (e26f0d16055f…) before task work.
+(Archive-side writes only; the registrar mirrors. BUILDER-NEVER-VERIFIES. CLAIM-STATUS GATE: the SUBJECT is Codex 2's 885 — the artifact named in its DONE output block (contract name STAGE8_AXN_BASE_FAMILY_INVERSE_CODEX2_V001.md or declared variant), mirrored to workspace/. If NO such artifact exists yet, STOP CLEANLY: write 887_DONE.md recording the gate-stop and stop — do not wait, do not substitute. If it exists: verify seal BEFORE reading.
+TASK — VERIFY AT THE CONSTRAINTS AND THE BYTES: (1) the derived constraint system against the sealed amplitudes and the displayed square (C7 zero-section consistency, NOT Kolmogorov — your own 864/872-confirmed distinction); (2) the verdict's derivation — if FAMILY-FORCED, re-derive the construction independently and press it with the void condition (was anything chosen?); if RESIDUAL-FREEDOM, verify the quotient's exactness; if FAMILY-REFUTED, verify the inconsistency; if CONSTRAINT-GAP, hunt the named input (law 9b closure-first); (3) the Haar corollary (the refutation falling out of the constraint system — a consistency check on the whole derivation); (4) scope discipline: primitive/flat as sealed, no continuum import, nothing installed.
+FREEDOMS-CONSUMED block (law 2a); FLATTENING CHECK. All headline items CLAIMED. PE-1..13 pointer-only.
+OUTPUT: one sealed report `workspace/STAGE8_AXN_BASE_FAMILY_CROSSCHECK_DARIO_V001.md`
+Final lines: `CONSTRAINTS = CONFIRMED / CORRECTED (which)`, `VERDICT = CONFIRMED / CORRECTED (re-derivation shown)`, `HAAR = CONFIRMED-COROLLARY / CORRECTED`, `S1 = <status per the check>`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 887_DONE.md, then chained pickup. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
