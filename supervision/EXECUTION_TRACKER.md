@@ -761,7 +761,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 940 | Dario | [PLAN:AXN-BUILD-D39] cross-check 939 | DONE (Q-850; 17/18 BOOK; manifest missing the disclosure key) |
 | 941 | Codex 2 | [PLAN:AXN-BUILD-C40] Galerkin attempt | DONE (Q-849; STOPPED x3: selector routed; Duhamel; S2 divergence TYPE-R) |
 | 942 | Dario | [PLAN:AXN-BUILD-D41] cross-check 941 | DONE (Q-851; all three confirmed; selector freeze = principal's) |
-| 945 | Dario | [PLAN:AXN-BUILD-D44] common-domain/affiliation proof attempt | RUNNING (typed) |
+| 945 | Dario | [PLAN:AXN-BUILD-D44] common-domain proof | DONE (Q-853; SUBORDINATION PROVED via Sobolev+localization) |
+| 947 | Codex 2 | [PLAN:AXN-BUILD-C46] cross-check 945 (proof-grade) | QUEUED (chains after 944) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest key fix + graded clause | RUNNING (chained; ACK seen) |
