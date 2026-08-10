@@ -758,8 +758,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 936 | Dario | [PLAN:AXN-BUILD-D35] confirm instrument V002 | DONE (Q-845; READY-FOR-THE-PRINCIPAL; 1 non-blocking erratum) |
 | ROUND2 | principal | ALL TEN ENTERED: P-HS / H-HAAR / EJ-TRIVIAL+declaration / E-ID / F-DOR013 / S-TENSOR / IA-STATUS / PCH-TUPLE / mechanical pair | SEALED (Q-846) |
 | 939 | Codex 2 | [PLAN:AXN-BUILD-C38] build the entered objects | DONE (Q-847; 6/6 built+certified; enum supersession recorded) |
-| 940 | Dario | [PLAN:AXN-BUILD-D39] cross-check 939 | QUEUED (chains after 938; type if chain stalls) |
-| 941 | Codex 2 | [PLAN:AXN-BUILD-C40] Galerkin construction attempt | RUNNING (ACK seen) |
+| 940 | Dario | [PLAN:AXN-BUILD-D39] cross-check 939 | RUNNING (typed) |
+| 941 | Codex 2 | [PLAN:AXN-BUILD-C40] Galerkin attempt | DONE (Q-849; STOPPED x3: selector routed; Duhamel; S2 divergence TYPE-R) |
+| 942 | Dario | [PLAN:AXN-BUILD-D41] cross-check 941 | QUEUED (after 940; type when free) |
+| 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | QUEUED (needs keystroke) |
 | NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
 | 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
