@@ -15546,6 +15546,14 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Both artifacts seal-verified, cross-mirrored. Registered, committed, pushed.
 
+## Q-743 — The gate held twice over: 838 confirms every wall and defeats the package's completeness; the round re-issues on the complete census (2026-08-09)
+
+**839 (the closure round, first attempt).** STOPPED CLEANLY AT THE CROSS-CHECK GATE — nothing written, nothing consumed. Two probes, the second widened past filename to content (the variant-name discipline), correctly distinguishing 836's stratum artifact from the absent V2 check; the lane quoted its own package's warning ("three of six rows are Dario and un-cross-checked, including 837 itself") as the reason. The guard architecture functioning exactly as designed. Side product: scope-B formally confirmed from 836's spans.
+
+**838 (the V2 cross-check).** CONFIRMS: T10 as the exact gravitational-action-functional hole (KK disqualification rehashed; the gravitational quantum MEASURE flagged as slot 2's separate receiver); the three re-typings; T01's resolution adopted (D-2 retired); the six local hole shapes. DEFEATS: the package's completeness under LAW 9 — five missing interfaces named: ENVIRONMENT_SECTOR_CLOSURE (the note-level treatment overruled), GRAVITATIONAL_QUANTUM_MEASURE boundary, ACTION_P5_NO_OUTSIDE, O1_SOURCE_TAIL, O3_CROSS_REGULATOR; with U2/U3/D-1/E4c-O2 present-unresolved. NOT CLOSURE-READY — 839's stop vindicated retroactively. Relay 840: package V3 with the complete census, then the closure round under 839's own "corrections you must first apply" clause.
+
+**Custody.** Artifact 24001c12… seal OK, mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

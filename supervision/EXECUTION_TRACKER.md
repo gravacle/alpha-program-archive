@@ -668,7 +668,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 834 | Dario | [PLAN:AXN-BUILD-B3] calculus repair | RETURNED (Q-741; U1 build-supplied; U2/U3 new opens) |
 | 837 | Dario | [PLAN:AXN-BUILD-A4] skeleton V2 | RETURNED (Q-742; T10 added; package assembled) |
 | 839 | Dario | [PLAN:AXN-BUILD-A6] closure round | STOPPED-AT-GATE (guard held; re-run after 838) |
-| 838 | Codex 2 | [PLAN:AXN-BUILD-A5] V2 cross-check | SENT (ACK observed) |
+| 838 | Codex 2 | [PLAN:AXN-BUILD-A5] V2 cross-check | RETURNED (Q-743; walls confirmed; package NOT closure-ready — 5 interfaces) |
+| 840 | Dario | [PLAN:AXN-BUILD-A7] V3 + THE CLOSURE ROUND (cold start — needs keystroke) | QUEUED |
 | 838 | Codex 2 | [PLAN:AXN-BUILD-A5] skeleton V2 cross-check (PRE-QUEUED; chains after 836) | QUEUED |
 | 835 | Codex 2 | [PLAN:F/QSPEC-SLOT-10] O1 closure | RETURNED (Q-740; OBSTRUCTED both routes; forcer = the action; convergence 6) |
 | 836 | Codex 2 | [PLAN:AXN-BUILD-A3] stratum test | RETURNED (Q-742; T01 NARROWED to pair; FORCED=0 family-level) |
