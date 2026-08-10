@@ -15582,6 +15582,10 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Artifact STAGE8_AXN_BUILD_H1_INTEGRAND_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
 
+## Q-747 — Is EXIT-A inhabited: does a sealed record-sector integrand for H1 exist under another name (the w(s) trail)? (2026-08-09)
+
+**Answer: NOT FOUND — and the w(s) trail is affirmatively the WRONG SIDE of U1.** Codex 2's 843 (STAGE8_AXN_BUILD_EXITA_HUNT_CODEX2_V001.md, f27d6fa3…, seal-verified) swept 2,028 files. Result EXIT_A = PARTIAL: action-shaped fragments exist, but no sealed record-sector integrand WITH a variation domain/map reaching all of H1's receivers. The w(s)=32·min(s,1-s)^3 provenance is located exactly: R3_3 evaluates intrinsic-measure response means and classifies the uniform four-volume measure (expressly NOT deriving the parent generator); R3_4 pushes that measure forward and uses w(s) as the operator envelope of v_c(t) inside h_K(t)/D_K. That is a measure pushforward decorating an operator — output-side, in Y not X. Inferring an action from it would author an inverse variational principle (the missing U1 under another name). S_rot/S_BF are explicit boundary actions but lack packet-parent admission and any map to H1's receiver — the lane refused both promotions in its self-attack. **The dichotomy is confirmed by receiving type**: a subclass solver is restricted EXIT-B; a local test without the map is not an exit. **No nonexistence certificate exists** — EXIT-A is uninhabited by this enumeration, not closed EMPTY (law 9 applied by the lane itself). Corrected round-1 tally reconfirmed (1/3/7, I6 unpressed, sixteen a lower bound). **Consequence: EXIT-B (844, the class-wide variation scheme) is the live route; it now builds on confirmed ground.** Status: CROSS-CHECKED against the sealed R3_3/R3_4 texts by line citation within the artifact; the constructive claim (the scheme itself) belongs to 844 and will carry its own claim status.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
