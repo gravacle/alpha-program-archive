@@ -731,7 +731,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 902 | Codex 2 | [PLAN:AXN-BUILD-B30] generator check + B8/B9 | DONE (Q-810; BASIS STANDS AT 11; generator system tightened to 5) |
 | 905 | Dario | [PLAN:AXN-BUILD-C3] S4 construction | DONE (Q-813; 3 theorems, 5 clauses closed; BLOCKED at the transport frame; K25 + falsifier routed) |
 
-| 909 | Dario | [PLAN:AXN-BUILD-C7] S2 realization (algebraic route) | QUEUED (needs keystroke) |
+| 909 | Dario | [PLAN:AXN-BUILD-C7] S2 realization | DONE (Q-816; both routes closed; free family Herglotz + boundary value derived; 3 new constraints) |
+| 911 | Dario | [PLAN:AXN-BUILD-C9] the finite membership binding (line 6) | QUEUED (needs keystroke) |
 | 903 | Dario | [PLAN:AXN-BUILD-C1] S1 realization attempt | DONE (Q-809; skeleton derived; BLOCKED at the extension class; two routes sealed closed) |
 | 904 | Codex 2 | [PLAN:AXN-BUILD-C2] third-route hunt | DONE (Q-811; THIRD ROUTE FOUND — the class DERIVES; stop relocated to the member) |
 | 906 | Codex 2 | [PLAN:AXN-BUILD-C4] member attempt | DONE (Q-812; MULTIPLICITY; the missing object = the state-to-C(Y) algebra map; no premature freeze) |
