@@ -683,7 +683,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 851 | Codex 2 | [PLAN:AXN-BUILD-A18] triple cross-check + A_c supplier hunt | DONE (Q-755; corrected on four axes; A_c supplier PARTIAL) |
 | 852R | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 frontier map | DONE (Q-757; 11 obligations; N1 sole startable) |
 | 853R | Codex 2 | [PLAN:AXN-BUILD-A20] closure round 2 | DONE (Q-758; delta 0/1/14; census saturated, supply-bound) |
-| 856 | Codex 2 | [PLAN:AXN-BUILD-A23] partial-U3 cross-check vs N1 contract | PRE-QUEUED (gate-guarded on 855) |
+| 856 | Codex 2 | [PLAN:AXN-BUILD-A23] partial-U3 cross-check | RUNNING (typed, ACK expected) |
+| 857 | Dario | [PLAN:AXN-BUILD-A24] type the BOX_gravity row: forced hole or imported expectation | QUEUED (needs keystroke) |
 | 852 | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 consolidated frontier map | PRE-QUEUED (overnight chain) |
 | 854 | Dario | [PLAN:AXN-BUILD-A21] B0 census cross-check | DONE (Q-756; census survives; root D STARTABLE) |
 | 855 | Dario | [PLAN:AXN-BUILD-A22] partial-U3 placement | DONE (Q-759; built; trace already discharged; four fields remain) |
