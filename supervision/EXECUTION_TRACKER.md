@@ -725,7 +725,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 896 | Codex 2 | [PLAN:AXN-BUILD-B24] state-inverse cross-check | DONE (Q-804; FOLD REFUTED — one subreceiver only; Q7 realized; CYCLE 3 CLOSED) |
 
 | 899 | Codex 2 | descent inverse | SUPERSEDED by 900 (registrar act; principal strategy question) |
-| 900 | Codex 2 | [PLAN:AXN-BUILD-B28] FORCING-ORDER AUDIT — the minimal input basis | QUEUED (needs keystroke) |
+| 900 | Codex 2 | [PLAN:AXN-BUILD-B28] FORCING-ORDER AUDIT | DONE (Q-805; basis = 11 all derivable; selectors = wave 1; stop rule adopted) |
+| 901 | Dario | [PLAN:AXN-BUILD-B29] forcing-audit cross-check (steering grade) | QUEUED (needs keystroke) |
 | 898 | — | generator inverse | QUEUED, HELD pending 900 verdict |
 | 897 | Dario | [PLAN:AXN-BUILD-B25] B0 acceptance cross-check | DONE (Q-803; SETTLED — law whole, circularity defeated via the stop spec) |
 
