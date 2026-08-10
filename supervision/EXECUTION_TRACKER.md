@@ -699,7 +699,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 871 | Dario | [PLAN:AXN-BUILD-A38] uniformity theorem | DONE (Q-777; PARTIAL — gauge family found, census invariant; two conditions named) |
 | 872 | Codex 2 | [PLAN:AXN-BUILD-A39] theorem cross-check + condition typing | QUEUED (needs keystroke) |
 | PHASE | — | ASSEMBLY TURN opened by principal (Q-778); hunt phase closed at determinacy boundary | LOGGED |
-| 873 | Dario | [PLAN:AXN-BUILD-B1] compose the candidate action on the proved subclass | QUEUED (needs keystroke) |
+| 873 | Dario | [PLAN:AXN-BUILD-B1] the first assembly | DONE (Q-779; 2 layers, 3 new forcings, H1 POSED) |
+| 874 | Codex 2 | [PLAN:AXN-BUILD-B2] assembly cross-check; attack NF-3 | PRE-QUEUED (chains at 872 DONE) |
 | 866 | Dario | [PLAN:AXN-BUILD-A33] generic-U1 census | DONE (Q-771; all roads converge on SC4-1, the carrier class) |
 | 867 | Dario | [PLAN:AXN-BUILD-A34] carrier-class forcing attempt | DONE (Q-774; STOPPED over-determined; five doors named) |
 | P | principal | release condition FROZEN; slot 18 nomination rule SEALED | DONE (Q-768) |
