@@ -681,7 +681,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 848 | Codex 2 | [PLAN:AXN-BUILD-A15] boundary-route cross-check | DONE (Q-752; all confirmed; five absences on SC5 chain) |
 | 849 | Dario | [PLAN:AXN-BUILD-A16] derive the admissible-direction relation | DONE (Q-753; stabilizer triple derived; SC4 relocated onto A_c) |
 | 851 | Codex 2 | [PLAN:AXN-BUILD-A18] triple cross-check + A_c supplier hunt | DONE (Q-755; corrected on four axes; A_c supplier PARTIAL) |
-| 852R | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 frontier map | RUNNING (chained, ACK observed) |
+| 852R | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 frontier map | DONE (Q-757; 11 obligations; N1 sole startable) |
+| 853R | Codex 2 | [PLAN:AXN-BUILD-A20] closure round 2 | RUNNING (chained, ACK observed) |
+| 856 | Codex 2 | [PLAN:AXN-BUILD-A23] partial-U3 cross-check vs N1 contract | PRE-QUEUED (gate-guarded on 855) |
 | 852 | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 consolidated frontier map | PRE-QUEUED (overnight chain) |
 | 854 | Dario | [PLAN:AXN-BUILD-A21] B0 census cross-check | DONE (Q-756; census survives; root D STARTABLE) |
 | 855 | Dario | [PLAN:AXN-BUILD-A22] execute the partial-U3 contract (root D) | QUEUED (morning keystroke) |
