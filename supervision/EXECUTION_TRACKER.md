@@ -703,7 +703,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 877 | Codex 2 | [PLAN:AXN-BUILD-B5] extension cross-check + merger ruling | PRE-QUEUED (chains at 876 DONE) |
 | 876 | Codex 2 | [PLAN:AXN-BUILD-B4] slot-2 discharge path | DONE (Q-783; T10 STRUCTURAL-ADMISSIBLE; join unique) |
 | 877R | Codex 2 | [PLAN:AXN-BUILD-B5] extension cross-check | DONE (Q-784; extension survives; merger rejected — same family, distinct receivers; item 14 narrowed) |
-| 878 | Dario | [PLAN:AXN-BUILD-B6] slot-2 path cross-check (T10 ruling center) | QUEUED (needs keystroke) |
+| 878 | Dario | [PLAN:AXN-BUILD-B6] slot-2 path cross-check | DONE (Q-785; T10 SETTLED both ways; exhibit amended; join unique x2) |
+| 879 | Codex 2 | [PLAN:AXN-BUILD-B7] T10 derivation contract (staged) | QUEUED (needs keystroke) |
 | PHASE | — | ASSEMBLY TURN opened by principal (Q-778); hunt phase closed at determinacy boundary | LOGGED |
 | 873 | Dario | [PLAN:AXN-BUILD-B1] the first assembly | DONE (Q-779; 2 layers, 3 new forcings, H1 POSED) |
 | 874 | Codex 2 | [PLAN:AXN-BUILD-B2] assembly cross-check; attack NF-3 | PRE-QUEUED (chains at 872 DONE) |
