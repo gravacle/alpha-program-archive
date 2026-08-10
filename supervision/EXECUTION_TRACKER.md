@@ -730,12 +730,14 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | WAVE0 | principal | lambda_spin := 1 and K_R := normalized rep — SEALED | DONE (Q-808) |
 | 902 | Codex 2 | [PLAN:AXN-BUILD-B30] generator check + B8/B9 | DONE (Q-810; BASIS STANDS AT 11; generator system tightened to 5) |
 | 905 | Dario | [PLAN:AXN-BUILD-C3] S4 construction | DONE (Q-813; 3 theorems, 5 clauses closed; BLOCKED at the transport frame; K25 + falsifier routed) |
-| 908 | Codex 2 | [PLAN:AXN-BUILD-C6] S4 check + K25 + falsifier adjudication | PRE-QUEUED (chains at 907 DONE) |
+
 | 909 | Dario | [PLAN:AXN-BUILD-C7] S2 realization (algebraic route) | QUEUED (needs keystroke) |
 | 903 | Dario | [PLAN:AXN-BUILD-C1] S1 realization attempt | DONE (Q-809; skeleton derived; BLOCKED at the extension class; two routes sealed closed) |
 | 904 | Codex 2 | [PLAN:AXN-BUILD-C2] third-route hunt | DONE (Q-811; THIRD ROUTE FOUND — the class DERIVES; stop relocated to the member) |
 | 906 | Codex 2 | [PLAN:AXN-BUILD-C4] member attempt | DONE (Q-812; MULTIPLICITY; the missing object = the state-to-C(Y) algebra map; no premature freeze) |
-| 907 | Codex 2 | [PLAN:AXN-BUILD-C5] the state-to-C(Y) algebra map | QUEUED (needs keystroke) |
+| 907 | Codex 2 | [PLAN:AXN-BUILD-C5] algebra map | DONE (Q-814; FRAGMENTS — res_B exact; the origin producer is the gear) |
+| 908 | Codex 2 | [PLAN:AXN-BUILD-C6] S4 check + adjudications | DONE (Q-815; theorems stand; K25 adopted; falsifier conditional) |
+| 910 | Codex 2 | [PLAN:AXN-BUILD-C8] the origin producer (S1 x U2_phys convergence) | QUEUED (needs keystroke) |
 | 898R | Dario | generator inverse (ran via chain; DONE recovered) | DONE (Q-806; 7 conditions; the internal scale mismatch) |
 | 897 | Dario | [PLAN:AXN-BUILD-B25] B0 acceptance cross-check | DONE (Q-803; SETTLED — law whole, circularity defeated via the stop spec) |
 
