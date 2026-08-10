@@ -738,7 +738,23 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 917 | Codex 2 | [PLAN:AXN-BUILD-C15] the adoption instrument | DONE (Q-824; envelope complete: 13 certs, 11 obligations, G0-G8; zero entries filled) |
 | 918 | Dario | [PLAN:AXN-BUILD-C16] instrument check | DONE (Q-825; RETURNED — 4 items incl. the rank-ratio hazard caught; over-constraint none) |
 | 919 | Codex 2 | [PLAN:AXN-BUILD-C17] instrument V002 | DONE (Q-827; 4/4; the denominator conflict routed to 921) |
-| 921 | Dario | [PLAN:AXN-BUILD-C19] V002 confirmation — THE LAST PASS | RUNNING (typed) |
+| 921 | Dario | [PLAN:AXN-BUILD-C19] V002 confirmation — THE LAST PASS | DONE (Q-828; READY-FOR-THE-PRINCIPAL; 920 denominator finding withdrawn) |
+| ADOPTION | principal | THE JOINT ANCHOR ADOPTED-AND-FROZEN ({BI}; the BI equations; the sealed DoR-013 fiber; the sealed carrier) | SEALED (Q-830) |
+| 923 | Codex 2 | [PLAN:AXN-BUILD-C21] THE GAUNTLET G0-G8 acceptance run | DONE (Q-832; FAIL-CLOSED AT G0 — envelope form, registrar's error; blindness held) |
+| 924 | Dario | [PLAN:AXN-BUILD-D22] chain instance + receiver binding | DONE (Q-831; NOT-DERIVABLE; deficits consolidated) |
+| 925 | Dario | [PLAN:AXN-BUILD-D23] JointAnchorDecision.v002 conformant instance | DONE (Q-833; 20 filled, 19 STOPPED -> new principal entries needed) |
+| 926 | Codex 2 | [PLAN:AXN-BUILD-C24] cross-check 924 | DONE (Q-835; confirmed; reduction corrected to four-to-two) |
+| 927 | Dario | [PLAN:AXN-BUILD-D25] nineteen-field candidate survey | DONE (Q-834; 4 pointers / 8 constructions / 7 decisions; pairing at root) |
+| 928 | Dario | [PLAN:AXN-BUILD-D27] carrier constructions | DONE (Q-836; I_C0 DERIVED; 3 stops; labelling discrepancy found) |
+| 929 | Codex 2 | [PLAN:AXN-BUILD-C28] entry-completion decision instrument V001 | DONE (Q-837; 8/8 fields, 0 filled) |
+| 930 | Dario | [PLAN:AXN-BUILD-D29] record-carrier labelling facts | DONE (Q-838; undecidable of record; substantive branch falsifies E_ch x id x id) |
+| 931 | Codex 2 | [PLAN:AXN-BUILD-C30] cross-check 928 | DONE (Q-839; I_C0 BOOKS; stage rule FORCED via F_cyl(C0_008)) |
+| 932 | Dario | [PLAN:AXN-BUILD-D31] cross-check 929 instrument | DONE (Q-840; NOT-READY on 2 fixable items; rest sound) |
+| 933 | Codex 2 | [PLAN:AXN-BUILD-C32] stage-rule construction | DONE (Q-841; DERIVED; 7 JAC-14 receipts; honest boundary) |
+| 934 | Codex 2 | [PLAN:AXN-BUILD-C33] entry instrument V002 | DONE (Q-842; enum disposition + E_joint field supplied; 9 fields) |
+| 935 | Dario | [PLAN:AXN-BUILD-D34] cross-check 933 stage rule + replay receipts | RUNNING (typed) |
+| 936 | Dario | [PLAN:AXN-BUILD-D35] confirm instrument V002 (READY ruling) | QUEUED (CHAINS after 935, no keystroke) |
+| NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
 | 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
 | NOTE | registrar | V002 ledger cites the VERIFIED NUMERATORS (Q817-NUM span), not 2/5-3/4 | ROUTED to the V002 confirmation pass |
