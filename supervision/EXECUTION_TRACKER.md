@@ -736,7 +736,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 913 | Dario | [PLAN:AXN-BUILD-C11] core-pair check | DONE (Q-821; both confirmed; TWO LIVE FAMILIES found; the fork stated by the record itself) |
 | 915 | Codex 2 | [PLAN:AXN-BUILD-C13] the live families | DONE (Q-822; FRAGMENTS x2; V003 7/7; ROAD 1 EXHAUSTED — the hinge stands alone) |
 | 917 | Codex 2 | [PLAN:AXN-BUILD-C15] draft the joint-anchor adoption instrument | QUEUED (needs keystroke) |
-| 916 | Dario | [PLAN:AXN-BUILD-C14] the two spec acts (book line 6 source third) | QUEUED (needs keystroke) |
+| 916 | Dario | [PLAN:AXN-BUILD-C14] the spec acts | DONE (Q-823; LINE 6 = 2/3 BOOKED; the trace-class criterion born; 2 typed supplements) |
 | 914 | Codex 2 | [PLAN:AXN-BUILD-C12] 909+911 check | DONE (Q-820; both survive corrected; E4 adopted; spec acts named; record third BOOKED) |
 | 903 | Dario | [PLAN:AXN-BUILD-C1] S1 realization attempt | DONE (Q-809; skeleton derived; BLOCKED at the extension class; two routes sealed closed) |
 | 904 | Codex 2 | [PLAN:AXN-BUILD-C2] third-route hunt | DONE (Q-811; THIRD ROUTE FOUND — the class DERIVES; stop relocated to the member) |
