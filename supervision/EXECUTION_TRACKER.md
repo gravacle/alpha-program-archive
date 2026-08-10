@@ -738,7 +738,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 906 | Codex 2 | [PLAN:AXN-BUILD-C4] member attempt | DONE (Q-812; MULTIPLICITY; the missing object = the state-to-C(Y) algebra map; no premature freeze) |
 | 907 | Codex 2 | [PLAN:AXN-BUILD-C5] algebra map | DONE (Q-814; FRAGMENTS — res_B exact; the origin producer is the gear) |
 | 908 | Codex 2 | [PLAN:AXN-BUILD-C6] S4 check + adjudications | DONE (Q-815; theorems stand; K25 adopted; falsifier conditional) |
-| 910 | Codex 2 | [PLAN:AXN-BUILD-C8] the origin producer (S1 x U2_phys convergence) | QUEUED (needs keystroke) |
+| 910 | Codex 2 | [PLAN:AXN-BUILD-C8] origin producer | DONE (Q-817; raw material EXISTS on the source algebra; blocked at the morphism; alternates unsearched) |
+| 912 | Codex 2 | [PLAN:AXN-BUILD-C10] the origin morphism alternates hunt | QUEUED (needs keystroke) |
 | 898R | Dario | generator inverse (ran via chain; DONE recovered) | DONE (Q-806; 7 conditions; the internal scale mismatch) |
 | 897 | Dario | [PLAN:AXN-BUILD-B25] B0 acceptance cross-check | DONE (Q-803; SETTLED — law whole, circularity defeated via the stop spec) |
 
