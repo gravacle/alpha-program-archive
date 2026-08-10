@@ -768,6 +768,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
 | 948 | Dario | [PLAN:AXN-BUILD-D47] spot-check build V002 | QUEUED (behind 946) |
 | 946 | Dario | [PLAN:AXN-BUILD-D45] cross-check slicing instrument | DONE (Q-855; READY; 4 interaction notes) |
+| SITTING | principal | LINE-6: SD-N entered; Galerkin freeze deferred to the joint smoothing sitting | SEALED (Q-856) |
+| 949 | Dario | [PLAN:AXN-BUILD-D48] construct the SD-N slicing instance | QUEUED (behind 948) |
 | NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
 | 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
