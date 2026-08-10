@@ -679,7 +679,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 845 | Codex 2 | [PLAN:AXN-BUILD-A12] EXIT-B scheme cross-check + SC5 citation at source | DONE (Q-749; circle broken, P1 refuted, B0C0 licensed) |
 | 846 | Dario | [PLAN:AXN-BUILD-A13] build boundary data from B0/C0 | DONE (Q-750; BLOCKED on three absences; SC5 re-typed) |
 | 848 | Codex 2 | [PLAN:AXN-BUILD-A15] boundary-route cross-check | DONE (Q-752; all confirmed; five absences on SC5 chain) |
-| 849 | Dario | [PLAN:AXN-BUILD-A16] derive the admissible-direction relation | QUEUED (needs keystroke) |
+| 849 | Dario | [PLAN:AXN-BUILD-A16] derive the admissible-direction relation | DONE (Q-753; stabilizer triple derived; SC4 relocated onto A_c) |
+| 851 | Codex 2 | [PLAN:AXN-BUILD-A18] triple cross-check + A_c supplier hunt | PRE-QUEUED (chains after 850) |
 | 850 | Codex 2 | [PLAN:AXN-BUILD-A17] B0 root census, SC5 chain in dependency order | QUEUED (needs keystroke) |
 | 847 | Codex 2 | [PLAN:AXN-BUILD-A14] type SC4 at record level | DONE (Q-751; RECORD-NATIVE-OPEN; classical format not forced) |
 | 838 | Codex 2 | [PLAN:AXN-BUILD-A5] skeleton V2 cross-check (PRE-QUEUED; chains after 836) | QUEUED |
