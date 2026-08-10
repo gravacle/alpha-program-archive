@@ -675,7 +675,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 843 | Codex 2 | [PLAN:AXN-BUILD-A10] circularity check + EXIT-A hunt (cold start — needs keystroke) | QUEUED |
 | 844 | Dario | [PLAN:AXN-BUILD-A11] EXIT-B scheme | STOPPED-AT-GATE (retype after 843) |
 | 843 | Codex 2 | [PLAN:AXN-BUILD-A10] circularity check + EXIT-A hunt | DONE (Q-747; EXIT-A uninhabited, w(s) wrong side of U1) |
-| 844R | Dario | [PLAN:AXN-BUILD-A11] EXIT-B scheme on confirmed ground | AWAITING RETYPE |
+| 844R | Dario | [PLAN:AXN-BUILD-A11] EXIT-B scheme on confirmed ground | DONE (Q-748; second circularity, SC4/SC5 stops, P1 derived) |
+| 845 | Codex 2 | [PLAN:AXN-BUILD-A12] EXIT-B scheme cross-check + SC5 citation at source | QUEUED (needs keystroke) |
 | 838 | Codex 2 | [PLAN:AXN-BUILD-A5] skeleton V2 cross-check (PRE-QUEUED; chains after 836) | QUEUED |
 | 835 | Codex 2 | [PLAN:F/QSPEC-SLOT-10] O1 closure | RETURNED (Q-740; OBSTRUCTED both routes; forcer = the action; convergence 6) |
 | 836 | Codex 2 | [PLAN:AXN-BUILD-A3] stratum test | RETURNED (Q-742; T01 NARROWED to pair; FORCED=0 family-level) |
