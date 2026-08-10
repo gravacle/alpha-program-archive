@@ -15554,6 +15554,16 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Artifact 24001c12… seal OK, mirrored. Registered, committed, pushed.
 
+## Q-744 — Round 1: the ordering inverts, BOX_record narrows to six constraints with the intrinsic weight and no fitted parameter, and the lane declines its own relay's leading antecedent (2026-08-09)
+
+**Question.** Package V3 + the first closure round (relay 840).
+
+**Answer.** V3 COMPLETE (15 rows: 6 holes + 5 interfaces + 4 unresolved), law 9 applied to itself honestly. THE STRATUM: NONE predicate-selected — a derivation, not a shrug: S_0/S_1 contain the undefined S_record so the finite restriction is not computable; THE ORDERING INVERTS — BOX_record is UPSTREAM of the binding predicate itself; lawful order: press H1 -> derive the stratum -> re-press. THE ROUND: 0 CLOSED-FORCED / 4 NARROWED / 7 UNMOVED / 0 RULING-SHAPED. H1 (BOX_record) NARROWED SUBSTANTIALLY to six read-off constraints: a sum over primitive incidences of per-cell terms; support(L_c) ⊆ Omega_c (NOT a nonlocal functional); one-use on new record factors; CARRYING THE INTRINSIC w(s) = 32 min(s,1-s)^3 WITH NO FITTED PARAMETER; first-order finite restriction supplying D_rec/inc; square-generating with no independent coefficient; exact completed-record persistence. Domain, cell coupling, descendant inventory FIXED; integrand and durability map open. H1 IS THE CHOKEPOINT (gates the stratum, U1, leg A whole). H3 narrowed to the packet's charged-vertex decision (leg A reads it); H4/H5 narrowed.
+
+**TWO CUSTODY RESULTS OF THE FIRST RANK.** (1) H2's K_R: UNMOVED AND EXPRESSLY NOT RULING-SHAPED — "a freedom the instrument cannot reach is not thereby a freedom a ruling should fill" (S03 at the construction end, C7 at the response end, S25 via rescaling — the triple bar). (2) BOX_gravity: UNMOVED, AND THE RELAY'S OWN SUGGESTED DIRECTION DECLINED — the predicate's receiver has no gravitational sector, the antecedent fails, and "displaying a derivation toward a structure the pressure does not force would be AUTHORSHIP DRESSED AS PRESSURE" — the void condition protecting the sealed expectation FROM ITS OWN AUTHOR'S RELAY. PE-9 unopened. The gravity hole awaits an instrument that reaches it (B2's obstruction the natural candidate). SECOND STRUCTURAL RESULT: seven of eleven rows untouched by the build's sole forcing instrument — its reach is the record sector, not the public/induced/infinite rows. ROUND 2: the H1 integrand (relay 842, guarded); the charged vertex (relay 841's leg B); the explicit re-ordering.
+
+**Custody.** Both artifacts seal-verified, mirrored. 841/842 queued (cross-check + chokepoint, guards in force). Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
