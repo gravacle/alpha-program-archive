@@ -1,6 +1,6 @@
 # DECISION OF RECORD — THE LAMBDA_SPIN FREEZE (WAVE 0, PROSPECTIVE)
 
-STATUS: **DRAFT — AWAITING PRINCIPAL APPROVAL**
+STATUS: **SEALED — PRINCIPAL APPROVED 2026-08-10** (in-session, verbatim "approved"; registrar-recommended representative adopted unamended)
 
 ## What is being frozen
 
@@ -27,4 +27,4 @@ adopted branch the spin factor is forced "up to one real scalar") — is frozen 
   a residual the record typed as unforced. All fences unchanged.
 
 ## Principal seal
-- [ ] APPROVED (value = 1 unless amended): ____________
+- [x] APPROVED by the principal (Brian Mulconrey), 2026-08-10 — value = 1. Registrar countersigned, mirrored, pushed.

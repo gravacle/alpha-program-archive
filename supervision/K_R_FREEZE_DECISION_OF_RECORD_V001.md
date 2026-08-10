@@ -1,6 +1,6 @@
 # DECISION OF RECORD — THE K_R FREEZE (WAVE 0, PROSPECTIVE)
 
-STATUS: **DRAFT — AWAITING PRINCIPAL APPROVAL**
+STATUS: **SEALED — PRINCIPAL APPROVED 2026-08-10** (in-session, verbatim "approved"; registrar-recommended representative adopted unamended)
 
 ## What is being frozen
 
@@ -25,4 +25,4 @@ naming is part of this act).
   unchanged.
 
 ## Principal seal
-- [ ] APPROVED (normalized representative unless amended): ____________
+- [x] APPROVED by the principal (Brian Mulconrey), 2026-08-10 — the normalized representative. Registrar countersigned, mirrored, pushed.
