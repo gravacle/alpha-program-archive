@@ -737,7 +737,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 915 | Codex 2 | [PLAN:AXN-BUILD-C13] the live families | DONE (Q-822; FRAGMENTS x2; V003 7/7; ROAD 1 EXHAUSTED — the hinge stands alone) |
 | 917 | Codex 2 | [PLAN:AXN-BUILD-C15] the adoption instrument | DONE (Q-824; envelope complete: 13 certs, 11 obligations, G0-G8; zero entries filled) |
 | 918 | Dario | [PLAN:AXN-BUILD-C16] instrument check | DONE (Q-825; RETURNED — 4 items incl. the rank-ratio hazard caught; over-constraint none) |
-| 919 | Codex 2 | [PLAN:AXN-BUILD-C17] instrument V002 | QUEUED (needs keystroke) |
+| 919 | Codex 2 | [PLAN:AXN-BUILD-C17] instrument V002 | DONE (Q-827; 4/4; the denominator conflict routed to 921) |
+| 921 | Dario | [PLAN:AXN-BUILD-C19] V002 confirmation — THE LAST PASS | QUEUED (needs keystroke) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
 | NOTE | registrar | V002 ledger cites the VERIFIED NUMERATORS (Q817-NUM span), not 2/5-3/4 | ROUTED to the V002 confirmation pass |
 | 916 | Dario | [PLAN:AXN-BUILD-C14] the spec acts | DONE (Q-823; LINE 6 = 2/3 BOOKED; the trace-class criterion born; 2 typed supplements) |
