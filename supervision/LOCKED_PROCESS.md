@@ -573,3 +573,7 @@ every DONE with the expected next ACK.
 ## LAW 9b — AUTHORITY TABLES ARE PART OF THE BUNDLE (added 2026-08-10, after the third instance)
 
 A positive absence claimed over a bundle is only as strong as its coverage of the bundle's PINNED AUTHORITY TABLE. Prose-token sweeps of the top-level SPEC/RESULT files do NOT suffice: pinned authorities are consumed content, and a supplier sitting behind a pin defeats the absence exactly as if it sat in the prose. Three instances of record: 827 (slots vs content), 857/860 (the grading under "Typed record-odd superconnection and its square", pinned and in front of the lane), 860 (relabeling stock across 15 authorities). Every absence-shaped final line must state whether authority tables were enumerated.
+
+### LAW 9b REFINEMENT — CLOSURE-FIRST BINDING (added 2026-08-10, per 869's method finding)
+
+The stronger form, now preferred: DECLARE the search closure first (the exact bounded set of sources over which the absence is claimed) and BIND every "missing"/"absent" to that declared closure — "missing" never means a prose-token search over an unbounded corpus. Enumerating tables and stating strength after the fact remains the minimum; closure-first is the standard for new work.

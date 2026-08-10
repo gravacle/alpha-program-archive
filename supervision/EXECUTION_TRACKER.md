@@ -694,7 +694,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 864 | Dario | [PLAN:AXN-BUILD-A31] four-field material census | DONE (Q-769; 4 gates named; law 9b dividend: Layer-P spec surfaced) |
 | 865 | Codex 2 | [PLAN:AXN-BUILD-A32] four-field cross-check | DONE (Q-772; S4 softened to PARTIAL; Layer-P supplier-spec; fit attack startable) |
 | 868 | Codex 2 | [PLAN:AXN-BUILD-A35] S4 bounded fit attack | DONE (Q-773; FREE_TAIL_PARTIAL_ONLY; 4/8; S4 narrowed) |
-| 869 | Dario | [PLAN:AXN-BUILD-A36] S4 fit-attack cross-check | RUNNING (typed) |
+| 869 | Dario | [PLAN:AXN-BUILD-A36] S4 fit-attack cross-check | DONE (Q-775; CONFIRMED whole; law 9b closure-first refinement adopted) |
 | 870 | Codex 2 | [PLAN:AXN-BUILD-A37] re-type the gated demands: instance vs uniformity (PE-13 test) | QUEUED (needs keystroke) |
 | 866 | Dario | [PLAN:AXN-BUILD-A33] generic-U1 census | DONE (Q-771; all roads converge on SC4-1, the carrier class) |
 | 867 | Dario | [PLAN:AXN-BUILD-A34] carrier-class forcing attempt | DONE (Q-774; STOPPED over-determined; five doors named) |
