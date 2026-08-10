@@ -698,7 +698,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 870 | Codex 2 | [PLAN:AXN-BUILD-A37] instance-vs-uniformity ruling | DONE (Q-776; 4 uniformity / 0 instance / 2 mixed; theorem stated) |
 | 871 | Dario | [PLAN:AXN-BUILD-A38] uniformity theorem | DONE (Q-777; PARTIAL — gauge family found, census invariant; two conditions named) |
 | 872 | Codex 2 | [PLAN:AXN-BUILD-A39] theorem cross-check | DONE (Q-780; strengthened — mixing excludable, one condition remains) |
-| 874R | Codex 2 | [PLAN:AXN-BUILD-B2] assembly cross-check (NF-3 center) | RUNNING (chained, ACK observed) |
+| 874R | Codex 2 | [PLAN:AXN-BUILD-B2] assembly cross-check | DONE (Q-781; discipline held; NG-2 killed; frontier = 15 closed items) |
+| 875 | Dario | [PLAN:AXN-BUILD-B3] infinite-incidence extension | QUEUED (needs keystroke) |
+| 876 | Codex 2 | [PLAN:AXN-BUILD-B4] slot-2 discharge path (the cutover contract) | QUEUED (needs keystroke) |
 | PHASE | — | ASSEMBLY TURN opened by principal (Q-778); hunt phase closed at determinacy boundary | LOGGED |
 | 873 | Dario | [PLAN:AXN-BUILD-B1] the first assembly | DONE (Q-779; 2 layers, 3 new forcings, H1 POSED) |
 | 874 | Codex 2 | [PLAN:AXN-BUILD-B2] assembly cross-check; attack NF-3 | PRE-QUEUED (chains at 872 DONE) |
