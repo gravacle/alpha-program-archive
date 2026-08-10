@@ -148,3 +148,13 @@ EXIT: the program's gravity claim on record, scored, done — CLAIMABLE only thr
   A-phase updated through Q-688. Envelope unchanged (~90–170 relays); the forced
   chain is shorter but blocked and is not a shortcut to alpha.
 - V001 (2026-08-09): locked.
+
+## CHANGE LOG ENTRY — 2026-08-10: THE ASSEMBLY TURN (PRINCIPAL-APPROVED)
+
+The AXN build moves from its hunt/census phase (legs A1-A39, closed at the determinacy boundary —
+the uniform-PARTIAL diagnosis, PE-8/PE-13 joint note) to THE ASSEMBLY PHASE (legs B1+): compose the
+candidate record-sector action on the PROVED finite-incidence subclass from DERIVED PIECES ONLY,
+and let the assembly itself become the next forcing instrument. The two named supply events (the
+infinite-incidence construction; the physical sector) are carried, not evaded. Approved by the
+principal in session, verbatim: "It's time for the assembly turn." Gates unchanged; fences
+unchanged; the release condition of record governs the endgame as frozen.
