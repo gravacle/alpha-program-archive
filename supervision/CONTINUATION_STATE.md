@@ -13,8 +13,8 @@ The AXN build is SUPPLY-BOUND. Census 16 rows: 1 decided (H3) / 3 narrowed / 12 
 ## PE STATE
 PE-12 (SC4 is gravity's seat) + addendum (double NOT-FORCED = the boundary in cross-section) + scoring rule (record-native coincidence; no shape-refusal, no christening). Test (i) scored SUPPORTED-IN-FORM at Q-751's display; decisive test (ii) = the BOX_gravity coincidence, awaiting an instrument that reaches that row. PE-1..12 pointer-only discipline holding in the lanes (847 refused to open PE-12's pointer).
 
-## PRINCIPAL ITEMS (Brian's alone)
-Release-condition freeze (ecd79ad3…, drafted); slot 18 protocol choice; the never-yet-used content-bearing supply act (Q-752/756: lawful in kind, treat as NEW SUPPLY + census rerun if ever used).
+## PRINCIPAL ITEMS
+BOTH STANDING ITEMS CLOSED 2026-08-10 (Q-768): the release condition FROZEN as drafted (R2.4 unsevered); slot 18 resolved by frozen nomination RULE (record selects its own nominee at action-completion). Remaining principal surface: only the never-yet-used content-bearing supply act (Q-752/756) and any future amendment by decision-of-record.
 
 ## OPEN PROCESS ITEMS
 852's counting convention needs an opposite-lane spot-check at the next Dario slot. A tenth search family (role-realization word family) recommended by 854 at no cost. I6: unreachable pending its post-regulator finite-F2 theorem — no receiver in stock.
