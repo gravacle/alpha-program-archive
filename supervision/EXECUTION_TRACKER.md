@@ -713,6 +713,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 885 | Codex 2 | [PLAN:AXN-BUILD-B13] base-family inverse attack | DONE (Q-792; 7 constraints + exact quotient; Haar corollary; S1 = 4 blanks) |
 | 887 | Dario | [PLAN:AXN-BUILD-B15] base-family cross-check | GATE-STOPPED CLEAN (retype after mirror — now mirrored) |
 | 886 | Codex 2 | [PLAN:AXN-BUILD-B14] affiliation cross-check | DONE (Q-793; gaps confirmed refined; item 14 = 3 named components) |
+| 888 | Dario | [PLAN:AXN-BUILD-B16] S2 epsilon-family inverse attack | PRE-QUEUED (chains at 887 DONE) |
+| 889 | Codex 2 | [PLAN:AXN-BUILD-B17] S4 write-defect inverse attack | QUEUED (needs keystroke) |
 
 | PHASE | — | ASSEMBLY TURN opened by principal (Q-778); hunt phase closed at determinacy boundary | LOGGED |
 | 873 | Dario | [PLAN:AXN-BUILD-B1] the first assembly | DONE (Q-779; 2 layers, 3 new forcings, H1 POSED) |
