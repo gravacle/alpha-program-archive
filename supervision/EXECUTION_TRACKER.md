@@ -697,7 +697,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 869 | Dario | [PLAN:AXN-BUILD-A36] S4 fit-attack cross-check | DONE (Q-775; CONFIRMED whole; law 9b closure-first refinement adopted) |
 | 870 | Codex 2 | [PLAN:AXN-BUILD-A37] instance-vs-uniformity ruling | DONE (Q-776; 4 uniformity / 0 instance / 2 mixed; theorem stated) |
 | 871 | Dario | [PLAN:AXN-BUILD-A38] uniformity theorem | DONE (Q-777; PARTIAL — gauge family found, census invariant; two conditions named) |
-| 872 | Codex 2 | [PLAN:AXN-BUILD-A39] theorem cross-check + condition typing | QUEUED (needs keystroke) |
+| 872 | Codex 2 | [PLAN:AXN-BUILD-A39] theorem cross-check | DONE (Q-780; strengthened — mixing excludable, one condition remains) |
+| 874R | Codex 2 | [PLAN:AXN-BUILD-B2] assembly cross-check (NF-3 center) | RUNNING (chained, ACK observed) |
 | PHASE | — | ASSEMBLY TURN opened by principal (Q-778); hunt phase closed at determinacy boundary | LOGGED |
 | 873 | Dario | [PLAN:AXN-BUILD-B1] the first assembly | DONE (Q-779; 2 layers, 3 new forcings, H1 POSED) |
 | 874 | Codex 2 | [PLAN:AXN-BUILD-B2] assembly cross-check; attack NF-3 | PRE-QUEUED (chains at 872 DONE) |
