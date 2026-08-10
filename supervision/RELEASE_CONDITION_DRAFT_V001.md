@@ -1,4 +1,4 @@
-# THE RELEASE CONDITION — DRAFT V001 FOR PRINCIPAL FREEZE (2026-08-09)
+# THE RELEASE CONDITION — V001, FROZEN BY THE PRINCIPAL 2026-08-10
 
 The comparison ban's release condition, never authored of record (four files assert its
 nonexistence — Q-691 item 9; plan F2). DRAFT — carries no force until the principal
@@ -52,4 +52,4 @@ document, once frozen by the principal, is the release condition of record; amen
 only by decision-of-record with the change log updated and the principal's freeze
 renewed.
 
-STATUS: DRAFT — awaiting principal review and freeze.
+STATUS: **FROZEN — PRINCIPAL APPROVED 2026-08-10** (in-session selection: "Freeze as drafted"; R2.4 default stands — alpha tied to 7A closure unless later severed by decision-of-record). Draft hash at freeze: ecd79ad37fa70b60…. This is the release condition of record; amendments only by decision-of-record with the change log updated and the principal's freeze renewed.
