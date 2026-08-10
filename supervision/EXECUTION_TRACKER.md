@@ -691,7 +691,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 861 | Codex 2 | [PLAN:AXN-BUILD-A28] canonicity cross-check | DONE (Q-766; numbers confirmed; grading corrected — two-block census canonical at instance) |
 | 862 | Dario | [PLAN:AXN-BUILD-A29] grading verification | DONE (Q-767; SETTLED — two-block canonical at instance; law 9b born) |
 | 863 | Codex 2 | [PLAN:AXN-BUILD-A30] U2_sq consumer impact + splitter hunt | RUNNING (typed) |
-| 864 | Dario | [PLAN:AXN-BUILD-A31] material census for root D four fields | RUNNING (typed) |
+| 864 | Dario | [PLAN:AXN-BUILD-A31] four-field material census | DONE (Q-769; 4 gates named; law 9b dividend: Layer-P spec surfaced) |
+| 865 | Codex 2 | [PLAN:AXN-BUILD-A32] four-field cross-check + Layer-P typing | PRE-QUEUED (chains at 863 DONE) |
 | P | principal | release condition FROZEN; slot 18 nomination rule SEALED | DONE (Q-768) |
 | OPEN | registrar | slot 2 discharge condition staleness | RESOLVED (Q-762; principal sealed the re-anchoring) |
 | 852 | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 consolidated frontier map | PRE-QUEUED (overnight chain) |
