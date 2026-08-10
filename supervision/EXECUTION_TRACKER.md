@@ -682,6 +682,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 849 | Dario | [PLAN:AXN-BUILD-A16] derive the admissible-direction relation | DONE (Q-753; stabilizer triple derived; SC4 relocated onto A_c) |
 | 851 | Codex 2 | [PLAN:AXN-BUILD-A18] triple cross-check + A_c supplier hunt | RUNNING (chained, ACK observed) |
 | 852 | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 consolidated frontier map | PRE-QUEUED (overnight chain) |
+| 854 | Dario | [PLAN:AXN-BUILD-A21] B0 census cross-check; attack BUILDABLE_NOW=NONE | QUEUED (needs keystroke) |
 | 853 | Codex 2 | [PLAN:AXN-BUILD-A20] closure round 2 on the census | PRE-QUEUED (overnight chain) |
 | 850 | Codex 2 | [PLAN:AXN-BUILD-A17] B0 root census | DONE (Q-754; three roots, BUILDABLE_NOW=NONE) |
 | 847 | Codex 2 | [PLAN:AXN-BUILD-A14] type SC4 at record level | DONE (Q-751; RECORD-NATIVE-OPEN; classical format not forced) |
