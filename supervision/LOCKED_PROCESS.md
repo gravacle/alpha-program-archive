@@ -569,3 +569,7 @@ every DONE with the expected next ACK.
    registered, the lane must display why the checked enumeration is the COMPLETE
    requirement set (or find the sibling enumerations — content lists and slot lists
    are distinct governing sources and both must be checked).
+
+## LAW 9b — AUTHORITY TABLES ARE PART OF THE BUNDLE (added 2026-08-10, after the third instance)
+
+A positive absence claimed over a bundle is only as strong as its coverage of the bundle's PINNED AUTHORITY TABLE. Prose-token sweeps of the top-level SPEC/RESULT files do NOT suffice: pinned authorities are consumed content, and a supplier sitting behind a pin defeats the absence exactly as if it sat in the prose. Three instances of record: 827 (slots vs content), 857/860 (the grading under "Typed record-odd superconnection and its square", pinned and in front of the lane), 860 (relabeling stock across 15 authorities). Every absence-shaped final line must state whether authority tables were enumerated.

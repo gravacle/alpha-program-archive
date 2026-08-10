@@ -689,7 +689,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 859 | Codex 2 | [PLAN:AXN-BUILD-A26] U2 census | DONE (Q-764; three objects, one name; finite attack startable) |
 | 860 | Dario | [PLAN:AXN-BUILD-A27] U2SQ finite canonicity attack | DONE (Q-765; NONCANONICAL, control 1 unconditional; 857 routing conceded) |
 | 861 | Codex 2 | [PLAN:AXN-BUILD-A28] canonicity cross-check | DONE (Q-766; numbers confirmed; grading corrected — two-block census canonical at instance) |
-| 862 | Dario | [PLAN:AXN-BUILD-A29] verify the grading correction + projector identities | QUEUED (needs keystroke) |
+| 862 | Dario | [PLAN:AXN-BUILD-A29] grading verification | DONE (Q-767; SETTLED — two-block canonical at instance; law 9b born) |
+| 863 | Codex 2 | [PLAN:AXN-BUILD-A30] U2_sq consumer impact + splitter hunt | QUEUED (needs keystroke) |
 | OPEN | registrar | slot 2 discharge condition staleness | RESOLVED (Q-762; principal sealed the re-anchoring) |
 | 852 | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 consolidated frontier map | PRE-QUEUED (overnight chain) |
 | 854 | Dario | [PLAN:AXN-BUILD-A21] B0 census cross-check | DONE (Q-756; census survives; root D STARTABLE) |
