@@ -5,21 +5,27 @@ CHANGE LOG first and the principal is told. The STATUS BLOCK answers "where are 
 V004 supersedes V003: PHASE G RESTRUCTURED at the principal's direction (change log) —
 gravity CONTENT interleaves with the B/C spine; the gravity VERDICT layer keeps its gates.
 
-## STATUS BLOCK (registrar-maintained)
+## STATUS BLOCK (registrar-maintained; current to Q-746, 2026-08-09 evening)
 
-CURRENT STEP: PHASE A BANKED (Q-709). B1a sharpened to the five-way simultaneous
-  coframe law; 802 solves the full 864-parameter joint system (Q-708). E4 reduced to
-  one typed gap (Q-707). C1 licensed to build (E4a+E4b proved).
-AUDIT SCORE (24 lines, B–G): 2 DONE / 12 PARTIAL / 9 NOT-STARTED / 1 UNKNOWN (E2).
-FORCED SPINE (from the forcing map): measure → [3 FREE B1 fields] → M04 gluing
-  obstruction (FORCED) → [chain/density inputs] → M11 kappa_record (FORCED).
-  Six FREE links sit at the junctions; each is a future principal decision point
-  if derivation continues to fail.
-KEY TYPING (sealed Q-34): kappa_record is the record-side intensive Hessian;
-  ALPHA'S STIFFNESS IS K_*. The R-L2b/linked-cluster campaign is OFF alpha's
-  value path. The kappa-only chain is short but is NOT a shortcut to alpha.
-BLOCKED ON PRINCIPAL: nothing today (free links become rulings only when reached
-  and only after RULING-LAST's three passes).
+CURRENT STEP: THE BUILD (AXN-BUILD), mid-campaign. Round 1 complete + cross-checked:
+  chi_P = 0 DECIDED by derivation; H1 (BOX_record) narrowed on corrected bindings;
+  the U1<->H1 CIRCULARITY established with two exits — EXIT-A (a sealed integrand
+  under another name; the w(s) provenance hunt) and EXIT-B (the class-wide variation
+  scheme) — running now as relays 843/844.
+STRUCTURE SETTLED BY AUDIT: the junction's critical path = the five objects + replays
+  (twice-confirmed theorem); D2 COLLAPSED into the build (14 of 15 slots node-face or
+  action-derivable; slot 18 the one protocol choice, the principal's); O1/O2/O4 off
+  the junction path, on alpha's Q_spec-slot ledger; O1 obstructed with the action as
+  named forcer — the node's convergence count is SIX. The gravity functional
+  (BOX_gravity) is a named hole in the action's own term table, KK-import barred,
+  awaiting an instrument that reaches it (B2's obstruction the candidate).
+BUILD CENSUS: 16 rows (a lower bound): 1 decided / 3 narrowed / 7 unmoved / the
+  interfaces + I6 unpressed by the binding predicate.
+PRINCIPAL ITEMS OUTSTANDING: the release-condition freeze (drafted, ecd79ad3…);
+  slot 18's protocol choice (deferred lawfully); NO rulings pending — every candidate
+  so far dissolved or was expressly typed not-ruling-shaped (the K_R principle).
+CADENCE NOTE: the claim-status gates are the throughput limit, by design; the lanes
+  said so themselves and the gates have changed answers twice.
 
 ## PHASE A — BANK THE D_BR FAMILY [nearly closed]
 
