@@ -577,3 +577,7 @@ A positive absence claimed over a bundle is only as strong as its coverage of th
 ### LAW 9b REFINEMENT — CLOSURE-FIRST BINDING (added 2026-08-10, per 869's method finding)
 
 The stronger form, now preferred: DECLARE the search closure first (the exact bounded set of sources over which the absence is claimed) and BIND every "missing"/"absent" to that declared closure — "missing" never means a prose-token search over an unbounded corpus. Enumerating tables and stating strength after the fact remains the minimum; closure-first is the standard for new work.
+
+## LAW 10 — THE FORCING-ORDER DISCIPLINE (added 2026-08-10, principal-directed)
+
+Before any NEW BLOCK of work opens, its objects are classified FIRST — INPUT / FORCED-DOWNSTREAM / SELECTOR / MIXED — by a forcing-order audit of the 900 pattern (forcing chains displayed; the minimal basis extracted; basis elements typed derivable vs supply-shaped; the cascade ordered). THE STOP RULE GOVERNS THROUGHOUT: no runs are spent arriving at a downstream value before its basis carriers, laws, maps, or prescriptions exist. Selector-typed values are brought to the principal as prospective freezes at the earliest safe moment (before anything downstream is computed), never reverse-fit. A block's relay budget goes to its basis; everything else falls out. Principal's directive of record: "When we know a value is going to be forced once we have the full terms, why would we spend countless runs trying to arrive at it?" / "let's make sure that we use this approach for the next block of work."
