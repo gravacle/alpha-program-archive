@@ -739,7 +739,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 918 | Dario | [PLAN:AXN-BUILD-C16] instrument check | DONE (Q-825; RETURNED — 4 items incl. the rank-ratio hazard caught; over-constraint none) |
 | 919 | Codex 2 | [PLAN:AXN-BUILD-C17] instrument V002 | DONE (Q-827; 4/4; the denominator conflict routed to 921) |
 | 921 | Dario | [PLAN:AXN-BUILD-C19] V002 confirmation — THE LAST PASS | RUNNING (typed) |
-| 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | QUEUED (needs keystroke) |
+| 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
 | NOTE | registrar | V002 ledger cites the VERIFIED NUMERATORS (Q817-NUM span), not 2/5-3/4 | ROUTED to the V002 confirmation pass |
 | 916 | Dario | [PLAN:AXN-BUILD-C14] the spec acts | DONE (Q-823; LINE 6 = 2/3 BOOKED; the trace-class criterion born; 2 typed supplements) |
