@@ -728,7 +728,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 900 | Codex 2 | [PLAN:AXN-BUILD-B28] FORCING-ORDER AUDIT | DONE (Q-805; basis = 11 all derivable; selectors = wave 1; stop rule adopted) |
 | 901 | Dario | [PLAN:AXN-BUILD-B29] forcing-audit cross-check | DONE (Q-807; charter CONFIRMED; wave 0 cleared; forced-includes-fail) |
 | WAVE0 | principal | lambda_spin := 1 and K_R := normalized rep — SEALED | DONE (Q-808) |
-| 902 | Codex 2 | [PLAN:AXN-BUILD-B30] generator check + B8/B9 confirmation | RUNNING (typed) |
+| 902 | Codex 2 | [PLAN:AXN-BUILD-B30] generator check + B8/B9 | DONE (Q-810; BASIS STANDS AT 11; generator system tightened to 5) |
+| 905 | Dario | [PLAN:AXN-BUILD-C3] S4 write-attachment construction | QUEUED (needs keystroke) |
 | 903 | Dario | [PLAN:AXN-BUILD-C1] S1 realization attempt | DONE (Q-809; skeleton derived; BLOCKED at the extension class; two routes sealed closed) |
 | 904 | Codex 2 | [PLAN:AXN-BUILD-C2] S1 stop check + third-route hunt | PRE-QUEUED (chains at 902 DONE) |
 | 898R | Dario | generator inverse (ran via chain; DONE recovered) | DONE (Q-806; 7 conditions; the internal scale mismatch) |
