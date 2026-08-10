@@ -686,7 +686,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 856 | Codex 2 | [PLAN:AXN-BUILD-A23] partial-U3 cross-check vs N1 contract | PRE-QUEUED (gate-guarded on 855) |
 | 852 | Codex 2 | [PLAN:AXN-BUILD-A19] round-2 consolidated frontier map | PRE-QUEUED (overnight chain) |
 | 854 | Dario | [PLAN:AXN-BUILD-A21] B0 census cross-check | DONE (Q-756; census survives; root D STARTABLE) |
-| 855 | Dario | [PLAN:AXN-BUILD-A22] execute the partial-U3 contract (root D) | QUEUED (morning keystroke) |
+| 855 | Dario | [PLAN:AXN-BUILD-A22] partial-U3 placement | DONE (Q-759; built; trace already discharged; four fields remain) |
 | 853 | Codex 2 | [PLAN:AXN-BUILD-A20] closure round 2 on the census | PRE-QUEUED (overnight chain) |
 | 850 | Codex 2 | [PLAN:AXN-BUILD-A17] B0 root census | DONE (Q-754; three roots, BUILDABLE_NOW=NONE) |
 | 847 | Codex 2 | [PLAN:AXN-BUILD-A14] type SC4 at record level | DONE (Q-751; RECORD-NATIVE-OPEN; classical format not forced) |
