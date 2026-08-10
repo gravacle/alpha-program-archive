@@ -671,7 +671,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 838 | Codex 2 | [PLAN:AXN-BUILD-A5] V2 cross-check | RETURNED (Q-743; walls confirmed; package NOT closure-ready — 5 interfaces) |
 | 840 | Dario | [PLAN:AXN-BUILD-A7] V3 + closure round 1 | RETURNED (Q-744; 0/4/7/0; H1 the chokepoint; ordering inverted) |
 | 841 | Codex 2 | [PLAN:AXN-BUILD-A8] round-1 cross-check + vertex | RETURNED (Q-745; chi_P=0 DERIVED; 4 readings withdrawn; I6 found) |
-| 842 | Dario | [PLAN:AXN-BUILD-A9] H1 integrand | RETYPE READY (841 landed; corrections to apply per gate) |
+| 842 | Dario | [PLAN:AXN-BUILD-A9] H1 integrand | RETURNED (Q-746; UNDECIDABLE; U1<->H1 CIRCULAR; two exits) |
+| 843 | Codex 2 | [PLAN:AXN-BUILD-A10] circularity check + EXIT-A hunt (cold start — needs keystroke) | QUEUED |
+| 844 | Dario | [PLAN:AXN-BUILD-A11] EXIT-B scheme (guarded on 843; needs keystroke) | QUEUED |
 | 838 | Codex 2 | [PLAN:AXN-BUILD-A5] skeleton V2 cross-check (PRE-QUEUED; chains after 836) | QUEUED |
 | 835 | Codex 2 | [PLAN:F/QSPEC-SLOT-10] O1 closure | RETURNED (Q-740; OBSTRUCTED both routes; forcer = the action; convergence 6) |
 | 836 | Codex 2 | [PLAN:AXN-BUILD-A3] stratum test | RETURNED (Q-742; T01 NARROWED to pair; FORCED=0 family-level) |

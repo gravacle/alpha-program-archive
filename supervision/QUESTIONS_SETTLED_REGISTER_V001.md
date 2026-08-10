@@ -15572,6 +15572,16 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Custody.** Artifact 886cd9a3… seal OK, mirrored. 842 retypes on the corrected constraint set per its own gate wording. Registered, committed, pushed.
 
+## Q-746 — The circularity: U1 and H1 are mutually gated; the loop does not break under more pressure; two exits displayed; the gate changed the answer (2026-08-09)
+
+**Question.** H1's integrand on the corrected constraints (relay 842, second run).
+
+**Answer.** UNDECIDABLE — WITH THE STRUCTURE THAT MAKES IT THE ROUND'S DEEPEST RESULT. The posed system reaches only the primitive sector's support constraints (form unconstrained; CIS's effective remainder unreached). NOT UNIQUE (no constraint determines a form); NOT FAMILY (no dimension without fabrication); NOT EMPTY — no certificate, THE ROUTE LIVES. THE STRUCTURAL FINDING: U1 <-> H1 IS CIRCULAR — round 1 gated U1 on H1 (no candidate action while BOX_record is empty); the corrected H1 gates the integrand on U1's pullback; NEITHER IS PRODUCIBLE FROM THE OTHER AND MORE BINDING PRESSURE DOES NOT BREAK THE LOOP. TWO EXITS, NEITHER TAKEN (stop-on-freedom): EXIT-A — an integrand from another sealed route, after which C2..C6 become TESTS; EXIT-B — U1 promoted to a CLASS-WIDE variation scheme (the VARY half of derive-and-vary formalized), after which the pullback exists and the system is well-posed. The durability map is downstream of the same gap. CORRECTED ROUND TALLY: 1 DECIDED (chi_P = 0) / 3 NARROWED / 7 UNMOVED / I6 unpressed; census 16, a lower bound.
+
+**The verb audit, quoted because it earns it:** the four over-reaches were ONE systematic misreading ("every over-reach bound an OUTPUT condition to the ACTION"); the declination that cost the round its only decided row is not claimed as virtue; and "THE GATE'S VALUE WAS NOT PROCEDURAL; IT CHANGED THE ANSWER" — the uncorrected system would have yielded a confident solution to withdrawn constraints. Relays 843 (Codex: check the circularity + the EXIT-A hunt — where did the sealed w(s) weight COME from, and what does its source vary?) and 844 (Dario: EXIT-B built as far as the record forces, guarded) run the exits in parallel.
+
+**Custody.** Artifact STAGE8_AXN_BUILD_H1_INTEGRAND_DARIO_V001.md (seal OK) mirrored. Registered, committed, pushed.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
