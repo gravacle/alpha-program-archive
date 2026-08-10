@@ -762,11 +762,12 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 941 | Codex 2 | [PLAN:AXN-BUILD-C40] Galerkin attempt | DONE (Q-849; STOPPED x3: selector routed; Duhamel; S2 divergence TYPE-R) |
 | 942 | Dario | [PLAN:AXN-BUILD-D41] cross-check 941 | DONE (Q-851; all three confirmed; selector freeze = principal's) |
 | 945 | Dario | [PLAN:AXN-BUILD-D44] common-domain proof | DONE (Q-853; SUBORDINATION PROVED via Sobolev+localization) |
-| 947 | Codex 2 | [PLAN:AXN-BUILD-C46] cross-check 945 (proof-grade) | RUNNING (chained; ACK seen) |
+| 947 | Codex 2 | [PLAN:AXN-BUILD-C46] cross-check 945 | DONE (Q-857; THEOREM-BOOKS; rationale corrected) |
+| 950 | Codex 2 | [PLAN:AXN-BUILD-C49] complete the JointAnchorDecision instance (V003) | QUEUED (needs keystroke) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
-| 948 | Dario | [PLAN:AXN-BUILD-D47] spot-check build V002 | QUEUED (behind 946) |
+| 948 | Dario | [PLAN:AXN-BUILD-D47] spot-check build V002 | DONE (Q-858; OBJECTS-BOOK) |
 | 946 | Dario | [PLAN:AXN-BUILD-D45] cross-check slicing instrument | DONE (Q-855; READY; 4 interaction notes) |
 | SITTING | principal | LINE-6: SD-N entered; Galerkin freeze deferred to the joint smoothing sitting | SEALED (Q-856) |
 | 949 | Dario | [PLAN:AXN-BUILD-D48] construct the SD-N slicing instance | QUEUED (behind 948) |
