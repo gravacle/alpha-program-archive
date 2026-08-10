@@ -719,7 +719,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 890 | Dario | [PLAN:AXN-BUILD-B18] S4 derivation cross-check | DONE (Q-797; 24 confirmed, moments proven numerically; round-trip control corrected) |
 | OPEN | lanes | K-projection strengthening (project the 15 non-LP K-conditions) | NAMED, NOT RUN (890) |
 | 892 | Dario | [PLAN:AXN-BUILD-B20] S3 joint-completion inverse | DONE (Q-799; ROOT D FULLY INVERTED; TYPE-R fenced; closure debt paid) |
-| 893 | Codex 2 | [PLAN:AXN-BUILD-B21] S3 cross-check (refutation-scope center) | QUEUED (needs keystroke) |
+| 893 | Codex 2 | [PLAN:AXN-BUILD-B21] S3 cross-check | DONE (Q-800; CYCLE 2 CLOSED — root D settled both ways; Dario closure debt now binding text) |
+| 894 | Dario | [PLAN:AXN-BUILD-B22] quasi-local state inverse | QUEUED (needs keystroke) |
+| 895 | Codex 2 | [PLAN:AXN-BUILD-B23] B0 acceptance inverse | QUEUED (needs keystroke) |
 | 891 | Codex 2 | [PLAN:AXN-BUILD-B19] S2 derivation cross-check | DONE (Q-798; system stands; E2 sign-derivation removed; Dario closure-order debt flagged) |
 
 | PHASE | — | ASSEMBLY TURN opened by principal (Q-778); hunt phase closed at determinacy boundary | LOGGED |
