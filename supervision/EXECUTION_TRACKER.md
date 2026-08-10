@@ -714,7 +714,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 887 | Dario | [PLAN:AXN-BUILD-B15] base-family cross-check | DONE V2 (Q-794; SETTLED — one structural fact yields independence + Haar corollary) |
 | 886 | Codex 2 | [PLAN:AXN-BUILD-B14] affiliation cross-check | DONE (Q-793; gaps confirmed refined; item 14 = 3 named components) |
 | 888 | Dario | [PLAN:AXN-BUILD-B16] S2 epsilon-family inverse attack | PRE-QUEUED (chains at 887 DONE) |
-| 889 | Codex 2 | [PLAN:AXN-BUILD-B17] S4 write-defect inverse attack | QUEUED (needs keystroke) |
+| 889 | Codex 2 | [PLAN:AXN-BUILD-B17] S4 write-defect inverse | DONE (Q-795; 24 constraints; 4/8 corollary exact) |
+| 888R | Dario | [PLAN:AXN-BUILD-B16] S2 epsilon-family inverse | RUNNING (chained, ACK observed) |
+| 890 | Dario | [PLAN:AXN-BUILD-B18] S4 derivation cross-check | PRE-QUEUED (chains at 888 DONE) |
+| 891 | Codex 2 | [PLAN:AXN-BUILD-B19] S2 derivation cross-check | PRE-QUEUED (gate on 888 artifact) |
 
 | PHASE | — | ASSEMBLY TURN opened by principal (Q-778); hunt phase closed at determinacy boundary | LOGGED |
 | 873 | Dario | [PLAN:AXN-BUILD-B1] the first assembly | DONE (Q-779; 2 layers, 3 new forcings, H1 POSED) |
