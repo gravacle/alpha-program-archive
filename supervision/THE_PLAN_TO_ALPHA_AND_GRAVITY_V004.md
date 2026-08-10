@@ -169,3 +169,16 @@ content (the action's gravitational sector producing slot 2's discharge artifact
 across lanes. At it: the Q_spec completes and Fence 1's path opens. After it: full parallel — the
 frozen release condition executes on one side; Delta_Gamma, the PE-12 coincidence, and G-VERDICT on
 the other; neither gates the other again. All fences and the frozen release condition unchanged.
+
+## CHANGE LOG ENTRY — 2026-08-10: THE TWO-THREAD OPERATING MODEL (PRINCIPAL-CONFIRMED)
+
+Effective immediately, the assembly phase runs as TWO STANDING PARALLEL THREADS: (1) THE
+ACTION/ALPHA THREAD — the uniformity theorem's completion, the instance conjuncts, the physical
+halves, H1's execution, and the alpha chain's prerequisites; (2) THE GRAVITY THREAD — the slot-2
+discharge path (first relay: 876), the discharge artifact, Delta_Gamma, the PE-12 coincidence, and
+G-VERDICT. The threads join exactly once, at slot 2 (the cutover, previous entry; uniqueness
+verified at bytes by 876 Task 4), and never gate each other elsewhere. Lanes ALTERNATE across
+threads as custody requires (builder-never-verifies forces the swap at each cross-check); the
+THREADS persist across lane swaps. No gate, fence, or release-condition change — this makes
+explicit the parallelism latent in V004's G-CONTENT interleaving, now proven safe by the
+single-join analysis.
