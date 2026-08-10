@@ -764,7 +764,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 945 | Dario | [PLAN:AXN-BUILD-D44] common-domain proof | DONE (Q-853; SUBORDINATION PROVED via Sobolev+localization) |
 | 947 | Codex 2 | [PLAN:AXN-BUILD-C46] cross-check 945 | DONE (Q-857; THEOREM-BOOKS; rationale corrected) |
 | 950 | Codex 2 | [PLAN:AXN-BUILD-C49] instance V003 | DONE (Q-860; 38/39; suite stop real, routed) |
-| 952 | Dario | [PLAN:AXN-BUILD-D51] cross-check instance V003 + suite reading | QUEUED (needs keystroke) |
+| 952 | Dario | [PLAN:AXN-BUILD-D51] cross-check instance V003 + suite reading | RUNNING (typed) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
@@ -772,7 +772,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 946 | Dario | [PLAN:AXN-BUILD-D45] cross-check slicing instrument | DONE (Q-855; READY; 4 interaction notes) |
 | SITTING | principal | LINE-6: SD-N entered; Galerkin freeze deferred to the joint smoothing sitting | SEALED (Q-856) |
 | 949 | Dario | [PLAN:AXN-BUILD-D48] SD-N instance | DONE (Q-859; 8/9; write half proved; h_0[g,a] formula-free — routed) |
-| 951 | Codex 2 | [PLAN:AXN-BUILD-C50] cross-check 949 | QUEUED (behind 950) |
+| 951 | Codex 2 | [PLAN:AXN-BUILD-C50] cross-check 949 | DONE (Q-861; CONSTITUTION FORCED; domain corrected; fails-as-stated) |
+| 953 | Dario | [PLAN:AXN-BUILD-D52] SD-N V002 (domain + forced h_0 binding) | QUEUED (behind 952) |
 | NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
 | 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
