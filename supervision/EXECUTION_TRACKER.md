@@ -735,7 +735,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 911 | Dario | [PLAN:AXN-BUILD-C9] finite binding | DONE (Q-819; SPLITS 3 ways; record third CLOSED; field = a generatorless slot -> core) |
 | 913 | Dario | [PLAN:AXN-BUILD-C11] core-pair check | DONE (Q-821; both confirmed; TWO LIVE FAMILIES found; the fork stated by the record itself) |
 | 915 | Codex 2 | [PLAN:AXN-BUILD-C13] the live families | DONE (Q-822; FRAGMENTS x2; V003 7/7; ROAD 1 EXHAUSTED — the hinge stands alone) |
-| 917 | Codex 2 | [PLAN:AXN-BUILD-C15] draft the joint-anchor adoption instrument | QUEUED (needs keystroke) |
+| 917 | Codex 2 | [PLAN:AXN-BUILD-C15] the adoption instrument | DONE (Q-824; envelope complete: 13 certs, 11 obligations, G0-G8; zero entries filled) |
+| 918 | Dario | [PLAN:AXN-BUILD-C16] instrument cross-check (both directions) | QUEUED (needs keystroke) |
 | 916 | Dario | [PLAN:AXN-BUILD-C14] the spec acts | DONE (Q-823; LINE 6 = 2/3 BOOKED; the trace-class criterion born; 2 typed supplements) |
 | 914 | Codex 2 | [PLAN:AXN-BUILD-C12] 909+911 check | DONE (Q-820; both survive corrected; E4 adopted; spec acts named; record third BOOKED) |
 | 903 | Dario | [PLAN:AXN-BUILD-C1] S1 realization attempt | DONE (Q-809; skeleton derived; BLOCKED at the extension class; two routes sealed closed) |
