@@ -1,20 +1,20 @@
-# CONTINUATION STATE — updated 2026-08-10 (overnight campaign complete)
+# CONTINUATION STATE — updated 2026-08-10 (assembly phase; T10 stage 1 closed)
 
-REGISTER HEAD: Q-758. PLAN: V004 (status block current to Q-746; supersede at next daytime pass).
+REGISTER HEAD: Q-790. PLAN: V004 + change-log entries (assembly turn Q-778; slot-2 cutover; two-thread operating model).
 
-## WHERE THE BUILD STANDS
-The AXN build is SUPPLY-BOUND. Census 16 rows: 1 decided (H3) / 3 narrowed / 12 unmoved; round-2 delta 0/1/14 (Q-758). H1's two stops are EXACT CONTRACTS: SC4 = six-component preimage contract (record-native; classical function-space demand refuted Q-751; triple carrier-neutral per Q-755); SC5 = five-absence boundary contract (three roots A/D/E; Q-754/756). Frontier map Q-757: 11 obligations (2 FREEDOM / 8 ABSENCE / 1 conditional); arms parallel, H1 join conjunctive; N1 sole startable.
+## WHERE THE PROGRAM STANDS
+TWO STANDING THREADS, single join at slot 2 (uniqueness confirmed both ways, Q-783/785):
+- ACTION/ALPHA THREAD: the uniformity theorem stands (finite outright; covariance outright; family-invariant gauge census) with ONE gap — infinite-incidence AFFILIATION (item 14, narrowed; same supplier FAMILY as S4, distinct receivers per Q-784). The first assembly composed (two layers, U1 joint absent, H1 a conditional template; NF-1/NF-2 forced; NF-3 conditional; per-cell lambda_spin EXCLUDED — one shared value remains).
+- GRAVITY THREAD: T10 = STRUCTURAL-ADMISSIBLE settled both ways (Q-783/785); the derivation campaign staged (7 components, Q-786); STAGE 1 CLOSED (Q-787..790): boundary priced at the five known SC5 absences (four-role schematic produced, addressing obligation inherited); coupling priced at known gaps + THE THREE-G IDENTITY HAZARD (g_metric / G_2PI / G_conversion unlinked — every coincidence-style scoring must resolve the split first; PE-12 scoring rule amended) + the two-topology fork (K_stationarity / K_direct_mixed, needs Delta_Gamma or separability).
 
-## MORNING SEQUENCE (keystrokes in order)
-1. Type 855 -> Dario: partial-U3 placement (root D; fill law-side leg, display 4 stops, invent nothing).
-2. After 855 lands + registrar pass: type 856 -> Codex 2 (pre-queued; cross-check vs the map's N1 contract; will gate-stop if typed early).
-3. Then: supply events only (map's ten-event table). N2 gated on new sealed grounding; N3 complete-only.
+## THE FRONTIER (15 closed roots, Q-781/784)
+SC4-1/2/3/4/6; SC5-A/B/C/D/E; gravity/slot-2 (path mapped Q-783, exhibit amended Q-785); shared lambda_spin; K_R point; infinite-incidence affiliation (narrowed); calculus-U3 exhaustiveness. EVERYTHING STARTABLE HAS BEEN RUN AND CROSS-CHECKED. Movement = supply: record-native construction on the deep roots, or the principal's supply act at the named points (SC4-1/SC4-3; lambda_spin/K_R absent selectors).
+
+## PRINCIPAL STATE
+Release condition FROZEN; slot 18 by RULE; slot-2 discharge re-anchored; two-thread model logged. No open principal decisions on the path; supply act available, never yet used.
 
 ## PE STATE
-PE-12 (SC4 is gravity's seat) + addendum (double NOT-FORCED = the boundary in cross-section) + scoring rule (record-native coincidence; no shape-refusal, no christening). Test (i) scored SUPPORTED-IN-FORM at Q-751's display; decisive test (ii) = the BOX_gravity coincidence, awaiting an instrument that reaches that row. PE-1..12 pointer-only discipline holding in the lanes (847 refused to open PE-12's pointer).
+PE-13 scored supported (4 sites); PE-12 + scoring rules (record-native coincidence; three-G split precondition); PE-9 handshake note (T10 structural admissibility met at typing level); PE-8 exact-half pattern + uniform-PARTIAL diagnosis. Delta_Gamma = most-demanded object (3 demands), gated on the active functional.
 
-## PRINCIPAL ITEMS
-BOTH STANDING ITEMS CLOSED 2026-08-10 (Q-768): the release condition FROZEN as drafted (R2.4 unsevered); slot 18 resolved by frozen nomination RULE (record selects its own nominee at action-completion). Remaining principal surface: only the never-yet-used content-bearing supply act (Q-752/756) and any future amendment by decision-of-record.
-
-## OPEN PROCESS ITEMS
-852's counting convention needs an opposite-lane spot-check at the next Dario slot. A tenth search family (role-realization word family) recommended by 854 at no cost. I6: unreachable pending its post-regulator finite-F2 theorem — no receiver in stock.
+## PROCESS
+Laws 1-9b + closure-first-binding standard (869/882 lessons: declare the exact set FIRST). Substring artifacts are direction-neutral (883). Corrected rationales must travel (877). Relay head: 883. Lanes idle, stage-2 gated.

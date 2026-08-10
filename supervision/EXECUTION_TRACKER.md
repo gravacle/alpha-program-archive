@@ -708,7 +708,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 880 | Dario | [PLAN:AXN-BUILD-B8] C4 boundary attack | DONE (Q-787; five gaps fire as mapped; carrier diagram produced; no new debts) |
 | 881 | Codex 2 | [PLAN:AXN-BUILD-B9] C3 coupling attack | DONE (Q-788; six stops; three-G identity hazard; Delta_Gamma demanded 3x) |
 | 882 | Codex 2 | [PLAN:AXN-BUILD-B10] C4 cross-check | DONE (Q-789; gaps confirmed at frozen bytes; certificate + diagram corrected) |
-| 883 | Dario | [PLAN:AXN-BUILD-B11] C3 cross-check (identity hazard center) | QUEUED (needs keystroke) |
+| 883 | Dario | [PLAN:AXN-BUILD-B11] C3 cross-check | DONE (Q-790; hazard confirmed by the lane it indicts; STAGE 1 CLOSED both ways) |
 | PHASE | — | ASSEMBLY TURN opened by principal (Q-778); hunt phase closed at determinacy boundary | LOGGED |
 | 873 | Dario | [PLAN:AXN-BUILD-B1] the first assembly | DONE (Q-779; 2 layers, 3 new forcings, H1 POSED) |
 | 874 | Codex 2 | [PLAN:AXN-BUILD-B2] assembly cross-check; attack NF-3 | PRE-QUEUED (chains at 872 DONE) |
