@@ -690,7 +690,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 860 | Dario | [PLAN:AXN-BUILD-A27] U2SQ finite canonicity attack | DONE (Q-765; NONCANONICAL, control 1 unconditional; 857 routing conceded) |
 | 861 | Codex 2 | [PLAN:AXN-BUILD-A28] canonicity cross-check | DONE (Q-766; numbers confirmed; grading corrected — two-block census canonical at instance) |
 | 862 | Dario | [PLAN:AXN-BUILD-A29] grading verification | DONE (Q-767; SETTLED — two-block canonical at instance; law 9b born) |
-| 863 | Codex 2 | [PLAN:AXN-BUILD-A30] U2_sq consumer impact + splitter hunt | RUNNING (typed) |
+| 863 | Codex 2 | [PLAN:AXN-BUILD-A30] U2_sq consumer impact | DONE (Q-770; 3 sites eat the instance law now; generic U1 is the priority) |
 | 864 | Dario | [PLAN:AXN-BUILD-A31] four-field material census | DONE (Q-769; 4 gates named; law 9b dividend: Layer-P spec surfaced) |
 | 865 | Codex 2 | [PLAN:AXN-BUILD-A32] four-field cross-check + Layer-P typing | PRE-QUEUED (chains at 863 DONE) |
 | P | principal | release condition FROZEN; slot 18 nomination rule SEALED | DONE (Q-768) |
