@@ -856,6 +856,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1041 | Codex 2 | [PLAN:DESC-28] execution CHECK | DONE (Q-953; CORRECTED — sector identity at bytes; second delivery route found; both counts confirmed; READING DECISION RIPE) |
 | 1042 | Dario | [PLAN:DESC-29] SIX Q-92(c) ROWS | DONE (Q-954; 0/0/6 at three depths, ONE GATE = PhysicalSig_0's nine values; ceiling = disclaimer not bar; rows-1/2 deadlock flagged; prose-digest audit rule adopted; check = 1043) |
 | 1043 | Codex 2 | [PLAN:DESC-29] six-row CHECK | DONE (Q-955; ceiling DISCLAIMER-CONFIRMED; deadlock DISSOLVED-BY-PHASE-A; build order settled; the SELECTION is next) |
+| 1044 | Dario | fresh-session bootstrap V006 (pointer via clipboard after /clear) | QUEUED |
+| 1045 | Dario | [PLAN:DESC-30] THE SELECTION — nine fields, upstream-only, exactly-one standard; the forward hook scores the outcome | QUEUED (fresh session after 1044 boot) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
