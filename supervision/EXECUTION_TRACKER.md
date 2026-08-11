@@ -835,7 +835,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1016 | Codex 2 | [PLAN:DESC-20] demand V008 RERUN | DONE (Q-932; **DEMAND-MAP-CLOSED** — 3 raw/0 residue fresh set; survivors reaffirmed twice; 8 versions, 0 substance corrections) |
 | 1017 | Codex 2 | [PLAN:DESC-22] carriage manifest CHECK | DONE (Q-933; DISCHARGED — 17-anchor rederivation, no diff algorithm, identical spans/mask/remainder; tiling exact both files) |
 | 1018 | Codex 2 | [PLAN:DESC-21] member-12 SEMANTIC SWEEP | DONE (Q-934; V002-ORDERED — 26 surfaces: 10 covered, 16 need extension; read rule EXACT; Codex chain complete, lane idle) |
-| 1022 | Codex 2 | [PLAN:DESC-21] overlay V002 CONFIRM — 26 pins, carried blocks, rerun, tenth-family probe | IN PROGRESS (ACKed) |
+| 1022 | Codex 2 | [PLAN:DESC-21] overlay V002 CONFIRM | DONE (Q-936; OVERLAY-SUFFICIENT — 26/26, 0 new, tenth family NONE-FOUND; DOCUMENTARY TAIL CLOSED; only B03 remains) |
 | 1023 | Dario | fresh-session bootstrap V003 (paste as TEXT after /clear) — overlay V002 pin; 1020_DEFERRED handover embedded; directs to 1020 | QUEUED (paste after /clear) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
