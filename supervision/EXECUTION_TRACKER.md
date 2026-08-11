@@ -825,7 +825,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1006 | Dario | [PLAN:DESC-22] B01 V003 (four repairs) | QUEUED (behind 1005) |
 | 1007 | Dario | [PLAN:DESC-20] demand V007 — three-line residue sweep + closure member (Q-921 repairs) | QUEUED (behind 1006) |
 | 1008 | Dario | fresh-session bootstrap (post-/clear), then process 1005 | DONE (pasted; fresh session re-verified all seals from scratch; 1005 STARTED per 1005_ACK_V002) |
-| 1009 | Codex 2 | [PLAN:DESC-21] B02 EXPECTATION — commitment-first, frozen before the build is read (blind guard on B02 artifacts; Q-914 comparison plan included) | QUEUED (needs keystroke) |
+| 1009 | Codex 2 | [PLAN:DESC-21] B02 EXPECTATION — commitment-first, frozen before the build is read | DONE (Q-922; 10 components + 6 named gaps; 32/32 at-status; 19-23 mechanical; Q-914 plan binds: non-covered → sealed B01 act + full B02 restart) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
