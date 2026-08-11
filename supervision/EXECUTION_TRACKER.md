@@ -848,7 +848,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1033 | Dario | fresh-session bootstrap V004 (pointer via clipboard) | CONSUMED (fresh session booted clean; pointer protocol worked) |
 | 1034 | Dario | [PLAN:DESC-26] THE DERIVATION | DONE (Q-947; both legs MISSING-DATUM, independent — an unforced choice + an unentailed arrow; both typed AUTHOR-acts by the record; check = 1035) |
 | 1035 | Codex 2 | [PLAN:DESC-26] derivation CHECK | DONE (Q-948; STOPS-CONFIRMED — both hunts empty, independence both ways; PE-20 not-supported-at-depth; citation rule adopted; **THE CONVERSATION IS OPEN — no relay until the principal speaks**) |
-| 1036 | Codex 2 | [PLAN:DESC-27] COMMON-GROUND HUNT | IN PROGRESS (ACKed) |
+| 1036 | Codex 2 | [PLAN:DESC-27] COMMON-GROUND HUNT | DONE (Q-949; CONTROLLER-INSUFFICIENT — Gen_Omega is preparation-level; joint P0 UNBUILT; every road converges on one missing joint object) |
 | 1037 | Dario | [PLAN:DESC-27] IS THE ARROW A RECORD REQUIRE? — identification's provenance (instrument quote!) + SRF-native route via sealed i_src / proposed i_rec (principal's frame-check) | QUEUED (needs keystroke) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |

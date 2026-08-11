@@ -292,3 +292,5 @@ entails the other, or that a single source-specification object discharges both 
 SUPPORTED outright. Weight zero; pointer-only; the lane running 1035 stays blind to this entry.
 
 ### PE-20 SCORING (2026-08-11, at 1035): NOT-SUPPORTED-AT-RECORD-DEPTH, per the entry's own staging. Independence confirmed in both directions at the record's current depth — the completion does not create the arrow, the arrow does not force the presentation. The expectation stays LIVE at the next depth: a future source-specification object that discharges both loci at once would score it supported outright, and nothing found today forecloses that.
+
+### PE-20 SECOND SCORING (2026-08-11, at 1036): the controller EXISTS (Gen_Omega, preparation-level) and is INSUFFICIENT — it discharges neither leg at its scope. The expectation is again not supported at the accessible depth, but the hunt LOCATED where a sufficient controller would live: the joint P0 source object, which the record types as unbuilt — the same absent joint construction the demand names as L3. The hypothesis and the obstruction have merged into one object seen from two sides.
