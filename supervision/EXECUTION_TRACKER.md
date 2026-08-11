@@ -777,7 +777,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 964 | Codex 2 | [PLAN:AXN-BUILD-C63] cross-check the eight | DONE (Q-876; re-typing ruled WRONG; OPEN CONFLICT; registrar adjudication) |
 | ADJUDICATE | registrar | Q-877: both lanes read real bytes; V003 repair incomplete by one summary row; selector stays dissolved conditional on V004 | SEALED |
 | 965 | Codex 2 | [PLAN:AXN-BUILD-C64] instrument V004 | DONE (Q-879; row aligned; sole stale row; approval blank) |
-| 968 | Dario | [PLAN:AXN-BUILD-D67] cross-check instrument V004 | QUEUED (needs keystroke) |
+| 968 | Dario | [PLAN:AXN-BUILD-D67] cross-check instrument V004 | DONE (Q-880; READY; concrete harm named; sweep replayed) |
 | 966 | Dario | [PLAN:AXN-BUILD-D65] families V003 | DONE (Q-878; 8/8 jointly total + 2 certs; lemmas displayed) |
 | 967 | Codex 2 | [PLAN:AXN-BUILD-C66] cross-check families V003 | RUNNING (chained; ACK seen) |
 
