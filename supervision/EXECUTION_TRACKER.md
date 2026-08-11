@@ -823,11 +823,12 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1001 | Dario | [PLAN:DESC-17] B01 V002 | DONE (Q-918; 32 rows; nothing promoted; disclaimer into the stop) |
 | 1003 | Codex 2 | [PLAN:DESC-19] spot-confirm B01 V002 | DONE (Q-920; confirmed; 4 documentary repairs; input-custody catch) |
 | 1006 | Dario | [PLAN:DESC-22] B01 V003 (four repairs) | DONE (Q-924; 4/4 applied; input warranted not just pinned; span-convention risk self-named; CLAIMED until 1011) |
-| 1007 | Dario | [PLAN:DESC-20] demand V007 — three-line residue sweep + closure member (Q-921 repairs) | IN PROGRESS (chained pickup after 1006) |
+| 1007 | Dario | [PLAN:DESC-20] demand V007 — three-line residue sweep + closure member (Q-921 repairs) | DONE (Q-925; swept at confirm's loci; substance byte-identical, registrar-reproduced; §8 candidate self-named; gate = 1012) |
 | 1008 | Dario | fresh-session bootstrap (post-/clear), then process 1005 | DONE (pasted; fresh session re-verified all seals from scratch; 1005 STARTED per 1005_ACK_V002) |
 | 1009 | Codex 2 | [PLAN:DESC-21] B02 EXPECTATION — commitment-first, frozen before the build is read | DONE (Q-922; 10 components + 6 named gaps; 32/32 at-status; 19-23 mechanical; Q-914 plan binds: non-covered → sealed B01 act + full B02 restart) |
 | 1010 | Codex 2 | [PLAN:DESC-21] B02 CHECK against the frozen expectation (stop-form conformance; Params_B0 adjudication; Q-914 run; member-12 header; residue own-patterns; Stop-2 reach) | QUEUED (needs keystroke) |
 | 1011 | Codex 2 | [PLAN:DESC-22] B01 V003 CONFIRM (four repairs; warrant claim; span convention; remainder recompute) | QUEUED (chains behind 1010) |
+| 1012 | Codex 2 | [PLAN:DESC-20] demand V007 GATE — fresh-pattern residue re-run; §8 ruling; closes-at-V007 or V008-ordered | QUEUED (chains behind 1011) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
