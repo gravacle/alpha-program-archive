@@ -767,7 +767,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 952 | Dario | [PLAN:AXN-BUILD-D51] cross-check instance V003 | DONE (Q-862; BOOKS-AS-SCOPED; suite stop REAL; governance to principal) |
 | GOVERN | principal | RUN-THEN-REPAIR ruled: gauntlet under adopted terms first; open repair after | SEALED (Q-863) |
 | 954 | Codex 2 | [PLAN:AXN-BUILD-C53] THE GAUNTLET RUN 2 | DONE (Q-865; REJECTED at G0, schema's failure, as forecast) |
-| 956 | Codex 2 | [PLAN:AXN-BUILD-C55] instrument V003 (one-clause open repair) | QUEUED (behind 955) |
+| 956 | Codex 2 | [PLAN:AXN-BUILD-C55] instrument V003 | DONE (Q-867; one clause; guards verbatim; approval BLANK) |
+| 958 | Dario | [PLAN:AXN-BUILD-D57] cross-check instrument V003 | QUEUED (behind 957) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
@@ -778,7 +779,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 951 | Codex 2 | [PLAN:AXN-BUILD-C50] cross-check 949 | DONE (Q-861; CONSTITUTION FORCED; domain corrected; fails-as-stated) |
 | 953 | Dario | [PLAN:AXN-BUILD-D52] SD-N V002 | DONE (Q-864; 9/9; binding zero-freedom; step-6 measure argument supplied) |
 | 955 | Codex 2 | [PLAN:AXN-BUILD-C54] confirm SD-N V002 | DONE (Q-866; mathematics confirmed whole; 3 clerical fixes -> 957) |
-| 957 | Dario | [PLAN:AXN-BUILD-D56] SD-N V003 certificate-only | QUEUED (needs keystroke) |
+| 957 | Dario | [PLAN:AXN-BUILD-D56] SD-N V003 certificate-only | RUNNING (typed) |
 | NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
 | 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |
