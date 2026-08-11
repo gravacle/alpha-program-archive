@@ -837,8 +837,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1018 | Codex 2 | [PLAN:DESC-21] member-12 SEMANTIC SWEEP | DONE (Q-934; V002-ORDERED — 26 surfaces: 10 covered, 16 need extension; read rule EXACT; Codex chain complete, lane idle) |
 | 1022 | Codex 2 | [PLAN:DESC-21] overlay V002 CONFIRM | DONE (Q-936; OVERLAY-SUFFICIENT — 26/26, 0 new, tenth family NONE-FOUND; DOCUMENTARY TAIL CLOSED; only B03 remains) |
 | 1023 | Dario | fresh-session bootstrap V003 | CONSUMED (chat copy corrupted; lane self-recovered by reading the sealed on-disk file as governing — the correct recovery) |
-| 1024 | Codex 2 | [PLAN:DESC-23] B03 CHECK — attack the stop | IN PROGRESS (ACKed) |
-| 1025 | Dario | [PLAN:DESC-24] DIAGNOSIS ARM A — the gauge question (dependency ledger over every StatePort consumer) + provenance of the C18/C19 codomain bar | QUEUED (needs keystroke) |
+| 1024 | Codex 2 | [PLAN:DESC-23] B03 CHECK — attack the stop | DONE (Q-938; STOP-CONFIRMED, 0 overturns of 38, 288-window boundary probe empty; 4 documentary narrowings → B03 V002 later) |
+| 1025 | Dario | [PLAN:DESC-24] DIAGNOSIS ARM A — gauge ledger + bar provenance (scores PE-18) | IN PROGRESS |
+| 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt: framing/carrier/would-build provenance + settled-questions sweep | QUEUED (needs keystroke) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
 | 1020 | Dario | [PLAN:DESC-23] B03 — the selector | DONE (Q-937; STOP: SELECTOR-UNFROZEN — record refutes forcing at bytes; 2 continuum proofs; 38 constraints, 0 collapse; P named-absent, precedent = principal act; check = 1024) |
