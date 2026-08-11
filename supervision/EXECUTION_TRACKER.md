@@ -813,9 +813,11 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 995 | Dario | [PLAN:DESC-11] demand V004 | DONE (Q-912; 4/4 one pass; cause found; build sealed as evidence) |
 | 996 | Codex 2 | [PLAN:DESC-12] confirm V004 | DONE (Q-913; build doesn't reproduce; diff-triples REMOVED from standard) |
 | 998 | Dario | [PLAN:DESC-14] demand V005 | DONE (Q-915; class removed; fault owned; lesson banked) |
-| 1000 | Codex 2 | [PLAN:DESC-16] confirm V005 — close the demand map | QUEUED (behind 999) |
+
 | 997 | Dario | [PLAN:DESC-13] BUILD B01 | DONE (Q-914; inventory built; exhaustive = signature-relative -> B02 obligation) |
-| 999 | Codex 2 | [PLAN:DESC-15] cross-check B01 (spine exclusion pressed) | QUEUED (needs keystroke) |
+| 999 | Codex 2 | [PLAN:DESC-15] cross-check B01 | DONE (Q-916; 6 rows confirm; spine ADMITS; inventory = 32) |
+| 1000 | Codex 2 | [PLAN:DESC-16] confirm V005 — close the demand map | RUNNING (chained; ACK seen) |
+| 1001 | Dario | [PLAN:DESC-17] B01 V002 (the 32-row inventory) | QUEUED (needs keystroke) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
