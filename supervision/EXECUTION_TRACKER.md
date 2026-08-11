@@ -795,7 +795,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 978 | Dario | [PLAN:AXN-BUILD-D77] K4 provenance | DONE (Q-894; FORCED-BY the law side; charge sides with survival; challenge N-A) |
 | 980 | Codex 2 | [PLAN:AXN-BUILD-C79] cross-check 978 | DONE (Q-895; FORCED-CONFIRMED; authorial testimony on record) |
 | 981 | Dario | [PLAN:AXN-BUILD-D80] H-OTHER feasibility | DONE (Q-896; IMPOSSIBLE — closed-form; fork A EMPTY; horns theorem) |
-| 982 | Codex 2 | [PLAN:AXN-BUILD-C81] cross-check 981 (marginal ID first) | QUEUED (needs keystroke, morning) |
+| 982 | Codex 2 | [PLAN:AXN-BUILD-C81] cross-check 981 | DONE (Q-897; CONFIRMED; joint emptiness both-lane; 2 scope precisions) |
+| 983 | Dario | [PLAN:AXN-BUILD-D82] induction-pinning provenance (the last PE-15 thread) | QUEUED (needs keystroke) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
