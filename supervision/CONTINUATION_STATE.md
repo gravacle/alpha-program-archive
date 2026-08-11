@@ -58,3 +58,7 @@ cross-checks both hit their blocked-guards (one a mirror race, one pre-mirror) a
 MORNING KEYSTROKES: type 987 into Codex and 988 into Dario (both subjects now mirrored and in place).
 Then: the section's working presentation — the 15-item basis vs the 18+1 demand — and the omega_phys
 selector freeze preparation go to the principal.
+
+## STANDING DIRECTIVE (2026-08-11): PE-17 — if B03 stops, DIAGNOSE before routing; the stop comes to
+Brian as a conversation with the diagnosis displayed, never as a bare freeze. The prior: at this
+depth a non-forcing is presumed our error, not new physics (four-for-four this cycle).

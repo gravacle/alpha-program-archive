@@ -215,3 +215,20 @@ not one parameter but the ledger's initial weighting, descended with certificate
 at each descent-map construction, record whether its ground objects are gravitational-layer objects;
 a map that cannot be stated through the gravitational construction is a finding against the frame
 (displayed, not smoothed). Weight zero; pointer-only; building lanes stay blind to this entry.
+
+## PE-17 — THE NO-NEW-PHYSICS PRIOR AT THE B03 GATE (sealed 2026-08-11; principal, verbatim: "If gravity doesn't force we should talk about it. There may be something wrong. We shouldn't be finding entirely new physics at this stage of the game.")
+
+THE EXPECTATION AND THE STANDING PROTOCOL: if the record-native derivation of omega_phys (basis row
+B03) STOPS — if gravity appears not to force the initial weighting — the presumption is a
+CONSTRUCTION DEFECT, not a discovery. Empirical ground: four consecutive apparent-freedoms this cycle
+(the stage rule; the basis selector; K4's provenance; the restriction pinning) each resolved as a
+misreading or misconstruction on our side, none as new physics. THE PROTOCOL, binding on the
+registrar and lanes: (1) a B03 stop is NEVER routed directly as a selector freeze; (2) it triggers a
+DIAGNOSIS PASS first — both lanes hunting the error that would explain the stop (a missed sealed
+ground, a wrong carrier, a mis-built upstream map, a query-shape miss — the F_cyl class), with the
+Q-898 reading rule and the four-mode hunts at full strength; (3) only a stop that SURVIVES diagnosis
+comes to the principal, and it comes as a CONVERSATION with the diagnosis displayed — what was hunted,
+what was excluded, why the freedom now looks genuine — never as a bare freeze request. TEST
+(scorable): every B03-adjacent stop carries its diagnosis pass of record; a routed freeze without one
+is a protocol violation. Weight zero; pointer-only; lanes stay blind to this entry (the protocol
+reaches them through relay pastes, not the ledger).
