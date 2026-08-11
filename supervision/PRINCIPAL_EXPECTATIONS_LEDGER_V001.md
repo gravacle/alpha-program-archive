@@ -328,3 +328,26 @@ derivation depth, THEY ARE THE BOUNDARY DATA OF PE-18's READING — the planet's
 located and counted — and the scoring so registers, with any eventual principal supply carrying the
 full convertibility structure (falsifier, open forcing slot, battery overdetermination). Either
 terminal outcome must be stated against this hook by name in its register entry.
+
+
+## PE-22 — MACHINERY IS NOT THE SURFACE (sealed 2026-08-11, BEFORE the 1048 check returns; principal, verbatim: "Let's make sure that we're not continuing to focus on machinery in place of the actual surface.")
+
+THE EXPECTATION: the recent derivation attempts have run against the program's own bookkeeping
+apparatus — signature schemas, freeze inputs, port contracts — and the monotonicity result is a
+theorem about THAT apparatus's constraint language, not about the record surface. The evidence
+split is already on the books: every FORCED result of this cycle came from the surface (TASK2D's
+sector identity; d_state as the preparation channel's fixed point; res_B exactness; the two forced
+marginals), and every UNFORCED gap sits in the machinery layer. Forms constrain; physics writes.
+THEREFORE: the next derivation attempt should run SURFACE-FIRST — construct the microscopic source
+object directly from the gravitational layer's sealed physics (the record action on causal cells,
+Gen_Omega's channel family and descent maps, TASK2D's forced structures), upstream-only, and read
+off the signature the constructed object EXHIBITS, with the nine-field form demoted to a post-hoc
+typing checklist. The machinery results are not waste: floor + census + monotonicity are the proof
+that form-first is exhausted, which licenses surface-first (PE-16's frame demanding its turn).
+TEST (scorable at the surface-first relay): a surface construction that exhibits entries for fields
+the form could not pin scores SUPPORTED (and each exhibited entry is a forced result, not a
+selection); a surface construction that stops at the same monotone wall scores NOT SUPPORTED (the
+wall is then record-level, not machinery-level, and the boundary conversation proceeds on today's
+terms); a stop naming a missing SURFACE object scores PARTIAL (the true boundary datum moves one
+level down, again). Weight zero; pointer-only; the lane running the attempt stays blind to this
+entry.
