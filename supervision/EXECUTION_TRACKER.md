@@ -832,9 +832,11 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1013 | Dario | [PLAN:DESC-20] demand V008 — the gate's one line | DONE (Q-929; locus by digest; word-for-word; substance identical 4th version; self-caught fresh hit reworded; rerun = 1016) |
 | 1014 | Dario | [PLAN:DESC-22] B01 carriage delta manifest + regenerated remainder | DONE (Q-930; 15 spans content-addressed; remainder matches Codex's 13,934 B byte-for-byte; V003 claim superseded; invariance check = 1017) |
 | 1015 | Dario | [PLAN:DESC-21] member-12 header overlay record (byte-untouched) | DONE (Q-931; edit BARRED not just unneeded; 10/10 token pins; semantic sweep = 1018; Dario repair chain complete, lane idle) |
-| 1016 | Codex 2 | [PLAN:DESC-20] demand V008 RERUN — fresh patterns; survivor re-examination; DEMAND-MAP-CLOSED on the table | QUEUED (needs keystroke) |
+| 1016 | Codex 2 | [PLAN:DESC-20] demand V008 RERUN — fresh patterns; survivor re-examination; DEMAND-MAP-CLOSED on the table | IN PROGRESS (ACKed) |
 | 1017 | Codex 2 | [PLAN:DESC-22] carriage manifest CHECK — heading-anchored span re-derivation; invariant or alignment-dependent | QUEUED (chains behind 1016) |
 | 1018 | Codex 2 | [PLAN:DESC-21] member-12 SEMANTIC SWEEP — stale status claims by property, not token | QUEUED (chains behind 1017) |
+| 1019 | Dario | fresh-session bootstrap V002 (paste as TEXT after /clear) | STAGED (held until the 1016-1018 checks land) |
+| 1020 | Dario | [PLAN:DESC-23] B03 — the selector: record-native derivation of omega_phys, or STOP with diagnosis display; choosing expressly not delegated; PE-17 embedded | STAGED (held until the 1016-1018 checks land; runs in the FRESH session) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
