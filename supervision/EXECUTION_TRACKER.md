@@ -774,7 +774,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 961 | Dario | [PLAN:AXN-BUILD-D60] the eight families | DONE (Q-873; 5/8 built; 3 stops = ONE basis selector) |
 | 962 | Codex 2 | [PLAN:AXN-BUILD-C61] cross-check families | DONE (Q-874; receiver drift fails 5/5; selector confirmed; re-typing opens) |
 | 963 | Dario | [PLAN:AXN-BUILD-D62] families V002 | DONE (Q-875; 8/8; SELECTOR DISSOLVED by re-typing; PE-15 first score: strong) |
-| 964 | Codex 2 | [PLAN:AXN-BUILD-C63] cross-check the eight (re-typing first) | QUEUED (needs keystroke) |
+| 964 | Codex 2 | [PLAN:AXN-BUILD-C63] cross-check the eight | DONE (Q-876; re-typing ruled WRONG; OPEN CONFLICT; registrar adjudication) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
