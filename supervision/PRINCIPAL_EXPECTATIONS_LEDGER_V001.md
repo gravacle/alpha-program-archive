@@ -204,3 +204,14 @@ TEST (scorable): at each downstream consumer of the adopted act, adjudicate the 
 THE EXPECTATION: every traditional-physics structure entering the program at the record level (slicings, ordered bases, Haar measures, tensor conventions, matrix presentations, CPTP framings) must arrive by exactly one of three doors: PRICED (an authored entry with its where-X declaration and disclosure), GATED (certificate-checked downstream so wrongness surfaces as failure, never silently), or CHALLENGED (the demand itself re-typed when the record refuses the convention — the refusals-are-the-law reading of PE-13 applied to SCHEMA DEMANDS, not just objects). A conventional structure that enters by none of the three doors is a finding. Corollary already live: the certificate suite's ordered-basis demand is under challenge (963's re-typing attempt) BEFORE any basis freeze is presented, because the record has refused to name a basis three independent ways while FC-07 proved the obligations can sometimes be stated basis-free.
 
 TEST (scorable): at each conventional import of record, classify its door. PRICED and GATED score supported; CHALLENGED-AND-DISSOLVED scores strongly supported (the record's own structure replaced the convention); an import with NO door is a genuine finding, displayed. The minimal-authorship recommendation heuristic carries a known bias toward conventional routes (cheap to author BECAUSE conventional); its outputs are all certificate-gated and supersession-covered, which is the mitigation of record. Weight zero; pointer-only; adjudicating lanes stay blind to this entry.
+
+## PE-16 — THE DESCENT FACTORS THROUGH GRAVITY (noted 2026-08-11; principal: "the root of the allow/require boundary seems that we ask gravity this question")
+
+THE EXPECTATION: the common construction the descent descends from IS the gravitational layer (the
+record action on causal cells), so the four descent maps and the frozen trace should FACTOR THROUGH
+the gravitational objects — the cell structure, the slicing (the booked SD-N entry), the write
+geometry, the boundary structure. The slot-2 handshake's content, made literal: gravity hands alpha
+not one parameter but the ledger's initial weighting, descended with certificates. TEST (scorable):
+at each descent-map construction, record whether its ground objects are gravitational-layer objects;
+a map that cannot be stated through the gravitational construction is a finding against the frame
+(displayed, not smoothed). Weight zero; pointer-only; building lanes stay blind to this entry.
