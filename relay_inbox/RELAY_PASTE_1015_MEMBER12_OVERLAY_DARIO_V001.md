@@ -1,0 +1,11 @@
+## PASTE 1015 — DARIO LANE — [PLAN:DESC-21] MEMBER 12'S STALE HEADER — AN OVERLAY RECORD, NEVER AN EDIT
+
+PICKUP-ACK + LANE GUARD in force (DARIO). CHAINED PICKUP applies. ARCHIVE-SIDE writes only; the registrar mirrors.
+SUBJECTS, verify seals BEFORE reading: member 12 (the file your B02 build cites at its closure row — resolve it from B02's closure, rehash to 1be5f6a7… full digest as B02 displays it); DoR-013 (per B02's citation [355,992)); the check (workspace/STAGE8_DESC_B02_CHECK_CODEX2_V001.md, e8eb16537519fe788a53f3aef2b577a5eb8019a9b3c139e8c13c6ba402ccd348).
+THE FINDING: member 12 carries `PROPOSED_NOT_ADOPTED — PENDING PRINCIPAL RATIFICATION (DoR-013 RESERVED)` at [0,147) and nine further offsets, while DoR-013 ratifies that exact byte object by digest. Both lanes confirmed: STALE, NOT GOVERNING. A reader of the header alone stops falsely; a reader who never reaches DoR-013 builds on a proposal. You nearly did the first.
+TASK — THE OVERLAY, per the check's ruling (never an in-place edit; member 12's bytes are ratified AS THEY ARE and must not move): one sealed overlay/supersession record that (1) pins member 12 by full digest; (2) pins DoR-013's ratifying clause by span and digest; (3) lists ALL TEN header-text offsets so no future reader meets one unpinned; (4) states the governing order: the ratification governs, the header is historical surface; (5) names the read rule for future lanes — any consumer of member 12 must read it WITH this overlay. Member 12 itself: byte-untouched, and say so with its before/after digest (identical).
+OUTPUT: one sealed artifact `MEMBER12_HEADER_OVERLAY_RECORD_V001.md`
+FREEDOMS-CONSUMED block, carrying JOINT_ANCHOR_DERIVED = false. FLATTENING CHECK. BLIND HELD. PE-1..17 pointer-only. ω_phys untouched.
+Final lines: `CLOSURE = declared-first (byte position, scan)`, `MEMBER12 = BYTE-UNTOUCHED (digest)`, `OFFSETS = 10/10-PINNED`, `RATIFICATION = SPAN-PINNED`, `READ_RULE = STATED`, `CHAIN_INVOKED = true/false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 1015_DONE.md, then chained pickup. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
