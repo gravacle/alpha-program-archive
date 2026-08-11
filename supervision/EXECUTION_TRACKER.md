@@ -847,7 +847,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1032 | Codex 2 | [PLAN:DESC-24] audit V003 — census repair | DONE (Q-946; M4 admitted; guard installed; 9 consumer obligations named; Codex idle) |
 | 1033 | Dario | fresh-session bootstrap V004 (pointer via clipboard) | CONSUMED (fresh session booted clean; pointer protocol worked) |
 | 1034 | Dario | [PLAN:DESC-26] THE DERIVATION | DONE (Q-947; both legs MISSING-DATUM, independent — an unforced choice + an unentailed arrow; both typed AUTHOR-acts by the record; check = 1035) |
-| 1035 | Codex 2 | [PLAN:DESC-26] derivation CHECK — hunt the theorem, hunt the arrow; independence; author-act typing quoted; numbering rule | QUEUED (needs keystroke) |
+| 1035 | Codex 2 | [PLAN:DESC-26] derivation CHECK | DONE (Q-948; STOPS-CONFIRMED — both hunts empty, independence both ways; PE-20 not-supported-at-depth; citation rule adopted; **THE CONVERSATION IS OPEN — no relay until the principal speaks**) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |

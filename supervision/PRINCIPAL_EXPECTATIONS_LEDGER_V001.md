@@ -290,3 +290,5 @@ only (absence of a coupling in the current record does not refute a controller t
 articulated — the expectation stays live at the next depth); (b) any later finding that one supply
 entails the other, or that a single source-specification object discharges both loci, scores
 SUPPORTED outright. Weight zero; pointer-only; the lane running 1035 stays blind to this entry.
+
+### PE-20 SCORING (2026-08-11, at 1035): NOT-SUPPORTED-AT-RECORD-DEPTH, per the entry's own staging. Independence confirmed in both directions at the record's current depth — the completion does not create the arrow, the arrow does not force the presentation. The expectation stays LIVE at the next depth: a future source-specification object that discharges both loci at once would score it supported outright, and nothing found today forecloses that.
