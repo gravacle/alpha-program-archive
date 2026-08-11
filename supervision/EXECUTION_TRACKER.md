@@ -836,10 +836,11 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1017 | Codex 2 | [PLAN:DESC-22] carriage manifest CHECK | DONE (Q-933; DISCHARGED — 17-anchor rederivation, no diff algorithm, identical spans/mask/remainder; tiling exact both files) |
 | 1018 | Codex 2 | [PLAN:DESC-21] member-12 SEMANTIC SWEEP | DONE (Q-934; V002-ORDERED — 26 surfaces: 10 covered, 16 need extension; read rule EXACT; Codex chain complete, lane idle) |
 | 1022 | Codex 2 | [PLAN:DESC-21] overlay V002 CONFIRM | DONE (Q-936; OVERLAY-SUFFICIENT — 26/26, 0 new, tenth family NONE-FOUND; DOCUMENTARY TAIL CLOSED; only B03 remains) |
-| 1023 | Dario | fresh-session bootstrap V003 (paste as TEXT after /clear) — overlay V002 pin; 1020_DEFERRED handover embedded; directs to 1020 | QUEUED (paste after /clear) |
+| 1023 | Dario | fresh-session bootstrap V003 | CONSUMED (chat copy corrupted; lane self-recovered by reading the sealed on-disk file as governing — the correct recovery) |
+| 1024 | Codex 2 | [PLAN:DESC-23] B03 CHECK — attack the stop: 2 proofs, 38-row ledger, C34 three legs, C18/C19 bar, P quoted, boundary probe | QUEUED (needs keystroke) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
-| 1020 | Dario | [PLAN:DESC-23] B03 — the selector | DEFERRED by Dario (context; nothing written, output clear; handover: continuum-hunt instrument finding + verified span pins) — re-run via 1023 boot in FRESH session |
+| 1020 | Dario | [PLAN:DESC-23] B03 — the selector | DONE (Q-937; STOP: SELECTOR-UNFROZEN — record refutes forcing at bytes; 2 continuum proofs; 38 constraints, 0 collapse; P named-absent, precedent = principal act; check = 1024) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
