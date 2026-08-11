@@ -253,3 +253,5 @@ and the freedom dissolves as gauge (the best-case exit: nothing physical was eve
 side of the boundary). Either outcome leaves PE-17's protocol intact: no freeze without the diagnosis
 displayed and the conversation held. Weight zero; pointer-only; the lane running Arm A stays blind to
 this entry.
+
+### PE-18 SCORING (2026-08-11, Arm A of record, CLAIMED pending 1028): SUPPORTED — LOAD-BEARING AT DECLARED CONSUMPTION. Eleven of nineteen consumers name the state in their declared content; the Hilbert space itself varies with the choice; K7 refuses the choice-independent route in terms. Bounded honestly: the instrument refutes gauge, cannot confirm it. Refinement from Arm B (Q-939): the boundary DATUM is the record's own smaller demand — the positive normalized pre-state with common-origin delivery — and the record forces exactly one such object on the source carrier; whether the record thereby satisfies its own boundary is the 1029 question.

@@ -838,7 +838,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1022 | Codex 2 | [PLAN:DESC-21] overlay V002 CONFIRM | DONE (Q-936; OVERLAY-SUFFICIENT — 26/26, 0 new, tenth family NONE-FOUND; DOCUMENTARY TAIL CLOSED; only B03 remains) |
 | 1023 | Dario | fresh-session bootstrap V003 | CONSUMED (chat copy corrupted; lane self-recovered by reading the sealed on-disk file as governing — the correct recovery) |
 | 1024 | Codex 2 | [PLAN:DESC-23] B03 CHECK — attack the stop | DONE (Q-938; STOP-CONFIRMED, 0 overturns of 38, 288-window boundary probe empty; 4 documentary narrowings → B03 V002 later) |
-| 1025 | Dario | [PLAN:DESC-24] DIAGNOSIS ARM A — gauge ledger + bar provenance (scores PE-18) | IN PROGRESS |
+| 1025 | Dario | [PLAN:DESC-24] DIAGNOSIS ARM A | DONE (Q-940; NOT GAUGE — 11/19 consume the state, prefix only choice-free; bar RECORD-FORCED as entailment; PE-18 scores SUPPORTED; B07 open → 1028) |
+| 1027 | Dario | [PLAN:DESC-24] cross-check Arm B (framing/carrier/would-build at spans; Q-212/223 consumed; arms-consistency ruling) | QUEUED (needs keystroke; 1029 chains behind, GUARDED on CONFIRMS/CORRECTED) |
+| 1028 | Codex 2 | [PLAN:DESC-24] cross-check Arm A (19-row ledger; bar entailment attack; B07 settled; asymmetry bound) | QUEUED (needs keystroke) |
+| 1029 | Dario | [PLAN:DESC-25] B03 V002 — port reframed to the record's own demand; does the forced d_state object satisfy it? | QUEUED (chains behind 1027, guarded) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |

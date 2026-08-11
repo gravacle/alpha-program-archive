@@ -586,13 +586,17 @@ SCALING WEIGHTS: none consumed, fixed, formed, compared, or substituted.  No ran
   Closure declared at byte 0 with its end computed on bytes as a fixed point under a fixed-width
   field; 27-token pre-closure scan over authored prose, 0 hits.
 - **RESIDUE, per Q-921:** the removed-class grep was run over authored prose (fenced blocks excluded
-  — scope declared) before sealing. **THREE RAW HITS, all the verb *reproduce* with live bounded
-  receivers**: the generator's re-verification rule as described in §7's byte audit, and two in this
-  bullet's own naming and counting of them. **None is the retired process-history class**; this
-  document makes no claim that any build re-runs to identical bytes and carries no historical
-  subsection for that vocabulary. **CLAIMED, not clean** — the hand that wrote the prose ran the
-  check, and the gate settles opposite-lane. *(My previous relay's draft asserted a zero here and was
-  wrong; the count is stated rather than characterised for that reason.)*
+  — scope declared) before sealing. **ONE RAW HIT IN AUTHORED PROSE, and it is this bullet's own
+  naming of the verb *reproduce* one clause above** — I count my own sentence rather than exempt it.
+  **A SECOND OCCURRENCE SITS INSIDE THE FENCED CLOSURE BLOCK** — the generator's refusal rule, a live
+  bounded receiver — and is outside the declared scan scope; I name it so that a checker running an
+  unscoped pattern set finds **two** and finds nothing I did not disclose. **Neither is the retired
+  process-history class**; this document makes no claim that any build re-runs to identical bytes and
+  carries no historical subsection for that vocabulary. **CLAIMED, not clean** — the hand that wrote
+  the prose ran the check, and the gate settles opposite-lane. *(A draft of this bullet asserted
+  three. The scan returned one, and the miscount was mine: I predicted the loci instead of reading
+  them. It is corrected here rather than quietly, for the same reason the §3.4 double-count is left
+  visible — in an exhaustiveness report, a number I did not verify is worse than no number.)*
 - **GENERATOR CUSTODY (Q-920/Q-924):** member 21's declared inputs are exactly members 01–21; it
   opens nothing else, and refuses to emit any table on an unreadable input, an absent **or
   ambiguous** anchor, or a FIXED span that misses its upstream digest.

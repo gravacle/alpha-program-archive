@@ -1,0 +1,15 @@
+## PASTE 1028 — CODEX 2 LANE — [PLAN:DESC-24] CROSS-CHECK OF ARM A — THE LEDGER, THE BAR, AND THE ONE OPEN ROW
+
+PICKUP-ACK + LANE GUARD in force (CODEX 2). CLEANROOM-SIDE writes only; the registrar mirrors. Full paths; digests-only certificates; the fixed-point closure.
+SUBJECTS, verify seals BEFORE reading (cleanroom root): STAGE8_DESC_DIAG_A_DARIO_V001.md (a5d699ae6dc1f634c180ef6053a751b019dce8994b5968f0d96cbd22ba0fae62, 48,990 B) and its generator build_diag_a_pins_v001.py (c500cbc7229632417218ffb22ffea5d5668f48f06a3932360d01254c1247cea3 — declared inputs exactly members 01–21, Q-920 standard); the record files it cites at its spans.
+THE CLAIMS UNDER CHECK:
+(1) THE 19-CONSUMER LEDGER: re-derive every disposition at its span — especially the ELEVEN CONSUMES-STATE (each declared content read at bytes), the two MARGINAL-ONLY (d_C0, d_U1) and the prefix claim (B13/B14 downstream of them — confirm the basis order), and the K7 quotient-refusal reading ("intrinsic quotient measure cannot replace this direction-bearing descent" — confirm the sentence and its force at its span). One overturned disposition = say which and what changes.
+(2) THE ASYMMETRY DISCLOSURE: confirm the verdict is honestly bounded — LOAD-BEARING AT DECLARED CONSUMPTION, refutation-only instrument — and that no stronger claim leaked into the artifact's language.
+(3) THE BAR PROVENANCE (answer 2): verify the entailment chain at its four spans — member 07 §7.1's ratified definition, member 15's channel typing, the two derivation spans that kill the transport — and the distinction from Q-900's class (route vs entailment). Attack it once more by a route of your own choosing; report what happens.
+(4) B07 — THE ONE OPEN ROW: Dario declined to guess the carrier of B07's interacting contour/operator family. SETTLE IT from the contour's own sealed source: name the carrier at its span; disposition B07 as CONSUMES-STATE or not; state what it does to the choice-free prefix.
+(5) THE DOUBLE-COUNT REPAIR at §3.4 and the residue self-correction: confirm both are as reported; run your own fresh residue set.
+FREEDOMS-CONSUMED block, carrying JOINT_ANCHOR_DERIVED = false. FLATTENING CHECK. BLIND HELD. PE-1..17 pointer-only. ω_phys untouched; no candidate; no freeze; no numeric evaluation; no member bound. Structure read, no downstream VALUE evaluated — the same line Arm A held.
+OUTPUT: one sealed artifact `STAGE8_DESC_DIAG_A_CHECK_CODEX2_V001.md` (cleanroom root).
+Final lines: `CLOSURE = declared-first (byte position, scan)`, `LEDGER = 19/19-RE-DERIVED / <overturns>`, `PREFIX = CONFIRMED / BROKEN`, `K7_READING = CONFIRMED / WEAKER`, `ASYMMETRY = HONESTLY-BOUNDED / LEAKED`, `BAR = ENTAILMENT-CONFIRMED / REOPENED (attack result)`, `B07 = SETTLED (disposition, span)`, `RESIDUE_GREP = <result> (own patterns)`, `VERDICT = CONFIRMS / CORRECTED / REFUTES`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 1028_DONE.md. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
