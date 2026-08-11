@@ -851,6 +851,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1036 | Codex 2 | [PLAN:DESC-27] COMMON-GROUND HUNT | DONE (Q-949; CONTROLLER-INSUFFICIENT — Gen_Omega is preparation-level; joint P0 UNBUILT; every road converges on one missing joint object) |
 | 1037 | Dario | [PLAN:DESC-27] arrow necessity | DONE (Q-950; identification INSTRUMENT-AUTHORED — sixth frame artifact — but the arrow survives, relocated to the history factor and narrowed to ONE; check = 1038) |
 | 1038 | Codex 2 | [PLAN:DESC-27] arrow-necessity CHECK | DONE (Q-951; CORRECTED — all confirmed; requirement renamed Θ_hist, a delivery not an embedding; pipeline-execution next per PE-21) |
+| 1039 | Dario | fresh-session bootstrap V005 (pointer via clipboard after /clear) | QUEUED |
+| 1040 | Dario | [PLAN:DESC-28] PIPELINE EXECUTION — assemble joint P0 from DoR-008 premises; compose Θ_hist from sealed descent maps; produce rho_pre per P5; re-disposition the six legs | QUEUED (fresh session after 1039 boot) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
