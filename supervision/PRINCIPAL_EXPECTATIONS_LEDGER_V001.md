@@ -273,3 +273,20 @@ what object the gap is shaped like — before any diagnosis of whether the hypot
 Weight zero; pointer-only; the lane running 1029 stays blind to this entry.
 
 ### PE-19 SCORING (2026-08-11, at 1029, CLAIMED pending opposite-lane check): PART 2 SUPPORTED. The outcome is PARTIAL and the failure localizes exactly as predicted — to a nameable additional participant (the completed carrier A_SRF_CTP and its Hilbert space, the record's own words for what is absent), NOT to the stationary state, which is proved positive and normalized on its own algebra. The "something else involved" has a name and a span. Part 1 scores partial credit in refined form: the stationary point is not the whole boundary datum, but once the completed object exists, restriction is exact and no choice remains anywhere — the selector dissolves; what stands open is a construction, narrowed in the quasifree class to one two-point covariance.
+
+
+## PE-20 — THE TWO MISSING DATA ARE CONTROLLED BY ANOTHER VARIABLE (sealed 2026-08-11, BEFORE the 1035 check lands; principal, verbatim: "Controlled by another variable.")
+
+THE EXPECTATION: the two stops of Q-947 — the unforced presentation choice (Leg 1) and the
+unentailed field-factor arrow (Leg 2) — are not two independent freedoms but two consequences of ONE
+deeper controlling variable, so that supplying the controller forces both. The record's own candidate
+for the controller is on its face: P5's provenance clause, "all supplied by THE SAME MICROSCOPIC
+SOURCE" — if the source specification is the variable, the presentation and the arrow are its shadows,
+and the principal act reduces from two authorings to one supply (or to zero, if the source is already
+sealed somewhere the hunts have not looked).
+TEST (scorable in stages): (a) 1035's independence item — a COUPLED ruling with a named mechanism
+scores SUPPORTED immediately; an INDEPENDENCE-CONFIRMED ruling scores NOT-SUPPORTED-AT-RECORD-DEPTH
+only (absence of a coupling in the current record does not refute a controller the record has not yet
+articulated — the expectation stays live at the next depth); (b) any later finding that one supply
+entails the other, or that a single source-specification object discharges both loci, scores
+SUPPORTED outright. Weight zero; pointer-only; the lane running 1035 stays blind to this entry.
