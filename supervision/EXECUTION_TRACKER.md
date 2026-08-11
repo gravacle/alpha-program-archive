@@ -789,6 +789,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 974 | Codex 2 | [PLAN:AXN-BUILD-C73] independence run | DONE (Q-888; SUITE-BOOKS; every run-4 precondition stands) |
 | 975 | Codex 2 | [PLAN:AXN-BUILD-C74] THE GAUNTLET, RUN 4 | DONE (Q-889; REJECTED at K4 — first substantive verdict; fiber MATCHED; 10 certs) |
 | 976 | Dario | [PLAN:AXN-BUILD-D75] K4 adjudication | DONE (Q-890; GENUINE-INCOMPATIBILITY, branch-specific; fork to principal) |
+| FORK | principal | INVESTIGATE-FIRST ruled on the K4 fork | SEALED (Q-891) |
+| 977 | Dario | [PLAN:AXN-BUILD-D76] Dirac-branch feasibility | QUEUED (needs keystroke) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
