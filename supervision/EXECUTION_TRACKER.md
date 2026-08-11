@@ -859,7 +859,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1044 | Dario | fresh-session bootstrap V006 | CONSUMED (pointer protocol clean) |
 | 1045 | Dario | [PLAN:DESC-30] THE SELECTION | DONE (Q-956; 0/3/6 — exclusion-only evidence; Phase-A input DOES NOT EXIST; hook = ATTEMPTED-NOT-TERMINAL, leaning boundary; next lawful depth = schema freeze; check = 1046) |
 | 1046 | Codex 2 | [PLAN:DESC-30] selection CHECK | DONE (Q-957; CORRECTED — hinge swung: 0/9/0, all nine constrained, none selected; schema still absent; the intersection re-attempt is next) |
-| 1047 | Dario | [PLAN:DESC-31] SCHEMA FREEZE (entailment or genericity displayed) + INTERSECTION RE-ATTEMPT on the full Class-A surface | QUEUED (needs keystroke — current Dario session) |
+| 1047 | Dario | [PLAN:DESC-31] SCHEMA + INTERSECTION | DONE (Q-958; SHAPE-SPACE-DISPLAYED, 0/9/0 delta NONE; MONOTONICITY — all constraints lower bounds, allow/require as terminal structure; census: the gate is a CLASS; check = 1048) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
