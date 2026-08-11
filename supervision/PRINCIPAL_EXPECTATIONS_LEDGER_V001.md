@@ -255,3 +255,19 @@ displayed and the conversation held. Weight zero; pointer-only; the lane running
 this entry.
 
 ### PE-18 SCORING (2026-08-11, Arm A of record, CLAIMED pending 1028): SUPPORTED — LOAD-BEARING AT DECLARED CONSUMPTION. Eleven of nineteen consumers name the state in their declared content; the Hilbert space itself varies with the choice; K7 refuses the choice-independent route in terms. Bounded honestly: the instrument refutes gauge, cannot confirm it. Refinement from Arm B (Q-939): the boundary DATUM is the record's own smaller demand — the positive normalized pre-state with common-origin delivery — and the record forces exactly one such object on the source carrier; whether the record thereby satisfies its own boundary is the 1029 question.
+
+
+## PE-19 — THE STATIONARY POINT IS THE BOUNDARY DATUM, POSSIBLY WITH COMPANY (sealed 2026-08-11, BEFORE relay 1029 runs; principal, verbatim: "This is what I had assumed — the one stationary point of gravity's own machinery at the source, forced identically by every anchor member. If this doesn't close then we should look more closely at the shape. Maybe it does close but there is something else involved.")
+
+THE EXPECTATION, two-part: (1) the record-forced d_state — the unique stationary state of the
+record's own preparation channel — IS the boundary datum the port demands; (2) if 1029 does not
+return a clean close, the failure will be a SHAPE MISMATCH that names an ADDITIONAL PARTICIPANT —
+some further object involved alongside the stationary point — rather than evidence the stationary
+point was the wrong candidate. TEST (scorable at 1029, sealed before its outcome is known):
+PORT-CLOSES scores part 1 SUPPORTED outright; PARTIAL scores part 2 SUPPORTED if the failing legs
+localize to a nameable missing object or certificate (the "something else"), and NOT SUPPORTED if
+the failure indicts the stationary state itself (wrong adjectives at its own span); STOP with the
+stationary state failing its own typing scores both parts NOT SUPPORTED. PRESENTATION RULE, binding
+under the 1029 pause: a non-close is presented SHAPE-FIRST — which leg fails, at which span, and
+what object the gap is shaped like — before any diagnosis of whether the hypothesis survives.
+Weight zero; pointer-only; the lane running 1029 stays blind to this entry.
