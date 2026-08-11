@@ -818,6 +818,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 999 | Codex 2 | [PLAN:DESC-15] cross-check B01 | DONE (Q-916; 6 rows confirm; spine ADMITS; inventory = 32) |
 | 1000 | Codex 2 | [PLAN:DESC-16] confirm V005 | DONE (Q-917; substance confirmed; set deltas fall; REDUCE-TO-DIGESTS) |
 | 1002 | Dario | [PLAN:DESC-18] demand V006 | DONE (Q-919; digests only; residue zero; four classes retired) |
+| 1005 | Dario | [PLAN:DESC-21] BUILD B02 — constructor, signature, frozen trace | QUEUED (needs keystroke) |
 | 1004 | Codex 2 | [PLAN:DESC-20] confirm V006 — the demand map's final seal | QUEUED (behind 1003) |
 | 1001 | Dario | [PLAN:DESC-17] B01 V002 | DONE (Q-918; 32 rows; nothing promoted; disclaimer into the stop) |
 | 1003 | Codex 2 | [PLAN:DESC-19] spot-confirm B01 V002 + digest ruling | QUEUED (needs keystroke) |
