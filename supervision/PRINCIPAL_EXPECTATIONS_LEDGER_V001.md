@@ -271,3 +271,5 @@ stationary state failing its own typing scores both parts NOT SUPPORTED. PRESENT
 under the 1029 pause: a non-close is presented SHAPE-FIRST — which leg fails, at which span, and
 what object the gap is shaped like — before any diagnosis of whether the hypothesis survives.
 Weight zero; pointer-only; the lane running 1029 stays blind to this entry.
+
+### PE-19 SCORING (2026-08-11, at 1029, CLAIMED pending opposite-lane check): PART 2 SUPPORTED. The outcome is PARTIAL and the failure localizes exactly as predicted — to a nameable additional participant (the completed carrier A_SRF_CTP and its Hilbert space, the record's own words for what is absent), NOT to the stationary state, which is proved positive and normalized on its own algebra. The "something else involved" has a name and a span. Part 1 scores partial credit in refined form: the stationary point is not the whole boundary datum, but once the completed object exists, restriction is exact and no choice remains anywhere — the selector dissolves; what stands open is a construction, narrowed in the quasifree class to one two-point covariance.
