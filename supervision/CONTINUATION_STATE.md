@@ -48,3 +48,13 @@ history content must DESCEND from the common origin. MORNING MENU (principal): (
 answered-for-the-current-instrument + re-read 7-12 against the finding; or (ii) authorize the
 amendment design + descent investigation as the next section. No keystrokes pending; both lanes idle
 and clean.
+
+## OVERNIGHT RESULT (2026-08-11 ~04:45 UTC)
+The descent section's opening pair is DONE both sides: 986 the DEMAND (Q-902: 18+1 conditions; no
+single source carries the demand; the port's citation window misses it) and 985 the SUPPLY AUDIT
+(Q-903: trace ABSENT at the receiver; 0/4 maps instantiated; S1-S4 partial/gated; 28 ingredients =
+17/4/1/6 with omega_phys the ONE selector; stop rule installed; basis B01-B15). The chained
+cross-checks both hit their blocked-guards (one a mirror race, one pre-mirror) and parked CLEAN.
+MORNING KEYSTROKES: type 987 into Codex and 988 into Dario (both subjects now mirrored and in place).
+Then: the section's working presentation — the 15-item basis vs the 18+1 demand — and the omega_phys
+selector freeze preparation go to the principal.

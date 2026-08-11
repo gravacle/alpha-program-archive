@@ -800,10 +800,12 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 984 | Codex 2 | [PLAN:AXN-BUILD-C83] the invited attack | DONE (Q-899; WEAKENS — slot unbound, equality uninstantiated; CONFLICT; registrar adjudicating) |
 | ADJUDICATE2 | registrar | Q-900: the port is specified-not-instantiated, omega_phys typed choose-or-derive; WEAKENS stands; SECTION VERDICT complete; morning menu to principal | SEALED |
 | TURN | principal | THE DESCENT SECTION OPENS (Q-901; plan change-logged) | SEALED |
-| 985 | Codex 2 | [PLAN:DESC-1] THE DESCENT AUDIT (law-10 classification) | QUEUED (needs keystroke) |
+| 985 | Codex 2 | [PLAN:DESC-1] THE DESCENT AUDIT | DONE (Q-903; trace ABSENT; 0/4 maps; 1 selector = omega_phys; basis B01-B15) |
+| 987R | Codex 2 | re-run 987 (blocked on mirror race; subject now present) | NEEDS KEYSTROKE (morning) |
+| 988R | Dario | re-run 988 (blocked pre-mirror; subject now present) | NEEDS KEYSTROKE (morning) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
-| 988 | Dario | [PLAN:DESC-4] cross-check the audit (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 986) |
+| 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
