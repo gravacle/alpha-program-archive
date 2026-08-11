@@ -232,3 +232,24 @@ what was excluded, why the freedom now looks genuine — never as a bare freeze 
 (scorable): every B03-adjacent stop carries its diagnosis pass of record; a routed freeze without one
 is a protocol violation. Weight zero; pointer-only; lanes stay blind to this entry (the protocol
 reaches them through relay pastes, not the ledger).
+
+
+## PE-18 — THE SELECTOR FREEDOM IS BOUNDARY-SHAPED, NOT DEFECT-SHAPED (sealed 2026-08-11, BEFORE Arm A's ledger runs; principal, verbatim: "What if like the planet falling into a gravity well, the choise isn't gravity's bookkeeping but gravity's boundary?")
+
+THE EXPECTATION: the B03 stop (Q-937) is not a hole in the record but the record exhibiting its
+BOUNDARY-DATA layer — as a planet's initial condition in a gravity well: the dynamics are provably
+insensitive to it (member 17's theorem), yet it is physical, and non-derivability from the law is its
+TYPE, not a failure. Two record-side alignments already on the books: property P's own quoted wording
+("a failure-capable physical condition, fixed before response output") is the shape of lawful
+boundary data — posited prospectively, falsifiable, not tuned to outputs — i.e., the record TYPES the
+lawful supply form rather than refusing supply; and DoR-013's honesty clause (A0 and the anchor as
+"authored physics, confirmed non-derivable from the existing transition structure") is the record's
+standing precedent for boundary-data objects, principal-posited and disclosure-ratified.
+TEST (scorable, adjudicated by Diagnosis Arm A's dependency ledger, sealed at paste 1025 BEFORE this
+outcome is known): LOAD-BEARING-AT(spans) — some consumer needs omega_phys itself — scores the
+boundary-data reading SUPPORTED (the choice is physical data, and the spans say where it lands);
+GAUGE-FOR-OUTPUTS — every consumer touches only choice-invariant objects — scores it NOT SUPPORTED
+and the freedom dissolves as gauge (the best-case exit: nothing physical was ever waiting on the far
+side of the boundary). Either outcome leaves PE-17's protocol intact: no freeze without the diagnosis
+displayed and the conversation held. Weight zero; pointer-only; the lane running Arm A stays blind to
+this entry.
