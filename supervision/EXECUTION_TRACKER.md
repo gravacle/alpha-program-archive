@@ -806,8 +806,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 988 | Dario | [PLAN:DESC-4] audit check | DONE (Q-905; spine stands; 3 assets booked; row 14 refreshed) |
 | 990 | Codex 2 | [PLAN:DESC-6] audit V002 | DONE (Q-907; assets booked; spans fixed; basis 15 stands) |
 | 991 | Codex 2 | [PLAN:DESC-7] spot-check demand V002 | DONE (Q-908; REMAINS on 2 documentary items; substance whole) |
-| 993 | Dario | [PLAN:DESC-9] demand V003 (U12 span + honest carriage) | QUEUED (chains after 992 / keystroke) |
-| 992 | Dario | [PLAN:DESC-8] spot-check audit V002 | RUNNING (typed) |
+
+| 992 | Dario | [PLAN:DESC-8] spot-check audit V002 | DONE (Q-909; SUPPLY-CLOSES; buildable through B02, B03 principal) |
+| 993 | Dario | [PLAN:DESC-9] demand V003 | DONE (Q-910; U12 full-span; honest carriage; 6 dropped rows restored) |
+| 994 | Codex 2 | [PLAN:DESC-10] check demand V003 (the maps' last check) | QUEUED (needs keystroke) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
