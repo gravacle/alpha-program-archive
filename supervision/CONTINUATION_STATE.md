@@ -36,3 +36,15 @@
 - PE-14 (witness-independence) and PE-15 (conventional-import audit: priced/gated/challenged) sealed;
   PE-15 scored both directions (basis dissolved; K4 validated record-native).
 - Tracker current through 981; register through Q-895; all mirrored and pushed.
+
+## SECTION VERDICT (2026-08-11 ~04:30 UTC) — READY FOR THE MORNING
+The anchor section is COMPLETE through Q-900. The finding, three-legged and both-lane: (1) the
+entered anchor is closed by theorem against the instrument as constituted (four rejections, all
+lawful); (2) the reopener exists of record — the U2 port types omega_phys choose-or-derive, so a
+governing-act amendment adding a second supply receiver is lawful IF it carries the port's own
+conditions; (3) the reopener's wall is the common-origin descent requirement (K7's demand, P5's
+ceiling, the port's own would-build) — TYPE-U materials. The record says one thing three ways: the
+history content must DESCEND from the common origin. MORNING MENU (principal): (i) close 2-5 as
+answered-for-the-current-instrument + re-read 7-12 against the finding; or (ii) authorize the
+amendment design + descent investigation as the next section. No keystrokes pending; both lanes idle
+and clean.
