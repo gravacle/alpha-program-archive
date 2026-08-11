@@ -797,7 +797,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 981 | Dario | [PLAN:AXN-BUILD-D80] H-OTHER feasibility | DONE (Q-896; IMPOSSIBLE — closed-form; fork A EMPTY; horns theorem) |
 | 982 | Codex 2 | [PLAN:AXN-BUILD-C81] cross-check 981 | DONE (Q-897; CONFIRMED; joint emptiness both-lane; 2 scope precisions) |
 | 983 | Dario | [PLAN:AXN-BUILD-D82] induction-pinning provenance | DONE (Q-898; FORCED off the U2 port signature; no reopener) |
-| 984 | Codex 2 | [PLAN:AXN-BUILD-C83] SECTION FINAL CHECK (the invited attack) | QUEUED (needs keystroke) |
+| 984 | Codex 2 | [PLAN:AXN-BUILD-C83] the invited attack | DONE (Q-899; WEAKENS — slot unbound, equality uninstantiated; CONFLICT; registrar adjudicating) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
