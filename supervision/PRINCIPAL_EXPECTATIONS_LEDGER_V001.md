@@ -316,3 +316,15 @@ of the FRAME itself (the pipeline is not an assembly spec at all) scores NOT SUP
 pointer-only; the lane running the execution stays blind to this entry.
 
 ### PE-21 SCORING (2026-08-11, at 1040, CLAIMED pending check): PARTIALLY SUPPORTED, on the strong branch. The construction frame was RIGHT: the carrier assembles from the ratified premises, the history sector is B ≅ C(Y) BY CONSTRUCTION (the canonical-inclusion half of the expectation verbatim), and no field-factor arrow is needed on the executed route. The hole is named, typed, and located — Obj_0, the joint microscopic object with its common-origin state Θ_joint — and it is the smallest boundary datum the program has ever displayed: one object, disclaimed by the premises' own provenance ceiling, whose supply would cascade through res_B (sealed, exact) to close the port. The pipeline was an assembly spec; it assembled everything except the one thing its premises expressly declined to claim.
+
+### FORWARD HOOK — THE NINE VALUES AND THE BOUNDARY PREDICTION (sealed 2026-08-11, BEFORE the 1043 check returns; principal: "Let's make sure to note this when it returns — or whether they're the boundary data you predicted from the start.")
+
+The derivation has bottomed at PhysicalSig_0's nine physical values (Q-954), beside the record's own
+open selection slot (future_derivation_can_select… = NO_VERDICT). STANDING SCORING RULE, binding on
+the registrar at every subsequent relay touching the nine values: if a target-independent selection
+derivation lands (the NO_VERDICT slot fills), PE-18's boundary reduces to zero for this object and
+the reduction is registered explicitly; if the nine values resist selection at every lawful
+derivation depth, THEY ARE THE BOUNDARY DATA OF PE-18's READING — the planet's initial condition,
+located and counted — and the scoring so registers, with any eventual principal supply carrying the
+full convertibility structure (falsifier, open forcing slot, battery overdetermination). Either
+terminal outcome must be stated against this hook by name in its register entry.
