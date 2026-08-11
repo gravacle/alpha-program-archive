@@ -811,7 +811,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 993 | Dario | [PLAN:DESC-9] demand V003 | DONE (Q-910; U12 full-span; honest carriage; 6 dropped rows restored) |
 | 994 | Codex 2 | [PLAN:DESC-10] check demand V003 | DONE (Q-911; U12 confirmed; register decline right; 4 custody items) |
 | 995 | Dario | [PLAN:DESC-11] demand V004 | DONE (Q-912; 4/4 one pass; cause found; build sealed as evidence) |
-| 996 | Codex 2 | [PLAN:DESC-12] confirm V004 (run the build; press the replacements) | QUEUED (needs keystroke) |
+| 996 | Codex 2 | [PLAN:DESC-12] confirm V004 (run the build; press the replacements) | RUNNING (typed) |
+| 997 | Dario | [PLAN:DESC-13] BUILD B01 — construction opens | QUEUED (needs keystroke) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
