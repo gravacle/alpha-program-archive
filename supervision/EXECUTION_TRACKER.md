@@ -801,7 +801,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | ADJUDICATE2 | registrar | Q-900: the port is specified-not-instantiated, omega_phys typed choose-or-derive; WEAKENS stands; SECTION VERDICT complete; morning menu to principal | SEALED |
 | TURN | principal | THE DESCENT SECTION OPENS (Q-901; plan change-logged) | SEALED |
 | 985 | Codex 2 | [PLAN:DESC-1] THE DESCENT AUDIT (law-10 classification) | QUEUED (needs keystroke) |
-| 986 | Dario | [PLAN:DESC-2] the demand at bytes | QUEUED/RUNNING |
+| 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 986) |
 
