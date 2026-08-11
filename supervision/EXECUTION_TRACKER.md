@@ -829,7 +829,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1010 | Codex 2 | [PLAN:DESC-21] B02 CHECK | DONE (Q-926; CORRECTED — three stops LAWFUL; Params_B0 OPEN-RULED, B02 forces nothing; Q-914 carried whole; member-12 overlay ordered; B03 = only lawful release) |
 | 1011 | Codex 2 | [PLAN:DESC-22] B01 V003 CONFIRM | DONE (Q-927; CORRECTED — 4/4 stand, warrant REAL-REFUSAL, span convention lawful; carriage remainder DIVERGES → delta manifest ordered = 1014) |
 | 1012 | Codex 2 | [PLAN:DESC-20] demand V007 GATE | DONE (Q-928; V008-ORDERED — 4 raw / 1 residue, exactly Dario's named §8 line; bounded text supplied; rerun after V008) |
-| 1013 | Dario | [PLAN:DESC-20] demand V008 — the gate's one line | QUEUED (needs keystroke; 1014/1015 chain behind) |
+| 1013 | Dario | [PLAN:DESC-20] demand V008 — the gate's one line | IN PROGRESS (ACKed; 1007_DONE_ADDENDUM noted — append-only chain-survey correction, lane guard held on Codex pastes) |
 | 1014 | Dario | [PLAN:DESC-22] B01 carriage delta manifest + regenerated remainder | QUEUED (chains behind 1013) |
 | 1015 | Dario | [PLAN:DESC-21] member-12 header overlay record (byte-untouched) | QUEUED (chains behind 1014) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
