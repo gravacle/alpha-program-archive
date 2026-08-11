@@ -13,8 +13,8 @@ ALL_RESULTS = CLAIMED until the opposite-lane check
 
 | # | Closed member | SHA-256 / bounded span SHA-256 | Role |
 |---:|---|---|---|
-| 01 | `relay_inbox/RELAY_PASTE_953_SDN_V002_DARIO_V001.md` | `cfc30c84ee85cda5c0adb35e74d1865f622a73be7c2f1bf0f33512313b3b255d` | assignment |
-| 01b | `STAGE8_AXN_SDN_SLICING_INSTANCE_DARIO_V001.md`; `STAGE8_AXN_SDN_CROSSCHECK_CODEX2_V001.md` | `5b111f8c73ab74d5eb292402a6e0cd713421fe8422282f3f4ce6ced85fdbc8c3`; `f0735599ce516f81743ab5b016b4777140c5fb3dadcc2d6e35ad170f87f42046` | my V001 base; the check that ruled the two fixes |
+| 01 | `relay_inbox/RELAY_PASTE_957_SDN_V003_DARIO_V001.md` | `24d7bac3e7b1161f9b4e8ed6079d99708eccbf904b17228f75dd28b045b6670c` | assignment |
+| 01b | `STAGE8_AXN_SDN_SLICING_INSTANCE_DARIO_V002.md`; `STAGE8_AXN_SDN_V002_CONFIRMATION_CODEX2_V001.md` | `ee8ff503c07fc60de64ae098452e28d01aa7cabc5453972b40576ac176f74a61`; `02ebb302a57094a14a88956661fe24044c1826d2f163672272c7968a3a767b7a` | my V002 base; the confirmation that ruled the three clerical fixes |
 | 02 | `LINE6_SITTING_DECISION_OF_RECORD_V001.md` | `00b77a0887bb84ea2a87384b78d52a775c7e882ee99f054dac075c56697018b3` | the principal's SD-N entry and Galerkin deferral |
 | 03 | `STAGE8_AXN_SLICING_DECISION_INSTRUMENT_CODEX2_V001.md` | `08a13df40f8f08deb2727e5313162c5362c2d03f0a19db0c3855cb7de451bd8b` | the governing instrument and the SD-N route fields |
 | 04 | `R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_SPEC_V001.md` | `40890e753463b8c4c49844864f3f4811f15ec5f71fe9c044f9eb7d91428899a9` | the sealed parent |
@@ -339,7 +339,7 @@ SCALING WEIGHTS: NONE CONSUMED; NONE FIXED; NONE SUBSTITUTED.
 
 ```text
 CLOSURE_BEGIN_BYTE = 0
-CLOSURE_END_BYTE = 2964
+CLOSURE_END_BYTE = 2995
 PREDECLARATION_OUTPUT_SCAN = 0 hits
 FIELDS_COMPLETE = 9/9 ; FIELDS_STOPPED = 0
 SIGMA0 = declared from sealed ground ; SCOPE = bounded ; PROFILE = sharp, disclosed
@@ -379,11 +379,11 @@ and at seal.
 ## 11. Final lines
 
 ```text
-CLOSURE = declared-first (byte position 0 — ACTUAL end CLOSURE_END_PLACEHOLDER, computed on BYTES and verified thrice: at write, after the numeral grep, and at seal; scan 0 hits)
+CLOSURE = declared-first (byte position 0 — ACTUAL end 2995, computed on BYTES and verified thrice: at write, after the numeral grep, and at seal; scan 0 hits)
 FIXES = 3/3 (closure end byte; top heading V001 -> V003; section-9 audit wording — s_± for s_*, the flattening line rephrased to forced-versus-unwarranted, and the self verb audit updated from "Constitutive"/"stopped" to "Sealed"/"zero-freedom" with no field remaining stopped)
 CONTENT = BYTE-CARRIED-VERIFIED (every confirmed operative block — Sigma_0, the entered data, the frame construction and its on-domain re-verification, the write-half proof, the uniqueness chain with the supplied step 6, the sealed binding, the receiver statement, the corrected domain, and the profile disclosure — carried byte-identically; nothing mathematical changed)
 NUMERAL_GREP = RUN-CLEAN (every numeral in an edited enumeration or count-bearing sentence re-derived from the artifact itself rather than carried: the closure end byte, the field count 9/9, the fix count 3/3, and the replayed hunk count. This is the grep I recommended to the opposite lane at 938 after returning the same stale-counter defect twice, and two of my own three defects were its exact prey)
-DIFF = hunk-accounted (replayed count stated in section 10; the count below is the diff -d -U0 replay against V002, not a group count)
+DIFF = hunk-accounted (12 hunks replayed under the declared diff -d -U0 convention against V002; I state the REPLAYED count, not a group count, having returned that exact stale-counter defect against the opposite lane at 936 and 938 and then committed it myself at V002)
 CHAIN_INVOKED = false
 VERB_AUDIT_SELF = CLEAN
 alpha_computed = false ; proof_authorized = false ; kappa_record_computed = false
