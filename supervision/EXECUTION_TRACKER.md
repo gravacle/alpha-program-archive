@@ -766,7 +766,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 950 | Codex 2 | [PLAN:AXN-BUILD-C49] instance V003 | DONE (Q-860; 38/39; suite stop real, routed) |
 | 952 | Dario | [PLAN:AXN-BUILD-D51] cross-check instance V003 | DONE (Q-862; BOOKS-AS-SCOPED; suite stop REAL; governance to principal) |
 | GOVERN | principal | RUN-THEN-REPAIR ruled: gauntlet under adopted terms first; open repair after | SEALED (Q-863) |
-| 954 | Codex 2 | [PLAN:AXN-BUILD-C53] THE GAUNTLET RUN 2 (fail-closed, as scoped) | QUEUED (needs keystroke) |
+| 954 | Codex 2 | [PLAN:AXN-BUILD-C53] THE GAUNTLET RUN 2 | DONE (Q-865; REJECTED at G0, schema's failure, as forecast) |
+| 956 | Codex 2 | [PLAN:AXN-BUILD-C55] instrument V003 (one-clause open repair) | QUEUED (behind 955) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
