@@ -16074,6 +16074,10 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **The principal approved instrument V003** (INSTRUMENT_V003_SUPERSESSION_DECISION_OF_RECORD_V001.md, b46878d8748cf414…): one clause repaired with the instrument's own ratified language, everything else V002, the failed run 2 standing on the books ahead of it exactly as the run-then-repair ruling designed. Downstream governing references update to 79f0c3516120… from this act forward. **960 executes GAUNTLET RUN 3 under the repaired terms — the event that closes lines 2 and 5 and unblocks 3 and 4 on an ACCEPTED verdict.**
 
+## Q-871 — SDN-BOOKS (2026-08-10) — THE PRINCIPAL'S SLICING ENTRY BOOKS WHOLE
+
+**Answer: the where-time-cuts declaration is DONE end-to-end — entered (Q-856), built (949), corrected (953), mathematically confirmed (955), certificate-fixed (957), and now BOOKED (959).** Codex 2's spot-confirm (STAGE8_AXN_SDN_V003_SPOTCONFIRM_CODEX2_V001.md, 9c1bda95f672…, seal-verified): fixes 3/3; sections 2-8 byte-identical with seven block hashes displayed; the historical s_* correctly preserved as the record of V001's error; 12 hunks replayed; **the section-5.3 wording ruled ACCEPTABLE-CONSERVATIVE — "constitutive" correctly names the mode of a zero-freedom mechanical binding without restoring a choice, and the conservative receiver statement preserves the forced-constitution vs pre-existing-formula distinction.** One non-blocking clerical numeral logged for a later pass: the 957 root-cause diagnosis has the right class, wrong magnitude (the multibyte excess is 6 bytes, not 137; the operative value 2995 is correct). **CONSEQUENCE: the receiver binding discharges — dGamma_R(Slice(D_K)) = dGamma_R(h_K) holds on N_inj(Sigma_0) with both halves carrying warrant. Line 6's source third now has ONE open item: the joint smoothing/Galerkin sitting (deferred by the principal, to be instrumented). 922's items 3 and 4 are DISCHARGED.**
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
