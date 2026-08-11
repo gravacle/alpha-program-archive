@@ -844,7 +844,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1030 | Codex 2 | [PLAN:DESC-24] decline audit | DONE (Q-943; CENSUS-SOUND-AFTER-ONE — decline 2 stands, mechanism one-off; audit V003 repair specified, routes after 1029 pause) |
 | 1029 | Dario | [PLAN:DESC-25] B03 V002 — reframed port | DONE (Q-944; PARTIAL — dissolved as SELECTOR, open as OBJECT; PE-19 part 2 SUPPORTED) — pause LIFTED by principal with derivation mandate |
 | 1031 | Codex 2 | [PLAN:DESC-25] B03 V002 CHECK | DONE (Q-945; CORRECTED — TWO-OBJECTS, transport absent; dissolution falls to OPEN; gap now two names, both requires; derivation targets both) |
-| 1032 | Codex 2 | [PLAN:DESC-24] audit V003 — census repair per own 1030 spec | IN PROGRESS (chained) |
+| 1032 | Codex 2 | [PLAN:DESC-24] audit V003 — census repair | DONE (Q-946; M4 admitted; guard installed; 9 consumer obligations named; Codex idle) |
 | 1033 | Dario | fresh-session bootstrap V004 (POINTER paste via clipboard after /clear) | QUEUED |
 | 1034 | Dario | [PLAN:DESC-26] THE DERIVATION — Leg 1 completed carrier (canonical or missing-datum); Leg 2 the A_C0→A_SRF_CTP transport (entailed/constructible/absent); symbolic only; cascade-territory stop form live | QUEUED (fresh session, after 1033 boot) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
