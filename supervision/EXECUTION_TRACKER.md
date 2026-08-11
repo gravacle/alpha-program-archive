@@ -802,7 +802,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | TURN | principal | THE DESCENT SECTION OPENS (Q-901; plan change-logged) | SEALED |
 | 985 | Codex 2 | [PLAN:DESC-1] THE DESCENT AUDIT | DONE (Q-903; trace ABSENT; 0/4 maps; 1 selector = omega_phys; basis B01-B15) |
 | 987 | Codex 2 | [PLAN:DESC-3] demand check | DONE (Q-904; subassembly stands; U7-U12 join; PathCert form exists) |
-| 989 | Dario | [PLAN:DESC-5] demand V002 (whole-section closure) | RUNNING (typed) |
+| 989 | Dario | [PLAN:DESC-5] demand V002 | DONE (Q-906; 35+1; span-perfect folds; PathCert corroborates) |
 | 988 | Dario | [PLAN:DESC-4] audit check | DONE (Q-905; spine stands; 3 assets booked; row 14 refreshed) |
 | 990 | Codex 2 | [PLAN:DESC-6] audit V002 (assets + fixes) | RUNNING (typed) |
 | 991 | Codex 2 | [PLAN:DESC-7] spot-check demand V002 | QUEUED (chains after 990; blocked-guard) |
