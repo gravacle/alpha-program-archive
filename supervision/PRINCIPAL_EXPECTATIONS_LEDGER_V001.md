@@ -294,3 +294,23 @@ SUPPORTED outright. Weight zero; pointer-only; the lane running 1035 stays blind
 ### PE-20 SCORING (2026-08-11, at 1035): NOT-SUPPORTED-AT-RECORD-DEPTH, per the entry's own staging. Independence confirmed in both directions at the record's current depth — the completion does not create the arrow, the arrow does not force the presentation. The expectation stays LIVE at the next depth: a future source-specification object that discharges both loci at once would score it supported outright, and nothing found today forecloses that.
 
 ### PE-20 SECOND SCORING (2026-08-11, at 1036): the controller EXISTS (Gen_Omega, preparation-level) and is INSUFFICIENT — it discharges neither leg at its scope. The expectation is again not supported at the accessible depth, but the hunt LOCATED where a sufficient controller would live: the joint P0 source object, which the record types as unbuilt — the same absent joint construction the demand names as L3. The hypothesis and the obstruction have merged into one object seen from two sides.
+
+
+## PE-21 — THE TWO FAILURE POINTS ARE THE CONSTRUCTION'S OWN SPECIFICATION (sealed 2026-08-11, BEFORE the pipeline-execution relay runs; principal, verbatim: "Isn't that what we'd expect? … What if this 'is' the construction?")
+
+THE EXPECTATION: the two record-side "failures" of the bypass route are the record DESCRIBING its
+own build. A test-only port implies a producer, and the sealed port order names it — P5 produces
+rho_pre, P2 tests it: the port order IS the build order. And the surviving arrow on the history
+factor is what a CANONICAL TENSOR-FACTOR INCLUSION looks like — not an object to author but one that
+comes for free the moment the joint object is assembled as a product whose history sector is B.
+Therefore: the record's producer pipeline P0–P7 is the assembly instruction set for the joint P0
+object (DoR-008 supplying pre-algebra/completion/common domain), and "unbuilt" is not "unspecified."
+TEST (scorable at the pipeline-execution relay, sealed before its outcome): EXECUTABLE — the
+symbolic execution of the pipeline constructs the joint carrier, yields the history-factor inclusion
+canonically, and produces-then-tests the pre-state, with every step grounded at bytes and NO
+authoring anywhere — scores SUPPORTED outright (and the B03 port closes record-natively after all,
+one level deeper than anyone looked). HOLE-FOUND — some pipeline step requires a datum the record
+does not supply — scores the expectation PARTIALLY supported (the construction frame was right; the
+hole, named and typed, is the true boundary datum, smaller than every previous candidate). A failure
+of the FRAME itself (the pipeline is not an assembly spec at all) scores NOT SUPPORTED. Weight zero;
+pointer-only; the lane running the execution stays blind to this entry.
