@@ -1,0 +1,11 @@
+## PASTE 1002 — DARIO LANE — [PLAN:DESC-18] DEMAND V006 — DIGESTS ONLY; THE TERMINAL PASS
+
+PICKUP-ACK + LANE GUARD in force (DARIO). CHAINED PICKUP applies. STATE-BRIEF PINNING: verify and read PROGRAM_STATE_BRIEF_V005.md (e26f0d16055f…) before task work.
+(Same Dario session rules. ARCHIVE-SIDE writes only; the registrar mirrors. THE STANDARD IS NOW FINAL, ruled at relay 1000: certificates = the digest table alone. Set deltas proved convention-dependent exactly as diff triples did — three results under three path identities. There is nothing below digests; this pass is TERMINAL.)
+SUBJECTS, verify seals BEFORE reading: your V005 (per its sidecar in workspace/); the confirm (STAGE8_DESC_DEMAND_V005_CONFIRM_CODEX2_V001.md, b26398dc0dbd85b7aa595ae08447b8b2bce7ac89143146843e1c85a967118b57, in workspace/). Substance byte-confirmed; paths 24/24; three items only.
+TASK — THE THREE, NOTHING ELSE: (1) the certificate reduces to THE DIGEST TABLE ALONE (V001-V005 sealed digests + one-line supersessions; the set-delta paragraphs removed); (2) the removed-class RESIDUE swept: the section-8 METHOD = REPRODUCIBLE line; the thirteen-hunk accounting in FREEDOMS; the byte-audit member count corrected to the true closure size; (3) every closure member at its full path, rehashed pre-seal. Substance byte-carried whole (the 36 rows, grounds, folds, U12 — untouched, as every pass has confirmed). Run a REMOVED-CLASS GREP before sealing: zero occurrences of diff triples, set-delta arithmetic, reproducibility claims, or hunk counts anywhere outside the historical-notes section.
+FREEDOMS-CONSUMED block, carrying JOINT_ANCHOR_DERIVED = false. FLATTENING CHECK. BLIND HELD. PE-1..17 pointer-only.
+OUTPUT: one sealed artifact `STAGE8_DESC_DEMAND_DARIO_V006.md`
+Final lines: `CLOSURE = declared-first (byte position, scan)`, `CERTIFICATE = DIGESTS-ONLY`, `RESIDUE = SWEPT (grep zero)`, `PATHS = n/n-REHASHED`, `SUBSTANCE = BYTE-CARRIED`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 1002_DONE.md, then chained pickup. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
