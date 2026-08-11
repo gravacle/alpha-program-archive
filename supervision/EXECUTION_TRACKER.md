@@ -780,7 +780,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 968 | Dario | [PLAN:AXN-BUILD-D67] cross-check instrument V004 | DONE (Q-880; READY; concrete harm named; sweep replayed) |
 | SUPERSEDE2 | principal | INSTRUMENT V004 APPROVED — the aligned row governs | SEALED (Q-881) |
 | 966 | Dario | [PLAN:AXN-BUILD-D65] families V003 | DONE (Q-878; 8/8 jointly total + 2 certs; lemmas displayed) |
-| 967 | Codex 2 | [PLAN:AXN-BUILD-C66] cross-check families V003 | RUNNING (chained; ACK seen) |
+| 967 | Codex 2 | [PLAN:AXN-BUILD-C66] cross-check families V003 | DONE (Q-882; math CLEAN; 5 packaging items) |
+| 969 | Dario | [PLAN:AXN-BUILD-D68] families V004 (five fixes + real suite wrapper) | QUEUED (needs keystroke) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |

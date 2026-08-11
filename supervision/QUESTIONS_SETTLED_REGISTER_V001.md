@@ -16118,6 +16118,10 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **The principal approved the V004 supersession** (INSTRUMENT_V004_SUPERSESSION_DECISION_OF_RECORD_V001.md, 41a63ef472de976b…): one row aligned to the schema approved at Q-870, everything else byte-carried, the whole repair chain visible on the record (schema fixed -> row missed -> adjudicated -> aligned -> checked -> approved). Governing references update to a195edb03b36…. **RUN 4 waits on exactly one thing: 967's families verdict.**
 
+## Q-882 — THE FAMILIES, FOURTH PASS (2026-08-10) — THE MATHEMATICS IS CLEAN; FIVE PACKAGING ITEMS REMAIN
+
+**Answer: the lemmas and joint totality SURVIVE proof-grade press — what fails is serialization and wrapping, all five items mechanical and named.** Codex 2's 967 (STAGE8_AXN_FAMILIES_V003_CROSSCHECK_CODEX2_V001.md, ff587bada82e…, seal-verified; Q-877's span rehashed under live-append tolerance): **LEMMAS A/B/C RE-DERIVED CLEAN — none adds a hypothesis; all eight quantifiers bind both dimensions with explicit proof fields; BASIS INDEPENDENCE 10/10.** THE FAILURES: (1) FC-03/FC-08/CERT-IF carry literal | bytes inside ker(Phi|Delta_0,N) — parsing 10 fields where 8 are declared (byte hashes match; schema replay fails); (2) the certificates never wrap the CLOSED SUITE (an invented .for_class path; no outer fields); (3) two scope edges wrong (FC-05's derivative ground proves E_joint identities, not the charge/J_NM commutation it is cited for; FC-07 lists its certificate but never receives its conclusion); (4) FC-08's stage-unit ground is EXACT (RL-06 rehashed; Lemma B clean) but the entered BI bytes are UNBOUND — the payload cites the blank instrument slot while the principal's {BI} content lives in the instance; (5) FC-07 underfills its receiver even though its restraint is mathematically right. 969 fixes exactly the five, with the tuple-parse replay added to the builder's own seal discipline. RUN 4 waits on the rebuilt bytes and their check.**
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
