@@ -854,7 +854,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1039 | Dario | fresh-session bootstrap V005 | CONSUMED (pointer protocol clean again) |
 | 1040 | Dario | [PLAN:DESC-28] PIPELINE EXECUTION | DONE (Q-952; carrier assembles, history sector free, NO arrow needed on this route; three holes = ONE object: Obj_0 + its common-origin state Θ_joint; PE-21 strong-branch; check = 1041) |
 | 1041 | Codex 2 | [PLAN:DESC-28] execution CHECK | DONE (Q-953; CORRECTED — sector identity at bytes; second delivery route found; both counts confirmed; READING DECISION RIPE) |
-| 1042 | Dario | [PLAN:DESC-29] SIX Q-92(c) PRECONSTRUCTION ROWS — execute/derive/hole each; Obj_0 assembly reach; Θ_joint grounding; ceiling ruling | QUEUED (GUARDED on the demand-reading DoR existing; fires after the principal rules at item 2) |
+| 1042 | Dario | [PLAN:DESC-29] SIX Q-92(c) PRECONSTRUCTION ROWS | QUEUED — GUARD SATISFIED (DEMAND_READING_DECISION_OF_RECORD_V001 sealed: RECEIVER READING GOVERNS, principal-ratified) — needs keystroke |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
