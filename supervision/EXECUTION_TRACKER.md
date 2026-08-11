@@ -821,7 +821,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1005 | Dario | [PLAN:DESC-21] BUILD B02 — constructor, signature, frozen trace | QUEUED (needs keystroke) |
 | 1004 | Codex 2 | [PLAN:DESC-20] confirm V006 — the demand map's final seal | QUEUED (behind 1003) |
 | 1001 | Dario | [PLAN:DESC-17] B01 V002 | DONE (Q-918; 32 rows; nothing promoted; disclaimer into the stop) |
-| 1003 | Codex 2 | [PLAN:DESC-19] spot-confirm B01 V002 + digest ruling | QUEUED (needs keystroke) |
+| 1003 | Codex 2 | [PLAN:DESC-19] spot-confirm B01 V002 | DONE (Q-920; confirmed; 4 documentary repairs; input-custody catch) |
+| 1006 | Dario | [PLAN:DESC-22] B01 V003 (four repairs) | QUEUED (behind 1005) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
