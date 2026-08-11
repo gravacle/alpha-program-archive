@@ -835,7 +835,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1016 | Codex 2 | [PLAN:DESC-20] demand V008 RERUN | DONE (Q-932; **DEMAND-MAP-CLOSED** — 3 raw/0 residue fresh set; survivors reaffirmed twice; 8 versions, 0 substance corrections) |
 | 1017 | Codex 2 | [PLAN:DESC-22] carriage manifest CHECK | DONE (Q-933; DISCHARGED — 17-anchor rederivation, no diff algorithm, identical spans/mask/remainder; tiling exact both files) |
 | 1018 | Codex 2 | [PLAN:DESC-21] member-12 SEMANTIC SWEEP | DONE (Q-934; V002-ORDERED — 26 surfaces: 10 covered, 16 need extension; read rule EXACT; Codex chain complete, lane idle) |
-| 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | QUEUED (needs keystroke — CURRENT Dario session, before the /clear) |
+| 1022 | Codex 2 | [PLAN:DESC-21] overlay V002 CONFIRM — 26 pins, carried blocks, rerun, tenth-family probe | QUEUED (needs keystroke) |
+| 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 (paste as TEXT after /clear) | STAGED (checks landed; paste after 1021's DONE and the /clear) |
 | 1020 | Dario | [PLAN:DESC-23] B03 — the selector: record-native derivation of omega_phys, or STOP with diagnosis display; choosing expressly not delegated; PE-17 embedded | STAGED (runs in the FRESH session after 1019 boot) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
