@@ -1,0 +1,184 @@
+[
+ {
+  "n": 1,
+  "primitive": "`C_R = 1`, marginal public closure",
+  "kind": "absolute-scale selector / marginal self-gravitation condition",
+  "status": "Adopted Level-1, untested",
+  "presupposes": "public closure rule and compactness threshold"
+ },
+ {
+  "n": 2,
+  "primitive": "`K_bare = 0`, induced-only",
+  "kind": "microscopic action-form/compositeness condition",
+  "status": "Adopted, tested pending; not theorem",
+  "presupposes": "complete `Q_spec`, regulator, causal-cell scale"
+ },
+ {
+  "n": 3,
+  "primitive": "transport-only / single-operator completeness",
+  "kind": "primitive generator-class exclusion rule",
+  "status": "Adopted Level-1, derived false",
+  "presupposes": "frozen vectorlike source branch and unit-character transport"
+ },
+ {
+  "n": 4,
+  "primitive": "ER-A",
+  "kind": "envelope/profile branch",
+  "status": "Adopted disclosed premise, untested",
+  "presupposes": "ER fork and envelope class"
+ },
+ {
+  "n": 5,
+  "primitive": "minimal public carrier `d=4`",
+  "kind": "public carrier dimension",
+  "status": "Adopted principle, untested",
+  "presupposes": "minimal public distinction rule"
+ },
+ {
+  "n": 6,
+  "primitive": "relative budget saturation",
+  "kind": "onset saturation rule",
+  "status": "Adopted Level-1, derived false",
+  "presupposes": "imported FS lower bound and unique physical record cell"
+ },
+ {
+  "n": 7,
+  "primitive": "proper-time floor `tau = 1`",
+  "kind": "proper-time/floor convention",
+  "status": "Frozen branch convention, untested, competitor open",
+  "presupposes": "induced-only functional and proper-time scaling"
+ },
+ {
+  "n": 8,
+  "primitive": "primitive spin `1/2` minimality",
+  "kind": "source representation minimality",
+  "status": "Adopted, untested",
+  "presupposes": "central sign representation branch"
+ },
+ {
+  "n": 9,
+  "primitive": "one vectorlike pair",
+  "kind": "source inventory",
+  "status": "Frozen source inventory; additional pairs consistent",
+  "presupposes": "adopted `U(1)_rel` bundle and Dirac branch"
+ },
+ {
+  "n": 10,
+  "primitive": "one complete `Q_spec` unity clause",
+  "kind": "specification-unity rule",
+  "status": "Adopted microscopic theory premise, untested",
+  "presupposes": "gravity, charged field, sources, record closure in one `Q_spec`"
+ },
+ {
+  "n": 11,
+  "primitive": "relative `U(1)` bundle and compact connection",
+  "kind": "field content and holonomy normalization",
+  "status": "Bundle/connection adopted, pointwise stabilizer derived",
+  "presupposes": "ordered two-endpoint comparison context"
+ },
+ {
+  "n": 12,
+  "primitive": "pre-record link premises P1/P2",
+  "kind": "invariant one-link marginals and independence",
+  "status": "Frozen foundational premise, tested pending",
+  "presupposes": "pre-record link branch"
+ },
+ {
+  "n": 13,
+  "primitive": "Parent-State Covariance",
+  "kind": "state/dynamics common-origin principle",
+  "status": "Adopted, attempted/blocked, no pass",
+  "presupposes": "same parent supplies state and dynamics"
+ },
+ {
+  "n": 14,
+  "primitive": "Causal Incidence Support",
+  "kind": "support/reuse law",
+  "status": "Adopted Level-1, tested partial",
+  "presupposes": "causal incidence support and completed-incidence rules"
+ },
+ {
+  "n": 15,
+  "primitive": "Global Boundary Descent / Quasi-Free Completeness",
+  "kind": "functorial CAR-lift/no-extra-kernel rule",
+  "status": "Adopted, untested",
+  "presupposes": "primitive action as operator-valued functorial CAR lift"
+ },
+ {
+  "n": 16,
+  "primitive": "pre-split `SU(5)` parent",
+  "kind": "parent connection/carrier axiom",
+  "status": "Adopted principle, untested",
+  "presupposes": "one irreducible compact complex five-dimensional connection"
+ },
+ {
+  "n": 17,
+  "primitive": "boundary spectral-semigroup / chiral-16 carrier rule",
+  "kind": "source carrier rule",
+  "status": "Adopted rule, tested pending",
+  "presupposes": "`Lambda^even(C5)=16` branch"
+ },
+ {
+  "n": 18,
+  "primitive": "sector independence / multiplicative product functional",
+  "kind": "product-measure/independence premise",
+  "status": "Declared, not derived, untested",
+  "presupposes": "independent integration variables"
+ },
+ {
+  "n": 19,
+  "primitive": "residual ordinary branch and standard-input package",
+  "kind": "branch/background package",
+  "status": "Disclosed inputs, untested",
+  "presupposes": "`3+1`, Lorentzian, diffeomorphic, CPT-compatible, local ordinary branch"
+ },
+ {
+  "n": 20,
+  "primitive": "complex-vs-real selection",
+  "kind": "selector premise",
+  "status": "Assumed, undefined in bounded prior inventory",
+  "presupposes": "complex branch choice"
+ },
+ {
+  "n": 21,
+  "primitive": "DCC / durable-record closure criterion",
+  "kind": "register-carried closure criterion",
+  "status": "Untested, undefined in bounded roots",
+  "presupposes": "historical Level-1 stack"
+ },
+ {
+  "n": 22,
+  "primitive": "`tau_orth = T_R` cycle-6 identification",
+  "kind": "interval identification conditionality",
+  "status": "Register-only/conflict disclosed",
+  "presupposes": "binary gate / durable-record generator"
+ },
+ {
+  "n": 23,
+  "primitive": "source-record odd-component identity",
+  "kind": "source-record identity hypothesis",
+  "status": "Adopted, tested pending",
+  "presupposes": "durable record, stable background, closure magnitude, source pole"
+ },
+ {
+  "n": 24,
+  "primitive": "zero-flux/no-charged-write",
+  "kind": "source-flux/write rule",
+  "status": "Adopted, untested",
+  "presupposes": "zero-or-one local unit-character source-crossing sector"
+ },
+ {
+  "n": 25,
+  "primitive": "exhaustive-use clause of one-source branch",
+  "kind": "branch-exhaustion condition",
+  "status": "Tested pending",
+  "presupposes": "one-source branch and charged-spectrum/threshold map"
+ },
+ {
+  "n": 26,
+  "primitive": "first-record capacity / `N_BR(k_R)=1`",
+  "kind": "public spectral capacity rule",
+  "status": "Adopted rule, tested pending",
+  "presupposes": "complete `D_BR`, `Tr_BR`, public quotient, finite isolated spectrum"
+ }
+]
