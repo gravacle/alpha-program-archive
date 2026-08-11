@@ -824,6 +824,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1003 | Codex 2 | [PLAN:DESC-19] spot-confirm B01 V002 | DONE (Q-920; confirmed; 4 documentary repairs; input-custody catch) |
 | 1006 | Dario | [PLAN:DESC-22] B01 V003 (four repairs) | QUEUED (behind 1005) |
 | 1007 | Dario | [PLAN:DESC-20] demand V007 — three-line residue sweep + closure member (Q-921 repairs) | QUEUED (behind 1006) |
+| 1008 | Dario | fresh-session bootstrap (post-/clear), then process 1005 | QUEUED (Brian pastes the TEXT of 1008 into the fresh session — a bare number cannot boot it) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
