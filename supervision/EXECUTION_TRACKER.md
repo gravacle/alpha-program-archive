@@ -817,7 +817,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 997 | Dario | [PLAN:DESC-13] BUILD B01 | DONE (Q-914; inventory built; exhaustive = signature-relative -> B02 obligation) |
 | 999 | Codex 2 | [PLAN:DESC-15] cross-check B01 | DONE (Q-916; 6 rows confirm; spine ADMITS; inventory = 32) |
 | 1000 | Codex 2 | [PLAN:DESC-16] confirm V005 | DONE (Q-917; substance confirmed; set deltas fall; REDUCE-TO-DIGESTS) |
-| 1002 | Dario | [PLAN:DESC-18] demand V006 — digests only, terminal | QUEUED (behind 1001) |
+| 1002 | Dario | [PLAN:DESC-18] demand V006 | DONE (Q-919; digests only; residue zero; four classes retired) |
+| 1004 | Codex 2 | [PLAN:DESC-20] confirm V006 — the demand map's final seal | QUEUED (behind 1003) |
 | 1001 | Dario | [PLAN:DESC-17] B01 V002 | DONE (Q-918; 32 rows; nothing promoted; disclaimer into the stop) |
 | 1003 | Codex 2 | [PLAN:DESC-19] spot-confirm B01 V002 + digest ruling | QUEUED (needs keystroke) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
