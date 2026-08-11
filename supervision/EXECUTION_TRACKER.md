@@ -802,9 +802,11 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | TURN | principal | THE DESCENT SECTION OPENS (Q-901; plan change-logged) | SEALED |
 | 985 | Codex 2 | [PLAN:DESC-1] THE DESCENT AUDIT | DONE (Q-903; trace ABSENT; 0/4 maps; 1 selector = omega_phys; basis B01-B15) |
 | 987 | Codex 2 | [PLAN:DESC-3] demand check | DONE (Q-904; subassembly stands; U7-U12 join; PathCert form exists) |
-| 989 | Dario | [PLAN:DESC-5] demand V002 (whole-section closure) | QUEUED (needs keystroke) |
+| 989 | Dario | [PLAN:DESC-5] demand V002 (whole-section closure) | RUNNING (typed) |
 | 988 | Dario | [PLAN:DESC-4] audit check | DONE (Q-905; spine stands; 3 assets booked; row 14 refreshed) |
-| 990 | Codex 2 | [PLAN:DESC-6] audit V002 (assets + fixes) | QUEUED (needs keystroke) |
+| 990 | Codex 2 | [PLAN:DESC-6] audit V002 (assets + fixes) | RUNNING (typed) |
+| 991 | Codex 2 | [PLAN:DESC-7] spot-check demand V002 | QUEUED (chains after 990; blocked-guard) |
+| 992 | Dario | [PLAN:DESC-8] spot-check audit V002 | QUEUED (chains after 989; blocked-guard) |
 | 986 | Dario | [PLAN:DESC-2] the demand at bytes | DONE (Q-902; 18+1 conditions; no single source carries the demand; citation-window finding) |
 | 987 | Codex 2 | [PLAN:DESC-3] cross-check the demand (OVERNIGHT-CHAINED; blocked-guard) | QUEUED (chains after 985) |
 | 988 | Dario | [PLAN:DESC-4] cross-check the audit | BLOCKED-CLEAN (chain fired; subject not yet mirrored — 985 still running; morning keystroke re-runs) |
