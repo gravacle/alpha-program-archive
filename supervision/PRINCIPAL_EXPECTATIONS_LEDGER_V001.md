@@ -314,3 +314,5 @@ does not supply — scores the expectation PARTIALLY supported (the construction
 hole, named and typed, is the true boundary datum, smaller than every previous candidate). A failure
 of the FRAME itself (the pipeline is not an assembly spec at all) scores NOT SUPPORTED. Weight zero;
 pointer-only; the lane running the execution stays blind to this entry.
+
+### PE-21 SCORING (2026-08-11, at 1040, CLAIMED pending check): PARTIALLY SUPPORTED, on the strong branch. The construction frame was RIGHT: the carrier assembles from the ratified premises, the history sector is B ≅ C(Y) BY CONSTRUCTION (the canonical-inclusion half of the expectation verbatim), and no field-factor arrow is needed on the executed route. The hole is named, typed, and located — Obj_0, the joint microscopic object with its common-origin state Θ_joint — and it is the smallest boundary datum the program has ever displayed: one object, disclaimed by the premises' own provenance ceiling, whose supply would cascade through res_B (sealed, exact) to close the port. The pipeline was an assembly spec; it assembled everything except the one thing its premises expressly declined to claim.
