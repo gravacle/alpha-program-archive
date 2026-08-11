@@ -351,3 +351,17 @@ wall is then record-level, not machinery-level, and the boundary conversation pr
 terms); a stop naming a missing SURFACE object scores PARTIAL (the true boundary datum moves one
 level down, again). Weight zero; pointer-only; the lane running the attempt stays blind to this
 entry.
+
+
+### THE TERMINUS RULE (sealed 2026-08-11, binding on the registrar; occasioned by the principal: "Seems like every time I ask the road gets longer.")
+
+The derivation-depth regress ends here. The SURFACE-FIRST attempt (PE-22's relay and its
+opposite-lane check) is the FINAL derivation depth for the section's open object — grounded not in
+impatience but in definition: the record's physical surface is the last thing that IS the record;
+if it cannot produce the object, no deeper "record" exists to ask. THEREFORE, binding regardless of
+outcome: after 1048 and the surface-first pair, the principal's nine-values forward hook SCORES
+TERMINAL — either the surface wrote the object (the road continues with no decision), or the
+boundary is CERTIFIED and the supply decision goes to the principal exactly once, on the residue as
+then displayed. No further derivation depth may be authored against this object by any lane or by
+the registrar. A genuinely new sealed ground discovered later reopens by the register's normal
+reopen-conditions, not by relay momentum.
