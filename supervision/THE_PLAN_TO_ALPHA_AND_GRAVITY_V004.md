@@ -127,6 +127,19 @@ EXIT: the program's gravity claim on record, scored, done — CLAIMABLE only thr
 
 ## CHANGE LOG
 
+### THE DESCENT TURN (2026-08-11, principal: "so let's resolve this")
+Lines 2-5's route updates: the anchor-by-entry route is CLOSED BY THEOREM against the instrument as
+constituted (Q-889-Q-900: four lawful gauntlet rejections; the K4 closed-form solution; the Dirac and
+H-OTHER impossibilities; every wall traced — K4 law-forced, the pinning authored with the port typed
+choose-or-derive). The record's one standing require is PROVENANCE-SHAPED: the history content must
+DESCEND FROM THE COMMON ORIGIN with a certificate (the port's would-build; P5's ceiling; K7's demand
+— one require, three statements). THE SECTION NOW OPEN: satisfy the require — the descent
+investigation and, if the object's shape demands it, the lawful supply-receiver amendment. Opening
+moves per law 10: the descent audit (forcing-order classification) before any construction. Lines
+2-5 remain open and close only when the require is satisfied or refuted; either terminus is a lawful
+completion of record. All fences unchanged.
+
+
 - V004 (2026-08-09): PHASE G RESTRUCTURED per the principal ("we're going to cover
   that gravity work right here"): G splits into G-CONTENT (Gc1-Gc5, interleaved with
   the B/C spine, no alpha gate — evidence: the ingredients ledger is largely proved

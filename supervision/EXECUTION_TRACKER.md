@@ -799,6 +799,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 983 | Dario | [PLAN:AXN-BUILD-D82] induction-pinning provenance | DONE (Q-898; FORCED off the U2 port signature; no reopener) |
 | 984 | Codex 2 | [PLAN:AXN-BUILD-C83] the invited attack | DONE (Q-899; WEAKENS — slot unbound, equality uninstantiated; CONFLICT; registrar adjudicating) |
 | ADJUDICATE2 | registrar | Q-900: the port is specified-not-instantiated, omega_phys typed choose-or-derive; WEAKENS stands; SECTION VERDICT complete; morning menu to principal | SEALED |
+| TURN | principal | THE DESCENT SECTION OPENS (Q-901; plan change-logged) | SEALED |
+| 985 | Codex 2 | [PLAN:DESC-1] THE DESCENT AUDIT (law-10 classification) | QUEUED (needs keystroke) |
+| 986 | Dario | [PLAN:DESC-2] the demand at bytes (what the require requires) | QUEUED (needs keystroke) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
