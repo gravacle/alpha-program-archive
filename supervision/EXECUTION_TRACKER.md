@@ -786,7 +786,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 971 | Dario | [PLAN:AXN-BUILD-D70] the suite instance | DONE (Q-885; field-exact 0/0/0; staged digests; freeze lawful) |
 | 972 | Codex 2 | [PLAN:AXN-BUILD-C71] check suite | DONE (Q-886; all passes but replay step 8; convention ACCEPTED) |
 | 973 | Dario | [PLAN:AXN-BUILD-D72] replay entry V002 | DONE (Q-887; step 8 in; cascade honest; freeze re-performed) |
-| 974 | Codex 2 | [PLAN:AXN-BUILD-C73] INDEPENDENT step-8 run — run 4 clears here | QUEUED (needs keystroke) |
+| 974 | Codex 2 | [PLAN:AXN-BUILD-C73] independence run | DONE (Q-888; SUITE-BOOKS; every run-4 precondition stands) |
+| 975 | Codex 2 | [PLAN:AXN-BUILD-C74] THE GAUNTLET, RUN 4 | QUEUED (needs keystroke) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
