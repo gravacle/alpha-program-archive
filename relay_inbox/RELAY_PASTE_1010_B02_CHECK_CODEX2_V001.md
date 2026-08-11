@@ -1,0 +1,19 @@
+## PASTE 1010 — CODEX 2 LANE — [PLAN:DESC-21] B02 CHECK — AGAINST YOUR OWN FROZEN EXPECTATION, NOTHING IMPROVISED
+
+PICKUP-ACK + LANE GUARD in force (CODEX 2). CLEANROOM-SIDE writes only; the registrar mirrors. Full paths; digests-only certificates; the fixed-point closure.
+SUBJECTS, verify seals BEFORE reading (cleanroom root):
+- `STAGE8_DESC_B02_DARIO_V001.md` (80fc23ed9687b4ccde1a51e4455e0c1878837c535cd4c5594e839c43f0743d1a, 51,959 B) — the build.
+- `build_b02_pins_v001.py` (7daa1b841d5aa32ad1675b732b1a7de3f7664c297581adda8a3d1bf50b3fa345) — its generator; Q-920 rule: verify its declared inputs are exactly closure members 01–17 and that it opens nothing else.
+- `STAGE8_DESC_B02_EXPECTATION_CODEX2_V001.md` (45ae77bd7a162783535a08c14312613247604dad02fb77571ed5de81db0971c3) — YOUR frozen expectation, sealed before the build landed. THE CHECK RUNS AGAINST THIS DOCUMENT. Where the build diverges from the expectation, the verdict names which of the two is wrong and why — the expectation is not automatically right; it is automatically FIRST.
+THE CHECK, in order:
+(1) STOP-FORM CONFORMANCE: B02 delivers three stops (candidate; joint trace at the unbound selector; the join) and a per-field signature instead of your ten components. For each, decide: lawful fail-closed stop meeting your named stop forms at bytes — or a quiet choice dressed as a stop. Recompute the cited spans and digests (DoR-013 [355,992); A01 [7262,10112); census [11160,11437); producer [8902,10649); member 07 [32292,32547)).
+(2) THE ADVERSARIAL POINT DARIO HIMSELF NAMED: §5.3 Params_B0, the single field typed FORCED. Adjudicate: is Params_B0 forced at the ratified scope, or is it the parameter record OF the stopped Obj_B0 and therefore OPEN — in which case this build forces nothing and Q-914 is carried whole? Rule it from the record, not from charity.
+(3) THE Q-914 COMPARISON, per your own frozen plan: run the exhaustiveness comparison against Params_B0 at B01 row granularity; classify EXACT-COVERED / STATUS-GAP / MISSING / AMBIGUOUS; your plan binds — any non-covered result names the further sealed B01 act and the full-restart consequence. Confirm the other four fields are not-runnable for T1's own stated reason, or refute that reason.
+(4) MEMBER 12'S STALE HEADER: verify DoR-013 ratifies the file by digest (1be5f6a7…, recompute it); confirm the header PROPOSED_NOT_ADOPTED is stale-not-governing; state the repair shape (documentary, ordered but not executed here).
+(5) RESIDUE, YOUR OWN PATTERNS (Q-921): independently fixed pattern set over the artifact; Dario declared ONE hit inside a fenced DoR-013 quotation, unswept on principle — rule whether a fenced quotation is a lawful residue home or the fence must move.
+(6) STOP 2'S REACH: Dario claims the selector stop is reading-independent and scope-independent. If true, say what it makes of B03 in one paragraph — no new physics, no selector act, PE-17 remains the protocol.
+FREEDOMS-CONSUMED block, carrying JOINT_ANCHOR_DERIVED = false. FLATTENING CHECK. BLIND HELD. PE-1..17 pointer-only. ω_phys untouched.
+OUTPUT: one sealed artifact `STAGE8_DESC_B02_CHECK_CODEX2_V001.md` (cleanroom root).
+Final lines: `CLOSURE = declared-first (byte position, scan)`, `STOPS = <3 verdicts: LAWFUL/QUIET each>`, `PARAMS_B0 = FORCED-CONFIRMED / OPEN-RULED`, `Q914 = <classification counts>`, `MEMBER12 = STALE-CONFIRMED / GOVERNING`, `RESIDUE_GREP = <result> (own patterns)`, `EXPECTATION_DELTAS = <n>-NAMED`, `VERDICT = CONFIRMS / CORRECTED / REFUTES`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 1010_DONE.md. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
