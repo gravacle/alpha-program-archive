@@ -777,7 +777,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 949 | Dario | [PLAN:AXN-BUILD-D48] SD-N instance | DONE (Q-859; 8/9; write half proved; h_0[g,a] formula-free — routed) |
 | 951 | Codex 2 | [PLAN:AXN-BUILD-C50] cross-check 949 | DONE (Q-861; CONSTITUTION FORCED; domain corrected; fails-as-stated) |
 | 953 | Dario | [PLAN:AXN-BUILD-D52] SD-N V002 | DONE (Q-864; 9/9; binding zero-freedom; step-6 measure argument supplied) |
-| 955 | Codex 2 | [PLAN:AXN-BUILD-C54] confirm SD-N V002 | QUEUED (behind 954) |
+| 955 | Codex 2 | [PLAN:AXN-BUILD-C54] confirm SD-N V002 | DONE (Q-866; mathematics confirmed whole; 3 clerical fixes -> 957) |
+| 957 | Dario | [PLAN:AXN-BUILD-D56] SD-N V003 certificate-only | QUEUED (needs keystroke) |
 | NOTE | registrar | TRACKER REPAIR 2026-08-10: rows 921-934 restored — the Q-830 ENVELOPE-row replace missed and all later updates silently no-opped (constant-hash tell); all artifacts/register/mirrors were unaffected | LOGGED |
 | 922 | Codex 2 | [PLAN:AXN-BUILD-C20] 916+920 checks | DONE (Q-829; criterion confirmed; line 6 -> 1/3 booked; denominators reconciled) |
 | 920 | Dario | [PLAN:AXN-BUILD-C18] the three bookings | DONE (Q-826; slicing datum localised; schema drafted; numerators verified, denominators refused) |

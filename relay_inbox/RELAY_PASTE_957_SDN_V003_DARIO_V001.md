@@ -1,0 +1,11 @@
+## PASTE 957 — DARIO LANE — [PLAN:AXN-BUILD-D56] SD-N V003 — CERTIFICATE-ONLY (THE THREE CLERICAL FIXES, NOTHING ELSE)
+
+PICKUP-ACK + LANE GUARD in force (DARIO). CHAINED PICKUP applies. STATE-BRIEF PINNING: verify and read PROGRAM_STATE_BRIEF_V005.md (e26f0d16055f…) before task work.
+(Same Dario session rules. ARCHIVE-SIDE writes only; the registrar mirrors. BINDING: closure declared FIRST, exact pinned members, zero-hit scan, byte-position audit — and this time run the NUMERAL GREP over every edited enumeration and count-bearing sentence before sealing; two of the three defects are its exact prey.)
+SUBJECTS, verify seals BEFORE reading: your V002 (ee8ff503c07f…); the confirmation (STAGE8_AXN_SDN_V002_CONFIRMATION_CODEX2_V001.md, 02ebb302a57094a14a88956661fe24044c1826d2f163672272c7968a3a767b7a, in workspace/). The mathematics is CONFIRMED COMPLETE — domain, transport, step-6 forced, H/2, L^q, zero-freedom binding, carriage. The verdict is REMAINS on three CERTIFICATE-ONLY defects.
+TASK — EXACTLY THREE FIXES, ALL CONTENT BYTE-CARRIED: (1) the closure marker's declared end byte corrected to the actual (2970 vs the stale 2964 — recompute on the new file, of course); (2) the top heading identifies V003 (was stale at V001); (3) the section-9 audit wording updated: s_± (not s_*) and the differential half described as SEALED (the "Constitutive/stopped" line was V001-era; V002 sealed it with no stop). NOTHING mathematical changes; every confirmed operative block byte-identical; hunk-accounted with the replayed count stated.
+FREEDOMS-CONSUMED block, carrying JOINT_ANCHOR_DERIVED = false. FLATTENING CHECK. CLAIMED until the opposite lane spot-confirms. PE-1..14 pointer-only. BLIND held; all scales symbols.
+OUTPUT: one sealed artifact `STAGE8_AXN_SDN_SLICING_INSTANCE_DARIO_V003.md`
+Final lines: `CLOSURE = declared-first (byte position — ACTUAL, verified thrice)`, `FIXES = 3/3`, `CONTENT = BYTE-CARRIED-VERIFIED`, `NUMERAL_GREP = RUN-CLEAN`, `DIFF = hunk-accounted (replayed count)`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 957_DONE.md, then chained pickup. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
