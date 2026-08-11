@@ -15,13 +15,13 @@
   record (Q-894/Q-895); the record's charge physics sides with SURVIVAL (E_ch(F_N)=F_N computed);
   the H-DIRAC rescue is IMPOSSIBLE-OF-INSTRUMENT (faithful restriction can't be a point mass,
   Q-892/Q-893).
-- RUNNING NOW: 981 (Dario) — H-OTHER feasibility: does a faithful functional exist whose weighted
+- LANDED OVERNIGHT: 981 (Q-896; IMPOSSIBLE-OF-INSTRUMENT by closed form; fork A EMPTY; the horns theorem; joint-emptiness consequence in the register). WAS: 981 (Dario) — H-OTHER feasibility: does a faithful functional exist whose weighted
   family satisfies K4's equation with the sealed amplitude A_N = (1-p_[A]) + p_[A]chi_N? The K4
   equation worked as mathematics; verdict CONSTRUCTIBLE / IMPOSSIBLE / CONDITIONAL.
 
 ## THE MORNING'S SEQUENCE
 1. Process 981's DONE (registrar; likely already landed overnight).
-2. Keystroke: 982 -> Codex (cross-check 981).
+2. Keystroke: 982 -> Codex (cross-check 981; queued in the inbox; the marginal identification is the press point).
 3. THE FORK to Brian, every leg proven: (A) H-OTHER with skeleton (if constructible) -> fresh entry
    -> build -> checks -> RUN 5; (C) accept the rejection (if impossible — which would itself be a
    major record fact: the gate excludes every lawful history entry, reopening only by derivation).
