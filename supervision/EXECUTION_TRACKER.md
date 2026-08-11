@@ -778,6 +778,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | ADJUDICATE | registrar | Q-877: both lanes read real bytes; V003 repair incomplete by one summary row; selector stays dissolved conditional on V004 | SEALED |
 | 965 | Codex 2 | [PLAN:AXN-BUILD-C64] instrument V004 | DONE (Q-879; row aligned; sole stale row; approval blank) |
 | 968 | Dario | [PLAN:AXN-BUILD-D67] cross-check instrument V004 | DONE (Q-880; READY; concrete harm named; sweep replayed) |
+| SUPERSEDE2 | principal | INSTRUMENT V004 APPROVED — the aligned row governs | SEALED (Q-881) |
 | 966 | Dario | [PLAN:AXN-BUILD-D65] families V003 | DONE (Q-878; 8/8 jointly total + 2 certs; lemmas displayed) |
 | 967 | Codex 2 | [PLAN:AXN-BUILD-C66] cross-check families V003 | RUNNING (chained; ACK seen) |
 

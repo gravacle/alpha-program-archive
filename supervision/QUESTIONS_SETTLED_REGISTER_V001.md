@@ -16114,6 +16114,10 @@ The derive-and-vary campaign for the complete compact source/gauge/gravity/envir
 
 **Answer: READY-FOR-THE-PRINCIPAL, no defect — ruled by the checker whose own re-typing the alignment vindicates, with the bar's symmetry stated.** Dario's 968 (STAGE8_AXN_INSTRUMENT_V004_CHECK_DARIO_V001.md, 3ba794399ac8…, seal-verified): ROW = CONSISTENT-WITH-5.1, checked clause-by-clause against types re-opened at bytes — **and the stale row's harm made concrete: as written, V003's rejection clause would have rejected a lawful bounded-class instance for lacking matrices that variant does not demand — the exact collision 963 exposed and Q-877 conditioned on.** The rejection clause is now variant-conditional with the common gates retained. UNMOVED verified by rehash (the 907-byte inventory block and the guard byte-identical; 22 hunks; zero pure deletions; exactly one row differs). ROW_GREP replayed with the checker's own keyword set: 14 JAC rows, 3 variant-relevant, JAC-14 the sole single-form and sole differing row — with the donor row (JAC-11) confirmed never-stale (internal consistency, not luck), and the 9-vs-14 counting difference STATED rather than papered ("agreeing on a conclusion is not the same as agreeing on a count"). FORM lawful (Q-877's span rehashed and confirmed to open on the adjudication itself); the governance question underneath declined as before — it is the principal's. **THE V004 APPROVAL GOES TO THE PRINCIPAL NOW; run 4 goes when it and 967's families verdict both stand.**
 
+## Q-881 — V004 APPROVED (2026-08-10, PRINCIPAL ACT) — THE ROW GOVERNS AS THE SCHEMA READS
+
+**The principal approved the V004 supersession** (INSTRUMENT_V004_SUPERSESSION_DECISION_OF_RECORD_V001.md, 41a63ef472de976b…): one row aligned to the schema approved at Q-870, everything else byte-carried, the whole repair chain visible on the record (schema fixed -> row missed -> adjudicated -> aligned -> checked -> approved). Governing references update to a195edb03b36…. **RUN 4 waits on exactly one thing: 967's families verdict.**
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
