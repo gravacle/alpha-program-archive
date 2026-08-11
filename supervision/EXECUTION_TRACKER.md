@@ -793,8 +793,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 977 | Dario | [PLAN:AXN-BUILD-D76] Dirac feasibility | DONE (Q-892; IMPOSSIBLE-OF-INSTRUMENT; the H-DIRAC leg closes) |
 | 979 | Codex 2 | [PLAN:AXN-BUILD-C78] cross-check the impossibility | DONE (Q-893; CONFIRMED; authorial reading on record) |
 | 978 | Dario | [PLAN:AXN-BUILD-D77] K4 provenance | DONE (Q-894; FORCED-BY the law side; charge sides with survival; challenge N-A) |
-| 980 | Codex 2 | [PLAN:AXN-BUILD-C79] cross-check 978 (nu-vs-lambda first) | QUEUED (needs keystroke) |
-| 981 | Dario | [PLAN:AXN-BUILD-D80] H-OTHER feasibility | QUEUED (needs keystroke) |
+| 980 | Codex 2 | [PLAN:AXN-BUILD-C79] cross-check 978 | DONE (Q-895; FORCED-CONFIRMED; authorial testimony on record) |
+| 981 | Dario | [PLAN:AXN-BUILD-D80] H-OTHER feasibility | RUNNING (ACK seen) |
 
 | 943 | Codex 2 | [PLAN:AXN-BUILD-C42] slicing-datum decision instrument | DONE (Q-852; 8 demands; 4 routes; datum confirmed absent) |
 | 944 | Codex 2 | [PLAN:AXN-BUILD-C43] manifest fix | DONE (Q-854; key in; clause named; 3-payload delta) |
