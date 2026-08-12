@@ -883,7 +883,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1066 | Dario | [PLAN:DESC-35] B03 closure status | DONE (Q-981; B03 OPEN; remainder = TWO objects — the measure on Y (undetermined) + the d_U2 witness; principal decision on the measure now ripe) |
 | 1075 | Dario | [PLAN:DESC-36] MEASURE HUNT | DONE (Q-983; STILL-CONTINUUM structurally — Z_N was already in B; arrows don't constrain states; MANDATE-FULL only road; measure decision on proven ground) |
 | — | PRINCIPAL | **MEASURE SUPPLY MANDATE ratified** (DoR b9716661…): candidate ω_phys authoring commissioned on proven-undetermined ground; entry-by-digest returns to the principal | SEALED |
-| 1076 | Dario | [PLAN:DESC-37] MEASURE CANDIDATE | QUEUED (UN-HELD — necessity proved; needs keystroke) |
+| 1076 | Dario | [PLAN:DESC-37] MEASURE CANDIDATE | DONE (Q-985; μ=Haar, 9F/1A one authored clause; self-attack μ(Z_N)=0 erases the phase in expectation — consistent, blind-test's question; SM-6 gap taken; check = 1078) |
+| 1078 | Codex 2 | [PLAN:DESC-37] MEASURE CANDIDATE CHECK — μ(Z_N)=0 lawfulness; A1 single-authored; SM-6; ENTRY-GATING | QUEUED (needs keystroke) |
 | 1077 | Dario | [PLAN:DESC-37] NECESSITY PROBE | DONE (Q-984; NEEDS-FULL-MEASURE — the port consumes the functional via GNS; Y NECESSARY; constructive vs output necessity distinguished; PE-23 not supported) |
 | 1067 | Codex 2 | [PLAN:DESC-24] census re-runs | DONE (Q-975; 1/5/3 — two supersessions fold into the live chain; Arm-B pointer repair queued at idle) |
 | 1068 | Codex 2 | [PLAN:DESC-34] delivery CHECK | DONE (Q-982; CONFIRMS joint object + measure stop; tally tightened to 6/6 open; numeric-fence catch on the residual — symbolic identity stands) |
