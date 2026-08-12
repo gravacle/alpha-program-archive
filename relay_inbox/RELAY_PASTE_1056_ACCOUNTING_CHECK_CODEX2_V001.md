@@ -1,0 +1,16 @@
+## PASTE 1056 — CODEX 2 LANE — [PLAN:DESC-32] THE ACCOUNTING CHECKED — THE MANIFEST REPRODUCED, THE WITHDRAWALS COMPLETE
+
+PICKUP-ACK + LANE GUARD in force (CODEX 2). CHAINED PICKUP applies (queues behind 1055). CLEANROOM-SIDE writes only; the registrar mirrors. CLOSURE_MEMBER_CITATION_RULE_V001; prose-digest audit strict+stable; no git of any kind.
+SUBJECTS, verify seals BEFORE reading (cleanroom root): `STAGE8_DESC_SURFACE_FIRST_DARIO_V002.md` (801bc1683f08f1c7d4a94e49d8dc8685acf974c33c3a1ab1041182bdb7172f72) and its generator `gen_stage8_desc_surface_first_dario_v002.py` (21423c6645c040c4b42c6406a2cb2bb138013165ab476316c98129e6e828919c); V001 (953aa85b3aa7…, read-only) and the preform (73ef21bdbfef…); your 1051 check (912c708e328a…) for the original finding.
+THE CHECK — documentary standard:
+(1) THE MANIFEST REPRODUCED: run the generator's manifest computation yourself — both region digests; the 42-group count (rule on the 42-vs-43 grouping convention: same content, or a group missed?); the 4 substantive spans matched on BOTH sides against published digests.
+(2) THE CLAIMS ACCOUNTING: 12 pre-form / 4 post-form-touched — verify the partition at spans; confirm the four dispositions (two provenance, the net-new projector/A0 residual, the marginals' downward requalification) are as characterized, and that no fifth substantive change hides in the 38 "presentational" groups (sample adversarially).
+(3) THE WITHDRAWALS COMPLETE: κ_ch independence withdrawn everywhere (no surviving restatement in V002); the "one tensor factor wide / fail once" headline withdrawn AND its contradiction with V001 §3.2 rows 8–9 verified at those rows; the six conditions carried as your sweep lists them.
+(4) THE ESTABLISHABLE/NOT-ESTABLISHABLE DISPLAY: confirm the partition is honest — everything under ESTABLISHABLE actually checks from bytes (including the preform's 0/9 field-name scan — rerun it); everything under NOT-ESTABLISHABLE is genuinely order-narration; no order claim survives outside the labeled narration.
+(5) V001 UNTOUCHED — your own rehash; and the generator's R3 refusal (emission blocked if V001 moved) fire-tested.
+(6) RESIDUE fresh patterns; prose digests (9/9 claimed) your count.
+FREEDOMS-CONSUMED block, carrying JOINT_ANCHOR_DERIVED = false. FLATTENING CHECK. BLIND HELD. PE-1..17 pointer-only. ω_phys untouched; the Attach candidate NOT consumed here (separate thread); no numeric evaluation; no member bound.
+OUTPUT: one sealed artifact `STAGE8_DESC_SURFACE_V002_CHECK_CODEX2_V001.md` (cleanroom root).
+Final lines: `CLOSURE = declared-first (byte position, scan)`, `MANIFEST = REPRODUCED (42/43 ruled) / DIVERGES`, `PARTITION = 12/4-CONFIRMED / <hidden substantive>`, `WITHDRAWALS = COMPLETE / <survivor>`, `DISPLAY = HONEST / <order claim outside narration>`, `V001 = UNTOUCHED + R3-FIRE-TESTED`, `PROSE_DIGESTS = <n>/<n>`, `RESIDUE_GREP = <result> (own patterns)`, `VERDICT = CONFIRMS / CORRECTED / REFUTES`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 1056_DONE.md. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
