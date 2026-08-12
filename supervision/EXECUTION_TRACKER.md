@@ -884,7 +884,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1067 | Codex 2 | [PLAN:DESC-24] census re-runs | DONE (Q-975; 1/5/3 — two supersessions fold into the live chain; Arm-B pointer repair queued at idle) |
 | 1068 | Codex 2 | [PLAN:DESC-34] delivery CHECK (guarded on delivery mirror) | QUEUED (chains after 1070) |
 | 1070 | Codex 2 | [PLAN:DESC-33] V006 RECHECK | DONE (Q-977; CORRECTED — operative content perfect; the numbering trap's 10th firing broke the binding surface; trigger held) |
-| 1071 | Dario | [PLAN:DESC-33] V007 — restore the 27-member bindings + citation-resolution refusal path | QUEUED (needs keystroke) |
+| 1071 | Dario | [PLAN:DESC-33] V007 bindings | DONE (Q-978; 27+3 IDs stable, 34/34 citations resolve, citation gate installed; five lessons = five refusal paths; trigger four = 1072) |
 | 1072 | Codex 2 | [PLAN:DESC-33] V007 RECHECK — trigger attempt four (guarded) | QUEUED (after 1071) |
 | — | PRINCIPAL | **PROSPECTIVE ENTRY + CASCADE AUTHORIZATION ratified** (both rulings quoted; entry auto-seals on 1062's verbatim trigger lines; cascade authorized under five hard conditions incl. evaluator-sole-authority and verdict-presented-raw) | SEALED |
 | — | REGISTRAR | **OVERNIGHT PROTOCOL**: registrar feeds both inbox queues one step ahead all night; lanes chain on their own DONEs; any stall BLOCKs honestly for a morning number | STANDING |
