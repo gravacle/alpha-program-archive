@@ -862,6 +862,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1047 | Dario | [PLAN:DESC-31] SCHEMA + INTERSECTION | DONE (Q-958; SHAPE-SPACE-DISPLAYED, 0/9/0 delta NONE; MONOTONICITY — all constraints lower bounds, allow/require as terminal structure; census: the gate is a CLASS; check = 1048) |
 | 1048 | Codex 2 | [PLAN:DESC-31] MONOTONICITY CHECK — hunt the upper bound; hunt the second universal; census; branch product | QUEUED (needs keystroke) |
 | — | REGISTRAR | **TERMINUS RULE sealed**: surface-first is the FINAL derivation depth; after 1048 + the surface pair the hook scores TERMINAL either way; no further depths | STANDING |
+| 1049 | Dario | fresh-session bootstrap V007 (pointer via clipboard after /clear) | QUEUED |
+| 1050 | Dario | [PLAN:DESC-32] SURFACE-FIRST — build the source from the physics; exhibition not selection; FINAL DEPTH | QUEUED (fresh session after 1049 boot) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
