@@ -877,6 +877,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1060 | Codex 2 | [PLAN:DESC-33] V003 CHECK | DONE (Q-970; CORRECTED — all substantive holds; third closed-claim break caught code-vs-code (3 aliased symbols); conditional entry LAWFUL-SHAPE-STATED) |
 | 1061 | Dario | [PLAN:DESC-33] CANDIDATE V004 — the three-symbol map fix, alias-free extractor, nothing else | QUEUED (needs keystroke) |
 | 1062 | Codex 2 | [PLAN:DESC-33] V004 RECHECK — the final gate; SURVIVES-FOR-ENTRY on the table | QUEUED (after 1061's DONE — needs keystroke) |
+| — | PRINCIPAL | **PROSPECTIVE ENTRY + CASCADE AUTHORIZATION ratified** (both rulings quoted; entry auto-seals on 1062's verbatim trigger lines; cascade authorized under five hard conditions incl. evaluator-sole-authority and verdict-presented-raw) | SEALED |
+| — | REGISTRAR | **OVERNIGHT PROTOCOL**: registrar feeds both inbox queues one step ahead all night; lanes chain on their own DONEs; any stall BLOCKs honestly for a morning number | STANDING |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
