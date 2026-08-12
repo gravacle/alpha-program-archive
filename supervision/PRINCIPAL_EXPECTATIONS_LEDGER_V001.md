@@ -383,3 +383,22 @@ stationary structure is forced, and the one thing it does not dictate is HOW THE
 TO THE FIELD — the boundary datum of the coupling-constant program is a coupling. Any supply is
 the principal's act alone, carried with falsifier, open forcing slot, and battery
 overdetermination per the convertibility structure of record.
+
+
+## PE-23 — Y MAY NOT BE NECESSARY (sealed 2026-08-12, BEFORE the necessity probe runs; principal, verbatim: "So we're going to prove whether y is even necessary?")
+
+THE EXPECTATION: the free part of the measure μ on Y may wash out of the program's outputs — κ_record
+and alpha may depend only on FORCED INVARIANTS of μ (its U1-reality, a specific moment, ω(Z_N)'s
+already-proven-real value), not on the undetermined measure itself. If so, Y is not necessary, no
+measure need be authored, and the mandate (b9716661…) stands unspent. This is the gauge question
+aimed at the last object: determination and necessity are distinct — μ is proven undetermined
+(Q-983), and may yet be irrelevant. TEST (scorable at the necessity probe, sealed before its
+outcome): WASHES-OUT — every κ_record consumer of the state touches only forced invariants of μ —
+scores SUPPORTED outright (no authoring; the mandate is never spent; the section closes with the
+measure a gauge freedom, the best exit). NEEDS-INVARIANT-ONLY — consumers need a specific forced-or-
+authorable functional of μ, not the full measure — scores PARTIALLY supported (author the invariant,
+a far smaller object than a measure). NEEDS-FULL-MEASURE — some consumer needs μ itself — scores NOT
+SUPPORTED, and the sealed mandate fires as written, now doubly justified. The probe is
+refutation-shaped like Arm A: it can prove necessity (find one full-measure consumer) but confirms
+wash-out only at declared consumption, and that honest bound must be stated. Weight zero;
+pointer-only; the lane running the probe stays blind to this entry.

@@ -883,7 +883,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1066 | Dario | [PLAN:DESC-35] B03 closure status | DONE (Q-981; B03 OPEN; remainder = TWO objects — the measure on Y (undetermined) + the d_U2 witness; principal decision on the measure now ripe) |
 | 1075 | Dario | [PLAN:DESC-36] MEASURE HUNT | DONE (Q-983; STILL-CONTINUUM structurally — Z_N was already in B; arrows don't constrain states; MANDATE-FULL only road; measure decision on proven ground) |
 | — | PRINCIPAL | **MEASURE SUPPLY MANDATE ratified** (DoR b9716661…): candidate ω_phys authoring commissioned on proven-undetermined ground; entry-by-digest returns to the principal | SEALED |
-| 1076 | Dario | [PLAN:DESC-37] MEASURE CANDIDATE — authored U1-invariant probability measure on Y; ledger forced-vs-authored; PROPOSED_NOT_ADOPTED | QUEUED (needs keystroke) |
+| 1076 | Dario | [PLAN:DESC-37] MEASURE CANDIDATE | HELD (renamed out of inbox; fires only if 1077 returns NEEDS-FULL-MEASURE) |
+| 1077 | Dario | [PLAN:DESC-37] NECESSITY PROBE — does the answer depend on μ or only forced invariants? (PE-23; principal's 'is Y necessary') | QUEUED (needs keystroke) |
 | 1067 | Codex 2 | [PLAN:DESC-24] census re-runs | DONE (Q-975; 1/5/3 — two supersessions fold into the live chain; Arm-B pointer repair queued at idle) |
 | 1068 | Codex 2 | [PLAN:DESC-34] delivery CHECK | DONE (Q-982; CONFIRMS joint object + measure stop; tally tightened to 6/6 open; numeric-fence catch on the residual — symbolic identity stands) |
 | 1070 | Codex 2 | [PLAN:DESC-33] V006 RECHECK | DONE (Q-977; CORRECTED — operative content perfect; the numbering trap's 10th firing broke the binding surface; trigger held) |
