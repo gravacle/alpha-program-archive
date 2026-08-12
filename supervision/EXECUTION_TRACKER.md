@@ -880,6 +880,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1064 | Dario | [PLAN:DESC-33] V005 restoration | DONE (Q-973; insertion-only, digest-perfect; carriage blind spot named; inheritance condition surfaced via new R7; V005 = the ratified content exactly) |
 | 1065 | Codex 2 | [PLAN:DESC-33] V005 RECHECK | DONE (Q-974; CORRECTED — the 1062 spans were misbounded by one line each; trigger held again; two-line fix) |
 | 1069 | Dario | [PLAN:DESC-33] V006 — the two boundary lines, complete-block digests pinned | QUEUED (needs keystroke) |
+| 1066 | Dario | [PLAN:DESC-35] B03 close + basis sweep | QUEUED (chains behind 1063) |
+| 1067 | Codex 2 | [PLAN:DESC-24] census re-runs | DONE (Q-975; 1/5/3 — two supersessions fold into the live chain; Arm-B pointer repair queued at idle) |
+| 1068 | Codex 2 | [PLAN:DESC-34] delivery CHECK (guarded on delivery mirror) | QUEUED (chains after 1070) |
 | 1070 | Codex 2 | [PLAN:DESC-33] V006 RECHECK — entry trigger, third attempt (guarded on V006 mirror) | QUEUED (after 1069) |
 | — | PRINCIPAL | **PROSPECTIVE ENTRY + CASCADE AUTHORIZATION ratified** (both rulings quoted; entry auto-seals on 1062's verbatim trigger lines; cascade authorized under five hard conditions incl. evaluator-sole-authority and verdict-presented-raw) | SEALED |
 | — | REGISTRAR | **OVERNIGHT PROTOCOL**: registrar feeds both inbox queues one step ahead all night; lanes chain on their own DONEs; any stall BLOCKs honestly for a morning number | STANDING |
