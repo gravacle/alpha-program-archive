@@ -881,6 +881,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1065 | Codex 2 | [PLAN:DESC-33] V005 RECHECK | DONE (Q-974; CORRECTED — the 1062 spans were misbounded by one line each; trigger held again; two-line fix) |
 | 1069 | Dario | [PLAN:DESC-33] V006 — the two boundary lines | DONE (Q-976; complete blocks verified, fences depth-walked to zero; four-layer completeness lesson sealed; trigger attempt three = 1070) |
 | 1066 | Dario | [PLAN:DESC-35] B03 closure status | DONE (Q-981; B03 OPEN; remainder = TWO objects — the measure on Y (undetermined) + the d_U2 witness; principal decision on the measure now ripe) |
+| 1075 | Dario | [PLAN:DESC-36] MEASURE HUNT — does Z_N + entry constrain ω_phys? (principal chose hunt-first) | QUEUED (needs keystroke) |
 | 1067 | Codex 2 | [PLAN:DESC-24] census re-runs | DONE (Q-975; 1/5/3 — two supersessions fold into the live chain; Arm-B pointer repair queued at idle) |
 | 1068 | Codex 2 | [PLAN:DESC-34] delivery CHECK (guarded on delivery mirror) | QUEUED (chains after 1070) |
 | 1070 | Codex 2 | [PLAN:DESC-33] V006 RECHECK | DONE (Q-977; CORRECTED — operative content perfect; the numbering trap's 10th firing broke the binding surface; trigger held) |
