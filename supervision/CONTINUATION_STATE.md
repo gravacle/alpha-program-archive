@@ -1,64 +1,61 @@
-# CONTINUATION STATE — updated 2026-08-11 ~03:45 UTC (Brian retiring for the night)
+# CONTINUATION STATE — updated 2026-08-12 (post-Q-961, THE TERMINUS)
 
-## WHERE THE PROGRAM STANDS (frozen twenty)
-- Line 1 done. Lines 2-5: the ANCHOR ACCEPTANCE section, at its final fork (below). Line 6: four
-  pieces booked (record third; stage rule; common-domain theorem; SD-N slicing entry); one deferred
-  sitting (smoothing/Galerkin, one shared selector). Lines 7-12 wait on the gauntlet; 13-19 automatic;
-  20 the signature.
+READ FIRST, IN ORDER: this file → EXECUTION_TRACKER.md (rows 1004–1051 are the current arc) →
+QUESTIONS_SETTLED_REGISTER_V001.md entries Q-944 through Q-961 → PRINCIPAL_EXPECTATIONS_LEDGER_V001.md
+(PE-18 through PE-22, the terminus rule, and the TERMINAL SCORING at the end).
 
-## THE ANCHOR SECTION — one answer from its final decision
-- Register today ran Q-829 -> Q-895 (67 questions). Four gauntlet runs, each failing one level deeper:
-  envelope form -> unsatisfiable schema (repaired, V003+V004 approved) -> absent objects (built) ->
-  K4, the FIRST SUBSTANTIVE VERDICT: product-Haar history erases the charged term.
-- SETTLED BOTH-LANE: run 4 executed the clause as written (Q-890); K4 is RECORD-FORCED — transcribed
-  from the law-side P3 equation (3.1) on the weighted family, sealed 08-02, author testimony on
-  record (Q-894/Q-895); the record's charge physics sides with SURVIVAL (E_ch(F_N)=F_N computed);
-  the H-DIRAC rescue is IMPOSSIBLE-OF-INSTRUMENT (faithful restriction can't be a point mass,
-  Q-892/Q-893).
-- LANDED OVERNIGHT: 981 (Q-896; IMPOSSIBLE-OF-INSTRUMENT by closed form; fork A EMPTY; the horns theorem; joint-emptiness consequence in the register). WAS: 981 (Dario) — H-OTHER feasibility: does a faithful functional exist whose weighted
-  family satisfies K4's equation with the sealed amplitude A_N = (1-p_[A]) + p_[A]chi_N? The K4
-  equation worked as mathematics; verdict CONSTRUCTIBLE / IMPOSSIBLE / CONDITIONAL.
+## WHERE THE PROGRAM STANDS
 
-## THE MORNING'S SEQUENCE
-1. Process 981's DONE (registrar; likely already landed overnight).
-2. Keystroke: 982 -> Codex (cross-check 981; queued in the inbox; the marginal identification is the press point).
-3. THE FORK to Brian, every leg proven: (A) H-OTHER with skeleton (if constructible) -> fresh entry
-   -> build -> checks -> RUN 5; (C) accept the rejection (if impossible — which would itself be a
-   major record fact: the gate excludes every lawful history entry, reopening only by derivation).
-   Leg B (clause disposition) is FORECLOSED by the forcing ruling.
-- The anchor stays ADOPTED-AND-FROZEN throughout; run-4's rejection stands on the books.
+The descent section's open question is TERMINAL as of relay 1051 (Q-961), by the sealed terminus
+rule. Both lawful derivation routes are exhausted both-lane:
+- FORM-FIRST (Q-954–Q-959): the nine PhysicalSig_0 values — all constrained, none selected; the
+  record owns forcing machinery (SIG-T4.i upper bound; Port 3's Q-42 colimit) but NONE currently
+  fires; 0/9/0 final.
+- SURFACE-FIRST (Q-960–Q-961): the physics COMPOSES — a genuine joint source-record object with
+  both marginals forced (source = ω_tr, the channel's fixed point; record = two-term mixture with
+  symbolic sector-dimension weight κ_ch), TYPE-P on DoR-008/009/013 + A0 — and stops at the same
+  permissive wall.
 
-## PROCESS STATE
-- Chains fire ~half the time; assume every handoff needs a keystroke unless an ACK is confirmed.
-- Registrar rules now standing: assert+hash-change on every write; utf-8 header on heredocs; full
-  digests in pastes (truncated = prefix to verify, never complete); never amend a queued paste
-  in place (new number); numeral grep; tuple-parse replay; span-pin bounded to the entry.
-- PE-14 (witness-independence) and PE-15 (conventional-import audit: priced/gated/challenged) sealed;
-  PE-15 scored both directions (basis dissolved; K4 validated record-native).
-- Tracker current through 981; register through Q-895; all mirrored and pushed.
+THE CERTIFIED BOUNDARY (the residue of record, Q-961): the source-history ATTACH map (typed,
+absent, adjudicated "no such Attach exists" at TASK2D's adjudication file :314–334) PLUS the
+open-conditions list headed by A0's finiteness (also: SR representation, moving-front causality,
+write/tail analyticity, continuum preparation, family/character freedom). The boundary datum of
+the coupling-constant program is a coupling map.
 
-## SECTION VERDICT (2026-08-11 ~04:30 UTC) — READY FOR THE MORNING
-The anchor section is COMPLETE through Q-900. The finding, three-legged and both-lane: (1) the
-entered anchor is closed by theorem against the instrument as constituted (four rejections, all
-lawful); (2) the reopener exists of record — the U2 port types omega_phys choose-or-derive, so a
-governing-act amendment adding a second supply receiver is lawful IF it carries the port's own
-conditions; (3) the reopener's wall is the common-origin descent requirement (K7's demand, P5's
-ceiling, the port's own would-build) — TYPE-U materials. The record says one thing three ways: the
-history content must DESCEND from the common origin. MORNING MENU (principal): (i) close 2-5 as
-answered-for-the-current-instrument + re-read 7-12 against the finding; or (ii) authorize the
-amendment design + descent investigation as the next section. No keystrokes pending; both lanes idle
-and clean.
+THE DECISION IS THE PRINCIPAL'S, EXACTLY ONCE, on this display. Any supply carries the
+convertibility structure: falsifier + open forcing slot + battery overdetermination. NO FURTHER
+DERIVATION DEPTH MAY BE AUTHORED (terminus rule; reopen only by the register's normal
+reopen-conditions on a genuinely new sealed ground).
 
-## OVERNIGHT RESULT (2026-08-11 ~04:45 UTC)
-The descent section's opening pair is DONE both sides: 986 the DEMAND (Q-902: 18+1 conditions; no
-single source carries the demand; the port's citation window misses it) and 985 the SUPPLY AUDIT
-(Q-903: trace ABSENT at the receiver; 0/4 maps instantiated; S1-S4 partial/gated; 28 ingredients =
-17/4/1/6 with omega_phys the ONE selector; stop rule installed; basis B01-B15). The chained
-cross-checks both hit their blocked-guards (one a mirror race, one pre-mirror) and parked CLEAN.
-MORNING KEYSTROKES: type 987 into Codex and 988 into Dario (both subjects now mirrored and in place).
-Then: the section's working presentation — the 15-item basis vs the 18+1 demand — and the omega_phys
-selector freeze preparation go to the principal.
+## OPEN ITEMS BESIDE THE DECISION
 
-## STANDING DIRECTIVE (2026-08-11): PE-17 — if B03 stops, DIAGNOSE before routing; the stop comes to
-Brian as a conversation with the diagnosis displayed, never as a bare freeze. The prior: at this
-depth a non-forcing is presumed our error, not new physics (four-for-four this cycle).
+- Surface-first V002 owed (documentary): 1051 found QUARANTINE BROKEN in the 1050 artifact (the
+  preform not carried byte-identically; no pre-reading sealed receipt). Content re-derived
+  independently by the checker, so substance stands; the accounting repair is owed to Dario.
+- κ_ch correction to carry: the two routes were ONE COMPUTATION (consistency check, not
+  independent derivations) — never restate the cross-check claim.
+- The nine census-consumer re-runs from audit V003 (Q-946) remain routed-not-run.
+- After the principal's decision: the construction chain (Obj_0 → ExactSig_0 → inventory →
+  ExecutePorts_0 → Θ_hist delivery → six legs → B03 closes → B04–B15 → section close → lines
+  2–5/7/10 → cascade 13–19 → line 20).
+
+## PROTOCOL STATE (current rules of record)
+
+- Relays by sealed file + bare-number keystroke; Brian is the authorization channel, NEVER the
+  data channel (pointer pastes via pbcopy for fresh-session boots; latest boot = 1049/V007).
+- Dario = archive-side builder (workspace/ + relay_outbox/ only; NO git, read-only included);
+  Codex 2 = cleanroom-side checker. Builder never verifies own work; all CLAIMED until checked.
+- CLOSURE_MEMBER_CITATION_RULE_V001 (path + full digest + half-open span + span digest);
+  PROSE-DIGEST AUDIT strict+stable with LIVE members declared; ambiguous-anchor refusal
+  (flag-name trap: 8+ firings); residue counts from the scan, never predicted.
+- Fresh Dario session per major build (/clear + clipboard pointer); deferral-on-capacity is
+  correct behavior.
+- All gates false: alpha_computed, proof_authorized, kappa_record_computed, JOINT_ANCHOR_DERIVED.
+  ω_phys untouched. Every scale symbolic. PE ledger pointer-only for lanes.
+
+## SESSION CONTINUITY
+
+This state is account-independent: everything load-bearing is sealed on disk and pushed (archive
+repo = the integrity mechanism; last commit of the arc: f04f3774). A fresh registrar session on
+any account rebuilds from: this file, the tracker, the register, the PE ledger, and
+~/.claude/projects/-Users-bgm/memory/. The prior session's transcript is auxiliary, not required.
