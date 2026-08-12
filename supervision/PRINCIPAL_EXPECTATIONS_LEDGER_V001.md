@@ -365,3 +365,5 @@ boundary is CERTIFIED and the supply decision goes to the principal exactly once
 then displayed. No further derivation depth may be authored against this object by any lane or by
 the registrar. A genuinely new sealed ground discovered later reopens by the register's normal
 reopen-conditions, not by relay momentum.
+
+### PE-22 SCORING (2026-08-12, at 1050, CLAIMED pending check): SUPPORTED-WITH-STRUCTURE. The surface wrote what the form could not — a genuine joint object on the source-record face with both marginals forced, the record marginal carrying the symbolic sector-dimension weight from two independent routes — every entry a forced result, none a selection. And the wall the surface then hits is PHYSICS, not machinery: one tensor factor, inert for want of one named physical ingredient (the source-history attachment map). The machinery-vs-surface diagnosis was exactly right: the forms were faithfully reporting a permissiveness that lives in the physics, and the surface localized it. The residual boundary datum is the smallest and most physical it has ever been: a coupling map, in a program whose target is a coupling constant.
