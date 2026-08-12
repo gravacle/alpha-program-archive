@@ -4,7 +4,7 @@ CLOSURE_DECLARATION_BEGIN
 CLOSURE_STATUS = DECLARED-FIRST
 CLOSURE_BEGIN_BYTE = 00000000
 PREDECLARATION_REGION = EMPTY (closure opens at byte 0; the closure block is the first content)
-CLOSURE_END_BYTE = XXXXXXXX   (computed on bytes as a fixed point at seal time)
+CLOSURE_END_BYTE = 00003895   (computed on bytes as a fixed point at seal time)
 VERDICT_BEARING_SET = exactly the 6 content-addressed members below
 UNDECLARED_SEARCH_SURFACE_VERDICT_WEIGHT = forbidden
 PATH_RULE = every member carries its FULL path from the alpha-program-archive root and is rehashed
@@ -32,7 +32,7 @@ LIVE_MEMBERS = NONE.
 | 01 | `relay_inbox/RELAY_PASTE_1069_CANDIDATE_V006_DARIO_V001.md` | `1a782a8d3e9716ba98e0232aedbf07cc7a8752fe75445e15f13b5b7a644b2a93` | assignment |
 | 02 | `workspace/ATTACH_SUPPLY_MANDATE_DECISION_OF_RECORD_V001.md` | `ad9fc14e1f07494f7527d95f2a94ee7a26da9d49cc784c409f31325f54572213` | **THE AUTHORITY — verified live** |
 | 03 | `workspace/STAGE8_ATTACH_CANDIDATE_PROPOSAL_DARIO_V005.md` | `96ec8bf4e2706eced5b17489d53f3844402331854ed4ea82d54c212dec3a22d7` | **V005 — superseded, byte-untouched; source of all carried bytes** |
-| 04 | `workspace/STAGE8_ATTACH_CANDIDATE_V005_CHECK_CODEX2_V001.md` | `42fbe3930ee66805a4de7ba0d7bfb02e19d2b1e0dcb5db9cd6a68e1e6c2d3ba2` | **the V005 check — the misbounded-span finding** |
+| 04 | `workspace/STAGE8_ATTACH_CANDIDATE_V005_CHECK_CODEX2_V001.md` | `42fbe3930ee6680559aba21f1ee09b014a7bd4b227281b0c3e4cb0245a00fe07` | **the V005 check — the misbounded-span finding** |
 | 05 | `workspace/STAGE8_ATTACH_CANDIDATE_PROPOSAL_DARIO_V003.md` | `82d5c5dd59d1d0d6981a2cde7244c1dad1a66352c4159b8543f0554777abea31` | **V003 — READ-ONLY BYTE SOURCE of the two inserted lines** |
 | 06 | `supervision/PROGRAM_STATE_BRIEF_V005.md` | `e26f0d16055f3e833307c893704561cfb683065f0798e80e1dc0a9db7ed7799c` | state pin |
 
@@ -739,7 +739,7 @@ common shape is that each check was sound about the thing it measured and silent
 ## 9. FINAL LINES
 
 ```text
-CLOSURE = declared-first (byte 0; end byte XXXXXXXX computed as a fixed point on bytes; 6 members;
+CLOSURE = declared-first (byte 0; end byte 00003895 computed as a fixed point on bytes; 6 members;
      0 live; residue scan 0 hits from its own run.  The candidate's own 27-member closure is carried
      unaltered inside the byte-identical body; this relay's declared set is deliberately confined to
      what its two insertions depend on.)
@@ -777,7 +777,8 @@ CARRIAGE = SPANNED (all else byte-identical to V005)
 
 OUTPUT_INSPECTION = NONE-CERTIFIED
 PROSE_DIGESTS = 6/6, STRICT==STABLE
-CHAIN_INVOKED = CHAIN_PLACEHOLDER
+CHAIN_INVOKED = true (chained pickup proceeds to RELAY_PASTE_1066_B03_CLOSE_DARIO_V001.md,
+     an earlier unprocessed DARIO paste; 1070 is a CODEX 2 recheck this lane may not obey)
 VERB_AUDIT_SELF = CLEAN
 
 alpha_computed = false ; proof_authorized = false ; kappa_record_computed = false
