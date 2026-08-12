@@ -877,7 +877,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1060 | Codex 2 | [PLAN:DESC-33] V003 CHECK | DONE (Q-970; CORRECTED — all substantive holds; third closed-claim break caught code-vs-code (3 aliased symbols); conditional entry LAWFUL-SHAPE-STATED) |
 | 1061 | Dario | [PLAN:DESC-33] CANDIDATE V004 | DONE (Q-971; alias mechanism deleted, four invariants, 35/16/0 raw, carriage proved; the final recheck is live) |
 | 1062 | Codex 2 | [PLAN:DESC-33] V004 RECHECK | DONE (Q-972; CORRECTED — map perfect 35/16/0 code-vs-code; F14/F15 blocks deleted; TRIGGER HELD, no entry) |
-| 1064 | Dario | [PLAN:DESC-33] V005 — restore F14/F15 byte-identically (digest-pinned); nothing else | QUEUED (needs keystroke) |
+| 1064 | Dario | [PLAN:DESC-33] V005 restoration | DONE (Q-973; insertion-only, digest-perfect; carriage blind spot named; inheritance condition surfaced via new R7; V005 = the ratified content exactly) |
 | 1065 | Codex 2 | [PLAN:DESC-33] V005 RECHECK — entry trigger, second attempt; content-identity diff vs V003 | QUEUED (after 1064 — needs keystroke) |
 | — | PRINCIPAL | **PROSPECTIVE ENTRY + CASCADE AUTHORIZATION ratified** (both rulings quoted; entry auto-seals on 1062's verbatim trigger lines; cascade authorized under five hard conditions incl. evaluator-sole-authority and verdict-presented-raw) | SEALED |
 | — | REGISTRAR | **OVERNIGHT PROTOCOL**: registrar feeds both inbox queues one step ahead all night; lanes chain on their own DONEs; any stall BLOCKs honestly for a morning number | STANDING |
