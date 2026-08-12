@@ -865,6 +865,10 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1049 | Dario | fresh-session bootstrap V007 | CONSUMED (pointer protocol clean) |
 | 1050 | Dario | [PLAN:DESC-32] SURFACE-FIRST — FINAL DEPTH | DONE (Q-960; the surface COMPOSES — joint SR object, both marginals forced, κ_ch symbolic from two routes; nine fields fail ONCE at the B factor; missing object = the ATTACH coupling map; check = 1051) |
 | 1051 | Codex 2 | [PLAN:DESC-32] THE TERMINUS CHECK | DONE (Q-961; CORRECTED — mating holds under 4 attacks; κ_ch one-computation; residue WIDER; quarantine BROKEN, V002 owed; **HOOK SCORES TERMINAL — the boundary is certified; the decision is the principal's; NOTHING QUEUED**) |
+| — | PRINCIPAL | **ATTACH SUPPLY MANDATE ratified** (DoR ad9fc14e1f07…; confirmed twice, second time after the socket/plug clarification): candidate authoring commissioned; entry-by-digest returns to the principal once | SEALED |
+| 1052 | Dario | [PLAN:DESC-33] THE ATTACH CANDIDATE — authored physics under the mandate; ingredient ledger FORCED vs AUTHORED; PROPOSED_NOT_ADOPTED header | QUEUED (needs keystroke) |
+| 1053 | Codex 2 | [PLAN:DESC-33] OPEN-CONDITIONS SWEEP — six status cards at bytes; attach-coupling constraints for the candidate check | QUEUED (needs keystroke; parallel) |
+| 1054 | Dario | [PLAN:DESC-32] surface-first V002 — honest quarantine accounting (Q-961 repair) | QUEUED (chains behind 1052) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
