@@ -59,3 +59,17 @@ This state is account-independent: everything load-bearing is sealed on disk and
 repo = the integrity mechanism; last commit of the arc: f04f3774). A fresh registrar session on
 any account rebuilds from: this file, the tracker, the register, the PE ledger, and
 ~/.claude/projects/-Users-bgm/memory/. The prior session's transcript is auxiliary, not required.
+
+## POST-SIGNATURE PLAN (added 2026-08-12) — SYSTEM-INDEPENDENT ADVERSARIAL AUDIT
+
+Principal decision: AFTER the final signature (line 20), before any public declaration, run a
+CROSS-FAMILY adversarial audit of the completed, sealed proof using system-independent models
+(Grok Super Heavy, Gemini) — the tier the two Claude lanes structurally cannot provide.
+RULES (carry over from the lane discipline): review READ-ONLY on sealed artifacts; blind to all
+measured values (no CODATA/137.036 ever shown); no output inspection (soundness, never "does it
+yield alpha"); adversarial charter (default "flawed unless proven sound"); their verdicts are DATA
+the registrar records tagged SYSTEM-INDEPENDENT, never an authority that seals/enters/voids.
+VALUE: cross-family AGREEMENT is genuine corroboration the program currently cannot produce and
+materially strengthens declaration; cross-family DISAGREEMENT is high signal (different blind spots).
+Dormant until the signature; do not run mid-construction (contamination + premature).
+PLACEMENT OF RECORD (2026-08-12, after two revisions): reviewers touch NOTHING until alpha is computed AND the blind test is scored; then declaration-readiness audit. See CROSS_FAMILY_AUDIT_PLACEMENT_ADDENDUM_V002 (supersedes the withdrawn pre-run PRE_RUN_CROSS_FAMILY_AUDIT_ADDENDUM_V001).

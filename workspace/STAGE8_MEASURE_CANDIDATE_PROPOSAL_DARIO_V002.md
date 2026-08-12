@@ -443,7 +443,7 @@ MC6  K4 COHERENCE                  SHAPE    omega_hist := res_B(Omega_C0) = mu, 
 | F7 | `res_B(Omega) := Omega compose i_B`; `A_C0 = A_SR tensor_min B`; `i_R` | member 08 `:126-128`, `:213-218` |
 | F8 | SM-3 and SM-4's marginal conditions | member 08 `[17865,20008)` |
 | F9 | the S1 receiver typing | member 09 `[5968,6080)` |
-| F10 | **the frozen construction trace**: the primitive tuple, `d_state`, `d_ready`, `d_law`, `T0..T8` | member 13 `[22959,24536)`, read with members 14 and 15 |
+| F10 | **the frozen construction trace**: the primitive tuple, `d_state`, `d_ready`, `d_law`, `T0..T8` | member 13 `[22959,24536)`, under member 15 `[355,992)` |
 | F11 | **the ratified controlled law and its phase-only action on the ready record**, equations (1)(2) | member 12 `[4243,5977)` |
 | F12 | **`d_state` is the normalized identity, hence has no sector coherence**; the sector-diagonal reduced channel corroborates | member 13 `[22959,24536)`; member 12 `[9282,9619)` |
 | F13 | SM-6's exact text and its receiver | member 08 `[17865,20008)` |
