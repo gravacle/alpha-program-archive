@@ -4,7 +4,7 @@ CLOSURE_DECLARATION_BEGIN
 CLOSURE_STATUS = DECLARED-FIRST
 CLOSURE_BEGIN_BYTE = 00000000
 PREDECLARATION_REGION = EMPTY (closure opens at byte 0; the closure block is the first content)
-CLOSURE_END_BYTE = XXXXXXXX   (computed on bytes as a fixed point at seal time)
+CLOSURE_END_BYTE = 00006920   (computed on bytes as a fixed point at seal time)
 VERDICT_BEARING_SET = exactly the 26 content-addressed members below
 UNDECLARED_SEARCH_SURFACE_VERDICT_WEIGHT = forbidden
 PATH_RULE = every member carries its FULL path from the alpha-program-archive root and is rehashed
@@ -346,6 +346,16 @@ A fifth token class appears in the block and is handled by rule rather than by l
 matching `^[FA][0-9]+$` (here, `F08`), which must name a row declared in the ledger. That is a
 structural rule with no discretion in it.
 
+**INV-4 earned its place on the generator's first run, and against me.** The first draft of the block
+extractor used a bare substring search, which matched the **prose mention** of
+`CONSTRUCTION_BEGIN`/`CONSTRUCTION_END` in §4.1 above and returned five bytes of English instead of
+the construction. INV-4 reported **zero structural tokens** — an impossible result for a block full of
+subscripted symbols — and the run refused. The extractor now matches its delimiters line-anchored.
+**I record this because it is the same failure mode one level up:** a checker inspecting the wrong
+bytes and reporting a pass is exactly what V003's alias set did, and the only reason this one was
+caught in a single run rather than by the opposite lane is that the invariant made a wrong answer
+*visibly* wrong instead of silently plausible.
+
 **The raw audit output is reported at §8.3 exactly as the generator computes it.** The check
 predicted `25 symbols / 16 distinct rows / 0 unmapped` under its own conservative extraction; my
 extraction is **stricter** — INV-4 forces `b_1`, `e_s`, `e_t`, `p_Q`, `r`, `z` and the single-letter
@@ -568,7 +578,7 @@ JOINT_ANCHOR_DERIVED = false
 ## 9. FINAL LINES
 
 ```text
-CLOSURE = declared-first (byte 0; end byte XXXXXXXX computed as a fixed point on bytes; 26 members;
+CLOSURE = declared-first (byte 0; end byte 00006920 computed as a fixed point on bytes; 26 members;
      0 live; residue scan 0 hits from its own run)
 
 MAP = B_j,v_j -> F10 ; w_j -> A6.  The check's own assignment, adopted without amendment: B_j and
@@ -584,7 +594,7 @@ ALIASES = DELETED.  Not the three entries — THE MECHANISM.  The extractor now 
      The residual filter is a STATED CLOSED VOCABULARY of English/operator words, published at §4.3,
      disjoint from the map and structurally incapable of holding an ingredient.
 
-CLOSED_CLAIM = MACHINE_CLOSED_CLAIM_RESULT (generic extractor)
+CLOSED_CLAIM = 35 symbols / 16 distinct rows / 0 unmapped (generic extractor)
      Reported as computed, not as predicted.  The check expected 25/16/0 under its own conservative
      extraction; mine is stricter — INV-4 forces b_1, e_s, e_t, p_Q, r, z and the single-letter
      tokens into the map as well — so the symbol count is larger.  A LARGER COUNT IS A WIDER NET,
@@ -602,7 +612,8 @@ CARRIAGE = SPANNED (untouched regions byte-identical)
 
 OUTPUT_INSPECTION = NONE-CERTIFIED
 PROSE_DIGESTS = 26/26, STRICT==STABLE
-CHAIN_INVOKED = CHAIN_PLACEHOLDER
+CHAIN_INVOKED = false (chained pickup run after this DONE; relay_inbox holds 1062, a CODEX 2
+     recheck, which this lane may not obey.  No DARIO successor.  DARIO holds.)
 VERB_AUDIT_SELF = CLEAN
 
 alpha_computed = false ; proof_authorized = false ; kappa_record_computed = false

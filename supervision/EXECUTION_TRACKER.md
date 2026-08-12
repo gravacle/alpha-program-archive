@@ -875,7 +875,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1058 | Codex 2 | [PLAN:DESC-33] V002 CHECK | DONE (Q-968; A4 PHASE SURVIVES — kill shot missed; circuit canonical at b1=1; five bounded deltas; existential questions closed both-lane) |
 | 1059 | Dario | [PLAN:DESC-33] CANDIDATE V003 | DONE (Q-969; algebra machine-verified; closed claim a refusal path 22/15/0; converged on THREE ungrounded objects; conditional-entry question flagged to the principal) |
 | 1060 | Codex 2 | [PLAN:DESC-33] V003 CHECK | DONE (Q-970; CORRECTED — all substantive holds; third closed-claim break caught code-vs-code (3 aliased symbols); conditional entry LAWFUL-SHAPE-STATED) |
-| 1061 | Dario | [PLAN:DESC-33] CANDIDATE V004 — the three-symbol map fix, alias-free extractor, nothing else | QUEUED (needs keystroke) |
+| 1061 | Dario | [PLAN:DESC-33] CANDIDATE V004 | DONE (Q-971; alias mechanism deleted, four invariants, 35/16/0 raw, carriage proved; the final recheck is live) |
 | 1062 | Codex 2 | [PLAN:DESC-33] V004 RECHECK — the final gate; SURVIVES-FOR-ENTRY on the table | QUEUED (after 1061's DONE — needs keystroke) |
 | — | PRINCIPAL | **PROSPECTIVE ENTRY + CASCADE AUTHORIZATION ratified** (both rulings quoted; entry auto-seals on 1062's verbatim trigger lines; cascade authorized under five hard conditions incl. evaluator-sole-authority and verdict-presented-raw) | SEALED |
 | — | REGISTRAR | **OVERNIGHT PROTOCOL**: registrar feeds both inbox queues one step ahead all night; lanes chain on their own DONEs; any stall BLOCKs honestly for a morning number | STANDING |
