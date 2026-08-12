@@ -367,3 +367,19 @@ the registrar. A genuinely new sealed ground discovered later reopens by the reg
 reopen-conditions, not by relay momentum.
 
 ### PE-22 SCORING (2026-08-12, at 1050, CLAIMED pending check): SUPPORTED-WITH-STRUCTURE. The surface wrote what the form could not — a genuine joint object on the source-record face with both marginals forced, the record marginal carrying the symbolic sector-dimension weight from two independent routes — every entry a forced result, none a selection. And the wall the surface then hits is PHYSICS, not machinery: one tensor factor, inert for want of one named physical ingredient (the source-history attachment map). The machinery-vs-surface diagnosis was exactly right: the forms were faithfully reporting a permissiveness that lives in the physics, and the surface localized it. The residual boundary datum is the smallest and most physical it has ever been: a coupling map, in a program whose target is a coupling constant.
+
+### TERMINAL SCORING OF THE NINE-VALUES HOOK (2026-08-12, at 1051, per the sealed terminus rule)
+
+THE HOOK SCORES TERMINAL: the nine values resisted target-independent selection at every lawful
+derivation depth — form-first (exhausted at Q-957/959: forcing machinery exists, none currently
+fires) and surface-first (Q-960/961: the physics composes a real conditional joint object and
+stops at the same permissive wall). PER PE-18'S READING, NOW CERTIFIED: **the residual freedom is
+boundary data.** Its final display: the source-history ATTACH map (typed, absent, adjudicated
+"no such Attach exists") plus the open-conditions list headed by A0's finiteness — with everything
+the surface built (the joint SR object, both forced marginals, the symbolic sector-dimension
+weight) real, conditional on the authored premises, and waiting on that boundary. The planet
+metaphor completes with a twist worthy of the program: gravity's well is fully mapped, its
+stationary structure is forced, and the one thing it does not dictate is HOW THE SOURCE COUPLES
+TO THE FIELD — the boundary datum of the coupling-constant program is a coupling. Any supply is
+the principal's act alone, carried with falsifier, open forcing slot, and battery
+overdetermination per the convertibility structure of record.
