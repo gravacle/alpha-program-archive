@@ -878,7 +878,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1061 | Dario | [PLAN:DESC-33] CANDIDATE V004 | DONE (Q-971; alias mechanism deleted, four invariants, 35/16/0 raw, carriage proved; the final recheck is live) |
 | 1062 | Codex 2 | [PLAN:DESC-33] V004 RECHECK | DONE (Q-972; CORRECTED — map perfect 35/16/0 code-vs-code; F14/F15 blocks deleted; TRIGGER HELD, no entry) |
 | 1064 | Dario | [PLAN:DESC-33] V005 restoration | DONE (Q-973; insertion-only, digest-perfect; carriage blind spot named; inheritance condition surfaced via new R7; V005 = the ratified content exactly) |
-| 1065 | Codex 2 | [PLAN:DESC-33] V005 RECHECK — entry trigger, second attempt; content-identity diff vs V003 | QUEUED (after 1064 — needs keystroke) |
+| 1065 | Codex 2 | [PLAN:DESC-33] V005 RECHECK | DONE (Q-974; CORRECTED — the 1062 spans were misbounded by one line each; trigger held again; two-line fix) |
+| 1069 | Dario | [PLAN:DESC-33] V006 — the two boundary lines, complete-block digests pinned | QUEUED (needs keystroke) |
+| 1070 | Codex 2 | [PLAN:DESC-33] V006 RECHECK — entry trigger, third attempt (guarded on V006 mirror) | QUEUED (after 1069) |
 | — | PRINCIPAL | **PROSPECTIVE ENTRY + CASCADE AUTHORIZATION ratified** (both rulings quoted; entry auto-seals on 1062's verbatim trigger lines; cascade authorized under five hard conditions incl. evaluator-sole-authority and verdict-presented-raw) | SEALED |
 | — | REGISTRAR | **OVERNIGHT PROTOCOL**: registrar feeds both inbox queues one step ahead all night; lanes chain on their own DONEs; any stall BLOCKs honestly for a morning number | STANDING |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
