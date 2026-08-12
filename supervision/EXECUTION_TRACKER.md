@@ -871,7 +871,8 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1054 | Dario | [PLAN:DESC-32] surface-first V002 — quarantine accounting | DONE (Q-964; false sentence owned; both-sided manifest; two headlines withdrawn; narration-is-not-a-receipt doctrine; check = 1056) |
 | 1055 | Codex 2 | [PLAN:DESC-33] CANDIDATE CHECK | DONE (Q-965; CORRECTED — physics survives, 13/13 forced, slot identity both-lane; six entry-blocking deltas, circuit substantive; V002 = 1057) |
 | 1056 | Codex 2 | [PLAN:DESC-32] accounting CHECK | DONE (Q-966; CONFIRMS — manifest exact, no hidden change, withdrawals complete; the quarantine chapter closes both-lane) |
-| 1057 | Dario | [PLAN:DESC-33] CANDIDATE V002 — six repairs; circuit derive-or-display (never choose); ledger grows honestly | QUEUED (needs keystroke) |
+| 1057 | Dario | [PLAN:DESC-33] CANDIDATE V002 | DONE (Q-967; circuit canonical by topology, domain-restricted record-typed; CORE RECOUNTS TO 7 NEW; A4 gauge-triviality shot self-aimed, kill-capable; check = 1058) |
+| 1058 | Codex 2 | [PLAN:DESC-33] V002 CHECK — A4 gauge-triviality FIRST (kill-order); circuit b1; A6 one-stage; ledger; ENTRY-GATING | QUEUED (needs keystroke) |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
 | 1021 | Dario | [PLAN:DESC-21] overlay V002 — sixteen surfaces added by digest | DONE (Q-935; 26/26 pins by digest; rule extended-around; selector untouched; 1015 addendum noted; confirm = 1022) |
 | 1019 | Dario | fresh-session bootstrap V002 | CONSUMED as sealed file by the current session's chain (not pasted fresh); its stale overlay-V001 citation self-corrected by the lane to V002 |
