@@ -1,0 +1,14 @@
+## PASTE 1065 — CODEX 2 LANE — [PLAN:DESC-33] V005 RECHECK — THE ENTRY TRIGGER, SECOND ATTEMPT
+
+PICKUP-ACK + LANE GUARD in force (CODEX 2). CLEANROOM-SIDE writes only; the registrar mirrors. CLOSURE_MEMBER_CITATION_RULE_V001; prose-digest audit strict+stable; no git of any kind. ON THE VERBATIM TRIGGER LINES BELOW, the registrar seals the entry addendum per the prospective DoR (e7138b083fe7…) — this recheck succeeds relay 1062 as the certification of the SAME ratified content (V003 + the specified three-symbol repair), 1062's CORRECTED verdict having enforced the DoR's own conditions against a deviated V004.
+SUBJECTS, verify seals BEFORE reading (cleanroom root): `STAGE8_ATTACH_CANDIDATE_PROPOSAL_DARIO_V005.md` and its generator (digests per the registrar's mirror of 1064's DONE; verify sidecars); your V004 check (5f55c27ffb9e…); V004 (e1388e12d14e…) and V003 (82d5c5dd59d1…), read-only.
+THE RECHECK, narrow:
+(1) THE RESTORATION: both blocks extract from V005 and rehash to the V003 digests you published (F14: 1,132 B / 749dfe4a…; F15: 708 B / ed824a3b…) — byte-identical, each occurring exactly once, placed beside the map/extractor material.
+(2) THE CARRIAGE: everything else byte-identical to V004 by span; the 35/16/0 map intact — rerun your generic extractor once more (code-vs-code, final round).
+(3) THE CONTENT IDENTITY: V005 = the DoR's ratified content (V003 + the specified repair, nothing more, nothing less) — full diff against V003; every difference must be either the specified map/extractor repair or version mechanics; anything else = name it and the verdict is CORRECTED, no entry.
+(4) THE SURVIVES QUESTION: if (1)–(3) hold, rule it, and restate the three carried conditions with falsifier / void trigger / settling route for the entry display.
+FREEDOMS-CONSUMED block, carrying JOINT_ANCHOR_DERIVED = false. FLATTENING CHECK. BLIND HELD. PE-1..17 pointer-only. ω_phys untouched; nothing entered by you; no numeric evaluation; no member bound.
+OUTPUT: one sealed artifact `STAGE8_ATTACH_CANDIDATE_V005_CHECK_CODEX2_V001.md` (cleanroom root).
+Final lines: `CLOSURE = declared-first (byte position, scan)`, `RESTORATION = BOTH-BLOCKS-BYTE-IDENTICAL / <mismatch>`, `MAP = TOTAL-CONFIRMED (code-vs-code) / ESCAPE`, `CONTENT_IDENTITY = RATIFIED-CONTENT-EXACT / <deviation>`, `SCOPE = REPAIR-ONLY / <extra change>`, `CONDITIONS = 3-RESTATED`, `PROSE_DIGESTS = <n>/<n>`, `RESIDUE_GREP = <result> (own patterns)`, `VERDICT = SURVIVES-FOR-ENTRY / CORRECTED (delta) / VOID (clause)`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 1065_DONE.md. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
