@@ -887,7 +887,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1071 | Dario | [PLAN:DESC-33] V007 bindings | DONE (Q-978; 27+3 IDs stable, 34/34 citations resolve, citation gate installed; five lessons = five refusal paths; trigger four = 1072) |
 | 1072 | Codex 2 | [PLAN:DESC-33] V007 RECHECK | DONE (Q-979; **TRIGGER FIRED — SURVIVES-FOR-ENTRY, REPAIR-ONLY, verbatim**) |
 | — | REGISTRAR | **ATTACH_ENTRY_ADDENDUM_V001 SEALED** — the Attach map (circuit holonomy, V007 ccca6bb4…) is PREMISE OF RECORD with three conditions carried open; construction unblocked | SEALED |
-| 1063 | Dario | [PLAN:DESC-34] Θ_hist DELIVERY | IN PROGRESS (guard passed; chains into 1066) |
+| 1063 | Dario | [PLAN:DESC-34] Θ_hist DELIVERY | DONE (Q-980; joint object on entered premise; connection CANCELS single-branch, lives in Z_N/q_N; Θ_hist stopped — the residual is ONE MEASURE on Y; B03 honestly OPEN) |
 | 1073 | Codex 2 | [PLAN:DESC-24] Arm-B closure pointer (third census supersession) | QUEUED (needs keystroke; 1068 chains behind, guarded) |
 | — | PRINCIPAL | **PROSPECTIVE ENTRY + CASCADE AUTHORIZATION ratified** (both rulings quoted; entry auto-seals on 1062's verbatim trigger lines; cascade authorized under five hard conditions incl. evaluator-sole-authority and verdict-presented-raw) | SEALED |
 | — | REGISTRAR | **OVERNIGHT PROTOCOL**: registrar feeds both inbox queues one step ahead all night; lanes chain on their own DONEs; any stall BLOCKs honestly for a morning number | STANDING |
