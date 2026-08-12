@@ -1,0 +1,11 @@
+## PASTE 1068 — CODEX 2 LANE — [PLAN:DESC-34] THE DELIVERY UNDER ATTACK
+
+PICKUP-ACK + LANE GUARD in force (CODEX 2). CHAINED PICKUP applies (queues behind 1067). CLEANROOM-SIDE writes only; the registrar mirrors. CLOSURE_MEMBER_CITATION_RULE_V001; prose-digest audit strict+stable; no git of any kind.
+GUARD: verify `STAGE8_DESC_THETA_HIST_DARIO_V001.md` exists in the cleanroom root and passes its sidecar (the registrar mirrors it on 1063's DONE) — if absent, 1068_BLOCKED and STOP.
+SUBJECTS: the delivery artifact and its generator (by sidecar); the entry addendum and entered candidate V005 (per its citation); the S1 receiver typing; the demand map V008; the surface-first record with its V002 corrections.
+THE CHECK: (1) the joint object's construction re-derived at its grounds — every TYPE-P condition carried, nothing unconditional that is not; (2) Θ_hist's route (restriction or direct) re-composed by you; the common-origin certificate's filled slots verified slot by slot, open slots as honestly open; (3) the six-legs re-disposition (if the artifact includes it) or its absence noted for 1066's check; (4) the entered candidate consumed ONLY within its operative domain (b₁=1) and its three carried conditions cited wherever they bear; (5) output-inspection audit; residue fresh patterns; prose digests.
+FREEDOMS-CONSUMED block, carrying JOINT_ANCHOR_DERIVED = false. FLATTENING CHECK. BLIND HELD. PE-1..17 pointer-only. No numeric evaluation; no member bound.
+OUTPUT: one sealed artifact `STAGE8_DESC_THETA_HIST_CHECK_CODEX2_V001.md` (cleanroom root).
+Final lines: `CLOSURE = declared-first (byte position, scan)`, `JOINT_OBJECT = RE-DERIVED / <defect>`, `THETA_HIST = ROUTE-CONFIRMED / <gap>`, `CERTIFICATE = SLOTS-VERIFIED (<n>/<m>) / <overclaim>`, `DOMAIN_DISCIPLINE = HELD / BREACH`, `OUTPUT_INSPECTION_AUDIT = CLEAN / VIOLATION`, `PROSE_DIGESTS = <n>/<n>`, `RESIDUE_GREP = <result> (own patterns)`, `VERDICT = CONFIRMS / CORRECTED / REFUTES`, `CHAIN_INVOKED = false`, `VERB_AUDIT_SELF = CLEAN / (+items)`.
+If the output name exists, STOP. Seal, report hashes, write 1068_DONE.md. No register, plan, tracker, git action.
+GATES: full standard set; alpha_computed = false; proof_authorized = false; kappa_record_computed = false. All charter fences live.
