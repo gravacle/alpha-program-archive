@@ -883,7 +883,9 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1066 | Dario | [PLAN:DESC-35] B03 close + basis sweep | QUEUED (chains behind 1063) |
 | 1067 | Codex 2 | [PLAN:DESC-24] census re-runs | DONE (Q-975; 1/5/3 — two supersessions fold into the live chain; Arm-B pointer repair queued at idle) |
 | 1068 | Codex 2 | [PLAN:DESC-34] delivery CHECK (guarded on delivery mirror) | QUEUED (chains after 1070) |
-| 1070 | Codex 2 | [PLAN:DESC-33] V006 RECHECK — entry trigger, third attempt (guarded on V006 mirror) | QUEUED (after 1069) |
+| 1070 | Codex 2 | [PLAN:DESC-33] V006 RECHECK | DONE (Q-977; CORRECTED — operative content perfect; the numbering trap's 10th firing broke the binding surface; trigger held) |
+| 1071 | Dario | [PLAN:DESC-33] V007 — restore the 27-member bindings + citation-resolution refusal path | QUEUED (needs keystroke) |
+| 1072 | Codex 2 | [PLAN:DESC-33] V007 RECHECK — trigger attempt four (guarded) | QUEUED (after 1071) |
 | — | PRINCIPAL | **PROSPECTIVE ENTRY + CASCADE AUTHORIZATION ratified** (both rulings quoted; entry auto-seals on 1062's verbatim trigger lines; cascade authorized under five hard conditions incl. evaluator-sole-authority and verdict-presented-raw) | SEALED |
 | — | REGISTRAR | **OVERNIGHT PROTOCOL**: registrar feeds both inbox queues one step ahead all night; lanes chain on their own DONEs; any stall BLOCKs honestly for a morning number | STANDING |
 | 1026 | Codex 2 | [PLAN:DESC-24] DIAGNOSIS ARM B — defect hunt | DONE (Q-939; DEFECT-FOUND — framing instrument-imported, carrier a DoR-008 adoption, would-build authored; 2 register misses; computations keep sealed strength; cross-check after Arm A) |
