@@ -883,7 +883,7 @@ Codex 2 HOLDS for 345's return (the race decides the next draft).
 | 1066 | Dario | [PLAN:DESC-35] B03 closure status | DONE (Q-981; B03 OPEN; remainder = TWO objects — the measure on Y (undetermined) + the d_U2 witness; principal decision on the measure now ripe) |
 | 1075 | Dario | [PLAN:DESC-36] MEASURE HUNT — does Z_N + entry constrain ω_phys? (principal chose hunt-first) | QUEUED (needs keystroke) |
 | 1067 | Codex 2 | [PLAN:DESC-24] census re-runs | DONE (Q-975; 1/5/3 — two supersessions fold into the live chain; Arm-B pointer repair queued at idle) |
-| 1068 | Codex 2 | [PLAN:DESC-34] delivery CHECK (guarded on delivery mirror) | QUEUED (chains after 1070) |
+| 1068 | Codex 2 | [PLAN:DESC-34] delivery CHECK | DONE (Q-982; CONFIRMS joint object + measure stop; tally tightened to 6/6 open; numeric-fence catch on the residual — symbolic identity stands) |
 | 1070 | Codex 2 | [PLAN:DESC-33] V006 RECHECK | DONE (Q-977; CORRECTED — operative content perfect; the numbering trap's 10th firing broke the binding surface; trigger held) |
 | 1071 | Dario | [PLAN:DESC-33] V007 bindings | DONE (Q-978; 27+3 IDs stable, 34/34 citations resolve, citation gate installed; five lessons = five refusal paths; trigger four = 1072) |
 | 1072 | Codex 2 | [PLAN:DESC-33] V007 RECHECK | DONE (Q-979; **TRIGGER FIRED — SURVIVES-FOR-ENTRY, REPAIR-ONLY, verbatim**) |
