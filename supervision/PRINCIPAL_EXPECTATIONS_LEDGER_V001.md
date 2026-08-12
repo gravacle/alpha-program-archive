@@ -402,3 +402,5 @@ SUPPORTED, and the sealed mandate fires as written, now doubly justified. The pr
 refutation-shaped like Arm A: it can prove necessity (find one full-measure consumer) but confirms
 wash-out only at declared consumption, and that honest bound must be stated. Weight zero;
 pointer-only; the lane running the probe stays blind to this entry.
+
+### PE-23 SCORING (2026-08-12, at 1077): NOT SUPPORTED — and by the trustworthy route. Wash-out was attacked hardest and died on one span: the StatePort's field 1 is ω_phys itself, GNS-completed into H_ω/π_ω/ρ_pre, consuming the functional not an invariant; five consumers need the full measure; the one forced invariant is consumed by nothing. Y IS NECESSARY (constructively). REFINEMENT carried forward: Dario distinguished CONSTRUCTIVE necessity (proved) from OUTPUT necessity (does the answer depend on WHICH measure — the blind test's question, not provable here). So Y is necessary to BUILD the object; whether the free part of μ reaches alpha remains for the blind test, which is where PE-18's boundary-vs-gauge question ultimately lands.
