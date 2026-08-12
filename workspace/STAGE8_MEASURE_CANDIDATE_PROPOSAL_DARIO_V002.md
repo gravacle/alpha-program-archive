@@ -4,13 +4,14 @@ CLOSURE_DECLARATION_BEGIN
 CLOSURE_STATUS = DECLARED-FIRST
 CLOSURE_BEGIN_BYTE = 00000000
 PREDECLARATION_REGION = EMPTY (closure opens at byte 0; the closure block is the first content)
-CLOSURE_END_BYTE = XXXXXXXX   (computed on bytes as a fixed point at seal time)
+CLOSURE_END_BYTE = 00008750   (computed on bytes as a fixed point at seal time)
 VERDICT_BEARING_SET = exactly the 22 content-addressed members below
 UNDECLARED_SEARCH_SURFACE_VERDICT_WEIGHT = forbidden
 PATH_RULE = every member carries its FULL path from the alpha-program-archive root and is rehashed
   at that path before sealing. EVERY PINNED DIGEST AND EVERY PINNED SPAN IN THIS ARTIFACT WAS
   COMPUTED AT ITS PATH FROM ITS OWN BYTES, never completed from a display and never copied from
-  another artifact's table — including the four spans this artifact shares with member 04.
+  another artifact's table — including the TWO spans member 04 also pins, [17865,20008) in member
+  08 and [1470,2433) in member 02, which are recomputed here rather than carried across.
 ANCHOR_RULE = CLOSURE_MEMBER_CITATION_RULE_V001; positional member numbers resolve or the seal
   refuses (generator R5). No flag name is an anchor.
 LANE = DARIO   ROLE_THIS_RELAY = MEASURE CANDIDATE V002 — THE DESCENT (relay 1079)
@@ -166,10 +167,10 @@ normalized and translation-invariant and is Haar again by **uniqueness**. Member
 argument independently and added that product Haar on `X_+ x X_-` is the unique Haar measure of the
 product, so no second measure parameter enters.
 
-**THE SELECTION STAYS DISCLOSED.** Member 06 `:520-524` forecloses exactly this move: *"Mere
-preference for Haar, trivial-character evaluation, a product state, or any convex mixture does not
-satisfy that condition."* **A1 is such a preference.** It is lawful only because member 02 mandates
-the supply. `SELECTION_DISCLOSED = YES`.
+**THE SELECTION STAYS DISCLOSED.** Member 06 `:520-524` forecloses exactly this move:
+*"Mere preference for Haar, trivial-character evaluation, a product state, or any convex mixture
+does not satisfy that condition."* **A1 is such a preference.** It is lawful only because member 02
+mandates the supply. `SELECTION_DISCLOSED = YES`.
 
 ---
 
@@ -675,7 +676,7 @@ NOT CONSUMED:
 ## 12. FINAL LINES
 
 ```text
-CLOSURE = declared-first (byte 0; end byte XXXXXXXX computed as a fixed point on bytes; 22 members;
+CLOSURE = declared-first (byte 0; end byte 00008750 computed as a fixed point on bytes; 22 members;
      0 live; 8 pinned spans recomputed from their own files; residue scan 0 hits from its own run)
 
 MEASURE = HAAR-CARRIED (lawful, confirmed).  mu := Haar_Y, unchanged from V001, carried with member
@@ -729,7 +730,7 @@ EXTRACTOR = PRODUCT-OP-COVERED.  The escape member 04 found at [12234,13090) is 
      record's own input product), tensor_law to F11 (the law's controlled sum), and tensor_C0 to A2
      (the descent coupling, the one that was unledgered).
 
-CLOSED_CLAIM = 35 symbols / 8 rows / 0 unmapped / vocabulary EMPTY (sentinel NONE)
+CLOSED_CLAIM = 35 symbols / 11 rows / 0 unmapped / vocabulary EMPTY (sentinel NONE)
      -- machine-checked before seal; the generator refuses if this published line and the figures it
      computes disagree, so the line is a receipt rather than a narration.
 
@@ -742,8 +743,10 @@ OUTPUT_INSPECTION = NONE-CERTIFIED, at the maximal strength member 02 :50-52 dem
      the generator against its own source, which is the repair member 04's Monte-Carlo finding asks
      for -- deletion, not a tighter tolerance.
 
-PROSE_DIGESTS = 22/22, STRICT==STABLE; 8 pinned spans recomputed at their paths, one of which
-     REPLAYS member 04's own SM span digest independently.
+PROSE_DIGESTS = 22/22, STRICT==STABLE; 8 pinned spans recomputed at their paths.  TWO of the
+     eight are spans member 04 also pins -- SM-1..SM-8 at member 08 [17865,20008) and the object
+     clause at member 02 [1470,2433) -- and both REPLAY its digests independently, computed from
+     the members' own bytes rather than copied from its table.
 CHAIN_INVOKED = true (chained pickup proceeds to RELAY_PASTE_1074_DIAGB_CHECK_V002_DARIO_V001.md,
      still the one outstanding DARIO relay)
 VERB_AUDIT_SELF = CLEAN.  "Forces" is used only of Haar within the measure factor and of the theorem

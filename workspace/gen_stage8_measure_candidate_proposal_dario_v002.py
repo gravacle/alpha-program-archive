@@ -75,11 +75,13 @@ def main():
     t=ART.read_text()
 
     # R10 first: a generator that could compute must not be trusted to say it did not.
-    src=SELF.read_text()
-    body_src=src[src.index('import hashlib'):]
-    hits=[k for k in NUMERIC_PATH if k in body_src.lower().replace("numeric_path","")]
-    if hits: return fail(10,f"numeric-evaluation path in this generator's own source: {hits}")
-    if re.search(r"(?<![\w.])\d+\.\d+", body_src): return fail(10,"float literal in generator source")
+    # The scan region is this file's CODE: every string literal is stripped first, so the refusal
+    # list and the residue table cannot satisfy the scan that looks for them. A real numeric path
+    # appears as code (an import, an attribute, a numeric literal), never as a quoted datum.
+    code=re.sub(r'"""(?:.|\n)*?"""|"[^"\n]*"|\'[^\'\n]*\'', " ", SELF.read_text()).lower()
+    hits=[k for k in NUMERIC_PATH if k in code]
+    if hits: return fail(10,f"numeric-evaluation path in this generator's own code: {hits}")
+    if re.search(r"(?<![\w.])\d+\.\d+", code): return fail(10,"numeric literal in generator code")
     print("NO_NUMERIC_PATH = CLEAN (generator scanned its own source; nothing is computed)")
 
     if not MANDATE.exists() or hf(MANDATE)!=MANDATE_DIGEST:
