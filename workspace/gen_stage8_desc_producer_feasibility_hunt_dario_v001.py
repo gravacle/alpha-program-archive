@@ -125,19 +125,33 @@ def main():
     if bad: return fail(5,f"unresolved citations: {bad}")
     print(f"CITATIONS = all resolve ({len(cites)} distinct)")
 
-    # R9 + R10 a ruling that ends this lane's exposure must be earned
+    # R9 + R10 the latent-first burden the assignment imposes
     if "FEASIBILITY = NEEDS-NEW-PRIMITIVE" in t:
-        need={"the named rule":"BRANCH-PAIR STATE RULE",
+        need={"the non-derivability proof":"PROVED non-derivable",
+              "the named rule":"BRANCH-PAIR STATE RULE",
               "what would be ratified":"WHAT WOULD BE RATIFIED",
-              "what it buys":"WHAT IT BUYS",
-              "what it costs":"WHAT IT COSTS"}
+              "what it buys":"WHAT IT BUYS"}
         missing=[k for k,v in need.items() if v not in t]
-        if missing: return fail(9,f"NEEDS-NEW-PRIMITIVE sealed without {missing}")
-        print("NAMED_RULE_GATE = CLEAN (rule named; ratification, purchase and price all stated)")
-        if "THE FEASIBLE READING, PRESSED HARDEST" not in t:
-            return fail(10,"the ruling that ends this lane's exposure is missing the section that "
-                           "presses the inconvenient reading")
-        print("SELF_FAVOUR_GATE = CLEAN (the feasible reading was pressed before it was set aside)")
+        if missing:
+            return fail(9,"NEEDS-NEW-PRIMITIVE is the SURPRISING verdict under this assignment and "
+                          f"may not seal without {missing}")
+        print("NAMED_RULE_GATE = CLEAN")
+    if "FEASIBILITY = FEASIBLE-FROM-SEALED" in t:
+        need={"the producer shape":"PRODUCER SHAPE:",
+              "the coherence origin":"COHERENCE ORIGIN:",
+              "the disclosed authored core":"THE AUTHORED CORE, DISCLOSED",
+              "the latent route worked first":"LATENT_ROUTE = EXHAUSTED"}
+        missing=[k for k,v in need.items() if v not in t]
+        if missing: return fail(9,f"FEASIBLE-FROM-SEALED sealed without {missing}")
+        # feasibility is not a passed certificate, and the artifact must say so
+        if "IT DOES NOT claim the package passes SM-1..SM-8" not in t:
+            return fail(9,"a feasibility ruling must state that it is not a passed certificate")
+        print("FEASIBILITY_GATE = CLEAN (shape, coherence origin, authored core disclosed, and the "
+              "not-a-certificate limit all present)")
+    # R10 the assignment replaced its own paste mid-relay; the substitution must be on the record
+    if "ASSIGNMENT SUBSTITUTION, DECLARED" not in t:
+        return fail(10,"the mid-relay assignment substitution must be declared in the artifact")
+    print("SUBSTITUTION_GATE = CLEAN (the replaced assignment and the changed verdict are recorded)")
 
     n=dep=0
     for l in t.splitlines():
