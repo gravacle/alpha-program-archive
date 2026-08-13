@@ -24,9 +24,11 @@ Size: [S] one session · [M] a charter (days) · [L] the hard construction.
         (μ=0) CLOSES there. Under-lens caught an unread ratified 08-12 mandate thread —
         integrated: F1's field-face supply is mandate-pre-assigned to authored physics.
 ✅ I.4 [S] F0 COMPUTAND-BY-CITATION — DONE (Q-1023; result carried at II.0a below).
-▶ I.5 [M] BUILD THE MINIMAL SUB-LAW — step 1 LIVE: the d₀-SQUARE CERTIFICATE
-        (exact integer identity sd*₁∘d₀' = d₀∘sd*₀; all inputs sealed) → transport-
-        stability of im(d₀) → then the AND-boolean class → READ THE SPLIT.
+▶ I.5 [M] BUILD THE MINIMAL SUB-LAW — step 1 ✅ DONE (Q-1026): d₀-SQUARE
+        CERTIFIED_ALL, independently re-verified at zero residual → im(d₀) transport-
+        stable → the block pair well-defined, the AND-class POSABLE. Step 2 LIVE:
+        the AND-class MEMBER-INDEPENDENCE certificate over the 1887-dim variety
+        (do φ_f, φ_H vanish identically/never/on-a-subvariety?) → READ THE SPLIT.
 ○ I.6 [L] FULL TRANSPORT/STITCHING LAW (the A27 package: Ref/J_ref arrows,
         η_resp naturality, τ_ker + boundary object, subextensivity certificate,
         coefficient-invariance) — only if I.5 is insufficient. THE hard core.

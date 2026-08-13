@@ -17108,6 +17108,18 @@ THE FIRST BUILDABLE STEP (check-confirmed, all inputs sealed and verified): **th
 
 CONSEQUENCE — Phase I.2 is COMPLETE; I.5 opens with a decidable, integer-exact first step. The [L] core is SMALLER than the program's memory claimed: the B1 arc built key pieces (chain map, coframe, receiver type) that the stale "no transport law exists" picture omitted. alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 22a2a478, a5c71b2a. Q-980–Q-1024 carried. REOPEN: the d₀-square certificate's outcome; the principal's D3 same-object and variety-selection forks where they gate.
 
+## Q-1026 — THE d₀-SQUARE CERTIFICATE: CERTIFIED FOR ALL LICENSED GENERATORS, INDEPENDENTLY RE-VERIFIED AT ZERO RESIDUAL — im(d₀) IS TRANSPORT-STABLE, THE BLOCK PAIR IS WELL-DEFINED UNDER TRANSPORT, THE AND-CLASS IS POSABLE (2026-08-13) — THE FIRST CONSTRUCTED PIECE OF THE STITCHING LAW
+
+**Answer: the transport law's first obligation is BUILT and CONFIRMED.** Certificate STAGE8_D0_SQUARE_CERTIFICATE_V001 (bb1b88ad — full matrices, exact-arithmetic script, and outputs reproduced in-artifact); independent re-verification STAGE8_D0_SQUARE_CHECK_V001 (d83655ae): CERT_VERDICT = CONFIRMED.
+
+THE RESULT: for EVERY licensed generator move — L_id, A0 (vertex permutation), A1 (cubical bisection, 16 subcubes), A2-Freudenthal (24 simplices/16 vertices/65 edges), A2-barycentric (81 vertices/544 edges), composites free by the sealed closure step — a degree-0 companion sd*₀ EXISTS and is EXHIBITED, making the transport square commute EXACTLY over the integers: sd*₁ ∘ d₀' = d₀ ∘ sd*₀. **D0_SQUARE = CERTIFIED_ALL.**
+
+THE CHECK'S RIGOR (why this is solid): 8 matrices / 1,906 nonzero entries re-derived from the SEALED BYTE SPANS with ZERO discrepancies against the build; the identity re-verified by an INDEPENDENT algorithm (spanning-tree decision, not the build's elimination) — all five generator squares solved integer with EXACT ZERO residual; the generator list verified COMPLETE against the sealed inventory (V011 [46772,47023): exactly three item classes, all covered); L_id = id verified at span and directly; the sd*₀ ambiguity identified exactly (per-column constants = pure ker d₀ freedom — harmless); the V011 two-byte-version hazard held (packet member aa7c6d49 only, unsealed top-level copy NOT read); provenance clean, injection none. Noted honestly: on this parent complex rational solvability implies integer solvability, so the rational-only branch could never fire.
+
+WHAT IT YIELDS: **im(d₀) is transport-stable** (sd*₁(im d₀') ⊆ im(d₀)) ⇒ the quotient carrier C¹/im(d₀) — where the physical blocks live — is preserved by every licensed transport ⇒ **the block pair (φ_f, φ_H) is WELL-DEFINED under transport, and the AND-boolean class (Q-1025's minimal sub-law) is POSABLE.** The MINIMAL_SUBLAW precondition is discharged at degree 0. This is the first constructed (not adjudicated) piece of the diamond-to-complex transport law.
+
+NEXT (I.5 step 2, launched): the AND-boolean class member-independence certificate over the sealed 1887-dim joint variety — decide whether the block projections φ_f, φ_H of the admissible write vanish identically / never / on a proper subvariety, i.e. whether the SPLIT is determined without a member selection. alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: bb1b88ad, d83655ae. Q-980–Q-1025 carried. REOPEN: an exact integer counterexample on a licensed generator (none exists per two independent computations); a licensing change to the generator inventory.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
