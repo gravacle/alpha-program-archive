@@ -43,4 +43,9 @@ Reached across 2026-08-12/13 via the ether test + its 4-reviewer panel + the pri
 - **Open:** the **form** of R_record,L (spec-gap) — factorizes (free) or forces (α determined)?; whether the decider is **bulk or boundary-local** (a live fork — bears on "the record has no bulk"); the 32-dim connection selector; the record-native stress-energy.
 - **The thesis, posed clean:** *α forced ⟺ gravity emerges as the boundary-closure* — no scale, no faithfulness, no imported GR — currently **UNDETERMINED**, hinging on R_record,L's form.
 
+---
+
+## HOW TO HOLD THIS LENS (the stance — principal, 2026-08-13)
+These principles are held as a **confident guiding hypothesis** — coherent, and the pieces fit — with a genuine expectation that they will be found to describe reality. But they earn the words "describes reality" **only** when the record derives them and the panel confirms — on bedrock, provenance-clean, with the lens never fed in. Confidence in the *direction* is a reason to test *harder*, never to skip the test: confidence is precisely the fitting risk the method exists to guard against. The **"bumps"** — the over-reads caught, the UNDETERMINEDs, the refutations — are **not failures of the lens; they are the method keeping the lens honest.** That is the whole difference between a theory that describes reality and a beautiful one that doesn't. **Confident and un-blinded to the direction; blind and disciplined to the answer.** Compute α only when the record forces it, verified and released — never because we were sure.
+
 Links: [[project_gravity_emergence_is_boundary_closure]], [[project_beta_gap_is_the_boundary]], [[project_allow_require_boundary]], [[project_divergence_is_the_coupling]], the INSTINCTS_AND_TESTS_LEDGER (the running instinct/test record this lens sits atop).
