@@ -16975,6 +16975,30 @@ METHOD LESSON: the CONFIRMATION axis (cold re-derivation) OVER-READ again — 2n
 
 See [[project_faithfulness_is_the_whole_winding_question]], [[project_rl2b_four_discharges]], [[project_beta_is_the_whole_gap]], [[project_divergence_is_the_coupling]], [[project_bohm_continuation]]. Q-980–Q-1015 carried. REOPEN: build the connection-only cluster-summability estimate (→ certifies C, or proves it scale-entangled / running-κ), then G3 + G2 → read the cross-block.
 
+## Q-1017 — THE CLUSTER-SUMMABILITY ATTEMPT: C'S EXISTENCE REDUCES TO ONE COMBINATORIAL HYPOTHESIS ([c1] PROVED CONNECTION-ONLY), AND THE WHOLE FORK HINGES ON ONE UNKNOWN ANALYTIC FACT — DOES THE DEGREE −3 SINGULARITY FULLY CANCEL? FULL → α FORCED (FIXED); PARTIAL → α RUNS (2026-08-13) — ADVERSARY-ADJUDICATED
+
+**Answer: the attempt to certify the Gate-5 kernel C connection-only is FAILS-AT (adversary-confirmed SOUND) — but with real reformulation progress and a razor-sharp reduction: the entire "is α forced?" question now hinges on ONE unknown analytic fact.** Build STAGE8_REQUIRE_BUILD_CLUSTER_SUMMABILITY_V001 (5cdd5daf); adversarial check STAGE8_REQUIRE_CLUSTER_CHECK_V001 (a7f75d0f, CLUSTER_BUILD_VERDICT=SOUND). Adversary weighted; cold axis SKIPPED (over-read twice today, Q-1015/Q-1016 — [[feedback_weight_the_adversary_not_the_cold_axis]]).
+
+THE PROGRESS (confirmed connection-only):
+- The "infinite per-cell Schatten-2 norm" obstruction was a WRONG-NORM ARTIFACT. In the OPERATOR norm the per-cell activity is bounded connection-only (from the unit-modulus holonomy-character generator + an invoked gap-independent, combinatorial, metric-free Lieb-Robinson range; Calderón-Zygmund read-to-classify only, no scale in the certifier). **[c1] proved connection-only** (the build's "PROVED" header over-labels; exact status = REFORMULATED with the |γ|=1 activity proved).
+- The ENTIRE Gate-5 existence-of-C obligation REDUCES, scale-free, to ONE combinatorial hypothesis: a **Kotecký-Preiss activity bound |Φ_γ| ≤ η^|γ| on the cell-adjacency graph** (+ zero-free [c3]). Confirmed as a sufficient reduction.
+
+THE WALL (adversary-confirmed core):
+- That single hypothesis is UNDISCHARGEABLE connection-only for the sealed prepared state — the **gapless / massless sea**. Geometric clustering needs a decay RATE, and the only sealed decay is a degree −3 METRIC power law (||C_off||_op = 1/(2π²|r|³)) whose combinatorial exponent is not even STATABLE without a scale. Operator-norm kills the per-cell infinity but not the degree −3 large-separation decay; Lieb-Robinson gives dynamical range, not static clustering. [c2] (uniform clustering) is a FREE ASSUMPTION, not forced, and the gapless state fails its geometric form.
+
+THE DICHOTOMY — the whole fork now hinges on ONE unknown analytic fact:
+- Finiteness is "purchased ENTIRELY by cancellation in the difference." **Does the degree −3 singularity FULLY cancel?**
+  - **FULL cancellation → α_exp=1 → aggregation FLAT → connected extensivity → C intensive/certified → the winding is FIXED — α FORCED** (RFA:122-125, :51).
+  - **PARTIAL cancellation (α_exp<1) → C not intensive → running κ_record / RG → α RUNS** (scale-entangled — but the emergent RG scale, not an import).
+  - **WHICH holds is UNKNOWN of record** (RFA:137-138). Cancellation unknown → certification fails on EITHER horn → NET FAILS-AT: α NOT forced and NOT free of record.
+- CORRECTION (adversary; and this reviewer's prior interim over-read the same way): the build framed the wall as "→ running-κ." That is only the PARTIAL horn. FULL cancellation is a CLEAN SUCCESS in which α is a fixed forced number. It is a genuine two-horned DICHOTOMY, not a lean toward running.
+
+CONSEQUENCE — "is α forced?" now reduces to ONE concrete, computable-in-principle analytic question: **does the degree −3 singularity in the connected covariance of the gapless sea fully cancel?** Full → α is a fixed forced number (then read the fork via G2/G3); partial → α runs. This IS the "short one power," and it resonates exactly with [[project_divergence_is_the_coupling]] — the cancellation rate literally decides fixed-vs-running coupling. NOT an impossibility proof (the abstract summability predicate is scale-free; a connection-only algebraic activity bound is unbuilt-not-excluded). alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN.
+
+INTEGRITY NOTE (custody defect, non-corrupting): the build recorded MON's seal as 451550c382528869 and asserted "all match", but MON hashes to 451550c3825288d6… The adversary independently verified MON's cited content is faithful and connection-only, so no scale entered and the verdict is not corrupted — but the false "all match" assertion is a real seal-discipline defect, flagged.
+
+Evidence: 5cdd5daf, a7f75d0f. See [[project_alpha_reduces_to_cluster_summability]], [[project_divergence_is_the_coupling]], [[project_bohm_continuation]]. Q-980–Q-1016 carried. REOPEN: resolve the degree −3 cancellation (FULL → α forced, then G2/G3 read the fork; PARTIAL → α runs), OR build a connection-only algebraic activity bound closing (KP) without the gapless-metric route.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
