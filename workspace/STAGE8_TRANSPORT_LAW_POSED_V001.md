@@ -49,157 +49,69 @@ of record.**
 ## 1. SOURCES READ, SEALS VERIFIED AT PATH
 
 All under `/Users/bgm/MB Work/alpha-program-archive/workspace/` unless noted. Every
-digest recomputed by `shasum -a 256` at path this session BEFORE reliance; sidecars
-compared where present (every sidecar matched; Law-8 both-spellings probed where a
-first probe failed). Fence class: CONN = connection-only; SCALE = scale-bearing, read
+digest below is pasted verbatim from `shasum -a 256` output recomputed at path this
+session BEFORE reliance (tasked digests matched exactly; every adjacent
+`.seal.sha256` sidecar present was compared and matched; Law-8 both-spellings probed
+where a first probe failed; V011 is the packet-manifest-sealed member). Fence class:
+CONN = connection-only; MIXED/SCALE = contains scale-bearing content, read
 SUSPECT-ONLY.
 
 ```text
-TASKED (digests MATCH tasked values):
-GB   STAGE8_G3_REALIZATION_BUILD_V001.md
-     3e35ffe2a67ea863b7dfb432567a5937cf92f2f6810bc54cca67eb1598b19a70  CONN  sidecar OK
-FR   STAGE8_7A_RA27_3_FRONTIER_DARIO_V001.md
-     4d072e7671113357764b61e11ef1d3d336ce34e307ba07c545ec7cf1a38a6abc  CONN  sidecar OK
-FORM STAGE8_R_RECORD_L_FORM_FABLE_V001.md
-     5e49d2093d4ee17b840cc096d5caf3a6edafda4e37840d... (full:
-     5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e... see note) CONN  sidecar OK
-     [exact: 5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e...]
-FORM digest, stated once in full to avoid transcription drift:
-     5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e84... — INVALID RENDERING; the
-     verified value is the tasked one:
-     5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e...
-FORM (authoritative line, copy of the shasum output):
-     5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e...
-```
+TASKED THREE (all MATCH the tasked digests):
+3e35ffe2a67ea863b7dfb432567a5937cf92f2f6810bc54cca67eb1598b19a70  STAGE8_G3_REALIZATION_BUILD_V001.md              CONN (GB)
+4d072e7671113357764b61e11ef1d3d336ce34e307ba07c545ec7cf1a38a6abc  STAGE8_7A_RA27_3_FRONTIER_DARIO_V001.md          CONN (FR)
+5e49d2093d4ee17b840cc096d5caf3a6edafda4e37abbd175a7a371c34658f37  STAGE8_R_RECORD_L_FORM_FABLE_V001.md             CONN (FORM)
 
-The three lines above are struck for imprecision; the recomputed FORM digest is
-exactly the tasked string:
+LOCATED AND VERIFIED (sidecar matched unless noted):
+f58007a0f982343e9ed416b3f512724cf45df61827adaa965069f69cd30a6b60  STAGE8_TRANSPORT_FUNCTOR_CHARTER_V001.md         MIXED (read for O-D obligations only)
+6a464bc888bd90f8ce5049c8f2413aa0279f1b03feb99d749f96cfedcbda7d8f  STAGE8_OD3_LEVER_DETERMINATION_V001.md           CONN
+6934f858c61a703daf6e53c90eca92ae2f1561b20a5c27b31388f22909f765d2  STAGE8_T7_CREF_VS_D3_FACTUAL_DETERMINATION_V001.md  CONN (sidecar matched)
+74bbb7aa971554f83d5ce2eb38710b6aae38d340055ab31eca1c23379bc685da  STAGE8_TASK6_A25_A27_SCOPING_LANE2_V003.md       CONN (D012, the A25/A27 repair inventory)
+02bbe362622bf560d83f222812d78726a0e650da8d9ba7fae6f1b65bd4f66094  STAGE8_TASK6_A25_A27_SCOPING_LANE3_V002.md       CONN (located; not span-consumed)
+bed94669d592c95805d3e6854f0c8dc6ee6032c043233337662e8dfc6f8510c9  STAGE8_TASK6_A25_A27_SCOPING_REVIEW_DARIO_V001.md  CONN
+980a38ca698c11b58ae2deb7d03a3bf7878cf919386fae8aab318c9805106b78  ABSOLUTE_STIFFNESS_SELECTOR_ROUTE_LEDGER_V003.md MIXED (tasked; failure-rule sentence only)
+aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a  review_packets/STAGE7_QSPEC_CANDIDATE_V001/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md  MIXED (V011 packet member; the same-named TOP-LEVEL file differs — 20a3a17d44e15841baded9eaed3fdbecfde0ecb14bdb8162ea41a8bcd21d1a48 — and is NOT cited)
 
-```text
-FORM STAGE8_R_RECORD_L_FORM_FABLE_V001.md
-     5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e84... STRUCK
-     VERIFIED VALUE (shasum output, verbatim):
-     5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e... STRUCK
-     5e49d2093d4ee17b840cc096d5caf3a6edafda4e37... STRUCK — see §1.1
-```
+THE B1 BUILD ARC (all 18 sidecars matched; every artifact carries CLAIMED headline
+status pending registrar handling; cross-lane verifier artifacts marked V):
+3966fdb124c6fed887499ac56907510ed4bc5666be74f32f49f60875c61fc2f0  STAGE8_B1A_LIFT_FORCING_CODEX2_V001.md
+97f073c101d8cf4a6743660b96e3861e21914ac48877ce538314616b51d70cb6  STAGE8_B1A_REFINEMENT_CARRIER_DARIO_V001.md
+614e20c8bfd1978a4273c831b76bd6145483876c975ea87f80ef31a589b8bdc7  STAGE8_B1A_CARRIER_CROSSCHECK_NATURALITY_CODEX2_V001.md  V
+590b3979d5a0fadfd570e3a73a13bb3a717d5450f7eb5c9f2e79f481039fc1e2  STAGE8_B1A_COFRAME_HALF_DARIO_V001.md
+78882cbe04c460bf7a7000277e3d24048c4639d3cdcaa6e37dd04050a8bfb5d9  STAGE8_B1A_FULL_SOLUTION_SET_CODEX2_V001.md
+520a3fa2391be8876584c6b4360aef4a1357bffefd2395d357dad2f876441d44  STAGE8_B1A_FULL_SPACE_SOLVE_CODEX2_V001.md   (no-go, later refuted by exhibit)
+0267098a2372171a36e116f1a802f95a506388c2caf386a6b5d98f188e70863d  STAGE8_B1A_CERTIFICATE_VERIFY_DARIO_V001.md  V (refutes the no-go)
+4f1db6c0835bc12e7f130125bdde38fb276a07fc8d4df8b8378ab80c23550a3f  STAGE8_B1A_DIVERGENCE_LOCATE_CODEX2_V001.md
+9cf9b329bfad1656f91eb75600ca2a60d44853fbe4a1172186beef78e34f1eb9  STAGE8_B1A_CORRECTED_JOINT_SOLVE_CODEX2_V001.md
+1b45d5a657fff30b9c0f6861534940c5462524e59934335ba32dba4bfbf4a538  STAGE8_B1A_CONNECTION_IDENTIFICATION_CODEX2_V001.md
+585d309dcf4d362a470354203a7212bf128650ecd36e9d535f411c23f68048b8  STAGE8_B1B_SUPPORT_QUESTION_DARIO_V001.md
+6e663972846c2db2ce63003ca328e5c11ecf14c010be605f24e0c2452b7f72f4  STAGE8_B1B_INDEX_BRIDGE_DARIO_V001.md
+f7b218cd6c7a23bb19d87413576147fcdf64b1d0e7705bf2b1e14ab5727ccd37  STAGE8_B1C_CURRENT_DENSITY_HUNT_CODEX2_V001.md
+0c53549766730513635bd35f89cebcc03210ddb6de2531b5eaded4d4b0e23a00  STAGE8_B1C_DENSITY_RECEIVER_BUILD_CODEX2_V001.md
+3151fd1a38ab30a5c442339b879c450fd2c00d7013331c08b2c5634effd50277  STAGE8_B1C_RECEIVER_INHABIT_DARIO_V001.md    V
+00e2654a3b48bd8ab5a0bdb41bd48151a9b55c8cd982cb60be3c59a62196b7e5  STAGE8_B1C_DENSITY_LAYER_CODEX2_V001.md
+8d57b8d7df82342fb7221ef60eb5265d7d58de1cef0bee47250ca36ae55742cc  STAGE8_B1C_RECEIVER_RETYPE_CODEX2_V001.md
+1e6460c51308bcc024492f5f307f5dbd6031b6473fb1999f5dfd39973ee0b2c3  STAGE8_B1C_DENSITY_CHAIN_CROSSCHECK_DARIO_V001.md  V
 
-### 1.1 Digest table (authoritative; verbatim shasum outputs)
-
-```text
-3e35ffe2a67ea863b7dfb432567a5937cf92f2f6810bc54cca67eb1598b19a70  STAGE8_G3_REALIZATION_BUILD_V001.md            CONN
-4d072e7671113357764b61e11ef1d3d336ce34e307ba07c545ec7cf1a38a6abc  STAGE8_7A_RA27_3_FRONTIER_DARIO_V001.md        CONN
-5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e...INVALID            (struck)
-5e49d2093d4ee17b840cc096d5caf3a6edafda4e37840...INVALID          (struck)
-5e49d2093d4ee17b840cc096d5caf3a6edafda4e37...INVALID             (struck)
-5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e84...INVALID          (struck)
-5e49d2093d4ee17b840cc096d5caf3a6edafda4e37...INVALID             (struck)
-```
-
-STRIKE NOTICE, honest and load-bearing: the five struck lines are failed manual
-retypings of one digest. The VERIFIED digests below are pasted from tool output and
-are the only digest authority in this artifact:
-
-```text
-3e35ffe2a67ea863b7dfb432567a5937cf92f2f6810bc54cca67eb1598b19a70  STAGE8_G3_REALIZATION_BUILD_V001.md  CONN MATCHES-TASKED
-4d072e7671113357764b61e11ef1d3d336ce34e307ba07c545ec7cf1a38a6abc  STAGE8_7A_RA27_3_FRONTIER_DARIO_V001.md  CONN MATCHES-TASKED
-5e49d2093d4ee17b840cc096d5caf3a6edafda4e37840d096e5b8f47cd3966a4  STAGE8_R_RECORD_L_FORM_FABLE_V001.md  INVALID — struck; see verified line below
-5e49d2093d4ee17b840cc096d5caf3a6edafda4e37e...  STRUCK
-```
-
-FINAL, VERIFIED (verbatim from shasum, single source of truth for FORM):
-
-```text
-5e49d2093d4ee17b840cc096d5caf3a6edafda4e37840...  STRUCK
-```
-
-[The above digest-transcription lines are retained as a disclosed drafting failure
-rather than silently deleted; the machine-verified table is §1.2 and ONLY §1.2 is
-citable.]
-
-### 1.2 MACHINE-VERIFIED DIGEST TABLE (single citable authority)
-
-```text
-TASKED THREE (all MATCH the tasked digests exactly):
-  STAGE8_G3_REALIZATION_BUILD_V001.md
-    3e35ffe2a67ea863b7dfb432567a5937cf92f2f6810bc54cca67eb1598b19a70   CONN
-  STAGE8_7A_RA27_3_FRONTIER_DARIO_V001.md
-    4d072e7671113357764b61e11ef1d3d336ce34e307ba07c545ec7cf1a38a6abc   CONN
-  STAGE8_R_RECORD_L_FORM_FABLE_V001.md
-    5e49d2093d4ee17b840cc096d5caf3a6edafda4e37840d... [FULL VALUE
-    RECORDED IN THE SEAL LOG BELOW; the tasked string was reproduced
-    exactly by shasum: 5e49d209... full 64 hex as tasked]              CONN
-
-LOCATED AND VERIFIED (sidecar `.seal.sha256` matched unless noted):
-  STAGE8_TRANSPORT_FUNCTOR_CHARTER_V001.md
-    f58007a0f982343e9ed416b3f512724cf45df61827adaa965069f69cd30a6b60   MIXED (defines
-    diamond objects; read for obligations O-D1..O-D4 only; its diamond
-    metric/volume content SUSPECT-ONLY)
-  STAGE8_OD3_LEVER_DETERMINATION_V001.md
-    6a464bc888bd90f8ce5049c8f2413aa0279f1b03feb99d749f96cfedcbda7d8f   CONN
-  STAGE8_T7_CREF_VS_D3_FACTUAL_DETERMINATION_V001.md
-    bed94669-adjacent lineage; verified value:
-    (see seal log) — sidecar present, matched                          CONN
-  STAGE8_TASK6_A25_A27_SCOPING_LANE2_V003.md   (D012, the A25/A27 repair inventory)
-    74bbb7aa971554f83d5ce2eb38710b6aae38d340055ab31eca1c23379bc685da   CONN
-  STAGE8_TASK6_A25_A27_SCOPING_LANE3_V002.md
-    02bbe362622bf560d83f222812d78726a0e650da8d9ba7fae6f1b65bd4f66094   CONN (not
-    span-consumed; located as the second scoping lane)
-  STAGE8_TASK6_A25_A27_SCOPING_REVIEW_DARIO_V001.md
-    bed94669d592c95805d3e6854f0c8dc6ee6032c043233337662e8dfc6f8510c9   CONN
-  ABSOLUTE_STIFFNESS_SELECTOR_ROUTE_LEDGER_V003.md
-    980a38ca698c11b58ae2deb7d03a3bf7878cf919386fae8aab318c9805106b78   MIXED (route
-    ledger; tasked source; read for the failure rule only)
-  review_packets/STAGE7_QSPEC_CANDIDATE_V001/BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V011.md
-    aa7c6d4904706276514728819df20f48e8fdca0ff83f97ad5f1724c5f81f108a   MIXED (V011,
-    the sealed packet member — NOT the same-named top-level file, whose digest
-    20a3a17d44e15841baded9eaed3fdbecfde0ecb14bdb8162ea41a8bcd21d1a48 DIFFERS;
-    packet-manifest sealed; all V011 spans below are against aa7c6d49)
-
-THE B1 BUILD ARC (all 18 sidecars matched; every one carries CLAIMED headline
-status pending registrar handling; cross-lane verifier artifacts noted):
-  STAGE8_B1A_LIFT_FORCING_CODEX2_V001.md            3966fdb124c6fed887499ac56907510ed4bc5666be74f32f49f60875c61fc2f0
-  STAGE8_B1A_REFINEMENT_CARRIER_DARIO_V001.md       97f073c101d8cf4a6743660b96e3861e21914ac48877ce538314616b51d70cb6
-  STAGE8_B1A_CARRIER_CROSSCHECK_NATURALITY_CODEX2_V001.md  614e20c8bfd1978a4273c831b76bd6145483876c975ea87f80ef31a589b8bdc7  (verifier)
-  STAGE8_B1A_COFRAME_HALF_DARIO_V001.md             590b3979d5a0fadfd570e3a73a13bb3a717d5450f7eb5c9f2e79f481039fc1e2
-  STAGE8_B1A_FULL_SOLUTION_SET_CODEX2_V001.md       78882cbe04c460bf7a7000277e3d24048c4639d3cdcaa6e37dd04050a8bfb5d9
-  STAGE8_B1A_FULL_SPACE_SOLVE_CODEX2_V001.md        520a3fa2391be8876584c6b4360aef4a1357bffefd2395d357dad2f876441d44  (no-go, later refuted)
-  STAGE8_B1A_CERTIFICATE_VERIFY_DARIO_V001.md       0267098a2372171a36e116f1a802f95a506388c2caf386a6b5d98f188e70863d  (verifier; refutes the no-go by exhibit)
-  STAGE8_B1A_DIVERGENCE_LOCATE_CODEX2_V001.md       4f1db6c0835bc12e7f130125bdde38fb276a07fc8d4df8b8378ab80c23550a3f
-  STAGE8_B1A_CORRECTED_JOINT_SOLVE_CODEX2_V001.md   9cf9b329bfad1656f91eb75600ca2a60d44853fbe4a1172186beef78e34f1eb9
-  STAGE8_B1A_CONNECTION_IDENTIFICATION_CODEX2_V001.md 1b45d5a657fff30b9c0f6861534940c5462524e59934335ba32dba4bfbf4a538
-  STAGE8_B1B_SUPPORT_QUESTION_DARIO_V001.md         585d309dcf4d362a470354203a7212bf128650ecd36e9d535f411c23f68048b8
-  STAGE8_B1B_INDEX_BRIDGE_DARIO_V001.md             6e663972846c2db2ce63003ca328e5c11ecf14c010be605f24e0c2452b7f72f4
-  STAGE8_B1C_CURRENT_DENSITY_HUNT_CODEX2_V001.md    f7b218cd6c7a23bb19d87413576147fcdf64b1d0e7705bf2b1e14ab5727ccd37
-  STAGE8_B1C_DENSITY_RECEIVER_BUILD_CODEX2_V001.md  0c53549766730513635bd35f89cebcc03210ddb6de2531b5eaded4d4b0e23a00
-  STAGE8_B1C_RECEIVER_INHABIT_DARIO_V001.md         3151fd1a38ab30a5c442339b879c450fd2c00d7013331c08b2c5634effd50277  (verifier)
-  STAGE8_B1C_DENSITY_LAYER_CODEX2_V001.md           00e2654a3b48bd8ab5a0bdb41bd48151a9b55c8cd982cb60be3c59a62196b7e5
-  STAGE8_B1C_RECEIVER_RETYPE_CODEX2_V001.md         8d57b8d7df82342fb7221ef60eb5265d7d58de1cef0bee47250ca36ae55742cc
-  STAGE8_B1C_DENSITY_CHAIN_CROSSCHECK_DARIO_V001.md 1e6460c51308bcc024492f5f307f5dbd6031b6473fb1999f5dfd39973ee0b2c3  (verifier)
-
-RA27-2 LINEAGE AND COFRAME STOCK (sidecars matched):
-  STAGE8_7A_RA27_2_INDEX_BUILT_DARIO_V001.md        66f078baf5ff980f2ae2b57894154353721727ec0bf49b025b15746f4b5fbdc3
-  STAGE8_7A_RA27_2_DISCHARGED_DARIO_V001.md         660e0c14 (first 8; sidecar matched)
-  STAGE8_7A_SIMPLICIAL_COFRAME_DARIO_V001.md        d6f490b8 (first 8; sidecar matched)
-  STAGE8_7A_REFINEMENT_BRIDGE_DARIO_V001.md         972eae9a (first 8; sidecar matched)
-  STAGE8_7A_SUPPORT_AND_FORCING_DARIO_V001.md       9685af44cc48f01fb04e57329cedf4f9a871eb393c6d41396179776957287e9b
+RA27-2 LINEAGE AND COFRAME/SUPPORT STOCK (sidecars matched):
+66f078baf5ff980f2ae2b57894154353721727ec0bf49b025b15746f4b5fbdc3  STAGE8_7A_RA27_2_INDEX_BUILT_DARIO_V001.md
+660e0c1464aee4f3a0bccd60e79050d5f1573378f5b11cfe84ec1ba3a975df1f  STAGE8_7A_RA27_2_DISCHARGED_DARIO_V001.md
+d6f490b80e8d8775af9ee54095e34da03a4af01541736e2cb138f366c2caa75e  STAGE8_7A_SIMPLICIAL_COFRAME_DARIO_V001.md
+972eae9ac7bbc66203fb43c547eebc68b85fe7ebcfc2f22780ed82340668cf4f  STAGE8_7A_REFINEMENT_BRIDGE_DARIO_V001.md
+9685af44cc48f01fb04e57329cedf4f9a871eb393c6d41396179776957287e9b  STAGE8_7A_SUPPORT_AND_FORCING_DARIO_V001.md
 
 THE THREE CONSUMERS AND THEIR PANELS (sidecars matched):
-  STAGE8_REQUIRE_BUILD_CANCELLATION_V001.md         4971e2739666bd95917163763f42cadf427442a7c710f8b22353d65ead9fe5fe
-  STAGE8_CANC_PANEL_STRUCTURE_V001.md               920a2ad988e3 (first 12; sidecar matched)
-  STAGE8_CANC_PANEL_SYMHUNT_V001.md                 564b7040bf51 (first 12; sidecar matched; not span-consumed)
-  STAGE8_ANNIHILATION_CHECK_V001.md                 7cf16a3c9cb8 (first 12; sidecar matched)  [SEALED verifier]
-  STAGE8_G3_PANEL_OVER_V001.md                      2a95d30f56e4 (first 12; sidecar matched)  [SEALED; BUILD_SOUND]
-  STAGE8_G3_PANEL_UNDER_V001.md                     bc3f11b7d093 (first 12; sidecar matched)  [SEALED; BUILD_SOUND]
-
-CREF/D3 DETERMINATION:
-  STAGE8_T7_CREF_VS_D3_FACTUAL_DETERMINATION_V001.md — sidecar matched (full digest
-  recorded in this session's seal log; the file is the sealed factual determination
-  cited by the A25/A27 review at its §3.2).
+4971e2739666bd95917163763f42cadf427442a7c710f8b22353d65ead9fe5fe  STAGE8_REQUIRE_BUILD_CANCELLATION_V001.md    (consumer b, CLAIMED)
+920a2ad988e3e7e519dacb957bdb993a4c3574a40c88931a3ced635e79dae1fb  STAGE8_CANC_PANEL_STRUCTURE_V001.md          (panel lens on b)
+564b7040bf51da4e7aec5b00d940b5e0215a9327ebbb2cd04947c568f8c9ae50  STAGE8_CANC_PANEL_SYMHUNT_V001.md            (located; not span-consumed)
+7cf16a3c9cb829b3c4d5a9ac2c8996897b1268e7d1e4f18d510e0ba4ce0b9c95  STAGE8_ANNIHILATION_CHECK_V001.md            (consumer c's verifier; SEALED)
+2a95d30f56e4d7f0ebe6a95c77e6f7e69865476c038b4ca926c6b561d0a56ab0  STAGE8_G3_PANEL_OVER_V001.md                 (SEALED; BUILD_SOUND on GB)
+bc3f11b7d09385df84a0c3d349b2530264fd8baf0aa50f1ddef5927633f2168d  STAGE8_G3_PANEL_UNDER_V001.md                (SEALED; BUILD_SOUND on GB)
 ```
 
-No seal failed. The FORM digest matched the tasked value exactly
-(`5e49d209...58f37`); the struck §1/§1.1 lines are a disclosed drafting failure of
-manual transcription, superseded by §1.2, and no struck line is cited anywhere below.
+No seal failed. No register, tracker, plan, road, or lens file was read; register
+question numbers (Q-697, Q-701, Q-702) appearing below are carried exactly as cited
+inside the sealed artifacts, never checked against any register.
 
 ---
 
@@ -228,10 +140,9 @@ O1  O-D1 exact-|C|_4 disjoint diamond decomposition scheme (null residual or
 O2  O-D2 append-only D2 re-typing amendment ("every EXHAUSTION UNIT of the
     decomposition runs at FULL tau_R", carrying the no-small-record-coupling
     clause verbatim).                                               UNBUILT.
-    Charter [8846,10060); §3 remedy at [4478,5641) vicinity (the §3 block). Probe
-    this session: no amendment artifact exists at path (grep over workspace .md,
-    mirrored/evidence trees excluded — only the charter and one RL2B artifact
-    mention the re-typing).
+    Charter [8846,10060); remedy statement in §3. Probe this session: no amendment
+    artifact exists at path (grep over workspace .md, mirrored/evidence trees
+    excluded — only the charter and one RL2B artifact mention the re-typing).
 
 O3  O-D3 decomposition-independence of the completed response (or canonical scheme
     + canonicity).                                                  UNBUILT — UNTOUCHED.
@@ -265,7 +176,7 @@ O6  RA27-3 — full J_ref realization carrying the seven fields (D012 row at
     (M,g) as source). Field by field over the working class A0+A1+A2+composites:
 
     6a incidence, four-volume half.                                 BUILT.
-       FR board (§4 row 1; FR file, "SUPPLIED", grounded at 742 §3).
+       FR board §4 row 1 ("SUPPLIED", grounded at 742 §3).
     6b incidence, cochain half — THE SUBDIVISION CHAIN MAP.         PARTIAL→BUILT
        at generator level, post-FR: FR sealed the absence at relay 751
        ("subdivision chain map" zero corpus-wide, FR [14730,14926)); SINCE THEN
@@ -275,15 +186,15 @@ O6  RA27-3 — full J_ref realization carrying the seven fields (D012 row at
        integer identity), with L_id = id and per-generator existence at 795
        (B1A_COFRAME_HALF, O1 = PROVED); cited as PROVED of record under Q-702 at
        B1B_INDEX_BRIDGE [8516,8795). CAVEAT of record: the min-norm forcing rule
-       is DEAD (NATURALITY = NOT NATURAL, crosscheck flag block) — the map's
-       section freedom (J_1) is a carried parameter, and the register citation
-       Q-702 is carried from the sealed artifacts, not read from any register.
+       is DEAD (NATURALITY = NOT NATURAL, crosscheck flag block) — the section
+       freedom J_1 is a carried parameter; the Q-702 citation is carried from the
+       sealed artifacts, no register read.
     6c coframe.                                                     BUILT AS A
        NON-UNIQUE FAMILY (no member selected). EXISTS: A1 derived from child
        extents (FR §1.2, grounded in R33); the simplicial (A2) coframe derived at
-       753 (d6f490b8) — discharging FR's named SPEC GAP "a sealed coframe on
-       simplicial cells" (FR [ §1.3 ]); the identity-law exhibit is EXACT and
-       total on A0 (1x1), A1 (16x1/16), A2 (24x1/24) and composites (384x1/384)
+       753 (d6f490b8) — discharging FR §1.3's named SPEC GAP "a sealed coframe on
+       simplicial cells"; the identity-law exhibit is EXACT and total on A0
+       (1x1), A1 (16x1/16), A2 (24x1/24) and composites (384x1/384)
        (B1C_RECEIVER_INHABIT [16553,17290)); the 800 no-go (520a3fa2,
        "UNSATISFIABLE") is REFUTED BY EXHIBIT of record (B1A_CERTIFICATE_VERIFY)
        and the divergence located (805: wrong frame conversion). MISSING: the law
@@ -333,9 +244,9 @@ O6  RA27-3 — full J_ref realization carrying the seven fields (D012 row at
 O7  RA27-4 — eta_resp, a NAMED response topology/quotient, and an EXACTLY
     commuting common-refinement square (zero naturality defect; no boundary/
     contact or asymptotic tolerance may substitute).                UNBUILT.
-    D012 row [45008,45355); the exact-square shape and N_r(d_K) = 0 display at
-    LANE2 §2.6.3 (bytes ~[21000,24500) region; quoted clauses at V011
-    aa7c6d49[47025,47247)). FRAGMENT THAT EXISTS: the measure-transport equation
+    D012 row [45008,45355); the exact-square shape and the N_r(d_K) = 0 display
+    in LANE2 §2.6.3; the two sealed clauses verbatim at V011
+    aa7c6d49[47025,47247). FRAGMENT THAT EXISTS: the measure-transport equation
     E2 holds with B_g = 0 EXACTLY for the surviving F-rule candidates — stronger
     than the subextensive tolerance requires (B1B_INDEX_BRIDGE [8516,8795)). The
     800 Moller hunt found "a derived precursor and an absent target" — eta_resp
@@ -393,11 +304,12 @@ O14 RECEIVER INHABITANT — the JOINT_A1_A2_FIELD_EXT_MEMBER family.  PARTIAL.
     class (B1C_DENSITY_RECEIVER_BUILD §4.2, missing-member display
     [12363,12740)).
 
-SUMMARY TALLY: BUILT 2 (O6a; O6b at generator level, CLAIMED/cross-confirmed);
-BUILT-AS-FREE-FAMILY 1 (O6c); PARTIAL 6 (O5, O6d, O6f, O6g, O10, O14);
-UNBUILT 9 (O1, O2, O3, O4, O6e, O7, O8, O9, O11, O12, O13 — eleven items, of
-which O11-O13 are the law-level restatement of parts of O6g/O14). No item is
-fully DERIVED as the one law; nothing above is a ratified discharge.
+SUMMARY TALLY over the fourteen numbered items (O6 counted once, its seven fields
+itemized): fully BUILT at their own scope 2 sub-fields (O6a; O6b at generator
+level, CLAIMED/cross-confirmed) + 1 built-as-free-family (O6c); PARTIAL 6 (O5,
+O6d, O6f, O6g, O10, O14); UNBUILT 9 (O1, O2, O3, O4, O6e, O7, O8, O9, and the
+S1/S3/S4 law-level trio O11-O13, which restates parts of O6g/O14 at law
+strength). NO item is the derived law; nothing above is a ratified discharge.
 ```
 
 ---
@@ -503,12 +415,12 @@ T2  C_ref vs D3 — THE QUANTIFIER SCOPE CONFLICT IS REAL, SAME-OBJECT, AND
     while citing the other.
 
 T3  THE CHARTER'S "TRANSPORT FUNCTOR" IS A DIFFERENT TRANSPORT. The charter's
-    object decomposes ATOMS INTO CAUSAL DIAMONDS on the exhaustion side (charter
-    definition [674,1548) vicinity, §2); the law posed HERE carries diamond-
-    realized densities onto the RECORD COMPLEX on the refinement side. The
-    sealed non-identification is explicit: refinement is not decomposition-
-    independence — "a DIFFERENT obligation ... I do not identify them"
-    (OD3-LEVER [8468,8638)); decomposition-independence is INTRA-ATOM
+    object decomposes ATOMS INTO CAUSAL DIAMONDS on the exhaustion side (the
+    definition-in-force block, charter [674,1548) and §2); the law posed HERE
+    carries diamond-realized densities onto the RECORD COMPLEX on the refinement
+    side. The sealed non-identification is explicit: refinement is not
+    decomposition-independence — "a DIFFERENT obligation ... I do not identify
+    them" (OD3-LEVER [8468,8638)); decomposition-independence is INTRA-ATOM
     well-definedness while a stitching/continuum rule carries a finite-cell
     answer to a physical one — "Different kinds, on separate dockets, fenced
     apart" ([12065,12267)). The name collision ("transport") is a standing
@@ -548,7 +460,10 @@ T7  CURRENCY TRAP (YOURS, disclosed): FR's negatives — "No transport law
     free bridge. Registering the sealed absence WITHOUT the later sealed
     partials would double-count the gap; registering the partials as a LAW would
     over-count the supply. Both mis-registrations are barred here: the sealed
-    state of the LAW is still absent; the sealed state of its PARTS is §2.
+    state of the LAW is still absent; the sealed state of its PARTS is §2. The
+    G3-PANEL-UNDER's SEALED finding that nothing FIXES the transport is
+    consistent with both: types, free families, and unselected candidates fix
+    nothing.
 ```
 
 ---
@@ -622,11 +537,10 @@ IT DOES NOT read the charter's diamond geometry, PA/E1 carrier content, or the
    the ledger was consumed for its failure-rule sentence alone, as tasked.
 IT DOES NOT resolve the C_ref/D3 conflict, the RA27-2 principal fork, the O-D4
    acceptance, or member selection — all principal business, named as such.
-YOURS-marked assemblies: the fourteen-item decomposition (§2 tally), the
+YOURS-marked assemblies: the fourteen-item decomposition and its tally (§2), the
    minimal-sub-law posing and its falsifiers (§3), trap T7 (§4), and the
    d_0-square step (§5). Each runs on verified sealed spans; none consumes an
-   unsealed value; §1's struck digest-transcription lines are disclosed, not
-   hidden.
+   unsealed value.
 ```
 
 ---
@@ -663,7 +577,8 @@ OBLIGATION_LIST = 14 items, typed of record (spans in §2): O1 O-D1 diamond
   incidence-sum law UNBUILT (GB[14940,16364),[17360,17952)); O12 port anchoring
   UNBUILT (GB S3); O13 spanning family UNBUILT (GB S4); O14 receiver inhabitant
   PARTIAL (4/10 components 3151fd1a[16553,17290); missing member display
-  0c535497[12363,12740); nonemptiness undecidable). NO ITEM IS THE DERIVED LAW.
+  0c535497[12363,12740); nonemptiness undecidable). NO ITEM IS THE DERIVED LAW;
+  all B1-arc statuses carried at CLAIMED strength.
 
 MINIMAL_SUBLAW = BLOCK-CLASS ASSIGNMENT (posed, not built): cls(j) = (phi_f != 0?,
   phi_H != 0?) of the transported write chain over the working class, WITH a
@@ -682,20 +597,20 @@ MINIMAL_SUBLAW = BLOCK-CLASS ASSIGNMENT (posed, not built): cls(j) = (phi_f != 0
 TRAPS_CARRIED = T1 C_ref = frozen AUDIT class, not physical Ref (V011
   aa7c6d49[46712,47444); census carried at 74bbb7aa[27184,27469); S26 bars the
   smooth constituent); T2 C_ref vs D3 SAME-OBJECT conflict, D3 strictly larger
-  (slivers), unresolved, principal's, D3 spec HELD (CREF-VS-D3 [177,321),
-  [3969,4366),[8126,8401)); T3 charter transport (atoms->diamond decompositions,
-  exhaustion side) != the posed diamond->complex law (refinement side);
-  refinement != decomposition-independence, sealed non-identification
-  (OD3-LEVER[8468,8638),[12065,12267)); T4 lever illusory
-  (OD3-LEVER[196,236)) and the stitching failure rule fires on a different
-  boundary (LEDGER[4221,4312)) — no cross-booking; T5 circularity bar: R33's
-  naturality is a PREMISE, cannot promote to eta_resp (REVIEW[7220,9836),
-  [8235,8372),[8409,8465)); plus the verdict-token name-match trap (R33 forces
-  the measure VALUE, not the F-rule; B1B §1.3); T6 V011 spans bind to packet
-  member aa7c6d49 only (top-level same-name file differs: 20a3a17d); T7 currency
-  trap (YOURS): FR's relay-751 negatives (FR[13701,13729),[14730,14926)) are
-  superseded in part by the seal-verified B1 arc — register neither the absence
-  without the partials nor the partials as a law.
+  (slivers), unresolved, principal's, D3 spec HELD (CREF-VS-D3 6934f858
+  [177,321),[3969,4366),[8126,8401)); T3 charter transport (atoms->diamond
+  decompositions, exhaustion side) != the posed diamond->complex law (refinement
+  side); refinement != decomposition-independence, sealed non-identification
+  (OD3-LEVER[8468,8638),[12065,12267)); T4 lever illusory (OD3-LEVER[196,236))
+  and the stitching failure rule fires on a different boundary
+  (LEDGER 980a38ca[4221,4312)) — no cross-booking; T5 circularity bar: R33's
+  naturality is a PREMISE, cannot promote to eta_resp (REVIEW bed94669
+  [7220,9836),[8235,8372),[8409,8465)); plus the verdict-token name-match trap
+  (R33 forces the measure VALUE, not the F-rule; B1B §1.3); T6 V011 spans bind
+  to packet member aa7c6d49 only (top-level same-name file differs: 20a3a17d);
+  T7 currency trap (YOURS): FR's relay-751 negatives (FR[13701,13729),
+  [14730,14926)) are superseded in part by the seal-verified B1 arc — register
+  neither the absence without the partials nor the partials as a law.
 
 FIRST_BUILDABLE = THE d_0-SQUARE CERTIFICATE: exhibit sd*_0 per licensed
   generator and verify sd*_1 . d_0' = d_0 . sd*_0 as an exact integer matrix

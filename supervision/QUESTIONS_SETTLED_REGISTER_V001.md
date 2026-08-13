@@ -17054,6 +17054,18 @@ CUSTODY = two located, non-fatal defects (the R4 repair-as-reading — flagged n
 
 CONSEQUENCE: Q-1020 now carries its external Tier-2 anchor. The Phase-I picture is unchanged and slightly SIMPLIFIED (one phantom constraint removed from the free-set accounting). alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 43828555 (over 3e35ffe2, 2a95d30f, bc3f11b7). Q-980–Q-1020 carried. REOPEN: with Q-1020's conditions; the GB re-typing reopens only if a derivation is exhibited that actually yields the single-branch condition from difference-branch invariance.
 
+## Q-1022 — EXTERNAL ANCHOR (CODEX 2, 1120): THE ANNIHILATION ALGEBRA IS CONFIRMED — BUT REFUTED *AS AN ANCHOR FOR THE SEALED OBJECT*: THE TWO-TIME REDUCTION IS THE LOAD-BEARING MISSING STEP, AND THE INTERNAL ARTIFACTS UNDER-DISCLOSED IT (2026-08-13)
+
+**Answer: the external cross-lineage anchor SPLITS the annihilation result exactly where it should.** Codex 2's 1120 (STAGE8_ANNIH_ANCHOR_CODEX2_V001.md, 48e0c76f, seal-verified at cleanroom root, byte-identical copy preserved in the archive workspace; 22/22 cited spans bounds-checked and rehashed; declared-closure audit clean).
+
+CONFIRMED (re-derived independently, third lineage): PROJECTOR_EXACT — Ĉ(k)=(I−α·k̂)/2 Hermitian idempotent, spectrum {0,1}, from the sealed distributional kernel AND E1's independently pinned C(p). TRANSVERSALITY and SANDWICH_ZERO — exact, **for the frozen equal-time B1 surrogate** (the constant-ℓ convolution symbol and operator).
+
+REFUTED — **ANCHOR_VERDICT = REFUTED for the sealed object**: "the conditional surrogate algebra is exact, but the two-time Dyson-dressed vertex has not been reduced to that surrogate and must be re-analysed." The sealed vertex has NO supplied B1 reduction. So the annihilation (Q-1019) is of record a **SURROGATE-LEVEL theorem**, not yet a fact about the record's actual object — hardening Q-1019's own carried conditionality from "re-analysis owed" to "re-analysis LOAD-BEARING; the chain does not anchor without it."
+
+SCOPE_HONEST = NO (booked): the two internal artifacts (564b7040, 7cf16a3c) disclosed the B1/frozen-ℓ/G3/IR conditionality but **omitted E1's binding fact** that B1 is an equal-time multiplication idealization while the sealed vertex is two-time and Dyson-dressed. The registrar row (Q-1019) carried that fact — supplied by the STRUCTURE lens, not by the annihilation artifacts themselves — so the REGISTER's scope was correct while the ARTIFACTS' self-disclosure was deficient. Custody lesson: an artifact's scope statement must carry the binding upstream typing ITSELF, not rely on a sibling lens to supply it.
+
+CONSEQUENCE — the plan is UNCHANGED and its critical step is now externally confirmed as necessary: **I.7 (the two-time re-analysis on the sealed vertex, consuming the transported ℓ_j) is not polish — it is the step that decides whether the annihilation holds of record.** Both external anchors are now in: Dario 1119 CONFIRMED Q-1020 (+ the GB upstream correction, Q-1021); Codex 1120 CONFIRMED the algebra / REFUTED its of-record anchoring. Net Phase-I state: unchanged, sharpened, externally anchored on both load-bearing positives. alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 48e0c76f (over 564b7040, 7cf16a3c, 4971e273). Q-980–Q-1021 carried. REOPEN: the two-time reduction built (B1-to-surrogate or direct two-time analysis) → the annihilation either anchors of record or fails there — decided at I.7.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
