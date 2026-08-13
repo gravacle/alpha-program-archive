@@ -5,11 +5,10 @@ one flat list of remaining steps only. Completed steps are DELETED from this lis
 (history lives in the questions-settled register). Marks: ▶ in progress · ○ up next.
 Every "where are we" report shows THIS list and nothing else.
 
-▶ 1. GLUED-RECORD TOPOLOGY HUNT — does a sealed multi-cell record complex exist;
-      are port-loops forbidden / permitted / unspecified; does the sealed CTP trace
-      close the chain into a loop (H¹ > 0 carrier)? (hunt + check running)
-○ 2. SETTLE THE CARRIER — from the hunt: register the trichotomy; if permitted or
-      unspecified, construct (or principal-decide) the glued record's topology.
+▶ 2. SETTLE THE CARRIER (fork, Q-1028 — Route A first): 
+      A: INSTANTIATE the entered b₁=1 cell (the Attach premise's annular cell) and
+         RE-RUN the AND-class decision on it (running);
+      B: the inter-cell loop constructor (O11 successor law + O12 port anchoring).
 ○ 3. TWO-TIME RE-ANALYSIS — redo the annihilation on the sealed Dyson-dressed
       vertex (surrogate → sealed object; externally confirmed load-bearing).
 ○ 4. REMAINDER / IR ESTIMATE — the cancellation fate on the glued record:
