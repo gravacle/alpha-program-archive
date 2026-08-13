@@ -106,6 +106,23 @@ The energy response's smooth sector is now fully mapped [COMPUTED, Q-1032]:
 the medium through which local charge feels global shape, and whether its correlations
 sum to a number or a flow is exactly whether α is a constant or a running law.
 
+## 5b. The pairing motif (principal's observation, 2026-08-13 night)
+
+Across the surface process, every EXACT cancellation confirmed was a PAIRING under an
+involution — the two CTP branches on the diagonal; the pointer weight-sum |Σw|² = 0;
+the sandwich kill J + SJS ≡ 0; the second-difference stencil; γ = P1 − P2; the two cell
+types mirror-killing each other's sector — and every SURVIVOR lived on the pairing's
+FIXED LOCUS (the longitudinal part that commutes through; the intraband part the
+rotation never touches; the branch diagonal), with the massless sea keeping exactly
+that fixed content alive. **Cancellation = pairing; survival = being your own
+partner.** [LENS — a motif over COMPUTED instances; predictive heuristic only]
+
+Implication for the endgame: the FIXED-α horn requires one more pairing (a new
+symmetry in the uncertified collapse error that partners the survivor away); the
+RUNS horn is what the fixed locus generically leaves standing. The error-term
+certification is, in these terms, the hunt for the missing partner. The heuristic is
+never an input to a blind derivation — it tells us where to look, not what to find.
+
 ## 6. The story in one paragraph
 
 The record builds the world out of two shapes: filled cells that hold field (EM — the
