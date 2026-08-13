@@ -36,3 +36,7 @@
 `author F2 (this)` → close G1 → **principal flips `kappa_record_computed`** → compute K_* → close G2 → **principal flips `alpha_computed`** → assemble α → close G3 → **principal flips the comparison fence** → end test, once.
 
 **Status: DRAFT for review.** The load-bearing clause is **G1.1** — we do not compute anything until the winding-forcing is *closed*, not merely adjudicated. The gate to κ_record is the closure of Q-1011's residuals.
+
+---
+
+**UPDATE 2026-08-13 — G1.1 EXECUTED, FALSIFIER FIRED (Q-1012).** The two G1.1 residuals were run by independent, cross-lineage, fenced lanes: OPUS-URELCHECK (254f691d) and QN-COMPLETE-BUILD (e0800892). Result: the U(1)_rel *carrier* determinacy and Reading-A q_N completeness CONFIRM, but the load-bearing "ker(χ_n) is physical structure acting nontrivially on q_N, distinguishing |n|" is REFUTED on bedrock — a homomorphism kills its own kernel, so ker(χ_n) acts *trivially* on q_N for |n|>1; "kernel acts nontrivially on q_N" is faithfulness *restated*, not derived. The G1.1 falsifier ("an independent lane finds the response-null quotient removes/nullifies the kernel → kernel not physical → winding-forcing REOPENS, no κ_record") is TRIPPED. **Gate 1 is NOT passable.** κ_record stays fenced. The gate worked exactly as designed: it caught a merely-adjudicated verdict before any computation. The revised state and its evidence are booked at **Q-1012**; the founding question is UNDETERMINED, localized to whether the boundary-closure forces faithfulness (the require-side).
