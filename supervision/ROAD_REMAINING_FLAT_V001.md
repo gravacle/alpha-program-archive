@@ -1,45 +1,56 @@
-# THE ROAD — WHAT'S LEFT, FLAT — from here to signature
+# THE ROAD — THE FOUR-PHASE PLAN — single source for "where are we"
 
-Single source for "what do we have left." Derived from the sealed governing plan
-THE_PLAN_TO_ALPHA_AND_GRAVITY_V004.md. **This list does not get re-shaped. Only the
-status mark on each line changes.** Remaining items only; finished work is not shown.
+**STANDING FORMAT (principal direction, 2026-08-13):** every "where are we in the plan"
+report uses THIS four-phase frame. Derived from the sealed governing plan
+THE_PLAN_TO_ALPHA_AND_GRAVITY_V004.md; restructured from the flat list by principal
+direction (the flat items are absorbed below with their old numbers). Only STATUS marks
+change between reports — the frame does not.
 
-> **STATE (2026-08-13, Q-1013 — require-target posed AND cross-checked):** The interior is CLOSED (allow): R_record,L is n-blind up to the n² ray (5e49d209), and the kernel route can't smuggle |n| either (Q-1012 — that IS faithfulness). So the whole question is the boundary (require), now PINNED to ONE object and adversarially verified: **the winding is FORCED iff the cross-block Φ_f^T C Φ_H ≠ 0**, where **C is the scale-free Gate-5 cluster kernel**. Seven nodes built (TYPE-P); the decider is one cross-block; **β is a DISTINCT scale/GR node, OFF the winding-require path for the object.** THE SEAM (Q-1013): C-the-object is scale-free, but its only existence route on offer (R-L2b) is scale-bearing and refuted-as-written — need a **connection-only existence route for C**. **UPDATE Q-1014 (first build + 3-axis panel):** the finite-N / INTERIOR level is now CONFIRMED FREE — the record forces only the TOTAL write (φ_f+φ_H≠0), leaving the block-split (which sector is active) GENUINELY FREE of record (the only forcing line needs a forbidden continuum-diamond import); μ (G2 scalarization) is unbuilt. **UPDATE Q-1015 (boundary excursion, full panel):** the interior AND the boundary both reduce to ONE object. The boundary is NOT blind to φ_H (the face-response is a channel — the build's "blind→FREE" was refuted; the confirmation axis shared that blind spot, only the adversary caught it). Whether the boundary forces φ_H is the UNDETERMINED **materiality fork = does R_record,L factorize (does the cross-block Φ_f^T C Φ_H survive) = G1 / the Gate-5 kernel C.** The deciding datum is non-boundary-local (bulk); the only WRITTEN inside/outside agreement imports GR (Q-1093 circular). **FLOOR Q-1016 (G1 build + 3-axis panel, adversary-adjudicated):** the materiality fork is a GENUINELY-OPEN GAP — not decidable by adjudication. "Is α forced?" now reduces to THREE named unbuilt objects: **[1 PRIMARY] the connection-only cluster-summability sub-estimate certifying the post-limit kernel C exists — the "short one power" (α=1 volume-law vs α=½ area-law), = the Bohm A-L0 arm-2 estimate; [2] G3 the write-chain datum (φ_f,φ_H); [3] G2 the scalarization state-port fixing μ (undetermined over a continuum; μ=0 is a live degenerate-FREE).** The cold axis claimed SCALE-ENTANGLED; the adversary refuted it — β does NOT provably re-enter, the finiteness is scale-invariant degree-3 cancellation — BUT the running-κ_record / scale-entanglement risk is real-and-unproven on the other side. **Q-1017 (cluster-summability attempt + adversary):** the estimate FAILS-AT, but with real progress and a razor reduction. The ∞-per-cell-norm was a wrong-norm artifact; in the OPERATOR norm the per-cell activity is bounded connection-only, and the WHOLE existence-of-C obligation reduces, scale-free, to ONE combinatorial hypothesis (a Kotecký-Preiss activity bound on the cell-adjacency graph). That hypothesis is undischargeable connection-only for the sealed GAPLESS/massless sea (only sealed decay is a degree −3 metric power law). **The whole fork now hinges on ONE unknown analytic fact: does the degree −3 singularity FULLY cancel? FULL → aggregation flat → C intensive → α FORCED (fixed). PARTIAL → α RUNS (running κ_record).** UNKNOWN which → NET FAILS-AT, α NOT forced/NOT free. **Q-1018 (3-lens panel on the cancellation build):** the build's "α runs" verdict RETRACTED — three convergent refutations: (1) the RUNS filing was a REGISTRAR-BRIEF artifact ("no third road" did the classifying; the sealed spans say UNKNOWN); (2) the object of record is the SANDWICH C(V(a)−V(0))C, C is the sealed sea projector, and its Clifford algebra ANNIHILATES the claimed degree-−2 survivor exactly (CLAIMED, own check in flight) — the interband/commutator premise proved at symbol level, remaining local terms HS-integrable; (3) the build's phase-dressing mechanism isn't of record anyway (the sealed object is two-time Dyson-dressed; the residual's order consumes unsupplied G3). Kernel-level full cancellation stays EXCLUDED (conditional). Corpus's only worked composed-object datum LEANS CLOSES (labeled lean). **Honest state: UNDETERMINED, relocated one order down — the decider is a REMAINDER consuming G3 (now DOUBLY load-bearing: the split AND the remainder's order) + an IR/boundary estimate.** **Q-1019:** the sandwich annihilation ADVERSARIALLY CONFIRMED (every step re-derived; the commutator-route premise proved at symbol level; conditional on the idealized survivor form). **Q-1020 (G3 built to its sealed maximum + two-lens panel, SOUND both directions):** the construction fixes SEVEN data (two-port open-transport incidence from z^g = t z s†, two-branch conjugated read, sector-diagonal coupling, the two-time vertex, …) and GENUINELY does not fix the block-split. **The one missing object is NAMED: the diamond-to-complex TRANSPORT LAW (current-density receiver + index bridge / a ratified successor law displaying h_j as an incidence sum) — which IS the program's long-known absent STITCHING RULE.** The whole descent has converged: the split, the remainder's order, and the two-time re-analysis all consume the transported ℓ_j only that law supplies. Remaining work is CONSTRUCTION, two objects: **(1) the transport/stitching law (= the heart of road item 2/B1, triply load-bearing); (2) G2 the scalarization state-port (fixes μ).** Nothing adjudicable remains at this stratum. α NOT forced/NOT free; all fences hold.
+Marks: ▶ running now · ○ open · ⊘ auto-forced-once-inputs-land · ✗ struck.
+Size: [S] one session · [M] a charter (days) · [L] the hard construction.
 
-Marks: ▶ current · ○ open · ⊘ forced-automatic-once-inputs-land.
-Size:  [S] one lane-session (hours) · [M] a charter (days) · [L] unsolved — new
-       mathematics / open research problem, no credible estimate.
+═══════════ PHASE I — CLOSE THE WINDING-FORCING (Gate 1) ═══ ⟵ WE ARE HERE ═══
+▶ I.1 [S] EXTERNAL ANCHORS — 1118 → Codex 2 (the annihilation chain, Q-1019);
+        1119 → Dario (the G3 realization + one-object claim, Q-1020). RUNNING.
+▶ I.2 [S] TRANSPORT-LAW POSING — obligation list of record + the MINIMAL SUB-LAW
+        that unblocks the block-split + first buildable step. RUNNING (posing+check).
+▶ I.3 [S] G2 STATE-PORT — does anything sealed select the scalarization (fixes μ)?
+        RUNNING (build + two-lens panel).
+▶ I.4 [S] F0 COMPUTAND-BY-CITATION — the sealed chain DEFINING κ_record/K* (F2 gate
+        G1.2; old item 9, pulled forward). RUNNING (assembly + check).
+○ I.5 [M] BUILD THE MINIMAL SUB-LAW (from I.2's posing) → transported ℓ_j →
+        READ THE BLOCK-SPLIT (φ_f/φ_H). The first real construction.
+○ I.6 [L] FULL TRANSPORT/STITCHING LAW (the A27 package: Ref/J_ref arrows,
+        η_resp naturality, τ_ker + boundary object, subextensivity certificate,
+        coefficient-invariance) — only if I.5 is insufficient. THE hard core.
+○ I.7 [M] TWO-TIME RE-ANALYSIS of the annihilation on the sealed vertex + the
+        REMAINDER/IR estimate (consumes I.5/I.6; decides fixed-vs-running).
+○ I.8 [S] READ THE CROSS-BLOCK OF RECORD → FORCED / FREE / RUNS. Closes Gate 1.
+(Absorbed old items: 1 descent-require, 2 transport fields B1 [= I.5/I.6], 3 gluing ⊘,
+5 β-invariance, 6 junction, 7 charged Q-spec [feeds I.6/I.7 as needed], 8 close 7A;
+✗ 4 metric conversion STRUCK — rail, distinct scale node, off the winding path.)
 
-═══ BLOCK A — BUILD THE INPUTS (everything α needs must exist first) ═══
-▶ 1  [M] DESCENT REQUIRE — supply the origin-descent certificate for the history content.
-     1105 hoped this was one bare dimensionless measure; 1106 REFUTED that (Q-1007): the supply
-     is STRICTER than a bare measure AND its value rides on the absolute normalization = line 4.
-     So line 1 is entangled with the β mountain, not independent of it. Not a tonight box.
-○ 2  [M] TRANSPORT FIELDS (B1) — connection, support, current-density (three free inputs).
-⊘ 3  [S] GLUING OBSTRUCTION (B2) — auto-forced once B1 lands (residual is unique).
-✗ 4  [STRUCK] METRIC CONVERSION (B3) — RAIL, not a surface object (Tier-1 confirmed cross-family; four-verifier booked). The β family; the mountain was a rail;
-     likely decides Finish A vs Finish B. NOT a one-night item.
-○ 5  [M] β-INVARIANCE (B4/B5) → the common cell.
-○ 6  [M] JUNCTION (C) — common cell, recognition verdicts, closure.
-○ 7  [L] CHARGED Q-SPEC (D2) — frozen nine-slot spine, 0/18 content. Large.
-○ 8  [M] CLOSE 7A (E) — lineage V3, R-L2b discharge, 7A close.
+═══════════ PHASE II — COMPUTE α (only on FORCED at I.8; F2 governs) ═══════════
+○ II.1 [S] Gate-1 evidence → THE PRINCIPAL FLIPS kappa_record_computed.
+○ II.2 [S] Rationality-from-form check (G1.4) → compute κ_record / K*.
+○ II.3 [S] Gate 2 → THE PRINCIPAL FLIPS alpha_computed → assemble α = 1/(4π K*).
+○ II.4 [S] Gate 3 → the preregistered END TEST, ONCE. (Old items 10–12.)
 
-═══════════════ ⟵ THE CUT: everything above FEEDS α · below COMPUTES it ═══════════════
+═══════════ PHASE III — THE HONEST ALTERNATES (if I.8 ≠ FORCED) ═══════════════
+○ III.A FREE → Finish B: the honest conditional, sealed and signed.
+○ III.B RUNS → the record forces a FLOW: new charter — the running law + the
+        record's own anchor point (α = the flow read at the record's boundary
+        condition). Not defeat; a different forced answer.
 
-═══ BLOCK B — COMPUTE α (each step [S], but only once BLOCK A has landed) ═══
-○ 9  [S] PIN K_*'s DEFINING CHAIN (F0) — cite the sealed chain that defines α's onset stiffness.
-▶ 10 [S] AUTHOR THE RELEASE CONDITION (F2) — DRAFTED V001; its first clause G1.1 was executed
-     and REFUTED the Q-1011 verdict (Q-1012). Gate not passable: winding-forcing reopened.
-○ 11 [S] ★ COMPUTE α ★ — κ_record (F3a) · K_* (F3b, with the exact-rationality check) ·
-     assemble α = 1/(4π K_*) (F3c). THIS is the line where the number appears.
-○ 12 [S] END TEST, ONCE (F4) — the preregistered comparison under the released fence.
+═══════════ PHASE IV — GRAVITY + SIGN-OFF (parallel; NOT a prerequisite for α) ═
+○ IV.1 [L] GRAVITY (old 13) — content · scoring · close.
+○ IV.2 [S] THE SIGNATURE (old 14) — the claim in the record's own voice, sealed,
+        scored, pushed.
 
-═══ BLOCK C — GRAVITY + SIGN-OFF (parallel; NOT a prerequisite for α) ═══
-○ 13 [L] GRAVITY (G) — content (interleaved with B/C) · scoring · close.
-○ 14 [S] THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
-
-REALITY CHECK: α is COMPUTED at line 11. But BLOCK B is fast only once BLOCK A exists, and
-BLOCK A's critical path is gated by line 4 (the β mountain) and line 7. Nothing forces the
-NUMBER until line 4 resolves. Line 1 is the one box genuinely in reach tonight.
-
-Note: 3 and 13-content interleave; 11–12 are the α gate; 1 is where we stand tonight.
+──────────────────────────────────────────────────────────────────────────────
+**STATE (2026-08-13):** Phase I, five tracks live (I.1–I.4). α NOT forced, NOT
+free — UNDETERMINED at two named construction problems (the transport/stitching
+law, triply load-bearing; G2). The sandwich annihilation is confirmed (Q-1019);
+G3 is at its sealed maximum (Q-1020). All fences hold: alpha_computed=false,
+proof_authorized=false, kappa_record_computed=false. Full chain of record:
+Q-1012 → Q-1020 in the questions-settled register.
