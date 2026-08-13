@@ -5,12 +5,14 @@ one flat list of remaining steps only. Completed steps are DELETED from this lis
 (history lives in the questions-settled register). Marks: ▶ in progress · ○ up next.
 Every "where are we" report shows THIS list and nothing else.
 
-▶ 2. SETTLE THE CARRIER — Route A done (Q-1029): the b₁=1 cell has dim H = 1 and
-      φ_H FORCED — but F=0 kills flux: a MIRROR collapse. Each sealed cell type
-      carries exactly ONE sector. Now running: the BOTH-BLOCKS determination —
-      is the F=0 mandate universal or Attach-specific; can the two cell types
-      compose; the AND decision typed onto K_3 (80⊕240⊕4, both blocks positive).
-      Route B (O11+O12 loop constructor) remains the constructive alternative.
+▶ 2. SETTLE THE CARRIER — determination done (Q-1030): PERMITTED + COEXISTENCE-
+      PROVEN + UNCONSTRUCTED. F=0 is trace-carrier-specific (clean role division,
+      sealed text decides); composition unbuilt-not-barred; on K_3 both sectors
+      coexist in single admissible writes (exact witnesses; fails only under strict
+      plaquette-locality). REMAINS: [a] the minimal both-blocks PHYSICAL construction
+      (connected, b₁ ≥ 2, filled faces = the O11/O12/O-D1 object) — building now;
+      [b] two authored-physics supplies: a cycle selector beyond b₁=1, and the
+      cell-local write-typing rule on multi-cell carriers (the K_3 hinge).
 ○ 3. TWO-TIME RE-ANALYSIS — redo the annihilation on the sealed Dyson-dressed
       vertex (surrogate → sealed object; externally confirmed load-bearing).
 ○ 4. REMAINDER / IR ESTIMATE — the cancellation fate on the glued record:
