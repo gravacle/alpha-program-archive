@@ -14,16 +14,19 @@ Size: [S] one session · [M] a charter (days) · [L] the hard construction.
         GB over-derivation corrected. Codex 1120 (Q-1022): the annihilation ALGEBRA
         confirmed 3rd-lineage; its of-record anchoring REFUTED pending the two-time
         reduction (= I.7, externally confirmed load-bearing).
-▶ I.2 [S] TRANSPORT-LAW POSING — obligation list of record + the MINIMAL SUB-LAW
-        that unblocks the block-split + first buildable step. RUNNING (posing+check).
+✅ I.2 [S] TRANSPORT-LAW POSING — DONE (Q-1025): 15 obligations typed; stock MORE
+        built than memory said (subdivision chain map BUILT at generator level, 771/0;
+        coframe family BUILT; receiver type CONSTRUCTED). Minimal sub-law = the
+        AND-boolean class with member-independence over the 1887-dim variety.
 ✅ I.3 [S] G2 STATE-PORT — DONE (Q-1024): **μ ≠ 0 pinned symbolically on the ratified
         chain** (DoR-013/014 generative origin, both weights strictly positive; provenance:
         authored-physics disclosed input; magnitude/sign open). The degenerate-FREE escape
         (μ=0) CLOSES there. Under-lens caught an unread ratified 08-12 mandate thread —
         integrated: F1's field-face supply is mandate-pre-assigned to authored physics.
 ✅ I.4 [S] F0 COMPUTAND-BY-CITATION — DONE (Q-1023; result carried at II.0a below).
-○ I.5 [M] BUILD THE MINIMAL SUB-LAW (from I.2's posing) → transported ℓ_j →
-        READ THE BLOCK-SPLIT (φ_f/φ_H). The first real construction.
+▶ I.5 [M] BUILD THE MINIMAL SUB-LAW — step 1 LIVE: the d₀-SQUARE CERTIFICATE
+        (exact integer identity sd*₁∘d₀' = d₀∘sd*₀; all inputs sealed) → transport-
+        stability of im(d₀) → then the AND-boolean class → READ THE SPLIT.
 ○ I.6 [L] FULL TRANSPORT/STITCHING LAW (the A27 package: Ref/J_ref arrows,
         η_resp naturality, τ_ker + boundary object, subextensivity certificate,
         coefficient-invariance) — only if I.5 is insufficient. THE hard core.
