@@ -14,8 +14,11 @@ Size: [S] one session · [M] a charter (days) · [L] the hard construction.
         1119 → Dario (the G3 realization + one-object claim, Q-1020). RUNNING.
 ▶ I.2 [S] TRANSPORT-LAW POSING — obligation list of record + the MINIMAL SUB-LAW
         that unblocks the block-split + first buildable step. RUNNING (posing+check).
-▶ I.3 [S] G2 STATE-PORT — does anything sealed select the scalarization (fixes μ)?
-        RUNNING (build + two-lens panel).
+✅ I.3 [S] G2 STATE-PORT — DONE (Q-1024): **μ ≠ 0 pinned symbolically on the ratified
+        chain** (DoR-013/014 generative origin, both weights strictly positive; provenance:
+        authored-physics disclosed input; magnitude/sign open). The degenerate-FREE escape
+        (μ=0) CLOSES there. Under-lens caught an unread ratified 08-12 mandate thread —
+        integrated: F1's field-face supply is mandate-pre-assigned to authored physics.
 ▶ I.4 [S] F0 COMPUTAND-BY-CITATION — the sealed chain DEFINING κ_record/K* (F2 gate
         G1.2; old item 9, pulled forward). RUNNING (assembly + check).
 ○ I.5 [M] BUILD THE MINIMAL SUB-LAW (from I.2's posing) → transported ℓ_j →
