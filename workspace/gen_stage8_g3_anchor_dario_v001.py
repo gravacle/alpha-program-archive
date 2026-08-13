@@ -50,7 +50,7 @@ SPAN_MARKERS = {
     "01a": "no contradiction; R4 refines the MECHANISM",
     "02a": "the only reading under which GB/GC",
     "05a": "No transport law exists",
-    "10a": "no local gauge covariance",
+    "10a": "Phase A claims no local gauge",
 }
 
 
