@@ -12,9 +12,12 @@ Every "where are we" report shows THIS list and nothing else.
       the two authored-physics supplies — (i) the b₁-domain extension (reduced: no
       selector needed on K_dd), (ii) the cell-local write-typing rule (T2 vs T1,
       the verdict hinge) — plus the gluing license (O11/O12/O-D1).
-○ 3. TWO-TIME RE-ANALYSIS — redo the annihilation on the sealed Dyson-dressed
-      vertex (surrogate → sealed object; externally confirmed load-bearing).
-○ 4. REMAINDER / IR ESTIMATE — the cancellation fate on the glued record:
+▶ 4a. THE ASSEMBLY QUANTIFIER + SHARP-STRATA ESTIMATE (step 3 done, Q-1032: the
+      annihilation FAILS per-pair — survivor −i·a_Δ·k̂_x·b̃·C(k), degree 0; but the
+      sealed weight-sum |Σw|²=0 kills it at ASSEMBLY level). Now: (i) is the
+      summed assembly the object of record for C?; (ii) the B-L2* sharp-strata
+      contribution; (iii) the F′-14 log-of-sum obstruction.
+○ 4b. REMAINDER / IR CLOSE-OUT — the cancellation fate of record (consumes 4a):
       C intensive (fixed) vs running κ_record.
 ○ 5. READ THE CROSS-BLOCK OF RECORD → **verdict: FORCED / FREE / RUNS.**
       ── if FREE: seal Finish B (the honest conditional) → go to 11.
