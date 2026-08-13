@@ -24,14 +24,20 @@ Size: [S] one session · [M] a charter (days) · [L] the hard construction.
         (μ=0) CLOSES there. Under-lens caught an unread ratified 08-12 mandate thread —
         integrated: F1's field-face supply is mandate-pre-assigned to authored physics.
 ✅ I.4 [S] F0 COMPUTAND-BY-CITATION — DONE (Q-1023; result carried at II.0a below).
-▶ I.5 [M] BUILD THE MINIMAL SUB-LAW — step 1 ✅ DONE (Q-1026): d₀-SQUARE
-        CERTIFIED_ALL, independently re-verified at zero residual → im(d₀) transport-
-        stable → the block pair well-defined, the AND-class POSABLE. Step 2 LIVE:
-        the AND-class MEMBER-INDEPENDENCE certificate over the 1887-dim variety
-        (do φ_f, φ_H vanish identically/never/on-a-subvariety?) → READ THE SPLIT.
-○ I.6 [L] FULL TRANSPORT/STITCHING LAW (the A27 package: Ref/J_ref arrows,
-        η_resp naturality, τ_ker + boundary object, subextensivity certificate,
-        coefficient-invariance) — only if I.5 is insufficient. THE hard core.
+✅ I.5 [M] MINIMAL SUB-LAW — DONE, and it DECIDED the stratum (Q-1026, Q-1027):
+        d₀-square CERTIFIED_ALL; then the AND-class computed exactly — **dim H = 0
+        on every sealed working-class complex** (single cell + refinements are
+        contractible): the harmonic/"GR" sector is EMPTY there, φ_H ≡ 0, the
+        cross-block vanishes FOR EVERY KERNEL at that stratum (degenerate one-sector
+        R = R_flux ⊕ 0). FORM's "dim-32 H" label CORRECTED (the 32 is assignment
+        freedom with nonzero flux part). EXACT REOPENING NAMED: a sealed GLUED
+        record complex with H¹ > 0 — which only the stitching construction builds.
+▶ I.6 [L] THE GLUED RECORD — now THE decisive front (reframed by Q-1027): does a
+        sealed multi-cell/stitched record complex exist (or is it constructible of
+        record), and does it carry H¹ > 0 (a non-contractible cycle = the only
+        possible home of the second sector)? First move LIVE: determine of record
+        what the sealed corpus says about the glued/multi-cell complex + its
+        topology. The A27 transport package remains the constructor.
 ○ I.7 [M] TWO-TIME RE-ANALYSIS of the annihilation on the sealed vertex + the
         REMAINDER/IR estimate (consumes I.5/I.6; decides fixed-vs-running).
 ○ I.8 [S] READ THE CROSS-BLOCK OF RECORD → FORCED / FREE / RUNS. Closes Gate 1.
