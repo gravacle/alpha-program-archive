@@ -3,6 +3,9 @@
 Single source for "what do we have left." Derived from the sealed governing plan
 THE_PLAN_TO_ALPHA_AND_GRAVITY_V004.md. **This list does not get re-shaped. Only the
 status mark on each line changes.** Remaining items only; finished work is not shown.
+
+> **TIER-1 RESULT (2026-08-13, Tier-2 pending):** items 1–7 covered. Item 4 STRUCK (rail). The scale is free on the surface ⇒ **Finish B** (α up to one free scale). The Finish-A lever (a β-sensitive derived Thomson bridge) is DEAD: S16 β-invariant, and its decider S13 is LOCK-SHAPED. Anchor: fire **1110 → Codex 2** and **1111 → Dario**. See CONTINUOUS_PROGRAM_RESULT_V001.
+
 Marks: ▶ current · ○ open · ⊘ forced-automatic-once-inputs-land.
 Size:  [S] one lane-session (hours) · [M] a charter (days) · [L] unsolved — new
        mathematics / open research problem, no credible estimate.
@@ -14,7 +17,7 @@ Size:  [S] one lane-session (hours) · [M] a charter (days) · [L] unsolved — 
      So line 1 is entangled with the β mountain, not independent of it. Not a tonight box.
 ○ 2  [M] TRANSPORT FIELDS (B1) — connection, support, current-density (three free inputs).
 ⊘ 3  [S] GLUING OBSTRUCTION (B2) — auto-forced once B1 lands (residual is unique).
-○ 4  [L] METRIC CONVERSION (B3) — the β family; THE MOUNTAIN. Held for hundreds of relays;
+✗ 4  [STRUCK] METRIC CONVERSION (B3) — RAIL, not a surface object (Tier-1 confirmed cross-family; four-verifier booked). The β family; the mountain was a rail;
      likely decides Finish A vs Finish B. NOT a one-night item.
 ○ 5  [M] β-INVARIANCE (B4/B5) → the common cell.
 ○ 6  [M] JUNCTION (C) — common cell, recognition verdicts, closure.
