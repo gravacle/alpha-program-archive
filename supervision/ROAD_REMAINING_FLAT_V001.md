@@ -5,14 +5,13 @@ one flat list of remaining steps only. Completed steps are DELETED from this lis
 (history lives in the questions-settled register). Marks: ▶ in progress · ○ up next.
 Every "where are we" report shows THIS list and nothing else.
 
-▶ 2. SETTLE THE CARRIER — determination done (Q-1030): PERMITTED + COEXISTENCE-
-      PROVEN + UNCONSTRUCTED. F=0 is trace-carrier-specific (clean role division,
-      sealed text decides); composition unbuilt-not-barred; on K_3 both sectors
-      coexist in single admissible writes (exact witnesses; fails only under strict
-      plaquette-locality). REMAINS: [a] the minimal both-blocks PHYSICAL construction
-      (connected, b₁ ≥ 2, filled faces = the O11/O12/O-D1 object) — building now;
-      [b] two authored-physics supplies: a cycle selector beyond b₁=1, and the
-      cell-local write-typing rule on multi-cell carriers (the K_3 hinge).
+▶ 2. SETTLE THE CARRIER — candidate BUILT (Q-1031): **K_dd** (the sealed trace cell
+      + one authored edge + one filled square; 4/5/1; blocks 3⊕1⊕1; exhaustively
+      minimal; the θ-cochain itself splits into both sectors; finite-N cross-term
+      exhibited: (3/16)·n²·μ). Candidate-not-of-record. REMAINS to settle of record:
+      the two authored-physics supplies — (i) the b₁-domain extension (reduced: no
+      selector needed on K_dd), (ii) the cell-local write-typing rule (T2 vs T1,
+      the verdict hinge) — plus the gluing license (O11/O12/O-D1).
 ○ 3. TWO-TIME RE-ANALYSIS — redo the annihilation on the sealed Dyson-dressed
       vertex (surrogate → sealed object; externally confirmed load-bearing).
 ○ 4. REMAINDER / IR ESTIMATE — the cancellation fate on the glued record:
