@@ -9,11 +9,11 @@ FORCED live on nine named debts, RUNS an unforced lean; even a surviving cross-b
 forces the CHANNEL, not |n|. Every remaining debt is named and assigned. The list
 below IS the upgrade map, grouped by holder.
 
-○ 5a. LANE CONSTRUCTIONS (blind-derivable): the carrier constructor (O11/O12/O-D1,
-      the derived connected b₁≥2 filled-face complex); the B-L2* two-time HS bound
-      at the volume diagonal; the G1 cluster kernel; the G3 write-chain realization;
-      the (r₀,r_ch) rank-pinning; the G2-E3 escape; (FREE side: a composition no-go,
-      if one exists).
+○ 5a-residue. LANE ITEMS REMAINING (first wave done — Q-1035/36/37: rank-pinning
+      NOT-PINNABLE [door = M4]; anchoring LAW derived [fork = the typing]; B-L2*
+      failing-at-resummation [life = the C-L1/C-L2 error]): the C-L1/C-L2 error
+      certification (if a route exists); the G1 cluster kernel; the G3 realization
+      (gated on the typing); the G2-E3 escape; a composition no-go hunt.
 ○ 5b. SPEC-AUTHOR ACTS (E1-successor amendments): the summed-S2′ re-quantification
       (colour sum inside the certifying norm) + the F′-14-compliant re-derivation;
       the cell-local write-typing rule (T1 vs T0/T2 — the verdict hinge).
