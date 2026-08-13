@@ -17016,6 +17016,18 @@ METHOD (banked): **a build brief must NEVER carry outcome-classification rules.*
 
 Evidence: 4971e273 (build), 920a2ad9, 5801681a, 564b7040 (panel). See [[project_alpha_reduces_to_cluster_summability]], [[project_divergence_is_the_coupling]], [[feedback_weight_the_adversary_not_the_cold_axis]]. Q-980–Q-1017 carried. REOPEN: the projector-annihilation check (in flight) failing; or supply G3 + the IR/boundary remainder estimate → decides CLOSES (α fixed/forced path) vs RUNS, of record.
 
+## Q-1019 — THE PROJECTOR-SANDWICH ANNIHILATION IS ADVERSARIALLY CONFIRMED (EVERY STEP INDEPENDENTLY RE-DERIVED): THE COMPOSED OBJECT'S LEADING OBSTRUCTION IS EXACTLY ZERO AND THE COMMUTATOR-ROUTE PREMISE IS PROVED AT SYMBOL LEVEL — CONDITIONAL ON THE IDEALIZED SURVIVOR FORM; EVERYTHING NOW RUNS THROUGH G3 + ONE IR/BOUNDARY ESTIMATE (2026-08-13)
+
+**Answer: Q-1018's single-lens CLAIMED finding upgrades to CONFIRMED.** Check STAGE8_ANNIHILATION_CHECK_V001 (7cf16a3c, default-refute, cross-lineage, seal-verified) re-derived independently every load-bearing step of the symmetry-hunt's mechanism (564b7040):
+- **C is the exact sea projector of record** — Fourier transform recomputed: Ĉ(k) = (1/2)(I − α·k̂), spectrum {0,1}, exact idempotent; the alternatives (density matrix with σ∈(0,1), cutoff/smeared C_n) FAIL at the bytes; diamond restriction is boundary-localized while the tested singularity is interior-diagonal.
+- **The leading symbol is EXACTLY transverse** — scalar part exactly zero; longitudinal part exactly zero (the unit-vector derivative IS the transverse projector; the would-be longitudinal piece is annihilated identically by exact Fourier algebra upstream of the sandwich — no Ward/gauge mechanism used or needed). Adversarially confirmed load-bearing: a surviving scalar/longitudinal part would NOT be killed by the sandwich.
+- **The annihilation is exact**: (I−M)(α·ℓ_⊥)(I−M) = (α·ℓ_⊥)(I−M²) = 0; at frozen write current the annihilated sandwich is the ZERO operator; the four-term display and the interband identity A = [C,[C,A]] re-derived — **ECO:195-197's commutator-route structural premise IS proved at principal-symbol level.**
+- **Post-annihilation degree ≤ −1 locally** (HS by degree count); the frozen-coefficient corrections carry derivatives of ℓ = exactly FORM's G3 NOT-SUPPLIED datum, honestly left open.
+
+SCOPE (verified honest, carried prominently): the result is **conditional on the cancellation build's B1 survivor form** — which the structure lens refuted as an equal-time idealization of the sealed two-time Dyson-dressed object (Q-1018 item 3). So of record: WITHIN the idealized form, the leading obstruction cancels exactly; the sealed two-time object's own analysis is still owed, and it consumes the same G3/vertex content. NOT full cancellation; NOT α forced; RFA:137-138's UNKNOWN stands, relocated to the remainder.
+
+CONSEQUENCE — total convergence: the split (Q-1014), the remainder's vanishing order (Q-1017/Q-1018), and now the two-time re-analysis all consume **G3** (build + two-lens panel in flight) plus **one IR/boundary estimate**. alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 7cf16a3c over 564b7040 (and 4971e273, 920a2ad9, 5801681a of record). Q-980–Q-1018 carried. REOPEN: the G3 realization landing (→ redo the survivor on the sealed two-time vertex, then the remainder/IR estimate → CLOSES vs RUNS of record).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
