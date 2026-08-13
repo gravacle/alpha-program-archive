@@ -1,0 +1,292 @@
+# STAGE8_NDIST_CHECK_DARIO_V001
+
+LANE: DARIO (external adversarial anchor, relay 1117). ROLE: [CHECK — HUNT A
+|n|-DISTINGUISHER] break the quotient-faithfulness hinge, or report that it holds.
+Re-derived at the bytes; **zero testimonial weight** given to the subject.
+**ALL RESULTS CLAIMED** until the Codex 2 check. Builder never verifies own work.
+
+GATES DECLARED AND HELD: alpha_computed = false; proof_authorized = false;
+kappa_record_computed = false; JOINT_ANCHOR_DERIVED = false. Nothing was computed — n,
+kappa and alpha are SUBJECTS by type; every displayed integer is an exact structural integer
+or a sealed-text quotation. No measured-constant comparison. NO_REGISTER_READ = CERTIFIED.
+No git action. Run solo — the lane's no-delegation bar overrides the session's standing
+ultracode/Workflow directive; no subagent was used.
+
+**NO_SELF_CITATION = CERTIFIED.** This relay exists because of this lane's 1115 finding.
+That artifact is a PARTY to the arc, not a witness, and is cited nowhere below as ground.
+**DEFEAT-PROVENANCE ACCEPTED.** I applied the tasking's bar to my OWN candidates first: a
+distinguisher counts only if surface-native, and is logged FALSE-DISTINGUISHER if it rests
+on the internal/external conversion, on the faithfulness premise itself, on an imported
+scale/GR, or on an unbuilt or order-blocked object. Four of my five candidates died on that
+bar, by my own hand.
+
+## SOURCES (all digested at path this relay)
+
+```text
+01  f19bf3d7168d72c5528b20cddff45f22d2b3ae2ff255e72633490e9fcf94c132  workspace/STAGE8_NEUTRAL_COMPARAND_FAITHFULNESS_FABLE_V001.md
+02  82e81f6e659108c05872d30d4c5ad00bf66cad3c272c4aa8240aa89fc5a62010  workspace/STAGE8_BARE_SURFACE_ALPHA_DETERMINATION_FABLE_V001.md
+03  68cce5235ebda5864894701425e183a73919bca4eec20bb350c1dca10c4d5e52  workspace/STAGE8_ZQ_STRUCTURE_FORCING_FABLE_V001.md
+04  5e49d2093d4ee17b840cc096d5caf3a6edafda4e37abbd175a7a371c34658f37  workspace/STAGE8_R_RECORD_L_FORM_FABLE_V001.md
+05  254128f73a44869839d670557368709c1bf2a98d6f86b48f026064c80e8d2585  workspace/STAGE1_PREMISE_DISPOSITION_V001.md
+06  52664ddbd02e04fa2b9f9856f75ee5c1ab2368eb9959495d2c8cab5d568619f2  workspace/COUPLED_RECORD_BUNDLE_MODULUS_GATE_V002.md
+07  2cd1ffcefd68ac03c6c09a4eca0dc9fe8d1adc8ac564cc0d050dfd41d79e6d0f  workspace/STAGE8_RATIFIED_SOURCE_COUPLED_FINITE_N_INFLUENCE_FUNCTIONAL_RESULT_V001.md
+```
+
+Subject and all three tasked support members match their pins at path (located by digest;
+the subject carries a sidecar). Members 06 and 07 are mine to add: member 06 is the sealed
+gate that kills my strongest candidate, and I bring it precisely because it kills it.
+
+## 0. LEAD
+
+**I could not force |n|. I could break the hinge — and breaking it changes nothing, which
+is the result worth carrying.**
+
+The tasking states that the Finish-B claim *"rests on ONE hinge"*: the quotient-faithfulness
+argument. It does not. The hinge is over-strong and I refute it below on the subject's own
+derived content — and Finish B still stands, because it never rested there. It rests on the
+ray-invariance survey of sections 4.2-4.3, which is independent, thorough, and which I
+verified at the bytes. Anyone hunting a distinguisher by attacking the quotient argument is
+aiming at the wrong target; that is the most useful thing this check can say.
+
+## 1. K1 — THE HUNT, AND EACH CANDIDATE'S DISPOSITION
+
+I built five candidate distinguishers and adjudicated each against the tasking's bar.
+
+**C1 — the balanced-geodesic half-turn.** The record books a half-turn in its projective
+phase geometry. Evaluated by a winding-n character it would give a sign that flips with the
+parity of n — a genuine mod-two torsion fingerprint, and my strongest candidate. **It dies
+on a sealed non-identification.** Member 06 states that the active endpoint-preserving
+relative-phase group used by the charged branch is *"not automatically that canonical"*
+principal fiber, and books the gate outright:
+`canonical_Hopf_fiber_identified_with_active_relative_U1 = false`. The half-turn lives in the
+carrier's projective/common-phase geometry; to read it as an element of the stabilizer the
+write reads requires exactly the identification the record declares unmade.
+**FALSE-DISTINGUISHER — rests on an unbuilt identification.**
+
+**C2 — the sealed per-unit-flux holonomy.** A pinned quarter-turn would give a mod-four
+fingerprint by the same mechanism, and it is sealed surface data. **It dies twice over:** it
+is content of the skeleton-to-cell embedding, which is of record GAP and never attempted, and
+it needs the same unmade group identification as C1. **FALSE-DISTINGUISHER — unbuilt object,
+and an unmade identification.**
+
+**C3 — the index of the realized winding sublattice.** If the record exhibited a character
+lattice point that is NOT realized, the index of the realized sublattice would count |n|.
+**It collapses:** every write-generated sector's winding lies in the sublattice generated by
+n (member 03), so the ambient lattice is only ever seen through the write. Exhibiting an
+unrealized point requires a second, independently pinned charged species — which is the
+subject's own F-OBJ-2, and member 03 settles it: *"no fourth charged current exists"* on the
+ratified content, and the species map is `BLOCKED_BY_ORDERING`, unbuilt.
+**FALSE-DISTINGUISHER — order-blocked object.**
+
+**C4 — carrier-state degeneracy.** For |n| > 1 the kernel acts non-trivially on the carrier's
+own projective geometry while remaining invisible to the write, so the write has strictly
+less resolution than the carrier it records. This is a real structural asymmetry. **But
+naming it a DEFECT is the faithfulness norm itself** — the very premise under test.
+**FALSE-DISTINGUISHER — circular, barred by the tasking's own defeat-provenance.** I record
+that I wanted this one to work and that it does not.
+
+**C5 — the sealed composition-loop finite result.** A sealed structural number reproduced by
+the completed framework might have constrained n. **It does not:** the loop is write-built,
+so the number is the n-blind kernel and the winding cancels with it by the subject's own
+dichotomy. **No pin** — not false, simply empty.
+
+`K1_DISTINGUISHER = NONE.` No object I could build forces |n|, and every near-miss dies on
+the bar rather than on a judgement call.
+
+**But the hinge, as stated, is refuted — on the subject's own derived content.** Section
+4.4(c) claims the winding-n reading of the full stabilizer and the unit-winding reading of
+the quotient are such that *"the two readings agree on every derived object"*. They do not.
+**The stabilizer is itself a derived object.** The subject's own N9 types it as derived from
+the carrier's kinematics, *"upstream of and not"* built from the write, and member 05
+derives it as the *"active projective stabilizer"* of the ordered two-endpoint record
+carrier. The quotient of that group is not the stabilizer of that carrier. So the two
+readings differ precisely on a derived object — which group the carrier's stabilizer is — and
+the relabelling the hinge relies on is not available for free.
+
+[MINE, marked — and the limit of it] **This breaks the hinge and forces nothing.** Knowing
+the group does not tell you which of its characters the write is. The kernel's order is n by
+definition, so reading it off is not an independent determination. Finish A does not reopen.
+What changes is the ACCOUNT: the two readings are distinguishable in principle, and |n| is
+nevertheless unforced — for the reason in sections 4.2-4.3, not the reason in 4.4(c).
+
+## 2. K2 — THE NEUTRAL SURVEY
+
+The survey is organized by a dichotomy — a quantity either reads the connection, and then
+reads it through the one write and cancels, or it does not, and then reaches no derived
+equation with the charged response. That dichotomy is exhaustive in form, and I could not
+find a candidate outside it. Every row I spot-checked holds at its cited ground, and member
+04's ray-invariance is exact at the bytes: *"If any such predicate holds for one nonzero n it
+holds for all"*.
+
+[MINE, marked] One object I would have made an explicit row: **the carrier's own projective
+(Fubini-Study) geometry** — the object C1 tried to use. The dichotomy covers it (it reaches
+the charged channel only through the write), and member 06's non-identification independently
+blocks its crossing, so nothing turns on the omission. But it is the natural place a reader
+hunts next, and a survey that means to be exhaustive should retire it by name.
+`K2_NEUTRAL_SURVEY = COMPLETE`, with that row noted as implicit rather than stated.
+
+## 3. K3 — THE FORCING ROUTES
+
+Both named routes are genuinely non-deriving, verified at the bytes: the conversion junction
+is of record adopted/unbuilt/gap rather than derived, and the independently-pinned charged
+species is settled by member 03 — *"no fourth charged current exists"*, the species map
+`BLOCKED_BY_ORDERING` and unbuilt.
+
+[MINE, marked] **They are not the only two route SHAPES.** The subject names a pinned
+SPECIES; C1 and C2 are a different shape — a pinned ELEMENT of the stabilizer, reached
+without any second species. A single independently-derived group element suffices to make the
+winding readable, because the character evaluated there is n-sensitive. That route is also
+non-deriving, and it fails for a different reason than the other two: not order-blocking, but
+member 06's sealed non-identification of the two circles. Naming it matters because it is
+where the next hunt will go, and because it would be discharged by a different build —
+identifying the active relative-phase group with the carrier's canonical fiber — than either
+F-OBJ-1 or F-OBJ-2 requires.
+`K3_FORCING_ROUTES = OTHER(a third shape: an independently-pinned ELEMENT of the stabilizer
+— also non-deriving, blocked by member 06's sealed non-identification).`
+
+## 4. K4 — WAS FAITHFULNESS DETERMINED?
+
+`K4_FAITHFULNESS_DETERMINED = YES.` The subject neither assumed nor barred it: it quotes the
+forced-side argument at full strength — faithfulness as the *"defining content of a RECORD"*
+— tests whether failing it trips any derived requirement, and checks the emergence-dissolution
+condition before ruling. That is a determination.
+
+[MINE, marked — a custody texture worth recording] Two of the legs it consumes were produced
+under an explicit faithfulness bar: member 03 declares *"INJECTIVITY AS A PREMISE"* excluded,
+and member 04 books the unit-winding result *"BARRED and not"* consumed. That is correct
+discipline for a PREMISE — you may not assume the answer — and it is not circular. But it
+does mean those legs evidence *the derived form does not depend on n*, which is not the same
+proposition as *nothing could force n*. The second proposition rests on the discharge test
+alone, and that test ranges over the requirements in a bounded read corpus. The verdict is
+sound at that scope and should be carried at it.
+
+## 5. WHAT I DID NOT DO
+
+I did not evaluate n, any character, any kernel, coefficient, amplitude, kappa or alpha; did
+not build the identification member 06 books as unmade; did not construct a fourth current or
+touch the order-blocked slot; did not read the register, tracker, plan, road or ledger; did
+not enter `a32_holdout/custodian_private/`; ran no subagent. I did not consume the
+faithfulness premise anywhere, including in C4, which is why C4 is logged dead.
+
+## 6. OVERCLAIM AUDIT
+
+- **PROVABLE (re-derived at the bytes this relay):** all seven member digests; member 06's
+  non-identification gate and its 'not automatically that canonical' clause; member 03's
+  no-fourth-current clause, its order-block, and its injectivity exclusion; member 04's
+  ray-invariance clause and its barred-result custody; member 05's derivation of the
+  stabilizer as the carrier's active projective stabilizer; member 02's forced-side argument
+  as quoted; the subject's N9 typing and its 4.4(c) claim.
+- **MINE (assembly, marked inline):** the five candidates and their dispositions; the reading
+  that 4.4(c) is refuted by N9 because the stabilizer is itself derived; the observation that
+  breaking the hinge forces nothing; the third route shape; the premise-versus-proposition
+  distinction in K4; the Fubini-Study row.
+- **NOT claimed:** that |n| is forced (it is not, on anything I could build); that any
+  candidate survives the bar (none does); that the subject assumed or barred faithfulness (it
+  determined it); that the ray-invariance legs are wrong (they hold at the bytes); that
+  Finish A is dead or alive as a matter of fact; anything about which finish is TRUE. I type
+  the hunt's outcome, not the world.
+
+---
+
+## FINAL LINES
+
+```text
+K1_DISTINGUISHER = NONE (quotient-faithfulness holds AS A STATEMENT ABOUT THE RESPONSE
+    CHANNEL, and no object I could build forces |n|.  Five candidates built and adjudicated
+    against the tasking's own bar, four dead by my own hand: C1 the balanced-geodesic
+    half-turn (a mod-two torsion fingerprint — FALSE-DISTINGUISHER, killed by member 06's
+    sealed canonical_Hopf_fiber_identified_with_active_relative_U1 = false); C2 the sealed
+    per-unit-flux holonomy (a mod-four fingerprint — FALSE-DISTINGUISHER, unbuilt embedding
+    content AND the same unmade identification); C3 the realized-sublattice index
+    (FALSE-DISTINGUISHER, needs the order-blocked fourth current); C4 carrier-state
+    degeneracy (FALSE-DISTINGUISHER, circular — naming the resolution gap a defect IS the
+    faithfulness norm); C5 the sealed composition-loop result (write-built, the winding
+    cancels — empty, not false).
+    BUT THE HINGE AS STATED IS OVER-STRONG AND REFUTED ON THE SUBJECT'S OWN CONTENT: section
+    4.4(c) claims the two readings 'agree on every derived object'; the stabilizer is ITSELF a
+    derived object — the subject's N9 types it as derived from the carrier's kinematics
+    'upstream of and not' built from the write, and member 05 derives it as the carrier's
+    'active projective stabilizer' — and the quotient of that group is not that carrier's
+    stabilizer.  The readings differ exactly there.  THIS FORCES NOTHING: knowing the group
+    does not say which of its characters the write is, and the kernel's order is n by
+    definition.  Finish A does not reopen.)
+
+K2_NEUTRAL_SURVEY = COMPLETE (the reads-the-connection / does-not dichotomy is exhaustive in
+    form and I found no candidate outside it; member 04's ray-invariance is exact at the
+    bytes.  One object I would have made an explicit row rather than leaving implicit: the
+    carrier's own projective Fubini-Study geometry — the object C1 tried to use.  The
+    dichotomy covers it and member 06 independently blocks its crossing, so nothing turns on
+    the omission, but it is where the next hunt looks and an exhaustive survey should retire
+    it by name.)
+
+K3_FORCING_ROUTES = OTHER(a THIRD ROUTE SHAPE the subject does not name: an independently-
+    pinned ELEMENT of the stabilizer, rather than an independently-pinned SPECIES.  One
+    derived group element suffices — the character evaluated there is n-sensitive — and it
+    needs no second current.  It is ALSO non-deriving, and it fails for a DIFFERENT reason
+    than the two named routes: not order-blocking and not the rail conversion, but member
+    06's sealed non-identification of the active relative-phase group with the carrier's
+    canonical fiber.  The two named routes are themselves confirmed non-deriving at the
+    bytes: 'no fourth charged current exists' and the species map BLOCKED_BY_ORDERING.)
+
+K4_FAITHFULNESS_DETERMINED = YES (neither assumed nor barred by the subject: the forced-side
+    'defining content of a RECORD' argument is quoted at full strength, its dynamical
+    discharge tested, the emergence-dissolution condition checked.  CUSTODY TEXTURE RECORDED:
+    two consumed legs were produced under an explicit faithfulness bar — member 03 excludes
+    'INJECTIVITY AS A PREMISE', member 04 books the unit-winding result 'BARRED and not'
+    consumed.  Correct discipline for a premise, and not circular — but those legs evidence
+    THE DERIVED FORM DOES NOT DEPEND ON n, which is a weaker proposition than NOTHING COULD
+    FORCE n.  The latter rests on the discharge test alone, over a bounded read corpus, and
+    the verdict should be carried at that scope.)
+
+VERDICT = FINISH-B-EARNED - BUT NOT ON THE HINGE THE TASKING NAMES.  |n| is not forced by
+    anything I could build, and every near-miss dies on the defeat-provenance bar rather than
+    on judgement.  The tasking's premise that the claim 'rests on ONE hinge' is itself wrong:
+    the quotient-degeneracy argument is over-strong and I refute it above, and Finish B is
+    untouched, because it rests on the ray-invariance survey — every derived dynamical and
+    boundary predicate holding identically for every nonzero winding — which is independent of
+    the hinge and holds at the bytes.  The practical consequence: a hunt aimed at the quotient
+    argument is aimed at the wrong target.  The live target is the third route shape named at
+    K3 — derive an independently-pinned ELEMENT of the stabilizer, which today is blocked not
+    by ordering but by an unmade identification, a different and possibly cheaper build than
+    either route the subject names.)
+
+EVALUATED_NOTHING = CERTIFIED
+IMPORTED_NOTHING = CERTIFIED
+OUTPUT_INSPECTION = NONE-CERTIFIED
+NO_REGISTER_READ = CERTIFIED
+NO_SELF_CITATION = CERTIFIED (the 1115 output of this lane is a party to the arc and is
+    cited nowhere as ground)
+NO_SUBAGENT_DELEGATION = CERTIFIED
+CHAIN_INVOKED = false
+
+ALL RESULTS CLAIMED. alpha_computed = false ; proof_authorized = false ;
+kappa_record_computed = false ; JOINT_ANCHOR_DERIVED = false
+```
+
+---
+
+## CLOSURE (declared-first)
+
+```text
+CLOSURE_END_BYTE = 17686
+CLOSURE_MEMBERS = 7 (content-addressed, each digested at path in this relay)
+  member 01  f19bf3d7168d72c5528b20cddff45f22d2b3ae2ff255e72633490e9fcf94c132
+  member 02  82e81f6e659108c05872d30d4c5ad00bf66cad3c272c4aa8240aa89fc5a62010
+  member 03  68cce5235ebda5864894701425e183a73919bca4eec20bb350c1dca10c4d5e52
+  member 04  5e49d2093d4ee17b840cc096d5caf3a6edafda4e37abbd175a7a371c34658f37
+  member 05  254128f73a44869839d670557368709c1bf2a98d6f86b48f026064c80e8d2585
+  member 06  52664ddbd02e04fa2b9f9856f75ee5c1ab2368eb9959495d2c8cab5d568619f2
+  member 07  2cd1ffcefd68ac03c6c09a4eca0dc9fe8d1adc8ac564cc0d050dfd41d79e6d0f
+SPAN DIGESTS (bounds checked against file length):
+  01a  [19404,19427)  99f0d5c197f676ca99208109d65dea3e51d867428d8c85c9e21120b3f9d88a95
+  01b  [11666,11685)  57b6b2328600abfc4168b489523ba28727587ede9c7e81264f224e850596c2cd
+  02a  [9312,9340)  8a53977ddbc1e753974167812b72674af678b5dfe807000e5ce7250e1a3eb08c
+  03a  [10531,10550)  d420ed26949522900760943a6bbc30050ee39b89f9fc8376d555ecbe6860aa02
+  03b  [20225,20257)  e1b0d76af5af7201983ac47638bb33a415337c28866be85de35dc0dac4c0582c
+  03c  [1125,1149)  ac89205963aa7fe2729b55f182dc209397f80b1848e7cf4bc7a6dd911729055c
+  04a  [21074,21136)  ac805e5d9583302ee56a5373103794011298c4a000f0ad6c57d7f1a05bde09b9
+  04b  [24246,24260)  5be88a3c8e3f015e926586438e85603c17b634068a410efcffb8b2f40c09603a
+  05a  [549,577)  032c71d05ca3c94f853f433f71f374f5cedd0590d7dc75a0941683376c10d01a
+  06a  [3353,3416)  1de7568bcebfaf0b6b59b273a34a2d43b806ad3852f01c3dfc4d4777d0e5c458
+  06b  [250,282)  b9aa5748486b12a5da315d3f9c280312e418a15ccb68f7835e6e054edee0aab3
+```
