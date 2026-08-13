@@ -17066,6 +17066,23 @@ SCOPE_HONEST = NO (booked): the two internal artifacts (564b7040, 7cf16a3c) disc
 
 CONSEQUENCE — the plan is UNCHANGED and its critical step is now externally confirmed as necessary: **I.7 (the two-time re-analysis on the sealed vertex, consuming the transported ℓ_j) is not polish — it is the step that decides whether the annihilation holds of record.** Both external anchors are now in: Dario 1119 CONFIRMED Q-1020 (+ the GB upstream correction, Q-1021); Codex 1120 CONFIRMED the algebra / REFUTED its of-record anchoring. Net Phase-I state: unchanged, sharpened, externally anchored on both load-bearing positives. alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 48e0c76f (over 564b7040, 7cf16a3c, 4971e273). Q-980–Q-1021 carried. REOPEN: the two-time reduction built (B1-to-surrogate or direct two-time analysis) → the annihilation either anchors of record or fails there — decided at I.7.
 
+## Q-1023 — F0 EXECUTED (THE COMPUTAND BY CITATION, ADVERSARIALLY CHECKED): THE ASSEMBLY CONVENTION IS SEALED AND UNIQUE, BUT THE DEFINITIONAL CHAIN IS BROKEN AT THREE PLACES — INCLUDING A NEWLY-PINNED THIRD OBJECT, THE STIFFNESS BRIDGE (κ_record → K_* NEEDS Z_Q FROM COMPLETE Q_SPEC) (2026-08-13)
+
+**Answer: "compute κ_record → assemble α" is DEFINED of record in FORM but not yet in ARGUMENT — the chain that would make the computation meaningful is broken at three named places.** Build STAGE8_F0_COMPUTAND_CHAIN_V001 (05eeab53); default-refute check STAGE8_F0_CHAIN_CHECK_V001 (e4243c0d): F0_VERDICT = SOUND-WITH-CORRECTIONS (citation-precision only, no substantive effect); every link and every break independently audited CONFIRMED. 18 source seals recomputed at path.
+
+WHAT IS SEALED AND INTACT: the record action (ratified); R_record,L's definition (conditional on C); κ_record's defining battery; K_*'s selector SHAPE; and — check-UPGRADED to SEALED-DEFINITION — the assembly convention: **α(0) = 1/(4π κ_Thomson)** applied only after κ_Thomson = lim_{q²→0} κ_Q(q²) from Z_Q/Q_spec, and the derived identity **α_micro(K) = 1/(4π K)** (K_*-physical application typed CARRIED/ADOPTED TYPE-U). Sealed verification that NO two incompatible α-formulas exist. So Phase II's formula is unique and of record — the open question is entirely the ARGUMENT.
+
+THE THREE BREAKS (each check-confirmed, with independent corroboration):
+1. **The Gate-5 kernel C** — obligation-only, no sealed construction (the known Phase-I object; Q-1016/Q-1017).
+2. **THE STIFFNESS BRIDGE (new to the accounting):** NO sealed definition transports κ_record into the assembly's argument K_*. The κ_record-to-physical conversion is sealed **UNAUTHORIZED pending Z_Q from complete Q_spec**; Q_spec is a content-list spec-slot; **κ_record = κ_Thomson is sealed NOT-ASSUMED and a listed FAILURE if assumed** (the S8 falsifier); Q-34 types the two stiffnesses as different shapes. Cross-lineage corroboration: a sibling artifact independently records "NO sealed K_* = κ_Thomson statement or proof exists."
+3. **C_record(K)** — the residual whose onset root DEFINES K_* is required-not-built (must be an output of the completed on-shell Γ_K/BR problem; the one sealed display is a scoped candidate expressly not appointed).
+
+RATIONALITY: posed-not-answered — exact-rational discipline is mandated at every finite stage; sealed text is SILENT on the limit; the form-level check has no object until C_record(K)/the Gate-5 limit exists. CHECKABLE-AT those constructions (G1.4 timing pinned).
+
+IMPORTS IN THE DEFINITION: one finding — K_*'s defining route consumes the record floor k_R (a spectral scale) as a DECLARED induced-only conditional premise (sealed as conditional-not-absolute; to be scrutinized at Gate 1). No measured value, no faithfulness, no imported GR in any defining statement. Noted, outside the forbidden classes: frozen Lorentzian signature inputs η/ε in the Maxwell-form test; the Gaussian/Heaviside-Lorentz conversion inside the assembly identity.
+
+CONSEQUENCE — Phase II acquires a precise pre-gate (II.0): before any computation can be MEANINGFUL, the chain needs [1] C (= Phase I's object), [2] **the bridge: Z_Q from complete Q_spec** — which re-attaches the charged Q-spec (old road item 7, [L]) to the critical path — and [3] C_record(K) from the on-shell problem. G1.2's TODO is now an exact list instead of a hope. alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 05eeab53, e4243c0d. Q-980–Q-1022 carried. REOPEN: as each break is supplied of record (each panel-checked); the k_R premise re-examined at Gate 1.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

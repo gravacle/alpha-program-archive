@@ -31,8 +31,17 @@ Size: [S] one session · [M] a charter (days) · [L] the hard construction.
 ✗ 4 metric conversion STRUCK — rail, distinct scale node, off the winding path.)
 
 ═══════════ PHASE II — COMPUTE α (only on FORCED at I.8; F2 governs) ═══════════
+✅ II.0a [S] F0 DONE (Q-1023): the assembly convention is SEALED AND UNIQUE
+        (α = 1/(4π K*), no competing formula) — but the chain is BROKEN-AT three:
+        [1] the kernel C (= Phase I's object); [2] THE STIFFNESS BRIDGE — κ_record→K*
+        needs Z_Q from COMPLETE Q_SPEC (κ_record=κ_Thomson is sealed NOT-ASSUMED, a
+        listed failure if assumed) → re-attaches old item 7 (charged Q-spec, [L]) to
+        the critical path; [3] C_record(K) from the on-shell Γ_K/BR problem.
+○ II.0b [L] SUPPLY THE BRIDGE — complete Q_spec → Z_Q → κ_Q(q²) → κ_Thomson;
+        and build C_record(K). (Old item 7 + the on-shell problem.)
 ○ II.1 [S] Gate-1 evidence → THE PRINCIPAL FLIPS kappa_record_computed.
-○ II.2 [S] Rationality-from-form check (G1.4) → compute κ_record / K*.
+○ II.2 [S] Rationality-from-form check (G1.4, checkable once C/C_record exist) →
+        compute κ_record / K*. (k_R conditional premise re-examined here.)
 ○ II.3 [S] Gate 2 → THE PRINCIPAL FLIPS alpha_computed → assemble α = 1/(4π K*).
 ○ II.4 [S] Gate 3 → the preregistered END TEST, ONCE. (Old items 10–12.)
 
