@@ -1,5 +1,7 @@
 # CONTINUOUS PROGRAM RESULT — items 1–7 covered — V001
 
+> **CORRECTED 2026-08-13 (Q-1009): the Tier-1 'Finish B' below is OVER-READ and RETRACTED.** Both external lanes returned UNDETERMINED. The S16 attack left its second foot F6b (the skeleton-to-cell embedding / Q_spec connected gluing) untyped yet declared β-invariant. The Finish-A lever is NOT dead — it is RELOCATED to F6b, which the census books β-sensitive (GAP). Read the body as the Tier-1 record that the external anchor corrected; the live state is UNDETERMINED, next decider = type F6b.
+
 **Status: TIER-1 COMPLETE AND ADVERSARIALLY CONFIRMED (cross-family). TIER-2 EXTERNAL ANCHOR (Codex + Dario) PENDING.** Not registered as settled until Tier-2 agrees. Fences intact throughout: alpha_computed=false, proof_authorized=false, kappa_record_computed=false, no Finish-A declaration, every scale symbolic — nothing was evaluated.
 
 ## THE RESULT, IN ONE LINE

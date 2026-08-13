@@ -4,7 +4,7 @@ Single source for "what do we have left." Derived from the sealed governing plan
 THE_PLAN_TO_ALPHA_AND_GRAVITY_V004.md. **This list does not get re-shaped. Only the
 status mark on each line changes.** Remaining items only; finished work is not shown.
 
-> **TIER-1 RESULT (2026-08-13, Tier-2 pending):** items 1–7 covered. Item 4 STRUCK (rail). The scale is free on the surface ⇒ **Finish B** (α up to one free scale). The Finish-A lever (a β-sensitive derived Thomson bridge) is DEAD: S16 β-invariant, and its decider S13 is LOCK-SHAPED. Anchor: fire **1110 → Codex 2** and **1111 → Dario**. See CONTINUOUS_PROGRAM_RESULT_V001.
+> **STATE (2026-08-13, Q-1009 — external anchor in):** items 1–7 covered; item 4 STRUCK (rail). The Tier-1 'Finish B' was an OVER-READ — both external lanes (1110 Codex, 1111 Dario) returned UNDETERMINED. S13 threshold IS lock-shaped, but S16's SECOND foot F6b (the skeleton-to-cell embedding / Q_spec connected gluing) was left untyped, and it is booked β-sensitive (GAP). **Finish-A lever RELOCATED to F6b, not dead. Next decider: type F6b.** Neither finish anchored.
 
 Marks: ▶ current · ○ open · ⊘ forced-automatic-once-inputs-land.
 Size:  [S] one lane-session (hours) · [M] a charter (days) · [L] unsolved — new
