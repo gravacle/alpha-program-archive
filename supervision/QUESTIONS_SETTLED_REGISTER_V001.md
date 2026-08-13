@@ -16956,6 +16956,25 @@ METHOD LESSON (reinforces [[feedback_read_the_artifact_not_the_report]], the rev
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 4b3356e3, 5355f745, a6c1a188. See [[project_gravity_emergence_is_boundary_closure]], [[project_faithfulness_is_the_whole_winding_question]], [[project_divergence_is_the_coupling]]. Q-980–Q-1014 carried. REOPEN: on resolution of the materiality fork (R_record,L factorizes → FREE / does-not-factor → the winding forcing is live), i.e. once G1 (C's connection-only post-limit form) is built.
 
+## Q-1016 — THE MATERIALITY FORK IS A GENUINELY-OPEN GAP (3-AXIS PANEL, ADVERSARY-ADJUDICATED): "IS α FORCED?" REDUCES TO THREE NAMED UNBUILT OBJECTS, PRIMARY = THE CONNECTION-ONLY CLUSTER-SUMMABILITY CERTIFYING C ("SHORT ONE POWER") (2026-08-13)
+
+**Answer: the materiality fork (does R_record,L factorize? = does the cross-block Φ_f^T C Φ_H survive?) CANNOT be decided of record — it is a GENUINELY-OPEN GAP, blocked on three named, sealed, unbuilt objects.** Full panel, adversary-adjudicated (build and cold DISAGREED; the refuter ruled). Build STAGE8_REQUIRE_BUILD_G1_MATERIALITY_V001 (b28c0813): NET=GAP. Confirmation axis (cold) STAGE8_REQUIRE_G1_COLD_V001 (198fa389): SCALE-ENTANGLED — **OVER-READ, refuted**. Refutation axis STAGE8_REQUIRE_G1_CHECK_V001 (2846272b): NO_GAP_CONFIRMED (gap real+exhaustive, no connection-only route missed) + SCALE_FREE_CERT_IMPOSSIBLE=NO (genuinely open; β does NOT provably re-enter); G1_BUILD_VERDICT=SOUND.
+
+THE THREE UNBUILT OBJECTS (load-bearing order):
+1. **PRIMARY — the connection-only cluster-summability sub-estimate certifying the post-limit Gate-5 kernel C exists** (= V011's "target-free locality bound / cellulation-independent thermodynamic limit"; connected_linked_cluster_density_proved=false, cellulation_independence_proved=false). This IS the **"short one power"** (summability α=1 volume-law vs support area-law α=1/2). The refuter confirms every abstract connection-only route (linked-cluster/cumulant, Duhamel/Dyson, combinatorial connected-graph summability, operator-norm locality) is CO-REFERENTIAL with this ONE sealed-unbuilt obligation — the gap is exhaustive, nothing missed.
+2. **G3** — the write-chain support/current-density realization (φ_f, φ_H; RA27-3 not supplied).
+3. **G2** — the scalarization state-port fixing μ. μ genuinely undetermined over a CONTINUUM of positivity-admissible scalarizations (M06); μ=0 (single-sector) is a live degenerate-FREE that kills R_record,L entirely; μ≠0 (straddling) is equally admissible. No constraint forces μ.
+
+THE FORK'S TWO OPEN RESOLUTIONS (which one holds is itself unresolved):
+- **CONNECTION-ONLY CERTIFIABLE** — the finiteness is a scale-INVARIANT degree-3 cancellation ("purchased by cancellation in the difference, NOT by |D|_4"); intensivity = combinatorial summability over the cell/incidence index, a scale-free predicate. Build the connection-only cluster bound → C certified → read the cross-block → FORCED or FREE.
+- **SCALE-ENTANGLED / RUNNING κ_record** — the honest OPPOSITE risk, real but UNPROVEN (RFA §5: a single scale is what turns the decay into a NUMBER/exponent; ECO §4 names a scale-dependent RUNNING κ_record as a fallback "NEW PRINCIPLE"). If the only certification is scale-bearing, the winding-require is scale-entangled and the coupling RUNS rather than being a frozen forced number. (Not established — but not excluded; the build's "NOT NO" was presented cleaner than the record warrants, D1.)
+
+CONSEQUENCE — the entire "is α forced?" question now reduces to **ONE named research estimate** (the connection-only cluster-summability for C) plus two data (G3, G2). This is the genuine [L] node — the SAME cluster-summability "short one power" the Bohm work identified (A-L0 arm 2) — now pinned as THE gate. It is NOT decidable by adjudication; it requires BUILDING the estimate. α is NOT forced and NOT free of record — UNDECIDED at a precisely-named gap. alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: b28c0813, 2846272b, 198fa389.
+
+METHOD LESSON: the CONFIRMATION axis (cold re-derivation) OVER-READ again — 2nd time this session (Q-1015 it shared the build's blind spot; here it over-read pessimistically to SCALE-ENTANGLED). The ADVERSARIAL refutation axis adjudicated correctly both times. Weight the adversary; a cold re-derivation agreeing OR disagreeing is not decisive on its own. See [[feedback_read_the_artifact_not_the_report]].
+
+See [[project_faithfulness_is_the_whole_winding_question]], [[project_rl2b_four_discharges]], [[project_beta_is_the_whole_gap]], [[project_divergence_is_the_coupling]], [[project_bohm_continuation]]. Q-980–Q-1015 carried. REOPEN: build the connection-only cluster-summability estimate (→ certifies C, or proves it scale-entangled / running-κ), then G3 + G2 → read the cross-block.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
