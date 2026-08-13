@@ -318,7 +318,7 @@ LIST_COMPLETE = REFUTED(missing item: the VOLUME field of RA27-3 — D012
   names RA27-2..5 only). Typing of the three most load-bearing BUILT claims
   (6a, 6b, 6c) CONFIRMED at claimed strength at spans. Two typing slips: tally
   "UNBUILT 9" enumerates 11 items; O14's MISSING line should read f_g/F_g/
-  s_g/S_g of the 10-tuple (812[21770,1923): s_g/S_g DERIVABLE-FORCED,
+  s_g/S_g of the 10-tuple (812[21770,21923): s_g/S_g DERIVABLE-FORCED,
   admissibility open) with eta_resp belonging to O7, not the tuple.) ;
 MINIMAL_SUBLAW_SOUND = STRONGER_FOUND(the weaker object: the per-cell AND-boolean
   class AND(j) := [phi_f(j) != 0 AND phi_H(j) != 0] with its member-independence
