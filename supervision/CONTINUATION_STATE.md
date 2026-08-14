@@ -62,7 +62,10 @@ registrar stops ONLY at principal acts and fences; exceptions surfaced immediate
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
 8. THE GRAVITY CARRIERS (Q-1060's named list) — on the critical path to the alpha gate
    because Attach + Rule-2 are held on the gravity close and 5d needs all of 5c.
-HARD STOPS (the principal's alone): 5c Acts 2/4 (available anytime), Acts 3/5 (release on
+DONE TODAY (principal acts): item 9 RATIFIED (Q-1067); ACT 2 DECLARED — K_dd admitted
+(Q-1070; the domain extension remains a separate one-word declarable; FV-3 exposure
+carried; FV-5 retirement booked). Act 4 reclassified available-on-demand.
+HARD STOPS (the principal's alone): 5c Acts (Act 2 done; Act 4 on demand), Acts 3/5 (release on
 the gravity close), the 5d re-read verdict consumes his acts, then FENCE 1
 (kappa_record_computed) — the gate before any computation. 5d may return FREE or RUNS, in
 which case there is no alpha computation and the road goes to Finish B / the charter → 11.
