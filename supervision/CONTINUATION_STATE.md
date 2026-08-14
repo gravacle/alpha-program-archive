@@ -40,9 +40,15 @@ registrar stops ONLY at principal acts and fences; exceptions surfaced immediate
    question of 2026-08-14, binding on the brief): the package OPENS with a
    determination-first stage — what the sealed record already fixes about the admissible
    carrier class; whether K_dd is unique/admissible at a displayed sweep — with honest
-   outcomes including NOT-UNIQUE, WIDER-CLASS, and DECLARATION-PREMATURE (any of which
-   voids or re-scopes the package, r-1's V-N4 pattern); construction only on what the
-   determination licenses; no package step may cite the FORCED branch's needs as ground.
+   outcomes including NOT-UNIQUE, WIDER-CLASS, DECLARATION-PREMATURE — and FORCED:
+   if the sealed requires (the Attach b1=1 instantiation, the cross-block carrier
+   constraints, exhaustive-minimality) provably close the admissible class to ONE
+   family, the declaration is MOOT — the lemma supersedes the act (V-N4 pattern),
+   Act 2 closes WITHOUT a principal act, and the uniqueness theorem registers instead
+   (the principal's question of record, 2026-08-14: "why can't it be forced instead of
+   named?"). Any outcome voids or re-scopes the package accordingly; construction only
+   on what the determination licenses; no package step may cite the FORCED branch's
+   needs as ground.
 3. EARN-THE-TRACE (horn-a; targets V003; object = Q-1063's named theorem) → register.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
