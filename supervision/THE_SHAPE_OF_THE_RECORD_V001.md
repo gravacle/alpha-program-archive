@@ -123,6 +123,29 @@ RUNS horn is what the fixed locus generically leaves standing. The error-term
 certification is, in these terms, the hunt for the missing partner. The heuristic is
 never an input to a blind derivation — it tells us where to look, not what to find.
 
+## 5c. The GR dialect, and the sphere (principal's recognitions, 2026-08-13 night)
+
+The dynamical results speak GR's dialect without being told GR [LENS over COMPUTED
+instances]: the residual coupling is DEFLECTION-SHAPED (∝ momentum transfer,
+α·(k̂−k̂′) — derivative coupling, dying at zero bend: gravity's coupling shape); the
+cancelled survivor was a COORDINATE ARTIFACT (content the sharp-projector idealization
+carried and the true unitary object cannot — the record enforcing its own equivalence
+principle via unitarity, Q-1042); and the harmonic sector's static signature (locally
+invisible, holonomy-only) already matched. Chorus, not echo.
+
+**The sphere** [principal, LENS]: GR emergence starts by forming the most famous shape
+in space — and the sphere is already sealed at every joint: the write region is
+literally a ball (M(t) = Q·1_{|x|≤r(t)}·Q of record; its time evolution IS the causal
+diamond); the resummed profiles are pure radial (cos²(8π|x|⁴), V₂); the deflection
+coupling is geometry on the direction sphere; and the assembly formula's 4π IS the
+sphere's solid angle. With the weights' contribution to K* proven exact-rational by
+form (Q-1035), the standing conjecture sharpens: everything irrational in α comes from
+the 4π — from the sphere the record collapses in. If the remainder estimate closes on
+the angular zero, the gravity-shaped feature of the interaction is what makes α a
+fixed number: the founding thesis appearing as one angular factor rescuing one
+integral. [All LENS; the computed pieces are the sealed ball, the radial profiles, the
+direction-sphere factor, the 4π, and the rationality-by-form.]
+
 ## 6. The story in one paragraph
 
 The record builds the world out of two shapes: filled cells that hold field (EM — the
