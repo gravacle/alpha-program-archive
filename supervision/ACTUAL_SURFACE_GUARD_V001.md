@@ -52,6 +52,20 @@ one-shot preregistered END TEST and the GRAVITY CLOSE against the frozen recogni
 spec, under F2 — are the final arbiters. This guard exists so that a pass there means
 what it appears to mean.
 
+## THE RELEVANCE BURDEN (principal, 2026-08-14 — append)
+Established machinery is held to the standard of **proving its relevance on the
+surface** — the burden runs machinery→surface, never the reverse. An apparatus
+object may be load-bearing in any surface-truth claim only with a booked derivation
+tracing it to surface content; an APPARATUS-ONLY object (no such trace) may never
+silently anchor a verdict and is a standing candidate to throw out (the ledger's
+MACHINERY list). The lawful test form is a DETERMINATION (does the object trace?),
+never a CONSTRUCTION (building the surface a place for the object — see the held
+amplitude-junction design, 5fa46838). Enforcement: before fence 2 flips, the
+registrar assembles the **CHAIN RELEVANCE AUDIT** alongside the chain choice audit —
+every load-bearing object of the κ_record → K* → α chain classified SURFACE-NATIVE /
+SURFACE-DERIVED(booked trace cited) / APPARATUS-ONLY, with zero APPARATUS-ONLY
+objects anchoring the assembly.
+
 **REOPEN/UPDATE:** append-only; updates carry their source. Registrar wires the CHOICE
 LEDGER and TOY_SEPARATION requirements into every subsequent brief, including both
 tracks' in-flight successors and the final run.
