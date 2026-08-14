@@ -33,6 +33,10 @@ registrar stops ONLY at principal acts and fences; exceptions surfaced immediate
 (FALSE-branch firing, REFUTED audit, anything fence-adjacent):
 1. r-2 — DONE (Q-1066: B1-DERIVED, kappa_n → ∞ full-family; det_n(0) → 0 consumed).
 2. r-3 (RUNNING — commission S9AD) → register; alone completes R-L4b's discharge.
+2b. THE ACT-2 PACKAGE (route (a), the principal's choice 2026-08-14): the physical-
+   carrier construction package pair — prerequisites enumerated from the sealed
+   K_dd/Attach/cross-block stock, built, audited; the declaration returns to the
+   principal staged. Fires on r-3's registration.
 3. EARN-THE-TRACE (horn-a; targets V003; object = Q-1063's named theorem) → register.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
