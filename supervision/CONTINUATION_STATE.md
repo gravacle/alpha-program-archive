@@ -62,8 +62,10 @@ registrar stops ONLY at principal acts and fences; exceptions surfaced immediate
    decider-1 of the fork, commissionable).
 OVERNIGHT AUTHORIZATION (the principal, 2026-08-14 night): proceed through the open
    list to the gate before any compute-alpha run. Serial march continues (4 → 5 → 6 →
-   8 + the wall in parallel per the road's alongside clause); HARD CEILING: stop at the
-   gravity close (Acts 3/5 are his), at 5d, and at every fence; the v002 custody
+   8 + the wall in parallel per the road's alongside clause); HOLDS LIFTED (the principal,
+   2026-08-14 night): Acts 3 and 5 no longer wait on the gravity close — Act 3 stages
+   first, Act 5 after it resolves, each one at a time; the close remains a lane track.
+   HARD CEILING unchanged otherwise: stop at 5d and at every fence; the v002 custody
    question HELD for his return; exceptions surfaced immediately.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).

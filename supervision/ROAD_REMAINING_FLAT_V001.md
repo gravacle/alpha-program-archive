@@ -36,10 +36,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       act (reclassified at the principal's question, 2026-08-14 — the composition
       debt has two other routes in motion; commissioning + firing happen on his
       word, any time; nothing waits on it). [YOURS — on demand]
-○ 12. ACT 3 — the Attach discharge-or-continuation. [YOURS — opens at the gravity
-      close (item 8), per your hold]
-○ 13. ACT 5 — Rule-2, the coupling door. [YOURS — opens at the gravity close, per
-      your hold]
+▶ 12. ACT 3 — the Attach discharge-or-continuation. [YOURS — HOLD LIFTED
+      (the principal, 2026-08-14 night); staged first, one at a time]
+○ 13. ACT 5 — Rule-2, the coupling door. [YOURS — HOLD LIFTED same act;
+      stages after Act 3 resolves]
 ○ 14. THE 5d RE-READ → the verdict of record (FORCED / FREE / RUNS), then the
       RATIFIED symmetric audit (Q-1067) runs BEFORE any routing act consumes it.
       ── if FREE: seal Finish B → 20. ── if RUNS: flow+anchor charter → 20.
