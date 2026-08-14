@@ -17736,6 +17736,12 @@ alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 6be35dcf, 420ab02f, 237fed43, 0dfce947. Q-980–Q-1073 carried. REOPEN: any carried condition landing sealed (discharge becomes stageable); the entry's falsifiers firing (void per its own clause); the forcing slot filling (the authored core dissolves — the standing retirement).
 
+## Q-1075 — ACT 5 EXECUTED AS DEFERRAL: RULE-2 WAITS ON THE GRAVITY CLOSE (THE PRINCIPAL'S ACT, OPTION (c) AS STAGED): **THE COUPLING DOOR STAYS SHUT PENDING THE CLOSE — THE ONE LAWFUL MECHANISM THAT COULD REOPEN A DERIVED ROUTE AND SPARE THE AUTHORED ACT; THE CARRIER TRACK (ROAD ITEM 8) IS NOW THE CRITICAL PATH TO 5d; THE DECISION RETURNS AUTOMATICALLY WITH THE CLOSE'S CONTENT IN HAND; NOTHING AUTHORED, DECLINED, OR FORECLOSED** (2026-08-14)
+
+**Answer: the fourth principal act of the day applies the retire-by-derivation principle to the program's most consequential decision — before authoring coupling physics, let the gravity close say whether the record supplies it.** Instrument: ACT5_RULE2_DEFERRAL_2026-08-14.md (c14d0b5c). With Acts 2/3 executed (Q-1070/Q-1072/Q-1074) and Act 5 deferred-with-named-trigger, the 5d docket's remaining inputs are: the 5b analytic remainder (items 4-7, three pairs in flight or queued) and THE GRAVITY CLOSE (the fifteen named carriers → re-score → close), whereupon Act 5 returns and 5d fires behind it. The overnight authorization now runs the carrier track as its priority.
+
+alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: c14d0b5c, 064f0e2f (the staging sheet), ee91d85c (the carrier work-list). Q-980–Q-1074 carried. REOPEN: the gravity close landing (Act 5 returns to the principal automatically); any sealed derivation reopening a derived coupling route pre-close (Q-1053's own doors — the act may become moot).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

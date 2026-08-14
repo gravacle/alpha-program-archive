@@ -36,9 +36,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       act (reclassified at the principal's question, 2026-08-14 — the composition
       debt has two other routes in motion; commissioning + firing happen on his
       word, any time; nothing waits on it). [YOURS — on demand]
-▶ 13. ACT 5 — Rule-2, the coupling door. [YOURS — hold lifted; STAGED NOW,
-      the last act 5d awaits]  (Act 3 DONE — Q-1074: CONTINUED as named
-      premise, conditions open and displayed, standing fixed for 5d.)
+○ 13. ACT 5 — Rule-2, the coupling door: DEFERRED to the gravity close
+      (Q-1075, option (c) — the close may spare the act; returns automatically
+      with the close's content). THE CARRIER TRACK (item 8) IS NOW THE
+      CRITICAL PATH TO 5d. (Act 3 DONE — Q-1074: CONTINUED as named premise.)
 ○ 14. THE 5d RE-READ → the verdict of record (FORCED / FREE / RUNS), then the
       RATIFIED symmetric audit (Q-1067) runs BEFORE any routing act consumes it.
       ── if FREE: seal Finish B → 20. ── if RUNS: flow+anchor charter → 20.
