@@ -11,9 +11,9 @@ below IS the upgrade map, grouped by holder.
 
 ○ 5a-residue. LANE ITEMS REMAINING (the analytic core is DONE — Q-1042/Q-1043:
       the survivor cancelled error-included; **B-L2* DISCHARGED at the summed
-      level, the "short one power" CLOSED**; typing entry unnecessary Q-1041):
-      the G1 cluster kernel formalization on the discharged basis; the G2-E3
-      escape; residues r-b (Q-resolution) / r-c (free-factor bookkeeping).
+      level, the "short one power" CLOSED**; typing entry unnecessary Q-1041;
+      G1 kernel certificate assembled SOUND Q-1044): the G2-E3 escape;
+      residues r-b (Q-resolution) / r-c (free-factor bookkeeping).
 ○ 5b-remainder. THE ONE LIVE ANALYTIC WALL: R.3′(c) — residue SHARPENED Q-1050
       (unit cell, carrier axis, collapse level): the D-i surviving-instance square +
       the ten-term pairwise-difference e₂ form + H-R/C-L2 tail + premise P-1 (the
