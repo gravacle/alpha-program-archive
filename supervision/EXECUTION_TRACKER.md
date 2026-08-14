@@ -1061,3 +1061,19 @@ calls, witness certifications, escrow openings) carry SPARK-VERDICT tags in
 the register and receive Sol re-checks when budget resets; the registrar
 (Fable) reads the mathematics of every spark-checked artifact at registration
 rather than sampling.
+
+
+## 2026-08-14 STATE BLOCK (successor registrar; register head Q-1063; supersedes the lane-model state above for the current arc)
+- Lane model of the current arc: NO external relay lanes; builds run as in-session background
+  workflows (build + default-refute audit pairs, sealed in workspace/), adjudicated FROM DISK by
+  the registrar; the audit's verdict governs. The relay-number protocol is dormant this arc.
+- Current arc rows: Q-1050–Q-1063 (the register is the record). R-L4a-N ADOPTED at Q-1062 (the
+  carrier compression of record; F-d fire list in force; witnesses stand until r-2/r-3).
+  K*-typing closed at Q-1063 (NOT-TIED / TYPED-MAGNITUDE / IDENTITY+HOMONYM; the v002 selection
+  principle located at the origin tree, digest-pinned).
+- Queue: the consolidation refresh → earn-the-trace (its object = Q-1063's named theorem) →
+  5c/5d per the principal. Named follow-ups: v002 custody import; the guard's 5fa46838 pointer
+  note (cosmetic).
+- Sidecar note: this file's seal sidecar was STALE at cutover (an Aug-11 seal against an Aug-13
+  file); resealed with this append — the alarm worked as designed, nothing content-bearing was
+  lost (the register carries the record).

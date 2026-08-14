@@ -1,75 +1,64 @@
-# CONTINUATION STATE — updated 2026-08-12 (post-Q-961, THE TERMINUS)
+# CONTINUATION STATE — updated 2026-08-14 (post-Q-1063; registrar cutover complete)
 
-READ FIRST, IN ORDER: this file → EXECUTION_TRACKER.md (rows 1004–1051 are the current arc) →
-QUESTIONS_SETTLED_REGISTER_V001.md entries Q-944 through Q-961 → PRINCIPAL_EXPECTATIONS_LEDGER_V001.md
-(PE-18 through PE-22, the terminus rule, and the TERMINAL SCORING at the end).
+READ FIRST, IN ORDER: THE_HANDOFF_2026-08-14_V002.md (the cutover instrument of record) →
+ROAD_REMAINING_FLAT_V001.md → QUESTIONS_SETTLED_REGISTER_V001.md rows Q-1050–Q-1063 →
+ACTUAL_SURFACE_GUARD_V001.md (the governing instrument; the four principal calibrations).
 
-## WHERE THE PROGRAM STANDS
+## WHERE THE PROGRAM STANDS (2026-08-14, register head Q-1063)
 
-The descent section's open question is TERMINAL as of relay 1051 (Q-961), by the sealed terminus
-rule. Both lawful derivation routes are exhausted both-lane:
-- FORM-FIRST (Q-954–Q-959): the nine PhysicalSig_0 values — all constrained, none selected; the
-  record owns forcing machinery (SIG-T4.i upper bound; Port 3's Q-42 colimit) but NONE currently
-  fires; 0/9/0 final.
-- SURFACE-FIRST (Q-960–Q-961): the physics COMPOSES — a genuine joint source-record object with
-  both marginals forced (source = ω_tr, the channel's fixed point; record = two-term mixture with
-  symbolic sector-dimension weight κ_ch), TYPE-P on DoR-008/009/013 + A0 — and stops at the same
-  permissive wall.
+- Successor registrar session ACTIVE (this file last written by it); the predecessor
+  (Dario-account session f8e6551f) stood down at register head Q-1061; single-writer rule holds.
+- The cutover's in-flight slate is CLOSED: r-1 naming necessity + candidate (Q-1059), gravity
+  close first scoring (Q-1060, 0/0/15 under the frozen spec), pushback hygiene sweep (Q-1061,
+  ASSUMED = 0), K*-typing (Q-1063 — the audit was commissioned fresh by this session after only
+  the build survived cutover; CONFIRMED-WITH-CORRECTIONS, all corrections favorable; the v002
+  selection-principle file LOCATED at the origin tree, digest-pinned a3c7349b…).
+- R-L4a-N ADOPTED (Q-1062, the principal's act, as prepared): the carrier compression of record
+  {C_n} is the regularization of R-L4a/R-L4b; F-d-completed fire list + V-N1..V-N5 in force;
+  κ_n asserted nowhere; the three R-L4 witnesses stand until r-2/r-3 seal.
+- K* state of record (Q-1063): NOT-TIED to any surface lock today; TYPED-MAGNITUDE,
+  APPARATUS-ONLY as STATUS (I2 vacancy engaged); §IV identity / §II.9 homonym; questions
+  (1)+(2) open and close together at ONE named theorem (C_record onset content → the FS onset
+  budget, with an appointed executable C_record(K) first).
+- Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
+  GOV-F flags untouched; the declaration gate untouched.
 
-THE CERTIFIED BOUNDARY (the residue of record, Q-961): the source-history ATTACH map (typed,
-absent, adjudicated "no such Attach exists" at TASK2D's adjudication file :314–334) PLUS the
-open-conditions list headed by A0's finiteness (also: SR representation, moving-front causality,
-write/tail analyticity, continuum preparation, family/character freedom). The boundary datum of
-the coupling-constant program is a coupling map.
+## THE QUEUE (of record, from THE_HANDOFF V002 + Q-1063)
 
-THE DECISION IS THE PRINCIPAL'S, EXACTLY ONCE, on this display. Any supply carries the
-convertibility structure: falsifier + open forcing slot + battery overdetermination. NO FURTHER
-DERIVATION DEPTH MAY BE AUTHORED (terminus rule; reopen only by the register's normal
-reopen-conditions on a genuinely new sealed ground).
-
-## OPEN ITEMS BESIDE THE DECISION
-
-- Surface-first V002 owed (documentary): 1051 found QUARANTINE BROKEN in the 1050 artifact (the
-  preform not carried byte-identically; no pre-reading sealed receipt). Content re-derived
-  independently by the checker, so substance stands; the accounting repair is owed to Dario.
-- κ_ch correction to carry: the two routes were ONE COMPUTATION (consistency check, not
-  independent derivations) — never restate the cross-check claim.
-- The nine census-consumer re-runs from audit V003 (Q-946) remain routed-not-run.
-- After the principal's decision: the construction chain (Obj_0 → ExactSig_0 → inventory →
-  ExecutePorts_0 → Θ_hist delivery → six legs → B03 closes → B04–B15 → section close → lines
-  2–5/7/10 → cascade 13–19 → line 20).
+1. THE CONSOLIDATION REFRESH (horn-b decider; registrar work by precedent): the surface doc
+   delta per its own REOPEN clause (Q-1056 vacancy + corrected inventory C-A/C-B/C-C + the §I.5
+   refinement-law booking vs D3's frozen reading), then a fidelity-check pair, then register.
+2. EARN-THE-TRACE (horn-a decider), AFTER the refresh — its exact object is now Q-1063's named
+   theorem; determination, never construction.
+3. 5c acts as the principal directs off FIVE_C_PRINCIPAL_ACTS_STAGING_V001 (Act 1/r-1 CONSUMED
+   by Q-1062; Rule-2 and Attach held until the gravity close lands, his stated sequencing);
+   5d re-read when 5a–5c land; then the gated sequence (road 6–12).
+4. Named follow-ups: the v002+manifest custody-import decision (Q-1063; registrar proposes,
+   principal directs); the guard's 5fa46838 pointer note (cosmetic; fix when the guard is next
+   touched); HELD: the amplitude-junction construction design (5fa46838) — reopens only on the
+   principal's explicit direction.
 
 ## PROTOCOL STATE (current rules of record)
 
-- Relays by sealed file + bare-number keystroke; Brian is the authorization channel, NEVER the
-  data channel (pointer pastes via pbcopy for fresh-session boots; latest boot = 1049/V007).
-- Dario = archive-side builder (workspace/ + relay_outbox/ only; NO git, read-only included);
-  Codex 2 = cleanroom-side checker. Builder never verifies own work; all CLAIMED until checked.
-- CLOSURE_MEMBER_CITATION_RULE_V001 (path + full digest + half-open span + span digest);
-  PROSE-DIGEST AUDIT strict+stable with LIVE members declared; ambiguous-anchor refusal
-  (flag-name trap: 8+ firings); residue counts from the scan, never predicted.
-- Fresh Dario session per major build (/clear + clipboard pointer); deferral-on-capacity is
-  correct behavior.
-- All gates false: alpha_computed, proof_authorized, kappa_record_computed, JOINT_ANCHOR_DERIVED.
-  ω_phys untouched. Every scale symbolic. PE ledger pointer-only for lanes.
+- Builds run as IN-SESSION BACKGROUND WORKFLOWS (build + default-refute audit, both sealed with
+  .seal.sha256 sidecars in alpha-program-archive/workspace/); agents never read
+  register/road/ledger/lens/plan/tracker and never git. The registrar adjudicates FROM DISK;
+  the audit's verdict governs over the build's. External relay lanes dormant this arc.
+- Register splice (unique anchor, asserts, both sidecars rewritten) → mirror to
+  archive/supervision/ (byte-identical, cmp) → commit; the post-commit hook auto-pushes.
+  DONE = SEALED, MIRRORED, COMMITTED, PUSHED.
+- Briefs pose questions + fences + honest-outcome menus, never outcome-classification; every
+  brief carries the guard's CHOICE LEDGER + TOY_SEPARATION requirements; sweep-displayed
+  exhaustiveness claims only (Q-1061's standing language; its slip genus recurred as Q-1063's
+  C2 — keep catching it).
 
 ## SESSION CONTINUITY
 
-This state is account-independent: everything load-bearing is sealed on disk and pushed (archive
-repo = the integrity mechanism; last commit of the arc: f04f3774). A fresh registrar session on
-any account rebuilds from: this file, the tracker, the register, the PE ledger, and
-~/.claude/projects/-Users-bgm/memory/. The prior session's transcript is auxiliary, not required.
+Account-independent; everything load-bearing is sealed on disk and pushed (the public archive
+repo is the integrity mechanism, never PGP). A fresh registrar session rebuilds from:
+THE_HANDOFF V002 → this file → the road → the register → the guard → the memory corpus at
+~/.claude/projects/-Users-bgm/memory/.
 
-## POST-SIGNATURE PLAN (added 2026-08-12) — SYSTEM-INDEPENDENT ADVERSARIAL AUDIT
-
-Principal decision: AFTER the final signature (line 20), before any public declaration, run a
-CROSS-FAMILY adversarial audit of the completed, sealed proof using system-independent models
-(Grok Super Heavy, Gemini) — the tier the two Claude lanes structurally cannot provide.
-RULES (carry over from the lane discipline): review READ-ONLY on sealed artifacts; blind to all
-measured values (no CODATA/137.036 ever shown); no output inspection (soundness, never "does it
-yield alpha"); adversarial charter (default "flawed unless proven sound"); their verdicts are DATA
-the registrar records tagged SYSTEM-INDEPENDENT, never an authority that seals/enters/voids.
-VALUE: cross-family AGREEMENT is genuine corroboration the program currently cannot produce and
-materially strengthens declaration; cross-family DISAGREEMENT is high signal (different blind spots).
-Dormant until the signature; do not run mid-construction (contamination + premature).
-PLACEMENT OF RECORD (2026-08-12, after two revisions): reviewers touch NOTHING until alpha is computed AND the blind test is scored; then declaration-readiness audit. See CROSS_FAMILY_AUDIT_PLACEMENT_ADDENDUM_V002 (supersedes the withdrawn pre-run PRE_RUN_CROSS_FAMILY_AUDIT_ADDENDUM_V001).
+## POST-SIGNATURE PLAN (unchanged; carry): the system-independent cross-family adversarial
+audit stays dormant until alpha is computed AND the blind test is scored — placement of record
+CROSS_FAMILY_AUDIT_PLACEMENT_ADDENDUM_V002 (supersedes the withdrawn pre-run V001).
