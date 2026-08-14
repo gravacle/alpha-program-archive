@@ -17712,6 +17712,12 @@ CONSEQUENCES FOR THE ROAD (descriptive, from the sealed consumer lists): items 2
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 3de0502c, 176ee719, 0f3082ca, d1807b96, b28c0813, 0a10c030, df4514a5, 5cdd5daf. Q-980–Q-1070 carried. REOPEN: any booked conversion chain landing (upgrades a COUSINS pair); B closing at rate grade (the consequence map runs); C closing (r-3's denominator supplied); the p ≤ 3/2 horn landing (the running-κ_record NEW-PRINCIPLE contingency — a principal's charter, no lane's).
 
+## Q-1072 — THE DOMAIN-EXTENSION DECLARATION (THE PRINCIPAL'S ACT; Q-1070's NAMED FOLLOW-ON): **THE ENTERED ATTACH MAP'S DOMAIN EXTENDS TO THE ADMITTED K_dd COMPLEX'S WHOLE-COMPLEX READ — REDUCED OF RECORD (dim H = 1: NO SELECTOR NEEDED OR INTRODUCED); D2 CLOSES FOR THE ADMITTED FAMILY; TYPE-P, SAME FALSIFIER ENVELOPE, NOTHING ELSE TOUCHED** (2026-08-14)
+
+**Answer: the small half of Act 2 lands — the admitted complex's whole-complex read is now served; the selector-domain debt (D2) closes for the admitted family.** Instrument: ACT2_DOMAIN_EXTENSION_DECLARATION_2026-08-14.md (0dfce947). Basis sealed: cell-wise b₁ = 1 (every admitted cell inside the entered domain); complex-level dim H = 1 (the extension reduced — the entry's no-selector bar satisfied trivially, not waived). ENTERED content, TYPE-P on the Attach chain, voids with the entry, carried under Q-1070's falsifier envelope (FV-1/2/5/6) with no new falsifier surface. Rules neither open reading; supplies no h_j typing; licenses no port-chaining. With this row the principal's owed list holds ONE item (the v002 custody-import decision) until the gravity close releases Acts 3/5.
+
+alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 0dfce947, 237fed43 (Q-1070's instrument), 420ab02f, 38239f93. Q-980–Q-1071 carried. REOPEN: any Q-1070 falsifier firing (this addendum voids with the admission); the Attach entry voiding (TYPE-P cascade); a sealed derivation superseding the entered domain (FV-5 pattern — the extension dissolves with the admission).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
