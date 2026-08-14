@@ -17399,6 +17399,19 @@ THE HONEST OBSTRUCTION (o-1..o-3, check-reinforced by a sharper route): the inpu
 
 CONSEQUENCE — the derive-before-author discipline paid again: the zero-free gate needed no act at all; the spec-act bundle is now precisely specified (q-1/q-2/q-3) for authoring; R-L4a/b and R-L0 are certification attempts (lane-shaped, on the discharged basis). alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 26f9314b, aed551e3 (notes N-1 relay-paraphrase/file-governs; N-2 the 52f2490b verification). Q-980–Q-1044 carried. REOPEN: each named item landing; flag :2184 is the Gate-6 evaluator's to flip.
 
+## Q-1046 — THE SUMMED-S2′ SPEC AMENDMENT CANDIDATE IS AUTHORED AND **READY-FOR-PRINCIPAL** (CHECK CLEAN ON EVERY AXIS: OUTCOME-SHOPPING NONE, PAPER-OVER NONE, MECHANICS CONFORMANT, MAP EXACT): THE ONE GENUINE SPEC ACT OF THE ANALYSIS PHASE, STAGED FOR ADOPTION (2026-08-14)
+
+**Answer: the only un-derivable act on the "C exists" critical path now exists as a checked candidate awaiting the principal's adoption under the E1-successor spec-author role.** Candidate STAGE8_SUMMED_S2_CANDIDATE_V001 (ce59b480); default-refute entry-worthiness check STAGE8_SUMMED_S2_CANDIDATE_CHECK_V001 (c2346000): **ENTRY_WORTHINESS = READY-FOR-PRINCIPAL** — no void condition, no repair blocking; two corrections of record (f-1 a pointer fix; f-2 one sentence re-marked AUTHORED) to be NAMED in the entry addendum alongside the two digests.
+
+THE AMENDMENT (three components, exactly as the record demanded):
+- **q-1 THE OBJECT**: the summed certifying object Δ^Σ_n — the colour sum INSIDE at operator level, the C4 kill BEFORE any norm — quantified over the fixed-n refinement family with n-UNIFORM constants (the discharged trilemma form); NO new limit object (the alternative attacked by the check and barred at three independent sealed points).
+- **q-2 THE ESTIMATE + R.3′ CLOSURE**: the summed Schatten-2 certification (α′ a SYMBOL, not asserted — new witness live) and the F′-14-COMPLIANT colour-sum closure (assembled-ρ displays only; the linear passage by trace linearity; the segment remainder a NAMED require-clause with its own witness; the per-pair route BARRED on 52f2490b's authority). Discharge map honest: what the discharged chain delivers now (REM + ZF) vs what GATES discharge (R-L4a/b, R-L0(/R-L0b), C-L2 — none papered over, verified clause by clause).
+- **q-3 MECHANICS**: the ad9fc14e pattern at its bytes — this check first; then a SECOND, SEPARATE principal addendum naming both digests with explicit confirmation; witness retirement ON DISCHARGE never on adoption (the check took the STRICT sealed direction); six falsifiers V-1..V-6 all real and tested (refutation at the amendment's own quantifier is FIRST-CLASS); no-freeze complete; GOV-F reservation intact.
+
+WHAT ADOPTION ENABLES (map check-verified EXACT): F′-14 Route B acquires its sealed target (traversable, not traversed); the "C exists" gate list reduces to **R-L4a/b + R-L0(/R-L0b) + C-L2 + OBL-D**; the zero-free reduction becomes consumable at the amended quantifier. WHAT IT DOES NOT: no verdict, no computation, no flag, no discharge of the remaining gates, no construction of C.
+
+CONSEQUENCE — the adoption decision is STAGED for the principal (the second separate act; registrar and lanes may not enter). alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: ce59b480, c2346000. Q-980–Q-1045 carried. REOPEN: the adoption made (→ the map executes; the two new witnesses go live; discharge work proceeds) or declined; any falsifier firing.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
