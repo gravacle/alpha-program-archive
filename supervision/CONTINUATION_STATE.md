@@ -25,13 +25,15 @@ ACTUAL_SURFACE_GUARD_V001.md (the governing instrument; the four principal calib
 - Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
   GOV-F flags untouched; the declaration gate untouched.
 
-## THE QUEUE (of record, from THE_HANDOFF V002 + Q-1063)
+## THE QUEUE (of record; updated post-Q-1065)
 
-1. THE CONSOLIDATION REFRESH (horn-b decider; registrar work by precedent): the surface doc
-   delta per its own REOPEN clause (Q-1056 vacancy + corrected inventory C-A/C-B/C-C + the §I.5
-   refinement-law booking vs D3's frozen reading), then a fidelity-check pair, then register.
-2. EARN-THE-TRACE (horn-a decider), AFTER the refresh — its exact object is now Q-1063's named
-   theorem; determination, never construction.
+0. RUNNING: the 5b list IN THE PRINCIPAL'S ORDER (road, 2026-08-14) — item 1 (r-2, the
+   kappa_n determination pair, commission S9AD, wf_9149f783) in flight; item 2 (r-3) fires
+   when it registers. One lane commission at a time.
+1. THE CONSOLIDATION REFRESH — DONE (Q-1065; V003 c80c09a2 is the surface of record).
+2. EARN-THE-TRACE (horn-a hygiene target = the corrected V003 description) — its exact object
+   is Q-1063's named theorem; determination, never construction; queued behind r-2's
+   registration per the one-at-a-time direction.
 3. 5c acts as the principal directs off FIVE_C_PRINCIPAL_ACTS_STAGING_V001 (Act 1/r-1 CONSUMED
    by Q-1062; Rule-2 and Attach held until the gravity close lands, his stated sequencing);
    5d re-read when 5a–5c land; then the gated sequence (road 6–12).
