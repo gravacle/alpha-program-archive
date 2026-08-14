@@ -17730,6 +17730,12 @@ THE CONVERGENCE FINDING (n-4, new): the onset gate's Exact-Next-Gate and the bri
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: ae2202e0, a4c2b7df, b4034f04, d66a922c/4ebe6b8f (the spine), b654a29c (the lock's brief), cc113a16, 7d5041a4, c80c09a2 (V003). Q-980–Q-1072 carried. REOPEN: the T7 amplitude adjudication executing (decider 1 — a commissionable pair); link 9 / the S2.5 theorem landing (R-1 reruns); a future surface refresh surfacing the m\*-lock's derived content per V003's own REOPEN clause (the horn-b finding's documentary consequence; with h-1's §I.5 landing-zone note); any sealed refutation of b4034f04 (the landing's load-bearing carrier).
 
+## Q-1074 — ACT 3 EXECUTED: THE ATTACH ENTRY CONTINUED AS NAMED PREMISE (THE PRINCIPAL'S ACT, HOLDS LIFTED THE SAME NIGHT): **THE PREMISE'S STANDING FOR 5d IS FIXED — TYPE-P ROOT, THREE CARRIED CONDITIONS OPEN AND NAMED, THE N-SET DISCIPLINE GOVERNS; NOTHING DISCHARGED, NOTHING VOIDED; THE RE-READ CONSUMES IT AS A CONDITIONAL ROOT AND MAY NOT TREAT IT AS DISCHARGED; THE FORCING-SLOT RETIREMENT ROUTE STAYS LIVE** (2026-08-14)
+
+**Answer: the third principal act of the day — and the first of the two lifted holds — resolves to the docket's honest state: continuation, executed as an act that FIXES standing rather than a deferral that leaves it implicit.** Instrument: ACT3_ATTACH_CONTINUATION_2026-08-14.md (6be35dcf). Menu context: discharge lacked sealed grounds tonight (the three carried conditions — underived causal parent, AC-2/SR representation, physical-domain proof — are open of record); withdraw would void the TYPE-P stack including today's Q-1070/Q-1072. The act names its 5d re-read scope: the premise consumed at TYPE-P grade, conditions displayed, no re-read sentence treating it as discharged. With this row Act 5 (Rule-2) stages next, one at a time.
+
+alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 6be35dcf, 420ab02f, 237fed43, 0dfce947. Q-980–Q-1073 carried. REOPEN: any carried condition landing sealed (discharge becomes stageable); the entry's falsifiers firing (void per its own clause); the forcing slot filling (the authored core dissolves — the standing retirement).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
