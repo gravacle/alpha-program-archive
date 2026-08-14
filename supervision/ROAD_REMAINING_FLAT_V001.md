@@ -14,11 +14,12 @@ below IS the upgrade map, grouped by holder.
       level, the "short one power" CLOSED**; typing entry unnecessary Q-1041):
       the G1 cluster kernel formalization on the discharged basis; the G2-E3
       escape; residues r-b (Q-resolution) / r-c (free-factor bookkeeping).
-○ 5b-discharge. PROVE THE ADOPTED SUMMED TEST (the S2′ amendment is ENTERED,
-      Q-1047; the typing rule proved unnecessary, Q-1041): discharge S2′ + R.3′ on
-      the discharged basis — gates: R-L4a/b + R-L0(/R-L0b) + C-L2 (audit in flight
-      for the first two); on discharge the F′-14 witness retires and the licensed
-      "C exists" sentence upgrades.
+○ 5b-remainder. THE ONE LIVE ANALYTIC WALL: R.3′(c) — a new summed-level
+      second-order identity/estimate with n-uniform constants not factoring through
+      per-pair majorants (Q-1049; the adopted S2′ certification itself is DELIVERED
+      at α′ = 1/4 on the similarity class, V-1 not fired). Also: the half-plane
+      localization (corrected condition, Q-1049 — closing it makes R-L0 unneeded
+      for the n=1 leg); R-L4's r-1 regularization-naming act; C-L2/G_cm; OBL-D.
 ○ 5c. PRINCIPAL ENTRIES (yours, via the mandate process): the cycle-selector /
       b₁-domain extension at the Attach entry; the Attach premise's discharge or
       continuation; the μ-chain custody (DoR-013/014); the G2-F1 authored-physics
