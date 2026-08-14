@@ -9,23 +9,14 @@ FORCED live on nine named debts, RUNS an unforced lean; even a surviving cross-b
 forces the CHANNEL, not |n|. Every remaining debt is named and assigned. The list
 below IS the upgrade map, grouped by holder.
 
-○ 5a-residue. LANE ITEMS REMAINING (the analytic core is DONE — Q-1042/Q-1043:
-      the survivor cancelled error-included; **B-L2* DISCHARGED at the summed
-      level, the "short one power" CLOSED**; typing entry unnecessary Q-1041;
-      G1 kernel certificate assembled SOUND Q-1044; r-b Q-resolution-STABLE /
-      r-c free-factor NEUTRAL Q-1052): the G2-E3 escape (traced: = the E3
-      effect-descent, Q-990/Q-991 — descend d_effect as an executable common-origin
-      effect/instrument per the deciding-ground list, or prove it impossible;
-      decides whether the coupling term is derivable or needs an authored Rule 2).
-○ 5b-remainder. THE ONE LIVE ANALYTIC WALL: R.3′(c) — residue SHARPENED Q-1050
-      (unit cell, carrier axis, collapse level): the D-i surviving-instance square +
-      the ten-term pairwise-difference e₂ form + H-R/C-L2 tail, at the ℓ-ray
-      quantifier (premise P-1 DISSOLVED Q-1051 — family closure derived at the
-      declared bytes, the consuming step family-level only; the summed e₂ identity
-      itself exact; per-pair route barred; the adopted S2′ certification DELIVERED
-      at α′ = 1/4, V-1 not fired). Also: the half-plane
-      localization (region condition exactly characterized, Q-1050 — closing it
-      makes R-L0 unneeded for the n=1 leg); R-L4's r-1 regularization-naming act;
+▶ 5a-residue. THE G2-E3 EFFECT-DESCENT (Q-990/Q-991): descend d_effect as an
+      executable common-origin effect/instrument per the deciding-ground list, or
+      prove it impossible — build+check pair IN FLIGHT.
+▶ 5b-remainder. THE ONE LIVE ANALYTIC WALL: R.3′(c) — n-uniform control of the
+      D-i surviving-instance square + the ten-term pairwise-difference e₂ form +
+      the H-R/C-L2 tail, at the ℓ-ray quantifier, unit cell — blind total-content
+      test IN FLIGHT. Also open: the half-plane localization (closing it makes
+      R-L0 unneeded for the n=1 leg); R-L4's r-1 regularization-naming act;
       C-L2/G_cm; OBL-D.
 ○ 5c. PRINCIPAL ENTRIES (yours, via the mandate process): the cycle-selector /
       b₁-domain extension at the Attach entry; the Attach premise's discharge or
@@ -45,5 +36,5 @@ below IS the upgrade map, grouped by holder.
 ○ 12. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: Q-1012 → Q-1034 (the 2026-08-13 campaign) in QUESTIONS_SETTLED_REGISTER_V001.md.
+History: Q-1012 → Q-1052 in QUESTIONS_SETTLED_REGISTER_V001.md.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md.
