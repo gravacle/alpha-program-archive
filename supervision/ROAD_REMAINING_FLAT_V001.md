@@ -9,13 +9,13 @@ FORCED live on nine named debts, RUNS an unforced lean; even a surviving cross-b
 forces the CHANNEL, not |n|. Every remaining debt is named and assigned. The list
 below IS the upgrade map, grouped by holder.
 
-▶ 5b-remainder. THE ONE LIVE ANALYTIC WALL, RESHAPED Q-1054: n-uniform control
-      of the ONE dressed cross-branch object Re e₂(K_n) on the equal-source slice
-      (o-1 the exchange channel tr[K²]; o-2 the dressed-trace enclosure; o-3 the
-      tail via H-R + C-L2), at the ℓ-ray quantifier, unit cell — o-1/o-2 pair
-      NEXT IN FLIGHT. Also open: the half-plane localization (closing it makes
-      R-L0 unneeded for the n=1 leg); R-L4's r-1 regularization-naming act;
-      C-L2/G_cm; OBL-D.
+▶ 5b-remainder. THE ONE LIVE ANALYTIC WALL, RESTRUCTURED Q-1055: n-uniform
+      enclosure of FOUR definite-signed quantities per (n, cell) — tr K_H, tr H_A,
+      ‖K_H‖₂², ‖H_A‖₂² — the odd (weight-kill-orphaned) sector the new half; needs
+      a single-composite kill or majorant at the stay strata, on no sealed artifact
+      (the of-record divergence provably does NOT attach). Also open: the half-plane
+      localization (closing it makes R-L0 unneeded for the n=1 leg); R-L4's r-1
+      regularization-naming act; C-L2/G_cm; OBL-D.
 ○ 5c. PRINCIPAL ENTRIES (yours, via the mandate process): the cycle-selector /
       b₁-domain extension at the Attach entry; the Attach premise's discharge or
       continuation; the μ-chain custody (DoR-013/014); the G2-F1 authored-physics
