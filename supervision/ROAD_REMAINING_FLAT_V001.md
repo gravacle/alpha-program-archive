@@ -9,10 +9,11 @@ FORCED live on nine named debts, RUNS an unforced lean; even a surviving cross-b
 forces the CHANNEL, not |n|. Every remaining debt is named and assigned. The list
 below IS the upgrade map, grouped by holder.
 
-▶ 5b-remainder. THE ONE LIVE ANALYTIC WALL: R.3′(c) — n-uniform control of the
-      D-i surviving-instance square + the ten-term pairwise-difference e₂ form +
-      the H-R/C-L2 tail, at the ℓ-ray quantifier, unit cell — blind total-content
-      test IN FLIGHT. Also open: the half-plane localization (closing it makes
+▶ 5b-remainder. THE ONE LIVE ANALYTIC WALL, RESHAPED Q-1054: n-uniform control
+      of the ONE dressed cross-branch object Re e₂(K_n) on the equal-source slice
+      (o-1 the exchange channel tr[K²]; o-2 the dressed-trace enclosure; o-3 the
+      tail via H-R + C-L2), at the ℓ-ray quantifier, unit cell — o-1/o-2 pair
+      NEXT IN FLIGHT. Also open: the half-plane localization (closing it makes
       R-L0 unneeded for the n=1 leg); R-L4's r-1 regularization-naming act;
       C-L2/G_cm; OBL-D.
 ○ 5c. PRINCIPAL ENTRIES (yours, via the mandate process): the cycle-selector /
