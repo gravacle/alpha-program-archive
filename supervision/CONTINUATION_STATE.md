@@ -36,7 +36,13 @@ registrar stops ONLY at principal acts and fences; exceptions surfaced immediate
 2b. THE ACT-2 PACKAGE (route (a), the principal's choice 2026-08-14): the physical-
    carrier construction package pair — prerequisites enumerated from the sealed
    K_dd/Attach/cross-block stock, built, audited; the declaration returns to the
-   principal staged. Fires on r-3's registration.
+   principal staged. Fires on r-3's registration. ANTI-FITTING CLAUSE (the principal's
+   question of 2026-08-14, binding on the brief): the package OPENS with a
+   determination-first stage — what the sealed record already fixes about the admissible
+   carrier class; whether K_dd is unique/admissible at a displayed sweep — with honest
+   outcomes including NOT-UNIQUE, WIDER-CLASS, and DECLARATION-PREMATURE (any of which
+   voids or re-scopes the package, r-1's V-N4 pattern); construction only on what the
+   determination licenses; no package step may cite the FORCED branch's needs as ground.
 3. EARN-THE-TRACE (horn-a; targets V003; object = Q-1063's named theorem) → register.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
