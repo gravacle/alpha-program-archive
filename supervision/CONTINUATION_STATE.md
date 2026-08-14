@@ -32,11 +32,12 @@ Serial, one pair at a time, each adjudicated + registered before the next fires;
 registrar stops ONLY at principal acts and fences; exceptions surfaced immediately
 (FALSE-branch firing, REFUTED audit, anything fence-adjacent):
 1. r-2 — DONE (Q-1066: B1-DERIVED, kappa_n → ∞ full-family; det_n(0) → 0 consumed).
-2. r-3 (RUNNING — commission S9AD) → register; alone completes R-L4b's discharge.
+2. r-3 — ANSWERED (Q-1068: NOT-DERIVABLE-TODAY; MO-0..MO-4 named; MO-3 = the R-L2b
+   sharpened target; R-L4b waits on the MO work, riding the wall/R-L2b complex).
 2b. THE ACT-2 PACKAGE (route (a), the principal's choice 2026-08-14): the physical-
    carrier construction package pair — prerequisites enumerated from the sealed
    K_dd/Attach/cross-block stock, built, audited; the declaration returns to the
-   principal staged. Fires on r-3's registration. ANTI-FITTING CLAUSE (the principal's
+   principal staged. FIRED at Q-1068's registration. ANTI-FITTING CLAUSE (the principal's
    question of 2026-08-14, binding on the brief): the package OPENS with a
    determination-first stage — what the sealed record already fixes about the admissible
    carrier class; whether K_dd is unique/admissible at a displayed sweep — with honest

@@ -10,9 +10,12 @@ both existing carriers, FORCED live on the named debts, RUNS an unforced lean. T
 below IS the upgrade map. Standing authorization (2026-08-14): items proceed serially and
 autonomously; the registrar stops only at [YOURS] items and fences.
 
-▶ 2. r-3 — the joint-rate polydisc estimate ‖R_nΔ_n(a)‖₁ = o(−log|det_n(0)|); r-2
-      landed B1-DERIVED (Q-1066: κ_n → ∞, det_n(0) → 0 consumed), so r-3 alone now
-      discharges R-L4b and retires the three E1 witnesses. [lane; RUNNING, S9AD]
+○ 2. r-3 RESIDUE — answered NOT-DERIVABLE-TODAY (Q-1068): R-L4b's discharge now
+      waits on the named missing objects — MO-1 the resolvent/½-approach law
+      (subsumes MO-0), MO-2 a certified rate for κ_n or −log|det_n(0)|, MO-3 a
+      sub-volume trace-norm rate for Δ_n(a) (= the open R-L2b sharpened target),
+      MO-4 a product-level cancellation identity. Witnesses stand. Rides the
+      wall/R-L2b complex (item 7). [lane]
 ○ 3. EARN-THE-TRACE — the horn-a determination against the V003 surface; object =
       Q-1063's named theorem (C_record onset content → the FS onset budget). [lane]
 ○ 4. THE HALF-PLANE LOCALIZATION — close it at a summed-compatible quantifier
