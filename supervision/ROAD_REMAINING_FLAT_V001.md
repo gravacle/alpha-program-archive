@@ -31,11 +31,12 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 8. THE GRAVITY CARRIERS — build Q-1060's named carriers → re-score under the
       frozen OBS-22 spec → THE GRAVITY CLOSE LANDS. On the critical path: it
       releases items 12–13. [lane]
-▶ 10. ACT 2 — the carrier/admission declaration: ROUTE (a) CHOSEN (the principal,
-      2026-08-14) — the physical-carrier construction package pair (prerequisites
-      enumerated from the sealed K_dd/Attach stock, built, default-refute audited)
-      fires on r-3's registration; the declaration then returns to the principal
-      STAGED with the package in hand. [YOURS + lane]
+▶ 10. ACT 2 — the carrier/admission declaration: PACKAGE LANDED (Q-1069 —
+      forcing asked first: NOT-FORCED, class infinite, three freedom axes, a
+      second reading-supply surfaced). THE SHEET IS STAGED, PROPOSED-NOT-
+      DECLARED: Option 1 K_dd family / 2 A5 / 3 the conforming class / 4
+      decline-defer, sub-rulings carryable, FV-5 retirement clause in force.
+      AWAITING THE PRINCIPAL'S DECLARATION. [YOURS]
 ○ 11. ACT 4 — the DoR-013/014 falsifier: AVAILABLE INSTRUMENT, not a required
       act (reclassified at the principal's question, 2026-08-14 — the composition
       debt has two other routes in motion; commissioning + firing happen on his
