@@ -50,6 +50,13 @@ registrar stops ONLY at principal acts and fences; exceptions surfaced immediate
    named?"). Any outcome voids or re-scopes the package accordingly; construction only
    on what the determination licenses; no package step may cite the FORCED branch's
    needs as ground.
+2c. THE RATE-GAP LINKAGE DETERMINATION (the principal's direction, 2026-08-14): are the
+   program's rate-shaped gaps ONE object of record or several — the Q-1016 kernel-C
+   "short one power" gap vs MO-3/R-L2b's exponent p vs MO-2's collapse rate? Honest
+   outcomes SAME/PARTIAL/DISTINCT with linkage chains displayed. LENS-GRADE NOTE OF
+   RECORD (motivates this determination, BARRED as input, the known highest fitting
+   risk): the principal's feature-reading — the collapse/response poisoning identity is
+   coupling-shaped; the log-divergence-is-the-coupling thesis. FIRED (S9AD).
 3. EARN-THE-TRACE (horn-a; targets V003; object = Q-1063's named theorem) → register.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
