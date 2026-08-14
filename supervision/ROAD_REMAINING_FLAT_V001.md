@@ -9,9 +9,6 @@ FORCED live on nine named debts, RUNS an unforced lean; even a surviving cross-b
 forces the CHANNEL, not |n|. Every remaining debt is named and assigned. The list
 below IS the upgrade map, grouped by holder.
 
-▶ 5a-residue. THE G2-E3 EFFECT-DESCENT (Q-990/Q-991): descend d_effect as an
-      executable common-origin effect/instrument per the deciding-ground list, or
-      prove it impossible — build+check pair IN FLIGHT.
 ▶ 5b-remainder. THE ONE LIVE ANALYTIC WALL: R.3′(c) — n-uniform control of the
       D-i surviving-instance square + the ten-term pairwise-difference e₂ form +
       the H-R/C-L2 tail, at the ℓ-ray quantifier, unit cell — blind total-content
