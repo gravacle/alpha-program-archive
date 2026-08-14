@@ -9,11 +9,11 @@ FORCED live on nine named debts, RUNS an unforced lean; even a surviving cross-b
 forces the CHANNEL, not |n|. Every remaining debt is named and assigned. The list
 below IS the upgrade map, grouped by holder.
 
-○ 5a-residue. LANE ITEMS REMAINING (first wave done — Q-1035/36/37: rank-pinning
-      NOT-PINNABLE [door = M4]; anchoring LAW derived [fork = the typing]; B-L2*
-      failing-at-resummation [life = the C-L1/C-L2 error]): the C-L1/C-L2 error
-      certification (if a route exists); the G1 cluster kernel; the G3 realization
-      (gated on the typing); the G2-E3 escape; a composition no-go hunt.
+○ 5a-residue. LANE ITEMS REMAINING (the analytic core is DONE — Q-1042/Q-1043:
+      the survivor cancelled error-included; **B-L2* DISCHARGED at the summed
+      level, the "short one power" CLOSED**; typing entry unnecessary Q-1041):
+      the G1 cluster kernel formalization on the discharged basis; the G2-E3
+      escape; residues r-b (Q-resolution) / r-c (free-factor bookkeeping).
 ○ 5b. SPEC-AUTHOR ACTS (E1-successor amendments): the summed-S2′ re-quantification
       (colour sum inside the certifying norm) + the F′-14-compliant re-derivation;
       the cell-local write-typing rule (T1 vs T0/T2 — the verdict hinge).
