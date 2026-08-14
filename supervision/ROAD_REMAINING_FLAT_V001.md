@@ -16,10 +16,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       sub-volume trace-norm rate for Δ_n(a) (= the open R-L2b sharpened target),
       MO-4 a product-level cancellation identity. Witnesses stand. Rides the
       wall/R-L2b complex (item 7). [lane]
-○ 3. EARN-THE-TRACE — the horn-a determination against the V003 surface; object =
-      Q-1063's named theorem (C_record onset content → the FS onset budget). [lane]
-○ 4. THE HALF-PLANE LOCALIZATION — close it at a summed-compatible quantifier
-      (closing makes R-L0 unneeded for the n=1 leg). [lane]
+▶ 4. THE HALF-PLANE LOCALIZATION — close it at a summed-compatible quantifier
+      (closing makes R-L0 unneeded for the n=1 leg). [lane; RUNNING, S9AD]
+      (item 3 DONE — Q-1073: the FIRST EARNED TRACE, the phase-skeleton landing;
+      the T7 amplitude adjudication named decider-1 of the fork, commissionable.)
 ○ 5. C-L2/G_cm — certify the G_cm input consumed by R-L0's threshold form. [lane]
 ○ 6. OBL-D — cellulation-independence via the RA27-4/6 transport package (next
       pieces after the d₀-square, Q-1026). [lane]
@@ -27,7 +27,8 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       ‖H_A‖₂² per (n, cell); odd sector needs a single-composite kill or majorant at
       the stay strata (the of-record divergence provably does NOT attach). FIRST
       ROUTE: the principal's boundary-closure route (derivation-only; the four
-      graveyarded routes do not include it). [lane]
+      graveyarded routes do not include it). [lane; RUNNING in parallel, S9AD,
+      per the road's own alongside clause]
 ○ 8. THE GRAVITY CARRIERS — build Q-1060's named carriers → re-score under the
       frozen OBS-22 spec → THE GRAVITY CLOSE LANDS. On the critical path: it
       releases items 12–13. [lane]
@@ -54,6 +55,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1065). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1073 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).

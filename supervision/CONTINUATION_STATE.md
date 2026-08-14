@@ -57,7 +57,14 @@ registrar stops ONLY at principal acts and fences; exceptions surfaced immediate
    RECORD (motivates this determination, BARRED as input, the known highest fitting
    risk): the principal's feature-reading — the collapse/response poisoning identity is
    coupling-shaped; the log-divergence-is-the-coupling thesis. FIRED (S9AD).
-3. EARN-THE-TRACE (horn-a; targets V003; object = Q-1063's named theorem) → register.
+3. EARN-THE-TRACE — DONE (Q-1073: PARTIAL, the FIRST EARNED TRACE — the phase-skeleton
+   landing, adversary-conceded; two new R-2 blockers; the T7 amplitude adjudication =
+   decider-1 of the fork, commissionable).
+OVERNIGHT AUTHORIZATION (the principal, 2026-08-14 night): proceed through the open
+   list to the gate before any compute-alpha run. Serial march continues (4 → 5 → 6 →
+   8 + the wall in parallel per the road's alongside clause); HARD CEILING: stop at the
+   gravity close (Acts 3/5 are his), at 5d, and at every fence; the v002 custody
+   question HELD for his return; exceptions surfaced immediately.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
 8. THE GRAVITY CARRIERS (Q-1060's named list) — on the critical path to the alpha gate
