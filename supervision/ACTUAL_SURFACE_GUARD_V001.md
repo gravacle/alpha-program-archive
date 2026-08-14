@@ -66,6 +66,19 @@ every load-bearing object of the κ_record → K* → α chain classified SURFAC
 SURFACE-DERIVED(booked trace cited) / APPARATUS-ONLY, with zero APPARATUS-ONLY
 objects anchoring the assembly.
 
+## CALIBRATION OF THE BURDEN (principal, 2026-08-14 — append)
+"By itself using established machinery isn't wrong as long as it has earned its
+place and can be proven on the surface." APPARATUS-ONLY is a STATUS, not a verdict:
+it means the object has not yet proven its place, never that it is condemned. The
+lawful paths out are three, and the FIRST is primary: (1) the machinery EARNS the
+trace — a booked derivation landing the object on surface content the surface
+actually carries (note: the surface is phase-rich by bedrock; a trace need not pass
+through the absent amplitude slot if the object's content lands on phase structure);
+(2) the object is discarded as scaffolding; (3) new booked surface structure supplies
+the missing landing (the held construction route — principal-gated). A relevance
+adjudication that presents only (2) and (3) is running a harsher standard than this
+instrument sets.
+
 **REOPEN/UPDATE:** append-only; updates carry their source. Registrar wires the CHOICE
 LEDGER and TOY_SEPARATION requirements into every subsequent brief, including both
 tracks' in-flight successors and the final run.
