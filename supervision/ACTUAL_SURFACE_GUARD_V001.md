@@ -90,6 +90,20 @@ objects), never a prohibition. A relevance adjudication is written as: what hole
 exist, what would close each, and what standing the object already has — not as a
 list of things outlawed.
 
+## THE PUSHBACK FORK (principal, 2026-08-14 — append)
+"When the surface pushes back is when we should question whether we are not fitting
+into the machinery properly OR we are not fitting into the surface properly." Surface
+pushback (a refused referent, a failed trace, an ILL-POSED) adjudicates NEITHER horn
+by itself — it poses a two-sided diagnosis, and both sides are examined: (a) the
+MACHINERY-FIT horn — the apparatus carries structure the actual surface does not; (b)
+the SURFACE-DESCRIPTION-FIT horn — the surface of record is a consolidation of BOOKED
+results and may under-describe the actual surface (a booked absence records what has
+been derived, not necessarily what the actual surface carries; bedrock is falsifiable
+by its own protocol). Every pushback adjudication states both horns, what standing
+each has, and what would decide between them. Collapsing to horn (a) alone is the
+prohibitionist drift the PURPOSE clause bars; collapsing to horn (b) alone is
+machinery-chasing. The fork stays open until a determination closes it.
+
 **REOPEN/UPDATE:** append-only; updates carry their source. Registrar wires the CHOICE
 LEDGER and TOY_SEPARATION requirements into every subsequent brief, including both
 tracks' in-flight successors and the final run.
