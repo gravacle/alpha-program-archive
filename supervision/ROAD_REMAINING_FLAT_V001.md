@@ -16,10 +16,12 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       sub-volume trace-norm rate for Δ_n(a) (= the open R-L2b sharpened target),
       MO-4 a product-level cancellation identity. Witnesses stand. Rides the
       wall/R-L2b complex (item 7). [lane]
-▶ 4. THE HALF-PLANE LOCALIZATION — close it at a summed-compatible quantifier
-      (closing makes R-L0 unneeded for the n=1 leg). [lane; RUNNING, S9AD]
-      (item 3 DONE — Q-1073: the FIRST EARNED TRACE, the phase-skeleton landing;
-      the T7 amplitude adjudication named decider-1 of the fork, commissionable.)
+○ 4. THE HALF-PLANE LOCALIZATION — RUN (Q-1077: NOT-DERIVABLE-TODAY; delivered
+      the n-uniform disc bound |det(CV_pC)| ≤ 1 exact + conditional slice
+      nonvanishing Z_hat ≥ 1/2 on R-L4a/b + C-L2). Corrected residue: layer 1 =
+      C-L2 (→ item 5, its SECOND consumer tonight); layer 2 = the numerator
+      phase; off-slice B-2 stands. R-L0 untriggered. [lane — reopens on residue]
+      (item 3 DONE — Q-1073: the FIRST EARNED TRACE.)
 ▶ 5. C-L2/G_cm — certify C-L2's quadratic form + the G_cm input (R-L0's threshold
       form; AND the wall's F3 blocker per Q-1076). [lane; FIRING]
 ○ 6. OBL-D — cellulation-independence via the RA27-4/6 transport package (next
