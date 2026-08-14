@@ -25,15 +25,24 @@ ACTUAL_SURFACE_GUARD_V001.md (the governing instrument; the four principal calib
 - Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
   GOV-F flags untouched; the declaration gate untouched.
 
-## THE QUEUE (of record; updated post-Q-1065)
+## THE QUEUE (of record; STANDING AUTHORIZATION 2026-08-14, principal: "proceed through
+the open work until we reach the gate before computing alpha")
 
-0. RUNNING: the 5b list IN THE PRINCIPAL'S ORDER (road, 2026-08-14) — item 1 (r-2, the
-   kappa_n determination pair, commission S9AD, wf_9149f783) in flight; item 2 (r-3) fires
-   when it registers. One lane commission at a time.
-1. THE CONSOLIDATION REFRESH — DONE (Q-1065; V003 c80c09a2 is the surface of record).
-2. EARN-THE-TRACE (horn-a hygiene target = the corrected V003 description) — its exact object
-   is Q-1063's named theorem; determination, never construction; queued behind r-2's
-   registration per the one-at-a-time direction.
+Serial, one pair at a time, each adjudicated + registered before the next fires; the
+registrar stops ONLY at principal acts and fences; exceptions surfaced immediately
+(FALSE-branch firing, REFUTED audit, anything fence-adjacent):
+1. r-2 (RUNNING — commission S9AD, wf_9149f783) → register.
+2. r-3 → register.
+3. EARN-THE-TRACE (horn-a; targets V003; object = Q-1063's named theorem) → register.
+4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
+   route = the principal's boundary-closure route, lens-motivated, derivation-only).
+8. THE GRAVITY CARRIERS (Q-1060's named list) — on the critical path to the alpha gate
+   because Attach + Rule-2 are held on the gravity close and 5d needs all of 5c.
+HARD STOPS (the principal's alone): 5c Acts 2/4 (available anytime), Acts 3/5 (release on
+the gravity close), the 5d re-read verdict consumes his acts, then FENCE 1
+(kappa_record_computed) — the gate before any computation. 5d may return FREE or RUNS, in
+which case there is no alpha computation and the road goes to Finish B / the charter → 11.
+DONE: the consolidation refresh (Q-1065; V003 c80c09a2 is the surface of record).
 3. 5c acts as the principal directs off FIVE_C_PRINCIPAL_ACTS_STAGING_V001 (Act 1/r-1 CONSUMED
    by Q-1062; Rule-2 and Attach held until the gravity close lands, his stated sequencing);
    5d re-read when 5a–5c land; then the gated sequence (road 6–12).
