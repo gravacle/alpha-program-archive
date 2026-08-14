@@ -10,9 +10,11 @@ ACTUAL_SURFACE_GUARD_V001.md (the governing instrument; the four principal calib
   (Dario-account session f8e6551f) stood down at register head Q-1061; single-writer rule holds.
 - The cutover's in-flight slate is CLOSED: r-1 naming necessity + candidate (Q-1059), gravity
   close first scoring (Q-1060, 0/0/15 under the frozen spec), pushback hygiene sweep (Q-1061,
-  ASSUMED = 0), K*-typing (Q-1063 — the audit was commissioned fresh by this session after only
-  the build survived cutover; CONFIRMED-WITH-CORRECTIONS, all corrections favorable; the v002
-  selection-principle file LOCATED at the origin tree, digest-pinned a3c7349b…).
+  ASSUMED = 0), K*-typing (Q-1063, provenance corrected Q-1064 —
+  TWO independent audits, one per commission: the predecessor pair's audit 36183948 (now at
+  ..._AUDIT_PRIOR_V001.md) and this session's stricter-brief audit bb928de4 (at the V001 path);
+  both CONFIRMED-WITH-CORRECTIONS; carrier sweep final count seventeen; the v002
+  selection-principle source location REGISTRAR-VERIFIED at path, a3c7349b, manifest-pinned).
 - R-L4a-N ADOPTED (Q-1062, the principal's act, as prepared): the carrier compression of record
   {C_n} is the regularization of R-L4a/R-L4b; F-d-completed fire list + V-N1..V-N5 in force;
   κ_n asserted nowhere; the three R-L4 witnesses stand until r-2/r-3 seal.
