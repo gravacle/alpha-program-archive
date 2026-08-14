@@ -14,8 +14,8 @@ below IS the upgrade map, grouped by holder.
       ‖K_H‖₂², ‖H_A‖₂² — the odd (weight-kill-orphaned) sector the new half; needs
       a single-composite kill or majorant at the stay strata, on no sealed artifact
       (the of-record divergence provably does NOT attach). Also open: the half-plane
-      localization (closing it makes R-L0 unneeded for the n=1 leg); R-L4's r-1
-      regularization-naming act; C-L2/G_cm; OBL-D.
+      localization (closing it makes R-L0 unneeded for the n=1 leg); R-L4's r-2/r-3
+      estimate inputs under the adopted naming (Q-1062); C-L2/G_cm; OBL-D.
 ○ 5c. PRINCIPAL ENTRIES (yours, via the mandate process): the cycle-selector /
       b₁-domain extension at the Attach entry; the Attach premise's discharge or
       continuation; the μ-chain custody (DoR-013/014); the G2-F1 authored-physics
