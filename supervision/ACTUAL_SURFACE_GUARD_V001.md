@@ -79,6 +79,17 @@ the missing landing (the held construction route — principal-gated). A relevan
 adjudication that presents only (2) and (3) is running a harsher standard than this
 instrument sets.
 
+## PURPOSE OF AUDITS UNDER THIS GUARD (principal, 2026-08-14 — append)
+The sin is to ASSUME a machinery-compliant answer has earned its place because it is
+established practice — never the use of machinery itself. This program has been
+challenging its machinery for some time; much of the physics is solid, and INTERNAL
+SOUNDNESS ESTABLISHED BY SURVIVED ADVERSARIAL WORK IS NOT IN QUESTION under this
+guard. Audits here are HOLE-FINDING instruments: their deliverable is the inventory
+of named gaps (unbooked correspondences, assumed bridges, undefined-of-record
+objects), never a prohibition. A relevance adjudication is written as: what holes
+exist, what would close each, and what standing the object already has — not as a
+list of things outlawed.
+
 **REOPEN/UPDATE:** append-only; updates carry their source. Registrar wires the CHOICE
 LEDGER and TOY_SEPARATION requirements into every subsequent brief, including both
 tracks' in-flight successors and the final run.
