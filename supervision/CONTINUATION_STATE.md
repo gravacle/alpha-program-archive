@@ -31,8 +31,8 @@ the open work until we reach the gate before computing alpha")
 Serial, one pair at a time, each adjudicated + registered before the next fires; the
 registrar stops ONLY at principal acts and fences; exceptions surfaced immediately
 (FALSE-branch firing, REFUTED audit, anything fence-adjacent):
-1. r-2 (RUNNING — commission S9AD, wf_9149f783) → register.
-2. r-3 → register.
+1. r-2 — DONE (Q-1066: B1-DERIVED, kappa_n → ∞ full-family; det_n(0) → 0 consumed).
+2. r-3 (RUNNING — commission S9AD) → register; alone completes R-L4b's discharge.
 3. EARN-THE-TRACE (horn-a; targets V003; object = Q-1063's named theorem) → register.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
