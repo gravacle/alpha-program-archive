@@ -17412,6 +17412,14 @@ WHAT ADOPTION ENABLES (map check-verified EXACT): F′-14 Route B acquires its s
 
 CONSEQUENCE — the adoption decision is STAGED for the principal (the second separate act; registrar and lanes may not enter). alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: ce59b480, c2346000. Q-980–Q-1045 carried. REOPEN: the adoption made (→ the map executes; the two new witnesses go live; discharge work proceeds) or declined; any falsifier firing.
 
+## Q-1047 — **THE SUMMED-S2′ AMENDMENT IS ADOPTED** (PRINCIPAL ACT OF RECORD, 2026-08-14): THE ENTRY ADDENDUM SEALED (cbfbb74c) — THE SPEC-ACT GATE IS GONE; THE "C EXISTS" LIST REDUCES TO FOUR NAMED ITEMS; TWO NEW WITNESSES LIVE; SIX FALSIFIERS IN FORCE
+
+**Answer: the one genuinely un-derivable act on the critical path is DONE — by the principal's explicit confirmation ("adopt", 2026-08-14), instrumented in the sealed entry addendum** STAGE8_SUMMED_S2_ENTRY_ADDENDUM_V001.md (cbfbb74c...), naming the candidate (ce59b480) + the check (c2346000) + the check's two corrections of record (f-1/f-2), under the E1-successor spec-author role, per the ad9fc14e mechanics (the second, separate principal act; lanes and registrar did not and may not enter).
+
+IN FORCE FROM THIS ENTRY: the summed certifying object Δ^Σ_n at the fixed-n quantifier with n-uniform constants; the summed Schatten-2 certification (α′ symbolic); the F′-14-compliant R.3′ closure. **Two new witnesses LIVE** (SCAD_SUMMED_HS_UNIFORMITY_UNCERTIFIED; SCAD_SUMMED_SEGMENT_REMAINDER_UNCERTIFIED); SCAD_COLOR_SUM_LOG_MISUSE retires only ON DISCHARGE (the strict direction). **Falsifiers V-1..V-6 in force** — refutation of the summed estimate at its own quantifier VOIDS (first-class). No-freeze intact; GOV-F reserved; the per-pair record (52f2490b) untouched. Provenance disclosure carried: the entry-worthiness check was the in-house cross-lineage blind checker; an external-lane anchor may be added as strengthening, not waited on, not claimed.
+
+CONSEQUENCE — **the "C exists" gate list is now exactly: R-L4a/b + R-L0(/R-L0b) + C-L2 + OBL-D** (H-R/H-B0 inside), plus the compute pre-gate and the construction gate as consumers. F′-14 Route B has its sealed target. The discharge work (proving the summed estimate the amendment defines) is now lane-shaped on the discharged basis — the REM/ZF chain is expected to carry most of it, with the named gates as the honest remainder. alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN — this entry decided a quantifier/test, not a verdict, value, or flag. Evidence: cbfbb74c (the addendum), ce59b480, c2346000. Q-980–Q-1046 carried. REOPEN: any V-1..V-6 firing (voids the amendment); the discharge landing (retires the F′-14 witness; upgrades the licensed sentence).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

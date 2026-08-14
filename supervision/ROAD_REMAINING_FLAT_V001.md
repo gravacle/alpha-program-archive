@@ -14,9 +14,11 @@ below IS the upgrade map, grouped by holder.
       level, the "short one power" CLOSED**; typing entry unnecessary Q-1041):
       the G1 cluster kernel formalization on the discharged basis; the G2-E3
       escape; residues r-b (Q-resolution) / r-c (free-factor bookkeeping).
-○ 5b. SPEC-AUTHOR ACTS (E1-successor amendments): the summed-S2′ re-quantification
-      (colour sum inside the certifying norm) + the F′-14-compliant re-derivation;
-      the cell-local write-typing rule (T1 vs T0/T2 — the verdict hinge).
+○ 5b-discharge. PROVE THE ADOPTED SUMMED TEST (the S2′ amendment is ENTERED,
+      Q-1047; the typing rule proved unnecessary, Q-1041): discharge S2′ + R.3′ on
+      the discharged basis — gates: R-L4a/b + R-L0(/R-L0b) + C-L2 (audit in flight
+      for the first two); on discharge the F′-14 witness retires and the licensed
+      "C exists" sentence upgrades.
 ○ 5c. PRINCIPAL ENTRIES (yours, via the mandate process): the cycle-selector /
       b₁-domain extension at the Attach entry; the Attach premise's discharge or
       continuation; the μ-chain custody (DoR-013/014); the G2-F1 authored-physics
