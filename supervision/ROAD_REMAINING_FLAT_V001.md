@@ -16,9 +16,11 @@ below IS the upgrade map, grouped by holder.
       residues r-b (Q-resolution) / r-c (free-factor bookkeeping).
 ○ 5b-remainder. THE ONE LIVE ANALYTIC WALL: R.3′(c) — residue SHARPENED Q-1050
       (unit cell, carrier axis, collapse level): the D-i surviving-instance square +
-      the ten-term pairwise-difference e₂ form + H-R/C-L2 tail + premise P-1 (the
-      summed e₂ identity itself exact; per-pair route barred; the adopted S2′
-      certification DELIVERED at α′ = 1/4, V-1 not fired). Also: the half-plane
+      the ten-term pairwise-difference e₂ form + H-R/C-L2 tail, at the ℓ-ray
+      quantifier (premise P-1 DISSOLVED Q-1051 — family closure derived at the
+      declared bytes, the consuming step family-level only; the summed e₂ identity
+      itself exact; per-pair route barred; the adopted S2′ certification DELIVERED
+      at α′ = 1/4, V-1 not fired). Also: the half-plane
       localization (region condition exactly characterized, Q-1050 — closing it
       makes R-L0 unneeded for the n=1 leg); R-L4's r-1 regularization-naming act;
       C-L2/G_cm; OBL-D.
