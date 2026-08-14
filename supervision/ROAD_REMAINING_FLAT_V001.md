@@ -28,8 +28,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 8. THE GRAVITY CARRIERS — build Q-1060's named carriers → re-score under the
       frozen OBS-22 spec → THE GRAVITY CLOSE LANDS. On the critical path: it
       releases items 12–13. [lane]
-○ 9. RATIFY THE POST-5D SYMMETRIC VERDICT AUDIT (prereg PREPARED, sealed; frozen
-      before any 5d evidence). [YOURS — small, available now]
 ○ 10. ACT 2 — the carrier/admission declaration (menu a/b/c staged). [YOURS —
       available now]
 ○ 11. ACT 4 — the DoR-013/014 falsifier route (menu a/b/c staged). [YOURS —
@@ -38,8 +36,8 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       close (item 8), per your hold]
 ○ 13. ACT 5 — Rule-2, the coupling door. [YOURS — opens at the gravity close, per
       your hold]
-○ 14. THE 5d RE-READ → the verdict of record (FORCED / FREE / RUNS), then the item-9
-      symmetric audit runs BEFORE any routing act consumes the verdict.
+○ 14. THE 5d RE-READ → the verdict of record (FORCED / FREE / RUNS), then the
+      RATIFIED symmetric audit (Q-1067) runs BEFORE any routing act consumes it.
       ── if FREE: seal Finish B → 20. ── if RUNS: flow+anchor charter → 20.
       ── if FORCED: continue ↓ (plus the |n| comparand rider, Q-1012/Q-1034)
 ○ 15. CLOSE THE COMPUTE PRE-GATE — Q_spec → Z_Q → the κ→K* bridge; the appointed
