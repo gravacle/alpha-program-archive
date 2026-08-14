@@ -36,8 +36,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       enumerated from the sealed K_dd/Attach stock, built, default-refute audited)
       fires on r-3's registration; the declaration then returns to the principal
       STAGED with the package in hand. [YOURS + lane]
-○ 11. ACT 4 — the DoR-013/014 falsifier route (menu a/b/c staged). [YOURS —
-      available now]
+○ 11. ACT 4 — the DoR-013/014 falsifier: AVAILABLE INSTRUMENT, not a required
+      act (reclassified at the principal's question, 2026-08-14 — the composition
+      debt has two other routes in motion; commissioning + firing happen on his
+      word, any time; nothing waits on it). [YOURS — on demand]
 ○ 12. ACT 3 — the Attach discharge-or-continuation. [YOURS — opens at the gravity
       close (item 8), per your hold]
 ○ 13. ACT 5 — Rule-2, the coupling door. [YOURS — opens at the gravity close, per
