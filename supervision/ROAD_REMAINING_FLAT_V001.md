@@ -20,15 +20,16 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       (closing makes R-L0 unneeded for the n=1 leg). [lane; RUNNING, S9AD]
       (item 3 DONE — Q-1073: the FIRST EARNED TRACE, the phase-skeleton landing;
       the T7 amplitude adjudication named decider-1 of the fork, commissionable.)
-○ 5. C-L2/G_cm — certify the G_cm input consumed by R-L0's threshold form. [lane]
+▶ 5. C-L2/G_cm — certify C-L2's quadratic form + the G_cm input (R-L0's threshold
+      form; AND the wall's F3 blocker per Q-1076). [lane; FIRING]
 ○ 6. OBL-D — cellulation-independence via the RA27-4/6 transport package (next
       pieces after the d₀-square, Q-1026). [lane]
-○ 7. THE WALL (Q-1055 form) — n-uniform enclosure of tr K_H, tr H_A, ‖K_H‖₂²,
-      ‖H_A‖₂² per (n, cell); odd sector needs a single-composite kill or majorant at
-      the stay strata (the of-record divergence provably does NOT attach). FIRST
-      ROUTE: the principal's boundary-closure route (derivation-only; the four
-      graveyarded routes do not include it). [lane; RUNNING in parallel, S9AD,
-      per the road's own alongside clause]
+○ 7. THE WALL — boundary-closure route RUN (Q-1076: FAILS-AT three sealed steps;
+      DELIVERED the first n-uniform op-grade enclosure of both parity sectors,
+      ‖K_H‖_op ≤ 2, ‖H_A‖_op ≤ 2 exact). Residue: the MO-3-shaped sub-volume
+      trace/HS rate (F1) + C-L2 certification (F3 → item 5, NOW A NAMED WALL
+      BLOCKER) + subsidiary carriers R5/R1/R10 (→ item 8). All four quantities
+      UNDECIDED; nothing refuted. [lane — reopens on any residue landing]
 ○ 8. THE GRAVITY CARRIERS — build Q-1060's named carriers → re-score under the
       frozen OBS-22 spec → THE GRAVITY CLOSE LANDS. On the critical path: it
       releases items 12–13. [lane]
