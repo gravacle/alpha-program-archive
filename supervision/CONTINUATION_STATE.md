@@ -82,6 +82,12 @@ THE NIGHT OF 2026-08-14/15, CLOSED — the overnight authorization is FULLY SPEN
    two one-line seals (D-2 U2's closure; D-3 U1's R9-JII line). Plus held: the v002
    custody question. NAMED FOLLOW-UP: the found AND-pair's consequence chain
    (38bbb9fc/c0e7192b, no register row of its own).
+   ACT-1 ROUTED (the principal, 2026-08-15): option (e) — SEAL THE PINS FIRST. The
+   three OB-2 semantic pins (iota/Sch reading; anti-degeneracy scope; FullJ7 modality)
+   go determination-first per the D3-freeze precedent: FORCED-READING at bytes vs
+   genuinely FREE; free pins return as decision sheets one at a time; if the sealed
+   pins make OB-2 decidable, the member-authorship question may retire by derivation.
+   Commission PIN-DET (S9AD) fired. The AJ construction pair runs in parallel.
    STANDING CEILING: 5d and every fence; Act 5 returns at the close.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
