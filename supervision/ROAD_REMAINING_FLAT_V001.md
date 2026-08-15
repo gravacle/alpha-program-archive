@@ -104,9 +104,11 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ▶ 22. THE JUNCTION CAMPAIGN (appended at the principal's directive,
       2026-08-15: "This is what we have to explore"): OBS-24 — gravity as
       the line-drawer. Runs parallel to 14→21, gates nothing. First check
-      DONE (Q-1119): CONTINGENT with a RIGID sub-region — TWO AUTHORS (the
-      closure holds the magnitude pen, rigid; the fiber bit holds the extent
-      pen, movable); OBS-24 REFINED not killed. Outcome map, fixed now: sites cluster
+      DONE (Q-1119: two authors) → THE PARTITION THEOREM DERIVED (Q-1122:
+      unconditional over the sealed ground, residues discharged, audit
+      confirmed — gravity's pen at the magnitude PROVED; OBS-24 confirmed at
+      the magnitude site). The campaign's outcome map is consumed; Finish B
+      returns to the principal per the hold. Outcome map, fixed now: sites cluster
       closure-adjacent or RIGID-through-boundary-clauses ⇒ the PARTITION
       THEOREM attack fires (derive the allow/require partition FROM the
       closure's clauses alone — the line-drawer proved, not located);
@@ -115,6 +117,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       conditions govern]
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1121 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1122 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).

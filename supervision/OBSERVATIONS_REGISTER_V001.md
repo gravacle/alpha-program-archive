@@ -925,3 +925,13 @@ Companions: OBS-22 (the locus), OBS-23 + Addendum (the split, exercised), OBS-24
 (the two pens). Lens-grade until its chain runs; feeds checks and the correspondence display
 only — never a derivation.
 
+## OBS-24 — SECOND ADJUDICATION (2026-08-15, the partition theorem returned)
+The support condition is MET at the magnitude site, at theorem grade: the partition theorem
+(T16SR pair, audit-confirmed) derives from the closure clause set alone, unconditionally over the
+sealed ground with both residues discharged, that the magnitude is allow-side and the
+quantization class require-side in EVERY model — gravity's pen at the magnitude is now a THEOREM
+OF RECORD. The extent pen stands with the fiber (first adjudication). OBS-24's refined form is
+therefore CONFIRMED AT THE MAGNITUDE SITE and remains open at the extent site pending the bit.
+The FREE verdict's magnitude half now carries its why: the record could not force the coupling
+because the closure's own clauses provably leave it free.
+
