@@ -34,12 +34,14 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       Residue: the f_g/F_g bindings (D-layer, sequenced); the response-topology
       NAMING [YOURS — two candidates with stability certificates, stageable];
       full-D3 open. [lane at the bindings; yours at the naming]
-○ 7. THE WALL — boundary-closure route RUN (Q-1076; the op-grade enclosure
-      delivered). Residue RESHAPED by Q-1089: the F1 coincidence escape is DEAD
-      (p = −3); surviving routes = assembly cancellation / weight-summed
-      re-quantification onto record strata / region-level cumulants + the C-L2
-      form-to-HS bridge (F3). All four quantities UNDECIDED; nothing refuted.
-      [lane — reopens on a surviving route landing]
+○ 7. THE WALL — the summed route DELIVERED (Q-1099: THREE of four decided at
+      the summed quantifier — H_A^Σ ≡ 0 twice by exact cancellation; ‖K_H^Σ‖₂²
+      enclosed carrier-free; the sign indeterminacy GONE) — the summed residue
+      is ONE LOG-THIN NUMBER: a certified log-free rate for the degree-3
+      diagonal class. Per-composite quantifier untouched (its four stand
+      UNDECIDED at their own quantifier; V-2 uncrossed). Remaining routes
+      there: assembly cancellation / region cumulants / the Gram transfer
+      (Q-1098). [lane — the log-free rate is the next attack]
 ▶ 8. THE GRAVITY CARRIERS — TRIAGED (Q-1078): ZERO buildable by lanes; the
       close passes through exactly one of THREE PRINCIPAL ACTS — ACT-1 member
       adoption (nine rows; the sector-reduction arrow named), ACT-2 the held
