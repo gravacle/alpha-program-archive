@@ -107,8 +107,12 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       DONE (Q-1119: two authors) → THE PARTITION THEOREM DERIVED (Q-1122:
       unconditional over the sealed ground, residues discharged, audit
       confirmed — gravity's pen at the magnitude PROVED; OBS-24 confirmed at
-      the magnitude site). The campaign's outcome map is consumed; Finish B
-      returns to the principal per the hold. Outcome map, fixed now: sites cluster
+      the magnitude site). THE COMPLETION MAP LANDED (Q-1123):
+      the famous absences CANNOT-TOUCH the closure (all 21 edges); the
+      unique minimal completion = {W-1 sub-volume rate; W-2 prequotient
+      evaluation; W-3 G_cm at HS type}; no shape fits at the faithfulness
+      site at Sigma-as-sealed — completion re-poses, not completes. THE
+      HUNT'S TARGETS = the W-set. Finish B held with the principal. Outcome map, fixed now: sites cluster
       closure-adjacent or RIGID-through-boundary-clauses ⇒ the PARTITION
       THEOREM attack fires (derive the allow/require partition FROM the
       closure's clauses alone — the line-drawer proved, not located);
@@ -117,6 +121,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       conditions govern]
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1122 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1123 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
