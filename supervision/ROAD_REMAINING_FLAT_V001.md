@@ -16,8 +16,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       clock ceiling (⇒ o(1), r-3 closes → R-L4b discharges → witnesses
       retire) / O-2 the localization package (⇒ not-o(1)). O-1 REDUCED
       (Q-1110): equivalent through two explicit ceilings (gamma_Q = 1/12) to
-      the sign-crossing quantity S_n — O-1-S decides either way. S_n attack
-      firing (T10SR). [lane]
+      the sign-crossing quantity S_n (Q-1110) → S_n undecidable-forced with
+      three partials incl. the density law SUPPLIED (Q-1112); rides on the
+      B_pp' overlap law (O-1-S-B). Attack firing (T11SR). [lane; does not
+      gate 5d — fire-time content]
 ○ 4. THE HALF-PLANE LOCALIZATION — RUN (Q-1077: NOT-DERIVABLE-TODAY; delivered
       the n-uniform disc bound |det(CV_pC)| ≤ 1 exact + conditional slice
       nonvanishing Z_hat ≥ 1/2 on R-L4a/b + C-L2). Corrected residue: layer 1 =
@@ -93,6 +95,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1111 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1112 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
