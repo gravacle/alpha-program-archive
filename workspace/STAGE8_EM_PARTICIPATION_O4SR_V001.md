@@ -39,7 +39,62 @@ STAGE8_5D_REREAD_T13SR_V001.md                                   OK
 STAGE8_5D_REREAD_T13SR_AUDIT_V001.md                             OK
 ```
 
-(Sweep-located ground and the sweep cutoff are declared at §0.2 after the sweep is run.)
+### §0.2 — LOCATED BY DECLARED SCOPED SWEEP (13), SEALS VERIFIED BEFORE RELIANCE
+
+```text
+OK  STAGE8_WALL_BOUNDARY_CLOSURE_S9AD_V001.md        (the F1/F2/F3 source; located by
+OK  STAGE8_WALL_BOUNDARY_CLOSURE_S9AD_AUDIT_V001.md   the completion map's own naming)
+OK  STAGE8_GRAVITY_CLOSE_SCORING_V001.md             (the WARD_SYMBOL_MAP_JII rows R1/R5)
+OK  STAGE8_7A_JUNCTION_U1_SHARED_CORE_DARIO_V001.md  (the "U1" homonym, disarmed §1.3)
+OK  STAGE8_WARD_IDENTITY_QUESTION_BLIND_ANSWER_V001.md      (prior art N-1)
+OK  STAGE8_TASK4A_..._SIGNATURE_DERIVATION_AND_BETA_GAP_ATTACK_V001.md  (prior art N-2)
+OK  STAGE8_DELTAPHI_PI_PROTECTION_DETERMINATION_V001.md     (the open EM identification)
+OK  STAGE8_ETHER_COLD_CONFIRM_OPUS_V001.md                  (U(1)_rel; EM downstream)
+OK  STAGE8_DEG3_DISPLAY_PAIR_T8SR_V001.md                   (FP-S's deciding artifact)
+OK  STAGE8_AXN_BUILD_GENERIC_U1_CENSUS_DARIO_V001.md        (the "no EM identification" fence)
+OK  STAGE8_TASK19_SLOT3_DYNAMICAL_U1_ACTION_OBSTRUCTION_V001.md  (the separate charged/
+                                                             parent-U(1)-Ward thread)
+OK  STAGE8_W2_PREQUOTIENT_RULE_O2SR_V001.md          (sibling O-series; head only, for
+                                                      W-2's identity — carries no load)
+OK  STAGE8_EM_GR_SURFACE_BODY_SCOPE_FOR_GAMMA_K_V001.md  (seal verified; NOT read; listed
+                                                      for completeness of the sweep)
+```
+
+SWEEP PATTERNS RUN (primary root, filename listing + `grep -il`; matched files opened ONLY
+if named ground or listed above): the EM token set
+`maxwell|ward|hodge|electromagn|photon|gauge|U\(1\)` both loose and at strict word
+boundaries; `WARD_SYMBOL_MAP_JII`; the six prior-art patterns P1–P6 displayed at §3.1;
+`no EM identification|EM identification`.
+
+```text
+SWEEP_CUTOFF = DECLARED. Universe: the primary root
+  /Users/bgm/MB Work/alpha-program-archive/workspace, 1734 .md files present at
+  2026-08-15, swept by the patterns above; 23 files opened in total (10 named
+  ground + 13 sweep-located), every one seal-verified by `shasum -a 256 -c` run
+  FROM ITS OWN DIRECTORY before reliance; 23/23 OK, zero mismatches, none
+  unverifiable. Root 2 (the cleanroom mirror) NOT consumed — every named
+  artifact resolved in the primary root at verified seals. No register/tracker/
+  road/plan/continuation file consumed (see the FENCE TOUCH declaration below).
+  "Q-..." tokens EXPECTED-UNLOCATABLE — carried as opaque labels exactly as the
+  sealed artifacts carry them, never chased (Q-408, Q-396, Q-410, Q-710, Q-727,
+  Q-258/261, Q-126, Q-1056 all appear only inside quoted sealed text). Artifacts
+  sealed after this commission's fire time UNSWEPT. No git.
+
+FENCE TOUCH, DECLARED IN FULL: one file matching the excluded class was opened
+  before its class was recognized —
+  STAGE8_GR_EM_RELATION_REFUTATION_REGISTER_RECORD_V001.md, which self-describes
+  at its own line 3 as "a register/indexing record only". It was read, and it is
+  CONSUMED NOWHERE: no sentence, quotation, classification, or verdict in this
+  artifact derives from it, and its content (a T_R ~ 1/k_R bridge refutation) is
+  off-question. Declared rather than quietly dropped, per the commission's
+  standing discipline.
+SWEEP-TOUCH WITHOUT RELIANCE: two further files were seen at grep-line/paragraph
+  level while establishing how EM enters the program at all —
+  BOUNDARY_INCIDENCE_DYNAMICS_PRINCIPLE_V010.md and
+  STAGE8_G_PRIMITIVE_OR_EMERGENT_ADJUDICATION_V001.md. Neither is seal-verified
+  and NEITHER IS CITED OR RELIED ON anywhere above; both are declared here so the
+  sweep's footprint is complete.
+```
 
 ---
 
@@ -91,8 +146,8 @@ U(1) characters, labels the exponents". ROLE: the interpretive premise on which 
 require-half's derivation S1–S4 runs. This is the single most load-bearing gauge-structural
 appearance in the whole inventory, and §2 tests it.
 
-**EM-3 — THE U(1)-CHARACTER CHARGE STRUCTURE AT THE JUNCTION SURVEY (R-2).** T14SR §
-(the require-side row), verbatim: "CHARGE STRUCTURE: U(1) characters chi_n with
+**EM-3 — THE U(1)-CHARACTER CHARGE STRUCTURE AT THE JUNCTION SURVEY (R-2).** T14SR's
+require-side row R-2 (its line 131), verbatim: "CHARGE STRUCTURE: U(1) characters chi_n with
 cocycle/transition covariance (both characters transform with the same g^n — AJ §6.1, CAS
 P1); the displayed conjugate pair closes magnitude-free, chi_{+1}chi_{−1} = 1 (CAS N4);
 every native composite unit-modulus (CAS N1–N3); on-record amplitude uniquely the trivial
@@ -785,4 +840,194 @@ FURTHER, under the partition theorem's own scope clause (T16SR §6) such a
 NOTHING HERE MOVES TODAY. The identification is fenced ("no EM identification"
    carried in 56 files of the primary root), NO_VERDICT of record, and this
    artifact neither makes it, licenses it, nor recommends it.
+```
+
+---
+
+## §5 — CHOICE LEDGER (commission O4SR; every unforced choice, classified)
+
+```text
+CH-1 CLASSIFYING BY SUBSTITUTION ON THE CLAUSE'S OWN VARIABLES (§2.1's
+     instrument, with D-FREE-CONSTANT and D-POWER-VS-CONSTANT):
+     FORCED in substance — the commission defines the test by the three
+     substitutions and demands the basis be the clause's own bytes; the
+     instrument is that definition made executable. The alternative
+     (classifying by which thread an object belongs to) would have scored
+     F2 EM-ACTIVE on adjacency alone, which no byte supports.
+CH-2 READING "THE CLOSURE CLAUSES" AS BOTH STRATA (the WBC's failure
+     points AND the clause set Sigma): FORCED by the commission's own
+     text — it names "EACH closure clause AND EACH displayed failure
+     point (F1 ... F2 ... F3 ... and the summed-level state)", and then
+     asks the consequence for "the partition's rigidity proof (which runs
+     through the closure clauses)". Only Sigma is what that proof runs
+     through; only the WBC displays F1/F2/F3. Both are therefore in scope,
+     and MATERIAL: the strata answer DIFFERENTLY, which is the result.
+CH-3 SCORING Sigma4-UNDER-ITS-READING AS GAUGE-ACTIVE BUT NOT (TODAY)
+     EM-ACTIVE: PREMISE(named), and the single most consequential choice
+     here — displayed at §2.4 with both sides shown. GROUND: the record's
+     U(1) is "compact derived U(1)_rel" of the bare record invariant and
+     its EM identification is NO_VERDICT and fenced in 56 files. THE
+     ALTERNATIVE (score it EM-ACTIVE on the commission's literal
+     "different gauge group" clause) is displayed, not suppressed, and
+     the verdict is written so BOTH readings are recoverable: under the
+     literal reading the verdict is still MIXED with the SAME clause
+     partition — only the label on the active side changes from
+     GAUGE-ACTIVE to EM-ACTIVE. No downstream display depends on which
+     label is chosen.
+CH-4 IDENTIFYING THE COMMISSION'S "Q-408 bilocal kernel calculus" WITH
+     TASK 5's (B2-13)/(B2-14) sigma_cyl: PREMISE(named) — "Q-..." is
+     EXPECTED-UNLOCATABLE and was never chased; the commission names the
+     Task 5 artifact by path in the same breath, and that artifact
+     contains exactly one bilocal kernel/symbol calculus. IMMATERIAL: the
+     object is scored EM-PASSIVE-and-off-thread either way, on its own
+     "none_new" fiber display.
+CH-5 OPENING THE SCORING ARTIFACT TO READ WARD_SYMBOL_MAP_JII's ROWS:
+     FORCED — §1.3's classification cannot be derived from the WBC's
+     two-line citation alone; scoring the appearance without opening what
+     it addresses would have been assertion, which the commission forbids.
+CH-6 CHECKING "U1" IN THE WBC's §6 NOTE RATHER THAN SCORING THE TOKEN:
+     FORCED in substance — the corpus keeps a standing homonym correction
+     (CORR-0002, weight 0) for exactly this error class; the check
+     REVERSED what a token sweep would have concluded (§1.3).
+CH-7 STRICT-WORD-BOUNDARY TALLIES IN §1.2: FORCED — the loose pattern
+     inflates every count in this corpus ("toward"/"forward"/"enclosure"),
+     and the strict pattern's own blind spot (identifiers with
+     underscores) is displayed at the same place rather than exploited.
+CH-8 NO CAS BATTERY: FORCED in substance — every load-bearing content of
+     this artifact is a sealed-text quotation or a finite classification
+     of quotations against a stated test. Nothing algebraic is derived
+     that a consumed artifact has not already CAS-pinned at its own bytes
+     (T16SR's 22/22; the WBC's 8/8; T8SR's 6/6), and inventing a battery
+     to decorate a textual determination would misdisplay its grade.
+ZERO entries in class OPEN.
+```
+
+## §6 — TOY_SEPARATION
+
+```text
+TOY_SEPARATION = clean
+  No toy object is consumed as ground anywhere in §1-§4. The one toy
+  family in scope — the AJ/T16SR quarantined model profiles f1, f2 —
+  appears ONLY where the sealed builds themselves place it: as the
+  allow-half's model exhibits (S9), cited to establish that the allow
+  half's argument is vocabulary-disjointness and nothing else. No toy
+  profile, value, or model is asserted as surface content, as physics,
+  or as evidence for any EM classification. Every EM appearance in the
+  inventory, every failure point, every clause, and every prior-art
+  neighbour is an ACTUAL sealed artifact's own display at a verified
+  seal. The Ward-identity blind answer is consumed at its own verdict
+  language, not re-derived. The RULING remains the symmetric audit's,
+  not this artifact's.
+```
+
+## §7 — FLAG BLOCK
+
+```text
+COMMISSION = O4SR (EM-BUILD; does EM structure participate in the
+  boundary-closure's MECHANISM, or is EM content accounted for by a
+  content-agnostic closure).
+SEALS = 23/23 OK at path this session (10 named ground + 13 sweep-located;
+  full digest via `shasum -a 256 -c` run FROM EACH ARTIFACT'S OWN
+  DIRECTORY before reliance; zero mismatches; none unverifiable).
+EM_INVENTORY = EIGHT( EM-1 U(1) at Sigma5; EM-2 the Sigma4 character map's
+  named continuous-U(1) reading (the audit's F-1 premise); EM-3 the R-2
+  charge-structure row; EM-4 the Ward transversality of the cylindrical
+  calculus — displayed NON-SELECTING at its own bytes; EM-5 the built
+  bilocal kernel/symbol calculus sigma_cyl; EM-6 the local Maxwell symbol
+  BLOCKED; EM-7 Ward/contact/Hodge split NOT_BUILT; EM-8 p_loc/sigma_loc/
+  Loc_N, p_loc's existence itself underived. PLUS the one appearance
+  INSIDE the WBC: two citations of rows R1/R5 of WARD_SYMBOL_MAP_JII, an
+  object all nine of whose criteria stand NOT_RECOGNIZABLE_AS_STATED. )
+DEPENDENCE_TEST = DERIVED, per clause and per failure point, from each
+  one's own bytes( F1 EM-PASSIVE — its warrant quantifies the constant
+  ("(4n^3 c) against ANY same-power carrier object") and its failure is a
+  POWER statement n^3 vs n^0, which no content substitution reaches;
+  F2 EM-PASSIVE — the ruling is stated in a KERNEL CLASS and degrees, its
+  majorant is POSITIVE hence beyond every cancellation identity, and the
+  record's own blind Ward test against this exact object failed on two
+  independent grounds; F3 EM-PASSIVE — a sharp-cutoff commutator
+  divergence and a demanded QUADRATIC FORM bound, no gauge content in
+  either; FP-S EM-PASSIVE — branch-exchange symmetry and insertion-parity
+  grading, with ZERO EM tokens in its deciding artifact at strict word
+  boundaries. Sigma1/2/3/6/7 EM-PASSIVE (no content vocabulary). Sigma5
+  EM-PASSIVE AS CONSUMED — the audit proves "every consumed invariance
+  holds under BOTH readings". Sigma4 UNDER ITS NAMED READING = ACTIVE:
+  compactness (the 2pi identification) and the character theory whose dual
+  is exactly Z. )
+VERDICT = MIXED, exact partition:
+  ACTIVE (gauge-structural): Sigma4-under-its-named-reading; the
+    REQUIRE-half claim (I) and its steps S1-S5; exclusivity (III)(a);
+    COR-1. Their dependence is on the compactness and character theory of
+    the record's DERIVED U(1)_rel — and is EM-active only conditionally,
+    since the EM identification is NO_VERDICT and fenced of record.
+  PASSIVE (content-agnostic): ALL FOUR FAILURE POINTS F1/F2/F3/FP-S;
+    Sigma1/2/3/5/6/7; the ALLOW-half claim (II) and steps S6-S10;
+    exclusivity (III)(b), (c1), (c2), (c3); COR-2.
+PRIOR_ART = UNASKED OF RECORD( six patterns over 1734 primary-root .md
+  files returned this artifact alone on the participation question.
+  Nearest neighbours displayed with their exact gaps: N-1 the blind
+  Ward-identity-at-the-diagonal answer (EM identity vs a closure-side
+  obstruction — answered NO, twice over); N-2 TASK4A (record-surface ->
+  physical field signature — false); N-3 the Maxwell symbol's own
+  obstruction thread (commission-excluded, correctly); N-4 the T16SR
+  audit's F-1 (a proof-hygiene finding that ran this commission's
+  substitution experiment for an unrelated reason — its strongest
+  evidence, and unshaped by this question). )
+CONSEQUENCE = DISPLAYED( The rigidity proof inherits its gauge premise
+  ENTIRELY ON ITS REQUIRE HALF. The claim that decides the MAGNITUDE —
+  allow-side in every model — inherits NO gauge and NO EM premise: it
+  rides S8, "denotation-robust ... needs only vocabulary disjointness".
+  THE LINE AT THE MAGNITUDE SITE therefore has an author besides the
+  closure and besides EM: the DISJOINTNESS OF Sigma's VOCABULARY FROM THE
+  JUNCTION'S — a vocabulary fact, not a physical premise. The wall's
+  closure is not an author there either, and its dependency points INTO
+  the site (CN-3), unchanged from the sealed completion map. DERIVED
+  ASYMMETRY, new at this reading: under substitution the require half
+  "loses its referent" while the allow half "stands" — the partition is
+  MORE rigid on the magnitude side than on the quantization side, the
+  reverse of the natural expectation, and no ruling about gauge structure
+  (EM identification included) can reach a vocabulary fact.
+  CONV-EM-1: W-1 and W-2, the closure's sole dischargers for F1 and F2,
+  are the missing carriers of WARD_SYMBOL_MAP_JII's rows R5/R1 — a
+  SHARED-CARRIER convergence on a common corpus vacancy, NOT a dependence:
+  the carriers' own content is a topology with continuity proofs and a
+  prequotient rule on an oriented k-cell, with no gauge group, no
+  transversality, no current, no field strength. CN-3 is hosted by a
+  different object (LENGTH_NORMALIZATION). )
+SWEEP_CUTOFF = DECLARED (§0.2): 1734 primary-root .md files swept by
+  listed patterns; 23 opened and all seal-verified; root 2 unconsumed;
+  "Q-..." EXPECTED-UNLOCATABLE and never chased; no git. ONE FENCE TOUCH
+  DECLARED IN FULL (a register record opened before its class was
+  recognized, consumed nowhere) plus two grep-level sweep-touches
+  declared without reliance.
+CHOICE_LEDGER = CH-1..CH-8 (§5): 5 FORCED/FORCED-in-substance, 3
+  PREMISE(named), of which CH-3 is displayed with its alternative and
+  shown IMMATERIAL to the clause partition; ZERO OPEN.
+TOY_SEPARATION = clean (§6).
+DETERMINATION_ONLY = held: no adoption, no authored physics, no value, no
+  number as a value of anything; no float, no measured-constant
+  comparison, no CAS (CH-8); no EM identification made, licensed, or
+  recommended; no gate, flag, witness, or status of any consumed artifact
+  moved; nothing here discharges any absence or any failure point.
+OUTPUT = ONE file + seal sidecar at the commissioned path, probed ABSENT
+  before first write; no git; no existing file edited.
+alpha_computed = false ; proof_authorized = false ;
+kappa_record_computed = false — ALL REMAIN.
+ALL_RESULTS = CLAIMED until the ratified symmetric audit; the registrar
+  routes; this lane routes nothing.
+NET = EM does not run the closure. Every one of the closure's four
+  displayed failure points is stated in class-quantified operator and
+  symbol language that no substitution of the content on the cells can
+  move, and EM structure — where the record has built it at all — is
+  displayed by its OWN artifacts as non-selecting ("cannot select a
+  reader coordinate"; "none_new"; "No algebraic Ward identity turns that
+  support into the diagonal"). The one genuine dependence sits elsewhere
+  than the commission's suspicion pointed: not in the wall's closure but
+  in the partition theorem's REQUIRE half, where a named continuous-U(1)
+  character reading carries claim (I) — a GAUGE premise on a DERIVED
+  record group whose electromagnetic identification the record has
+  explicitly not made. And the magnitude, which is what the program is
+  finally about, is placed allow-side by a fact about vocabularies that
+  neither EM, nor gauge structure, nor the closure itself authors.
+O4SR_EM_PARTICIPATION_RESULT = SEALED.
 ```

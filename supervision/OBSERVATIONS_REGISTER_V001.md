@@ -935,3 +935,17 @@ therefore CONFIRMED AT THE MAGNITUDE SITE and remains open at the extent site pe
 The FREE verdict's magnitude half now carries its why: the record could not force the coupling
 because the closure's own clauses provably leave it free.
 
+## OBS-24 — THIRD NOTE (2026-08-15, the EM-participation determination returned)
+The magnitude-site confirmation of the second adjudication NARROWS at bytes. The partition
+theorem stands derived, but the EM-participation determination (audit-confirmed, its overreach
+hunt empty) displays the mechanism: the magnitude's allow-side placement rides VOCABULARY
+DISJOINTNESS — the closure's clause set contains no junction vocabulary — while the gauge premise
+in the rigidity proof sits entirely on the REQUIRE half. So the closure places the magnitude by
+SILENCE, not by an active partitioning clause, and on that display the line at the magnitude site
+is authored by neither EM, nor gauge structure, nor the closure itself. OBS-24's "gravity holds
+the magnitude pen" therefore reads, at bytes: the closure DETERMINES the placement (every model of
+its clauses agrees) but does not ACT at that site. Whether determination-by-silence is what the
+observation meant by a pen is the principal's to judge; the registrar records the narrowing and
+does not resolve it. The derived asymmetry stands of record: the partition is more rigid on the
+magnitude side than on the quantization side.
+
