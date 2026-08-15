@@ -22,8 +22,11 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       C-L2 (→ item 5, its SECOND consumer tonight); layer 2 = the numerator
       phase; off-slice B-2 stands. R-L0 untriggered. [lane — reopens on residue]
       (item 3 DONE — Q-1073: the FIRST EARNED TRACE.)
-▶ 5. C-L2/G_cm — certify C-L2's quadratic form + the G_cm input (R-L0's threshold
-      form; AND the wall's F3 blocker per Q-1076). [lane; FIRING]
+○ 5. C-L2/G_cm — RUN (Q-1079: PARTIAL — the form bound CERTIFIED exact,
+      relative bound zero; the operator exclusion mechanism-explicit; but the
+      consuming-site supply blocked at three of-record points, so the witness
+      STANDS and F3 is NOT unblocked; G_cm refused at its consuming type).
+      Residue: the form-to-HS bridge. [lane — reopens on the bridge]
 ○ 6. OBL-D — cellulation-independence via the RA27-4/6 transport package (next
       pieces after the d₀-square, Q-1026). [lane]
 ○ 7. THE WALL — boundary-closure route RUN (Q-1076: FAILS-AT three sealed steps;
