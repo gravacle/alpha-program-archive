@@ -17800,6 +17800,12 @@ THE CERTIFICATE, exact per licensed generator (L_id, A0, A1, A2-F, A2-B): the de
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 4a6718fe, c05e89ae, bb1b88ad (d₀-square), 38bbb9fc/c0e7192b (the found AND pair), 22a2a478 (POSED). Q-980–Q-1080 carried. REOPEN: the response legs landing (the RA27-4 square completes; OBL-D clause 2 re-poses); the full-D3 quantifier closing either way; the AND-pair consequence chain registered.
 
+## Q-1082 — THE R9-JII CARRIER SEALED (THE PRINCIPAL'S ONE-WORD ACT ON THE D-3 SHEET): **THE JOINT LANDING TEST IS STATED OF RECORD — ONE COMMON FORMED RECORD CELL ON WHICH THE WARD-SYMBOL MAP'S DECLARED CROSS-SECTOR UNIT AND THE LENGTH NORMALIZATION'S β BOTH EXIST INDEPENDENTLY; AGREEMENT IS A FALSIFIER, NOT A CONSTRUCTOR; THE HONESTY NOTE TRAVELS — THE TEST IS NON-VACUOUSLY SATISFIABLE ONLY AT A DERIVED, β-SENSITIVE JUNCTION AND NO SUCH JUNCTION EXISTS, SO THE SEAL STATES THE TEST WITHOUT MAKING IT RUNNABLE; U1's PRINCIPAL-SEAL HALF CLOSES, ITS JUNCTION HALF STAYS OPEN** (2026-08-15)
+
+**Answer: the smallest act on the morning board lands first — a falsifier armed for the day the program's two gravity-side objects ever meet on one cell.** Instrument: R9JII_CARRIER_SEALED_2026-08-15.md (417cb400), the line carried VERBATIM from its origin (ec962351 §3.4, "the principal's to seal or refuse") with its census note attached — both facts travel together per the origin's own demand. Chain: ec962351 (U1 PART-DERIVED, the origin) → the triage (Q-1078: U1's residual = this seal + a junction) → the D-3 sheet (add4c806, checked 69d8b24b) → the seal (this row). U1's residual is now the junction alone.
+
+alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN; GOV-F untouched. Evidence: 417cb400, ec962351, add4c806, 69d8b24b, 5f4979d5. Q-980–Q-1081 carried. REOPEN: a derived β-sensitive junction landing (the test becomes runnable — run it); the U1 re-scoring at the spec's own REOPEN clause when its carriers land.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
