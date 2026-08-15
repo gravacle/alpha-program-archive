@@ -18,8 +18,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       (Q-1110): equivalent through two explicit ceilings (gamma_Q = 1/12) to
       the sign-crossing quantity S_n (Q-1110) → S_n undecidable-forced with
       three partials incl. the density law SUPPLIED (Q-1112); rides on the
-      B_pp' overlap law (O-1-S-B). Attack firing (T11SR). [lane; does not
-      gate 5d — fire-time content]
+      B_pp' overlap law → RUN (Q-1113: undecidable-forced, four exact
+      partials incl. the n=2 member-existence valuation); rides on the
+      Galerkin direction-commutator law (≡ the PR profile, citation-barred).
+      T12SR fireable; r-3 RESTS here as fire-time content. [lane]
 ○ 4. THE HALF-PLANE LOCALIZATION — RUN (Q-1077: NOT-DERIVABLE-TODAY; delivered
       the n-uniform disc bound |det(CV_pC)| ≤ 1 exact + conditional slice
       nonvanishing Z_hat ≥ 1/2 on R-L4a/b + C-L2). Corrected residue: layer 1 =
@@ -95,6 +97,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1112 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1113 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
