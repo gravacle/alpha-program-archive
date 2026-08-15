@@ -17812,6 +17812,12 @@ alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN; GOV-F untouched. Evidence: 46aee087, add4c806, 69d8b24b, 9f0d12b4 (the frozen spec), ee91d85c/7638c807 (the CONFIRMED-0 tally of record). Q-980–Q-1082 carried. REOPEN: the self-kill firing (a displayed geometric-landing obligation outside the set — the closure voids from its date, recognition reverts to as-stated); any §5 revision superseding; the future full sweep consuming the closure at its sealed strength.
 
+## Q-1084 — THE v002 CUSTODY IMPORT EXECUTED (THE PRINCIPAL'S DIRECTION; THE Q-1063/Q-1064 NAMED FOLLOW-UP CLOSED): **K*'s DEFINITION OF RECORD IS NOW HELD AT SOURCE INSIDE THE ARCHIVE — THE FILE AND ITS SEALED MANIFEST IMPORTED AT THE EXACT VERIFIED DIGEST (a3c7349b, TRIPLE-MATCHED: THE REGISTRAR'S OWN VERIFICATION, THE MANIFEST'S PIN, AND THE DECISION'S CITATION); THE CORPUS SELF-CONTAINED ON THE DEFINING CONDITION; NO CONTENT CHANGED, NO VERDICT MOVED; ONE NAMED, LOGGED EXCEPTION TO THE SEPARATION — NOT A POLICY CHANGE** (2026-08-15)
+
+**Answer: the last dangling pointer of the K* chain is pulled inside — an auditor working from the archive alone no longer leaves the room to find the definition.** Instrument: V002_CUSTODY_IMPORT_2026-08-15.md (a3d38ddb); imports at workspace/: the v002 principle file (+ sidecar), the provenance manifest json (+ sidecar), the .tsr/.tsq timestamps. Digest at import byte-identical to all three prior attestations. The origin untouched; copy-in, not move. With this row the principal's held list is EMPTY; the morning board's remaining items are the three gravity acts (ACT-1 gated on the running OB-2 determination; ACT-2 the held construction; ACT-3 per OB-2's outcome).
+
+alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: a3d38ddb, a3c7349b (the import), 75450619, 2b12dc40, bb928de4/36183948. Q-980–Q-1083 carried. REOPEN: any divergence ever found between the imported bytes and the origin (custody alarm); a v003+ selection principle superseding at source (a new import decision).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would

@@ -1,0 +1,12 @@
+{
+  "protocol_id": "primitive_record_cell_selection_v002",
+  "sealed_date": "2026-07-20",
+  "claim": "The corrected joint cell-and-coupling selection protocol existed in this exact form before construction of the operator, closure residual, or numerical coupling.",
+  "files": {
+    "primitive_record_cell_selection_principle_v002.md": "a3c7349bf7b1dbc4f87bd449effa7d82040ab8967e3c5c79f5dd89705fd6a839",
+    "provenance/primitive_record_cell_selection_preregistration_v002.json": "efb963a1eedc60b247de3f90c86e4e641e9aab2811953f6950007487c387ac3d"
+  },
+  "operator_files_present_at_seal": false,
+  "K_star_computed_at_seal": false,
+  "alpha_computed_at_seal": false
+}
