@@ -889,3 +889,15 @@ rigidity proof passing through boundary clauses. Companions: OBS-22 (the locus),
 Addendum (the split made explicit and exercised); the allow/require boundary law is the grammar.
 This observation feeds checks and the correspondence display only — never a derivation.
 
+## OBS-24 — ADJUDICATION AT THE FIRST CHECK (2026-08-15, the T14SR survey returned)
+Against the pre-fixed conditions: K-i UNFIRED (sites not scattered; a closure-adjacent class
+exists — the selections); K-ii UNFIRED AS WRITTEN (the contingency witness is the extent bit —
+carrier structure, but the rigid sub-region stands beside it); support-i UNMET (the sites do not
+all classify closure-adjacent); support-ii PARTIALLY MET (rigidity proved at the magnitude site
+through the junction's own clause structure, conditional on the AJ residue). DISPOSITION:
+REFINED, NOT KILLED, NOT CONFIRMED — the line has TWO AUTHORS of record: the closure's structure
+holds the magnitude pen (provably model-independent, J-6); the fiber bit holds the extent pen
+(provably model-dependent, J-2). The suspicion's original site — the coupling magnitude — is
+exactly where gravity's pen is rigid. Next check: the partition-theorem attack (T16SR), per the
+campaign's outcome map, scoped to the rigid sub-region.
+
