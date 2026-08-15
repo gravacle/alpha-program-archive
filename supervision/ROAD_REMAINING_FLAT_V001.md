@@ -86,11 +86,11 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       commissioned through the mandate lane (Q-1053 form; the G2-F1 slot);
       candidate pair to fire; ratification a second word [YOURS at the
       return]. THE 5d DOCKET COMPLETE.
-▶ 14. THE 5d RE-READ → FIRING NOW per 3df78596 (docket complete at
-      Q-1115): the blind re-reader → the pre-fixed-answer audit → the
-      RATIFIED symmetric audit (Q-1067) BEFORE any routing act consumes it.
-      ── if FREE: seal Finish B → 20. ── if RUNS: flow+anchor charter → 20.
-      ── if FORCED: continue ↓ (plus the |n| comparand rider, Q-1012/Q-1034)
+▶ 14. THE 5d RE-READ → DONE — THE VERDICT OF RECORD: **FREE** (Q-1118;
+      blind re-read + pre-fixed audit identical + symmetric audit PASS,
+      routable). The founding question: openness DISPLAYED, the honest third
+      horn. ROUTE: seal Finish B → 20. Items 15-19 DO NOT OPEN; the three
+      fences stand false, untouched.
 ○ 15. CLOSE THE COMPUTE PRE-GATE — Q_spec → Z_Q → the κ→K* bridge; the appointed
       executable C_record(K). [lane]
 ○ 16. FENCE 1 FLIP (kappa_record_computed). [YOURS — the gate before any computation]
@@ -102,6 +102,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1117 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1118 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
