@@ -26,11 +26,11 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       consuming-site supply blocked at three of-record points, so the witness
       STANDS and F3 is NOT unblocked; G_cm refused at its consuming type).
       Residue: the form-to-HS bridge. [lane — reopens on the bridge]
-○ 6. OBL-D — SECOND PIECE BUILT (Q-1081: the r_F^* flux-pullback certificate,
-      zero naturality defect; the potential-route proven dead, flux-level the
-      lawful leg; I.5 step 2 found already built — AND-class CONSTANT_FALSE,
-      split determined without member selection). Residue: the RA27-4 response
-      legs; full-D3 open. [lane — reopens on the response legs]
+○ 6. OBL-D — THIRD PIECE BUILT (Q-1090: the response square's bottom leg exact
+      and quotient-free; the forced η_resp constraint pinned; m₁²-never-m₂).
+      Residue: the f_g/F_g bindings (D-layer, sequenced); the response-topology
+      NAMING [YOURS — two candidates with stability certificates, stageable];
+      full-D3 open. [lane at the bindings; yours at the naming]
 ○ 7. THE WALL — boundary-closure route RUN (Q-1076; the op-grade enclosure
       delivered). Residue RESHAPED by Q-1089: the F1 coincidence escape is DEAD
       (p = −3); surviving routes = assembly cancellation / weight-summed
