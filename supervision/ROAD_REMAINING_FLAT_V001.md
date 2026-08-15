@@ -82,10 +82,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       act (reclassified at the principal's question, 2026-08-14 — the composition
       debt has two other routes in motion; commissioning + firing happen on his
       word, any time; nothing waits on it). [YOURS — on demand]
-○ 13. ACT 5 — RESOLVED: AUTHOR (Q-1115). The authored Rule-2 content
-      commissioned through the mandate lane (Q-1053 form; the G2-F1 slot);
-      candidate pair to fire; ratification a second word [YOURS at the
-      return]. THE 5d DOCKET COMPLETE.
+○ 13. ACT 5 — RESOLVED: AUTHOR (Q-1115) → THE CANDIDATE LANDED
+      (Q-1120: RULE2_NIC, zero free parameters, CHECK-PASS; open legs
+      displayed) — PROPOSED_NOT_ADOPTED, ratify-or-refuse staged [YOURS —
+      the entry addendum names cc4af085 + d4e21587].
 ▶ 14. THE 5d RE-READ → DONE — THE VERDICT OF RECORD: **FREE** (Q-1118;
       blind re-read + pre-fixed audit identical + symmetric audit PASS,
       routable). The founding question: openness DISPLAYED, the honest third
@@ -115,6 +115,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       conditions govern]
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1119 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1120 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
