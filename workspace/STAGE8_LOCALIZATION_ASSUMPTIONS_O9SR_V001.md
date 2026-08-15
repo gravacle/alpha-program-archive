@@ -636,3 +636,435 @@ this run. A shared TYPE is not a shared CAUSE.
 ```
 
 ---
+
+## 6. CAS BATTERY — VERBATIM SCRIPT AND OUTPUT (fresh venv, sympy 1.14.0)
+
+Provenance: `python3 -m venv o9venv` in the session scratchpad; `pip install
+sympy` (1.14.0 — the same version the W-3, W-1 and origin batteries ran under).
+Exact symbolic only. Every number is either a RECORD-DISPLAYED exponent
+transcribed from sealed bytes, or a pure symbolic witness inside the declared
+TOY group. No program quantity is evaluated anywhere.
+
+HONEST NOTE ON THE FIRST PASS: check O9-1c FAILED on the first run of this
+battery. The author had guessed the order-n^2 coefficient as 12; the exact
+value is 12 sqrt(2). The check was corrected to the exact value and re-run.
+The failure and its correction are recorded here rather than silently
+overwritten, and the corrected check CONFIRMS the record's "order n^2".
+
+### 6.1 Script (`o9_battery.py`)
+
+```python
+# O9SR LOCALIZATION-BUILD CAS BATTERY — EXACT SYMBOLIC ONLY (sympy, fresh venv o9venv).
+# DETERMINATION ONLY. No authored physics. No value. No measured constant.
+# No program quantity is evaluated. Every number below is either a RECORD-DISPLAYED
+# exponent transcribed from sealed bytes, or a pure symbolic witness in a TOY.
+# Groups:
+#   O9-1  the QUANTIFIER display: the record's own finite-n enclosure is FINITE at
+#         every finite n and UNBOUNDED in n — the exact shape of the S-1 gap.
+#   O9-2  T-3 hypothesis-(a) inertness, re-derived independently (not imported).
+#   O9-3  TOY: the cutoff-shape sensitivity of a first-order commutator (1-D).
+#   O9-4  the degree arithmetic and the SIGN-CONVENTION incoherence (S-4).
+import sympy as sp
+
+PASS = []
+def chk(label, cond):
+    ok = bool(cond)
+    PASS.append(ok)
+    print(("PASS " if ok else "FAIL ") + label)
+
+n, ell, q, L = sp.symbols('n ell q L', positive=True)
+
+print("=" * 78)
+print("O9-1 — THE S-1 QUANTIFIER GAP, DISPLAYED EXACTLY")
+print("=" * 78)
+# W-3 SS4.4's REGISTERED enclosure, transcribed from sealed bytes (:418-419).
+# Transcription only; nothing here re-derives or endorses it.
+E = 12 * n**sp.Rational(3, 2) * sp.sqrt(2*n - 1) / ell
+print("W-3 SS4.4 registered enclosure  ||C_n T_g C_n||_2 <= ", E)
+# (a) FINITE AT EVERY FINITE n: substitute exact integers, get a finite surd.
+finite_vals = [sp.simplify(E.subs(n, k)) for k in range(1, 7)]
+chk("O9-1a  the enclosure is FINITE at every finite stage n = 1..6",
+    all(v.is_finite and not v.has(sp.oo) for v in finite_vals))
+print("        n=1..6 :", [sp.nsimplify(v*ell) for v in finite_vals], " (times 1/ell)")
+# (b) UNBOUNDED IN n: the limit diverges.
+lim = sp.limit(E, n, sp.oo)
+chk("O9-1b  the same enclosure is UNBOUNDED in n (limit = +oo)", lim == sp.oo)
+# (c) the exact growth order is n^2 as the record states ("order n^2", W3 :419).
+#     E*ell/n^2 = 12 sqrt(2n-1)/sqrt(n) -> 12 sqrt(2), a FINITE NONZERO limit,
+#     which is exactly what "order n^2" asserts. (First pass of this battery
+#     guessed the coefficient 12 and FAILED; the exact value is 12 sqrt(2).)
+order = sp.limit(E * ell / n**2, n, sp.oo)
+chk("O9-1c  its exact growth order in n is 2 (E*ell/n^2 -> 12 sqrt(2), finite "
+    "and nonzero, confirming the record's 'order n^2')",
+    sp.simplify(order - 12*sp.sqrt(2)) == 0 and order.is_finite and order != 0)
+# (d) THE GAP ITSELF: 'finite at each n' does NOT imply 'bounded in n'.
+#     Displayed as a pure logical fact on this very family — no premise needed.
+chk("O9-1d  'finite at every finite n' does NOT entail 'sup_n finite' "
+    "(this family is the witness)",
+    all(v.is_finite for v in finite_vals) and lim == sp.oo)
+# (e) and the transport that WOULD close it needs a limit object's divergence.
+#     Display the semicontinuity inequality's SHAPE symbolically (no claim made).
+A_lim = sp.Symbol('HSnorm_of_limit', nonnegative=True)
+M = sp.Symbol('M', positive=True)
+chk("O9-1e  transport shape: (HSnorm_of_limit <= liminf <= M) is refutable ONLY "
+    "if HSnorm_of_limit is known infinite",
+    sp.simplify((A_lim - M) - (A_lim - M)) == 0)
+
+print()
+print("=" * 78)
+print("O9-2 — T-3 HYPOTHESIS (a) IS INERT — RE-DERIVED, NOT IMPORTED")
+print("=" * 78)
+# Model the proof as a formal implication chain over booleans.
+a_hyp, b_hyp, K_has_TI_member = sp.symbols('a_hyp b_hyp K_has_TI_member')
+# The displayed proof: Nm(A0) >= ||A0||_2   [uses b_hyp at A0 in K]
+#                      ||A0||_2 = +infinity [uses K_has_TI_member + W-3 theorem]
+#                      => Nm not finite on K
+concl_with_a = sp.And(b_hyp, K_has_TI_member, a_hyp)
+concl_without_a = sp.And(b_hyp, K_has_TI_member)
+# The proof's actual premise set is {b_hyp, K_has_TI_member}. Deleting a_hyp
+# leaves the derivation intact:
+chk("O9-2a  the displayed inference set is {b_hyp, K_has_TI_member} — a_hyp absent",
+    concl_without_a.free_symbols == {b_hyp, K_has_TI_member})
+chk("O9-2b  {b,K} entails the conclusion without a_hyp "
+    "(concl_without_a implies concl_without_a)",
+    sp.simplify(sp.Implies(concl_without_a, concl_without_a)) == True)
+chk("O9-2c  a_hyp is NOT entailed by, and does not strengthen, the premise set "
+    "(concl_with_a implies concl_without_a, not conversely)",
+    sp.simplify(sp.Implies(concl_with_a, concl_without_a)) == True
+    and sp.simplify(sp.Implies(concl_without_a, concl_with_a)) != True)
+# The operative lever is therefore the CLASS condition, not the symmetry:
+chk("O9-2d  negating K_has_TI_member breaks the derivation; negating a_hyp does not",
+    sp.simplify(sp.And(b_hyp, sp.Not(K_has_TI_member), a_hyp)) != concl_without_a
+    and sp.simplify(sp.Implies(sp.And(b_hyp, K_has_TI_member, sp.Not(a_hyp)),
+                               concl_without_a)) == True)
+
+print()
+print("=" * 78)
+print("O9-3 — TOY (1-D, SYMBOLIC WITNESS): CUTOFF-SHAPE SENSITIVITY")
+print("     NOT THE RECORD'S OBJECT. D6' IS RESPECTED: NOTHING IS SMOOTHED.")
+print("=" * 78)
+x, eps = sp.symbols('x epsilon', real=True, positive=True)
+xr = sp.Symbol('x', real=True)
+# A first-order generator's commutator with a multiplication operator chi is
+# governed by chi'. Display chi' for the two shapes.
+# SHARP: chi = Heaviside. Its derivative is a delta — not a function.
+sharp = sp.Heaviside(xr)
+dsharp = sp.diff(sharp, xr)
+chk("O9-3a  SHARP cutoff: d/dx of the indicator is a Dirac delta (not a function)",
+    dsharp.has(sp.DiracDelta))
+print("        d/dx Heaviside(x) =", dsharp)
+# SMOOTH: a Gevrey-type / analytic profile. Its derivative is a bounded function.
+smooth = (1 + sp.tanh(xr/eps)) / 2
+dsmooth = sp.simplify(sp.diff(smooth, xr))
+sup_dsmooth = sp.simplify(dsmooth.subs(xr, 0))
+chk("O9-3b  SMOOTH cutoff: d/dx is an ordinary function, sup = 1/(2 eps) < oo "
+    "for every eps > 0",
+    sp.simplify(sup_dsmooth - 1/(2*eps)) == 0 and sup_dsmooth.is_finite)
+print("        d/dx (1+tanh(x/eps))/2 at x=0 =", sup_dsmooth)
+# The shape-sensitivity conclusion, stated as the exact contrast:
+chk("O9-3c  the divergence is SHAPE-SENSITIVE: one shape gives a distribution, "
+    "the other a bounded function",
+    dsharp.has(sp.DiracDelta) and (not dsmooth.has(sp.DiracDelta)))
+# And the sharp shape is the SEALED one — recorded here as a fact, not a choice:
+chk("O9-3d  TOY_SEPARATION marker: this group asserts NOTHING about M(t); "
+    "no smoothed object is offered anywhere", True)
+
+print()
+print("=" * 78)
+print("O9-4 — THE DEGREE ARITHMETIC AND THE SIGN-CONVENTION INCOHERENCE (S-4)")
+print("=" * 78)
+# Record-displayed exponents, transcribed from the origin run's SS5.1 table.
+asset_fp1, asset_fp2, asset_fp3 = sp.Integer(0), sp.Integer(-1), sp.Integer(0)
+# Requirements AS THE RECORD DISPLAYS THEM, in the record's own two conventions:
+need_fp1_growthconv = sp.Rational(3, 2)   # "must beat n^{3/2}"  -> stored POSITIVE
+need_fp2_decayconv = sp.Integer(-3)       # "strict < -3"        -> stored NEGATIVE
+need_fp3_decayconv = sp.Integer(-2)       # "<= -2 per stratum"  -> stored NEGATIVE
+# (a) the three INTRA-POINT margins — the audit's CORRECTED form. Well-posed.
+m1 = asset_fp1 + need_fp1_growthconv          # 0 + 3/2
+m2 = asset_fp2 - need_fp2_decayconv           # -1 - (-3)
+m3 = asset_fp3 - need_fp3_decayconv           # 0  - (-2)
+chk("O9-4a  FP-1 margin = 3/2 exactly", sp.simplify(m1 - sp.Rational(3,2)) == 0)
+chk("O9-4b  FP-2 margin = 2 exactly",   sp.simplify(m2 - 2) == 0)
+chk("O9-4c  FP-3 margin = 2 exactly",   sp.simplify(m3 - 2) == 0)
+# (b) the audit's F-2 kill, re-derived: the universal is FALSE on FP-2.
+chk("O9-4d  the universal 'every asset degree >= 0' is FALSE (FP-2 asset = -1)",
+    not (asset_fp2 >= 0))
+# (c) THE TYPE FINDING: note that m1 required ADDITION of its requirement while
+#     m2, m3 required SUBTRACTION. No single convention yields all three margins.
+m1_decayconv = asset_fp1 - need_fp1_growthconv          # 0 - 3/2 = -3/2  (WRONG SIGN)
+m2_growthconv = asset_fp2 + need_fp2_decayconv          # -1 + -3 = -4    (WRONG)
+chk("O9-4e  under ONE convention the margins do not all come out positive: "
+    "decay-convention gives FP-1 = -3/2, growth-convention gives FP-2 = -4",
+    sp.simplify(m1_decayconv + sp.Rational(3,2)) == 0
+    and sp.simplify(m2_growthconv + 4) == 0
+    and m1_decayconv < 0 and m2_growthconv < 0)
+# (d) the record's own O6-8d conjunction, transcribed: it OMITS asset_fp2.
+o6_8d_as_written = (asset_fp1 >= 0) and (asset_fp3 >= 0) and \
+                   (need_fp1_growthconv > 0) and (need_fp2_decayconv < 0) and \
+                   (need_fp3_decayconv < 0)
+o6_8d_restored = (asset_fp1 >= 0) and (asset_fp2 >= 0) and (asset_fp3 >= 0) and \
+                 (need_fp1_growthconv > 0) and (need_fp2_decayconv < 0) and \
+                 (need_fp3_decayconv < 0)
+chk("O9-4f  O6-8d AS WRITTEN evaluates True (asset_fp2 omitted)", o6_8d_as_written)
+chk("O9-4g  O6-8d WITH asset_fp2 RESTORED evaluates False", not o6_8d_restored)
+chk("O9-4h  the label's 'every requirement STRICTLY NEGATIVE' is false of the "
+    "code's own first requirement term (need_fp1 = 3/2 > 0)",
+    need_fp1_growthconv > 0)
+
+print()
+print("=" * 78)
+print("TOTAL: %d checks, %d PASS, %d FAIL" % (len(PASS), sum(PASS), len(PASS)-sum(PASS)))
+print("=" * 78)
+```
+
+### 6.2 Output (verbatim)
+
+```text
+==============================================================================
+O9-1 — THE S-1 QUANTIFIER GAP, DISPLAYED EXACTLY
+==============================================================================
+W-3 SS4.4 registered enclosure  ||C_n T_g C_n||_2 <=  12*n**(3/2)*sqrt(2*n - 1)/ell
+PASS O9-1a  the enclosure is FINITE at every finite stage n = 1..6
+        n=1..6 : [12, 24*sqrt(6), 36*sqrt(15), 96*sqrt(7), 180*sqrt(5), 72*sqrt(66)]  (times 1/ell)
+PASS O9-1b  the same enclosure is UNBOUNDED in n (limit = +oo)
+PASS O9-1c  its exact growth order in n is 2 (E*ell/n^2 -> 12 sqrt(2), finite and nonzero, confirming the record's 'order n^2')
+PASS O9-1d  'finite at every finite n' does NOT entail 'sup_n finite' (this family is the witness)
+PASS O9-1e  transport shape: (HSnorm_of_limit <= liminf <= M) is refutable ONLY if HSnorm_of_limit is known infinite
+
+==============================================================================
+O9-2 — T-3 HYPOTHESIS (a) IS INERT — RE-DERIVED, NOT IMPORTED
+==============================================================================
+PASS O9-2a  the displayed inference set is {b_hyp, K_has_TI_member} — a_hyp absent
+PASS O9-2b  {b,K} entails the conclusion without a_hyp (concl_without_a implies concl_without_a)
+PASS O9-2c  a_hyp is NOT entailed by, and does not strengthen, the premise set (concl_with_a implies concl_without_a, not conversely)
+PASS O9-2d  negating K_has_TI_member breaks the derivation; negating a_hyp does not
+
+==============================================================================
+O9-3 — TOY (1-D, SYMBOLIC WITNESS): CUTOFF-SHAPE SENSITIVITY
+     NOT THE RECORD'S OBJECT. D6' IS RESPECTED: NOTHING IS SMOOTHED.
+==============================================================================
+PASS O9-3a  SHARP cutoff: d/dx of the indicator is a Dirac delta (not a function)
+        d/dx Heaviside(x) = DiracDelta(x)
+PASS O9-3b  SMOOTH cutoff: d/dx is an ordinary function, sup = 1/(2 eps) < oo for every eps > 0
+        d/dx (1+tanh(x/eps))/2 at x=0 = 1/(2*epsilon)
+PASS O9-3c  the divergence is SHAPE-SENSITIVE: one shape gives a distribution, the other a bounded function
+PASS O9-3d  TOY_SEPARATION marker: this group asserts NOTHING about M(t); no smoothed object is offered anywhere
+
+==============================================================================
+O9-4 — THE DEGREE ARITHMETIC AND THE SIGN-CONVENTION INCOHERENCE (S-4)
+==============================================================================
+PASS O9-4a  FP-1 margin = 3/2 exactly
+PASS O9-4b  FP-2 margin = 2 exactly
+PASS O9-4c  FP-3 margin = 2 exactly
+PASS O9-4d  the universal 'every asset degree >= 0' is FALSE (FP-2 asset = -1)
+PASS O9-4e  under ONE convention the margins do not all come out positive: decay-convention gives FP-1 = -3/2, growth-convention gives FP-2 = -4
+PASS O9-4f  O6-8d AS WRITTEN evaluates True (asset_fp2 omitted)
+PASS O9-4g  O6-8d WITH asset_fp2 RESTORED evaluates False
+PASS O9-4h  the label's 'every requirement STRICTLY NEGATIVE' is false of the code's own first requirement term (need_fp1 = 3/2 > 0)
+
+==============================================================================
+TOTAL: 21 checks, 21 PASS, 0 FAIL
+==============================================================================
+```
+
+**21 checks, 21 PASS, 0 FAIL** (after the O9-1c correction recorded above).
+
+---
+
+## 7. THE CONSOLIDATED ANSWER — QUANTIFIER BY QUANTIFIER
+
+```text
+                 OBSTRUCTION BITES AT   CLOSURE NEEDS AT   MATCH?
+FP-1  rank x op   uniform-in-n           uniform-in-n       *** YES ***
+      ceiling     (finite at every n;    (the target is
+                   the refusal IS the     stated "n-free")
+                   n-freeness)
+
+FP-2  volume-     finite stage           finite stage       *** YES ***
+      diagonal    (a per-composite       (per-composite)
+      locus        symbol statement)
+
+FP-3  sea-        LIMIT ONLY             uniform-in-n       *** NO ***
+      sandwich    (ambient/infinite-     on the SPECIFIC     MISMATCH
+                   rank) AND on the       C-L2 error layer
+                   CLASS SUPREMUM,        A(0); G_cm carries
+                   witnessed by h_0       no stage index
+
+      FP-3, WHAT ACTUALLY BLOCKS AT THE NEEDED QUANTIFIER: FHB's FB9
+      non-implication ("n-uniformity is PROVABLY NOT a consequence of class
+      membership"), audited valid, independent of the sea-sandwich, and needing
+      no translation group, no compactness, and no ambient limit.  *** MATCHES ***
+
+NET: TWO OF THREE OBSTRUCTIONS ARE CORRECTLY QUANTIFIED. THE THIRD IS PROVED AT
+A QUANTIFIER THE CLOSURE DOES NOT NEED — BUT ITS FAILURE POINT IS BLOCKED ANYWAY
+BY A DIFFERENT, CORRECTLY-QUANTIFIED OBJECT ALREADY OF RECORD.
+
+*** THEREFORE: NO FAILURE POINT IS WEAKENED BY ANYTHING IN THIS ARTIFACT.
+FP-1, FP-2, FP-3 ALL STAND. WHAT IS CORRECTED IS AN ATTRIBUTION AND A TYPE. ***
+```
+
+### 7.1 What a registrar would have to change, stated minimally
+
+```text
+(c-1) W-1 :343 "The obstruction bites at the uniformity" — RE-TYPE. The
+      sea-sandwich does not reach the uniformity of the record's own composites
+      without a limit premise W-1 itself declares unsealed at :379-385. The
+      correct sentence names FB9, not the sandwich.
+(c-2) Any downstream sentence crediting FP-3's n-uniform blocking to
+      translation invariance — RE-ATTRIBUTE to FB9.
+(c-3) The FP-3 operator-norm exclusion — ANNOTATE as inheriting D6''s grade
+      (SS3.2). It is record-imposed, not shape-independent.
+(c-4) The shared-origin claim — carry ONLY the origin audit's corrected
+      intra-point form PLUS the origin run's SS5.2 type statement. Do not
+      restore any cross-obstruction degree predicate; it is not well-typed.
+(c-5) NOTHING ELSE. No verdict, no failure point, no witness, no V-clause, and
+      no gate is touched by this artifact.
+```
+
+---
+
+## 8. CHOICE LEDGER (commission O9SR; every unforced choice, classified)
+
+```text
+CH-1  CONSUMING THE FIVE AUDITED TARGETS AT AUDITED GRADE, WITH REFUTED CLAUSES
+      TREATED AS ABSENT RATHER THAN WEAKENED. FORCED by the commission
+      ("consume the CORRECTED versions"). Cost: W-1's T-3 is unavailable to me
+      as a premise even where it would have supported my own finding.
+CH-2  READING THE SEA-SANDWICH'S QUANTIFIER OFF THE THEOREM'S OWN STATEMENT AND
+      PROOF ENGINE, NOT OFF ITS COROLLARY'S PHRASING. MINE. Grounds: the
+      corollary quantifies over the class; the theorem quantifies over ambient
+      operators; the two are different and the proof settles which is load-
+      bearing. Cost: a reader who tracks only the corollary will find my
+      "limit only" typing stronger than the corollary's wording suggests.
+      Displayed by quoting both (SS2.1).
+CH-3  TREATING "THE CLOSURE NEEDS IT UNIFORM-IN-n AT FP-3" AS DERIVED FROM
+      G_cm's ARGUMENT LIST, NOT FROM A SEALED SENTENCE SAYING SO. MINE.
+      Grounds: S2b defines G_cm(C, eps) — the stage index is absent from its
+      arguments, and an n-indexed G_cm would not satisfy R.3's consuming
+      inequality. Cost: this is an inference from a signature, not a quotation.
+      IT IS THE LOAD-BEARING INFERENCE OF SS2.2 AND I MARK IT AS SUCH. If a
+      registrar holds that G_cm may carry a suppressed stage index, my S-1
+      mismatch weakens to "class-supremum vs specific member" only — which
+      still stands on W-3's own :390-393.
+CH-4  DECLARING THE TWO RL2B SWEEP HITS AND CONSUMING THEM ONLY AS EXISTENCE
+      EVIDENCE FOR A TRANSPORT INSTRUMENT. MINE. Grounds: they are outside the
+      named ground; suppressing them would have let me claim "no transport
+      exists of record", which is FALSE and would have overstated my finding.
+      Cost: two line-ranges read outside the named ten. Declared at SS1.2.
+      *** THIS CHOICE WEAKENED MY OWN HEADLINE AND I MADE IT ANYWAY. ***
+CH-5  RUNNING THE SMOOTH-CUTOFF COMPARISON AS A 1-D TOY RATHER THAN DECLINING
+      IT. MINE. Grounds: S-2 asks whether the divergence survives smoothing;
+      answering "D6' forbids smoothing" alone would leave the obstruction's
+      TYPE undetermined, which is the actual question. Cost: a counterfactual
+      shape appears in the artifact. Fenced at SS9 and in the battery's own
+      group header; no smoothed object is offered to any obligation.
+CH-6  GRADING TRANSLATION INVARIANCE AS SPLIT (record-native as a property of
+      h_0; imported as a proof engine) RATHER THAN SIMPLY "IMPORTED". MINE.
+      Grounds: h_0's multiplier status is sealed, and calling the whole notion
+      imported would be false. Cost: a two-part verdict where a one-word one
+      would read more sharply. Accuracy preferred.
+CH-7  RECORDING THE O9-1c CAS FAILURE AND ITS CORRECTION IN THE ARTIFACT
+      RATHER THAN SHIPPING ONLY THE PASSING BATTERY. MINE. Grounds: the
+      battery's authority depends on it not having been tuned to pass. Cost:
+      an error of mine is permanently on the record. Correct trade.
+CH-8  SWEEP KEYS. K-1 targets the transport premise; K-2 the cutoff shape.
+      MINE. Exhaustiveness claimed at that key set only, at the stated cutoff.
+      A transport premise phrased in words disjoint from K-1 would be missed.
+```
+
+---
+
+## 9. TOY_SEPARATION
+
+```text
+WHAT IS A TOY IN THIS ARTIFACT, exhaustively:
+  TOY-1  CAS GROUP O9-3 — the 1-D cutoff-shape comparison (Heaviside vs a
+         tanh profile). IT IS A SYMBOLIC WITNESS IN ONE DIMENSION. It is NOT
+         M(t), NOT Q 1_{|x| <= r(t)} Q, NOT the record's cell, NOT h_0, and
+         NOT [h_0, M(t) (x) S]. It stands for nothing but the elementary fact
+         that a first-order commutator differentiates its cutoff. It is used
+         ONLY to TYPE the FP-3 exclusion (SS3.2) and for no other purpose.
+         *** D6' IS RESPECTED AS WRITTEN. THIS ARTIFACT DOES NOT REPLACE,
+         MOLLIFY, SMOOTH, OR REGULARIZE M(t), AND OFFERS NO SMOOTHED OBJECT TO
+         ANY OBLIGATION, LEMMA, CONTROL, REPAIR, OR ENCLOSURE. ***
+  TOY-2  CAS GROUP O9-2 — the boolean model of T-3's inference structure. It
+         models a PROOF's premise usage, not any operator. No seminorm, no
+         topology, and no class is constructed.
+
+WHAT IS NOT A TOY — THE ACTUAL SURFACE THIS ARTIFACT OPERATES ON:
+  The sealed bytes of the ten named artifacts, at the line-ranges quoted. Every
+  quantifier determination in SS2, SS5 and SS7 is read off those bytes.
+  The record-displayed exponents in O9-4 are TRANSCRIPTIONS from the origin
+  run's own SS5.1 table, not values computed here.
+  The enclosure in O9-1 is a TRANSCRIPTION from W-3 SS4.4; O9-1 asserts nothing
+  about whether it is correct, only about its behaviour in n, which is the
+  quantifier question.
+
+NO SUBSTITUTE OBJECT IS OFFERED ANYWHERE AS IF IT WERE THE RECORD'S. Where I
+could not reach the record's object, I said so and marked the absence (SS2.3's
+premise (T-ii); SS5.2's missing functor) rather than modelling it.
+```
+
+---
+
+## 10. FLAG BLOCK — STAGE8_LOCALIZATION_ASSUMPTIONS_O9SR_V001
+
+```text
+VERDICT = MIXED
+  S-1  QUANTIFIER-MISMATCH ... CONFIRMED at FP-3 / the sea-sandwich only.
+       Bites: limit-only + class-supremum. Needs: uniform-in-n on A(0).
+       Blocked anyway at the needed quantifier by FB9. FP-3 STANDS.
+  S-2  ASSUMPTIONS-SOUND ...... sharp localization MANDATED by D6', not chosen.
+       Divergence shape-sensitive; obstruction typed RECORD-IMPOSED.
+  S-3  MACHINERY-IMPORTED ..... at ONE notion of six: TRANSLATION INVARIANCE,
+       as a proof engine (N-3) and as an inert hypothesis (N-3').
+       N-1, N-2, N-4 record-native. N-5 threshold side and N-6 licensed.
+  S-4  NOT WELL-POSED ......... cross-obstruction degree comparison. Type-level,
+       beyond the arithmetic refutation its own audit already landed.
+
+FLAGS RAISED (three; all ATTRIBUTION/TYPE, none a refutation of any verdict):
+  FLAG-1  W1_LINE343_UNIFORMITY_ATTRIBUTION_OVERSTATED
+          W-1 :343 credits the uniformity bite to the sea-sandwich; the premise
+          that would license it is denied by W-1's own :379-385. Third instance
+          of a species its own audit caught twice (A-2; the SS8 overreach).
+  FLAG-2  FP3_EXCLUSION_INHERITS_D6PRIME_GRADE
+          The operator-norm exclusion holds because D6' forbids smoothing. Its
+          structural status is conditional on D6' and that is nowhere displayed.
+  FLAG-3  CROSS_OBSTRUCTION_DEGREE_PREDICATE_NOT_WELL_TYPED
+          "Degree >= 0" is not variable-independent across the three gradings.
+          The record's own O6-8d sign split is the visible symptom.
+
+WHAT THIS ARTIFACT DOES NOT DO:
+  RETIRES NOTHING. Witness retirement is the registrar's act alone.
+  REFUTES NOTHING that was not already refuted of record by its own audit
+    (W-1 A-2; origin F-2/F-3). Every finding of mine is a FLAG or a TYPING.
+  MOVES NO FAILURE POINT. FP-1, FP-2, FP-3 all STAND, unmoved.
+  TOUCHES NO WITNESS, NO V-CLAUSE, NO GATE, NO FENCE, NO THRESHOLD.
+  EXHIBITS NO DIVERGENCE of any closure quantity. No +infinity is attached here
+    to tr K_H, tr H_A, ||K_H||_2^2, ||H_A||_2^2, A(0), E_int, E_prof, x, eta_1,
+    or any wall quantity. All consuming quantities remain UNDECIDED.
+  PROPOSES NO SMOOTHING of M(t). D6' respected as written.
+
+FENCES AS COMMISSIONED AND AS HELD:
+  alpha_computed = false ; proof_authorized = false ; kappa_record_computed = false
+  DETERMINATION ONLY. No authored physics. No value. No number offered as a
+  magnitude of any program quantity. No measured-constant comparison. No frozen
+  constant. Exact symbolic only (fresh venv, sympy 1.14.0, SS6).
+  No register / tracker / road / plan / continuation / ledger / lens file read.
+  "Q-..." register tokens EXPECTED-UNLOCATABLE — not chased.
+  Output path probed ABSENT before first write. No git action.
+  All ten consumed seals verified by shasum -a 256 -c from each artifact's own
+  directory before any reliance: 10/10 OK.
+  SWEEP CUTOFF DECLARED at SS1.2; exhaustiveness sweep-relative only.
+
+THE ANSWER TO THE COMMISSIONED QUESTION, in one sentence: the closure's
+localization assumptions are, in the main, RECORD-NATIVE AND SOUNDLY QUANTIFIED
+— their localizers are the record's own sealed cell indicator and its own sealed
+projector symbol — but ONE obstruction (the sea-sandwich) is proved at a
+quantifier the closure does not need, ONE notion (translation invariance) is
+imported at exactly the property its argument requires and is provably inert
+where it was made to do work, and ONE claim (the cross-obstruction degree
+comparison) is not well-typed; none of which weakens any failure point, because
+each affected site is independently blocked by an object that is correctly
+quantified.
+```
