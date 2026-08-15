@@ -320,3 +320,395 @@ and R2 = 2308 now; the four R1 files newer than the build artifact are
 **1930 − 4 = 1926. The declared counts are exact at the declared cutoff.**
 
 ---
+
+## HUNT E — AN OBJECT MISSED. **QUESTION ONE NOT INVERTED. QUESTION TWO CORRECTED.**
+
+Swept independently, with this audit's own patterns, both roots, `--include="*.md"`,
+all filtered `grep -viE "register|tracker|road|plan|continuation"`:
+
+```text
+E-A  (mismatch|disagree|discrepan|non-?identical|fails? to agree|does not agree|
+      not identical)[^.]{0,140}(valued in|takes values|element of U\(1\)|in U\(1\)|
+      group element|exp\(i|phase factor)
+E-B  (valued in U\(1\)|takes values in|group-valued|U\(1\)-valued|phase-valued)
+      [^.]{0,140}(mismatch|disagree|discrepan|non-?identical|overlap|fails? to agree)
+E-C  transported comparison|transport(s|ed)? (the )?comparison|
+      comparison (is |must be )?transported
+E-D  transition (function|map|datum)|gluing (map|cocycle|datum|function)
+E-E  cocycle|coboundary|[CČč]ech
+E-F  holonom|monodrom|wilson|parallel transport|winding number
+E-G  mismat|discrep|disagree|defect|jump|holonom|monodrom|cocycle|transition func|
+      surface term|boundary term|flux|winding|not identical|fails? to agree|obstruction
+E-H  (environment|H_boundary)[^.]{0,100}(connection|charge|gauge field|U\(1\)|
+      field strength|curvature|holonom)  [and its reverse]
+```
+
+### E-1 — QUESTION ONE SURVIVES THE INDEPENDENT SWEEP. **NO INVERSION.**
+
+E-A returned **zero**. E-B returned exactly one hit, and it is the build's own
+sentence. E-C returned four distinct corpus files, all in the T7 numeric lane
+("cross-lane Strang-vs-RK4 transported comparison", "operator 2-norm, transported
+comparisons") — quantities, but carrying no group value, no U(1), no connection.
+They fail Question One's typing requirement in the same way, and for the same
+reason, as the build's typed-out `beta_nk`. **No object of gauge type valued on a
+real mismatch of record was found by any pattern.** Question One is not inverted.
+
+**A gap in the build's own S4 was probed and the finding held.** The build's S4
+omits the token `obstruction`. Re-run with it added, S4's two artifacts return
+0 and 10 rather than 0 and 0. All ten hits were opened: every one is an *analytic*
+obstruction — `TASK5_R4 :481` "Completion-continuity obstruction", `:514`
+"Diagonal-locality obstruction", `:551` "Long-wavelength symbol obstruction", and
+two `PASS_WITH_OBSTRUCTION` verdict rows. None is an object valued on a failure
+of two pieces to agree. **The build's §1.1 claim is true at bytes despite the
+pattern gap**, and the two verdict rows corroborate its §1.4-B typing.
+
+### E-2 — TWO SEALED ARTIFACTS ON §1.3's EXACT QUESTION, UNCITED — BOTH CORROBORATE.
+
+```text
+STAGE8_GLUING_CANDIDATE_O23SR_V001.md            seal re-verified OK   IN SCOPE
+STAGE8_PRPS_COVER_NERVE_K13_REALIZATION_TEST_V001.md  seal re-verified OK  IN SCOPE
+```
+
+O23SR, `:575-586`, reaches the build's §1.3 result independently and earlier:
+
+```text
+              record_side_topology_or_smooth_structure_definitions_for_U_i = 0
+              'Nothing in the swept corpus defines the record-side patches U_i or
+               an actual PRPS endpoint-comparison cover.'"
+           and: "B-6 consumes patches and yields lifts and transitions; C-4 tests
+           a cocycle on those transitions. Both run on an input the census never
+           produces. This is THE CLEANEST UNPAIRED ITEM in the list: the count is
+           zero and it is counted at bytes."
+     VERDICT SO: gluing-shaped, wrong direction, and standing on an input of
+             count zero. It is NOT a sibling joiner of cells.
+     NEAR-MISS RANK: 1st by shape, disqualified by domain.
+```
+
+`PRPS_COVER_NERVE_K13` carries `PRPS_COVER_NERVE_REALIZES_GATE2_K13 = false`,
+`PRPS_good_cover_hypothesis_established = false`,
+`K13_STAR_PATTERN_SUPPLIED_BY_PRPS_COVER = false`. **Not a defect** — the build's
+§1.3 stands without them — but its strongest corroboration went unquoted, and
+O23SR's independent "disqualified by domain" is the same determination.
+
+### E-3 — THE QUESTION-TWO EXHAUSTIVENESS CLAIM IS FALSE AT BYTES. **CORRECTION.**
+
+The build, `:360-364` and `:655`:
+
+```text
+### 2.2 EVERY OTHER APPEARANCE, QUOTED WHOLE, WITH ITS GOVERNING VERB
+`STAGE8_RECORDS_PLURAL_O30SR_V001.md:496-522` displays every occurrence in
+either root. Reproduced whole:
+```
+```text
+Eleven appearances in both roots, each quoted whole,
+```
+
+Under DEFAULT-REFUTE this is testimony adopted from O30SR without re-derivation,
+and at bytes it does not hold. `STAGE8_SEAM10_NARROWING_ADVERSARIAL_RECOMPUTATION_V001.md`
+— **present in BOTH roots, seal re-verified OK by this audit, written 2026-08-01,
+inside the build's declared cutoff** — carries at `:227-230`, quoted whole to the
+end of its sentence:
+
+```text
+The six-item reopen condition requires the physical environment degrees; their Lorentz, vector-`U(1)`,
+CPT, and axial/inflow transformations; the full operator space and invariant positive forms; a unique ray;
+the closure spectrum and cell interval; and the record channel plus chiral-odd self-energy from the same
+unretuned matrix elements (`FULL_CARRIER_DILATION_SELECTOR_OBSTRUCTION_GATE_V001.md:141-155`).
+```
+
+*** E-3, DISPLAYED. THIS IS THE ONE SENTENCE IN EITHER ROOT THAT PUTS `U(1)`
+    AND THE ENVIRONMENT IN A **POSSESSIVE** RELATION — "the physical environment
+    degrees; **their** Lorentz, vector-`U(1)`, CPT ... transformations" — RATHER
+    THAN THE SLASH-SEPARATED SIBLING RELATION THE BUILD OPENED AT §2.3. IT IS
+    EXACTLY THE SENTENCE QUESTION TWO MOST NEEDED TO OPEN, AND THE BUILD'S
+    ELEVEN-ITEM LIST DOES NOT CONTAIN IT. ***
+
+**It does not reverse the graded answer.** The governing verb is `requires`, and
+the same file's next sentence, `:232`, reads "The unsigned equation derives none
+of those inputs." The environment's vector-`U(1)` transformation law is
+**demanded, not assigned** — the same class the build correctly identified. **GRADE
+OF THE ENVIRONMENT FACTOR: NEITHER GAUGE-CARRYING NOR EM-CARRYING, UNCHANGED.**
+What fails is the exhaustiveness claim and the count of eleven.
+
+### E-4 — A SEALED PRIOR COMMISSION ON QUESTION TWO, NEVER OPENED, WHOSE VERDICT
+### EXPRESSLY REFUTES THE FORM OF THE BUILD'S ANSWER. **CORRECTION.**
+
+```text
+STAGE8_ENVIRONMENT_FACTOR_O31SR_V001.md   seal re-verified OK
+                                          written 2026-08-15T18:22:42Z
+                                          build written 2026-08-15T18:34:15Z
+                                          => IN SCOPE, AND EARLIER
+```
+
+An entire sealed determination on the environment factor — the build's Question
+Two — is never cited. Its `## §10 — VERDICT`, `:1344-1358`, quoted whole:
+
+```text
+*** SPECIFIED-NOT-CONSTRUCTED ***
+```
+```text
+The buildability conditions are STATED — in sealed bytes, three times, as a
+six-item checkable predicate with a stated failure test (§4.1), an exact
+domain/codomain signature with five named certificates (§4.2), and a
+two-branch closure disjunction (§4.3). The construction is ABSENT — measured
+at zero across 14672 files by five definitional patterns (§3.1), and conceded
+by the corpus in its own words: "no environment field or environment-action
+formula".
+
+So the verdict is not NAMED-ONLY. The commission anticipated the strongest
+form of the absence — a factor named everywhere with no stated buildability
+conditions — and that anticipation is **refuted at bytes**.
+```
+
+and `:788-794`:
+
+```text
+*** ITEM 1 IS THE FACTOR ITSELF. The corpus does state, in sealed bytes, what
+    building the environment would require: the degrees, their transformation
+    law under four named symmetry classes, an operator space with invariant
+    positive forms, a unique ray, a spectrum and interval, and a specified
+    record channel — all without alpha or mass input, and with a stated
+    failure test (coefficient-space dimension > 1, or deformability under
+    rescaling). This is a checkable predicate, not an aspiration. ***
+```
+
+Set against the build's `:444-447` and `:661`:
+
+```text
+IT IS NEITHER GAUGE-CARRYING NOR EM-CARRYING BECAUSE IT CARRIES NOTHING AT ALL.
+```
+```text
+GRADE: NEITHER GAUGE-CARRYING NOR EM-CARRYING — it carries nothing at all.
+```
+
+*** E-4, DISPLAYED. THE BUILD'S GRADED ANSWER — NO GAUGE CONTENT, NO EM CONTENT —
+    IS CORRECT AT BYTES AND SURVIVES. ITS GENERALIZATION — "CONTENT OF ANY KIND",
+    "CARRIES NOTHING AT ALL", "CONTENTLESS IN EVERY APPEARANCE" — IS THE
+    NAMED-ONLY FORM THAT A SEALED, IN-SCOPE, EARLIER COMMISSION ON THE SAME
+    QUESTION REFUTES AT BYTES IN THOSE WORDS. THE FACTOR IS NOT EMPTY; IT IS
+    SPECIFIED AND UNBUILT. ***
+
+**Direction of the error.** The overshoot makes the factor *emptier* than the
+record has it. The build uses that emptiness in §3.3 as its third displayed
+*distance* — `:535-538`, the factor "cannot be the site at which the two halves
+meet". Correcting it to SPECIFIED-NOT-CONSTRUCTED weakens that distance, since a
+well-specified unbuilt hole whose stated predicate includes a vector-`U(1)`
+transformation law is a candidate site rather than a disqualified one. **The
+error therefore runs toward more distance and less coincidence — it does not
+inflate question three.** No hunt-D violation arises from it.
+
+---
+
+## PATTERNS DECLARED (EVERY PATTERN THIS AUDIT RAN, VERBATIM)
+
+Sweep cutoff `2026-08-16T00:41:00Z`. All run over both roots with
+`--include="*.md"` and filtered `grep -viE "register|tracker|road|plan|continuation"`.
+
+```text
+A-1  EM-?carrying|EM_CARRYING                                    [on the build]
+A-2  GAUGE-CARRYING                                              [on the build]
+C-1  the (failure|absence|negative|zero|silence) (is|becomes|constitutes|
+     therefore is)|is itself (the )?(content|residue|signal|evidence of)|
+     absence is content|negative is content|therefore is content [on the build]
+D-1  coincidence|are one|same thing|identif(y|ication|ies)|mechanism|explains|
+     because they are|unifi|points to|suggests|indicates|implies   [on the build]
+G-1  alpha|1/137|measured|numerical value|= [0-9]+\.[0-9]|fine.structure [on the build]
+G-2  lens|through the lens|frame(work)? of|viewed as|read as|interpret [on the build]
+E-A … E-H                                as listed in HUNT E above  [both roots]
+S4-R  holonom|parallel transport|transition function|cocycle|monodrom|Wilson|
+      defect|jump|mismatch|discrepan|disagree|surface term|boundary term|flux
+      [the build's own S4, re-run for re-derivation]
+S4-W  S4-R with `obstruction` added        [the declared-gap probe]
+V-1  ^\*\*\* |^## VERDICT|GRADE:|= (true|false)|FINDING|ANSWER
+     [on O23SR, PRPS_COVER_NERVE_K13, O31SR]
+SEAL  shasum -a 256 -c, run from each artifact's own directory, on all 16 seal
+      claims in the build plus 5 artifacts the build did not cite
+```
+
+`Q-...` items **EXPECTED-UNLOCATABLE**, not pursued. No register, tracker, road,
+plan, or continuation file was opened at any point.
+
+---
+
+## CHOICE LEDGER
+
+| # | CHOICE | ALTERNATIVE NOT TAKEN | WHY IT MATTERS |
+|---|---|---|---|
+| A-1 | Verified all **16** seal claims in the build, not the 10 in its table | Auditing only the declared table | The table is true; the defect (F-1) lives entirely in the six claims outside it |
+| A-2 | Graded F-1 a **CORRECTION**, not a kill | Voiding the artifact for consuming an unsealed source against its own `:56` | The mis-sealed line is 1 of 11 parallel citations and Q2's answer is carried by the separately-sealed O30SR finding; the build also declared three *other* unsealed files correctly |
+| A-3 | Re-ran the build's own S4 **with the gap closed** (`obstruction` added) rather than reporting the gap | Reporting a pattern gap as a defect | A pattern gap that changes no finding is not a defect; opening all ten hits showed §1.1 true at bytes |
+| A-4 | Swept for the environment factor with a **possessive** pattern (E-H), not only a sibling-list pattern | Re-running the build's S6 | The build's §2.3 correctly opened the two sibling-list strings; only a possessive pattern finds SEAM10 `:227`, and that is where E-3 lives |
+| A-5 | Held E-3 and E-4 as **corrections to Q2's scope**, not reversals of its grade | Refuting Q2 on the vector-`U(1)` sentence | The governing verb is `requires` and `:232` says the inputs are not derived; demanded is not assigned, so the gauge/EM grade is untouched |
+| A-6 | Recorded that E-4's error runs **toward** more distance | Reporting it as a bare factual error | Hunt D asks whether the coincidence was inflated; an error that increases displayed distance cannot inflate it, and saying so is part of the finding |
+| A-7 | Counted the corpus myself and reconciled to the build's cutoff | Accepting or rejecting `1926` on its face | 1930 − 4 = 1926 confirms the sweep declaration is exact; a bare mismatch would have looked like a defect |
+| A-8 | Displayed E-2's corroboration though it is **not** a defect | Reporting only defects | Under DEFAULT-REFUTE the successor must be able to see that the independent sweep tried to invert Q1 and could not |
+
+## TOY_SEPARATION
+
+```text
+ACTUAL SURFACE OF THE RECORD (what this audit touched, all at bytes):
+  the build's 16 seal claims and 4 unsealed-file declarations;
+  every quoted span in the build, opened in its own source and read to span end;
+  g_ij = exp(i theta_ij) and the triple-overlap cocycle, as carried by the two
+    sealed artifacts that quote it;
+  u_c and the finite Ward identity (B2-3); beta_nk and the J13 rows;
+  the flat-holonomy verdict family, five rows;
+  O6SR COUNTERFACTUAL B and the FP-3 escape-side sentence;
+  M-1/M-2/M-3 and O30SR's §2.1 signature table rows 391-392;
+  SEAM10 :227-230; O31SR §10 and :788-794; O23SR :575-586;
+  PRPS_COVER_NERVE_K13's flag block.
+
+NOT SURFACE — NOT TOUCHED, NOT BUILT, NOT SUPPLIED BY THIS AUDIT:
+  no patch family, cover, nerve, or topology was constructed;
+  no discrepancy family was supplied for any cocycle to range over;
+  no content, dimension, algebra, state, or dynamics for the environment factor;
+  no object joining FP-3's escape to the mismatch-content typing;
+  no repair for F-1, E-3, or E-4 was proposed or performed;
+  no gauge lift was selected; no negative was re-read.
+
+NO TOY MODEL WAS BUILT, RUN, OR REPORTED. Nothing in this artifact stands in for
+an object the record does not have.
+```
+
+## IMPORT AUDIT
+
+```text
+IMPORTED BY THIS AUDIT: NOTHING.
+  No mathematics, no physics, no definition, no structure was brought in from
+  outside the two declared roots. Every object named above is quoted from an
+  artifact in R1 or R2, and every seal claim was re-derived with shasum from the
+  artifact's own directory.
+
+IMPORT CARRIED BY THE BUILD, CHECKED:
+  the build declares one import — the general-topology fact that an indexed
+  cover has a Cech nerve with U(1)-valued 1-cochain transition data — and
+  attributes the flag to the corpus. Re-derived at
+  STAGE8_CANONICAL_PATCH_COVER_..._V001.md :33-36, which reads
+  "NERVE_ONE_SKELETON_CANDIDATE_PER_COVER = true | IMPORTED_GENERAL_TOPOLOGY |"
+  followed by its scope at :34-36. The build quotes :33 without its trailing
+  pipe and without the scope lines; the scope it omits ("transition functions
+  form U(1)-valued 1-cochain data") supports rather than qualifies its use.
+  The build does not rely on the import being transferable and quotes the
+  corpus's own "= false" on the transfer at :38-42. IMPORT HANDLING: SOUND.
+```
+
+## FLAG BLOCK
+
+```text
+alpha_computed                                        = false
+proof_authorized                                      = false
+kappa_record_computed                                 = false
+
+target_present_and_sealed                             = true
+target_seal_reverified_from_own_directory             = true
+output_path_probed_absent_before_write                = true
+
+build_seal_claims_TOTAL                               = 16
+build_seal_claims_DECLARED_IN_ITS_TABLE               = 10
+build_seal_claims_REVERIFIED_OK                       = 15
+build_seal_claims_ON_A_FILE_WITH_NO_SIDECAR           = 1     (F-1)
+build_unsealed_declarations_MADE                      = 3
+build_unsealed_declarations_TRUE                      = 3
+build_claim_no_unsealed_source_consumed               = false (F-1)
+
+quotations_checked_to_span_end                        = all
+quotations_VERBATIM                                   = all
+quotation_cut_before_its_own_sentence_end             = 1     (F-3, cosmetic)
+elision_INSIDE_a_quoted_span_altering_sense           = none
+label_imprecisions_no_content_elided                  = 3
+
+hunt_A_finding_graded_EM_where_bytes_support_gauge    = none
+hunt_A_finding_graded_BOTH                            = none
+hunt_B_affirmative_reported_as_answering_Q1           = none
+hunt_C_negative_treated_as_content                    = none
+hunt_D_coincidence_promoted_beyond_display            = none
+hunt_E_object_of_right_type_on_right_data_FOUND       = none
+hunt_G_lens_token                                     = none
+hunt_G_number_of_program_import                       = none
+
+sweep_declaration_counts_reproduce_at_cutoff          = true  (1930 - 4 = 1926)
+uncited_in_scope_sealed_artifacts_ON_POINT            = 4
+  STAGE8_ENVIRONMENT_FACTOR_O31SR_V001                        (E-4, corrects Q2)
+  STAGE8_SEAM10_NARROWING_ADVERSARIAL_RECOMPUTATION_V001      (E-3, corrects Q2)
+  STAGE8_GLUING_CANDIDATE_O23SR_V001                          (E-2, corroborates)
+  STAGE8_PRPS_COVER_NERVE_K13_REALIZATION_TEST_V001           (E-2, corroborates)
+
+Q2_exhaustiveness_claim_every_occurrence              = false (E-3)
+Q2_graded_answer_neither_gauge_nor_EM_carrying        = true  (survives)
+Q2_generalization_carries_nothing_at_all              = false (E-4)
+
+value_reported / number_as_program_quantity           = none
+measured_constant_comparison                          = none
+negative_re_read                                      = none
+constructed / supplied / proposed / adopted           = none
+```
+
+---
+
+## VERDICT
+
+```text
+Q1  **CONFIRMED.**
+    Every quoted span re-derived at bytes and verbatim to span end. The single
+    affirmative — g_ij = exp(i theta_ij) in U(1) with triple-overlap cocycle — is
+    correctly typed, correctly graded GAUGE-CARRYING and never EM-carrying, and
+    correctly reported as defined on NONE of the record's mismatches. The
+    build's §1.1 zero-match claim survives a probe of its own pattern gap. This
+    audit's independent sweep, eight patterns of its own construction over both
+    roots, found NO object of gauge type valued on a real mismatch of record;
+    Question One is not inverted. Two sealed in-scope artifacts the build never
+    cited — O23SR and PRPS_COVER_NERVE_K13 — reach the same result independently.
+    GRADE: GAUGE-CARRYING. The EM identification is NO_VERDICT and relied on nowhere.
+
+Q2  **CONFIRMED-WITH-CORRECTIONS.**
+    The graded answer stands at bytes: no statement in either root ASSIGNS the
+    environment factor gauge structure, a connection, a field, or a charge, and
+    §2.3's reading of the two `source/gauge/gravity/environment` strings as a
+    slash-separated sibling list is correct at bytes.
+    THREE CORRECTIONS. (i) F-1: `BOUNDARY_RECORD_ONSET_SATURATION_ACTION_GATE_V003`
+    is labelled `(seal OK)` and carries NO sidecar in either root, so the build's
+    `:56` — "No unsealed source is consumed" — is false of this very block.
+    (ii) E-3: "displays every occurrence in either root" and "Eleven appearances"
+    are false; SEAM10 `:227-230`, sealed and in scope, is omitted, and it is the
+    one sentence that relates `U(1)` to the environment POSSESSIVELY rather than
+    as a sibling. It does not reverse the grade — the verb is `requires` and the
+    next sentence says the inputs are not derived. (iii) E-4: "CARRIES NOTHING AT
+    ALL" and "content of any kind" are refuted at bytes by O31SR, a sealed,
+    in-scope, earlier commission on this exact factor, whose verdict is
+    SPECIFIED-NOT-CONSTRUCTED and which states in terms that "the verdict is not
+    NAMED-ONLY". The factor is not empty; it is specified and unbuilt.
+    GRADE: NEITHER GAUGE-CARRYING NOR EM-CARRYING — unchanged by all three.
+
+Q3  **CONFIRMED-WITH-CORRECTIONS.**
+    Half one re-derived verbatim: O6SR :472-487 and :500-501, sixteen lines and
+    two, complete and unelided, including the counterpart pure-gauge case that
+    restores the blocker. Half two holds as a TYPING statement only, and the
+    build says so. The coincidence is displayed and NOT promoted: no mechanism is
+    claimed, the distance is displayed beside it, and the closing sentence records
+    the findings as compatible with pure coincidence. NO hunt-D violation.
+    ONE CORRECTION, INHERITED: the third displayed distance rests on Q2's
+    "carries nothing at all", corrected under E-4. The correction WEAKENS that
+    distance and therefore runs against the build's own conservatism — it cannot
+    and does not inflate the coincidence.
+    GRADE: GAUGE-CARRYING on both halves. Not EM-carrying.
+
+OVERALL  **CONFIRMED-WITH-CORRECTIONS.**
+    The determination's three graded answers are sound at bytes and its standing
+    distinction is held without a single lapse: across the whole artifact no
+    finding is reported as EM-carrying, none is graded both, no negative is
+    re-read, no coincidence is promoted, no lens token appears, and no number of
+    program import is stated. Its sweep declaration reproduces exactly at its
+    declared cutoff. What fails is CUSTODY AND SCOPE, not grade: one source
+    labelled sealed that carries no sidecar in either root, one quotation stopped
+    a word short of its sentence end, one exhaustiveness claim adopted from a
+    prior artifact rather than re-derived and false at bytes, and one
+    generalization beyond the graded answer that a sealed earlier commission on
+    the same question refutes in those words. Every correction lies in Question
+    Two's framing; none reaches Question One, and none inflates Question Three.
+    DETERMINATION ONLY. NOTHING WAS CONSTRUCTED, SUPPLIED, PROPOSED, OR ADOPTED.
+    ALL THREE FENCES REMAIN false.
+```
+
+---
+
+**END — STAGE8_GAUGE_AS_CONTENT_O34SR_AUDIT_V001**
