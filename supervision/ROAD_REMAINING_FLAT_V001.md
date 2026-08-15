@@ -10,11 +10,11 @@ both existing carriers, FORCED live on the named debts, RUNS an unforced lean. T
 below IS the upgrade map. Standing authorization (2026-08-14): items proceed serially and
 autonomously; the registrar stops only at [YOURS] items and fences.
 
-○ 2. r-3 RESIDUE — reshaped by Q-1089 (p = −3 DERIVED: MO-3 closed negatively,
-      the coincidence route dead forever): R-L4b's discharge = MO-2 + MO-4 ONLY
-      (the direct package); MO-1 moot for this purpose. OWED: the refuting-branch
-      consequence adjudication (the campaign binding's unstated branch, 52f2490b).
-      Witnesses stand. [lane]
+○ 2. r-3 RESIDUE — ONE OBJECT LEFT: MO-4 (the product-level cancellation
+      identity). MO-2 DERIVED (Q-1094: κ_n ≥ C_*n/8, exponential collapse of
+      record); MO-3 closed negatively (Q-1089); the refuting-branch adjudication
+      DONE (Q-1093). MO-4 lands → R-L4b discharges → the three E1 witnesses
+      retire. Witnesses stand meanwhile. [lane]
 ○ 4. THE HALF-PLANE LOCALIZATION — RUN (Q-1077: NOT-DERIVABLE-TODAY; delivered
       the n-uniform disc bound |det(CV_pC)| ≤ 1 exact + conditional slice
       nonvanishing Z_hat ≥ 1/2 on R-L4a/b + C-L2). Corrected residue: layer 1 =
