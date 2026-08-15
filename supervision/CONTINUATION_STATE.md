@@ -88,6 +88,19 @@ THE NIGHT OF 2026-08-14/15, CLOSED — the overnight authorization is FULLY SPEN
    genuinely FREE; free pins return as decision sheets one at a time; if the sealed
    pins make OB-2 decidable, the member-authorship question may retire by derivation.
    Commission PIN-DET (S9AD) fired. The AJ construction pair runs in parallel.
+   THE SECOND NIGHT (08-15), CLOSED THROUGH Q-1094: the pins determined (2.5 forced,
+   PIN-2-H free and staged, Q-1088); p = -3 DERIVED — the coincidence route dead, the
+   p<=3/2 contingency ACTIVE, the running-kappa_record charter named as the principal's
+   (Q-1089); the response square's bottom leg built exact (Q-1090); the form-to-HS
+   bridge answered three ways none full, first F3 enclosures + E_n = 6n^4/l^2 sealed
+   (Q-1091); the B-3 kill-checks SURVIVED against the sealed lean — the member family
+   NOT empty at displayed bytes, kill surface named (Q-1092); the refuting branch
+   adjudicated surgically — Q-1071's non-identity blocked the cascade (Q-1093); MO-2
+   DERIVED — exponential collapse law |det_n(0)| <= exp(-C_*n/8) of record (Q-1094).
+   IN FLIGHT: MO-4 (the LAST r-3 object — lands -> R-L4b discharges, witnesses retire).
+   THE PRINCIPAL'S BOARD: PIN-2-H (r-a/r-b/hold); ACT-1 (a/c/d, on survived ground);
+   the running-kappa_record charter (his hour); the response-topology naming (on
+   demand); the 5d instrument ratification (PREPARED 09443609).
    STANDING CEILING: 5d and every fence; Act 5 returns at the close.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
