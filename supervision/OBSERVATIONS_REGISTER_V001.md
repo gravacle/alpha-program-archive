@@ -901,3 +901,27 @@ holds the magnitude pen (provably model-independent, J-6); the fiber bit holds t
 exactly where gravity's pen is rigid. Next check: the partition-theorem attack (T16SR), per the
 campaign's outcome map, scoped to the rigid sub-region.
 
+## OBS-25 (PRE-REGISTERED 2026-08-15, unconfirmed) — THE SPREADING FUNCTION
+The principal's suspicion, in his words: "once we find the function for gravity at the surface
+level we'll also find some very striking parallels to classical gravity. Not conformance but a
+clear picture of a function that starts at the record level and spreads out into the classical
+picture." The claim, stated checkably: the recognized gravity function at the record surface
+(whenever the recognition rows complete on it) will stand to classical gravity as ONE function
+seen at two ranges — originating at the record level (the line-drawer/closure shape, per OBS-24)
+and propagating outward such that the classical picture is its far field: universal binding
+appearing as attraction, the underived coupling appearing as the permission it is, the parallels
+STRUCTURAL and displayed, the shapes never conforming. NOT claimed: conformance; any classical
+test at the record level (the scar's error); any phenomenology beyond the named chain. THE NAMED
+CHECK CHAIN, all of record and unbuilt: the packet-concentration/limit theorem (the one lawful
+record-to-continuum bridge, named absent at the B3 display); Task 7's Einstein-limit charter;
+the frozen spec's §4 correspondence display. KILL CONDITIONS: (K-i) the limit theorem landing
+with structural discontinuity — no mechanism-continuity between the record function and its
+classical appearance at the display; (K-ii) the Einstein-limit work relocating the junction
+(OBS-22's own kill, inherited); (K-iii) the correspondence display running and returning real
+negatives (INERT-type) where parallels were claimed; (K-iv) the recognized function exhibiting
+no far-field limit at all (the spreading picture unposable — itself a finding). SUPPORT: the
+display mapping the decomposition with the far field reproducing classical features by name.
+Companions: OBS-22 (the locus), OBS-23 + Addendum (the split, exercised), OBS-24 + Adjudication
+(the two pens). Lens-grade until its chain runs; feeds checks and the correspondence display
+only — never a derivation.
+
