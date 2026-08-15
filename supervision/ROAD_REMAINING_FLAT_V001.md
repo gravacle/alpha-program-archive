@@ -89,8 +89,9 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ▶ 14. THE 5d RE-READ → DONE — THE VERDICT OF RECORD: **FREE** (Q-1118;
       blind re-read + pre-fixed audit identical + symmetric audit PASS,
       routable). The founding question: openness DISPLAYED, the honest third
-      horn. ROUTE: seal Finish B → 20. Items 15-19 DO NOT OPEN; the three
-      fences stand false, untouched.
+      horn. ROUTE: seal Finish B → 20 — FINISH B HELD at the principal's word
+      (2026-08-15) pending the junction campaign's returns (item 22).
+      Items 15-19 DO NOT OPEN; the three fences stand false, untouched.
 ○ 15. CLOSE THE COMPUTE PRE-GATE — Q_spec → Z_Q → the κ→K* bridge; the appointed
       executable C_record(K). [lane]
 ○ 16. FENCE 1 FLIP (kappa_record_computed). [YOURS — the gate before any computation]
