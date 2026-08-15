@@ -10,12 +10,11 @@ both existing carriers, FORCED live on the named debts, RUNS an unforced lean. T
 below IS the upgrade map. Standing authorization (2026-08-14): items proceed serially and
 autonomously; the registrar stops only at [YOURS] items and fences.
 
-○ 2. r-3 RESIDUE — answered NOT-DERIVABLE-TODAY (Q-1068): R-L4b's discharge now
-      waits on the named missing objects — MO-1 the resolvent/½-approach law
-      (subsumes MO-0), MO-2 a certified rate for κ_n or −log|det_n(0)|, MO-3 a
-      sub-volume trace-norm rate for Δ_n(a) (= the open R-L2b sharpened target),
-      MO-4 a product-level cancellation identity. Witnesses stand. Rides the
-      wall/R-L2b complex (item 7). [lane]
+○ 2. r-3 RESIDUE — reshaped by Q-1089 (p = −3 DERIVED: MO-3 closed negatively,
+      the coincidence route dead forever): R-L4b's discharge = MO-2 + MO-4 ONLY
+      (the direct package); MO-1 moot for this purpose. OWED: the refuting-branch
+      consequence adjudication (the campaign binding's unstated branch, 52f2490b).
+      Witnesses stand. [lane]
 ○ 4. THE HALF-PLANE LOCALIZATION — RUN (Q-1077: NOT-DERIVABLE-TODAY; delivered
       the n-uniform disc bound |det(CV_pC)| ≤ 1 exact + conditional slice
       nonvanishing Z_hat ≥ 1/2 on R-L4a/b + C-L2). Corrected residue: layer 1 =
@@ -32,12 +31,12 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       lawful leg; I.5 step 2 found already built — AND-class CONSTANT_FALSE,
       split determined without member selection). Residue: the RA27-4 response
       legs; full-D3 open. [lane — reopens on the response legs]
-○ 7. THE WALL — boundary-closure route RUN (Q-1076: FAILS-AT three sealed steps;
-      DELIVERED the first n-uniform op-grade enclosure of both parity sectors,
-      ‖K_H‖_op ≤ 2, ‖H_A‖_op ≤ 2 exact). Residue: the MO-3-shaped sub-volume
-      trace/HS rate (F1) + C-L2 certification (F3 → item 5, NOW A NAMED WALL
-      BLOCKER) + subsidiary carriers R5/R1/R10 (→ item 8). All four quantities
-      UNDECIDED; nothing refuted. [lane — reopens on any residue landing]
+○ 7. THE WALL — boundary-closure route RUN (Q-1076; the op-grade enclosure
+      delivered). Residue RESHAPED by Q-1089: the F1 coincidence escape is DEAD
+      (p = −3); surviving routes = assembly cancellation / weight-summed
+      re-quantification onto record strata / region-level cumulants + the C-L2
+      form-to-HS bridge (F3). All four quantities UNDECIDED; nothing refuted.
+      [lane — reopens on a surviving route landing]
 ▶ 8. THE GRAVITY CARRIERS — TRIAGED (Q-1078): ZERO buildable by lanes; the
       close passes through exactly one of THREE PRINCIPAL ACTS — ACT-1 member
       adoption (nine rows; the sector-reduction arrow named), ACT-2 the held
