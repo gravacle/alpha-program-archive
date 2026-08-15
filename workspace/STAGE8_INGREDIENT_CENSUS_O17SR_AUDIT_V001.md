@@ -477,3 +477,298 @@ that it is a DIFFERENT join (finite-to-completed, not cell-to-cell) is a
 distinction the census draws against its own interest and is correct.
 
 ---
+
+## 7. FINDING E — THE BLINDNESS BAR. NO CONTENT LEAKED; THE LEDGER'S ARITHMETIC IS SHORT.
+
+This auditor is not under the bar and opened the barred band to test the build.
+
+**CONTENT: CLEAN.** The barred band was searched for the census's load-bearing
+analytic strings — "constructor pair", "unbuilt constructor", "KIND 1", "complete
+microscopic parent" — and every hit is the census's own file. No barred artifact
+carries the census's determinations, its four-type taxonomy applied to these
+objects, its unpaired list, or its §2/§3 answers. **No content in the census could
+only have come from a barred artifact.**
+
+ONE APPARENT COINCIDENCE, RESOLVED IN THE BUILD'S FAVOUR. The barred
+`STAGE8_GATE_SIGNATURE_O18SR_V001.md` (written 15:33, two minutes before the
+census sealed at 15:35) carries the census's governing sentence almost word for
+word — "INPUT side, and what stands on its OUTPUT side. **I never type from the
+object's name**" (:198). That is not leakage in either direction: the same file
+records the origin at :517 — `"input side" / "output side" / "signature" IMPORTED
+— commission vocabulary.` Two parallel lanes were handed the same typing
+vocabulary by their commissions. The coincidence has an innocent common cause and
+is recorded here so no later reader mistakes it for one.
+
+**ARITHMETIC: SHORT BY EIGHT.** §0.3 states "The following 24 filenames surfaced
+in sweep S-A and were recorded WITHOUT being opened," and §0.2 subtracts exactly
+those: "159 files. Minus 24 barred (§0.3) = 135 in band."
+
+Re-running the census's own S-A regex and intersecting with the 2026-08-15 band
+returns, for files already on disk when the census sealed, **thirty-two** barred
+filenames, not twenty-four. The eight the ledger does not list:
+
+```text
+STAGE8_RK_LT_BIT_T1SR_V001.md                 STAGE8_OVERLAP_LAW_T11SR_V001.md
+STAGE8_RK_LT_BIT_T1SR_AUDIT_V001.md           STAGE8_GALERKIN_COMMUTATOR_T12SR_V001.md
+STAGE8_CLOCK_CEILING_T7SR_AUDIT_V001.md       STAGE8_CONSTRUCTION_ROUTES_O16SR_V001.md
+STAGE8_SIGN_CROSSING_T10SR_AUDIT_V001.md      STAGE8_GATE_SIGNATURE_O18SR_V001.md
+```
+
+Six of the eight predate the census by hours. The consequence is bookkeeping, not
+contamination: the "135 in band" figure counts eight barred files as in-band. All
+eight were checked for leakage above and none appears in the census. The ledger
+is incomplete; the refusal it records was, on the evidence, honoured.
+
+## 8. FINDING F — BEYOND THE TYPING. NOTHING PROPOSED OR ADOPTED; TWO RANKINGS.
+
+The census was read end to end against the ban. **No proposal, no adoption, no
+authored object, and no conclusion about whether anything is missing beyond what
+the typing displays.** CH-9 states the restraint and the body keeps it: where a
+category is empty the census says so and stops.
+
+Two sentences are evaluative rather than typed, and are flagged rather than
+charged: "This is the census's **deepest** open end" (U-1) and "This is the
+**cleanest** unpaired item in the list" (U-2). Both rank entries against each
+other. Ranking is not typing. Neither changes a type.
+
+## 9. FINDING G — LENS TOKENS AND NUMBERS.
+
+```text
+LENS TOKENS      none found.  Swept the census's bytes; no lens vocabulary.
+NUMBERS          No value, no scale, no measured-constant comparison, and no
+                 alpha-adjacent quantity appears.  The integers present are of
+                 two kinds, both within fence:
+                 (i) the census's own bookkeeping counts;
+                 (ii) structural integers inside verbatim quotations of sealed
+                      bytes — complex dimensions, a matrix of a two-node
+                      adjacency, cohomology ranks of the two sealed complexes.
+                 The cohomology ranks are CARRIED from the sealed hunt, not
+                 recomputed by the census; the census says so.  Fence held.
+                 This audit reproduces no number of either kind.
+```
+
+---
+
+## 10. VERDICT, PER DELIVERABLE AND OVERALL
+
+```text
+DELIVERABLE                                        VERDICT
+§0.1  the four types                               CONFIRMED
+§0.2  declared sweep and cutoff                    CONFIRMED-WITH-CORRECTIONS
+      (S-A re-run and reproduced; S-C carries no reproducible predicate, so
+       the completeness claim over S-C is unverifiable — §4.1)
+§0.3  blindness ledger                             CONFIRMED-WITH-CORRECTIONS
+      (no content leaked; ledger short by eight filenames — §7)
+§1.A  objects                                      CONFIRMED-WITH-CORRECTIONS
+      (row A-3: four of five entries take the parent complex — §3)
+§1.B  rules / maps                                 CONFIRMED-WITH-CORRECTIONS
+      (row B-8 drops its source's own output-side clause — §5.1)
+§1.C  constraints                                  CONFIRMED
+§1.D  certificates                                 CONFIRMED-WITH-CORRECTIONS
+      (row D-1 correct as a certificate; its five generators were never typed,
+       and three of them yield cells — §2)
+§2.1  what has a CELL on its output side           *** REFUTED ***
+      (not one clause; the licensed refinement generators put cells on an
+       output side — §2)
+§2.2  what has a RECORD on its output side         CONFIRMED-WITH-CORRECTIONS
+      (answer "more than one" is right; the count is at least four, not
+       three — §4.3)
+§2.3  what has a JOINING OF CELLS on its output    CONFIRMED-WITH-CORRECTIONS
+      (empty at the adopted physical stratum, which is the answer that
+       matters; not empty simpliciter — one census-resident proposed rule
+       glues two cells — §5.1)
+§3    the named absence and its kind               CONFIRMED
+      (KIND 1 re-derived from signatures; route corrected — §6)
+§3.2  the KIND 2 conjunct kept separate            CONFIRMED
+§3.3  the second, independent naming               CONFIRMED
+§4    the unpaired list                            CONFIRMED-WITH-CORRECTIONS
+      (U-3 killed as written; U-6 under-tested; eight stand — §5)
+§5    choice ledger                                CONFIRMED
+      (CH-3's risk is stated honestly and is exactly the risk that
+       materialised — §4.3)
+§6    toy separation                               CONFIRMED
+§7    seals verified                               CONFIRMED-WITH-CORRECTIONS
+      (every seal named re-verified OK from the artifact's own directory;
+       five verified artifacts were never typed and that is not disclosed)
+§8    import audit                                 CONFIRMED
+§9    flag block                                   CONFIRMED-WITH-CORRECTIONS
+      (CELL_ON_OUTPUT_SIDE, RECORD_ON_OUTPUT_SIDE,
+       JOINING_OF_CELLS_ON_OUTPUT_SIDE, CENSUS_ENTRIES, UNPAIRED_COUNT all
+       move; JOINING_ABSENCE_KIND stands)
+
+OVERALL   CONFIRMED-WITH-CORRECTIONS.
+          The commission's headline determination — the kind of object the
+          corpus says is missing — is CONFIRMED and survives re-derivation from
+          signatures rather than nouns.  The census's discipline, disclosure
+          habits and fences are real.  One deliverable is REFUTED (§2.1) and it
+          is refuted by frame leakage of exactly the kind this commission was
+          told to hunt: an artifact typed by what it is called and what it is
+          for, with three cell-yielding rules parked on its input side and
+          never read.
+```
+
+## 11. CHOICE LEDGER (THIS AUDIT)
+
+```text
+AH-1  DEFAULT-REFUTE APPLIED TO SENTENCES, NOT TO ANSWERS.  Where the census's
+      answer is right but its sentence overstates, the verdict is CORRECTIONS,
+      not REFUTED.  §2.1 is REFUTED because the count and the word EXACTLY are
+      the deliverable there.  ALTERNATIVE REJECTED: refuting §2.3 on the B-8
+      gluing clause, which would have graded an unadopted contractible glue as
+      if it discharged the physical-stratum constructor.
+
+AH-2  "PARENT" NOT MERGED ACROSS SIGNATURES.  R3.4's h_K has a parent on its
+      output side; U-1's parent assigns cells.  Same noun, different
+      signatures, kept apart.  Merging them would have produced a spectacular
+      kill of U-1 and would have been the very error charged in §2.
+
+AH-3  SUBDIVISION COUNTED AS CELL-YIELDING.  A refinement generator's output
+      side carries cells; that is the census's own test, applied without
+      exemption.  ALTERNATIVE REJECTED: exempting subdivision because it makes
+      cells only from cells.  That exemption is a subject-matter judgement, not
+      a signature reading — and the census's narrower sentence about primitive
+      construction is separately recorded as surviving.
+
+AH-4  BARRED BAND OPENED.  Permitted by this commission and necessary to test
+      leakage.  No barred content is reproduced in this audit beyond the two
+      lines of O18SR needed to resolve the vocabulary coincidence in the
+      build's favour.
+
+AH-5  NO RENUMBERING.  Corrections are stated against the census's own row and
+      flag names.  This audit issues no replacement census and no corrected
+      counts beyond "at least", because issuing corrected totals would be
+      authoring a census rather than auditing one.
+
+AH-6  R2 NOT INDEPENDENTLY SWEPT.  Spot-compared at every filename this audit
+      opened and found to mirror R1; all reads taken at R1.  The census's CH-6
+      is accepted, not re-derived.
+```
+
+## 12. TOY_SEPARATION
+
+```text
+This audit re-derived at the ACTUAL bytes of the actual corpus.  It is not a
+model of the census, not a sample of it, and not a re-run of its method on
+substitute inputs.
+
+WHAT IS ACTUAL HERE
+  - the target's seal was verified from its own directory before it was read;
+  - every artifact quoted was seal-verified this session from its own
+    directory (§13), and every quotation was taken from the file itself, not
+    from the census's report of it — which is how findings §2, §3 and §5.1
+    were found at all;
+  - the census's S-A regex was re-executed verbatim against the real tree, and
+    the wider B-SWEEP is this audit's own, not the census's.
+
+WHAT IS NOT CLAIMED
+  - This audit does not claim completeness over all 1758 *.md at R1.  It
+    claims that the specific defects recorded are real at bytes, and that the
+    three declared bands of the census do not close.  An object outside this
+    audit's sweeps is outside this audit.
+  - No corrected census is offered.  Where a count moves, this audit says it
+    moves and gives a floor, not a new total.
+  - No object was constructed, proposed, adopted, or authored.
+
+NO TOY WAS BUILT.
+```
+
+## 13. SEALS VERIFIED THIS SESSION
+
+Each verified by `shasum -a 256 -c <sidecar>` executed FROM THE ARTIFACT'S OWN
+DIRECTORY, before any reliance on its content. All returned OK.
+
+```text
+OK  STAGE8_INGREDIENT_CENSUS_O17SR_V001.md                    (the target)
+OK  STAGE8_GLUED_TOPOLOGY_HUNT_V001.md
+OK  STAGE8_GLUED_TOPOLOGY_CHECK_V001.md
+OK  STAGE8_D0_SQUARE_CERTIFICATE_V001.md
+OK  STAGE8_DESC_STITCHING_RULE_HUNT_DARIO_V001.md
+OK  STAGE8_DESC_STITCHING_RULE_CHECK_CODEX2_V001.md
+OK  STAGE8_AXN_FORM_QUESTION_AUDIT_CODEX2_V001.md
+OK  STAGE8_AXN_BUILD_SKELETON_CODEX2_V001.md
+OK  STAGE8_R3C_SUMMED_REMAINDER_ATTEMPT_V001.md
+OK  STAGE8_TRANSPORT_LAW_POSED_V001.md
+OK  STAGE8_TASK4A_NETWORK_SOURCING_LAW_ADOPTION_PROPOSAL_CODEX_LANE2_V001.md
+OK  R3_4_COMPLETE_CAUSAL_SUPERCONNECTION_PARENT_SPEC_V001.md
+OK  LOCAL_COVARIANT_CELL_MEASURE_SELECTOR_SPEC_V001.md
+OK  SOURCE_FLUX_CONDITIONED_RECORD_WRITE_GATE_V003.md
+OK  STAGE8_CANONICAL_PATCH_COVER_TO_INCIDENCE_GRAPH_FUNCTOR_ATTEMPT_V001.md
+      (sidecar carries an R2 path; verified as such)
+
+SIDECAR NAMING, DISCLOSED.  The corpus uses BOTH `<name>.md.seal.sha256` and
+`<name>.seal.sha256`.  A checker that probes only one suffix will report a
+missing sidecar for a sealed artifact.  Every "no sidecar" statement in this
+audit was re-probed under both conventions before being written.
+
+UNSEALED AT PATH — read directly and reported as read-at-bytes, never as
+standalone authority:
+    PRIMITIVE_RECORD_CARRIER_AND_KINEMATICS_V001.md
+      No sidecar exists under either naming convention at R1 or at R2.  Used
+      here only to confirm that the census's row A-4 quotation is accurate at
+      bytes — it is: the flag `primitive_single_handle_record_algebra = M_2(C)`
+      is present at :107, and the six hypotheses are present at :12-20.  The
+      census's §7 disclosure of this file as unsealed is accurate.
+
+BARRED BAND — opened under this commission solely for the leakage test of §7,
+not relied on for any typing.
+```
+
+## 14. IMPORT AUDIT (THIS AUDIT)
+
+```text
+IMPORTED AND CONSUMED
+  Nothing outside the two declared corpus roots.  No external mathematics, no
+  textbook result, no physical constant, no measured value, no scale, no
+  imported GR, no faithfulness authority.  The typing vocabulary
+  (input side / output side / signature; OBJECT / RULE / CONSTRAINT /
+  CERTIFICATE) is the commission's and the census's, used to grade the census
+  in its own terms.
+
+READ REFUSALS HONOURED
+  No register, tracker, road, plan, continuation, ledger, or lens file was
+  read.  "Q-..." items treated as EXPECTED-UNLOCATABLE; not sought, not
+  counted.  No git command of any kind was run.  No file was written except
+  this artifact and its sidecar.
+
+TESTIMONY WEIGHT
+  Zero.  Every census claim graded above was re-derived from the source
+  artifact's own bytes.  The three findings that move a verdict (§2, §5.1,
+  §4.3) were each found by reading a source the census had cited or verified
+  and comparing it against what the census wrote about it.
+```
+
+## 15. FLAG BLOCK
+
+```text
+TARGET_SEAL               = OK (checked from the artifact's own directory)
+OUTPUT_PATH_PROBED_ABSENT = true
+AUDIT_VERDICT_OVERALL     = CONFIRMED-WITH-CORRECTIONS
+DELIVERABLES_REFUTED      = 1  (§2.1 and its flag CELL_ON_OUTPUT_SIDE)
+DELIVERABLES_CONFIRMED    = §0.1, §1.C, §3, §3.2, §3.3, §5, §6, §8
+FRAME_LEAKAGE_FOUND       = 2 kills (row D-1's untyped generators; row A-3's
+                            "TAKES nothing"), 1 dropped-clause (row B-8)
+CENSUS_INCOMPLETENESS     = 5 seal-verified artifacts never typed; 1 sealed
+                            specification reached by no declared band; S-C
+                            carries no reproducible predicate
+UNPAIRED_LIST             = 1 entry killed as written (U-3); 1 under-tested
+                            (U-6); 8 stand
+JOINING_ABSENCE_KIND      = KIND 1 — CONFIRMED, re-derived from the two named
+                            pieces' signatures, not from the corpus's nouns
+BLINDNESS_BAR             = content clean; ledger short by 8 filenames
+BEYOND_TYPING_FOUND       = none.  No proposal, no adoption, no authored
+                            object.  2 evaluative rankings flagged.
+LENS_TOKENS               = none found
+alpha_computed            = false
+proof_authorized          = false
+kappa_record_computed     = false
+NUMBERS_COMPUTED          = none (no value, no scale, no measured-constant
+                            comparison; this audit reproduces no number)
+MACHINERY_INVOKED         = no (directory listing, grep, shasum -a 256 at
+                            path, byte-span reads; no execution, no git)
+AUTHORED_CONTENT          = none.  Determination only.
+ALL_RESULTS               = CLAIMED until checked.
+```
+
+---
+
+END OF AUDIT.
