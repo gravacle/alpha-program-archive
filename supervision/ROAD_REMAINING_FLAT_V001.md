@@ -62,7 +62,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       COMMISSIONED (Q-1103) → LANDED (Q-1104) → RATIFIED (Q-1108: the
       authored core adopted — the record's ONE named authored premise;
       Joint D discharged, R1 carrier landed, R2-R4 lane-provable ON the
-      rule; SK-1..SK-10 armed forever). CARRIER RE-SCORE firing (T9SR). Pins
+      rule; SK-1..SK-10 armed forever). RE-SCORE DONE (Q-1109: the program's
+      FIRST CONFIRMED ROWS — tally 2/0/12, zero INERT; carriers narrowed at
+      four rows; the retyped class lawful-but-uninhabited). Next: the close
+      assembly at the seam. Pins
       ALL DISPOSED — 2.5 forced, PIN-2-H fixed R-A with the reversal armed
       (Q-1088/Q-1096). U1/U2 seals DONE (Q-1082/Q-1083). [lane at the re-score]
 ○ 11. ACT 4 — the DoR-013/014 falsifier: AVAILABLE INSTRUMENT, not a required
@@ -88,6 +91,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1108 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1109 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
