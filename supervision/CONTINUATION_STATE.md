@@ -60,13 +60,29 @@ registrar stops ONLY at principal acts and fences; exceptions surfaced immediate
 3. EARN-THE-TRACE — DONE (Q-1073: PARTIAL, the FIRST EARNED TRACE — the phase-skeleton
    landing, adversary-conceded; two new R-2 blockers; the T7 amplitude adjudication =
    decider-1 of the fork, commissionable).
-OVERNIGHT AUTHORIZATION (the principal, 2026-08-14 night): proceed through the open
-   list to the gate before any compute-alpha run. Serial march continues (4 → 5 → 6 →
-   8 + the wall in parallel per the road's alongside clause); HOLDS LIFTED (the principal,
-   2026-08-14 night): Acts 3 and 5 no longer wait on the gravity close — Act 3 stages
-   first, Act 5 after it resolves, each one at a time; the close remains a lane track.
-   HARD CEILING unchanged otherwise: stop at 5d and at every fence; the v002 custody
-   question HELD for his return; exceptions surfaced immediately.
+THE NIGHT OF 2026-08-14/15, CLOSED — the overnight authorization is FULLY SPENT in
+   the strong sense: every remaining critical-path item is a principal act.
+   REGISTERED TONIGHT: Q-1074 (Act 3: Attach CONTINUED as named premise) · Q-1075
+   (Act 5: Rule-2 DEFERRED to the gravity close, returns automatically) · Q-1076 (the
+   wall's boundary-closure route: FAILS-AT three sealed grounds / DELIVERED the first
+   n-uniform parity-sector bound, op-grade ≤ 2 exact) · Q-1077 (half-plane: refused;
+   DELIVERED the disc bound + conditional slice nonvanishing Z_hat ≥ 1/2 on
+   R-L4a/b + C-L2; localized-to-GAP-C claim REFUTED by audit) · Q-1078 (THE CARRIER
+   TRIAGE: zero lane-buildable; the close = exactly three principal acts, no fourth
+   road) · Q-1079 (C-L2: the form bound CERTIFIED exact, relative bound zero; witness
+   stands; consuming-site supply blocked) · Q-1080 (THE T7 AMPLITUDE ADJUDICATION
+   EXECUTED: BLOCKED with the blocker set moved — the fork's amplitude layer goes to
+   HORN (a) machinery-fit; phase-side landing untouched; the three morning decision
+   sheets STAGED, checked steering-free) · Q-1081 (OBL-D: the r_F^* flux-pullback
+   certificate BUILT, zero naturality defect; the AND-class found CONSTANT_FALSE —
+   split determined without member selection).
+   THE MORNING DECISION SURFACE (Q-1078's table + Q-1080's staged sheets, add4c806):
+   ACT-1 member adoption (D-1 the sector-reduction-arrow proposal w/ self-kill; nine
+   rows) · ACT-2 the held construction (five rows; the fork) · ACT-3 spec revision ·
+   two one-line seals (D-2 U2's closure; D-3 U1's R9-JII line). Plus held: the v002
+   custody question. NAMED FOLLOW-UP: the found AND-pair's consequence chain
+   (38bbb9fc/c0e7192b, no register row of its own).
+   STANDING CEILING: 5d and every fence; Act 5 returns at the close.
 4. Half-plane closure → 5. C-L2/G_cm → 6. OBL-D/transport pieces → 7. THE WALL (first
    route = the principal's boundary-closure route, lens-motivated, derivation-only).
 8. THE GRAVITY CARRIERS (Q-1060's named list) — on the critical path to the alpha gate

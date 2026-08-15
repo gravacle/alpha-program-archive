@@ -27,8 +27,11 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       consuming-site supply blocked at three of-record points, so the witness
       STANDS and F3 is NOT unblocked; G_cm refused at its consuming type).
       Residue: the form-to-HS bridge. [lane — reopens on the bridge]
-○ 6. OBL-D — cellulation-independence via the RA27-4/6 transport package (next
-      pieces after the d₀-square, Q-1026). [lane]
+○ 6. OBL-D — SECOND PIECE BUILT (Q-1081: the r_F^* flux-pullback certificate,
+      zero naturality defect; the potential-route proven dead, flux-level the
+      lawful leg; I.5 step 2 found already built — AND-class CONSTANT_FALSE,
+      split determined without member selection). Residue: the RA27-4 response
+      legs; full-D3 open. [lane — reopens on the response legs]
 ○ 7. THE WALL — boundary-closure route RUN (Q-1076: FAILS-AT three sealed steps;
       DELIVERED the first n-uniform op-grade enclosure of both parity sectors,
       ‖K_H‖_op ≤ 2, ‖H_A‖_op ≤ 2 exact). Residue: the MO-3-shaped sub-volume
@@ -65,6 +68,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1073 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1081 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
