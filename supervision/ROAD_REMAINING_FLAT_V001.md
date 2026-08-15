@@ -112,7 +112,14 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       unique minimal completion = {W-1 sub-volume rate; W-2 prequotient
       evaluation; W-3 G_cm at HS type}; no shape fits at the faithfulness
       site at Sigma-as-sealed — completion re-poses, not completes. THE
-      HUNT'S TARGETS = the W-set. Finish B held with the principal. Outcome map, fixed now: sites cluster
+      HUNT'S TARGETS = the W-set → FIRST RETURNS (Q-1124/Q-1125): W-2
+      PARTIAL (the ratified premise supplies the rule half; the named-cell
+      evaluation ABSENT and not constructible today — the map's W-2 display
+      was stale at bytes); W-3 UNDECIDABLE with its ONLY permitted route
+      shown structurally incapable (the sea-sandwich obstruction) — the
+      completion set is unique but NOT suppliable as stated at W-3; W-1
+      unattempted (O1SR build killed by an infrastructure flag, zero bytes),
+      re-fires under a fresh tag. Finish B held with the principal. Outcome map, fixed now: sites cluster
       closure-adjacent or RIGID-through-boundary-clauses ⇒ the PARTITION
       THEOREM attack fires (derive the allow/require partition FROM the
       closure's clauses alone — the line-drawer proved, not located);
@@ -121,6 +128,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       conditions govern]
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1123 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1125 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
