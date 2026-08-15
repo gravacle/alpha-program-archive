@@ -813,3 +813,29 @@ where/how-much of external realization) and "closing one map is not closing the 
 law. KILL CONDITIONS: a sealed derivation collapsing the two maps into one; or a third crossing
 map appearing that breaks the one-locus typing; or Task 7's Einstein-limit work relocating the
 junction. Companion: OBS-21; the beta gap's two-era typing files with this.
+
+## OBS-23 (PRE-REGISTERED 2026-08-15, unconfirmed) — THE FORM/MAGNITUDE SPLIT REPRODUCED, NOT INHERITED
+The claim: the record reproduces, from its OWN theorems and with no classical input, the same
+form/magnitude split classical gravity exhibits — the FORM of the internal→external crossing sits
+require-side (the symbol algebra, evaluation on cells, confinement: forced and, at Joint D, now
+carried), while the MAGNITUDE sits allow-side (the two-model conservativity theorem: the ground's
+displayed clauses admit models agreeing on every clause and differing on the junction — a
+permission, not a force; the exhaustive route partition: no require on this ground reaches the
+magnitude, so it enters only authored-under-mandate or by new ground). Classical gravity shows the
+same split — field-equation form principled, the coupling G an undeived input — but left the line
+implicit. The record draws it as a theorem. The principal's framing of record (2026-08-15): "The
+record didn't inherit that split from classical gravity; it reproduced it from its own theorems.
+That resonance may be the first fingerprint of the relationship itself. It is an important part of
+the story." Status: LENS-GRADE resonance over computed anchors — the anchors are theorems (the
+B3 non-normalizable-carrier display; the Class II conservativity kill; the vacancy partition); the
+resonance reading motivates and checks, and feeds the frozen spec's §4 correspondence display —
+never a derivation. If confirmed there, the correspondence decomposes classical gravity into
+record-forced content (requires), exercised permissions (the authored ledger), and limit artifacts
+(the Einstein-limit direction). KILL CONDITIONS: a sealed derivation of the crossing magnitude on
+the current ground (the vacancy theorem's own reopen — breaks the allow-side half); a sealed
+demonstration that classical principle alone forces G (breaks the classical half); the §4
+correspondence display, once run, landing the record's form criteria unforced (breaks the
+require-side half); Task 7's Einstein-limit work showing the split is a limit artifact rather than
+structural. Companion: OBS-22 (the same locus, the two maps); the allow/require boundary law
+(permissions never force a number; a unique require forces too) is the grammar this observation
+instantiates at the junction.
