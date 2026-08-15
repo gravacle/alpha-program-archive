@@ -42,9 +42,12 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       close passes through exactly one of THREE PRINCIPAL ACTS — ACT-1 member
       adoption (nine rows; the sector-reduction arrow named), ACT-2 the held
       construction (five rows; decides the fork), ACT-3 spec §5 revision.
-      Lane preparations RUNNING: the member-proposal draft w/ self-kill; the
-      guard-path-(1) fork-decider determination; the U1/U2 seal drafts.
-      [YOURS at the acts; lane at the preparations]
+      STATE (2026-08-15): ACT-2 RETIRED BY DERIVATION (Q-1087: VACANCY-CLOSED
+      by proof — no derived junction exists on this ground; any future junction
+      is authored physics by theorem, merged into the Rule-2 door). R10-R14's
+      sole route = ACT-3 (proof-backed). Member root: the three semantic pins
+      in determination (running); ACT-1 returns per their outcome. U1/U2 seals
+      DONE (Q-1082/Q-1083). [YOURS at ACT-3 + the free pins; lane at the rest]
 ○ 11. ACT 4 — the DoR-013/014 falsifier: AVAILABLE INSTRUMENT, not a required
       act (reclassified at the principal's question, 2026-08-14 — the composition
       debt has two other routes in motion; commissioning + firing happen on his
