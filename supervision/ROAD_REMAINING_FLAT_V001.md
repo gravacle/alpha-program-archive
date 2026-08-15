@@ -20,8 +20,9 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       three partials incl. the density law SUPPLIED (Q-1112); rides on the
       B_pp' overlap law → RUN (Q-1113: undecidable-forced, four exact
       partials incl. the n=2 member-existence valuation); rides on the
-      Galerkin direction-commutator law (≡ the PR profile, citation-barred).
-      T12SR fireable; r-3 RESTS here as fire-time content. [lane]
+      Galerkin direction-commutator law → RUN (Q-1117: undecidable-forced,
+      five exact partials; decider = one law two guises + the antipodal-slice
+      object). r-3 RESTS; reopens on a sealed carrier entering. [at rest]
 ○ 4. THE HALF-PLANE LOCALIZATION — RUN (Q-1077: NOT-DERIVABLE-TODAY; delivered
       the n-uniform disc bound |det(CV_pC)| ≤ 1 exact + conditional slice
       nonvanishing Z_hat ≥ 1/2 on R-L4a/b + C-L2). Corrected residue: layer 1 =
@@ -38,9 +39,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       blocks. [lane — reopens on those blocks' own reopens]
 ○ 6. OBL-D — THIRD PIECE BUILT (Q-1090: the response square's bottom leg exact
       and quotient-free; the forced η_resp constraint pinned; m₁²-never-m₂).
-      Residue: the f_g/F_g bindings (D-layer, sequenced); the response-topology
-      NAMING [YOURS — two candidates with stability certificates, stageable];
-      full-D3 open. [lane at the bindings; yours at the naming]
+      Residue: NAMING DONE — RQ-0 plain (Q-1116; RQ-1 exhibited-not-adopted;
+      re-naming returns to the principal); the f_g/F_g bindings ABSENT (f_g
+      S26-barred at source, parent-node routed) — the D-layer chain rests
+      there; full-D3 open. [at rest at the bindings' absence]
 ○ 7. THE WALL — the summed route DELIVERED (Q-1099: THREE of four decided at
       the summed quantifier — H_A^Σ ≡ 0 twice by exact cancellation; ‖K_H^Σ‖₂²
       enclosed carrier-free; the sign indeterminacy GONE) — the summed residue
@@ -100,6 +102,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1115 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1117 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
