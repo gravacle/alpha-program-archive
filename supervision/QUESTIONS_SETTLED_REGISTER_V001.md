@@ -17818,6 +17818,12 @@ alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: a3d38ddb, a3c7349b (the import), 75450619, 2b12dc40, bb928de4/36183948. Q-980–Q-1083 carried. REOPEN: any divergence ever found between the imported bytes and the origin (custody alarm); a v003+ selection principle superseding at source (a new import decision).
 
+## Q-1085 — ACT 2 OF THE GRAVITY TABLE: THE AMPLITUDE-JUNCTION DESIGN UN-HELD (THE PRINCIPAL'S EXPLICIT DIRECTION, THE HOLD'S OWN SOLE REOPENING MECHANISM): **THE CONSTRUCTION PAIR IS COMMISSIONED PER THE DESIGN'S OWN SEALED BRIEF — DERIVE THE JUNCTION FROM BEDROCK / PROVE THE VACANCY CLOSED / THE EXACT PARTIAL, TYPE-R DEAD AND BARRED; GROUNDS FOR THE UN-HOLD: EXIT (1) RUN TO SEALED MAXIMUM WITH THE AMPLITUDE BAR MADE EXACT (Q-1073/Q-1080), R10–R14 PROVEN PRINCIPAL-GATED WITH NO OTHER ROUTE (Q-1078), AND THE POST-HOLD PROTECTIONS IN FORCE (THE MANDATE PATTERN; THE R9-JII KILL-TEST Q-1082; THE U2 SELF-KILL Q-1083); THE PRODUCT RETURNS PROPOSED-NOT-ADOPTED; THE EMERGENT-MAGNITUDE READING STAYS A LIVE HONEST OUTCOME** (2026-08-15)
+
+**Answer: the program's one remaining door on the normalization side opens — under more guard instruments than any commission before it, with the design's own vacancy-CLOSED outcome standing as first-class as the construction itself.** Instrument: AMPLITUDE_JUNCTION_UNHOLD_2026-08-15.md (3504c629); the design 506bfe2a byte-untouched; ground-currency note displayed (the run consumes V003, within which every cited V001 byte is identical). The un-hold is not adoption: the design's three-way honest menu governs the run and ratification remains a separate future act.
+
+alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 3504c629, 506bfe2a, c80c09a2, b6b6b340 (Q-1080's bar), 6a839b51 (the triage). Q-980–Q-1084 carried. REOPEN: the pair landing (its verdict registers; a candidate goes to the principal); the ether-reading outcome (vacancy CLOSED — the surface correctly declines; the road re-routes); any protection firing.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
