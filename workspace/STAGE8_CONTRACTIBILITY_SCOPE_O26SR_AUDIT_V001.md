@@ -764,3 +764,346 @@ inconsistent. No verdict moves — the count of hits, not the size of the haysta
 carries §3.3 — but a stated number that fails at bytes is a stated number that
 fails at bytes.
 ```
+
+---
+
+## 10. CHOICE LEDGER (THIS AUDIT)
+
+```text
+AL-1  RE-DERIVED RATHER THAN RE-READ.
+      TAKEN     Wrote an independent instrument and computed H^1 by the
+                COHOMOLOGICAL route (coker d^0) as well as the homological one
+                (ker d_1), in a fresh venv.
+      ALTERNATIVE  Re-run the build's o26_cas.py.
+      WHY       DEFAULT-REFUTE. Re-running the subject's own script tests the
+                environment, not the claim.
+      EFFECT    Every §6 line reproduced independently, and the build's implicit
+                identification of H^1 with b_1 on a 1-complex is now warranted
+                rather than assumed.
+
+AL-2  OPENED V003 IN FULL RATHER THAN AT THE BUILD'S WINDOW.
+      TAKEN     Swept V003 for its own cycle vocabulary before reading :196-214.
+      ALTERNATIVE  Check the build's quotation of :208-214 and stop.
+      WHY       The build drew a VERSION-FAMILY verdict; a version-family verdict
+                must be tested against the version, not against one span.
+      EFFECT    C-1. This is the finding that reverses one of the build's own
+                MATERIAL flags.
+
+AL-3  TESTED "CLAUSE A" AGAINST THE VOID-CONDITION COLUMNS.
+      TAKEN     Asked where voiding lives in the source's own table and looked
+                there, in BOTH V001 and V002.
+      ALTERNATIVE  Accept the build's naming of a prose remark as a clause.
+      WHY       The commission's own discipline: silence is silence. It must cut
+                in the prohibitive direction as well as the permissive one.
+      EFFECT    C-2, and the observation that the build applies the rule
+                unevenly.
+
+AL-4  DID NOT OPEN THE POST-CUTOFF ARTIFACT.
+      TAKEN     Identified STAGE8_JOIN_ADMISSIBILITY_O28SR_V001.md by mtime,
+                excluded it, declared the exclusion.
+      ALTERNATIVE  Read it and test the build against it.
+      WHY       It postdates the subject by one minute. Faulting a build for
+                what did not exist when it swept is not an audit finding.
+      EFFECT    §5.5. The exclusion is visible rather than silent.
+
+AL-5  DID NOT CONVERT TEST (a) TO A FLAT REFUTATION.
+      TAKEN     Corrected the CELL and left the SPECIFIC half standing on the
+                arithmetic-decomposition ground.
+      ALTERNATIVE  REFUTE the SPECIFIC half on the strength of the non-bar
+                slips alone.
+      WHY       The kill condition is a SPECIFIC verdict RESTING on a non-bar.
+                The build's rests on what the hunt's formula consumes — a claim
+                about an arithmetic, re-derived and true. The non-bar is
+                decoration on a load-bearing wall, not the wall.
+      EFFECT    CONFIRMED-WITH-CORRECTIONS rather than REFUTED, and the
+                correction is stated sharply enough to be actionable.
+
+AL-6  DID NOT READ ANY REGISTER, TRACKER, ROAD, PLAN, OR CONTINUATION FILE.
+      TAKEN     Identified STAGE8_LANE_STATUS.md in sweep C and skipped it.
+      ALTERNATIVE  Open it for the face-identification hit.
+      WHY       Commission rule. A scope rule, not an oversight.
+      EFFECT    Sweep C's characterisation rests on the four openable hits.
+```
+
+---
+
+## 11. TOY_SEPARATION
+
+```text
+WHAT IS ACTUAL SURFACE IN THIS AUDIT
+  - Every seal re-verified by shasum -c from the artifact's own directory, and
+    every digest recomputed rather than copied. ACTUAL.
+  - Every quotation checked against its full source span at bytes, to the span
+    end. ACTUAL.
+  - V003 :1002/:1010-1011, read at bytes from a seal-verified source. ACTUAL,
+    and it is this audit's load-bearing find.
+  - The void-condition columns of V001 :242 and V002 :208, read whole. ACTUAL.
+  - Re-run file counts and re-run sweep counts. ACTUAL.
+
+WHAT IS NOT SURFACE, AND IS MARKED AS SUCH WHEREVER IT APPEARS
+  - THE INSTRUMENT'S GRAPHS ARE ABSTRACT. Vertices and 1-cells. They are not
+    cells, carriers, complexes, or objects of the corpus. No finding in §3-§8
+    depends on identifying them with anything. They verify arithmetic that
+    sealed sources state; they add no content of the theory.
+  - NOTHING IN THE NET FAMILY IS ADOPTED. Every version is
+    PROPOSED_NOT_ADOPTED. This audit asserts nothing about whether the network
+    sourcing law holds, applies, or is available — and its central correction
+    C-3 is precisely that the build's ADMITS cell blurs that line.
+  - NEITHER GRAPH CATEGORY IS SELECTED HERE. The corpus declines to select; so
+    does this audit. C-1 records that V003 carries BOTH readings; it does not
+    say which is right.
+  - THE POST-CUTOFF ARTIFACT WAS NOT OPENED and nothing rests on it.
+  - THE BUILD'S SCRIPT WAS DIGESTED, NOT TRUSTED. Its output was reproduced
+    from an independently written instrument.
+
+NO JOINER WAS BUILT, PROPOSED, SKETCHED, OR RECOMMENDED HERE. No rule was
+authored. No adoption is urged. No category selection is made on the corpus's
+behalf. This audit displays what it verified and what it corrected.
+```
+
+---
+
+## 12. FLAG BLOCK
+
+```text
+AF-1  SEVERITY: MATERIAL — THE SUBJECT'S F-2 AND W-2 ARE REFUTED.
+      V003 :1011 carries the reciprocal two-edge cycle forward as the "Minimal
+      nonzero carrier", in V003's own comparison table, beside the tree row.
+      There is no reversion to explain. The build read a nineteen-line window
+      and generalised to the version. Its §12 "WHY NOBODY HAS A BETTER ONE"
+      loses one of its five grounds. See §6.
+
+AF-2  SEVERITY: MATERIAL — "CLAUSE A" IS NOT A CLAUSE OF THE RULE.
+      It is built from "V001 does not define a sum" — an absence of definition.
+      No in-degree condition appears in the void-condition column of V001 :242
+      or V002 :208. Consequences: §3.0's claimed "REAL STRUCTURAL RESULT" is a
+      theorem about a premise the build supplied; §3.2's "BARRED ... by Clause
+      A" should read UNDEFINED FOR THAT CASE; §12's second-order cause is not
+      of record. No scope-test table cell moves. See §4.3.
+
+AF-3  SEVERITY: MATERIAL — TEST (a)'s ADMITS APPLIES A LAXER STANDARD THAN THE
+      BUILD APPLIES TO (b) AND (c).
+      The display is real and sealed; it is also NOT AT LAW STRENGTH, the exact
+      status the hunt refuses to call "permitting". "NOT BARRED ANYWHERE" in the
+      verdict sentence, and the "So" in §12's SPECIFIC half, carry a non-bar
+      inferentially. P-3 sits under a "WOULD ALREADY PERMIT" heading on nothing
+      but a non-bar. See §3.
+
+AF-4  SEVERITY: NOTE — THE CAUSE IS A CONJUNCTION AND THE ARTIFACT SAYS SO IN
+      THREE INCOMPATIBLE WAYS. §2.4 is right ("TWO NODES PLUS SIMPLE COUNTING");
+      §0 and §12 are overstated ("V = 2 ALONE", "no content of the rule"),
+      against the O23SR audit's C3 which the build adopts at CL-5. See §4.2.
+
+AF-5  SEVERITY: NOTE — THREE QUOTATION DEFECTS, NONE IN THE BUILD'S FAVOUR.
+      "quoted whole" false for NET V002 §4.3; an unmarked elision inside the
+      hunt's trichotomy (b) header; "a complex" rendered "the complex" in a
+      census quotation. Plus added emphasis inside one verbatim quote and
+      several line spans off by a few lines. See §7.
+
+AF-6  SEVERITY: NOTE — ONE SWEEP DENOMINATOR WRONG AT BYTES (3,613 against an
+      actual 1,916), contradicting the build's own §7. See §9.1.
+
+AF-7  SEVERITY: NOTE — AN ARGUMENT FROM OMISSION OVER-CHARACTERISED. The hunt's
+      sweep answer enumerates OBSTRUCTIONS, not stratum occupants, and omits
+      G-10 (the working class) as well as G-9. The conclusion survives on
+      independent grounds. See §5.2.
+
+AF-8  SEVERITY: NOTE — SOURCES THE BUILD DID NOT CONSUME, FOUND HERE, THAT
+      CORROBORATE IT: GLUED_TOPOLOGY_CHECK_V001 (stratum verdicts survive) and
+      COMPOSITION_LOOP_STRUCTURAL_PREDICTION_BUILD_V001 (a would-build functor
+      out of K_square, flagged false). Both seals OK. Neither inverts anything.
+
+AF-9  SEVERITY: NOTE — THE BUILD'S INSTRUMENT IS NOT IN THE WORKSPACE. Its
+      declared sha256 was located and matches, but the artifact does not record
+      where the script lives. Recorded; nothing rests on it, because the
+      computation was redone independently.
+
+NO FENCE WAS APPROACHED.
+  alpha_computed = false        — no alpha quantity appears in this audit.
+  proof_authorized = false      — nothing here is offered as a proof. The
+                                  instrument verifies combinatorial arithmetic
+                                  about abstract graphs and proves nothing of
+                                  the theory.
+  kappa_record_computed = false — no kappa record was computed or referenced.
+  No value originates here as a program quantity. No measured constant appears.
+  No comparison to any measured quantity is made. No git operation was
+  performed. No joiner was constructed, proposed, or recommended.
+```
+
+---
+
+## 13. IMPORT AUDIT
+
+```text
+SUBJECT
+  520936a40636930772bba0cb4fd62437ed123d8b264cb07dc59e9444500258fe
+    STAGE8_CONTRACTIBILITY_SCOPE_O26SR_V001.md          seal -c OK, read whole.
+
+CONSUMED, SEAL VERIFIED OK (shasum -a 256 -c, from the artifact's own directory)
+
+  1892c08ec7afb683cec641bff6ac4b42d5ebb0be6313475dbf3549be229c755c
+    STAGE8_GLUED_TOPOLOGY_HUNT_V001.md
+    USED FOR: G-4 :196-206; G-9 :262-267; G-10 :269-271; the sweep answer
+              :274-281; :322-326; the trichotomy :336-370; :372-377; the
+              fence-class legend :165; the import line :56.
+
+  87f696261651567e04242abc1a54d5a2b457a19e07926e9e9856b02dc1719eb1
+    ..._NETWORK_SOURCING_LAW_ADOPTION_PROPOSAL_CODEX_LANE2_V001.md
+    USED FOR: the collision table :215-222; the choice-table header :237 and
+              row `N` :242 whole; NS-8 :332-348; NS-13 and the no-aggregation
+              paragraph :405-420; NS-14 :444-450.
+
+  9b2e42f8c1cf2791ce859ca8be64864dbce84d87a357426989db083b0db8641f
+    ..._V002.md   USED FOR: the choice-table header :201 and row `N` :208;
+              §3 :197-221; §4.2 :285-313; §4.3 WHOLE, :315-347.
+
+  51724fae30f6985d4dbf0b4df72a47d0c4ede8dfecdabfd8266d9a60e18296ec
+    ..._V003.md   USED FOR: :50-72; :194-218; §11 :1000-1018.  <- C-1's SOURCE
+
+  e8a4e8ff00fa68418210669e391649f2a2bf6d924994817766d3217baaae678e
+    ..._NETWORK_SOURCING_LAW_V002_RE_REVIEW_LANE1_V001.md
+    USED FOR: §5.1 :294-329 (S3-1, S3-2, S3-3 and the category paragraph).
+
+  7526710e0bb7ca7c43e1096fcbde0c374017a831a3b2452246a304b41db22348
+    STAGE8_INGREDIENT_CENSUS_O17SR_V001.md
+    USED FOR: A-1 :128-137; A-2 :139-147; B-4 :209-218; §2.3 :500-513;
+              §3.1 O11/O12 :571-585; :600-607; U-1 :655-661; U-3 :695-700.
+
+  aa38595e9aa49ec1a4ecdc76ba7a603e2c75b901e864f5d94bd80c2ccdd90b76
+    STAGE8_INGREDIENT_CENSUS_O17SR_AUDIT_V001.md   listed, not relied on.
+
+  7ab6e3ffd56ef67a22d31223cd844181fc80a3dc4260278b0eaf13d4ed2d69e8
+    STAGE8_GLUING_CANDIDATE_O23SR_V001.md
+    USED FOR: :682 only (its SWEEP 1 declared scope), to test W-3.
+
+  25e57946d2e3825ea1f8b022665a97cc82f3aa0215feb764a85f29614e17e498
+    STAGE8_GLUING_CANDIDATE_O23SR_AUDIT_V001.md
+    USED FOR: C3 at :244-285, to test the build's CL-5 and its §0 claim.
+
+  f1881511c8a93cca3d8eb45f71b3be901cf337c9ce9321da0004901bfded6647
+    STAGE8_MIN_CARRIER_CANDIDATE_V001.md
+    USED FOR: :398-412 and :876-890 only. The K_dd candidate is NOT relied on.
+
+  c1b5f87a9b8b468f6f2c116d281167105975adc9300a72fb02fe728346de1bf3
+    STAGE8_INDEX_VARYING_SETS_O20SR_V001.md
+    USED FOR: :515-536 only, to check the instrument-only declaration.
+
+  a22ef820c5e665cbf9a5c941d24be57efb06c9c921ee579e5291d0cdc65feaa3
+    STAGE8_GLUED_TOPOLOGY_CHECK_V001.md          NOT consumed by the build.
+    USED FOR: :98, :146, :288-289, :399 — corroboration of the stratum
+              verdicts. Opened at matched lines only.
+
+  5810377123b823e680891a3337855750ac8f362951dca048dad3a78a34c79d79
+    STAGE8_COMPOSITION_LOOP_STRUCTURAL_PREDICTION_BUILD_V001.md   NOT consumed
+    by the build. USED FOR: :318-336 only — the would-build functor flag.
+
+CROSS-ROOT, DIGESTED DIRECTLY IN THE SECONDARY ROOT
+  9b2e42f8...  NET V002              IDENTICAL to primary.
+  e8a4e8ff...  V002 lane-1 re-review IDENTICAL to primary.
+
+INSTRUMENT, NOT AN IMPORT
+  63b9f47fd7e551cb7cd9f890e9e3b1e60fc9a3ea946d630dfe67c09ece23fc73
+    o26sr_audit_cas.py — written by this audit, fresh venv, exit 0. Consumes no
+    corpus bytes. Produces no corpus content.
+  545b0c1d5d448c4a074c38895d8d9be4427cca9044ec3702e8ec241e24075f25
+    o26_cas.py — the build's script. DIGESTED ONLY. Not executed, not relied on.
+
+NOT CONSUMED
+  Every register, tracker, road, plan, and continuation file: NEVER OPENED.
+    Identified and skipped: STAGE8_LANE_STATUS.md.
+  Everything under supervision/: NEVER LISTED, NEVER OPENED.
+  STAGE8_JOIN_ADMISSIBILITY_O28SR_V001.md: POST-CUTOFF, not opened (§5.5).
+  NET V004: not opened.
+  Q-items: EXPECTED-UNLOCATABLE, not pursued.
+```
+
+---
+
+## 14. DETERMINATION
+
+```text
+PER DELIVERABLE
+
+  §2  THE CAUSE, ISOLATED                    CONFIRMED-WITH-CORRECTIONS
+      The arithmetic decomposition is right and was re-derived. The cause is a
+      CONJUNCTION — the rule's selected two-node scope AND the hunt's simple
+      counting — not "the counting category and nothing deeper" (AF-4). The
+      claimed second-order cause rests on a manufactured clause (AF-2).
+
+  §3  THE SCOPE TEST                         CONFIRMED-WITH-CORRECTIONS
+      (a) The affirmative display is REAL, re-verified at bytes and re-derived
+          symbolically. The CELL is wrong: a sealed, UNADOPTED display is not
+          the surface admitting, on the build's own rule and the hunt's own
+          law-strength standard (AF-3).
+      (b) SILENT — CONFIRMED. The reasoning offered for the "barred by the
+          rule" footnote is not of record for the reciprocal case (AF-2); the
+          directed case's Clause R IS of record and stands.
+      (c) SILENT, counted at bytes in both directions — CONFIRMED, and the
+          sweep count re-ran identically.
+
+  §4  THE CYCLE-CONTENT QUESTION             CONFIRMED
+      Strata verified at bytes. Three bridges sought, three absent — re-checked
+      independently in both roots, plus two corroborating sources the build
+      never opened. NO MISSED BRIDGE; THE FINDING IS NOT INVERTED. One route
+      correction only (AF-7).
+
+  §5.1 THE SPECIFIC HALF / DELIVERABLE (5)   CONFIRMED-WITH-CORRECTIONS
+      W-1, W-3, W-4, W-5 hold at bytes. W-2 IS REFUTED (AF-1). P-3 does not
+      belong under a "would already permit" heading (AF-3).
+
+  §5.2 THE GENERAL HALF / DELIVERABLE (4)    CONFIRMED
+      Every ground is a surface-level display, quoted correctly, with the
+      correct modality — an absence, not a bar. Hunt (C) does not hit. One
+      one-word misquotation, corrected (AF-5).
+
+  §6  THE INSTRUMENT                         CONFIRMED
+      Every output line reproduced in a fresh venv by an independently written
+      instrument, by two routes rather than one. Exact over Z/Q. One false
+      sentence in §3.0's in-degree/undirected-degree equality, disclosed.
+
+  §7  SWEEPS AND CUTOFF                      CONFIRMED-WITH-CORRECTIONS
+      SWEEP 2 and SWEEP 3 counts re-ran EXACTLY. Root .md counts re-counted and
+      exact. One denominator wrong at bytes (AF-6).
+
+  §8  CHOICE LEDGER                          CONFIRMED-WITH-CORRECTIONS
+      CL-2 claims the version family was swept for content; V003 §11 was not
+      opened, and that is where C-1 lives.
+
+  §9  TOY_SEPARATION                         CONFIRMED
+  §10 FLAG BLOCK                             CONFIRMED-WITH-CORRECTIONS — F-2
+                                             REFUTED (AF-1).
+  §11 IMPORT AUDIT                           CONFIRMED — every seal re-verified,
+                                             every digest recomputed and matched.
+  §12 DETERMINATION                          CONFIRMED-WITH-CORRECTIONS
+
+OVERALL                                      CONFIRMED-WITH-CORRECTIONS
+```
+
+```text
+THE AUDIT'S OWN PLAIN STATEMENT
+
+The artifact's central find is TRUE and is better supported than the artifact
+knew: the sealed proposal family counts one reciprocal two-node network in two
+ways, and the hunt's dismissal was written against the version that carries only
+the first. Re-derived here symbolically in both categories and by both the
+homological and cohomological routes; the two spans the whole artifact rests on
+are exact to their span ends; the cross-root identity holds by digest.
+
+What the artifact got wrong, it got wrong by reading too narrowly and by
+applying its own best rule unevenly. It flagged as an "unexplained reversion"
+a document that in fact carries its own thesis forward — because it read
+nineteen lines of it. It refused to read silence as permission on two of three
+tests, then read an absence of definition as a prohibition on the third. And it
+entered ADMITS for a display it elsewhere insists is not adopted.
+
+None of that reaches the finding. The dismissal's stated ground IS
+convention-dependent. The surface does NOT thereby permit a non-contractible
+joiner. Both halves of that sentence are needed, and the artifact states the
+first more firmly than it states the second.
+```
+
+```text
+END STAGE8_CONTRACTIBILITY_SCOPE_O26SR_AUDIT_V001
+COMMISSION O26SR — SCOPE-AUDIT — 2026-08-15 — DETERMINATION ONLY
+SWEEP CUTOFF 2026-08-15
+```
