@@ -822,7 +822,7 @@ carried), while the MAGNITUDE sits allow-side (the two-model conservativity theo
 displayed clauses admit models agreeing on every clause and differing on the junction — a
 permission, not a force; the exhaustive route partition: no require on this ground reaches the
 magnitude, so it enters only authored-under-mandate or by new ground). Classical gravity shows the
-same split — field-equation form principled, the coupling G an undeived input — but left the line
+same split — field-equation form principled, the coupling G an underived input — but left the line
 implicit. The record draws it as a theorem. The principal's framing of record (2026-08-15): "The
 record didn't inherit that split from classical gravity; it reproduced it from its own theorems.
 That resonance may be the first fingerprint of the relationship itself. It is an important part of
