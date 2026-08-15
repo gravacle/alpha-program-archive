@@ -10,11 +10,12 @@ both existing carriers, FORCED live on the named debts, RUNS an unforced lean. T
 below IS the upgrade map. Standing authorization (2026-08-14): items proceed serially and
 autonomously; the registrar stops only at [YOURS] items and fences.
 
-○ 2. r-3 RESIDUE — ONE QUESTION LEFT: MO-4-R (Q-1098 — does the near-¼
-      eigenvector class of Y_nY_n† carry an o(1) fraction of the bulk Gram
-      mass?). The identity DERIVED; MO-3 supplied as corollary (sub-volume
-      n^{3/2} rate); MO-2 done; the ratio exact: ρ_n√n. Decides → r-3 closes
-      → R-L4b discharges → witnesses retire. [lane]
+○ 2. r-3 RESIDUE — MO-4-R REDUCED (Q-1105: undecidability FORCED on sealed
+      stock — rank-2 witness pair; the Gram transfer delivers
+      F_n(ε) ≤ 2κ_n/((1−4ε²)c_G n^{3/2})). Deciders named: O-1 the sub-3/2
+      clock ceiling (⇒ o(1), r-3 closes → R-L4b discharges → witnesses
+      retire) / O-2 the localization package (⇒ not-o(1)). O-1 attack
+      firing (T5SR). [lane]
 ○ 4. THE HALF-PLANE LOCALIZATION — RUN (Q-1077: NOT-DERIVABLE-TODAY; delivered
       the n-uniform disc bound |det(CV_pC)| ≤ 1 exact + conditional slice
       nonvanishing Z_hat ≥ 1/2 on R-L4a/b + C-L2). Corrected residue: layer 1 =
@@ -41,7 +42,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       diagonal class. Per-composite quantifier untouched (its four stand
       UNDECIDED at their own quantifier; V-2 uncrossed). Remaining routes
       there: assembly cancellation / region cumulants / the Gram transfer
-      (Q-1098). [lane — the log-free rate is the next attack]
+      (Q-1098). RATE REDUCED (Q-1106: the one-vertex trace-parity lemma
+      proved, audited to all lengths; the rate decided by the DEGREE-3
+      ANGULAR CENSUS — all-even ⇒ certified at degree −4; nonzero
+      displayed-moment sum ⇒ log genuine). Census firing (T6SR). [lane]
 ▶ 8. THE GRAVITY CARRIERS — TRIAGED (Q-1078): ZERO buildable by lanes; the
       close passes through exactly one of THREE PRINCIPAL ACTS — ACT-1 member
       adoption (nine rows; the sector-reduction arrow named), ACT-2 the held
@@ -82,6 +86,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1104 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1106 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
