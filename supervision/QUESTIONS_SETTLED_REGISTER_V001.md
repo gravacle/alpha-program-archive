@@ -17904,6 +17904,12 @@ alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 3df78596, 09443609, a9c2992c (Q-1067's instrument). Q-980–Q-1094 carried. REOPEN: a principal amendment pre-completion; the docket completing (the instrument fires).
 
+## Q-1096 — PIN-2-H FIXED: READING R-A, THE REVERSAL ARMED (THE PRINCIPAL'S ACT ON THE ONE FREE PIN; STRICT-FIRST ON PRINCIPLED GROUND, THE FALLBACK LAWFUL-NOT-SILENT): **(JD-3)'s WORDS ARE A SEMANTIC MEMBERSHIP CLAUSE — A MEMBER'S RULE MUST GENUINELY BE AN EVALUATION ON THE CELLS; THE ZERO FUNCTIONAL IS NOT A MEMBER DATUM; THE DEGENERATE H-TAIL COMPLETION IS UNAVAILABLE; THE REVERSAL CONDITION SEALED WITH THE FIXING — IF R-A IS EVER SHOWN TO EXCLUDE EVERY MEMBER WHILE R-B OBJECTS EXIST, THE RE-FIX RETURNS TO THE PRINCIPAL AS A NAMED EVIDENCE-DRIVEN DECISION; NO SILENT FALLBACK; ALL THREE PINS NOW DISPOSED — TWO AND A HALF FORCED BY BYTES, ONE HALF FIXED BY PRINCIPLED ACT** (2026-08-15)
+
+**Answer: the last open reading closes strict-first — with the principal's own sequencing instinct ("test the strict one, fall back if it fails") translated into the record's falsifier pattern rather than the outcome-shopping it must never become.** Instrument: PIN2H_READING_RA_FIXED_2026-08-15.md (1a927ea1). Grounds: conformance-over-convenience (the sector-pin precedent) + the anti-hollowness consideration (an R-B zero-map member would formally feed the gravity criteria with empty content — the manufactured-pass shape). The reversal armed as part of the act: the named finding (R-A empties everything AND R-B objects exist, both at bytes) returns the reading to the principal; nothing auto-relaxes. CONSEQUENCES: OB-2's payoff Combination 2 is operative (the H-tail quantifier semantically strict; the open surface wider on the H side, per the sealed display); the member proposal is unimpaired (already R-A-shaped); the semantic-pin territory is now FULLY DISPOSED — no reading question remains open anywhere in the member root.
+
+alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 1a927ea1, 09047c2a/abe71688 (the pin pair), c8053f6c (OB-2). Q-980–Q-1095 carried. REOPEN: the reversal's named finding (both halves at bytes — returns to the principal); a sealed byte cashing out the predicate directly (would supersede the fixing by forcing).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
