@@ -658,3 +658,328 @@ it is disqualified on domain and on an input the census counts at zero.
 ```
 
 ---
+
+## 7. DECLARED SCOPED SWEEPS AND SWEEP CUTOFF
+
+```text
+SWEEP CUTOFF: 2026-08-15, commission O23SR. Filesystem state as of this run.
+              Nothing entering either root after this timestamp is covered.
+
+ROOTS DECLARED AND USED
+  PRIMARY   /Users/bgm/MB Work/alpha-program-archive/workspace
+  SECONDARY /Users/bgm/Documents/New project/gravity_emergence_evidence_program/
+            alpha_fundamental_record_action_cleanroom_v003
+  NOT SWEPT /Users/bgm/MB Work/alpha-program-archive/supervision
+            Out of declared corpus roots. Names surfaced incidentally in a
+            filename search; NO file under it was opened. In particular the
+            DoR-016 ratification document was NOT read — it is out of root, and
+            the adoption gate is typed in §4 from in-root bytes only.
+
+SWEEP 1 — NET VERSION FAMILY (declared, scoped)
+  QUESTION  Is the census's PROPOSED_NOT_ADOPTED status current, and does any
+            later version lift the two-node instantiation?
+  SCOPE     STAGE8_TASK4A_NETWORK_SOURCING_LAW_ADOPTION_PROPOSAL_CODEX_LANE2_
+            V001..V004, status lines and node-count lines only.
+  RESULT    Status identical in all four (§4.1). No later version instantiates
+            beyond the two-node class; "larger graph" remains in V002's
+            "Live alternatives" column.
+
+SWEEP 2 — §1.B EIGHT-ROW NEIGHBOURHOOD (declared, scoped)
+  QUESTION  Are there sibling objects of the joining signature among the six
+            rows U-3 never checked?
+  SCOPE     All eight rows of the census's §1.B, plus the census's own §4 entries
+            for those rows; primary bytes consulted only where load-bearing
+            (B-6 source, B-8 source).
+  RESULT    §6.4. One find of signature (B-6), disqualified on domain and on a
+            record-side input the census counts at zero. No second joiner.
+
+SWEEP 3 — NET IDENTITY (declared, scoped)
+  QUESTION  Which artifact is "NET 87f69626"?
+  SCOPE     shasum -a 256 over the four proposal versions, matched against the
+            hunt's own import line :56.
+  RESULT    V001, uniquely. Recorded in §1.
+
+NOT SWEPT, BY RULE
+  No register, tracker, road, plan, or continuation file was opened at any point.
+  "Q-..." items (e.g. Q-335, Q-333 appearing inside quoted NET table cells) are
+  EXPECTED-UNLOCATABLE and were not resolved, not followed, and not relied on.
+```
+
+---
+
+## 8. CHOICE LEDGER
+
+Every choice this commission made that could have gone otherwise, with the reason
+and the alternative not taken.
+
+```text
+CL-1  RESOLVED NET BY HASH, NOT BY NAME.
+      TAKEN     Matched the hunt's import hash 87f69626 against all four versions.
+      ALTERNATIVE  Accept the audit's naming of V001.
+      WHY       Four versions exist; the audit's identification is correct but
+                unverified at hash in its own text. Name-matching would have been
+                a coin-flip dressed as a citation. Hash-matching is decisive.
+      EFFECT    Confirmed the audit. Also produced SWEEP 1, which the audit
+                did not run.
+
+CL-2  READ THE SOURCE SPAN AT ITS OWN BYTES RATHER THAN VIA THE AUDIT'S REQUOTE.
+      TAKEN     sed on STAGE8_GLUED_TOPOLOGY_HUNT_V001.md :262-267 directly.
+      ALTERNATIVE  Quote the audit quoting the source.
+      WHY       The whole commission is about a clause damaged in transmission.
+                Adding a third hop would repeat the failure under study.
+      EFFECT    Confirmed the audit's requote is faithful, and established that
+                the source's casing is lowercase (the audit's caps are its own
+                declared emphasis) — a detail no requote preserved.
+
+CL-3  TREATED THE COMMISSION'S OWN PARAPHRASE AS A TRUNCATION TO BE RESTORED.
+      TAKEN     Restored "into a contractible object" and decided polarity on the
+                full clause.
+      ALTERNATIVE  Answer the polarity question as posed, on the truncated clause,
+                and report genuine ambiguity.
+      WHY       The commission said "in substance" and directed that the source
+                decide from its own surrounding sentences. The source's sentence
+                does not end where the paraphrase ends. Answering on the truncation
+                would have manufactured an ambiguity the bytes do not contain.
+      EFFECT    THIS IS THE DECISION THAT DETERMINES DELIVERABLE ONE.
+
+CL-4  SPLIT POLARITY INTO FORCE vs PREDICATE INSTEAD OF PICKING ONE READING.
+      TAKEN     Force = concession; predicate = capability, asserted.
+      ALTERNATIVE  Declare (ii) correct and (i) wrong, full stop.
+      WHY       (i)'s factual core is affirmed at bytes — the object DOES glue.
+                Flatly choosing (ii) would have erased a true assertion of the
+                source and re-committed the census's original error in the
+                opposite direction.
+      EFFECT    Both readings are graded on their parts (§2.2) rather than one
+                being discarded.
+
+CL-5  DESCENDED TO NET V001's OWN BYTES FOR THE COUNT QUESTION.
+      TAKEN     Read :340-347 and :892-893.
+      ALTERNATIVE  Answer "is two a limit of object or display" from the hunt
+                and census alone.
+      WHY       Neither the hunt nor the census addresses instantiation scope.
+                The question is unanswerable above NET's own bytes.
+      EFFECT    §3.3, the sharpest finding in the typing, and one neither prior
+                artifact reaches.
+
+CL-6  DID NOT READ THE DoR-016 RATIFICATION DOCUMENT.
+      TAKEN     Left it unopened; typed the gate from in-root bytes.
+      ALTERNATIVE  Open it for a direct statement of the adoption gate.
+      WHY       It is outside the two declared corpus roots. Its relevance is
+                obvious and its exclusion is a scope rule, not an oversight.
+      EFFECT    §4.2 rests only on NET's own status lines and door ledger. The
+                gate is nonetheless determinable from those.
+
+CL-7  REPORTED THE HUNT'S OMISSION OF G-9 FROM ITS OWN STRATUM SUMMARY (D-6).
+      TAKEN     Recorded as an unresolved typing.
+      ALTERNATIVE  Infer NET's stratum from its subject matter.
+      WHY       Inferring a stratum is exactly the kind of unlicensed typing this
+                commission exists to catch. The record does not say; so this says
+                the record does not say.
+      EFFECT    D-6 is a named gap, not a filled one.
+
+CL-8  RANKED B-6 AS A FIND WHILE DISQUALIFYING IT.
+      TAKEN     Reported it prominently, then disqualified on two record grounds.
+      ALTERNATIVE  Omit it — it is not a cell-joiner, so arguably not responsive.
+      WHY       The commission asked for siblings OF THE SAME SIGNATURE that an
+                eight-row check would have missed. B-6 is the only row that
+                answers that description on shape. Suppressing it because it
+                fails on domain would have hidden the sweep's one real result.
+```
+
+---
+
+## 9. TOY_SEPARATION
+
+```text
+WHAT IS ACTUAL SURFACE HERE
+  - The clause at bytes, and its polarity. Determined from a seal-verified
+    source read directly. ACTUAL.
+  - The signature of B-8 / G-9 / NET V001. Read from two seal-verified sources
+    and the object's own seal-verified bytes. ACTUAL.
+  - The unadopted status and its three stated grounds. Quoted. ACTUAL.
+  - The eight-row neighbourhood result. A complete sweep of a finite, enumerated
+    list. ACTUAL.
+  - The count-is-display finding (§3.3). Quoted from NET V001 :347. ACTUAL.
+
+WHAT IS NOT SURFACE, AND IS MARKED AS SUCH EVERYWHERE IT APPEARS
+  - THE OBJECT ITSELF IS NOT ADOPTED LAW. Everything typed here describes a
+    PROPOSAL. No statement in this artifact asserts that the network sourcing
+    law holds, applies, or is available for use. It is typed, not relied on.
+  - THE GENERAL EDGE FAMILY (NS-8) IS NOT BUILT. It is subjunctive in its own
+    source and is displayed here only as the content of an unselected option.
+  - THE H^1 VALUES ARE THE SOURCE'S DISPLAY, NOT THIS COMMISSION'S COMPUTATION.
+    Nothing was recomputed. No cohomology was calculated here.
+  - D-1..D-6 ARE NAMED GAPS. None is closed, narrowed, or costed here. Naming a
+    gap is not progress across it.
+  - THE STRATUM OF NET IS UNTYPED OF RECORD (D-6) and is left untyped.
+
+NO TOY WAS BUILT, RUN, OR REPORTED. No model, no instance, no worked example, no
+demonstration graph. This artifact contains no constructed object of any kind.
+Every structure named in it was read from a sealed source.
+```
+
+---
+
+## 10. FLAG BLOCK
+
+```text
+F-1  SEVERITY: NOTE.
+     The clause under commission reached this artifact through TWO successive
+     truncations (§2.3). The first was caught by the audit; the second is the
+     paraphrase in the commission's own framing, flagged by the commission itself
+     as "in substance." Both are now restored. NO DEFECT IS ASSERTED AGAINST THE
+     AUDIT, which carried the clause whole.
+
+F-2  SEVERITY: MATERIAL — UNVERIFIABLE SEAL ON A CONSUMED SOURCE.
+     LOCAL_PROJECTIVE_RECORD_BUNDLE_V001.md — the source for row B-6, this
+     commission's one neighbourhood find — HAS NO SIDECAR IN EITHER CORPUS ROOT.
+       workspace  : LOCAL_PROJECTIVE_RECORD_BUNDLE_V001.md.seal.sha256  ABSENT
+       cleanroom  : no sidecar present for this file
+     `shasum -a 256 -c` therefore COULD NOT BE RUN on it. Every other consumed
+     source verified OK.
+     MITIGATION APPLIED, NOT A SUBSTITUTE FOR A SEAL: the two copies are
+     byte-identical across both roots, both hashing to
+       b96bef557c150015cf9c0c523f63f4eb53ffe45051b01db9d8b86fe109805645
+     Cross-root agreement is corroboration, NOT verification. B-6's typing in
+     §6.2 is marked accordingly and should be treated as resting on an
+     unverified source.
+
+F-3  SEVERITY: MATERIAL — UNRESOLVED TYPING IN A CONSUMED SOURCE.
+     The hunt enumerates the physical-stratum position row by row (G-1, G-2, G-3,
+     G-4, G-5, G-8) and OMITS G-9 from that enumeration, while explicitly
+     stratum-typing K_square and K_L. NET's stratum is therefore not of record.
+     Carried as D-6. Not resolved here; resolving it would require a typing this
+     commission is not authorized to make.
+
+F-4  SEVERITY: NOTE — SCOPE EXCLUSION AFFECTING §4.
+     The DoR-016 ratification document exists in supervision/, outside the
+     declared roots, and was not read (CL-6). §4's account of the adoption gate is
+     complete from in-root bytes, but a reader should know a directly on-point
+     out-of-root document exists.
+
+F-5  SEVERITY: NOTE — CENSUS ROW B-8 STANDS UNCORRECTED.
+     This artifact does not amend the census. It types the object the census
+     under-typed. The census's B-8 continues to record the output side as
+     combinatorial data with the gluing statement absent.
+
+F-6  SEVERITY: NOTE — Q-ITEMS.
+     Q-335 and Q-333 appear inside quoted NET table cells. EXPECTED-UNLOCATABLE
+     by commission rule. Not resolved, not followed, not relied on.
+
+NO FENCE WAS APPROACHED.
+  alpha_computed = false        — no alpha quantity appears in this artifact.
+  proof_authorized = false      — nothing here is offered as a proof.
+  kappa_record_computed = false — no kappa record was computed or referenced.
+  No value originates here. No measured constant appears. No comparison to any
+  measured quantity is made. No git operation was performed.
+```
+
+---
+
+## 11. IMPORT AUDIT
+
+```text
+CONSUMED, SEAL VERIFIED OK (shasum -a 256 -c, run from the artifact's own directory)
+
+  7526710e0bb7ca7c43e1096fcbde0c374017a831a3b2452246a304b41db22348
+    STAGE8_INGREDIENT_CENSUS_O17SR_V001.md
+    USED FOR: row B-8; all eight §1.B rows; §4 unpaired entries; §2/§3 verdicts.
+
+  aa38595e9aa49ec1a4ecdc76ba7a603e2c75b901e864f5d94bd80c2ccdd90b76
+    STAGE8_INGREDIENT_CENSUS_O17SR_AUDIT_V001.md
+    USED FOR: identification of the elided span; U-3's two-row check; the B-2
+              scope correction carried in §6.3.
+
+  1892c08ec7afb683cec641bff6ac4b42d5ebb0be6313475dbf3549be229c755c
+    STAGE8_GLUED_TOPOLOGY_HUNT_V001.md            *** THE SOURCE ***
+    USED FOR: the clause itself (:262-267); G-4/G-5 typing; the sweep answer;
+              the named constructor O11+O12 (:359-369, :372-377); import line :56.
+
+  87f696261651567e04242abc1a54d5a2b457a19e07926e9e9856b02dc1719eb1
+    STAGE8_TASK4A_NETWORK_SOURCING_LAW_ADOPTION_PROPOSAL_CODEX_LANE2_V001.md
+    USED FOR: spans 9c6c594b [80,162) and 6a74a4fa [18095,18214) read at byte
+              offsets; :242 row N; :332-347 edge transport and NS-8; :757;
+              :888-893; §10 door ledger and heading; §11 conditional package.
+
+  9b2e42f8c1cf2791ce859ca8be64864dbce84d87a357426989db083b0db8641f
+    ..._V002.md   USED FOR: status lines :3, :12, :142; §3 choice table
+                            :196-210 including the "Live alternatives" column.
+  51724fae30f6985d4dbf0b4df72a47d0c4ede8dfecdabfd8266d9a60e18296ec
+    ..._V003.md   USED FOR: status lines :3, :12, :166 only.
+  69f4d93b9f84075a3112fb011b9838f380fb8c0341610572170cf7a13d5aed08
+    ..._V004.md   USED FOR: status lines :3, :12, :176 only.
+
+CONSUMED, SEAL NOT VERIFIABLE — SEE FLAG F-2
+  b96bef557c150015cf9c0c523f63f4eb53ffe45051b01db9d8b86fe109805645
+    LOCAL_PROJECTIVE_RECORD_BUNDLE_V001.md   NO SIDECAR IN EITHER ROOT.
+    USED FOR: B-6 bytes :16-43 (lift, transition functions, triple-overlap
+              cocycle, line-bundle statement).
+    Byte-identical across workspace and cleanroom. Corroborated, NOT verified.
+
+NAMES ONLY — LISTED, NEVER OPENED
+  ..._CROSS_REVIEW_LANE1_V001.md
+  ..._V002_RE_REVIEW_LANE1_V001.md
+  ..._V003_RE_REVIEW_LANE1_V001.md
+  ..._V004_FINAL_REVIEW_LANE1_V001.md
+  Cited in §4.3 as evidence of repeated consideration ON THE BASIS OF THEIR
+  EXISTENCE AND NAMES ALONE, obtained from a directory listing. NO CONTENT from
+  any of these four was read or relied upon. No verdict in this artifact depends
+  on what they say.
+
+NOT CONSUMED
+  Every register, tracker, road, plan, and continuation file: NEVER OPENED.
+  Everything under supervision/: NEVER OPENED (out of declared roots).
+  Q-items: EXPECTED-UNLOCATABLE, not pursued.
+```
+
+---
+
+## 12. DETERMINATION, IN ONE BLOCK
+
+```text
+POLARITY   CONCESSION. The clause concedes SUFFICIENCY, not CAPABILITY.
+           At bytes it reads "Even if adopted, it glues two cells INTO A
+           CONTRACTIBLE OBJECT." The joining predicate is ASSERTED; the dismissal
+           rides on the yield's topology (H^1 = 0, the source's own display), not
+           on the number two. NOT AMBIGUOUS AT BYTES — the apparent ambiguity is
+           an artifact of truncation, and both truncations are restored in §2.3.
+
+SIGNATURE  RULE (map). TAKES two cells on matched carriers. YIELDS two cells
+           joined by one reciprocal edge pair, Adj_2 = [[0,1],[1,0]], no
+           self-edge, one-tier delayed. It is the only object in the census's
+           §1.B that takes cells and yields a joined structure.
+
+THE COUNT  A LIMITATION OF THE DISPLAY, self-declared: "V001 instantiates only
+           the matched two-node class." Not a structural ceiling — but the
+           general form (NS-8) is subjunctive and its intertwiners are expressly
+           unselected, and "larger graph" sits unselected in a live-alternatives
+           column. Display-limited, and the display is all there is.
+
+STATUS     PROPOSED_NOT_ADOPTED, PENDING PRINCIPAL RATIFICATION, DoR-016/017
+           RESERVED — identical across all four versions. The adopting act is a
+           PRINCIPAL ACT (ratification), NOT a derivation and NOT a check: the
+           proposal passes its own checks ("PASS_WITHIN_PROPOSAL ONLY") and the
+           status does not move. Non-adoption is GROUNDED, not incidental: three
+           grounds of record (§4.3), against four versions and four reviews.
+
+DISTANCE   Five named items and one unresolved typing (D-1..D-6). The nearest is
+           topological, not procedural: the yield is a tree, a cycle needs both
+           the rule's excluded self-edge and a scope past two nodes, and O11,
+           O12, and the connected-composition obligation are all undischarged.
+           ADOPTION CLOSES NONE OF THEM.
+
+NEIGHBOUR- Eight rows checked, all eight. NO SECOND JOINER. B-6 is the sole
+HOOD       gluing-shaped sibling (line-bundle cocycle on patch overlaps) and is
+           disqualified twice over: wrong domain, and an input the census counts
+           at zero. B-7 is the corpus's explicit negative. B-3 and B-4 yield a
+           gluing's raw material and glue nothing.
+```
+
+**NOTHING IN THIS ARTIFACT ADOPTS ANYTHING, RECOMMENDS ANY ADOPTION, OR ARGUES
+FOR ONE. The object is displayed and typed. Its adoption is a principal act,
+reserved, and this commission takes no position on it whatsoever.**
+
+```text
+END STAGE8_GLUING_CANDIDATE_O23SR_V001
+COMMISSION O23SR — GLUING-BUILD — 2026-08-15 — DETERMINATION ONLY
+```
