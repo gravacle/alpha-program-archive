@@ -839,3 +839,27 @@ require-side half); Task 7's Einstein-limit work showing the split is a limit ar
 structural. Companion: OBS-22 (the same locus, the two maps); the allow/require boundary law
 (permissions never force a number; a unique require forces too) is the grammar this observation
 instantiates at the junction.
+
+## OBS-23 — ADDENDUM 1 (2026-08-15, post-close: the line EXERCISED, not merely drawn)
+The principal's instruction of record: this observation must be clearly in the record —
+"classical physics sits in precisely the same position without ever admitting it: nobody derives
+G either... The record just made explicit the line classical gravity always had." The
+strengthening since OBS-23's registration, computed anchors both sealed the same day: (i) THE
+CLOSE VERIFIED THE LINE AT CONTENT (Q-1114): the assembled gravity close, swept hostile by two
+independent checkers, displays that no require reaching the magnitude arrived from the record's
+entire carrier track — the allow-side standing is no longer only the vacancy theorem's statement
+but an exhaustively checked property of the close's actual content; (ii) THE PERMISSION WAS
+EXERCISED IN THE OPEN (Q-1115): Act 5 resolved AUTHOR — the magnitude enters by the principal's
+informed, sealed, of-record word through the mandate lane (deferral → close → informed decision →
+frozen authored candidate → opposite-lane check → separate ratification), every step a sealed
+instrument. THE CONTRAST NOW COMPLETE: classical physics entered G silently, with no such chain,
+and never displayed that a permission was being exercised; this record drew the line as a theorem,
+verified it at content, and then crossed it in the open with the full decision chain on the
+public record. If the resonance of OBS-23 holds, this is its sharpest form: what distinguishes
+the record from classical gravity at the coupling is not the physics of the magnitude but the
+HONESTY OF ITS ENTRY. Kill conditions: OBS-23's own four carry over unchanged; additionally, the
+mandate's clause-2 dissolution (a target-independent derivation later selecting the authored
+content) would UPGRADE rather than kill this observation — the permission would prove to have
+been a require, and the entry chain would have displayed that too. Companion: OBS-22, OBS-23;
+the allow/require boundary law.
+
