@@ -10,11 +10,11 @@ both existing carriers, FORCED live on the named debts, RUNS an unforced lean. T
 below IS the upgrade map. Standing authorization (2026-08-14): items proceed serially and
 autonomously; the registrar stops only at [YOURS] items and fences.
 
-○ 2. r-3 RESIDUE — ONE OBJECT LEFT: MO-4 (the product-level cancellation
-      identity). MO-2 DERIVED (Q-1094: κ_n ≥ C_*n/8, exponential collapse of
-      record); MO-3 closed negatively (Q-1089); the refuting-branch adjudication
-      DONE (Q-1093). MO-4 lands → R-L4b discharges → the three E1 witnesses
-      retire. Witnesses stand meanwhile. [lane]
+○ 2. r-3 RESIDUE — ONE QUESTION LEFT: MO-4-R (Q-1098 — does the near-¼
+      eigenvector class of Y_nY_n† carry an o(1) fraction of the bulk Gram
+      mass?). The identity DERIVED; MO-3 supplied as corollary (sub-volume
+      n^{3/2} rate); MO-2 done; the ratio exact: ρ_n√n. Decides → r-3 closes
+      → R-L4b discharges → witnesses retire. [lane]
 ○ 4. THE HALF-PLANE LOCALIZATION — RUN (Q-1077: NOT-DERIVABLE-TODAY; delivered
       the n-uniform disc bound |det(CV_pC)| ≤ 1 exact + conditional slice
       nonvanishing Z_hat ≥ 1/2 on R-L4a/b + C-L2). Corrected residue: layer 1 =
