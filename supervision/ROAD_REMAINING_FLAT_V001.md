@@ -49,9 +49,11 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       STATE (2026-08-15): ACT-2 RETIRED BY DERIVATION (Q-1087: VACANCY-CLOSED
       by proof — no derived junction exists on this ground; any future junction
       is authored physics by theorem, merged into the Rule-2 door). R10-R14's
-      sole route = ACT-3 (proof-backed). Member root: the three semantic pins
-      in determination (running); ACT-1 returns per their outcome. U1/U2 seals
-      DONE (Q-1082/Q-1083). [YOURS at ACT-3 + the free pins; lane at the rest]
+      sole route = ACT-3 (proof-backed; presentation in assembly). Pins ALL
+      DISPOSED — 2.5 forced, PIN-2-H fixed R-A with the reversal armed
+      (Q-1088/Q-1096); member root reduced to ONE NAMED BIT — R_K/L_T
+      (Q-1100), determination RUNNING (commission T1SR); ACT-1 returns per its
+      outcome. U1/U2 seals DONE (Q-1082/Q-1083). [YOURS at ACT-3; lane at the rest]
 ○ 11. ACT 4 — the DoR-013/014 falsifier: AVAILABLE INSTRUMENT, not a required
       act (reclassified at the principal's question, 2026-08-14 — the composition
       debt has two other routes in motion; commissioning + firing happen on his
@@ -75,6 +77,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1081 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1100 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
