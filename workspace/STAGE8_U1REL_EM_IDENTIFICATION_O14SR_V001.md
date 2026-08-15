@@ -718,7 +718,7 @@ STAGE8_OBSTRUCTION_ORIGIN_O6SR_V001.md (seal OK) :472-487 (VERBATIM)
        FAIL. The theorem does not apply.
      CONSTANT (PURE-GAUGE) POTENTIAL: d/dx = 0, translation invariance
        RESTORED — the blocker returns exactly when the gauge field is trivial."
-:499-501
+:500-501
   "GAUGE STRUCTURE SITS ON THE ESCAPE SIDE OF THIS BLOCKER, NOT ITS ORIGIN SIDE."
 :1489-1492 (flag block)
   "BLOCKER_ORIGIN_FP3 = GENERIC( symmetry: translation invariance; survives on
@@ -772,7 +772,7 @@ STAGE8_PARTITION_THEOREM_T16SR_V001.md (seal OK) :175-180 (VERBATIM)
   "(I) REQUIRE-HALF. In EVERY model of Σ, the quantization class holds: every
    sector/winding label admissible under Σ4's single-valued closure lies in ℤ —
    exactly ℤ, no more — and the definitional pair {+1, −1} inhabits it."
-:157-158, claim (III)(a) (VERBATIM)
+:159-160, claim (III)(a) (VERBATIM)
   "(III) EXCLUSIVITY. No model of Σ places them otherwise: (a) no model places
    the quantization class allow-side"
 :267-269, COR-1 (VERBATIM)
@@ -863,7 +863,7 @@ UNDER NO:
 ### §4.4 D-4 — O4SR's OWN CHOICE CH-3
 
 ```text
-STAGE8_EM_PARTICIPATION_O4SR_V001.md :513-527, CHOICE LEDGER (VERBATIM excerpt)
+STAGE8_EM_PARTICIPATION_O4SR_V001.md :865-876, CHOICE LEDGER (VERBATIM excerpt)
   "CH-3 SCORING Sigma4-UNDER-ITS-READING AS GAUGE-ACTIVE BUT NOT (TODAY)
         EM-ACTIVE: PREMISE(named), and the single most consequential choice
         here ... THE ALTERNATIVE (score it EM-ACTIVE on the commission's literal
@@ -888,7 +888,7 @@ The commission names two Lane-2 artifacts. Their status in this map is
 NON-DEPENDENT-BY-CONSTRUCTION, and O4SR says so at bytes:
 
 ```text
-STAGE8_EM_PARTICIPATION_O4SR_V001.md :798-805 (VERBATIM)
+STAGE8_EM_PARTICIPATION_O4SR_V001.md :800-805 (VERBATIM)
   "'This Ward property holds for the whole (chi_K,T) family and cannot select a
    reader coordinate'; 'the cylindrical Ward identity is homogeneous'; 'No
    algebraic Ward identity turns that support into the diagonal.' The record's
@@ -922,3 +922,386 @@ D-5    Maxwell-symbol / Ward thread      same       same     THREAD-SEPARATION
 **ONE GRADE MOVES (D-3). NO TRUTH MOVES. FOUR READINGS MOVE.** That is the exact
 shape of the dependency, and it is why the caveat became load-bearing without any
 result becoming wrong.
+
+---
+
+## §5 — DELIVERABLE 5: THE INDEPENDENCE CHECK
+
+**QUESTION.** Is any result currently BOOKED as established WEAKENED by the
+identification landing either way — i.e. has anything of record quietly assumed
+one answer?
+
+### §5.1 THE INSTRUMENT
+
+An uncapped co-occurrence detector over both roots (all file types, self-excluded):
+every file mentioning `U(1)_rel` was scanned for EM-loaded vocabulary
+("electromagnetic gauge group", "EM gauge group", "the photon", "photon field",
+"electric charge", "electromagnetic field strength", "Maxwell field", "the
+electromagnetic U(1)", "EM U(1)", "electromagnetic connection") occurring within
+400 characters of the `U(1)_rel` token — i.e. close enough to be predicating the
+EM term OF the record's group.
+
+```text
+FILES MENTIONING U(1)_rel        ROOT_A 64   ROOT_B 61
+CO-OCCURRENCE WINDOWS FOUND      2 (both roots, deduplicated)
+DISTINCT LOADED TOKENS MATCHED   1 ("electromagnetic connection")
+```
+
+### §5.2 BOTH HITS ARE DENIALS, NOT ASSUMPTIONS
+
+```text
+HIT 1 — STAGE1_PREMISE_DISPOSITION_V001.md :44-47 (VERBATIM)
+  "It does not derive the existence of a physical local electromagnetic
+   connection, which remains adopted Level-1 field content."
+
+HIT 2 — STAGE8_COMPARISON_FRAME_LOCALIZATION_STEP1_RESULT_V001.md :218-220
+  (VERBATIM) — the decider clause itself:
+  "the resulting connection is the physical public electromagnetic connection,
+   not merely an auxiliary comparison connection in an adopted microscopic
+   field-content branch."
+```
+
+Neither predicates EM of `U(1)_rel`. Both do the opposite: one denies the
+derivation, the other names it as an outstanding obligation.
+
+### §5.3 THE FOUR STRONGEST CANDIDATES FOR A QUIET ASSUMPTION, TESTED INDIVIDUALLY
+
+**IND-1 — THE UNIT WINDING `|n| = 1`. Does it quietly assume YES?**
+NO. The sealed forcing route is FAITHFULNESS, not EM, and a blind cross-lineage
+verifier established this at bytes:
+
+```text
+STAGE8_UREL_DETERMINACY_CHECK_OPUS_V001.md (seal OK) :212-213 (flag)
+  "FORCING_MECHANISM_IN_SEALED_TEXT = FAITHFULNESS (STAGE1:41; FABLE:161-172,
+   300-307), not kernel-on-q_N"
+:140-141  "So every sealed route to |n| = 1 runs through FAITHFULNESS"
+```
+
+And the defining source pre-empts the EM reading explicitly:
+
+```text
+PRIMITIVE_RELATIVE_PHASE_CONNECTION_V001.md :76-77
+  "This yields stable integral charge units for the primitive record handle
+   without using the observed electromagnetic coupling."
+PRIMITIVE_RELATIVE_PHASE_STABILIZER_V002.md :90-91
+  "It is not newly derived here as an electromagnetic charge spectrum."
+```
+
+INDEPENDENT. (Its OWN open question is faithfulness — VERDICT = UNVERIFIED at
+`:235` — which is a separate matter this artifact does not touch.)
+
+**IND-2 — O6SR's FP-3 = GENERIC. Does it quietly assume NO?**
+NO. The verdict rests on a property of constant-coefficient content, stated
+without reference to which group is switched on:
+
+```text
+STAGE8_OBSTRUCTION_ORIGIN_O6SR_V001.md :491-494 (VERBATIM)
+  "VERDICT AT FP-3 [DERIVED]: GENERIC. The blocking property — translation
+   invariance — does NOT follow from the
+   content being gauge/EM-carrying; it follows from the content being
+   CONSTANT-COEFFICIENT, which is the absence of a gauge background rather than
+   its presence."
+```
+
+INDEPENDENT. Only its READING moves (§4.1), never its verdict.
+
+**IND-3 — T16SR's REQUIRE HALF. Does it quietly assume either?**
+NO. S1-S5 consumes `Σ4`'s own displayed "∈ U(1)" and pure algebra. T16SR is
+explicit that the corroborating surface sentence is "cited as CORROBORATION, not
+premise" (:180-181), and its exclusivity claim (III)(c) turns on the class's
+output being "an integer label, not a continuum response magnitude" (:161-162) —
+a typing fact, not an EM fact. INDEPENDENT.
+
+**IND-4 — GATE 1's COMPARISON GROUP `U(1)`. Does it quietly assume YES?**
+NO — and this is the corpus's only ACTIVE independence certificate on the
+question, quoted at §2.4 G-5: the classification "used only sealed
+target-independent structure — the quarantined 'because electromagnetism is
+established' selector is UNNECESSARY". The EM route was available, was
+quarantined, and the result was obtained without it. INDEPENDENT, certified.
+
+### §5.4 THE ONE ADOPTION, AND WHY IT IS NOT A QUIET ASSUMPTION
+
+`FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.md` adopts a `U(1)_rel`
+bundle and connection as Level-1 field content (I-7). Three reasons it does not
+constitute a quiet assumption of either answer:
+
+```text
+(a) It is SELF-DECLARED AS ADOPTED, not booked as established: "It is an adopted
+    microscopic theory premise, not a consequence of the sealed pre-alpha
+    results" (:24-26).
+(b) It expressly excludes the EM route from its own derivation: the adoption is
+    "not derived from ... the demand to reproduce electromagnetism" (:53-59).
+(c) It adopts LOCALIZATION, not IDENTIFICATION — and the decider's item 4
+    (§3.1) is written precisely to exclude this adoption from counting as the
+    identification ("not merely an auxiliary comparison connection in an
+    adopted microscopic field-content branch").
+```
+
+### §5.5 THE INDEPENDENCE VERDICT
+
+```text
+NOTHING BOOKED AS ESTABLISHED IS WEAKENED BY THE IDENTIFICATION LANDING EITHER
+WAY, at this sweep.
+
+  Results whose TRUTH depends on the identification            NONE LOCATED
+  Results that quietly ASSUME the identification (YES)         NONE LOCATED
+  Results that quietly ASSUME its negation (NO)                NONE LOCATED
+  Results whose GRADE is stated as conditional on it           ONE — DELTAPHI's
+                                                               DeltaPhi_is_holonomy
+                                                               = NO_VERDICT, and it
+                                                               is stated OPENLY, not
+                                                               quietly (§4.3)
+  Results whose READING moves                                  FOUR (§4.6)
+```
+
+The corpus has kept this clean, and it did not happen by accident: the guards of
+§2.4 — an executable flag bar, a fail-closed literal, a test assertion, a
+quarantined selector, and a self-certification recited in 78 files of ROOT_A and
+132 of ROOT_B — are exactly the machinery that prevented a quiet assumption from
+forming. The one place the record could have taken the EM shortcut (Gate 1), it
+recorded that it did not need it.
+
+---
+
+## §6 — VERDICT
+
+```text
+VERDICT = MIXED (partial namings, exact)
+```
+
+**THE EXACT PARTITION, which is the verdict:**
+
+```text
+YES-DIRECTION  FULLY AND EXACTLY NAMED, at sealed bytes, in two mutually-citing
+               artifacts, with routes and non-routes enumerated:
+                 the deciding object  — "a separate theorem identifying its
+                   connection with the physical public EM connection, or a
+                   certified equivalent bridge"
+                   (DOWNSTREAM_SMOOTH_CONNECTION_REQUIREMENT_AUDIT :154-158)
+                 its exact content   — discharge item 4, "the resulting
+                   connection is the physical public electromagnetic connection,
+                   not merely an auxiliary comparison connection in an adopted
+                   microscopic field-content branch"
+                   (COMPARISON_FRAME_LOCALIZATION_STEP1_RESULT :218-220)
+                 its prerequisite    — the three-premise target-independent
+                   localization theorem (items 1-3), ATTEMPTED and
+                   BLOCKED_BY_MISSING_CANONICAL_BRIDGE
+                 its typed routes    — A / B (DOWNSTREAM :281-292); branches
+                   1 / 2 (PRPS_SMOOTH_PHRASING :288-300)
+                 its non-routes      — Gate-4 edge transport; charge/flux
+                   access; shared terminology; the Level-1 adoption; the
+                   quarantined EM selector
+               This is NOT a vague naming. It is a booked TYPE-U release
+               condition with a stated sufficiency and a stated insufficiency.
+
+NO-DIRECTION   NOT NAMED ANYWHERE, in either root, at this sweep. No artifact
+               names an object, theorem, test, determination, or bridge whose
+               landing would establish that U(1)_rel is NOT the electromagnetic
+               gauge group. The corpus states how the identification could be
+               MADE and never how it could be REFUTED.
+```
+
+**THE ALTERNATIVE READING, DISPLAYED so the record is recoverable.** Item 4 is
+stated as a PROPOSITION ("the resulting connection is the physical public
+electromagnetic connection"). A reader who treats a named proposition as
+two-sided — provable or refutable — would read this artifact's located bytes as
+**DECIDER-NAMED**, since establishing the negation of item 4 would settle NO.
+This artifact scores MIXED because the corpus frames item 4 exclusively as a
+DISCHARGE OBLIGATION and a `would-build`, and nowhere contemplates its
+refutation. **THE LOCATED BYTES ARE IDENTICAL UNDER BOTH READINGS; only the
+label moves.** No deliverable below §3 depends on which label is chosen.
+
+**NOT UNDECIDABLE-TODAY, and not NO-DECIDER-OF-RECORD** — both are excluded by
+§3.1/§3.2, which are sealed, verified, and quoted.
+
+**THE COMMISSION'S PREMISE, CHECKED.** The commission states "nobody has ever
+established the identification's own status as an object." Confirmed as to
+STATUS — no prior artifact registers the grades, the guard mechanisms, or the
+dependency map. **But the DECIDER was already of record and had simply never
+been collected**: it was written on 2026-08-01-era Step-1 work and re-booked by
+the DOWNSTREAM audit, and O4SR (which searched this exact territory) did not
+surface it — O4SR named the identification's status as blocker and its
+consequences, but not the object that would settle it. This artifact's
+contribution on Deliverable 3 is LOCATION, not creation.
+
+---
+
+## §7 — CHOICE LEDGER (commission O14SR; every unforced choice, classified)
+
+```text
+CH-1 TREATING PRIMITIVE_RELATIVE_PHASE_{CONNECTION_V001, STABILIZER_V002} AS
+     "THE DEFINING BYTES" DESPITE THEIR HAVING NO SIDECAR SEAL:
+     FORCED in substance. The commission asks for the definition "at its sealed
+     source"; these are the only files in either root that DEFINE the quotient,
+     they are hash-locked by executable audit + results JSON (an equivalent and
+     stated seal discipline), and their bytes are IDENTICAL across both roots
+     (verified, §0.2). The discrepancy in SEAL MECHANISM is disclosed rather
+     than smoothed, and carried into the FLAG BLOCK.
+
+CH-2 REPORTING THE CONNECTION/STABILIZER LOCALIZATION DISAGREEMENT (§1.4)
+     RATHER THAN PICKING ONE: FORCED by the determination-only fence. Picking
+     one would decide whether U(1)_rel is localized, which is decider item 1-3
+     and therefore advances the question. MATERIAL: the disagreement is why
+     D-1's reading sits downstream of two open questions, not one.
+
+CH-3 SCORING I-7 (FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002) AS
+     "ASSUMED-FOR-DISPLAY OF THE LOCALIZATION ONLY" RATHER THAN AS AN ADOPTION
+     OF THE IDENTIFICATION: PREMISE(named), and the most consequential choice
+     here. GROUND: the file lists "the demand to reproduce electromagnetism"
+     among what the adoption is NOT derived from (:53-59), and the decider's
+     item 4 is worded expressly to exclude an "adopted microscopic
+     field-content branch" from counting. THE ALTERNATIVE (score it as a quiet
+     YES-assumption) is displayed at §5.4 with all three grounds, so a reader
+     who disagrees can recover it. If the alternative were taken, §5.5's line
+     "Results that quietly ASSUME the identification (YES) — NONE LOCATED"
+     would become "ONE — I-7", and NOTHING ELSE in this artifact would change.
+
+CH-4 SCORING THE VERDICT MIXED RATHER THAN DECIDER-NAMED: PREMISE(named).
+     Displayed at §6 with the alternative reading stated in full and the note
+     that the located bytes are identical either way. UNFORCED, IMMATERIAL to
+     Deliverables 1-5.
+
+CH-5 SEPARATING S08 (the DISCRETE INCIDENCE CONNECTION) FROM THE U(1)_rel
+     GUARD RATHER THAN COUNTING IT AS ONE FENCE: FORCED — they name different
+     objects. MATERIAL: it is why §2.4's consumption answer is "barred only for
+     the allied object", not "barred".
+
+CH-6 COUNTING THE GUARD SWEEP OVER ALL FILE TYPES AND BOTH ROOTS, WHERE O4SR
+     COUNTED .md IN ONE ROOT: UNFORCED. Declared, and reconciled explicitly at
+     §2.3 so neither count impeaches the other. Chosen because the commission
+     said "uncapped sweep of both roots".
+
+CH-7 CONSUMING TWO UNSEALED FILES FOR STATUS ONLY
+     (STAGE8_TARGET_INDEPENDENT_LOCALIZATION_THEOREM_BUILD_RESULT_V001.md,
+     EM_DEPENDENCY_ORDER_FREEZE_V001.md): UNFORCED but disclosed at each use
+     with the words "UNSEALED — status only". Neither carries a verdict here;
+     removing both would delete §3.4's blocked-prerequisite line and one
+     non-route, and would change no grade.
+
+ZERO OPEN.
+```
+
+---
+
+## §8 — TOY_SEPARATION
+
+```text
+NO TOY WAS BUILT, RUN, OR CONSULTED. This artifact contains no model, no
+simulation, no worked example, no illustrative instance, and no constructed
+object of any kind.
+
+THE TWO SCRIPTS I WROTE ARE SWEEP INSTRUMENTS, NOT TOYS:
+  decider_sweep.py   — regex co-occurrence over both roots (§3 instrument)
+  independence.py    — regex co-occurrence over both roots (§5 instrument)
+Both live OUTSIDE both corpus roots (in this session's scratchpad), read only,
+wrote nothing into either root, and produce FILE/LINE LOCATIONS ONLY. Every
+finding they surfaced was then opened and quoted at its own bytes; no verdict
+rests on a script's summary. Neither script models any physics, evaluates any
+quantity, or represents any record object.
+
+THE CORPUS'S OWN EXECUTABLE OBJECTS (audit scripts, tests, results JSON) were
+READ AS RECORD — as evidence of what the guards enforce (§2.4) — and were NOT
+RUN. No audit was re-executed; no flag was recomputed; no status was moved.
+
+ACTUAL SURFACE, NOT A TOY: every quoted sentence is from a file in the corpus at
+its stated path and line, with seals verified where sidecars exist and bytes
+compared across roots where they do not.
+```
+
+---
+
+## §9 — IMPORT AUDIT
+
+```text
+MACHINERY IMPORTED                    NONE.
+  No smooth-manifold language, no GR, no QFT apparatus, no carrier, no
+  measure, no scale, no renormalization concept was brought in from outside
+  the quoted bytes. Where the corpus's own text uses such language it is
+  QUOTED, never paraphrased into a claim of mine.
+
+PREMISES ADOPTED BY ME                NONE.
+  Faithfulness: NOT used (it is UREL_DETERMINACY_CHECK's open item; I report
+    its status only).
+  Localization of U(1)_rel: NOT assumed (§1.4 left open by CH-2).
+  The EM identification: NOT assumed in either direction — the whole point.
+
+EXTERNAL SOURCES                      NONE. No web, no memory-bank search, no
+  ~/.codex, no other project directory. Both corpus roots only, plus this
+  session's scratchpad for the two instruments.
+
+REGISTER/TRACKER/ROAD/PLAN/CONTINUATION FILES   NONE OPENED.
+  DECLINE_REGISTER_V002.md was NOT opened. S08's content (§2.4 G-4) is quoted
+  from STAGE8_AXN_FAMILY_BOUNDING_CODEX2_V001.md (seal OK), which recites it,
+  and corroborated from two further sealed artifacts that recite it. This is
+  disclosed so no reader mistakes the citation for a register read.
+  PROGRAM_STATE_BRIEF, PE-* and similar were neither opened nor consulted.
+
+"Q-..." OBJECTS                       EXPECTED-UNLOCATABLE; none chased, none
+  cited, none inferred.
+
+GIT                                   NONE. No git command was run.
+
+FILES WRITTEN                         EXACTLY TWO, both at the commissioned
+  path: this artifact and its seal sidecar. No existing file in either root was
+  edited, moved, or renamed. Output path was probed ABSENT before first write.
+```
+
+---
+
+## §10 — FLAG BLOCK
+
+```text
+alpha_computed                  = false
+proof_authorized                = false
+kappa_record_computed           = false
+coupling_evaluation_authorized  = false
+
+DETERMINATION_ONLY              = HELD. No adoption; no authored physics; no
+                                  value, no number as a value of anything; no
+                                  float; no measured-constant comparison; no CAS.
+EM_IDENTIFICATION_MADE          = false
+EM_IDENTIFICATION_LICENSED      = false
+EM_IDENTIFICATION_RECOMMENDED   = false
+EM_IDENTIFICATION_ARGUED_EITHER_WAY = false
+NO_GATE_FLAG_WITNESS_OR_STATUS_OF_ANY_CONSUMED_ARTIFACT_MOVED = true
+NOTHING_HERE_DISCHARGES_ANY_ABSENCE_OR_ANY_FAILURE_POINT      = true
+
+SWEEP_CUTOFF                    = 2026-08-15T20:00:05Z
+SWEEPS_UNCAPPED_BOTH_ROOTS      = true (all file types; self-excluded)
+SEALS_VERIFIED                  = 8/8 commissioned + 4/4 further consumed,
+                                  each `shasum -a 256 -c` run from the
+                                  artifact's own directory
+DEFINING_SOURCE_SEAL_MECHANISM  = AUDIT-LOCK, NOT SIDECAR (disclosed, §0.2);
+                                  bytes identical across both roots (verified)
+UNSEALED_CONSUMED_FOR_STATUS_ONLY = 2 (disclosed at each use, CH-7)
+
+U1REL_DEFINITION_LOCATED        = true (§1)
+IDENTIFICATION_STATUS           = NO_VERDICT / FENCED / never asserted, never
+                                  denied, anywhere in either root (§2)
+GUARD_FILES  ROOT_A = 78   ROOT_B = 132  (union of all guard forms, self-excluded)
+GUARDS_FORBID                   = ASSERTION (hard, executable);
+                                  ASSUMPTION only in the EM-as-input direction;
+                                  CONSUMPTION only for the allied discrete
+                                  object (S08). NOT all three. (§2.4)
+DECIDER_NAMED_YES_DIRECTION     = true  (§3.1, §3.2 — quoted, sealed)
+DECIDER_NAMED_NO_DIRECTION      = false (§3.5 — none located)
+DECIDER_PREREQUISITE_STATUS     = BLOCKED_BY_MISSING_CANONICAL_BRIDGE
+DECIDER_ITEM4_ATTEMPTS_LOCATED  = 0
+DEPENDENCY_MAP_ENTRIES          = 5 + 1 non-moving (§4.6)
+GRADES_THAT_MOVE                = 1 (DELTAPHI DeltaPhi_is_holonomy)
+TRUTHS_THAT_MOVE                = 0
+READINGS_THAT_MOVE              = 4
+INDEPENDENCE                    = CLEAN — nothing booked as established is
+                                  weakened either way; no quiet assumption
+                                  located in either direction (§5)
+
+CHOICE_LEDGER                   = 7 rows; CH-3 and CH-4 PREMISE(named) with
+                                  alternatives displayed; ZERO OPEN
+TOY_SEPARATION                  = clean (§8)
+IMPORT_AUDIT                    = clean (§9)
+VERDICT                         = MIXED (partial namings, exact)
+```
+
+---
+
+*END OF ARTIFACT — STAGE8_U1REL_EM_IDENTIFICATION_O14SR_V001*
