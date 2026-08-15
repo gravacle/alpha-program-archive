@@ -863,3 +863,29 @@ content) would UPGRADE rather than kill this observation — the permission woul
 been a require, and the entry chain would have displayed that too. Companion: OBS-22, OBS-23;
 the allow/require boundary law.
 
+## OBS-24 (PRE-REGISTERED 2026-08-15, unconfirmed — BEFORE its first check returns) — GRAVITY AS THE LINE-DRAWER
+The principal's suspicion, in his words: "Maybe gravity itself is the reason for the fuzzy
+boundary. The allow/require." The claim, stated checkably: the allow/require junction of the
+record — the boundary between forced content and permitted content — is not incidental but is
+DRAWN BY the boundary-closure itself (gravity, in the founding frame): the sites where forcing
+chains terminate into permissions are closure-adjacent as a structural class, and the line's
+location is rigid exactly through the closure's clauses. If true, gravity is not merely AT the
+junction (OBS-22) — gravity IS what makes some quantities permissions, and the record's two FREE
+findings (the coupling magnitude; alpha at current carriers) are gravity's signature rather than
+the record's shortfall. Classical-side echo, display-only, no value cited and no comparand ever
+entering the record: the classical literature's own relationship to gravity's magnitude is the
+loosest among its constants — measured with famous difficulty, and varied freely in respectable
+theory — the behavior one would expect of a permission rather than a require. Status: LENS-GRADE
+over computed anchors (the termination inventory exists sealed; the vacancy and freedom displays
+are theorems); PRE-REGISTERED before its first check: the T14SR junction survey (in flight at
+this writing) whose deliverable (3) classifies the termination sites and whose deliverable (4)
+decides JUNCTION-RIGID vs CONTINGENT. KILL CONDITIONS: (K-i) the termination-site classification
+lands SCATTERED (no shared boundary-adjacent type); (K-ii) JUNCTION-CONTINGENT with a witness
+independent of every closure/boundary clause; (K-iii) any require reaching a magnitude ever
+deriving from interior stock alone; (K-iv) the closure discharging at its failure points while
+the line stands unmoved (gravity completed, line not gravity's). SUPPORT CONDITIONS, named now so
+later reading cannot tune: the sites classify closure-adjacent; or JUNCTION-RIGID with the
+rigidity proof passing through boundary clauses. Companions: OBS-22 (the locus), OBS-23 + its
+Addendum (the split made explicit and exercised); the allow/require boundary law is the grammar.
+This observation feeds checks and the correspondence display only — never a derivation.
+
