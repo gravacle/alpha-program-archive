@@ -100,6 +100,17 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 20. THE GRAVITY CLOSE consumed + THE DECLARATION GATE. [YOURS gate; scoring
       registrar-side]
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
+▶ 22. THE JUNCTION CAMPAIGN (appended at the principal's directive,
+      2026-08-15: "This is what we have to explore"): OBS-24 — gravity as
+      the line-drawer. Runs parallel to 14→21, gates nothing. First check
+      IN FLIGHT: the T14SR junction survey (termination-site classification;
+      JUNCTION-RIGID vs CONTINGENT). Outcome map, fixed now: sites cluster
+      closure-adjacent or RIGID-through-boundary-clauses ⇒ the PARTITION
+      THEOREM attack fires (derive the allow/require partition FROM the
+      closure's clauses alone — the line-drawer proved, not located);
+      sites scatter or closure-independent contingency ⇒ OBS-24 killed of
+      record, the campaign closes honestly. [lane; OBS-24's kill/support
+      conditions govern]
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
 History: the register (head Q-1118 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
