@@ -32,9 +32,13 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       trace/HS rate (F1) + C-L2 certification (F3 → item 5, NOW A NAMED WALL
       BLOCKER) + subsidiary carriers R5/R1/R10 (→ item 8). All four quantities
       UNDECIDED; nothing refuted. [lane — reopens on any residue landing]
-○ 8. THE GRAVITY CARRIERS — build Q-1060's named carriers → re-score under the
-      frozen OBS-22 spec → THE GRAVITY CLOSE LANDS. On the critical path: it
-      releases items 12–13. [lane]
+▶ 8. THE GRAVITY CARRIERS — TRIAGED (Q-1078): ZERO buildable by lanes; the
+      close passes through exactly one of THREE PRINCIPAL ACTS — ACT-1 member
+      adoption (nine rows; the sector-reduction arrow named), ACT-2 the held
+      construction (five rows; decides the fork), ACT-3 spec §5 revision.
+      Lane preparations RUNNING: the member-proposal draft w/ self-kill; the
+      guard-path-(1) fork-decider determination; the U1/U2 seal drafts.
+      [YOURS at the acts; lane at the preparations]
 ○ 11. ACT 4 — the DoR-013/014 falsifier: AVAILABLE INSTRUMENT, not a required
       act (reclassified at the principal's question, 2026-08-14 — the composition
       debt has two other routes in motion; commissioning + firing happen on his
