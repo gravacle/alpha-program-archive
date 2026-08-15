@@ -73,15 +73,17 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       four rows; the retyped class lawful-but-uninhabited). Next: the close
       assembly at the seam. Pins
       ALL DISPOSED — 2.5 forced, PIN-2-H fixed R-A with the reversal armed
-      (Q-1088/Q-1096). U1/U2 seals DONE (Q-1082/Q-1083). [lane at the re-score]
+      (Q-1088/Q-1096). U1/U2 seals DONE (Q-1082/Q-1083). THE CLOSE LANDED
+      (Q-1114: the principal's seal on the checked V002; tally 2/0/12; no
+      new require reached the magnitude). [item complete at the close]
 ○ 11. ACT 4 — the DoR-013/014 falsifier: AVAILABLE INSTRUMENT, not a required
       act (reclassified at the principal's question, 2026-08-14 — the composition
       debt has two other routes in motion; commissioning + firing happen on his
       word, any time; nothing waits on it). [YOURS — on demand]
-○ 13. ACT 5 — Rule-2, the coupling door: DEFERRED to the gravity close
-      (Q-1075, option (c) — the close may spare the act; returns automatically
-      with the close's content). THE CARRIER TRACK (item 8) IS NOW THE
-      CRITICAL PATH TO 5d. (Act 3 DONE — Q-1074: CONTINUED as named premise.)
+▶ 13. ACT 5 — Rule-2, the coupling door: RETURNED (Q-1114 — the close
+      landed with the answer: the record did NOT supply the coupling content
+      on this ground; the magnitude stays allow-side). Options (a) author /
+      (b) decline exactly as staged. [YOURS — posed. The docket's last gate.]
 ○ 14. THE 5d RE-READ → the verdict of record (FORCED / FREE / RUNS), then the
       RATIFIED symmetric audit (Q-1067) runs BEFORE any routing act consumes it.
       ── if FREE: seal Finish B → 20. ── if RUNS: flow+anchor charter → 20.
@@ -97,6 +99,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1113 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1114 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
