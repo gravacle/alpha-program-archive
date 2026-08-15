@@ -17898,6 +17898,12 @@ CONSEQUENCES: **(1)** the r-3 race's DENOMINATOR leg is done — −log|det_n(0)
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 6997ff61, baab38c2, 3b5e95b6 (r-2), bebc0f08 (the race). Q-980–Q-1093 carried. REOPEN: MO-4 landing (r-3 closes; R-L4b discharges with the sealed B1 input; the three E1 witnesses retire); any sealed refutation of the chiral-involution input.
 
+## Q-1095 — THE 5d RE-READ INSTRUMENT RATIFIED (THE PRINCIPAL'S ACT, PRE-DOCKET — THE ONLY HONEST TIME): **THE VERDICT MOMENT'S PROCEDURE IS BINDING OF RECORD — THE COMPLETE-DOCKET TRIGGER (NO EARLY, PARTIAL, OR REHEARSAL READ), THE POINTER-ONLY DOCKET, EVERY ACT'S CONSUMPTION SCOPE VERBATIM (TYPE-P ATTACH; ENTERED-STRENGTH ADMISSION; THE COMPARAND RIDER; THE BOUNDARY-CLOSURE ENGAGEMENT; ZERO LENS), THE THREE-VERDICT MENU WITH REQUIRED GROUNDS AND NO-VERDICT-YET OFF THE MENU AT A COMPLETE DOCKET, AND THE THREE-LAYER EXECUTION ENDING IN THE Q-1067 SYMMETRIC AUDIT** (2026-08-15)
+
+**Answer: the last piece of verdict machinery is in place before the verdict is knowable — the re-read now has its trigger, its docket, its rules, and its guards, all frozen while every branch is still live.** Instrument: FIVE_D_REREAD_INSTRUMENT_V001_RATIFIED_2026-08-15.md (3df78596), byte-identical to the PREPARED sheet (09443609) except two status flips. Amendable by the principal only until the docket completes; frozen absolutely at completion. With this row the verdict stack is complete: the instrument (this row) → the blind re-read + its default-refute audit → the ratified symmetric audit (Q-1067) → only then routing.
+
+alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN. Evidence: 3df78596, 09443609, a9c2992c (Q-1067's instrument). Q-980–Q-1094 carried. REOPEN: a principal amendment pre-completion; the docket completing (the instrument fires).
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
