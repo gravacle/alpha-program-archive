@@ -25,7 +25,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       relative bound zero; the operator exclusion mechanism-explicit; but the
       consuming-site supply blocked at three of-record points, so the witness
       STANDS and F3 is NOT unblocked; G_cm refused at its consuming type).
-      Residue: the form-to-HS bridge. [lane — reopens on the bridge]
+      Residue after Q-1091 (the bridge RUN: no full bridge — R.3 closed at type;
+      F3 given first exact enclosures, n-uniform provably not form-implied;
+      layer-1 short of threshold): kernel-structure supply at the standing
+      blocks. [lane — reopens on those blocks' own reopens]
 ○ 6. OBL-D — THIRD PIECE BUILT (Q-1090: the response square's bottom leg exact
       and quotient-free; the forced η_resp constraint pinned; m₁²-never-m₂).
       Residue: the f_g/F_g bindings (D-layer, sequenced); the response-topology
