@@ -17806,6 +17806,12 @@ alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN
 
 alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN; GOV-F untouched. Evidence: 417cb400, ec962351, add4c806, 69d8b24b, 5f4979d5. Q-980–Q-1081 carried. REOPEN: a derived β-sensitive junction landing (the test becomes runnable — run it); the U1 re-scoring at the spec's own REOPEN clause when its carriers land.
 
+## Q-1083 — U2's CLOSURE SEALED, FORM-S (THE PRINCIPAL'S ACT; A §5 REVISION OF RECORD AGAINST THE FROZEN SPEC, ITS OWN DISCIPLINE SATISFIED DEFINITIONALLY): **THE FROZEN RECOGNITION SET {R1–R14, U1} IS DECLARED SUFFICIENT FOR "THE MAPS LAND GEOMETRIC" — A FUTURE FULL-SWEEP CONFIRMED UPGRADES FROM AS-STATED TO SIMPLICITER; THE SELF-KILL IS SEALED WITH IT (ONE DISPLAYED GEOMETRIC-LANDING OBLIGATION NOT ENTAILED BY THE SET VOIDS THE CLOSURE FROM ITS DATE); SEALED AT CONFIRMED-0, STRUCTURALLY PRE-TUNING; U2's MISSING CARRIER SUPPLIED — GROUNDS NOTHING, CONFIRMS NOTHING, MOVES NO FLAG** (2026-08-15)
+
+**Answer: the recognition spec's one un-groundable row is grounded the only way it ever could be — by the principal's closure, sealed before any result existed to tune toward, with its falsifier inside it.** Instrument: U2_CLOSURE_FORM_S_SEALED_2026-08-15.md (46aee087), FORM-S carried verbatim from the checked D-2 sheet (add4c806, check 69d8b24b); the §5 revision mechanics displayed in the instrument (delta vs 9f0d12b4; criterion U2; the CONFIRMED-0 tally at sealing). FORM-W declined by selection. With Q-1082, both one-line seals from the triage's decision table are executed; the morning board's remaining items: ACT-1 (gated on the running OB-2 determination), ACT-2 (the held construction), ACT-3 (forced or optional per OB-2), the v002 custody question.
+
+alpha_computed=false, proof_authorized=false, kappa_record_computed=false REMAIN; GOV-F untouched. Evidence: 46aee087, add4c806, 69d8b24b, 9f0d12b4 (the frozen spec), ee91d85c/7638c807 (the CONFIRMED-0 tally of record). Q-980–Q-1082 carried. REOPEN: the self-kill firing (a displayed geometric-landing obligation outside the set — the closure voids from its date, recognition reverts to as-stated); any §5 revision superseding; the future full sweep consuming the closure at its sealed strength.
+
 ## HOW TO USE THIS REGISTER
 
 1. **Before starting any line of work, grep this file for the question**, in the words you would
