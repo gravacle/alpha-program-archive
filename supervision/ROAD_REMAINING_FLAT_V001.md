@@ -80,12 +80,13 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       act (reclassified at the principal's question, 2026-08-14 — the composition
       debt has two other routes in motion; commissioning + firing happen on his
       word, any time; nothing waits on it). [YOURS — on demand]
-▶ 13. ACT 5 — Rule-2, the coupling door: RETURNED (Q-1114 — the close
-      landed with the answer: the record did NOT supply the coupling content
-      on this ground; the magnitude stays allow-side). Options (a) author /
-      (b) decline exactly as staged. [YOURS — posed. The docket's last gate.]
-○ 14. THE 5d RE-READ → the verdict of record (FORCED / FREE / RUNS), then the
-      RATIFIED symmetric audit (Q-1067) runs BEFORE any routing act consumes it.
+○ 13. ACT 5 — RESOLVED: AUTHOR (Q-1115). The authored Rule-2 content
+      commissioned through the mandate lane (Q-1053 form; the G2-F1 slot);
+      candidate pair to fire; ratification a second word [YOURS at the
+      return]. THE 5d DOCKET COMPLETE.
+▶ 14. THE 5d RE-READ → FIRING NOW per 3df78596 (docket complete at
+      Q-1115): the blind re-reader → the pre-fixed-answer audit → the
+      RATIFIED symmetric audit (Q-1067) BEFORE any routing act consumes it.
       ── if FREE: seal Finish B → 20. ── if RUNS: flow+anchor charter → 20.
       ── if FORCED: continue ↓ (plus the |n| comparand rider, Q-1012/Q-1034)
 ○ 15. CLOSE THE COMPUTE PRE-GATE — Q_spec → Z_Q → the κ→K* bridge; the appointed
@@ -99,6 +100,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1114 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1115 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
