@@ -214,9 +214,11 @@ Rules F1-a/b/c are independently re-read by me at the WBC's own primary bytes
 | F3-e | THE UNRESOLVED TYPE CONFLICT | O8SR :273-281, quoting CERT §2.3 — "S2b's parenthetical consumes 'the certified bound ... in the quadratic form C-L2 names' (form-typed), while R.3's derivation display consumes \|\|A(0)\|\|_2 (HS-typed)." with CERT's own ledger "carried, not repaired ... the spec author/registrar owns it." | **MODAL** — a type-mismatch verdict about two pre-existing consumption sites. It is a defect notice, not an operator; classified MODAL because its content is a verdict. SECOND-HAND-QUOTE. |
 | FS-a | THE ONE-WAY QUANTIFIER RECORD | O8SR :294-302 — "RULE FS-a THE ONE-WAY QUANTIFIER RECORD. SOURCE (WSR flag, as carried at MAP §1): \"the summed level decides SUM-THEN-QUANTIFY and provably not quantify-then-sum ... the V-2-barred bridge is not crossed in either direction; the one-way quantifier record (0a10c030) is respected.\" ... FP-S IS DECIDED, not failing — no barrier test applies to it (§4.5)." I independently re-read the origin span at `STAGE8_WALL_SUMMED_REQUANT_S9AD_V001.md` :58 ("QUANTIFIER-SHIFT HONESTY, displayed: the summed level decides SUM-THEN-QUANTIFY and provably NOT quantify-then-sum — squares are PARITY-BLIND"). | **MODAL** — a quantifier-order ruling: it says which of two quantifier orders is decided. Its output is a scope verdict. |
 
-**FAILURE-POINT-RULE TALLY: MODAL 11 (of which MODAL(measurement) 3), MIXED 2
-(F3-a; and F2-b is graded MODAL with its generative-adjacent antecedent carried
-forward rather than counted), GENERATIVE 0, NAMED-ONLY 0.**
+**FAILURE-POINT-RULE TALLY (13 rows): MODAL 12 (of which MODAL(measurement) 2 —
+F1-a, F3-c), MIXED 1 (F3-a), GENERATIVE 0, NAMED-ONLY 0.** F2-b is counted MODAL;
+its generative-adjacent antecedent is carried forward to §4 rather than counted as
+a MIXED half, because the antecedent is a demand *that* an exhibition exist, not a
+clause producing one.
 
 ### §1.3 THE ALLOW/REQUIRE APPARATUS, at its own primary bytes
 
@@ -252,25 +254,32 @@ commission, a NAMED-ONLY row is itself a finding.
 | N-3 | `Obj_0` — THE PROVENANCE/DYNAMICS ORIGIN | `STAGE8_OBJ0_EXACT_SIGNATURE_DOMAIN_CODOMAIN_SPEC_AND_BUILD_STOP_V001.md` :1585-1587 — "**Not fixed by sealed text:** a physical category, internal object type, arity, domain, codomain, support/core, representation, and analytic conditions. The Q-95 artifact expressly leaves these TYPE-U at `:995-997`." | **Its codomain is expressly not fixed by sealed text.** A row whose codomain is TYPE-U cannot be classified MODAL or GENERATIVE. **NAMED-ONLY.** |
 | N-4 | THE OWED GENERATION RULES (five distinct, one row) | (a) OBJ0 :183 — "THE SIX MISSING CONSTRUCTION INPUTS, NAMED: the exact signature/domain/codomain; a frozen primitive inventory; a target-independent construction rule; a certificate-generation rule; port and graph schemas; and a separately isolated validation package"; (b) `STAGE8_DESC_P0_EXECUTION_CHECK_CODEX2_V001.md` :254 — "\| provenance-certificate generation rule \| common-origin provenance remains undischarged \| absent \|"; (c) `STAGE8_SECTION_5_3_UNIQUENESS_GATE_PASSABILITY_DETERMINATION_V001.md` :367 — "test: no finite roster, parameterization, or bounded generation rule is sealed"; (d) `STAGE8_FINITE_INCIDENCE_REALIZATION_FUNCTOR_ADOPTION_PROPOSAL_V001.md` :33 — "It **does not** propose a source-generation rule,"; (e) `STAGE8_P5_COMMON_ORIGIN_DESCENT_PIECE1_ORIGIN_TRACE_ATTEMPT_V001.md` :294 — "would-build: a concrete origin generation rule whose output fixes" | Five generation rules named as owed and absent. **NAMED-ONLY, five times.** |
 | N-5 | THE TEN UNPAIRED INPUTS U-1…U-10 | `STAGE8_INGREDIENT_CENSUS_O17SR_V001.md` §4 :645-794, its own heading verbatim: "## 4. THE UNPAIRED LIST — INPUT SIDES NOTHING IN THE CENSUS YIELDS", carried at `STAGE8_STRATIFICATION_O27SR_V001.md` :566 as "AC-U THE TEN UNPAIRED INPUTS (CENSUS §4) — asset SLOTS with no producer." | Ten input slots the census's own sweep finds nothing yields. **NAMED-ONLY ×10** (counted as one row here; the ten are enumerated at §2.5). |
+| N-6 | **`G_closure` — "THE COMPLETE RECORD-FORMING GENERATOR"** | `PRIMITIVE_SOURCE_RECORD_PAIRED_RETURN_IDENTIFICATION_PRINCIPLE_V002.md` :27-42, section headed "## Complete closure object", quoted whole: "The complete record-forming generator must act on the source, primitive record carrier, and all required boundary/environment degrees: ```text G_closure acts on H_source tensor H_record tensor H_boundary/environment. ``` It must generate source-conditioned distinguishable record states, stable pointer sectors, persistence, and recoverability or redundancy. A source-only mass block is not this complete generator and is not a record instrument." | **NAMED-ONLY — and it is the row on which Q4 turns.** Its DOMAIN is stated; **its CODOMAIN is stated nowhere in either root under sweep S-5.** Its own downstream gate confirms the object is not the one on display — `SOURCE_RECORD_GENERATOR_STRUCTURE_GATE_V002.md` :24-26: "This reduced factorization is not derived from the complete closure carrier. Consequently the computed dimensions are not dimensions of the full `G_closure` operator space." A "must generate" clause attached to an object whose codomain is not at bytes cannot be graded MODAL or GENERATIVE. Carried whole to §4.3. |
 
 ### §1.6 Q1 TALLY
 
 ```text
-                                MODAL   GENERATIVE   MIXED   NAMED-ONLY  INDET.
-CLOSURE STOCK   CS-1..CS-9         8         0          1         0        0
-FP RULES        F1-a..FS-a        11         0          2         0        0
-ALLOW/REQUIRE   AR-1..AR-5         5         0          0         0        0
-FORCING         FC-1..FC-6         5         0          0         0        1
-NAMED-ONLY      N-1..N-5           -         -          -         5        -
-                                ─────   ──────────   ─────   ──────────  ──────
-TOTAL ROWS 40                     29         0          3         5        1
+                    ROWS      MODAL   GENERATIVE   MIXED   NAMED-ONLY  INDET.
+CLOSURE STOCK  CS-1..CS-9   9      8         0          1         0        0
+FP RULES       F1-a..FS-a  13     12         0          1         0        0
+ALLOW/REQUIRE  AR-1..AR-5   5      5         0          0         0        0
+FORCING        FC-1..FC-6   6      5         0          0         0        1
+NAMED-ONLY     N-1..N-6     6      -         -          -         6        -
+                          ────  ─────   ──────────   ─────   ──────────  ──────
+TOTAL                       39     30         0          2         6        1
+
+Of the 30 MODAL rows, 5 are MODAL(measurement): CS-3, CS-4, CS-8, F1-a, F3-c.
+N-4 is five owed generation rules counted as one row; N-5 is ten unpaired inputs
+counted as one row.  At item granularity the NAMED-ONLY count is 21 and the
+grand total is 52.
 
 *** ZERO GENERATIVE ROWS IN THE CLOSURE / FORCING / ALLOW-REQUIRE MACHINERY. ***
 
-The three MIXED rows are CS-5 (an exhibited bump function IMPORTED as a frozen
-input, on which the closure's own contribution is an inequality), F3-a (a type
+The two MIXED rows are CS-5 (an exhibited bump function IMPORTED as a frozen
+input, on which the closure's own contribution is an inequality) and F3-a (a type
 exclusion whose generative-adjacent clauses are addressed to the artifact, not to
-the machinery), and — counted with F3-a — the F2-b antecedent, which demands that
+the machinery).  A third generative-adjacent item, the F2-b antecedent, is counted
+MODAL and carried to §4 rather than folded into the MIXED count: it demands that
 an exhibition EXIST without performing one.
 
 The one INDETERMINATE row is FC-4, the R2 root-structure certificate: "Existence
@@ -455,8 +464,8 @@ G4  "A physical exhaustion adds new future incidences on new record factors; it
      future-directed; **they do not force a stage to be causally down-closed.**
      G4 constrains where writes land, not what the exhaustion's stages contain."
      MODAL.
-G5  "RULE G5. The generation order is a causally sequential exhaustion,
-     cell-additive and non-subdividing."   (:73-74)
+G5  "**RULE G5.** The generation order is a causally sequential exhaustion,
+     cell-additive and non-subdividing."   (:74-75)
      OUTPUT TYPE: an ORDER RELATION over a generation.  MODAL.
 G6  "The grammar's move set (814, as corrected by my 818): `G_named = {M_F2,
      M_Pauli, M_HD, M_UPDATE, M_RCURV, M_DISS, M_P5}`."   (:80-82)
@@ -644,12 +653,14 @@ THE ONE (P)-SHAPED PHRASE, DISPLAYED AND DISPOSED.  O8SR :536-537 reads:
   "No MEMBER supplies it" is production-shaped, but its quantifier ranges over
   ARTIFACTS AND AUTHORS IN THE SWEPT STOCK, not over operators of the theory.
   The independent reading report says so at its own bytes
-  (STAGE8_CONDITION_STATEMENT_O22SR_V001.md :193-197, quoted whole):
-    "The second file's classification turns on exactly this: because no
-     mathematics excludes the object, and a sufficient condition for it is on
-     the record, the first obstruction is classified as **unsupplied** (an
-     absence of a member who provides the bound) rather than **excluded** (a
-     theorem forbidding it)."
+  (STAGE8_CONDITION_STATEMENT_O22SR_V001.md :192-196, quoted whole, with the
+  preceding sentence included because it states the implication that makes the
+  grade possible):
+    "Neither file asserts the antecedent. The second
+     file's classification turns on exactly this: because no mathematics excludes the
+     object, and a sufficient condition for it is on the record, the first obstruction
+     is classified as **unsupplied** (an absence of a member who provides the bound)
+     rather than **excluded** (a theorem forbidding it)."
   Unsupplied-by-a-member is a supply fact about the corpus's build process.  It
   is not the claim "nothing in the theory makes the object", and I do not read
   it as one.
@@ -806,3 +817,776 @@ requirement and reports it unmet, and at two of the three (FP-2, FP-3) the
 production-shaped language present is a REFUSAL TO PRODUCE rather than a report
 of impossibility — which is the opposite of (P), not a version of it.
 ```
+
+---
+
+## §4 — Q4: THE DISCRIMINATION TEST
+
+The question: is there ANY text at bytes that would be TRUE under one reading and
+FALSE under the other? The four hunts the commission names are run separately and
+each is reported whether it hits or misses.
+
+### §4.1 HUNT (c) — TYPE SIGNATURES WHOSE CODOMAIN IS AN OBJECT
+
+**INSIDE THE CLOSURE / FORCING / ALLOW-REQUIRE MACHINERY: NONE FOUND.**
+
+I swept every production verb (`yields|produces|creates|constructs|brings into|
+makes there be|comes into being/existence|generates`) against the eight
+closure-lane artifacts individually. The entire yield of that sweep is three
+lines, and all three have a MAGNITUDE on the codomain, not an object:
+
+```text
+WBC :270-271, quoted whole:
+  "DELIVERED, the route's positive yield [DERIVED]: the closure structure
+   yields an n-uniform OPERATOR-grade enclosure of both parity sectors."
+     -> codomain: AN ENCLOSURE (a bound).  MODAL(measurement).
+O8SR :1160-1162 (inside the CAS battery comment), quoted whole:
+  "# with the SEALED rank cap N_n(s) <= 4n^3 reinstated and a q=2 counting bound
+   # N_n(s) <= c n^{3-delta} s^{-2}, the layer-cake integral splits at
+   # s_0 = n^{-delta/2} and yields a SUB-VOLUME HS bound."
+     -> codomain: A BOUND.  MODAL(measurement).
+O8SR :269 and :364, the same clause twice:
+  "This is the rule §5 shows creates the blindness."
+     -> codomain: A PROPERTY OF A RULE (blindness).  MODAL.
+```
+
+Nothing else. **Every one of the thirty-three Q1 rows that HAS a codomain at bytes
+(CS-1..CS-9, F1-a..FS-a, AR-1..AR-5, FC-1..FC-6) has a verdict, a label, a
+membership fact, a partition, a bound, a criterion, a ruling, a prohibition, or a
+set on it — and CS-5's imported bump function is the single row whose codomain is
+an object, and it is imported into the closure, not made by it.** The remaining
+six rows (N-1..N-6) are NAMED-ONLY precisely because their codomain is not at
+bytes; a row with no codomain cannot discriminate, and N-6 is where that costs
+the most (§4.3 L2).
+
+**OUTSIDE THE MACHINERY: THREE FOUND, ALL GENUINE.** Reported because the
+commission asks about "any type signature", not only closure ones:
+
+```text
+OBJ-1  U_write.  PRIMITIVE_REVERSIBLE_RECORD_WRITE_PRINCIPLE_V002.md :17-45:
+       "|0_S 0_R> -> |0_S 0_R>, / |1_S 0_R> -> |1_S 1_R>" realized by
+       "U_write = P_0^S tensor I_R + P_1^S tensor X_R".
+       CODOMAIN: A STATE not among the inputs.  GENUINELY GENERATIVE.
+OBJ-2  The cell assignment.  CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md :18-24.
+       CODOMAIN: A CELL AND A DENSITY.  GENUINELY GENERATIVE in form.
+OBJ-3  The tower embedding.  STAGE8_GAMMA_K_SOURCE_RECORD_COMPOSITION_TYPING_
+       TESTS_V001.md :310-312: "with embeddings `iota_NM(A)=A tensor I_(M-N)`,
+       yielding a unique state on the quasi-local completion and its GNS
+       representation."  CODOMAIN: an element of R_M.  GENERATIVE, but degenerate:
+       the new factor is filled with the identity.
+```
+
+**CONTACT: 0 of 8.** Sweep S-6 (§2.4) counted every one of these tokens against
+every closure-lane artifact and returned **zero, eight for eight**. The three
+object-codomain signatures are in a layer the closure provably never touches.
+
+### §4.2 HUNT (b) — CLAUSES THAT EXPLICITLY DISCLAIM PRODUCTION
+
+**FOUND — four, all cutting against the PRODUCER reading, and all of them
+disclaiming production of a SPECIFIC OBJECT rather than disclaiming production as
+such.**
+
+```text
+DIS-1  STAGE8_OBJ0_EXACT_SIGNATURE_DOMAIN_CODOMAIN_SPEC_AND_BUILD_STOP_V001.md
+       :422, quoted whole with the sentence that follows it:
+         "It is not a source that temporally creates the antecedent carrier.
+          Q-43's executed typing result says at
+          `STAGE8_GAMMA_K_SOURCE_RECORD_COMPOSITION_TYPING_TESTS_V001.md:167-175`:"
+       and at :1581-1583, quoted whole:
+         "**Read from sealed text:** `Obj_0` is a joint source-record-field
+          provenance/dynamics origin that makes P1-P7's structures constructible,
+          not a source that creates the antecedent carrier."
+       CUTS AGAINST: the PRODUCER reading — of Obj_0.
+DIS-2  CAUSAL_INCIDENCE_SUPPORT_PRINCIPLE_V001.md :12-14, quoted whole:
+         "This principle fixes the support and reuse law of a primitive
+          incidence. It does not assume durability, select an outgoing state,
+          supply a spectral measure, or compute a coupling."
+       CUTS AGAINST: the PRODUCER reading — of the incidence principle.  NOTE
+       THE TENSION WITH OBJ-2 ABOVE, WHICH IS IN THE SAME FILE: :18-24 has a
+       cell on its output side while :12-14 says the principle "fixes a law".
+       Both are that file's own bytes; I display the tension and do not resolve it.
+DIS-3  STAGE8_INGREDIENT_CENSUS_O17SR_V001.md B-7, quoted whole:
+         "it is a PAIRING MATRIX on block projections, not an incidence
+          structure — it glues no cells and builds no complex."
+       CUTS AGAINST: the PRODUCER reading — of the all-pairs coherent kernel.
+DIS-4  The lane-discipline family (F3-d and its ~50 siblings surfaced by sweep
+       S-3): "NOTHING WAS CONSTRUCTED. No exponent, no estimate, no conversion
+       supplied.  PRODUCTION PROHIBITED."
+       *** NON-PROBATIVE, AND SAID SO PLAINLY: *** these are prohibitions on
+       what a BUILDER may write in an artifact, not statements about the
+       machinery's codomain.  Reading them as evidence for the CONSTRAINT
+       reading would be a category error, and I decline it.
+
+*** NO CLAUSE ANYWHERE DISCLAIMS PRODUCTION FOR THE CLOSURE MACHINERY AS SUCH.
+    I swept for one (S-3, uncapped, both roots) and did not find it.  The
+    closure never says "I produce nothing." ***
+```
+
+### §4.3 HUNT (a) — CLAUSES WHOSE SATISFACTION REQUIRES AN OBJECT TO COME INTO EXISTENCE AS ITS EFFECT
+
+**FOUND — ONE, AND IT IS THE STRONGEST DISCRIMINATOR IN THE CORPUS. It lives in
+an object the corpus names `G_closure`.**
+
+`PRIMITIVE_SOURCE_RECORD_PAIRED_RETURN_IDENTIFICATION_PRINCIPLE_V002.md`, seal OK,
+section heading **"## Complete closure object"**, :27-42, quoted **whole, with no
+elision, including the last sentence which limits it**:
+
+> "## Complete closure object
+>
+> The complete record-forming generator must act on the source, primitive
+> record carrier, and all required boundary/environment degrees:
+>
+> ```text
+> G_closure acts on
+>   H_source tensor H_record tensor H_boundary/environment.
+> ```
+>
+> It must generate source-conditioned distinguishable record states, stable
+> pointer sectors, persistence, and recoverability or redundancy. A
+> source-only mass block is not this complete generator and is not a record
+> instrument."
+
+and the identification that follows at :44-47, quoted whole to the end of its
+sentence:
+
+> "On the ordinary one-source charged branch, the local chiral-odd scalar
+> component of `G_closure` is supplied by the same boundary closure field that
+> participates in making the record durable. No independent source-mass field
+> or post-closure mass insertion exists."
+
+```text
+WHY THIS DISCRIMINATES.  "It must GENERATE source-conditioned distinguishable
+  record states, stable pointer sectors, persistence, and recoverability or
+  redundancy."  Under the CONSTRAINT reading the machinery "takes candidate
+  objects and returns admissible/inadmissible, PRODUCING NOTHING ITSELF."  A
+  clause requiring a named closure object to GENERATE record states is FALSE
+  under that reading and TRUE under the PRODUCER reading.  Likewise "the same
+  boundary closure field that participates in MAKING THE RECORD DURABLE" uses
+  the words "boundary closure" and "making" in one clause.
+
+*** IT CUTS AGAINST THE STRICT CONSTRAINT READING. ***
+
+AND THE THREE THINGS THAT LIMIT IT, EACH DISPLAYED RATHER THAN SUPPRESSED:
+
+ (L1) THE VERB IS DEONTIC, NOT INDICATIVE.  "must act on", "must generate".
+      A counter-reading is available and I state it in full rather than dismiss
+      it: a "must" clause is a SPECIFICATION — an admissibility criterion for
+      what would count as a complete generator — whose own codomain is a verdict
+      on candidate generators.  On that counter-reading the clause is modal and
+      discriminates nothing.  The clause does not say at bytes which it is.
+      This is the exact ambiguity the corpus itself flags at (L3).
+
+ (L2) `G_closure` IS NAMED-ONLY.  Its DOMAIN is stated
+      (`H_source ⊗ H_record ⊗ H_boundary/environment`); its CODOMAIN is stated
+      NOWHERE in either root under sweep S-5.  Its own downstream gate says the
+      operator space is not the one on display —
+      SOURCE_RECORD_GENERATOR_STRUCTURE_GATE_V002.md :24-26, seal OK, quoted
+      whole: "This reduced factorization is not derived from the complete closure
+      carrier. Consequently the computed dimensions are not dimensions of the full
+      `G_closure` operator space."
+      And the third domain factor is typed by an independent lane at
+      STAGE8_ENVIRONMENT_FACTOR_O31SR_V001.md :159-165, seal OK, quoted whole:
+        "ROLE-TYPE:  ARGUMENT (third tensor slot of the domain of G_closure)
+                     + CARRIER (it is an `H_`, a Hilbert space)
+         GOVERNING VERB: "must act on" — the factor is DEMANDED into existence by
+                     an obligation on a DIFFERENT object (the generator), not
+                     asserted to exist on its own account.
+         QUANTIFIER: "all required ... degrees" — quantified over, never
+                     enumerated."
+      A discriminator carried by an object whose codomain is not at bytes is a
+      weak discriminator, and it is graded as one here.
+
+ (L3) *** IT IS NOT CONSUMED BY THE BOUNDARY-CLOSURE OF RECORD.  0 OF 8. ***
+      I counted `(G_closure|record-forming generator|PAIRED_RETURN)` against each
+      closure-lane artifact:
+        WBC 0 · WSR 0 · O8SR 0 · O6SR 0 · O10SR 0 · T17SR 0 · T14SR 0 · O11SR 0
+      The only artifacts citing `G_closure` anywhere are O30SR, O30SR-AUDIT,
+      O31SR, O34SR, O34SR-AUDIT, its own founding file, and
+      SOURCE_RECORD_GENERATOR_STRUCTURE_GATE_V002.  The boundary-closure whose
+      FP-1/FP-2/FP-3 this commission is about never touches it.
+```
+
+**A SECOND, WEAKER (a)-CANDIDATE, DISPLAYED AND GRADED DOWN.** The formation
+ordering, `STAGE8_COMMON_ORIGIN_GENERATIVE_VS_FORMATION_TYPING_V001.md` :26-28,
+quoted whole: *"The theory's physical record ontology is nevertheless FORMATION:
+a carrier and ready state precede the write, and a durable public record forms
+only after source-controlled write, nonreturn, and persistence succeed. The rank-1
+class adds a common-origin **derivational provenance** demand."*
+**IT DOES NOT DISCRIMINATE, and the reason is grammatical:** "forms **only after**
+X succeed" states X NECESSARY for formation. It does not state X SUFFICIENT, and
+so it does not say that formation is the EFFECT of satisfaction. A necessary
+condition is a constraint. Graded NON-DISCRIMINATING at bytes.
+
+### §4.4 HUNT (d) — WHERE THE CORPUS ITSELF REMARKS ON THE DISTINCTION
+
+**FOUND — four places, and one of them answers the commission's own question with
+an explicit NO_VERDICT.**
+
+```text
+REM-1 *** THE CORPUS HAS A NATIVE MODAL/GENERATIVE TYPOLOGY AND APPLIES IT. ***
+      STAGE8_INGREDIENT_CENSUS_O17SR_V001.md :29-43, quoted whole:
+        "OBJECT      yielded; takes nothing on its input side. A thing the record
+                     carries.
+         RULE        takes something, yields something. Includes MAPS (the special
+                     case where the yield is an element of a named target).
+         CONSTRAINT  takes something, yields a truth value (satisfiable / holds /
+                     fails).
+         CERTIFICATE takes something, yields a warrant about it (CONFIRMED, SOUND,
+                     exact, certified) rather than a new thing.
+        The distinction that carries the most weight in this census is RULE vs
+        CERTIFICATE: a rule hands back a new object; a certificate hands back
+        permission to rely on an object you already had. They are not
+        interchangeable and the census keeps them apart."
+      This is the commission's GENERATIVE/MODAL axis, in the corpus's own words,
+      already in use.  The census then places the closure-adjacent inventory:
+      RULES in §1.B, CONSTRAINTS in §1.C, CERTIFICATES in §1.D.
+
+REM-2 *** THE CORPUS ASKS THE COMMISSION'S QUESTION AND RETURNS NO_VERDICT. ***
+      STAGE8_COMMON_ORIGIN_GENERATIVE_VS_FORMATION_TYPING_V001.md :70-73, seal OK,
+      quoted whole:
+        "P5_supplied_by_unambiguously_means_temporal_production = NO_VERDICT |
+           reason: no sealed operational definition selects temporal creation over
+           derivational/common-framework provision"
+      preceded at :62-68 by the reasoning, quoted whole:
+        "The class's isolated prose is generative-looking: it says the package is
+         "produced by" and "all derived from" one operator. Its P-rows, however,
+         use a joint source-record-field P0, preserve Q-43's already-typed record
+         carrier in P3, and never state that source action temporally creates that
+         carrier. P5's `supplied by` is not operationally defined as either
+         temporal production or common-framework provision."
+      A corpus artifact posed exactly "does this word mean making, or does it mean
+      constraining?" and booked the answer NO_VERDICT for lack of a sealed
+      operational definition.  THAT IS A CORPUS-NATIVE STATEMENT OF
+      INDETERMINACY AT THE SAME AXIS THIS COMMISSION IS ASKING ABOUT.
+      Its frozen tokens at :36-40 keep both halves live, quoted whole:
+        "ROOT_PHYSICAL_ONTOLOGY = FORMATION
+         CLASS_DEFINITION_READING = GENERATIVE_DERIVATIONAL_PROVENANCE
+         PRODUCER_PROVENANCE_REQUIREMENT = COMMON_ORIGIN_DERIVATION |
+           derived = false | TYPE-U |"
+      and its lead finding at :10-18, quoted whole:
+        "The forced binary is refuted. The class is **GENERATIVE in relay 184's
+         derivational-provenance sense**: its package is `produced by` and `all
+         derived from` one joint operator. The theory is simultaneously
+         **FORMATION in physical order**: an antecedent carrier exists, then a
+         durable record forms only when the stated conditions succeed. One joint
+         source-record-field operator can derive state/effects/domains/dynamics on
+         a carrier that exists before a particular write. Therefore relay 184's
+         assertion that its GENERATIVE category `Contradicts formation` does not
+         survive the class-plus-Q-43 witness."
+      READ AT BYTES: the corpus's own adjudication of a producer-vs-not binary was
+      that THE BINARY IS REFUTED — both readings hold, of different questions.
+
+REM-3 THE SUBSTITUTION, DISPLAYED BY THE CORPUS WITHOUT BEING FLAGGED AS A CHOICE.
+      AJ line 693, as carried at STAGE8_FORCING_NOTION_O12SR_V001.md :512-516,
+      quoted whole: "NEAREST-3  AJ line 693 (the conversion, in one sentence):
+      "the referent's creation cannot be a derivation on this ground". The record
+      states the substitution outright — a CREATION question is answered by a
+      DERIVABILITY verdict. This is the import at its most visible, and it is
+      displayed by the record itself without being flagged as a choice."
+      SECOND-HAND-QUOTE (AJ is not itself in the readable roots under sweep S-1).
+
+REM-4 THE EXACT ABSENCE OF A PRODUCTION QUANTIFIER, booked twice independently.
+      O12SR §3.2 :483-492, quoted whole:
+        "RESULT: EXACT ABSENCE.
+           SWEEP A  2 hits, one artifact in two versions, one line: "every lawful
+                    construction route and price" — an enumeration of AUTHORSHIP
+                    PRICES per pairing family (P-HS/P-CT/P-NEW). Not a forcing
+                    predicate.
+           SWEEP D  ZERO hits, both roots.
+           SWEEP E  ZERO hits in non-fenced files, both roots.
+         NO ARTIFACT IN EITHER ROOT DEFINES, ADOPTS, OR USES A NOTION OF FORCING
+         AS INVARIANCE ACROSS THE LAWFUL PRODUCTIONS OF A RECORD. The absence is
+         displayed, not filled."
+      *** AND I DECLINE TO USE IT. ***  Per the commission's method note, absence
+      of an object is not evidence for either reading.  A corpus with no
+      production quantifier is what a constraint theory looks like AND what an
+      incomplete producer theory looks like.  REM-4 is recorded as a located
+      absence and is given zero weight in §4.5.
+```
+
+### §4.5 THE VERDICT, SPLIT BY LOCUS BECAUSE THE BYTES SPLIT THAT WAY
+
+```text
+─────────────────────────────────────────────────────────────────────────────
+(1) WITHIN THE CLOSURE / FORCING / ALLOW-REQUIRE MACHINERY THIS COMMISSION WAS
+    ASKED ABOUT — the 39 rows of §1, i.e. CS-1..CS-9, F1-a..FS-a, AR-1..AR-5,
+    FC-1..FC-6, and the FP-1/FP-2/FP-3/FP-S failure statements:
+
+    *** OBSERVATIONALLY EQUIVALENT AT BYTES. ***
+
+    NO DISCRIMINATING TEXT WAS FOUND.  Every row's defining text is satisfied
+    identically under both readings:
+      - no clause's satisfaction brings an object into existence as its effect
+        (hunt (a): zero hits inside the machinery);
+      - no clause disclaims production for the machinery as such
+        (hunt (b): zero hits inside the machinery — the four disclaimers found
+        are about Obj_0, the incidence principle, one pairing kernel, and lane
+        discipline);
+      - no codomain inside the machinery is an object (hunt (c): the entire
+        production-verb yield of the eight closure-lane artifacts is three
+        lines, all with a bound or a property on the codomain);
+      - the closure never remarks on its own status (hunt (d): the four
+        remarks located are in the census, the common-origin typing, the
+        forcing-notion audit, and AJ — none inside the machinery).
+
+    The one row that SHOULD have decided it does not: FC-4, the R2
+    root-structure certificate — "Existence AND uniqueness of the solution are
+    THEOREMS" — is exactly the sentence where a producer theory would say
+    "exhibit a root" and a constraint theory would say "the admissible set is a
+    singleton", and it says NEITHER.  INDETERMINATE-AT-BYTES.
+
+    CONSEQUENCE, STATED FLATLY AND WITHOUT ADVOCACY: for this machinery the
+    reframe buys nothing.  Nothing in the corpus's closure, forcing, or
+    allow-require text is true under one reading and false under the other.
+
+─────────────────────────────────────────────────────────────────────────────
+(2) IN THE CORPUS AT LARGE — outside the machinery, in a layer the closure
+    provably never touches (0 of 8, sweep S-6):
+
+    *** DISCRIMINATING-TEXT-FOUND. ***
+
+    ONE clause requires generation as its effect and CUTS AGAINST THE STRICT
+    CONSTRAINT READING:
+      "It must generate source-conditioned distinguishable record states, stable
+       pointer sectors, persistence, and recoverability or redundancy."
+      — PRIMITIVE_SOURCE_RECORD_PAIRED_RETURN_IDENTIFICATION_PRINCIPLE_V002.md
+        :36-39, in a section headed "## Complete closure object".
+      WEIGHT: LOW-TO-MODERATE, for three displayed reasons (§4.3 L1/L2/L3): the
+      verb is deontic and admits a specification-reading; `G_closure` is
+      NAMED-ONLY with no codomain at bytes; and the boundary-closure of record
+      does not consume it.
+
+    THREE object-codomain signatures likewise cut against the strict CONSTRAINT
+    reading, and all three sit in the same untouched layer: U_write (OBJ-1),
+    the cell assignment (OBJ-2), the tower embedding (OBJ-3).
+
+    FOUR disclaimers cut, object by object, against the PRODUCER reading of the
+    specific things they name (DIS-1..DIS-3; DIS-4 non-probative).
+
+─────────────────────────────────────────────────────────────────────────────
+(3) AND THE CORPUS HAS ALREADY ADJUDICATED THE BINARY, TWICE, AT BYTES:
+
+    "The forced binary is refuted." — COMMON_ORIGIN typing :10.
+    "P5_supplied_by_unambiguously_means_temporal_production = NO_VERDICT |
+     reason: no sealed operational definition selects temporal creation over
+     derivational/common-framework provision" — ibid. :70-73.
+
+    A commission asking the corpus to choose PRODUCER or CONSTRAINT is asking a
+    binary the corpus has, at its own bytes, booked as refuted at one site and
+    NO_VERDICT at another.  Displayed.  Not adopted, not recommended, not argued
+    against.
+─────────────────────────────────────────────────────────────────────────────
+
+NOTHING WAS MANUFACTURED.  The §4.5(1) null is a null: I ran hunts (a), (b) and
+(c) against the closure lane individually and file by file, and the yield was
+three magnitude-codomain lines and nothing else.  The §4.5(2) hit is displayed
+with its three limits attached rather than promoted, and it does not move (1),
+because the object carrying it is never consumed by the machinery (1) is about.
+```
+
+---
+
+## §5 — CHOICE LEDGER (commission O36SR; every interpretive choice, classified)
+
+```text
+CH-1  SCALAR CODOMAINS.  A definition whose codomain is a norm, a degree, a
+      count, or a bound is graded MODAL(measurement) rather than GENERATIVE.
+      ALTERNATIVES: (a) grade them GENERATIVE, on the strict letter of "an
+      object not among its inputs" — a real number produced from operators is,
+      literally, not among the inputs; (b) create a fourth top-level category.
+      CHOSEN: MODAL(measurement), a marked sub-kind of MODAL.
+      WHY: the commission's own gloss of GENERATIVE is "it makes something",
+      and its MODAL gloss includes "a verdict ... or a partition"; a norm of a
+      given operator is a measurement of the input, not a new inhabitant of the
+      theory's object types.  Grading norms GENERATIVE would make every
+      inequality in every corpus a generative act and destroy the distinction
+      the commission is testing.
+      REVERSIBILITY: the five affected rows are NAMED (CS-3, CS-4, CS-8, F1-a,
+      F3-c) so a reader preferring (a) can re-add exactly them.  Under (a) the
+      Q1 tally becomes MODAL 25 / GENERATIVE 5 / MIXED 2 / NAMED-ONLY 6 /
+      INDET 1, and §4.5(1) is UNCHANGED — none of the five has an object of
+      the theory on its codomain, so none discriminates.
+      STATUS: CLOSED.
+
+CH-2  WHAT COUNTS AS "THE MACHINERY".  I fixed the closure/forcing/allow-require
+      machinery as: the WBC closure stock CS-1..CS-9; the O8SR failure-point
+      rule inventory; the T14SR allow/require inventories and junction; the
+      onset gate and the flux-conditioned write gate; the forcing criterion and
+      its shapes; plus every item those name and never define.
+      ALTERNATIVES: (a) narrower — only the WBC's own §2; (b) wider — the whole
+      corpus, on the ground that "closure" appears in many artifacts.
+      CHOSEN: the middle scope above.
+      WHY: (a) would have excluded the allow/require apparatus and the forcing
+      criterion, both of which the commission names explicitly; (b) would have
+      made the answer trivially "the corpus contains everything".
+      COST, DISPLAYED: the scope choice is what produces the §4.5 SPLIT — under
+      (b) the verdict would read DISCRIMINATING-TEXT-FOUND flatly, because
+      G_closure and U_write would be inside.  I therefore did not hide the
+      choice behind the verdict: §4.5 states BOTH loci and their contact test.
+      STATUS: CLOSED.
+
+CH-3  PRIMARY VS REPORT.  Where a rule's primary source (E1, WALL internal
+      lines, CERT, W-2, W-3, AJ, the forcing-boundary adjudication) is not a
+      file in either readable root under my declared sweeps, I used the sealed
+      lane report's verbatim quotation and marked the row SECOND-HAND-QUOTE.
+      ALTERNATIVES: (a) drop those rows entirely; (b) use them unmarked.
+      CHOSEN: use and mark.
+      WHY: (a) would have removed F1-a, F2-a/b/c/d, F3-a/c/e, FC-1/2/4/5 — i.e.
+      most of the inventory — and produced a Q1 answer about a fragment.  (b)
+      would have overstated my access.
+      AFFECTED ROWS, LISTED SO THEY CAN BE RE-CHECKED: F1-a, F2-a, F2-b, F2-c,
+      F2-d, F3-a, F3-c, F3-e, FC-1, FC-2, FC-4, FC-5, REM-3.
+      STATUS: CLOSED.
+
+CH-4  THE (P)/(C) BOUNDARY AT "NO MEMBER SUPPLIES IT".  I graded FP-1 (C) rather
+      than (P) or AMBIGUOUS, though its blocking phrase is production-shaped.
+      ALTERNATIVES: (a) grade (P), reading "no member supplies it" as "nothing
+      makes the object"; (b) grade AMBIGUOUS.
+      CHOSEN: (C).
+      WHY: the quantifier in "no member supplies it" ranges over artifacts and
+      authors in the swept stock, and the corpus says so in the same breath —
+      "unsupplied (an absence of a member who provides the bound) rather than
+      excluded (a theorem forbidding it)" (O22SR :193-197).  A supply fact about
+      the build process is not the claim (P) makes about the theory.  And the
+      corpus disclaims (P) outright at O8SR :180-183.
+      STATUS: CLOSED.
+
+CH-5  WEIGHT OF THE G_closure CLAUSE.  I displayed it as a discriminator and
+      graded it LOW-TO-MODERATE rather than either dismissing it or letting it
+      decide.
+      ALTERNATIVES: (a) dismiss it — "must generate" is deontic, so it is a
+      specification and discriminates nothing; (b) let it decide — a clause
+      demanding generation is generative text, full stop.
+      CHOSEN: display with its three limits attached (L1 deontic verb, L2
+      NAMED-ONLY codomain, L3 zero contact with the boundary-closure).
+      WHY: (a) suppresses text that is genuinely on the axis; (b) would let a
+      clause about an object with no codomain at bytes decide a question about
+      objects that have one.  Both would be manufacture — in opposite
+      directions.
+      STATUS: CLOSED.
+
+CH-6  THE GENERATION-RULE COUNT.  I report 5 families / 10 individual rules
+      rather than the program's reported "roughly four", and I correct the
+      carried characterization of the AXN family at bytes.
+      ALTERNATIVES: (a) report four and note a discrepancy; (b) report only my
+      family count.
+      CHOSEN: report both granularities, name the rule the reported count omits
+      (A2), and display the AXN correction with G2's own bytes.
+      WHY: the commission instructed me to locate them myself and report the
+      count I actually find, and the substantive point is not the number — it is
+      that G2, inside the family reported as pointing at nothing record-shaped,
+      has a CELL on its output side.
+      STATUS: CLOSED.
+
+CH-7  TREATMENT OF ABSENCE.  I recorded, at §2.6(ii) and §4.4 REM-4, two places
+      where an absence was available as evidence and I gave it zero weight.
+      ALTERNATIVES: (a) use the absences (the empty production quantifier, the
+      TYPE-MISMATCH grades) as support for the CONSTRAINT reading.
+      CHOSEN: zero weight, and the temptation recorded.
+      WHY: the commission's own method note — "Absence of an object is not
+      evidence for either reading by itself.  Say so if you are tempted to use
+      it."  I was tempted twice and say so.
+      STATUS: CLOSED.
+
+CH-8  NO ADOPTION.  I state no preference between the readings and make no
+      recommendation.  Where the bytes do not decide, the row reads
+      INDETERMINATE-AT-BYTES or OBSERVATIONALLY EQUIVALENT AT BYTES.
+      ALTERNATIVES: none lawful under the commission's absolute bar.
+      STATUS: CLOSED.
+
+ZERO OPEN CHOICES AT SEAL.
+```
+
+---
+
+## §6 — TOY_SEPARATION
+
+```text
+I CONSTRUCTED NOTHING FOR ILLUSTRATION.
+
+No toy object, no example, no schematic, no worked instance, no diagram, no
+substitute operator, no candidate certificate, no model pair, and no numeric
+value was built by me at any point in this commission.  There is nothing to
+separate.
+
+The classification tables of §1 and the grade columns of §2 are LABELS I applied
+to corpus text, not objects I made; each row's content is a verbatim quotation
+with a file:line, and removing my labels leaves the quotations intact.
+
+TWO ITEMS THAT MIGHT BE MISTAKEN FOR CONSTRUCTIONS, NAMED SO THEY ARE NOT:
+  (1) The classification vocabulary at §1 (MODAL / GENERATIVE / MIXED /
+      NAMED-ONLY / INDETERMINATE-AT-BYTES, plus my MODAL(measurement) sub-kind).
+      This is the COMMISSION'S vocabulary plus one declared refinement (CH-1).
+      It is not corpus content and no corpus row is changed by it.
+  (2) The counterfactual tallies at CH-1 ("under (a) the Q1 tally becomes ...").
+      These are arithmetic on my own labels, displayed so the choice is
+      reversible.  They are not corpus content and no finding rests on them.
+
+NO FINDING IN THIS ARTIFACT RESTS ON ANY OBJECT I MADE.
+```
+
+---
+
+## §7 — IMPORT AUDIT — every notion used but not corpus-defined
+
+```text
+IMP-1  "CODOMAIN" / "OUTPUT TYPE" / "SIGNATURE".
+       SOURCE: elementary mathematics (function typing).  NOT record-native as
+       a general notion — but NOT AN IMPORT HERE, because the corpus defines and
+       uses the same notion itself, at its own bytes:
+       STAGE8_INGREDIENT_CENSUS_O17SR_V001.md :29-43 ("RULE takes something,
+       yields something. Includes MAPS (the special case where the yield is an
+       element of a named target). CONSTRAINT takes something, yields a truth
+       value"), and STAGE8_OBJ0_EXACT_SIGNATURE_DOMAIN_CODOMAIN_SPEC_AND_BUILD_
+       STOP_V001.md uses "domain/codomain" in its own title and body.
+       SURVIVES WITHOUT THE IMPORT: YES — the census's four types are sufficient
+       for every row of §1 and §2.
+
+IMP-2  "MODAL" and "GENERATIVE" as such.
+       SOURCE: THE COMMISSION.  These two words are not corpus vocabulary.  The
+       corpus's nearest native pair is RULE vs CONSTRAINT/CERTIFICATE (IMP-1's
+       source) and GENERATIVE vs FORMATION (STAGE8_COMMON_ORIGIN_GENERATIVE_VS_
+       FORMATION_TYPING_V001, which uses "GENERATIVE" in a DIFFERENT sense —
+       derivational provenance, not object-production; its own :36-38 keeps the
+       two apart: "ROOT_PHYSICAL_ONTOLOGY = FORMATION / CLASS_DEFINITION_READING
+       = GENERATIVE_DERIVATIONAL_PROVENANCE").
+       *** FLAGGED AS A LIVE COLLISION: the corpus's word "GENERATIVE" and the
+       commission's word "GENERATIVE" do not mean the same thing.  I have used
+       the commission's sense throughout and marked every corpus occurrence as
+       a quotation. ***
+       SURVIVES WITHOUT THE IMPORT: YES — §1 could be rewritten wholly in the
+       census's RULE/CONSTRAINT/CERTIFICATE vocabulary with no row changing.
+
+IMP-3  "PRODUCER READING" / "CONSTRAINT READING".
+       SOURCE: THE COMMISSION.  Neither phrase occurs in either root.
+       SURVIVES WITHOUT THE IMPORT: the §4 verdict does — it is a statement
+       about whether any text is true-under-one/false-under-the-other, which
+       can be stated without naming the readings.  The §1/§2 tables do not
+       depend on the phrases at all.
+
+IMP-4  "OBSERVATIONALLY EQUIVALENT".
+       SOURCE: THE COMMISSION (philosophy of science).  Not corpus vocabulary.
+       The corpus's own nearest native construct is the TWO-MODEL WITNESS
+       (T14SR §3: "two models of every displayed clause exist that differ on the
+       junction") and the NO_VERDICT token.
+       SURVIVES WITHOUT THE IMPORT: YES — §4.5(1) can be restated natively as
+       "no clause of the machinery separates the two readings", which is what it
+       says.
+
+IMP-5  DEONTIC vs INDICATIVE MOOD (used at §4.3 L1 to weigh "must generate").
+       SOURCE: ordinary grammar.  Not corpus-defined.
+       SURVIVES WITHOUT THE IMPORT: the FINDING does (the clause exists and says
+       "must generate"); the WEIGHTING does not — without a mood distinction I
+       could not have graded the clause LOW-TO-MODERATE rather than decisive.
+       *** THIS IS THE ONE PLACE WHERE AN IMPORT CARRIES WEIGHT IN A VERDICT,
+       AND IT IS SAID HERE RATHER THAN BURIED. ***  A reader who rejects the
+       mood distinction should read §4.5(2)'s G_closure row as a STRONGER
+       discriminator than I graded it — and should note that §4.5(1) is
+       unaffected either way, because L3 (zero contact, 0 of 8) is a count, not
+       a grammatical judgement.
+
+IMP-6  "NECESSARY CONDITION" vs "SUFFICIENT CONDITION" (used at §4.3 to grade
+       "forms only after ... succeed" NON-DISCRIMINATING).
+       SOURCE: elementary logic.  The corpus uses both notions constantly
+       (O8SR §4.2 "a SUFFICIENT CONDITION for it is exhibited of record") so
+       this is at most a shared, not an imported, notion.
+       SURVIVES WITHOUT THE IMPORT: YES.
+
+NO CONTINUUM LIMIT, NO KK REDUCTION, NO METRIC, NO VARIATIONAL PRINCIPLE, AND NO
+CLASSICAL-GRAVITY READING WAS USED AS A PREMISE ANYWHERE IN THIS ARTIFACT.  Where
+the corpus's own quoted text contains such notions (e.g. the FS/Mandelstam-Tamm
+theorem at CS-8, "imported" by the corpus's own word), they appear only inside
+quotation and carry no inferential weight in any grade I assigned.
+```
+
+---
+
+## §8 — SWEEP CUTOFFS
+
+Declared in full at **§0.1** with each pattern written out and its stopping point
+named (S-1 through S-6). Restated here in one line each so the block is where the
+commission expects it:
+
+```text
+S-1  closure/failure-point locator.  STOPPED when every FP row traced to the WBC
+     verdict block :397-448 and no new failure-point label appeared.  Confirmed
+     by the (FP-4|FP-5|FP-0) sweep: ZERO hits, both roots.
+S-2  generation-rule vocabulary, uncapped, both roots.  STOPPED at the full line
+     list; no cap reached; every non-report line read and disposed at §2.3.
+S-3  production disclaimers, uncapped, both roots.  STOPPED at the full line
+     list; no cap reached; disposed at §4.2.
+S-4  output-side/codomain locator, scoped to what S-1/S-2 surfaced plus the
+     INGREDIENT CENSUS.  STOPPED when census §2.1/§2.2/§2.3 answered the
+     cell/record/joining question exhaustively at bytes.
+S-5  assigning-agent locator, both roots.  STOPPED at the census U-1..U-10 list.
+S-6  closure-lane contact test, run by me against the eight closure-lane
+     artifacts individually.  STOPPED at the eight; that is the whole lane as
+     T17SR §1 names it.  Result 0/8, twice (formation-layer tokens; G_closure).
+
+NOT SWEPT, AND DECLARED AS NOT SWEPT:
+  - Any file whose basename matches the register bar.  See FLAG-3.
+  - The E1, CERT, W-2/W-3 internal-line primaries and the forcing-boundary
+    adjudication, which are not files in either readable root under S-1; every
+    row depending on them is marked SECOND-HAND-QUOTE (CH-3 lists all 13).
+  - `.py`, `.json` and `.txt` beyond S-2's inclusion of them; the corpus's
+    definitional text is in `.md` and S-2 confirmed no `.md`-absent generation
+    rule exists in the other extensions.
+```
+
+---
+
+## §9 — FLAG BLOCK
+
+```text
+FENCE LINE.  alpha_computed = false · proof_authorized = false ·
+  kappa_record_computed = false.  HONOURED.  No numeric value of any coupling,
+  scale, root, eigenvalue, or constant was computed by me; no comparison to any
+  measured value was made.  Every fence token above appears inside quotation or
+  in this line.  No CAS was run this commission — nothing here required one, and
+  running one would have risked producing a value.
+
+SEAL TALLY.  28/28 OK, verified with `shasum -a 256 -c` run from the artifacts'
+  own directory before any reliance.  Full list at §0.  Zero mismatches.
+
+FLAG-1  THE ONE ARTIFACT CONSUMED WITHOUT A SIDECAR.
+  PRIMITIVE_RECORD_CARRIER_AND_KINEMATICS_V001.md has no `.seal.sha256` and no
+  `.sha256` in the workspace.  I read exactly one status token from it
+  (`causal_cell_and_record_density_derived = false`, :112).  That token is
+  independently carried inside the seal-verified INGREDIENT CENSUS §2.1.  No
+  finding rests on the unsealed read.  DECLARED, NOT HIDDEN.
+
+FLAG-2  THE CENSUS ROW I DID NOT REACH AT PRIMARY BYTES.
+  G-REC-3 (the carrier derivation, census A-4) is reported through the census's
+  own typing; I did not open its primary under the declared cutoff.  Graded one
+  step lower and marked in place.  The Q2 answer does not turn on it: removing
+  G-REC-3 leaves three producers and the same TYPE-MISMATCH grade on all.
+
+FLAG-3  *** REGISTER-BAR INCIDENT — ONE, REPORTED. ***
+  On my FIRST run of sweep S-2, the fence filter I wrote matched the literal
+  string `QUESTIONS_SETTLED_REGISTER`, while the file actually present in ROOT-2
+  is named `QUESTIONSSETTLED_REGISTER_V001.md` (no underscore between QUESTIONS
+  and SETTLED).  The filter therefore did not drop it, and the file's BASENAME
+  and a HIT COUNT (8) appeared in my aggregated output.  NO LINE OF ITS CONTENT
+  WAS DISPLAYED, READ, OR QUOTED — the command aggregated to basenames and counts
+  only.  I tightened the filter to a bare `REGISTER` match before any further
+  sweep, and every subsequent sweep in this commission used the tightened filter.
+  Nothing from that file is cited anywhere in this artifact.
+
+FLAG-4  A QUOTATION THE CORPUS ITSELF CARRIES ELIDED.
+  Rule F2-c's source sentence is quoted by O8SR as the fragment "A MEMBER
+  supplies..." with a trailing ellipsis in the sealed text.  I could not reach
+  the unelided sentence (its primary, R1's criterion sentence, is not a file in
+  either readable root under S-1).  The row is marked SECOND-HAND-QUOTE and the
+  ellipsis is displayed rather than silently completed.  F2-c's MODAL grade
+  survives on the fragment alone (a supplier-class rule is modal on any
+  completion), but the reader should know the span is short at its own source.
+
+FLAG-5  DEFECTS FOUND IN MY OWN DRAFT DURING SELF-CHECK, corrected in place:
+  (a) MY FIRST DRAFT OF §2 WROTE THE CENSUS AS EMPTY.  I had assembled the
+      TYPE-MISMATCH grades and the 0-of-8 contact test and was about to write
+      "no generator anywhere produces anything the closure could act on" — the
+      commission's own contingency sentence.  RE-CHECKING AT BYTES, the
+      INGREDIENT CENSUS §2.2's heading answer is "**PRESENT, AND MORE THAN
+      ONE.** Unlike the cell, the record is genuinely yielded."  The census is
+      NOT empty; the correct finding is FOUR producers, ALL TYPE-MISMATCHED, and
+      NONE consumed.  Corrected before writing, and the near-miss is recorded
+      because the two findings are not the same finding.
+  (b) MY FIRST PASS ACCEPTED THE CARRIED CHARACTERIZATION OF THE AXN GENERATION
+      RULES AS "codomain terms".  Reading G1-G6 at their own bytes shows that is
+      true of G1 only, and that G2 IS the cell-assignment clause.  Corrected at
+      §2.3 with G2's bytes displayed.
+  (c) MY §1 TALLY ORIGINALLY READ 40 ROWS AND OMITTED `G_closure`, which I
+      located only while running hunt (a) for §4.  Added as N-6 and the tally
+      re-cut to 41.  The §4 verdict was written AFTER N-6 was in hand, so no
+      verdict was formed on the smaller inventory.
+  (d) MY §4.1 SUMMARY SENTENCE ORIGINALLY CLAIMED ALL ROWS HAVE A CODOMAIN.
+      Six do not — that is what NAMED-ONLY means.  Restated to thirty-three.
+  (f) *** MY OWN TALLY ARITHMETIC WAS WRONG AND I CAUGHT IT BY COUNTING THE
+      TABLE ROWS MECHANICALLY RATHER THAN TRUSTING MY RUNNING TOTAL. ***  I had
+      written 41 rows / MODAL 29 / MIXED 3; the tables actually contain
+      9 + 13 + 5 + 6 + 6 = 39 rows, and the correct split is MODAL 30 /
+      GENERATIVE 0 / MIXED 2 / NAMED-ONLY 6 / INDETERMINATE 1.  Two sub-tallies
+      were also wrong: the FP-rule band read "MODAL 11 ... MIXED 2" against 13
+      listed rules (correct: MODAL 12, MIXED 1), and the MODAL(measurement)
+      count was stated as 3 in one band where it is 2.  All corrected; the CH-1
+      counterfactual tally was recomputed with them.  NO VERDICT CHANGES: the
+      GENERATIVE count was 0 before the correction and is 0 after it, which is
+      the number §4.5(1) turns on.
+  (e) QUOTATION RE-CHECK: every quoted span in §1-§4 was re-read against bytes
+      after drafting.  Three quotes were EXTENDED to include a continuation that
+      cuts against my row: CS-2 (+"offered as obligations R-L4a/b, never as
+      results"), G-REC-1 (+"It does not uniquely determine the unitary on the
+      unused input subspace" and the not-a-Level-1-postulate clause), and the
+      O6SR two-lanes quote (+the "DISPLAYED ABSENCE ... does not prove the
+      content is gauge-free" paragraph).  No elision remains inside any quoted
+      span; where a span is short at its own source that is FLAG-4.
+  (g) MECHANICAL QUOTATION RE-VERIFICATION, run after drafting rather than
+      trusted: every one of the artifact's 9 blockquote blocks and 40 named
+      verbatim fragments was normalized (whitespace collapsed, table-escaped
+      pipes restored) and searched against the workspace corpus.  TWO defects
+      were found and fixed:
+        - the O22SR "unsupplied vs excluded" quote had my line-wrapping, not the
+          source's, and its cited span was one line long.  Re-quoted at the
+          source's own wrapping, span corrected to :192-196, and the preceding
+          sentence ("Neither file asserts the antecedent.") ADDED, because it
+          states the implication the grade depends on and its omission was
+          exactly the favourable-clause drop this program has flagged repeatedly.
+        - the AXN G5 quote dropped the source's emphasis markers
+          (`**RULE G5.**`) and cited :73-74 for text at :74-75.  Both fixed.
+      FINAL STATE: 9 of 9 blockquotes and 40 of 40 fragments verify exactly
+      against corpus bytes.
+
+REGISTER BAR OTHERWISE HONOURED.  No QUESTIONS_SETTLED_REGISTER, EXECUTION_
+  TRACKER, THE_PLAN, ROAD_REMAINING, THE_HANDOFF, OBSERVATIONS_REGISTER,
+  *DECISION_SHEET*, *_ADDENDUM*, or alpha_supervision/ file was opened, read, or
+  quoted, save for the basename-and-count exposure at FLAG-3.
+
+NO GIT ACTION TAKEN.  No register, tracker, plan, or road file touched or
+  written.  Nothing adopted, proposed, recommended, or argued for.
+```
+
+---
+
+## §10 — THE FOUR ANSWERS, ASSEMBLED
+
+```text
+Q1  SIGNATURE CLASSIFICATION.  39 rows.
+      MODAL 30 (of which MODAL(measurement) 5) · GENERATIVE 0 · MIXED 2 ·
+      NAMED-ONLY 6 (21 at item granularity) · INDETERMINATE-AT-BYTES 1.
+      NOT ONE ROW OF THE CLOSURE / FORCING / ALLOW-REQUIRE MACHINERY HAS AN
+      OBJECT OF THE THEORY ON ITS CODOMAIN AT BYTES.
+
+Q2  CANDIDATE-GENERATOR CENSUS.  *** NOT EMPTY. ***  Four operators carry a
+      record or a cell on their output side — G-CELL-1 (the CIS cell assignment,
+      = AXN G2), G-REC-1 (U_write), G-REC-2 (the formation ordering), G-REC-3
+      (the carrier derivation).  Twelve further rules/maps (B-1..B-8, FAM-1..5)
+      carry other objects.  GRADES: FEEDS-CLOSURE 0 · TYPE-MISMATCH all ·
+      CANNOT-DETERMINE-AT-BYTES 0.  Contact with the closure lane: 0 of 8.
+      GENERATION-RULE COUNT AS I FIND IT: 5 families / 10 individual rules, not
+      four — and the family reported as pointing at nothing record-shaped
+      contains G2, which points at a cell.
+
+Q3  FAILURE RESTATEMENT.  Set verified {FP-1, FP-2, FP-3} + FP-S; no fourth.
+      FP-1 (C) · FP-2 (C) · FP-3 (C) · FP-S NEITHER-STATED as a point,
+      (C) for its one residual FAILS-AT.  No point grades (P); none is
+      AMBIGUOUS.  At FP-2 and FP-3 the production-shaped language present is a
+      REFUSAL TO PRODUCE, which is the negation of (P), not a version of it.
+
+Q4  DISCRIMINATION.
+      WITHIN THE MACHINERY: *** OBSERVATIONALLY EQUIVALENT AT BYTES. ***  No
+        discriminating text.  The reframe buys nothing there.
+      OUTSIDE IT, IN A LAYER THE CLOSURE NEVER TOUCHES (0 of 8):
+        *** DISCRIMINATING-TEXT-FOUND ***, cutting AGAINST THE STRICT CONSTRAINT
+        READING — "It must generate source-conditioned distinguishable record
+        states, stable pointer sectors, persistence, and recoverability or
+        redundancy" (G_closure, PRIMITIVE_SOURCE_RECORD_PAIRED_RETURN_
+        IDENTIFICATION_PRINCIPLE_V002.md :36-39), weight LOW-TO-MODERATE for the
+        three limits at §4.3; plus three object-codomain signatures (OBJ-1/2/3).
+        Four disclaimers cut, object by object, against the PRODUCER reading of
+        the specific things they name.
+      AND THE CORPUS HAS BOOKED THE BINARY ITSELF: "The forced binary is
+        refuted" and "P5_supplied_by_unambiguously_means_temporal_production =
+        NO_VERDICT".
+```
+
+**END OF ARTIFACT — STAGE8_CONSTRAIN_OR_CREATE_O36SR_V001**
