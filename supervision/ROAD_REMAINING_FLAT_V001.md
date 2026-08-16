@@ -91,6 +91,8 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       routable). The founding question: openness DISPLAYED, the honest third
       horn. ROUTE: seal Finish B → 20 — FINISH B HELD at the principal's word
       (2026-08-15) pending the junction campaign's returns (item 22).
+      **THE CAMPAIGN HAS RETURNED (2026-08-16, Q-1153–Q-1160): the hold's
+      stated condition is DISCHARGED. Release is the principal's word.**
       Items 15-19 DO NOT OPEN; the three fences stand false, untouched.
 ○ 15. CLOSE THE COMPUTE PRE-GATE — Q_spec → Z_Q → the κ→K* bridge; the appointed
       executable C_record(K). [lane]
@@ -124,10 +126,23 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       THEOREM attack fires (derive the allow/require partition FROM the
       closure's clauses alone — the line-drawer proved, not located);
       sites scatter or closure-independent contingency ⇒ OBS-24 killed of
-      record, the campaign closes honestly. [lane; OBS-24's kill/support
-      conditions govern]
+      record, the campaign closes honestly. CAMPAIGN RETURNS 2026-08-16
+      (eight commissioned pairs, Q-1153–Q-1160): the wrong-sign hypothesis
+      REFUTED (0 licensed / 5 posable / 19 excluded of 24 — but 12 of 24 have
+      their sign in an ABSENCE, which has no sign to flip); **no failure point
+      is blocked by mathematics** (FP-1 "no mathematics excludes the required
+      object"; FP-2's impossibility NAMES THE KIND THAT CAN WORK and its
+      producing act is refused as authorship; FP-3 "it is F3-d, not
+      mathematics, that stops it"); forcing is CLOSURE-SUPPLIED 0 /
+      CONTENT-SUPPLIED 10 of 14 sites; **point-cutting requires reach the
+      magnitude's own carrier at ZERO distance**, separated by three displayed
+      absences; no completion principle exists (uniqueness ⇏ existence, and
+      the 3/3 is DEMAND-uniqueness); the produce/constrain binary was already
+      refused of record; the discrepancy cocycle is PROVEN-ZERO; the twist
+      route has NO ACTUAL DATA and void condition 3 is UNTESTABLE-AS-STATED.
+      [lane; OBS-24's kill/support conditions govern]
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1152 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1160 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
