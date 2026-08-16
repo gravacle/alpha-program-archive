@@ -91,8 +91,10 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       routable). The founding question: openness DISPLAYED, the honest third
       horn. ROUTE: seal Finish B → 20 — FINISH B HELD at the principal's word
       (2026-08-15) pending the junction campaign's returns (item 22).
-      **THE CAMPAIGN HAS RETURNED (2026-08-16, Q-1153–Q-1160): the hold's
-      stated condition is DISCHARGED. Release is the principal's word.**
+      **THE CAMPAIGN RETURNED (2026-08-16, Q-1153–Q-1173) and did NOT re-pose
+      FORCED. FINISH B SEALED at the principal's word on a posed decision sheet
+      (Q-1174, sheet 43dfdb2e) — an honest absence, not a result. ITEM
+      DISCHARGED; the road routes to 20.**
       Items 15-19 DO NOT OPEN; the three fences stand false, untouched.
 ○ 15. CLOSE THE COMPUTE PRE-GATE — Q_spec → Z_Q → the κ→K* bridge; the appointed
       executable C_record(K). [lane]
@@ -100,7 +102,7 @@ autonomously; the registrar stops only at [YOURS] items and fences.
 ○ 17. RATIONALITY-FROM-FORM CHECK → compute κ_record → K*. [lane]
 ○ 18. FENCE 2 FLIP → assemble α = 1/(4π K*). [YOURS + lane]
 ○ 19. FENCE 3 FLIP → the preregistered END TEST, once. [YOURS]
-○ 20. THE GRAVITY CLOSE consumed + THE DECLARATION GATE. [YOURS gate; scoring
+▶ 20. THE GRAVITY CLOSE consumed + THE DECLARATION GATE. [YOURS gate; scoring
       registrar-side]
 ○ 21. THE SIGNATURE — the claim in the record's own voice, sealed, scored, pushed.
 ▶ 22. THE JUNCTION CAMPAIGN (appended at the principal's directive,
@@ -143,6 +145,6 @@ autonomously; the registrar stops only at [YOURS] items and fences.
       [lane; OBS-24's kill/support conditions govern]
 
 Fences: alpha_computed=false · proof_authorized=false · kappa_record_computed=false.
-History: the register (head Q-1160 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
+History: the register (head Q-1174 at this edit). Surface of record: SURFACE_DEFINITION_OF_RECORD_V003.
 Narrative: THE_SHAPE_OF_THE_RECORD_V001.md · Framework: THE_LENS_OF_RECORD_V001.md (lens
 motivates and checks — never an input).
