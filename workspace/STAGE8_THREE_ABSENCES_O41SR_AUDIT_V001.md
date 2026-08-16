@@ -24,32 +24,43 @@ or a digest.
 PER-DIMENSION GRADES
 
   D1  The three absences (Q1)          CONFIRMED-WITH-CORRECTIONS
+        - all three located correctly    CONFIRMED
+        - graded off deciding words      CONFIRMED (the hunted defect is absent)
   D2  Fillability (Q2)                 CONFIRMED-WITH-CORRECTIONS
+        - all three NOT-HELD-NOT-EXCL.   SUSTAINED
+        - "no impossibility anywhere"    REFUTED  (COR-B)
   D3  The forcing threshold (Q3)       CONFIRMED-WITH-CORRECTIONS
-        - provenance ENTERED            SUSTAINED (on the carriers read)
-        - "ADOPTED is excluded"         REFUTED
+        - threshold definition           CONFIRMED
+        - crossing dimension 3           SUSTAINED (provenance corrected, COR-G)
+        - provenance ENTERED             SUSTAINED (on the carriers read)
+        - "ADOPTED is excluded at bytes" REFUTED  (COR-A)
   D4  Phase data (Q4)                  CONFIRMED-WITH-CORRECTIONS
-        - no adjacency inflated         CONFIRMED (the hardest test; passed clean)
-        - enumeration closed            REFUTED (incomplete on the build's own source)
+        - no adjacency inflated          CONFIRMED (the hardest test; passed clean)
+        - enumeration closed             REFUTED  (COR-D, COR-E)
   D5  The two candidates (Q5)          CONFIRMED-WITH-CORRECTIONS
+        - both identifications           CONFIRMED
+        - UNBUILT / BARRED-BY-A-RULE     SUSTAINED
+        - "neither excluded by any proof
+           anywhere"                     REFUTED  (COR-B)
   D6  Bars and fences                  CONFIRMED-WITH-CORRECTIONS
+        - fences, bars, leak counter     CONFIRMED (zero incidents)
+        - seal tally 33/34               REFUTED -> 34/34  (COR-F)
 
 OVERALL:  CONFIRMED-WITH-CORRECTIONS
 
-  No verdict of the build is overturned. Four of its stated WARRANTS are:
-  the exclusion of ADOPTED (COR-A), the seal declaration (COR-E), the
-  "sentence after the impossibility" (COR-B), and the closedness of the Q4
-  enumeration (COR-C / COR-D). The three absences are correctly located and
-  correctly graded off deciding words rather than headlines; the fillability
-  grades survive an independent exclusion hunt run here; the Q5
-  identifications and both reasons are exactly right at bytes; the fences
-  and bars held with zero incidents.
+  No graded ANSWER of the build is overturned. Six of its stated WARRANTS
+  are: the exclusion of ADOPTED (COR-A), the absence of any impossibility
+  (COR-B), the "sentence after the impossibility" (COR-C), the closedness
+  of the Q4 enumeration (COR-D, COR-E), and the seal declaration (COR-F).
 
-  THE ONE THING A DEFAULT-REFUTE LANE WOULD MOST WANT TO FIND — a
-  barred-by-rule candidate graded excluded-by-proof, or a derived dimension
-  graded entered — IS NOT PRESENT. The heaviest correction runs the other
-  way: the build under-searched the authored rulings and then stated an
-  exclusion its search could not support.
+  THE SEVERE ERROR THE COMMISSION NAMED — a barred-by-rule candidate
+  graded excluded-by-proof, or a derived dimension graded entered — IS NOT
+  PRESENT. The build's failures are all of ONE shape, twice: a narrow
+  search, a zero, and a universal asserted over it. At the DOR rulings it
+  ran eight literals, got zeroes, and declared ADOPTED excluded. At S-05 it
+  ran one phrase, got nine files, opened none, and declared no
+  impossibility exists anywhere. Both declarations are false at bytes.
+  Neither answer they support is.
 ```
 
 ---
@@ -60,7 +71,7 @@ OVERALL:  CONFIRMED-WITH-CORRECTIONS
 
 **WORKSPACE — 20 / 20 consumed sources OK.** Every one of the build's twenty named sources
 verified OK, **including `PRIMITIVE_RECORD_ACTION_CHARACTER_BRIDGE_GATE_V002.md` [BRG], which
-the build declared unsealed.** See COR-E.
+the build declared unsealed.** See COR-F.
 
 **SUPERVISION (DOR_* only, as expressly permitted) — 14 / 14 OK.** All fourteen `DOR_*.md`
 rulings verified against their `.md.seal.sha256` sidecars: 14 OK, 0 FAIL. No other file in that
@@ -144,7 +155,7 @@ line-oriented grep. **All twelve are contiguous and faithful.** Two traps were l
 
 ### 2.4 Corrections in D1
 
-**COR-I** and **COR-H** (see §8). Neither disturbs an A-grade.
+**COR-J** (this section) and **COR-K**, **COR-L** (see §8). None disturbs an A-grade.
 
 **Also carried against the build, because it cuts toward A-3's threshold sentence being MORE
 load-bearing than the build allowed:** §2.3 of the build says the threshold sentence "is
@@ -733,3 +744,311 @@ Corrected: fences **INTACT — CONFIRMED**; bars **HELD, zero incidents — CONF
 **one unreconciled headline/sweep disagreement, at the DOR rank row**.
 
 ---
+
+## §8 — CORRECTIONS, IN SEVERITY ORDER
+
+**COR-A — D3 — THE PROVENANCE EXCLUSION IS REFUTED.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/supervision/DOR_020_A1_WHERE_CLAUSES_AMENDMENT_2026-08-04.md:12-15`
+(with `:1`, `:3`, `:28-30`), against build `:580` and `:575-577`.
+A sealed **ADOPTED** ruling of record types THE LOCAL FIELD MEMBERS as *"a U(1) BUNDLE WITH
+CONNECTION over the record surface … smooth full-rank"*. The build's *"ADOPTED is excluded at
+bytes"* is unsupported, and its DOR `rank`-row disposal (*"ALL are cycle-rank / rank-two MEMBER
+classes … NOT bundle-fiber rank"*) is false for `DOR_020_A1:14` and inaccurate for
+`DOR_019_CARRIER_METRIC_AND_UNITS_RATIFICATION_2026-08-03.md:14`.
+**CORRECTED GRADE: provenance = ENTERED on the carriers read — SUSTAINED; NOT-ADOPTED —
+REFUTED, replaced by ADOPTED NOT EXCLUDED; whether DOR_020_A1's bundle is §I.4's fixed line
+bundle — INDETERMINATE-AT-BYTES. The commission's answer "a choice, not a wall" is unaffected in
+direction: an adopted dimension is also a choice.**
+
+**COR-B — D2 / D5 — TWO EXCLUSION-SHAPED STATEMENTS, SURFACED BY THE BUILD'S OWN SWEEP AND NOT
+READ.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/workspace/STAGE8_ZQ_STRUCTURE_FORCING_FABLE_V001.md:420-425`
+and `:405-416`; corroborating limit at
+`/Users/bgm/MB Work/alpha-program-archive/workspace/STAGE8_NEUTRAL_COMPARAND_FAITHFULNESS_FABLE_V001.md:31-32`
+and `:374-378`; against build `:392` and `:962-963`.
+Both artifacts are in the build's own S-05 (`n-blind comparand`, 9 files) result set. The first
+states *"the `Z_Q` comparand CANNOT be n-blind — the unavailability is structural, not merely a
+build-state fact."*
+**CORRECTED GRADE: A-2 fillability NOT-HELD-NOT-EXCLUDED at the object level — SUSTAINED (and
+corroborated). The build's absolutes "No impossibility of the comparand is shown anywhere" and
+"NEITHER IS EXCLUDED BY ANY PROOF ANYWHERE IN EITHER CORPUS ROOT" — REFUTED. Candidate 2 is
+barred by a rule AND structurally excluded from n-blindness at the quantifier "built from the
+record's ratified charged content".**
+
+**COR-C — D2 — "THE SENTENCE AFTER THE IMPOSSIBILITY" IS NOT THE SENTENCE AFTER IT.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/workspace/STAGE8_AMPLITUDE_JUNCTION_S9AD_V001.md:552-554`,
+against build `:364-370`.
+The interposed sentence — *"An exit operation alone leaves the two-model freedom intact; a
+forcing clause alone is barred at C12's strength unless the categorical wording is
+simultaneously re-scoped by a booked result."* — is the one adverse clause at A-1's supply site
+and appears nowhere in the build (0 grep hits).
+**CORRECTED GRADE: A-1 fillability NOT-HELD-NOT-EXCLUDED — SUSTAINED (the bar names its own
+lifting condition). The build's "immediately following" — REFUTED. A-1's supply site carries an
+undisplayed conditional bar.**
+
+**COR-D — D4 — THE Q4 ADJACENCY ENUMERATION IS NOT CLOSED.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/workspace/STAGE8_RECORD_CELL_SURFACE_AND_BETA_CLOSURE_HUNT_EINSTEIN_V001.md:76-78`
+and `:81-84`, against build `:842-850`.
+Inside the build's own sealed source #14, on the very carrier its Q3 analyses, a phase and
+magnitude-valued objects are co-displayed (`p = 1/2, theta = pi mod 2 pi`; `Delta S_record = pi
+hbar`; Fubini–Study fixing *distances*).
+**CORRECTED GRADE: no adjacency inflated into a link — CONFIRMED, clean. Adjacency count
+corrected from "FOUR on-ground + ONE off-ground" to AT LEAST FIVE SITES, NOT CLOSED.**
+
+**COR-E — D4 — THE ON-GROUND PHASE BREAK-OUT DROPS TWO OF SIX ITEMS FROM ITS OWN QUOTED
+INVENTORY.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/workspace/BARE_SURFACE_I2_DETERMINATION_V001.md:36`,
+against build `:679-690`; plus `LOCAL_PROJECTIVE_RECORD_BUNDLE_V001.md:54-69`, `:76`, `:86-88`.
+The affine connection space (§I.4) and the refinement/coarsening law (§I.5) are booked in the
+phase/holonomy sector and never become rows; so are the connection `a_i`, the curvature `f = da`,
+and the comparison character `W_n(gamma)`.
+**CORRECTED GRADE: the inventory QUOTATION — CONFIRMED whole; the BREAK-OUT — REFUTED as
+exhaustive. On-ground phase-object count corrected from 10 to at least 12–14.**
+
+**COR-F — D6 — THE SEAL DECLARATION IS FALSE AT BYTES.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/workspace/PRIMITIVE_RECORD_ACTION_CHARACTER_BRIDGE_GATE_V002.seal.sha256`
+(and its cleanroom twin), against build `:76`, `:90-92`, `:1126-1129`.
+The sidecar exists in both roots under the archive's `.seal.sha256`-replacing-`.md` convention
+and verifies **OK** from each own directory.
+**CORRECTED GRADE: SEAL TALLY = 34 / 34 OK, not 33 / 34. There is no unsealed source.**
+
+**COR-G — D3 — A THIRD IMPORT SITE IS MISSING FROM THE IMPORT AUDIT.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/workspace/STAGE8_THRESHOLD_FORM_O19SR_AUDIT_V001.md:421-422`,
+against build `:1016`.
+The entire Q3 crossing answer rests on [THF-A]'s gloss *"(≤ 2 fails / 3 and above forces)"*;
+`[AJ] :283` states only the failure side. IMPORT AUDIT row I-1 names only [AJ] and [AJ-A].
+**CORRECTED GRADE: crossing dimension = 3 — SUSTAINED; its provenance corrected to
+IMPORTED-BY-[THF-A], which must be added to the IMPORT AUDIT.**
+
+**COR-H — D3 — A UNIVERSAL NEGATIVE CITED TO SWEEPS THAT DO NOT CONTAIN THE PATTERN.**
+Deciding file:line — build `:648-650` (`"Sweeps in §10."`) against build `:1053-1082`, which
+contains no `fiber dimension`, `forced`, or `unique carrier` corpus pattern.
+Run here: `fiber dimension` = 5 workspace files; the two the build never touched
+(`STAGE8_RK_LT_BIT_T1SR_AUDIT_V001.md:416`, `STAGE8_RK_LT_BIT_T1SR_V001.md:679`) are
+toy-quarantined reader fibers.
+**CORRECTED GRADE: claim SUSTAINED in substance, on this audit's sweep; its cited warrant is
+VOID.**
+
+**COR-I — D5 — CANDIDATE 1's "NOT BARRED BY A RULE" IS UNQUALIFIED.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/workspace/STAGE8_7A_RA27_2_DISCHARGED_DARIO_V001.md:534`,
+against build `:904`.
+**CORRECTED GRADE: candidate 1 UNBUILT — SUSTAINED; the sentence should read "not barred by a
+rule today; a bar is displayed on one of its three outcomes."**
+
+**COR-J — D1 — THE CARRY-FORWARD LIST FOR A-3 OMITS [AJ]'s OWN TWO CARRIES.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/workspace/STAGE8_AMPLITUDE_JUNCTION_S9AD_V001.md:36-37`
+and `:682`, against build `:321-323`.
+**CORRECTED GRADE: A-3's grade — SUSTAINED; the carry-forward list corrected to include [AJ]'s
+§0 verdict and its sealed `JUNCTION_STATUS` flag.**
+
+**COR-K — D3 — "CARRIED VERBATIM INSIDE SEALED [EIN]" IS TRUE FOR TWO OF FOUR FLAGS.**
+Deciding file:line — `/Users/bgm/MB Work/alpha-program-archive/workspace/STAGE8_RECORD_CELL_SURFACE_AND_BETA_CLOSURE_HUNT_EINSTEIN_V001.md:76`
+vs `PRIMITIVE_RECORD_ACTION_CHARACTER_BRIDGE_GATE_V002.md:208-211`, against build `:554-561`.
+`bloch_ball_derived = false` and `M2C_algebra_derived = false` are [BRG]-only, and §4.4(i) uses
+both — in tension with `"Nothing load-bearing rests on it alone."`
+**CORRECTED GRADE: immaterial once COR-F establishes [BRG] is sealed OK; the sentence should say
+"two of four".**
+
+**COR-L — D1 — "ELISIONS BY THIS LANE: NONE" HOLDS ONLY FOR INTERIOR ELLIPSES.**
+Deciding file:line — build `:1158`, against four end-truncations of spans presented as "quoted
+whole": `[AJ] :34` (verdict truncated before *"— with the norm/metric sub-route additionally
+banned…"*), `[AJ] :302-303` (§6.4 truncated mid-sentence at *"not informational"*),
+`[THF-A] :424` (MISSED-1 truncated before *"Its carrier is named at [AJ] :682 and :570."*),
+`[I2] :69` (§3.1 truncated before its `[DERIVED — enumeration…]` tag).
+**None of the dropped text is adverse to the grade it supports.**
+**CORRECTED GRADE: QUOTATION_INTEGRITY sustained for interior fidelity; the "NONE" should read
+"no interior elisions; four end-truncations."**
+
+---
+
+## §9 — REQUIRED BLOCKS
+
+### CHOICE LEDGER (every unforced choice this audit made)
+
+| # | Choice | Class | Disposition |
+|---|---|---|---|
+| 1 | Re-sweep the DOR rulings with patterns broader than the build's eight literals | FORCED | the commission directs "check the DOR_* rulings yourself, since an ADOPTED dimension would sit there"; the literal eight cannot decide an exclusion |
+| 2 | Grade D3 CONFIRMED-WITH-CORRECTIONS rather than REFUTED, though its most consequential supporting step is refuted | AUTHORED-READING (declared) | the graded answer (ENTERED; "a choice, not a wall") survives, because an ADOPTED dimension is also a choice. A reader who grades the dimension by its warrants rather than its answer would write REFUTED; that reading is displayed here rather than suppressed |
+| 3 | Grade D2 CONFIRMED-WITH-CORRECTIONS though the build asserted a false universal | AUTHORED-READING (declared) | all three fillability grades are correct at bytes and the missed artifacts self-limit in their own voices. The competing reading (REFUTED on the false universal) is displayed at §3.3 |
+| 4 | Report the [EIN] §1.1 co-display as a missed adjacency | FORCED | D4 directs the hunt; suppressing the clearest instance inside the build's own sealed source would be the unforced act |
+| 5 | Decline to relate `theta = pi mod 2 pi`, `Delta S_record = pi hbar`, `Delta Phi_* = pi`, and `\|ΔS_record\|/ℏ = π` to one another | FORCED | relating them would author the clause A-1 names absent — barred |
+| 6 | Decline to identify DOR_020_A1's U(1) bundle with §I.4's fixed line bundle | FORCED | identifying them would be authoring; the bytes do not decide it. INDETERMINATE-AT-BYTES said |
+| 7 | Attribute the S-11/S-18 count differences to a post-cutoff sibling artifact on mtime evidence | PREMISE (named) | `STAGE8_THE_JOIN_O42SR_V001.md` mtime 02:05 vs target 02:04; no content of that file was opened or consumed |
+| 8 | Verify all 24 corpus sweep patterns but read hits only for the load-bearing ones | PREMISE (named) | the nine large descriptive patterns (S-16..S-24) carry no grade in the build and none here |
+| 9 | Open two artifacts outside the build's 20 consumed sources (`ZQ_STRUCTURE_FORCING`, `NEUTRAL_COMPARAND_FAITHFULNESS`) | FORCED | both were returned by the build's own S-05; D2 directs an independent exclusion hunt |
+| 10 | Report the ZQ artifact's malformed sidecar rather than treating it as unsealed or as sealed | FORCED | the digest matches byte-for-byte and is corroborated inside two OK-sealed artifacts; the sidecar is unparseable. Graded SEALED-IN-SUBSTANCE, SIDECAR MALFORMED |
+
+**OPEN choices: none. AUTHORED-READINGS: 2, both displayed with the competing reading carried.**
+
+### TOY_SEPARATION
+
+**TOY_SEPARATION = clean.** This audit constructs **no** object — no clause, comparand, carrier,
+bound, model, profile, or dimension. Nothing here could be a toy because nothing here is built.
+Toys encountered and handled:
+
+- **[AJ]'s two model profiles `f₁`, `f₂`** (`STAGE8_AMPLITUDE_JUNCTION_S9AD_V001.md:250-251`,
+  declared TOY at `:630-635`) — referenced only by the fact of their existence, never by form,
+  never evaluated. Their argument symbol `Δ` enters no enumeration here.
+- **The RK_LT_BIT toy reader fibers** (`STAGE8_RK_LT_BIT_T1SR_AUDIT_V001.md:409-418`;
+  `STAGE8_RK_LT_BIT_T1SR_V001.md:671-685`) — quoted **only** to show that the two `fiber
+  dimension` hits the build missed are quarantined, and quoting their own quarantine lines. No
+  toy dimension enters any grade.
+- **No toy is introduced by this lane.** No worked example, no "suppose the dimension were 3",
+  no sketched comparand. No toy quantity appears in any verdict line, grade, or flag.
+
+### IMPORT AUDIT (every non-corpus notion, declared)
+
+| # | Notion | Where it enters | Status |
+|---|---|---|---|
+| A-1 | **Gleason / frame-function mathematics** | inside the *quoted* `[AJ] :283-284`, the *quoted* `[AJ-A] :204-206`, **and the *quoted* `[THF-A] :421-422`** | **IMPORTED BY THE SOURCES, NOT BY THIS LANE.** [AJ-A]'s Choice Ledger row 6 (`..._AUDIT_V001.md:257`) declares it IMMATERIAL(proven). This audit asserts **no** independent Gleason fact, and adds [THF-A] as the third site (COR-G) precisely because the build omitted it |
+| A-2 | **"line bundle ⇒ fibers of dimension 1"** | [AJ]'s unpacking, quoted | IMPORTED BY [AJ]. Reported, neither endorsed nor disputed |
+| A-3 | **"U(1) structure group ⇒ rank-1 associated complex line bundle"** | **NOT USED.** Named here only to say it is NOT the basis of COR-A | COR-A rests on the ruling's *displayed words* (`U(1) BUNDLE WITH CONNECTION`, `smooth full-rank`) and on the build's inspection claim being false at bytes — **not** on any bundle-theoretic inference. This audit draws none |
+| A-4 | **Reading `p = 1/2` as probability-valued and `theta = pi mod 2 pi` as a phase** | §5.2 | **MINIMAL READING OF A DISPLAYED FORM**, on the same footing as the build's own I-3. Nothing evaluated, no value computed, no identity applied |
+| A-5 | **Filesystem sidecar naming conventions** | §7.5 / COR-F | a fact about files, not a record notion |
+| A-6 | Ordinary English audit vocabulary ("quantifier", "provenance", "warrant") | throughout | **COMMISSION VOCABULARY.** Every grade is anchored to quoted corpus words |
+
+**FORBIDDEN IMPORTS: NONE USED.** No `Λ^even(C⁵)`; no `K_KK`; no fiber proper radius; no metric
+or fiber metric; no `ℓ_P`; no length or scale object; no β conversion; no S16/Thomson matching;
+no `κ_Thomson`; no "α rides a scale"; no KK action; no Finish-A/Finish-B framing; no
+E1/Carleman/S2′ objects; no GR, sphere, or 4π reading; no continuum-diamond import; no empirical
+constant; no measured value. **The lens/ether reading motivates nothing here and appears in no
+chain.** TYPE-R is not re-walked and its machinery is not touched. `|n| = 1` is reported as a
+thing the sources bar/type; it is **not consumed** here.
+
+### SWEEP CUTOFFS (pattern · hit count · leak counter)
+
+**METHOD.** Exclusions passed as a bash **ARRAY** on every invocation, never as a string:
+
+```bash
+EXC=( --exclude='*REGISTER*' --exclude='*TRACKER*' --exclude='THE_PLAN*' \
+      --exclude='ROAD_REMAINING*' --exclude='THE_HANDOFF*' \
+      --exclude='OBSERVATIONS_REGISTER*' --exclude='*DECISION_SHEET*' \
+      --exclude='STAGE8_THREE_ABSENCES_O41SR_V001.md' \
+      --exclude='STAGE8_THREE_ABSENCES_O41SR_AUDIT_V001.md' )
+```
+
+**SELF-EXCLUSION: HELD.** This audit's own basename is in the array of every sweep, alongside the
+target's.
+
+| Group | Patterns | Result | LEAK |
+|---|---|---|---|
+| **A** — re-run of the build's 24 corpus patterns, both roots | 24 | 19 exact matches; 5 differences tabulated at §7.3 | **0** |
+| **B** — the build's 8 DOR literal patterns, 14 rulings | 8 | reproduced exactly: `line bundle` 0 · `fiber dimension` 0 · `dimension 1` 0 · `forcing threshold` 0 · `ray` 0 · `C^2` 0 · `two-dimensional` 0 · `rank` **8** (all 8 opened and read — 6 cycle-rank/member, 1 bundle full-rank, 1 isometry rank: COR-A) | **0** |
+| **C** — broader DOR patterns the build never ran, 14 rulings | 13 | `bundle` **1** · `carrier` **3** · `dimension` **1** · `projective` 0 · `qubit` 0 · `C2` **1** · `spinor` 0 · `two-level` 0 · `fibre` 0 · `fiber` **5** · `line` **7** · `U(1)` **1** · `phase` 0. Every hit opened; only `DOR_020_A1` bears | **0** |
+| **D** — DOR adoption-term patterns, 14 rulings | 8 | `primitive` 0 · `microscopic` 0 · `record carrier` 0 · `Boundary Record Action` 0 · `stabilizer` 0 · `two-character` 0 · `adopted` **9** · `ADOPTED` **9** | **0** |
+| **E** — independent exclusion hunt, both roots | 24 | `no n-blind comparand can` 0 · `no such comparand` 0 · `no external comparand can exist` 0 · `clause is impossible` 0 · `forcing equation is impossible` 0 · `provably no clause` 0 · `no change of ground` 0 · `WINDING_FORCED = REFUTED` 0/0 · `REFUTED for \|n\|` 0/0 · `n-blind…no-go` 0 · `carrier is unique` 0 · `must be one-dimensional` 0 · `rank one is forced` 0 · `unique carrier` 2 · `carrier is forced` 1 · `dimension is forced` 1 · `fiber dimension` **5** · `comparand cannot` **1 → COR-B** · `cannot be supplied` 6/5 · `no comparand` 0 · plus `n-blind comparand` (9/1, full list read), bare `n-blind` (62), `fixed line bundle` (9/6, full list read), `both sealed candidates unavailable` (5/0, full list read) | **0**, after one repair — see below |
+| **F** — self-scan of the build for barred basenames | 6 | 9 line-level hits, all benign (§7.3) | **0** |
+
+**TOTAL: 83 patterns run. TOTAL LEAK ACROSS ALL PATTERNS AND BOTH ROOTS: 0.**
+
+**ONE LEAK-COUNTER INCIDENT, DISCLOSED.** The pattern `REFUTED for |n|` was first issued to
+`grep -E`, where `|` is alternation; it matched effectively every file and its leak counter
+returned **2**. The result was never printed and **no file was opened**; the count alone was
+observed. Re-issued as a fixed string: **0 / 0, LEAK 0.** This is a defect in this audit's
+checker, not in the corpus, and it is the mirror of the build's own `≤`/`<=` checker slip.
+
+**SWEEP_CUTOFF, declared:** the two named corpus roots at their files as of this session
+(2026-08-16), plus the 14 `DOR_*` rulings. No file matching a barred class was opened. Sweeps
+bound **this audit's search**; they bound no quantifier reported above — every quantifier is
+quoted from its own source.
+
+### FLAG BLOCK
+
+```text
+FENCES = INTACT — alpha_computed = false · proof_authorized = false ·
+  kappa_record_computed = false, live throughout. NO numeric value of any
+  coupling, scale, root, eigenvalue, norm, or constant computed. No magnitude
+  attempted, reached, or evaluated. No CAS run; nothing simplified. The
+  numerals here are quoted dimensions (1, 2, 3), quoted corpus symbols,
+  digests, line numbers, and hit counts.
+
+SEAL_TALLY = 35 / 35 OK, each `shasum -a 256 -c` run from the artifact's own
+  directory: 20 workspace consumed sources (20/20 OK — see COR-F, the build's
+  [BRG] IS sealed), 14 DOR_* rulings (14/14 OK), the target itself (OK).
+  ONE ADDITIONAL ARTIFACT opened for the D2 exclusion hunt:
+  STAGE8_ZQ_STRUCTURE_FORCING_FABLE_V001.md — SEALED-IN-SUBSTANCE, SIDECAR
+  MALFORMED (digest 68cce523… matches byte-for-byte; sidecar carries the
+  digest without the filename field so `shasum -c` cannot parse it;
+  corroborated inside two OK-sealed artifacts). Declared, not buried.
+  A second, STAGE8_NEUTRAL_COMPARAND_FAITHFULNESS_FABLE_V001.md — seal OK.
+
+BAR_INCIDENTS = ZERO. No file whose name contains REGISTER or TRACKER was
+  opened; no THE_PLAN*, ROAD_REMAINING*, THE_HANDOFF*, OBSERVATIONS_REGISTER*,
+  or *DECISION_SHEET* was opened. In the supervision directory ONLY the 14
+  DOR_* files and their sidecars were read; SURFACE_DEFINITION_OF_RECORD_V001/
+  2/3 were NOT opened — declared as the reach limit at S1, and the one place
+  it could change a grade is the build's own D-2, which stands.
+  LEAK COUNTER: 0 across all 83 patterns, after the one disclosed checker
+  repair (see SWEEP CUTOFFS).
+
+SELF_EXCLUSION = HELD. Own basename and the target's in the exclusion ARRAY of
+  every sweep.
+
+QUOTATION_INTEGRITY = every span quoted above was verified by READING THE
+  SURROUNDING SOURCE LINES, not by line-oriented grep. Twelve load-bearing
+  spans cross 2-5 source lines and are carried whole. ELISIONS BY THIS LANE:
+  NONE, interior or terminal — where a source sentence continues, this audit
+  either carries it or says it truncates.
+
+BARS_HELD = nothing authored (no object, clause, comparand, carrier, bound,
+  model, or dimension); nothing adopted; nothing advocated; no catalogued
+  negative re-read; no gap filled or repaired; no defect reported here is
+  fixed here. INDETERMINATE-AT-BYTES said THREE times: (1) whether
+  DOR_020_A1's U(1) bundle is SI.4's fixed line bundle (S4.4); (2) the cause
+  of the `character` R2 sweep divergence (S7.3); (3) carried from the build
+  and re-checked: whether the DeltaPhi carrier and the surface-of-record
+  carrier are one object — the bytes still do not decide it.
+
+OWN_DRAFT_DEFECTS, disclosed:
+  OD-1  A line-oriented grep for [GLUE]'s quotation returned ZERO and this
+        audit nearly filed a false fabrication finding; the phrase wraps as
+        "complex line / bundle" across :563-564. Caught by reading the
+        surrounding lines. Exactly the failure the standing discipline names.
+  OD-2  The `REFUTED for |n|` regex leak incident (SWEEP CUTOFFS). Repaired;
+        no file opened.
+  OD-3  COR-A refutes an EXCLUSION, not the ENTERED grade. This audit does
+        not regrade the provenance as ADOPTED and expressly declines to
+        identify the two bundles. A reader wanting a one-word Q3 answer
+        should read: ENTERED, with ADOPTED no longer excluded.
+  OD-4  COR-D's status as an "adjacency" depends on [I2] :37 booking
+        balanced-geodesic identities in the write/response sector. If the
+        commission means only SII.7 kinematics by "response magnitude",
+        COR-D narrows to the theta/Delta-S co-display in one sentence. Both
+        stand as reported byte-facts; neither is related to anything.
+  OD-5  Grades D2, D3 and D5 are CONFIRMED-WITH-CORRECTIONS on the reading
+        that a dimension's grade follows its ANSWERS. On the competing
+        reading — that it follows its WARRANTS — D3 would be REFUTED on
+        COR-A and D2 on COR-B. That reading is declared at CHOICE LEDGER
+        rows 2 and 3 rather than suppressed.
+
+MAGNITUDE_APPROACHED = NO. This audit maps what the build mapped and checks
+  it; it crosses nothing. It supplies no comparand, no clause, no carrier of
+  higher dimension, and no route to any. Where the corpus's own bytes sit
+  closest to a crossing (S5.2, S3.3) the finding is reported and expressly
+  not related to anything.
+
+NET = The build's three absences are correctly located, correctly graded off
+  DECIDING WORDS rather than headlines, and correctly typed against the
+  corpus's own two vocabularies. Its Q5 identifications and reasons are
+  right at bytes, and the severe error the commission named — a
+  barred-by-rule candidate graded excluded-by-proof — is not present. Its
+  discipline held: fences intact, bars clean, no object authored, no
+  adjacency inflated into a link, leak counter genuinely 0. What fails is
+  its SEARCH, twice in the same shape: at the DOR rulings it ran eight
+  literals, got zeroes, and declared ADOPTED excluded (COR-A); at S-05 it
+  ran one phrase, got nine files, read none of them, and declared no
+  impossibility exists anywhere (COR-B). Both declarations are false at
+  bytes; neither answer they support is. The Q3 answer stands — the fiber
+  dimension of 1 is ENTERED, a choice and not a wall, and an adopted
+  dimension would be a choice too. The Q2 answers stand — all three
+  absences remain NOT-HELD-NOT-EXCLUDED, now with two conditional bars and
+  one structural exclusion displayed that the build did not display.
+  NOTHING HERE REACHES, OR ATTEMPTS TO REACH, THE MAGNITUDE.
+```
+
+---
+
+## §10 — CLOSE
+
+Artifact: `/Users/bgm/MB Work/alpha-program-archive/workspace/STAGE8_THREE_ABSENCES_O41SR_AUDIT_V001.md`
+Sealed from its own directory to `.sha256` and `.seal.sha256`; both verified. No git action.
