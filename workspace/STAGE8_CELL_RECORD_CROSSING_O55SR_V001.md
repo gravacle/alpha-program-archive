@@ -109,6 +109,9 @@ C-6  W-2's "NAMED ORIENTED k-CELL" IS **NOT** IDENTIFIED WITH THE "PRIMITIVE
      `delta_e in C_N^k` denote its basis cochain" — a chain-complex cell; and
      by the same file's CO-1: "'Cell' names two objects the corpus says are
      not identical."
+     INDEPENDENTLY CORROBORATED in a sealed distinctness table —
+     STAGE8_C1_U_OMEGA_TYPED_CODEX2_V001.md:319: "| continuum diamond vs
+     CW cell/complex | KEPT DISTINCT |".
      ALTERNATIVE: treat the two as one cell level.  REFUSED — it is the
      single most available level-confusion in this corpus.
 
@@ -271,20 +274,20 @@ Assigned from defining text. `OFF-SCOPE` rows are set aside, not folded in.
 | 5 | `W(tau)=U_0(tau)^dagger U_1(tau)` relative unitary | ONSET_V003:44 | **CELL-LEVEL** |
 | 6 | `H_W` relative generator | ONSET_V003:60-62 | **CELL-LEVEL** |
 | 7 | `\|R_0>, \|R_1>` conditional global states | ONSET_V003:34-35 | **CELL-LEVEL** |
-| 8 | `J_FS,rel := integral_cell d tau Delta H_W(tau)` — the onset quantity | ONSET_V003:83-86; domain of integration is literally `cell` | **CELL-LEVEL** |
-| 9 | the onset bound `pi hbar/2` | ONSET_V003:86 | **CELL-LEVEL** |
-| 10 | onset saturation rule (adopted) | ONSET_V003:107 "Saturation is adopted, not derived." | **CELL-LEVEL** |
+| 8 | `J_FS,rel := integral_cell d tau Delta H_W(tau)` — the onset quantity | ONSET_V003:83-85; domain of integration is literally `cell` | **CELL-LEVEL** |
+| 9 | the onset bound `pi hbar/2` | ONSET_V003:85 | **CELL-LEVEL** |
+| 10 | onset saturation rule (adopted) | ONSET_V003:107-108 "Saturation is adopted, not derived." | **CELL-LEVEL** |
 | 11 | `epsilon_rel`, `tau_*` two-state realization | ONSET_V003:115-116 "On the primitive record factor" | **CELL-LEVEL** |
-| 12 | the write `U_e=P_0 tensor I + P_1 tensor X` | REDUNDANT_SPEC:17 "on a causally oriented write edge `e`" | **CELL-LEVEL** |
+| 12 | the write `U_e=P_0 tensor I + P_1 tensor X` | REDUNDANT_SPEC:19 "on a causally oriented write edge `e`" | **CELL-LEVEL** |
 | 13 | `c_partial` cellular incidence quadrature | NO_GO:10 heading "## Exact one-cell evolution"; :18 "the normalized cellular incidence quadrature" | **CELL-LEVEL** |
 | 14 | `tau_R = pi/sqrt(2)` write/recurrence interval | NO_GO:32; :86 `one_cell_write_recurrence_period_equals_2_tau_R = true` | **CELL-LEVEL** |
 | 15 | record carrier `R(C)` in `A_SR(C)=CAR(K_Sigma,q) graded-tensor R(C)` | BID_GLOBAL_CAR_RECORD_COMPOSITION:68 "For each causal record cell `c`, retain the distinguishable record carrier" | **CELL-LEVEL** |
 | 16 | finite record algebras `tensor_(j=1)^N M_2` / `M_3(C)` | COVECTOR_LIFT_SPEC:46-50 "For independent outgoing record cells define `A_N = tensor_(j=1)^N M_2`" | **CELL-LEVEL** (a cell-indexed system) |
-| 17 | structure embeddings `iota_N(A)=A tensor I` | COVECTOR_LIFT_SPEC:51 | **CELL-LEVEL → CELL-LEVEL** (inside the directed system; not a crossing) |
+| 17 | structure embeddings `iota_N(A)=A tensor I` | COVECTOR_LIFT_SPEC:50 | **CELL-LEVEL → CELL-LEVEL** (inside the directed system; not a crossing) |
 | 18 | `R_infinity = inductive_limit tensor_(j=1)^N M_3(C)` | FORK_8:53-57 "The finite record algebras and embeddings define:" | **SPANS-BOTH — THIS IS THE CROSSING.** See §4 |
 | 19 | GNS representation of `omega_h` | FORK_8:59-61; :104-105 | **RECORD-LEVEL**, with its Hilbert apparatus marked **OFF-SCOPE** per C-3 |
 | 20 | quasi-local output state `omega_h` | COVECTOR_LIFT_SPEC:65-66 "the family defines one state `omega_h` on the quasi-local inductive-limit algebra" | **RECORD-LEVEL** |
-| 21 | central sequence `M_N=(1/N) sum_(j=1)^N Z_j` | REDUNDANT_SPEC:44-52; FORK_8:112-113 | **SPANS-BOTH** — quoted at §5 row S-2 |
+| 21 | central sequence `M_N=(1/N) sum_(j=1)^N Z_j` | REDUNDANT_SPEC:46-56; FORK_8:112-113 | **SPANS-BOTH** — quoted at §5 row S-2 |
 | 22 | the durability predicate | CDLRP_V002:15-17 "durability consists jointly of thresholded source nonreturn and exact completed-record persistence" | **RECORD-LEVEL** (both conjuncts quantify beyond one cell) |
 | 23 | the exhaustion / cofinal exhaustions | FORK_8:37-46 | **SPANS-BOTH** (a sequence of cells; its sector is record-level) |
 | 24 | **"durability map"** — the onset gate's own named crossing object | ONSET_V003:172 (obligation list); AXN_SKELETON_V2:128 "durability map all absent … form supplied in none" | **NAMED, TYPED AT NEITHER LEVEL — NO FORM AT BYTES.** See §4.2 |
@@ -337,7 +340,7 @@ exactly one built bridge.
 ```text
 *** Q2_GRADE = CROSSING-OBJECT-EXISTS ***
 
-CITATION:  FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_RESULT_V001.md:51-61
+CITATION:  FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_RESULT_V001.md:51-62
            (corroborated by CAUSAL_DIRECT_LIMIT_COVECTOR_RAY_LIFT_SPEC_V001.md
            :44-73 and CAUSAL_DIRECT_LIMIT_RECORD_PRINCIPLE_V002.md:12-18)
 
@@ -356,7 +359,7 @@ Both halves are the deliverable. They are different findings and are kept apart.
 
 ### §4.2 THE CROSSING OBJECT, WITH ITS TYPE QUOTED
 
-`FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_RESULT_V001.md:51-61`, whole span:
+`FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_RESULT_V001.md:51-62`, whole span:
 
 > "## P2. Direct limit and generators
 >
@@ -375,7 +378,7 @@ Both halves are the deliverable. They are different findings and are kept apart.
 
 ```text
 SOURCE  the directed system { tensor_(j=1)^N M_3(C) , iota_N }
-        TYPED CELL-LEVEL by COVECTOR_LIFT_SPEC:46-51 —
+        TYPED CELL-LEVEL by COVECTOR_LIFT_SPEC:46-50 —
           "For independent outgoing record cells define
              A_N = tensor_(j=1)^N M_2,
              iota_N(A)=A tensor I."
@@ -388,7 +391,7 @@ ARROW   inductive_limit  (the corpus's own word, FORK_8:56; the same
         COVECTOR_LIFT_SPEC:20)
 
 TARGET  R_infinity, carrying omega_h and the central sequence
-        TYPED RECORD-LEVEL by CDLRP_V002:16-18 — the durable public
+        TYPED RECORD-LEVEL by CDLRP_V002:16-17 — the durable public
         record's "public content is the recoverable quasi-local record
         state and central sequence."
 ```
@@ -451,7 +454,7 @@ Four independent bytes separate them, and none is a matter of reading.
 D-1  DIFFERENT PROBLEM, BY THE RESULT'S OWN SCOPE SENTENCE.
      FORK_8:11-14: "The original hypothesis has earned promotion for the
      durability and outgoing-record problem in the ordinary 3+1
-     flat-asymptotic branch."  Onset is not in that scope, and FORK_8:16-18
+     flat-asymptotic branch."  Onset is not in that scope, and FORK_8:16-17
      excludes "a response normalization, or alpha".
 
 D-2  THE ONSET GATE'S OWN NEXT-GATE CLAUSE NAMES A DIFFERENT OBJECT AND STILL
@@ -485,6 +488,23 @@ D-4  THE ONSET GATE PREDATES THE NO-GO AND THE LIMIT.  ONSET_V003 is dated
      2026-07-23 (:3).  NO_GO and FORK_8 are both dated 2026-07-24 (:3).
      The gate's record-level output word was written BEFORE the corpus
      proved that word unreachable from one cell.
+
+D-5  *** AND THE CORPUS EXPRESSLY REFUSES THE IDENTIFICATION, TWICE, IN A
+     SEALED DISTINCTNESS TABLE. ***
+     STAGE8_C1_U_OMEGA_TYPED_CODEX2_V001.md:314 and :318, verbatim rows:
+       "| onset rule's unique physical record cell vs census item 5
+          `Omega_c` | KEPT DISTINCT; no identity imported |"
+       "| causal cell vs common record cell vs Hilbert record factor |
+          KEPT DISTINCT |"
+     THE SECOND ROW BEARS DIRECTLY ON X-1's SOURCE TYPE.  X-1's source
+     factors are HILBERT RECORD FACTORS (`M_3(C)` per cell); the onset
+     gate's input is the CAUSAL CELL.  The corpus keeps those two apart and
+     imports no identity between them.  So X-1's source is cell-INDEXED
+     without being certified to be the onset gate's cell.
+     CONSEQUENCE, STATED PLAINLY:  X-1 is a genuine cell->record crossing,
+     and whether its cell is THE cell of §3.1 is
+     *** INDETERMINATE-AT-BYTES ***.  The Q2 grade does not rest on that
+     identification, and this artifact does not make it.
 ```
 
 ### §4.4 THE FAILED CROSSING, DISPLAYED SO THE POSITIVE ONE IS NOT MISREAD
@@ -543,7 +563,7 @@ P-2  PERSISTENCE UNDER LATER CELLS.  The record-level property that is
        "a later primitive cell changes a completed record restriction"
 
 P-3  NON-RETURN (THRESHOLDED).  An asymptotic-time property; no finite cell
-     interval states it.  FORK_8:88-93:
+     interval states it.  FORK_8:85-92:
        "A_source(t) -> 0.
         By the definition of a limit, for every `delta>0` there is finite
         `T_delta` such that:
@@ -562,21 +582,21 @@ P-5  REDUNDANCY.  ONSET_V003:94-95 makes it an alternative to recoverability,
        "Durability additionally requires persistence and recoverability or
         redundancy."
      Its cell-side mechanism is a COPY ACROSS MANY CELLS —
-     REDUNDANT_SPEC:29-33:
+     REDUNDANT_SPEC:31-35:
        "Starting from label `h` and `N` ready descendants, repeated causal
         writes produce
           |h>_source tensor |h>^tensor_N."
 
 P-6  ASYMPTOTIC CENTRALITY.  The sharpest of all: a property defined by
      commuting with EVERY object of finite cell support — hence a property
-     no finite-cell object can have.  REDUNDANT_SPEC:44-52:
+     no finite-cell object can have.  REDUNDANT_SPEC:46-56:
        "The macroscopic pointer average
           M_N=(1/N) sum_(j=1)^N Z_j
         is a central sequence: for every observable `O` supported on at most
         `m` cells,
           ||[M_N,O]|| <= 2m ||O||/N."
 
-P-7  SECTOR-HOOD / SUPERSELECTION.  REDUNDANT_SPEC:53-54:
+P-7  SECTOR-HOOD / SUPERSELECTION.  REDUNDANT_SPEC:59-60:
        "Distinct pointer labels define distinct asymptotic sectors through
         the limits of `M_N`."
      Named as a required completion mechanism at NO_GO:63:
@@ -610,7 +630,7 @@ P-9  ORTHOGONAL REDUCED SUPPORTS (PERFECT READOUT) — DEMANDED OF THE RECORD,
 PUBLIC, OF THE RECORD — CDLRP_V002:17 "its public content …";
   FORK_8:116 "separate the public labels".
 
-PUBLIC, OF THE CELL — BID_MINIMAL_PUBLIC_CAUSAL_CELL_DERIVATION_V001.md:49-52:
+PUBLIC, OF THE CELL — BID_MINIMAL_PUBLIC_CAUSAL_CELL_DERIVATION_V001.md:49-51:
   "4. **Marginal public-closure rule (adopted Level-1 Gravacle rule):**
       The allow/require boundary is the first physically admissible public
       record cell."
@@ -765,7 +785,7 @@ W-2  THE MEMBER-SUPPLIED SEALED PREQUOTIENT RULE  (discharges FP-2)
        `k`-cell `e`, let `delta_e in C_N^k` denote its basis cochain."
     A basis cochain in a cochain complex.  That is a CHAIN-COMPLEX cell,
     not the primitive causal record cell of §3.1.  The corpus itself refuses
-    the identification (CO-1, :1441-1442 of the co-findings block):
+    the identification (CO-1, :1482):
       "'Cell' names two objects the corpus says are not identical."
 
   SATISFIER LIVES AT:  *** NEITHER — THE PER-COMPOSITE VOLUME DIAGONAL. ***
@@ -854,3 +874,252 @@ either corpus root joins them, and this artifact does not join them.
 ```
 
 ---
+
+## §8 — IMPORT AUDIT
+
+Every notion used here that is not the corpus's own, with its status determined
+before it was allowed to bear weight.
+
+| notion | status | disposition |
+|---|---|---|
+| `inductive limit` / `direct limit` / `colimit` | **CORPUS'S OWN.** FORK_8:56 writes `inductive_limit`; NO_GO:77 writes "causal direct limit"; COVECTOR_LIFT_SPEC:20 writes "the finite-cell operational colimit" | LOAD-BEARING, permitted |
+| `cell-level` / `record-level` | **CORPUS'S OWN COMPOUNDS.** KSTAR_TYPING:219; CHAIN_RELEVANCE_MAP:397 | LOAD-BEARING, permitted (C-1) |
+| `central sequence`, `quasi-local`, `GNS`, `superselection` | **CORPUS'S OWN** | LOAD-BEARING |
+| Fubini-Study / Mandelstam-Tamm | **CORPUS'S OWN, AND THE CORPUS MARKS IT IMPORTED**: ONSET_V003:67 "Import the standard Fubini-Study/Mandelstam-Tamm theorem" | carried with the corpus's own import mark |
+| `arrow`, `source`, `target`, `codomain`, `crossing object` | **THIS COMMISSION'S VOCABULARY**, taken from the commission text itself ("any arrow whose source is typed cell-level and whose target is typed record-level") | **NOT LOAD-BEARING.** Used only to ask the question. Every assignment was made from the corpus's own typing sentences, never from this vocabulary |
+| "asymptotic centrality" (§5 P-6 label) | **MINE — a compound.** The corpus supplies "central sequence" and the bound `\|\|[M_N,O]\|\| <= 2m\|\|O\|\|/N` | label only; the property is quoted, not paraphrased |
+| "locative, not typing" (the reading of "record cell", §3.1) | **MINE — a reading of a corpus sentence**, not a corpus claim | the deciding sentence is displayed in full so the reading can be checked against it; if rejected, row 1 becomes INDETERMINATE-AT-BYTES and Q2's formation-gate half is unaffected |
+| "separation result" (§7.2) | **MINE — a characterization** | label only |
+| the word `level` itself | **CORPUS'S OWN BUT INCONSISTENT** — STRATIFICATION CO-1: "'Level' carries five unrelated senses across the fourteen and is structural in only 2 of its 54 occurrences" | **FLAG-4.** No assignment here rests on a corpus sentence containing the bare word "level"; all rest on object typing |
+
+```text
+NOTHING WAS IMPORTED FROM OUTSIDE EITHER CORPUS ROOT.  No physics not in the
+corpus was used to decide any level.  No standard operator-algebra result was
+invoked to supply a crossing the corpus does not display.
+```
+
+---
+
+## §9 — SEAL VERIFICATION
+
+`shasum -a 256 -c` run from each artifact's own directory. **Both sidecar forms
+probed for every file** (`<stem>.md.seal.sha256` and the bare `<stem>.seal.sha256`).
+
+```text
+SIDECAR-TRAP CENSUS (probed, not assumed):
+  workspace  bare-stem-only sidecars ........ 141
+  cleanroom  bare-stem-only sidecars ........ 141
+                                             ----
+  TOTAL ...................................... 282   <- matches the
+                                                        commission's figure
+```
+
+```text
+LOAD-BEARING FILES SEALED AND VERIFIED ............ 12 / 12 OK
+
+  BOUNDARY_RECORD_ONSET_SATURATION_ACTION_GATE_V003.md   OK  [bare form]
+  FUNDAMENTAL_BOUNDARY_RECORD_ACTION_PRINCIPLE_V002.md   OK  [bare form]
+  CAUSAL_DIRECT_LIMIT_RECORD_PRINCIPLE_V002.md           OK  [bare form]
+  CAUSAL_DIRECT_LIMIT_COVECTOR_RAY_LIFT_SPEC_V001.md     OK  [bare form]
+  CAUSAL_DIRECT_LIMIT_REDUNDANT_RECORD_SPEC_V001.md      OK  [bare form]
+  STAGE8_STRATIFICATION_O27SR_V001.md                    OK  [.md form]
+  KSTAR_TYPING_DETERMINATION_V001.md                     OK  [.md form]
+  CHAIN_RELEVANCE_MAP_V001.md                            OK  [.md form]
+  STAGE8_SPONTANEOUS_FORMATION_O47SR_V001.md             OK  [.md form]
+  STAGE8_AXN_BUILD_SKELETON_V2_DARIO_V001.md             OK  [.md form]
+  STAGE8_GAMMA_K_FINITE_REVERSIBLE_WRITE_OBS05_TEST_V001.md OK [.md form]
+  STAGE8_JOIN_FRONTIER_O51SR_V001.md                     OK  [.md form]
+
+FILES WITH NO SIDECAR IN EITHER FORM, IN EITHER ROOT ....... 4
+  (these are USED; the substitute check is displayed, not the gap hidden)
+
+  BOUNDARY_RECORD_ONSET_SATURATION_ACTION_GATE_V002.md
+  CAUSAL_DIRECT_LIMIT_RECORD_PRINCIPLE_V001.md
+  FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_RESULT_V001.md
+  BID_FINITE_RECORD_DURABILITY_NO_GO_V001.md
+
+SUBSTITUTE CHECK — CROSS-ROOT BYTE IDENTITY (workspace vs cleanroom):
+  ONSET_..._V002.md          IDENTICAL  5acddf6a26f0fb7e223052037fe8435c4d117140953344a85f1f3fbfe19e9733
+  CDLRP_V001.md              IDENTICAL  625b4ed9c91b28dd15a2884498f980dcbb792c8b9cf9b13a743b2e8ec2bb8953
+  FORK_8_..._RESULT_V001.md  IDENTICAL  f84d5b5e8789e5e336db53265cc87dd25f5efddf1cd9c8931f1e521240125d4a
+  BID_..._NO_GO_V001.md      IDENTICAL  2a13fde30c38bc2670d58ce870c9964527c4591651f5bc504371b26812b97124
+
+  FORK_8 additionally carries a THIRD copy at
+  cleanroom/review_packets/STAGE7_QSPEC_CANDIDATE_V001/ — also
+  f84d5b5e8789e5e336db53265cc87dd25f5efddf1cd9c8931f1e521240125d4a.
+  Three independent copies agree byte for byte.
+
+  AND FORK_8's HASH IS INDEPENDENTLY WITNESSED IN A SEALED FILE:
+  STAGE8_C1_U_OMEGA_TYPED_CODEX2_V001.md:130 carries
+  `FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_RESULT_V001.md`
+  (`f84d5b5e8789e5e336db53265cc87dd25f5efddf1cd9c8931f1e521240125d4a`)
+  — the same hash, recorded by a DIFFERENT, SEAL-VERIFIED artifact.
+  Likewise ONSET_V003 at :131 (`cc113a169dd96c5f374d7af619362ef43a1da2b948840ff37861da3f6786e22c`).
+
+  So the Q2 citation rests on a file whose bytes are corroborated three ways
+  by copy and once by an external sealed witness — but NOT on its own sidecar,
+  because it has none.  Booked as FLAG-3.
+```
+
+---
+
+## §10 — FLAG BLOCK
+
+```text
+FLAG-1  THE READY STATE'S DILATION CONTAINS AN OFF-SCOPE FACTOR.
+        ONSET_V003:23-24 puts `|r>` on "the source, designated record
+        subsystem, and required environment ... one closed Hilbert space."
+        §3.2 row 3 assigns `|r>` CELL-LEVEL by setting the environment
+        factor aside, as the LEVEL SCOPE directs.  IF the environment is
+        load-bearing for onset, row 3 is INDETERMINATE-AT-BYTES.  Nothing
+        else in this artifact depends on row 3.
+
+FLAG-2  A DIMENSION DISCREPANCY BETWEEN SPEC AND RESULT, UNRESOLVED HERE.
+        COVECTOR_LIFT_SPEC:48-49 declares `A_N = tensor_(j=1)^N M_2`.
+        FORK_8:56 reports `R_infinity = inductive_limit tensor_(j=1)^N
+        M_3(C)`.  M_2 vs M_3(C).  The corpus does not reconcile them on
+        either page.  This does NOT affect the Q2 grade — both are
+        cell-indexed matrix algebras and the limit exists either way — but
+        it is a real inconsistency between a frozen spec and its result and
+        is reported rather than smoothed.
+
+FLAG-3  FOUR LOAD-BEARING FILES ARE UNSEALED IN BOTH ROOTS AND BOTH SIDECAR
+        FORMS, INCLUDING THE TWO THAT CARRY THE ANSWER (FORK_8 and NO_GO).
+        Substitute evidence is at §9.  A reader who requires a sidecar for
+        every load-bearing byte should treat Q2's positive half as
+        CORROBORATED-BUT-UNSEALED.  The negative half (the formation gate's
+        two endpoints and formless durability map) rests on ONSET_V003 and
+        AXN_BUILD_SKELETON_V2, both seal-verified.
+
+FLAG-4  THE CORPUS'S WORD "LEVEL" IS FIVE-WAYS AMBIGUOUS (CO-1).  Every
+        assignment in §3 was made from OBJECT TYPING — what the defining
+        sentence says the thing IS — and never from a sentence's use of the
+        word "level".  The two exceptions are the two structural compounds
+        of C-1, which are the corpus's own and are used as such.
+
+FLAG-5  X-1's SCOPE IS NARROW AND THE ARTIFACT DOES NOT WIDEN IT.
+        FORK_8:12-13 "in the ordinary `3+1` flat-asymptotic branch";
+        CDLRP_V002:24-26 "The principle does not currently include
+        arbitrary spacetime-overlapping concurrent cells."  Outside that
+        class the crossing is not claimed and is not claimed here.
+
+FLAG-6  WHETHER X-1's CELLS ARE THE ONSET GATE'S CELL IS
+        INDETERMINATE-AT-BYTES.  See D-5.  The corpus's own distinctness
+        table keeps "causal cell vs common record cell vs Hilbert record
+        factor" apart.  The Q2 grade is stated so as not to depend on the
+        identification.
+
+FLAG-7  "SATURATION IS ADOPTED, NOT DERIVED" (ONSET_V003:107-108).  The onset
+        gate's headline equality `J_FS,rel = pi hbar/2` is conditional on an
+        adopted Level-1 rule.  Only the INEQUALITY is derived (:82-86).
+        Carried because §3.2 rows 8-10 would otherwise read as derived
+        cell-level results.
+
+FLAG-8  NO FENCE WAS APPROACHED.  No magnitude was computed, compared, or
+        estimated.  `pi hbar/2` and `tau_R = pi/sqrt(2)` appear only inside
+        quotations of sealed text, as types and bounds, never evaluated.
+```
+
+---
+
+## §11 — TOY_SEPARATION
+
+```text
+THIS ARTIFACT IS A LEVEL-ASSIGNMENT INSTRUMENT OVER SEALED TEXT.  It opens
+the files it counts, quotes their defining sentences whole, and assigns each
+named object to the cell level, the record level, both, or neither, using
+those sentences and nothing else.
+
+NO TOY IS BUILT AND NO TOY COULD SERVE.  There is no model, no simplified
+stand-in, no illustrative example, no placeholder, no scaled-down record and
+no scaled-down cell anywhere in this artifact.  Every object is named exactly
+as the corpus names it and typed exactly as the corpus types it.
+
+THE ACTUAL SURFACE, NOT A SUBSTITUTE FOR IT:
+  - The crossing at §4 is the corpus's own `R_infinity`, quoted at its own
+    bytes with its own embeddings — not a reconstruction and not an
+    idealization of one.
+  - The absence at §4.2 is the corpus's own count ("3 of 5,512 archive
+    files; form supplied in none"), not this commission's failure to find.
+  - The no-go at §4.2 is the corpus's own theorem about its own operator,
+    with its own recurrence period, not an argument made here.
+  - The three demands at §7 are quoted from the prior commission's own
+    verbatim blocks, with their own LEVEL lines attached.
+
+WHAT THIS ARTIFACT DOES NOT DO:  it does not build the durability map, does
+not propose one, does not port X-1's template to the onset gate, does not
+adopt or advocate any crossing, and does not resolve FLAG-2 or FLAG-6.
+Those are refusals, not omissions.
+```
+
+---
+
+## §12 — RESULT BLOCK
+
+```text
+Q1  ONSET GATE INPUT  "the unique physical record cell"  = CELL-LEVEL
+    ONSET GATE OUTPUT "a durable public record"          = RECORD-LEVEL
+    AND THE GATE DOES NOT DELIVER ITS OUTPUT: ONSET_V003:92
+    "Global orthogonality is not yet a durable public record."
+
+    TALLY (34 objects enumerated):
+      CELL-LEVEL ....................... 18
+      RECORD-LEVEL .....................  5
+      SPANS-BOTH .......................  3   (all three are the one
+                                               direct-limit construction)
+      CELL->CELL (not a crossing) ......  1
+      NAMED-BUT-FORMLESS / ABSENT ......  2
+      NEITHER-OR-OFF-SCOPE .............  5
+
+Q2  *** CROSSING-OBJECT-EXISTS ***
+    CITATION: FORK_8_CAUSAL_DIRECT_LIMIT_PROMOTION_RESULT_V001.md:51-62
+      "The finite record algebras and embeddings define:
+         R_infinity=inductive_limit tensor_(j=1)^N M_3(C)."
+    TYPE: source = cell-indexed finite record algebras with embeddings
+          iota_N(A)=A tensor I; target = quasi-local algebra carrying
+          omega_h and the central sequence, i.e. the durable public
+          record's own stated public content.
+
+    AND, FOR THE FORMATION/ONSET GATE SPECIFICALLY:
+    *** REPRESENTED-ONLY-AS-TWO-ENDPOINTS ***
+    a cell side, a record side, and a named connecting object —
+    "durability map" — whose "form supplied in none" of 5,512 files.
+
+Q3  WHAT A CROSSING MUST PRODUCE (nine properties, each quoted at §5):
+      P-1 durability/irreversibility   P-6 asymptotic centrality
+      P-2 persistence under later cells P-7 sector-hood/superselection
+      P-3 thresholded non-return        P-8 inductive compatibility
+      P-4 recoverability                P-9 orthogonal reduced supports
+      P-5 redundancy                        (STILL FALSE)
+    ADVERSE: "public" does NOT separate the levels — it is predicated of
+    cells too ("the first physically admissible public record cell").
+
+Q4  CENSUS: 13 candidates.  BUILT CELL->RECORD CROSSINGS = 1 (X-1).
+    Failed 1 · named-but-unbuilt 4 · not-crossings 4 ·
+    off-scope third-level target 2 · relation-in-words 1.
+    FLATLY: the two levels touch, as a built object, EXACTLY ONCE — and
+    NOT at formation.  The formation chain crosses them ZERO times.
+
+Q5  W-1  demand NEITHER LEVEL (per-composite / dressed / class of
+         composites) · satisfier NEITHER LEVEL (a topology on composites)
+    W-2  demand AT A CELL THAT IS NOT THIS ONE (an oriented k-cell, typed
+         by its basis cochain delta_e in C_N^k) · satisfier NEITHER LEVEL
+         (the per-composite volume diagonal)
+    W-3  demand NEITHER LEVEL (a form->HS type crossing, four indices at
+         once) · satisfier NEITHER LEVEL
+    ENDPOINTS AT THE RECORD LEVEL: 0 of 6.
+    ENDPOINTS AT THIS COMMISSION'S CELL LEVEL: 0 of 6.
+    THEREFORE: no property of the cell level can ever reach these three
+    demands — not because the crossing is missing, but because the demands
+    do not lie on the cell->record axis at all.  Closing the formation
+    crossing would not move them.
+
+FENCES HELD:  alpha_computed = false · proof_authorized = false ·
+              kappa_record_computed = false
+BARS HELD:    no authoring · no advocacy · no adoption ·
+              no barred file opened or quoted
+```
+
+---
+
+*END OF ARTIFACT — STAGE8_CELL_RECORD_CROSSING_O55SR_V001*
