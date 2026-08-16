@@ -99,3 +99,45 @@ above is traceable to a numbered row.
 Registrar-written on the principal's word. Supervision instrument, never handed to a lane.
 Consumes at their registered grades: Q-1153 through Q-1179 and the Finish B chain.
 It declares nothing and decides nothing; it records a stopping place.
+
+---
+
+## 8. ADDENDUM — TWO ITEMS NOTED AFTER SET-ASIDE (registrar, 2026-08-16, later same day)
+
+### 8.1 A LIVE INACCURACY IN THE SEALED RECORD, NOT YET CORRECTED BY ERRATUM
+
+**Q-1122's headline reads "GRAVITY'S PEN IS A THEOREM OF RECORD, NOT AN OBSERVATION."**
+What that row PROVES is that the closure's clause set Sigma places the quantization class
+require-side and the magnitude allow-side in every model — unconditional over its stated scope,
+audit-confirmed, both AJ residues discharged. **That partition is a theorem. The GRAVITATIONAL
+ATTRIBUTION is not.**
+
+**Q-1119 adjudicated OBS-24 (gravity as the line-drawer) at its pre-fixed conditions and returned
+"NEITHER KILLED NOR CONFIRMED", refining it to two authors named STRUCTURALLY — "the closure's
+structure holds the magnitude pen (RIGID); the fiber bit holds the extent pen (MOVABLE)."
+Neither author is gravity.** Q-1122's second adjudication records the support condition as **MET**
+at the magnitude site — supported, which is not established.
+
+**A reader of the Q-1122 headline alone would take the gravitational attribution as proved, where
+the adjudication of record leaves it open.** "Gravity's pen" is the program's standing label for the
+line-drawer, set by OBS-24. **The mathematics is solid; the gravitational reading is supported and
+never confirmed.** An erratum was offered to the principal on 2026-08-16 and not commissioned;
+writing to the set-aside program reopens activity there, so it is recorded here instead and remains
+available on his word.
+
+### 8.2 WHERE THE SUCCESSOR WORK LANDED
+
+The "Where Atoms Come From" project (`gravacle/where-atoms-come-from`, register W-01..W-06) ran to
+a stop the same day. Its object — a **forced crossing** out of the carrier — **does not exist**;
+six entries establish it from independent directions. Disposition of record:
+**STOP-FALLS-REBUILD**. What survives is one short mathematical note (the per-cell rate is a
+logarithmic Mahler measure) and one methodological result.
+
+**THE FINDING THAT BEARS ON THIS PROGRAM'S OWN PRACTICE, and the reason it is recorded here:**
+five consecutive audit layers each caught the next, **and the rate did not fall**. The mechanism is
+a **shared model lineage** carrying a failure mode invisibly through builder, auditor and refuter.
+The specified remedy — **a lane outside the lineage** — was named in that program and never run.
+The characteristic defect was not insufficient adversarial pressure but **unread sealed
+corrections**: a correction refuting the central theorem sat in the corpus through three
+demolitions. **Any resumption here should read its own sealed corrections before commissioning
+anything.**
